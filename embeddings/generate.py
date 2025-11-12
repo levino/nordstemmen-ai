@@ -22,10 +22,10 @@ from qdrant_client.models import Distance, VectorParams, PointStruct, Filter, Fi
 from tqdm import tqdm
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-# Configure logging
+# Configure logging (only errors and warnings)
 logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
+    level=logging.WARNING,
+    format='%(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
 
@@ -51,7 +51,7 @@ class EmbeddingGenerator:
 
     def __init__(self):
         """Initialize Qdrant client and embedding model."""
-        logger.info("Initializing Embedding Generator...")
+        print("🚀 Initializing Embedding Generator...")
 
         # Validate configuration
         if not QDRANT_URL or not QDRANT_API_KEY:
@@ -64,13 +64,13 @@ class EmbeddingGenerator:
             port=QDRANT_PORT,
             timeout=30,  # Increase timeout for remote server
         )
-        logger.info(f"Connected to Qdrant at {QDRANT_URL}:{QDRANT_PORT}")
+        print(f"✓ Connected to Qdrant")
 
         # Initialize embedding model
-        logger.info(f"Loading embedding model: {EMBEDDING_MODEL}")
+        print(f"📦 Loading model: {EMBEDDING_MODEL}")
         self.model = SentenceTransformer(EMBEDDING_MODEL, trust_remote_code=True)
         self.vector_size = self.model.get_sentence_embedding_dimension()
-        logger.info(f"Model loaded, vector size: {self.vector_size}")
+        print(f"✓ Model loaded ({self.vector_size}D vectors)")
 
         # Initialize text splitter
         self.text_splitter = RecursiveCharacterTextSplitter(
@@ -79,11 +79,10 @@ class EmbeddingGenerator:
             length_function=len,
             separators=["\n\n", "\n", ". ", " ", ""]
         )
-        logger.info(f"Text splitter configured: {CHUNK_SIZE} chars, {CHUNK_OVERLAP} overlap")
 
         # Load metadata
         self.metadata = self._load_metadata()
-        logger.info(f"Loaded metadata for {len(self.metadata)} files")
+        print(f"✓ Loaded metadata for {len(self.metadata)} files\n")
 
         # Ensure collection exists
         self._ensure_collection()
@@ -208,10 +207,7 @@ class EmbeddingGenerator:
 
         # Check if already processed
         if self._is_already_processed(relative_path, file_hash):
-            logger.info(f"⊘ Skipping {filename} (already processed)")
             return
-
-        logger.info(f"📄 Processing {filename}")
 
         # Delete old chunks if file changed
         self._delete_old_chunks(relative_path)
@@ -269,27 +265,30 @@ class EmbeddingGenerator:
                 collection_name=QDRANT_COLLECTION,
                 points=all_points
             )
-            logger.info(f"✓ Uploaded {len(all_points)} chunks for {filename}")
-        else:
-            logger.warning(f"No chunks generated for {filename}")
 
     def process_all(self):
         """Process all PDFs in documents directory."""
-        pdf_files = list(DOCUMENTS_DIR.rglob('*.pdf'))
+        pdf_files = sorted(DOCUMENTS_DIR.rglob('*.pdf'))
 
         if not pdf_files:
-            logger.warning(f"No PDF files found in {DOCUMENTS_DIR}")
+            print(f"⚠ No PDF files found in {DOCUMENTS_DIR}")
             return
 
-        logger.info(f"Found {len(pdf_files)} PDF files")
+        print(f"📁 Found {len(pdf_files)} PDF files\n")
 
-        for pdf_file in tqdm(pdf_files, desc="Processing PDFs"):
-            try:
-                self.process_pdf(pdf_file)
-            except Exception as e:
-                logger.error(f"Error processing {pdf_file.name}: {e}")
+        # Process each PDF with progress bar
+        with tqdm(pdf_files, desc="Processing", unit="file", ncols=100, bar_format='{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}]') as pbar:
+            for pdf_file in pbar:
+                try:
+                    # Update progress bar with current file
+                    filename = pdf_file.name[:60] + '...' if len(pdf_file.name) > 60 else pdf_file.name
+                    pbar.set_postfix_str(filename, refresh=False)
 
-        logger.info("✅ Processing complete!")
+                    self.process_pdf(pdf_file)
+                except Exception as e:
+                    logger.error(f"Error: {pdf_file.name}: {e}")
+
+        print("\n✅ Processing complete!")
 
 
 def main():
