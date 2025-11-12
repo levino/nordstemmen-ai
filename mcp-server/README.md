@@ -13,25 +13,15 @@ Deployed auf Cloudflare Pages unter: `nordstemmen-mcp.levinkeller.de`
 
 ## Deployment via Cloudflare Pages
 
-### 1. GitHub Repository erstellen
-
-```bash
-cd /workspaces/nordstemmen-ai/mcp-server
-git init
-git add .
-git commit -m "Initial commit"
-git remote add origin https://github.com/DEIN_USERNAME/nordstemmen-mcp-server.git
-git push -u origin main
-```
-
-### 2. Cloudflare Pages Projekt erstellen
+### 1. Cloudflare Pages Projekt erstellen
 
 1. Cloudflare Dashboard → Pages → Create a project
-2. Connect to Git → Dein GitHub Repo auswählen
+2. Connect to Git → GitHub Repo auswählen
 3. Build Settings:
    - **Framework preset**: None
    - **Build command**: (leer lassen)
    - **Build output directory**: (leer lassen)
+   - **Root directory**: `mcp-server`
 4. Environment Variables setzen:
    - `QDRANT_URL`: `https://qdrant.levinkeller.de:443`
    - `QDRANT_COLLECTION`: `nordstemmen`
@@ -39,31 +29,11 @@ git push -u origin main
    - `HUGGINGFACE_API_KEY`: (Optional) Dein HuggingFace API Key
 5. Save and Deploy
 
-### 3. Custom Domain hinzufügen
+### 2. Custom Domain hinzufügen
 
 1. Pages Projekt → Custom domains
 2. Add custom domain: `nordstemmen-mcp.levinkeller.de`
 3. DNS Records werden automatisch erstellt
-
-## Lokale Entwicklung
-
-```bash
-npm install
-npm run dev
-```
-
-Server läuft auf `http://localhost:8788`
-
-### Environment Variables für lokale Entwicklung
-
-Erstelle `.dev.vars`:
-
-```
-QDRANT_URL=https://qdrant.levinkeller.de:443
-QDRANT_COLLECTION=nordstemmen
-QDRANT_API_KEY=dein_api_key
-HUGGINGFACE_API_KEY=dein_hf_key  # Optional
-```
 
 ## API Endpoints
 
@@ -164,11 +134,10 @@ Der Server implementiert den MCP Standard (2024-11-05) und kann mit jedem kompat
 
 ```
 mcp-server/
-├── _worker.ts           # Cloudflare Pages Worker (Advanced Mode)
+├── _worker.js           # Cloudflare Pages Worker (Advanced Mode)
 ├── package.json         # Dependencies
-├── tsconfig.json        # TypeScript Config
 ├── .gitignore
-├── .dev.vars           # Lokale Environment Variables (nicht committen!)
+├── .dev.vars.example    # Template für lokale Environment Variables
 └── README.md
 ```
 
