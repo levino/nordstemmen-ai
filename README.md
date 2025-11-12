@@ -1,10 +1,65 @@
 # Nordstemmen Transparent
 
-KI-gestützte semantische Suchmaschine für öffentliche Dokumente der Gemeinde Nordstemmen über Claude (MCP).
+**Durchsuche alle öffentlichen Dokumente der Gemeinde Nordstemmen mit KI-Unterstützung - direkt in Claude!**
 
-## Überblick
+## 🚀 Jetzt sofort nutzen
 
-Dieses Projekt ermöglicht semantische Suche in Dokumenten des Ratsinformationssystems der Gemeinde Nordstemmen direkt über Claude (Web & Desktop) via Model Context Protocol (MCP). Die Architektur besteht aus drei Komponenten:
+Du kannst diese Suchmaschine **sofort kostenlos nutzen**, ohne irgendetwas zu installieren:
+
+### Für Claude Web (Browser)
+
+1. Gehe zu https://claude.ai
+2. Klicke auf dein Profil (unten links) → **Connectors**
+3. Klicke auf **Add Connector** → **HTTP Connector**
+4. Trage ein:
+   - **Name**: Nordstemmen Transparent
+   - **URL**: `https://nordstemmen-mcp.levinkeller.de/mcp`
+5. Speichern
+
+Fertig! Jetzt kannst du Claude fragen:
+- *"Was kostet das neue Schwimmbad in Nordstemmen?"*
+- *"Zeige mir alle Beschlüsse zum Baugebiet Escherder Straße"*
+- *"Wann wurde der Haushalt 2024 beschlossen?"*
+
+Claude durchsucht automatisch alle Dokumente seit 2007 und gibt dir Antworten mit Links zu den Originaldokumenten im Ratsinformationssystem.
+
+### Für Claude Desktop
+
+Falls du die Claude Desktop App nutzt, bearbeite diese Datei:
+
+**macOS/Linux:** `~/Library/Application Support/Claude/claude_desktop_config.json`
+**Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
+
+```json
+{
+  "mcpServers": {
+    "nordstemmen": {
+      "url": "https://nordstemmen-mcp.levinkeller.de/mcp"
+    }
+  }
+}
+```
+
+Claude Desktop neu starten - fertig!
+
+---
+
+## Was ist das?
+
+Dieses Projekt ermöglicht semantische Suche in **allen öffentlichen Dokumenten** des Ratsinformationssystems der Gemeinde Nordstemmen:
+- Sitzungsprotokolle (Gemeinderat, Ortsräte, Ausschüsse)
+- Beschlussvorlagen und Beschlüsse
+- Haushaltspläne und Finanzberichte
+- Bebauungspläne und Planungsunterlagen
+- Bekanntmachungen und Ausschreibungen
+
+**Zeitraum:** Alle Dokumente ab 2007 bis heute (wird automatisch aktualisiert)
+
+Die semantische KI-Suche findet relevante Informationen auch wenn die exakten Suchbegriffe nicht im Text vorkommen.
+
+## Technischer Überblick (für Entwickler)
+
+Das Projekt besteht aus drei Komponenten:
 
 1. **OParl Scraper** - Lädt PDF-Dokumente vom Ratsinformationssystem herunter
 2. **Embedding Generator** - Verarbeitet PDFs lokal und erstellt Vektorembeddings mit Jina AI v3
@@ -264,53 +319,11 @@ Tests umfassen:
 - Einzelne und Batch-Requests
 - Embedding Model Verfügbarkeit (HuggingFace vs. Jina AI)
 
-### 6. Claude Integration (Konnektor)
+### 6. Claude Integration
 
-Der MCP Server ist als **Konnektor** in Claude einbindbar und funktioniert sowohl in **Claude Web** als auch **Claude Desktop**.
+**Der MCP Server ist live unter `https://nordstemmen-mcp.levinkeller.de/mcp`**
 
-**MCP Server URL:**
-```
-https://nordstemmen-mcp.levinkeller.de/mcp
-```
-
-#### Option A: Claude Web (Connector)
-
-1. Gehe zu https://claude.ai
-2. Klicke auf dein Profil (unten links) → **Connectors**
-3. Klicke auf **Add Connector**
-4. Wähle **HTTP Connector**
-5. Trage ein:
-   - **Name**: Nordstemmen Transparent
-   - **URL**: `https://nordstemmen-mcp.levinkeller.de/mcp`
-6. Speichern
-
-#### Option B: Claude Desktop (MCP Config)
-
-Bearbeite deine Claude Desktop Config:
-
-**macOS/Linux:** `~/Library/Application Support/Claude/claude_desktop_config.json`
-**Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
-
-```json
-{
-  "mcpServers": {
-    "nordstemmen": {
-      "url": "https://nordstemmen-mcp.levinkeller.de/mcp"
-    }
-  }
-}
-```
-
-**Claude Desktop neu starten.**
-
-#### Nutzung
-
-Jetzt kannst du Claude fragen:
-- "Was kostet das neue Schwimmbad in Nordstemmen?"
-- "Zeige mir alle Beschlüsse zum Baugebiet Escherder Straße"
-- "Wann wurde der Haushalt 2024 beschlossen?"
-
-Claude nutzt automatisch das `search_documents` Tool und liefert Antworten mit Links zu den Originaldokumenten.
+Die Anleitung zur Einbindung in Claude findest du ganz oben unter [🚀 Jetzt sofort nutzen](#-jetzt-sofort-nutzen).
 
 ## MCP Tool: `search_documents`
 
