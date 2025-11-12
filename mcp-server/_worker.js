@@ -64,17 +64,45 @@ async function searchDocuments(env, args) {
       })
       .then(results => {
         if (!results || results.length === 0) {
-          return 'No relevant documents found.';
+          return {
+            text: 'No relevant documents found.',
+            structured: []
+          };
         }
 
-        return results.map((result, index) => {
+        // Build both text and structured versions
+        const textResults = results.map((result, index) => {
           const payload = result.payload;
-          const filename = payload.filename || 'Unknown';
-          const page = payload.page || '?';
+          const title = payload.name || payload.filename || 'Unknown';
+          const url = payload.access_url || '';
+          const date = payload.date || '';
           const score = result.score?.toFixed(3) || '?';
 
-          return `${index + 1}. [Score: ${score}] ${filename} (Page ${page})\n${payload.text || ''}`;
-        }).join('\n\n');
+          // Markdown with clickable link
+          const titleLink = url ? `[${title}](${url})` : title;
+          const metadata = [date, `Score: ${score}`].filter(Boolean).join(' • ');
+
+          return `${index + 1}. ${titleLink}\n${metadata}\n\n${payload.text || ''}`;
+        }).join('\n\n---\n\n');
+
+        const structuredResults = results.map((result, index) => {
+          const payload = result.payload;
+          return {
+            rank: index + 1,
+            title: payload.name || payload.filename || 'Unknown',
+            url: payload.access_url || null,
+            date: payload.date || null,
+            page: payload.page || null,
+            score: result.score || 0,
+            excerpt: payload.text || '',
+            filename: payload.filename || null
+          };
+        });
+
+        return {
+          text: textResults,
+          structured: structuredResults
+        };
       });
   } catch (error) {
     throw new Error(`Search error: ${error.message}`);
@@ -175,9 +203,12 @@ async function handleMCPRequest(request, env) {
               content: [
                 {
                   type: 'text',
-                  text: searchResult
+                  text: searchResult.text
                 }
-              ]
+              ],
+              structuredContent: {
+                results: searchResult.structured
+              }
             }));
         } else {
           throw new Error(`Unknown tool: ${toolName}`);
