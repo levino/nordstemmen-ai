@@ -107,7 +107,12 @@ nordstemmen-ai/
 ```bash
 git clone https://github.com/yourusername/nordstemmen-ai.git
 cd nordstemmen-ai
+
+# PDFs herunterladen (Git LFS)
+git lfs pull
 ```
+
+**Wichtig:** Die PDF-Dokumente werden via Git LFS verwaltet. Nach dem Clone muss `git lfs pull` ausgeführt werden, um die Dateien tatsächlich herunterzuladen.
 
 ### 2. Umgebungsvariablen konfigurieren
 
@@ -241,7 +246,7 @@ npm install
 3. Wähle dieses GitHub Repository
 4. **Build-Konfiguration:**
    - Framework preset: **None**
-   - Build command: **(leer lassen)**
+   - Build command: **`npm install`**
    - Build output directory: **(leer lassen)**
    - Root directory: `/mcp-server`
 
