@@ -197,8 +197,8 @@ class EmbeddingGenerator:
                 }
         return {}
 
-    def process_pdf(self, filepath: Path):
-        """Process a single PDF file."""
+    def process_pdf(self, filepath: Path) -> bool:
+        """Process a single PDF file. Returns True if skipped, False if processed."""
         filename = filepath.name
         relative_path = str(filepath.relative_to(DOCUMENTS_DIR))
 
@@ -207,7 +207,7 @@ class EmbeddingGenerator:
 
         # Check if already processed
         if self._is_already_processed(relative_path, file_hash):
-            return
+            return True  # Skipped
 
         # Delete old chunks if file changed
         self._delete_old_chunks(relative_path)
@@ -266,6 +266,8 @@ class EmbeddingGenerator:
                 points=all_points
             )
 
+        return False  # Processed
+
     def process_all(self):
         """Process all PDFs in documents directory."""
         pdf_files = sorted(DOCUMENTS_DIR.rglob('*.pdf'))
@@ -277,18 +279,21 @@ class EmbeddingGenerator:
         print(f"📁 Found {len(pdf_files)} PDF files\n")
 
         # Process each PDF with progress bar
-        with tqdm(pdf_files, desc="Processing", unit="file", ncols=100, bar_format='{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}]') as pbar:
+        skipped_count = 0
+        with tqdm(pdf_files, desc="Processing", unit="file", ncols=110, bar_format='{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}]') as pbar:
             for pdf_file in pbar:
                 try:
                     # Update progress bar with current file
                     filename = pdf_file.name[:60] + '...' if len(pdf_file.name) > 60 else pdf_file.name
-                    pbar.set_postfix_str(filename, refresh=False)
+                    pbar.set_postfix_str(f"Skipped: {skipped_count} | {filename}", refresh=False)
 
-                    self.process_pdf(pdf_file)
+                    was_skipped = self.process_pdf(pdf_file)
+                    if was_skipped:
+                        skipped_count += 1
                 except Exception as e:
                     logger.error(f"Error: {pdf_file.name}: {e}")
 
-        print("\n✅ Processing complete!")
+        print(f"\n✅ Processing complete! (Skipped {skipped_count} already processed)")
 
 
 def main():
