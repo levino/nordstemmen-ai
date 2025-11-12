@@ -41,17 +41,27 @@ const saveMetadata = (
 
 /**
  * Truncate filename to fit filesystem limits (200 chars to be safe)
+ * Preserves the OParl ID suffix at the end
  */
 const truncateFilename = (filename: string, maxLength: number = 200): string => {
   if (filename.length <= maxLength) return filename;
 
+  // Extract the OParl ID suffix (format: _12345.pdf)
+  const match = filename.match(/(_\d+)\.pdf$/);
+  const idSuffix = match ? match[1] : '';
   const extension = '.pdf';
-  const maxBaseLength = maxLength - extension.length;
-  return filename.slice(0, maxBaseLength) + extension;
+
+  // Reserve space for ID suffix and extension
+  const reservedLength = idSuffix.length + extension.length;
+  const maxBaseLength = maxLength - reservedLength;
+
+  // Truncate the base but keep the ID suffix
+  return filename.slice(0, maxBaseLength) + idSuffix + extension;
 };
 
 /**
  * Generate filename and year folder from file metadata
+ * Uses OParl ID to ensure uniqueness
  */
 const generateFilePath = (file: OParlFile): { year: string; filename: string } => {
   const datePart = file.date
@@ -72,11 +82,14 @@ const generateFilePath = (file: OParlFile): { year: string; filename: string } =
     ?.replace(/[\/\\:*?"<>|]/g, '_')
     .replace(/\s+/g, '_');
 
+  // Extract unique ID from OParl URL (e.g., "12345" from ".../files/12345")
+  const oparlIdSuffix = file.id.split('/').pop() || 'unknown';
+
   const parts = [datePart?.part, namePart].filter(Boolean);
 
   const filename = parts.length > 0
-    ? `${parts.join('_')}.pdf`
-    : `file_${file.id.split('/').pop() || 'unknown'}.pdf`;
+    ? `${parts.join('_')}_${oparlIdSuffix}.pdf`
+    : `file_${oparlIdSuffix}.pdf`;
 
   return {
     year: datePart?.year || 'unknown',
@@ -97,6 +110,13 @@ const findUniqueFilename = (yearDir: string, baseFilename: string): string => {
 };
 
 /**
+ * Extract short OParl ID from full URL
+ */
+const extractOparlId = (url: string): string => {
+  return url.split('/').pop() || url;
+};
+
+/**
  * Process a single file
  */
 const processFile = (
@@ -104,8 +124,10 @@ const processFile = (
   config: ScraperConfig,
   metadata: Record<string, DocumentMetadata>
 ): Effect.Effect<{ downloaded: boolean; skipped: boolean; error: boolean }, never> => {
+  const oparlId = extractOparlId(file.id);
+
   // Already processed?
-  if (metadata[file.id]) {
+  if (metadata[oparlId]) {
     console.log(`⊘ Skipping: ${file.name || file.id}`);
     return Effect.succeed({ downloaded: false, skipped: true, error: false });
   }
@@ -158,8 +180,8 @@ const processFile = (
                 : pipe(
                     Effect.sync(() => {
                       console.log(`✓ Downloaded: ${relativePath}`);
-                      metadata[file.id] = {
-                        oparl_id: file.id,
+                      metadata[oparlId] = {
+                        oparl_id: oparlId,
                         filename: relativePath,
                         access_url: url,
                         mime_type: file.mimeType,
