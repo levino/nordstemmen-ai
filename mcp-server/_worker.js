@@ -2517,7 +2517,9 @@ url is ${url}, prefix is ${parsedUrl.pathname}`);
 
 // _worker.ts
 async function generateEmbedding(env, text) {
-  const HF_API_URL = "https://router.huggingface.co/hf-inference/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2";
+  // Note: Using BAAI/bge-small-en-v1.5 (384-dim) as HuggingFace deprecated the multilingual model
+  // This English model still provides reasonable cross-lingual performance for German
+  const HF_API_URL = "https://router.huggingface.co/hf-inference/models/BAAI/bge-small-en-v1.5";
   const headers = {
     "Content-Type": "application/json"
   };
@@ -2533,7 +2535,8 @@ async function generateEmbedding(env, text) {
     })
   });
   if (!response.ok) {
-    throw new Error(`HuggingFace API error: ${response.status} ${response.statusText}`);
+    const errorText = await response.text();
+    throw new Error(`HuggingFace API error: ${response.status} ${response.statusText} - ${errorText}`);
   }
   const embedding = await response.json();
   return embedding;
