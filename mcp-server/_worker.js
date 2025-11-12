@@ -2707,6 +2707,52 @@ async function handleMCPRequest(request, env) {
             });
           }
         }
+        if (name === "test_qdrant") {
+          try {
+            const client = new QdrantClient({
+              url: env.QDRANT_URL,
+              apiKey: env.QDRANT_API_KEY
+            });
+            const testEmbedding = Array(384).fill(0).map(() => Math.random() * 0.1);
+            const results = await client.search(env.QDRANT_COLLECTION, {
+              vector: testEmbedding,
+              limit: 1,
+              with_payload: true
+            });
+            return createMCPResponse(id, {
+              content: [
+                {
+                  type: "text",
+                  text: JSON.stringify({
+                    success: true,
+                    resultsCount: results ? results.length : 0,
+                    firstResult: results && results.length > 0 ? {
+                      score: results[0].score,
+                      hasPayload: !!results[0].payload,
+                      filename: results[0].payload?.filename || "N/A"
+                    } : null
+                  }, null, 2)
+                }
+              ]
+            });
+          } catch (error) {
+            return createMCPResponse(id, {
+              content: [
+                {
+                  type: "text",
+                  text: JSON.stringify({
+                    error: true,
+                    name: error.name || "Unknown",
+                    message: error.message || "No message",
+                    toString: error.toString(),
+                    stack: error.stack || "No stack",
+                    constructor: error.constructor ? error.constructor.name : "Unknown"
+                  }, null, 2)
+                }
+              ]
+            });
+          }
+        }
         return createMCPError(id, -32601, `Unknown tool: ${name}`);
       case "ping":
         return createMCPResponse(id, {});
