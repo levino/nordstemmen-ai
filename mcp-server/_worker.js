@@ -2664,7 +2664,7 @@ async function handleMCPRequest(request, env) {
               {
                 type: "text",
                 text: JSON.stringify({
-                  QDRANT_URL: env.QDRANT_URL ? "SET" : "MISSING",
+                  QDRANT_URL: env.QDRANT_URL || "MISSING",
                   QDRANT_API_KEY: env.QDRANT_API_KEY ? "SET (length: " + env.QDRANT_API_KEY.length + ")" : "MISSING",
                   QDRANT_COLLECTION: env.QDRANT_COLLECTION ? env.QDRANT_COLLECTION : "MISSING",
                   HUGGINGFACE_API_KEY: env.HUGGINGFACE_API_KEY ? "SET (length: " + env.HUGGINGFACE_API_KEY.length + ")" : "MISSING"
