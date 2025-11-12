@@ -2658,6 +2658,21 @@ async function handleMCPRequest(request, env) {
             ]
           });
         }
+        if (name === "debug_env") {
+          return createMCPResponse(id, {
+            content: [
+              {
+                type: "text",
+                text: JSON.stringify({
+                  QDRANT_URL: env.QDRANT_URL ? "SET" : "MISSING",
+                  QDRANT_API_KEY: env.QDRANT_API_KEY ? "SET (length: " + env.QDRANT_API_KEY.length + ")" : "MISSING",
+                  QDRANT_COLLECTION: env.QDRANT_COLLECTION ? env.QDRANT_COLLECTION : "MISSING",
+                  HUGGINGFACE_API_KEY: env.HUGGINGFACE_API_KEY ? "SET (length: " + env.HUGGINGFACE_API_KEY.length + ")" : "MISSING"
+                }, null, 2)
+              }
+            ]
+          });
+        }
         return createMCPError(id, -32601, `Unknown tool: ${name}`);
       case "ping":
         return createMCPResponse(id, {});
