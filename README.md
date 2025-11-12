@@ -1,23 +1,23 @@
 # Nordstemmen Transparent
 
-KI-gestützte semantische Suchmaschine für öffentliche Dokumente der Gemeinde Nordstemmen über Claude Desktop (MCP).
+KI-gestützte semantische Suchmaschine für öffentliche Dokumente der Gemeinde Nordstemmen über Claude (MCP).
 
 ## Überblick
 
-Dieses Projekt ermöglicht semantische Suche in Dokumenten des Ratsinformationssystems der Gemeinde Nordstemmen direkt über Claude Desktop via Model Context Protocol (MCP). Die Architektur besteht aus drei Komponenten:
+Dieses Projekt ermöglicht semantische Suche in Dokumenten des Ratsinformationssystems der Gemeinde Nordstemmen direkt über Claude (Web & Desktop) via Model Context Protocol (MCP). Die Architektur besteht aus drei Komponenten:
 
 1. **OParl Scraper** - Lädt PDF-Dokumente vom Ratsinformationssystem herunter
 2. **Embedding Generator** - Verarbeitet PDFs lokal und erstellt Vektorembeddings mit Jina AI v3
-3. **MCP Server** - Cloudflare Pages Function für semantische Suche via Claude Desktop
+3. **MCP Server** - Cloudflare Pages Function für semantische Suche via Claude (Web & Desktop)
 
 ## Architektur
 
 ```
 ┌─────────────────┐
-│  Claude Desktop │
-│      (User)     │
+│     Claude      │
+│  (Web/Desktop)  │
 └────────┬────────┘
-         │ MCP Protocol
+         │ MCP Protocol (Connector)
          ▼
 ┌─────────────────┐
 │   MCP Server    │
@@ -100,7 +100,7 @@ nordstemmen-ai/
 - **Node.js 18+** (für Scraper und MCP Server)
 - **Qdrant Cloud Instanz** oder selbst deployed
 - **Jina AI API Key** (kostenlos bei https://jina.ai)
-- **Claude Desktop** (für MCP Integration)
+- **Claude Account** (Web oder Desktop App für MCP Integration)
 
 ### 1. Repository klonen
 
@@ -257,10 +257,12 @@ npm install
 
 6. Deploy!
 
-**Deine MCP Server URL:**
+**Beispiel-URL (kann mit Custom Domain angepasst werden):**
 ```
-https://nordstemmen-mcp-server.pages.dev
+https://nordstemmen-mcp.levinkeller.de
 ```
+
+Für dieses Projekt: `https://nordstemmen-mcp.levinkeller.de/mcp`
 
 #### Lokales Testen
 
@@ -273,9 +275,27 @@ Tests umfassen:
 - Einzelne und Batch-Requests
 - Embedding Model Verfügbarkeit (HuggingFace vs. Jina AI)
 
-### 6. Claude Desktop Integration
+### 6. Claude Integration (Konnektor)
 
-**MCP Server zu Claude Desktop hinzufügen:**
+Der MCP Server ist als **Konnektor** in Claude einbindbar und funktioniert sowohl in **Claude Web** als auch **Claude Desktop**.
+
+**MCP Server URL:**
+```
+https://nordstemmen-mcp.levinkeller.de/mcp
+```
+
+#### Option A: Claude Web (Connector)
+
+1. Gehe zu https://claude.ai
+2. Klicke auf dein Profil (unten links) → **Connectors**
+3. Klicke auf **Add Connector**
+4. Wähle **HTTP Connector**
+5. Trage ein:
+   - **Name**: Nordstemmen Transparent
+   - **URL**: `https://nordstemmen-mcp.levinkeller.de/mcp`
+6. Speichern
+
+#### Option B: Claude Desktop (MCP Config)
 
 Bearbeite deine Claude Desktop Config:
 
@@ -286,13 +306,15 @@ Bearbeite deine Claude Desktop Config:
 {
   "mcpServers": {
     "nordstemmen": {
-      "url": "https://nordstemmen-mcp-server.pages.dev/mcp"
+      "url": "https://nordstemmen-mcp.levinkeller.de/mcp"
     }
   }
 }
 ```
 
 **Claude Desktop neu starten.**
+
+#### Nutzung
 
 Jetzt kannst du Claude fragen:
 - "Was kostet das neue Schwimmbad in Nordstemmen?"
@@ -567,16 +589,23 @@ curl https://api.jina.ai/v1/embeddings \
   -d '{"model":"jina-embeddings-v3","input":["test"]}'
 ```
 
-**Problem:** Claude Desktop findet MCP Server nicht
+**Problem:** Claude findet MCP Server nicht
 ```bash
-# Check config location
-cat ~/Library/Application\ Support/Claude/claude_desktop_config.json
+# Check URL erreichbar
+curl https://nordstemmen-mcp.levinkeller.de/
 
-# Check URL
-curl https://nordstemmen-mcp-server.pages.dev/
+# Test MCP endpoint
+curl -X POST https://nordstemmen-mcp.levinkeller.de/mcp \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"tools/list","id":1}'
 
 # Check logs in Cloudflare Dashboard
-# Pages → nordstemmen-mcp-server → View logs
+# Pages → nordstemmen-mcp → View logs
+
+# Claude Desktop: Check config location
+cat ~/Library/Application\ Support/Claude/claude_desktop_config.json
+
+# Claude Web: Check in Profile → Connectors
 ```
 
 ## Support & Beitragen
