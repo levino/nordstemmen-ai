@@ -2517,7 +2517,7 @@ url is ${url}, prefix is ${parsedUrl.pathname}`);
 
 // _worker.ts
 async function generateEmbedding(env, text) {
-  const HF_API_URL = "https://api-inference.huggingface.co/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2";
+  const HF_API_URL = "https://router.huggingface.co/hf-inference/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2";
   const headers = {
     "Content-Type": "application/json"
   };
