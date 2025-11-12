@@ -12,46 +12,30 @@ Dieses Projekt ermöglicht semantische Suche in Dokumenten des Ratsinformationss
 
 ## Architektur
 
-```
-┌─────────────────┐
-│     Claude      │
-│  (Web/Desktop)  │
-└────────┬────────┘
-         │ MCP Protocol (Connector)
-         ▼
-┌─────────────────┐
-│   MCP Server    │
-│ (Cloudflare     │
-│    Pages)       │
-└────────┬────────┘
-         │ Jina API (queries)
-         │ Qdrant (search)
-         ▼
-┌─────────────────┐
-│     Qdrant      │
-│  Vector Store   │
-│   (Cloud VPS)   │
-└─────────────────┘
-         ▲
-         │ Embeddings upload
-         │
-┌─────────────────┐
-│    Embedding    │
-│    Generator    │
-│  (Local/Mac)    │
-└────────┬────────┘
-         │ Jina v3 local
-         ▼
-┌─────────────────┐
-│   Documents     │
-│   (PDF Files)   │
-└─────────────────┘
-         ▲
-         │
-┌─────────────────┐
-│  OParl Scraper  │
-│  (TypeScript)   │
-└─────────────────┘
+```mermaid
+graph TB
+    User[Claude Web/Desktop<br/>User]
+    MCP[MCP Server<br/>Cloudflare Pages]
+    Qdrant[(Qdrant<br/>Vector Store<br/>Cloud VPS)]
+    Embeddings[Embedding Generator<br/>Local/Mac]
+    Docs[Documents<br/>PDF Files]
+    Scraper[OParl Scraper<br/>TypeScript]
+    Jina[Jina AI API]
+
+    User -->|MCP Protocol<br/>Connector| MCP
+    MCP -->|Query Embeddings| Jina
+    MCP -->|Vector Search| Qdrant
+    Embeddings -->|Upload Embeddings| Qdrant
+    Embeddings -->|Jina v3 Local<br/>1024D Vectors| Docs
+    Scraper -->|Download PDFs<br/>+ Metadata| Docs
+
+    style User fill:#e1f5ff
+    style MCP fill:#fff4e1
+    style Qdrant fill:#e8f5e9
+    style Embeddings fill:#f3e5f5
+    style Docs fill:#fce4ec
+    style Scraper fill:#e0f2f1
+    style Jina fill:#fff9c4
 ```
 
 ### Warum Hybrid-Ansatz?
