@@ -94,6 +94,40 @@ async function testEmbedding(env, args) {
 }
 
 // ============================================================================
+// Error Handling
+// ============================================================================
+
+function sanitizeError(error, env) {
+  // In production, hide sensitive details
+  const isProduction = env.ENVIRONMENT === 'production' || !env.ENVIRONMENT;
+
+  if (!isProduction) {
+    // Development: return full error
+    return error.message;
+  }
+
+  // Production: sanitize errors
+  const message = error.message.toLowerCase();
+
+  // Map specific errors to user-friendly messages
+  if (message.includes('api') || message.includes('jina') || message.includes('huggingface')) {
+    return 'Service temporarily unavailable';
+  }
+  if (message.includes('auth') || message.includes('401') || message.includes('403')) {
+    return 'Authentication failed';
+  }
+  if (message.includes('not found') || message.includes('404')) {
+    return 'Resource not found';
+  }
+  if (message.includes('timeout')) {
+    return 'Request timeout';
+  }
+
+  // Default generic message
+  return 'Operation failed';
+}
+
+// ============================================================================
 // MCP Protocol Handler
 // ============================================================================
 
@@ -193,12 +227,15 @@ async function handleMCPRequest(request, env) {
       result
     };
   } catch (error) {
+    // Log full error for debugging
+    console.error('MCP Request error:', error.message);
+
     return {
       jsonrpc: '2.0',
       id,
       error: {
         code: -32601,
-        message: error.message
+        message: sanitizeError(error, env)
       }
     };
   }
