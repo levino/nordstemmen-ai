@@ -1,0 +1,7 @@
+# Qdrant Configuration
+QDRANT_URL=https://qdrant.levinkeller.de:443
+QDRANT_COLLECTION=nordstemmen
+QDRANT_API_KEY=your_qdrant_api_key_here
+
+# HuggingFace API Key (optional, für bessere Rate Limits)
+HUGGINGFACE_API_KEY=your_huggingface_api_key_here

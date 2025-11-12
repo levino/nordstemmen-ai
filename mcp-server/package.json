@@ -1,0 +1,22 @@
+{
+  "name": "nordstemmen-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for Nordstemmen documents via Qdrant",
+  "main": "_worker.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler pages dev . --compatibility-date=2024-11-12",
+    "build": "tsc --noEmit"
+  },
+  "keywords": ["mcp", "qdrant", "nordstemmen", "cloudflare-pages"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@qdrant/js-client-rest": "^1.12.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241127.0",
+    "typescript": "^5.7.2",
+    "wrangler": "^3.91.0"
+  }
+}

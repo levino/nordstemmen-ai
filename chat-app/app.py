@@ -54,10 +54,16 @@ with st.sidebar:
     st.subheader("Suche")
     search_limit = st.slider(
         "Anzahl Suchergebnisse",
-        min_value=1,
-        max_value=10,
-        value=5,
-        help="Wie viele Dokumente sollen durchsucht werden?"
+        min_value=3,
+        max_value=20,
+        value=10,
+        help="Wie viele Dokument-Chunks sollen durchsucht werden?"
+    )
+
+    expand_context = st.checkbox(
+        "Erweiterten Kontext laden",
+        value=True,
+        help="Lädt benachbarte Chunks für mehr Zusammenhang"
     )
 
     st.divider()
@@ -85,7 +91,42 @@ def get_qdrant_client(url, api_key):
         timeout=30,
     )
 
-def search_qdrant(query: str, client: QdrantClient, model: SentenceTransformer, collection: str, limit: int):
+def get_surrounding_chunks(client: QdrantClient, collection: str, filename: str, page: int, chunk_index: int, context_window: int = 1):
+    """Get surrounding chunks for more context"""
+    try:
+        from qdrant_client.models import Filter, FieldCondition, MatchValue, Range
+
+        chunks = []
+        # Get chunks before and after
+        for offset in range(-context_window, context_window + 1):
+            if offset == 0:  # Skip the original chunk
+                continue
+
+            target_chunk = chunk_index + offset
+            if target_chunk < 0:  # Don't go below 0
+                continue
+
+            results = client.scroll(
+                collection_name=collection,
+                scroll_filter=Filter(
+                    must=[
+                        FieldCondition(key="filename", match=MatchValue(value=filename)),
+                        FieldCondition(key="page", match=MatchValue(value=page)),
+                        FieldCondition(key="chunk_index", match=MatchValue(value=target_chunk))
+                    ]
+                ),
+                limit=1,
+                with_payload=True
+            )
+
+            if results[0]:
+                chunks.append(results[0][0])
+
+        return chunks
+    except Exception as e:
+        return []
+
+def search_qdrant(query: str, client: QdrantClient, model: SentenceTransformer, collection: str, limit: int, expand_context: bool = False):
     """Search Qdrant for relevant documents"""
     try:
         # Generate embedding for query
@@ -99,58 +140,218 @@ def search_qdrant(query: str, client: QdrantClient, model: SentenceTransformer, 
             with_payload=True,
         )
 
+        # Optionally expand with surrounding chunks
+        if expand_context and results:
+            from qdrant_client.models import ScoredPoint
+            expanded_results = []
+            seen_chunks = set()
+
+            for result in results:
+                # Add original chunk
+                chunk_key = (result.payload['filename'], result.payload['page'], result.payload['chunk_index'])
+                if chunk_key not in seen_chunks:
+                    expanded_results.append(result)
+                    seen_chunks.add(chunk_key)
+
+                # Get surrounding chunks
+                surrounding = get_surrounding_chunks(
+                    client,
+                    collection,
+                    result.payload['filename'],
+                    result.payload['page'],
+                    result.payload['chunk_index'],
+                    context_window=1  # 1 chunk before and after
+                )
+
+                for chunk in surrounding:
+                    chunk_key = (chunk.payload['filename'], chunk.payload['page'], chunk.payload['chunk_index'])
+                    if chunk_key not in seen_chunks:
+                        # Convert Record to ScoredPoint with score 0 (context chunks)
+                        scored_chunk = ScoredPoint(
+                            id=chunk.id,
+                            version=chunk.version if hasattr(chunk, 'version') else 0,
+                            score=0.0,  # Context chunks get score 0
+                            payload=chunk.payload,
+                            vector=None
+                        )
+                        expanded_results.append(scored_chunk)
+                        seen_chunks.add(chunk_key)
+
+            return expanded_results
+
         return results
     except Exception as e:
         st.error(f"Fehler bei der Qdrant-Suche: {e}")
         return []
 
-def query_claude(question: str, context_chunks: list, api_key: str):
-    """Query Claude with context from Qdrant"""
+def query_claude_agentic(question: str, qdrant_client: QdrantClient, embedding_model: SentenceTransformer,
+                         collection: str, api_key: str, expand_context: bool = False, conversation_history: list = None):
+    """Query Claude with agentic RAG - Claude controls the search"""
     try:
         client = Anthropic(api_key=api_key)
 
-        # Build context from search results
-        context = "\n\n".join([
-            f"**Dokument: {chunk.payload.get('filename', 'Unbekannt')}** (Seite {chunk.payload.get('page', '?')})\n{chunk.payload.get('text', '')}"
-            for chunk in context_chunks
-        ])
+        # Define the search tool for Claude
+        tools = [
+            {
+                "name": "search_documents",
+                "description": "Durchsucht die Dokumenten-Datenbank der Gemeinde Nordstemmen nach relevanten Informationen. "
+                              "Verwende verschiedene Suchbegriffe und Formulierungen, um alle relevanten Dokumente zu finden. "
+                              "Du kannst diese Funktion mehrmals mit unterschiedlichen Suchbegriffen aufrufen.",
+                "input_schema": {
+                    "type": "object",
+                    "properties": {
+                        "query": {
+                            "type": "string",
+                            "description": "Der Suchbegriff oder die Suchanfrage. Sei spezifisch und verwende relevante Keywords."
+                        },
+                        "limit": {
+                            "type": "integer",
+                            "description": "Anzahl der Ergebnisse (Standard: 5, Maximum: 10)",
+                            "default": 5
+                        }
+                    },
+                    "required": ["query"]
+                }
+            }
+        ]
 
-        # Create prompt
         system_prompt = """Du bist ein hilfreicher Assistent für die Gemeinde Nordstemmen.
-Du beantwortest Fragen basierend auf den bereitgestellten Dokumenten aus Gemeinderatssitzungen, Beschlussvorlagen und anderen offiziellen Dokumenten.
+Du hast Zugriff auf eine Dokumenten-Datenbank mit Gemeinderatssitzungen, Beschlussvorlagen und anderen offiziellen Dokumenten.
 
-Wichtig:
-- Antworte nur basierend auf den bereitgestellten Dokumenten
-- Wenn du die Antwort nicht in den Dokumenten findest, sage das klar
+WICHTIG - Deine Vorgehensweise:
+1. Analysiere die Frage des Nutzers gründlich
+2. Überlege dir, welche Suchbegriffe und Keywords relevant sein könnten
+3. Nutze das search_documents Tool MEHRMALS mit verschiedenen Suchbegriffen:
+   - Verwende spezifische Begriffe aus der Frage
+   - Versuche auch Synonyme und verwandte Begriffe
+   - Suche nach verschiedenen Aspekten der Frage
+4. Analysiere die gefundenen Dokumente
+5. Wenn nötig, suche nochmal mit anderen Begriffen
+6. Erst wenn du genügend relevante Informationen hast, formuliere deine Antwort
+
+Bei der Antwort:
+- Zitiere konkrete Textstellen aus den Dokumenten
 - Gib immer die Quelle an (Dateiname und Seite)
+- Sei ausführlich und detailliert
+- Wenn du nicht genug Informationen findest, sage das klar
 - Antworte auf Deutsch
 """
 
-        user_prompt = f"""Hier sind relevante Dokumente aus der Gemeinde Nordstemmen:
+        # Build messages from conversation history
+        messages = []
+        if conversation_history:
+            for msg in conversation_history:
+                # Only include role and content, not sources
+                messages.append({
+                    "role": msg["role"],
+                    "content": msg["content"]
+                })
 
-{context}
+        # Add current question
+        messages.append({"role": "user", "content": question})
 
----
+        search_count = 0
+        all_sources = []
+        max_iterations = 5  # Verhindere Endlosschleifen
 
-Frage: {question}
+        # Agentic loop: Claude kann mehrmals suchen
+        for iteration in range(max_iterations):
+            response = client.messages.create(
+                model="claude-sonnet-4-5-20250929",
+                max_tokens=4000,
+                temperature=0,
+                system=system_prompt,
+                tools=tools,
+                messages=messages
+            )
 
-Bitte beantworte die Frage basierend auf den obigen Dokumenten. Gib die Quellen an."""
+            # Prüfe ob Claude fertig ist
+            if response.stop_reason == "end_turn":
+                # Claude hat seine finale Antwort gegeben
+                for block in response.content:
+                    if hasattr(block, 'text'):
+                        return block.text, all_sources
+                break
 
-        # Call Claude API
-        message = client.messages.create(
-            model="claude-sonnet-4-5-20250929",
-            max_tokens=2000,
-            temperature=0,
-            system=system_prompt,
-            messages=[
-                {"role": "user", "content": user_prompt}
-            ]
-        )
+            # Claude will ein Tool benutzen
+            if response.stop_reason == "tool_use":
+                # Füge Claude's Response zu messages hinzu
+                messages.append({"role": "assistant", "content": response.content})
 
-        return message.content[0].text
+                # Process tool calls
+                tool_results = []
+                for block in response.content:
+                    if block.type == "tool_use":
+                        search_count += 1
+                        tool_name = block.name
+                        tool_input = block.input
+
+                        if tool_name == "search_documents":
+                            search_query = tool_input.get("query", "")
+                            limit = min(tool_input.get("limit", 5), 10)
+
+                            # Show status to user
+                            st.info(f"🔍 Claude sucht: '{search_query}' (Suche #{search_count})")
+
+                            # Perform search
+                            results = search_qdrant(
+                                search_query,
+                                qdrant_client,
+                                embedding_model,
+                                collection,
+                                limit,
+                                expand_context
+                            )
+
+                            # Format results for Claude
+                            results_text = []
+                            for i, result in enumerate(results, 1):
+                                filename = result.payload.get('filename', 'Unbekannt')
+                                page = result.payload.get('page', '?')
+                                text = result.payload.get('text', '')
+                                # Handle both ScoredPoint and Record objects
+                                score = getattr(result, 'score', 0.0)
+                                results_text.append(
+                                    f"[Ergebnis {i}] {filename} (Seite {page}, Relevanz: {score:.3f}):\n{text}"
+                                )
+
+                                # Track sources for display
+                                source_info = {
+                                    "filename": filename,
+                                    "page": page,
+                                    "text": text,
+                                    "score": score,
+                                    "access_url": result.payload.get("access_url"),
+                                    "oparl_id": result.payload.get("oparl_id")
+                                }
+                                if source_info not in all_sources:
+                                    all_sources.append(source_info)
+
+                            if not results_text:
+                                results_text.append("Keine relevanten Dokumente gefunden.")
+
+                            tool_result = {
+                                "type": "tool_result",
+                                "tool_use_id": block.id,
+                                "content": "\n\n---\n\n".join(results_text)
+                            }
+                            tool_results.append(tool_result)
+
+                # Add tool results to messages
+                messages.append({"role": "user", "content": tool_results})
+
+            else:
+                # Unexpected stop reason
+                return "Unerwarteter Fehler bei der Verarbeitung.", all_sources
+
+        # Fallback if max iterations reached
+        return "Maximale Anzahl an Suchvorgängen erreicht. Bitte stelle eine spezifischere Frage.", all_sources
 
     except Exception as e:
-        return f"Fehler bei der Claude-Abfrage: {e}"
+        st.error(f"Fehler: {e}")
+        import traceback
+        st.error(traceback.format_exc())
+        return f"Fehler bei der Abfrage: {e}", []
 
 # Main UI
 st.title("💬 Nordstemmen Chat")
@@ -206,54 +407,37 @@ if prompt := st.chat_input("Stelle eine Frage..."):
     with st.chat_message("user"):
         st.markdown(prompt)
 
-    # Search Qdrant and query Claude
+    # Agentic RAG: Claude controls the search
     with st.chat_message("assistant"):
-        with st.spinner("Suche in den Dokumenten..."):
-            search_results = search_qdrant(
+        with st.spinner("Claude analysiert die Frage..."):
+            response, sources = query_claude_agentic(
                 prompt,
                 qdrant_client,
                 embedding_model,
                 qdrant_collection,
-                search_limit
+                anthropic_api_key,
+                expand_context,
+                conversation_history=st.session_state.messages
             )
 
-        if not search_results:
-            response = "Ich konnte keine relevanten Dokumente finden."
-            st.markdown(response)
-        else:
-            with st.spinner("Generiere Antwort..."):
-                response = query_claude(prompt, search_results, anthropic_api_key)
+        st.markdown(response)
 
-            st.markdown(response)
-
-            # Prepare sources
-            sources = [
-                {
-                    "filename": result.payload.get("filename", "Unbekannt"),
-                    "page": result.payload.get("page", "?"),
-                    "text": result.payload.get("text", ""),
-                    "score": result.score,
-                    "access_url": result.payload.get("access_url", None),
-                    "oparl_id": result.payload.get("oparl_id", None)
-                }
-                for result in search_results
-            ]
-
-            # Show sources
-            with st.expander("📚 Quellen anzeigen"):
+        # Show sources if any were found
+        if sources:
+            with st.expander(f"📚 Quellen anzeigen ({len(sources)} Dokumente)"):
                 for i, source in enumerate(sources, 1):
                     filename_display = source['filename']
-                    if source['access_url']:
+                    if source.get('access_url'):
                         filename_display = f"[{source['filename']}]({source['access_url']})"
 
                     st.markdown(f"""
-**{i}. {filename_display}** (Seite {source['page']}, Score: {source['score']:.3f})
+**{i}. {filename_display}** (Seite {source['page']}, Relevanz: {source['score']:.3f})
 > {source['text'][:200]}...
                     """)
 
-            # Add assistant message with sources
-            st.session_state.messages.append({
-                "role": "assistant",
-                "content": response,
-                "sources": sources
-            })
+        # Add assistant message with sources
+        st.session_state.messages.append({
+            "role": "assistant",
+            "content": response,
+            "sources": sources
+        })
