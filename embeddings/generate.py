@@ -20,6 +20,7 @@ from sentence_transformers import SentenceTransformer
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams, PointStruct, Filter, FieldCondition, MatchValue
 from tqdm import tqdm
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # Configure logging
 logging.basicConfig(
@@ -34,14 +35,15 @@ load_dotenv(Path(__file__).parent.parent / '.env')
 # Configuration
 QDRANT_URL = os.getenv('QDRANT_URL')
 QDRANT_API_KEY = os.getenv('QDRANT_API_KEY')
+QDRANT_PORT = int(os.getenv('QDRANT_PORT', 443))
 QDRANT_COLLECTION = os.getenv('QDRANT_COLLECTION', 'nordstemmen')
 DOCUMENTS_DIR = Path(__file__).parent.parent / 'documents'
 METADATA_FILE = DOCUMENTS_DIR / 'metadata.json'
 
 # Embedding model configuration
-EMBEDDING_MODEL = 'paraphrase-multilingual-MiniLM-L12-v2'
-CHUNK_SIZE = 500
-CHUNK_OVERLAP = 50
+EMBEDDING_MODEL = 'jinaai/jina-embeddings-v3'
+CHUNK_SIZE = 1000
+CHUNK_OVERLAP = 200
 
 
 class EmbeddingGenerator:
@@ -59,15 +61,25 @@ class EmbeddingGenerator:
         self.client = QdrantClient(
             url=QDRANT_URL,
             api_key=QDRANT_API_KEY,
+            port=QDRANT_PORT,
             timeout=30,  # Increase timeout for remote server
         )
-        logger.info(f"Connected to Qdrant at {QDRANT_URL}")
+        logger.info(f"Connected to Qdrant at {QDRANT_URL}:{QDRANT_PORT}")
 
         # Initialize embedding model
         logger.info(f"Loading embedding model: {EMBEDDING_MODEL}")
-        self.model = SentenceTransformer(EMBEDDING_MODEL)
+        self.model = SentenceTransformer(EMBEDDING_MODEL, trust_remote_code=True)
         self.vector_size = self.model.get_sentence_embedding_dimension()
         logger.info(f"Model loaded, vector size: {self.vector_size}")
+
+        # Initialize text splitter
+        self.text_splitter = RecursiveCharacterTextSplitter(
+            chunk_size=CHUNK_SIZE,
+            chunk_overlap=CHUNK_OVERLAP,
+            length_function=len,
+            separators=["\n\n", "\n", ". ", " ", ""]
+        )
+        logger.info(f"Text splitter configured: {CHUNK_SIZE} chars, {CHUNK_OVERLAP} overlap")
 
         # Load metadata
         self.metadata = self._load_metadata()
@@ -168,31 +180,9 @@ class EmbeddingGenerator:
             return []
 
     def _chunk_text(self, text: str) -> List[str]:
-        """Split text into overlapping chunks."""
-        if len(text) <= CHUNK_SIZE:
-            return [text]
-
-        chunks = []
-        start = 0
-
-        while start < len(text):
-            end = start + CHUNK_SIZE
-            chunk = text[start:end]
-
-            # Try to break at sentence boundary
-            if end < len(text):
-                last_period = chunk.rfind('.')
-                last_newline = chunk.rfind('\n')
-                break_point = max(last_period, last_newline)
-
-                if break_point > CHUNK_SIZE // 2:
-                    chunk = chunk[:break_point + 1]
-                    end = start + break_point + 1
-
-            chunks.append(chunk.strip())
-            start = end - CHUNK_OVERLAP
-
-        return chunks
+        """Split text into overlapping chunks using LangChain."""
+        chunks = self.text_splitter.split_text(text)
+        return [c.strip() for c in chunks if c.strip()]
 
     def _get_metadata_for_file(self, filename: str) -> Dict:
         """Get OParl metadata for a file."""
@@ -246,8 +236,11 @@ class EmbeddingGenerator:
                 if not chunk_text.strip():
                     continue
 
-                # Generate embedding
-                embedding = self.model.encode(chunk_text).tolist()
+                # Generate embedding (use retrieval.passage task for documents)
+                embedding = self.model.encode(
+                    chunk_text,
+                    task='retrieval.passage'
+                ).tolist()
 
                 # Create deterministic UUID for this chunk
                 chunk_id_string = f"{file_hash}_{page_num}_{chunk_idx}"

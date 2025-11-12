@@ -12,29 +12,32 @@ app.use('/*', cors());
 // ============================================================================
 
 async function generateEmbedding(env, text) {
-  return fetch(
-    'https://router.huggingface.co/hf-inference/models/BAAI/bge-small-en-v1.5',
-    {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${env.HUGGINGFACE_API_KEY}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ inputs: text }),
-    }
-  ).then(response => {
-    if (!response.ok) {
-      return response.text().then(errorBody => {
-        throw new Error(`HuggingFace API error: ${response.status} ${response.statusText} - ${errorBody}`);
-      });
-    }
-    return response.json();
-  }).then(data => {
-    if (Array.isArray(data)) {
-      return data;
-    }
-    throw new Error(`Unexpected HuggingFace response format: ${JSON.stringify(data)}`);
-  });
+  return fetch('https://api.jina.ai/v1/embeddings', {
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${env.JINA_API_KEY}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      model: 'jina-embeddings-v3',
+      input: [text],
+      task: 'retrieval.query',
+    }),
+  })
+    .then(response => {
+      if (!response.ok) {
+        return response.text().then(errorBody => {
+          throw new Error(`Jina API error: ${response.status} ${response.statusText} - ${errorBody}`);
+        });
+      }
+      return response.json();
+    })
+    .then(data => {
+      if (data.data && data.data[0] && data.data[0].embedding) {
+        return data.data[0].embedding;
+      }
+      throw new Error(`Unexpected Jina API response format: ${JSON.stringify(data)}`);
+    });
 }
 
 // ============================================================================

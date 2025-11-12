@@ -15,7 +15,7 @@ describe('MCP Worker', () => {
     expect(data.name).toBe('nordstemmen-mcp-server');
   });
 
-  it('should handle test_embedding tool call', async () => {
+  it('should handle single search_documents call', async () => {
     const request = new IncomingRequest('https://example.com/mcp', {
       method: 'POST',
       headers: {
@@ -27,8 +27,8 @@ describe('MCP Worker', () => {
         id: 1,
         method: 'tools/call',
         params: {
-          name: 'test_embedding',
-          arguments: { query: 'Schwimmbad Kosten' }
+          name: 'search_documents',
+          arguments: { query: 'Schwimmbad Kosten', limit: 5 }
         }
       })
     });
@@ -38,10 +38,8 @@ describe('MCP Worker', () => {
     expect(response.status).toBe(200);
     const data = await response.json();
     expect(data.jsonrpc).toBe('2.0');
+    expect(data.error).toBeUndefined();
     expect(data.result.content[0].type).toBe('text');
-    const embeddingData = JSON.parse(data.result.content[0].text);
-    expect(embeddingData.isArray).toBe(true);
-    expect(embeddingData.length).toBe(384);
   });
 
   it('should handle batch request with multiple search queries about Schwimmbad', async () => {
