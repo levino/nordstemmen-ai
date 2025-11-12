@@ -81,18 +81,6 @@ async function searchDocuments(env, args) {
   }
 }
 
-async function testEmbedding(env, args) {
-  const { query } = args;
-
-  return generateEmbedding(env, query)
-    .then(embedding => JSON.stringify({
-      query,
-      embedding: embedding.slice(0, 5),
-      isArray: Array.isArray(embedding),
-      length: embedding.length
-    }, null, 2));
-}
-
 // ============================================================================
 // Error Handling
 // ============================================================================
@@ -172,17 +160,6 @@ async function handleMCPRequest(request, env) {
                 },
                 required: ['query']
               }
-            },
-            {
-              name: 'test_embedding',
-              description: 'Tests embedding generation',
-              inputSchema: {
-                type: 'object',
-                properties: {
-                  query: { type: 'string', description: 'Text for embedding' }
-                },
-                required: ['query']
-              }
             }
           ]
         };
@@ -199,16 +176,6 @@ async function handleMCPRequest(request, env) {
                 {
                   type: 'text',
                   text: searchResult
-                }
-              ]
-            }));
-        } else if (toolName === 'test_embedding') {
-          result = await testEmbedding(env, toolArgs)
-            .then(embeddingResult => ({
-              content: [
-                {
-                  type: 'text',
-                  text: embeddingResult
                 }
               ]
             }));
