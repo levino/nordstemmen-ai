@@ -1,0 +1,17 @@
+# Streamlit
+streamlit==1.29.0
+
+# Configuration
+python-dotenv==1.0.0
+
+# Qdrant
+qdrant-client>=1.11.0
+
+# Anthropic
+anthropic>=0.40.0
+
+# Embeddings (compatible versions)
+numpy<2
+torch==2.1.2
+transformers<4.36
+sentence-transformers>=2.3.0,<3.0.0

@@ -1,0 +1,21 @@
+# Core dependencies
+python-dotenv==1.0.0
+qdrant-client==1.7.0
+
+# PDF processing
+pypdf==3.17.4
+
+# Embeddings (compatible versions for ARM64)
+numpy<2  # Required for compatibility with torch 2.1.2
+torch==2.1.2
+torchvision==0.16.2
+transformers<4.36  # Required for compatibility with torch 2.1.2
+sentence-transformers>=2.3.0,<3.0.0  # Compatible with transformers 4.35 and current huggingface_hub
+
+# Utilities
+tqdm==4.66.1
+
+# Optional: OCR support (uncomment if needed)
+# pytesseract==0.3.10
+# pillow==10.1.0
+# pdf2image==1.16.3
