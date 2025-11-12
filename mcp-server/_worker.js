@@ -2535,10 +2535,23 @@ async function generateEmbedding(env, text) {
     })
   });
   if (!response.ok) {
-    const errorText = await response.text();
+    let errorText = "";
+    try {
+      errorText = await response.text();
+    } catch (e) {
+      errorText = "Could not read error response";
+    }
     throw new Error(`HuggingFace API error: ${response.status} ${response.statusText} - ${errorText}`);
   }
-  const embedding = await response.json();
+  let embedding;
+  try {
+    embedding = await response.json();
+  } catch (e) {
+    throw new Error(`Failed to parse HuggingFace API response: ${e.message}`);
+  }
+  if (!Array.isArray(embedding) || embedding.length !== 384) {
+    throw new Error(`Invalid embedding format: expected 384-dim array, got ${typeof embedding} with length ${Array.isArray(embedding) ? embedding.length : 'N/A'}`);
+  }
   return embedding;
 }
 async function searchDocuments(env, args) {
@@ -2575,7 +2588,8 @@ ${text}`;
     return formattedResults;
   } catch (error) {
     console.error("Search error:", error);
-    throw new Error(`Fehler bei der Suche: ${error.message}`);
+    const errorMsg = error.message || error.toString() || JSON.stringify(error);
+    throw new Error(`Fehler bei der Suche: ${errorMsg}`);
   }
 }
 function createMCPResponse(id, result) {
