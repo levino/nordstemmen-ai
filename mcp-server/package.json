@@ -4,10 +4,25 @@
   "description": "MCP Server for Nordstemmen documents via Qdrant",
   "main": "_worker.js",
   "type": "module",
-  "keywords": ["mcp", "qdrant", "nordstemmen", "cloudflare-pages"],
+  "scripts": {
+    "test": "vitest",
+    "test:watch": "vitest --watch"
+  },
+  "keywords": [
+    "mcp",
+    "qdrant",
+    "nordstemmen",
+    "cloudflare-pages"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@qdrant/js-client-rest": "^1.12.0"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.10.6",
+    "dotenv": "^17.2.3",
+    "vitest": "~3.2.0",
+    "wrangler": "^4.47.0"
   }
 }
