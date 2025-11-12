@@ -25,9 +25,9 @@ graph TB
     User -->|MCP Protocol<br/>Connector| MCP
     MCP -->|Query Embeddings| Jina
     MCP -->|Vector Search| Qdrant
-    Embeddings -->|Upload Embeddings| Qdrant
-    Embeddings -->|Jina v3 Local<br/>1024D Vectors| Docs
     Scraper -->|Download PDFs<br/>+ Metadata| Docs
+    Docs -->|Read PDFs| Embeddings
+    Embeddings -->|Jina v3 Local<br/>1024D Vectors| Qdrant
 
     style User fill:#e1f5ff
     style MCP fill:#fff4e1
