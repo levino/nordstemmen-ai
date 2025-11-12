@@ -280,16 +280,18 @@ class EmbeddingGenerator:
 
         # Process each PDF with progress bar
         skipped_count = 0
-        with tqdm(pdf_files, desc="Processing", unit="file", ncols=110, bar_format='{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}]') as pbar:
+        with tqdm(pdf_files, desc="Processing", unit="file") as pbar:
             for pdf_file in pbar:
                 try:
                     # Update progress bar with current file
-                    filename = pdf_file.name[:60] + '...' if len(pdf_file.name) > 60 else pdf_file.name
-                    pbar.set_postfix_str(f"Skipped: {skipped_count} | {filename}", refresh=False)
+                    filename = pdf_file.name[:50] + '...' if len(pdf_file.name) > 50 else pdf_file.name
 
                     was_skipped = self.process_pdf(pdf_file)
                     if was_skipped:
                         skipped_count += 1
+
+                    # Update display with current stats
+                    pbar.set_postfix_str(f"Skipped: {skipped_count} | {filename}")
                 except Exception as e:
                     logger.error(f"Error: {pdf_file.name}: {e}")
 
