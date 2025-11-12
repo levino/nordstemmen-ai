@@ -2673,6 +2673,40 @@ async function handleMCPRequest(request, env) {
             ]
           });
         }
+        if (name === "test_embedding") {
+          try {
+            const testQuery = args.query || "test";
+            const embedding = await generateEmbedding(env, testQuery);
+            return createMCPResponse(id, {
+              content: [
+                {
+                  type: "text",
+                  text: JSON.stringify({
+                    query: testQuery,
+                    embeddingType: typeof embedding,
+                    isArray: Array.isArray(embedding),
+                    length: Array.isArray(embedding) ? embedding.length : "N/A",
+                    first5: Array.isArray(embedding) ? embedding.slice(0, 5) : "N/A"
+                  }, null, 2)
+                }
+              ]
+            });
+          } catch (error) {
+            return createMCPResponse(id, {
+              content: [
+                {
+                  type: "text",
+                  text: JSON.stringify({
+                    error: true,
+                    message: error.message || "No message",
+                    toString: error.toString(),
+                    stack: error.stack || "No stack"
+                  }, null, 2)
+                }
+              ]
+            });
+          }
+        }
         return createMCPError(id, -32601, `Unknown tool: ${name}`);
       case "ping":
         return createMCPResponse(id, {});
