@@ -172,17 +172,32 @@ async function handleMCPRequest(request, env) {
           tools: [
             {
               name: 'search_documents',
-              description: 'Semantically searches the Nordstemmen document collection',
+              description: `Durchsucht semantisch die komplette Dokumentensammlung des Ratsinformationssystems der Gemeinde Nordstemmen.
+
+Die Datenbank enthält öffentliche Dokumente wie:
+- Sitzungsprotokolle und Niederschriften von Gemeinderat, Ortsräten und Fachausschüssen
+- Beschlussvorlagen und gefasste Beschlüsse
+- Bekanntmachungen und öffentliche Ausschreibungen
+- Haushaltspläne und Finanzberichte
+- Bebauungspläne und Planungsunterlagen
+- Verwaltungsvorlagen und Anträge
+
+Zeitraum: Dokumente ab 2007 bis heute
+
+Die semantische Suche findet relevante Informationen auch wenn die exakten Suchbegriffe nicht im Text vorkommen.
+Ideal für Fragen zu kommunalen Themen wie Bauprojekte, Haushalt, Beschlüsse, Verkehr, Bildung, Soziales, etc.
+
+Jedes Ergebnis enthält einen direkten Link zum Originaldokument im Ratsinformationssystem.`,
               inputSchema: {
                 type: 'object',
                 properties: {
                   query: {
                     type: 'string',
-                    description: 'Search query'
+                    description: 'Die Suchanfrage in natürlicher Sprache. Kann eine Frage sein ("Was kostet das neue Schwimmbad?") oder Stichwörter ("Haushalt 2023", "Baugebiet Escherder Straße"). Die semantische Suche versteht den Kontext und findet relevante Dokumente auch bei unterschiedlichen Formulierungen.'
                   },
                   limit: {
                     type: 'number',
-                    description: 'Maximum number of results (Default: 5, Max: 10)',
+                    description: 'Maximale Anzahl der zurückgegebenen Suchergebnisse. Standard ist 5, Maximum ist 10. Bei spezifischen Fragen reichen oft 3-5 Ergebnisse, bei breiten Themen können 10 Ergebnisse sinnvoll sein.',
                     default: 5
                   }
                 },
