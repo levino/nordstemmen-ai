@@ -356,7 +356,15 @@ Zeitraum: Dokumente ab 2007 bis heute
 Die semantische Suche findet relevante Informationen auch wenn die exakten Suchbegriffe nicht im Text vorkommen.
 Ideal für Fragen zu kommunalen Themen wie Bauprojekte, Haushalt, Beschlüsse, Verkehr, Bildung, Soziales, etc.
 
-Jedes Ergebnis enthält einen direkten Link zum Originaldokument im Ratsinformationssystem.`,
+**Über OParl:**
+OParl ist ein offener Standard für parlamentarische Informationssysteme (https://oparl.org).
+Alle zurückgegebenen IDs sind direkte, klickbare Links zu den Originaldokumenten im OParl-konformen
+Ratsinformationssystem der Gemeinde Nordstemmen.
+
+Datenstruktur:
+- Paper (Drucksache): Beschlussvorlagen, Anträge, Mitteilungen
+- Meeting (Sitzung): Rats- und Ausschusssitzungen
+- Files: PDF-Dokumente der Vorlagen und Protokolle`,
               inputSchema: {
                 type: 'object',
                 properties: {
@@ -386,7 +394,12 @@ Unterstützte Formate:
 
 Das Tool normalisiert automatisch die verschiedenen Formate und findet die passende Drucksache.
 
-Die Drucksachennummer muss das Jahr enthalten (z.B. "101/2012"). Reine Nummern ohne Jahr (z.B. "101") sind mehrdeutig und werden nicht akzeptiert.`,
+Die Drucksachennummer muss das Jahr enthalten (z.B. "101/2012"). Reine Nummern ohne Jahr (z.B. "101") sind mehrdeutig und werden nicht akzeptiert.
+
+**Über OParl:**
+OParl ist ein offener Standard für parlamentarische Informationssysteme (https://oparl.org).
+Die zurückgegebene OParl-ID ist ein direkter, klickbarer Link zur Drucksache im Ratsinformationssystem
+der Gemeinde Nordstemmen, wo alle Details, Dateien und Beratungsverläufe einsehbar sind.`,
               inputSchema: {
                 type: 'object',
                 properties: {
@@ -412,7 +425,13 @@ Ermöglicht präzise Suche nach:
 Ideal für:
 - "Alle Beschlussvorlagen aus 2024"
 - "Bebauungspläne aus den letzten 2 Jahren"
-- "Drucksachen zum Thema Haushalt"`,
+- "Drucksachen zum Thema Haushalt"
+
+**Über OParl:**
+OParl ist ein offener Standard für parlamentarische Informationssysteme (https://oparl.org).
+Jede Drucksache hat eine OParl-ID, die ein direkter, klickbarer Link zum Originaldokument
+im Ratsinformationssystem ist. Dort sind alle zugehörigen PDF-Dateien, Beratungsverläufe
+und Beschlüsse einsehbar.`,
               inputSchema: {
                 type: 'object',
                 properties: {
