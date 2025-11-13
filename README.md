@@ -6,7 +6,7 @@
 
 Du kannst diese Suchmaschine **sofort kostenlos nutzen**, ohne irgendetwas zu installieren:
 
-### Für Claude Web (Browser)
+### Für Claude 
 
 1. Gehe zu https://claude.ai
 2. Klicke auf dein Profil (unten links) → **Settings** -> **Connectors**
@@ -22,25 +22,6 @@ Fertig! Jetzt kannst du Claude fragen:
 - *"Wann wurde der Haushalt 2024 beschlossen?"*
 
 Claude durchsucht automatisch alle Dokumente seit 2007 und gibt dir Antworten mit Links zu den Originaldokumenten im Ratsinformationssystem.
-
-### Für Claude Desktop
-
-Falls du die Claude Desktop App nutzt, bearbeite diese Datei:
-
-**macOS/Linux:** `~/Library/Application Support/Claude/claude_desktop_config.json`
-**Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
-
-```json
-{
-  "mcpServers": {
-    "nordstemmen": {
-      "url": "https://nordstemmen-mcp.levinkeller.de/mcp"
-    }
-  }
-}
-```
-
-Claude Desktop neu starten - fertig!
 
 ---
 
@@ -564,4 +545,4 @@ MIT License - siehe [LICENSE](LICENSE)
 
 **Hinweis:** Dies ist ein unabhängiges Transparenz-Tool und keine offizielle Anwendung der Gemeinde Nordstemmen.
 
-**Entwickelt mit:** Claude Code (Anthropic) 🤖
+**Entwickelt mit:** Claude Code
