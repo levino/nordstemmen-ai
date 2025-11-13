@@ -15,7 +15,7 @@ from pathlib import Path
 from typing import List, Dict, Optional
 from dotenv import load_dotenv
 
-from pypdf import PdfReader
+import pdfplumber
 from sentence_transformers import SentenceTransformer
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams, PointStruct, Filter, FieldCondition, MatchValue
@@ -165,19 +165,19 @@ class EmbeddingGenerator:
     def _extract_text_from_pdf(self, filepath: Path) -> List[tuple[int, str]]:
         """Extract text from PDF, returns list of (page_num, text) tuples."""
         try:
-            reader = PdfReader(str(filepath), strict=False)
-            pages = []
+            with pdfplumber.open(filepath) as pdf:
+                pages = []
 
-            for i, page in enumerate(reader.pages):
-                try:
-                    text = page.extract_text()
-                    if text.strip():
-                        pages.append((i + 1, text))
-                except Exception as page_error:
-                    logger.warning(f"Error extracting page {i+1} from {filepath.name}: {page_error}")
-                    continue
+                for i, page in enumerate(pdf.pages):
+                    try:
+                        text = page.extract_text()
+                        if text and text.strip():
+                            pages.append((i + 1, text))
+                    except Exception as page_error:
+                        logger.warning(f"Error extracting page {i+1} from {filepath.name}: {page_error}")
+                        continue
 
-            return pages
+                return pages
         except Exception as e:
             logger.error(f"Error opening {filepath.name}: {e}")
             return []
