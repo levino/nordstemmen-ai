@@ -16,11 +16,15 @@ from typing import List, Dict, Optional
 from dotenv import load_dotenv
 
 import pdfplumber
+import pytesseract
+from pdf2image import convert_from_path
+from PIL import Image
 from sentence_transformers import SentenceTransformer
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams, PointStruct, Filter, FieldCondition, MatchValue
 from tqdm import tqdm
 from langchain_text_splitters import RecursiveCharacterTextSplitter
+import warnings
 
 # Configure logging (only errors and warnings)
 logging.basicConfig(
@@ -164,25 +168,64 @@ class EmbeddingGenerator:
         except Exception as e:
             logger.warning(f"Error deleting old chunks: {e}")
 
-    def _extract_text_from_pdf(self, filepath: Path) -> List[tuple[int, str]]:
-        """Extract text from PDF, returns list of (page_num, text) tuples."""
+    def _extract_text_with_ocr(self, filepath: Path) -> List[tuple[int, str]]:
+        """Extract text from PDF using OCR (fallback for scanned documents)."""
         try:
-            with pdfplumber.open(filepath) as pdf:
-                pages = []
+            # Convert PDF pages to images
+            images = convert_from_path(filepath, dpi=300)
+            pages = []
 
-                for i, page in enumerate(pdf.pages):
-                    try:
-                        text = page.extract_text()
-                        if text and text.strip():
-                            pages.append((i + 1, text))
-                    except Exception as page_error:
-                        logger.warning(f"Error extracting page {i+1} from {filepath.name}: {page_error}")
-                        continue
+            for i, image in enumerate(images):
+                try:
+                    # Perform OCR with German and English
+                    text = pytesseract.image_to_string(image, lang='deu+eng')
+                    if text and text.strip():
+                        pages.append((i + 1, text))
+                except Exception as page_error:
+                    logger.warning(f"OCR error on page {i+1} of {filepath.name}: {page_error}")
+                    continue
 
-                return pages
+            return pages
         except Exception as e:
-            logger.error(f"Error opening {filepath.name}: {e}")
+            logger.error(f"OCR failed for {filepath.name}: {e}")
             return []
+
+    def _extract_text_from_pdf(self, filepath: Path) -> List[tuple[int, str]]:
+        """Extract text from PDF, returns list of (page_num, text) tuples.
+
+        First tries pdfplumber for text extraction. If no text is found
+        or extraction fails, falls back to OCR for scanned documents.
+        """
+        pages = []
+        use_ocr = False
+
+        # Try pdfplumber first (fast for text-based PDFs)
+        try:
+            # Suppress pdfplumber warnings about malformed PDFs
+            with warnings.catch_warnings():
+                warnings.filterwarnings("ignore", message=".*Cannot set gray.*")
+                warnings.filterwarnings("ignore", message=".*invalid float value.*")
+
+                with pdfplumber.open(filepath) as pdf:
+                    for i, page in enumerate(pdf.pages):
+                        try:
+                            text = page.extract_text()
+                            if text and text.strip():
+                                pages.append((i + 1, text))
+                        except Exception as page_error:
+                            logger.warning(f"Error extracting page {i+1} from {filepath.name}: {page_error}")
+                            continue
+
+        except Exception as e:
+            logger.warning(f"pdfplumber failed for {filepath.name}: {e}")
+            use_ocr = True
+
+        # Fall back to OCR if no text was extracted
+        if not pages or use_ocr:
+            logger.info(f"Falling back to OCR for {filepath.name} (no text extracted)")
+            pages = self._extract_text_with_ocr(filepath)
+
+        return pages
 
     def _chunk_text(self, text: str) -> List[str]:
         """Split text into overlapping chunks using LangChain."""

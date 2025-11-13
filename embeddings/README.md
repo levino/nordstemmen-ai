@@ -27,10 +27,12 @@ python generate.py
 1. Loads all PDFs from `../documents/`
 2. Computes MD5 hash for each file
 3. Checks Qdrant if file already processed (by filename + hash)
-4. For new/changed files:
-   - Extracts text from PDF
-   - Splits into chunks (500 chars, 50 overlap)
-   - Generates embeddings using `paraphrase-multilingual-MiniLM-L12-v2`
+4. Checks for cached embeddings in `embeddings.json` (Git LFS tracked)
+5. For new/changed files:
+   - Extracts text from PDF (tries pdfplumber first, falls back to OCR for scanned documents)
+   - Splits into chunks (1000 chars, 200 overlap)
+   - Generates embeddings using `jinaai/jina-embeddings-v3`
+   - Saves embeddings to `embeddings.json` cache file
    - Uploads to Qdrant with metadata from `metadata.json`
 
 ## Payload Schema
@@ -42,19 +44,34 @@ Each chunk is stored with:
 - `chunk_index`: Chunk index within page
 - `text`: Actual text content
 - `source`: Always "oparl"
-- `oparl_id`: OParl ID from metadata
+- `entity_type`: "paper" or "meeting"
+- `entity_id`: OParl ID
+- `entity_name`: Name/title
 - `date`: Document date
-- `name`: Document name
-- `access_url`: Download URL
+- `paper_reference`: Drucksachennummer (for papers only)
+- `paper_type`: Type like "Beschlussvorlage", "Mitteilungsvorlage" (for papers only)
+
+## OCR Support
+
+The generator automatically handles scanned PDFs:
+- First tries pdfplumber for text extraction (fast)
+- Falls back to tesseract OCR if no text found (slower)
+- Uses German + English language support (`deu+eng`)
+- OCR results are cached in `embeddings.json` like regular text
+
+## Embedding Cache
+
+Embeddings are cached to disk in `embeddings.json` files:
+- Tracked via Git LFS (large binary files)
+- Significantly speeds up rebuilds
+- Cache is invalidated when PDF hash changes
+- Contains vectors and text chunks
 
 ## Re-processing
 
 Files are automatically re-processed when:
 - Hash changes (file was modified)
 - Not found in Qdrant
+- Cache is missing or invalid
 
-To force re-processing:
-```bash
-# Delete all chunks in Qdrant for a specific file
-# (will be re-processed on next run)
-```
+Cached embeddings are reused when available (no recomputation needed).
