@@ -38,7 +38,8 @@ QDRANT_API_KEY = os.getenv('QDRANT_API_KEY')
 QDRANT_PORT = int(os.getenv('QDRANT_PORT', 443))
 QDRANT_COLLECTION = os.getenv('QDRANT_COLLECTION', 'nordstemmen')
 DOCUMENTS_DIR = Path(__file__).parent.parent / 'documents'
-METADATA_FILE = DOCUMENTS_DIR / 'metadata.json'
+PAPERS_DIR = DOCUMENTS_DIR / 'papers'
+MEETINGS_DIR = DOCUMENTS_DIR / 'meetings'
 
 # Embedding model configuration
 EMBEDDING_MODEL = 'jinaai/jina-embeddings-v3'
@@ -80,21 +81,22 @@ class EmbeddingGenerator:
             separators=["\n\n", "\n", ". ", " ", ""]
         )
 
-        # Load metadata
-        self.metadata = self._load_metadata()
-        print(f"✓ Loaded metadata for {len(self.metadata)} files\n")
-
         # Ensure collection exists
         self._ensure_collection()
+        print()
 
-    def _load_metadata(self) -> Dict:
-        """Load OParl metadata from metadata.json."""
-        if not METADATA_FILE.exists():
-            logger.warning(f"Metadata file not found: {METADATA_FILE}")
+    def _load_folder_metadata(self, folder_path: Path) -> Dict:
+        """Load metadata.json from a paper/meeting folder."""
+        metadata_file = folder_path / 'metadata.json'
+        if not metadata_file.exists():
             return {}
 
-        with open(METADATA_FILE, 'r', encoding='utf-8') as f:
-            return json.load(f)
+        try:
+            with open(metadata_file, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception as e:
+            logger.warning(f"Error loading metadata from {metadata_file}: {e}")
+            return {}
 
     def _ensure_collection(self):
         """Create Qdrant collection if it doesn't exist."""
@@ -187,19 +189,43 @@ class EmbeddingGenerator:
         chunks = self.text_splitter.split_text(text)
         return [c.strip() for c in chunks if c.strip()]
 
-    def _get_metadata_for_file(self, filename: str) -> Dict:
-        """Get OParl metadata for a file."""
-        # Find metadata by matching filename
-        for oparl_id, meta in self.metadata.items():
-            if meta.get('filename', '').endswith(filename):
-                return {
-                    'oparl_id': oparl_id,
-                    'date': meta.get('date'),
-                    'name': meta.get('name'),
-                    'mime_type': meta.get('mime_type'),
-                    'access_url': meta.get('access_url')
-                }
-        return {}
+    def _save_embeddings_cache(self, filepath: Path, file_hash: str, chunks_data: List[Dict]):
+        """Save embeddings to cache file."""
+        cache_file = filepath.parent / 'embeddings.json'
+        cache_data = {
+            'file_hash': file_hash,
+            'filename': filepath.name,
+            'chunks': chunks_data
+        }
+
+        try:
+            with open(cache_file, 'w', encoding='utf-8') as f:
+                json.dump(cache_data, f)
+        except Exception as e:
+            logger.warning(f"Error saving embeddings cache: {e}")
+
+    def _load_embeddings_cache(self, filepath: Path, file_hash: str) -> Optional[List[Dict]]:
+        """Load embeddings from cache if file_hash matches."""
+        cache_file = filepath.parent / 'embeddings.json'
+        if not cache_file.exists():
+            return None
+
+        try:
+            with open(cache_file, 'r', encoding='utf-8') as f:
+                cache_data = json.load(f)
+
+            # Verify hash matches
+            if cache_data.get('file_hash') != file_hash:
+                return None
+
+            # Verify filename matches
+            if cache_data.get('filename') != filepath.name:
+                return None
+
+            return cache_data.get('chunks', [])
+        except Exception as e:
+            logger.warning(f"Error loading embeddings cache: {e}")
+            return None
 
     def process_pdf(self, filepath: Path) -> Optional[bool]:
         """Process a single PDF file.
@@ -209,17 +235,72 @@ class EmbeddingGenerator:
             None if failed (no text extracted)
         """
         filename = filepath.name
+        folder_path = filepath.parent
         relative_path = str(filepath.relative_to(DOCUMENTS_DIR))
 
         # Compute hash
         file_hash = self._compute_file_hash(filepath)
 
-        # Check if already processed
+        # Check if already processed in Qdrant
         if self._is_already_processed(relative_path, file_hash):
             return True  # Skipped
 
         # Delete old chunks if file changed
         self._delete_old_chunks(relative_path)
+
+        # Load folder metadata
+        folder_metadata = self._load_folder_metadata(folder_path)
+
+        # Determine entity type and extract metadata
+        entity_type = 'paper' if '/papers/' in str(filepath) else 'meeting' if '/meetings/' in str(filepath) else 'unknown'
+
+        base_metadata = {
+            'source': 'oparl',
+            'entity_type': entity_type,
+            'entity_id': folder_metadata.get('id', ''),
+            'entity_name': folder_metadata.get('name', ''),
+            'date': folder_metadata.get('date', folder_metadata.get('start', '')),
+        }
+
+        # Add paper-specific metadata
+        if entity_type == 'paper':
+            base_metadata.update({
+                'paper_reference': folder_metadata.get('reference', ''),
+                'paper_type': folder_metadata.get('paperType', ''),
+            })
+
+        # Try to load from cache
+        cached_chunks = self._load_embeddings_cache(filepath, file_hash)
+
+        if cached_chunks:
+            # Use cached embeddings
+            all_points = []
+            for chunk_data in cached_chunks:
+                chunk_id_string = f"{file_hash}_{chunk_data['page']}_{chunk_data['chunk_index']}"
+                chunk_uuid = str(uuid.uuid5(uuid.NAMESPACE_DNS, chunk_id_string))
+
+                point = PointStruct(
+                    id=chunk_uuid,
+                    vector=chunk_data['vector'],
+                    payload={
+                        'filename': relative_path,
+                        'file_hash': file_hash,
+                        'page': chunk_data['page'],
+                        'chunk_index': chunk_data['chunk_index'],
+                        'text': chunk_data['text'],
+                        **base_metadata
+                    }
+                )
+                all_points.append(point)
+
+            # Upload to Qdrant
+            if all_points:
+                self.client.upsert(
+                    collection_name=QDRANT_COLLECTION,
+                    points=all_points
+                )
+
+            return False  # Processed from cache
 
         # Extract text
         pages = self._extract_text_from_pdf(filepath)
@@ -227,12 +308,9 @@ class EmbeddingGenerator:
             logger.warning(f"No text extracted from {filename}")
             return None  # Failed
 
-        # Get metadata
-        file_metadata = self._get_metadata_for_file(filename)
-
-        # Process each page
+        # Process each page and generate embeddings
         all_points = []
-        point_id = 0
+        chunks_for_cache = []
 
         for page_num, page_text in pages:
             chunks = self._chunk_text(page_text)
@@ -241,7 +319,7 @@ class EmbeddingGenerator:
                 if not chunk_text.strip():
                     continue
 
-                # Generate embedding (use retrieval.passage task for documents)
+                # Generate embedding
                 embedding = self.model.encode(
                     chunk_text,
                     task='retrieval.passage'
@@ -261,12 +339,22 @@ class EmbeddingGenerator:
                         'page': page_num,
                         'chunk_index': chunk_idx,
                         'text': chunk_text,
-                        'source': 'oparl',
-                        **file_metadata
+                        **base_metadata
                     }
                 )
                 all_points.append(point)
-                point_id += 1
+
+                # Save for cache
+                chunks_for_cache.append({
+                    'page': page_num,
+                    'chunk_index': chunk_idx,
+                    'text': chunk_text,
+                    'vector': embedding
+                })
+
+        # Save to cache
+        if chunks_for_cache:
+            self._save_embeddings_cache(filepath, file_hash, chunks_for_cache)
 
         # Upload to Qdrant
         if all_points:

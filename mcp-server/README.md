@@ -91,13 +91,49 @@ curl -X POST https://nordstemmen-mcp.levinkeller.de/mcp \
   }'
 ```
 
-## MCP Tool
+**Get Paper by Reference:**
+```bash
+curl -X POST https://nordstemmen-mcp.levinkeller.de/mcp \
+  -H "Content-Type: application/json" \
+  -d '{
+    "jsonrpc": "2.0",
+    "id": 4,
+    "method": "tools/call",
+    "params": {
+      "name": "get_paper_by_reference",
+      "arguments": {
+        "reference": "101/2012"
+      }
+    }
+  }'
+```
 
-Der Server stellt ein Tool bereit:
+**Search Papers:**
+```bash
+curl -X POST https://nordstemmen-mcp.levinkeller.de/mcp \
+  -H "Content-Type: application/json" \
+  -d '{
+    "jsonrpc": "2.0",
+    "id": 5,
+    "method": "tools/call",
+    "params": {
+      "name": "search_papers",
+      "arguments": {
+        "name_contains": "Bebauungsplan",
+        "date_from": "2024-01-01",
+        "limit": 10
+      }
+    }
+  }'
+```
+
+## MCP Tools
+
+Der Server stellt drei Tools bereit:
 
 ### `search_documents`
 
-Durchsucht die Nordstemmen-Dokumentendatenbank.
+Semantische Suche durch die Dokumentinhalte via Qdrant Vector DB.
 
 **Parameter:**
 - `query` (string, required): Suchbegriff oder Suchanfrage
@@ -109,6 +145,62 @@ Formatierte Suchergebnisse mit:
 - Relevanz-Score
 - Textausschnitt
 - URL zum Originaldokument
+
+### `get_paper_by_reference`
+
+Direkter Lookup einer Drucksache anhand der Drucksachennummer.
+
+**Parameter:**
+- `reference` (string, required): Drucksachennummer (z.B. "DS 101/2012", "101/2012", oder "101-2012")
+
+**Rückgabe:**
+Vollständige Paper-Metadaten inklusive:
+- OParl ID und URLs zu allen Dokumenten
+- Name und Typ der Drucksache
+- Datum
+- mainFile und auxiliaryFiles mit direkten Links
+- Verknüpfte Beratungen (consultations)
+- Verwandte Drucksachen (relatedPapers)
+
+**Beispiel:**
+```json
+{
+  "reference": "DS 101/2012",
+  "name": "Bekanntgabe des Berichts über...",
+  "paperType": "Mitteilungsvorlage",
+  "date": "2012-12-13",
+  "oparl_id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/787",
+  "mainFile": {
+    "oparl_id": "...",
+    "name": "...",
+    "accessUrl": "...",
+    "downloadUrl": "..."
+  }
+}
+```
+
+### `search_papers`
+
+Strukturierte Suche durch Paper-Metadaten mit Filtern.
+
+**Parameter:**
+- `reference_pattern` (string, optional): Pattern für Drucksachennummer (z.B. "*/2024" für alle aus 2024)
+- `name_contains` (string, optional): Text der im Namen vorkommen muss
+- `paper_type` (string, optional): Filterung nach Dokumenttyp (z.B. "Beschlussvorlage", "Mitteilungsvorlage", "Antrag")
+- `date_from` (string, optional): Startdatum im Format YYYY-MM-DD
+- `date_to` (string, optional): Enddatum im Format YYYY-MM-DD
+- `limit` (number, optional): Maximale Anzahl Ergebnisse (Standard: 10, Max: 50)
+
+**Rückgabe:**
+Liste von Papers mit:
+- reference, name, paperType, date
+- OParl ID und Links zu Dokumenten
+- Anzahl der mainFile und auxiliaryFiles
+
+**Beispiele:**
+- Alle Bebauungspläne aus 2024: `name_contains: "Bebauungsplan", date_from: "2024-01-01"`
+- Alle Drucksachen aus 2023: `reference_pattern: "*/2023"`
+- Beschlussvorlagen mit "Haushalt": `paper_type: "Beschlussvorlage", name_contains: "Haushalt"`
 
 ## Verwendung mit Claude
 
@@ -145,21 +237,22 @@ mcp-server/
 
 - **Runtime**: Cloudflare Pages (Workers)
 - **Vector DB**: Qdrant
-- **Embeddings**: HuggingFace Inference API (`sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`, 384 Dimensionen)
+- **Embeddings**: Jina AI Embeddings API (`jina-embeddings-v3`, 1024 Dimensionen)
 - **Protocol**: MCP (Model Context Protocol)
 - **Transport**: JSON-RPC 2.0 over HTTP
+- **Metadata**: Direkt aus OParl metadata.json files
 
 ## Hinweise
 
-- Der Server nutzt HuggingFace Inference API für Embeddings (kostenlos, rate-limited)
-- Optional: HuggingFace API Key für bessere Rate Limits
-- Qdrant Collection nutzt 384-dimensionale Vektoren von `paraphrase-multilingual-MiniLM-L12-v2`
-- Das gleiche Modell wie in der Streamlit-App für konsistente Ergebnisse
+- Der Server nutzt Jina AI Embeddings API für semantische Suche
+- Paper-Metadaten werden direkt aus `documents/papers/*/metadata.json` gelesen
+- Meeting-Metadaten werden direkt aus `documents/meetings/*/metadata.json` gelesen
+- Alle Ergebnisse enthalten direkte OParl-Links zu Originaldokumenten
 
 ## Environment Variables
 
 In Cloudflare Pages Settings konfiguriert:
 - `QDRANT_URL`: Qdrant Server URL
-- `QDRANT_COLLECTION`: Collection Name
+- `QDRANT_COLLECTION`: Collection Name (z.B. "nordstemmen")
 - `QDRANT_API_KEY`: Qdrant API Key (erforderlich)
-- `HUGGINGFACE_API_KEY`: HuggingFace API Key (optional)
+- `JINA_API_KEY`: Jina AI API Key (erforderlich)

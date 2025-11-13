@@ -74,16 +74,17 @@ async function searchDocuments(env, args) {
         const textResults = results
           .map((result, index) => {
             const payload = result.payload;
-            const title = payload.name || payload.filename || 'Unknown';
-            const url = payload.access_url || '';
+            const title = payload.entity_name || payload.filename || 'Unknown';
+            const url = payload.entity_id || '';
             const date = payload.date || '';
             const score = result.score?.toFixed(3) || '?';
+            const ref = payload.paper_reference ? ` (${payload.paper_reference})` : '';
 
             // Markdown with clickable link
             const titleLink = url ? `[${title}](${url})` : title;
             const metadata = [date, `Score: ${score}`].filter(Boolean).join(' • ');
 
-            return `${index + 1}. ${titleLink}\n${metadata}\n\n${payload.text || ''}`;
+            return `${index + 1}. ${titleLink}${ref}\n${metadata}\n\n${payload.text || ''}`;
           })
           .join('\n\n---\n\n');
 
@@ -91,13 +92,15 @@ async function searchDocuments(env, args) {
           const payload = result.payload;
           return {
             rank: index + 1,
-            title: payload.name || payload.filename || 'Unknown',
-            url: payload.access_url || null,
+            title: payload.entity_name || payload.filename || 'Unknown',
+            url: payload.entity_id || null,
             date: payload.date || null,
             page: payload.page || null,
             score: result.score || 0,
             excerpt: payload.text || '',
             filename: payload.filename || null,
+            reference: payload.paper_reference || null,
+            entity_type: payload.entity_type || null,
           };
         });
 
@@ -108,6 +111,170 @@ async function searchDocuments(env, args) {
       });
   } catch (error) {
     throw new Error(`Search error: ${error.message}`);
+  }
+}
+
+async function getPaperByReference(env, args) {
+  const { reference } = args;
+
+  try {
+    const client = new QdrantClient({
+      url: env.QDRANT_URL,
+      apiKey: env.QDRANT_API_KEY,
+      port: env.QDRANT_PORT ? parseInt(env.QDRANT_PORT) : undefined,
+    });
+
+    // Normalize reference: remove "DS " prefix if present, convert / or - to standard format
+    let normalizedRef = reference.trim();
+    normalizedRef = normalizedRef.replace(/^DS\s+/i, '');
+    normalizedRef = normalizedRef.replace(/[-\/]/g, '/');
+
+    // Search for exact match
+    const scrollResult = await client.scroll(env.QDRANT_COLLECTION, {
+      filter: {
+        must: [
+          {
+            key: 'paper_reference',
+            match: { value: `DS ${normalizedRef}` },
+          },
+        ],
+      },
+      limit: 1,
+      with_payload: true,
+    });
+
+    if (!scrollResult.points || scrollResult.points.length === 0) {
+      return {
+        text: `Paper with reference "${reference}" not found.`,
+        structured: null,
+      };
+    }
+
+    const payload = scrollResult.points[0].payload;
+
+    const paperInfo = `# ${payload.entity_name || 'Unknown Paper'}
+
+**Reference:** ${payload.paper_reference || 'N/A'}
+**Type:** ${payload.paper_type || 'N/A'}
+**Date:** ${payload.date || 'N/A'}
+**OParl ID:** ${payload.entity_id || 'N/A'}
+
+[View in Ratsinformationssystem](${payload.entity_id || '#'})`;
+
+    return {
+      text: paperInfo,
+      structured: {
+        reference: payload.paper_reference || null,
+        name: payload.entity_name || null,
+        paperType: payload.paper_type || null,
+        date: payload.date || null,
+        oparl_id: payload.entity_id || null,
+      },
+    };
+  } catch (error) {
+    throw new Error(`Get paper error: ${error.message}`);
+  }
+}
+
+async function searchPapers(env, args) {
+  const { reference_pattern, name_contains, paper_type, date_from, date_to, limit = 10 } = args;
+
+  try {
+    const client = new QdrantClient({
+      url: env.QDRANT_URL,
+      apiKey: env.QDRANT_API_KEY,
+      port: env.QDRANT_PORT ? parseInt(env.QDRANT_PORT) : undefined,
+    });
+
+    // Build filter
+    const must = [
+      {
+        key: 'entity_type',
+        match: { value: 'paper' },
+      },
+    ];
+
+    if (paper_type) {
+      must.push({
+        key: 'paper_type',
+        match: { value: paper_type },
+      });
+    }
+
+    if (reference_pattern) {
+      // Pattern matching for reference (e.g., "*/2024" matches all from 2024)
+      const pattern = reference_pattern.replace('*', '');
+      must.push({
+        key: 'paper_reference',
+        match: { text: pattern },
+      });
+    }
+
+    if (name_contains) {
+      must.push({
+        key: 'entity_name',
+        match: { text: name_contains },
+      });
+    }
+
+    if (date_from || date_to) {
+      const range = {};
+      if (date_from) range.gte = date_from;
+      if (date_to) range.lte = date_to;
+
+      must.push({
+        key: 'date',
+        range,
+      });
+    }
+
+    // Scroll through results (no vector search, just filtering)
+    const scrollResult = await client.scroll(env.QDRANT_COLLECTION, {
+      filter: { must },
+      limit: Math.min(limit, 50),
+      with_payload: ['entity_name', 'paper_reference', 'paper_type', 'date', 'entity_id'],
+    });
+
+    if (!scrollResult.points || scrollResult.points.length === 0) {
+      return {
+        text: 'No papers found matching the criteria.',
+        structured: [],
+      };
+    }
+
+    // Group by paper_reference to deduplicate (since each chunk has same metadata)
+    const papersMap = new Map();
+    scrollResult.points.forEach((point) => {
+      const p = point.payload;
+      if (!papersMap.has(p.paper_reference)) {
+        papersMap.set(p.paper_reference, {
+          reference: p.paper_reference || null,
+          name: p.entity_name || null,
+          paperType: p.paper_type || null,
+          date: p.date || null,
+          oparl_id: p.entity_id || null,
+        });
+      }
+    });
+
+    const papers = Array.from(papersMap.values());
+
+    // Build text output
+    const textResults = papers
+      .map((paper, index) => {
+        const titleLink = paper.oparl_id ? `[${paper.name}](${paper.oparl_id})` : paper.name;
+        const metadata = [paper.reference, paper.paperType, paper.date].filter(Boolean).join(' • ');
+
+        return `${index + 1}. ${titleLink}\n${metadata}`;
+      })
+      .join('\n\n');
+
+    return {
+      text: textResults,
+      structured: papers,
+    };
+  } catch (error) {
+    throw new Error(`Search papers error: ${error.message}`);
   }
 }
 
@@ -208,6 +375,79 @@ Jedes Ergebnis enthält einen direkten Link zum Originaldokument im Ratsinformat
                 required: ['query'],
               },
             },
+            {
+              name: 'get_paper_by_reference',
+              description: `Ruft eine Drucksache direkt anhand ihrer Drucksachennummer ab.
+
+Unterstützte Formate:
+- "DS 101/2012"
+- "101/2012"
+- "101-2012"
+
+Das Tool normalisiert automatisch die verschiedenen Formate und findet die passende Drucksache.
+
+Die Drucksachennummer muss das Jahr enthalten (z.B. "101/2012"). Reine Nummern ohne Jahr (z.B. "101") sind mehrdeutig und werden nicht akzeptiert.`,
+              inputSchema: {
+                type: 'object',
+                properties: {
+                  reference: {
+                    type: 'string',
+                    description:
+                      'Die Drucksachennummer in einem der unterstützten Formate. Beispiele: "DS 101/2012", "101/2012", "101-2012". Muss das Jahr enthalten.',
+                  },
+                },
+                required: ['reference'],
+              },
+            },
+            {
+              name: 'search_papers',
+              description: `Durchsucht Drucksachen mit strukturierten Filtern.
+
+Ermöglicht präzise Suche nach:
+- Drucksachennummer-Pattern (z.B. "*/2024" für alle aus 2024)
+- Begriffen im Titel
+- Dokumenttyp (Beschlussvorlage, Mitteilungsvorlage, Antrag, etc.)
+- Zeitraum
+
+Ideal für:
+- "Alle Beschlussvorlagen aus 2024"
+- "Bebauungspläne aus den letzten 2 Jahren"
+- "Drucksachen zum Thema Haushalt"`,
+              inputSchema: {
+                type: 'object',
+                properties: {
+                  reference_pattern: {
+                    type: 'string',
+                    description:
+                      'Pattern für Drucksachennummer. Beispiele: "*/2024" findet alle aus 2024, "101/*" findet alle mit Nummer 101. Der Stern (*) ist ein Platzhalter.',
+                  },
+                  name_contains: {
+                    type: 'string',
+                    description:
+                      'Text der im Drucksachentitel vorkommen muss. Beispiel: "Bebauungsplan", "Haushalt", "Straße".',
+                  },
+                  paper_type: {
+                    type: 'string',
+                    description:
+                      'Dokumenttyp. Häufige Werte: "Beschlussvorlage", "Mitteilungsvorlage", "Antrag", "Anfrage". Muss exakt übereinstimmen.',
+                  },
+                  date_from: {
+                    type: 'string',
+                    description: 'Startdatum im Format YYYY-MM-DD. Beispiel: "2024-01-01".',
+                  },
+                  date_to: {
+                    type: 'string',
+                    description: 'Enddatum im Format YYYY-MM-DD. Beispiel: "2024-12-31".',
+                  },
+                  limit: {
+                    type: 'number',
+                    description: 'Maximale Anzahl Ergebnisse. Standard: 10, Maximum: 50.',
+                    default: 10,
+                  },
+                },
+                required: [],
+              },
+            },
           ],
         };
         break;
@@ -226,6 +466,28 @@ Jedes Ergebnis enthält einen direkten Link zum Originaldokument im Ratsinformat
             ],
             structuredContent: {
               results: searchResult.structured,
+            },
+          }));
+        } else if (toolName === 'get_paper_by_reference') {
+          result = await getPaperByReference(env, toolArgs).then((paperResult) => ({
+            content: [
+              {
+                type: 'text',
+                text: paperResult.text,
+              },
+            ],
+            structuredContent: paperResult.structured,
+          }));
+        } else if (toolName === 'search_papers') {
+          result = await searchPapers(env, toolArgs).then((searchResult) => ({
+            content: [
+              {
+                type: 'text',
+                text: searchResult.text,
+              },
+            ],
+            structuredContent: {
+              papers: searchResult.structured,
             },
           }));
         } else {
