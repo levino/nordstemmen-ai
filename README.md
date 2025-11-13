@@ -9,10 +9,10 @@ Du kannst diese Suchmaschine **sofort kostenlos nutzen**, ohne irgendetwas zu in
 ### Für Claude Web (Browser)
 
 1. Gehe zu https://claude.ai
-2. Klicke auf dein Profil (unten links) → **Connectors**
-3. Klicke auf **Add Connector** → **HTTP Connector**
+2. Klicke auf dein Profil (unten links) → **Settings** -> **Connectors**
+3. Klicke auf **Add Custom Connector**
 4. Trage ein:
-   - **Name**: Nordstemmen Transparent
+   - **Name**: Gemeinde Nordstemmen
    - **URL**: `https://nordstemmen-mcp.levinkeller.de/mcp`
 5. Speichern
 
