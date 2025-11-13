@@ -1,0 +1,197 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5083",
+  "name": "Ortsrat Heyersum (5. Sitzung)",
+  "start": "2022-11-10T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-8",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Altes Schulhaus Heyersum, Martin-Luther-Platz 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Martin-Luther-Platz 3",
+    "room": "Altes Schulhaus Heyersum, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Heyersum",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:37:30+02:00",
+    "modified": "2019-10-24T16:49:00+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-13"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-35058",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2022-11-10",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbyaDgIpTA08kGiKwtkOhYt-uD8N2FaItga51ckM7eEf/Bekanntmachung_Ortsrat_Heyersum_10.11.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbyaDgIpTA08kGiKwtkOhYt-uD8N2FaItga51ckM7eEf/Bekanntmachung_Ortsrat_Heyersum_10.11.2022.pdf",
+    "created": "2022-10-25T19:00:11+02:00",
+    "modified": "2022-10-25T19:00:11+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-35420",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2022-11-10",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdEv9t2Ll6PU4Ruk1mqIj5BS1MNfmYF4WpBehY7L_M4h/Oeffentliche_Niederschrift_Ortsrat_Heyersum_10.11.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdEv9t2Ll6PU4Ruk1mqIj5BS1MNfmYF4WpBehY7L_M4h/Oeffentliche_Niederschrift_Ortsrat_Heyersum_10.11.2022.pdf",
+    "created": "2022-11-28T19:00:03+01:00",
+    "modified": "2022-11-28T19:00:03+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20297",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2022-07-27T11:53:14+02:00",
+      "modified": "2022-07-27T11:53:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20298",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2022-07-27T11:53:14+02:00",
+      "modified": "2022-07-27T11:53:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20299",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 21. September 2022",
+      "created": "2022-07-27T11:53:14+02:00",
+      "modified": "2022-07-27T11:53:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20300",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Anfragen und Anregungen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5789",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Heyersum Anlage TOP 3)",
+          "mimeType": "application/pdf",
+          "date": "2022-11-10",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXwpgB8WIglO9aN3U4HQWPzj-iK-LrO_RvtpGdlkgBMx/OR_Heyersum_Anlage_TOP_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXwpgB8WIglO9aN3U4HQWPzj-iK-LrO_RvtpGdlkgBMx/OR_Heyersum_Anlage_TOP_3.pdf",
+          "created": "2022-11-28T19:00:03+01:00",
+          "modified": "2022-11-28T19:00:03+01:00"
+        }
+      ],
+      "created": "2022-07-27T11:53:14+02:00",
+      "modified": "2022-07-27T11:53:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20301",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2022-07-27T11:53:14+02:00",
+      "modified": "2022-07-27T11:53:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20302",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5790",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Heyersum Mitteilung des Ortsbürgermeisters Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2022-11-10",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZmTScRPZhrPhVYS9vUZX-FXlZWyCPndT-ntRkVIk-Aj/OR_Heyersum_Mitteilung_des_Ortsbuergermeisters_Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZmTScRPZhrPhVYS9vUZX-FXlZWyCPndT-ntRkVIk-Aj/OR_Heyersum_Mitteilung_des_Ortsbuergermeisters_Anlage_2.pdf",
+          "created": "2022-11-28T19:00:03+01:00",
+          "modified": "2022-11-28T19:00:03+01:00"
+        }
+      ],
+      "created": "2022-07-27T11:53:14+02:00",
+      "modified": "2022-07-27T11:53:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20496",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Anhörung zum Haushaltsplan 2023 und zum Investitionsprogramm bis 2026 für die Ort-\nschaft Heyersum",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7536",
+      "result": "Zustimmend zur Kenntnis genommen",
+      "created": "2022-10-20T10:24:56+02:00",
+      "modified": "2022-10-20T10:24:56+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20512",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Antrag auf Änderung Laubsammelstelle am Dorfteich",
+      "created": "2022-10-24T15:38:42+02:00",
+      "modified": "2022-10-24T15:38:42+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20513",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Berichterstattung Festausschuss 1000 Jahre Heyersum",
+      "created": "2022-10-24T15:39:09+02:00",
+      "modified": "2022-10-24T15:39:09+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20514",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Aufstellfläche Geschwindigkeitsanzeigetafel",
+      "created": "2022-10-24T15:39:38+02:00",
+      "modified": "2022-10-24T15:39:38+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20620",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Organisation des Seniorennachmittags",
+      "created": "2022-11-22T11:54:41+01:00",
+      "modified": "2022-11-22T11:54:41+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20303",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Mitteilungen der Verwaltung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5791",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Heyersum Anlage TOP 11 gesamt)",
+          "mimeType": "application/pdf",
+          "date": "2022-11-10",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfg5VGCnwfiSxiwmOtt7qm1tfeAaxh1pi079WKXJNmPp/OR_Heyersum_Anlage_TOP_11_gesamt.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfg5VGCnwfiSxiwmOtt7qm1tfeAaxh1pi079WKXJNmPp/OR_Heyersum_Anlage_TOP_11_gesamt.pdf",
+          "created": "2022-11-28T19:00:03+01:00",
+          "modified": "2022-11-28T19:00:03+01:00"
+        }
+      ],
+      "created": "2022-07-27T11:53:14+02:00",
+      "modified": "2022-07-27T11:53:14+02:00"
+    }
+  ]
+}

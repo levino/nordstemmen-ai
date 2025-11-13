@@ -1,0 +1,109 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2825",
+  "name": "Ortsrat Rössing (36. Sitzung)",
+  "start": "2016-09-27T19:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-26",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Gaststätte \"Zum Dorfbrunnen\", Loderwinkel 2 a, 31171 Nordstemmen, Clubraum",
+    "streetAddress": "Loderwinkel 2 a",
+    "room": "Gaststätte \"Zum Dorfbrunnen\", Clubraum",
+    "postalCode": "31171",
+    "subLocality": "Rössing",
+    "locality": "Nordstemmen",
+    "created": "2014-10-09T10:17:13+02:00",
+    "modified": "2017-09-12T17:09:54+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-16999",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2016-09-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZf5kzzv3HB9BSyjH391zY5CGis2C5mqAqN_WyPROeGHU/Bekanntmachung_Ortsrat_Roessing_27.09.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZf5kzzv3HB9BSyjH391zY5CGis2C5mqAqN_WyPROeGHU/Bekanntmachung_Ortsrat_Roessing_27.09.2016.pdf",
+    "created": "2016-09-16T19:00:30+02:00",
+    "modified": "2016-09-16T19:00:30+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-17270",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2016-09-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSWsNSFjSc4seMOvXAQ-7TCSe31Fw2h6TQ7nxVIGqZvl/Oeffentliche_Niederschrift_Ortsrat_Roessing_27.09.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSWsNSFjSc4seMOvXAQ-7TCSe31Fw2h6TQ7nxVIGqZvl/Oeffentliche_Niederschrift_Ortsrat_Roessing_27.09.2016.pdf",
+    "created": "2016-10-14T13:01:03+02:00",
+    "modified": "2016-10-14T13:01:03+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13241",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2016-09-13T14:37:32+02:00",
+      "modified": "2016-09-13T14:37:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13242",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2016-09-13T14:37:32+02:00",
+      "modified": "2016-09-13T14:37:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13244",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Einwohnerfragestunde",
+      "created": "2016-09-13T14:37:32+02:00",
+      "modified": "2016-09-13T14:37:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13249",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "21. Änderung des Flächennutzungsplanes der Gemeinde Nordstemmen (Flächen für die Windenergie mit Ausschlusswirkung gemäß § 35 Abs. 3 Satz 3 BauGB)\n- Anhörung des Ortsrates gemäß § 94 Abs. 1 Ziff. 2 NKomVG",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3641",
+      "created": "2016-09-13T14:38:38+02:00",
+      "modified": "2016-09-13T14:38:38+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13245",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2016-09-13T14:37:32+02:00",
+      "modified": "2016-09-13T14:38:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13246",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 7,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2016-09-13T14:37:32+02:00",
+      "modified": "2016-09-13T14:37:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13247",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 8,
+      "name": "Anträge und Anfragen",
+      "created": "2016-09-13T14:37:32+02:00",
+      "modified": "2016-09-13T14:37:32+02:00"
+    }
+  ]
+}

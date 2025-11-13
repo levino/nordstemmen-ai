@@ -1,0 +1,124 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/832",
+  "name": "Ortsrat Burgstemmen (3. Sitzung)",
+  "start": "2007-06-20T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Burgstemmen, Sackstraße 2, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Sackstraße 2",
+    "room": "Feuerwehrhaus Burgstemmen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Burgstemmen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:33:23+02:00",
+    "modified": "2019-06-06T11:56:46+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-12"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-1083",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2007-06-20",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZezZVZppR9rII1YOSnogKidqNTb413Sv8f2xz5AtdvsN/Bekanntmachung_Ortsrat_Burgstemmen_20.06.2007.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZezZVZppR9rII1YOSnogKidqNTb413Sv8f2xz5AtdvsN/Bekanntmachung_Ortsrat_Burgstemmen_20.06.2007.pdf",
+    "created": "2007-06-13T10:43:29+02:00",
+    "modified": "2007-06-13T10:43:29+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1622",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2007-06-12T11:27:27+02:00",
+      "modified": "2007-06-12T11:27:27+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1623",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Tagesordnung\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2007-06-12T11:27:27+02:00",
+      "modified": "2007-06-12T11:27:27+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1624",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 05.03.2007",
+      "created": "2007-06-12T11:27:27+02:00",
+      "modified": "2007-06-12T11:27:27+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1625",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2007-06-12T11:27:27+02:00",
+      "modified": "2007-06-12T11:27:27+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1626",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bebauungsplan Nr. 0411 \"Mühlenweg - Poppenburg\", Ortschaft Burgstemmen\n\nöffentliche Auslegung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/276",
+      "created": "2007-06-12T11:27:27+02:00",
+      "modified": "2007-06-12T11:27:27+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1631",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Errichtung eines Maschendrahtzaunes am Festplatz entlang der Leine\n(siehe Anlage 1)\n- Beratung und Empfehlung)",
+      "created": "2007-06-12T11:28:33+02:00",
+      "modified": "2007-06-12T11:28:33+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1627",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Mitteilungen des Bürgermeisters / Ortsbürgermeisters",
+      "created": "2007-06-12T11:27:27+02:00",
+      "modified": "2007-06-12T11:29:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1628",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Behandlung von Anfragen",
+      "created": "2007-06-12T11:27:27+02:00",
+      "modified": "2007-06-12T11:27:27+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1629",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Anregungen",
+      "created": "2007-06-12T11:27:27+02:00",
+      "modified": "2007-06-12T11:27:27+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1632",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Diskussion Veranstaltung Ehrenamt mit anschließender Benennung von Personen durch den Ortsrat\n(siehe Anlage: Protokoll zum Arbeitsgespräch vom 10.05.2007)",
+      "created": "2007-06-12T11:30:28+02:00",
+      "modified": "2007-06-12T11:30:28+02:00"
+    }
+  ]
+}

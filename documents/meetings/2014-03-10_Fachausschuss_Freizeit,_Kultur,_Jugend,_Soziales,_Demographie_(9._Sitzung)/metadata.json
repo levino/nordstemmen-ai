@@ -1,0 +1,148 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2245",
+  "name": "Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie (9. Sitzung)",
+  "start": "2014-03-10T18:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-20",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer Rathaus Altbau",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer Rathaus Altbau",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2009-02-10T14:08:10+01:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-7"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-12395",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie)",
+    "mimeType": "application/pdf",
+    "date": "2014-03-10",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWZ97Mi9H0GylwPBEhVkX6iMYjiUueBoHiYi5mfMG7bv/Bekanntmachung_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_10.03.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWZ97Mi9H0GylwPBEhVkX6iMYjiUueBoHiYi5mfMG7bv/Bekanntmachung_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_10.03.2014.pdf",
+    "created": "2014-03-10T13:00:29+01:00",
+    "modified": "2014-03-10T13:00:29+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-12689",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie)",
+    "mimeType": "application/pdf",
+    "date": "2014-03-10",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRO_rvq-TQVhSfXXKCwBrVmDq3HtdJ-JpXBR_i5OnIN0/Oeffentliche_Niederschrift_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_10.03.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRO_rvq-TQVhSfXXKCwBrVmDq3HtdJ-JpXBR_i5OnIN0/Oeffentliche_Niederschrift_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_10.03.2014.pdf",
+    "created": "2014-04-24T13:00:31+02:00",
+    "modified": "2016-08-05T13:01:53+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10524",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2014-02-06T08:51:46+01:00",
+      "modified": "2014-02-06T08:51:46+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10525",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2014-02-06T08:51:46+01:00",
+      "modified": "2014-02-06T08:51:46+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10526",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 18. November 2013",
+      "created": "2014-02-06T08:51:46+01:00",
+      "modified": "2014-02-06T08:51:46+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10527",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2014-02-06T08:51:46+01:00",
+      "modified": "2014-02-06T08:51:46+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10528",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Gewährung eines einmaligen Zuschusses an den GemeindeJugendRing Nordstemmen e. V. für die Ersatzbeschaffung des Kinder- und Jugendmobils",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2632",
+      "created": "2014-02-06T08:51:46+01:00",
+      "modified": "2014-02-06T08:51:46+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10646",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Jugendzentrum Nordstemmen (JUZ 110) - Nutzungsänderung und brandschutztechnische Maßnahmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2645",
+      "created": "2014-02-27T14:07:24+01:00",
+      "modified": "2014-02-27T14:07:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10647",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Festsetzung der Elternbeiträge für die Kindertagesstätten und Kindertagespflege",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2686",
+      "created": "2014-02-27T14:07:36+01:00",
+      "modified": "2014-02-27T14:07:36+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10648",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Freizeitbad Nordstemmen - Ergebnis der Freibadsaison 2013",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2658",
+      "created": "2014-02-27T14:07:45+01:00",
+      "modified": "2014-02-27T14:07:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10649",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Freizeitbad Nordstemmen - Konzeptplanung zur Sanierung und Modernisierung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2693",
+      "created": "2014-02-27T14:07:52+01:00",
+      "modified": "2014-02-27T14:07:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10529",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2014-02-06T08:51:46+01:00",
+      "modified": "2014-02-06T08:51:46+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10530",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anträge und Anfragen",
+      "created": "2014-02-06T08:51:46+01:00",
+      "modified": "2014-02-06T08:51:46+01:00"
+    }
+  ]
+}

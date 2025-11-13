@@ -1,0 +1,168 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2890",
+  "name": "Fachausschuss Bildung, Kultur und Soziales (3. Sitzung)",
+  "start": "2017-05-30T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-30"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-18911",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Bildung, Kultur und Soziales)",
+    "mimeType": "application/pdf",
+    "date": "2017-05-30",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZf1Q_4lp1WMRwX1sk4Tv1jfrOjySO4SOel6_k0K3MbcN/Bekanntmachung_Fachausschuss_Bildung-_Kultur_und_Soziales_30.05.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZf1Q_4lp1WMRwX1sk4Tv1jfrOjySO4SOel6_k0K3MbcN/Bekanntmachung_Fachausschuss_Bildung-_Kultur_und_Soziales_30.05.2017.pdf",
+    "created": "2017-05-18T13:00:44+02:00",
+    "modified": "2017-05-18T13:00:44+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-19253",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Bildung, Kultur und Soziales)",
+    "mimeType": "application/pdf",
+    "date": "2017-05-30",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWTlI3aAOskHJAamSXbulY0nv5g23l2G50_UoOMM7_hd/Oeffentliche_Niederschrift_Fachausschuss_Bildung-_Kultur_und_Soziales_30.05.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWTlI3aAOskHJAamSXbulY0nv5g23l2G50_UoOMM7_hd/Oeffentliche_Niederschrift_Fachausschuss_Bildung-_Kultur_und_Soziales_30.05.2017.pdf",
+    "created": "2017-06-12T13:01:13+02:00",
+    "modified": "2017-06-12T13:01:13+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14103",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2017-05-15T15:22:54+02:00",
+      "modified": "2017-05-15T15:22:54+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14104",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2017-05-15T15:22:54+02:00",
+      "modified": "2017-05-15T15:22:54+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14111",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Verpflichtung von Ausschussmitgliedern",
+      "created": "2017-05-15T15:23:18+02:00",
+      "modified": "2017-05-15T15:23:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14105",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Genehmigung des Protokolls der Sitzung vom 14. März 2017",
+      "created": "2017-05-15T15:22:54+02:00",
+      "modified": "2017-05-15T15:22:54+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14106",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2017-05-15T15:22:54+02:00",
+      "modified": "2017-05-15T15:22:54+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14112",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bericht der Schulleitungen\n- Grundschule Asternschule Nordstemmen\n- Grundschule Barnten\n- Grundschule CJD Adensen-Hallerburg\n- Marienbergschule Nordstemmen",
+      "created": "2017-05-15T15:24:52+02:00",
+      "modified": "2017-05-15T15:24:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14107",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Festsetzung der Elternbeiträge für die Kindertagesstätten und Kindertagespflege",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3868",
+      "created": "2017-05-15T15:22:54+02:00",
+      "modified": "2017-05-15T15:22:54+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14113",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bericht aus den Kindertagesstätten",
+      "created": "2017-05-15T15:25:14+02:00",
+      "modified": "2017-05-15T15:25:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14207",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Antrag des Stammtisches für das Seniorenalter zur Umgestaltung des Kinderspielpatzes \"Akeleiweg\"",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3886",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1758",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Fachausschuss Bildung, Kultur und Soziales 30.05.2017 18:30 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2017-05-30",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZf0-GF0EyM5eZ7VwjplyJ1tvNmIJZdaG3tM-ciX_ef-P/Fachausschuss_Bildung-_Kultur_und_Soziales_30.05.2017_18-30_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZf0-GF0EyM5eZ7VwjplyJ1tvNmIJZdaG3tM-ciX_ef-P/Fachausschuss_Bildung-_Kultur_und_Soziales_30.05.2017_18-30_Uhr.pdf",
+          "created": "2017-06-06T19:00:31+02:00",
+          "modified": "2017-06-06T19:00:31+02:00"
+        }
+      ],
+      "created": "2017-05-30T13:41:33+02:00",
+      "modified": "2017-05-30T13:41:33+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14115",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Sachstandsbericht Bildungsvielfalt Nordstemmen",
+      "created": "2017-05-15T15:34:41+02:00",
+      "modified": "2017-05-15T15:34:41+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14108",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2017-05-15T15:22:54+02:00",
+      "modified": "2017-05-15T15:22:54+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14109",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Anträge und Anfragen",
+      "created": "2017-05-15T15:22:54+02:00",
+      "modified": "2017-05-15T15:22:54+02:00"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2454",
+  "name": "Ortsrat Burgstemmen (26. Sitzung)",
+  "start": "2015-02-19T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Burgstemmen, Sackstraße 2, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Sackstraße 2",
+    "room": "Feuerwehrhaus Burgstemmen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Burgstemmen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:33:23+02:00",
+    "modified": "2019-06-06T11:56:46+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-12"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-13920",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2015-02-19",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXokBxJYrNQbk27TxrpI6A3XvGk_tflGAw4VKTkhmKrJ/Bekanntmachung_Ortsrat_Burgstemmen_19.02.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXokBxJYrNQbk27TxrpI6A3XvGk_tflGAw4VKTkhmKrJ/Bekanntmachung_Ortsrat_Burgstemmen_19.02.2015.pdf",
+    "created": "2015-02-10T19:00:20+01:00",
+    "modified": "2015-02-10T19:00:20+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-14190",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2015-02-19",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeCpVZzz4kfMXRTSGi6s1SKAYKzzUHzT4VBA_pWNzR2I/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_19.02.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeCpVZzz4kfMXRTSGi6s1SKAYKzzUHzT4VBA_pWNzR2I/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_19.02.2015.pdf",
+    "created": "2015-04-07T19:00:46+02:00",
+    "modified": "2015-04-07T19:00:46+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11548",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2015-02-10T11:47:39+01:00",
+      "modified": "2015-02-10T11:47:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11549",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2015-02-10T11:47:39+01:00",
+      "modified": "2015-02-10T11:47:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11550",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 27.10.2014",
+      "created": "2015-02-10T11:47:39+01:00",
+      "modified": "2015-02-10T11:47:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11551",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2015-02-10T11:47:39+01:00",
+      "modified": "2015-02-10T11:47:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11556",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 6,
+      "name": "Verwendung der im Haushalt 2015 zur Verfügung stehenden Ortsratsmittel\n- hier: Anschaffung einer Geschirrspülmaschine für die Mehrzweckhalle, dabei Aufhebung des Beschlusses des Ortsrates vom 27.10.2014 zur Anschaffung einer zweiten Geschwindigkeitsmessanlage",
+      "created": "2015-02-10T11:51:45+01:00",
+      "modified": "2015-02-10T11:51:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11552",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 7,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2015-02-10T11:47:39+01:00",
+      "modified": "2015-02-10T11:47:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11553",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 8,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2015-02-10T11:47:39+01:00",
+      "modified": "2015-02-10T11:47:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11554",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Anträge und Anfragen\n- Sachstand zur Querungshilfe B1 Ortseinfahrt Mahlerten\n- Sachstand zur Gullydeckelsanierung B1 Höhe Familie Schaffarczyk\n- Information über die Zahlung einer zweckgebundenen Spende in Höhe von 1.000,00 € für die Beschaffung von Spielgeräten an den Verein Dorfkultur Burgstemmen gemäß dem Beschluss des Ortsrates vom 27.10.2014\n- Information über die Standorte der beiden Geschwindigkeitsmessanlagen in den Ortschaften der Gemeinde Nordstemmen",
+      "created": "2015-02-10T11:47:39+01:00",
+      "modified": "2015-02-10T11:47:39+01:00"
+    }
+  ]
+}

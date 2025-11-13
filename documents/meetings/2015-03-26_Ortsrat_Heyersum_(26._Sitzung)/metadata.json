@@ -1,0 +1,164 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2457",
+  "name": "Ortsrat Heyersum (26. Sitzung)",
+  "start": "2015-03-26T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-8",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Altes Schulhaus Heyersum, Martin-Luther-Platz 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Martin-Luther-Platz 3",
+    "room": "Altes Schulhaus Heyersum, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Heyersum",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:37:30+02:00",
+    "modified": "2019-10-24T16:49:00+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-13"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-14060",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2015-03-26",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTu4DwdO_HrbL35osZmOCquGF3d0KbD5Jg4OWb4gS0gC/Bekanntmachung_Ortsrat_Heyersum_26.03.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTu4DwdO_HrbL35osZmOCquGF3d0KbD5Jg4OWb4gS0gC/Bekanntmachung_Ortsrat_Heyersum_26.03.2015.pdf",
+    "created": "2015-03-10T13:00:40+01:00",
+    "modified": "2015-03-10T13:00:40+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11694",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2015-03-10T09:23:39+01:00",
+      "modified": "2015-03-10T09:23:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11695",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2015-03-10T09:23:39+01:00",
+      "modified": "2015-03-10T09:23:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11696",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 20.11.2014",
+      "created": "2015-03-10T09:23:39+01:00",
+      "modified": "2015-03-10T09:23:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11697",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2015-03-10T09:23:39+01:00",
+      "modified": "2015-03-10T09:23:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11703",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Verabschiedung der Schiedsfrau Jutta Milbradt und Vorstellung des neuen Schiedsmannes Herrn Markus Kurz",
+      "created": "2015-03-10T09:23:39+01:00",
+      "modified": "2015-03-10T09:23:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11702",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Verwendung der Ortsratsmittel 2015\n- Beratung und Beschlussfassung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1293",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Heyersum 26.03.2015 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-03-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaxXLhf782AuC_2NqzuoS5rABR9ONuPKFzgl4vE10-Sz/Ortsrat_Heyersum_26.03.2015_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaxXLhf782AuC_2NqzuoS5rABR9ONuPKFzgl4vE10-Sz/Ortsrat_Heyersum_26.03.2015_18-00_Uhr.pdf",
+          "created": "2015-03-10T13:00:40+01:00",
+          "modified": "2015-03-10T13:00:40+01:00"
+        }
+      ],
+      "created": "2015-03-10T09:23:39+01:00",
+      "modified": "2015-03-10T09:23:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11704",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Historische Zusatzbeschilderung an den Straßenschildern\n- Beratung und Beschlussfassung",
+      "created": "2015-03-10T09:23:39+01:00",
+      "modified": "2015-03-10T09:23:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11705",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Weitere Verfahrensweise zum Aufbau des Pavillons auf dem Spielplatz Salzbrink\n- Beratung",
+      "created": "2015-03-10T09:23:39+01:00",
+      "modified": "2015-03-10T09:23:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11706",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Teilnahme am Dorfwettbewerb \"Kerniges Dorf\"\n- Beratung und Beschlussfassung",
+      "created": "2015-03-10T09:23:39+01:00",
+      "modified": "2015-03-10T09:23:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11707",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Bericht der Heimatpflege \"Förderer Altes Schulhaus\"",
+      "created": "2015-03-10T09:23:39+01:00",
+      "modified": "2015-03-10T09:23:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11698",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2015-03-10T09:23:39+01:00",
+      "modified": "2015-03-10T09:23:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11699",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2015-03-10T09:23:39+01:00",
+      "modified": "2015-03-10T09:23:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11700",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Anträge und Anfragen",
+      "created": "2015-03-10T09:23:39+01:00",
+      "modified": "2015-03-10T09:23:39+01:00"
+    }
+  ]
+}

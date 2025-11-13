@@ -1,0 +1,163 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5079",
+  "name": "Ortsrat Mahlerten (4. Sitzung)",
+  "start": "2022-11-08T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-10",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Mahlerten, Leunisstraße 16, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Leunisstraße 16",
+    "room": "Dorfgemeinschaftshaus Mahlerten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Mahlerten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T12:00:53+02:00",
+    "modified": "2019-06-06T11:57:30+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-17"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-35065",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2022-11-08",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWETINQij-77d_PoxKmh6OqBr88Qc_9wRR6FIp9S1Z7V/Bekanntmachung_Ortsrat_Mahlerten_08.11.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWETINQij-77d_PoxKmh6OqBr88Qc_9wRR6FIp9S1Z7V/Bekanntmachung_Ortsrat_Mahlerten_08.11.2022.pdf",
+    "created": "2022-10-25T19:00:11+02:00",
+    "modified": "2022-10-25T19:00:11+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-35589",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2022-11-08",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeHeq8KmP4iAtZAPME99OOnBr1CybkAMhctNMN7GHj92/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_08.11.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeHeq8KmP4iAtZAPME99OOnBr1CybkAMhctNMN7GHj92/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_08.11.2022.pdf",
+    "created": "2022-12-22T19:00:14+01:00",
+    "modified": "2022-12-22T19:00:14+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20281",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2022-07-27T11:52:42+02:00",
+      "modified": "2022-07-27T11:52:42+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20282",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2022-07-27T11:52:42+02:00",
+      "modified": "2022-07-27T11:52:42+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20283",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung desr Protokolls der Sitzung vom 10. Mai 2022",
+      "created": "2022-07-27T11:52:42+02:00",
+      "modified": "2022-07-27T11:52:42+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20286",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Mitteilungen der Verwaltung",
+      "created": "2022-07-27T11:52:42+02:00",
+      "modified": "2022-10-25T08:53:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20516",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht des Ortsrates über die Fragen der letzten Ortsratssitzungen\na) Verkehrssituation/Parksituation Leunisstraße ",
+      "created": "2022-10-25T08:54:26+02:00",
+      "modified": "2022-10-25T08:54:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20285",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2022-07-27T11:52:42+02:00",
+      "modified": "2022-10-25T08:54:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20517",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Aktueller Stand Baumaßnahmen\na) Regenrückhaltebecken\nb) Löschwassertank",
+      "created": "2022-10-25T08:55:21+02:00",
+      "modified": "2022-10-25T08:55:21+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20518",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Maßnahme Verkehrsberuhigung Aufsteller/Männchen",
+      "created": "2022-10-25T08:59:34+02:00",
+      "modified": "2022-10-25T08:59:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20519",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "B1 Ortsumgehung, Aktion: Was will Mahlerten?\n- \"Wer hat Interesse an einer Bürgerinitiative?\"",
+      "created": "2022-10-25T09:00:32+02:00",
+      "modified": "2022-10-25T09:00:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20520",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Investitionen: Anträge des Ortsrates Mahlerten für 2023 und folgende\na) Ausbau Tappenburg\nb) Bank auf Streuobstwiese\nc) Mülleimer Streuobstwiese\nd) Umprogrammierung Rot-Rot-Phase ",
+      "created": "2022-10-25T09:04:12+02:00",
+      "modified": "2022-10-25T09:04:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20493",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anhörung zum Haushaltsplan 2023 und zum Investitionsprogramm bis 2026 für die Ort-\nschaft Mahlerten",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7533",
+      "created": "2022-10-20T10:17:32+02:00",
+      "modified": "2022-10-20T10:17:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20287",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2022-07-27T11:52:42+02:00",
+      "modified": "2022-07-27T11:52:42+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20284",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Anfragen und Anregungen",
+      "created": "2022-07-27T11:52:42+02:00",
+      "modified": "2022-10-25T09:05:49+02:00"
+    }
+  ]
+}

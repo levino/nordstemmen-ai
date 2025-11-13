@@ -1,0 +1,177 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4357",
+  "name": "Ortsrat Groß Escherde (10. Sitzung)",
+  "start": "2019-10-22T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-12",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Groß Escherde, Schulstraße 9 a, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Schulstraße 9 a",
+    "room": "Dorfgemeinschaftshaus Groß Escherde, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Groß Escherde",
+    "locality": "Nordstemmen",
+    "created": "2005-04-07T10:37:20+02:00",
+    "modified": "2019-06-06T11:57:41+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-14"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-28247",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2019-10-22",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbM2jwvVWoYMlExbqm-rHU-OgHp_bM0w1TfTkXCDl00s/Bekanntmachung_Ortsrat_Gross_Escherde_22.10.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbM2jwvVWoYMlExbqm-rHU-OgHp_bM0w1TfTkXCDl00s/Bekanntmachung_Ortsrat_Gross_Escherde_22.10.2019.pdf",
+    "created": "2019-10-10T13:00:57+02:00",
+    "modified": "2019-10-10T13:00:57+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-28793",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2019-10-22",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVXB4AwyDI10eSYy17rw60sKphu-QEpfS6Zwm7o7Qrtd/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_22.10.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVXB4AwyDI10eSYy17rw60sKphu-QEpfS6Zwm7o7Qrtd/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_22.10.2019.pdf",
+    "created": "2019-12-10T17:25:35+01:00",
+    "modified": "2019-12-10T17:25:35+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16880",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2019-09-23T11:52:12+02:00",
+      "modified": "2019-09-23T11:52:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16881",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2019-09-23T11:52:12+02:00",
+      "modified": "2019-09-23T11:52:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16882",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 09. Mai 2019",
+      "created": "2019-09-23T11:52:12+02:00",
+      "modified": "2019-09-23T11:52:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16919",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Parksituation in Groß Escherde",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4558",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Groß Escherde Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2019-10-22",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWzgtmxZzMhKEDEmK4ovHTuOd4oRVInZ3lUB5mVFXtX8/OR_Gross_Escherde_Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWzgtmxZzMhKEDEmK4ovHTuOd4oRVInZ3lUB5mVFXtX8/OR_Gross_Escherde_Anlage_1.pdf",
+          "created": "2019-12-10T14:53:10+01:00",
+          "modified": "2019-12-10T14:53:10+01:00"
+        }
+      ],
+      "created": "2019-10-09T07:52:20+02:00",
+      "modified": "2019-10-09T08:10:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16883",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4560",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Groß Escherde Anlage 3)",
+          "mimeType": "application/pdf",
+          "date": "2019-10-22",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZasd2HeI1PvB3nV1dKfWCWpkdouqF8n0gM4WuF7Fd_j1/OR_Gross_Escherde_Anlage_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZasd2HeI1PvB3nV1dKfWCWpkdouqF8n0gM4WuF7Fd_j1/OR_Gross_Escherde_Anlage_3.pdf",
+          "created": "2019-12-10T14:53:10+01:00",
+          "modified": "2019-12-10T14:53:10+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4561",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Groß Escherde Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2019-10-22",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUgvQ-nSUYtIconGkYXBuClotBrEUV6k-uqYUkVBbVS8/OR_Gross_Escherde_Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUgvQ-nSUYtIconGkYXBuClotBrEUV6k-uqYUkVBbVS8/OR_Gross_Escherde_Anlage_2.pdf",
+          "created": "2019-12-10T17:25:35+01:00",
+          "modified": "2019-12-10T17:25:35+01:00"
+        }
+      ],
+      "created": "2019-09-23T11:52:12+02:00",
+      "modified": "2019-09-23T11:52:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16884",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2019-09-23T11:52:12+02:00",
+      "modified": "2019-09-23T11:52:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16885",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Einwohnerfragestunde",
+      "created": "2019-09-23T11:52:12+02:00",
+      "modified": "2019-10-09T08:08:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16918",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Werbetafel für Gewerbetreibende in Groß Escherde",
+      "created": "2019-10-09T07:51:55+02:00",
+      "modified": "2019-10-09T08:02:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16920",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Anhörung zum Haushaltsplan 2020 und zum Investitionsprogramm bis 2023 für die Ortschaft Groß Escherde",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6647",
+      "result": "Einstimmig angenommen",
+      "created": "2019-10-09T07:52:27+02:00",
+      "modified": "2019-10-09T07:52:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16886",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Anträge und Anfragen",
+      "created": "2019-09-23T11:52:12+02:00",
+      "modified": "2019-09-23T11:52:12+02:00"
+    }
+  ]
+}

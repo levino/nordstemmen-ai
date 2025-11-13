@@ -1,0 +1,219 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4667",
+  "name": "Ortsrat Nordstemmen (21. Sitzung)",
+  "start": "2021-05-18T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-8"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-31268",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Nordstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2021-05-18",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYH29VafbSBdvFW4QFgKBZTv1FLcvlh8xlpuCoBPczo-/Bekanntmachung_Ortsrat_Nordstemmen_18.05.2021.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYH29VafbSBdvFW4QFgKBZTv1FLcvlh8xlpuCoBPczo-/Bekanntmachung_Ortsrat_Nordstemmen_18.05.2021.pdf",
+    "created": "2021-05-11T15:57:04+02:00",
+    "modified": "2021-05-11T15:57:04+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-31413",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Nordstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2021-05-18",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZS9CMHlrImw809pvLGZfT8XM3sBeyS99TzJvhSefFP4y/Oeffentliche_Niederschrift_Ortsrat_Nordstemmen_18.05.2021.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZS9CMHlrImw809pvLGZfT8XM3sBeyS99TzJvhSefFP4y/Oeffentliche_Niederschrift_Ortsrat_Nordstemmen_18.05.2021.pdf",
+    "created": "2021-06-01T13:00:20+02:00",
+    "modified": "2021-06-01T13:00:20+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18608",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2021-05-04T14:12:22+02:00",
+      "modified": "2021-05-04T14:12:22+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18609",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2021-05-04T14:12:22+02:00",
+      "modified": "2021-05-04T14:12:22+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18610",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 19. April 2021",
+      "created": "2021-05-04T14:12:22+02:00",
+      "modified": "2021-05-04T14:12:22+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18611",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht bzw. Mitteilungen der Bürgermeisterin",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5132",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zu TOP 3 OR Protokoll Nordstemmen)",
+          "mimeType": "application/pdf",
+          "date": "2021-05-18",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZX1aOAP8j06zP6tVVfcDfL-qdnsxsWlcNPNoFxJz5s8P/Anlage_1_zu_TOP_3_OR_Protokoll_Nordstemmen.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZX1aOAP8j06zP6tVVfcDfL-qdnsxsWlcNPNoFxJz5s8P/Anlage_1_zu_TOP_3_OR_Protokoll_Nordstemmen.pdf",
+          "created": "2021-06-01T13:00:20+02:00",
+          "modified": "2021-06-01T13:00:20+02:00"
+        }
+      ],
+      "created": "2021-05-04T14:12:22+02:00",
+      "modified": "2021-05-04T14:12:22+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18612",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2021-05-04T14:12:22+02:00",
+      "modified": "2021-05-04T14:15:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18617",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Zukunft von drei Spielplätzen (Begehung vom 6. Mai 2021)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5186",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2 zu OR Protokoll Nordstemmen)",
+          "mimeType": "application/pdf",
+          "date": "2021-05-18",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRkKBydMmnLPeryWGByNw8-cSJDUb6qwkWm21ZpJSSMq/Anlage_2_zu_OR_Protokoll_Nordstemmen.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRkKBydMmnLPeryWGByNw8-cSJDUb6qwkWm21ZpJSSMq/Anlage_2_zu_OR_Protokoll_Nordstemmen.pdf",
+          "created": "2021-06-08T13:00:01+02:00",
+          "modified": "2021-06-08T13:00:01+02:00"
+        }
+      ],
+      "created": "2021-05-04T14:15:39+02:00",
+      "modified": "2021-05-04T14:20:33+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18613",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Erweiterung der Fahrradabstellanlage am Bahnhof Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7042",
+      "result": "einstimmig",
+      "created": "2021-05-04T14:12:22+02:00",
+      "modified": "2021-05-04T14:20:41+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18669",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Antrag des VfL auf Bezuschussung eines Trikotsatzes für Fußballbambinis\n- Beratung und Beschlussfassung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5118",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Antrag VfL)",
+          "mimeType": "application/pdf",
+          "date": "2021-05-18",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdS2Yeh8i85qZ7g0zweRyT_UMXXRCFjcWpYN4UcaDUGG/Antrag_VfL.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdS2Yeh8i85qZ7g0zweRyT_UMXXRCFjcWpYN4UcaDUGG/Antrag_VfL.pdf",
+          "created": "2021-05-11T15:57:04+02:00",
+          "modified": "2021-05-11T15:57:04+02:00"
+        }
+      ],
+      "created": "2021-05-11T15:18:50+02:00",
+      "modified": "2021-05-11T15:20:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18670",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Umgestaltung der Außenanlagen am Rathaus\n- Ausführungen werden in der Sitzung gemacht\n",
+      "created": "2021-05-11T15:20:03+02:00",
+      "modified": "2021-05-11T15:20:39+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18618",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2022 sowie für die mittelfristige Finanzplanung 2023 bis 2025\n(DS 34/2021)",
+      "created": "2021-05-04T14:17:28+02:00",
+      "modified": "2021-05-04T14:17:28+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18619",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Umwelttag am 22. Mai 2021",
+      "created": "2021-05-04T14:17:47+02:00",
+      "modified": "2021-05-04T14:17:47+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18614",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5134",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 3 zu TOP 11 OR Protokoll Nordstemmen)",
+          "mimeType": "application/pdf",
+          "date": "2021-05-18",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSQbnhHETiCr2DUat7EPEQJPwX4DXzhDK4uHQehsjd8H/Anlage_3_zu_TOP_11_OR_Protokoll_Nordstemmen.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSQbnhHETiCr2DUat7EPEQJPwX4DXzhDK4uHQehsjd8H/Anlage_3_zu_TOP_11_OR_Protokoll_Nordstemmen.pdf",
+          "created": "2021-06-01T13:00:20+02:00",
+          "modified": "2021-06-01T13:00:20+02:00"
+        }
+      ],
+      "created": "2021-05-04T14:12:22+02:00",
+      "modified": "2021-05-04T14:12:22+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18615",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Anträge und Anfragen",
+      "created": "2021-05-04T14:12:22+02:00",
+      "modified": "2021-05-04T14:12:22+02:00"
+    }
+  ]
+}

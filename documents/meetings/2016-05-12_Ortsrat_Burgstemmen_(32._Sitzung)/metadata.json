@@ -1,0 +1,158 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2682",
+  "name": "Ortsrat Burgstemmen (32. Sitzung)",
+  "start": "2016-05-12T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Burgstemmen, Sackstraße 2, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Sackstraße 2",
+    "room": "Feuerwehrhaus Burgstemmen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Burgstemmen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:33:23+02:00",
+    "modified": "2019-06-06T11:56:46+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-12"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-16115",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2016-05-12",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVpZzLyx5wsrjZEDx4q4up4Ecn3YuHQ2oec0z-22JVFH/Bekanntmachung_Ortsrat_Burgstemmen_12.05.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVpZzLyx5wsrjZEDx4q4up4Ecn3YuHQ2oec0z-22JVFH/Bekanntmachung_Ortsrat_Burgstemmen_12.05.2016.pdf",
+    "created": "2016-05-06T13:01:13+02:00",
+    "modified": "2016-05-09T13:00:53+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-16756",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2016-05-12",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeNQ0X1TIGWSIDlA43z1H860L2c9YIxvUWkrbOYUBlfZ/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_12.05.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeNQ0X1TIGWSIDlA43z1H860L2c9YIxvUWkrbOYUBlfZ/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_12.05.2016.pdf",
+    "created": "2016-08-05T13:01:53+02:00",
+    "modified": "2016-08-05T13:01:53+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12880",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2016-05-06T07:32:10+02:00",
+      "modified": "2016-05-09T08:11:10+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12881",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2016-05-06T07:32:10+02:00",
+      "modified": "2016-05-06T07:32:10+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12882",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 11. Februar 2016",
+      "created": "2016-05-06T07:32:10+02:00",
+      "modified": "2016-05-06T07:35:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12883",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2016-05-06T07:32:10+02:00",
+      "modified": "2016-05-06T07:39:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12888",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Anfrage an den Gemeinderat zur Erhöhung der Ortsratsmittel; Verdoppelung des Grundbetrages\n- Beratung und Beschlussfassung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1571",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Antrag Ortsbürgermeister/innen)",
+          "mimeType": "application/pdf",
+          "date": "2016-05-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRwCso4SVKtmShp7CflxintnDKz9c_qNK457n0wgQGjx/Antrag_Ortsbuergermeister-innen.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRwCso4SVKtmShp7CflxintnDKz9c_qNK457n0wgQGjx/Antrag_Ortsbuergermeister-innen.pdf",
+          "created": "2016-07-01T13:00:38+02:00",
+          "modified": "2016-07-01T13:00:38+02:00"
+        }
+      ],
+      "created": "2016-05-06T07:36:46+02:00",
+      "modified": "2016-05-06T07:36:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12889",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Nochmalige Beratung über die Herrichtung des Festplatzes am Neuen Weg in der Ortschaft Burgstemmen;\nBeratung und Empfehlung\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2016-05-06T07:37:52+02:00",
+      "modified": "2016-05-06T07:37:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12890",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Verkehrsgerechte Umgestaltung des Einmündungsbereiches \"Mühlenweg / K 503\" in der Gemarkung Burgstemmen\nBeratung und Empfehlung\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2016-05-06T07:38:59+02:00",
+      "modified": "2016-05-06T07:38:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13012",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Antrag auf Zuschuss der SVG Burgstemmen-Mahlerten",
+      "created": "2016-06-30T14:03:37+02:00",
+      "modified": "2016-06-30T14:03:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12884",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2016-05-06T07:32:10+02:00",
+      "modified": "2016-05-06T07:32:10+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12885",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2016-05-06T07:32:10+02:00",
+      "modified": "2016-05-06T07:32:10+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12886",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anträge und Anfragen",
+      "created": "2016-05-06T07:32:10+02:00",
+      "modified": "2016-05-06T07:32:10+02:00"
+    }
+  ]
+}

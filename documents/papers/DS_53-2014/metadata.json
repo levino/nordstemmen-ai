@@ -1,0 +1,55 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1002",
+  "reference": "DS 53/2014",
+  "name": "Sachstandsbericht 2013 / Seniorenarbeit KOMM e. V.",
+  "paperType": "Mitteilungsvorlage",
+  "date": "2014-10-09",
+  "mainFile": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-13135",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Mitteilungsvorlage (Sachstandsbericht 2013 / Seniorenarbeit KOMM e. V.)",
+    "mimeType": "application/pdf",
+    "date": "2014-10-09",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQvS0mMcoGdzrMk0QTAteM0hAFv4ceExBcBTi11h9c-H/Mitteilungsvorlage_DS_53-2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQvS0mMcoGdzrMk0QTAteM0hAFv4ceExBcBTi11h9c-H/Mitteilungsvorlage_DS_53-2014.pdf",
+    "created": "2014-09-08T19:00:29+02:00",
+    "modified": "2014-09-11T13:00:27+02:00"
+  },
+  "auxiliaryFile": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1151",
+      "type": "https://schema.oparl.org/1.1/File",
+      "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+      "name": "Mitteilungsvorlage (Anlage zur Mitteilungsvorlage DS 53/2014)",
+      "mimeType": "application/pdf",
+      "date": "2014-10-09",
+      "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaShRAP-1oH-pNQmNzk1LorM_nWFhz5zqCTnyKd4tAH1/Anlage_zur_Mitteilungsvorlage_DS_53-2014.pdf",
+      "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaShRAP-1oH-pNQmNzk1LorM_nWFhz5zqCTnyKd4tAH1/Anlage_zur_Mitteilungsvorlage_DS_53-2014.pdf",
+      "created": "2014-09-25T13:00:16+02:00",
+      "modified": "2014-09-25T13:00:16+02:00"
+    }
+  ],
+  "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2822",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11043",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2361",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-7"
+      ],
+      "created": "2014-09-02T13:46:03+02:00",
+      "modified": "2014-09-05T07:57:00+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2826",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-2"
+      ],
+      "created": "2014-09-02T13:46:58+02:00",
+      "modified": "2014-09-05T07:57:07+02:00"
+    }
+  ]
+}

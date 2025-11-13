@@ -1,0 +1,57 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5302",
+  "reference": "DS 30/2023",
+  "name": "Veröffentlichung von Baumfälllisten",
+  "paperType": "Beschlussvorlage",
+  "date": "2023-06-27",
+  "mainFile": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-36491",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Beschlussvorlage (Veröffentlichung von Baumfälllisten)",
+    "mimeType": "application/pdf",
+    "date": "2023-06-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZY8laYIySQ2bwplUTy15bKUQnktuwr-D6vLju7Fvgwfn/Beschlussvorlage_DS_30-2023.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZY8laYIySQ2bwplUTy15bKUQnktuwr-D6vLju7Fvgwfn/Beschlussvorlage_DS_30-2023.pdf",
+    "created": "2023-05-30T10:19:06+02:00",
+    "modified": "2023-08-10T19:00:17+02:00"
+  },
+  "auxiliaryFile": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6164",
+      "type": "https://schema.oparl.org/1.1/File",
+      "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+      "name": "Beschlussvorlage (Anlage DS 30_2023)",
+      "mimeType": "application/pdf",
+      "date": "2023-06-27",
+      "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWvJd_tTDuCg_PfY2qyZ_7v5lLbIm6Sz_ePb82khPWYv/Anlage_DS_30_2023.pdf",
+      "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWvJd_tTDuCg_PfY2qyZ_7v5lLbIm6Sz_ePb82khPWYv/Anlage_DS_30_2023.pdf",
+      "created": "2023-05-30T10:19:06+02:00",
+      "modified": "2023-05-30T10:19:06+02:00"
+    }
+  ],
+  "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7715",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21218",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5208",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-40"
+      ],
+      "created": "2023-05-15T08:42:00+02:00",
+      "modified": "2023-05-15T08:45:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7717",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21242",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5217",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2023-05-15T08:42:00+02:00",
+      "modified": "2023-05-15T08:45:10+02:00"
+    }
+  ]
+}

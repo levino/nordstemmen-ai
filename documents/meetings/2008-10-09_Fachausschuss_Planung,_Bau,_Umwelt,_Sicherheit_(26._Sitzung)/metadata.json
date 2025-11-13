@@ -1,0 +1,142 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1187",
+  "name": "Fachausschuss Planung, Bau, Umwelt, Sicherheit (26. Sitzung)",
+  "start": "2008-10-09T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-6"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-3161",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Planung, Bau, Umwelt, Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2008-10-09",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZekep8yBAppdYatHLm5sJB5SvsP9--KKygpfvc0M3mrq/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_09.10.2008.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZekep8yBAppdYatHLm5sJB5SvsP9--KKygpfvc0M3mrq/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_09.10.2008.pdf",
+    "created": "2009-02-11T14:06:44+01:00",
+    "modified": "2009-02-11T14:06:44+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3911",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2008-09-23T12:28:25+02:00",
+      "modified": "2008-09-23T12:28:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3912",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2008-09-23T12:28:25+02:00",
+      "modified": "2008-09-23T12:28:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3913",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 11. September 2008",
+      "created": "2008-09-23T12:28:25+02:00",
+      "modified": "2008-09-23T12:28:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3919",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bebauungsplan Nr. 0103 A \"Schratfeld\", 6. Änderung, Ortschaft Nordstemmen\n- Satzungsbeschluss -\n(DS 56/2008; wird nachgereicht)",
+      "created": "2008-09-23T12:30:10+02:00",
+      "modified": "2008-09-23T12:30:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3920",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bebauungsplan Nr. 0120 \"Hauptstraße-Mitte III\", 1. Änderung,\nOrtschaft Nordstemmen\n- Satzungsbeschluss -\n(DS 57/2008; wird nachgereicht)",
+      "created": "2008-09-23T13:39:38+02:00",
+      "modified": "2008-09-23T13:39:38+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3921",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bebauungsplan Nr. 0129 A \"ÖPNV-Haltepunkt Bahnhof Nordstemmen II\",\nOrtschaft Nordstemmen\n- Satzungsbeschluss -\n(DS 58/2008; wird nachgereicht)",
+      "created": "2008-09-23T13:40:42+02:00",
+      "modified": "2008-09-23T13:40:42+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3922",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bebauungsplan Nr. 306 \"Barnten-Süd III\", 1. Änderung\n- Vorstellung des ersten Vorentwurfs -",
+      "created": "2008-09-23T13:41:40+02:00",
+      "modified": "2008-09-23T13:41:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4783",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Antrag der Firma Bioenergie Adensen GmbH & Co. KG auf Aufstellung der 19. Änderung des Flächennutzungsplanes der Gemeinde Nordstemmen (Krummer Kump) sowie des Bebauungsplanes Nr. 0207 \"Krummer Kump\", Ortschaft Adensen\n\n- Aufstellungsbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/805",
+      "created": "2009-08-12T09:14:19+02:00",
+      "modified": "2009-08-12T09:14:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4782",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Antrag der Metallgießerei Werner Schiermann auf Aufstellung des Bebauungsplanes Nr. 0412 \"Gießerei Schiermann\", Ortschaft Burgstemmen\n\n- Aufstellungsbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/808",
+      "created": "2009-08-12T09:13:39+02:00",
+      "modified": "2009-08-12T09:13:39+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3915",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2008-09-23T12:28:25+02:00",
+      "modified": "2008-09-23T12:28:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3916",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Behandlung von Anfragen",
+      "created": "2008-09-23T12:28:25+02:00",
+      "modified": "2008-09-23T12:28:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3917",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Anregungen",
+      "created": "2008-09-23T12:28:25+02:00",
+      "modified": "2008-09-23T12:28:25+02:00"
+    }
+  ]
+}

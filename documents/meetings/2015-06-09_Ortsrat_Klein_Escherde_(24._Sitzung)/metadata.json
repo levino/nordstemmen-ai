@@ -1,0 +1,154 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2490",
+  "name": "Ortsrat Klein Escherde (24. Sitzung)",
+  "start": "2015-06-09T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-9",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Klein Escherde, Eschestraße 3, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Eschestraße 3",
+    "room": "Feuerwehrhaus Klein Escherde, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Klein Escherde",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:54:15+02:00",
+    "modified": "2019-06-06T11:56:23+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-16"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-14407",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2015-06-09",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQaJOp3y1VoUwwsU0pFsYleC7AjZ_Iohl_eiFi8RApKG/Bekanntmachung_Ortsrat_Klein_Escherde_09.06.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQaJOp3y1VoUwwsU0pFsYleC7AjZ_Iohl_eiFi8RApKG/Bekanntmachung_Ortsrat_Klein_Escherde_09.06.2015.pdf",
+    "created": "2015-05-29T13:01:06+02:00",
+    "modified": "2015-05-29T13:01:06+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-14927",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2015-06-09",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfWnFYSYL5x-PNJBvKmVTU54VcS3VfMoCZqa7ghXNrGe/Oeffentliche_Niederschrift_Ortsrat_Klein_Escherde_09.06.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfWnFYSYL5x-PNJBvKmVTU54VcS3VfMoCZqa7ghXNrGe/Oeffentliche_Niederschrift_Ortsrat_Klein_Escherde_09.06.2015.pdf",
+    "created": "2015-10-20T13:00:53+02:00",
+    "modified": "2015-10-20T13:00:53+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11835",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2015-05-28T13:42:23+02:00",
+      "modified": "2015-05-28T13:42:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11836",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2015-05-28T13:42:23+02:00",
+      "modified": "2015-05-28T13:42:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11837",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 17. Februar 2015",
+      "created": "2015-05-28T13:42:23+02:00",
+      "modified": "2015-05-28T13:42:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11838",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2015-05-28T13:42:23+02:00",
+      "modified": "2015-05-28T13:42:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11843",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Ersatzbeschaffung eines \"Weihnachtsbaums\" - Buswendeschleife\n- Beratung und Beschlussfassung",
+      "created": "2015-05-28T13:43:26+02:00",
+      "modified": "2015-05-28T13:43:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11844",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Aufstellung eines \"Hundekotbeutelspenders\" am Escherder Kirchweg - dorfseitig (Kosten und Handling)\n- Beratung und Beschlussfassung",
+      "created": "2015-05-28T13:44:49+02:00",
+      "modified": "2015-05-28T13:44:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11839",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1404",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 - 4 zu Ortsrat Klein Escherde 09.06.2015)",
+          "mimeType": "application/pdf",
+          "date": "2015-06-09",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZS2OeKXWFVaPKlxXW2OKHeBcFLAniMVeFtp3xEVblH52/Anlage_1_-_4_zu_Ortsrat_Klein_Escherde_09.06.2015.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZS2OeKXWFVaPKlxXW2OKHeBcFLAniMVeFtp3xEVblH52/Anlage_1_-_4_zu_Ortsrat_Klein_Escherde_09.06.2015.pdf",
+          "created": "2015-10-16T13:00:21+02:00",
+          "modified": "2015-10-16T13:00:21+02:00"
+        }
+      ],
+      "created": "2015-05-28T13:42:23+02:00",
+      "modified": "2015-05-28T13:42:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11840",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2015-05-28T13:42:23+02:00",
+      "modified": "2015-05-28T13:42:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11841",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Anträge und Anfragen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1405",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 5 zu Ortsrat Klein Escherde 09.06.2015)",
+          "mimeType": "application/pdf",
+          "date": "2015-06-09",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYYAcHn5LSpW4bnDFvpABYCnrIpStbSvl7iwkp-davsG/Anlage_5_zu_Ortsrat_Klein_Escherde_09.06.2015.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYYAcHn5LSpW4bnDFvpABYCnrIpStbSvl7iwkp-davsG/Anlage_5_zu_Ortsrat_Klein_Escherde_09.06.2015.pdf",
+          "created": "2015-10-16T13:00:21+02:00",
+          "modified": "2015-10-16T13:00:21+02:00"
+        }
+      ],
+      "created": "2015-05-28T13:42:23+02:00",
+      "modified": "2015-05-28T13:42:23+02:00"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1812",
+  "name": "Ortsrat Heyersum (15. Sitzung)",
+  "start": "2012-02-23T19:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-8",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Altes Schulhaus Heyersum, Martin-Luther-Platz 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Martin-Luther-Platz 3",
+    "room": "Altes Schulhaus Heyersum, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Heyersum",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:37:30+02:00",
+    "modified": "2019-10-24T16:49:00+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-13"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-7745",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2012-02-23",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbE8LdN9yHPs2xxKq08vQkmm6kjvegeUowshGaFCWlsT/Bekanntmachung_Ortsrat_Heyersum_23.02.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbE8LdN9yHPs2xxKq08vQkmm6kjvegeUowshGaFCWlsT/Bekanntmachung_Ortsrat_Heyersum_23.02.2012.pdf",
+    "created": "2012-02-15T11:55:26+01:00",
+    "modified": "2012-02-15T11:55:26+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-7959",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2012-02-23",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZzg6mxb8X0pHGFDhpKJ_vmGja9CqdOxQWtbepI-wyJy/Oeffentliche_Niederschrift_Ortsrat_Heyersum_23.02.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZzg6mxb8X0pHGFDhpKJ_vmGja9CqdOxQWtbepI-wyJy/Oeffentliche_Niederschrift_Ortsrat_Heyersum_23.02.2012.pdf",
+    "created": "2012-03-22T17:52:51+01:00",
+    "modified": "2012-03-22T17:52:51+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8071",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2012-02-13T11:29:51+01:00",
+      "modified": "2012-02-13T11:29:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8072",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2012-02-13T11:29:51+01:00",
+      "modified": "2012-02-13T11:29:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8073",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 17.11.2011",
+      "created": "2012-02-13T11:29:51+01:00",
+      "modified": "2012-02-13T11:29:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8074",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2012-02-13T11:29:51+01:00",
+      "modified": "2012-02-13T11:29:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8075",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Anhörung zum doppischen Haushalt für die Haushaltsjahre 2012 bis 2015 / Investitionstätigkeit in der Ortschaft Heyersum",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1799",
+      "created": "2012-02-13T11:29:51+01:00",
+      "modified": "2012-02-13T11:29:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8081",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Gestaltung der Grünflächen im Zusammenhang mit dem Ausbau der Gronauer Straße (K 507 - Ortsdurchfahrt Heyersum)\n- Beratung und Beschlussfassung\n(siehe Anlage 1)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-654",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2012-02-23",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVCvXMwlEO7F1a5GRArYdRunC1RSOxycuqOwNua1zEWz/Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVCvXMwlEO7F1a5GRArYdRunC1RSOxycuqOwNua1zEWz/Anlage_1.pdf",
+          "created": "2012-03-19T11:57:05+01:00",
+          "modified": "2012-03-19T11:57:05+01:00"
+        }
+      ],
+      "created": "2012-02-13T11:34:35+01:00",
+      "modified": "2012-02-13T11:34:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8082",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Erarbeitung eines Gestaltungsvorschlages für das Grundstück des Ehrenmales\n- Beratung und ggf. Beschlussfassung",
+      "created": "2012-02-13T11:35:20+01:00",
+      "modified": "2012-02-13T11:35:20+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8083",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Behandlung weiterer innerörtlicher Angelegenheiten\nBeschilderung und Wegweisungen zu den öffentlichen Einrichtungen\nErneuerung der Markierung Zone 30 auf den Fahrbahnen\nGestaltung rund um den Dorfteich einschließlich neuer Farbanstrich des Geländers\nÜberprüfung Zustand Kinderspielplatz Riethwinkel und evtl. durchzuführende Maßnahmen\nAufstellung eines Schaukastens auf dem Gelände des Kinderspielplatzes Riethwinkel\n- Beratung und Beschlussfassung; weitere Ausführungen werden in der Sitzung gemacht",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-655",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2012-02-23",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcFLAtIGKMsvptMKIVKuvIWZK_51XlnhC_MPvW5fovRG/Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcFLAtIGKMsvptMKIVKuvIWZK_51XlnhC_MPvW5fovRG/Anlage_2.pdf",
+          "created": "2012-03-19T11:57:05+01:00",
+          "modified": "2012-03-19T11:57:05+01:00"
+        }
+      ],
+      "created": "2012-02-13T11:39:22+01:00",
+      "modified": "2012-02-13T11:39:22+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8084",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Verwendung der im Haushaltsjahr 2012 zur Verfügung stehenden Ortsratsmittel\n- Beratung und Beschlussfassung\n(siehe Anlage 2)",
+      "created": "2012-02-13T11:58:24+01:00",
+      "modified": "2012-02-13T11:58:24+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8076",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Mitteilungen des Bürgermeisters\n- gemeindeeigene Grünflächen Begutachtung und Kontrolle durch den Bauhof, Umsetzung und Aufbereitung einer pflegeleichten Gestaltung\n- Sandaustausch in den Sandkästen auf den Spielplätzen (wann bzw. wie oft)",
+      "created": "2012-02-13T11:29:51+01:00",
+      "modified": "2012-02-13T11:29:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8077",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Mitteilungen der Ortsbürgermeisterin",
+      "created": "2012-02-13T11:29:51+01:00",
+      "modified": "2012-02-13T11:29:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8078",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Behandlung von schriftlichen Anfragen und Anträgen",
+      "created": "2012-02-13T11:29:51+01:00",
+      "modified": "2012-02-13T11:29:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8079",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Anregungen",
+      "created": "2012-02-13T11:29:51+01:00",
+      "modified": "2012-02-13T11:29:51+01:00"
+    }
+  ]
+}

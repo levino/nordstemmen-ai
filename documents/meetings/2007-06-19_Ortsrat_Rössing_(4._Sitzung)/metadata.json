@@ -1,0 +1,176 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/835",
+  "name": "Ortsrat Rössing (4. Sitzung)",
+  "start": "2007-06-19T20:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-11",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Gaststätte \"Alt Rössinger Saal\", Maschstraße 1, 31171 Nordstemmen, Clubraum",
+    "streetAddress": "Maschstraße 1",
+    "room": "Gaststätte \"Alt Rössinger Saal\", Clubraum",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T12:02:32+02:00",
+    "modified": "2017-09-12T17:09:38+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-1062",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2007-06-19",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbwocO9MOk9bLfmd-j6EGaBE8nY6svERxPbeX2oYNsWM/Bekanntmachung_Ortsrat_Roessing_19.06.2007.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbwocO9MOk9bLfmd-j6EGaBE8nY6svERxPbeX2oYNsWM/Bekanntmachung_Ortsrat_Roessing_19.06.2007.pdf",
+    "created": "2007-06-11T08:15:25+02:00",
+    "modified": "2007-06-11T08:15:25+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1548",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2007-06-08T11:09:12+02:00",
+      "modified": "2007-06-08T11:09:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1549",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Tagesordnung\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2007-06-08T11:09:12+02:00",
+      "modified": "2007-06-08T11:09:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1550",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 06.03.2007",
+      "created": "2007-06-08T11:09:12+02:00",
+      "modified": "2007-06-08T11:09:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1551",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2007-06-08T11:09:12+02:00",
+      "modified": "2007-06-08T11:09:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1556",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Anhörung des Ortsrates zum Endausbau eines Teilabschnittes der Straße \"Jägerweg\" im Rahmen der Ersterschließung\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2007-06-08T11:11:21+02:00",
+      "modified": "2007-06-08T11:11:21+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1557",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Anhörung des Ortsrates zur Straßenausbaumaßnahme \"Am Nordbruch\"\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2007-06-08T11:12:18+02:00",
+      "modified": "2007-06-08T11:12:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1558",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Aktueller Zustand und Zukunft des Hochzeitswäldchens\n(Ausführungen werden in der Sitzung gemacht)\n- Beratung und Beschlussfassung",
+      "created": "2007-06-08T11:13:25+02:00",
+      "modified": "2007-06-08T11:13:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1559",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Spende des Ortsrates für die Nutzung des Dorfgemeinschaftshauses Rössing\n(Ausführungen werden in der Sitzung gemacht)\n- Beratung und Beschlussfassung",
+      "created": "2007-06-08T11:14:28+02:00",
+      "modified": "2007-06-08T11:14:28+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1560",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Ersatz des beschädigten Zaunes am Dorfgemeinschaftshaus Rössing\n(Ausführungen werden in der Sitzung gemacht)\n- Beratung und Beschlussfassung",
+      "created": "2007-06-08T11:15:26+02:00",
+      "modified": "2007-06-08T11:15:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1561",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Empfehlung des Ortsrates, die \"Karlstraße\" zur unechten Einbahnstraße zu deklarieren\n(Ausführungen werden in der Sitzung gemacht)\n- Beratung und Empfehlung",
+      "created": "2007-06-08T11:16:41+02:00",
+      "modified": "2007-06-08T11:16:41+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1562",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Verkehrssicherheit in der \"Clausstraße\"\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2007-06-08T11:17:37+02:00",
+      "modified": "2007-06-08T11:17:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1563",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Zukunft der Skateranlage Rössing\n(Ausführungen werden in der Sitzung gemacht)\n- Beratung und Beschlussfassung",
+      "created": "2007-06-08T11:18:27+02:00",
+      "modified": "2007-06-08T11:18:27+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1552",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Mitteilungen des Bürgermeisters / der Ortsbürgermeisterin\n- Bahnsteigbrücke am Haltepunkt Barnten\n- Information zur Bürgerstiftung Rössing",
+      "created": "2007-06-08T11:09:12+02:00",
+      "modified": "2007-06-08T11:18:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1565",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Behandlung von Anfragen",
+      "created": "2007-06-08T11:23:32+02:00",
+      "modified": "2007-06-08T11:26:42+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1554",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Anregungen",
+      "created": "2007-06-08T11:09:12+02:00",
+      "modified": "2007-06-08T11:09:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1564",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Vorstellung der ehrenamtlichen Gleichstellungsbeauftragten",
+      "created": "2007-06-08T11:20:17+02:00",
+      "modified": "2007-06-08T11:20:17+02:00"
+    }
+  ]
+}

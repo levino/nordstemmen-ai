@@ -1,0 +1,334 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5012",
+  "name": "Rat (3. Sitzung)",
+  "start": "2022-03-29T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-12",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Groß Escherde, Schulstraße 9 a, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Schulstraße 9 a",
+    "room": "Dorfgemeinschaftshaus Groß Escherde, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Groß Escherde",
+    "locality": "Nordstemmen",
+    "created": "2005-04-07T10:37:20+02:00",
+    "modified": "2019-06-06T11:57:41+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-33699",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2022-03-29",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYAjY2dZjOKVv9yKpEC9ovk4Gl9_W4_HyJIgO6Ichmw_/Bekanntmachung_Rat_29.03.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYAjY2dZjOKVv9yKpEC9ovk4Gl9_W4_HyJIgO6Ichmw_/Bekanntmachung_Rat_29.03.2022.pdf",
+    "created": "2022-03-18T10:13:54+01:00",
+    "modified": "2022-03-18T10:13:54+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-33887",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2022-03-29",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZacfnYQopSLjdFE4VObN_Ybp5KXbmhqdDSvwfOaqgsCl/Oeffentliche_Niederschrift_Rat_29.03.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZacfnYQopSLjdFE4VObN_Ybp5KXbmhqdDSvwfOaqgsCl/Oeffentliche_Niederschrift_Rat_29.03.2022.pdf",
+    "created": "2022-04-14T19:00:29+02:00",
+    "modified": "2022-07-01T13:00:29+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19743",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2022-02-14T10:40:32+01:00",
+      "modified": "2022-02-14T10:40:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19744",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2022-02-14T10:40:32+01:00",
+      "modified": "2022-02-14T10:40:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19745",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 21. Dezember 2021",
+      "created": "2022-02-14T10:40:32+01:00",
+      "modified": "2022-03-14T13:28:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19746",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht der Bürgermeisterin über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5567",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zur Niederschrift der Sitzung)",
+          "mimeType": "application/pdf",
+          "date": "2022-03-29",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeEDKd6zsMy5rLhfFuvx3VbyjM-urouayJvX8L6JlLY3/Anlage_1_zur_Niederschrift_der_Sitzung.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeEDKd6zsMy5rLhfFuvx3VbyjM-urouayJvX8L6JlLY3/Anlage_1_zur_Niederschrift_der_Sitzung.pdf",
+          "created": "2022-04-14T19:00:29+02:00",
+          "modified": "2022-04-14T19:00:29+02:00"
+        }
+      ],
+      "created": "2022-02-14T10:40:32+01:00",
+      "modified": "2022-02-14T10:40:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19747",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2022-02-14T10:40:32+01:00",
+      "modified": "2022-02-14T10:40:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19881",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Ernennung von Führungskräften der Feuerwehr",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7317",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2022-03-14T13:29:15+01:00",
+      "modified": "2022-03-14T13:29:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19872",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Erweiterung des Fachausschusses Finanzen, Wirtschaftsförderung, Marketing und Feuerschutz um ein sachverständiges Mitglied mit beratender Stimme",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7334",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2022-03-14T11:48:10+01:00",
+      "modified": "2022-03-14T13:30:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19877",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Richtlinie für Ehrungen durch die Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7352",
+      "created": "2022-03-14T11:51:35+01:00",
+      "modified": "2022-03-14T13:31:03+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19749",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Unterrichtung über die Veränderungen von Kommunaldarlehen gemäß § 7 der Richtlinie der Gemeinde Nordstemmen für die Aufnahme von Krediten und zur Umschuldung von Krediten vom 01.10.2018",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7311",
+      "created": "2022-02-14T10:40:32+01:00",
+      "modified": "2022-03-14T13:31:44+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19876",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Einbindung der Gemeinde Nordstemmen in die Anteilseignerstruktur der Überlandwerk\nLeinetal GmbH",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7350",
+      "created": "2022-03-14T11:51:26+01:00",
+      "modified": "2022-03-14T13:32:42+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19885",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9.1",
+      "order": 11,
+      "name": "Einbindung der Gemeinde Nordstemmen in die Anteilseignerstruktur der Überlandwerk\nLeinetal GmbH",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7369",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2022-03-23T08:08:17+01:00",
+      "modified": "2022-03-23T08:08:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19748",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Angebot zum Erwerb einer Grünanlage",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7294",
+      "created": "2022-02-14T10:40:32+01:00",
+      "modified": "2022-02-14T10:40:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19883",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10.2",
+      "order": 13,
+      "name": "Angebot zum Erwerb einer Grünanlage",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7367",
+      "created": "2022-03-17T16:12:31+01:00",
+      "modified": "2022-03-17T16:12:36+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19884",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10.3",
+      "order": 14,
+      "name": "Angebot zum Erwerb einer Grünanlage",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7368",
+      "result": "zu b) = 17 Ja-Stimmen, 1 Nein-Stimme, 9 Enthaltungenzu c) = 17 Ja-Stimmen, 10 Enthaltungenzu d) = 17 Ja-Stimmen, 3 Nein-Stimmen, 7 Enthaltungenalle lt. .Beschlussvorschlag",
+      "created": "2022-03-23T08:06:37+01:00",
+      "modified": "2022-03-23T08:06:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19868",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 15,
+      "name": "Bewahrung und Förderung des öffentlichen Grüns;\nAntrag der Fraktion Bündnis 90/ Die Grünen vom 26.11.2020",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7325",
+      "result": "mehrheitlich bei 21 Ja-Stimmen, 3 Nein-Stimmen, 3 Enthaltungen",
+      "created": "2022-03-14T11:46:52+01:00",
+      "modified": "2022-03-14T13:33:17+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19874",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 16,
+      "name": "Einbeziehungssatzung gemäß § 34 Absatz 4 Satz 1 Nr. 3 BauGB, Ortschaft Groß Escherde (Klintstraße)\n- erneute (2.) öffentliche Auslegung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7343",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2022-03-14T11:48:28+01:00",
+      "modified": "2022-03-14T13:33:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19875",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 17,
+      "name": "Maßnahmenbeschluss für den Ausbau der Gemeindeverbindungsstraße Barnten-Nordstemmen, 5. Bauabschnitt",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7346",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2022-03-14T11:51:14+01:00",
+      "modified": "2022-03-14T13:34:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19751",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 18,
+      "name": "Freizeitbad Nordstemmen;\nErgebnis der Freibadsaison 2021",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7301",
+      "created": "2022-02-14T10:40:32+01:00",
+      "modified": "2022-03-14T13:34:30+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19869",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 19,
+      "name": "Freizeitbad Nordstemmen; Freibadsaison 2022 und Folgejahre unter Pandemiebedingungen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7328",
+      "created": "2022-03-14T11:47:02+01:00",
+      "modified": "2022-03-14T13:34:49+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19870",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15.4",
+      "order": 20,
+      "name": "Freizeitbad Nordstemmen; Freibadsaison 2022 \n",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7354",
+      "created": "2022-03-14T11:47:12+01:00",
+      "modified": "2022-03-14T11:47:48+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19899",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15.5",
+      "order": 21,
+      "name": "Freizeitbad Nordstemmen; Freibadsaison 2022 ",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7370",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2022-03-30T09:01:08+02:00",
+      "modified": "2022-03-30T09:01:08+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19871",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 22,
+      "name": "Freizeitbad Nordstemmen; Entgeltfestsetzung für (Anfänger-)Schwimmkurse",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7331",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2022-03-14T11:47:57+01:00",
+      "modified": "2022-03-14T13:34:57+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19750",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 23,
+      "name": "Erweiterung des Platzangebots um 15 Dreivierteltagsplätze in der AWO Kita Heyersum",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7298",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2022-02-14T10:40:32+01:00",
+      "modified": "2022-02-14T10:40:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19752",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "18",
+      "order": 24,
+      "name": "Anpassung der entgeltfreien Betreuungszeit von 8,5 auf 8 Stunden im Bereich Kindertagesstätten",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7322",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2022-02-14T10:40:32+01:00",
+      "modified": "2022-02-14T10:40:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19879",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "19",
+      "order": 25,
+      "name": "Ausbau der Kindertagesbetreuung; Festlegung von Betreuungsquoten in der Kinderbetreuung und Ausbauzielen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7358",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2022-03-14T11:52:00+01:00",
+      "modified": "2022-03-14T11:52:24+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19753",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "20",
+      "order": 26,
+      "name": "Mitteilungen bzw. Bericht der Bürgermeisterin",
+      "created": "2022-02-14T10:40:32+01:00",
+      "modified": "2022-02-14T10:40:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19754",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "21",
+      "order": 27,
+      "name": "Anträge und Anfragen",
+      "created": "2022-02-14T10:40:32+01:00",
+      "modified": "2022-02-14T10:40:32+01:00"
+    }
+  ]
+}

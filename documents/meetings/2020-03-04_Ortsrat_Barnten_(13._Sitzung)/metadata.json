@@ -1,0 +1,261 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4440",
+  "name": "Ortsrat Barnten (13. Sitzung)",
+  "start": "2020-03-04T18:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-5",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Barnten, Glückaufstraße 1, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Glückaufstraße 1",
+    "room": "Dorfgemeinschaftshaus Barnten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Barnten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:29:00+02:00",
+    "modified": "2019-06-06T11:57:52+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-10"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-29005",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2020-03-04",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZR06o9eiC1EIrz5ZFl-g6CQIS9a3YSmn2yOUVh3e7hr2/Bekanntmachung_Ortsrat_Barnten_04.03.2020.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZR06o9eiC1EIrz5ZFl-g6CQIS9a3YSmn2yOUVh3e7hr2/Bekanntmachung_Ortsrat_Barnten_04.03.2020.pdf",
+    "created": "2020-02-19T19:00:50+01:00",
+    "modified": "2020-02-19T19:00:50+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-29409",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2020-03-04",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeuUKY7RKkRq4pYh6LMWs-wU8xSBOd48dRdr22geb8ts/Oeffentliche_Niederschrift_Ortsrat_Barnten_04.03.2020.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeuUKY7RKkRq4pYh6LMWs-wU8xSBOd48dRdr22geb8ts/Oeffentliche_Niederschrift_Ortsrat_Barnten_04.03.2020.pdf",
+    "created": "2020-03-26T19:00:20+01:00",
+    "modified": "2020-03-26T19:00:20+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17299",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2020-02-18T08:35:21+01:00",
+      "modified": "2020-02-18T08:35:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17300",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2020-02-18T08:35:21+01:00",
+      "modified": "2020-02-18T08:35:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17301",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 30. Oktober 2019",
+      "created": "2020-02-18T08:35:21+01:00",
+      "modified": "2020-02-18T08:35:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17302",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4713",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (2020-03-04 OR Barnten - Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2020-03-04",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdnXIMepyIwRM6s0gC1ke5znJHC-wVnrc-NuqLCy2Is2/2020-03-04_OR_Barnten_-_Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdnXIMepyIwRM6s0gC1ke5znJHC-wVnrc-NuqLCy2Is2/2020-03-04_OR_Barnten_-_Anlage_1.pdf",
+          "created": "2020-03-24T11:29:20+01:00",
+          "modified": "2020-03-24T11:29:20+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4714",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (2020-03-04 OR Barnten - Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2020-03-04",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYaC80bKrpBwc3zgI_gZsuTgkgsceg5TfG0SOKVmNJaV/2020-03-04_OR_Barnten_-_Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYaC80bKrpBwc3zgI_gZsuTgkgsceg5TfG0SOKVmNJaV/2020-03-04_OR_Barnten_-_Anlage_2.pdf",
+          "created": "2020-03-24T11:29:20+01:00",
+          "modified": "2020-03-24T11:29:20+01:00"
+        }
+      ],
+      "created": "2020-02-18T08:35:21+01:00",
+      "modified": "2020-02-18T08:35:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17303",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2020-02-18T08:35:21+01:00",
+      "modified": "2020-02-18T08:35:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17308",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Verabschiedung vom Ortsheimatpfleger Günter Schulz und Begrüßung der neuen Ortsheimatpflegerin Kordula Schmidt",
+      "created": "2020-02-18T08:36:44+01:00",
+      "modified": "2020-02-18T08:36:44+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17309",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bericht des Schiedsmannes über seine Arbeit im Ort",
+      "created": "2020-02-18T08:37:12+01:00",
+      "modified": "2020-02-18T08:37:12+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17311",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Weitere finanzielle Unterstützung von Vereinen und Verbänden bei Veranstaltungen im DGH\n- Beratung und Beschlussfassung\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2020-02-18T08:42:23+01:00",
+      "modified": "2020-02-18T08:42:23+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17312",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Termin für die Ortsbegehung 2020\n- Beratung und Beschlussfassung\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2020-02-18T08:48:20+01:00",
+      "modified": "2020-02-18T08:48:20+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17313",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Antrag über den Bau einer Boule-Bahn\n- Beratung und Beschlussfassung\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2020-02-18T08:49:00+01:00",
+      "modified": "2020-02-18T08:49:00+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17314",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Umwelttag am 21. März 2020\n- Beratung und Beschlussfassung\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2020-02-18T08:49:53+01:00",
+      "modified": "2020-02-18T08:49:53+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17315",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Vergabe der Ortsratsmittel im Haushaltsjahr 2020\n- Beratung und Beschlussfassung\n(Ausführungen werden in der Sitzung gemacht)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4715",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (2020-03-04 OR Barnten - Anlage 3)",
+          "mimeType": "application/pdf",
+          "date": "2020-03-04",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfVCFrNeebzyagKj30aki8FA9d6AWI_XIO3hrWpVp7um/2020-03-04_OR_Barnten_-_Anlage_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfVCFrNeebzyagKj30aki8FA9d6AWI_XIO3hrWpVp7um/2020-03-04_OR_Barnten_-_Anlage_3.pdf",
+          "created": "2020-03-24T11:29:20+01:00",
+          "modified": "2020-03-24T11:29:20+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4716",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (850 Jahre Barnten)",
+          "mimeType": "application/pdf",
+          "date": "2020-03-04",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYQ_gT4emqZ0VBPRkQHl-stdq7PELFIC1svmD1D1JOls/850_Jahre_Barnten.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYQ_gT4emqZ0VBPRkQHl-stdq7PELFIC1svmD1D1JOls/850_Jahre_Barnten.pdf",
+          "created": "2020-03-24T11:29:20+01:00",
+          "modified": "2020-03-24T11:29:20+01:00"
+        }
+      ],
+      "created": "2020-02-18T08:51:19+01:00",
+      "modified": "2020-02-18T08:51:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17316",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Postzustellung in der Ortschaft Barnten\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2020-02-18T08:52:15+01:00",
+      "modified": "2020-02-18T08:52:15+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17317",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Parksituation in der Landesstraße\n- Beratung und Empfehlung\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2020-02-18T08:52:59+01:00",
+      "modified": "2020-02-18T08:52:59+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17304",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Haushaltsplan 2020 und Investitionsprogramm bis 2023 für die Ortschaft Barnten",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6720",
+      "result": "Zustimmend zur Kenntnis genommen",
+      "created": "2020-02-18T08:35:21+01:00",
+      "modified": "2020-02-18T08:35:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17318",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Öffentliche Telefonie in Barnten; Anfrage der Telekom zum Abbau des öffentlichen Telefons am Bahnhaltepunkt\n- Beratung und Beschlussfassung\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2020-02-18T10:03:15+01:00",
+      "modified": "2020-02-18T10:03:15+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17305",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 17,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2020-02-18T08:35:21+01:00",
+      "modified": "2020-02-18T08:35:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17306",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 18,
+      "name": "Anträge und Anfragen",
+      "created": "2020-02-18T08:35:21+01:00",
+      "modified": "2020-02-18T08:35:21+01:00"
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4783",
+  "name": "Ortsrat Burgstemmen (1. Sitzung)",
+  "start": "2021-11-25T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Burgstemmen, Sackstraße 2, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Sackstraße 2",
+    "room": "Feuerwehrhaus Burgstemmen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Burgstemmen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:33:23+02:00",
+    "modified": "2019-06-06T11:56:46+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-12"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-32595",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2021-11-25",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZR23YA6MvQQRr9grFRTpjSocD6ePTmQaD_cixjT9NnAl/Bekanntmachung_Ortsrat_Burgstemmen_25.11.2021.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZR23YA6MvQQRr9grFRTpjSocD6ePTmQaD_cixjT9NnAl/Bekanntmachung_Ortsrat_Burgstemmen_25.11.2021.pdf",
+    "created": "2021-11-19T09:25:08+01:00",
+    "modified": "2021-11-19T09:43:54+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-32983",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2021-11-25",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYxgAZzK4Fydur8KwSisNMp7uBHB-i2Oiv-yEonqgUf_/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_25.11.2021.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYxgAZzK4Fydur8KwSisNMp7uBHB-i2Oiv-yEonqgUf_/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_25.11.2021.pdf",
+    "created": "2022-01-18T16:52:17+01:00",
+    "modified": "2022-01-18T16:52:17+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19044",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2021-10-04T11:56:49+02:00",
+      "modified": "2021-10-04T11:56:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19045",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit",
+      "created": "2021-10-04T11:56:49+02:00",
+      "modified": "2021-10-04T11:56:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19335",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Verpflichtung und Pflichtenbelehrung durch die bisherige Ortsbürgermeisterin",
+      "created": "2021-11-16T13:41:06+01:00",
+      "modified": "2021-11-16T13:41:06+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19336",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bekanntgabe der Bildung von Fraktionen und Gruppen",
+      "created": "2021-11-16T13:51:56+01:00",
+      "modified": "2021-11-16T13:51:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19337",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Wahl der Ortsbürgermeisterin/des Ortsbürgermeisters",
+      "created": "2021-11-16T14:12:22+01:00",
+      "modified": "2021-11-16T14:12:22+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19338",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Feststellung der Tagesordnung",
+      "created": "2021-11-16T14:12:46+01:00",
+      "modified": "2021-11-16T14:12:46+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19339",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Wahl einer stellvertretenden Ortsbürgermeisterin/eines stellvertretenden Ortsbürgermeisters",
+      "created": "2021-11-16T14:13:26+01:00",
+      "modified": "2021-11-16T14:13:26+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19340",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Verabschiedung ausgeschiedener Ortsratsmitglieder",
+      "created": "2021-11-16T14:13:56+01:00",
+      "modified": "2021-11-16T14:13:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19341",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Benennung einer Vertreterin/eines Vertreters einschließlich Stellvertretung aus dem Ortsrat für den Kindertagesstättenausschuss des Kindergartens in der Ortschaft Burgstemmen",
+      "created": "2021-11-16T14:29:27+01:00",
+      "modified": "2021-11-16T14:30:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19047",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Einwohnerfragestunde",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5366",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2021-11-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZS1dks_7Z7KEZ6P7aEbe-ngUEcqR7fWbGUarQepDeZHc/Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZS1dks_7Z7KEZ6P7aEbe-ngUEcqR7fWbGUarQepDeZHc/Anlage_1.pdf",
+          "created": "2022-01-18T16:52:17+01:00",
+          "modified": "2022-01-18T16:52:17+01:00"
+        }
+      ],
+      "created": "2021-10-04T11:56:49+02:00",
+      "modified": "2021-10-04T11:56:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19342",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Auswertung der Geschwindigkeitsanzeigetafeln für die Bereiche Nordstraße und B1 sowie Poppenburger Straße (beide FR)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5367",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 4)",
+          "mimeType": "application/pdf",
+          "date": "2021-11-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVdEYdJQ7J4lbyqhn4ng8tLtfmPsiNoNUxqek0TzLA8V/Anlage_4.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVdEYdJQ7J4lbyqhn4ng8tLtfmPsiNoNUxqek0TzLA8V/Anlage_4.pdf",
+          "created": "2022-01-18T16:52:17+01:00",
+          "modified": "2022-01-18T16:52:17+01:00"
+        }
+      ],
+      "created": "2021-11-16T14:31:29+01:00",
+      "modified": "2021-11-16T14:31:29+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19346",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Anhörung zum Haushaltsplanentwurf 2022 und zum Investitionsprogramm bis 2025 für die Ortschaft Burgstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7215",
+      "created": "2021-11-16T14:38:26+01:00",
+      "modified": "2021-11-16T14:38:26+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19343",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Verwendung von im Haushaltsjahr 2021 noch zur Verfügung stehenden Ortsratsmittel\n- Übertragung der für das Haushaltsjahr 2021 eingeplanten Mittel für die Gestaltung der Verteilerkästen in das Haushaltsjahr 2022 (Beratung und Beschlussfassung)",
+      "created": "2021-11-16T14:33:59+01:00",
+      "modified": "2021-11-16T14:33:59+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19344",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Vorschläge des Ortsrates für Standorte für die Geschwindigkeitsanzeigetafeln und Verkehrsstatistikgeräte im Jahr 2022",
+      "created": "2021-11-16T14:37:39+01:00",
+      "modified": "2021-11-16T14:37:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19345",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Fußgängerbedarfsampel Reichsstraße (Bundesstraße 1) auf Höhe Einmündung „Neuer Weg“",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7201",
+      "created": "2021-11-16T14:38:11+01:00",
+      "modified": "2021-11-16T14:38:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19347",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Änderungen im Winterdienst der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7192",
+      "created": "2021-11-16T14:38:38+01:00",
+      "modified": "2021-11-16T14:38:38+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19048",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 17,
+      "name": "Bericht bzw. Mitteilungen der Bürgermeisterin",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5368",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2021-11-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdknFCH-Il2Q16CRLTy2vRcb7NkoCa2Xos2fr438UtSc/Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdknFCH-Il2Q16CRLTy2vRcb7NkoCa2Xos2fr438UtSc/Anlage_2.pdf",
+          "created": "2022-01-18T16:52:17+01:00",
+          "modified": "2022-01-18T16:52:17+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5369",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 3)",
+          "mimeType": "application/pdf",
+          "date": "2021-11-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRsrZvV_CD_kyfVPlxJtZbZLYFPddAu9Kx1qrr6zzxfj/Anlage_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRsrZvV_CD_kyfVPlxJtZbZLYFPddAu9Kx1qrr6zzxfj/Anlage_3.pdf",
+          "created": "2022-01-18T16:52:17+01:00",
+          "modified": "2022-01-18T16:52:17+01:00"
+        }
+      ],
+      "created": "2021-10-04T11:56:49+02:00",
+      "modified": "2021-10-04T11:56:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19049",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 18,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2021-10-04T11:56:49+02:00",
+      "modified": "2021-10-04T11:56:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19050",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "18",
+      "order": 19,
+      "name": "Anträge und Anfragen",
+      "created": "2021-10-04T11:56:49+02:00",
+      "modified": "2021-10-04T11:56:49+02:00"
+    }
+  ]
+}

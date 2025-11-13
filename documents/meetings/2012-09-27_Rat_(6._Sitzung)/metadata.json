@@ -1,0 +1,296 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1932",
+  "name": "Rat (6. Sitzung)",
+  "start": "2012-09-27T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-20",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer Rathaus Altbau",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer Rathaus Altbau",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2009-02-10T14:08:10+01:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-8780",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2012-09-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeDNbQm0CvPO_aFGDZrW6rpCJbzW0TwuN_HdCK2hUAWn/Bekanntmachung_Rat_27.09.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeDNbQm0CvPO_aFGDZrW6rpCJbzW0TwuN_HdCK2hUAWn/Bekanntmachung_Rat_27.09.2012.pdf",
+    "created": "2012-09-06T14:10:01+02:00",
+    "modified": "2012-09-12T10:36:51+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-9080",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2012-09-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSNGCPOOX2lVm0HxODUTA-NJAH2nOwIse0V8HZX9A0MA/Oeffentliche_Niederschrift_Rat_27.09.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSNGCPOOX2lVm0HxODUTA-NJAH2nOwIse0V8HZX9A0MA/Oeffentliche_Niederschrift_Rat_27.09.2012.pdf",
+    "created": "2012-11-07T11:20:54+01:00",
+    "modified": "2012-11-07T11:20:54+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8833",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2012-09-03T11:38:23+02:00",
+      "modified": "2012-09-03T11:38:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8834",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2012-09-03T11:38:23+02:00",
+      "modified": "2012-09-03T11:38:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8890",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Feststellung des Sitzverlustes des Ratsmitgliedes Markus Dierks",
+      "created": "2012-09-06T16:47:45+02:00",
+      "modified": "2012-09-06T16:47:45+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8891",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Förmliche Verpflichtung und Pflichtenbelehrung des nachrückenden Ratsmitgliedes Henning Ohlmer",
+      "created": "2012-09-06T16:48:25+02:00",
+      "modified": "2012-09-06T16:48:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8893",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Wahl eines stellvertretenden Ratsvorsitzenden",
+      "created": "2012-09-07T10:38:49+02:00",
+      "modified": "2012-09-07T10:38:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8892",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Neubesetzung der Fachausschüsse durch die CDU-Fraktion",
+      "created": "2012-09-06T16:49:10+02:00",
+      "modified": "2012-09-06T16:49:10+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8835",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Genehmigung des Protokolls der Sitzung des Rates vom 19. Juli 2012",
+      "created": "2012-09-03T11:38:23+02:00",
+      "modified": "2012-09-03T11:38:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8836",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bericht des Bürgermeisters über die ausgeführten Beschlüsse des Rates aus der Sitzung vom 19. Juli 2012 sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-786",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zu TOP 7)",
+          "mimeType": "application/pdf",
+          "date": "2012-09-27",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZb_Ro1nR8m05EhBcypuNCh1Y7xRT49yW6wcZ5dqfKSXn/Anlage_1_zu_TOP_7.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZb_Ro1nR8m05EhBcypuNCh1Y7xRT49yW6wcZ5dqfKSXn/Anlage_1_zu_TOP_7.pdf",
+          "created": "2012-11-06T17:12:01+01:00",
+          "modified": "2012-11-06T17:12:01+01:00"
+        }
+      ],
+      "created": "2012-09-03T11:38:23+02:00",
+      "modified": "2012-09-03T11:38:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8837",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Einwohnerfragestunde",
+      "created": "2012-09-03T11:38:23+02:00",
+      "modified": "2012-09-03T11:38:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8839",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Geschäftsordnung für die Wahlperiode 2011 bis 2016",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2018",
+      "created": "2012-09-03T11:38:23+02:00",
+      "modified": "2012-09-03T11:40:47+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8838",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Satzung über Aufwandsentschädigungen, Verdienstausfall und Fahrtkostenentschädigungen der Gemeinde Nordstemmen (Entschädigungssatzung)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2013",
+      "created": "2012-09-03T11:38:23+02:00",
+      "modified": "2012-09-03T11:38:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8840",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Fortführung des Nachmittagsangebotes an der \"Offenen Ganztagsschule Barnten\" bis zum 31. Juli 2014",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1972",
+      "created": "2012-09-03T11:38:23+02:00",
+      "modified": "2012-09-03T11:38:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8841",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Antrag des Kirchenamtes Hildesheim auf Erweiterung des Betreuungsangebotes in der\nev.-luth. Kindertagesstätte Barnten",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1979",
+      "created": "2012-09-03T11:38:23+02:00",
+      "modified": "2012-09-03T11:38:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8842",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Antrag des Kirchenamtes Hildesheim auf Einstellung einer Küchenkraft in der ev.-luth. Kindertagesstätte Burgstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1986",
+      "created": "2012-09-03T11:38:23+02:00",
+      "modified": "2012-09-03T11:38:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8843",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Antrag des Kirchenamtes Hildesheim auf Einführung von Sonderöffnungszeiten in der\nev.-luth. Kindertagesstätte Rössing",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1993",
+      "created": "2012-09-03T11:38:23+02:00",
+      "modified": "2012-09-03T11:38:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8844",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Antrag der AWO Jugendhilfe und Kindertagesstätten gGmbH auf Erweiterung des Betreuungsangebotes in der Kindertagesstätte Heyersum",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2000",
+      "created": "2012-09-03T11:38:23+02:00",
+      "modified": "2012-09-03T11:38:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8845",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 17,
+      "name": "Antrag der AWO Jugendhilfe und Kindertagesstätten gGmbH auf Umwandlung der altersübergreifenden Gruppe bis 14:00 Uhr in eine Krippengruppe bis 16:30 in der Kindertagesstätte Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2007",
+      "created": "2012-09-03T11:38:24+02:00",
+      "modified": "2012-09-03T11:38:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8852",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 18,
+      "name": "Erweiterung der P&R-Anlage am Bahnhof Nordstemmen\n(DS 69/2012)",
+      "created": "2012-09-03T13:41:51+02:00",
+      "modified": "2012-09-03T13:41:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8850",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "18",
+      "order": 19,
+      "name": "Unterrichtung über die Veränderungen von Kommunaldarlehen\n(DS 70/2012)",
+      "created": "2012-09-03T11:43:20+02:00",
+      "modified": "2012-09-03T11:43:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8851",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "19",
+      "order": 20,
+      "name": "Auf Antrag der CDU-Fraktion:\n- Ausweisung eines Gewerbegebietes\n(siehe Anlage 1; Beratung und Beschlussfassung der weiteren Vorgehensweise hierzu)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-748",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Rat 27.09.2012 18.30 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2012-09-27",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZysZAKal-G8HzAv4igWye_MAoSfAEI-d9YwoU9R9Miy/Rat_27.09.2012_18.30_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZysZAKal-G8HzAv4igWye_MAoSfAEI-d9YwoU9R9Miy/Rat_27.09.2012_18.30_Uhr.pdf",
+          "created": "2012-09-06T14:10:01+02:00",
+          "modified": "2012-09-12T10:36:51+02:00"
+        }
+      ],
+      "created": "2012-09-03T11:44:10+02:00",
+      "modified": "2012-09-03T11:44:10+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8928",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "20",
+      "order": 23,
+      "name": "Verkauf des gemeindeeigenen Grundstücks in der Ortschaft Adensen, Adenoyser Straße 1 (Grundschule Adensen)\n(DS 73/2012)",
+      "created": "2012-09-12T08:05:34+02:00",
+      "modified": "2012-09-12T08:05:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8846",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "21",
+      "order": 24,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2012-09-03T11:38:24+02:00",
+      "modified": "2012-09-03T11:38:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8847",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "22",
+      "order": 25,
+      "name": "Behandlung von Anfragen",
+      "created": "2012-09-03T11:38:24+02:00",
+      "modified": "2012-09-03T11:38:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8848",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "23",
+      "order": 26,
+      "name": "Anregungen",
+      "created": "2012-09-03T11:38:24+02:00",
+      "modified": "2012-09-03T11:38:24+02:00"
+    }
+  ]
+}

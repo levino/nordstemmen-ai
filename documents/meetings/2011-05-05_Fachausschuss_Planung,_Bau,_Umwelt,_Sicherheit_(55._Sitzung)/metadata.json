@@ -1,0 +1,156 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1617",
+  "name": "Fachausschuss Planung, Bau, Umwelt, Sicherheit (55. Sitzung)",
+  "start": "2011-05-05T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-12",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Groß Escherde, Schulstraße 9 a, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Schulstraße 9 a",
+    "room": "Dorfgemeinschaftshaus Groß Escherde, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Groß Escherde",
+    "locality": "Nordstemmen",
+    "created": "2005-04-07T10:37:20+02:00",
+    "modified": "2019-06-06T11:57:41+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-6"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-6708",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Planung, Bau, Umwelt, Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2011-05-05",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbTWUWZOob8dBV-IthzdwegFwII7HrQ37ypQYriQrhwz/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_05.05.2011.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbTWUWZOob8dBV-IthzdwegFwII7HrQ37ypQYriQrhwz/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_05.05.2011.pdf",
+    "created": "2011-04-27T13:00:39+02:00",
+    "modified": "2011-04-27T13:00:39+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7193",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2011-04-27T08:08:49+02:00",
+      "modified": "2011-05-12T11:28:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7194",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2011-04-27T08:08:49+02:00",
+      "modified": "2011-04-27T08:08:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7195",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 31. März 2011",
+      "created": "2011-04-27T08:08:49+02:00",
+      "modified": "2011-04-27T08:08:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7196",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2011-04-27T08:08:49+02:00",
+      "modified": "2011-04-27T08:08:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7203",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 6,
+      "name": "Sanierung des Regenwasserkanals in der Stöckumer Straße\n- Vorstellung der Maßnahme\n- Zustimmung zur Leistung eines überplanmäßigen Aufwandes\n(DS 33/2011; wird nachgereicht - weitere Ausführungen werden in der Sitzung gemacht)",
+      "created": "2011-04-27T08:13:41+02:00",
+      "modified": "2011-04-27T08:13:41+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7204",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 7,
+      "name": "Nachbereitung der Besichtigungsfahrt des Fachausschusses vom 12. April 2011\nErneuerung einer zweiflügeligen Fluchttür MZH Nordstemmen, Ortschaft Nordstemmen\nStraßensanierungsmaßnahmen im Haushaltsjahr 2011\nFortsetzung der Erneuerung des Geländers am Salzbach in der Heyersumer Straße, Ortschaft Nordstemmen\nDorfstraße Adensen\nBeratung und Beschlußempfehlung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-523",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage zu TOP 5)",
+          "mimeType": "application/pdf",
+          "date": "2011-05-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcUD2xUVLvaHM3j63S8_-OprTK6UsJ5e4K4n5LpeSP5H/Anlage_zu_TOP_5.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcUD2xUVLvaHM3j63S8_-OprTK6UsJ5e4K4n5LpeSP5H/Anlage_zu_TOP_5.pdf",
+          "created": "2011-05-12T13:00:20+02:00",
+          "modified": "2011-05-12T13:00:20+02:00"
+        }
+      ],
+      "created": "2011-04-27T08:14:53+02:00",
+      "modified": "2011-04-27T08:14:53+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7205",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 8,
+      "name": "Information zum Stand der beabsichtigten Neuverlegung der 380 kV-Höchstspannungsverbindung Wahle-Mecklar\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2011-04-27T08:15:53+02:00",
+      "modified": "2011-04-27T08:15:53+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7197",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Ernennung einer Führungskraft in der Ortswehr Barnten der Freiwilligen Feuerwehr Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1595",
+      "created": "2011-04-27T08:08:49+02:00",
+      "modified": "2011-04-27T08:08:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7198",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2011-04-27T08:08:49+02:00",
+      "modified": "2011-04-27T08:08:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7199",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Behandlung von Anträgen",
+      "created": "2011-04-27T08:08:49+02:00",
+      "modified": "2011-04-27T08:08:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7200",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Behandlung von Anfragen",
+      "created": "2011-04-27T08:08:49+02:00",
+      "modified": "2011-04-27T08:08:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7201",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Anregungen",
+      "created": "2011-04-27T08:08:49+02:00",
+      "modified": "2011-04-27T08:08:49+02:00"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1868",
+  "name": "Ortsrat Barnten (4. Sitzung)",
+  "start": "2012-06-26T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-5",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Barnten, Glückaufstraße 1, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Glückaufstraße 1",
+    "room": "Dorfgemeinschaftshaus Barnten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Barnten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:29:00+02:00",
+    "modified": "2019-06-06T11:57:52+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-10"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-8388",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2012-06-26",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTcM7A0lkC-X4ylYg9GTYfgBopzeHjU7YcWz2mzJXYSP/Bekanntmachung_Ortsrat_Barnten_26.06.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTcM7A0lkC-X4ylYg9GTYfgBopzeHjU7YcWz2mzJXYSP/Bekanntmachung_Ortsrat_Barnten_26.06.2012.pdf",
+    "created": "2012-06-15T13:01:08+02:00",
+    "modified": "2012-06-15T13:01:08+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-8436",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2012-06-26",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTzmpoQwSPFO9tOHe1tJKSggZj54Ss0o8mQBpbEMs92G/Oeffentliche_Niederschrift_Ortsrat_Barnten_26.06.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTzmpoQwSPFO9tOHe1tJKSggZj54Ss0o8mQBpbEMs92G/Oeffentliche_Niederschrift_Ortsrat_Barnten_26.06.2012.pdf",
+    "created": "2012-07-09T14:58:24+02:00",
+    "modified": "2012-07-13T10:34:22+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8625",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2012-06-14T16:55:18+02:00",
+      "modified": "2012-06-14T16:55:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8626",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2012-06-14T16:55:18+02:00",
+      "modified": "2012-06-14T16:55:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8627",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 11.04.2012",
+      "created": "2012-06-14T16:55:18+02:00",
+      "modified": "2012-06-14T16:55:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8628",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2012-06-14T16:55:18+02:00",
+      "modified": "2012-06-14T16:55:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8634",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Teilnahme am Wettbewerb \"Unser Dorf hat Zukunft\"\n- Beratung und Beschlussfassung\n(weitere Ausführungen werden in der Sitzung gemacht)",
+      "created": "2012-06-14T16:56:17+02:00",
+      "modified": "2012-06-14T16:56:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8635",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Mittelanmeldungen vom Ortsrat für das Haushaltsjahr 2013 ff\n- Beratung und Beschlussfassung\n(weitere Ausführungen werden vom Ortsbürgermeister in der Sitzung gemacht)",
+      "created": "2012-06-14T16:57:19+02:00",
+      "modified": "2012-06-14T16:57:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8636",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Gestaltung der Fläche vor dem Gedenkstein \"850 Jahre Barnten\" und anderer Beete\n- Beratung und Beschlussfassung",
+      "created": "2012-06-14T17:02:17+02:00",
+      "modified": "2012-06-14T17:02:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8637",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Durchfahrtsfreiheit für landwirtschaftliche Fahrzeuge in Barnten\n- Beratung und Beschlussfassung",
+      "created": "2012-06-14T17:02:55+02:00",
+      "modified": "2012-06-14T17:02:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8629",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2012-06-14T16:55:18+02:00",
+      "modified": "2012-06-14T16:55:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8630",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Mitteilungen des Ortsbürgermeisters",
+      "created": "2012-06-14T16:55:18+02:00",
+      "modified": "2012-06-14T16:55:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8631",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Behandlung von Anfragen\n- Grundwasserqualität im Gebiet der ehemaligen Mülldeponie",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-702",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Barnten 26.06.2012)",
+          "mimeType": "application/pdf",
+          "date": "2012-06-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQaqPf0TMvXdvlLKij72aSTFxTHZ3ujvlMArF0ZnSSjr/Ortsrat_Barnten_26.06.2012.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQaqPf0TMvXdvlLKij72aSTFxTHZ3ujvlMArF0ZnSSjr/Ortsrat_Barnten_26.06.2012.pdf",
+          "created": "2012-07-03T13:01:08+02:00",
+          "modified": "2012-07-13T10:34:22+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-709",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Barnten 26.06.2012 18.00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2012-06-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVyRV6cBxePWf3KxL3XZLIlTuHWMSRsOSWK80SR7SgW1/Ortsrat_Barnten_26.06.2012_18.00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVyRV6cBxePWf3KxL3XZLIlTuHWMSRsOSWK80SR7SgW1/Ortsrat_Barnten_26.06.2012_18.00_Uhr.pdf",
+          "created": "2012-07-13T10:34:22+02:00",
+          "modified": "2012-07-13T10:34:22+02:00"
+        }
+      ],
+      "created": "2012-06-14T16:55:18+02:00",
+      "modified": "2012-06-14T16:55:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8632",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Anregungen",
+      "created": "2012-06-14T16:55:18+02:00",
+      "modified": "2012-06-14T16:55:18+02:00"
+    }
+  ]
+}

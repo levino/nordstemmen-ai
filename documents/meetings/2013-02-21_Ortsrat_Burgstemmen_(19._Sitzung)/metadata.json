@@ -1,0 +1,158 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2023",
+  "name": "Ortsrat Burgstemmen (19. Sitzung)",
+  "start": "2013-02-21T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Burgstemmen, Sackstraße 2, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Sackstraße 2",
+    "room": "Feuerwehrhaus Burgstemmen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Burgstemmen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:33:23+02:00",
+    "modified": "2019-06-06T11:56:46+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-12"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-9559",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2013-02-21",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZU7043owAzB_wzb5MJ0Yxv2rmJW1wD3tZUbLi7Xk-Ck4/Bekanntmachung_Ortsrat_Burgstemmen_21.02.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZU7043owAzB_wzb5MJ0Yxv2rmJW1wD3tZUbLi7Xk-Ck4/Bekanntmachung_Ortsrat_Burgstemmen_21.02.2013.pdf",
+    "created": "2013-02-13T10:15:04+01:00",
+    "modified": "2013-02-13T10:15:04+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-9757",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2013-02-21",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZclYtt8BuNK9p2Kt8GxPjmQWBrqxR1yW0pduysVxjbNv/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_21.02.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZclYtt8BuNK9p2Kt8GxPjmQWBrqxR1yW0pduysVxjbNv/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_21.02.2013.pdf",
+    "created": "2013-03-19T13:00:26+01:00",
+    "modified": "2013-03-19T13:00:26+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9380",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2013-02-13T08:39:10+01:00",
+      "modified": "2013-02-13T08:39:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9381",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2013-02-13T08:39:10+01:00",
+      "modified": "2013-02-13T08:39:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9382",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 15.11.2012",
+      "created": "2013-02-13T08:39:10+01:00",
+      "modified": "2013-02-13T08:39:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9383",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2013-02-13T08:39:10+01:00",
+      "modified": "2013-02-13T08:39:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9388",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Erneute Beratung zur Einrichtung einer Verkehrsinsel an der Ortseinfahrt aus/in Richtung Mahlerten (B1)\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2013-02-13T08:42:11+01:00",
+      "modified": "2013-02-13T08:42:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9389",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Zustand der Mehrzweckhalle (Heizung, Toilette, Dach)\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2013-02-13T08:48:38+01:00",
+      "modified": "2013-02-13T08:48:38+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9390",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Organisation des Umweltages am 6. April 2013",
+      "created": "2013-02-13T08:49:07+01:00",
+      "modified": "2013-02-13T08:49:07+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9391",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Verwendung der im Haushaltsjahr 2013 zur Verfügung stehenden Ortsratsmittel\n- Beratung und Beschlussfassung\n(siehe Anlage 1)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-884",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zu TOP 7)",
+          "mimeType": "application/pdf",
+          "date": "2013-02-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaD6hS96OAI59xwTiw0rSiV0V29iZNKsJKnFCIabn1pp/Anlage_1_zu_TOP_7.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaD6hS96OAI59xwTiw0rSiV0V29iZNKsJKnFCIabn1pp/Anlage_1_zu_TOP_7.pdf",
+          "created": "2013-02-13T10:15:04+01:00",
+          "modified": "2013-02-13T10:15:04+01:00"
+        }
+      ],
+      "created": "2013-02-13T08:49:58+01:00",
+      "modified": "2013-02-13T08:49:58+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9384",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters\n- Straßenzustand nach der Frostperiode",
+      "created": "2013-02-13T08:39:10+01:00",
+      "modified": "2013-02-13T08:39:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9385",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2013-02-13T08:39:10+01:00",
+      "modified": "2013-02-13T08:39:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9386",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anträge und Anfragen",
+      "created": "2013-02-13T08:39:10+01:00",
+      "modified": "2013-02-13T08:39:10+01:00"
+    }
+  ]
+}

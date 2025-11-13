@@ -1,0 +1,204 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2379",
+  "name": "Ortsrat Burgstemmen (25. Sitzung)",
+  "start": "2014-10-27T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Burgstemmen, Sackstraße 2, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Sackstraße 2",
+    "room": "Feuerwehrhaus Burgstemmen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Burgstemmen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:33:23+02:00",
+    "modified": "2019-06-06T11:56:46+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-12"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-13288",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2014-10-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcfQZ3DbjjXCQ2zBb8hpzcj5Q0jO__-9WeaLiveKTiwC/Bekanntmachung_Ortsrat_Burgstemmen_27.10.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcfQZ3DbjjXCQ2zBb8hpzcj5Q0jO__-9WeaLiveKTiwC/Bekanntmachung_Ortsrat_Burgstemmen_27.10.2014.pdf",
+    "created": "2014-10-07T19:00:27+02:00",
+    "modified": "2014-10-07T19:00:27+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-13665",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2014-10-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZac6Ga1c7zuwxe4dLNkMZAv3KWtP2vUmu-5UyZCoL9D8/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_27.10.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZac6Ga1c7zuwxe4dLNkMZAv3KWtP2vUmu-5UyZCoL9D8/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_27.10.2014.pdf",
+    "created": "2014-11-18T19:00:57+01:00",
+    "modified": "2014-11-18T19:00:57+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11100",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2014-09-05T08:57:27+02:00",
+      "modified": "2014-09-05T08:57:27+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11101",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2014-09-05T08:57:27+02:00",
+      "modified": "2014-09-05T08:57:27+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11102",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 12. Juni 2014",
+      "created": "2014-09-05T08:57:27+02:00",
+      "modified": "2014-09-05T08:57:27+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11103",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2014-09-05T08:57:27+02:00",
+      "modified": "2014-09-05T08:57:27+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11235",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 6,
+      "name": "Verwendung der zusätzlichen 1.000,- € Ortsratsmittel für den Spielplatz Radebrecher\nhier: Überweisung an Dorfkultur Burgstemmen e.V. zur treuhänderischen Aufbewahrung\n- Beratung und Beschlussfassung\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2014-10-07T15:33:49+02:00",
+      "modified": "2014-10-07T15:33:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11236",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 7,
+      "name": "Verwendung der im Haushalt 2014 noch zur Verfügung stehenden Ortsratsmittel\n(siehe Anlage 1, Seite 1)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1163",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zu TOP 5)",
+          "mimeType": "application/pdf",
+          "date": "2014-10-27",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZc9MYPk_rsn1gETZJajuMf8tHgPKS07cCMMJqSn-y9IU/Anlage_1_zu_TOP_5.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZc9MYPk_rsn1gETZJajuMf8tHgPKS07cCMMJqSn-y9IU/Anlage_1_zu_TOP_5.pdf",
+          "created": "2014-10-07T19:00:27+02:00",
+          "modified": "2014-10-07T19:00:27+02:00"
+        }
+      ],
+      "created": "2014-10-07T15:34:19+02:00",
+      "modified": "2014-10-07T15:34:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11237",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 8,
+      "name": "Anhörung zum Haushaltsplan 2015\n(DS 67/2014; wird nachgereicht)",
+      "created": "2014-10-07T15:36:01+02:00",
+      "modified": "2014-10-07T15:36:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11238",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Neu- bzw. Wiederwahl der Schiedspersonen für die Schiedsamtsbezirke in der Gemeinde Nordstemmen im Jahre 2014",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2859",
+      "created": "2014-10-07T15:36:10+02:00",
+      "modified": "2014-10-07T15:36:10+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11239",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Errichtung einer Deponie für Bauschutt und mineralische Abfälle der Deponieklasse I in Betheln",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2841",
+      "created": "2014-10-07T15:36:29+02:00",
+      "modified": "2014-10-07T15:36:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11108",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Umgestaltung des Seitenraumes / der Oberflächenentwässerung in der \"Oberen Straße\" vor den Grundstücken Nr. 10, 12, 14 und 16\n- Beratung und Beschlussfassung",
+      "created": "2014-09-05T08:59:04+02:00",
+      "modified": "2014-09-05T08:59:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11104",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1207",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Burgstemmen 27.10.2014 19:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2014-10-27",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdt5dd0jxnL0XRbARBOP_Mq2xnBMSu53ootE7WhxTg2N/Ortsrat_Burgstemmen_27.10.2014_19-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdt5dd0jxnL0XRbARBOP_Mq2xnBMSu53ootE7WhxTg2N/Ortsrat_Burgstemmen_27.10.2014_19-00_Uhr.pdf",
+          "created": "2014-11-14T13:00:26+01:00",
+          "modified": "2014-11-14T13:00:26+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1208",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Burgstemmen 27.10.2014 19:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2014-10-27",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZegHm_M-yQF3g2yBFP2TADhj2XPvFeuJO4eD3f-j7ERm/Ortsrat_Burgstemmen_27.10.2014_19-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZegHm_M-yQF3g2yBFP2TADhj2XPvFeuJO4eD3f-j7ERm/Ortsrat_Burgstemmen_27.10.2014_19-00_Uhr.pdf",
+          "created": "2014-11-14T13:00:26+01:00",
+          "modified": "2014-11-14T13:00:26+01:00"
+        }
+      ],
+      "created": "2014-09-05T08:57:27+02:00",
+      "modified": "2014-09-05T08:57:27+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11105",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2014-09-05T08:57:27+02:00",
+      "modified": "2014-09-05T08:57:27+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11106",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Anträge und Anfragen",
+      "created": "2014-09-05T08:57:27+02:00",
+      "modified": "2014-09-05T08:57:27+02:00"
+    }
+  ]
+}

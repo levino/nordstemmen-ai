@@ -1,0 +1,167 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2982",
+  "name": "Ortsrat Klein Escherde (5. Sitzung)",
+  "start": "2017-11-07T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-9",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Klein Escherde, Eschestraße 3, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Eschestraße 3",
+    "room": "Feuerwehrhaus Klein Escherde, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Klein Escherde",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:54:15+02:00",
+    "modified": "2019-06-06T11:56:23+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-16"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-22196",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2017-11-07",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfp09-C1fUtMhqYZvVlXh5lEphSk9rrNpPZ7E5PPPota/Bekanntmachung_Ortsrat_Klein_Escherde_07.11.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfp09-C1fUtMhqYZvVlXh5lEphSk9rrNpPZ7E5PPPota/Bekanntmachung_Ortsrat_Klein_Escherde_07.11.2017.pdf",
+    "created": "2017-10-25T19:00:45+02:00",
+    "modified": "2017-10-25T19:00:45+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-22565",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2017-11-07",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRlnM8Q92weldfyolbFXiHGHxM3VocxGycW2Ww2VPlm-/Oeffentliche_Niederschrift_Ortsrat_Klein_Escherde_07.11.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRlnM8Q92weldfyolbFXiHGHxM3VocxGycW2Ww2VPlm-/Oeffentliche_Niederschrift_Ortsrat_Klein_Escherde_07.11.2017.pdf",
+    "created": "2017-11-16T13:00:50+01:00",
+    "modified": "2017-11-16T13:00:50+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14717",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2017-10-24T14:01:40+02:00",
+      "modified": "2017-10-24T14:01:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14718",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2017-10-24T14:01:40+02:00",
+      "modified": "2017-10-24T14:01:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14719",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 20. Juni 2017",
+      "created": "2017-10-24T14:01:40+02:00",
+      "modified": "2017-10-25T08:35:30+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14723",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2017-10-24T14:01:40+02:00",
+      "modified": "2017-10-25T08:19:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14720",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2017-10-24T14:01:40+02:00",
+      "modified": "2017-10-24T14:01:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14721",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Anhörung zum Haushaltsplan 2018 und zum Investitionsprogramm bis 2021 für die Ortschaft Klein Escherde",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6010",
+      "result": "3 Nein-Stimmen, 2 Ja-Stimmen",
+      "created": "2017-10-24T14:01:40+02:00",
+      "modified": "2017-10-24T14:01:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14722",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Straßenausbaumaßnahme \"Schmiedestraße\" in der Ortschaft Klein Escherde\n- Maßnahmenbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/5990",
+      "result": "einstimmig ja",
+      "created": "2017-10-24T14:01:40+02:00",
+      "modified": "2017-10-24T14:01:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14737",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Durchführung und Organisation des Martinsumzuges am 10.11.2017 und des Volkstrauertages am 18.11.2017\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2017-10-25T08:21:08+02:00",
+      "modified": "2017-10-25T08:21:08+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14724",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-3854",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Klein Escherde Anlage I zum Protokoll)",
+          "mimeType": "application/pdf",
+          "date": "2017-11-07",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTiCe79JMNc2I5jGIIHGr07Mh7AgtA1IOZjJZuaRs4Mb/OR_Klein_Escherde_Anlage_I_zum_Protokoll.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTiCe79JMNc2I5jGIIHGr07Mh7AgtA1IOZjJZuaRs4Mb/OR_Klein_Escherde_Anlage_I_zum_Protokoll.pdf",
+          "created": "2017-11-15T13:00:46+01:00",
+          "modified": "2017-11-15T13:00:46+01:00"
+        }
+      ],
+      "created": "2017-10-24T14:01:40+02:00",
+      "modified": "2017-10-24T14:01:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14725",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Anträge und Anfragen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-3855",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Klein Escherde Anlage II zum Protokoll)",
+          "mimeType": "application/pdf",
+          "date": "2017-11-07",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZY69DKQ5U29q3HwQ7lOe0mjObAHJBgd_TC58EOWK5b16/OR_Klein_Escherde_Anlage_II_zum_Protokoll.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZY69DKQ5U29q3HwQ7lOe0mjObAHJBgd_TC58EOWK5b16/OR_Klein_Escherde_Anlage_II_zum_Protokoll.pdf",
+          "created": "2017-11-15T13:00:46+01:00",
+          "modified": "2017-11-15T13:00:46+01:00"
+        }
+      ],
+      "created": "2017-10-24T14:01:40+02:00",
+      "modified": "2017-10-24T14:01:40+02:00"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5587",
+  "reference": "DS 80/2024",
+  "name": "Grundsatzbeschluss Windenergie",
+  "paperType": "Beschlussvorlage",
+  "date": "2024-11-26",
+  "mainFile": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-40128",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Beschlussvorlage (Grundsatzbeschluss Windenergie)",
+    "mimeType": "application/pdf",
+    "date": "2024-11-26",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZduRa0meYbi984nbI3ALrcJK8K7CYEJpl3yRaA_rV3Px/Beschlussvorlage_DS_80-2024.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZduRa0meYbi984nbI3ALrcJK8K7CYEJpl3yRaA_rV3Px/Beschlussvorlage_DS_80-2024.pdf",
+    "created": "2024-11-08T13:00:03+01:00",
+    "modified": "2024-12-13T13:00:01+01:00"
+  },
+  "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8184",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22874",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5477",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-40"
+      ],
+      "created": "2024-10-24T08:55:56+02:00",
+      "modified": "2024-10-24T08:55:56+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8187",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22970",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5482",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2024-10-24T08:58:54+02:00",
+      "modified": "2024-10-24T08:58:54+02:00"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2765",
+  "name": "Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie (19. Sitzung)",
+  "start": "2016-08-23T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-20",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer Rathaus Altbau",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer Rathaus Altbau",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2009-02-10T14:08:10+01:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-7"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-16827",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie)",
+    "mimeType": "application/pdf",
+    "date": "2016-08-23",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbzs99scFSnpHR-wbLRw6LS5UWJqwX2RKJj82TpJG6VV/Bekanntmachung_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_23.08.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbzs99scFSnpHR-wbLRw6LS5UWJqwX2RKJj82TpJG6VV/Bekanntmachung_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_23.08.2016.pdf",
+    "created": "2016-08-12T13:01:03+02:00",
+    "modified": "2016-08-12T13:01:03+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-16926",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie)",
+    "mimeType": "application/pdf",
+    "date": "2016-08-23",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTuqaB8UXVQu8_Ep520GXbw1_fOtqxdGVVwA1O9-oYE5/Oeffentliche_Niederschrift_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_23.08.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTuqaB8UXVQu8_Ep520GXbw1_fOtqxdGVVwA1O9-oYE5/Oeffentliche_Niederschrift_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_23.08.2016.pdf",
+    "created": "2016-09-06T13:00:44+02:00",
+    "modified": "2016-09-06T13:00:44+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13022",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2016-08-08T08:10:32+02:00",
+      "modified": "2016-08-08T08:10:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13023",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2016-08-08T08:10:32+02:00",
+      "modified": "2016-08-08T08:10:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13024",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 31.05.2016",
+      "created": "2016-08-08T08:10:32+02:00",
+      "modified": "2016-08-08T08:10:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13025",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2016-08-08T08:10:32+02:00",
+      "modified": "2016-08-08T08:10:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13042",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Prävention in Nordstemmen - Sachstandsbericht über das Projekt Communities That Care (CTC)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3605",
+      "created": "2016-08-11T15:05:34+02:00",
+      "modified": "2016-08-31T08:06:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13043",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Prävention in Nordstemmen - Fortführung des Projektes Communities That Care (CTC) in den Jahren 2017 und 2018",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3606",
+      "created": "2016-08-11T15:05:41+02:00",
+      "modified": "2016-08-31T08:06:43+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13041",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Unterrichtung über die\n- Entwicklung der Kinderbetreuungszahlen (Geburtenfortschreibung)\n- Belegung der Plätze in den Kindertagesstätten zum 01.08.2016\n- aktuelle Situation zur Kindertagespflege",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1581",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie 23.08.2016 18:30 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2016-08-23",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYIGSWQPQBAg8Kwc4eOU4Ici2js_mIzrNzvNHi_DnnCS/Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_23.08.2016_18-30_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYIGSWQPQBAg8Kwc4eOU4Ici2js_mIzrNzvNHi_DnnCS/Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_23.08.2016_18-30_Uhr.pdf",
+          "created": "2016-09-01T13:00:46+02:00",
+          "modified": "2016-09-01T13:00:46+02:00"
+        }
+      ],
+      "created": "2016-08-11T15:04:50+02:00",
+      "modified": "2016-08-11T15:04:50+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13026",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Sachstandsbericht 2015 / Seniorenarbeit KOMM e. V.",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3573",
+      "created": "2016-08-08T08:10:32+02:00",
+      "modified": "2016-08-08T08:10:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13027",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Eintrittsgelder Freizeitbad Saison 2017",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3595",
+      "created": "2016-08-08T08:10:32+02:00",
+      "modified": "2016-08-08T08:10:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13028",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Sanierung und Modernisierung Freizeitbad Nordstemmen;\nMaßnahmenbeschluss zur Sanierung des Mehrzweckbeckens und Modernisierung der technischen Anlagen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3598",
+      "created": "2016-08-08T08:10:32+02:00",
+      "modified": "2016-08-08T08:10:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13029",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2016-08-08T08:10:32+02:00",
+      "modified": "2016-08-08T08:10:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13030",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Anträge und Anfragen",
+      "created": "2016-08-08T08:10:32+02:00",
+      "modified": "2016-08-08T08:10:32+02:00"
+    }
+  ]
+}

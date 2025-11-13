@@ -1,0 +1,169 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4961",
+  "name": "Ortsrat Groß Escherde (2. Sitzung)",
+  "start": "2022-02-10T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-12",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Groß Escherde, Schulstraße 9 a, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Schulstraße 9 a",
+    "room": "Dorfgemeinschaftshaus Groß Escherde, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Groß Escherde",
+    "locality": "Nordstemmen",
+    "created": "2005-04-07T10:37:20+02:00",
+    "modified": "2019-06-06T11:57:41+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-14"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-33185",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2022-02-10",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZ7iHI5fipTVxG7w6xFOsJRmdUgtmjQUKOOkhraoOpHV/Bekanntmachung_Ortsrat_Gross_Escherde_10.02.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZ7iHI5fipTVxG7w6xFOsJRmdUgtmjQUKOOkhraoOpHV/Bekanntmachung_Ortsrat_Gross_Escherde_10.02.2022.pdf",
+    "created": "2022-02-01T19:00:23+01:00",
+    "modified": "2022-02-01T19:00:23+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-33447",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2022-02-10",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVJ93aNJ6kGPcIJjBD9jQW9J3wyiW-Lxr37cmwAqiJpG/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_10.02.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVJ93aNJ6kGPcIJjBD9jQW9J3wyiW-Lxr37cmwAqiJpG/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_10.02.2022.pdf",
+    "created": "2022-03-02T13:00:08+01:00",
+    "modified": "2022-03-02T13:00:08+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19614",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2022-01-27T15:54:57+01:00",
+      "modified": "2022-01-27T15:54:57+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19615",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung - Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder - Feststellung der Beschlussfähigkeit - Beschlussfassung über Anträge zur Tagesordnung - Feststellung der Tagesordnung",
+      "created": "2022-01-27T15:54:57+01:00",
+      "modified": "2022-01-27T15:54:57+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19616",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 23. November 2021",
+      "created": "2022-01-27T15:54:57+01:00",
+      "modified": "2022-01-27T16:13:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19617",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht bzw. Mitteilungen der Bürgermeisterin",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5514",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2022-02-10",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeM-K3RTaubeea9ouvtr8H9ZRw4vTCKCo0RCfxsre2M4/Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeM-K3RTaubeea9ouvtr8H9ZRw4vTCKCo0RCfxsre2M4/Anlage_1.pdf",
+          "created": "2022-03-02T13:00:08+01:00",
+          "modified": "2022-03-02T13:00:08+01:00"
+        }
+      ],
+      "created": "2022-01-27T15:54:57+01:00",
+      "modified": "2022-01-27T15:54:57+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19618",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2022-01-27T15:54:57+01:00",
+      "modified": "2022-01-27T15:54:57+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19619",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohnerfragestunde",
+      "created": "2022-01-27T15:54:57+01:00",
+      "modified": "2022-01-27T15:54:57+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19621",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Einbeziehungssatzung gemäß § 34 Absatz 4 Satz 1 Nr. 3 BauGB für die Ortschaft Groß Escherde (Klintstraße)\n- Anhörung des Ortsrates Groß Escherde gem. § 94 NKomVG",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7279",
+      "created": "2022-01-27T15:54:57+01:00",
+      "modified": "2022-01-27T15:55:16+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19620",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2023 sowie für die mittelfristige\nFinanzplanung 2024 bis 2026",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7283",
+      "created": "2022-01-27T15:54:57+01:00",
+      "modified": "2022-01-27T15:54:57+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19624",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Beleuchtung des Bekanntmachungskastens\n- Beratung und Beschlussfassung",
+      "created": "2022-01-27T15:56:25+01:00",
+      "modified": "2022-01-27T15:56:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19625",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Festlegung von Terminen\n- Gespräch mit Kindern und Jugendlichen\n- Gespräch mit Vereinsvorständen\n- zwecks Ortsbegehung",
+      "created": "2022-01-27T15:57:46+01:00",
+      "modified": "2022-01-27T15:57:46+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19640",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "\"Auswirkung der Änderung des Niedersächsisches Gesetz über \nKindertagesstätten und Kindertagespflege (NKiTaG)\"\n",
+      "created": "2022-02-01T08:17:32+01:00",
+      "modified": "2022-02-01T08:17:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19622",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Anträge und Anfragen",
+      "created": "2022-01-27T15:54:57+01:00",
+      "modified": "2022-01-27T15:54:57+01:00"
+    }
+  ]
+}

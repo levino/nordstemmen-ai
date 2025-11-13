@@ -1,0 +1,134 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2043",
+  "name": "Fachausschuss Planung, Bau, Umwelt, Feuerschutz (15. Sitzung)",
+  "start": "2013-04-04T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-20",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer Rathaus Altbau",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer Rathaus Altbau",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2009-02-10T14:08:10+01:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-6"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-9846",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Planung, Bau, Umwelt, Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2013-04-04",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUvbOBFLd-A_sS7zHww2thxa9AQs-LLykOaC1M-kfohQ/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_04.04.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUvbOBFLd-A_sS7zHww2thxa9AQs-LLykOaC1M-kfohQ/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_04.04.2013.pdf",
+    "created": "2013-03-26T13:00:25+01:00",
+    "modified": "2013-03-26T13:00:25+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-9904",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Planung, Bau, Umwelt, Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2013-04-04",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZen4b9uYI7aOD6fI6voBsfbEpkilZhiXDriFmwxXu6ew/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_04.04.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZen4b9uYI7aOD6fI6voBsfbEpkilZhiXDriFmwxXu6ew/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_04.04.2013.pdf",
+    "created": "2013-04-19T13:00:25+02:00",
+    "modified": "2013-04-19T13:00:25+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9542",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2013-03-25T13:21:19+01:00",
+      "modified": "2013-03-25T13:21:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9543",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2013-03-25T13:21:19+01:00",
+      "modified": "2013-03-25T13:21:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9544",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Protokolle der Sitzungen vom\n28. Februar 2013\n11. März 2013",
+      "created": "2013-03-25T13:21:19+01:00",
+      "modified": "2013-03-25T13:21:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9545",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2013-03-25T13:21:19+01:00",
+      "modified": "2013-03-25T13:21:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9549",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Vorstellung eines Bebauungskonzeptes für die Grundstücke der ehemaligen Gärtnerei Ewald, Brunnenstraße, Ortschaft Nordstemmen durch die Firma Genotec eG, Ludwigsburg\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2013-03-25T13:25:26+01:00",
+      "modified": "2013-03-25T13:25:26+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9550",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 7,
+      "name": "Information mit Beratung und ggf. Beschlussempfehlung zur Gründung eines Atemschutzverbandes für die Freiwilligen Feuerwehren im Landkreis Hildesheim\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2013-03-25T13:27:28+01:00",
+      "modified": "2013-03-25T13:27:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9551",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 8,
+      "name": "Präsentation der Umbauarbeiten am Einsatzleitwagen (ELW) der Freiwilligen Feuerwehr der Gemeinde Nordstemmen\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2013-03-25T13:28:25+01:00",
+      "modified": "2013-03-25T13:28:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9552",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Anschaffung eines Teleskopradladers für den Bauhof der Gemeinde Nordstemmen\n(DS 33/2013)",
+      "created": "2013-03-25T13:35:36+01:00",
+      "modified": "2013-03-25T13:35:36+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9546",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2013-03-25T13:21:19+01:00",
+      "modified": "2013-03-25T13:21:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9547",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Anträge und Anfragen",
+      "created": "2013-03-25T13:21:19+01:00",
+      "modified": "2013-03-25T13:21:19+01:00"
+    }
+  ]
+}

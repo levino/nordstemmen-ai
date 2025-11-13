@@ -1,0 +1,135 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5155",
+  "name": "Ortsrat Mahlerten (5. Sitzung)",
+  "start": "2023-02-14T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-10",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Mahlerten, Leunisstraße 16, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Leunisstraße 16",
+    "room": "Dorfgemeinschaftshaus Mahlerten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Mahlerten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T12:00:53+02:00",
+    "modified": "2019-06-06T11:57:30+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-17"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-35918",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2023-02-14",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcYBfw9FnCdFebuaPgSvrlJrQMEkbYzlGknmRPQfo0AE/Bekanntmachung_Ortsrat_Mahlerten_14.02.2023.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcYBfw9FnCdFebuaPgSvrlJrQMEkbYzlGknmRPQfo0AE/Bekanntmachung_Ortsrat_Mahlerten_14.02.2023.pdf",
+    "created": "2023-02-09T19:00:28+01:00",
+    "modified": "2023-02-09T19:00:28+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-36201",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2023-02-14",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfcFdZ-WJPKQhGCzSBv4fX7VkEwWq8Zn0wOpI1D-52O3/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_14.02.2023.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfcFdZ-WJPKQhGCzSBv4fX7VkEwWq8Zn0wOpI1D-52O3/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_14.02.2023.pdf",
+    "created": "2023-03-14T15:08:49+01:00",
+    "modified": "2023-03-14T15:08:49+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20858",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2023-02-06T08:38:57+01:00",
+      "modified": "2023-02-06T08:38:57+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20859",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2023-02-06T08:38:57+01:00",
+      "modified": "2023-02-06T08:38:57+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20860",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung desr Protokolls der Sitzung vom 08. November 2022",
+      "created": "2023-02-06T08:38:57+01:00",
+      "modified": "2023-02-06T08:38:57+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20863",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Mitteilungen der Verwaltung",
+      "created": "2023-02-06T08:38:57+01:00",
+      "modified": "2023-02-06T08:39:16+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20866",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht des Ortsrates über die Fragen der letzten Ortsratssitzungen",
+      "created": "2023-02-06T08:39:54+01:00",
+      "modified": "2023-02-06T08:39:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20862",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2023-02-06T08:38:57+01:00",
+      "modified": "2023-02-06T08:39:58+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20867",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Verkehrssituation/Parksituation Leunisstraße",
+      "created": "2023-02-06T08:40:29+01:00",
+      "modified": "2023-02-06T08:40:29+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20868",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "B 1 Ortsumgehung\n- Auswertung Umfrage\n- Weiteres Vorgehen",
+      "created": "2023-02-06T08:41:06+01:00",
+      "modified": "2023-02-06T08:41:06+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20864",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2023-02-06T08:38:57+01:00",
+      "modified": "2023-02-06T08:41:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20861",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Anfragen und Anregungen",
+      "created": "2023-02-06T08:38:57+01:00",
+      "modified": "2023-02-06T08:38:57+01:00"
+    }
+  ]
+}

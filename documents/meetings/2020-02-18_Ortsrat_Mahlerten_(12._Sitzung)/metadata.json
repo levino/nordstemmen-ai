@@ -1,0 +1,154 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4435",
+  "name": "Ortsrat Mahlerten (12. Sitzung)",
+  "start": "2020-02-18T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-10",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Mahlerten, Leunisstraße 16, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Leunisstraße 16",
+    "room": "Dorfgemeinschaftshaus Mahlerten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Mahlerten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T12:00:53+02:00",
+    "modified": "2019-06-06T11:57:30+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-17"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-28961",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2020-02-18",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTzF9lIN0CiP3RP_E1QBgjU0_LfLzsYksO-d76JDIlhz/Bekanntmachung_Ortsrat_Mahlerten_18.02.2020.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTzF9lIN0CiP3RP_E1QBgjU0_LfLzsYksO-d76JDIlhz/Bekanntmachung_Ortsrat_Mahlerten_18.02.2020.pdf",
+    "created": "2020-02-10T13:00:37+01:00",
+    "modified": "2020-02-10T13:00:37+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-29137",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2020-02-18",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZssdBrPPZXgobglE06xjs1TDGlzaNBkJJd3xXgu6kAM/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_18.02.2020.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZssdBrPPZXgobglE06xjs1TDGlzaNBkJJd3xXgu6kAM/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_18.02.2020.pdf",
+    "created": "2020-02-26T13:00:32+01:00",
+    "modified": "2020-02-26T13:00:32+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17256",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2020-02-07T11:09:54+01:00",
+      "modified": "2020-02-07T11:09:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17257",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2020-02-07T11:09:54+01:00",
+      "modified": "2020-02-07T11:09:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17258",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 29. Oktober 2019",
+      "created": "2020-02-07T11:09:54+01:00",
+      "modified": "2020-02-07T11:09:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17261",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2020-02-07T11:09:54+01:00",
+      "modified": "2020-02-07T11:10:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17265",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht des Ortsrates über die Fragen der letzten Ortsratssitzungen",
+      "created": "2020-02-07T11:11:38+01:00",
+      "modified": "2020-02-07T11:11:38+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17259",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohnerfragestunde",
+      "created": "2020-02-07T11:09:54+01:00",
+      "modified": "2020-02-07T11:09:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17266",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Vorbereitung Umwelttag",
+      "created": "2020-02-07T11:12:02+01:00",
+      "modified": "2020-02-07T11:12:02+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17260",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Haushaltsplan 2020 und Investitionsprogramm bis 2023 für die Ortschaft Mahlerten",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6723",
+      "created": "2020-02-07T11:09:54+01:00",
+      "modified": "2020-02-07T11:09:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17267",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Verwendung der im Haushaltsjahr 2020 noch zur Verfügung stehenden Ortsratsmittel (Umgestaltung/Verschönerung Stromkästen etc.)\n- Beratung und Beschlussfassung",
+      "created": "2020-02-07T11:14:40+01:00",
+      "modified": "2020-02-07T11:14:40+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17268",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Barrierefreier Ausbau von Bushaltestellen, Ortschaft Mahlerten, Hildesheimer Straße\n(DS 6/2019 - 3. Ergänzung)",
+      "created": "2020-02-07T11:16:55+01:00",
+      "modified": "2020-02-07T11:16:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17262",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2020-02-07T11:09:54+01:00",
+      "modified": "2020-02-07T11:09:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17263",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Anträge und Anfragen",
+      "created": "2020-02-07T11:09:54+01:00",
+      "modified": "2020-02-07T11:09:54+01:00"
+    }
+  ]
+}

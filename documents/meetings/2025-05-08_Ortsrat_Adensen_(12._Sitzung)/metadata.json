@@ -1,0 +1,138 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5610",
+  "name": "Ortsrat Adensen (12. Sitzung)",
+  "start": "2025-05-08T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-21",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Sportgaststätte Rolf-Gehrke-Halle, An der Sporthalle 1, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "An der Sporthalle 1",
+    "room": "Sportgaststätte Rolf-Gehrke-Halle, Sammlungsraum",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2010-01-14T08:49:23+01:00",
+    "modified": "2021-10-27T14:00:03+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-11"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-41526",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2025-05-08",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWB6XAeRDIECtTmaXuKP7THPBXL0rMixZ1QLOcjdcd6D/Bekanntmachung_Ortsrat_Adensen_08.05.2025.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWB6XAeRDIECtTmaXuKP7THPBXL0rMixZ1QLOcjdcd6D/Bekanntmachung_Ortsrat_Adensen_08.05.2025.pdf",
+    "created": "2025-04-23T13:00:10+02:00",
+    "modified": "2025-04-23T13:00:10+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-41720",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2025-05-08",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbF_tnsI0kP1KWKBhx3r8tTVDalX8FGF7IX3Cup7hvSl/Oeffentliche_Niederschrift_Ortsrat_Adensen_08.05.2025.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbF_tnsI0kP1KWKBhx3r8tTVDalX8FGF7IX3Cup7hvSl/Oeffentliche_Niederschrift_Ortsrat_Adensen_08.05.2025.pdf",
+    "created": "2025-05-22T13:00:24+02:00",
+    "modified": "2025-05-22T13:00:24+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23411",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2025-04-04T07:39:18+02:00",
+      "modified": "2025-04-04T07:39:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23412",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2025-04-04T07:39:18+02:00",
+      "modified": "2025-04-04T07:39:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23413",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 11. Februar 2025",
+      "created": "2025-04-04T07:39:18+02:00",
+      "modified": "2025-04-04T07:39:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23414",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Anfragen und Anregungen",
+      "created": "2025-04-04T07:39:18+02:00",
+      "modified": "2025-04-04T07:39:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23415",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2025-04-04T07:39:18+02:00",
+      "modified": "2025-04-04T07:39:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23416",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2026 sowie für die mittelfristige Finanzplanung 2027 bis 2029",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8353",
+      "result": "Zustimmend zur Kenntnis genommen.",
+      "created": "2025-04-04T07:39:18+02:00",
+      "modified": "2025-04-04T07:39:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23417",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Wahl einer Schiedsperson für den Schiedsamtsbezirk Adensen-Hallerburg in der Gemeinde Nordstemmen\n",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8345",
+      "result": "Einstimmig ja.",
+      "created": "2025-04-04T07:39:18+02:00",
+      "modified": "2025-04-04T07:39:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23462",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Aktueller Stand Anfrage Biogasbetreiber zum Industriegebiet am Krummen Kamp",
+      "created": "2025-04-22T10:08:40+02:00",
+      "modified": "2025-04-22T10:08:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23418",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2025-04-04T07:39:18+02:00",
+      "modified": "2025-04-04T07:39:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23419",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Mitteilungen der Verwaltung",
+      "created": "2025-04-04T07:39:18+02:00",
+      "modified": "2025-04-04T07:39:18+02:00"
+    }
+  ]
+}

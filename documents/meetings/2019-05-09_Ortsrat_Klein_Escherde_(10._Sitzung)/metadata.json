@@ -1,0 +1,188 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4242",
+  "name": "Ortsrat Klein Escherde (10. Sitzung)",
+  "start": "2019-05-09T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-9",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Klein Escherde, Eschestraße 3, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Eschestraße 3",
+    "room": "Feuerwehrhaus Klein Escherde, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Klein Escherde",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:54:15+02:00",
+    "modified": "2019-06-06T11:56:23+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-16"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-27046",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2019-05-09",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSc1H-K_wkK3SvWpjXe9YbPeNlX8jVA3HQDK7artvdhd/Bekanntmachung_Ortsrat_Klein_Escherde_09.05.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSc1H-K_wkK3SvWpjXe9YbPeNlX8jVA3HQDK7artvdhd/Bekanntmachung_Ortsrat_Klein_Escherde_09.05.2019.pdf",
+    "created": "2019-04-26T13:03:12+02:00",
+    "modified": "2019-04-26T13:03:12+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-27461",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2019-05-09",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZf45yDeirCv7gZA0w7gkKsLysihWsJ7RkJMjjTDEvs8Y/Oeffentliche_Niederschrift_Ortsrat_Klein_Escherde_09.05.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZf45yDeirCv7gZA0w7gkKsLysihWsJ7RkJMjjTDEvs8Y/Oeffentliche_Niederschrift_Ortsrat_Klein_Escherde_09.05.2019.pdf",
+    "created": "2019-06-11T19:01:19+02:00",
+    "modified": "2019-11-12T13:01:49+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16492",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2019-04-25T16:48:19+02:00",
+      "modified": "2019-04-25T16:48:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16493",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2019-04-25T16:48:19+02:00",
+      "modified": "2019-04-25T16:48:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16494",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 12. Februar 2019",
+      "created": "2019-04-25T16:48:19+02:00",
+      "modified": "2019-04-25T16:48:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16495",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4391",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 OR Klein Escherde)",
+          "mimeType": "application/pdf",
+          "date": "2019-05-09",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZS00LqfDsi1J-gEvT0dXCSgM9OEUn2hkB5xQDKVEpAGL/Anlage_1_OR_Klein_Escherde.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZS00LqfDsi1J-gEvT0dXCSgM9OEUn2hkB5xQDKVEpAGL/Anlage_1_OR_Klein_Escherde.pdf",
+          "created": "2019-06-06T19:00:54+02:00",
+          "modified": "2019-06-06T19:00:54+02:00"
+        }
+      ],
+      "created": "2019-04-25T16:48:19+02:00",
+      "modified": "2019-04-25T16:48:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16516",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Mitteilung des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4392",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2 OR Klein Escherde)",
+          "mimeType": "application/pdf",
+          "date": "2019-05-09",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRIx6rKOugFIr4QSPH1n8Umf3WYrcPxEzxd5KyYo3RIG/Anlage_2_OR_Klein_Escherde.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRIx6rKOugFIr4QSPH1n8Umf3WYrcPxEzxd5KyYo3RIG/Anlage_2_OR_Klein_Escherde.pdf",
+          "created": "2019-06-06T19:00:54+02:00",
+          "modified": "2019-06-06T19:00:54+02:00"
+        }
+      ],
+      "created": "2019-04-26T10:54:38+02:00",
+      "modified": "2019-04-26T10:57:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16496",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohnerfragestunde",
+      "created": "2019-04-25T16:48:19+02:00",
+      "modified": "2019-04-25T16:48:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16500",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Einrichtung einer Mitfahrbank am Drosselpark für die Richtungen Hildesheim und Nordstemmen\n(Ausführungen werden in der Sitzung gemacht)\n- Beratung und Beschlussfassung",
+      "created": "2019-04-25T16:53:58+02:00",
+      "modified": "2019-04-25T16:53:58+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16501",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Vorbereitung Bürgerfrühstück am Sonntag, den 2. Juni 2019\n(Ausführungen werden in der Sitzung gemacht)\n- Beratung und Beschlussfassung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4393",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 OR Klein Escherde)",
+          "mimeType": "application/pdf",
+          "date": "2019-05-09",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQHyxkISlYXtoblAeZT5EBBqnrsc3UFHCh9HD6zBf5QX/Anlage_1_OR_Klein_Escherde.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQHyxkISlYXtoblAeZT5EBBqnrsc3UFHCh9HD6zBf5QX/Anlage_1_OR_Klein_Escherde.pdf",
+          "created": "2019-06-06T19:00:54+02:00",
+          "modified": "2019-06-06T19:00:54+02:00"
+        }
+      ],
+      "created": "2019-04-25T16:54:36+02:00",
+      "modified": "2019-04-25T16:54:36+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16502",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Vorbereitung und Planung Kinderfest 29. Juni 2019\n- Beratung und Beschlussfassung",
+      "created": "2019-04-25T16:55:05+02:00",
+      "modified": "2019-04-25T16:55:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16497",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2020 sowie für die mittelfristige Finanzplanung 2021 bis 2023",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6537",
+      "result": "Einstimmig",
+      "created": "2019-04-25T16:48:19+02:00",
+      "modified": "2019-04-25T16:48:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16498",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anträge und Anfragen",
+      "created": "2019-04-25T16:48:19+02:00",
+      "modified": "2019-04-25T16:48:19+02:00"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1813",
+  "name": "Ortsrat Nordstemmen (22. Sitzung)",
+  "start": "2012-02-27T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-8"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-7769",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Nordstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2012-02-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbpB8VV5pkLI9Bxs38aJmpKI0EJ19rgtHyyP2haPmObt/Bekanntmachung_Ortsrat_Nordstemmen_27.02.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbpB8VV5pkLI9Bxs38aJmpKI0EJ19rgtHyyP2haPmObt/Bekanntmachung_Ortsrat_Nordstemmen_27.02.2012.pdf",
+    "created": "2012-02-17T11:39:19+01:00",
+    "modified": "2012-02-17T11:39:19+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-8096",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Nordstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2012-02-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZEoz6WqIusRQDk6lxAVBPkePBVzzJ9pg8R2G296oIwS/Oeffentliche_Niederschrift_Ortsrat_Nordstemmen_27.02.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZEoz6WqIusRQDk6lxAVBPkePBVzzJ9pg8R2G296oIwS/Oeffentliche_Niederschrift_Ortsrat_Nordstemmen_27.02.2012.pdf",
+    "created": "2012-04-10T16:43:25+02:00",
+    "modified": "2012-04-10T16:43:25+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8096",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2012-02-15T10:21:31+01:00",
+      "modified": "2012-02-15T10:21:31+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8097",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2012-02-15T10:21:31+01:00",
+      "modified": "2012-02-15T10:21:31+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8108",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Verpflichtung und Pflichtenbelehrung eines nachrückenden Ortsratsmitgliedes durch den Bürgermeister",
+      "created": "2012-02-15T10:23:19+01:00",
+      "modified": "2012-02-15T10:23:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8109",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Verabschiedung eines ausgeschiedenen Ortsratsmitgliedes",
+      "created": "2012-02-15T10:24:10+01:00",
+      "modified": "2012-02-15T10:24:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8098",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 21.11.2011",
+      "created": "2012-02-15T10:21:31+01:00",
+      "modified": "2012-02-15T10:21:31+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8100",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Anhörung zum doppischen Haushalt für die Haushaltsjahre 2012 bis 2015 / Investitionstätigkeit in der Ortschaft Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1800",
+      "created": "2012-02-15T10:21:31+01:00",
+      "modified": "2012-02-15T10:21:31+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8101",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bereitstellung von Dachflächen zur Errichtung von Photovoltaikanlagen durch eine Bürger-Photovoltaikgenossenschaft",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1806",
+      "created": "2012-02-15T10:21:31+01:00",
+      "modified": "2012-02-15T10:21:31+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8102",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Baumpflege der Linde am Friedhofseingang Kirchbrink",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1812",
+      "created": "2012-02-15T10:21:31+01:00",
+      "modified": "2012-02-15T10:21:31+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8110",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Sachstandsbericht und weitere Vorgehensweise zur Anlegung einer Boulespielanlage\n- Beratung und Beschlussfassung\n(weitere Ausführungen werden in der Sitzung gemacht)",
+      "created": "2012-02-15T10:27:16+01:00",
+      "modified": "2012-02-15T10:27:16+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8111",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Anschaffung und Aufstellung von Hundekotbeutelspendern\n- Beratung und Beschlussfassung\n(sihe Anlage 1; weitere Ausführungen werden in der Sitzung gemacht)",
+      "created": "2012-02-15T10:29:46+01:00",
+      "modified": "2012-02-15T10:29:46+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8112",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Richtlinien über die Gewährung von Zuwendungen aus Ortsratsmitteln an die örtlichen Vereine und Verbände\n- Beratung und Beschlussfassung\n(siehe Anlage 2; weitere Ausführungen werden in der Sitzung gemacht)",
+      "created": "2012-02-15T10:31:39+01:00",
+      "modified": "2012-02-15T10:31:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8113",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Verwendung der im Haushaltsjahr 2012 zur Verfügung stehenden Ortsratsmittel\n- Antrag des GJR Nordstemmen (Ferienpassaktionen 2011)\n  (siehe Anlage 3)\n- Antrag des Blasorchesters Nordstemmen von 1883\n  (siehe Anlage 4)\n- Seniorenfahrt 2012 (Vorschläge)\n- Sonstiges\n(Beratung und Beschlussfassung; siehe Anlage 5)",
+      "created": "2012-02-15T10:34:08+01:00",
+      "modified": "2012-02-15T10:34:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8114",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Vorbereitung des Umweltaktionstages am 14.04.2012",
+      "created": "2012-02-15T10:34:34+01:00",
+      "modified": "2012-02-15T10:34:34+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8103",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2012-02-15T10:21:31+01:00",
+      "modified": "2012-02-15T10:21:31+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8104",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Mitteilungen des Ortsbürgermeisters",
+      "created": "2012-02-15T10:21:31+01:00",
+      "modified": "2012-02-15T10:21:31+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8105",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Behandlung von schriftlichen Anfragen und Anträgen",
+      "created": "2012-02-15T10:21:31+01:00",
+      "modified": "2012-02-15T10:21:31+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8106",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 17,
+      "name": "Anregungen",
+      "created": "2012-02-15T10:21:31+01:00",
+      "modified": "2012-02-15T10:21:31+01:00"
+    }
+  ]
+}

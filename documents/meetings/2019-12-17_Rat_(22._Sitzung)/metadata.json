@@ -1,0 +1,230 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4386",
+  "name": "Rat (22. Sitzung)",
+  "start": "2019-12-17T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-27",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Landhaus Adensen, Am Pfarrkamp 13 - 13 a, 31171 Nordstemmen, Saal",
+    "streetAddress": "Am Pfarrkamp 13 - 13 a",
+    "room": "Landhaus Adensen, Saal",
+    "postalCode": "31171",
+    "subLocality": "Adensen",
+    "locality": "Nordstemmen",
+    "created": "2014-11-27T08:38:26+01:00",
+    "modified": "2017-08-31T09:05:44+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-28764",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2019-12-17",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQi3bI7jDQsdsVHDNkcxkEfSaUByXxf-27A5MD4FxC3X/Bekanntmachung_Rat_17.12.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQi3bI7jDQsdsVHDNkcxkEfSaUByXxf-27A5MD4FxC3X/Bekanntmachung_Rat_17.12.2019.pdf",
+    "created": "2019-12-09T13:01:18+01:00",
+    "modified": "2019-12-09T13:01:18+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-28859",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2019-12-17",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdYpBRVkYTxN3etEcVdLfkSJCO94AEupFbq_uEfjDplJ/Oeffentliche_Niederschrift_Rat_17.12.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdYpBRVkYTxN3etEcVdLfkSJCO94AEupFbq_uEfjDplJ/Oeffentliche_Niederschrift_Rat_17.12.2019.pdf",
+    "created": "2020-01-09T19:01:33+01:00",
+    "modified": "2020-01-09T19:01:33+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17085",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2019-11-21T17:23:14+01:00",
+      "modified": "2019-12-03T09:29:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17086",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2019-11-21T17:23:14+01:00",
+      "modified": "2019-11-21T17:23:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17162",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Feststellung des Sitzverlustes des Ratsmitgliedes Herrn Henning Ohlmer",
+      "created": "2019-12-04T11:22:00+01:00",
+      "modified": "2019-12-04T11:22:00+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17163",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Förmliche Verpflichtung und Pflichtbelehrung des nachrückendes Ratsmitgliedes Herrn Henrik Friedhoff",
+      "created": "2019-12-04T11:22:43+01:00",
+      "modified": "2019-12-04T11:22:43+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17165",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Umbildung des Verwaltungsausschusses\n",
+      "created": "2019-12-05T09:11:51+01:00",
+      "modified": "2019-12-05T09:11:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17164",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Neubesetzung der Fachausschüsse durch die CDU-Ratsfraktion",
+      "created": "2019-12-04T11:23:19+01:00",
+      "modified": "2019-12-04T11:23:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17087",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Genehmigung des Protokolls der Sitzung des Rates vom 25. November 2019",
+      "created": "2019-11-21T17:23:14+01:00",
+      "modified": "2019-11-21T17:23:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17088",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bericht des Bürgermeisters über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4568",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zur Niederschrift der Sitzung)",
+          "mimeType": "application/pdf",
+          "date": "2019-12-17",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZV6NxbMYsPd5XnIeFsGHRpndhbVib1u6mj_yrOPYu7mh/Anlage_1_zur_Niederschrift_der_Sitzung.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZV6NxbMYsPd5XnIeFsGHRpndhbVib1u6mj_yrOPYu7mh/Anlage_1_zur_Niederschrift_der_Sitzung.pdf",
+          "created": "2019-12-27T13:01:19+01:00",
+          "modified": "2019-12-27T13:01:19+01:00"
+        }
+      ],
+      "created": "2019-11-21T17:23:14+01:00",
+      "modified": "2019-11-21T17:23:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17089",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Einwohnerfragestunde",
+      "created": "2019-11-21T17:23:14+01:00",
+      "modified": "2019-11-21T17:23:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17157",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Annahme von Zuwendungen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6693",
+      "result": "einstimmig (Änderung Empfänger)",
+      "created": "2019-12-03T08:56:29+01:00",
+      "modified": "2019-12-04T11:24:02+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17156",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Unterrichtung über die Veränderungen von Kommunaldarlehen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6690",
+      "created": "2019-12-03T08:56:20+01:00",
+      "modified": "2019-12-04T11:24:12+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17158",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Bericht über die Erstellung des Jahresergebnisses zum 31. Dezember 2018 NBEG Baulandentwicklungsgesellschaft mbH Nordstemmen & Co. KG",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6696",
+      "created": "2019-12-03T08:56:36+01:00",
+      "modified": "2019-12-04T11:24:31+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17159",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Bericht über die Erstellung des Jahresergebnisses zum 31. Dezember 2018 NBEG Baulandentwicklung Beteiligungsgesellschaft mbH Nordstemmen ",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6699",
+      "created": "2019-12-03T08:56:49+01:00",
+      "modified": "2019-12-04T11:24:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17160",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Bericht über die Erstellung des Jahresergebnisses zum 31. Dezember 2018 NVEG\nGmbH & Co. KG ",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6702",
+      "created": "2019-12-03T08:57:03+01:00",
+      "modified": "2019-12-04T11:24:47+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17161",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Betriebsergebnis der Abwasserbeseitigung 2018",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6706",
+      "created": "2019-12-03T08:57:11+01:00",
+      "modified": "2019-12-04T11:24:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17091",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Bebauungsplan Nr. 1010 \"Clausstraße - West\";\nSatzungsbeschluss gem. § 10 Abs. 1 BauGB",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6681",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2019-11-21T17:23:14+01:00",
+      "modified": "2019-11-21T17:23:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17092",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 17,
+      "name": "Mitteilungen bzw. Bericht des Bürgermeisters",
+      "created": "2019-11-21T17:23:14+01:00",
+      "modified": "2019-11-21T17:23:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17093",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 18,
+      "name": "Anträge und Anfragen",
+      "created": "2019-11-21T17:23:14+01:00",
+      "modified": "2019-11-21T17:23:14+01:00"
+    }
+  ]
+}

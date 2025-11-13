@@ -1,0 +1,118 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2838",
+  "name": "Ortsrat Heyersum (2. Sitzung)",
+  "start": "2016-11-29T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-8",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Altes Schulhaus Heyersum, Martin-Luther-Platz 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Martin-Luther-Platz 3",
+    "room": "Altes Schulhaus Heyersum, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Heyersum",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:37:30+02:00",
+    "modified": "2019-10-24T16:49:00+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-13"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-17489",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2016-11-29",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUCbdaXidaEdoj80viCTvUY-NKgcCfJYYtHNSYzWA_WL/Bekanntmachung_Ortsrat_Heyersum_29.11.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUCbdaXidaEdoj80viCTvUY-NKgcCfJYYtHNSYzWA_WL/Bekanntmachung_Ortsrat_Heyersum_29.11.2016.pdf",
+    "created": "2016-11-17T19:00:41+01:00",
+    "modified": "2016-11-17T19:00:41+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-17900",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2016-11-29",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbrQKxsqjFWQc-_wOtjhlH8sMJR7L8RZoNv4T3dH_LDp/Oeffentliche_Niederschrift_Ortsrat_Heyersum_29.11.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbrQKxsqjFWQc-_wOtjhlH8sMJR7L8RZoNv4T3dH_LDp/Oeffentliche_Niederschrift_Ortsrat_Heyersum_29.11.2016.pdf",
+    "created": "2016-12-14T13:01:05+01:00",
+    "modified": "2016-12-14T13:01:05+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13572",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2016-11-15T08:01:54+01:00",
+      "modified": "2016-11-15T08:01:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13573",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2016-11-15T08:01:54+01:00",
+      "modified": "2016-11-15T08:01:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13574",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 03.11.2016",
+      "created": "2016-11-15T08:01:54+01:00",
+      "modified": "2016-11-15T08:01:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13575",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2016-11-15T08:01:54+01:00",
+      "modified": "2016-11-15T08:01:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13576",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Anhörung zum Haushaltsplan 2017 und zum Investitionsprogramm bis 2020 für die Ortschaft Heyersum",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3666",
+      "created": "2016-11-15T08:01:54+01:00",
+      "modified": "2016-11-15T08:01:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13577",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2016-11-15T08:01:54+01:00",
+      "modified": "2016-11-15T08:01:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13578",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2016-11-15T08:01:54+01:00",
+      "modified": "2016-11-15T08:01:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13579",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Anträge und Anfragen",
+      "created": "2016-11-15T08:01:54+01:00",
+      "modified": "2016-11-15T08:01:54+01:00"
+    }
+  ]
+}

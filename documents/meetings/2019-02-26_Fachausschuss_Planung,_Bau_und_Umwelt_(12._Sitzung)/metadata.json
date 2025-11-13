@@ -1,0 +1,154 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4226",
+  "name": "Fachausschuss Planung, Bau und Umwelt (12. Sitzung)",
+  "start": "2019-02-26T18:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-31"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-26394",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Planung, Bau und Umwelt)",
+    "mimeType": "application/pdf",
+    "date": "2019-02-26",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQlaArUKD_k7uCs3SWsGP3yeXnYDB4NP-mAL7RRaNy39/Bekanntmachung_Fachausschuss_Planung-_Bau_und_Umwelt_26.02.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQlaArUKD_k7uCs3SWsGP3yeXnYDB4NP-mAL7RRaNy39/Bekanntmachung_Fachausschuss_Planung-_Bau_und_Umwelt_26.02.2019.pdf",
+    "created": "2019-02-15T13:00:55+01:00",
+    "modified": "2019-02-15T13:00:55+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-26637",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Planung, Bau und Umwelt)",
+    "mimeType": "application/pdf",
+    "date": "2019-02-26",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcMHUbrAL3v2MvMZKwcCz5HurNxRn97lma4mSKrZWAZE/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau_und_Umwelt_26.02.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcMHUbrAL3v2MvMZKwcCz5HurNxRn97lma4mSKrZWAZE/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau_und_Umwelt_26.02.2019.pdf",
+    "created": "2019-03-12T19:01:10+01:00",
+    "modified": "2019-03-12T19:01:10+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16241",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2019-02-11T13:52:56+01:00",
+      "modified": "2019-02-11T13:52:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16242",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2019-02-11T13:52:56+01:00",
+      "modified": "2019-02-11T13:52:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16243",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 13. November 2018",
+      "created": "2019-02-11T13:52:56+01:00",
+      "modified": "2019-02-11T13:52:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16244",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2019-02-11T13:52:56+01:00",
+      "modified": "2019-02-11T13:52:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16266",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bebauungsplan Nr. 0804 \"Teichstraße-Ost\", Ortschaft Klein Escherde\n- Aufstellungsbeschluss gemäß § 2 (1) BauGB",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6471",
+      "result": "7 Ja-Stimmen/1 Nein-Stimme",
+      "created": "2019-02-14T14:34:35+01:00",
+      "modified": "2019-02-14T14:34:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16245",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Lärmaktionsplan der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6448",
+      "result": "6 Ja-Stimmen/1 Nein-Stimme/1 Enthaltung",
+      "created": "2019-02-11T13:52:56+01:00",
+      "modified": "2019-02-11T13:52:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16246",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Barrierefreier Ausbau von Bushaltestellen – Mahlerten und Nordstemmen, Stellwerk",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6454",
+      "result": "6 Ja-Stimmen/1 Nein-Stimme/1 Enthaltung/abweichender Beschluss",
+      "created": "2019-02-11T13:52:56+01:00",
+      "modified": "2019-02-11T13:52:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16267",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Sachstand über aktuelle Themen im Bereich Hoch- und Tiefbau",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4314",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (2019 02 26 Liste Themen Anlage 1_neu)",
+          "mimeType": "application/pdf",
+          "date": "2019-02-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfx1IByTmzCMOvU5jjn-nWjyJf7PNgLn7P9OO6kjjQDC/2019_02_26_Liste_Themen_Anlage_1_neu.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfx1IByTmzCMOvU5jjn-nWjyJf7PNgLn7P9OO6kjjQDC/2019_02_26_Liste_Themen_Anlage_1_neu.pdf",
+          "created": "2019-03-12T13:00:58+01:00",
+          "modified": "2019-03-12T13:00:58+01:00"
+        }
+      ],
+      "created": "2019-02-14T14:35:16+01:00",
+      "modified": "2019-02-14T14:35:16+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16247",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2019-02-11T13:52:56+01:00",
+      "modified": "2019-02-11T13:52:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16248",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Anträge und Anfragen",
+      "created": "2019-02-11T13:52:56+01:00",
+      "modified": "2019-02-11T13:52:56+01:00"
+    }
+  ]
+}

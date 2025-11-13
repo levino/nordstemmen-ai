@@ -1,0 +1,137 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2572",
+  "name": "Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie (16. Sitzung)",
+  "start": "2015-11-24T18:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-20",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer Rathaus Altbau",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer Rathaus Altbau",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2009-02-10T14:08:10+01:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-7"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15171",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie)",
+    "mimeType": "application/pdf",
+    "date": "2015-11-24",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbZ1aAfRAGg-Jn2WciXqq-0nuDiD7-dgffRJXXw4j00n/Bekanntmachung_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_24.11.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbZ1aAfRAGg-Jn2WciXqq-0nuDiD7-dgffRJXXw4j00n/Bekanntmachung_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_24.11.2015.pdf",
+    "created": "2015-11-18T13:01:00+01:00",
+    "modified": "2015-11-18T13:01:00+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15379",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie)",
+    "mimeType": "application/pdf",
+    "date": "2015-11-24",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYiZ1zDm6Ik1d0yAUtD0dZWzF300Nc_tC7iZIS8XUDt7/Oeffentliche_Niederschrift_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_24.11.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYiZ1zDm6Ik1d0yAUtD0dZWzF300Nc_tC7iZIS8XUDt7/Oeffentliche_Niederschrift_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_24.11.2015.pdf",
+    "created": "2015-12-28T19:00:43+01:00",
+    "modified": "2015-12-28T19:00:43+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12376",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2015-11-05T17:58:52+01:00",
+      "modified": "2015-11-05T17:58:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12377",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2015-11-05T17:58:52+01:00",
+      "modified": "2015-11-05T17:58:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12378",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 24. September 2015",
+      "created": "2015-11-05T17:58:52+01:00",
+      "modified": "2015-11-17T15:59:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12379",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2015-11-05T17:58:52+01:00",
+      "modified": "2015-11-05T17:58:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12380",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Erweiterung des Platzangebots um 10 Ganztagsplätze in der AWO Kindertagesstätte Nordstemmen zum 01.01.2016",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3254",
+      "created": "2015-11-05T17:58:52+01:00",
+      "modified": "2015-11-05T17:58:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12402",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Umwandlung der Kindergartengruppe (Kleingruppe für 10 Kinder) in eine Krippengruppe für die Betreuung von 13 Kindern in der ev.-luth. Kindertagesstätte St. Johannes Groß Escherde zum 01.08.2016",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3312",
+      "created": "2015-11-17T15:45:14+01:00",
+      "modified": "2015-11-17T15:45:17+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12381",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Haushalt 2016;\nTeilhaushalt für den Produktbereich Soziales u. a.",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3291",
+      "created": "2015-11-05T17:58:52+01:00",
+      "modified": "2015-11-05T17:58:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12403",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Sachstandsbericht CTC",
+      "created": "2015-11-17T15:46:07+01:00",
+      "modified": "2015-11-17T15:46:07+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12382",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2015-11-05T17:58:52+01:00",
+      "modified": "2015-11-05T17:58:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12383",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Anträge und Anfragen",
+      "created": "2015-11-05T17:58:52+01:00",
+      "modified": "2015-11-05T17:58:52+01:00"
+    }
+  ]
+}

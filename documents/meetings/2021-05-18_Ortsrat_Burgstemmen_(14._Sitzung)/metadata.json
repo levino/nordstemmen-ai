@@ -1,0 +1,159 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4663",
+  "name": "Ortsrat Burgstemmen (14. Sitzung)",
+  "start": "2021-05-18T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-38",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Mehrzweckhalle Burgstemmen, Bethelner Straße 14, 31171 Nordstemmen, Saal",
+    "streetAddress": "Bethelner Straße 14",
+    "room": "Mehrzweckhalle Burgstemmen, Saal",
+    "postalCode": "31171",
+    "subLocality": "Burgstemmen",
+    "locality": "Nordstemmen",
+    "created": "2020-10-26T11:31:19+01:00",
+    "modified": "2020-10-26T13:17:36+01:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-12"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-31315",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2021-05-18",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUW4jBBkCO5GBGjdDE_0AlHeLOv08x7ftdjdfXNzFFBk/Bekanntmachung_Ortsrat_Burgstemmen_18.05.2021.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUW4jBBkCO5GBGjdDE_0AlHeLOv08x7ftdjdfXNzFFBk/Bekanntmachung_Ortsrat_Burgstemmen_18.05.2021.pdf",
+    "created": "2021-05-11T13:00:00+02:00",
+    "modified": "2021-05-11T13:00:00+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-31443",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2021-05-18",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfrMoq_TgWvdpHJVDy2yBMotRunKqOnDZSqg3FlvGsyq/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_18.05.2021.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfrMoq_TgWvdpHJVDy2yBMotRunKqOnDZSqg3FlvGsyq/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_18.05.2021.pdf",
+    "created": "2021-06-01T19:00:16+02:00",
+    "modified": "2021-06-01T19:00:16+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18586",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2021-04-21T13:14:49+02:00",
+      "modified": "2021-04-21T13:14:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18587",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2021-04-21T13:14:49+02:00",
+      "modified": "2021-04-21T13:14:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18588",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 11. Februar 2020",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5116",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Burgstemmen 2020 02 11)",
+          "mimeType": "application/pdf",
+          "date": "2021-05-18",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZPjTMai_21Ny-2dxDBJ1UPDGbu2R15f7-squSrni4Gq/OR_Burgstemmen_2020_02_11.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZPjTMai_21Ny-2dxDBJ1UPDGbu2R15f7-squSrni4Gq/OR_Burgstemmen_2020_02_11.pdf",
+          "created": "2021-05-11T13:00:00+02:00",
+          "modified": "2021-05-11T13:00:00+02:00"
+        }
+      ],
+      "created": "2021-04-21T13:14:49+02:00",
+      "modified": "2021-04-21T13:14:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18591",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht bzw. Mitteilungen der Bürgermeisterin",
+      "created": "2021-04-21T13:14:49+02:00",
+      "modified": "2021-05-06T16:56:48+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18665",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht des Ortsrates zu den Fragen aus der/den letzten Ortsratssitzung/en Burgstemmen",
+      "created": "2021-05-06T16:57:58+02:00",
+      "modified": "2021-05-06T16:57:58+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18589",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohnerfragestunde",
+      "created": "2021-04-21T13:14:49+02:00",
+      "modified": "2021-04-21T13:14:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18666",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Nächtliche Geschwindigkeitsabsenkung auf Tempo 30 - Bundesstraße 1, Ortsdurchfahrt Burgstemmen\n- Beratung und Beschlussfassung",
+      "created": "2021-05-06T17:00:52+02:00",
+      "modified": "2021-05-06T17:00:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18667",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2022 sowie für die mittelfristige Finanzplanung 2023 bis 2025",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7024",
+      "created": "2021-05-06T17:01:05+02:00",
+      "modified": "2021-05-06T17:01:11+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18668",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Verwendung der im Haushaltsjahr 2021 zur Verfügung stehenden Ortsratsmittel",
+      "created": "2021-05-06T17:02:34+02:00",
+      "modified": "2021-05-06T17:02:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18592",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2021-04-21T13:14:49+02:00",
+      "modified": "2021-04-21T13:14:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18593",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anträge und Anfragen",
+      "created": "2021-04-21T13:14:49+02:00",
+      "modified": "2021-04-21T13:14:49+02:00"
+    }
+  ]
+}

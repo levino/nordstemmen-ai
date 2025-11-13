@@ -1,0 +1,109 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2822",
+  "name": "Ortsrat Klein Escherde (31. Sitzung)",
+  "start": "2016-09-26T17:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-9",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Klein Escherde, Eschestraße 3, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Eschestraße 3",
+    "room": "Feuerwehrhaus Klein Escherde, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Klein Escherde",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:54:15+02:00",
+    "modified": "2019-06-06T11:56:23+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-16"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-16987",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2016-09-26",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVTvXwgabYujRIJoHlb2P6hlhc8DW-CxaDAuSKhC1F8W/Bekanntmachung_Ortsrat_Klein_Escherde_26.09.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVTvXwgabYujRIJoHlb2P6hlhc8DW-CxaDAuSKhC1F8W/Bekanntmachung_Ortsrat_Klein_Escherde_26.09.2016.pdf",
+    "created": "2016-09-15T13:00:36+02:00",
+    "modified": "2016-09-15T13:00:36+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-17174",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2016-09-26",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdJJ3X7DT0pXVf1Hqmi-nhXCf_50X0HomeNMaFsCn9aO/Oeffentliche_Niederschrift_Ortsrat_Klein_Escherde_26.09.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdJJ3X7DT0pXVf1Hqmi-nhXCf_50X0HomeNMaFsCn9aO/Oeffentliche_Niederschrift_Ortsrat_Klein_Escherde_26.09.2016.pdf",
+    "created": "2016-10-06T19:00:32+02:00",
+    "modified": "2016-10-06T19:00:32+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13213",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2016-09-13T14:12:02+02:00",
+      "modified": "2016-09-13T14:12:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13214",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2016-09-13T14:12:02+02:00",
+      "modified": "2016-09-13T14:12:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13216",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Einwohnerfragestunde",
+      "created": "2016-09-13T14:12:02+02:00",
+      "modified": "2016-09-13T14:12:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13217",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "21. Änderung des Flächennutzungsplanes der Gemeinde Nordstemmen (Flächen für die Windenergie mit Ausschlusswirkung gemäß § 35 Abs. 3 Satz 3 BauGB)\n- Anhörung des Ortsrates gemäß § 94 Abs. 1 Ziff. 2 NKomVG",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3637",
+      "created": "2016-09-13T14:12:02+02:00",
+      "modified": "2016-09-13T14:12:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13218",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2016-09-13T14:12:02+02:00",
+      "modified": "2016-09-13T14:12:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13219",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2016-09-13T14:12:02+02:00",
+      "modified": "2016-09-13T14:12:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13220",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Anträge und Anfragen",
+      "created": "2016-09-13T14:12:02+02:00",
+      "modified": "2016-09-13T14:12:02+02:00"
+    }
+  ]
+}

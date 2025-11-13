@@ -1,0 +1,202 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4223",
+  "name": "Ortsrat Mahlerten (9. Sitzung)",
+  "start": "2019-02-19T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-10",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Mahlerten, Leunisstraße 16, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Leunisstraße 16",
+    "room": "Dorfgemeinschaftshaus Mahlerten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Mahlerten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T12:00:53+02:00",
+    "modified": "2019-06-06T11:57:30+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-17"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-26345",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2019-02-19",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZc5oOa65B3bqPvpcLJLzAAASqN_ydPGFZvBLKJTi8DqU/Bekanntmachung_Ortsrat_Mahlerten_19.02.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZc5oOa65B3bqPvpcLJLzAAASqN_ydPGFZvBLKJTi8DqU/Bekanntmachung_Ortsrat_Mahlerten_19.02.2019.pdf",
+    "created": "2019-02-08T11:46:34+01:00",
+    "modified": "2019-02-08T11:46:34+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-26983",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2019-02-19",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUdRNAbTafKhxSeUEKLPKKY5LAVeO7sKwL44q7cidFoa/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_19.02.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUdRNAbTafKhxSeUEKLPKKY5LAVeO7sKwL44q7cidFoa/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_19.02.2019.pdf",
+    "created": "2019-04-23T19:00:56+02:00",
+    "modified": "2019-04-23T19:00:56+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16203",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2019-02-06T09:10:10+01:00",
+      "modified": "2019-02-06T09:10:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16204",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2019-02-06T09:10:10+01:00",
+      "modified": "2019-02-06T09:10:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16205",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 30. Oktober 2018",
+      "created": "2019-02-06T09:10:10+01:00",
+      "modified": "2019-02-06T09:10:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16208",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Barrierefreier Ausbau von Bushaltestellen – Mahlerten und Nordstemmen, Stellwerk",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6453",
+      "result": "3 Nein-Stimmen/2 Enthaltungen/abgelehnt",
+      "created": "2019-02-06T09:10:10+01:00",
+      "modified": "2019-02-08T09:16:18+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16209",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2019-02-06T09:10:10+01:00",
+      "modified": "2019-02-08T09:19:41+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16213",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bericht des Ortsrates über die Fragen der letzten Ortsratssitzung",
+      "created": "2019-02-06T09:11:11+01:00",
+      "modified": "2019-02-08T09:20:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16206",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Einwohnerfragestunde",
+      "created": "2019-02-06T09:10:10+01:00",
+      "modified": "2019-02-08T09:20:22+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16214",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Abstimmung und Beschluss Rotlicht-Geschwindigkeitsmessanlage\n(siehe Antrag 02/2019)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4349",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Mahlerten Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2019-02-19",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSLqYUif4kHFnPWXVsWJHZktyz3vKc2CleZIOGJjzLr8/OR_Mahlerten_Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSLqYUif4kHFnPWXVsWJHZktyz3vKc2CleZIOGJjzLr8/OR_Mahlerten_Anlage_1.pdf",
+          "created": "2019-04-16T19:00:35+02:00",
+          "modified": "2019-04-16T19:00:35+02:00"
+        }
+      ],
+      "created": "2019-02-06T09:12:00+01:00",
+      "modified": "2019-02-08T09:20:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16240",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Abstimmung und Beschluss Verlegung B1\n(siehe Antrag 01/2019)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4350",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Mahlerten Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2019-02-19",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUqKvhxgd-YVlvhRzEXL8FZWKItQmBYKJarVh05U8EPA/OR_Mahlerten_Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUqKvhxgd-YVlvhRzEXL8FZWKItQmBYKJarVh05U8EPA/OR_Mahlerten_Anlage_2.pdf",
+          "created": "2019-04-16T19:00:35+02:00",
+          "modified": "2019-04-16T19:00:35+02:00"
+        }
+      ],
+      "created": "2019-02-08T09:17:41+01:00",
+      "modified": "2019-02-08T09:17:41+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16215",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Umgestaltung/Verschönerung von Stromkästen",
+      "created": "2019-02-06T09:12:26+01:00",
+      "modified": "2019-02-06T09:12:26+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16216",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Organisation Reparatur- und Umwelttag",
+      "created": "2019-02-06T09:12:48+01:00",
+      "modified": "2019-02-06T09:12:48+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16207",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Haushaltsplan 2019 und zum Investitionsprogramm bis 2022 für die Ortschaft Mahlerten",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6460",
+      "created": "2019-02-06T09:10:10+01:00",
+      "modified": "2019-02-06T09:10:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16210",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2019-02-06T09:10:10+01:00",
+      "modified": "2019-02-06T09:10:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16211",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Anträge und Anfragen",
+      "created": "2019-02-06T09:10:10+01:00",
+      "modified": "2019-02-06T09:10:10+01:00"
+    }
+  ]
+}

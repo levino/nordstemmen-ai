@@ -1,0 +1,149 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2487",
+  "name": "Ortsrat Barnten (14. Sitzung)",
+  "start": "2015-05-07T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-5",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Barnten, Glückaufstraße 1, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Glückaufstraße 1",
+    "room": "Dorfgemeinschaftshaus Barnten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Barnten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:29:00+02:00",
+    "modified": "2019-06-06T11:57:52+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-10"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-14256",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2015-05-07",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfvRsyKnNf_-BswWOzmjHBmPF3qbNjLGZibs96DT16vT/Bekanntmachung_Ortsrat_Barnten_07.05.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfvRsyKnNf_-BswWOzmjHBmPF3qbNjLGZibs96DT16vT/Bekanntmachung_Ortsrat_Barnten_07.05.2015.pdf",
+    "created": "2015-05-12T13:05:59+02:00",
+    "modified": "2015-05-12T13:05:59+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-14398",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2015-05-07",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfH_WclQDoHGV2hsmqeGzA_FyAKbA7lrQ83G6ks1CZ0e/Oeffentliche_Niederschrift_Ortsrat_Barnten_07.05.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfH_WclQDoHGV2hsmqeGzA_FyAKbA7lrQ83G6ks1CZ0e/Oeffentliche_Niederschrift_Ortsrat_Barnten_07.05.2015.pdf",
+    "created": "2015-05-28T13:00:54+02:00",
+    "modified": "2015-05-28T13:00:54+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11748",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2015-04-21T13:19:30+02:00",
+      "modified": "2015-04-21T13:19:30+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11749",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2015-04-21T13:19:30+02:00",
+      "modified": "2015-04-21T13:19:30+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11750",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 26.02.2015",
+      "created": "2015-04-21T13:19:30+02:00",
+      "modified": "2015-04-21T13:19:30+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11751",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2015-04-21T13:19:30+02:00",
+      "modified": "2015-04-21T13:19:30+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11756",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Antrag auf Planfeststellung Hartsalzwerk Siegfried-Giesen\n- Unterrichtung des Ortsrates",
+      "created": "2015-04-21T13:21:01+02:00",
+      "modified": "2015-04-21T13:21:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11757",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Festlegung eines Termins für die jährliche Ortsbegehung",
+      "created": "2015-04-21T13:21:33+02:00",
+      "modified": "2015-04-21T13:21:33+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11758",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Ortsbild Barnten - Verunreinigungen durch Hundekot u. a.\n(Ausführungen werden in der Sitzung gemacht)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1356",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Barnten 07.05.2015 19:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-05-07",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUfc1K9D9SliY1luA7lJvyEjoVDi4YBaZJeLFISlFDLV/Ortsrat_Barnten_07.05.2015_19-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUfc1K9D9SliY1luA7lJvyEjoVDi4YBaZJeLFISlFDLV/Ortsrat_Barnten_07.05.2015_19-00_Uhr.pdf",
+          "created": "2015-05-26T19:00:53+02:00",
+          "modified": "2015-05-26T19:00:53+02:00"
+        }
+      ],
+      "created": "2015-04-21T13:22:19+02:00",
+      "modified": "2015-04-21T13:22:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11752",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2015-04-21T13:19:30+02:00",
+      "modified": "2015-04-21T13:19:30+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11753",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2015-04-21T13:19:30+02:00",
+      "modified": "2015-04-21T13:19:30+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11754",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Anträge und Anfragen",
+      "created": "2015-04-21T13:19:30+02:00",
+      "modified": "2015-04-21T13:19:30+02:00"
+    }
+  ]
+}

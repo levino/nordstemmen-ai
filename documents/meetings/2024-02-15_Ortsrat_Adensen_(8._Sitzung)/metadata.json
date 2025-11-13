@@ -1,0 +1,125 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5430",
+  "name": "Ortsrat Adensen (8. Sitzung)",
+  "start": "2024-02-15T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-21",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Sportgaststätte Rolf-Gehrke-Halle, An der Sporthalle 1, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "An der Sporthalle 1",
+    "room": "Sportgaststätte Rolf-Gehrke-Halle, Sammlungsraum",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2010-01-14T08:49:23+01:00",
+    "modified": "2021-10-27T14:00:03+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-11"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-38454",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2024-02-15",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZb4PjmzsOXQdfhjRsM_vMctUCHCUtX7FR7JGKiyoe9Pr/Bekanntmachung_Ortsrat_Adensen_15.02.2024.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZb4PjmzsOXQdfhjRsM_vMctUCHCUtX7FR7JGKiyoe9Pr/Bekanntmachung_Ortsrat_Adensen_15.02.2024.pdf",
+    "created": "2024-01-30T19:00:22+01:00",
+    "modified": "2024-01-30T19:00:22+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-38926",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2024-02-15",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZetX3u_rwlt1aY6b0EWryFKjy90TFlhBKMRjyL0iX1Qr/Oeffentliche_Niederschrift_Ortsrat_Adensen_15.02.2024.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZetX3u_rwlt1aY6b0EWryFKjy90TFlhBKMRjyL0iX1Qr/Oeffentliche_Niederschrift_Ortsrat_Adensen_15.02.2024.pdf",
+    "created": "2024-04-09T13:00:07+02:00",
+    "modified": "2024-04-09T13:00:07+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21533",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2023-09-11T11:47:59+02:00",
+      "modified": "2023-09-11T11:47:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21534",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2023-09-11T11:47:59+02:00",
+      "modified": "2023-09-11T11:47:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21535",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 05. Oktober 2023",
+      "created": "2023-09-11T11:47:59+02:00",
+      "modified": "2023-09-11T11:47:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21539",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Mitteilungen der Verwaltung",
+      "created": "2023-09-11T11:47:59+02:00",
+      "modified": "2024-01-30T13:04:03+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21537",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2023-09-11T11:47:59+02:00",
+      "modified": "2024-01-30T13:04:18+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22052",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Fahrradabstellanlage \"Im Mühlenfeld\"",
+      "created": "2024-01-30T13:04:49+01:00",
+      "modified": "2024-01-30T13:04:49+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22053",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Entfernung und Neuaufstellung einer Bank am \"Schrotacker\"",
+      "created": "2024-01-30T13:05:26+01:00",
+      "modified": "2024-01-30T13:05:33+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21538",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2023-09-11T11:47:59+02:00",
+      "modified": "2024-01-30T13:05:41+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21536",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Anfragen und Anregungen",
+      "created": "2023-09-11T11:47:59+02:00",
+      "modified": "2023-09-11T11:47:59+02:00"
+    }
+  ]
+}

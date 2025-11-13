@@ -1,0 +1,150 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1095",
+  "name": "Ortsrat Heyersum (4. Sitzung)",
+  "start": "2008-05-27T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-8",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Altes Schulhaus Heyersum, Martin-Luther-Platz 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Martin-Luther-Platz 3",
+    "room": "Altes Schulhaus Heyersum, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Heyersum",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:37:30+02:00",
+    "modified": "2019-10-24T16:49:00+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-13"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-2624",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2008-05-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaDcVIes_ot5Z11LjbvhEEXb0kwh1wYjriC4zzZfFQWT/Bekanntmachung_Ortsrat_Heyersum_27.05.2008.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaDcVIes_ot5Z11LjbvhEEXb0kwh1wYjriC4zzZfFQWT/Bekanntmachung_Ortsrat_Heyersum_27.05.2008.pdf",
+    "created": "2008-05-20T13:06:34+02:00",
+    "modified": "2008-05-20T13:06:34+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3503",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2008-05-06T11:26:24+02:00",
+      "modified": "2008-05-06T11:26:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3504",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2008-05-06T11:26:24+02:00",
+      "modified": "2008-05-06T11:26:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3505",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 13.11.2007",
+      "created": "2008-05-06T11:26:24+02:00",
+      "modified": "2008-05-06T11:26:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3506",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2008-05-06T11:26:24+02:00",
+      "modified": "2008-05-06T11:26:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3590",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Vorbereitung der Teilnahme am Wettbewerb 2008 \"Unser Dorf hat Zukunft\"\n(Ausführungen werden in der Sitzung gemacht, auf TOP 11 der OR-Sitzung vom 13.11.2007 wird verwiesen)",
+      "created": "2008-05-19T09:38:19+02:00",
+      "modified": "2008-05-19T09:38:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3591",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Aufstellung einer zentralen Schaukastenanlage\n(Auswertung der Ergebnisse der Besprechung mit den örtlichen Vereinen und Verbänden sowie Entscheidung zur weiteren Umsetzung)",
+      "created": "2008-05-19T09:39:41+02:00",
+      "modified": "2008-05-19T09:39:41+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3592",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bericht über den Zustand der Kinderspielplätze nach dem Ergebnis des Sachverständigengutachtens und ggf. weitere Beschlussempfehlung",
+      "created": "2008-05-19T09:42:40+02:00",
+      "modified": "2008-05-19T09:42:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3593",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Durchführung von Maßnahmen / Projekten im Ort 2008 durch den Ortsrat\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2008-05-19T09:43:51+02:00",
+      "modified": "2008-05-19T09:43:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3594",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Verwendung der im Haushaltsjahr 2008 zur Verfügung stehenden Ortsratsmittel\n- Beratung und Beschlussfassung einschl. zum Sonderkonto Altes Schulhaus",
+      "created": "2008-05-19T09:45:17+02:00",
+      "modified": "2008-05-19T09:45:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3508",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2008-05-06T11:26:24+02:00",
+      "modified": "2008-05-06T11:26:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3509",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Mitteilungen des Ortsbürgermeisters",
+      "created": "2008-05-06T11:26:24+02:00",
+      "modified": "2008-05-06T11:26:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3510",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Behandlung von Anfragen",
+      "created": "2008-05-06T11:26:24+02:00",
+      "modified": "2008-05-06T11:26:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3511",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Anregungen",
+      "created": "2008-05-06T11:26:24+02:00",
+      "modified": "2008-05-06T11:26:24+02:00"
+    }
+  ]
+}

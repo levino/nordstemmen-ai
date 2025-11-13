@@ -1,0 +1,195 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4670",
+  "name": "Ortsrat Klein Escherde (15. Sitzung)",
+  "start": "2021-05-25T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-16"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-31294",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2021-05-25",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbPckbXV7FMBt6inJg6ODZ8BX6DMIjqnScQaagRNT5Ga/Bekanntmachung_Ortsrat_Klein_Escherde_25.05.2021.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbPckbXV7FMBt6inJg6ODZ8BX6DMIjqnScQaagRNT5Ga/Bekanntmachung_Ortsrat_Klein_Escherde_25.05.2021.pdf",
+    "created": "2021-05-11T15:57:04+02:00",
+    "modified": "2021-05-11T15:57:04+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-31549",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2021-05-25",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbZ8-epMAMspI84EpdxH-1p4dDcfjfmIDHcCQuo3p1F9/Oeffentliche_Niederschrift_Ortsrat_Klein_Escherde_25.05.2021.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbZ8-epMAMspI84EpdxH-1p4dDcfjfmIDHcCQuo3p1F9/Oeffentliche_Niederschrift_Ortsrat_Klein_Escherde_25.05.2021.pdf",
+    "created": "2021-06-02T19:00:17+02:00",
+    "modified": "2021-06-02T19:00:17+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18510",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2021-04-06T11:41:07+02:00",
+      "modified": "2021-04-06T11:41:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18511",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2021-04-06T11:41:07+02:00",
+      "modified": "2021-04-06T11:41:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18512",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 13. Februar 2020",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5114",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Klein Escherde 2020 02 13)",
+          "mimeType": "application/pdf",
+          "date": "2021-05-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZayJpWY15AfISGXVGKK-SKDh0-LKbvJRnzcipfsh3wAC/OR_Klein_Escherde_2020_02_13.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZayJpWY15AfISGXVGKK-SKDh0-LKbvJRnzcipfsh3wAC/OR_Klein_Escherde_2020_02_13.pdf",
+          "created": "2021-05-11T15:57:04+02:00",
+          "modified": "2021-05-11T15:57:04+02:00"
+        }
+      ],
+      "created": "2021-04-06T11:41:07+02:00",
+      "modified": "2021-04-06T11:41:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18513",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2021-04-06T11:41:07+02:00",
+      "modified": "2021-04-06T11:41:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18701",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht bzw. Mitteilungen der Bürgermeisterin",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5147",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2021-05-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeuTHCl_n2DDrjotg0NsqcoDm75ABShbO_Xvsr_Vqnl5/Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeuTHCl_n2DDrjotg0NsqcoDm75ABShbO_Xvsr_Vqnl5/Anlage_1.pdf",
+          "created": "2021-06-02T19:00:17+02:00",
+          "modified": "2021-06-02T19:00:17+02:00"
+        }
+      ],
+      "created": "2021-05-26T13:33:45+02:00",
+      "modified": "2021-05-26T13:33:45+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18514",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohnerfragestunde",
+      "created": "2021-04-06T11:41:07+02:00",
+      "modified": "2021-04-06T11:41:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18649",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Verwendung der zur Verfügung stehenden Ortsratsmittel 2021\n",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5148",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2021-05-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaFFy5yZr7VhxQU8pkt2hiklRidPd-CUoRZT96JzQMRP/Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaFFy5yZr7VhxQU8pkt2hiklRidPd-CUoRZT96JzQMRP/Anlage_2.pdf",
+          "created": "2021-06-02T19:00:17+02:00",
+          "modified": "2021-06-02T19:00:17+02:00"
+        }
+      ],
+      "created": "2021-05-06T15:16:11+02:00",
+      "modified": "2021-05-06T15:16:11+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18650",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Anschaffung einer Geschwindigkeitsmesstafel mit Solarversorgung\n- Beratung und Beschlussfassung",
+      "created": "2021-05-06T15:30:52+02:00",
+      "modified": "2021-05-06T15:30:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18651",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Umrüstung der Beleuchtung an den Schaukästen auf LED\n- Beratung und Beschlussfassung",
+      "created": "2021-05-06T15:31:33+02:00",
+      "modified": "2021-05-06T15:31:33+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18652",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Sachstand zum Baugebiet \"Teichstraße-Ost\"\n- Mitteilung der Verwaltung",
+      "created": "2021-05-06T15:32:28+02:00",
+      "modified": "2021-05-06T15:32:28+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18515",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2022 sowie für die mittelfristige Finanzplanung 2023 bis 2025",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7028",
+      "created": "2021-04-06T11:41:07+02:00",
+      "modified": "2021-04-06T11:41:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18516",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Anträge und Anfragen",
+      "created": "2021-04-06T11:41:07+02:00",
+      "modified": "2021-04-06T11:41:07+02:00"
+    }
+  ]
+}

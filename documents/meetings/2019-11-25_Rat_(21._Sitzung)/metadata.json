@@ -1,0 +1,191 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4377",
+  "name": "Rat (21. Sitzung)",
+  "start": "2019-11-25T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-28568",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2019-11-25",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUPI1fWi5jdbeAXXFFUqjCqUZIZnQorDPUYlN2Hv8jFu/Bekanntmachung_Rat_25.11.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUPI1fWi5jdbeAXXFFUqjCqUZIZnQorDPUYlN2Hv8jFu/Bekanntmachung_Rat_25.11.2019.pdf",
+    "created": "2019-11-14T13:01:17+01:00",
+    "modified": "2019-11-14T13:01:17+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-28707",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2019-11-25",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZeBEhJ37Z6oaBUFewh9sWBV_jzkCQw0zFhu14didVd8/Oeffentliche_Niederschrift_Rat_25.11.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZeBEhJ37Z6oaBUFewh9sWBV_jzkCQw0zFhu14didVd8/Oeffentliche_Niederschrift_Rat_25.11.2019.pdf",
+    "created": "2019-11-28T10:22:42+01:00",
+    "modified": "2019-11-28T10:22:42+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16889",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2019-09-27T09:42:35+02:00",
+      "modified": "2019-09-27T09:42:35+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16890",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2019-09-27T09:42:35+02:00",
+      "modified": "2019-09-27T09:42:35+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16891",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung des Rates vom 24. September 2019",
+      "created": "2019-09-27T09:42:35+02:00",
+      "modified": "2019-11-12T17:20:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16892",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht des Bürgermeisters über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "created": "2019-09-27T09:42:35+02:00",
+      "modified": "2019-09-27T09:42:35+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16893",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2019-09-27T09:42:35+02:00",
+      "modified": "2019-09-27T09:42:35+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17055",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Haushaltssatzung und Haushaltsplan 2020",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6675",
+      "result": "23 Ja-Stimmen, 2 Nein-Stimmen/geänderte Fassung",
+      "created": "2019-11-11T15:17:49+01:00",
+      "modified": "2019-11-12T17:21:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17121",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5.1",
+      "order": 7,
+      "name": "Haushaltssatzung und Haushaltsplan 2020",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6683",
+      "created": "2019-11-26T10:22:50+01:00",
+      "modified": "2019-11-26T10:22:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17056",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 8,
+      "name": "Investitionsprogramm für den Investitionszeitraum bis zum Haushaltsjahr 2023;\nmittelfristige Ergebnis- und Finanzplanung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6676",
+      "result": "23 Ja-Stimmen, 2 Nein-Stimmen",
+      "created": "2019-11-11T15:17:57+01:00",
+      "modified": "2019-11-12T17:21:16+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17123",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6.2",
+      "order": 9,
+      "name": "Investitionsprogramm für den Investitionszeitraum bis zum Haushaltsjahr 2023;\nmittelfristige Ergebnis- und Finanzplanung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6685",
+      "created": "2019-11-26T10:23:13+01:00",
+      "modified": "2019-11-26T10:23:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17054",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 10,
+      "name": "Stellenplan 2020",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6668",
+      "result": "23 Ja-Stimmen, 2 Nein-Stimmen",
+      "created": "2019-11-11T15:17:42+01:00",
+      "modified": "2019-11-12T17:21:23+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17122",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7.3",
+      "order": 11,
+      "name": "Stellenplan 2020",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6687",
+      "created": "2019-11-26T10:23:04+01:00",
+      "modified": "2019-11-26T10:23:04+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16894",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 12,
+      "name": "Unterrichtung über die Veränderungen von Kommunaldarlehen gemäß § 7 der Richtlinie der Gemeinde Nordstemmen für die Aufnahme von Krediten und zur Umschuldung von Krediten vom 01.10.2018",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6645",
+      "created": "2019-09-27T09:42:35+02:00",
+      "modified": "2019-09-27T09:42:35+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17057",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 13,
+      "name": "Bebauungsplan Nr. 0307 „Barnten-Süd IV“\n- Satzungsbeschluss gem. § 10 Abs. 1 BauGB",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6658",
+      "result": "einstimmig/zwei Enthaltungen",
+      "created": "2019-11-11T15:18:07+01:00",
+      "modified": "2019-11-11T15:18:07+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16895",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 14,
+      "name": "Mitteilungen bzw. Bericht des Bürgermeisters",
+      "created": "2019-09-27T09:42:35+02:00",
+      "modified": "2019-09-27T09:42:35+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16896",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 15,
+      "name": "Anträge und Anfragen",
+      "created": "2019-09-27T09:42:35+02:00",
+      "modified": "2019-09-27T09:42:35+02:00"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5082",
+  "name": "Ortsrat Burgstemmen (4. Sitzung)",
+  "start": "2022-11-10T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Burgstemmen, Sackstraße 2, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Sackstraße 2",
+    "room": "Feuerwehrhaus Burgstemmen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Burgstemmen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:33:23+02:00",
+    "modified": "2019-06-06T11:56:46+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-12"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-35052",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2022-11-10",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTzUFN8R6M4578bqimvF78eEaq9Ut-IYCZ6Noxn1Ww3_/Bekanntmachung_Ortsrat_Burgstemmen_10.11.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTzUFN8R6M4578bqimvF78eEaq9Ut-IYCZ6Noxn1Ww3_/Bekanntmachung_Ortsrat_Burgstemmen_10.11.2022.pdf",
+    "created": "2022-10-27T19:00:05+02:00",
+    "modified": "2022-10-27T19:00:05+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-35324",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2022-11-10",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZd0aIJwcy6reJOK49yjBaZ0a_MhyOyVWqjjCXkMinp9c/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_10.11.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZd0aIJwcy6reJOK49yjBaZ0a_MhyOyVWqjjCXkMinp9c/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_10.11.2022.pdf",
+    "created": "2022-11-23T19:00:20+01:00",
+    "modified": "2022-11-23T19:00:20+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20289",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2022-07-27T11:53:00+02:00",
+      "modified": "2022-07-27T11:53:00+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20290",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2022-07-27T11:53:00+02:00",
+      "modified": "2022-07-27T11:53:00+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20291",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 12. Mai 2022",
+      "created": "2022-07-27T11:53:00+02:00",
+      "modified": "2022-10-24T11:42:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20294",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Mitteilungen der Verwaltung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5784",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Burgstemmen Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2022-11-10",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdeIC0dTitsLNw546NTAtKMfEO7n94cetQbsy0g2mHFw/OR_Burgstemmen_Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdeIC0dTitsLNw546NTAtKMfEO7n94cetQbsy0g2mHFw/OR_Burgstemmen_Anlage_1.pdf",
+          "created": "2022-11-23T19:00:20+01:00",
+          "modified": "2022-11-23T19:00:20+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5785",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2.1)",
+          "mimeType": "application/pdf",
+          "date": "2022-11-10",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfatBLMPkIfg4TkNX-m1tsp10R2Yjgdaa50_GyAHy7PW/Anlage_2.1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfatBLMPkIfg4TkNX-m1tsp10R2Yjgdaa50_GyAHy7PW/Anlage_2.1.pdf",
+          "created": "2022-11-23T19:00:20+01:00",
+          "modified": "2022-11-23T19:00:20+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5786",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2.2)",
+          "mimeType": "application/pdf",
+          "date": "2022-11-10",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbvEZQqfAvF-LbY6Y2JyrbNiJgbiiNiJhISwgni2jlYy/Anlage_2.2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbvEZQqfAvF-LbY6Y2JyrbNiJgbiiNiJhISwgni2jlYy/Anlage_2.2.pdf",
+          "created": "2022-11-23T19:00:20+01:00",
+          "modified": "2022-11-23T19:00:20+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5787",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2.3)",
+          "mimeType": "application/pdf",
+          "date": "2022-11-10",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbIA_mHZ8F-xrkRiokfBlbE2uibHpM20Rd_Nbf0VYi-l/Anlage_2.3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbIA_mHZ8F-xrkRiokfBlbE2uibHpM20Rd_Nbf0VYi-l/Anlage_2.3.pdf",
+          "created": "2022-11-23T19:00:20+01:00",
+          "modified": "2022-11-23T19:00:20+01:00"
+        }
+      ],
+      "created": "2022-07-27T11:53:00+02:00",
+      "modified": "2022-10-24T11:57:10+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20295",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2022-07-27T11:53:00+02:00",
+      "modified": "2022-10-24T11:57:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20293",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2022-07-27T11:53:00+02:00",
+      "modified": "2022-10-24T11:57:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20505",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Ausbau Kindertagesstätte Burgstemmen",
+      "created": "2022-10-24T11:43:33+02:00",
+      "modified": "2022-10-24T11:43:33+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20506",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Verkehrssituation Bethelner Straße, Nordstraße und Poppenburger Straße",
+      "created": "2022-10-24T11:44:07+02:00",
+      "modified": "2022-10-24T11:44:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20507",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Wasserentnahmestelle Festplatz",
+      "created": "2022-10-24T11:44:34+02:00",
+      "modified": "2022-10-24T11:44:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20508",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Gestaltung der neuen Trafostationen\n- Vorgehensweise zur Motivfindung",
+      "created": "2022-10-24T11:45:10+02:00",
+      "modified": "2022-10-24T11:45:10+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20509",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Mittelfristige Zukunftsplanung Mehrzweckhalle Burgstemmen",
+      "created": "2022-10-24T11:45:44+02:00",
+      "modified": "2022-10-24T11:45:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20510",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Informationen über das Baugebiet \"Mühlenweg\"",
+      "created": "2022-10-24T11:46:12+02:00",
+      "modified": "2022-10-24T11:46:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20538",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Widmung von Straßenflächen in der Ortschaft Burgstemmen und Fortschreibung des Bestandsverzeichnisses;\nhier: Neuer Weg",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7543",
+      "result": "Einstimmig Nr.1/Variante 1",
+      "created": "2022-10-27T09:14:51+02:00",
+      "modified": "2022-10-27T09:14:56+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20515",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Aufstellungsplan der Geschwindigkeitsanzeigetafeln und des Verkehrsstatistikgerätes für 2023",
+      "created": "2022-10-25T08:19:23+02:00",
+      "modified": "2022-10-25T08:19:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20535",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Bebauungsplan-Nr. 0411 „Mühlenweg-Poppenburg“, Ortschaft Burgstemmen;\nStraßenbenennung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7542",
+      "result": "Einstimmig „Widukindring“",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5788",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Anlage 3)",
+          "mimeType": "application/pdf",
+          "date": "2022-11-10",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZd1bUZgsX-S1xMDuAIrjf0DzBDOUEkPfGdfZrL8vuiYT/Anlage_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZd1bUZgsX-S1xMDuAIrjf0DzBDOUEkPfGdfZrL8vuiYT/Anlage_3.pdf",
+          "created": "2022-11-23T19:00:20+01:00",
+          "modified": "2022-11-23T19:00:20+01:00"
+        }
+      ],
+      "created": "2022-10-26T12:46:16+02:00",
+      "modified": "2022-10-26T12:46:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20539",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "\nBebauungsplan-Nr. 0402 \"Dannhausenkamp\" 5. Änderung, Ortschaft Burgstemmen;\nStraßenbenennung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7546",
+      "created": "2022-10-27T11:26:04+02:00",
+      "modified": "2022-10-27T11:26:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20495",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 17,
+      "name": "Anhörung zum Haushaltsplan 2023 und zum Investitionsprogramm bis 2026 für die Ort-\nschaft Burgstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7535",
+      "result": "Einstimmig zur Kenntnis genommen",
+      "created": "2022-10-20T10:23:00+02:00",
+      "modified": "2022-10-24T11:46:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20292",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 18,
+      "name": "Anfragen und Anregungen",
+      "created": "2022-07-27T11:53:00+02:00",
+      "modified": "2022-10-24T11:57:45+02:00"
+    }
+  ]
+}

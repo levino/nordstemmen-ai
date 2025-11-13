@@ -1,0 +1,117 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2362",
+  "name": "Fachausschuss Schulen (31. Sitzung)",
+  "start": "2014-09-23T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-13",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Grundschule Nordstemmen, Asternstraße 13, 31171 Nordstemmen, Musikraum",
+    "streetAddress": "Asternstraße 13",
+    "room": "Grundschule Nordstemmen, Musikraum",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2006-05-15T10:39:45+02:00",
+    "modified": "2022-05-17T15:56:26+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-4"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-13164",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Schulen)",
+    "mimeType": "application/pdf",
+    "date": "2014-09-23",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfcK7wQLZ3N5t8K5giL360no26j0zhkelLVRMhe6Jk2t/Bekanntmachung_Fachausschuss_Schulen_23.09.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfcK7wQLZ3N5t8K5giL360no26j0zhkelLVRMhe6Jk2t/Bekanntmachung_Fachausschuss_Schulen_23.09.2014.pdf",
+    "created": "2014-09-12T13:00:36+02:00",
+    "modified": "2014-09-12T13:00:36+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-13266",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Schulen)",
+    "mimeType": "application/pdf",
+    "date": "2014-09-23",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSX7gZj1LhbaNnTpgBzQwZye2HoMaNxSjdJyrTcLi3p_/Oeffentliche_Niederschrift_Fachausschuss_Schulen_23.09.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSX7gZj1LhbaNnTpgBzQwZye2HoMaNxSjdJyrTcLi3p_/Oeffentliche_Niederschrift_Fachausschuss_Schulen_23.09.2014.pdf",
+    "created": "2014-10-02T19:00:34+02:00",
+    "modified": "2016-08-09T19:00:37+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11121",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2014-09-12T11:59:26+02:00",
+      "modified": "2014-09-24T12:20:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11122",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2014-09-12T11:59:26+02:00",
+      "modified": "2014-09-12T11:59:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11123",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 24. Juni 2014",
+      "created": "2014-09-12T11:59:26+02:00",
+      "modified": "2014-09-12T11:59:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11124",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2014-09-12T11:59:26+02:00",
+      "modified": "2014-09-12T11:59:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11125",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Fortsetzung der Lernförderung in den Grundschulen Barnten und Nordstemmen ab dem Schuljahr 2014/2015",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2800",
+      "created": "2014-09-12T11:59:26+02:00",
+      "modified": "2014-09-12T11:59:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11130",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bericht der Schulleitungen zu den aktuellen Situationen aus den Grundschulen",
+      "created": "2014-09-12T12:00:13+02:00",
+      "modified": "2014-09-12T12:00:13+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11126",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2014-09-12T11:59:26+02:00",
+      "modified": "2014-09-12T11:59:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11127",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Anträge und Anfragen",
+      "created": "2014-09-12T11:59:26+02:00",
+      "modified": "2014-09-12T11:59:26+02:00"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1880",
+  "name": "Ortsrat Groß Escherde (15. Sitzung)",
+  "start": "2012-05-07T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-7",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Groß Escherde, Schulstraße 9 a, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Schulstraße 9 a",
+    "room": "Feuerwehrhaus Groß Escherde, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Groß Escherde",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:35:20+02:00",
+    "modified": "2019-06-06T11:56:38+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-14"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-8200",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2012-05-07",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfH9rE0EbTkwvjOb_1dlhp3qa5hgmHIiGZkYzeBxvSGM/Bekanntmachung_Ortsrat_Gross_Escherde_07.05.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfH9rE0EbTkwvjOb_1dlhp3qa5hgmHIiGZkYzeBxvSGM/Bekanntmachung_Ortsrat_Gross_Escherde_07.05.2012.pdf",
+    "created": "2012-04-26T13:02:14+02:00",
+    "modified": "2012-04-26T13:02:14+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-8277",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2012-05-07",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcmFp1WIJ97l34PaB8MKfY6SaAQA1rl2jd5N3d_jrZYK/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_07.05.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcmFp1WIJ97l34PaB8MKfY6SaAQA1rl2jd5N3d_jrZYK/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_07.05.2012.pdf",
+    "created": "2012-05-21T13:01:07+02:00",
+    "modified": "2012-05-21T13:01:07+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8367",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2012-04-26T08:56:29+02:00",
+      "modified": "2012-04-26T08:56:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8368",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2012-04-26T08:56:29+02:00",
+      "modified": "2012-04-26T08:56:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8369",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 28.02.2012",
+      "created": "2012-04-26T08:56:29+02:00",
+      "modified": "2012-04-26T08:56:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8370",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2012-04-26T08:56:29+02:00",
+      "modified": "2012-04-26T08:56:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8371",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Sanierung des Regenwasserkanals in der Stöckumer Straße, Ortschaft Groß Escherde;\nMaßnahmenbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1908",
+      "created": "2012-04-26T08:56:29+02:00",
+      "modified": "2012-04-26T08:56:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8372",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2012-04-26T08:56:29+02:00",
+      "modified": "2012-04-26T08:56:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8373",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Mitteilungen des Ortsbürgermeisters",
+      "created": "2012-04-26T08:56:29+02:00",
+      "modified": "2012-04-26T08:56:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8374",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Behandlung von Anfragen",
+      "created": "2012-04-26T08:56:29+02:00",
+      "modified": "2012-04-26T08:56:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8375",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Anregungen",
+      "created": "2012-04-26T08:56:29+02:00",
+      "modified": "2012-04-26T08:56:29+02:00"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5469",
+  "name": "Ortsrat Heyersum (11. Sitzung)",
+  "start": "2024-10-24T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-8",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Altes Schulhaus Heyersum, Martin-Luther-Platz 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Martin-Luther-Platz 3",
+    "room": "Altes Schulhaus Heyersum, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Heyersum",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:37:30+02:00",
+    "modified": "2019-10-24T16:49:00+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-13"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-39923",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2024-10-24",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfh_l7kLbJ-cEwwxOyqfFknbC6OtlGNqqsKn3hpcbuxV/Bekanntmachung_Ortsrat_Heyersum_24.10.2024.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfh_l7kLbJ-cEwwxOyqfFknbC6OtlGNqqsKn3hpcbuxV/Bekanntmachung_Ortsrat_Heyersum_24.10.2024.pdf",
+    "created": "2024-10-07T19:00:15+02:00",
+    "modified": "2024-10-07T19:00:15+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-40203",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2024-10-24",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTTU4t-UA7e78S9JBNbVEo6Au-IUwqdZtmBDsjzxykDW/Oeffentliche_Niederschrift_Ortsrat_Heyersum_24.10.2024.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTTU4t-UA7e78S9JBNbVEo6Au-IUwqdZtmBDsjzxykDW/Oeffentliche_Niederschrift_Ortsrat_Heyersum_24.10.2024.pdf",
+    "created": "2024-10-30T13:00:07+01:00",
+    "modified": "2024-10-30T13:00:07+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22714",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2024-09-26T17:33:52+02:00",
+      "modified": "2024-09-26T17:33:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22715",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2024-09-26T17:33:52+02:00",
+      "modified": "2024-09-26T17:33:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22716",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 02. Mai 2024",
+      "created": "2024-09-26T17:33:52+02:00",
+      "modified": "2024-09-26T17:33:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22717",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Anfragen und Anregungen",
+      "created": "2024-09-26T17:33:52+02:00",
+      "modified": "2024-09-26T17:33:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22718",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2024-09-26T17:33:52+02:00",
+      "modified": "2024-09-26T17:33:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22721",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Grundsatzbeschluss zur Ortsumgehung der Bundesstraße 1",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8158",
+      "result": "Variante A: -Variante B: 4 StimmenEnthaltung: 1 Stimme",
+      "created": "2024-09-26T17:33:52+02:00",
+      "modified": "2024-09-26T17:34:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22720",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Spielplatzkonzept der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8004",
+      "result": "Es soll nur der Spielplatz „Im Kreuzfeld“ betrachtet werden. Der Bolzplatz ist außer Acht zu lassen. Die Spielplätze „Im Riehtwinkel“ und „Am Salzbach“ sollen bestehen bleiben. ",
+      "created": "2024-09-26T17:33:52+02:00",
+      "modified": "2024-09-26T17:34:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22719",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Anhörung zum Haushaltsplan 2025 und zum Investitionsprogramm bis 2028 für die Ortschaft Heyersum",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8170",
+      "result": "Der Ortsrat Heyersum nimmt die Drucksache einstimmig zur Kenntnis",
+      "created": "2024-09-26T17:33:52+02:00",
+      "modified": "2024-09-26T17:33:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22728",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Verwendung von Ortsratsmitteln 2024/2025",
+      "created": "2024-09-26T17:37:06+02:00",
+      "modified": "2024-09-26T17:37:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22725",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Kommerzielle Nutzung des Ortswappen für ortsansässige Gewerbetreibende",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6983",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anfrage Ortsrat Heyersum)",
+          "mimeType": "application/pdf",
+          "date": "2024-10-24",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWHRk4i28fRW9GrequA7Z8PV9Dc4P2JavjMB0LzebgEL/Anfrage_Ortsrat_Heyersum.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWHRk4i28fRW9GrequA7Z8PV9Dc4P2JavjMB0LzebgEL/Anfrage_Ortsrat_Heyersum.pdf",
+          "created": "2024-10-30T13:00:07+01:00",
+          "modified": "2024-10-30T13:00:07+01:00"
+        }
+      ],
+      "created": "2024-09-26T17:35:02+02:00",
+      "modified": "2024-09-26T17:35:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22726",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Grünpflege durch den Bauhof im Ortsgebiet",
+      "created": "2024-09-26T17:35:14+02:00",
+      "modified": "2024-09-26T17:35:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22727",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Planung der Seniorenadventsfeier",
+      "created": "2024-09-26T17:35:26+02:00",
+      "modified": "2024-09-26T17:35:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22722",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6984",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2024-10-24",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQGKh2O8v3tp71SdhvFXNAL7fR-HLToKdyxnGZWk2Cne/Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQGKh2O8v3tp71SdhvFXNAL7fR-HLToKdyxnGZWk2Cne/Anlage_2.pdf",
+          "created": "2024-10-30T13:00:07+01:00",
+          "modified": "2024-10-30T13:00:07+01:00"
+        }
+      ],
+      "created": "2024-09-26T17:33:52+02:00",
+      "modified": "2024-09-26T17:33:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22723",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Mitteilungen der Verwaltung",
+      "created": "2024-09-26T17:33:52+02:00",
+      "modified": "2024-09-26T17:33:52+02:00"
+    }
+  ]
+}

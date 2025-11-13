@@ -1,0 +1,173 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1307",
+  "name": "Fachausschuss Planung, Bau, Umwelt, Sicherheit (33. Sitzung)",
+  "start": "2009-09-03T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-6"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-4184",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Planung, Bau, Umwelt, Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2009-09-03",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZX9V5wZUlCNdJalbq9QbwCbtkaHflY0Dcev0lHF0-tZ7/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_03.09.2009.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZX9V5wZUlCNdJalbq9QbwCbtkaHflY0Dcev0lHF0-tZ7/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_03.09.2009.pdf",
+    "created": "2009-09-01T10:29:38+02:00",
+    "modified": "2009-09-01T10:29:38+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4739",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2009-08-11T10:57:26+02:00",
+      "modified": "2009-08-11T10:57:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4740",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2009-08-11T10:57:26+02:00",
+      "modified": "2009-08-11T10:57:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4741",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 04.08.2009",
+      "created": "2009-08-11T10:57:26+02:00",
+      "modified": "2009-08-11T10:57:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5119",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2009-09-10T11:37:20+02:00",
+      "modified": "2009-09-10T11:37:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4851",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 6,
+      "name": "Sanierung der Vollen Halbtagsgrundschule Barnten im Rahmen des Konjunkturpaketes II \n(Investitionspauschale)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1017",
+      "created": "2009-08-25T11:30:44+02:00",
+      "modified": "2009-08-25T11:30:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4864",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 7,
+      "name": "Beleuchtung des Fußweges hinter der Jahnsporthalle Nordstemmen (Weg zwischen \"Schlingweg\" und \"Lange Maße\", Antrag des Ortsrates)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1024",
+      "created": "2009-08-27T11:57:48+02:00",
+      "modified": "2009-08-27T11:57:48+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4958",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 8,
+      "name": "Ausbau der Kreisstraße 510 (Kirchstraße) in der Ortsdurchfahrt Rössing;\nEinbeziehung des Stichweges (Gemeindestraße) vor den Grundstücken \"Kirchstraße 2 - 6\" in die Ausbaumaßnahme",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1037",
+      "created": "2009-09-01T09:58:00+02:00",
+      "modified": "2009-09-01T09:58:00+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4854",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Antrag von Ratsfrau Eva Pletz auf \"Nordstemmen soll gentechnikfreie Gemeinde werden\"\n(Unterlagen liegen allen Ratsmitgliedern vor)",
+      "created": "2009-08-25T11:41:55+02:00",
+      "modified": "2009-08-25T11:41:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5116",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "19. Änderung des Flächennutzungsplanes der Gemeinde Nordstemmen (Krummer Kamp);\nFeststellungsbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1025",
+      "created": "2009-09-07T08:29:40+02:00",
+      "modified": "2009-09-07T08:29:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5117",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Bebauungsplan Nr. 0207 \"Krummer Kamp\", Ortschaft Adensen;\nSatzungsbeschluss gem. § 10 Abs. 1 BauGB",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1033",
+      "created": "2009-09-07T08:29:56+02:00",
+      "modified": "2009-09-07T08:29:56+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4743",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Verfügung über das Verbrennen von Gartenabfällen in der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1011",
+      "created": "2009-08-11T10:57:26+02:00",
+      "modified": "2009-08-11T10:57:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4744",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2009-08-11T10:57:26+02:00",
+      "modified": "2009-08-11T10:57:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4857",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Behandlung von Anträgen\n- Antrag von Ratsfrau Eva Pletz bezüglich Gewinnung von Energie aus Abwasser\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2009-08-25T11:51:43+02:00",
+      "modified": "2009-08-25T11:51:43+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4746",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 15,
+      "name": "Behandlung von Anfragen\n- Anfrage von Ratsfrau Eva Pletz bezüglich des Standes der Investitionskosten Abwasserbeseitigung\n",
+      "created": "2009-08-11T10:57:26+02:00",
+      "modified": "2009-08-11T10:57:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4747",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 16,
+      "name": "Anregungen",
+      "created": "2009-08-11T10:57:26+02:00",
+      "modified": "2009-08-11T10:57:26+02:00"
+    }
+  ]
+}

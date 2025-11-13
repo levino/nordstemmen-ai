@@ -1,0 +1,214 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2855",
+  "name": "Ortsrat Nordstemmen (2. Sitzung)",
+  "start": "2017-02-13T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-8"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-18146",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Nordstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2017-02-13",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfSpksk3PRjuK0BgO7Fk0EALNTMEKYdO1ao_wwJDtZ7B/Bekanntmachung_Ortsrat_Nordstemmen_13.02.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfSpksk3PRjuK0BgO7Fk0EALNTMEKYdO1ao_wwJDtZ7B/Bekanntmachung_Ortsrat_Nordstemmen_13.02.2017.pdf",
+    "created": "2017-01-30T13:00:33+01:00",
+    "modified": "2017-01-30T13:00:33+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-18262",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Nordstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2017-02-13",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRcGBxOU9OVvpni6g6ChmOUoewgeIEbFJVBQmMpgNUqN/Oeffentliche_Niederschrift_Ortsrat_Nordstemmen_13.02.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRcGBxOU9OVvpni6g6ChmOUoewgeIEbFJVBQmMpgNUqN/Oeffentliche_Niederschrift_Ortsrat_Nordstemmen_13.02.2017.pdf",
+    "created": "2017-02-21T19:01:23+01:00",
+    "modified": "2017-02-21T19:01:23+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13704",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2017-01-26T10:50:29+01:00",
+      "modified": "2017-01-26T10:50:29+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13705",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2017-01-26T10:50:29+01:00",
+      "modified": "2017-01-26T10:50:29+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13706",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 14.11.2016",
+      "created": "2017-01-26T10:50:29+01:00",
+      "modified": "2017-01-26T10:50:29+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13707",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2017-01-26T10:50:29+01:00",
+      "modified": "2017-01-26T10:50:29+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13715",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Verwendung der im Haushalt 2017 zur Verfügung stehenden Ortsratsmittel\n- Beratung und Beschlussfassung\n(siehe Anlage 1)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1659",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 Kontoauszug)",
+          "mimeType": "application/pdf",
+          "date": "2017-02-13",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfjNlhzz2ngQQwbeaZmEFVALSClxfSiCp698p_POwmwI/Anlage_1_Kontoauszug.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfjNlhzz2ngQQwbeaZmEFVALSClxfSiCp698p_POwmwI/Anlage_1_Kontoauszug.pdf",
+          "created": "2017-01-30T13:00:33+01:00",
+          "modified": "2017-01-30T13:00:33+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1660",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 Kostenaufstellung Ortsrat)",
+          "mimeType": "application/pdf",
+          "date": "2017-02-13",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZey9OLHZWJdJcRV4u-Vwjts5mosJDfo461SjzNtJUcSs/Anlage_1_Kostenaufstellung_Ortsrat.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZey9OLHZWJdJcRV4u-Vwjts5mosJDfo461SjzNtJUcSs/Anlage_1_Kostenaufstellung_Ortsrat.pdf",
+          "created": "2017-01-30T13:00:33+01:00",
+          "modified": "2017-01-30T13:00:33+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1665",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage zu TOP 4)",
+          "mimeType": "application/pdf",
+          "date": "2017-02-13",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZf5NlrESqA3my4TJbjuWipT3COMIcII_t0P-QVZBIQiQ/Anlage_zu_TOP_4.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZf5NlrESqA3my4TJbjuWipT3COMIcII_t0P-QVZBIQiQ/Anlage_zu_TOP_4.pdf",
+          "created": "2017-02-17T13:00:31+01:00",
+          "modified": "2017-02-17T13:00:31+01:00"
+        }
+      ],
+      "created": "2017-01-26T10:57:02+01:00",
+      "modified": "2017-01-26T10:57:02+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13708",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Neugestaltung der Grünanlage am Bahnhof Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3770",
+      "created": "2017-01-26T10:50:29+01:00",
+      "modified": "2017-01-26T10:50:29+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13713",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Parksituation in der Hauptstraße - Antrag der Geschäftsleute Brandt und Laube\n- Beratung und Empfehlung\n(siehe Anlage 2)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1661",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2 Antrag Brandt und Laube)",
+          "mimeType": "application/pdf",
+          "date": "2017-02-13",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSDLk1Bwq23A-eXCcuBZ40bJ6h9mxTPeanuJoDpxqEm0/Anlage_2_Antrag_Brandt_und_Laube.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSDLk1Bwq23A-eXCcuBZ40bJ6h9mxTPeanuJoDpxqEm0/Anlage_2_Antrag_Brandt_und_Laube.pdf",
+          "created": "2017-01-30T13:00:33+01:00",
+          "modified": "2017-01-30T13:00:33+01:00"
+        }
+      ],
+      "created": "2017-01-26T10:51:47+01:00",
+      "modified": "2017-01-26T10:51:47+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13823",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Verlegung des Nordstemmer Wochenmarktes",
+      "created": "2017-02-17T09:42:45+01:00",
+      "modified": "2017-02-17T09:42:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13824",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Einrichtung von Mitfahrerbänken",
+      "created": "2017-02-17T09:43:13+01:00",
+      "modified": "2017-02-17T09:43:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13714",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Durchführung des Umwelttages am 25. März 2017",
+      "created": "2017-01-26T10:52:14+01:00",
+      "modified": "2017-01-26T10:52:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13709",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2017-01-26T10:50:29+01:00",
+      "modified": "2017-01-26T10:50:29+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13710",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2017-01-26T10:50:29+01:00",
+      "modified": "2017-01-26T10:50:29+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13711",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Anträge und Anfragen",
+      "created": "2017-01-26T10:50:29+01:00",
+      "modified": "2017-01-26T10:50:29+01:00"
+    }
+  ]
+}

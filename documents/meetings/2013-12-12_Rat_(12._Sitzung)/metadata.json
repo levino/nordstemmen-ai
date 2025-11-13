@@ -1,0 +1,266 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2183",
+  "name": "Rat (12. Sitzung)",
+  "start": "2013-12-12T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-24",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Hotelrestaurant \"Nobiskrug\", Stöckumer Straße 1, 31171 Nordstemmen, Saal",
+    "streetAddress": "Stöckumer Straße 1",
+    "room": "Hotelrestaurant \"Nobiskrug\", Saal",
+    "postalCode": "31171",
+    "subLocality": "Groß Escherde",
+    "locality": "Nordstemmen",
+    "created": "2013-11-13T11:29:05+01:00",
+    "modified": "2017-08-31T09:05:07+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-12121",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2013-12-12",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZURN4UUyVyExcx2fuIUDGAb5vFPrXLexev3m9FHij9qd/Bekanntmachung_Rat_12.12.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZURN4UUyVyExcx2fuIUDGAb5vFPrXLexev3m9FHij9qd/Bekanntmachung_Rat_12.12.2013.pdf",
+    "created": "2013-11-29T13:00:20+01:00",
+    "modified": "2013-11-29T13:00:20+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-12251",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2013-12-12",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZe9tTIHgPZTKBF8VlZbZtmzSBRISAzUxx-nG1uqP9y3w/Oeffentliche_Niederschrift_Rat_12.12.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZe9tTIHgPZTKBF8VlZbZtmzSBRISAzUxx-nG1uqP9y3w/Oeffentliche_Niederschrift_Rat_12.12.2013.pdf",
+    "created": "2014-01-17T13:00:34+01:00",
+    "modified": "2014-01-17T13:00:34+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10388",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2013-11-13T11:32:14+01:00",
+      "modified": "2013-11-13T11:32:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10389",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2013-11-13T11:32:14+01:00",
+      "modified": "2013-11-13T11:32:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10390",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung des Rates vom 1. Oktober 2013",
+      "created": "2013-11-13T11:32:14+01:00",
+      "modified": "2013-11-13T11:32:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10391",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht des Bürgermeisters über die ausgeführten Beschlüsse des Rates aus der Sitzung vom 1. Oktober 2013",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1031",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2013-12-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZY4MlRdSeGkCi8o5wkDqXpTGKdIE9OJzeoWolFADdGC5/Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZY4MlRdSeGkCi8o5wkDqXpTGKdIE9OJzeoWolFADdGC5/Anlage_1.pdf",
+          "created": "2014-01-17T13:00:34+01:00",
+          "modified": "2014-01-17T13:00:34+01:00"
+        }
+      ],
+      "created": "2013-11-13T11:32:14+01:00",
+      "modified": "2013-11-13T11:32:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10392",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2013-11-13T11:32:14+01:00",
+      "modified": "2013-11-13T11:32:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10398",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Abschluss einer Vereinbarung zwischen dem Landkreis Hildesheim und der Gemeinde Nordstemmen zur Wahrnehmung der Aufgaben der Kindertagesbetreuung und der Kindertagespflege ab 01.01.2014 für die Dauer von zwei Jahren",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2561",
+      "created": "2013-11-13T11:32:14+01:00",
+      "modified": "2013-11-27T12:36:59+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10399",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Satzung über die Festlegung eines Schulbezirks einschließlich der Festlegung der Zügigkeiten für die Grundschulen in der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2574",
+      "created": "2013-11-13T11:32:14+01:00",
+      "modified": "2013-11-27T12:37:23+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10434",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Freizeitbad Nordstemmen - Neufassung Haus- und Badeordnung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2594",
+      "created": "2013-11-27T12:37:46+01:00",
+      "modified": "2013-11-27T12:37:49+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10435",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7.1",
+      "order": 9,
+      "name": "Freizeitbad Nordstemmen - Neufassung Haus- und Badeordnung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2610",
+      "created": "2013-11-27T12:37:57+01:00",
+      "modified": "2013-11-27T12:38:00+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10436",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Antrag auf Bezuschussung des KOMM e. V. Mehrgenerationenhauses (MGH) Nordstemmen für das Haushaltsjahr 2014",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2587",
+      "created": "2013-11-27T12:38:14+01:00",
+      "modified": "2013-11-27T12:38:17+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10393",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Barrierefreier Ausbau von Bushaltestellen; hier: Kreuzstraße, Heyersum",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2511",
+      "created": "2013-11-13T11:32:14+01:00",
+      "modified": "2013-11-13T11:32:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10394",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9.2",
+      "order": 12,
+      "name": "Barrierefreier Ausbau von Bushaltestellen; hier: Kreuzstraße, Heyersum",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2544",
+      "created": "2013-11-13T11:32:14+01:00",
+      "modified": "2013-11-13T11:32:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10397",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 13,
+      "name": "Straßenausbaumaßnahme \"Am Nordbruch\" in der Ortschaft Rössing;\nMaßnahmenbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2551",
+      "created": "2013-11-13T11:32:14+01:00",
+      "modified": "2013-11-27T12:38:40+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10395",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 14,
+      "name": "Mitgliedschaft der Gemeinde Nordstemmen im Zweckverbund \"Atemschutzverbund Landkreis Hildesheim\"",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2579",
+      "created": "2013-11-13T11:32:14+01:00",
+      "modified": "2013-11-13T11:32:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10437",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 15,
+      "name": "Bekanntgabe des Berichts über die unvermutete örtliche Prüfung der Gemeindekasse Nordstemmen durch das Rechnungsprüfungsamt des Landkreises Hildesheim",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2597",
+      "created": "2013-11-27T12:39:03+01:00",
+      "modified": "2013-11-27T12:39:06+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10438",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 16,
+      "name": "Haushalt 2014 / Investitionstätigkeiten bis 2017",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2615",
+      "created": "2013-11-27T12:39:18+01:00",
+      "modified": "2013-11-27T12:39:18+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10396",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 17,
+      "name": "Bebauungsplan Nr. 0122 \"Innerörtliche Verbindungsstraße/Zuckerfabrik\", \nOrtschaft Nordstemmen, 9. Änderung\n- erneute Beratung über die öffentliche Auslegung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2526",
+      "created": "2013-11-13T11:32:14+01:00",
+      "modified": "2013-11-13T11:32:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10439",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 18,
+      "name": "Beauftragung eines Beamten mit der allgemeinen Vertretung des Bürgermeisters\nmit Wirkung vom 1. Januar 2014",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2603",
+      "created": "2013-11-27T12:39:40+01:00",
+      "modified": "2013-11-27T12:39:43+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10400",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 19,
+      "name": "Mitteilungen bzw. Bericht des Bürgermeisters",
+      "created": "2013-11-13T11:32:14+01:00",
+      "modified": "2013-11-13T11:32:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10401",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 20,
+      "name": "Anträge und Anfragen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1032",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2013-12-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbK20SA36nBAxN8eor2LTSEzVcVj6tF_3lGsLnZAUxOw/Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbK20SA36nBAxN8eor2LTSEzVcVj6tF_3lGsLnZAUxOw/Anlage_2.pdf",
+          "created": "2014-01-17T13:00:34+01:00",
+          "modified": "2014-01-17T13:00:34+01:00"
+        }
+      ],
+      "created": "2013-11-13T11:32:14+01:00",
+      "modified": "2013-11-13T11:32:14+01:00"
+    }
+  ]
+}

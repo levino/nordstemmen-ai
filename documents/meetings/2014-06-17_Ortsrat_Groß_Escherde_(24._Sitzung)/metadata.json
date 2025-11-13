@@ -1,0 +1,170 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2287",
+  "name": "Ortsrat Groß Escherde (24. Sitzung)",
+  "start": "2014-06-17T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-12",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Groß Escherde, Schulstraße 9 a, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Schulstraße 9 a",
+    "room": "Dorfgemeinschaftshaus Groß Escherde, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Groß Escherde",
+    "locality": "Nordstemmen",
+    "created": "2005-04-07T10:37:20+02:00",
+    "modified": "2019-06-06T11:57:41+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-14"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-12794",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2014-06-17",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTiUpc44jMiD2DKA36DIsWr8uNKtezWKdniP-ALbuRbY/Bekanntmachung_Ortsrat_Gross_Escherde_17.06.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTiUpc44jMiD2DKA36DIsWr8uNKtezWKdniP-ALbuRbY/Bekanntmachung_Ortsrat_Gross_Escherde_17.06.2014.pdf",
+    "created": "2014-06-13T13:00:50+02:00",
+    "modified": "2014-06-13T13:00:50+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-13268",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2014-06-17",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcutRfQh-0ZFudlu6AO21W0w4baf4ZGCYNCRjK6HvaDo/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_17.06.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcutRfQh-0ZFudlu6AO21W0w4baf4ZGCYNCRjK6HvaDo/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_17.06.2014.pdf",
+    "created": "2014-10-06T13:00:23+02:00",
+    "modified": "2014-10-22T13:00:42+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10840",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2014-06-05T09:06:12+02:00",
+      "modified": "2014-06-05T09:06:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10841",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2014-06-05T09:06:12+02:00",
+      "modified": "2014-06-05T09:06:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10842",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 25. Februar 2014",
+      "created": "2014-06-05T09:06:12+02:00",
+      "modified": "2014-06-05T09:06:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10843",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2014-06-05T09:06:12+02:00",
+      "modified": "2014-06-05T09:06:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10892",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Verwendung von Ortsratsmitteln für die Ortsheimatpflege\n- Beratung und Beschlussfassung\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2014-06-12T19:13:18+02:00",
+      "modified": "2014-06-12T19:13:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10848",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bericht über den Zustand der Straßen in Groß Escherde und Rückblick zu den letzten durchgeführten Ortsbegehungen\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2014-06-05T09:08:31+02:00",
+      "modified": "2014-10-02T10:09:56+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10849",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Aufhebung eines Gehweges und Nutzung als Straßenfahrbahn\n- Beratung und Beschlussfassung",
+      "created": "2014-06-05T09:10:35+02:00",
+      "modified": "2014-06-05T09:10:35+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10850",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Pflanzung einer Tanne vor dem Dorfgemeinschaftshaus\n- Beratung und Beschlussfassung",
+      "created": "2014-06-05T09:11:09+02:00",
+      "modified": "2014-06-05T09:11:09+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10844",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2014-06-05T09:06:12+02:00",
+      "modified": "2014-06-05T09:06:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10845",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1159",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 TOP 9)",
+          "mimeType": "application/pdf",
+          "date": "2014-06-17",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQzaHq55oZd5TNojJbxgTio7ZXwsuqg0D1eC1H4AJJ2L/Anlage_1_TOP_9.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQzaHq55oZd5TNojJbxgTio7ZXwsuqg0D1eC1H4AJJ2L/Anlage_1_TOP_9.pdf",
+          "created": "2014-10-02T19:00:34+02:00",
+          "modified": "2014-10-02T19:00:34+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1160",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2 TOP 9)",
+          "mimeType": "application/pdf",
+          "date": "2014-06-17",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYhLwFCozs--_Wi0i2OXx8m-nushWpQ1dxehf6GnxpGj/Anlage_2_TOP_9.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYhLwFCozs--_Wi0i2OXx8m-nushWpQ1dxehf6GnxpGj/Anlage_2_TOP_9.pdf",
+          "created": "2014-10-02T19:00:34+02:00",
+          "modified": "2014-10-02T19:00:34+02:00"
+        }
+      ],
+      "created": "2014-06-05T09:06:12+02:00",
+      "modified": "2014-06-05T09:06:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10846",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anträge und Anfragen",
+      "created": "2014-06-05T09:06:12+02:00",
+      "modified": "2014-06-05T09:06:12+02:00"
+    }
+  ]
+}

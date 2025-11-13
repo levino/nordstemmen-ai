@@ -1,0 +1,168 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2857",
+  "name": "Ortsrat Klein Escherde (2. Sitzung)",
+  "start": "2017-02-14T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-9",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Klein Escherde, Eschestraße 3, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Eschestraße 3",
+    "room": "Feuerwehrhaus Klein Escherde, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Klein Escherde",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:54:15+02:00",
+    "modified": "2019-06-06T11:56:23+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-16"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-18161",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2017-02-14",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdGwacJ4rfGnFH_O2z1sQJCrLfpFepbE30Lopz9HMN96/Bekanntmachung_Ortsrat_Klein_Escherde_14.02.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdGwacJ4rfGnFH_O2z1sQJCrLfpFepbE30Lopz9HMN96/Bekanntmachung_Ortsrat_Klein_Escherde_14.02.2017.pdf",
+    "created": "2017-01-31T19:00:47+01:00",
+    "modified": "2017-01-31T19:00:47+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-18229",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2017-02-14",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZTMSii8JtedDGuV3XamgFfniHLojg7yfwiXMivWW2rZ/Oeffentliche_Niederschrift_Ortsrat_Klein_Escherde_14.02.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZTMSii8JtedDGuV3XamgFfniHLojg7yfwiXMivWW2rZ/Oeffentliche_Niederschrift_Ortsrat_Klein_Escherde_14.02.2017.pdf",
+    "created": "2017-02-16T19:01:02+01:00",
+    "modified": "2017-02-16T19:01:02+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13734",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2017-01-31T13:51:38+01:00",
+      "modified": "2017-01-31T13:51:38+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13735",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2017-01-31T13:51:38+01:00",
+      "modified": "2017-01-31T13:51:38+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13736",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 22.11.2016",
+      "created": "2017-01-31T13:51:38+01:00",
+      "modified": "2017-01-31T13:51:38+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13737",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2017-01-31T13:51:38+01:00",
+      "modified": "2017-01-31T13:51:38+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13743",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Auswertung der Geschwindigkeitsmessanlage im Neubaugebiet Klein Escherde\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2017-01-31T14:12:27+01:00",
+      "modified": "2017-02-16T10:25:34+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13738",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Änderung der Straßenbeleuchtung in der Akazienstraße, Klein Escherde",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3777",
+      "created": "2017-01-31T13:51:38+01:00",
+      "modified": "2017-01-31T13:51:38+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13744",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Durchführung und Organisation des Umwelttages am 25. März 2017\n(Ausführungen werden in der Sitzung gemacht)\n",
+      "created": "2017-01-31T14:17:08+01:00",
+      "modified": "2017-01-31T14:17:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13745",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Verwendung der im Haushalt 2017 zur Verfügung stehenden Ortsratsmittel\n- Beratung und Beschlussfassung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1664",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1Übersicht Ortsratsmittel)",
+          "mimeType": "application/pdf",
+          "date": "2017-02-14",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQTWoubJ1a4XqIySgiyCajFUxT9QHDSV3_lC0bOShIKr/Anlage_1Uebersicht_Ortsratsmittel.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQTWoubJ1a4XqIySgiyCajFUxT9QHDSV3_lC0bOShIKr/Anlage_1Uebersicht_Ortsratsmittel.pdf",
+          "created": "2017-02-16T13:00:49+01:00",
+          "modified": "2017-02-16T13:00:49+01:00"
+        }
+      ],
+      "created": "2017-01-31T14:18:18+01:00",
+      "modified": "2017-01-31T14:18:18+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13746",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Teilnahme am Wettbewerb \"Unser Dorf hat Zukunft\"\n- Beratung und Beschlussfassung\n(Ausführungen werden in der Sitzung gemacht)\n",
+      "created": "2017-01-31T14:20:29+01:00",
+      "modified": "2017-01-31T14:20:29+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13739",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2017-01-31T13:51:38+01:00",
+      "modified": "2017-01-31T13:51:38+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13740",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2017-01-31T13:51:38+01:00",
+      "modified": "2017-01-31T13:51:38+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13741",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Anträge und Anfragen",
+      "created": "2017-01-31T13:51:38+01:00",
+      "modified": "2017-01-31T13:51:38+01:00"
+    }
+  ]
+}

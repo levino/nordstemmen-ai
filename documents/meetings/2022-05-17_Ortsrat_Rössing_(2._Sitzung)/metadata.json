@@ -1,0 +1,226 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4982",
+  "name": "Ortsrat Rössing (2. Sitzung)",
+  "start": "2022-05-17T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-23",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Rössing, Kirchstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Kirchstraße 3",
+    "room": "Dorfgemeinschaftshaus Rössing, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Rössing",
+    "locality": "Nordstemmen",
+    "created": "2013-09-16T09:34:20+02:00",
+    "modified": "2019-06-06T11:57:18+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-34011",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2022-05-17",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdIZ4R9KW5PH7P1GEgqzi78gxZVU0_QdOe-oF3-G1XkB/Bekanntmachung_Ortsrat_Roessing_17.05.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdIZ4R9KW5PH7P1GEgqzi78gxZVU0_QdOe-oF3-G1XkB/Bekanntmachung_Ortsrat_Roessing_17.05.2022.pdf",
+    "created": "2022-05-09T19:00:07+02:00",
+    "modified": "2022-05-09T19:00:07+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-34306",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2022-05-17",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRtVVBR8rAzqret-sjy56RgLRDw0NhQh_eMdDfdwWQWU/Oeffentliche_Niederschrift_Ortsrat_Roessing_17.05.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRtVVBR8rAzqret-sjy56RgLRDw0NhQh_eMdDfdwWQWU/Oeffentliche_Niederschrift_Ortsrat_Roessing_17.05.2022.pdf",
+    "created": "2022-06-09T19:00:05+02:00",
+    "modified": "2022-06-09T19:00:05+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19966",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2022-04-25T11:50:42+02:00",
+      "modified": "2022-04-25T11:50:42+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19967",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2022-04-25T11:50:42+02:00",
+      "modified": "2022-04-25T11:50:42+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19968",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 11. November 2021",
+      "created": "2022-04-25T11:50:42+02:00",
+      "modified": "2022-04-25T11:50:42+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19969",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2022-04-25T11:50:42+02:00",
+      "modified": "2022-04-25T11:50:42+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19971",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht bzw. Mitteilungen der Bürgermeisterin",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5634",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Rössing Anlage 1 zu TOP 4)",
+          "mimeType": "application/pdf",
+          "date": "2022-05-17",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZjCDQ2VC_DfgnLCar5Uy86XqaPcTo4gEeSJLwVP280u/OR_Roessing_Anlage_1_zu_TOP_4.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZjCDQ2VC_DfgnLCar5Uy86XqaPcTo4gEeSJLwVP280u/OR_Roessing_Anlage_1_zu_TOP_4.pdf",
+          "created": "2022-06-09T19:00:05+02:00",
+          "modified": "2022-06-09T19:00:05+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5635",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Rössing Anlage 2 zu TOP 4)",
+          "mimeType": "application/pdf",
+          "date": "2022-05-17",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbXOwIaVbSuNNPpwSmQdyLA8FnRNGGYF85JNJkSvYp4J/OR_Roessing_Anlage_2_zu_TOP_4.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbXOwIaVbSuNNPpwSmQdyLA8FnRNGGYF85JNJkSvYp4J/OR_Roessing_Anlage_2_zu_TOP_4.pdf",
+          "created": "2022-06-09T19:00:05+02:00",
+          "modified": "2022-06-09T19:00:05+02:00"
+        }
+      ],
+      "created": "2022-04-25T11:50:42+02:00",
+      "modified": "2022-04-25T11:52:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20048",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Park- und Verkehrssituation \n- Parksituation Clausstraße \n- Verkehrssituation Leinkamp ",
+      "created": "2022-05-06T12:35:10+02:00",
+      "modified": "2022-05-06T12:35:10+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20049",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Unterhaltung Straßen\n- Straßenschäden Kantstraße\n- Gehwegbefestigung Loderwinkel im Bereich An der Feuerwache/Maschstraße \n",
+      "created": "2022-05-06T12:35:44+02:00",
+      "modified": "2022-05-06T12:35:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20050",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Akustik Lautsprechersirene \n- Ergebnis der Begehung\n",
+      "created": "2022-05-06T12:36:01+02:00",
+      "modified": "2022-05-06T12:36:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19970",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2023 sowie für die mittelfristige\nFinanzplanung 2024 bis 2026",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7288",
+      "created": "2022-04-25T11:50:42+02:00",
+      "modified": "2022-05-06T12:37:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20052",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Neue Spielgeräte und Umgestaltung Spielplatz Dorfgemeinschaftshaus ",
+      "created": "2022-05-06T12:36:36+02:00",
+      "modified": "2022-05-06T12:36:36+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20053",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Sanierungs- und Renovierungsarbeiten Dorfgemeinschaftshaus",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5636",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Rössing Anlage 3 zu TOP 10)",
+          "mimeType": "application/pdf",
+          "date": "2022-05-17",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTPNlXqLhYmihAsBaYGCR2tTYvNpYm33Y9qHfWXNzVug/OR_Roessing_Anlage_3_zu_TOP_10.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTPNlXqLhYmihAsBaYGCR2tTYvNpYm33Y9qHfWXNzVug/OR_Roessing_Anlage_3_zu_TOP_10.pdf",
+          "created": "2022-06-09T19:00:05+02:00",
+          "modified": "2022-06-09T19:00:05+02:00"
+        }
+      ],
+      "created": "2022-05-06T12:36:48+02:00",
+      "modified": "2022-05-06T12:36:48+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20054",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Neubaugebiet Rössing",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5637",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Rössing Anlage 4 zuTOP 11)",
+          "mimeType": "application/pdf",
+          "date": "2022-05-17",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVaBP1JiovXAwKv0ZdXeUZpeyqwNPUXQ-hBxBsuJoo-q/OR_Roessing_Anlage_4_zuTOP_11.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVaBP1JiovXAwKv0ZdXeUZpeyqwNPUXQ-hBxBsuJoo-q/OR_Roessing_Anlage_4_zuTOP_11.pdf",
+          "created": "2022-06-09T19:00:05+02:00",
+          "modified": "2022-06-09T19:00:05+02:00"
+        }
+      ],
+      "created": "2022-05-06T12:37:01+02:00",
+      "modified": "2022-05-06T12:37:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19972",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2022-04-25T11:50:42+02:00",
+      "modified": "2022-04-25T11:52:08+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19973",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Anträge und Anfragen",
+      "created": "2022-04-25T11:50:42+02:00",
+      "modified": "2022-04-25T11:50:42+02:00"
+    }
+  ]
+}

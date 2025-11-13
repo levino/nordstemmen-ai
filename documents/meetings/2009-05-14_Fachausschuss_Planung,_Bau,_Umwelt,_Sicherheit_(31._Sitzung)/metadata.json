@@ -1,0 +1,172 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1294",
+  "name": "Fachausschuss Planung, Bau, Umwelt, Sicherheit (31. Sitzung)",
+  "start": "2009-05-14T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-6"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-3866",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Planung, Bau, Umwelt, Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2009-05-14",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZW4z6L6gSbhFHg_a1SGpj3jYbGzSe-fCiYnivYYh5j_E/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_14.05.2009.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZW4z6L6gSbhFHg_a1SGpj3jYbGzSe-fCiYnivYYh5j_E/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_14.05.2009.pdf",
+    "created": "2009-05-12T10:57:29+02:00",
+    "modified": "2009-05-12T10:57:29+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4617",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2009-05-04T10:42:04+02:00",
+      "modified": "2009-05-04T10:42:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4618",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2009-05-04T10:42:04+02:00",
+      "modified": "2009-05-04T10:42:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4619",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 20. November 2008",
+      "created": "2009-05-04T10:42:04+02:00",
+      "modified": "2009-05-04T10:42:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4630",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 12. Februar 2009",
+      "created": "2009-05-04T10:43:26+02:00",
+      "modified": "2009-05-04T10:43:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4631",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Planungen zur Sanierung des Grabendurchlasses \"Bethelner Straße\", Ortschaft Burgstemmen\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2009-05-04T10:44:57+02:00",
+      "modified": "2009-05-04T10:44:57+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4879",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bebauungsplan Nr. 0412 \"Gießerei Schiermann\", Ortschaft Burgstemmen;\n\nSatzungsbeschluss gem. § 10 Abs. 1 BauGB",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/978",
+      "created": "2009-08-27T17:42:06+02:00",
+      "modified": "2009-08-27T17:42:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4880",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "19. Änderung des Flächennutzungsplanes der Gemeinde Nordstemmen (Krummer Kamp),\nOrtschaft Adensen\n- öffentliche Auslegung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/966",
+      "created": "2009-08-27T17:42:29+02:00",
+      "modified": "2009-08-27T17:42:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4881",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bebauungsplan Nr. 0207 \"Krummer Kamp\", Ortschaft Adensen\n- öffentliche Auslegung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/972",
+      "created": "2009-08-27T17:43:04+02:00",
+      "modified": "2009-08-27T17:43:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4751",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Planfeststellung für den Ausbau der Kreisstraße (K) 507 in der Ortsdurchfahrt (OD) Heyersum von Str.-km 1,610 bis Str.-km 2,421",
+      "created": "2009-08-11T14:30:47+02:00",
+      "modified": "2009-08-11T14:30:47+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4621",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Entlassung und Ernennung von Führungskräften der Feuerwehr",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/945",
+      "created": "2009-05-04T10:42:04+02:00",
+      "modified": "2009-05-04T10:42:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4624",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Tätigkeitsbericht der Umweltschutzbeauftragten",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/961",
+      "created": "2009-05-04T10:42:04+02:00",
+      "modified": "2009-05-04T10:54:22+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4636",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2009-05-04T10:54:49+02:00",
+      "modified": "2009-05-04T10:54:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4637",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Behandlung von Anträgen",
+      "created": "2009-05-04T10:55:47+02:00",
+      "modified": "2009-05-04T11:28:48+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4626",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Behandlung von Anfragen",
+      "created": "2009-05-04T10:42:04+02:00",
+      "modified": "2009-05-04T10:55:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4627",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Anregungen",
+      "created": "2009-05-04T10:42:04+02:00",
+      "modified": "2009-05-04T10:55:54+02:00"
+    }
+  ]
+}

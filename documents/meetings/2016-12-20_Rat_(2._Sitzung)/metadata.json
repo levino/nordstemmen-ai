@@ -1,0 +1,242 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2804",
+  "name": "Rat (2. Sitzung)",
+  "start": "2016-12-20T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-24",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Hotelrestaurant \"Nobiskrug\", Stöckumer Straße 1, 31171 Nordstemmen, Saal",
+    "streetAddress": "Stöckumer Straße 1",
+    "room": "Hotelrestaurant \"Nobiskrug\", Saal",
+    "postalCode": "31171",
+    "subLocality": "Groß Escherde",
+    "locality": "Nordstemmen",
+    "created": "2013-11-13T11:29:05+01:00",
+    "modified": "2017-08-31T09:05:07+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-17733",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2016-12-20",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXFGCHOpffJ5D--AdRj5pCj2VlCf5TEJoRqbT6CTHeiz/Bekanntmachung_Rat_20.12.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXFGCHOpffJ5D--AdRj5pCj2VlCf5TEJoRqbT6CTHeiz/Bekanntmachung_Rat_20.12.2016.pdf",
+    "created": "2016-12-09T11:27:33+01:00",
+    "modified": "2016-12-09T11:27:33+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-18021",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2016-12-20",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVA691lHwTzIikvpb7HMZUkgt1s7c1soCvwsKNLh-eBu/Oeffentliche_Niederschrift_Rat_20.12.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVA691lHwTzIikvpb7HMZUkgt1s7c1soCvwsKNLh-eBu/Oeffentliche_Niederschrift_Rat_20.12.2016.pdf",
+    "created": "2016-12-27T19:01:21+01:00",
+    "modified": "2016-12-27T19:01:21+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13378",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2016-10-25T16:18:06+02:00",
+      "modified": "2016-12-06T12:09:57+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13379",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2016-10-25T16:18:06+02:00",
+      "modified": "2016-10-25T16:18:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13380",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung des Rates vom 01.11.2016",
+      "created": "2016-10-25T16:18:06+02:00",
+      "modified": "2016-10-25T16:18:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13381",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht des Bürgermeisters über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1649",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Rat 20.12.2016 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2016-12-20",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaIXvid4uyLSTe3uyG9ycTwp77aaul0us003jI3P7T5r/Rat_20.12.2016_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaIXvid4uyLSTe3uyG9ycTwp77aaul0us003jI3P7T5r/Rat_20.12.2016_18-00_Uhr.pdf",
+          "created": "2016-12-22T13:01:18+01:00",
+          "modified": "2016-12-22T13:01:18+01:00"
+        }
+      ],
+      "created": "2016-10-25T16:18:06+02:00",
+      "modified": "2016-10-25T16:18:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13382",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2016-10-25T16:18:06+02:00",
+      "modified": "2016-10-25T16:18:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13633",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Entlassung einer Führungskraft der Feuerwehr",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3680",
+      "created": "2016-12-05T08:34:27+01:00",
+      "modified": "2016-12-05T10:07:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13626",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Annahme von Zuwendungen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3716",
+      "created": "2016-12-05T08:33:44+01:00",
+      "modified": "2016-12-05T08:33:44+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13635",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bildung einer Arbeitsgruppe Freizeitbad",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3695",
+      "created": "2016-12-05T08:34:34+01:00",
+      "modified": "2016-12-08T10:06:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13636",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Beschlussfassung über den Jahresabschluss 2012 der Gemeinde Nordstemmen; Entlastung des Bürgermeisters für den Jahresabschluss 2012;\nVerwendung des Jahresergebnisses 2012",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3698",
+      "created": "2016-12-05T08:35:12+01:00",
+      "modified": "2016-12-08T10:06:59+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13637",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Beschlussfassung über den Jahresabschluss 2013 der Gemeinde Nordstemmen;\nEntlastung des Bürgermeisters für den Jahresabschluss 2013;\nVerwendung des Jahresergenisses 2013",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3705",
+      "created": "2016-12-05T08:35:18+01:00",
+      "modified": "2016-12-08T10:07:30+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13634",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Antrag des Kirchenamtes Hildesheim auf Erweiterung des Betreuungsangebotes in der\nEv.-luth. Kindertagesstätte St. Peter und Paul Rössing",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3687",
+      "created": "2016-12-05T08:34:30+01:00",
+      "modified": "2016-12-05T10:07:34+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13627",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Eigenkapitalerhöhung bei der Nordstemmer Baulandentwicklungsgesellschaft mbH & Co. KG (NBEG mbH & Co. KG)\t",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3721",
+      "created": "2016-12-05T08:33:48+01:00",
+      "modified": "2016-12-05T08:33:48+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13628",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Stellenplan 2017",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3733",
+      "created": "2016-12-05T08:33:51+01:00",
+      "modified": "2016-12-08T10:08:12+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13630",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Haushaltssatzung und Haushaltsplan 2017",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3752",
+      "created": "2016-12-05T08:34:00+01:00",
+      "modified": "2016-12-08T10:08:27+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13631",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Investitionsprogramm für den Investitionszeitraum bis zum Haushaltsjahr 2020;\nmittelfristige Ergebnis- und Finanzplanung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3746",
+      "created": "2016-12-05T08:34:04+01:00",
+      "modified": "2016-12-08T10:08:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13629",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Rechtsverhältnisse für die Beamtinnen und Beamten der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3739",
+      "created": "2016-12-05T08:33:55+01:00",
+      "modified": "2016-12-05T08:33:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13632",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 17,
+      "name": "Bergrechtliches Planfeststellungsverfahren zur Wiederinbetriebnahme des Hartsalzwerkes Siegfried-Giesen der K+S AG\n1. Planänderung\n- Benachrichtigung und Gelegenheit zur Stellungnahme gem. § 73 (8) VwVfG",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3749",
+      "created": "2016-12-05T08:34:22+01:00",
+      "modified": "2016-12-08T10:09:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13383",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 18,
+      "name": "Mitteilungen bzw. Bericht des Bürgermeisters",
+      "created": "2016-10-25T16:18:06+02:00",
+      "modified": "2016-10-25T16:18:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13384",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "18",
+      "order": 19,
+      "name": "Anträge und Anfragen",
+      "created": "2016-10-25T16:18:06+02:00",
+      "modified": "2016-10-25T16:18:06+02:00"
+    }
+  ]
+}

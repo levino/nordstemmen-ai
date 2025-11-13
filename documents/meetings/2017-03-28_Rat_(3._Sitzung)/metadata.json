@@ -1,0 +1,326 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2870",
+  "name": "Rat (3. Sitzung)",
+  "start": "2017-03-28T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-18441",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2017-03-28",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeSRFEWG_BTu2Jfx_Bf5ZmMkFhgBF_0oHqdcm64Q7VLU/Bekanntmachung_Rat_28.03.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeSRFEWG_BTu2Jfx_Bf5ZmMkFhgBF_0oHqdcm64Q7VLU/Bekanntmachung_Rat_28.03.2017.pdf",
+    "created": "2017-03-10T13:00:47+01:00",
+    "modified": "2017-03-16T19:01:19+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-18681",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2017-03-28",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcfQrH4HWGhy2F7E51U3xklXsK22LOpxtVilBADsqaS5/Oeffentliche_Niederschrift_Rat_28.03.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcfQrH4HWGhy2F7E51U3xklXsK22LOpxtVilBADsqaS5/Oeffentliche_Niederschrift_Rat_28.03.2017.pdf",
+    "created": "2017-04-21T13:00:43+02:00",
+    "modified": "2017-05-24T13:01:26+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13780",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2017-02-09T14:59:56+01:00",
+      "modified": "2017-02-09T14:59:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13781",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2017-02-09T14:59:56+01:00",
+      "modified": "2017-02-09T14:59:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13796",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Feststellung des Sitzverlustes des Ratsmitgliedes Herrn Kolja Leffers",
+      "created": "2017-02-09T17:59:02+01:00",
+      "modified": "2017-03-09T08:04:42+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13822",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Förmliche Verpflichtung und Pflichtbelehrung des nachrückenden Ratsmitgliedes Herrn Halil Serdar Evcil",
+      "created": "2017-02-17T09:18:37+01:00",
+      "modified": "2017-03-09T08:04:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13896",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Neubesetzung der Fachausschüsse durch die SPD-Ratsfraktion",
+      "created": "2017-03-09T08:05:25+01:00",
+      "modified": "2017-03-09T08:05:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13782",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Genehmigung des Protokolls der Sitzung des Rates vom 20.12.2016",
+      "created": "2017-02-09T14:59:56+01:00",
+      "modified": "2017-02-09T14:59:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13783",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bericht des Bürgermeisters über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1717",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Rat 28.03.2017 18:30 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2017-03-28",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZS_y6SAXZixuwQTTFmS6h67r9aEzEtvj0qN2D0_fjPWy/Rat_28.03.2017_18-30_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZS_y6SAXZixuwQTTFmS6h67r9aEzEtvj0qN2D0_fjPWy/Rat_28.03.2017_18-30_Uhr.pdf",
+          "created": "2017-04-20T13:00:32+02:00",
+          "modified": "2017-04-20T13:00:32+02:00"
+        }
+      ],
+      "created": "2017-02-09T14:59:56+01:00",
+      "modified": "2017-02-09T14:59:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13784",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Einwohnerfragestunde",
+      "created": "2017-02-09T14:59:56+01:00",
+      "modified": "2017-03-06T14:55:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13878",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Entlassung und Ernennung von Führungskräften der Feuerwehr",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3796",
+      "created": "2017-03-06T14:54:47+01:00",
+      "modified": "2017-03-06T14:56:04+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13795",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Entlassung und Ernennung von Führungskräften der Feuerwehr",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3776",
+      "created": "2017-02-09T15:18:38+01:00",
+      "modified": "2017-03-06T14:56:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13890",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Erweiterung des Fachausschusses Bildung, Kultur und Soziales",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3818",
+      "created": "2017-03-07T16:09:47+01:00",
+      "modified": "2017-03-07T16:09:57+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13793",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Veranstaltung Neuhinzugezogene;\nAntrag der SPD-Fraktion",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3769",
+      "created": "2017-02-09T15:18:32+01:00",
+      "modified": "2017-03-06T14:58:24+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13899",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11.1",
+      "order": 13,
+      "name": "Veranstaltung Neuhinzugezogene;\nAntrag der SPD-Fraktion",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3821",
+      "created": "2017-03-09T08:07:14+01:00",
+      "modified": "2017-03-09T08:07:18+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13794",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Belebung des Nordstemmer Wochenmarktes, Antrag des Ratsmitgliedes Günter Lassen (F.D.P.)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3773",
+      "created": "2017-02-09T15:18:35+01:00",
+      "modified": "2017-03-06T14:59:04+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13898",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12.2",
+      "order": 15,
+      "name": "Belebung des Nordstemmer Wochenmarktes, Antrag des Ratsmitgliedes Günter Lassen (F.D.P.)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3820",
+      "created": "2017-03-09T08:06:44+01:00",
+      "modified": "2017-03-09T08:06:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13792",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 16,
+      "name": "eMobilität; Antrag der SPD-Fraktion",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3767",
+      "created": "2017-02-09T15:18:24+01:00",
+      "modified": "2017-03-06T14:59:31+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13897",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13.3",
+      "order": 17,
+      "name": "eMobilität; Antrag der SPD-Fraktion",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3819",
+      "created": "2017-03-09T08:06:13+01:00",
+      "modified": "2017-03-09T08:06:26+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13871",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 18,
+      "name": "Freizeitbad Nordstemmen\n- Ergebnis der Freibadsaison 2016",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3798",
+      "created": "2017-03-06T14:54:01+01:00",
+      "modified": "2017-03-06T14:54:05+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13872",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 19,
+      "name": "Antrag der AWO Soziale Dienste Bezirk Hannover gGmbH – JUKI auf Erweiterung des Betreuungsangebotes in der Kindertagesstätte Nordstemmen zum 01.08.2017",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3783",
+      "created": "2017-03-06T14:54:12+01:00",
+      "modified": "2017-03-06T15:00:02+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13876",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 20,
+      "name": "Festsetzung der Elternbeiträge für die Kindertagesstätten und der Kindertagespflege für die Zeit vom 01.08.2017 bis zum 31.07.2018 – Antrag der Fraktion Bündnis 90/Die Grünen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3792",
+      "created": "2017-03-06T14:54:36+01:00",
+      "modified": "2017-03-06T14:56:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13873",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 21,
+      "name": "Hortbetreuung in der Gemeinde Nordstemmen;\nBelegungssituation in den Hortgruppen zum 01.08.2017",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3807",
+      "created": "2017-03-06T14:54:17+01:00",
+      "modified": "2017-03-06T15:00:31+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13870",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "18",
+      "order": 22,
+      "name": "Baulücken- und Leerstandskataster (BLK) für die Gemeinde Nordstemmen\n- Aufstellungsbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3789",
+      "created": "2017-03-06T14:53:46+01:00",
+      "modified": "2017-03-06T14:53:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13874",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "19",
+      "order": 23,
+      "name": "Barrierefreier Ausbau von Bushaltestellen - Konzeption für das weitere Vorgehen in 2018",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3786",
+      "created": "2017-03-06T14:54:25+01:00",
+      "modified": "2017-03-06T15:00:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13907",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "20",
+      "order": 24,
+      "name": "Einstellung einer/eines Integrationshelferin/Integrationshelfers mit einer halben Stelle in der Verwaltung der Gemeinde Nordstemmen - Antrag der Fraktion Bündnis 90/Die Grünen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3827",
+      "created": "2017-03-16T10:26:40+01:00",
+      "modified": "2017-03-16T10:30:27+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13881",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "21",
+      "order": 25,
+      "name": "Unterrichtung über die Aufnahme eines Kommunaldarlehens gemäß § 7 der Richtlinie der Gemeinde Nordstemmen für die Aufnahme von Krediten und zur Umschuldung von Krediten vom 01.11.2011",
+      "created": "2017-03-06T15:11:00+01:00",
+      "modified": "2017-03-21T11:52:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13882",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "22",
+      "order": 26,
+      "name": "Unterrichtung über die Aufnahme eines Kommunaldarlehens gemäß § 7 der Richtlinie der Gemeinde Nordstemmen für die Aufnahme von Krediten und zur Umschuldung von Krediten vom 01.11.2011",
+      "created": "2017-03-06T15:11:08+01:00",
+      "modified": "2017-03-21T11:52:24+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13789",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "23",
+      "order": 27,
+      "name": "Mitteilungen bzw. Bericht des Bürgermeisters",
+      "created": "2017-02-09T14:59:56+01:00",
+      "modified": "2017-02-09T14:59:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13790",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "24",
+      "order": 28,
+      "name": "Anträge und Anfragen",
+      "created": "2017-02-09T14:59:56+01:00",
+      "modified": "2017-02-09T14:59:56+01:00"
+    }
+  ]
+}

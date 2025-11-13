@@ -1,0 +1,220 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1594",
+  "name": "Ortsrat Nordstemmen (18. Sitzung)",
+  "start": "2011-03-24T18:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-8"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-6420",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Nordstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2011-03-24",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUKu_qSdqVHxEKaDddicnx-PRuOkAR4sstUVp03Msh5s/Bekanntmachung_Ortsrat_Nordstemmen_24.03.2011.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUKu_qSdqVHxEKaDddicnx-PRuOkAR4sstUVp03Msh5s/Bekanntmachung_Ortsrat_Nordstemmen_24.03.2011.pdf",
+    "created": "2011-03-04T13:02:38+01:00",
+    "modified": "2011-03-17T18:01:40+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7021",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2011-03-03T10:24:10+01:00",
+      "modified": "2011-03-03T10:24:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7022",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2011-03-03T10:24:10+01:00",
+      "modified": "2011-03-03T10:24:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7023",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 27. Oktober 2010",
+      "created": "2011-03-03T10:24:10+01:00",
+      "modified": "2011-03-03T10:24:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7024",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2011-03-03T10:24:10+01:00",
+      "modified": "2011-03-03T10:24:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7025",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Widmung der Straßenflächen in den Baugebieten \"Heyersumer Straße - Nord und Süd\", Ortschaft Nordstemmen und Fortschreibung des Bestandsverzeichnisses",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1512",
+      "created": "2011-03-03T10:24:10+01:00",
+      "modified": "2011-03-03T10:24:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7026",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Widmung der Straßenflächen im Baugebiet \"Mahlerter Straße\" (1. und 2. Bauabschnitt), Ortschaft Nordstemmen und Fortschreibung des Bestandsverzeichnisses",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1517",
+      "created": "2011-03-03T10:24:10+01:00",
+      "modified": "2011-03-03T10:24:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7027",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Widmung von Straßenflächen im Baugebiet \"Mahlerter Straße - Nord\", Ortschaft Nordstemmen und Fortschreibung des Bestandsverzeichnisses",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1522",
+      "created": "2011-03-03T10:24:11+01:00",
+      "modified": "2011-03-03T10:24:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7829",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Geländer am Salzbach Heyersumer Straße",
+      "created": "2011-11-21T09:30:27+01:00",
+      "modified": "2011-11-21T09:30:27+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7070",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Anlegung einer Boule-Bahn auf dem ehemaligen Spielplatz Einmündungsbereich Mahlerter Straße / Rosenstraße\n(Beratung und Beschlussempfehlung / Beschlussfassung; weitere Ausführungen werden in der Sitzung gemacht)",
+      "created": "2011-03-16T08:05:18+01:00",
+      "modified": "2011-03-16T08:05:18+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7035",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Vorschlag für die Benennung des \"Grünen Weges\" mit einem Straßennamen\n(auf den vorherigen Ortstermin in der Sache wird verwiesen)",
+      "created": "2011-03-03T10:25:54+01:00",
+      "modified": "2011-03-03T10:25:57+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7034",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Vermarktung verschiedener digitalisierter Nordstemmer Heimatfilme\n(Beratung und Beschlussfassung; weitere Ausführungen werden in der Sitzung gemacht)",
+      "created": "2011-03-03T10:25:10+01:00",
+      "modified": "2011-03-03T10:25:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7036",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Besprechung der Organisation des Umweltaktionstages am 09. April 2011",
+      "created": "2011-03-03T10:26:25+01:00",
+      "modified": "2011-03-03T10:26:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7037",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Verwendung der im Haushaltsjahr 2011 zur Verfügung stehenden Ortsratsmittel\n- Antrag VfL Nordstemmen (Anlage 1)\n- Antrag DLRG Ortsgruppe Nordstemmen (Anlage 2)\n- Antrag Ortsfeuerwehr Nordstemmen (Anlage 6)\n- 100 Jahre VfL Nordstemmen\n- Seniorenfahrt 31.08.2011\n- Sonstiges\n(Beratung und Beschlussfassung; siehe dazu auch Anlage 3)",
+      "created": "2011-03-03T10:28:24+01:00",
+      "modified": "2011-03-03T10:28:24+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7038",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Diskussion über die evtl. Einführung eines Bürgergespräches vor den Sitzungen des Ortsrates\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2011-03-03T10:29:09+01:00",
+      "modified": "2011-03-03T10:29:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7028",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2011-03-03T10:24:11+01:00",
+      "modified": "2011-03-03T10:24:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7029",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Mitteilungen des Ortsbürgermeisters",
+      "created": "2011-03-03T10:24:11+01:00",
+      "modified": "2011-03-03T10:24:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7030",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 17,
+      "name": "Behandlung von Anträgen",
+      "created": "2011-03-03T10:24:11+01:00",
+      "modified": "2011-03-03T10:24:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7071",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 18,
+      "name": "Behandlung von Anfragen\n- Verlegung des Einganges zum Spielplatz im Baugebiet \"Mahlerter Straße-Nord\"\n- Erneuerung des Geländes am Salzbach in der Heyersumer Straße\n(auf die Anlage 5 zur Einladung vom 03.03.2011 wird verwiesen; außerdem siehe weiterhin Anlage 4)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-584",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Nordstemmen 24.03.2011)",
+          "mimeType": "application/pdf",
+          "date": "2011-03-24",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcXRTPp1fg7kjZ-BaQvQGXYL29lbmyT7ueP2FEF5npml/Ortsrat_Nordstemmen_24.03.2011.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcXRTPp1fg7kjZ-BaQvQGXYL29lbmyT7ueP2FEF5npml/Ortsrat_Nordstemmen_24.03.2011.pdf",
+          "created": "2011-11-22T18:01:27+01:00",
+          "modified": "2011-11-24T13:01:43+01:00"
+        }
+      ],
+      "created": "2011-03-16T08:08:38+01:00",
+      "modified": "2011-03-16T08:08:38+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7032",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "18",
+      "order": 19,
+      "name": "Anregungen",
+      "created": "2011-03-03T10:24:11+01:00",
+      "modified": "2011-03-03T10:24:11+01:00"
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2580",
+  "name": "Rat (21. Sitzung)",
+  "start": "2015-12-15T17:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-28",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Gasthof Deutsches Haus, Hauptstraße 114, 31171 Nordstemmen, Saal",
+    "streetAddress": "Hauptstraße 114",
+    "room": "Gasthof Deutsches Haus, Saal",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2015-06-30T15:54:59+02:00",
+    "modified": "2017-08-31T09:02:43+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15302",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2015-12-15",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVGLQteC5h7d8W6OXsWm4menEOebI4TstgQ8qQWom91g/Bekanntmachung_Rat_15.12.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVGLQteC5h7d8W6OXsWm4menEOebI4TstgQ8qQWom91g/Bekanntmachung_Rat_15.12.2015.pdf",
+    "created": "2015-12-04T13:00:48+01:00",
+    "modified": "2015-12-04T13:00:48+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15582",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2015-12-15",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXVhNF8dRjtwGaaFmoNqC6u4OwTlPNHMKj0mcI6n-FLv/Oeffentliche_Niederschrift_Rat_15.12.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXVhNF8dRjtwGaaFmoNqC6u4OwTlPNHMKj0mcI6n-FLv/Oeffentliche_Niederschrift_Rat_15.12.2015.pdf",
+    "created": "2016-01-25T19:00:59+01:00",
+    "modified": "2016-01-25T19:00:59+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12006",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2015-07-17T10:03:31+02:00",
+      "modified": "2015-07-17T10:03:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12007",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2015-07-17T10:03:31+02:00",
+      "modified": "2015-07-17T10:03:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12008",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung des Rates vom 13.10.2015",
+      "created": "2015-07-17T10:03:31+02:00",
+      "modified": "2015-07-17T10:03:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12009",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht des Bürgermeisters über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1464",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 Bericht des Bürgermeisters)",
+          "mimeType": "application/pdf",
+          "date": "2015-12-15",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQdCIS05PAOhoFcfn9vRUb9x6TeB9qmUOzude7Bl9Iop/Anlage_1_Bericht_des_Buergermeisters.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQdCIS05PAOhoFcfn9vRUb9x6TeB9qmUOzude7Bl9Iop/Anlage_1_Bericht_des_Buergermeisters.pdf",
+          "created": "2016-01-25T13:01:04+01:00",
+          "modified": "2016-01-25T13:01:04+01:00"
+        }
+      ],
+      "created": "2015-07-17T10:03:31+02:00",
+      "modified": "2015-07-17T10:03:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12010",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2015-07-17T10:03:31+02:00",
+      "modified": "2015-07-17T10:03:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12455",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Erweiterung des Platzangebots um 10 Ganztagsplätze in der AWO Kindertagesstätte Nordstemmen zum 01.01.2016",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3256",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15509",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Erweiterung des Platzangebots um 10 Ganztagsplätze in der AWO Kindertagesstätte Nordstemmen zum 01.01.2016)",
+        "mimeType": "application/pdf",
+        "date": "2015-12-15",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWmhb9Ziflc24f2S2E3Zh4SW_-ei746wYZIbV6gucF0S/Beschlusstext_DS_60-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWmhb9Ziflc24f2S2E3Zh4SW_-ei746wYZIbV6gucF0S/Beschlusstext_DS_60-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "created": "2016-01-25T19:00:59+01:00",
+        "modified": "2016-01-25T19:00:59+01:00"
+      },
+      "created": "2015-11-30T08:14:01+01:00",
+      "modified": "2015-11-30T08:14:01+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12461",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Umwandlung der Kindergartengruppe (Kleingruppe für 10 Kinder) in eine Krippengruppe für die Betreuung von 13 Kindern in der ev.-luth. Kindertagesstätte St. Johannes Groß Escherde zum 01.08.2016",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3314",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15494",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Umwandlung der Kindergartengruppe (Kleingruppe für 10 Kinder) in eine Krippengruppe für die Betreuung von 13 Kindern in der ev.-luth. Kindertagesstätte St. Johannes Groß Escherde zum 01.08.2016)",
+        "mimeType": "application/pdf",
+        "date": "2015-12-15",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSpO5Z0xkYYdym8hAPu-QwrzOg0pGHqYjh3cGdSNX6FH/Beschlusstext_DS_83-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSpO5Z0xkYYdym8hAPu-QwrzOg0pGHqYjh3cGdSNX6FH/Beschlusstext_DS_83-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "created": "2016-01-25T19:00:59+01:00",
+        "modified": "2016-01-25T19:00:59+01:00"
+      },
+      "created": "2015-11-30T08:15:23+01:00",
+      "modified": "2015-11-30T08:40:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12456",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Umbau und Erweiterung Feuerwehrhaus Mahlerten\nMaßnahmenbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3260",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15495",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Umbau und Erweiterung Feuerwehrhaus Mahlerten\nMaßnahmenbeschluss)",
+        "mimeType": "application/pdf",
+        "date": "2015-12-15",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdFX4pN3T436Kdx0ySckuonUcQaQqm6NSTVRsdkHrx7d/Beschlusstext_DS_61-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdFX4pN3T436Kdx0ySckuonUcQaQqm6NSTVRsdkHrx7d/Beschlusstext_DS_61-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "created": "2016-01-25T19:00:59+01:00",
+        "modified": "2016-01-25T19:00:59+01:00"
+      },
+      "created": "2015-11-30T08:14:05+01:00",
+      "modified": "2015-11-30T08:14:05+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12457",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Neuaufstellung des Regionalen Raumordnungsprogrammes (RROP) der Region Hannover, Entwurf 2015",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3298",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15496",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Neuaufstellung des Regionalen Raumordnungsprogrammes (RROP) der Region Hannover, Entwurf 2015)",
+        "mimeType": "application/pdf",
+        "date": "2015-12-15",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZewg-iMoODSawdP42I4J0sqapv2c8QL9maVbPyebcBdw/Beschlusstext_DS_63-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZewg-iMoODSawdP42I4J0sqapv2c8QL9maVbPyebcBdw/Beschlusstext_DS_63-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "created": "2016-01-25T19:00:59+01:00",
+        "modified": "2016-01-25T19:00:59+01:00"
+      },
+      "created": "2015-11-30T08:14:12+01:00",
+      "modified": "2015-11-30T08:14:12+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12459",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Stellenplan 2016",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3288",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15497",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Stellenplan 2016)",
+        "mimeType": "application/pdf",
+        "date": "2015-12-15",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRzEl20c8SHK1r0kKlu-E0Nibslu-yh3eKKVvgVDfuSW/Beschlusstext_DS_73-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRzEl20c8SHK1r0kKlu-E0Nibslu-yh3eKKVvgVDfuSW/Beschlusstext_DS_73-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "created": "2016-01-25T19:00:59+01:00",
+        "modified": "2016-01-25T19:00:59+01:00"
+      },
+      "created": "2015-11-30T08:14:33+01:00",
+      "modified": "2015-11-30T08:15:12+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12472",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Personalausstattung Fachbereich 2 - Finanzen; Antrag der CDU-Fraktion",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3336",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15498",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Personalausstattung Fachbereich 2 - Finanzen; Antrag der CDU-Fraktion)",
+        "mimeType": "application/pdf",
+        "date": "2015-12-15",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdZQvUCDdF3vrGGT3aXcqFB3DIcCny8p7-gf092ylZBQ/Beschlusstext_DS_90-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdZQvUCDdF3vrGGT3aXcqFB3DIcCny8p7-gf092ylZBQ/Beschlusstext_DS_90-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "created": "2016-01-25T19:00:59+01:00",
+        "modified": "2016-01-25T19:00:59+01:00"
+      },
+      "created": "2015-12-01T17:43:01+01:00",
+      "modified": "2015-12-01T17:43:01+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12479",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10.1",
+      "order": 12,
+      "name": "Unterstützung im Fachbereich 2 – Finanzen; Antrag der CDU-Fraktion",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3348",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15499",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Unterstützung im Fachbereich 2 – Finanzen; Antrag der CDU-Fraktion)",
+        "mimeType": "application/pdf",
+        "date": "2015-12-15",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTFTKSBWf4mHCiSuZOum4_Tgonvu3HpPYpcfczvlPvGy/Beschlusstext_DS_90-2015_1._Ergaenzung_-oeffentlich-_Rat_15.12.2015.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTFTKSBWf4mHCiSuZOum4_Tgonvu3HpPYpcfczvlPvGy/Beschlusstext_DS_90-2015_1._Ergaenzung_-oeffentlich-_Rat_15.12.2015.pdf",
+        "created": "2016-01-25T19:00:59+01:00",
+        "modified": "2016-01-25T19:00:59+01:00"
+      },
+      "created": "2015-12-15T14:43:53+01:00",
+      "modified": "2015-12-15T14:44:02+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12458",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Entsendung eines Vertreters in den Verwaltungsrat der kommunalen Anstalt öffenlichen Rechts \"Energieversorgung Hildesheimer Land\" (AöR E-Hi-Land)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3276",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15500",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Entsendung eines Vertreters in den Verwaltungsrat der kommunalen Anstalt öffenlichen Rechts \"Energieversorgung Hildesheimer Land\" (AöR E-Hi-Land))",
+        "mimeType": "application/pdf",
+        "date": "2015-12-15",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVTzZ0YdItZk5AkPnyTM8SexHgyUIm7al34cP6yTNnmN/Beschlusstext_DS_67-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVTzZ0YdItZk5AkPnyTM8SexHgyUIm7al34cP6yTNnmN/Beschlusstext_DS_67-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "created": "2016-01-25T19:00:59+01:00",
+        "modified": "2016-01-25T19:00:59+01:00"
+      },
+      "created": "2015-11-30T08:14:28+01:00",
+      "modified": "2015-11-30T08:15:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12460",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Verleihung der Ehrenbezeichnung \"Ehrenortsbrandmeister\" an Herrn Ralf Remmers",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3294",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15501",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Verleihung der Ehrenbezeichnung \"Ehrenortsbrandmeister\" an Herrn Ralf Remmers)",
+        "mimeType": "application/pdf",
+        "date": "2015-12-15",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSOg9giG5YfG3sHSicN1Tm_Seg1acGadFAwZvzSffQ0P/Beschlusstext_DS_77-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSOg9giG5YfG3sHSicN1Tm_Seg1acGadFAwZvzSffQ0P/Beschlusstext_DS_77-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "created": "2016-01-25T19:00:59+01:00",
+        "modified": "2016-01-25T19:00:59+01:00"
+      },
+      "created": "2015-11-30T08:15:18+01:00",
+      "modified": "2015-11-30T08:15:18+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12476",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 15,
+      "name": "Entlassung von Führungskräften der Feuerwehr",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3346",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15502",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Entlassung von Führungskräften der Feuerwehr)",
+        "mimeType": "application/pdf",
+        "date": "2015-12-15",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZa9V1aYaeP8uL-i9WbQ3I8RFR_M5LyKdNrccN0ZWHKN5/Beschlusstext_DS_94-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZa9V1aYaeP8uL-i9WbQ3I8RFR_M5LyKdNrccN0ZWHKN5/Beschlusstext_DS_94-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "created": "2016-01-25T19:00:59+01:00",
+        "modified": "2016-01-25T19:00:59+01:00"
+      },
+      "created": "2015-12-03T13:24:52+01:00",
+      "modified": "2015-12-03T13:24:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12462",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 16,
+      "name": "Haushaltssatzung und Haushaltsplan 2016",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3323",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15503",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Haushaltssatzung und Haushaltsplan 2016)",
+        "mimeType": "application/pdf",
+        "date": "2015-12-15",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdo4c1CmwBPCTg1ONtUzpad9qVv5XkIntn5Dw6m3v8EP/Beschlusstext_DS_87-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdo4c1CmwBPCTg1ONtUzpad9qVv5XkIntn5Dw6m3v8EP/Beschlusstext_DS_87-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "created": "2016-01-25T19:00:59+01:00",
+        "modified": "2016-01-25T19:00:59+01:00"
+      },
+      "created": "2015-11-30T08:15:53+01:00",
+      "modified": "2015-11-30T08:15:53+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12471",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 17,
+      "name": "Investitionsprogramm für den Investitionszeitraum bis zum Haushaltsjahr 2019; mittelfristige Ergebnis- und Finanzplanung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3344",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15504",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Investitionsprogramm für den Investitionszeitraum bis zum Haushaltsjahr 2019; mittelfristige Ergebnis- und Finanzplanung)",
+        "mimeType": "application/pdf",
+        "date": "2015-12-15",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaVNkYwqDAYVCTvzJDNMC_7ietdkUsNx9mQsraIJSCIp/Beschlusstext_DS_88-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaVNkYwqDAYVCTvzJDNMC_7ietdkUsNx9mQsraIJSCIp/Beschlusstext_DS_88-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "created": "2016-01-25T19:00:59+01:00",
+        "modified": "2016-01-25T19:00:59+01:00"
+      },
+      "created": "2015-12-01T17:42:51+01:00",
+      "modified": "2015-12-01T17:42:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12473",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 18,
+      "name": "Annahme von Zuwendungen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3338",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15505",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Annahme von Zuwendungen)",
+        "mimeType": "application/pdf",
+        "date": "2015-12-15",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTPsp2Hc9Diq4bzAMFyOuFw40yXf1O8ycE_pnCfuIKXu/Beschlusstext_DS_91-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTPsp2Hc9Diq4bzAMFyOuFw40yXf1O8ycE_pnCfuIKXu/Beschlusstext_DS_91-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "created": "2016-01-25T19:00:59+01:00",
+        "modified": "2016-01-25T19:00:59+01:00"
+      },
+      "created": "2015-12-01T17:43:11+01:00",
+      "modified": "2015-12-01T17:43:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12480",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 21,
+      "name": "Freizeitbad Nordstemmen - Gestaltung von Außenflächen einschließlich Terrasse\n(DS 92/2015; wird nachgereicht)",
+      "created": "2015-12-16T08:03:39+01:00",
+      "modified": "2015-12-16T08:03:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12475",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "18",
+      "order": 22,
+      "name": "Jugendzentrum Nordstemmen (JUZ 110) - Nutzungsänderung und brandschutztechnische Maßnahmen\n- Zustimmung zu einer überplanmäßigen Auszahlung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3342",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15506",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Jugendzentrum Nordstemmen (JUZ 110) - Nutzungsänderung und brandschutztechnische Maßnahmen\n- Zustimmung zu einer überplanmäßigen Auszahlung)",
+        "mimeType": "application/pdf",
+        "date": "2015-12-15",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeaTtMPlaUKDgGoPHtYD-hYzWb2oQaYn1uu3rsFSyKeq/Beschlusstext_DS_93-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeaTtMPlaUKDgGoPHtYD-hYzWb2oQaYn1uu3rsFSyKeq/Beschlusstext_DS_93-2015_-oeffentlich-_Rat_15.12.2015.pdf",
+        "created": "2016-01-25T19:00:59+01:00",
+        "modified": "2016-01-25T19:00:59+01:00"
+      },
+      "created": "2015-12-01T17:44:13+01:00",
+      "modified": "2015-12-01T17:44:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12011",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "19",
+      "order": 23,
+      "name": "Mitteilungen bzw. Bericht des Bürgermeisters",
+      "created": "2015-07-17T10:03:31+02:00",
+      "modified": "2015-07-17T10:03:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12012",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "20",
+      "order": 24,
+      "name": "Anträge und Anfragen",
+      "created": "2015-07-17T10:03:31+02:00",
+      "modified": "2015-07-17T10:03:31+02:00"
+    }
+  ]
+}

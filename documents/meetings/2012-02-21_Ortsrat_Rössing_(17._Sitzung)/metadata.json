@@ -1,0 +1,270 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1809",
+  "name": "Ortsrat Rössing (17. Sitzung)",
+  "start": "2012-02-21T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-11",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Gaststätte \"Alt Rössinger Saal\", Maschstraße 1, 31171 Nordstemmen, Clubraum",
+    "streetAddress": "Maschstraße 1",
+    "room": "Gaststätte \"Alt Rössinger Saal\", Clubraum",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T12:02:32+02:00",
+    "modified": "2017-09-12T17:09:38+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-7729",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2012-02-21",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbb_N0BLAFaC0qHF6Hbma0la1K0PijKD902CrnH-q_x-/Bekanntmachung_Ortsrat_Roessing_21.02.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbb_N0BLAFaC0qHF6Hbma0la1K0PijKD902CrnH-q_x-/Bekanntmachung_Ortsrat_Roessing_21.02.2012.pdf",
+    "created": "2012-02-13T12:17:10+01:00",
+    "modified": "2012-02-13T12:17:10+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-7827",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2012-02-21",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRVuGk8VKG7vHVlMMzFAVGgwY519e7r3-5zIL3CVdZeS/Oeffentliche_Niederschrift_Ortsrat_Roessing_21.02.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRVuGk8VKG7vHVlMMzFAVGgwY519e7r3-5zIL3CVdZeS/Oeffentliche_Niederschrift_Ortsrat_Roessing_21.02.2012.pdf",
+    "created": "2012-03-08T13:02:00+01:00",
+    "modified": "2012-03-08T13:02:00+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8004",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2012-02-09T14:50:35+01:00",
+      "modified": "2012-02-09T14:50:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8005",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2012-02-09T14:50:35+01:00",
+      "modified": "2012-02-09T14:50:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8006",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 16.11.2011",
+      "created": "2012-02-09T14:50:35+01:00",
+      "modified": "2012-02-09T14:50:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8007",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2012-02-09T14:50:35+01:00",
+      "modified": "2012-02-09T14:50:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8016",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Verbesserung der Straßenbeleuchtung innerhalb der Ortschaft\n- Beratung und Beschlussempfehlung\n(Ausführungen werden in der Sitzung gemacht)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-634",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2012-02-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaF-b58E-t33JCjewjVFuqFgHorJNt5O9hEKvmG68_Qq/Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaF-b58E-t33JCjewjVFuqFgHorJNt5O9hEKvmG68_Qq/Anlage_1.pdf",
+          "created": "2012-02-23T17:57:26+01:00",
+          "modified": "2012-02-23T17:57:26+01:00"
+        }
+      ],
+      "created": "2012-02-09T14:55:23+01:00",
+      "modified": "2012-02-09T14:55:23+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8008",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Anhörung zum doppischen Haushalt für die Haushaltsjahre 2012 bis 2015 / Investitionstätigkeit in der Ortschaft Rössing",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1796",
+      "created": "2012-02-09T14:50:35+01:00",
+      "modified": "2012-02-09T14:50:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8009",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Ausweisung der Straßen \"Jägerweg\" / \"Unter den Eichen\" (Teilstück), Ortschaft Rössing, als geschwindigkeitsbeschränkte Zone (Zone 30)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1766",
+      "created": "2012-02-09T14:50:35+01:00",
+      "modified": "2012-02-09T14:50:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8010",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bereitstellung von Dachflächen zur Errichtung von Photovoltaikanlagen durch eine Bürger-Photovoltaikgenossenschaft",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1804",
+      "created": "2012-02-09T14:50:35+01:00",
+      "modified": "2012-02-09T14:50:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8017",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Installation einer digitalen Geschwindigkeitsanzeige in der Maschstraße zur Verkehrsberuhigung\n- Antrag Bündnis 90/Die Grünen im Ortsrat Rössing\n(siehe Anlage 1)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-635",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2012-02-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZe5sqx61emEDDNHXInTcb2SWBLLOef7n823FWbDF9TDJ/Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZe5sqx61emEDDNHXInTcb2SWBLLOef7n823FWbDF9TDJ/Anlage_2.pdf",
+          "created": "2012-02-23T17:57:26+01:00",
+          "modified": "2012-02-23T17:57:26+01:00"
+        }
+      ],
+      "created": "2012-02-09T14:58:53+01:00",
+      "modified": "2012-02-09T14:58:53+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8018",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Möglichkeiten zum Einbringen des Ortsrates zur Eröffnung eines neuen Dorfladens\n- Beratung und Beschlussfassung\n(Ausführungen werden in der Sitzung gemacht)\n",
+      "created": "2012-02-09T15:05:05+01:00",
+      "modified": "2012-02-09T15:05:05+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8019",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Diskussion zu Lösungsmöglichkeiten zum Thema \"Pferdeäpfel\"\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2012-02-09T15:55:14+01:00",
+      "modified": "2012-02-09T15:55:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8020",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Vorbereitung des Umweltaktionstages am 14. April 2012",
+      "created": "2012-02-09T15:55:50+01:00",
+      "modified": "2012-02-09T15:55:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8021",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Verwendung der im Haushaltsjahr 2012 zur Verfügung stehenden Ortsratsmittel\n- Beratung und Beschlussfassung\n(siehe Anlage 2)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-636",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 3)",
+          "mimeType": "application/pdf",
+          "date": "2012-02-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZf7DyG1i_JXvtMCcWlzBAh_Tv8C735KSmnYK5LR0KlHO/Anlage_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZf7DyG1i_JXvtMCcWlzBAh_Tv8C735KSmnYK5LR0KlHO/Anlage_3.pdf",
+          "created": "2012-02-23T17:57:26+01:00",
+          "modified": "2012-02-23T17:57:26+01:00"
+        }
+      ],
+      "created": "2012-02-09T15:56:42+01:00",
+      "modified": "2012-02-09T15:56:42+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8011",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-637",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 4)",
+          "mimeType": "application/pdf",
+          "date": "2012-02-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVP17CxUclXIy3n7_xFaJN7oRwsi1NnkPUEfDp-_sIed/Anlage_4.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVP17CxUclXIy3n7_xFaJN7oRwsi1NnkPUEfDp-_sIed/Anlage_4.pdf",
+          "created": "2012-02-23T17:57:26+01:00",
+          "modified": "2012-02-23T17:57:26+01:00"
+        }
+      ],
+      "created": "2012-02-09T14:50:35+01:00",
+      "modified": "2012-02-09T14:50:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8012",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Mitteilungen der Ortsbürgermeisterin",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-638",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 5)",
+          "mimeType": "application/pdf",
+          "date": "2012-02-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfJvrLy8_rjea8cG_s-Y867DeXKD2LqgPDM7xZ51XSNj/Anlage_5.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfJvrLy8_rjea8cG_s-Y867DeXKD2LqgPDM7xZ51XSNj/Anlage_5.pdf",
+          "created": "2012-02-23T17:57:26+01:00",
+          "modified": "2012-02-23T17:57:26+01:00"
+        }
+      ],
+      "created": "2012-02-09T14:50:35+01:00",
+      "modified": "2012-02-09T14:50:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8013",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Behandlung von schriftlichen Anfragen und Anträgen",
+      "created": "2012-02-09T14:50:35+01:00",
+      "modified": "2012-02-09T14:50:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8014",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 17,
+      "name": "Anregungen",
+      "created": "2012-02-09T14:50:35+01:00",
+      "modified": "2012-02-09T14:50:35+01:00"
+    }
+  ]
+}

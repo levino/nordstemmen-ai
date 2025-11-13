@@ -1,0 +1,180 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1723",
+  "name": "Ortsrat Groß Escherde (13. Sitzung)",
+  "start": "2011-11-22T19:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-12",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Groß Escherde, Schulstraße 9 a, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Schulstraße 9 a",
+    "room": "Dorfgemeinschaftshaus Groß Escherde, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Groß Escherde",
+    "locality": "Nordstemmen",
+    "created": "2005-04-07T10:37:20+02:00",
+    "modified": "2019-06-06T11:57:41+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-14"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-7297",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2011-11-22",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZY30DqUeE97UdeWB74Hh8esZfjLlF0GFOKFkj1pgyG9o/Bekanntmachung_Ortsrat_Gross_Escherde_22.11.2011.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZY30DqUeE97UdeWB74Hh8esZfjLlF0GFOKFkj1pgyG9o/Bekanntmachung_Ortsrat_Gross_Escherde_22.11.2011.pdf",
+    "created": "2011-11-11T13:01:16+01:00",
+    "modified": "2011-11-11T13:01:16+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-7513",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2011-11-22",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYHvJO1Y7IxlSiQ3_anI7dpLAmy9ydkYQdNyZWQcAonU/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_22.11.2011.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYHvJO1Y7IxlSiQ3_anI7dpLAmy9ydkYQdNyZWQcAonU/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_22.11.2011.pdf",
+    "created": "2012-01-11T13:04:05+01:00",
+    "modified": "2012-01-11T13:04:05+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7760",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2011-11-09T08:46:09+01:00",
+      "modified": "2011-11-09T08:46:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7761",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit",
+      "created": "2011-11-09T08:46:09+01:00",
+      "modified": "2011-11-09T08:46:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7762",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Verpflichtung und Pflichtenbelehrung durch den bisherigen Ortsbürgermeister",
+      "created": "2011-11-09T08:46:09+01:00",
+      "modified": "2011-11-09T08:46:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7770",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bekanntgabe der Bildung von Fraktionen und Gruppen",
+      "created": "2011-11-09T08:48:00+01:00",
+      "modified": "2011-11-09T08:48:00+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7771",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Wahl der Ortsbürgermeisterin / des Ortsbürgermeisters",
+      "created": "2011-11-09T08:48:22+01:00",
+      "modified": "2011-11-09T08:48:22+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7772",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Feststellung der Tagesordnung",
+      "created": "2011-11-09T08:48:38+01:00",
+      "modified": "2011-11-09T08:48:38+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7773",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Wahl einer stellvertretenden Ortsbürgermeisterin / eines stellvertretenden Ortsbürgermeisters",
+      "created": "2011-11-09T08:49:12+01:00",
+      "modified": "2011-11-09T08:49:12+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7774",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Verabschiedung ausgeschiedener Ortsratsmitglieder",
+      "created": "2011-11-09T08:49:35+01:00",
+      "modified": "2011-11-09T08:49:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7763",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Einwohnerfragestunde",
+      "created": "2011-11-09T08:46:09+01:00",
+      "modified": "2011-11-09T08:46:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7775",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Benennung einer Vertreterin / eines Vertreters einschließlich Stellvertretung aus dem Ortsrat für den Kindertagesstättenausschuss des Kindergartens Groß Escherde",
+      "created": "2011-11-09T08:50:37+01:00",
+      "modified": "2011-11-09T08:50:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7776",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Besprechung der im Jahr 2011 noch stattfindenden Veranstaltungen des Ortsrates sowie der Veranstaltungen, die im Jahr 2012 durchgeführt werden sollen",
+      "created": "2011-11-09T08:51:38+01:00",
+      "modified": "2011-11-09T08:51:38+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7764",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2011-11-09T08:46:09+01:00",
+      "modified": "2011-11-09T08:46:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7765",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Mitteilungen der Ortsbürgermeisterin / des Ortsbürgermeisters",
+      "created": "2011-11-09T08:46:09+01:00",
+      "modified": "2011-11-09T08:46:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7766",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Behandlung von schriftlichen Anfragen und Anträgen",
+      "created": "2011-11-09T08:46:09+01:00",
+      "modified": "2011-11-09T08:46:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7768",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Anregungen",
+      "created": "2011-11-09T08:46:09+01:00",
+      "modified": "2011-11-09T08:46:09+01:00"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5434",
+  "name": "Fachausschuss Kindertagesstätten (11. Sitzung)",
+  "start": "2024-02-27T18:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-42"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-38531",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Kindertagesstätten)",
+    "mimeType": "application/pdf",
+    "date": "2024-02-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfq5lv7vhjQkhQD5WulOhx9T8KqnGjIGZ012hyTdP0aI/Bekanntmachung_Fachausschuss_Kindertagesstaetten_27.02.2024.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfq5lv7vhjQkhQD5WulOhx9T8KqnGjIGZ012hyTdP0aI/Bekanntmachung_Fachausschuss_Kindertagesstaetten_27.02.2024.pdf",
+    "created": "2024-02-13T13:00:23+01:00",
+    "modified": "2024-02-13T13:00:23+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-38825",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Kindertagesstätten)",
+    "mimeType": "application/pdf",
+    "date": "2024-02-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcVhL3eujLMJ1BYWP8cppvdMdTm8BcBQNIYlnoNqKXyx/Oeffentliche_Niederschrift_Fachausschuss_Kindertagesstaetten_27.02.2024.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcVhL3eujLMJ1BYWP8cppvdMdTm8BcBQNIYlnoNqKXyx/Oeffentliche_Niederschrift_Fachausschuss_Kindertagesstaetten_27.02.2024.pdf",
+    "created": "2024-03-19T13:00:00+01:00",
+    "modified": "2024-03-19T13:00:00+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22109",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2024-02-12T07:40:14+01:00",
+      "modified": "2024-02-12T07:40:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22110",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2024-02-12T07:40:14+01:00",
+      "modified": "2024-02-12T07:40:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22111",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 09. November 2023",
+      "created": "2024-02-12T07:40:14+01:00",
+      "modified": "2024-02-12T07:54:20+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22112",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Anfragen und Anregungen",
+      "created": "2024-02-12T07:40:14+01:00",
+      "modified": "2024-02-12T07:40:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22113",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2024-02-12T07:40:14+01:00",
+      "modified": "2024-02-12T07:40:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22116",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Information über die\n- Entwicklung der Kinderbetreuungszahlen (Geburtenfortschreibung)\n- Belegung der Plätze in den Kindertagesstätten, Horten und Kindertagespflegen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6728",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zum Protokoll (Geburtenzahlen,LB))",
+          "mimeType": "application/pdf",
+          "date": "2024-02-27",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWqUudCd77jf2Uhbi8Ix5Xfw8VdfwUPKJk7Eewo1o4X5/Anlage_1_zum_Protokoll_-Geburtenzahlen-LB-.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWqUudCd77jf2Uhbi8Ix5Xfw8VdfwUPKJk7Eewo1o4X5/Anlage_1_zum_Protokoll_-Geburtenzahlen-LB-.pdf",
+          "created": "2024-03-19T13:00:00+01:00",
+          "modified": "2024-03-19T13:00:00+01:00"
+        }
+      ],
+      "created": "2024-02-12T07:41:25+01:00",
+      "modified": "2024-02-12T07:41:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22117",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Gewaltschutzkonzepte in Kindertagesstätten\n- Ausführungen werden in der Sitzung gemacht",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6729",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2 Kinderschutzkonzept FA Nordstemmen 27.02.24)",
+          "mimeType": "application/pdf",
+          "date": "2024-02-27",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcdadu5LqGEN0OwdTWmttrJVH6Q4I3Mx6yaUVtMqMIRM/Anlage_2_Kinderschutzkonzept_FA_Nordstemmen_27.02.24.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcdadu5LqGEN0OwdTWmttrJVH6Q4I3Mx6yaUVtMqMIRM/Anlage_2_Kinderschutzkonzept_FA_Nordstemmen_27.02.24.pdf",
+          "created": "2024-03-19T13:00:00+01:00",
+          "modified": "2024-03-19T13:00:00+01:00"
+        }
+      ],
+      "created": "2024-02-12T07:41:51+01:00",
+      "modified": "2024-02-12T07:41:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22118",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Ausbau der Kindertagesbetreuung; Umsetzungsstand\n- Ausführungen werden in der Sitzung gemacht (siehe DS 61/2022 einschließlich 1. Ergänzung)",
+      "created": "2024-02-12T07:42:37+01:00",
+      "modified": "2024-02-12T07:42:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22114",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Mitteilungen der Verwaltung",
+      "created": "2024-02-12T07:40:14+01:00",
+      "modified": "2024-02-12T07:40:14+01:00"
+    }
+  ]
+}

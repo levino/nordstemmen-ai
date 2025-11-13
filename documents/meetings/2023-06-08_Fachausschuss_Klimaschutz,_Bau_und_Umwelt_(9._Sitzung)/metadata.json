@@ -1,0 +1,246 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5208",
+  "name": "Fachausschuss Klimaschutz, Bau und Umwelt (9. Sitzung)",
+  "start": "2023-06-08T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-40"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-36638",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Klimaschutz, Bau und Umwelt)",
+    "mimeType": "application/pdf",
+    "date": "2023-06-08",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXw-8Y0TBGnrlwT-ALe2iVWi3Y2f5TXsQpf9D991YTYE/Bekanntmachung_Fachausschuss_Klimaschutz-_Bau_und_Umwelt_08.06.2023.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXw-8Y0TBGnrlwT-ALe2iVWi3Y2f5TXsQpf9D991YTYE/Bekanntmachung_Fachausschuss_Klimaschutz-_Bau_und_Umwelt_08.06.2023.pdf",
+    "created": "2023-05-26T13:00:22+02:00",
+    "modified": "2023-05-26T13:00:22+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-37062",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Klimaschutz, Bau und Umwelt)",
+    "mimeType": "application/pdf",
+    "date": "2023-06-08",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZa_-vPM2iwfhbDHs0rX0DtbcMoGJ-so4-a1bYTnYm_Zq/Oeffentliche_Niederschrift_Fachausschuss_Klimaschutz-_Bau_und_Umwelt_08.06.2023.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZa_-vPM2iwfhbDHs0rX0DtbcMoGJ-so4-a1bYTnYm_Zq/Oeffentliche_Niederschrift_Fachausschuss_Klimaschutz-_Bau_und_Umwelt_08.06.2023.pdf",
+    "created": "2023-08-10T19:00:17+02:00",
+    "modified": "2023-08-10T19:00:17+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20966",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2023-03-17T08:39:08+01:00",
+      "modified": "2023-03-17T08:39:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20967",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2023-03-17T08:39:08+01:00",
+      "modified": "2023-03-17T08:39:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20968",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 02. März 2023",
+      "created": "2023-03-17T08:39:08+01:00",
+      "modified": "2023-03-17T08:39:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20969",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Anfragen und Anregungen",
+      "created": "2023-03-17T08:39:08+01:00",
+      "modified": "2023-03-17T08:39:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20970",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2023-03-17T08:39:08+01:00",
+      "modified": "2023-03-17T08:39:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21213",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Produkt 54100 Straßen, Wege, Plätze; Vorstellung von verschiedenen Verfahrenstechniken für die Sanierungsmöglichkeiten der Gemeindestraßen\n(Ausführungen werden in der Sitzung gemacht)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6366",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 TOP 5)",
+          "mimeType": "application/pdf",
+          "date": "2023-06-08",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZezibSp5RdkqPqOp-yK19IgqNaTHOrWDsnuhnTOs5EmB/Anlage_1_TOP_5.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZezibSp5RdkqPqOp-yK19IgqNaTHOrWDsnuhnTOs5EmB/Anlage_1_TOP_5.pdf",
+          "created": "2023-08-10T19:00:17+02:00",
+          "modified": "2023-08-10T19:00:17+02:00"
+        }
+      ],
+      "created": "2023-05-26T10:26:46+02:00",
+      "modified": "2023-05-26T10:26:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21214",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Vorstellung des Klimaschutzmanagers",
+      "created": "2023-05-26T10:27:10+02:00",
+      "modified": "2023-05-26T10:27:10+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21220",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Antrag und Anfrage der Fraktion Bündnis 90/ Die Grünen; Mehrzweckhalle Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7736",
+      "result": "Keine Beschlussfassung!",
+      "created": "2023-05-26T12:16:23+02:00",
+      "modified": "2023-05-26T12:16:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21216",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Sachstand bzw. Informationen zu Photovoltaikanlagen auf gemeindeeigenen Dächern (Begutachtung und erforderliche Dachsanierungen)\n(Ausführungen werden in der Sitzung gemacht)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6367",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2 TOP 8)",
+          "mimeType": "application/pdf",
+          "date": "2023-06-08",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfHSls1oAqzsJsUAqAAJ4bYj3_z5FO8HkZgCN4mhZuxM/Anlage_2_TOP_8.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfHSls1oAqzsJsUAqAAJ4bYj3_z5FO8HkZgCN4mhZuxM/Anlage_2_TOP_8.pdf",
+          "created": "2023-08-10T19:00:17+02:00",
+          "modified": "2023-08-10T19:00:17+02:00"
+        }
+      ],
+      "created": "2023-05-26T10:31:08+02:00",
+      "modified": "2023-05-26T10:31:08+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21217",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Maßnahmenkatalog für die Bauunterhaltung der gemeindeeigenen Gebäude und künftige energetische Maßnahmenplanungen sowie bereits durchgeführte Maßnahmen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6368",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 3 FA KBU)",
+          "mimeType": "application/pdf",
+          "date": "2023-06-08",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTch84T8YBpZBMKTWARZuEPxZz-nFH1zrR-PqLpCBG_V/Anlage_3_FA_KBU.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTch84T8YBpZBMKTWARZuEPxZz-nFH1zrR-PqLpCBG_V/Anlage_3_FA_KBU.pdf",
+          "created": "2023-08-10T19:00:17+02:00",
+          "modified": "2023-08-10T19:00:17+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6369",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 4 FA KBU)",
+          "mimeType": "application/pdf",
+          "date": "2023-06-08",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTFlRc7to8BIreq6-IFoUjoqkbsXB5TRqqoe7lp_2P3t/Anlage_4_FA_KBU.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTFlRc7to8BIreq6-IFoUjoqkbsXB5TRqqoe7lp_2P3t/Anlage_4_FA_KBU.pdf",
+          "created": "2023-08-10T19:00:17+02:00",
+          "modified": "2023-08-10T19:00:17+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6370",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 5 Ansatz energetische Sanierung)",
+          "mimeType": "application/pdf",
+          "date": "2023-06-08",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbLoiDsxQU3C0hihVUHU4DFdtEnhsMhAs9XZaLkQbsdW/Anlage_5_Ansatz_energetische_Sanierung.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbLoiDsxQU3C0hihVUHU4DFdtEnhsMhAs9XZaLkQbsdW/Anlage_5_Ansatz_energetische_Sanierung.pdf",
+          "created": "2023-08-10T19:00:17+02:00",
+          "modified": "2023-08-10T19:00:17+02:00"
+        }
+      ],
+      "created": "2023-05-26T10:32:52+02:00",
+      "modified": "2023-05-26T10:32:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21218",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Veröffentlichung von Baumfälllisten",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7715",
+      "result": "6 Ja-Stimmen, 2 Nein Stimmen, 1 Enthaltung",
+      "created": "2023-05-26T10:33:06+02:00",
+      "modified": "2023-05-26T10:33:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21219",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Aktuelle Themen im Bereich Hoch- und Tiefbau",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6371",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (#Anlage 6_aktuelle Themen)",
+          "mimeType": "application/pdf",
+          "date": "2023-06-08",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcrtxGFxG4VTAOnEDbpXjZTMEKgFifhR8ZFpCUheedOP/-Anlage_6_aktuelle_Themen.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcrtxGFxG4VTAOnEDbpXjZTMEKgFifhR8ZFpCUheedOP/-Anlage_6_aktuelle_Themen.pdf",
+          "created": "2023-08-10T19:00:17+02:00",
+          "modified": "2023-08-10T19:00:17+02:00"
+        }
+      ],
+      "created": "2023-05-26T10:33:45+02:00",
+      "modified": "2023-05-26T10:33:45+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20971",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Mitteilungen der Verwaltung",
+      "created": "2023-03-17T08:39:08+01:00",
+      "modified": "2023-03-17T08:39:08+01:00"
+    }
+  ]
+}

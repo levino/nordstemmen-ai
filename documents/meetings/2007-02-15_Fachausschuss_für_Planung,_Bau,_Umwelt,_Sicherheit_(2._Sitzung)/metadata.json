@@ -1,0 +1,143 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/808",
+  "name": "Fachausschuss für Planung, Bau, Umwelt, Sicherheit (2. Sitzung)",
+  "start": "2007-02-15T18:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-6"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-180",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Planung, Bau, Umwelt, Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2007-02-15",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSQcio9nBpxEek34j-8rZCeYmBl3lluo2W_vqBmYpEsy/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_15.02.2007.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSQcio9nBpxEek34j-8rZCeYmBl3lluo2W_vqBmYpEsy/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_15.02.2007.pdf",
+    "created": "2007-05-15T06:51:47+02:00",
+    "modified": "2007-05-15T06:51:47+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/436",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2007-02-01T10:54:35+01:00",
+      "modified": "2007-02-19T15:40:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/437",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2007-02-01T10:54:35+01:00",
+      "modified": "2007-02-01T10:54:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/438",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 13.12.2006",
+      "created": "2007-02-01T10:54:35+01:00",
+      "modified": "2007-02-01T10:54:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/439",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Verpflichtung der gemäß § 51 Abs. 7 NGO hinzugewählten Mitglieder",
+      "created": "2007-02-01T10:54:35+01:00",
+      "modified": "2007-02-01T10:54:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/440",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2007-02-01T10:54:35+01:00",
+      "modified": "2007-02-01T10:54:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/441",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Beratung und Beschlussfassung zum Haushalt für das Haushaltsjahr 2007 und Investitionsprogramm bis zum Haushaltsjahr 2010 unter Fortschreibung des Haushaltskonsolidierungskonzeptes (siehe dazu die Ihnen vorliegenden Haushaltsunterlagen vom 22.01.2007 - evtl. Ergänzungen werden nachgereicht - auch als Tischvorlage)",
+      "created": "2007-02-01T10:54:35+01:00",
+      "modified": "2007-02-01T10:54:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5065",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bebauungsplan Nr. 0122 \"Innerörtliche Verbindungsstraße / Zuckerfabrik\", 5. Änderung;\nSatzungsbeschluss gemäß § 10 Abs. 1 BauGB",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/73",
+      "created": "2009-09-02T10:30:56+02:00",
+      "modified": "2009-09-02T10:30:56+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5064",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bebauungsplan Nr. 0107 \"Ortsmitte - Ost\", 5. (vereinfachte Änderung), Ortschaft Nordstemmen\n- Aufstellungsbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/80",
+      "created": "2009-09-02T10:30:33+02:00",
+      "modified": "2009-09-02T10:30:33+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/466",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "14. Änderung des Flächennutzungsplanes der Gemeinde Nordstemmen (Wohnbauflächen Groß Escherde) - Vorstellung des Vorentwurfes (Ausführungen werden in der Sitzung gemacht)",
+      "created": "2007-02-06T11:43:29+01:00",
+      "modified": "2007-02-06T11:43:29+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/467",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2007-02-06T11:43:47+01:00",
+      "modified": "2007-02-06T11:43:47+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/468",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Behandlung von Anfragen",
+      "created": "2007-02-06T11:44:52+01:00",
+      "modified": "2007-02-06T11:44:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/469",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Anregungen",
+      "created": "2007-02-06T11:45:12+01:00",
+      "modified": "2007-02-06T11:45:12+01:00"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2375",
+  "name": "Ortsrat Groß Escherde (25. Sitzung)",
+  "start": "2014-10-21T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-12",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Groß Escherde, Schulstraße 9 a, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Schulstraße 9 a",
+    "room": "Dorfgemeinschaftshaus Groß Escherde, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Groß Escherde",
+    "locality": "Nordstemmen",
+    "created": "2005-04-07T10:37:20+02:00",
+    "modified": "2019-06-06T11:57:41+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-14"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-13295",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2014-10-21",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdwMdlx9t-6PqFmY1WF2MJ8pVle0bJKYtzgfCkWpg87D/Bekanntmachung_Ortsrat_Gross_Escherde_21.10.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdwMdlx9t-6PqFmY1WF2MJ8pVle0bJKYtzgfCkWpg87D/Bekanntmachung_Ortsrat_Gross_Escherde_21.10.2014.pdf",
+    "created": "2014-10-08T13:00:24+02:00",
+    "modified": "2014-10-08T13:00:24+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-13599",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2014-10-21",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXdWvLcmTcle3QJwkMfZPCkkKpizaRcBx7fmOIUqN_Ku/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_21.10.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXdWvLcmTcle3QJwkMfZPCkkKpizaRcBx7fmOIUqN_Ku/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_21.10.2014.pdf",
+    "created": "2014-11-11T13:00:44+01:00",
+    "modified": "2015-02-24T13:00:40+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11205",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2014-10-06T10:43:38+02:00",
+      "modified": "2014-10-06T10:43:38+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11206",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2014-10-06T10:43:38+02:00",
+      "modified": "2014-10-06T10:43:38+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11207",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 17. Juni 2014",
+      "created": "2014-10-06T10:43:38+02:00",
+      "modified": "2014-10-06T10:43:38+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11208",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2014-10-06T10:43:38+02:00",
+      "modified": "2014-10-06T10:43:38+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11219",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Anhörung zum Haushaltsplan 2015 und zum Investitionsprogramm bis 2018 für die Ortschaft Groß Escherde\n(DS 67/2014; wird nachgereicht)",
+      "created": "2014-10-06T10:49:27+02:00",
+      "modified": "2014-11-03T14:55:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11250",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bericht über die Auswertung der durchgeführten Geschwindigkeitsmessungen in der \"Schulstraße\" in Groß Escherde\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2014-10-08T11:03:46+02:00",
+      "modified": "2014-10-08T11:03:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11251",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Ausbesserungsarbeiten zu den Straßen und Gehwegen in Groß Escherde, auch unter Berücksichtigung der Ergebnisse der Ortsbegehung und der in der letzten Ortsratssitzung gegebenen Hinweise\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2014-10-08T11:04:53+02:00",
+      "modified": "2014-10-08T11:04:53+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11252",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Vorbereitung und Planung der Termine des Ortsrates 2014 und 2015",
+      "created": "2014-10-08T11:05:16+02:00",
+      "modified": "2014-10-08T11:05:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11209",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Neu- bzw. Wiederwahl der Schiedspersonen für die Schiedsamtsbezirke in der Gemeinde Nordstemmen im Jahre 2014",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2860",
+      "created": "2014-10-06T10:43:38+02:00",
+      "modified": "2014-10-06T10:43:38+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11253",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Verwendung der im Haushalt 2014 noch zur Verfügung stehenden Ortsratsmittel\n(siehe Anlage 1, Seite 1)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1165",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zu TOP 8 Ortsrat Groß Escherde)",
+          "mimeType": "application/pdf",
+          "date": "2014-10-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQXJvVONFF_Gz4nVOy6imqiJMxn_r0kAWUqoo-rgnOuL/Anlage_1_zu_TOP_8_Ortsrat_Gross_Escherde.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQXJvVONFF_Gz4nVOy6imqiJMxn_r0kAWUqoo-rgnOuL/Anlage_1_zu_TOP_8_Ortsrat_Gross_Escherde.pdf",
+          "created": "2014-10-08T13:00:24+02:00",
+          "modified": "2014-10-08T13:00:24+02:00"
+        }
+      ],
+      "created": "2014-10-08T11:05:53+02:00",
+      "modified": "2014-10-08T11:05:53+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11210",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1185",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Groß Escherde 21.10.2014 19:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2014-10-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcNTmjZ6VDZRA4o3GRL4spH0zYJkWyqilT84EMl44BS0/Ortsrat_Gross_Escherde_21.10.2014_19-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcNTmjZ6VDZRA4o3GRL4spH0zYJkWyqilT84EMl44BS0/Ortsrat_Gross_Escherde_21.10.2014_19-00_Uhr.pdf",
+          "created": "2014-11-04T13:00:20+01:00",
+          "modified": "2014-11-04T13:00:20+01:00"
+        }
+      ],
+      "created": "2014-10-06T10:43:38+02:00",
+      "modified": "2014-10-06T10:43:38+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11211",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2014-10-06T10:43:38+02:00",
+      "modified": "2014-10-06T10:43:38+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11212",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Anträge und Anfragen",
+      "created": "2014-10-06T10:43:38+02:00",
+      "modified": "2014-10-06T10:43:38+02:00"
+    }
+  ]
+}

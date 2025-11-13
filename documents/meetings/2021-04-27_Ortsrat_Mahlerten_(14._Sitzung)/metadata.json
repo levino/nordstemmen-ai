@@ -1,0 +1,209 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4717",
+  "name": "Ortsrat Mahlerten (14. Sitzung)",
+  "start": "2021-04-27T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-10",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Mahlerten, Leunisstraße 16, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Leunisstraße 16",
+    "room": "Dorfgemeinschaftshaus Mahlerten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Mahlerten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T12:00:53+02:00",
+    "modified": "2019-06-06T11:57:30+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-17"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-31144",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2021-04-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaQn2ZLMTMSVrKC2l5ayQpsKGhowhJ0oesEu-p5Vo-7l/Bekanntmachung_Ortsrat_Mahlerten_27.04.2021.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaQn2ZLMTMSVrKC2l5ayQpsKGhowhJ0oesEu-p5Vo-7l/Bekanntmachung_Ortsrat_Mahlerten_27.04.2021.pdf",
+    "created": "2021-04-13T19:00:02+02:00",
+    "modified": "2021-04-15T13:00:11+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-31399",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2021-04-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTeV97OlLzgqaU2MH0Su_bm_0XC8Lr3XD8M3W2sZNNLE/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_27.04.2021.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTeV97OlLzgqaU2MH0Su_bm_0XC8Lr3XD8M3W2sZNNLE/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_27.04.2021.pdf",
+    "created": "2021-06-03T13:00:01+02:00",
+    "modified": "2021-06-03T13:00:01+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18524",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2021-04-08T15:21:50+02:00",
+      "modified": "2021-04-08T15:21:50+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18525",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2021-04-08T15:21:50+02:00",
+      "modified": "2021-04-08T15:21:50+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18526",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 18. Februar 2020",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5098",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Mahlerten 18_02_2020)",
+          "mimeType": "application/pdf",
+          "date": "2021-04-27",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXfGSTkCJN5C9XV5nE-HDun8hb6YfDZKKWBi6Hwz9HlB/OR_Mahlerten_18_02_2020.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXfGSTkCJN5C9XV5nE-HDun8hb6YfDZKKWBi6Hwz9HlB/OR_Mahlerten_18_02_2020.pdf",
+          "created": "2021-04-14T10:14:30+02:00",
+          "modified": "2021-04-14T10:14:30+02:00"
+        }
+      ],
+      "created": "2021-04-08T15:21:50+02:00",
+      "modified": "2021-04-08T15:21:50+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18529",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht bzw. Mitteilungen der Bürgermeisterin\n- Auswertung Verkehrsstatistikgerät\n- Ampelschaltung B1\n- Bushaltestelle B1",
+      "created": "2021-04-08T15:21:50+02:00",
+      "modified": "2021-04-12T11:44:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18569",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht des Ortsrates über die Fragen der letzten Ortsratssitzungen",
+      "created": "2021-04-12T11:54:03+02:00",
+      "modified": "2021-04-12T11:54:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18527",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohnerfragestunde",
+      "created": "2021-04-08T15:21:50+02:00",
+      "modified": "2021-04-12T11:45:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18570",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Nächtliche Geschwindigkeitsabsenkung auf Tempo 30 - Bundesstraße 1,\nOrtsdurchfahrt Mahlerten\n- Beratung und Beschlussfassung",
+      "created": "2021-04-12T11:55:48+02:00",
+      "modified": "2021-04-12T11:55:48+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18571",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Spielplatz Am Kastenborn\n- Anlegung eines neuen Weges\n- Fußballtore",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5170",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage zum Protokoll OR Mahlerten)",
+          "mimeType": "application/pdf",
+          "date": "2021-04-27",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQG5eHSaTGgRKAzXyhK4WTUf8edXV6ywPYbyH8KIN2-g/Anlage_zum_Protokoll_OR_Mahlerten.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQG5eHSaTGgRKAzXyhK4WTUf8edXV6ywPYbyH8KIN2-g/Anlage_zum_Protokoll_OR_Mahlerten.pdf",
+          "created": "2021-06-03T13:00:01+02:00",
+          "modified": "2021-06-03T13:00:01+02:00"
+        }
+      ],
+      "created": "2021-04-12T11:56:32+02:00",
+      "modified": "2021-04-12T11:56:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18572",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Gestaltung weiterer Stromkästen in der Ortschaft Mahlerten",
+      "created": "2021-04-12T11:57:53+02:00",
+      "modified": "2021-04-12T11:57:53+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18574",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Aktueller Stand Regenrückhaltebecken",
+      "created": "2021-04-12T11:59:57+02:00",
+      "modified": "2021-04-12T12:00:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18575",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Aktueller Stand Löschwassertank",
+      "created": "2021-04-12T12:00:41+02:00",
+      "modified": "2021-04-12T12:00:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18528",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2022 sowie für die mittelfristige Finanzplanung 2023 bis 2025",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7026",
+      "created": "2021-04-08T15:21:50+02:00",
+      "modified": "2021-04-12T12:01:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18573",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Verwendung der im Haushaltsjahr 2021 noch zur Verfügung stehenden Ortsratsmittel\n- Beratung und Beschlussfassung",
+      "created": "2021-04-12T11:59:07+02:00",
+      "modified": "2021-04-12T11:59:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18530",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2021-04-08T15:21:50+02:00",
+      "modified": "2021-04-08T15:21:50+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18531",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Anträge und Anfragen",
+      "created": "2021-04-08T15:21:50+02:00",
+      "modified": "2021-04-08T15:21:50+02:00"
+    }
+  ]
+}

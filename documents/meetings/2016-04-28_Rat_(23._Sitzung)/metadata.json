@@ -1,0 +1,221 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2726",
+  "name": "Rat (23. Sitzung)",
+  "start": "2016-04-28T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-16041",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2016-04-28",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZetxTJdoLrqXIPAEV8Ij61hGhnbDHaJq1seiYslG_YPW/Bekanntmachung_Rat_28.04.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZetxTJdoLrqXIPAEV8Ij61hGhnbDHaJq1seiYslG_YPW/Bekanntmachung_Rat_28.04.2016.pdf",
+    "created": "2016-04-15T13:00:35+02:00",
+    "modified": "2016-04-15T13:00:35+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-16290",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2016-04-28",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZU1VlWHH2dG5_DZoH1h1_Pyrxa0bUmFtY9ydg-ilqr7B/Oeffentliche_Niederschrift_Rat_28.04.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZU1VlWHH2dG5_DZoH1h1_Pyrxa0bUmFtY9ydg-ilqr7B/Oeffentliche_Niederschrift_Rat_28.04.2016.pdf",
+    "created": "2016-06-01T19:01:05+02:00",
+    "modified": "2016-06-01T19:01:05+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12737",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2016-04-11T11:18:04+02:00",
+      "modified": "2016-04-11T11:18:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12738",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2016-04-11T11:18:04+02:00",
+      "modified": "2016-04-11T11:18:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12739",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung des Rates vom 15.03.2016",
+      "created": "2016-04-11T11:18:04+02:00",
+      "modified": "2016-04-11T11:18:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12740",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht des Bürgermeisters über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1539",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage TOP 3 Bericht des Bürgermeisters)",
+          "mimeType": "application/pdf",
+          "date": "2016-04-28",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbJgAdbAMkmfewfBfg2KlJIO28uczBU0LWpChRhgsfQx/Anlage_TOP_3_Bericht_des_Buergermeisters.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbJgAdbAMkmfewfBfg2KlJIO28uczBU0LWpChRhgsfQx/Anlage_TOP_3_Bericht_des_Buergermeisters.pdf",
+          "created": "2016-05-31T19:01:22+02:00",
+          "modified": "2016-05-31T19:01:22+02:00"
+        }
+      ],
+      "created": "2016-04-11T11:18:04+02:00",
+      "modified": "2016-04-11T11:18:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12741",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2016-04-11T11:18:04+02:00",
+      "modified": "2016-04-11T11:18:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12755",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Barrierefreier Ausbau von Bushaltestellen - Konzeption für das weitere Vorgehen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3476",
+      "created": "2016-04-12T10:46:34+02:00",
+      "modified": "2016-04-12T10:46:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12742",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Umbau und Erweiterung Feuerwehrhaus Mahlerten\n- Zustimmung zu einer überplanmäßigen Auszahlung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3467",
+      "created": "2016-04-11T11:18:04+02:00",
+      "modified": "2016-04-11T11:18:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12743",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Nordstemmer-Kinder-Bauland-Bonus\n- Zustimmung zu einer überplanmäßigen Auszahlung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3445",
+      "created": "2016-04-11T11:18:04+02:00",
+      "modified": "2016-04-11T11:18:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12744",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Ausbau der Kreisstraße 506 (Hallerburger Straße / Neustadt) in der Ortsdurchfahrt Adensen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3442",
+      "created": "2016-04-11T11:18:04+02:00",
+      "modified": "2016-04-11T11:18:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12745",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Ausbau der Gemeindeverbindungsstraße Barnten - Nordstemmen, 4. Bauabschnitt,\n- Genehmigung einer überplanmäßigen Auszahlung nach § 117 Abs. 1 NKomVG,\n- Zustimmung zur Ausschreibung der Maßnahme;\nEilentscheidung gemäß § 89 NKomVG;",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3451",
+      "created": "2016-04-11T11:18:04+02:00",
+      "modified": "2016-04-11T11:18:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12746",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Avifaunistische Grunderfassung im Rahmen der 21. Änderung des Flächennutzungsplanes der Gemeinde Nordstemmen\n- Genehmigung einer überplanmäßigen Aufwendung nach § 117 Abs. 1 NKomVG,\n- Vergabe eines Auftrages für die avifaunistische Grunderfassung\n   Eilentscheidung gemäß § 89 NKomVG",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3469",
+      "created": "2016-04-11T11:18:04+02:00",
+      "modified": "2016-04-11T11:18:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12747",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Abwasserbeseitigung und Entwässerung im Zuge der Kreisstraße 506 (Hallerburger Straße / Neustadt) in der Ortsdurchfahrt Adensen;\nErteilung eines Planungsauftrages",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3473",
+      "created": "2016-04-11T11:18:04+02:00",
+      "modified": "2016-04-11T11:18:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12761",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Bebauungsplan Nr. 0125 \"Mahlerter Straße - Nord\", 3. Änderung\n- Satzungsbeschluss gem. § 10 Abs. 1 BauGB",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3479",
+      "created": "2016-04-13T09:20:44+02:00",
+      "modified": "2016-04-13T09:20:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12752",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Gründung einer Baulandentwicklungsgesellschaft mbH Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3448",
+      "created": "2016-04-11T11:18:04+02:00",
+      "modified": "2016-04-14T08:03:11+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12768",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Neuaufstellung des Regionalen Raumordnungsprogramms (RROP) der Region Hannover Entwurf 2016; Zweites beschränktes Beteiligungsverfahren  \n\nStellungnahme der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3486",
+      "created": "2016-04-14T15:07:57+02:00",
+      "modified": "2016-04-14T15:08:11+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12748",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Mitteilungen bzw. Bericht des Bürgermeisters",
+      "created": "2016-04-11T11:18:04+02:00",
+      "modified": "2016-04-11T11:18:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12749",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 17,
+      "name": "Anträge und Anfragen",
+      "created": "2016-04-11T11:18:04+02:00",
+      "modified": "2016-04-11T11:18:04+02:00"
+    }
+  ]
+}

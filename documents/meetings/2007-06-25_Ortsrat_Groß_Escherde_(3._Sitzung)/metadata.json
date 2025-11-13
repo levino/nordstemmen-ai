@@ -1,0 +1,141 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/840",
+  "name": "Ortsrat Groß Escherde (3. Sitzung)",
+  "start": "2007-06-25T19:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-12",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Groß Escherde, Schulstraße 9 a, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Schulstraße 9 a",
+    "room": "Dorfgemeinschaftshaus Groß Escherde, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Groß Escherde",
+    "locality": "Nordstemmen",
+    "created": "2005-04-07T10:37:20+02:00",
+    "modified": "2019-06-06T11:57:41+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-14"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-1077",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2007-06-25",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRmBdZrNjSlFAiCZ__vHnccHtY_rtGrOgK9__lq_PXeG/Bekanntmachung_Ortsrat_Gross_Escherde_25.06.2007.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRmBdZrNjSlFAiCZ__vHnccHtY_rtGrOgK9__lq_PXeG/Bekanntmachung_Ortsrat_Gross_Escherde_25.06.2007.pdf",
+    "created": "2007-06-13T10:43:29+02:00",
+    "modified": "2007-06-13T10:43:29+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1585",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2007-06-12T10:07:55+02:00",
+      "modified": "2007-06-12T10:07:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1586",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2007-06-12T10:07:55+02:00",
+      "modified": "2007-06-12T10:07:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1587",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 01.03.2007",
+      "created": "2007-06-12T10:07:55+02:00",
+      "modified": "2007-06-12T10:07:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1588",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2007-06-12T10:07:55+02:00",
+      "modified": "2007-06-12T10:07:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1593",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "14. Änderung des Flächennutzungsplanes der Gemeinde Nordstemmen (Wohnbauflächen Groß Escherde)\n- Feststellungsbeschluss / Anhörung\n(DS 52/2007; wird nachgereicht)",
+      "created": "2007-06-12T10:14:40+02:00",
+      "modified": "2007-06-12T10:14:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1594",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bebauungsplan Nr. 0506 \"Groß Escherde - Ost\"\n- öffentliche Auslegung / Anhörung\n(DS 53/2007; wird nachgereicht)",
+      "created": "2007-06-12T10:16:28+02:00",
+      "modified": "2007-06-12T10:16:28+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1595",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Antrag auf Feststellung des Zustandes der Schulstraße vor Beginn der Erschließungsarbeiten im Baugebiet Groß Escherde - Ost\n(Ausführungen werden in der Sitzung gemacht)\n- Beratung und Beschlussfassung",
+      "created": "2007-06-12T10:18:09+02:00",
+      "modified": "2007-06-12T10:18:09+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1596",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bauliche Veränderungen im Dorfgemeinschaftshaus Groß Escherde\n(Ausführungen werden in der Sitzung gemacht)\n- Beratung und Beschlussfassung",
+      "created": "2007-06-12T10:19:11+02:00",
+      "modified": "2007-06-12T10:19:11+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1589",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Mitteilungen des Bürgermeisters / Ortsbürgermeisters",
+      "created": "2007-06-12T10:07:55+02:00",
+      "modified": "2007-06-12T10:19:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1590",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Behandlung von Anfragen",
+      "created": "2007-06-12T10:07:55+02:00",
+      "modified": "2007-06-12T10:07:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1591",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anregungen",
+      "created": "2007-06-12T10:07:55+02:00",
+      "modified": "2007-06-12T10:07:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1597",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Diskussion Veranstaltung Ehrenamt mit anschließender Benennung von Personen durch den Ortsrat\n(siehe Anlage: Protokoll zum Arbeitsgespräch vom 10.05.2007",
+      "created": "2007-06-12T10:21:39+02:00",
+      "modified": "2007-06-12T10:21:39+02:00"
+    }
+  ]
+}

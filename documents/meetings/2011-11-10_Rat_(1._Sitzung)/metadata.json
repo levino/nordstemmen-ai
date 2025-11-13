@@ -1,0 +1,220 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1713",
+  "name": "Rat (1. Sitzung)",
+  "start": "2011-11-10T18:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-20",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer Rathaus Altbau",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer Rathaus Altbau",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2009-02-10T14:08:10+01:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-7252",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2011-11-10",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZewmvsy6aQ1UuggQl9KUW-17EKA03bploIghICKEHvTP/Bekanntmachung_Rat_10.11.2011.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZewmvsy6aQ1UuggQl9KUW-17EKA03bploIghICKEHvTP/Bekanntmachung_Rat_10.11.2011.pdf",
+    "created": "2011-11-03T13:00:44+01:00",
+    "modified": "2011-11-03T13:00:44+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-7335",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2011-11-10",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVC5EmYeZtzgv3dc54zEC2roDxzVgBM4FxRGDcTu7oIZ/Oeffentliche_Niederschrift_Rat_10.11.2011.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVC5EmYeZtzgv3dc54zEC2roDxzVgBM4FxRGDcTu7oIZ/Oeffentliche_Niederschrift_Rat_10.11.2011.pdf",
+    "created": "2011-11-17T18:01:49+01:00",
+    "modified": "2012-01-16T13:01:09+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7632",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2011-10-25T13:31:24+02:00",
+      "modified": "2011-12-20T15:15:01+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7633",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n",
+      "created": "2011-10-25T13:31:24+02:00",
+      "modified": "2011-10-25T13:31:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7634",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Förmliche Verpflichtung und Pflichtenbelehrung der Ratsfrauen und Ratsherren gemäß § 60 NKomVG durch den Bürgermeister",
+      "created": "2011-10-25T13:31:24+02:00",
+      "modified": "2011-10-25T13:31:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7635",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Wahl der Ratsvorsitzenden / des Ratsvorsitzenden",
+      "created": "2011-10-25T13:31:24+02:00",
+      "modified": "2011-10-25T13:31:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7636",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Feststellung der Tagesordnung",
+      "created": "2011-10-25T13:31:24+02:00",
+      "modified": "2011-10-25T13:31:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7642",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Wahl der Vertreterin / des Vertreters der Ratsvorsitzenden / des Ratsvorsitzenden",
+      "created": "2011-10-25T13:35:10+02:00",
+      "modified": "2011-10-25T13:35:10+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7643",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bekanntgabe der Bildung von Fraktionen und Gruppen",
+      "created": "2011-10-25T13:35:59+02:00",
+      "modified": "2011-10-25T13:35:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7644",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Beschluss zur Geschäftsordnung\n(siehe DS 58/2011; wird nachgereicht)",
+      "created": "2011-10-25T13:37:13+02:00",
+      "modified": "2011-10-25T13:37:13+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7645",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bildung des Verwaltungsausschusses\nBeschlussfassung über die Erhöhung der Anzahl der Beigeordneten gemäß § 74 Absatz 2 Satz 2 NkomVG\n(die Zusammensetzung erfolgt gemäß § 74 Abs. 1 und 2 NKomVG; außerdem siehe Antrag der UWG-Ratsfraktion vom 21.10.2011 / Anlage 1)\nFeststellung der auf die einzelnen Fraktionen bzw. Gruppen entfallenden Sitze\nBenennung der Beigeordneten und deren Vertreterinnen und Vertreter durch die Fraktionen bzw. Gruppen\nFeststellung über die Bildung des Verwaltungsausschusses",
+      "created": "2011-10-25T13:39:15+02:00",
+      "modified": "2011-10-25T13:39:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7646",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Wahl von zwei gleichberechtigten stellvertretenden Bürgermeisterinnen / Bürgermeistern",
+      "created": "2011-10-25T13:39:53+02:00",
+      "modified": "2011-10-25T13:39:53+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7647",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Bildung der Fachausschüsse\nVorschlag für die zu bildenden Fachausschüsse\n(siehe Antrag der SPD-Fraktion vom 26.10.2011 / Anlage 2))\nBestimmung der Anzahl der Ausschusssitze\n(die Bildung der Fachausschüsse erfolgt gemäß § 71 NKomVG; außerdem siehe Antrag der UWG-Ratsfraktion vom 21.10.2011 / Anlage 1)\nFeststellung der Sitzverteilung nach dem Verfahren Hare/Niemeier\nZuteilung der Ausschussvorsitze nach dem Verfahren d'Hondt und Benennung der Ausschussvorsitzenden und deren Stellvertreter\nBenennung der Ausschussmitglieder und Vertreterinnen / Vertreter\n(die Bildung der Fachausschüsse erfolgt gemäß § 71 NKomVG; außerdem siehe Antrag der UWG-Ratsfraktion vom 21.10.2011)\n",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-582",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Rat 10.11.2011 18.30 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2011-11-10",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZShCBzV_IP3vuEuVLqWXnP6eKgnN7Lvbwyya47yvE0gF/Rat_10.11.2011_18.30_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZShCBzV_IP3vuEuVLqWXnP6eKgnN7Lvbwyya47yvE0gF/Rat_10.11.2011_18.30_Uhr.pdf",
+          "created": "2011-11-17T13:00:51+01:00",
+          "modified": "2011-12-06T13:01:16+01:00"
+        }
+      ],
+      "created": "2011-10-25T13:44:48+02:00",
+      "modified": "2011-10-25T13:44:48+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7648",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Vereidigung des neugewählten Bürgermeisters",
+      "created": "2011-10-25T13:46:37+02:00",
+      "modified": "2011-10-25T13:46:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7649",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Bestimmung der Ortsvorsteherin / des Ortsvorstehers für die Ortschaft Hallerburg durch die SPD-Ratsfraktion gemäß § 96 Abs. 1 NKomVG",
+      "created": "2011-10-25T13:48:18+02:00",
+      "modified": "2011-10-25T13:48:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7650",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 15,
+      "name": "Beschluss über die Entsendung von Vertreterinnen und Vertreterin in Unternehmen, Verbänden, Vereinen, Organisationen\nNiedersächsischer Städte- und Gemeindebund\nLeineverband\nBeirat (Wasserversorgung) Überlandwerk Leinetal GmbH\nKreiswohnbau Hildesheim GmbH\nGemeindejugendring Nordstemmen e. V.\nWohnungsbaugenossenschaft Nordstemmen e. G.",
+      "created": "2011-10-25T13:50:20+02:00",
+      "modified": "2011-10-25T13:50:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7637",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 16,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2011-10-25T13:31:24+02:00",
+      "modified": "2011-10-25T13:31:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7638",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 17,
+      "name": "Behandlung von Anträgen",
+      "created": "2011-10-25T13:31:24+02:00",
+      "modified": "2011-10-25T13:31:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7639",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 18,
+      "name": "Behandlung von Anfragen",
+      "created": "2011-10-25T13:31:24+02:00",
+      "modified": "2011-10-25T13:31:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7640",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 19,
+      "name": "Anregungen",
+      "created": "2011-10-25T13:31:24+02:00",
+      "modified": "2011-10-25T13:31:24+02:00"
+    }
+  ]
+}

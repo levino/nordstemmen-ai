@@ -1,0 +1,259 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4686",
+  "name": "Ortsrat Groß Escherde (13. Sitzung)",
+  "start": "2021-05-25T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-12",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Groß Escherde, Schulstraße 9 a, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Schulstraße 9 a",
+    "room": "Dorfgemeinschaftshaus Groß Escherde, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Groß Escherde",
+    "locality": "Nordstemmen",
+    "created": "2005-04-07T10:37:20+02:00",
+    "modified": "2019-06-06T11:57:41+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-14"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-31305",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2021-05-25",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQUfPyCkeHd25ClsbJdTDQtsK2QBIa8jjmDnnNSp8WPy/Bekanntmachung_Ortsrat_Gross_Escherde_25.05.2021.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQUfPyCkeHd25ClsbJdTDQtsK2QBIa8jjmDnnNSp8WPy/Bekanntmachung_Ortsrat_Gross_Escherde_25.05.2021.pdf",
+    "created": "2021-05-11T13:00:00+02:00",
+    "modified": "2021-05-11T13:00:00+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-31489",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2021-05-25",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdFVrHJr8txhUdH8SgAcYxt8jQJyy3M58sUn6iTzfQlM/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_25.05.2021.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdFVrHJr8txhUdH8SgAcYxt8jQJyy3M58sUn6iTzfQlM/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_25.05.2021.pdf",
+    "created": "2021-06-03T13:00:01+02:00",
+    "modified": "2021-06-03T13:00:01+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18653",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2021-05-06T16:12:46+02:00",
+      "modified": "2021-05-06T16:12:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18654",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2021-05-06T16:12:46+02:00",
+      "modified": "2021-05-06T16:12:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18655",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 13. Februar 2020",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5115",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Groß Escherde 2020 02 13)",
+          "mimeType": "application/pdf",
+          "date": "2021-05-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbV7msDe-GVZh73UOVFcjPqmnbLswovXj3mrzfTGzK9Q/OR_Gross_Escherde_2020_02_13.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbV7msDe-GVZh73UOVFcjPqmnbLswovXj3mrzfTGzK9Q/OR_Gross_Escherde_2020_02_13.pdf",
+          "created": "2021-05-11T13:00:00+02:00",
+          "modified": "2021-05-11T13:00:00+02:00"
+        }
+      ],
+      "created": "2021-05-06T16:12:46+02:00",
+      "modified": "2021-05-06T16:12:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18656",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht bzw. Mitteilungen der Bürgermeisterin",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5149",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 Protokoll OR Groß Escherde)",
+          "mimeType": "application/pdf",
+          "date": "2021-05-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZV6fvIGnU-f_nktaJM7lJIxCQt1-9a7NtFJvxvRgWT2Y/Anlage_1_Protokoll_OR_Gross_Escherde.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZV6fvIGnU-f_nktaJM7lJIxCQt1-9a7NtFJvxvRgWT2Y/Anlage_1_Protokoll_OR_Gross_Escherde.pdf",
+          "created": "2021-06-03T13:00:01+02:00",
+          "modified": "2021-06-03T13:00:01+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5150",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2 Protokoll OR Groß Escherde)",
+          "mimeType": "application/pdf",
+          "date": "2021-05-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZU7XfORfwRqj2_d0s2ebEl2TlOsM7I3J3zr85OWUrJwz/Anlage_2_Protokoll_OR_Gross_Escherde.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZU7XfORfwRqj2_d0s2ebEl2TlOsM7I3J3zr85OWUrJwz/Anlage_2_Protokoll_OR_Gross_Escherde.pdf",
+          "created": "2021-06-03T13:00:01+02:00",
+          "modified": "2021-06-03T13:00:01+02:00"
+        }
+      ],
+      "created": "2021-05-06T16:12:46+02:00",
+      "modified": "2021-05-06T16:12:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18657",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2021-05-06T16:12:46+02:00",
+      "modified": "2021-05-06T16:12:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18658",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohnerfragestunde",
+      "created": "2021-05-06T16:12:46+02:00",
+      "modified": "2021-05-06T16:23:08+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18662",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Verwendung der Ortsratsmittel 2021",
+      "created": "2021-05-06T16:20:52+02:00",
+      "modified": "2021-05-06T16:20:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18663",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Auswertungen der Geschwindigkeitsanzeigetafeln / Verkehrsstatistikgeräte",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5151",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 3 Protokoll OR Groß Escherde)",
+          "mimeType": "application/pdf",
+          "date": "2021-05-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUYXFVoQMWmHbNQqZsnaIZCHzob421qRMrpnKhhggMjq/Anlage_3_Protokoll_OR_Gross_Escherde.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUYXFVoQMWmHbNQqZsnaIZCHzob421qRMrpnKhhggMjq/Anlage_3_Protokoll_OR_Gross_Escherde.pdf",
+          "created": "2021-06-03T13:00:01+02:00",
+          "modified": "2021-06-03T13:00:01+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5152",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 4 Protokoll OR Groß Escherde)",
+          "mimeType": "application/pdf",
+          "date": "2021-05-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfUVPHekQJtra2h-gvKAA8pQqb-9Puk1AXtCp8FilrrC/Anlage_4_Protokoll_OR_Gross_Escherde.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfUVPHekQJtra2h-gvKAA8pQqb-9Puk1AXtCp8FilrrC/Anlage_4_Protokoll_OR_Gross_Escherde.pdf",
+          "created": "2021-06-03T13:00:01+02:00",
+          "modified": "2021-06-03T13:00:01+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5153",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 5 Protokoll OR Groß Escherde)",
+          "mimeType": "application/pdf",
+          "date": "2021-05-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYL3j1oV8Jcsigbvl6Dyx5N98_n0XncmzkAEzhR-Yaw0/Anlage_5_Protokoll_OR_Gross_Escherde.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYL3j1oV8Jcsigbvl6Dyx5N98_n0XncmzkAEzhR-Yaw0/Anlage_5_Protokoll_OR_Gross_Escherde.pdf",
+          "created": "2021-06-03T13:00:01+02:00",
+          "modified": "2021-06-03T13:00:01+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5154",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 6 Protokoll OR Groß Escherde)",
+          "mimeType": "application/pdf",
+          "date": "2021-05-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTbla6zcpomvdbv8tW3PP06xxIHgCZr6WW4FF0BtId2R/Anlage_6_Protokoll_OR_Gross_Escherde.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTbla6zcpomvdbv8tW3PP06xxIHgCZr6WW4FF0BtId2R/Anlage_6_Protokoll_OR_Gross_Escherde.pdf",
+          "created": "2021-06-03T13:00:01+02:00",
+          "modified": "2021-06-03T13:00:01+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5155",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 7 Protokoll OR Groß Escherde)",
+          "mimeType": "application/pdf",
+          "date": "2021-05-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTZG1ooQMbLLrxCA2vrfIAVmyqrJpqoBoB8PWoyWO9n_/Anlage_7_Protokoll_OR_Gross_Escherde.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTZG1ooQMbLLrxCA2vrfIAVmyqrJpqoBoB8PWoyWO9n_/Anlage_7_Protokoll_OR_Gross_Escherde.pdf",
+          "created": "2021-06-03T13:00:01+02:00",
+          "modified": "2021-06-03T13:00:01+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5156",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 8 Protokoll OR Groß Escherde)",
+          "mimeType": "application/pdf",
+          "date": "2021-05-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfITr_x8zFI9nah6x69ecdLfXOQ5S-_rx-7y-PEqorQb/Anlage_8_Protokoll_OR_Gross_Escherde.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfITr_x8zFI9nah6x69ecdLfXOQ5S-_rx-7y-PEqorQb/Anlage_8_Protokoll_OR_Gross_Escherde.pdf",
+          "created": "2021-06-03T13:00:01+02:00",
+          "modified": "2021-06-03T13:00:01+02:00"
+        }
+      ],
+      "created": "2021-05-06T16:22:52+02:00",
+      "modified": "2021-05-06T16:22:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18664",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Wahl einer neuen Schiedsperson",
+      "created": "2021-05-06T16:25:03+02:00",
+      "modified": "2021-05-06T16:25:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18659",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2022 sowie für die mittelfristige Finanzplanung 2023 bis 2025",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7027",
+      "created": "2021-05-06T16:12:46+02:00",
+      "modified": "2021-05-06T16:12:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18660",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anträge und Anfragen",
+      "created": "2021-05-06T16:12:46+02:00",
+      "modified": "2021-05-06T16:12:46+02:00"
+    }
+  ]
+}

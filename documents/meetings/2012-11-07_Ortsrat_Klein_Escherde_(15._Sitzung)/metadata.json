@@ -1,0 +1,196 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1954",
+  "name": "Ortsrat Klein Escherde (15. Sitzung)",
+  "start": "2012-11-07T19:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-9",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Klein Escherde, Eschestraße 3, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Eschestraße 3",
+    "room": "Feuerwehrhaus Klein Escherde, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Klein Escherde",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:54:15+02:00",
+    "modified": "2019-06-06T11:56:23+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-16"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-9006",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2012-11-07",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZf0bmK3DGS_uvaF0du44Lv7Fkk_g_r1Qk4JnjlZvpfzl/Bekanntmachung_Ortsrat_Klein_Escherde_07.11.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZf0bmK3DGS_uvaF0du44Lv7Fkk_g_r1Qk4JnjlZvpfzl/Bekanntmachung_Ortsrat_Klein_Escherde_07.11.2012.pdf",
+    "created": "2012-10-30T14:42:02+01:00",
+    "modified": "2012-10-30T14:42:02+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-9351",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2012-11-07",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZd4l3kLYtgZkMKNq0L4Nma3P4paAWxuklG1MrmzpCGeI/Oeffentliche_Niederschrift_Ortsrat_Klein_Escherde_07.11.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZd4l3kLYtgZkMKNq0L4Nma3P4paAWxuklG1MrmzpCGeI/Oeffentliche_Niederschrift_Ortsrat_Klein_Escherde_07.11.2012.pdf",
+    "created": "2012-12-07T12:56:58+01:00",
+    "modified": "2012-12-07T12:56:58+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9043",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2012-10-30T11:13:28+01:00",
+      "modified": "2012-10-30T11:13:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9044",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2012-10-30T11:13:28+01:00",
+      "modified": "2012-10-30T11:13:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9053",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Protokolle der Sitzungen\nvom 28. Februar 2012\nvom 05. Juli 2012",
+      "created": "2012-10-30T11:16:09+01:00",
+      "modified": "2012-10-30T11:16:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9046",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2012-10-30T11:13:28+01:00",
+      "modified": "2012-10-30T11:13:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9047",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Anhörung zum Haushaltsplan 2013 und Investitionsprogramm bis 2016 für die Ortschaft Klein Escherde",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2053",
+      "created": "2012-10-30T11:13:28+01:00",
+      "modified": "2012-10-30T11:13:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9054",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Parksituation in der Straße \"Akazienstraße\"\n(Ausführungen werden in der Sitzung gemacht durch die Ortsbürgermeisterin)\n- Beratung und Beschlussempfehlung",
+      "created": "2012-10-30T11:17:31+01:00",
+      "modified": "2012-10-30T11:17:31+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9270",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Parksituation in der Straße \"Über den Weiden\"\n- Beratung und Beschlussempfehlung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-840",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2012-11-07",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfxnfxm5TrPWLhSLUxsisPqrutxpAQSg1aLj0PRQtTeg/Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfxnfxm5TrPWLhSLUxsisPqrutxpAQSg1aLj0PRQtTeg/Anlage_1.pdf",
+          "created": "2012-12-07T12:56:58+01:00",
+          "modified": "2012-12-07T12:56:58+01:00"
+        }
+      ],
+      "created": "2012-12-03T15:32:22+01:00",
+      "modified": "2012-12-03T15:32:22+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9055",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Ersatzpflanzung eines Baumes mit Festlegung zu Standort und Art\n- erneute Beratung und Beschlussfassung",
+      "created": "2012-10-30T11:18:22+01:00",
+      "modified": "2012-10-30T11:18:22+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9056",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Durchführung noch anstehender Veranstaltungen im Jahr 2012\n- Martins-/Laternenumzug am 09.11.2012\n- Gedenkfeier zum Volkstrauertag am 17.11.2012",
+      "created": "2012-10-30T11:19:30+01:00",
+      "modified": "2012-10-30T11:19:30+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9048",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-841",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2012-11-07",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQTASsSjUi-dyNMVanzd-84qBrruANYOc7TA9qz9Czjr/Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQTASsSjUi-dyNMVanzd-84qBrruANYOc7TA9qz9Czjr/Anlage_2.pdf",
+          "created": "2012-12-06T16:27:00+01:00",
+          "modified": "2012-12-06T16:27:00+01:00"
+        }
+      ],
+      "created": "2012-10-30T11:13:28+01:00",
+      "modified": "2012-10-30T11:13:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9049",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2012-10-30T11:13:28+01:00",
+      "modified": "2012-10-30T11:13:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9050",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Anträge und Anfragen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-842",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 3)",
+          "mimeType": "application/pdf",
+          "date": "2012-11-07",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaVxd44C7fHnUwgTkspoNIJmE7LmObQPplCTCi-RvIX4/Anlage_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaVxd44C7fHnUwgTkspoNIJmE7LmObQPplCTCi-RvIX4/Anlage_3.pdf",
+          "created": "2012-12-06T16:27:00+01:00",
+          "modified": "2012-12-06T16:27:00+01:00"
+        }
+      ],
+      "created": "2012-10-30T11:13:28+01:00",
+      "modified": "2012-10-30T11:13:28+01:00"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2060",
+  "name": "Ortsrat Burgstemmen (20. Sitzung)",
+  "start": "2013-05-27T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Burgstemmen, Sackstraße 2, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Sackstraße 2",
+    "room": "Feuerwehrhaus Burgstemmen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Burgstemmen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:33:23+02:00",
+    "modified": "2019-06-06T11:56:46+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-12"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-10055",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2013-05-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZR1ZPHakbP9jQyVjoiAyoZpVFV_-MRcgjpaaPpti4VE5/Bekanntmachung_Ortsrat_Burgstemmen_27.05.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZR1ZPHakbP9jQyVjoiAyoZpVFV_-MRcgjpaaPpti4VE5/Bekanntmachung_Ortsrat_Burgstemmen_27.05.2013.pdf",
+    "created": "2013-05-15T13:00:25+02:00",
+    "modified": "2013-05-15T13:00:25+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-10229",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2013-05-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUCfltjVYYY-aTwaRzkfVGHeInoIIXyhPvNPqmVBlYIz/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_27.05.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUCfltjVYYY-aTwaRzkfVGHeInoIIXyhPvNPqmVBlYIz/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_27.05.2013.pdf",
+    "created": "2013-06-07T19:00:16+02:00",
+    "modified": "2013-06-17T13:00:16+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9749",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2013-05-15T08:18:20+02:00",
+      "modified": "2013-05-15T08:18:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9750",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2013-05-15T08:18:20+02:00",
+      "modified": "2013-05-15T08:18:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9751",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 21.02.2013",
+      "created": "2013-05-15T08:18:20+02:00",
+      "modified": "2013-05-15T08:18:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9752",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-931",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Burgstemmen 27.05.2013 19.00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2013-05-27",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQwaKeRoMfJG6Gs8f0KeE82c3PGdj9VMVftvzTfjW8Fs/Ortsrat_Burgstemmen_27.05.2013_19.00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQwaKeRoMfJG6Gs8f0KeE82c3PGdj9VMVftvzTfjW8Fs/Ortsrat_Burgstemmen_27.05.2013_19.00_Uhr.pdf",
+          "created": "2013-06-03T13:00:13+02:00",
+          "modified": "2013-06-03T13:00:13+02:00"
+        }
+      ],
+      "created": "2013-05-15T08:18:20+02:00",
+      "modified": "2013-05-15T08:18:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9758",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Teilnahme an DSL-Offensive der htp GmbH für Burgstemmen",
+      "created": "2013-05-15T08:19:59+02:00",
+      "modified": "2013-05-15T08:19:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9759",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Verwendung der zusätzlichen Mittel für den Ortsrat Burgstemmen",
+      "created": "2013-05-15T08:20:28+02:00",
+      "modified": "2013-05-15T08:20:28+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9760",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Geschwindigkeitsmessanlage - Mitteilung des Sachstandes",
+      "created": "2013-05-15T08:22:01+02:00",
+      "modified": "2013-05-15T08:22:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9761",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Sachstandsmitteilung zu folgenden Punkten:\nStand der Querungshilfe (Verkehrsinsel) Ortseinfahrt von Mahlerten\nFahrbahnmarkierung Radweg Nordstraße / Feldstraße\nStraßenschäden nach der Frostperiode",
+      "created": "2013-05-15T08:24:18+02:00",
+      "modified": "2013-05-15T08:24:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9753",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Anhörung zur Aufstellung der Vorschlagsliste für die Neuwahl der Schöffen für die Jahre 2014 - 2018",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2275",
+      "created": "2013-05-15T08:18:20+02:00",
+      "modified": "2013-05-15T08:18:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9754",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2013-05-15T08:18:20+02:00",
+      "modified": "2013-05-15T08:18:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9755",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2013-05-15T08:18:20+02:00",
+      "modified": "2013-05-15T08:18:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9756",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Anträge und Anfragen\nWeg am Schildes Berg; Befestigung bzw. Handlauf\nEinfahrt zum Spielplatz Am Paradies",
+      "created": "2013-05-15T08:18:20+02:00",
+      "modified": "2013-05-15T08:18:20+02:00"
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1391",
+  "name": "Ortsrat Rössing (11. Sitzung)",
+  "start": "2010-02-18T19:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-11",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Gaststätte \"Alt Rössinger Saal\", Maschstraße 1, 31171 Nordstemmen, Clubraum",
+    "streetAddress": "Maschstraße 1",
+    "room": "Gaststätte \"Alt Rössinger Saal\", Clubraum",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T12:02:32+02:00",
+    "modified": "2017-09-12T17:09:38+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-4956",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2010-02-18",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcNk8sFZ2ZYkZ-JZ4ab9HNYsmKU4OIDThXi5DJcII4lm/Bekanntmachung_Ortsrat_Roessing_18.02.2010.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcNk8sFZ2ZYkZ-JZ4ab9HNYsmKU4OIDThXi5DJcII4lm/Bekanntmachung_Ortsrat_Roessing_18.02.2010.pdf",
+    "created": "2010-02-09T13:05:12+01:00",
+    "modified": "2010-02-09T13:05:12+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5801",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2010-02-08T11:15:13+01:00",
+      "modified": "2010-02-08T11:15:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5802",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2010-02-08T11:15:13+01:00",
+      "modified": "2010-02-08T11:15:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5803",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 03.11.2009",
+      "created": "2010-02-08T11:15:13+01:00",
+      "modified": "2010-02-08T11:15:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5804",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2010-02-08T11:15:13+01:00",
+      "modified": "2010-02-08T11:15:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5811",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Doppischer Haushalt für die Haushaltsjahre 2010 bis 2013 / Investitionstätigkeit in der Ortschaft Rössing\n(siehe DS 12/2010; wird nachgereicht)",
+      "created": "2010-02-08T11:16:39+01:00",
+      "modified": "2010-02-08T11:16:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5805",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2010-02-08T11:15:13+01:00",
+      "modified": "2010-02-08T11:15:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5812",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Verwendung der im Haushaltsjahr 2010 zur Verfügung stehenden Ortsratsmittel\nnachträgliche Genehmigung der Zuwendung zur Gründung des Fördervereins des Musikzuges\nAntrag des Kulturkreises auf Mitfinanzierung der Renovierungsarbeiten im Raum 1 des DGH\nFinanzierung der Neuauflage der Dorfbroschüre\nsonstige Verwendungen\n- Beratung und Beschlussfassung\n(siehe Anlage 1; weitere Ausführungen werden in der Sitzung gemacht)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-316",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Rössing 18.02.2010  Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2010-02-18",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTGDi2cTJJjtylDulUqFHsdb_3JoSu9KyyOKaBmt-gbu/Ortsrat_Roessing_18.02.2010__Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTGDi2cTJJjtylDulUqFHsdb_3JoSu9KyyOKaBmt-gbu/Ortsrat_Roessing_18.02.2010__Anlage_1.pdf",
+          "created": "2010-02-25T18:07:01+01:00",
+          "modified": "2010-02-25T18:07:01+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-317",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Rössing 18.02.2010  Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2010-02-18",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRRfeuA6qxVRb3AWvsn6DQ6VbQYS5jn_ozRhU6KVCIeQ/Ortsrat_Roessing_18.02.2010__Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRRfeuA6qxVRb3AWvsn6DQ6VbQYS5jn_ozRhU6KVCIeQ/Ortsrat_Roessing_18.02.2010__Anlage_2.pdf",
+          "created": "2010-02-25T18:07:01+01:00",
+          "modified": "2010-02-25T18:07:01+01:00"
+        }
+      ],
+      "created": "2010-02-08T11:20:08+01:00",
+      "modified": "2010-02-08T11:20:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5813",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Durchführung des Umwelttages am 10. April 2010\n- Beratung und Beschlussfassung",
+      "created": "2010-02-08T11:20:53+01:00",
+      "modified": "2010-02-08T11:20:53+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5814",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Beteiligung des Ortsrates an der Ausgestaltung des Dorfgemeinschaftsfestes (03.09. - 05.09.2010)\n- Beratung und Beschlussfassung",
+      "created": "2010-02-08T11:21:49+01:00",
+      "modified": "2010-02-08T11:21:49+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5815",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Durchführung Tag der Deutschen Einheit am 03. Oktober 2010\n- Beratung und Beschlussfassung",
+      "created": "2010-02-08T11:22:30+01:00",
+      "modified": "2010-02-08T11:22:30+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5816",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Planung zum Bestehen \"20 Jahre DGH\" im Jahr 2011\n- erste Beratung",
+      "created": "2010-02-08T11:23:00+01:00",
+      "modified": "2010-02-08T11:23:00+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5806",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Mitteilungen der Ortsbürgermeisterin",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-320",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Rössing 18.02.2010 Anlage 3)",
+          "mimeType": "application/pdf",
+          "date": "2010-02-18",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRCOOfOO30xu6sgDV_pS57A2Mj9z14CxSdF8HnkmyEOk/Ortsrat_Roessing_18.02.2010_Anlage_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRCOOfOO30xu6sgDV_pS57A2Mj9z14CxSdF8HnkmyEOk/Ortsrat_Roessing_18.02.2010_Anlage_3.pdf",
+          "created": "2010-02-25T18:07:01+01:00",
+          "modified": "2010-02-25T18:07:01+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-326",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 3 Ortsrat Rössing 18.02.2010)",
+          "mimeType": "application/pdf",
+          "date": "2010-02-18",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSamk0TSh_aZMXvqqwDbE4lqmosUIqoLjy6JOLbYVVaj/Anlage_3_Ortsrat_Roessing_18.02.2010.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSamk0TSh_aZMXvqqwDbE4lqmosUIqoLjy6JOLbYVVaj/Anlage_3_Ortsrat_Roessing_18.02.2010.pdf",
+          "created": "2010-02-26T13:15:04+01:00",
+          "modified": "2010-02-26T13:15:04+01:00"
+        }
+      ],
+      "created": "2010-02-08T11:15:13+01:00",
+      "modified": "2010-02-08T11:15:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5807",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Behandlung von Anträgen",
+      "created": "2010-02-08T11:15:13+01:00",
+      "modified": "2010-02-25T14:44:23+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5808",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Behandlung von Anfragen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-318",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Rössing 18.02.2010 Anlage 4)",
+          "mimeType": "application/pdf",
+          "date": "2010-02-18",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdQKcQIreYEH86oPvpXFsevt-60C_6clxcw_vCV8UOp7/Ortsrat_Roessing_18.02.2010_Anlage_4.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdQKcQIreYEH86oPvpXFsevt-60C_6clxcw_vCV8UOp7/Ortsrat_Roessing_18.02.2010_Anlage_4.pdf",
+          "created": "2010-02-25T18:07:01+01:00",
+          "modified": "2010-02-25T18:07:01+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-319",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Rössing 18.02.2010 Anlage 5)",
+          "mimeType": "application/pdf",
+          "date": "2010-02-18",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeNGQni4NpFUUJo1wOJSKN6tK33MhTIm22eeohIFFZgh/Ortsrat_Roessing_18.02.2010_Anlage_5.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeNGQni4NpFUUJo1wOJSKN6tK33MhTIm22eeohIFFZgh/Ortsrat_Roessing_18.02.2010_Anlage_5.pdf",
+          "created": "2010-02-25T18:07:01+01:00",
+          "modified": "2010-02-25T18:07:01+01:00"
+        }
+      ],
+      "created": "2010-02-08T11:15:13+01:00",
+      "modified": "2010-02-25T14:45:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5809",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Anregungen",
+      "created": "2010-02-08T11:15:13+01:00",
+      "modified": "2010-02-08T11:15:13+01:00"
+    }
+  ]
+}

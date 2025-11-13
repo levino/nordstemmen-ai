@@ -1,0 +1,259 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2458",
+  "name": "Ortsrat Barnten (13. Sitzung)",
+  "start": "2015-02-26T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-5",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Barnten, Glückaufstraße 1, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Glückaufstraße 1",
+    "room": "Dorfgemeinschaftshaus Barnten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Barnten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:29:00+02:00",
+    "modified": "2019-06-06T11:57:52+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-10"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-13875",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2015-02-26",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdtXvXXNFVaifNIAnQ6h6-LPNyVyeVnUs5TACgvuZLd5/Bekanntmachung_Ortsrat_Barnten_26.02.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdtXvXXNFVaifNIAnQ6h6-LPNyVyeVnUs5TACgvuZLd5/Bekanntmachung_Ortsrat_Barnten_26.02.2015.pdf",
+    "created": "2015-01-28T13:00:28+01:00",
+    "modified": "2015-01-28T13:00:28+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-14106",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2015-02-26",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWECqe_GyLmgifWggKDsCNnpdJh1wIQrFxbZtrmf4u-E/Oeffentliche_Niederschrift_Ortsrat_Barnten_26.02.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWECqe_GyLmgifWggKDsCNnpdJh1wIQrFxbZtrmf4u-E/Oeffentliche_Niederschrift_Ortsrat_Barnten_26.02.2015.pdf",
+    "created": "2015-03-19T19:00:32+01:00",
+    "modified": "2015-03-19T19:00:32+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11479",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2015-01-28T08:55:11+01:00",
+      "modified": "2015-01-28T08:55:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11480",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2015-01-28T08:55:11+01:00",
+      "modified": "2015-01-28T08:55:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11481",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 20.10.2014",
+      "created": "2015-01-28T08:55:11+01:00",
+      "modified": "2015-01-28T08:55:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11482",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2015-01-28T08:55:11+01:00",
+      "modified": "2015-01-28T08:55:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11488",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Verabschiedung des Schiedsmannes Herrn Harald Halfpaap",
+      "created": "2015-01-28T08:56:03+01:00",
+      "modified": "2015-01-28T08:56:03+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11489",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Verwendung der im Haushalt 2015 zur Verfügung stehenden Ortsratsmittel",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1301",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zu Ortsrat Barnten)",
+          "mimeType": "application/pdf",
+          "date": "2015-02-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUXRo7NY_16QB9wNcOIxeYKGtpFzFw8rr-wKzvI242aq/Anlage_1_zu_Ortsrat_Barnten.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUXRo7NY_16QB9wNcOIxeYKGtpFzFw8rr-wKzvI242aq/Anlage_1_zu_Ortsrat_Barnten.pdf",
+          "created": "2015-03-19T13:00:39+01:00",
+          "modified": "2015-03-19T13:00:39+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1302",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2 zu OR Barnten)",
+          "mimeType": "application/pdf",
+          "date": "2015-02-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZe2I9scxQgSuAf0H6WZDb8p5ENcX1XfZR8r0J4g3vEf4/Anlage_2_zu_OR_Barnten.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZe2I9scxQgSuAf0H6WZDb8p5ENcX1XfZR8r0J4g3vEf4/Anlage_2_zu_OR_Barnten.pdf",
+          "created": "2015-03-19T13:00:39+01:00",
+          "modified": "2015-03-19T13:00:39+01:00"
+        }
+      ],
+      "created": "2015-01-28T09:00:35+01:00",
+      "modified": "2015-01-28T09:00:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11483",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Widmung von Straßen und Wegen in der Ortschaft Barnten und Fortschreibung des Bestandsverzeichnisses",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2931",
+      "created": "2015-01-28T08:55:11+01:00",
+      "modified": "2015-01-28T08:55:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11709",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 10,
+      "name": "Teilnahme an dem Wettbewerb \"Kerniges Dorf 2015\"",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1303",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 3 zu OR Barnten)",
+          "mimeType": "application/pdf",
+          "date": "2015-02-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcPyRszKAKkLh8rhas9_ENeAGoI-2A8Si6RjEyurReb4/Anlage_3_zu_OR_Barnten.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcPyRszKAKkLh8rhas9_ENeAGoI-2A8Si6RjEyurReb4/Anlage_3_zu_OR_Barnten.pdf",
+          "created": "2015-03-19T19:00:32+01:00",
+          "modified": "2015-03-19T19:00:32+01:00"
+        }
+      ],
+      "created": "2015-03-09T12:05:49+01:00",
+      "modified": "2015-03-09T12:05:49+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11484",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 11,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters\n- Information über Kiesabbau in Barnten",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1304",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 4 zu OR Barnten)",
+          "mimeType": "application/pdf",
+          "date": "2015-02-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVuTPDNryaZcqcGjG3WjheoRIHsvyqXosnrkTUIJW33W/Anlage_4_zu_OR_Barnten.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVuTPDNryaZcqcGjG3WjheoRIHsvyqXosnrkTUIJW33W/Anlage_4_zu_OR_Barnten.pdf",
+          "created": "2015-03-19T13:00:39+01:00",
+          "modified": "2015-03-19T13:00:39+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1305",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 5 zu OR Barnten)",
+          "mimeType": "application/pdf",
+          "date": "2015-02-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZc4tc3kUcAWtv7CbOx6DhUQqQ8AEeoAmAGwxdQzHXooS/Anlage_5_zu_OR_Barnten.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZc4tc3kUcAWtv7CbOx6DhUQqQ8AEeoAmAGwxdQzHXooS/Anlage_5_zu_OR_Barnten.pdf",
+          "created": "2015-03-19T13:00:39+01:00",
+          "modified": "2015-03-19T13:00:39+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1306",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 6 zu OR Barnten)",
+          "mimeType": "application/pdf",
+          "date": "2015-02-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaffnMyxqcBiww6UcwARIxxleUtHhbBt3J3El_RiZVsB/Anlage_6_zu_OR_Barnten.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaffnMyxqcBiww6UcwARIxxleUtHhbBt3J3El_RiZVsB/Anlage_6_zu_OR_Barnten.pdf",
+          "created": "2015-03-19T13:00:39+01:00",
+          "modified": "2015-03-19T13:00:39+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1307",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 7 zu OR Barnten)",
+          "mimeType": "application/pdf",
+          "date": "2015-02-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZezE9IHzU8k-eUAJIUV9skHDwWZlAamMZ_LLuAuEFmjg/Anlage_7_zu_OR_Barnten.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZezE9IHzU8k-eUAJIUV9skHDwWZlAamMZ_LLuAuEFmjg/Anlage_7_zu_OR_Barnten.pdf",
+          "created": "2015-03-19T13:00:39+01:00",
+          "modified": "2015-03-19T13:00:39+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1308",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 8 zu OR Barnten)",
+          "mimeType": "application/pdf",
+          "date": "2015-02-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZha-AqqygQ7AH9iAnN61udvuXrGlp-ca-Ji7w0teDSC/Anlage_8_zu_OR_Barnten.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZha-AqqygQ7AH9iAnN61udvuXrGlp-ca-Ji7w0teDSC/Anlage_8_zu_OR_Barnten.pdf",
+          "created": "2015-03-19T13:00:39+01:00",
+          "modified": "2015-03-19T13:00:39+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1309",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 9 zu OR Barnten)",
+          "mimeType": "application/pdf",
+          "date": "2015-02-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUPLJ3RIFSnuRl5_MwAV9-KGcFahMXuabnV2D0-Y0G2I/Anlage_9_zu_OR_Barnten.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUPLJ3RIFSnuRl5_MwAV9-KGcFahMXuabnV2D0-Y0G2I/Anlage_9_zu_OR_Barnten.pdf",
+          "created": "2015-03-19T13:00:39+01:00",
+          "modified": "2015-03-19T13:00:39+01:00"
+        }
+      ],
+      "created": "2015-01-28T08:55:11+01:00",
+      "modified": "2015-01-28T08:55:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11485",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 12,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2015-01-28T08:55:11+01:00",
+      "modified": "2015-01-28T08:55:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11486",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 13,
+      "name": "Anträge und Anfragen",
+      "created": "2015-01-28T08:55:11+01:00",
+      "modified": "2015-01-28T08:55:11+01:00"
+    }
+  ]
+}

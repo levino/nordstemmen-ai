@@ -1,0 +1,235 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4216",
+  "name": "Ortsrat Rössing (8. Sitzung)",
+  "start": "2019-02-07T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-26",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Gaststätte \"Zum Dorfbrunnen\", Loderwinkel 2 a, 31171 Nordstemmen, Clubraum",
+    "streetAddress": "Loderwinkel 2 a",
+    "room": "Gaststätte \"Zum Dorfbrunnen\", Clubraum",
+    "postalCode": "31171",
+    "subLocality": "Rössing",
+    "locality": "Nordstemmen",
+    "created": "2014-10-09T10:17:13+02:00",
+    "modified": "2017-09-12T17:09:54+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-26265",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2019-02-07",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSxLXBOPBlSmFPo5oHNwZueu97aGKGDhmSslsUVYO91-/Bekanntmachung_Ortsrat_Roessing_07.02.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSxLXBOPBlSmFPo5oHNwZueu97aGKGDhmSslsUVYO91-/Bekanntmachung_Ortsrat_Roessing_07.02.2019.pdf",
+    "created": "2019-01-28T19:01:39+01:00",
+    "modified": "2019-02-01T13:02:00+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-26560",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2019-02-07",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVorJ0TESDbqRIBC64iCLi4fncx2yTMZRUSPk-DzFaap/Oeffentliche_Niederschrift_Ortsrat_Roessing_07.02.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVorJ0TESDbqRIBC64iCLi4fncx2yTMZRUSPk-DzFaap/Oeffentliche_Niederschrift_Ortsrat_Roessing_07.02.2019.pdf",
+    "created": "2019-03-05T19:00:46+01:00",
+    "modified": "2019-03-05T19:00:46+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16101",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2019-01-25T09:08:13+01:00",
+      "modified": "2019-01-25T09:08:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16102",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2019-01-25T09:08:13+01:00",
+      "modified": "2019-01-25T09:08:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16119",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Feststellung des Sitzverlustes des Ortsratsmitgliedes Herr Jan Gadesmann",
+      "created": "2019-01-28T08:11:20+01:00",
+      "modified": "2019-01-28T08:11:20+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16120",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Feststellung des Sitzverlustes des Ortsratsmitgliedes Frau Carlota Freifrau von Rössing",
+      "created": "2019-01-28T08:12:19+01:00",
+      "modified": "2019-01-28T08:12:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16121",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Verpflichtung und Pflichtenbelehrung eines nachrückenden Ortsratsmitgliedes",
+      "created": "2019-01-28T08:15:32+01:00",
+      "modified": "2019-01-28T08:15:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16123",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Wahl der Ortsbürgermeisterin/des Ortsbürgermeisters",
+      "created": "2019-01-28T08:16:36+01:00",
+      "modified": "2019-01-28T08:16:36+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16122",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Wahl einer stellv. Ortsbürgermeisterin/eines stellv. Ortsbürgermeisters",
+      "created": "2019-01-28T08:16:04+01:00",
+      "modified": "2019-01-28T08:16:04+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16125",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Verabschiedung ausgeschiedener Ortsratsmitglieder",
+      "created": "2019-01-28T08:57:39+01:00",
+      "modified": "2019-01-28T08:57:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16103",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Genehmigung des Protokolls der Sitzung vom 01. November 2018",
+      "created": "2019-01-25T09:08:13+01:00",
+      "modified": "2019-01-25T09:08:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16104",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Einwohnerfragestunde",
+      "created": "2019-01-25T09:08:13+01:00",
+      "modified": "2019-01-25T09:08:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16124",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Haushaltsplan 2019 und Investitionsprogramm bis 2022 für die Ortschaft Rössing",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6449",
+      "created": "2019-01-28T08:18:22+01:00",
+      "modified": "2019-01-28T08:26:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16126",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Beratung und Beschlussfassung zur Auftragsvergabe zum Druck einer überarbeiteten Dorfbroschüre",
+      "created": "2019-01-28T10:29:52+01:00",
+      "modified": "2019-01-28T10:29:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16127",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Planung der Kontaktpflege zu Beyernaumburg für 2019",
+      "created": "2019-01-28T10:30:23+01:00",
+      "modified": "2019-01-28T10:30:23+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16128",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Beratung und Beschlussfassung über Möglichkeiten der vor der Turnhalle entsorgten Spielgeräte",
+      "created": "2019-01-28T10:31:07+01:00",
+      "modified": "2019-01-28T10:31:07+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16129",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Beantragung eines Abfalleimers am Denkmal",
+      "created": "2019-01-28T10:31:39+01:00",
+      "modified": "2019-01-28T10:31:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16130",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Beantragung des neuerlichen Aufstellens eines Abfalleimers und einer Sitzbank im Bereich der neu gestalteten Uferböschung am Wehr",
+      "created": "2019-01-28T10:32:25+01:00",
+      "modified": "2019-01-28T10:32:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16131",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 17,
+      "name": "Festlegung eines Ansprechpartners für den 3. Oktober als Ersatz für Jan Gadesmann",
+      "created": "2019-01-28T10:33:14+01:00",
+      "modified": "2019-01-28T10:33:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16132",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 18,
+      "name": "Gestaltung des Gemeindeumwelttages am 06.04.2019",
+      "created": "2019-01-28T10:33:38+01:00",
+      "modified": "2019-01-28T10:33:38+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16105",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "18",
+      "order": 19,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2019-01-25T09:08:13+01:00",
+      "modified": "2019-01-28T08:21:03+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16106",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "19",
+      "order": 20,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2019-01-25T09:08:13+01:00",
+      "modified": "2019-01-28T08:21:16+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16107",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "20",
+      "order": 21,
+      "name": "Anträge und Anfragen",
+      "created": "2019-01-25T09:08:13+01:00",
+      "modified": "2019-01-25T09:08:13+01:00"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1872",
+  "name": "Ortsrat Burgstemmen (17. Sitzung)",
+  "start": "2012-06-28T19:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Burgstemmen, Sackstraße 2, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Sackstraße 2",
+    "room": "Feuerwehrhaus Burgstemmen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Burgstemmen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:33:23+02:00",
+    "modified": "2019-06-06T11:56:46+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-12"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-8400",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2012-06-28",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZW9sw8YZT2f8wfxwR3t4zrgQQgWJhIId95yra36aVWmo/Bekanntmachung_Ortsrat_Burgstemmen_28.06.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZW9sw8YZT2f8wfxwR3t4zrgQQgWJhIId95yra36aVWmo/Bekanntmachung_Ortsrat_Burgstemmen_28.06.2012.pdf",
+    "created": "2012-06-20T13:01:04+02:00",
+    "modified": "2012-06-20T13:01:04+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-8590",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2012-06-28",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaxNFi9QAGYz_7QdioYH9buWoey_EexJ5l2kqBYckWIQ/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_28.06.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaxNFi9QAGYz_7QdioYH9buWoey_EexJ5l2kqBYckWIQ/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_28.06.2012.pdf",
+    "created": "2012-07-18T12:19:30+02:00",
+    "modified": "2012-07-18T12:19:30+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8656",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2012-06-19T16:26:26+02:00",
+      "modified": "2012-06-19T16:26:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8657",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2012-06-19T16:26:26+02:00",
+      "modified": "2012-06-19T16:26:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8658",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 23.02.2012",
+      "created": "2012-06-19T16:26:26+02:00",
+      "modified": "2012-06-19T16:26:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8663",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Teilnahme am Wettbewerb \"Unser Dorf hat Zukunft\"\n- Beratung und Beschlussfassung\n(weitere Ausführungen werden in der Sitzung gemacht)",
+      "created": "2012-06-19T16:27:58+02:00",
+      "modified": "2012-06-19T16:27:58+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8664",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Mittelanmeldungen vom Ortsrat für das Haushaltsjahr 2013 ff\n- Beratung und Beschlussfassung\n(weitere Ausführungen werden in der Sitzung vom Ortsbürgermeister gemacht)",
+      "created": "2012-06-19T16:28:54+02:00",
+      "modified": "2012-06-19T16:28:54+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8665",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Umgang im Bereich der Repräsentationen durch den Ortsrat\n- Beratung und Beschlussfassung\n(weitere Ausführungen werden in der Sitzung gemacht)",
+      "created": "2012-06-19T16:29:41+02:00",
+      "modified": "2012-06-19T16:29:41+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8659",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2012-06-19T16:26:26+02:00",
+      "modified": "2012-06-19T16:26:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8666",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Mitteilungen des Ortsbürgermeisters",
+      "created": "2012-06-19T16:30:02+02:00",
+      "modified": "2012-06-19T16:30:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8660",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Behandlung von Anfragen\n- Austausch Spielgerät Mehrzweckhalle\n- Rampe für behindertengerechten Zugang an der Mehrzweckhalle",
+      "created": "2012-06-19T16:26:26+02:00",
+      "modified": "2012-06-19T16:26:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8661",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Anregungen",
+      "created": "2012-06-19T16:26:26+02:00",
+      "modified": "2012-06-19T16:26:26+02:00"
+    }
+  ]
+}

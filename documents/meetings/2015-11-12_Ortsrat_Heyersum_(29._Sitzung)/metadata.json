@@ -1,0 +1,224 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2568",
+  "name": "Ortsrat Heyersum (29. Sitzung)",
+  "start": "2015-11-12T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-8",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Altes Schulhaus Heyersum, Martin-Luther-Platz 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Martin-Luther-Platz 3",
+    "room": "Altes Schulhaus Heyersum, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Heyersum",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:37:30+02:00",
+    "modified": "2019-10-24T16:49:00+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-13"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-14992",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2015-11-12",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXOQQQ5BlK_g3BhrO5D3izJEJUxn-Jk4ZUEuKcF9vzhl/Bekanntmachung_Ortsrat_Heyersum_12.11.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXOQQQ5BlK_g3BhrO5D3izJEJUxn-Jk4ZUEuKcF9vzhl/Bekanntmachung_Ortsrat_Heyersum_12.11.2015.pdf",
+    "created": "2015-10-29T13:01:04+01:00",
+    "modified": "2015-10-29T13:01:04+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15300",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2015-11-12",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaCVGQto6NZYjc54MA7zxApyx6av_U7RJF6p56yBp420/Oeffentliche_Niederschrift_Ortsrat_Heyersum_12.11.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaCVGQto6NZYjc54MA7zxApyx6av_U7RJF6p56yBp420/Oeffentliche_Niederschrift_Ortsrat_Heyersum_12.11.2015.pdf",
+    "created": "2015-12-04T13:00:48+01:00",
+    "modified": "2015-12-04T13:00:48+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12316",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2015-10-27T11:00:56+01:00",
+      "modified": "2015-10-27T11:00:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12317",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2015-10-27T11:00:56+01:00",
+      "modified": "2015-10-27T11:00:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12318",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 11.06.2015",
+      "created": "2015-10-27T11:00:56+01:00",
+      "modified": "2015-10-27T11:01:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12319",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1425",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Heyersum 12.11.2015 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-11-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdyulgHk2LAF6_d_95kZ6V7zXDQeU07L-uguhpoiCUO6/Ortsrat_Heyersum_12.11.2015_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdyulgHk2LAF6_d_95kZ6V7zXDQeU07L-uguhpoiCUO6/Ortsrat_Heyersum_12.11.2015_18-00_Uhr.pdf",
+          "created": "2015-11-18T13:01:00+01:00",
+          "modified": "2015-11-18T13:01:00+01:00"
+        }
+      ],
+      "created": "2015-10-27T11:00:56+01:00",
+      "modified": "2015-10-27T11:00:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12320",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Anhörung zum Haushaltsplan 2016 und zum Investitionsprogramm bis 2019 für die Ortschaft Heyersum",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3280",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1426",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Ortsrat Heyersum 12.11.2015 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-11-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfwGqEAdJ9oCcYZkClzopXN7-oDHEDhJPWzOuf6iIxW-/Ortsrat_Heyersum_12.11.2015_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfwGqEAdJ9oCcYZkClzopXN7-oDHEDhJPWzOuf6iIxW-/Ortsrat_Heyersum_12.11.2015_18-00_Uhr.pdf",
+          "created": "2015-11-18T13:01:00+01:00",
+          "modified": "2015-11-18T13:01:00+01:00"
+        }
+      ],
+      "created": "2015-10-27T11:00:56+01:00",
+      "modified": "2015-10-27T14:51:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12325",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Verwendung der im Haushalt 2015 noch zur Verfügung stehenden Ortsratsmittel\n- Beratung und Beschlussfassung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1427",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Heyersum 12.11.2015 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-11-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZWQ06Ns_48VPH2PrmvYYYsCQ5RW9BNBdpRssHnitW6z/Ortsrat_Heyersum_12.11.2015_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZWQ06Ns_48VPH2PrmvYYYsCQ5RW9BNBdpRssHnitW6z/Ortsrat_Heyersum_12.11.2015_18-00_Uhr.pdf",
+          "created": "2015-11-18T13:01:00+01:00",
+          "modified": "2015-11-18T13:01:00+01:00"
+        }
+      ],
+      "created": "2015-10-27T11:02:33+01:00",
+      "modified": "2015-10-27T11:02:33+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12326",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bericht \"Förderverein Altes Schulhaus\"",
+      "created": "2015-10-27T11:03:08+01:00",
+      "modified": "2015-10-27T11:03:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12327",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Beratung/Planung Volkstrauertag - Kranzniederlegung",
+      "created": "2015-10-27T11:03:42+01:00",
+      "modified": "2015-10-27T11:03:42+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12328",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Beratung/Planung - Seniorenadventsfeier 28.11.2015",
+      "created": "2015-10-27T11:04:13+01:00",
+      "modified": "2015-10-27T11:04:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12321",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1428",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Heyersum 12.11.2015 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-11-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXrjAjLD_hqtUWlxfnaF26MN1I60P0U8z9ZbSST6ddAb/Ortsrat_Heyersum_12.11.2015_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXrjAjLD_hqtUWlxfnaF26MN1I60P0U8z9ZbSST6ddAb/Ortsrat_Heyersum_12.11.2015_18-00_Uhr.pdf",
+          "created": "2015-11-18T13:01:00+01:00",
+          "modified": "2015-11-18T13:01:00+01:00"
+        }
+      ],
+      "created": "2015-10-27T11:00:56+01:00",
+      "modified": "2015-10-27T11:00:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12322",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2015-10-27T11:00:56+01:00",
+      "modified": "2015-10-27T11:00:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12323",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Anträge und Anfragen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1429",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Heyersum 12.11.2015 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-11-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfa2LYUMK13o9Du4ObVHFwZ1KavB1gAUzjC8tFnwgH6u/Ortsrat_Heyersum_12.11.2015_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfa2LYUMK13o9Du4ObVHFwZ1KavB1gAUzjC8tFnwgH6u/Ortsrat_Heyersum_12.11.2015_18-00_Uhr.pdf",
+          "created": "2015-11-18T13:01:00+01:00",
+          "modified": "2015-11-18T13:01:00+01:00"
+        }
+      ],
+      "created": "2015-10-27T11:00:56+01:00",
+      "modified": "2015-10-27T11:00:56+01:00"
+    }
+  ]
+}

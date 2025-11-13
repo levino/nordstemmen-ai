@@ -1,0 +1,241 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5630",
+  "name": "Ortsrat Barnten (11. Sitzung)",
+  "start": "2025-02-25T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-5",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Barnten, Glückaufstraße 1, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Glückaufstraße 1",
+    "room": "Dorfgemeinschaftshaus Barnten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Barnten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:29:00+02:00",
+    "modified": "2019-06-06T11:57:52+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-10"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-41070",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2025-02-25",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVoUC3jMJbe6jvemVhAZIg6nUArp5Wc_rQX46xY_JaWP/Bekanntmachung_Ortsrat_Barnten_25.02.2025.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVoUC3jMJbe6jvemVhAZIg6nUArp5Wc_rQX46xY_JaWP/Bekanntmachung_Ortsrat_Barnten_25.02.2025.pdf",
+    "created": "2025-02-17T13:00:22+01:00",
+    "modified": "2025-02-17T13:00:22+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-41405",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2025-02-25",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWzxjda3HMuEHz4IKiQPw7ZU9SiC7Y95MVyVtV67Yv1d/Oeffentliche_Niederschrift_Ortsrat_Barnten_25.02.2025.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWzxjda3HMuEHz4IKiQPw7ZU9SiC7Y95MVyVtV67Yv1d/Oeffentliche_Niederschrift_Ortsrat_Barnten_25.02.2025.pdf",
+    "created": "2025-03-25T13:00:16+01:00",
+    "modified": "2025-03-25T13:00:16+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23137",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2025-01-14T12:47:36+01:00",
+      "modified": "2025-01-14T12:47:36+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23289",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2025-02-14T10:57:17+01:00",
+      "modified": "2025-02-14T10:57:17+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23139",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 05. November 2024",
+      "created": "2025-01-14T12:47:36+01:00",
+      "modified": "2025-02-14T10:57:59+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23142",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Neuaufstellung des Flächennutzungsplanes der Gemeinde Nordstemmen\n- Beschluss und Billigung des Vorentwurfes zum Flächennutzungsplan\n- Anhörung der Ortsräte gemäß § 94 Abs. 1 NKomVG",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8276",
+      "result": "Zustimmend zur Kenntnis genommen",
+      "created": "2025-01-14T12:47:36+01:00",
+      "modified": "2025-02-14T10:58:12+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23144",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht bzw. Mitteilungen der Verwaltung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7203",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2025-02-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZar6xMKVNmBZECvlZdh6srRlh3RKvkFgP6vFTmnXkV_0/Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZar6xMKVNmBZECvlZdh6srRlh3RKvkFgP6vFTmnXkV_0/Anlage_1.pdf",
+          "created": "2025-03-25T13:00:16+01:00",
+          "modified": "2025-03-25T13:00:16+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7204",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2025-02-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZY9eMK8M7iM-eMKsGRtTIOHMKut2JgFbfGydjTv5Vr36/Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZY9eMK8M7iM-eMKsGRtTIOHMKut2JgFbfGydjTv5Vr36/Anlage_2.pdf",
+          "created": "2025-03-25T13:00:16+01:00",
+          "modified": "2025-03-25T13:00:16+01:00"
+        }
+      ],
+      "created": "2025-01-14T12:47:36+01:00",
+      "modified": "2025-02-14T11:01:26+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23141",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2025-01-14T12:47:36+01:00",
+      "modified": "2025-01-14T12:49:01+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23147",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bericht der Ortsheimatpflegerin",
+      "created": "2025-01-14T12:49:19+01:00",
+      "modified": "2025-01-14T12:49:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23148",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bericht des Schiedsmann der Ortschaft Barnten",
+      "created": "2025-01-14T12:49:37+01:00",
+      "modified": "2025-01-14T12:49:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23149",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Erscheinungsbild des Ortes und Grünpflege",
+      "created": "2025-01-14T12:50:36+01:00",
+      "modified": "2025-01-14T12:50:36+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23150",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Verwendung von Ortsratsmittel im Haushaltsjahr 2025",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7205",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 3)",
+          "mimeType": "application/pdf",
+          "date": "2025-02-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaXKS5MmQfDfezkjx9bjLpG0view9GDrwSXz8u-_RcqZ/Anlage_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaXKS5MmQfDfezkjx9bjLpG0view9GDrwSXz8u-_RcqZ/Anlage_3.pdf",
+          "created": "2025-03-25T13:00:16+01:00",
+          "modified": "2025-03-25T13:00:16+01:00"
+        }
+      ],
+      "created": "2025-01-14T12:51:04+01:00",
+      "modified": "2025-01-14T12:51:04+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23151",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Antrag des Ortsrats zur Einrichtung eines Halteverbots an der Glückaufstraße östlich des Bahnübergangs",
+      "created": "2025-01-14T12:52:01+01:00",
+      "modified": "2025-01-14T12:52:01+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23152",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Terminfindung zur Ortsbegehung in 2025",
+      "created": "2025-01-14T12:52:19+01:00",
+      "modified": "2025-01-14T12:52:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23143",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7206",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 4)",
+          "mimeType": "application/pdf",
+          "date": "2025-02-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSoDvIf4K8qzaQEA2KfDAVvfKP-oACLL6ZtImjhRW4dm/Anlage_4.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSoDvIf4K8qzaQEA2KfDAVvfKP-oACLL6ZtImjhRW4dm/Anlage_4.pdf",
+          "created": "2025-03-25T13:00:16+01:00",
+          "modified": "2025-03-25T13:00:16+01:00"
+        }
+      ],
+      "created": "2025-01-14T12:47:36+01:00",
+      "modified": "2025-01-14T12:52:41+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23140",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Anträge und Anfragen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7207",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 5)",
+          "mimeType": "application/pdf",
+          "date": "2025-02-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZX1YaEhwgtH8VshzoFjBXA_3hBu52sIgda-qMJb0IM2c/Anlage_5.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZX1YaEhwgtH8VshzoFjBXA_3hBu52sIgda-qMJb0IM2c/Anlage_5.pdf",
+          "created": "2025-03-25T13:00:16+01:00",
+          "modified": "2025-03-25T13:00:16+01:00"
+        }
+      ],
+      "created": "2025-01-14T12:47:36+01:00",
+      "modified": "2025-01-14T12:52:46+01:00"
+    }
+  ]
+}

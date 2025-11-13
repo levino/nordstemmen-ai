@@ -1,0 +1,105 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/953",
+  "name": "Rat (3. Sitzung)",
+  "start": "2007-05-03T20:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-540",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2007-05-03",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTwJSuYYPo1LchW8dKgd1phXqhpx7Fh9gvnYMKkQ22k6/Bekanntmachung_Rat_03.05.2007.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTwJSuYYPo1LchW8dKgd1phXqhpx7Fh9gvnYMKkQ22k6/Bekanntmachung_Rat_03.05.2007.pdf",
+    "created": "2007-05-15T06:51:47+02:00",
+    "modified": "2007-05-15T06:51:47+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/826",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "I.",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2007-04-23T13:53:44+02:00",
+      "modified": "2007-04-23T13:53:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/827",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2007-04-23T13:53:44+02:00",
+      "modified": "2007-04-23T13:53:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/829",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Einwohnerfragestunde",
+      "created": "2007-04-23T13:53:44+02:00",
+      "modified": "2007-04-23T13:54:00+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/828",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bebauungsplan Nr. 0125 \"Mahlerter Straße-Nord\", 2. Änderung (Altenpflegeheim)\n- öffentliche Auslegung\n(DS 33/2007; wird nachgereicht)",
+      "created": "2007-04-23T13:53:44+02:00",
+      "modified": "2007-04-23T13:53:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/835",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "14. Änderung des Flächennutzungsplanes (Wohnbauflächen Groß Escherde)\n- öffentliche Auslegung\n(DS 34/2007; wird nachgereicht)",
+      "created": "2007-04-23T13:56:24+02:00",
+      "modified": "2007-04-23T13:56:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/830",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2007-04-23T13:53:44+02:00",
+      "modified": "2007-04-23T13:55:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/831",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Behandlung von Anfragen",
+      "created": "2007-04-23T13:53:44+02:00",
+      "modified": "2007-04-23T13:55:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/832",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Anregungen",
+      "created": "2007-04-23T13:53:44+02:00",
+      "modified": "2007-04-23T13:56:39+02:00"
+    }
+  ]
+}

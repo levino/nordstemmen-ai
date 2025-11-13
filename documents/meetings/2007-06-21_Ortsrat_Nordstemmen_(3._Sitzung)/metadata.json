@@ -1,0 +1,141 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/836",
+  "name": "Ortsrat Nordstemmen (3. Sitzung)",
+  "start": "2007-06-21T20:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-8"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-1079",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Nordstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2007-06-21",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVNr1YDq7ed_JURiH6EiQX8x8C086xc-w8pphAdo-Qu3/Bekanntmachung_Ortsrat_Nordstemmen_21.06.2007.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVNr1YDq7ed_JURiH6EiQX8x8C086xc-w8pphAdo-Qu3/Bekanntmachung_Ortsrat_Nordstemmen_21.06.2007.pdf",
+    "created": "2007-06-13T10:43:29+02:00",
+    "modified": "2007-06-13T10:43:29+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1598",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2007-06-12T10:42:15+02:00",
+      "modified": "2007-06-12T10:42:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1599",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2007-06-12T10:42:15+02:00",
+      "modified": "2007-06-12T10:42:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1600",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 03.05.2007",
+      "created": "2007-06-12T10:42:15+02:00",
+      "modified": "2007-06-12T10:42:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1601",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2007-06-12T10:42:15+02:00",
+      "modified": "2007-06-12T10:42:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1602",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bebauungsplan Nr. 0120 \"Hauptstraße - Mitte III, Ortschaft Nordstemmen\n\n- Anhörung des Ortsrates",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/275",
+      "created": "2007-06-12T10:42:15+02:00",
+      "modified": "2007-06-12T10:42:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1607",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bebauungsplan Nr. 0107 \"Ortsmitte - Ost\", 5. Änderung, Ortschaft Nordstemmen\n- Aufstellungsbeschluss / Anhörung\n(DS 56/2007; wird nachgereicht) ",
+      "created": "2007-06-12T10:43:55+02:00",
+      "modified": "2007-06-12T10:43:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1608",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bebauungsplan - Nr. 0125\"Mahlerter Straße - Nord\", 1. Änderung, Ortschaft Nordstemmen\n- Aufstellungsbeschluss / Anhörung\n(DS 51/2007; wird nachgereicht)",
+      "created": "2007-06-12T10:45:22+02:00",
+      "modified": "2007-06-12T10:45:22+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1603",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2007-06-12T10:42:15+02:00",
+      "modified": "2007-06-12T11:02:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1604",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Behandlung von Anfragen",
+      "created": "2007-06-12T10:42:15+02:00",
+      "modified": "2007-06-12T10:42:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1605",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Anregungen",
+      "created": "2007-06-12T10:42:15+02:00",
+      "modified": "2007-06-12T10:42:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1609",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Diskussion Veranstaltung Ehrenamt mit anschließender Benennung von Personen durch den Ortsrat\n(siehe Anlage: Protokoll zum Arbeitsgespräch vom 10.05.2007)",
+      "created": "2007-06-12T10:46:17+02:00",
+      "modified": "2007-06-12T10:46:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1838",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Daueraufstellung eines Imbisswagens auf dem Parkplatz Rathausstraße / Ziegeleistraße (Friedrich-Karl Bordt)\n- Anhörung",
+      "created": "2007-07-02T11:14:02+02:00",
+      "modified": "2007-07-02T11:14:02+02:00"
+    }
+  ]
+}

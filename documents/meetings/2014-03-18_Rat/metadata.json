@@ -1,0 +1,59 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2330",
+  "name": "Rat",
+  "start": "2014-03-18T18:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-13",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Grundschule Nordstemmen, Asternstraße 13, 31171 Nordstemmen, Musikraum",
+    "streetAddress": "Asternstraße 13",
+    "room": "Grundschule Nordstemmen, Musikraum",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2006-05-15T10:39:45+02:00",
+    "modified": "2022-05-17T15:56:26+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-12410",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2014-03-18",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZHA9euHtrqOVHm3lvPhadIHUps7rQONrB912D66YCap/Bekanntmachung_Rat_18.03.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZHA9euHtrqOVHm3lvPhadIHUps7rQONrB912D66YCap/Bekanntmachung_Rat_18.03.2014.pdf",
+    "created": "2014-03-03T19:00:34+01:00",
+    "modified": "2014-03-03T19:00:34+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10662",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2014-03-03T14:26:39+01:00",
+      "modified": "2014-03-03T14:26:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10663",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Begrüßung und Eröffnung",
+      "created": "2014-03-03T14:26:39+01:00",
+      "modified": "2014-03-03T14:26:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10664",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Vorstellung des Konzeptes der Bildungsvielfalt in der Gemeinde Nordstemmen durch den hierfür gebildeten Arbeitskreis\n((Ausführungen werden in der Sitzung gemacht)",
+      "created": "2014-03-03T14:26:39+01:00",
+      "modified": "2014-03-03T14:26:39+01:00"
+    }
+  ]
+}

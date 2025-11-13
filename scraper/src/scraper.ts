@@ -1,266 +1,196 @@
-import { Effect, pipe } from 'effect';
-import { writeFile, readFile, mkdir } from 'node:fs/promises';
+import { Effect, Schema as S, pipe, flow } from 'effect';
+import { writeFile, mkdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
-import { join, dirname } from 'node:path';
-import { fetchAllFiles, downloadFile } from './client.ts';
-import type { OParlFile } from './schema.ts';
-import type { DocumentMetadata } from './schema.ts';
+import { join } from 'node:path';
+import { fetchAllPapers, fetchAllMeetings, downloadFile, effectFetchJson } from './client.ts';
+import { OParlPaperSchema } from './schema.ts';
+import type { OParlPaper, OParlMeeting } from './schema.ts';
+
+export const fetchPaperMetadata = flow(effectFetchJson, Effect.flatMap(S.decodeUnknown(OParlPaperSchema)));
 
 export interface ScraperConfig {
   documentsDir: string;
-  metadataFile?: string;
 }
 
-/**
- * Load existing metadata
- */
-const loadMetadata = (metadataFile: string): Effect.Effect<Record<string, DocumentMetadata>, never> =>
-  existsSync(metadataFile)
-    ? pipe(
-        Effect.tryPromise({
-          try: async () => JSON.parse(await readFile(metadataFile, 'utf-8')),
-          catch: () => ({}),
-        })
-      )
-    : Effect.succeed({});
+interface Stats {
+  papers: { processed: number; skipped: number; errors: number };
+  meetings: { processed: number; skipped: number; errors: number };
+}
 
-/**
- * Save metadata
- */
-const saveMetadata = (
-  metadataFile: string,
-  metadata: Record<string, DocumentMetadata>
-): Effect.Effect<void, Error> =>
-  Effect.tryPromise({
-    try: async () => {
-      await mkdir(dirname(metadataFile), { recursive: true });
-      await writeFile(metadataFile, JSON.stringify(metadata, null, 2), 'utf-8');
-    },
-    catch: (error) => new Error(`Failed to save metadata: ${error}`),
-  });
-
-/**
- * Truncate filename to fit filesystem limits (200 chars to be safe)
- * Preserves the OParl ID suffix at the end
- */
-const truncateFilename = (filename: string, maxLength: number = 200): string => {
-  if (filename.length <= maxLength) return filename;
-
-  // Extract the OParl ID suffix (format: _12345.pdf)
-  const match = filename.match(/(_\d+)\.pdf$/);
-  const idSuffix = match ? match[1] : '';
-  const extension = '.pdf';
-
-  // Reserve space for ID suffix and extension
-  const reservedLength = idSuffix.length + extension.length;
-  const maxBaseLength = maxLength - reservedLength;
-
-  // Truncate the base but keep the ID suffix
-  return filename.slice(0, maxBaseLength) + idSuffix + extension;
+const extractFilename = (url: string): string => {
+  const parts = url.split('/');
+  const last = parts[parts.length - 1];
+  return decodeURIComponent(last).replace(/[\/\\:*?"<>|]/g, '_');
 };
 
-/**
- * Generate filename and year folder from file metadata
- * Uses OParl ID to ensure uniqueness
- */
-const generateFilePath = (file: OParlFile): { year: string; filename: string } => {
-  const datePart = file.date
-    ? (() => {
-        try {
-          const date = new Date(file.date);
-          return {
-            year: date.getFullYear().toString(),
-            part: date.toISOString().split('T')[0],
-          };
-        } catch {
-          return null;
-        }
-      })()
-    : null;
+const sanitize = (name: string): string =>
+  name
+    .replace(/[\/\\:*?"<>|]/g, '_')
+    .replace(/\s+/g, '_')
+    .slice(0, 100);
 
-  const namePart = file.name
-    ?.replace(/[\/\\:*?"<>|]/g, '_')
-    .replace(/\s+/g, '_');
-
-  // Extract unique ID from OParl URL (e.g., "12345" from ".../files/12345")
-  const oparlIdSuffix = file.id.split('/').pop() || 'unknown';
-
-  const parts = [datePart?.part, namePart].filter(Boolean);
-
-  const filename = parts.length > 0
-    ? `${parts.join('_')}_${oparlIdSuffix}.pdf`
-    : `file_${oparlIdSuffix}.pdf`;
-
-  return {
-    year: datePart?.year || 'unknown',
-    filename: truncateFilename(filename),
-  };
+const generatePaperFolderName = (paper: OParlPaper): string => {
+  if (!paper.reference) return 'DS_unknown';
+  const ref = paper.reference.replace(/\s+/g, '_').replace(/\//g, '-');
+  return ref.startsWith('DS_') ? ref : `DS_${ref}`;
 };
 
-/**
- * Find unique filename by checking for collisions
- */
-const findUniqueFilename = (yearDir: string, baseFilename: string): string => {
-  const tryFilename = (name: string, counter: number): string =>
-    existsSync(join(yearDir, name))
-      ? tryFilename(`${baseFilename.replace('.pdf', '')}_${counter}.pdf`, counter + 1)
-      : name;
-
-  return tryFilename(baseFilename, 1);
+const generateMeetingFolderName = (meeting: OParlMeeting): string => {
+  const date = meeting.start ? meeting.start.split('T')[0] : 'unknown';
+  const name = meeting.name ? sanitize(meeting.name) : 'unknown';
+  return `${date}_${name}`;
 };
 
-/**
- * Extract short OParl ID from full URL
- */
-const extractOparlId = (url: string): string => {
-  return url.split('/').pop() || url;
+const download = (url: string, target: string): Effect.Effect<boolean, never> =>
+  pipe(
+    downloadFile(url),
+    Effect.flatMap((buf) =>
+      Effect.tryPromise({
+        try: async () => {
+          await mkdir(join(target, '..'), { recursive: true });
+          await writeFile(target, Buffer.from(buf));
+        },
+        catch: () => {},
+      }),
+    ),
+    Effect.map(() => true),
+    Effect.catchAll(() => Effect.succeed(false)),
+  );
+
+const downloadFileIfUrl = (obj: any, path: string): Effect.Effect<void, never> => {
+  if (!obj || typeof obj !== 'object') return Effect.void;
+  const url = obj.accessUrl || obj.downloadUrl;
+  if (!url) return Effect.void;
+  const filename = extractFilename(url);
+  return pipe(download(url, join(path, filename)), Effect.asVoid);
 };
 
-/**
- * Process a single file
- */
-const processFile = (
-  file: OParlFile,
-  config: ScraperConfig,
-  metadata: Record<string, DocumentMetadata>
-): Effect.Effect<{ downloaded: boolean; skipped: boolean; error: boolean }, never> => {
-  const oparlId = extractOparlId(file.id);
+const processPaper = (paper: OParlPaper, config: ScraperConfig, stats: Stats): Effect.Effect<void, never> => {
+  const folder = generatePaperFolderName(paper);
+  const path = join(config.documentsDir, 'papers', folder);
+  const metaPath = join(path, 'metadata.json');
 
-  // Already processed?
-  if (metadata[oparlId]) {
-    console.log(`⊘ Skipping: ${file.name || file.id}`);
-    return Effect.succeed({ downloaded: false, skipped: true, error: false });
+  if (existsSync(metaPath)) {
+    stats.papers.skipped++;
+    return Effect.void;
   }
 
-  // Only PDFs
-  if (!file.mimeType?.toLowerCase().includes('pdf')) {
-    return Effect.succeed({ downloaded: false, skipped: true, error: false });
-  }
+  const downloads: Effect.Effect<void, never>[] = [];
 
-  // Need URL
-  const url = file.accessUrl || file.downloadUrl;
-  if (!url) {
-    return Effect.succeed({ downloaded: false, skipped: true, error: false });
-  }
+  // Download mainFile
+  if (paper.mainFile) downloads.push(downloadFileIfUrl(paper.mainFile, path));
 
-  const { year, filename: baseFilename } = generateFilePath(file);
-  const yearDir = join(config.documentsDir, year);
-  const filename = findUniqueFilename(yearDir, baseFilename);
-  const relativePath = join(year, filename);
-  const filepath = join(config.documentsDir, relativePath);
+  // Download auxiliaryFiles
+  if (Array.isArray(paper.auxiliaryFile)) {
+    paper.auxiliaryFile.forEach((file) => downloads.push(downloadFileIfUrl(file, path)));
+  }
 
   return pipe(
-    downloadFile(url),
-    Effect.either,
-    Effect.flatMap((downloadResult) =>
-      downloadResult._tag === 'Left'
-        ? pipe(
-            Effect.sync(() => {
-              console.error(`✗ Error downloading ${file.name || file.id}: ${downloadResult.left.message}`);
-            }),
-            Effect.map(() => ({ downloaded: false, skipped: false, error: true }))
-          )
-        : pipe(
-            Effect.tryPromise({
-              try: async () => {
-                await mkdir(yearDir, { recursive: true });
-                await writeFile(filepath, Buffer.from(downloadResult.right));
-              },
-              catch: (error) => new Error(`Failed to save file: ${error}`),
-            }),
-            Effect.either,
-            Effect.flatMap((saveResult) =>
-              saveResult._tag === 'Left'
-                ? pipe(
-                    Effect.sync(() => {
-                      console.error(`✗ Error saving ${relativePath}: ${saveResult.left.message}`);
-                    }),
-                    Effect.map(() => ({ downloaded: false, skipped: false, error: true }))
-                  )
-                : pipe(
-                    Effect.sync(() => {
-                      console.log(`✓ Downloaded: ${relativePath}`);
-                      metadata[oparlId] = {
-                        oparl_id: oparlId,
-                        filename: relativePath,
-                        access_url: url,
-                        mime_type: file.mimeType,
-                        name: file.name,
-                        date: file.date,
-                        downloaded_at: new Date().toISOString(),
-                      };
-                    }),
-                    Effect.map(() => ({ downloaded: true, skipped: false, error: false }))
-                  )
-            )
-          )
-    )
+    Effect.all(downloads, { concurrency: 5 }),
+    Effect.flatMap(() =>
+      Effect.tryPromise({
+        try: async () => {
+          await mkdir(path, { recursive: true });
+          await writeFile(metaPath, JSON.stringify(paper, null, 2));
+        },
+        catch: () => {},
+      }),
+    ),
+    Effect.map(() => {
+      stats.papers.processed++;
+      console.log(`✓ ${folder}`);
+    }),
+    Effect.catchAll(() => {
+      stats.papers.errors++;
+      return Effect.void;
+    }),
   );
 };
 
-/**
- * Count results
- */
-const countResults = (results: Array<{ downloaded: boolean; skipped: boolean; error: boolean }>) =>
-  results.reduce(
-    (acc, result) => ({
-      downloaded: acc.downloaded + (result.downloaded ? 1 : 0),
-      skipped: acc.skipped + (result.skipped ? 1 : 0),
-      errors: acc.errors + (result.error ? 1 : 0),
-    }),
-    { downloaded: 0, skipped: 0, errors: 0 }
-  );
+const processMeeting = (meeting: OParlMeeting, config: ScraperConfig, stats: Stats): Effect.Effect<void, never> => {
+  const folder = generateMeetingFolderName(meeting);
+  const path = join(config.documentsDir, 'meetings', folder);
+  const metaPath = join(path, 'metadata.json');
 
-/**
- * Run the scraper with parallel downloads
- */
-export const runScraper = (config: ScraperConfig): Effect.Effect<void, Error> =>
-  pipe(
-    Effect.sync(() => config.metadataFile || join(config.documentsDir, 'metadata.json')),
-    Effect.tap(() => Effect.sync(() => console.log('🚀 Starting scraper...\n'))),
-    Effect.flatMap((metadataFile) =>
-      pipe(
-        loadMetadata(metadataFile),
-        Effect.tap((metadata) =>
-          Effect.sync(() =>
-            console.log(`📋 Loaded metadata for ${Object.keys(metadata).length} existing files\n`)
-          )
-        ),
-        Effect.tap(() => Effect.sync(() => console.log('📡 Fetching file list from OParl API...'))),
-        Effect.flatMap((metadata) =>
-          pipe(
-            fetchAllFiles(),
-            Effect.tap((files) =>
-              Effect.sync(() => console.log(`📚 Found ${files.length} files\n`))
-            ),
-            Effect.tap(() =>
-              Effect.sync(() => console.log('⚡ Processing with 64 parallel downloads...\n'))
-            ),
-            Effect.flatMap((files) =>
-              pipe(
-                Effect.all(
-                  files.map((file) => processFile(file, config, metadata)),
-                  { concurrency: 64 }
-                ),
-                Effect.map(countResults),
-                Effect.tap((counts) =>
-                  counts.downloaded > 0
-                    ? saveMetadata(metadataFile, metadata)
-                    : Effect.void
-                ),
-                Effect.tap((counts) =>
-                  Effect.sync(() => {
-                    console.log('\n✅ Scraping completed!');
-                    console.log(`   Downloaded: ${counts.downloaded}`);
-                    console.log(`   Skipped: ${counts.skipped}`);
-                    console.log(`   Errors: ${counts.errors}`);
-                  })
-                )
-              )
-            )
-          )
-        ),
-        Effect.asVoid
-      )
-    )
+  if (existsSync(metaPath)) {
+    stats.meetings.skipped++;
+    return Effect.void;
+  }
+
+  const downloads: Effect.Effect<void, never>[] = [];
+
+  // Download meeting files
+  if (meeting.invitation) downloads.push(downloadFileIfUrl(meeting.invitation, path));
+  if (meeting.resultsProtocol) downloads.push(downloadFileIfUrl(meeting.resultsProtocol, path));
+  if (meeting.verbatimProtocol) downloads.push(downloadFileIfUrl(meeting.verbatimProtocol, path));
+
+  // Download agenda item files
+  if (Array.isArray(meeting.agendaItem)) {
+    meeting.agendaItem.forEach((item: any) => {
+      if (Array.isArray(item?.auxiliaryFile)) {
+        item.auxiliaryFile.forEach((file: any) => downloads.push(downloadFileIfUrl(file, path)));
+      }
+    });
+  }
+
+  return pipe(
+    Effect.all(downloads, { concurrency: 5 }),
+    Effect.flatMap(() =>
+      Effect.tryPromise({
+        try: async () => {
+          await mkdir(path, { recursive: true });
+          await writeFile(metaPath, JSON.stringify(meeting, null, 2));
+        },
+        catch: () => {},
+      }),
+    ),
+    Effect.map(() => {
+      stats.meetings.processed++;
+      console.log(`✓ ${folder}`);
+    }),
+    Effect.catchAll(() => {
+      stats.meetings.errors++;
+      return Effect.void;
+    }),
   );
+};
+
+export const runScraper = (config: ScraperConfig): Effect.Effect<void, Error> => {
+  const stats: Stats = {
+    papers: { processed: 0, skipped: 0, errors: 0 },
+    meetings: { processed: 0, skipped: 0, errors: 0 },
+  };
+
+  return pipe(
+    Effect.sync(() => console.log('🚀 Starting scraper...\n')),
+    Effect.flatMap(() => Effect.sync(() => console.log('📡 Fetching Papers...'))),
+    Effect.flatMap(() => fetchAllPapers()),
+    Effect.tap((papers) => Effect.sync(() => console.log(`📚 Found ${papers.length} papers\n`))),
+    Effect.flatMap((papers) =>
+      Effect.all(
+        papers.map((p) => processPaper(p, config, stats)),
+        { concurrency: 5 },
+      ),
+    ),
+    Effect.flatMap(() => Effect.sync(() => console.log('\n📡 Fetching Meetings...'))),
+    Effect.flatMap(() => fetchAllMeetings()),
+    Effect.tap((meetings) => Effect.sync(() => console.log(`🏛️  Found ${meetings.length} meetings\n`))),
+    Effect.flatMap((meetings) =>
+      Effect.all(
+        meetings.map((m) => processMeeting(m, config, stats)),
+        { concurrency: 5 },
+      ),
+    ),
+    Effect.tap(() =>
+      Effect.sync(() => {
+        console.log('\n✅ Complete!');
+        console.log(
+          `\nPapers: ${stats.papers.processed} processed, ${stats.papers.skipped} skipped, ${stats.papers.errors} errors`,
+        );
+        console.log(
+          `Meetings: ${stats.meetings.processed} processed, ${stats.meetings.skipped} skipped, ${stats.meetings.errors} errors`,
+        );
+      }),
+    ),
+  );
+};

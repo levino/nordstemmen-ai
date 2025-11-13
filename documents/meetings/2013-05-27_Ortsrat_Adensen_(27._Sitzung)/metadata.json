@@ -1,0 +1,141 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2059",
+  "name": "Ortsrat Adensen (27. Sitzung)",
+  "start": "2013-05-27T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-2",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Adensen, Dorfstraße 19, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Dorfstraße 19",
+    "room": "Feuerwehrhaus Adensen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Adensen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T10:54:03+02:00",
+    "modified": "2019-06-06T11:57:02+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-11"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-10054",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2013-05-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYu2TL4XMENgG7J-kfb_O8SbouMLQN4Vq4TOdf8rYj24/Bekanntmachung_Ortsrat_Adensen_27.05.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYu2TL4XMENgG7J-kfb_O8SbouMLQN4Vq4TOdf8rYj24/Bekanntmachung_Ortsrat_Adensen_27.05.2013.pdf",
+    "created": "2013-05-15T13:00:25+02:00",
+    "modified": "2013-05-15T13:00:25+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-10232",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2013-05-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcgjquqoygqzkVugUXUjQAuDWNQhl9exfbgF3fBX2zVN/Oeffentliche_Niederschrift_Ortsrat_Adensen_27.05.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcgjquqoygqzkVugUXUjQAuDWNQhl9exfbgF3fBX2zVN/Oeffentliche_Niederschrift_Ortsrat_Adensen_27.05.2013.pdf",
+    "created": "2013-06-11T19:00:21+02:00",
+    "modified": "2013-06-11T19:00:21+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9727",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2013-05-14T17:28:31+02:00",
+      "modified": "2013-05-14T17:28:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9728",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2013-05-14T17:28:31+02:00",
+      "modified": "2013-05-14T17:28:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9729",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 12.11.2012",
+      "created": "2013-05-14T17:28:31+02:00",
+      "modified": "2013-05-14T17:28:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9730",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2013-05-14T17:28:31+02:00",
+      "modified": "2013-05-14T17:28:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9736",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Vergabe von Ortsratsmittel\na) Anschaffung einer Sitzgarnitur für den Dorfplatz (Beschluss Arbeitsgespräch)\nb) Neuordnung der Zuwendungen für Jubilare ab dem 90. Geburtstag\nc) Ausgaben für die Dorfpflege",
+      "created": "2013-05-14T17:30:10+02:00",
+      "modified": "2013-05-14T17:30:10+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9731",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Anhörung zur Aufstellung der Vorschlagsliste für die Neuwahl der Schöffen für die Jahre 2014 - 2018",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2274",
+      "created": "2013-05-14T17:28:31+02:00",
+      "modified": "2013-05-14T17:28:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9732",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-934",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Adensen 27.05.2013 18.00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2013-05-27",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbmVwpzCq0DucH_cXhAme8vEn8zUGOc3LCL3-LDAMffB/Ortsrat_Adensen_27.05.2013_18.00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbmVwpzCq0DucH_cXhAme8vEn8zUGOc3LCL3-LDAMffB/Ortsrat_Adensen_27.05.2013_18.00_Uhr.pdf",
+          "created": "2013-06-05T13:00:12+02:00",
+          "modified": "2013-06-05T13:00:12+02:00"
+        }
+      ],
+      "created": "2013-05-14T17:28:31+02:00",
+      "modified": "2013-05-14T17:28:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9733",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2013-05-14T17:28:31+02:00",
+      "modified": "2013-05-14T17:28:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9734",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Anträge und Anfragen\nInformationen der Maßnahmen zur Instandsetzung und Pflege des Wasserbeckens (Löschteich)\nGeschwindigkeitsbegrenzung in den Straßen Bergwinkelsweg und Mühlenfeld",
+      "created": "2013-05-14T17:28:31+02:00",
+      "modified": "2013-05-14T17:28:31+02:00"
+    }
+  ]
+}

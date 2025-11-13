@@ -1,0 +1,145 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1961",
+  "name": "Ortsrat Burgstemmen (18. Sitzung)",
+  "start": "2012-11-15T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Burgstemmen, Sackstraße 2, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Sackstraße 2",
+    "room": "Feuerwehrhaus Burgstemmen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Burgstemmen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:33:23+02:00",
+    "modified": "2019-06-06T11:56:46+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-12"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-9069",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2012-11-15",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSbz2zK324wgWl6LrKflLlB9WrjQ_97LMtG4Zhuvkycc/Bekanntmachung_Ortsrat_Burgstemmen_15.11.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSbz2zK324wgWl6LrKflLlB9WrjQ_97LMtG4Zhuvkycc/Bekanntmachung_Ortsrat_Burgstemmen_15.11.2012.pdf",
+    "created": "2012-11-06T17:12:01+01:00",
+    "modified": "2012-11-06T17:12:01+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-9470",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2012-11-15",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZR6sMetqRDw9oOc0GFeyko8grmP5HzG53riIQ9hM7U-b/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_15.11.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZR6sMetqRDw9oOc0GFeyko8grmP5HzG53riIQ9hM7U-b/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_15.11.2012.pdf",
+    "created": "2013-01-21T12:05:49+01:00",
+    "modified": "2013-01-21T12:05:49+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9135",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2012-11-06T08:54:18+01:00",
+      "modified": "2012-11-06T08:54:18+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9136",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2012-11-06T08:54:18+01:00",
+      "modified": "2012-11-06T08:54:18+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9137",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 28.06.2012",
+      "created": "2012-11-06T08:54:18+01:00",
+      "modified": "2012-11-06T08:54:18+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9143",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2012-11-06T08:55:19+01:00",
+      "modified": "2012-11-06T08:55:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9138",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Anhörung zum Haushaltsplan 2013 und zum Investitionsprogramm bis 2016 für die Ortschaft Burgstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2046",
+      "created": "2012-11-06T08:54:18+01:00",
+      "modified": "2012-11-06T08:54:18+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9144",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Verwendung der im Haushaltsjahr 2012 noch zur Verfügung stehenden Ortsratsmittel\n- Beratung und Beschlussfassung (Anlage 1)",
+      "created": "2012-11-06T08:56:35+01:00",
+      "modified": "2012-11-06T08:56:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9145",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Installation einer Geschwindigkeitsmessanlage\n- Beratung und Beschlussempfehlung; Ausführungen werden in der Sitzung gemacht)",
+      "created": "2012-11-06T08:57:37+01:00",
+      "modified": "2012-11-06T08:57:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9146",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Kreuzungsbereich B1/Bethelner Straße\n(Lärmbelästigung durch Gullideckel und Schwerlastverkehr)\n- Beratung und Beschlussempfehlung; Ausführungen werden in der Sitzung gemacht",
+      "created": "2012-11-06T09:00:55+01:00",
+      "modified": "2012-11-06T09:00:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9139",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters\n- Fahrbahnmarkierungen Radweg Straßenecke Feldstraße/Nordstraße\n- Beobachtungen der Politesse bezüglich zurückgeschnittener Hecken und gereinigter Gossen/Gehwege\n- Kopfeschen \"Am Paradies\"\n- Gehweg im Bereich Feldstraße bis Am Hang\n- Graben gegenüber dem Pegelhaus an der Leine\n- Rampe Mehrzweckhalle\n- geplante Verkehrsinsel Ortseinfahrt Burgstemmen\n- Straßenzustand Mühlenweg",
+      "created": "2012-11-06T08:54:18+01:00",
+      "modified": "2012-11-06T08:54:18+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9147",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2012-11-06T09:02:47+01:00",
+      "modified": "2012-11-06T09:02:47+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9140",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anträge und Anfragen",
+      "created": "2012-11-06T08:54:18+01:00",
+      "modified": "2012-11-06T08:54:18+01:00"
+    }
+  ]
+}

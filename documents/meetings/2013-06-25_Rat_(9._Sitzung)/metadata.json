@@ -1,0 +1,321 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2075",
+  "name": "Rat (9. Sitzung)",
+  "start": "2013-06-25T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-10228",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2013-06-25",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVMGDAGEwKu1VcJ12DHhAjd9K6EiG0WSVA2WLk6rx5Os/Bekanntmachung_Rat_25.06.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVMGDAGEwKu1VcJ12DHhAjd9K6EiG0WSVA2WLk6rx5Os/Bekanntmachung_Rat_25.06.2013.pdf",
+    "created": "2013-06-05T13:00:12+02:00",
+    "modified": "2013-06-05T13:00:12+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-11389",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2013-06-25",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZftoqJKA7tbFGl-K6dwVAB-FfwkzV6xJXjvoHYoD9ZdE/Oeffentliche_Niederschrift_Rat_25.06.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZftoqJKA7tbFGl-K6dwVAB-FfwkzV6xJXjvoHYoD9ZdE/Oeffentliche_Niederschrift_Rat_25.06.2013.pdf",
+    "created": "2013-07-09T13:02:52+02:00",
+    "modified": "2013-07-09T13:02:52+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9852",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2013-06-03T09:16:34+02:00",
+      "modified": "2013-06-03T09:16:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9853",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2013-06-03T09:16:34+02:00",
+      "modified": "2013-06-03T09:16:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9854",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung des Rates vom 14. März 2013",
+      "created": "2013-06-03T09:16:34+02:00",
+      "modified": "2013-06-03T09:16:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9855",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht des Bürgermeisters über die ausgeführten Beschlüsse des Rates aus der Sitzung vom 14.03.2013 sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-944",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Rat 25.06.2013 18.30 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2013-06-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUeF_-omEm8eeYMQ167qStuql0zMF9SGQNJbDXGAus-7/Rat_25.06.2013_18.30_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUeF_-omEm8eeYMQ167qStuql0zMF9SGQNJbDXGAus-7/Rat_25.06.2013_18.30_Uhr.pdf",
+          "created": "2013-07-02T13:02:59+02:00",
+          "modified": "2013-07-02T13:02:59+02:00"
+        }
+      ],
+      "created": "2013-06-03T09:16:34+02:00",
+      "modified": "2013-06-03T09:16:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9856",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2013-06-03T09:16:34+02:00",
+      "modified": "2013-06-03T09:16:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9865",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Ernennung von Führungskräften der Freiwilligen Feuerwehr Nordstemmen\na)\tGemeindebrandmeister für die Freiwillige Feuerwehr der Gemeinde Nordstemmen\nb)\tstellv. Ortsbrandmeister der Ortsfeuerwehr Heyersum",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2390",
+      "created": "2013-06-03T09:16:34+02:00",
+      "modified": "2013-06-03T09:41:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9857",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Vorschlagsliste für die Neuwahl der Schöffen für die Jahre 2014 bis 2018",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2396",
+      "created": "2013-06-03T09:16:34+02:00",
+      "modified": "2013-06-03T09:16:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9858",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bekanntgabe des Berichts über die örtliche Prüfung der Gemeindekasse Nordstemmen aus Anlass des Wechsels des Kassenverwalters durch das Rechnungsprüfungsamt des Landkreises Hildesheim",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2307",
+      "created": "2013-06-03T09:16:34+02:00",
+      "modified": "2013-06-03T09:16:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9859",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Außerplanmäßige Ausgabe für Pensions- und Beihilferückstellungen im Haushaltsjahr 2013",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2397",
+      "created": "2013-06-03T09:16:34+02:00",
+      "modified": "2013-06-03T09:16:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9873",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Ganztagsgrundschule Barnten - Fortführung des offenen Nachmittagsangebotes bis zum 31. Juli 2014",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2342",
+      "created": "2013-06-03T09:16:35+02:00",
+      "modified": "2013-06-03T09:21:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9866",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Ganztagsgrundschule Nordstemmen – Fortführung und Erweiterung des offenen Nachmittagsangebotes",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2335",
+      "created": "2013-06-03T09:16:34+02:00",
+      "modified": "2013-06-03T09:21:57+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9875",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Antrag der Grundschule Barnten zur Weiterführung des LeFis-Projektes im Schuljahr 2013/2014",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2357",
+      "created": "2013-06-03T09:16:35+02:00",
+      "modified": "2013-06-03T09:20:50+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9876",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Schulorganisatorische Maßnahme - Festlegung der Zügigkeiten an den Grundschulen Barnten und Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2364",
+      "created": "2013-06-03T09:16:35+02:00",
+      "modified": "2013-06-03T09:23:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9867",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Betriebsformen in den Kindertagesstätten der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2290",
+      "created": "2013-06-03T09:16:34+02:00",
+      "modified": "2013-06-03T09:23:42+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9868",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Sonderöffnungszeiten in den Kindertagesstätten der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2297",
+      "created": "2013-06-03T09:16:35+02:00",
+      "modified": "2013-06-03T09:24:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9869",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Beförderung von Kindern in die Kindertagesstätten der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2304",
+      "created": "2013-06-03T09:16:35+02:00",
+      "modified": "2013-06-03T09:24:33+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9880",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15.1",
+      "order": 17,
+      "name": "Beförderung von Kindern in die Kindertagesstätten der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2399",
+      "created": "2013-06-03T09:38:53+02:00",
+      "modified": "2013-06-03T09:38:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9870",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 18,
+      "name": "Festsetzung der Elternbeiträge für die Kindertagesstätten und Kindertagespflege",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2314",
+      "created": "2013-06-03T09:16:35+02:00",
+      "modified": "2013-06-03T09:25:36+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9871",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 19,
+      "name": "Betreuungskonzept zur Kinderbetreuung in der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2321",
+      "created": "2013-06-03T09:16:35+02:00",
+      "modified": "2013-06-03T09:25:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9872",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "18",
+      "order": 20,
+      "name": "Antrag der DRK- Kinder- und Jugendhilfe gGmbH auf Einrichtung einer altersübergreifenden (aü) Gruppe in der Kindertagesstätte Adensen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2328",
+      "created": "2013-06-03T09:16:35+02:00",
+      "modified": "2013-06-03T09:26:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9863",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "19",
+      "order": 21,
+      "name": "Bebauungsplan Nr. 0122 \"Innerörtliche Verbindungsstraße / Zuckerfabrik\", 9. Änderung\n- erneute Beratung über die öffentliche Auslegung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2373",
+      "created": "2013-06-03T09:16:34+02:00",
+      "modified": "2013-06-03T09:42:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9860",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "20",
+      "order": 22,
+      "name": "Widmung von Straßenflächen in der Ortschaft Nordstemmen und Fortschreibung des Bestandsverzeichnisses",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2179",
+      "created": "2013-06-03T09:16:34+02:00",
+      "modified": "2013-06-03T09:16:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9861",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "21",
+      "order": 23,
+      "name": "Aufhebung der Straße \"Kötnerweg\" in der Ortschaft Nordstemmen als öffentliche Straße (Gemeindestraße)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2187",
+      "created": "2013-06-03T09:16:34+02:00",
+      "modified": "2013-06-03T09:16:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9862",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "22",
+      "order": 24,
+      "name": "Neuordnung der Grundstücke im Bereich des Schul- und Sportzentrums in der Ortschaft Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2194",
+      "created": "2013-06-03T09:16:34+02:00",
+      "modified": "2013-06-03T09:16:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9864",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "23",
+      "order": 25,
+      "name": "Klimaschutzprogramm für den Landkreis Hildesheim",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2374",
+      "created": "2013-06-03T09:16:34+02:00",
+      "modified": "2013-06-03T09:27:53+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9877",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "24",
+      "order": 26,
+      "name": "Mitteilungen bzw. Bericht des Bürgermeisters",
+      "created": "2013-06-03T09:16:35+02:00",
+      "modified": "2013-06-03T09:16:35+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9878",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "25",
+      "order": 27,
+      "name": "Anträge und Anfragen",
+      "created": "2013-06-03T09:16:35+02:00",
+      "modified": "2013-06-03T09:16:35+02:00"
+    }
+  ]
+}

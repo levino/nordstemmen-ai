@@ -1,0 +1,145 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1125",
+  "name": "Fachausschuss Planung, Bau, Umwelt, Sicherheit (22. Sitzung)",
+  "start": "2008-07-02T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-6"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-2770",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Planung, Bau, Umwelt, Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2008-07-02",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfN69WvvYy1Ab6-viWye32PLSDPSJCRiH1vDxy7lwM3a/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_02.07.2008.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfN69WvvYy1Ab6-viWye32PLSDPSJCRiH1vDxy7lwM3a/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_02.07.2008.pdf",
+    "created": "2008-06-24T13:34:05+02:00",
+    "modified": "2008-06-24T13:34:05+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3733",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2008-06-19T08:43:38+02:00",
+      "modified": "2008-06-19T08:43:38+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3734",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2008-06-19T08:43:38+02:00",
+      "modified": "2008-06-19T08:43:38+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3735",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschriften der Sitzungen vom\n15. April 2008\n04. Juni 2008",
+      "created": "2008-06-19T08:43:38+02:00",
+      "modified": "2008-06-19T08:43:38+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4839",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bauleitplanung der Gemeinde Nordstemmen\n\na)18. Änderung des Flächennutzungsplanes der Gemeinde Nordstemmen\n(Tiergarten-Hallerburg)\n\nb)Bebauungsplan Nr. 0603 \"Am Tiergarten\", Ortschaft Hallerburg",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/712",
+      "created": "2009-08-17T08:19:03+02:00",
+      "modified": "2009-08-17T08:19:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4837",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bebauungsplan Nr. 0120 \"Hauptstraße - Mitte III\", 1. Änderung, Ortschaft Nordstemmen\n- zweite öffentliche Auslegung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/722",
+      "created": "2009-08-17T08:12:41+02:00",
+      "modified": "2009-08-17T08:12:41+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4836",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "17. Änderung des Flächennutzungsplanes (ÖPNV-Haltepunkt Bahnhof Nordstemmen II);\n\nFeststellungsbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/742",
+      "created": "2009-08-17T08:12:07+02:00",
+      "modified": "2009-08-17T08:12:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4835",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "B-Plan 0129 A ÖPNV-Haltepunkt Bahnhof Nordstemmen II\n\n- zweite öffentliche Auslegung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/747",
+      "created": "2009-08-17T08:11:29+02:00",
+      "modified": "2009-08-17T08:11:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4834",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 8,
+      "name": "Fahrbahnerneuerung der Gemeindeverbindungsstraße Barnten - Nordstemmen;\nerweiterter Maßnahmenbeschluss um einen zweiten und dritten Bauabschnitt",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/737",
+      "created": "2009-08-17T08:10:15+02:00",
+      "modified": "2009-08-17T08:18:30+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3747",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Erschließung eines Teilstückes der Straße \"Jägerweg\", Ortschaft Rössing - Maßnahmenbeschluss\n(DS 35/2008)",
+      "created": "2008-06-19T08:57:15+02:00",
+      "modified": "2008-06-19T08:59:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3739",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2008-06-19T08:43:38+02:00",
+      "modified": "2008-06-19T08:56:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3740",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Behandlung von Anfragen",
+      "created": "2008-06-19T08:43:38+02:00",
+      "modified": "2008-06-19T08:56:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3741",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Anregungen",
+      "created": "2008-06-19T08:43:38+02:00",
+      "modified": "2008-06-19T08:56:24+02:00"
+    }
+  ]
+}

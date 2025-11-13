@@ -1,0 +1,222 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2679",
+  "name": "Ortsrat Barnten (19. Sitzung)",
+  "start": "2016-05-12T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-5",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Barnten, Glückaufstraße 1, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Glückaufstraße 1",
+    "room": "Dorfgemeinschaftshaus Barnten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Barnten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:29:00+02:00",
+    "modified": "2019-06-06T11:57:52+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-10"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-16079",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2016-05-12",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQE1ptig5ObTG-BmGnXkPAzmG8r-ZDsfYpKTnIoNJ2En/Bekanntmachung_Ortsrat_Barnten_12.05.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQE1ptig5ObTG-BmGnXkPAzmG8r-ZDsfYpKTnIoNJ2En/Bekanntmachung_Ortsrat_Barnten_12.05.2016.pdf",
+    "created": "2016-05-12T19:01:09+02:00",
+    "modified": "2016-05-12T19:01:09+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-16526",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2016-05-12",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfiarUxTJgsJhf_lsfgoTbMPqL7BrPvv9_8osAu8G228/Oeffentliche_Niederschrift_Ortsrat_Barnten_12.05.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfiarUxTJgsJhf_lsfgoTbMPqL7BrPvv9_8osAu8G228/Oeffentliche_Niederschrift_Ortsrat_Barnten_12.05.2016.pdf",
+    "created": "2016-06-14T13:01:51+02:00",
+    "modified": "2016-06-14T13:01:51+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12769",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2016-04-19T16:57:52+02:00",
+      "modified": "2016-04-19T16:57:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12770",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2016-04-19T16:57:52+02:00",
+      "modified": "2016-04-19T16:57:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12780",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Feststellung des Sitzverlustes des Ortsratsmitgliedes Herrn Günter Lichthardt",
+      "created": "2016-04-21T16:12:21+02:00",
+      "modified": "2016-04-21T16:15:21+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12783",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Verpflichtung und Pflichtenbelehrung eines nachrückenden Ortsratsmitgliedes",
+      "created": "2016-04-21T17:05:58+02:00",
+      "modified": "2016-04-21T17:05:58+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12771",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Genehmigung des Protokolls der Sitzung vom 04.02.2016",
+      "created": "2016-04-19T16:57:52+02:00",
+      "modified": "2016-05-12T17:00:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12772",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohnerfragestunde",
+      "created": "2016-04-19T16:57:52+02:00",
+      "modified": "2016-04-21T17:10:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12781",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Anpassung der Ortsratsmittel ab dem Haushaltsjahr 2017\n- Beratung und Beschlussfassung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1559",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 Ortsrat Barnten 12.05.2016)",
+          "mimeType": "application/pdf",
+          "date": "2016-05-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaLJUfzEQgNefb2Jg5eZH2XVnw6aCtj7gpQ3RnVvfjPJ/Anlage_1_Ortsrat_Barnten_12.05.2016.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaLJUfzEQgNefb2Jg5eZH2XVnw6aCtj7gpQ3RnVvfjPJ/Anlage_1_Ortsrat_Barnten_12.05.2016.pdf",
+          "created": "2016-06-10T13:01:01+02:00",
+          "modified": "2016-06-10T13:01:01+02:00"
+        }
+      ],
+      "created": "2016-04-21T16:13:07+02:00",
+      "modified": "2016-04-21T16:13:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12782",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Rückbau des Gehweges Bürgermeister-Lampe-Straße, von Nr. 8 - Ecke Köhlers Scheune/Landesstraße\n- Beratung und Beschlussfassung",
+      "created": "2016-04-21T16:14:07+02:00",
+      "modified": "2016-04-21T16:14:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12773",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Widmung von Straßenflächen in der Ortschaft Barnten und Fortschreibung des Bestandsverzeichnisses;\nhier: Landesstraße",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3436",
+      "result": "Zur Kenntnis genommen",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-16488",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Widmung von Straßenflächen in der Ortschaft Barnten und Fortschreibung des Bestandsverzeichnisses;\nhier: Landesstraße)",
+        "mimeType": "application/pdf",
+        "date": "2016-05-12",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRFha2tOFOVHj3E-HcgbyFzPEW55ZiuABAS6T9RWvsGK/Beschlusstext_DS_27-2016_-oeffentlich-_Ortsrat_Barnten_12.05.2016.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRFha2tOFOVHj3E-HcgbyFzPEW55ZiuABAS6T9RWvsGK/Beschlusstext_DS_27-2016_-oeffentlich-_Ortsrat_Barnten_12.05.2016.pdf",
+        "created": "2016-06-14T13:01:51+02:00",
+        "modified": "2016-06-14T13:01:51+02:00"
+      },
+      "created": "2016-04-19T16:57:52+02:00",
+      "modified": "2016-06-10T12:42:48+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12841",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Wiedereinführung des Durchfahrtverbotes für LKW im Zuge der Landesstraße / Glückaufstraße / Sarstedter Straße in der Ortschaft Barnten;\nBeratung und Empfehlung",
+      "created": "2016-04-29T11:02:15+02:00",
+      "modified": "2016-04-29T11:02:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12842",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Zuschuss zur Anschaffung eines AED (Automatischer Externer Defibrillator) durch die Feuerwehr Barnten",
+      "created": "2016-04-29T11:03:47+02:00",
+      "modified": "2016-04-29T11:03:47+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12785",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Festlegung des Termins zur Ortsbegehung 2016\n- Beratung und Beschlussfassung",
+      "created": "2016-04-22T08:28:44+02:00",
+      "modified": "2016-04-22T08:28:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12774",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2016-04-19T16:57:52+02:00",
+      "modified": "2016-04-19T16:57:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12775",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 15,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1558",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2 zum Ortsrat Barnten 12.05.2016)",
+          "mimeType": "application/pdf",
+          "date": "2016-05-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfEYbzqVSTee9rw4S0znbghhQf8rSgkJT1UiUBPD21XI/Anlage_2_zum_Ortsrat_Barnten_12.05.2016.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfEYbzqVSTee9rw4S0znbghhQf8rSgkJT1UiUBPD21XI/Anlage_2_zum_Ortsrat_Barnten_12.05.2016.pdf",
+          "created": "2016-06-10T13:01:01+02:00",
+          "modified": "2016-06-10T13:01:01+02:00"
+        }
+      ],
+      "created": "2016-04-19T16:57:52+02:00",
+      "modified": "2016-04-19T16:57:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12776",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 16,
+      "name": "Anträge und Anfragen",
+      "created": "2016-04-19T16:57:52+02:00",
+      "modified": "2016-04-19T16:57:52+02:00"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2687",
+  "name": "Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie (18. Sitzung)",
+  "start": "2016-05-31T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-20",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer Rathaus Altbau",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer Rathaus Altbau",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2009-02-10T14:08:10+01:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-7"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-16199",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie)",
+    "mimeType": "application/pdf",
+    "date": "2016-05-31",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUgLLF5JEn0CtRcTAM_yd05IaB05Oo05qqq3JeMF2YOZ/Bekanntmachung_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_31.05.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUgLLF5JEn0CtRcTAM_yd05IaB05Oo05qqq3JeMF2YOZ/Bekanntmachung_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_31.05.2016.pdf",
+    "created": "2016-05-23T13:01:11+02:00",
+    "modified": "2016-05-23T13:01:11+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-16550",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie)",
+    "mimeType": "application/pdf",
+    "date": "2016-05-31",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVBLOykbdx0agQInpieRTXELYjcx2JEHI4u_AoszzM1V/Oeffentliche_Niederschrift_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_31.05.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVBLOykbdx0agQInpieRTXELYjcx2JEHI4u_AoszzM1V/Oeffentliche_Niederschrift_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_31.05.2016.pdf",
+    "created": "2016-06-20T19:01:09+02:00",
+    "modified": "2016-06-20T19:01:09+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12919",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2016-05-20T13:10:55+02:00",
+      "modified": "2016-05-20T13:10:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12920",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2016-05-20T13:10:55+02:00",
+      "modified": "2016-05-20T13:10:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12921",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 23.02.2016",
+      "created": "2016-05-20T13:10:55+02:00",
+      "modified": "2016-05-20T13:10:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12922",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2016-05-20T13:10:55+02:00",
+      "modified": "2016-05-20T13:10:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12923",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Festsetzung der Elternbeiträge für die Kindertagesstätten und Kindertagespflege",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3496",
+      "result": "5 Ja-Stimme(n), 4 Gegenstimme(n), 0 Stimmenthaltung(en)",
+      "created": "2016-05-20T13:10:55+02:00",
+      "modified": "2016-06-15T12:45:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12924",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Umbaumaßnahmen für die Umwandlung einer Kindergartengruppe in eine Krippengruppe in der ev.-luth. Kindertagesstätte St. Johannes Groß Escherde\n\nZustimmung zu einer überplanmäßigen Auszahlung; Eilentscheidung gem. § 89 NKomVG",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3503",
+      "result": "9 Ja-Stimme(n), 0 Gegenstimme(n), 0 Stimmenthaltung(en)",
+      "created": "2016-05-20T13:10:55+02:00",
+      "modified": "2016-06-15T12:45:39+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12925",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Antrag auf Bezuschussung des KOMM e. V. Mehrgenerationenhauses (MGH) Nordstemmen für die Haushaltsjahre 2017 bis 2020",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3513",
+      "result": "9 Ja-Stimme(n), 0 Gegenstimme(n), 0 Stimmenthaltung(en)",
+      "created": "2016-05-20T13:10:55+02:00",
+      "modified": "2016-06-15T12:45:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12929",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Sachstandsbericht über das Präventionsprojekt Communities That Care - CTC",
+      "created": "2016-05-23T07:58:17+02:00",
+      "modified": "2016-05-23T07:58:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12926",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2016-05-20T13:10:55+02:00",
+      "modified": "2016-05-20T13:10:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12927",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Anträge und Anfragen",
+      "created": "2016-05-20T13:10:55+02:00",
+      "modified": "2016-05-20T13:10:55+02:00"
+    }
+  ]
+}

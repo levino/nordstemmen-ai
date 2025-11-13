@@ -1,0 +1,143 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4758",
+  "name": "Fachausschuss Planung, Bau und Umwelt (25. Sitzung)",
+  "start": "2021-09-14T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-13",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Grundschule Nordstemmen, Asternstraße 13, 31171 Nordstemmen, Musikraum",
+    "streetAddress": "Asternstraße 13",
+    "room": "Grundschule Nordstemmen, Musikraum",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2006-05-15T10:39:45+02:00",
+    "modified": "2022-05-17T15:56:26+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-31"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-32100",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Planung, Bau und Umwelt)",
+    "mimeType": "application/pdf",
+    "date": "2021-09-14",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQUf_y8fLtcOef7LqnCbfyTLuFJobazTKvPd57VIvE1W/Bekanntmachung_Fachausschuss_Planung-_Bau_und_Umwelt_14.09.2021.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQUf_y8fLtcOef7LqnCbfyTLuFJobazTKvPd57VIvE1W/Bekanntmachung_Fachausschuss_Planung-_Bau_und_Umwelt_14.09.2021.pdf",
+    "created": "2021-09-03T13:00:19+02:00",
+    "modified": "2021-09-06T19:00:05+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-32348",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Planung, Bau und Umwelt)",
+    "mimeType": "application/pdf",
+    "date": "2021-09-14",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWA8056VLtNBNKuqAPvVx58FP5dc_uPJtO-8hNgT5Ynu/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau_und_Umwelt_14.09.2021.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWA8056VLtNBNKuqAPvVx58FP5dc_uPJtO-8hNgT5Ynu/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau_und_Umwelt_14.09.2021.pdf",
+    "created": "2021-10-08T13:00:03+02:00",
+    "modified": "2021-10-08T13:00:03+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18880",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2021-08-31T07:48:18+02:00",
+      "modified": "2021-09-03T11:09:36+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18881",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2021-08-31T07:48:18+02:00",
+      "modified": "2021-08-31T07:48:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18882",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 10. Juni 2021",
+      "created": "2021-08-31T07:48:18+02:00",
+      "modified": "2021-09-03T10:25:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18883",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2021-08-31T07:48:18+02:00",
+      "modified": "2021-08-31T07:48:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18884",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Beauftragung eines Planungsbüros für die Erstellung eines kommunalen Radverkehrskonzeptes für die Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7150",
+      "result": "Einstimmig/lt. Beschlussvorschlag",
+      "created": "2021-08-31T07:48:18+02:00",
+      "modified": "2021-08-31T07:48:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18905",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bebauungsplan Nr. 0123 \"Heyersumer Straße - Süd\", 3. Änderung, Ortschaft Nordstemmen\n- Aufstellungsbeschluss gemäß § 2 Absatz 1 BauGB",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7165",
+      "result": "Einstimmig/lt. Beschlussvorschlag",
+      "created": "2021-09-03T10:26:01+02:00",
+      "modified": "2021-09-03T10:26:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18906",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Aktuelle Themen im Bereich Hoch- und Tiefbau",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5284",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (2021-09-14 Liste Themen Anlage 1 - Kopie)",
+          "mimeType": "application/pdf",
+          "date": "2021-09-14",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRHhQLN99J734HKNA8BNWs2QaJIOkJsj3VtIiK9hvT63/2021-09-14_Liste_Themen_Anlage_1_-_Kopie.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRHhQLN99J734HKNA8BNWs2QaJIOkJsj3VtIiK9hvT63/2021-09-14_Liste_Themen_Anlage_1_-_Kopie.pdf",
+          "created": "2021-10-08T13:00:03+02:00",
+          "modified": "2021-10-08T13:00:03+02:00"
+        }
+      ],
+      "created": "2021-09-03T10:27:08+02:00",
+      "modified": "2021-09-03T10:27:08+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18885",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bericht bzw. Mitteilungen der Bürgermeisterin",
+      "created": "2021-08-31T07:48:18+02:00",
+      "modified": "2021-08-31T07:48:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18886",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Anträge und Anfragen",
+      "created": "2021-08-31T07:48:18+02:00",
+      "modified": "2021-08-31T07:48:18+02:00"
+    }
+  ]
+}

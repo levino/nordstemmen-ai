@@ -1,0 +1,198 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2282",
+  "name": "Ortsrat Heyersum (23. Sitzung)",
+  "start": "2014-06-12T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-8",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Altes Schulhaus Heyersum, Martin-Luther-Platz 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Martin-Luther-Platz 3",
+    "room": "Altes Schulhaus Heyersum, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Heyersum",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:37:30+02:00",
+    "modified": "2019-10-24T16:49:00+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-13"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-12764",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2014-06-12",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTzPI3UQRzcd7qqOFOvtbSr2XJqsuygrzZ3bjN7oefDe/Bekanntmachung_Ortsrat_Heyersum_12.06.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTzPI3UQRzcd7qqOFOvtbSr2XJqsuygrzZ3bjN7oefDe/Bekanntmachung_Ortsrat_Heyersum_12.06.2014.pdf",
+    "created": "2014-06-05T13:01:00+02:00",
+    "modified": "2014-06-05T13:01:00+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-12953",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2014-06-12",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWZYwA12OiBPbAtDHc8adrB7H2-y874q-KWFTyk2OL5q/Oeffentliche_Niederschrift_Ortsrat_Heyersum_12.06.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWZYwA12OiBPbAtDHc8adrB7H2-y874q-KWFTyk2OL5q/Oeffentliche_Niederschrift_Ortsrat_Heyersum_12.06.2014.pdf",
+    "created": "2014-07-15T13:00:41+02:00",
+    "modified": "2014-07-15T13:00:41+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10763",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2014-06-02T07:29:15+02:00",
+      "modified": "2014-06-02T07:29:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10764",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2014-06-02T07:29:15+02:00",
+      "modified": "2014-06-02T07:29:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10765",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 17.02.2014",
+      "created": "2014-06-02T07:29:15+02:00",
+      "modified": "2014-06-02T07:29:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10766",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2014-06-02T07:29:15+02:00",
+      "modified": "2014-06-02T07:29:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10771",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Antrag zur Bereitstellung von Mittel für den Haushalt 2015 für die Sanierung der sanitären Räume in der Heinz-Fiolka-Halle Heyersum\n- Beratung und Beschlussempfehlung\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2014-06-02T07:30:48+02:00",
+      "modified": "2014-06-02T09:01:00+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10957",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Schutzhütte für Heyersum",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1125",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Heyersum 12.06.2014 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2014-06-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSRk3HdxhwCxf6heS0PB1vXLMihIu3gAMpwylz__Yb1H/Ortsrat_Heyersum_12.06.2014_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSRk3HdxhwCxf6heS0PB1vXLMihIu3gAMpwylz__Yb1H/Ortsrat_Heyersum_12.06.2014_18-00_Uhr.pdf",
+          "created": "2014-07-15T13:00:41+02:00",
+          "modified": "2014-07-15T13:00:41+02:00"
+        }
+      ],
+      "created": "2014-07-14T11:17:18+02:00",
+      "modified": "2014-07-14T11:17:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10958",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bau einer Solaranlage durch die Marienbergschule Nordstemmen",
+      "created": "2014-07-14T11:17:55+02:00",
+      "modified": "2014-07-14T11:17:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10959",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Antrag für Einbau einer Kraftstromsteckdose für Platz \"Osterfeuer\"",
+      "created": "2014-07-14T11:18:54+02:00",
+      "modified": "2014-07-14T11:18:54+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10772",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilung des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1126",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Heyersum 12.06.2014 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2014-06-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRn0Md64GCS0gPkanCVeoLstdvOLEeYo7q1WdlK4BKJE/Ortsrat_Heyersum_12.06.2014_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRn0Md64GCS0gPkanCVeoLstdvOLEeYo7q1WdlK4BKJE/Ortsrat_Heyersum_12.06.2014_18-00_Uhr.pdf",
+          "created": "2014-07-14T19:00:24+02:00",
+          "modified": "2014-07-14T19:00:24+02:00"
+        }
+      ],
+      "created": "2014-06-02T07:32:17+02:00",
+      "modified": "2014-06-02T09:11:35+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10768",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1127",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Heyersum 12.06.2014 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2014-06-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXYvptz5Eh_BKBfQHpN7yB1jYEA1nX93RB2eGOfsH4Fi/Ortsrat_Heyersum_12.06.2014_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXYvptz5Eh_BKBfQHpN7yB1jYEA1nX93RB2eGOfsH4Fi/Ortsrat_Heyersum_12.06.2014_18-00_Uhr.pdf",
+          "created": "2014-07-14T19:00:24+02:00",
+          "modified": "2014-07-14T19:00:24+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1128",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Heyersum 12.06.2014 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2014-06-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZduuf2BIoFEZ8PqeK8mgY6VvuVcIGb474Vw35lwuHMta/Ortsrat_Heyersum_12.06.2014_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZduuf2BIoFEZ8PqeK8mgY6VvuVcIGb474Vw35lwuHMta/Ortsrat_Heyersum_12.06.2014_18-00_Uhr.pdf",
+          "created": "2014-07-14T19:00:24+02:00",
+          "modified": "2014-07-14T19:00:24+02:00"
+        }
+      ],
+      "created": "2014-06-02T07:29:15+02:00",
+      "modified": "2014-06-02T07:29:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10769",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Anträge und Anfragen",
+      "created": "2014-06-02T07:29:15+02:00",
+      "modified": "2014-06-02T07:29:15+02:00"
+    }
+  ]
+}

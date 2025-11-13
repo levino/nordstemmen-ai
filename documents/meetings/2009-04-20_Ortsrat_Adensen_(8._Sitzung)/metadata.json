@@ -1,0 +1,132 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1267",
+  "name": "Ortsrat Adensen (8. Sitzung)",
+  "start": "2009-04-20T19:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-2",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Adensen, Dorfstraße 19, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Dorfstraße 19",
+    "room": "Feuerwehrhaus Adensen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Adensen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T10:54:03+02:00",
+    "modified": "2019-06-06T11:57:02+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-11"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-3773",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2009-04-20",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTbA12GNO-fK_EXVQErUwpvZahVpRCMdh9piLjfcZ7g_/Bekanntmachung_Ortsrat_Adensen_20.04.2009.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTbA12GNO-fK_EXVQErUwpvZahVpRCMdh9piLjfcZ7g_/Bekanntmachung_Ortsrat_Adensen_20.04.2009.pdf",
+    "created": "2009-04-16T18:11:55+02:00",
+    "modified": "2009-04-16T18:11:55+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4488",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2009-04-08T09:12:29+02:00",
+      "modified": "2009-04-08T09:12:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4489",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2009-04-08T09:12:29+02:00",
+      "modified": "2009-04-08T09:12:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4490",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 30. Oktober 2008",
+      "created": "2009-04-08T09:12:29+02:00",
+      "modified": "2009-04-08T09:12:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4491",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2009-04-08T09:12:29+02:00",
+      "modified": "2009-04-08T09:12:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4498",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Antrag der UWG-Fraktion:\n\n- Erneuerung der Auslegware (Teppichplatten) in der Rolf-Gehrke-Halle\n  (Beratung und Beschlussempfehlung; Ausführungen werden in der Sitzung\n  gemacht)\n  - siehe Anlage 1 -",
+      "created": "2009-04-08T09:13:25+02:00",
+      "modified": "2009-04-08T09:13:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4499",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Antrag der UWG-Fraktion:\n\n- Erneuerung des Teppichbodens im Sitzungsraum des Feuerwehrhauses\n  (Beratung und Beschlussempfehlung; Ausführungen werden in der Sitzung\n  gemacht)\n  - siehe Anlage 1 -",
+      "created": "2009-04-08T09:16:34+02:00",
+      "modified": "2009-04-08T09:18:48+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4495",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Mitteilungen des Bürgermeisters\n\n- Stand Baumaßnahme Adenoyser Straße / Am Thie\n- Erweiterung und Neuansiedlung von Biogasanlagen und Mastbetrieben\n  in der Gemarkung Adensen",
+      "created": "2009-04-08T09:12:29+02:00",
+      "modified": "2009-04-08T09:17:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4714",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Verwendung der im Haushaltsjahr 2009 noch zur Verfügung stehenden Ortsratsmittel",
+      "created": "2009-06-07T13:20:01+02:00",
+      "modified": "2009-06-07T13:20:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4494",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Behandlung von Anfragen\n\n(Schreiben der UWG-Fraktion vom April 2009)\n- siehe Anlage 1 -",
+      "created": "2009-04-08T09:12:29+02:00",
+      "modified": "2009-04-08T09:12:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4492",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Mitteilungen des Ortsbürgermeisters",
+      "created": "2009-04-08T09:12:29+02:00",
+      "modified": "2009-04-08T09:20:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4496",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Anregungen",
+      "created": "2009-04-08T09:12:29+02:00",
+      "modified": "2009-04-08T09:12:29+02:00"
+    }
+  ]
+}

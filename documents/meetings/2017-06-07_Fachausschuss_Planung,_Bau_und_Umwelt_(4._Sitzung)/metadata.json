@@ -1,0 +1,173 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/3001",
+  "name": "Fachausschuss Planung, Bau und Umwelt (4. Sitzung)",
+  "start": "2017-06-07T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-31"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-19018",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Planung, Bau und Umwelt)",
+    "mimeType": "application/pdf",
+    "date": "2017-06-07",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdp2WcrzwcpJjz29O_wyNHTnfJ3vvhAGQtJf7EBJ1S7m/Bekanntmachung_Fachausschuss_Planung-_Bau_und_Umwelt_07.06.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdp2WcrzwcpJjz29O_wyNHTnfJ3vvhAGQtJf7EBJ1S7m/Bekanntmachung_Fachausschuss_Planung-_Bau_und_Umwelt_07.06.2017.pdf",
+    "created": "2017-05-29T13:00:49+02:00",
+    "modified": "2017-05-29T13:00:49+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-19565",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Planung, Bau und Umwelt)",
+    "mimeType": "application/pdf",
+    "date": "2017-06-07",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZdID7PUB48SeMKfKLkihKeB08-KYYHgMv119752opfj/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau_und_Umwelt_07.06.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZdID7PUB48SeMKfKLkihKeB08-KYYHgMv119752opfj/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau_und_Umwelt_07.06.2017.pdf",
+    "created": "2017-07-25T13:01:30+02:00",
+    "modified": "2017-07-25T13:01:30+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14135",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2017-05-22T09:38:15+02:00",
+      "modified": "2017-05-22T09:38:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14136",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2017-05-22T09:38:15+02:00",
+      "modified": "2017-05-22T09:38:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14137",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls vom 23. Mai 2017",
+      "created": "2017-05-22T09:38:15+02:00",
+      "modified": "2017-05-22T09:38:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14138",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2017-05-22T09:38:15+02:00",
+      "modified": "2017-05-22T09:38:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14139",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Straßenreinigung in der Gemeinde Nordstemmen\n\nÜbertragung der Straßenreinigungspflicht gemäß § 52 Abs. 4 Satz 1 NStrG \nauf die Eigentümer der an die öffentlichen Straßen angrenzenden Grundstücke (Grundsatzbeschluss)\n\nSatzung über die Reinigung der öffentlichen Straßen in der Gemeinde Nordstemmen \n\nVerordnung über Art, Maß und räumliche Ausdehnung der Straßenreinigung in der \nGemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3871",
+      "created": "2017-05-22T09:38:15+02:00",
+      "modified": "2017-05-22T09:38:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14140",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bebauungsplan Nr. 0107 \"Ortsmitte-Ost\", 6. Änderung mit Berichtigung des Flächennutzungsplanes\n- Aufstellungsbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3890",
+      "created": "2017-05-22T09:38:15+02:00",
+      "modified": "2017-05-22T09:38:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14243",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Oberflächensanierung in der Ortschaft Nordstemmen Schlingweg/Asternstraße und Gehwegsanierung mit DSK in der Berliner Straße (zwei Abschnitte) und Königsberger Straße",
+      "created": "2017-07-17T11:55:46+02:00",
+      "modified": "2017-07-17T11:55:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14163",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Sachstand über aktuelle Themen im Bereich Hoch- und Tiefbau",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1778",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Fachausschuss Planung, Bau und Umwelt 07.06.2017 18:30 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2017-06-07",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTJjPoMdbAkCk0F-Les6udfv4xMBi0a7vLdqYQstrk3g/Fachausschuss_Planung-_Bau_und_Umwelt_07.06.2017_18-30_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTJjPoMdbAkCk0F-Les6udfv4xMBi0a7vLdqYQstrk3g/Fachausschuss_Planung-_Bau_und_Umwelt_07.06.2017_18-30_Uhr.pdf",
+          "created": "2017-08-03T19:01:02+02:00",
+          "modified": "2017-08-03T19:01:02+02:00"
+        }
+      ],
+      "created": "2017-05-24T08:32:00+02:00",
+      "modified": "2017-05-24T08:32:00+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14164",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Grundlegende Situation auf der Kläranlage Nordstemmen / Information; Vorstellung von anstehenden Maßnahmen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1776",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2017-06-07",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZa6yHXyWw-CxmUiYCHJUulIEKOD5IrpNU1BKjiIeip6P/Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZa6yHXyWw-CxmUiYCHJUulIEKOD5IrpNU1BKjiIeip6P/Anlage_2.pdf",
+          "created": "2017-07-19T13:00:54+02:00",
+          "modified": "2017-07-19T13:00:54+02:00"
+        }
+      ],
+      "created": "2017-05-24T08:32:54+02:00",
+      "modified": "2017-05-24T08:32:54+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14141",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2017-05-22T09:38:15+02:00",
+      "modified": "2017-05-22T09:38:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14142",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anträge und Anfragen",
+      "created": "2017-05-22T09:38:15+02:00",
+      "modified": "2017-05-22T09:38:15+02:00"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2026",
+  "name": "Ortsrat Barnten (6. Sitzung)",
+  "start": "2013-02-19T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-5",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Barnten, Glückaufstraße 1, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Glückaufstraße 1",
+    "room": "Dorfgemeinschaftshaus Barnten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Barnten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:29:00+02:00",
+    "modified": "2019-06-06T11:57:52+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-10"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-9532",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2013-02-19",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZanoZdG0XSQ2iJePqKPDC3IJuZScLvOl55LsLsk8cpL1/Bekanntmachung_Ortsrat_Barnten_19.02.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZanoZdG0XSQ2iJePqKPDC3IJuZScLvOl55LsLsk8cpL1/Bekanntmachung_Ortsrat_Barnten_19.02.2013.pdf",
+    "created": "2013-02-08T12:24:58+01:00",
+    "modified": "2013-02-12T15:13:16+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-9729",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2013-02-19",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTTb7qul69fCWPMu0URizIFUlonOzs7WM0ID7eApxp-e/Oeffentliche_Niederschrift_Ortsrat_Barnten_19.02.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTTb7qul69fCWPMu0URizIFUlonOzs7WM0ID7eApxp-e/Oeffentliche_Niederschrift_Ortsrat_Barnten_19.02.2013.pdf",
+    "created": "2013-03-07T15:15:08+01:00",
+    "modified": "2013-04-03T13:00:58+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9312",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2013-02-08T09:09:09+01:00",
+      "modified": "2013-02-08T09:09:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9313",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2013-02-08T09:09:09+01:00",
+      "modified": "2013-02-08T09:09:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9314",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 13.11.2012",
+      "created": "2013-02-08T09:09:09+01:00",
+      "modified": "2013-02-08T09:09:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9315",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2013-02-08T09:09:09+01:00",
+      "modified": "2013-02-08T09:09:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9320",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "nochmalige Erörterung der Verkehrssituation im Bereich der Grundschule Barnten\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2013-02-08T09:11:28+01:00",
+      "modified": "2013-02-08T09:11:36+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9379",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Erörterung der Verkehrssituation an der Bahnschranke (beidseitig) in der Glückaufstraße\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2013-02-12T12:02:46+01:00",
+      "modified": "2013-02-12T12:02:46+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9322",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 8,
+      "name": "Antrag des Ortsrates an die erixx GmbH für zusätzlichen Halt am DB Haltepunkt Barnten ab dem Jahr 2014\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2013-02-08T09:13:59+01:00",
+      "modified": "2013-02-08T09:13:59+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9323",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Beteiligung des Ortsrates an einer neuen Info-Broschüre für die Gemeinde Nordstemmen\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2013-02-08T09:14:30+01:00",
+      "modified": "2013-02-08T09:14:30+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9324",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Organisation des Umwelttages am 6. April 2013",
+      "created": "2013-02-08T09:14:57+01:00",
+      "modified": "2013-02-08T09:27:29+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9321",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Umgestaltung des Pflanzbeetes im Bereich Landesstraße / Ecke Glückaufstraße\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2013-02-08T09:12:49+01:00",
+      "modified": "2013-02-08T09:12:49+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9325",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Verwendung der im Haushaltsjahr 2013 zur Verfügung stehenden Ortratsmittel\n(siehe Anlage 1)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-877",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Ortsrat Barnten 19.02.2013 19.00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2013-02-19",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZV6PR3r-Id-Ka4Z9ABpas-dobWhvp7pu_cReZjf6cSSI/Ortsrat_Barnten_19.02.2013_19.00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZV6PR3r-Id-Ka4Z9ABpas-dobWhvp7pu_cReZjf6cSSI/Ortsrat_Barnten_19.02.2013_19.00_Uhr.pdf",
+          "created": "2013-02-08T12:24:58+01:00",
+          "modified": "2013-02-08T12:24:58+01:00"
+        }
+      ],
+      "created": "2013-02-08T09:15:29+01:00",
+      "modified": "2013-02-08T10:14:49+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9316",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-903",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Barnten 19.02.2013 Anlagen)",
+          "mimeType": "application/pdf",
+          "date": "2013-02-19",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVSq7kepQpn0FA8THT5hmj-ohvrRobIGXoq77U0wqP9L/Ortsrat_Barnten_19.02.2013_Anlagen.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVSq7kepQpn0FA8THT5hmj-ohvrRobIGXoq77U0wqP9L/Ortsrat_Barnten_19.02.2013_Anlagen.pdf",
+          "created": "2013-03-14T19:00:44+01:00",
+          "modified": "2013-03-14T19:00:44+01:00"
+        }
+      ],
+      "created": "2013-02-08T09:09:09+01:00",
+      "modified": "2013-02-08T09:09:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9317",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2013-02-08T09:09:09+01:00",
+      "modified": "2013-02-08T09:09:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9318",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 15,
+      "name": "Anträge und Anfragen",
+      "created": "2013-02-08T09:09:09+01:00",
+      "modified": "2013-02-08T09:09:09+01:00"
+    }
+  ]
+}

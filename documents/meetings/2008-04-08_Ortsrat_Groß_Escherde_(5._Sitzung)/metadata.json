@@ -1,0 +1,150 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1069",
+  "name": "Ortsrat Groß Escherde (5. Sitzung)",
+  "start": "2008-04-08T19:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-12",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Groß Escherde, Schulstraße 9 a, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Schulstraße 9 a",
+    "room": "Dorfgemeinschaftshaus Groß Escherde, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Groß Escherde",
+    "locality": "Nordstemmen",
+    "created": "2005-04-07T10:37:20+02:00",
+    "modified": "2019-06-06T11:57:41+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-14"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-2473",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2008-04-08",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbIq-glnBn2fOTiocCZssm_m7WcowisqhUNYFtqimQ54/Bekanntmachung_Ortsrat_Gross_Escherde_08.04.2008.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbIq-glnBn2fOTiocCZssm_m7WcowisqhUNYFtqimQ54/Bekanntmachung_Ortsrat_Gross_Escherde_08.04.2008.pdf",
+    "created": "2008-05-13T13:06:20+02:00",
+    "modified": "2008-05-13T13:06:20+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3452",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2008-02-25T11:06:15+01:00",
+      "modified": "2008-02-25T11:06:15+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3453",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2008-02-25T11:06:15+01:00",
+      "modified": "2008-02-25T11:06:15+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3454",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 15.11.2007",
+      "created": "2008-02-25T11:06:15+01:00",
+      "modified": "2008-02-25T11:06:15+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3455",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2008-02-25T11:06:15+01:00",
+      "modified": "2008-02-25T11:06:15+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3470",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Information zum Fortgang des Baugebietes \"Groß Escherde - Ost\"\n(Ausführungen erfolgen hierzu in der Sitzung durch den Investor)",
+      "created": "2008-03-27T16:53:21+01:00",
+      "modified": "2008-03-27T16:53:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3471",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Information zum Stand der Übernahme des Dorfgemeinschaftshauses durch den Verein für Kultur- und Brauchtumspflege Groß Escherde\n(Ausführungen erfolgen hierzu in der Sitzung durch den 1. Vorsitzenden des Vereins)",
+      "created": "2008-03-27T16:54:44+01:00",
+      "modified": "2008-03-27T16:54:44+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3472",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Beratung zum Zustand einzelner Wege und Straßen in der Ortschaft sowie Nutzung durch Pferdehaltung\n(Ausführungen erfolgen hierzu in der Sitzung durch den Ortsbürgermeister)",
+      "created": "2008-03-27T16:57:15+01:00",
+      "modified": "2008-03-27T16:57:15+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3456",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Mitteilungen des Bürgermeisters\n- Zustand / Situation der Spielplätze in der Ortschaft\n- Anfrage der CDU-Ortsratsfraktion vom 25.02.2008\n  (siehe Anlage 1)",
+      "created": "2008-02-25T11:06:15+01:00",
+      "modified": "2008-02-25T11:06:15+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3473",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Verwendung der im Haushaltsjahr 2008 zur Verfügung stehenden Ortsratsmittel\n- Beratung und Beschlussfassung\n(siehe Anlage 2)",
+      "created": "2008-03-27T16:59:34+01:00",
+      "modified": "2008-03-27T16:59:34+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3458",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Behandlung von Anfragen",
+      "created": "2008-02-25T11:06:15+01:00",
+      "modified": "2008-02-25T11:06:15+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3457",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Mitteilungen des Ortsbürgermeisters",
+      "created": "2008-02-25T11:06:15+01:00",
+      "modified": "2008-03-27T16:59:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3474",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Anfragen",
+      "created": "2008-03-27T17:00:11+01:00",
+      "modified": "2008-03-27T17:00:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3459",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Anregungen",
+      "created": "2008-02-25T11:06:15+01:00",
+      "modified": "2008-02-25T11:06:15+01:00"
+    }
+  ]
+}

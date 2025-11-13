@@ -1,0 +1,241 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2504",
+  "name": "Rat (19. Sitzung)",
+  "start": "2015-07-21T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-14705",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2015-07-21",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaj-h-VRnaOzsI-Eypg0BgY5ecm2VhwWITfUeXj98oWh/Bekanntmachung_Rat_21.07.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaj-h-VRnaOzsI-Eypg0BgY5ecm2VhwWITfUeXj98oWh/Bekanntmachung_Rat_21.07.2015.pdf",
+    "created": "2015-07-16T19:01:19+02:00",
+    "modified": "2015-07-16T19:01:19+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-14818",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2015-07-21",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYPJXd7zbEad5oQYJsxKmF0oxJ_bkdud_t5PASWOxFgj/Oeffentliche_Niederschrift_Rat_21.07.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYPJXd7zbEad5oQYJsxKmF0oxJ_bkdud_t5PASWOxFgj/Oeffentliche_Niederschrift_Rat_21.07.2015.pdf",
+    "created": "2015-09-08T15:07:37+02:00",
+    "modified": "2015-09-08T15:07:37+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11952",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2015-06-16T14:58:13+02:00",
+      "modified": "2015-06-16T14:58:13+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11953",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2015-06-16T14:58:13+02:00",
+      "modified": "2015-06-16T14:58:13+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11954",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung des Rates vom 28. Mai 2015",
+      "created": "2015-06-16T14:58:13+02:00",
+      "modified": "2015-06-16T14:58:13+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11955",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht des Bürgermeisters über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1401",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Rat 21.07.2015 18:30 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-07-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZee9-UkVaV8sDlEefKIfpGGshRzo5bT2POvad3kBAHrd/Rat_21.07.2015_18-30_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZee9-UkVaV8sDlEefKIfpGGshRzo5bT2POvad3kBAHrd/Rat_21.07.2015_18-30_Uhr.pdf",
+          "created": "2015-09-08T15:07:37+02:00",
+          "modified": "2015-09-08T15:07:37+02:00"
+        }
+      ],
+      "created": "2015-06-16T14:58:13+02:00",
+      "modified": "2015-06-16T14:58:13+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11956",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2015-06-16T14:58:13+02:00",
+      "modified": "2015-06-16T14:58:13+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11965",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Entlassung und Ernennung von Führungskräften der Feuerwehr",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3137",
+      "created": "2015-06-16T14:58:13+02:00",
+      "modified": "2015-06-16T14:58:36+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12004",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5.1",
+      "order": 7,
+      "name": "Entlassung und Ernennung von Führungskräften der Feuerwehr",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3205",
+      "created": "2015-07-07T16:00:13+02:00",
+      "modified": "2015-07-07T16:00:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11958",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 8,
+      "name": "Antrag des Fördervereins der CJD Grundschule Adensen\n- Projekt Werk-/Fachraum",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3108",
+      "created": "2015-06-16T14:58:13+02:00",
+      "modified": "2015-07-07T16:01:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12000",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6.2",
+      "order": 9,
+      "name": "Antrag des Fördervereins der CJD Grundschule Adensen\n- Projekt Werk-/Fachraum",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3179",
+      "created": "2015-07-07T09:05:03+02:00",
+      "modified": "2015-07-07T09:05:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12001",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6.2.1",
+      "order": 10,
+      "name": "Antrag des Fördervereins der CJD Grundschule Adensen\n- Projekt Werk-/Fachraum",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3198",
+      "created": "2015-07-07T09:19:52+02:00",
+      "modified": "2015-07-07T09:19:54+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11964",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 11,
+      "name": "Barrierefreier Ausbau der Bushaltestelle Kreuzstraße, Heyersum;\nMaßnahmenbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3116",
+      "created": "2015-06-16T14:58:13+02:00",
+      "modified": "2015-07-07T16:01:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11961",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 12,
+      "name": "1. Nachtragshaushaltssatzung 2015 und Nachtragshaushaltsplan 2015 der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3089",
+      "created": "2015-06-16T14:58:13+02:00",
+      "modified": "2015-07-07T16:01:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12005",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8.3",
+      "order": 13,
+      "name": "1. Nachtragshaushaltssatzung 2015 und Nachtragshaushaltsplan 2015 der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3206",
+      "created": "2015-07-08T12:45:23+02:00",
+      "modified": "2015-07-08T12:45:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11962",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 15,
+      "name": "Erneuerung der Verrohrung des Gewässers \"Wasserfurche\" (Gewässer III. Ordnung) in der Straße Albesgasse einschließlich Ausbau des Einmündungsbereiches zur Dorfstraße in der Ortschaft Adensen; Maßnahmenbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3076",
+      "created": "2015-06-16T14:58:13+02:00",
+      "modified": "2015-07-07T16:01:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11963",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 16,
+      "name": "Umgestaltung eines Teilbereiches (Gehweg, Grabendurchlass, Überquerungshilfe) der \"Heyersumer Straße\" in der Ortschaft Nordstemmen; Maßnahmenbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3083",
+      "created": "2015-06-16T14:58:13+02:00",
+      "modified": "2015-07-07T13:59:28+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12002",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 17,
+      "name": "Ausbau der Gemeindeverbindungsstraße Barnten - Nordstemmen, 4. Bauabschnitt",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3170",
+      "created": "2015-07-07T10:19:23+02:00",
+      "modified": "2015-07-07T14:00:22+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11957",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 18,
+      "name": "Antrag des VFL Adensen-Hallerburg e.V. auf Ausbau des Sportheims Adensen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3101",
+      "created": "2015-06-16T14:58:13+02:00",
+      "modified": "2015-06-16T14:58:13+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11966",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 19,
+      "name": "Mitteilungen bzw. Bericht des Bürgermeisters",
+      "created": "2015-06-16T14:58:13+02:00",
+      "modified": "2015-06-16T14:58:13+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11967",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 20,
+      "name": "Anträge und Anfragen",
+      "created": "2015-06-16T14:58:13+02:00",
+      "modified": "2015-06-16T14:58:13+02:00"
+    }
+  ]
+}

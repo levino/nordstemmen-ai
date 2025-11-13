@@ -1,0 +1,363 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4574",
+  "name": "Rat (27. Sitzung)",
+  "start": "2020-11-26T18:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-36",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Mehrzweckhalle Nordstemmen, Hauptstraße 32 a, 31171 Nordstemmen, Saal",
+    "streetAddress": "Hauptstraße 32 a",
+    "room": "Mehrzweckhalle Nordstemmen, Saal",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2020-06-05T12:12:39+02:00",
+    "modified": "2020-06-09T08:15:42+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-30376",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2020-11-26",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZemnEz1-XircaeYiDCJ2MiX04pv4GotHXsZwT1C-TWw6/Bekanntmachung_Rat_26.11.2020.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZemnEz1-XircaeYiDCJ2MiX04pv4GotHXsZwT1C-TWw6/Bekanntmachung_Rat_26.11.2020.pdf",
+    "created": "2020-11-16T19:00:19+01:00",
+    "modified": "2020-11-16T19:00:19+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-30629",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2020-11-26",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfz0kFvUxIKx0yF_TEHGyZD6iY7ggYPcNbmxtkDxnNij/Oeffentliche_Niederschrift_Rat_26.11.2020.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfz0kFvUxIKx0yF_TEHGyZD6iY7ggYPcNbmxtkDxnNij/Oeffentliche_Niederschrift_Rat_26.11.2020.pdf",
+    "created": "2020-12-16T13:00:17+01:00",
+    "modified": "2021-02-09T09:38:43+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17835",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2020-09-17T15:38:51+02:00",
+      "modified": "2020-09-17T15:38:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17836",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2020-09-17T15:38:51+02:00",
+      "modified": "2020-09-17T15:38:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18155",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Vereidigung der Bürgermeisterin Nicole Dombrowski\t",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6897",
+      "created": "2020-11-10T17:47:26+01:00",
+      "modified": "2020-11-12T09:35:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17837",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Genehmigung des Protokolls der Sitzung des Rates vom 29. September 2020",
+      "created": "2020-09-17T15:38:51+02:00",
+      "modified": "2020-09-17T15:38:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17838",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht der Bürgermeisterin über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5047",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zur Niederschrift der Sitzung)",
+          "mimeType": "application/pdf",
+          "date": "2020-11-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRs7HygNxnbj8wdZxY7uHG9Qf5OzquFVSPj2_8Ss7DSA/Anlage_1_zur_Niederschrift_der_Sitzung.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRs7HygNxnbj8wdZxY7uHG9Qf5OzquFVSPj2_8Ss7DSA/Anlage_1_zur_Niederschrift_der_Sitzung.pdf",
+          "created": "2021-02-09T09:38:43+01:00",
+          "modified": "2021-02-09T09:38:43+01:00"
+        }
+      ],
+      "created": "2020-09-17T15:38:51+02:00",
+      "modified": "2020-09-17T15:38:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17839",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohnerfragestunde",
+      "created": "2020-09-17T15:38:51+02:00",
+      "modified": "2020-09-17T15:38:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18190",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Ernennung von Führungskräften der Feuerwehr",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6896",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2020-11-12T09:38:56+01:00",
+      "modified": "2020-11-12T09:39:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18156",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Neufassung der NKBesVO – Aufwandsentschädigung Hauptverwaltungsbeamtin und Allgemeiner Stellvertreter",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6899",
+      "created": "2020-11-10T17:47:33+01:00",
+      "modified": "2020-11-12T09:39:23+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18177",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Neu- bzw. Wiederwahl der Schiedspersonen für die Schiedsamtsbezirke in der Gemeinde Nordstemmen im Jahre 2020",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6921",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2020-11-11T13:54:51+01:00",
+      "modified": "2020-11-12T09:40:22+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18157",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Modernisierung, Ertüchtigung und Erweiterung von Sportstätten und Sportanlagen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6902",
+      "result": "17 Ja-Stimmen, 9 Nein-Stimmen, eine Enthaltung (Änderung bei 3.)",
+      "created": "2020-11-10T17:47:38+01:00",
+      "modified": "2020-11-12T09:41:05+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18161",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Unterrichtung über die Veränderungen von Kommunaldarlehen gemäß § 7 der Richtlinie der Gemeinde Nordstemmen für die Aufnahme von Krediten und zur Umschuldung von Krediten vom 01.10.2018",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6912",
+      "created": "2020-11-10T17:48:17+01:00",
+      "modified": "2020-11-12T09:41:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18158",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Haushaltssatzung und Haushaltsplan 2021",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6915",
+      "result": "a) 15 Ja-Stimmen, 12 Enthaltungen b) einstimmig",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4952",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext ((5) Rats-Protokoll vom 26.11.2020_Anlage 5_zu TOP 11)",
+          "mimeType": "application/pdf",
+          "date": "2020-11-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZwxsrzjcHPEcSvPcaj8GoPGR4Yqf0N8dToMfPqZhs9S/-5-_Rats-Protokoll_vom_26.11.2020_Anlage_5_zu_TOP_11.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZwxsrzjcHPEcSvPcaj8GoPGR4Yqf0N8dToMfPqZhs9S/-5-_Rats-Protokoll_vom_26.11.2020_Anlage_5_zu_TOP_11.pdf",
+          "created": "2020-12-16T13:00:17+01:00",
+          "modified": "2020-12-17T15:56:49+01:00"
+        }
+      ],
+      "created": "2020-11-10T17:47:46+01:00",
+      "modified": "2020-11-11T13:57:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18244",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11.1",
+      "order": 13,
+      "name": "Haushaltssatzung und Haushaltsplan 2021",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6932",
+      "created": "2020-11-24T08:45:45+01:00",
+      "modified": "2020-11-24T08:45:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18249",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11.1.1",
+      "order": 14,
+      "name": "Haushaltssatzung und Haushaltsplan 2021",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6935",
+      "created": "2020-11-26T11:26:22+01:00",
+      "modified": "2020-11-26T11:26:23+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18159",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 15,
+      "name": "Investitionsprogramm für den Investitionszeitraum bis zum Haushaltsjahr 2024;\nmittelfristige Ergebnis- und Finanzplanung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6914",
+      "result": "22 Ja-Stimmen, 5 Enthaltungen lt. Beschlussvorschlag",
+      "created": "2020-11-10T17:47:56+01:00",
+      "modified": "2020-11-11T13:58:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18243",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12.2",
+      "order": 16,
+      "name": "Investitionsprogramm für den Investitionszeitraum bis zum Haushaltsjahr 2024;\nmittelfristige Ergebnis- und Finanzplanung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6934",
+      "created": "2020-11-24T08:44:46+01:00",
+      "modified": "2020-11-24T08:44:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18250",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12.3",
+      "order": 17,
+      "name": "Investitionsprogramm für den Investitionszeitraum bis zum Haushaltsjahr 2024;\nmittelfristige Ergebnis- und Finanzplanung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6936",
+      "created": "2020-11-26T11:26:42+01:00",
+      "modified": "2020-11-26T11:26:42+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18160",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 18,
+      "name": "Stellenplan 2021",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6913",
+      "result": "24 Ja-Stimmen, 2 Nein-Stimmen, eine Enthaltung/lt. Beschlussvorschlag",
+      "created": "2020-11-10T17:48:06+01:00",
+      "modified": "2020-11-11T14:00:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17840",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 19,
+      "name": "Mauerseglerkästen an Gebäuden der Gemeinde Nordstemmen ",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6839",
+      "result": "24 Ja-Stimmen, eine Nein-Stimme, zwei Enthaltungen",
+      "created": "2020-09-17T15:38:51+02:00",
+      "modified": "2020-09-17T15:38:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18150",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 20,
+      "name": "Barrierefreier Ausbau der Bushaltestelle „Heyersumer Straße“, Nordstemmen; Maßnahmenbeschluss ",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6856",
+      "result": "einstimmig",
+      "created": "2020-11-10T17:44:21+01:00",
+      "modified": "2020-11-10T17:44:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18151",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 21,
+      "name": "Widmung von Straßenflächen in der Ortschaft Nordstemmen und Fortschreibung des Bestandsverzeichnisses",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6871",
+      "result": "einstimmig lt. Beschlussvorschlag",
+      "created": "2020-11-10T17:44:27+01:00",
+      "modified": "2020-11-10T17:44:27+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18152",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 22,
+      "name": "Aufstellung eines Baulandkatasters für die Gemeinde Nordstemmen\n- Aufstellungsbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6892",
+      "result": "einstimmig lt. Beschlussvorschlag",
+      "created": "2020-11-10T17:44:57+01:00",
+      "modified": "2020-11-10T17:44:57+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18242",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17.4",
+      "order": 23,
+      "name": "Aufstellung eines Baulandkatasters für die Gemeinde Nordstemmen\n- Aufstellungsbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6929",
+      "created": "2020-11-24T08:44:29+01:00",
+      "modified": "2020-11-24T08:44:33+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17841",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "18",
+      "order": 24,
+      "name": "Mitteilungen bzw. Bericht der Bürgermeisterin",
+      "created": "2020-09-17T15:38:51+02:00",
+      "modified": "2020-09-17T15:38:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17842",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "19",
+      "order": 25,
+      "name": "Anträge und Anfragen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4953",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext ((5) Rats-Protokoll vom 26.11.2020_Anlage 2_zu TOP 19)",
+          "mimeType": "application/pdf",
+          "date": "2020-11-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZX97hh15j6XAkK7vKap3wCU7_F0pfw4pnsJnghKKiyxa/-5-_Rats-Protokoll_vom_26.11.2020_Anlage_2_zu_TOP_19.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZX97hh15j6XAkK7vKap3wCU7_F0pfw4pnsJnghKKiyxa/-5-_Rats-Protokoll_vom_26.11.2020_Anlage_2_zu_TOP_19.pdf",
+          "created": "2020-12-16T13:00:17+01:00",
+          "modified": "2020-12-17T15:56:49+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4954",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext ((5) Rats-Protokoll vom 26.11.2020_Anlage 3_zu TOP 19)",
+          "mimeType": "application/pdf",
+          "date": "2020-11-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRgEQMY_pr6fs1c15cHFdUfGBHGpDl55T8OAjBa2NyQq/-5-_Rats-Protokoll_vom_26.11.2020_Anlage_3_zu_TOP_19.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRgEQMY_pr6fs1c15cHFdUfGBHGpDl55T8OAjBa2NyQq/-5-_Rats-Protokoll_vom_26.11.2020_Anlage_3_zu_TOP_19.pdf",
+          "created": "2020-12-16T13:00:17+01:00",
+          "modified": "2020-12-17T15:56:49+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4955",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext ((5) Rats-Protokoll vom 26.11.2020_Anlage 4_zu TOP 19)",
+          "mimeType": "application/pdf",
+          "date": "2020-11-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVypoxMxmd4hE22fRroypvo0TX-aIpkCFOCVSjAYkRA9/-5-_Rats-Protokoll_vom_26.11.2020_Anlage_4_zu_TOP_19.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVypoxMxmd4hE22fRroypvo0TX-aIpkCFOCVSjAYkRA9/-5-_Rats-Protokoll_vom_26.11.2020_Anlage_4_zu_TOP_19.pdf",
+          "created": "2020-12-16T13:00:17+01:00",
+          "modified": "2020-12-17T15:56:49+01:00"
+        }
+      ],
+      "created": "2020-09-17T15:38:51+02:00",
+      "modified": "2020-09-17T15:38:51+02:00"
+    }
+  ]
+}

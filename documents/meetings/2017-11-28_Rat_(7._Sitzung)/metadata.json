@@ -1,0 +1,346 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2990",
+  "name": "Rat (7. Sitzung)",
+  "start": "2017-11-28T18:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-22524",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2017-11-28",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQ9g-fASTuZokkDgbqGDPrmGdxCPJyhLru1MqTZqN_Y9/Bekanntmachung_Rat_28.11.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQ9g-fASTuZokkDgbqGDPrmGdxCPJyhLru1MqTZqN_Y9/Bekanntmachung_Rat_28.11.2017.pdf",
+    "created": "2017-11-21T13:00:41+01:00",
+    "modified": "2017-11-21T19:00:44+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-22886",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2017-11-28",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVq2Op1_2t17b0A1sYmZFk0QreaiXAQ8iFA9Zrm6CF_I/Oeffentliche_Niederschrift_Rat_28.11.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVq2Op1_2t17b0A1sYmZFk0QreaiXAQ8iFA9Zrm6CF_I/Oeffentliche_Niederschrift_Rat_28.11.2017.pdf",
+    "created": "2017-12-07T19:01:16+01:00",
+    "modified": "2017-12-07T19:01:16+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14727",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2017-10-24T14:49:37+02:00",
+      "modified": "2017-10-24T14:49:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14728",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2017-10-24T14:49:37+02:00",
+      "modified": "2017-10-24T14:49:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14729",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung des Rates vom 26. September 2017",
+      "created": "2017-10-24T14:49:37+02:00",
+      "modified": "2017-11-13T10:26:34+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14730",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht des Bürgermeisters über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-3893",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Bericht des Bürgermeisters)",
+          "mimeType": "application/pdf",
+          "date": "2017-11-28",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYgmqHxtIGsqDighQIwH5TR6wBtox9Yo99uQJwddIwZy/Bericht_des_Buergermeisters.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYgmqHxtIGsqDighQIwH5TR6wBtox9Yo99uQJwddIwZy/Bericht_des_Buergermeisters.pdf",
+          "created": "2017-12-07T13:00:55+01:00",
+          "modified": "2017-12-07T13:00:55+01:00"
+        }
+      ],
+      "created": "2017-10-24T14:49:37+02:00",
+      "modified": "2017-10-24T14:49:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14869",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2017-11-29T09:05:30+01:00",
+      "modified": "2017-11-29T09:05:30+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14731",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Straßenausbaumaßnahme \"Schmiedestraße\" in der Ortschaft Klein Escherde\n- Maßnahmenbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/5993",
+      "result": "einstimmig/ja",
+      "created": "2017-10-24T14:49:37+02:00",
+      "modified": "2017-10-24T14:49:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14732",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Barrierefreier Ausbau der Bushaltestelle \"Nordstraße\", Burgstemmen;\nMaßnahmenbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/5999",
+      "result": "einstimmig/1 Enthaltung/ja",
+      "created": "2017-10-24T14:49:37+02:00",
+      "modified": "2017-10-24T14:49:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14733",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Barrierefreier Ausbau der Bushaltestelle \"Rathaus\", Nordstemmen;\nMaßnahmenbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6003",
+      "result": "einstimmig/ja",
+      "created": "2017-10-24T14:49:37+02:00",
+      "modified": "2017-10-24T14:49:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14848",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Unterstützung der Bewerbung der Stadt Hildesheim sowie der Region als \n„Kulturhauptstadt Europas 2025“",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6016",
+      "result": "14 Ja-Stimmen/11 Nein-Stimmen/1 Enthaltung/ja",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-3894",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Anlage 3 Antrag B90/Die Grünen)",
+          "mimeType": "application/pdf",
+          "date": "2017-11-28",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUoYsAGnYXdeHW1Dg-DJZw_3m9Pg_E-p_FF1HL8zN_it/Anlage_3_Antrag_B90-Die_Gruenen.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUoYsAGnYXdeHW1Dg-DJZw_3m9Pg_E-p_FF1HL8zN_it/Anlage_3_Antrag_B90-Die_Gruenen.pdf",
+          "created": "2017-12-07T13:00:55+01:00",
+          "modified": "2017-12-07T13:00:55+01:00"
+        }
+      ],
+      "created": "2017-11-13T10:18:47+01:00",
+      "modified": "2017-11-13T10:18:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14850",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Ausbau des Kinderbetreuungsangebotes; Errichtung einer neuen Kindertagesstätte in Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6029",
+      "created": "2017-11-13T10:19:06+01:00",
+      "modified": "2017-11-13T10:19:06+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14865",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9.1",
+      "order": 11,
+      "name": "Ausbau des Kinderbetreuungsangebotes; Errichtung einer neuen Kindertagesstätte in Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6062",
+      "created": "2017-11-21T14:44:01+01:00",
+      "modified": "2017-11-21T14:44:06+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14866",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9.1.1",
+      "order": 12,
+      "name": "Ausbau des Kinderbetreuungsangebotes; Errichtung einer neuen Kindertagesstätte in Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6064",
+      "result": "einstimmig/ja",
+      "created": "2017-11-21T14:44:21+01:00",
+      "modified": "2017-11-21T14:44:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14851",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 13,
+      "name": "Neuregelung des Betriebsführungsvertrages zwischen der Gemeinde Nordstemmen und dem Gemeindejugendring Nordstemmen e. V.\t",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6026",
+      "result": "einstimmig/1 Stimmenthaltung/ja",
+      "created": "2017-11-13T10:19:17+01:00",
+      "modified": "2017-11-13T10:19:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14852",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 14,
+      "name": "Errichtung von WLAN-Hotspots; Förderung durch den Landkreis Hildesheim",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6032",
+      "result": "17 Ja-Stimmen/8 Nein-Stimmen/1 Enthaltung/ja",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-3895",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Anlage 4 Antrag Lassen)",
+          "mimeType": "application/pdf",
+          "date": "2017-11-28",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWwg5rvHUrFkWWQnNAasYiKPLa26sxIZnszGT0rc42KD/Anlage_4_Antrag_Lassen.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWwg5rvHUrFkWWQnNAasYiKPLa26sxIZnszGT0rc42KD/Anlage_4_Antrag_Lassen.pdf",
+          "created": "2017-12-07T13:00:55+01:00",
+          "modified": "2017-12-07T13:00:55+01:00"
+        }
+      ],
+      "created": "2017-11-13T10:19:28+01:00",
+      "modified": "2017-11-13T10:19:31+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14853",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 15,
+      "name": "Straßenausbaubeiträge und alternative Finanzierungen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6035",
+      "created": "2017-11-13T10:19:36+01:00",
+      "modified": "2017-11-13T10:19:40+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14855",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 16,
+      "name": "Beitritt zum Zweckverband Kommunale Datenverarbeitung Oldenburg (KDO)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6041",
+      "result": "einstimmig/ja",
+      "created": "2017-11-13T10:19:56+01:00",
+      "modified": "2017-11-13T11:12:57+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14859",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 17,
+      "name": "Annahme einer Sponsoringleistung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6057",
+      "result": "ja",
+      "created": "2017-11-13T10:20:38+01:00",
+      "modified": "2017-11-13T11:13:44+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14856",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 18,
+      "name": "Haushaltssatzung und Haushaltsplan 2018",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6043",
+      "result": "einstimmig/ja",
+      "created": "2017-11-13T10:20:02+01:00",
+      "modified": "2017-11-13T11:14:20+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14857",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 19,
+      "name": "Investitionsprogramm für den Investitionszeitraum bis zum Haushaltsjahr 2021;\nmittelfristige Ergebnis- und Finanzplanung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6045",
+      "result": "einstimmig/ja",
+      "created": "2017-11-13T10:20:15+01:00",
+      "modified": "2017-11-13T11:14:33+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14854",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 20,
+      "name": "Stellenplan 2018",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6039",
+      "result": "22 Ja-Stimmen/1Nein-Stimme/3 Enthaltungen/ja",
+      "created": "2017-11-13T10:19:46+01:00",
+      "modified": "2017-11-13T10:19:46+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14858",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "18",
+      "order": 21,
+      "name": "Zustimmung zu einer außerplanmäßigen Aufwendung für die Bildung einer Rückstellung im Rahmen des Jahresabschlusses 2015 zur Begleichung der Kreisumlage",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6050",
+      "created": "2017-11-13T10:20:28+01:00",
+      "modified": "2017-11-13T10:20:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14864",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "19",
+      "order": 22,
+      "name": "Grundstücksveräußerung in der Gemeinde Nordstemmen; Ortschaft Barnten",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6066",
+      "result": "einstimmig/1 Stimmenthaltung/ja",
+      "created": "2017-11-21T14:43:31+01:00",
+      "modified": "2017-11-21T16:22:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14734",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "20",
+      "order": 23,
+      "name": "Mitteilungen bzw. Bericht des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-3896",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 5 Antrag B90/Die Grünen)",
+          "mimeType": "application/pdf",
+          "date": "2017-11-28",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfyI-6BJIf4jse-SBZZKaad9q2HFsKnTKe9xgBTLbHJ0/Anlage_5_Antrag_B90-Die_Gruenen.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfyI-6BJIf4jse-SBZZKaad9q2HFsKnTKe9xgBTLbHJ0/Anlage_5_Antrag_B90-Die_Gruenen.pdf",
+          "created": "2017-12-07T13:00:55+01:00",
+          "modified": "2017-12-07T13:00:55+01:00"
+        }
+      ],
+      "created": "2017-10-24T14:49:37+02:00",
+      "modified": "2017-10-24T14:49:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14735",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "21",
+      "order": 24,
+      "name": "Anträge und Anfragen",
+      "created": "2017-10-24T14:49:37+02:00",
+      "modified": "2017-10-24T14:49:37+02:00"
+    }
+  ]
+}

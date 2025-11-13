@@ -1,0 +1,118 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2072",
+  "name": "Fachausschuss Planung, Bau, Umwelt, Feuerschutz (18. Sitzung)",
+  "start": "2013-06-11T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-13",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Grundschule Nordstemmen, Asternstraße 13, 31171 Nordstemmen, Musikraum",
+    "streetAddress": "Asternstraße 13",
+    "room": "Grundschule Nordstemmen, Musikraum",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2006-05-15T10:39:45+02:00",
+    "modified": "2022-05-17T15:56:26+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-6"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-10205",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Planung, Bau, Umwelt, Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2013-06-11",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeDP9Bi_eOWLxgNSs-dsDDbAqq4TKl0IugsppB5jafTt/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_11.06.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeDP9Bi_eOWLxgNSs-dsDDbAqq4TKl0IugsppB5jafTt/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_11.06.2013.pdf",
+    "created": "2013-06-04T13:00:12+02:00",
+    "modified": "2013-06-04T13:00:12+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-11346",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Planung, Bau, Umwelt, Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2013-06-11",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcpXherWePetpIdm2KL4FbNyoN5RKlrqG14uoZ7qyZKs/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_11.06.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcpXherWePetpIdm2KL4FbNyoN5RKlrqG14uoZ7qyZKs/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_11.06.2013.pdf",
+    "created": "2013-07-04T13:02:52+02:00",
+    "modified": "2013-07-04T13:02:52+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9881",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2013-06-03T10:16:48+02:00",
+      "modified": "2013-06-03T10:16:48+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9882",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2013-06-03T10:16:48+02:00",
+      "modified": "2013-06-03T10:16:48+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9883",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 14. Mai 2013",
+      "created": "2013-06-03T10:16:48+02:00",
+      "modified": "2013-06-03T10:16:48+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9884",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2013-06-03T10:16:48+02:00",
+      "modified": "2013-06-03T10:16:48+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9886",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Kanalsanierungsarbeiten in Adensen und Hallerburg;\nMaßnahmenbeschluss und Vergabe des Planungsauftrages",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2393",
+      "created": "2013-06-03T10:16:48+02:00",
+      "modified": "2013-06-03T10:17:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9885",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 7,
+      "name": "Ernennung von Führungskräften der Freiwilligen Feuerwehr Nordstemmen\na)\tGemeindebrandmeister für die Freiwillige Feuerwehr der Gemeinde Nordstemmen\nb)\tstellv. Ortsbrandmeister der Ortsfeuerwehr Heyersum",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2388",
+      "created": "2013-06-03T10:16:48+02:00",
+      "modified": "2013-06-03T10:16:48+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9887",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 8,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2013-06-03T10:16:48+02:00",
+      "modified": "2013-06-03T10:16:48+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9888",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Anträge und Anfragen",
+      "created": "2013-06-03T10:16:48+02:00",
+      "modified": "2013-06-03T10:16:48+02:00"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4963",
+  "name": "Ortsrat Burgstemmen (2. Sitzung)",
+  "start": "2022-02-17T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-12"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-33217",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2022-02-17",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZV3wAj-Ea4qTGVvpR2QnfeUXS25TMH_YD9tyb9uGmuSo/Bekanntmachung_Ortsrat_Burgstemmen_17.02.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZV3wAj-Ea4qTGVvpR2QnfeUXS25TMH_YD9tyb9uGmuSo/Bekanntmachung_Ortsrat_Burgstemmen_17.02.2022.pdf",
+    "created": "2022-02-04T13:00:19+01:00",
+    "modified": "2022-02-07T19:00:05+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-33630",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2022-02-17",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbSVbyKCB-uT_7DlVc9VRII8XnlC8a5xTZ92-Ha8w-zX/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_17.02.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbSVbyKCB-uT_7DlVc9VRII8XnlC8a5xTZ92-Ha8w-zX/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_17.02.2022.pdf",
+    "created": "2022-03-14T13:00:00+01:00",
+    "modified": "2022-03-14T13:00:00+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19650",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2022-02-03T14:55:54+01:00",
+      "modified": "2022-02-03T14:55:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19651",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung - Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder - Feststellung der Beschlussfähigkeit - Beschlussfassung über Anträge zur Tagesordnung - Feststellung der Tagesordnung",
+      "created": "2022-02-03T14:55:54+01:00",
+      "modified": "2022-02-03T14:55:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19652",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 25. November 2021",
+      "created": "2022-02-03T14:55:54+01:00",
+      "modified": "2022-02-03T14:55:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19655",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht bzw. Mitteilungen der Bürgermeisterin",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5535",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Mitteilung Baulandkataster)",
+          "mimeType": "application/pdf",
+          "date": "2022-02-17",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZf9D7AAPCHIXpUPQMiPiicPdsXZVyCJG4IplJAxB4E-l/Mitteilung_Baulandkataster.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZf9D7AAPCHIXpUPQMiPiicPdsXZVyCJG4IplJAxB4E-l/Mitteilung_Baulandkataster.pdf",
+          "created": "2022-03-14T13:00:00+01:00",
+          "modified": "2022-03-14T13:00:00+01:00"
+        }
+      ],
+      "created": "2022-02-03T14:55:54+01:00",
+      "modified": "2022-02-03T14:56:15+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19656",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2022-02-03T14:55:54+01:00",
+      "modified": "2022-02-03T14:56:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19653",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohnerfragestunde",
+      "created": "2022-02-03T14:55:54+01:00",
+      "modified": "2022-02-03T14:55:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19774",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bundesstraße 1; \nNächtliche Absenkung der Höchstgeschwindigkeit in den Ortsdurchfahrten Burgstemmen und Mahlerten",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7314",
+      "created": "2022-02-15T08:54:44+01:00",
+      "modified": "2022-02-15T08:56:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19660",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Auswertung der Verkehrsmessung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5536",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2 Verkehrsmessung)",
+          "mimeType": "application/pdf",
+          "date": "2022-02-17",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXx3ZeL04IAEP6iMY8hWCj3-XN7BqINnC5_iSDBQu358/Anlage_2_Verkehrsmessung.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXx3ZeL04IAEP6iMY8hWCj3-XN7BqINnC5_iSDBQu358/Anlage_2_Verkehrsmessung.pdf",
+          "created": "2022-03-14T13:00:00+01:00",
+          "modified": "2022-03-14T13:00:00+01:00"
+        }
+      ],
+      "created": "2022-02-03T14:57:13+01:00",
+      "modified": "2022-02-03T17:00:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19659",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Situation Festplatz",
+      "created": "2022-02-03T14:56:42+01:00",
+      "modified": "2022-02-03T14:56:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19654",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2023 sowie für die mittelfristige\nFinanzplanung 2024 bis 2026",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7282",
+      "created": "2022-02-03T14:55:54+01:00",
+      "modified": "2022-02-03T14:55:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19661",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Vorbereitung Umwelttag 2022",
+      "created": "2022-02-03T14:57:34+01:00",
+      "modified": "2022-02-03T14:57:34+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19831",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Spielgerät beim Spielplatz „Am Paradies“",
+      "created": "2022-03-03T14:39:38+01:00",
+      "modified": "2022-03-03T14:39:38+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19663",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Standorte von zusätzlichen Bänken und Mülleimern",
+      "created": "2022-02-03T14:58:40+01:00",
+      "modified": "2022-02-03T14:58:40+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19657",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Anträge und Anfragen",
+      "created": "2022-02-03T14:55:54+01:00",
+      "modified": "2022-02-03T14:55:54+01:00"
+    }
+  ]
+}

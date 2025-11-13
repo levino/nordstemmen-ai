@@ -1,0 +1,107 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/820",
+  "name": "Ortsrat Mahlerten (1. Sitzung)",
+  "start": "2007-03-08T20:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-10",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Mahlerten, Leunisstraße 16, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Leunisstraße 16",
+    "room": "Dorfgemeinschaftshaus Mahlerten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Mahlerten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T12:00:53+02:00",
+    "modified": "2019-06-06T11:57:30+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-17"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-272",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2007-03-08",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSZMbU3t1287tm1H1tfK8oXuKL0xeEA7pjYIYYGvFoeg/Bekanntmachung_Ortsrat_Mahlerten_08.03.2007.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSZMbU3t1287tm1H1tfK8oXuKL0xeEA7pjYIYYGvFoeg/Bekanntmachung_Ortsrat_Mahlerten_08.03.2007.pdf",
+    "created": "2007-05-16T13:43:19+02:00",
+    "modified": "2007-05-16T13:43:19+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/679",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung - Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder - Feststellung der Tagesordnung - Beschlussfassung über Anträge zur Tagesordnung - Feststellung der Tagesordnung",
+      "created": "2007-02-26T08:50:05+01:00",
+      "modified": "2007-02-26T08:50:05+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/680",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 04.12.2006",
+      "created": "2007-02-26T08:50:42+01:00",
+      "modified": "2007-02-26T08:50:42+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/664",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Anhörung des Ortsrates zum Haushaltsplan 2007 und zum Investitionsprogramm für den Investitionszeitraum bis zum Haushaltsjahr 2010 unter Fortschreibung des Haushaltssicherungskonzeptes",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/96",
+      "created": "2007-02-22T11:10:16+01:00",
+      "modified": "2007-02-26T08:50:49+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/682",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Information zum Stand der Übernahme des Dorfgemeinschaftshauses durch die örtliche Gemeinschaft (Ausführungen werden in der Sitzung gemacht)",
+      "created": "2007-02-26T08:59:24+01:00",
+      "modified": "2007-02-26T08:59:24+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/683",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Durchführung des Umweltaktionstages am 17. März 2007",
+      "created": "2007-02-26T08:59:52+01:00",
+      "modified": "2007-02-26T08:59:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/684",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Mitteilungen des Bürgermeisters / Ortsbürgermeisters",
+      "created": "2007-02-26T09:01:14+01:00",
+      "modified": "2007-02-26T09:01:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/685",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Behandlung von Anfragen",
+      "created": "2007-02-26T09:01:29+01:00",
+      "modified": "2007-02-26T09:01:29+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/686",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Anregungen",
+      "created": "2007-02-26T09:01:43+01:00",
+      "modified": "2007-02-26T09:01:43+01:00"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2279",
+  "name": "Ortsrat Nordstemmen (32. Sitzung)",
+  "start": "2014-06-16T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-8"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-12786",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Nordstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2014-06-16",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeyodinYEvoxRJY9Pqv791PKPl23Kfq3WpBbF4aTyn4F/Bekanntmachung_Ortsrat_Nordstemmen_16.06.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeyodinYEvoxRJY9Pqv791PKPl23Kfq3WpBbF4aTyn4F/Bekanntmachung_Ortsrat_Nordstemmen_16.06.2014.pdf",
+    "created": "2014-06-05T13:01:00+02:00",
+    "modified": "2014-06-05T13:01:00+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-13143",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Nordstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2014-06-16",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdp--5go04PrAtPw0vtuHejuQZTGJgeIgeR8evZ9dS0X/Oeffentliche_Niederschrift_Ortsrat_Nordstemmen_16.06.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdp--5go04PrAtPw0vtuHejuQZTGJgeIgeR8evZ9dS0X/Oeffentliche_Niederschrift_Ortsrat_Nordstemmen_16.06.2014.pdf",
+    "created": "2014-09-04T13:00:22+02:00",
+    "modified": "2014-09-04T13:00:22+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10814",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2014-06-03T11:34:55+02:00",
+      "modified": "2014-06-03T11:34:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10815",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2014-06-03T11:34:55+02:00",
+      "modified": "2014-06-03T11:34:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10816",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Protokolle der Sitzung vom 17. Februar 2014 und 26. Februar 2014",
+      "created": "2014-06-03T11:34:55+02:00",
+      "modified": "2014-06-03T11:34:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10817",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2014-06-03T11:34:55+02:00",
+      "modified": "2014-06-03T11:34:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10820",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bebauungplan Nr. 0108 \"Gewerbegebiet Nord\", 2. Änderung, Ortschaft Nordstemmen\n\n- Anhörung des Ortsrates Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2742",
+      "created": "2014-06-03T11:34:55+02:00",
+      "modified": "2014-06-03T11:35:54+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10818",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Neuordnung der Straße \"Im Klee\" im Baugebiet \"Heyersumer Straße - Nord\", Ortschaft Nordstemmen;\nAufhebung des Beschlusses vom 29.05.2013",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2731",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1143",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Ortsrat Nordstemmen 16.06.2014 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2014-06-16",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSRIQ3pGbkD3Kpjx_rvs4iGQzUthGpfqgNShVIZ3nWTy/Ortsrat_Nordstemmen_16.06.2014_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSRIQ3pGbkD3Kpjx_rvs4iGQzUthGpfqgNShVIZ3nWTy/Ortsrat_Nordstemmen_16.06.2014_18-00_Uhr.pdf",
+          "created": "2014-09-04T13:00:22+02:00",
+          "modified": "2014-09-04T13:00:22+02:00"
+        }
+      ],
+      "created": "2014-06-03T11:34:55+02:00",
+      "modified": "2014-06-03T11:34:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10819",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Umbenennung von zwei privaten Wegen im Baugebiet \"Heyersumer Straße - Süd\", Ortschaft Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2709",
+      "created": "2014-06-03T11:34:55+02:00",
+      "modified": "2014-06-03T11:34:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10821",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Umgestaltung eines Teilbereiches der \"Heyersumer Straße\" (K 507) in der Ortschaft Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2743",
+      "created": "2014-06-03T11:34:55+02:00",
+      "modified": "2014-06-03T11:34:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10826",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Verabschiedung einer Resolution zum Ausbau der K 507 (Heyersumer Straße) einschließlich Herstellung der Durchlässigkeit des Salzbaches\n(siehe Anlage 1)\n- Beratung und Beschlussempfehlung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1102",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Nordstemmen 16.06.2014 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2014-06-16",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdEmbICKV4NPf6xFSLZqI3aceffRhynXUXmGQbgGuOYd/Ortsrat_Nordstemmen_16.06.2014_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdEmbICKV4NPf6xFSLZqI3aceffRhynXUXmGQbgGuOYd/Ortsrat_Nordstemmen_16.06.2014_18-00_Uhr.pdf",
+          "created": "2014-06-05T13:01:00+02:00",
+          "modified": "2014-06-05T13:01:00+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1144",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Nordstemmen 16.06.2014 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2014-06-16",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQ6hsJdVdmmsp9J5nA98KOstx43VLpJ7ZZ6I-M7Eubki/Ortsrat_Nordstemmen_16.06.2014_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQ6hsJdVdmmsp9J5nA98KOstx43VLpJ7ZZ6I-M7Eubki/Ortsrat_Nordstemmen_16.06.2014_18-00_Uhr.pdf",
+          "created": "2014-09-04T13:00:22+02:00",
+          "modified": "2014-09-04T13:00:22+02:00"
+        }
+      ],
+      "created": "2014-06-03T11:37:47+02:00",
+      "modified": "2014-06-03T11:37:47+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10827",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht über die Auswertung der durchgeführten Geschwindigkeitsmessungen in der Mahlerter Straße\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2014-06-03T11:38:53+02:00",
+      "modified": "2014-06-03T11:38:53+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10828",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Vorschlag für die Benennung einer neuen Schiedsperson für die Ortschaft Nordstemmen\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2014-06-03T11:39:46+02:00",
+      "modified": "2014-06-03T11:39:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10822",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2014-06-03T11:34:55+02:00",
+      "modified": "2014-06-03T11:34:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10823",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2014-06-03T11:34:55+02:00",
+      "modified": "2014-06-03T11:34:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10824",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Anträge und Anfragen",
+      "created": "2014-06-03T11:34:55+02:00",
+      "modified": "2014-06-03T11:34:55+02:00"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5619",
+  "name": "Ortsrat Nordstemmen (12. Sitzung)",
+  "start": "2025-05-13T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-8"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-41551",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Nordstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2025-05-13",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYUCVMUkhcr58urKK0CgW8Ik9hiBjF_vASddYd-GF6W4/Bekanntmachung_Ortsrat_Nordstemmen_13.05.2025.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYUCVMUkhcr58urKK0CgW8Ik9hiBjF_vASddYd-GF6W4/Bekanntmachung_Ortsrat_Nordstemmen_13.05.2025.pdf",
+    "created": "2025-04-25T13:00:15+02:00",
+    "modified": "2025-04-25T13:00:15+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-41746",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Nordstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2025-05-13",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQomx4zBLG0HlrTs90UAzAxgGeK7pihFPpZfxVZJod_J/Oeffentliche_Niederschrift_Ortsrat_Nordstemmen_13.05.2025.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQomx4zBLG0HlrTs90UAzAxgGeK7pihFPpZfxVZJod_J/Oeffentliche_Niederschrift_Ortsrat_Nordstemmen_13.05.2025.pdf",
+    "created": "2025-05-26T13:00:21+02:00",
+    "modified": "2025-05-26T13:00:21+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23472",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2025-04-23T09:28:07+02:00",
+      "modified": "2025-04-23T09:28:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23473",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2025-04-23T09:28:07+02:00",
+      "modified": "2025-04-23T09:28:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23474",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 18. Februar 2025",
+      "created": "2025-04-23T09:28:07+02:00",
+      "modified": "2025-04-23T09:28:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23475",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Anfragen und Anregungen",
+      "created": "2025-04-23T09:28:07+02:00",
+      "modified": "2025-04-23T09:28:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23476",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2025-04-23T09:28:07+02:00",
+      "modified": "2025-04-23T09:28:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23477",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2026 sowie für die mittelfristige Finanzplanung 2027 bis 2029",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8355",
+      "result": "Zur Kenntnis genommen",
+      "created": "2025-04-23T09:28:07+02:00",
+      "modified": "2025-04-23T09:28:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23478",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Wahl einer Schiedsperson für den Schiedsamtsbezirk Nordstemmen in der Gemeinde Nordstemmen\n",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8348",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2025-04-23T09:28:07+02:00",
+      "modified": "2025-04-23T09:28:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23482",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Sachstand Absperrung Heyersumer Straße",
+      "created": "2025-04-23T12:26:46+02:00",
+      "modified": "2025-04-23T12:26:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23483",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Sachstand Verkehrsfluss Hauptstraße vor Tokyat",
+      "created": "2025-04-23T12:26:59+02:00",
+      "modified": "2025-04-23T12:26:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23484",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Tempolimit Umgehungsstraße Ecke Am Freibad",
+      "created": "2025-04-23T12:27:16+02:00",
+      "modified": "2025-04-23T12:27:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23485",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Abgestellte LKW im Gewerbegebiet, Müll",
+      "created": "2025-04-23T12:27:31+02:00",
+      "modified": "2025-04-23T12:27:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23486",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Parken von Anhängern und Wohnwagen",
+      "created": "2025-04-23T12:27:40+02:00",
+      "modified": "2025-04-23T12:27:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23487",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Mülleimer an der Bank Hamsterpfad",
+      "created": "2025-04-23T12:27:51+02:00",
+      "modified": "2025-04-23T12:27:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23479",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2025-04-23T09:28:07+02:00",
+      "modified": "2025-04-23T09:28:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23480",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Mitteilungen der Verwaltung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7291",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Nordstemmen Anlage)",
+          "mimeType": "application/pdf",
+          "date": "2025-05-13",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWkFtYMx0wNcvGsl9CAGZtCUkhSP1uHnOcfNOOYWHXPB/OR_Nordstemmen_Anlage.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWkFtYMx0wNcvGsl9CAGZtCUkhSP1uHnOcfNOOYWHXPB/OR_Nordstemmen_Anlage.pdf",
+          "created": "2025-05-26T13:00:21+02:00",
+          "modified": "2025-05-26T13:00:21+02:00"
+        }
+      ],
+      "created": "2025-04-23T09:28:07+02:00",
+      "modified": "2025-04-23T09:28:07+02:00"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4253",
+  "name": "Fachausschuss Planung, Bau und Umwelt (15. Sitzung)",
+  "start": "2019-06-20T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-31"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-27460",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Planung, Bau und Umwelt)",
+    "mimeType": "application/pdf",
+    "date": "2019-06-20",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZT95nQ798RipaX57ZBzHCDLwexO68-gq2GpidroEOv0D/Bekanntmachung_Fachausschuss_Planung-_Bau_und_Umwelt_20.06.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZT95nQ798RipaX57ZBzHCDLwexO68-gq2GpidroEOv0D/Bekanntmachung_Fachausschuss_Planung-_Bau_und_Umwelt_20.06.2019.pdf",
+    "created": "2019-06-11T13:01:20+02:00",
+    "modified": "2019-06-11T13:01:20+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-27725",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Planung, Bau und Umwelt)",
+    "mimeType": "application/pdf",
+    "date": "2019-06-20",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdjQujQstb5-zQgLl7L-xSgxWR39sgjC8IQT--gy3Z6O/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau_und_Umwelt_20.06.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdjQujQstb5-zQgLl7L-xSgxWR39sgjC8IQT--gy3Z6O/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau_und_Umwelt_20.06.2019.pdf",
+    "created": "2019-07-29T13:01:17+02:00",
+    "modified": "2019-07-29T13:01:17+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16670",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2019-06-06T15:44:25+02:00",
+      "modified": "2019-06-06T15:44:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16671",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2019-06-06T15:44:25+02:00",
+      "modified": "2019-06-06T15:44:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16672",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 25. April 2019",
+      "created": "2019-06-06T15:44:25+02:00",
+      "modified": "2019-06-06T15:44:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16673",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2019-06-06T15:44:25+02:00",
+      "modified": "2019-06-06T15:44:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16679",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bebauungsplan Nr. 0307 \"Barnten - Süd IV\"\n- Vorstellung des Entwurfes und Beschluss zur öffentlichen Auslegung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6583",
+      "result": "Einstimmig/ja",
+      "created": "2019-06-06T15:59:17+02:00",
+      "modified": "2019-06-06T15:59:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16675",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "21. Änderung des Flächennutzungsplanes der Gemeinde Nordstemmen\n(Konzentrationsflächen für Windenergienutzung mit Ausschlusswirkung gem. § 35 Abs. 3 BauGB)\n\nFeststellungsbeschluss\n",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6580",
+      "result": "Einstimmig/ja",
+      "created": "2019-06-06T15:44:25+02:00",
+      "modified": "2019-06-06T15:44:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16674",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Lärmaktionsplan der Gemeinde Nordstemmen,\n- Beschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6551",
+      "result": "8 Ja-Stimmen/1 Nein Stimme",
+      "created": "2019-06-06T15:44:25+02:00",
+      "modified": "2019-06-06T15:44:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16680",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Sachstand aktuelle Themen im Bereich Hoch- und Tiefbau, u.a. aktuelle Straßensanierungen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4415",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (2019 06 20 Liste Themen Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2019-06-20",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcewHAqqz66rjFaDFiVqotzO9hPScydv4itpi4weSNN2/2019_06_20_Liste_Themen_Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcewHAqqz66rjFaDFiVqotzO9hPScydv4itpi4weSNN2/2019_06_20_Liste_Themen_Anlage_1.pdf",
+          "created": "2019-07-01T13:00:44+02:00",
+          "modified": "2019-07-01T13:00:44+02:00"
+        }
+      ],
+      "created": "2019-06-06T16:00:20+02:00",
+      "modified": "2019-06-06T16:00:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16676",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2019-06-06T15:44:25+02:00",
+      "modified": "2019-06-06T15:44:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16677",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Anträge und Anfragen",
+      "created": "2019-06-06T15:44:25+02:00",
+      "modified": "2019-06-06T15:44:25+02:00"
+    }
+  ]
+}

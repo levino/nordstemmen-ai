@@ -1,0 +1,404 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5281",
+  "name": "Rat (10. Sitzung)",
+  "start": "2023-11-28T18:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-37796",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2023-11-28",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcIhKtSpMOdbLcqYipXNbxe37rckXOqivjII0gW2a37Y/Bekanntmachung_Rat_28.11.2023.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcIhKtSpMOdbLcqYipXNbxe37rckXOqivjII0gW2a37Y/Bekanntmachung_Rat_28.11.2023.pdf",
+    "created": "2023-11-17T13:00:10+01:00",
+    "modified": "2023-11-17T13:00:10+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-38162",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2023-11-28",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYnCFHzsW3bnbHbGUox7zmYEZdstO9qhaMSHassyFXGy/Oeffentliche_Niederschrift_Rat_28.11.2023.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYnCFHzsW3bnbHbGUox7zmYEZdstO9qhaMSHassyFXGy/Oeffentliche_Niederschrift_Rat_28.11.2023.pdf",
+    "created": "2023-12-13T07:26:27+01:00",
+    "modified": "2023-12-13T07:26:27+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21507",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2023-09-08T11:52:14+02:00",
+      "modified": "2023-10-23T14:55:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21508",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2023-09-08T11:52:14+02:00",
+      "modified": "2023-10-23T14:55:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21509",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 26. September 2023",
+      "created": "2023-09-08T11:52:14+02:00",
+      "modified": "2023-10-23T14:55:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21510",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht der Bürgermeisterin über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6579",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 Bericht Bürgermeisterin)",
+          "mimeType": "application/pdf",
+          "date": "2023-11-28",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdtGhFHF4PMCCBe3QH8bw9djauIG5elEIGJ9Hc919oHe/Anlage_1_Bericht_Buergermeisterin.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdtGhFHF4PMCCBe3QH8bw9djauIG5elEIGJ9Hc919oHe/Anlage_1_Bericht_Buergermeisterin.pdf",
+          "created": "2023-12-13T07:26:27+01:00",
+          "modified": "2023-12-13T07:26:27+01:00"
+        }
+      ],
+      "created": "2023-09-08T11:52:14+02:00",
+      "modified": "2023-11-13T14:56:49+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21511",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Anfragen und Anregungen",
+      "created": "2023-09-08T11:52:14+02:00",
+      "modified": "2023-11-13T14:57:17+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21513",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2023-09-08T11:52:14+02:00",
+      "modified": "2023-11-13T14:57:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21788",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Beitritt der Gemeinde Nordstemmen zu der zu gründenden Energiegenossenschaft\nAdensen-Hallerburg eG;\nZustimmung zu einer außerplanmäßigen Auszahlung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7866",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2023-11-13T14:54:02+01:00",
+      "modified": "2023-11-14T14:52:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21785",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Durchführung des Ehrenamtstages;\nAntrag der Gruppe CDU/FDP\n",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7838",
+      "created": "2023-11-13T14:53:41+01:00",
+      "modified": "2023-11-13T15:01:29+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21857",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7.1",
+      "order": 9,
+      "name": "Durchführung des Ehrenamtstages;\nAntrag der Gruppe CDU/FDP",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7918",
+      "result": "Mehrheitlich bei 15 Ja-Stimmen, einer Nein-Stimme und 7 Enthaltungen lt. Beschlussvorschlag",
+      "created": "2023-11-27T11:50:12+01:00",
+      "modified": "2023-11-27T11:50:26+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21696",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Bekanntgabe des Berichts über die unvermutete örtliche Prüfung der Gemeindekasse Nordstemmen durch das Rechnungsprüfungsamt des Landkreises Hildesheim\n",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7828",
+      "created": "2023-10-23T14:53:03+02:00",
+      "modified": "2023-10-23T14:55:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21779",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Satzung für Sondernutzungen in Gemeindestraßen und Ortsdurchfahrten in der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7883",
+      "created": "2023-11-13T14:51:57+01:00",
+      "modified": "2023-11-13T15:03:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21780",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Anpassung der Zuschüsse an die Vereine für die Bewirtschaftung der übertragenen kulturellen und sportlichen Einrichtungen aufgrund gestiegener Gaspreise\n",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7861",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2023-11-13T14:52:04+01:00",
+      "modified": "2023-11-13T15:02:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21781",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Grundschulen Barnten und Nordstemmen; Umstellung der jährlichen Unterstützung des Ganztags von einer Pauschale auf einen teilnehmerabhängigen Zuschuss ab dem Schuljahr 2024/2025\n",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7763",
+      "created": "2023-11-13T14:53:10+01:00",
+      "modified": "2023-11-13T14:53:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21828",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11.2",
+      "order": 14,
+      "name": "Grundschulen Barnten und Nordstemmen; Umstellung der jährlichen Unterstützung des Ganztags von einer Pauschale auf einen teilnehmerabhängigen Zuschuss ab dem Schuljahr 2024/2025\n",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7903",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2023-11-22T08:33:53+01:00",
+      "modified": "2023-11-22T08:34:03+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21782",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 15,
+      "name": "Richtlinie für Zuschüsse an Vereine durch die Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7857",
+      "created": "2023-11-13T14:53:16+01:00",
+      "modified": "2023-11-13T15:04:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21829",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12.3",
+      "order": 16,
+      "name": "Richtlinie für Zuschüsse an Vereine durch die Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7893",
+      "created": "2023-11-22T08:34:16+01:00",
+      "modified": "2023-11-22T08:34:20+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21845",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12.4",
+      "order": 17,
+      "name": "Richtlinie für Zuschüsse an Vereine durch die Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7916",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2023-11-27T11:25:32+01:00",
+      "modified": "2023-11-27T11:25:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21786",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 18,
+      "name": "Bundesprogramm Mehrgenerationenhaus 2021 bis 2028;\nAntrag KOMM e.V. Mehrgenerationenhaus (MGH) Nordstemmen auf Zuschusserhöhung\n",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7841",
+      "created": "2023-11-13T14:53:51+01:00",
+      "modified": "2023-11-13T15:04:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21830",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13.5",
+      "order": 19,
+      "name": "Bundesprogramm Mehrgenerationenhaus 2021 bis 2028;\nAntrag KOMM e.V. Mehrgenerationenhaus (MGH) Nordstemmen auf Zuschusserhöhung\n",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7895",
+      "created": "2023-11-22T08:34:34+01:00",
+      "modified": "2023-11-22T08:34:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21846",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13.6",
+      "order": 20,
+      "name": "Bundesprogramm Mehrgenerationenhaus 2021 bis 2028;\nAntrag KOMM e.V. Mehrgenerationenhaus (MGH) Nordstemmen auf Zuschusserhöhung\n",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7914",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2023-11-27T11:43:27+01:00",
+      "modified": "2023-11-27T11:43:27+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21787",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 21,
+      "name": "Gründung eines Waldkindergartens in der Gemeinde Nordstemmen; Standortentscheidung\n",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7844",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2023-11-13T14:53:57+01:00",
+      "modified": "2023-11-13T15:04:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21784",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 22,
+      "name": "Entwicklung eines kommunalen Wärmeplans",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7836",
+      "created": "2023-11-13T14:53:35+01:00",
+      "modified": "2023-11-13T15:04:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21859",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15.7",
+      "order": 23,
+      "name": "Entwicklung eines kommunalen Wärmeplans\n",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7917",
+      "result": "Einstimmig gem. geändertem Beschluss",
+      "created": "2023-11-27T11:50:56+01:00",
+      "modified": "2023-11-27T11:51:01+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21783",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 24,
+      "name": "Einführung eines Energiemanagementsystems",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7833",
+      "created": "2023-11-13T14:53:23+01:00",
+      "modified": "2023-11-13T14:53:23+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21858",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16.8",
+      "order": 25,
+      "name": "Einführung eines Energiemanagementsystems",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7915",
+      "result": "Einstimmig bei 16 Ja-Stimmen und 7 Enthaltungen gem. geändertem Beschluss",
+      "created": "2023-11-27T11:50:40+01:00",
+      "modified": "2023-11-27T11:50:42+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21789",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 26,
+      "name": "Beschaffung eines Pumptracks/Skateranlage",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7870",
+      "created": "2023-11-13T14:54:08+01:00",
+      "modified": "2023-11-13T15:05:00+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21853",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17.9",
+      "order": 27,
+      "name": "Beschaffung eines Pumptracks/Skateranlage\n",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7919",
+      "result": "Einstimmig bei einer Enthaltung lt. Beschlussvorschlag",
+      "created": "2023-11-27T11:47:26+01:00",
+      "modified": "2023-11-27T11:47:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21793",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "18",
+      "order": 28,
+      "name": "Erschließungsvertrag gemäß § 124 BauGB zwischen der Gemeinde Nordstemmen und der Firma Albert Schaper Hoch- und Ingenieurbau GmbH, Lamspringe, für die Erschließung des Erschließungsgebietes „Teichstraße-Ost“, Ortschaft Klein Escherde; Vertragsergänzung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7885",
+      "created": "2023-11-13T14:54:37+01:00",
+      "modified": "2023-11-13T15:05:20+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21906",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "19",
+      "order": 29,
+      "name": "Haushaltssatzung und Haushaltsplan für das Haushaltsjahr 2024 sowie die Aufstellung eines Haushaltssicherungskonzeptes\n(DS 85/2023)",
+      "created": "2023-12-08T08:05:34+01:00",
+      "modified": "2023-12-08T08:05:34+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21907",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "20",
+      "order": 30,
+      "name": "Investitionsprogramm für den Investitionszeitraum 2024 - 2027\n(DS 86/2023)",
+      "created": "2023-12-08T08:06:37+01:00",
+      "modified": "2023-12-08T08:06:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21792",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "21",
+      "order": 31,
+      "name": "Stellenplan der Gemeinde Nordstemmen 2024",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7880",
+      "created": "2023-11-13T14:54:30+01:00",
+      "modified": "2023-11-13T14:54:30+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21821",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "22",
+      "order": 32,
+      "name": "Entsendung eines Vertreters in den Verwaltungsrat der kommunalen Anstalt öffentlichen Rechts \"Energieversorgung Hildesheimer Land\" (AöR E-Hi-Land)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7887",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2023-11-15T12:05:57+01:00",
+      "modified": "2023-11-15T12:06:00+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21514",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "23",
+      "order": 33,
+      "name": "Mitteilungen der Verwaltung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6580",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2_zu TOP 23_Mitteilungen Bgm)",
+          "mimeType": "application/pdf",
+          "date": "2023-11-28",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTW_6kQCbbwNERZPzH-LWC8pH22EeFkk2-YRnkhDqAyO/Anlage_2_zu_TOP_23_Mitteilungen_Bgm.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTW_6kQCbbwNERZPzH-LWC8pH22EeFkk2-YRnkhDqAyO/Anlage_2_zu_TOP_23_Mitteilungen_Bgm.pdf",
+          "created": "2023-12-13T07:26:27+01:00",
+          "modified": "2023-12-13T07:26:27+01:00"
+        }
+      ],
+      "created": "2023-09-08T11:52:14+02:00",
+      "modified": "2023-10-23T14:55:16+02:00"
+    }
+  ]
+}

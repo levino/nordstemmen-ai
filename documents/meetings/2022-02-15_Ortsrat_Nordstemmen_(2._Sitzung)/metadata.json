@@ -1,0 +1,235 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4971",
+  "name": "Ortsrat Nordstemmen (2. Sitzung)",
+  "start": "2022-02-15T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-8"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-33242",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Nordstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2022-02-15",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbRYQ0HalyD2zJqTO7tvB3NbY7lUsykU7Y4c11S4xkyS/Bekanntmachung_Ortsrat_Nordstemmen_15.02.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbRYQ0HalyD2zJqTO7tvB3NbY7lUsykU7Y4c11S4xkyS/Bekanntmachung_Ortsrat_Nordstemmen_15.02.2022.pdf",
+    "created": "2022-02-07T13:00:26+01:00",
+    "modified": "2022-02-07T13:00:26+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-33691",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Nordstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2022-02-15",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUejvF0UIfekA8Y2MVZ4gwvxvpD9qdJ-6KLJKSp0NRkh/Oeffentliche_Niederschrift_Ortsrat_Nordstemmen_15.02.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUejvF0UIfekA8Y2MVZ4gwvxvpD9qdJ-6KLJKSp0NRkh/Oeffentliche_Niederschrift_Ortsrat_Nordstemmen_15.02.2022.pdf",
+    "created": "2022-03-16T19:00:20+01:00",
+    "modified": "2022-03-16T19:00:20+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19572",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2022-01-24T15:45:11+01:00",
+      "modified": "2022-01-24T15:45:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19573",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2022-01-24T15:45:11+01:00",
+      "modified": "2022-01-24T15:45:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19809",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1.1",
+      "order": 3,
+      "name": "Verpflichtung und Pflichtenbelehrung durch den Ortsbürgermeister",
+      "created": "2022-03-03T10:37:43+01:00",
+      "modified": "2022-03-03T10:37:48+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19574",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 4,
+      "name": "Genehmigung des Protokolls der Sitzung vom 09. November 2021",
+      "created": "2022-01-24T15:45:11+01:00",
+      "modified": "2022-01-24T15:45:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19575",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 5,
+      "name": "Bericht bzw. Mitteilungen der Bürgermeisterin",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5531",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 Aufstellung Baulandkataster)",
+          "mimeType": "application/pdf",
+          "date": "2022-02-15",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZarwGwri5myJZF-yaPWNqMRd4cL1W7CdB9pfU6LdBxIZ/Anlage_1_Aufstellung_Baulandkataster.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZarwGwri5myJZF-yaPWNqMRd4cL1W7CdB9pfU6LdBxIZ/Anlage_1_Aufstellung_Baulandkataster.pdf",
+          "created": "2022-03-16T19:00:20+01:00",
+          "modified": "2022-03-16T19:00:20+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5532",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Mitteilung Telefonstelle)",
+          "mimeType": "application/pdf",
+          "date": "2022-02-15",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQt_jn7Fq_AcSLxj7pJ4JXeset0G-UWbiuWZ2XTHpRe3/Mitteilung_Telefonstelle.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQt_jn7Fq_AcSLxj7pJ4JXeset0G-UWbiuWZ2XTHpRe3/Mitteilung_Telefonstelle.pdf",
+          "created": "2022-03-16T19:00:20+01:00",
+          "modified": "2022-03-16T19:00:20+01:00"
+        }
+      ],
+      "created": "2022-01-24T15:45:11+01:00",
+      "modified": "2022-01-24T15:45:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19576",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 6,
+      "name": "Einwohnerfragestunde",
+      "created": "2022-01-24T15:45:11+01:00",
+      "modified": "2022-01-24T15:45:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19679",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 7,
+      "name": "Ergebnisse der Geschwindigkeitsmessungen 2022",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5533",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 3 Ergebnisse Messungen)",
+          "mimeType": "application/pdf",
+          "date": "2022-02-15",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdZDt9kMerQBYLGG5TdA79IXDlUHItyYzjmiXYjOVOre/Anlage_3_Ergebnisse_Messungen.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdZDt9kMerQBYLGG5TdA79IXDlUHItyYzjmiXYjOVOre/Anlage_3_Ergebnisse_Messungen.pdf",
+          "created": "2022-03-16T19:00:20+01:00",
+          "modified": "2022-03-16T19:00:20+01:00"
+        }
+      ],
+      "created": "2022-02-07T09:11:54+01:00",
+      "modified": "2022-02-07T09:11:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19680",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 8,
+      "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2023 sowie für die mittelfristige\nFinanzplanung 2024 bis 2026",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7287",
+      "created": "2022-02-07T09:12:06+01:00",
+      "modified": "2022-02-07T09:12:06+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19681",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Verwendung der zur Verfügung stehenden Ortsratsmittel",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5534",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 4 Ortsratsmittel)",
+          "mimeType": "application/pdf",
+          "date": "2022-02-15",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUkfCkmjwGqcchU00fLHPPXTpU8a7yERbMkjysA5J1O6/Anlage_4_Ortsratsmittel.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUkfCkmjwGqcchU00fLHPPXTpU8a7yERbMkjysA5J1O6/Anlage_4_Ortsratsmittel.pdf",
+          "created": "2022-03-16T19:00:20+01:00",
+          "modified": "2022-03-16T19:00:20+01:00"
+        }
+      ],
+      "created": "2022-02-07T09:13:02+01:00",
+      "modified": "2022-02-16T11:02:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19684",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Schaukastenanlage am Stellwerk",
+      "created": "2022-02-07T09:22:28+01:00",
+      "modified": "2022-02-07T09:22:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19682",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Zuckerfabrik-Kampagne 2021/22 Beschwerden von Anwohnern",
+      "created": "2022-02-07T09:13:57+01:00",
+      "modified": "2022-02-07T09:13:57+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19683",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Situation im Gewerbegebiet - parkende Fahrzeuge",
+      "created": "2022-02-07T09:14:25+01:00",
+      "modified": "2022-02-07T09:14:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19722",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Veräußerung einer Grünanlage",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7291",
+      "created": "2022-02-07T11:14:03+01:00",
+      "modified": "2022-02-07T11:14:03+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19577",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2022-01-24T15:45:11+01:00",
+      "modified": "2022-01-24T15:45:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19578",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 15,
+      "name": "Anträge und Anfragen",
+      "created": "2022-01-24T15:45:11+01:00",
+      "modified": "2022-01-24T15:45:11+01:00"
+    }
+  ]
+}

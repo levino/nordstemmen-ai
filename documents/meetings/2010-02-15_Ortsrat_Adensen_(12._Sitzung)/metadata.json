@@ -1,0 +1,132 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1385",
+  "name": "Ortsrat Adensen (12. Sitzung)",
+  "start": "2010-02-15T19:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-2",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Adensen, Dorfstraße 19, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Dorfstraße 19",
+    "room": "Feuerwehrhaus Adensen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Adensen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T10:54:03+02:00",
+    "modified": "2019-06-06T11:57:02+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-11"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-4946",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2010-02-15",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdrgXPPeXpANLTsadlI7-Ti4gFTVlKCTD-fsGP2VyNvd/Bekanntmachung_Ortsrat_Adensen_15.02.2010.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdrgXPPeXpANLTsadlI7-Ti4gFTVlKCTD-fsGP2VyNvd/Bekanntmachung_Ortsrat_Adensen_15.02.2010.pdf",
+    "created": "2010-02-05T13:06:19+01:00",
+    "modified": "2010-02-05T13:06:19+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5748",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2010-02-04T16:08:01+01:00",
+      "modified": "2010-02-04T16:08:01+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5749",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2010-02-04T16:08:01+01:00",
+      "modified": "2010-02-04T16:08:01+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5751",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Einwohnerfragestunde",
+      "created": "2010-02-04T16:08:01+01:00",
+      "modified": "2010-02-04T16:08:01+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5758",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Anhörung zum doppischen Haushalt für die Haushaltsjahre 2010 bis 2013 /\nInvestitionstätigkeit in der Ortschaft Adensen\n(siehe DS 8/2010; wird nachgereicht)",
+      "created": "2010-02-04T16:09:42+01:00",
+      "modified": "2010-02-04T16:09:42+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5759",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Ausbau der Kreisstraße K 506 im Ortsbereich der Ortschaft Adensen\n- Beratung und Beschlussfassung -\n(siehe Anlage 1)",
+      "created": "2010-02-04T16:11:02+01:00",
+      "modified": "2010-02-04T16:11:02+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5760",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Verwendung der im Haushaltsjahr 2010 zur Verfügung stehenden Ortsratsmittel\n- Beratung und Beschlußfassung -\n(siehe Anlage 2 sowie DS 8/2010 zu TOP 3)",
+      "created": "2010-02-04T16:12:15+01:00",
+      "modified": "2010-02-04T16:12:15+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5752",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2010-02-04T16:08:01+01:00",
+      "modified": "2010-02-04T16:09:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5753",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Mitteilungen des Ortsbürgermeisters",
+      "created": "2010-02-04T16:08:01+01:00",
+      "modified": "2010-02-04T16:08:01+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5754",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Behandlung von Anträgen",
+      "created": "2010-02-04T16:08:01+01:00",
+      "modified": "2010-02-04T16:08:01+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5755",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Behandlung von Anfragen\n(siehe Anlage 3)",
+      "created": "2010-02-04T16:08:01+01:00",
+      "modified": "2010-02-04T16:08:01+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5756",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Anregungen",
+      "created": "2010-02-04T16:08:01+01:00",
+      "modified": "2010-02-04T16:08:01+01:00"
+    }
+  ]
+}

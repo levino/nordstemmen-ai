@@ -1,0 +1,107 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/814",
+  "name": "Ortsrat Adensen (2. Sitzung)",
+  "start": "2007-03-05T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-2",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Adensen, Dorfstraße 19, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Dorfstraße 19",
+    "room": "Feuerwehrhaus Adensen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Adensen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T10:54:03+02:00",
+    "modified": "2019-06-06T11:57:02+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-11"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-252",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2007-03-05",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcvxCmhNYNEoWQBsU9vau9IyOhYcH-UZWYB7juUgHZJk/Bekanntmachung_Ortsrat_Adensen_05.03.2007.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcvxCmhNYNEoWQBsU9vau9IyOhYcH-UZWYB7juUgHZJk/Bekanntmachung_Ortsrat_Adensen_05.03.2007.pdf",
+    "created": "2007-05-16T13:43:19+02:00",
+    "modified": "2007-05-16T13:43:19+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/620",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung - Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder - Feststellung der Tagesordnung - Beschlussfassung über Anträge zur Tagesordnung - Feststellung der Tagesordnung",
+      "created": "2007-02-21T07:38:08+01:00",
+      "modified": "2007-02-21T07:38:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/621",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 27.11.2006",
+      "created": "2007-02-21T07:38:38+01:00",
+      "modified": "2007-02-21T07:38:38+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/622",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2007-02-21T07:43:13+01:00",
+      "modified": "2007-02-21T07:43:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5060",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Anhörung des Ortsrates zum Haushaltsplan 2007 und zum Investitionsprogramm für den Investitionszeitraum bis zum Haushaltsjahr 2010 unter Fortschreibung des Haushaltssicherungskonzeptes",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/91",
+      "created": "2009-09-02T09:26:45+02:00",
+      "modified": "2009-09-02T09:26:45+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/624",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Verwendung der im Haushaltsjahr 2007 zur Verfügung stehenden Ortsratsmittel - Beratung und Beschlussfassung; siehe beigefügtes Schreiben der UWG Nordstemmen - Adensen vom 07.02.2007 - Antrag zur lfd. Nr. 1 - (siehe Anlage 1)",
+      "created": "2007-02-21T07:46:26+01:00",
+      "modified": "2007-02-21T07:46:26+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/625",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Mitteilungen des Bürgermeisters / Ortsbürgermeisters",
+      "created": "2007-02-21T07:46:55+01:00",
+      "modified": "2007-02-21T07:46:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/626",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Behandlung von Anfragen (siehe beigefügtes Schreiben der UWG Nordstemmen-Adensen vom 07.02.2007 zu den lfd. Nrn. 2 bis 6)",
+      "created": "2007-02-21T07:48:10+01:00",
+      "modified": "2007-02-21T07:48:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/627",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Anregungen",
+      "created": "2007-02-21T07:48:26+01:00",
+      "modified": "2007-02-21T07:48:26+01:00"
+    }
+  ]
+}

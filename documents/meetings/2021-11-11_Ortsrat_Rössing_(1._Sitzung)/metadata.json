@@ -1,0 +1,243 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4775",
+  "name": "Ortsrat Rössing (1. Sitzung)",
+  "start": "2021-11-11T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-26",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Gaststätte \"Zum Dorfbrunnen\", Loderwinkel 2 a, 31171 Nordstemmen, Clubraum",
+    "streetAddress": "Loderwinkel 2 a",
+    "room": "Gaststätte \"Zum Dorfbrunnen\", Clubraum",
+    "postalCode": "31171",
+    "subLocality": "Rössing",
+    "locality": "Nordstemmen",
+    "created": "2014-10-09T10:17:13+02:00",
+    "modified": "2017-09-12T17:09:54+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-32487",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2021-11-11",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQxL6R62-8RRFSXjbHVo9RjwCGdQCrAlPs44wC4rNWKc/Bekanntmachung_Ortsrat_Roessing_11.11.2021.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQxL6R62-8RRFSXjbHVo9RjwCGdQCrAlPs44wC4rNWKc/Bekanntmachung_Ortsrat_Roessing_11.11.2021.pdf",
+    "created": "2021-11-04T19:00:21+01:00",
+    "modified": "2021-11-04T19:00:21+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-32624",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2021-11-11",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXR2_wHPgW1PGvKKXEwnPAD-CeB1Dp8XjHc3rs7eGHj_/Oeffentliche_Niederschrift_Ortsrat_Roessing_11.11.2021.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXR2_wHPgW1PGvKKXEwnPAD-CeB1Dp8XjHc3rs7eGHj_/Oeffentliche_Niederschrift_Ortsrat_Roessing_11.11.2021.pdf",
+    "created": "2022-01-25T19:00:13+01:00",
+    "modified": "2022-01-25T19:00:13+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19036",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2021-10-04T11:54:28+02:00",
+      "modified": "2021-10-04T11:54:28+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19037",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit",
+      "created": "2021-10-04T11:54:28+02:00",
+      "modified": "2021-10-04T11:54:28+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19129",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Verpflichtung und Pflichtenbelehrung durch den bisherigen Ortsbürgermeister",
+      "created": "2021-10-29T10:07:42+02:00",
+      "modified": "2021-10-29T10:07:42+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19130",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bekanntgabe der Bildung von Fraktionen und Gruppen",
+      "created": "2021-10-29T10:08:19+02:00",
+      "modified": "2021-10-29T10:08:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19131",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Wahl der Ortsbürgermeisterin / des Ortsbürgermeisters",
+      "created": "2021-10-29T10:08:41+02:00",
+      "modified": "2021-10-29T10:08:41+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19132",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Feststellung der Tagesordnung",
+      "created": "2021-10-29T10:08:56+02:00",
+      "modified": "2021-10-29T10:08:56+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19133",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Wahl von zwei gleichberechtigten stellvertretenden Ortsbürgermeisterinnen / Ortsbürgermeistern",
+      "created": "2021-10-29T10:09:41+02:00",
+      "modified": "2021-10-29T10:09:41+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19134",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Verabschiedung ausgeschiedener Ortsratsmitglieder",
+      "created": "2021-10-29T10:10:03+02:00",
+      "modified": "2021-10-29T10:10:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19039",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Einwohnerfragestunde",
+      "created": "2021-10-04T11:54:28+02:00",
+      "modified": "2021-10-04T11:54:28+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19141",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Fortführung der Bürgersprechstunde vor der Sitzung des Ortsrates",
+      "created": "2021-11-01T08:05:48+01:00",
+      "modified": "2021-11-01T08:05:48+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19135",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Benennung einer Vertreterin/eines Vertreters einschließlich Stellvertretung aus dem Ortsrat für folgende in der Ortschaft gelegene Einrichtungen bzw. bestehende Vereine und Verbände\n- für den Kindertagesstättenausschuss des Kindergartens in der Ortschaft Rössing\n- für den Vorstand im Verein Freizeitsee Rössing e. V.\n- für den Vorstand im Kulturkreis Rössing e. V.\n- Kontaktperson für die Partnergemeinde Beyernaumburg",
+      "created": "2021-10-29T10:12:36+02:00",
+      "modified": "2021-10-29T10:12:36+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19142",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Verbesserung der Verkehrssituation im Leinkamp",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5313",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Rössing Anlage 1 TOP 11)",
+          "mimeType": "application/pdf",
+          "date": "2021-11-11",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZtBUHSzQdfaZrRAURkivHccHM67JJpUdsuFwr9SYUTp/OR_Roessing_Anlage_1_TOP_11.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZtBUHSzQdfaZrRAURkivHccHM67JJpUdsuFwr9SYUTp/OR_Roessing_Anlage_1_TOP_11.pdf",
+          "created": "2022-01-25T19:00:13+01:00",
+          "modified": "2022-01-25T19:00:13+01:00"
+        }
+      ],
+      "created": "2021-11-01T08:08:28+01:00",
+      "modified": "2021-11-01T08:08:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19136",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Verwendung zum Haushaltsjahr 2021 noch zur Verfügung stehenden Ortsratsmittel",
+      "created": "2021-10-29T10:13:10+02:00",
+      "modified": "2021-10-29T10:13:10+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19137",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Anhörung zum Haushaltsplanentwurf 2022 und zum Investitionsprogramm bis 2025 für die Ortschaft Rössing",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7205",
+      "result": "zustimmend zur Kenntnis genommen",
+      "created": "2021-10-29T10:17:23+02:00",
+      "modified": "2021-10-29T10:17:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19143",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Durchführung weiterer Veranstaltungstermine des Ortsrates im Jahr 2022",
+      "created": "2021-11-01T08:09:56+01:00",
+      "modified": "2021-11-01T08:09:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19144",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Planung des Neujahrsempfangs 2022",
+      "created": "2021-11-01T08:10:50+01:00",
+      "modified": "2021-11-01T08:10:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19138",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 17,
+      "name": "Änderungen im Winterdienst der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7197",
+      "result": "Zur Kenntnis genommen",
+      "created": "2021-10-29T10:17:33+02:00",
+      "modified": "2021-10-29T10:17:33+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19040",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 18,
+      "name": "Bericht bzw. Mitteilungen der Bürgermeisterin",
+      "created": "2021-10-04T11:54:28+02:00",
+      "modified": "2021-10-04T11:54:28+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19041",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "18",
+      "order": 19,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin / des Ortsbürgermeisters",
+      "created": "2021-10-04T11:54:28+02:00",
+      "modified": "2021-10-04T11:54:28+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19042",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "19",
+      "order": 20,
+      "name": "Anträge und Anfragen",
+      "created": "2021-10-04T11:54:28+02:00",
+      "modified": "2021-10-04T11:54:28+02:00"
+    }
+  ]
+}

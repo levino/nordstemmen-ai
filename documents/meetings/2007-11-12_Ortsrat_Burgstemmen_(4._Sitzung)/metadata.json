@@ -1,0 +1,151 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/876",
+  "name": "Ortsrat Burgstemmen (4. Sitzung)",
+  "start": "2007-11-12T19:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Burgstemmen, Sackstraße 2, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Sackstraße 2",
+    "room": "Feuerwehrhaus Burgstemmen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Burgstemmen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:33:23+02:00",
+    "modified": "2019-06-06T11:56:46+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-12"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-1783",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2007-11-12",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYwbGN88twjV4h00H0zw27wRUl6JwGp9mMCPL2aEhukL/Bekanntmachung_Ortsrat_Burgstemmen_12.11.2007.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYwbGN88twjV4h00H0zw27wRUl6JwGp9mMCPL2aEhukL/Bekanntmachung_Ortsrat_Burgstemmen_12.11.2007.pdf",
+    "created": "2008-01-03T19:30:50+01:00",
+    "modified": "2008-01-03T19:30:50+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2877",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2007-10-30T08:28:22+01:00",
+      "modified": "2007-10-30T08:28:22+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2878",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2007-10-30T08:28:22+01:00",
+      "modified": "2007-10-30T08:28:22+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2879",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Feststellung des Sitzverlustes des Ortsratsmitgliedes Herr Manfred Steffen gemäß § 37 Abs. 2 NGO",
+      "created": "2007-10-30T08:28:22+01:00",
+      "modified": "2007-10-30T08:28:22+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2885",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Pflichtenbelehrung und Verpflichtung des nachrückenden Ortsratsmitgliedes Frau Elisabeth Paeschke",
+      "created": "2007-10-30T08:29:53+01:00",
+      "modified": "2007-10-30T08:29:53+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2886",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 20. Juni 2007",
+      "created": "2007-10-30T08:33:05+01:00",
+      "modified": "2007-10-30T08:33:05+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2880",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohnerfragestunde",
+      "created": "2007-10-30T08:28:22+01:00",
+      "modified": "2007-10-30T08:28:22+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2887",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Umfang der Straßenbeleuchtung in der Ortschaft Burgstemmen\n- Beratung und Beschlussempfehlung -\n(siehe Anlage 1 - Bestandsaufnahme vom 15.01.2007)",
+      "created": "2007-10-30T08:34:32+01:00",
+      "modified": "2007-10-30T08:34:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4969",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Anhörung des Ortsrates zum Haushaltsplan 2008 und zum Investitionsprogramm für den Investitionszeitraum bis zum Haushaltsjahr 2011 unter Fortschreibung des Haushaltssicherungskonzeptes",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/451",
+      "created": "2009-09-01T11:20:18+02:00",
+      "modified": "2009-09-01T11:20:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2889",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Verwendung der im Haushaltsjahr 2007 noch zur Verfügung stehenden Ortsratsmittel\n   - Vergrößerung des Rosenbeetes an der MZH\n   - Anschaffung und Aufstellung von zwei Sitzbänken\n- Beratung und Beschlussfassung -\n(siehe Anlage 2, Punkte 2 und 3 sowie Kontoauszug über den Stand der OR-Mittel vom 31.10.2007)",
+      "created": "2007-10-30T08:40:52+01:00",
+      "modified": "2007-10-30T08:40:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2890",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bestimmung eines neuen Ortsheimatpflegers\n- Beratung und Beschlussfassung -",
+      "created": "2007-10-30T08:48:27+01:00",
+      "modified": "2007-10-30T08:48:27+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2881",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Mitteilungen des Bürgermeisters / des Ortsbürgermeisters",
+      "created": "2007-10-30T08:28:22+01:00",
+      "modified": "2007-10-30T08:28:22+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2882",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Behandlung von Anfragen",
+      "created": "2007-10-30T08:28:22+01:00",
+      "modified": "2007-10-30T08:28:22+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2883",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Anregungen",
+      "created": "2007-10-30T08:28:22+01:00",
+      "modified": "2007-10-30T08:28:22+01:00"
+    }
+  ]
+}

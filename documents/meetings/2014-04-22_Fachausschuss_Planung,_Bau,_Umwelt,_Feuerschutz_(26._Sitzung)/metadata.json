@@ -1,0 +1,146 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2257",
+  "name": "Fachausschuss Planung, Bau, Umwelt, Feuerschutz (26. Sitzung)",
+  "start": "2014-04-22T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-6"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-12625",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Planung, Bau, Umwelt, Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2014-04-22",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZclL_VFLK2rZWhIigHPvmzK_j3G1-HfNh214BgGaxxWR/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_22.04.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZclL_VFLK2rZWhIigHPvmzK_j3G1-HfNh214BgGaxxWR/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_22.04.2014.pdf",
+    "created": "2014-04-11T13:00:27+02:00",
+    "modified": "2014-04-11T13:00:27+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-12732",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Planung, Bau, Umwelt, Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2014-04-22",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfbtkaaTXkI-iBVFKtb130YEIs0SfITBWRoLjDwL3IX9/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_22.04.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfbtkaaTXkI-iBVFKtb130YEIs0SfITBWRoLjDwL3IX9/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_22.04.2014.pdf",
+    "created": "2014-05-12T13:01:27+02:00",
+    "modified": "2016-08-05T13:01:53+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10714",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2014-04-11T07:39:06+02:00",
+      "modified": "2014-04-11T07:39:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10715",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2014-04-11T07:39:06+02:00",
+      "modified": "2014-04-11T07:39:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10716",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 06.03.2014",
+      "created": "2014-04-11T07:39:06+02:00",
+      "modified": "2014-04-11T07:39:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10717",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2014-04-11T07:39:06+02:00",
+      "modified": "2014-04-11T07:39:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10719",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "LED-Umrüstung der Straßenbeleuchtung; Auswahl eines technischen Anforderungsprofils für die LED-Leuchten",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2715",
+      "created": "2014-04-11T07:39:06+02:00",
+      "modified": "2014-04-11T07:39:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10718",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Erweiterung einer Überdachung am Betriebsgebäude des Bauhofes;\nMaßnahmenbeschluss und Vergabe des Planungsauftrages",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2713",
+      "created": "2014-04-11T07:39:06+02:00",
+      "modified": "2014-04-11T08:55:47+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10726",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Umbau und Erweiterung des Betriebsgebäudes auf der Kläranlage Nordstemmen\n- Maßnahmenbeschluss\n- Zustimmung zu einer überplanmäßigen Auszahlung\n- Vergabe Planungsauftrag",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2720",
+      "created": "2014-04-11T07:49:01+02:00",
+      "modified": "2014-04-11T08:55:57+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10724",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Kanalsanierungsarbeiten in der Ortschaft Barnten;\n- Vorstellung der Kanaluntersuchungsarbeiten der Schmutzwasserkanäle\n- Vergabe des Planungsauftrages\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2014-04-11T07:42:13+02:00",
+      "modified": "2014-04-11T07:42:13+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10725",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Kanalsanierungsarbeiten in Klein Escherde;\n- Vorstellung der Kanaluntersuchungsarbeiten der Schmutzwasserkanäle\n- Vergabe des Planungsauftrages\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2014-04-11T07:43:51+02:00",
+      "modified": "2014-04-11T07:43:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10720",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters\n- Raumordnungsprogramm über eine Rohrfernleitungsanlage zur Entsorgung von Salzabwässern\nUnterrichtung über die Antragskonferenz\n- Abwasserbeseitigung in der Gemeinde Nordstemmen ab dem 0101.2015",
+      "created": "2014-04-11T07:39:06+02:00",
+      "modified": "2014-04-11T07:39:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10721",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anträge und Anfragen",
+      "created": "2014-04-11T07:39:06+02:00",
+      "modified": "2014-04-11T07:39:06+02:00"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2489",
+  "name": "Ortsrat Adensen (34. Sitzung)",
+  "start": "2015-06-08T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-2",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Adensen, Dorfstraße 19, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Dorfstraße 19",
+    "room": "Feuerwehrhaus Adensen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Adensen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T10:54:03+02:00",
+    "modified": "2019-06-06T11:57:02+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-11"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-14395",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2015-06-08",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWTFvtdDmcYNNN7my21bjGJm8leBRe7Q3RFKj0IaJ6Qz/Bekanntmachung_Ortsrat_Adensen_08.06.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWTFvtdDmcYNNN7my21bjGJm8leBRe7Q3RFKj0IaJ6Qz/Bekanntmachung_Ortsrat_Adensen_08.06.2015.pdf",
+    "created": "2015-05-29T13:01:06+02:00",
+    "modified": "2015-05-29T13:01:06+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-14601",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2015-06-08",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUgvl55d8DgCPcrprnOYfAwFF6Yfr1PHdqDUcX-C1pvL/Oeffentliche_Niederschrift_Ortsrat_Adensen_08.06.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUgvl55d8DgCPcrprnOYfAwFF6Yfr1PHdqDUcX-C1pvL/Oeffentliche_Niederschrift_Ortsrat_Adensen_08.06.2015.pdf",
+    "created": "2015-06-26T13:00:43+02:00",
+    "modified": "2015-06-26T13:00:43+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11821",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2015-05-26T16:47:53+02:00",
+      "modified": "2015-05-26T16:47:53+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11822",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2015-05-26T16:47:53+02:00",
+      "modified": "2015-05-26T16:47:53+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11823",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 27. Oktober 2014",
+      "created": "2015-05-26T16:47:53+02:00",
+      "modified": "2015-05-26T16:47:53+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11824",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2015-05-26T16:47:53+02:00",
+      "modified": "2015-05-26T16:47:53+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11900",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Stellungnahme zum Ausbau der Kreisstraße K 506 in der Ortsdurchfahrt Adensen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1367",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Adensen 08.06.2015 19:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-06-08",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaaXVvlCvtA8HlfQqMEx75wZ6onL0iqE4rUV2IlrCvBK/Ortsrat_Adensen_08.06.2015_19-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaaXVvlCvtA8HlfQqMEx75wZ6onL0iqE4rUV2IlrCvBK/Ortsrat_Adensen_08.06.2015_19-00_Uhr.pdf",
+          "created": "2015-06-26T13:00:43+02:00",
+          "modified": "2015-06-26T13:00:43+02:00"
+        }
+      ],
+      "created": "2015-06-09T16:01:01+02:00",
+      "modified": "2015-06-09T16:01:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11830",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 7,
+      "name": "Verwendung der im Haushalt 2015 noch zur Verfügung stehenden Ortsratsmittel\n- Anschaffung einer Festplatte zur Archivierung der Bilder aus der Heimatpflege\n(Beratung und Beschlussfassung)",
+      "created": "2015-05-26T16:50:45+02:00",
+      "modified": "2015-05-26T16:50:45+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11831",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 8,
+      "name": "Antrag auf Einbindung der Straße \"Am Mühlenfeld\", Ortschaft Adensen in die \"Zone 30\"\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2015-05-26T16:51:37+02:00",
+      "modified": "2015-05-26T16:51:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11825",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Erneuerung der Verrohrung des Gewässers \"Wasserfurche\" (Gewässer III. Ordnung) in der Straße Albesgasse einschließlich Ausbau des Einmündungsbereiches zur Dorfstraße in der Ortschaft Adensen; Maßnahmenbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3070",
+      "created": "2015-05-26T16:47:54+02:00",
+      "modified": "2015-05-26T16:47:54+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11834",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Antrag des VFL Adensen-Hallerburg e.V. auf Ausbau des Sportheims Adensen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3094",
+      "created": "2015-05-28T13:35:59+02:00",
+      "modified": "2015-05-28T13:35:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11832",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Verabschiedung des bisherigen Ortsheimatpflegers Herrn Herbert Pfeiffer und Benennung des neuen Ortsheimatpflegers",
+      "created": "2015-05-26T16:52:21+02:00",
+      "modified": "2015-05-26T16:52:21+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11826",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters\n- Stand: Planung der Windenergie-Vorrganggebiete im Bereich Adensen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1368",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Adensen 08.06.2015 19:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-06-08",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfXEt4eOK3ReemkKv8zVLaJXvsXdCnlLKhCAnj0jahre/Ortsrat_Adensen_08.06.2015_19-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfXEt4eOK3ReemkKv8zVLaJXvsXdCnlLKhCAnj0jahre/Ortsrat_Adensen_08.06.2015_19-00_Uhr.pdf",
+          "created": "2015-06-24T13:00:33+02:00",
+          "modified": "2015-06-24T13:00:33+02:00"
+        }
+      ],
+      "created": "2015-05-26T16:47:54+02:00",
+      "modified": "2015-05-26T16:47:54+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11827",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2015-05-26T16:47:54+02:00",
+      "modified": "2015-05-26T16:47:54+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11828",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Anträge und Anfragen",
+      "created": "2015-05-26T16:47:54+02:00",
+      "modified": "2015-05-26T16:47:54+02:00"
+    }
+  ]
+}

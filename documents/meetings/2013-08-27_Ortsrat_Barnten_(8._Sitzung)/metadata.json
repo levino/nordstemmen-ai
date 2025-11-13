@@ -1,0 +1,142 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2137",
+  "name": "Ortsrat Barnten (8. Sitzung)",
+  "start": "2013-08-27T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-5",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Barnten, Glückaufstraße 1, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Glückaufstraße 1",
+    "room": "Dorfgemeinschaftshaus Barnten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Barnten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:29:00+02:00",
+    "modified": "2019-06-06T11:57:52+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-10"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-11442",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2013-08-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZmeLIrV1-w-xBDFBS5-jZcgoscpY22tbjllxm62VOyt/Bekanntmachung_Ortsrat_Barnten_27.08.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZmeLIrV1-w-xBDFBS5-jZcgoscpY22tbjllxm62VOyt/Bekanntmachung_Ortsrat_Barnten_27.08.2013.pdf",
+    "created": "2013-08-15T19:00:21+02:00",
+    "modified": "2013-08-15T19:00:21+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-11565",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2013-08-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZY63m4VZ_nW5BZlI9lfOdXYxVEWuMf7NteGAM3Y7bR31/Oeffentliche_Niederschrift_Ortsrat_Barnten_27.08.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZY63m4VZ_nW5BZlI9lfOdXYxVEWuMf7NteGAM3Y7bR31/Oeffentliche_Niederschrift_Ortsrat_Barnten_27.08.2013.pdf",
+    "created": "2013-08-30T13:00:28+02:00",
+    "modified": "2013-08-30T13:00:28+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9977",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2013-08-15T14:49:34+02:00",
+      "modified": "2013-08-15T14:49:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9978",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2013-08-15T14:49:34+02:00",
+      "modified": "2013-08-15T14:49:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9979",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 23.05.2013",
+      "created": "2013-08-15T14:49:34+02:00",
+      "modified": "2013-08-15T14:49:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9980",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2013-08-15T14:49:34+02:00",
+      "modified": "2013-08-15T14:49:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9981",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Neuaufstellung des Regionalen Raumordnungsprogramms (RROP) für den Landkreis Hildesheim -Entwurf 2013-\nBeteiligungsverfahren gemäß § 3 Niedersächsisches Gesetz über Raumordnung und Landesplanung (NROG)\n\t\nStellungnahme der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2440",
+      "created": "2013-08-15T14:49:34+02:00",
+      "modified": "2013-08-15T14:49:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9982",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Raumordnungsverfahren (ROV) für eine geplante Wiedereröffnung des Hartsalzwerkes \"Siegfried-Giesen\"\nBelange der Gemeinde Nordstemmen; Stellungnahme",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2450",
+      "created": "2013-08-15T14:49:34+02:00",
+      "modified": "2013-08-15T14:49:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9983",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2013-08-15T14:49:34+02:00",
+      "modified": "2013-08-15T14:49:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9984",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-949",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Barnten 27.08.2013 19.00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2013-08-27",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbL3Mm6nRlSpJooPWuMNdObdFWWsS2F55om4rWHRTvXP/Ortsrat_Barnten_27.08.2013_19.00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbL3Mm6nRlSpJooPWuMNdObdFWWsS2F55om4rWHRTvXP/Ortsrat_Barnten_27.08.2013_19.00_Uhr.pdf",
+          "created": "2013-08-29T13:00:08+02:00",
+          "modified": "2013-08-29T13:00:08+02:00"
+        }
+      ],
+      "created": "2013-08-15T14:49:34+02:00",
+      "modified": "2013-08-15T14:49:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9985",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Anträge und Anfragen",
+      "created": "2013-08-15T14:49:34+02:00",
+      "modified": "2013-08-15T14:49:34+02:00"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5077",
+  "name": "Ortsrat Adensen (4. Sitzung)",
+  "start": "2022-11-03T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-21",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Sportgaststätte Rolf-Gehrke-Halle, An der Sporthalle 1, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "An der Sporthalle 1",
+    "room": "Sportgaststätte Rolf-Gehrke-Halle, Sammlungsraum",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2010-01-14T08:49:23+01:00",
+    "modified": "2021-10-27T14:00:03+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-11"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-35053",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2022-11-03",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfpWMZdS7yufA0ctUbUJIMTT10682Es9CLn61YSqcb1A/Bekanntmachung_Ortsrat_Adensen_03.11.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfpWMZdS7yufA0ctUbUJIMTT10682Es9CLn61YSqcb1A/Bekanntmachung_Ortsrat_Adensen_03.11.2022.pdf",
+    "created": "2022-10-25T13:00:19+02:00",
+    "modified": "2022-10-25T13:00:19+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-35339",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2022-11-03",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXEK7Kq7P1EzC0CcntfT6MZadIpziKkH25MhOaVzmYsP/Oeffentliche_Niederschrift_Ortsrat_Adensen_03.11.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXEK7Kq7P1EzC0CcntfT6MZadIpziKkH25MhOaVzmYsP/Oeffentliche_Niederschrift_Ortsrat_Adensen_03.11.2022.pdf",
+    "created": "2022-11-23T13:00:19+01:00",
+    "modified": "2022-11-23T13:00:19+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20273",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2022-07-27T11:51:52+02:00",
+      "modified": "2022-07-27T11:51:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20274",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2022-07-27T11:51:52+02:00",
+      "modified": "2022-07-27T11:51:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20275",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 16. Mai 2022",
+      "created": "2022-07-27T11:51:52+02:00",
+      "modified": "2022-07-27T11:51:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20498",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Anhörung zum Haushaltsplan 2023 und zum Investitionsprogramm bis 2026 für die Ortschaft Adensen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7531",
+      "result": "Einstimmig zur Kenntnis genommen",
+      "created": "2022-10-20T10:26:48+02:00",
+      "modified": "2022-10-20T10:26:50+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20278",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5782",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2022-11-03",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUWkn2ltRND35xx_fQvJy0l73DNquxfA9zXetqEacv0a/Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUWkn2ltRND35xx_fQvJy0l73DNquxfA9zXetqEacv0a/Anlage_1.pdf",
+          "created": "2022-11-23T13:00:19+01:00",
+          "modified": "2022-11-23T13:00:19+01:00"
+        }
+      ],
+      "created": "2022-07-27T11:51:52+02:00",
+      "modified": "2022-07-27T11:51:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20279",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Mitteilungen der Verwaltung",
+      "created": "2022-07-27T11:51:52+02:00",
+      "modified": "2022-07-27T11:51:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20277",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2022-07-27T11:51:52+02:00",
+      "modified": "2022-11-11T11:34:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20503",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Vorstellung der Ergebnisse der Messstation im Bergwinkelsweg",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5783",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2022-11-03",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUH-KU5a4tOz3F9Kxfql-Tb9fbOAZNRGFWd5DEdlOyim/Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUH-KU5a4tOz3F9Kxfql-Tb9fbOAZNRGFWd5DEdlOyim/Anlage_2.pdf",
+          "created": "2022-11-23T13:00:19+01:00",
+          "modified": "2022-11-23T13:00:19+01:00"
+        }
+      ],
+      "created": "2022-10-20T17:13:55+02:00",
+      "modified": "2022-10-20T17:13:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20504",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Vorschläge für Standorte von Geschwindigkeitsanzeigetafeln und dem Verkehrsstatistikgerät 2023",
+      "created": "2022-10-20T17:14:59+02:00",
+      "modified": "2022-10-20T17:14:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20276",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Anfragen und Anregungen",
+      "created": "2022-07-27T11:51:52+02:00",
+      "modified": "2022-11-11T11:34:44+01:00"
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1352",
+  "name": "Rat (16. Sitzung)",
+  "start": "2009-12-03T18:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5236",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2009-10-12T11:54:17+02:00",
+      "modified": "2009-10-12T11:54:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5237",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2009-10-12T11:54:17+02:00",
+      "modified": "2009-10-12T11:54:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5238",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung des Rates vom 17. September 2009",
+      "created": "2009-10-12T11:54:17+02:00",
+      "modified": "2009-10-12T11:54:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5239",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht des Bürgermeisters über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "created": "2009-10-12T11:54:17+02:00",
+      "modified": "2009-10-12T11:54:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5240",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2009-10-12T11:54:17+02:00",
+      "modified": "2009-10-12T11:54:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5486",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Neuwahl bzw. Wiederwahl der Schiedspersonen für die Schiedsmannsbezirke der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1191",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-285",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Rat 03.12.2009 18.30 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2009-12-03",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYthiehZcncUwT6E4amDEmQulXjiPP4u_bDiMLaANSvP/Rat_03.12.2009_18.30_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYthiehZcncUwT6E4amDEmQulXjiPP4u_bDiMLaANSvP/Rat_03.12.2009_18.30_Uhr.pdf",
+          "created": "2010-03-18T18:06:31+01:00",
+          "modified": "2010-03-18T18:06:31+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-289",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Rat 03.12.2009 18.30 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2009-12-03",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVSTenFrN5lPc66_iLT09Ezb0UWctNdwoO2cvD8jVlPA/Rat_03.12.2009_18.30_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVSTenFrN5lPc66_iLT09Ezb0UWctNdwoO2cvD8jVlPA/Rat_03.12.2009_18.30_Uhr.pdf",
+          "created": "2010-03-18T18:06:31+01:00",
+          "modified": "2010-03-18T18:06:31+01:00"
+        }
+      ],
+      "created": "2009-11-12T16:26:16+01:00",
+      "modified": "2009-11-12T16:26:16+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5487",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "3. Satzung zur Änderung der Entschädigungssatzung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1114",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-288",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Rat 03.12.2009 18.30 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2009-12-03",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdndGQAFRWFBtzoQYCLlvnqy8-IOMAtlGYt6cLtf5un2/Rat_03.12.2009_18.30_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdndGQAFRWFBtzoQYCLlvnqy8-IOMAtlGYt6cLtf5un2/Rat_03.12.2009_18.30_Uhr.pdf",
+          "created": "2010-03-18T18:06:31+01:00",
+          "modified": "2010-03-18T18:06:31+01:00"
+        }
+      ],
+      "created": "2009-11-12T16:26:36+01:00",
+      "modified": "2009-11-12T16:26:36+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5488",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Weiterentwicklung des Freizeitbades;\nSanierung Kinderbecken",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1136",
+      "created": "2009-11-12T16:27:08+01:00",
+      "modified": "2009-11-12T16:27:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5489",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7.1",
+      "order": 9,
+      "name": "Weiterentwicklung des Freizeitbades;\nSanierung Kinderbecken",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1181",
+      "created": "2009-11-12T16:28:05+01:00",
+      "modified": "2009-11-12T16:28:16+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5490",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Freizeitbad Nordstemmen - Festlegung der Eintrittspreise ab Saison 2010",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1185",
+      "created": "2009-11-12T16:28:38+01:00",
+      "modified": "2009-11-12T16:28:47+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5491",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Verlegung des Kinderhortes in der Ortschaft Nordstemmen in die Grundschule Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1140",
+      "created": "2009-11-12T16:29:09+01:00",
+      "modified": "2009-11-12T16:29:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5492",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Umwandlung der Vollen Halbtagsgrundschule Barnten in eine \"Offene Ganztagsschule\"",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1153",
+      "created": "2009-11-12T16:29:35+01:00",
+      "modified": "2009-11-12T16:29:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5493",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Maßnahmenbeschluss für die Sanierung der Vollen Halbtagsgrundschule Barnten im Rahmen des Konjunkturpaketes II (Investitionspauschale)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1162",
+      "created": "2009-11-12T16:30:03+01:00",
+      "modified": "2009-11-12T16:30:03+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5245",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Änderung der Satzung der Freiwilligen Feuerwehr der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1088",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-286",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Rat 03.12.2009 18.30 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2009-12-03",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYcM86d2LpsHD9WdMHs06bApX7F5Lk7N9qbEiJof1LZ2/Rat_03.12.2009_18.30_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYcM86d2LpsHD9WdMHs06bApX7F5Lk7N9qbEiJof1LZ2/Rat_03.12.2009_18.30_Uhr.pdf",
+          "created": "2010-03-18T18:06:31+01:00",
+          "modified": "2010-03-18T18:06:31+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-287",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Rat 03.12.2009 18.30 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2009-12-03",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbSRmu6WzNUjOTTb0yEi-6_oFF3Ne3Ku3j8eZSyK9cpA/Rat_03.12.2009_18.30_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbSRmu6WzNUjOTTb0yEi-6_oFF3Ne3Ku3j8eZSyK9cpA/Rat_03.12.2009_18.30_Uhr.pdf",
+          "created": "2010-03-18T18:06:31+01:00",
+          "modified": "2010-03-18T18:06:31+01:00"
+        }
+      ],
+      "created": "2009-10-12T11:54:17+02:00",
+      "modified": "2009-11-12T16:30:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5494",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 15,
+      "name": "Änderung und Verlängerung der Zuschussvereinbarung zur Finanzierung der Wirtschaftsförderungsgesellschaft Hildesheim Region (Hi-REG) mbH",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1168",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-290",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Rat 03.12.2009 18.30 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2009-12-03",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTAuw8UCQhylTDcPmystykA308QnPQpGnJoEm1TGdA8E/Rat_03.12.2009_18.30_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTAuw8UCQhylTDcPmystykA308QnPQpGnJoEm1TGdA8E/Rat_03.12.2009_18.30_Uhr.pdf",
+          "created": "2010-03-18T18:06:31+01:00",
+          "modified": "2010-03-18T18:06:31+01:00"
+        }
+      ],
+      "created": "2009-11-12T16:30:38+01:00",
+      "modified": "2009-11-12T16:30:38+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5243",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 16,
+      "name": "Verbesserung der Straßenbeleuchtung in der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1066",
+      "created": "2009-10-12T11:54:17+02:00",
+      "modified": "2009-11-12T16:30:48+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5244",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 17,
+      "name": "4. Nachtragssatzung zur Änderung der Satzung über die Erhebung von Beiträgen und Gebühren für die Abwasserbeseitigungssatzung der Gemeinde Nordstemmen (Abwasserabgabensatzung vom 09.11.1995)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1073",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-291",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Rat 03.12.2009 18.30 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2009-12-03",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYHbxQUfn0KSIV-zL-aGvnnCUhUSSL_4xqiCt5hqIaHr/Rat_03.12.2009_18.30_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYHbxQUfn0KSIV-zL-aGvnnCUhUSSL_4xqiCt5hqIaHr/Rat_03.12.2009_18.30_Uhr.pdf",
+          "created": "2010-03-18T18:06:31+01:00",
+          "modified": "2010-03-18T18:06:31+01:00"
+        }
+      ],
+      "created": "2009-10-12T11:54:17+02:00",
+      "modified": "2009-11-12T16:31:40+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5502",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15.2",
+      "order": 18,
+      "name": "4. Nachtragssatzung zur Änderung der Satzung über die Erhebung von Beiträgen und Gebühren für die Abwasserbeseitigungssatzung der Gemeinde Nordstemmen (Abwasserabgabensatzung vom 09.11.1995)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1174",
+      "created": "2009-11-12T16:39:56+01:00",
+      "modified": "2009-11-12T16:40:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5242",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 19,
+      "name": "Einführung einer neuen Abwassergebühr für Schmutzwasser und Niederschlagswasser (Gesplittete Abwassergebühr) in der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1079",
+      "created": "2009-10-12T11:54:17+02:00",
+      "modified": "2009-11-12T16:31:47+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5495",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 20,
+      "name": "Bebauungsplan Nr. 0306 \"Barnten-Süd III\", 1. Änderung;\nSatzungsbeschluss gem. § 10 Abs. 1 BauGB",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1159",
+      "created": "2009-11-12T16:32:05+01:00",
+      "modified": "2009-11-12T16:35:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5496",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "18",
+      "order": 21,
+      "name": "19. Änderung des Flächennutzungsplanes der Gemeinde Nordstemmen (Krummer Kamp) - Feststellungsbeschluss\n(DS 38/2009)",
+      "created": "2009-11-12T16:34:40+01:00",
+      "modified": "2009-11-12T16:36:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5497",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "19",
+      "order": 22,
+      "name": "Bebauungsplan-Nr. 0207 \"Krummer Kamp\", Ortschaft Adensen\n- Satzungsbeschluss\n(DS 39/2009)",
+      "created": "2009-11-12T16:35:43+01:00",
+      "modified": "2009-11-12T16:36:17+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5241",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "20",
+      "order": 24,
+      "name": "Bekanntgabe des Berichts über die unvermutete örtliche Prüfung der Gemeindekasse Nordstemmen durch das Rechnungsprüfungsamt des Landkreises Hildesheim",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1060",
+      "created": "2009-10-12T11:54:17+02:00",
+      "modified": "2009-10-12T11:54:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5498",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "21",
+      "order": 25,
+      "name": "Verlängerung des Nordstemmer-Kinder-Bauland-Bonus",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1147",
+      "created": "2009-11-12T16:36:39+01:00",
+      "modified": "2009-11-12T16:36:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5499",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "22",
+      "order": 26,
+      "name": "I. Nachtragshaushaltssatzung mit I. Nachtragshaushaltsplan für das Haushaltsjahr 2009",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1190",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-292",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Rat 03.12.2009 18.30 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2009-12-03",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQeahtyD-UWpUmkYxVyqaPlk6gmNYFZCfyNRdkAxPc4s/Rat_03.12.2009_18.30_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQeahtyD-UWpUmkYxVyqaPlk6gmNYFZCfyNRdkAxPc4s/Rat_03.12.2009_18.30_Uhr.pdf",
+          "created": "2010-03-18T18:06:31+01:00",
+          "modified": "2010-03-18T18:06:31+01:00"
+        }
+      ],
+      "created": "2009-11-12T16:36:58+01:00",
+      "modified": "2009-11-12T16:36:58+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5246",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "23",
+      "order": 27,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2009-10-12T11:54:17+02:00",
+      "modified": "2009-10-12T11:54:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5247",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "24",
+      "order": 28,
+      "name": "Behandlung von Anträgen",
+      "created": "2009-10-12T11:54:17+02:00",
+      "modified": "2009-10-12T11:54:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5248",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "25",
+      "order": 29,
+      "name": "Behandlung von Anfragen",
+      "created": "2009-10-12T11:54:17+02:00",
+      "modified": "2009-10-12T11:54:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5249",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "26",
+      "order": 30,
+      "name": "Anregungen",
+      "created": "2009-10-12T11:54:17+02:00",
+      "modified": "2009-10-12T11:54:17+02:00"
+    }
+  ]
+}

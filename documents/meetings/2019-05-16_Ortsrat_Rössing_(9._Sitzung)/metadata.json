@@ -1,0 +1,136 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4247",
+  "name": "Ortsrat Rössing (9. Sitzung)",
+  "start": "2019-05-16T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-25",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Gasthaus \"Alt Rössing\", Friedrichstraße 8, 31171 Nordstemmen, Clubraum",
+    "streetAddress": "Friedrichstraße 8",
+    "room": "Gasthaus \"Alt Rössing\", Clubraum",
+    "postalCode": "31171",
+    "subLocality": "Rössing",
+    "locality": "Nordstemmen",
+    "created": "2014-02-07T09:38:24+01:00",
+    "modified": "2019-06-06T11:58:30+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-27121",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2019-05-16",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZThqyPX7Ny5LYsSvfx-HiVvsvFrC6AEiDN--lG65Szgs/Bekanntmachung_Ortsrat_Roessing_16.05.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZThqyPX7Ny5LYsSvfx-HiVvsvFrC6AEiDN--lG65Szgs/Bekanntmachung_Ortsrat_Roessing_16.05.2019.pdf",
+    "created": "2019-05-08T13:01:22+02:00",
+    "modified": "2019-05-08T13:01:22+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-27341",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2019-05-16",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXCog1OtBvdoymYHgx-Hlnqvqq9FCSVzw6slXzwxSkxC/Oeffentliche_Niederschrift_Ortsrat_Roessing_16.05.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXCog1OtBvdoymYHgx-Hlnqvqq9FCSVzw6slXzwxSkxC/Oeffentliche_Niederschrift_Ortsrat_Roessing_16.05.2019.pdf",
+    "created": "2019-06-11T19:01:19+02:00",
+    "modified": "2019-06-11T19:01:19+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16568",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2019-05-08T09:14:05+02:00",
+      "modified": "2019-05-08T09:14:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16569",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2019-05-08T09:14:05+02:00",
+      "modified": "2019-05-08T09:14:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16570",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 07. Februar 2019",
+      "created": "2019-05-08T09:14:05+02:00",
+      "modified": "2019-05-08T09:14:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16571",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2019-05-08T09:14:05+02:00",
+      "modified": "2019-05-08T09:14:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16572",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2020 sowie für die mittelfristige Finanzplanung 2021 bis 2023",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6533",
+      "created": "2019-05-08T09:14:05+02:00",
+      "modified": "2019-05-08T09:14:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16577",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Möglichkeiten der Neubürgerbegrüßung in der Ortschaft Rössing",
+      "created": "2019-05-08T09:14:48+02:00",
+      "modified": "2019-05-08T09:14:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16573",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2019-05-08T09:14:05+02:00",
+      "modified": "2019-05-08T09:14:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16574",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2019-05-08T09:14:05+02:00",
+      "modified": "2019-05-08T09:14:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16578",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Vergabe von Ortsratsmitteln",
+      "created": "2019-05-08T09:15:11+02:00",
+      "modified": "2019-05-08T09:15:11+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16575",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Anträge und Anfragen",
+      "created": "2019-05-08T09:14:05+02:00",
+      "modified": "2019-05-08T09:14:05+02:00"
+    }
+  ]
+}

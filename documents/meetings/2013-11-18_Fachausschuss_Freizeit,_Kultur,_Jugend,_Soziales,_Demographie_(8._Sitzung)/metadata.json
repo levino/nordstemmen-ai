@@ -1,0 +1,154 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2174",
+  "name": "Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie (8. Sitzung)",
+  "start": "2013-11-18T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-20",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer Rathaus Altbau",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer Rathaus Altbau",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2009-02-10T14:08:10+01:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-7"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-11986",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie)",
+    "mimeType": "application/pdf",
+    "date": "2013-11-18",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUCQtCXjJcrah1QfojiQQlJ21eH5U5VgQ19F28mH3CsX/Bekanntmachung_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_18.11.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUCQtCXjJcrah1QfojiQQlJ21eH5U5VgQ19F28mH3CsX/Bekanntmachung_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_18.11.2013.pdf",
+    "created": "2013-11-08T13:00:21+01:00",
+    "modified": "2013-11-08T13:00:21+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-12205",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie)",
+    "mimeType": "application/pdf",
+    "date": "2013-11-18",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTdSZUGnt36YHViHxsa9F09cKP8bdPF1u0WAL1ivEL-I/Oeffentliche_Niederschrift_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_18.11.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTdSZUGnt36YHViHxsa9F09cKP8bdPF1u0WAL1ivEL-I/Oeffentliche_Niederschrift_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_18.11.2013.pdf",
+    "created": "2013-12-23T13:00:25+01:00",
+    "modified": "2013-12-23T13:00:25+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10350",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2013-11-07T09:15:45+01:00",
+      "modified": "2013-11-07T09:15:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10351",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2013-11-07T09:15:45+01:00",
+      "modified": "2013-11-07T09:15:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10352",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 10.09.2013",
+      "created": "2013-11-07T09:15:45+01:00",
+      "modified": "2013-11-07T09:15:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10353",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2013-11-07T09:15:45+01:00",
+      "modified": "2013-11-07T09:15:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10369",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Haushalt 2014;\nTeilhaushalt für den Produktbereich Soziales u. a.",
+      "created": "2013-11-08T10:03:25+01:00",
+      "modified": "2013-11-08T10:03:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10387",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4.1",
+      "order": 6,
+      "name": "Haushalt 2014;\nTeilhaushalt für den Produktbereich Soziales u. a.",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2580",
+      "created": "2013-11-12T16:50:24+01:00",
+      "modified": "2013-11-12T16:50:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10354",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 8,
+      "name": "Abschluss einer Vereinbarung zwischen dem Landkreis Hildesheim und der Gemeinde Nordstemmen zur Wahrnehmung der Aufgaben der Kindertagesbetreuung und der Kindertagespflege ab 01.01.2014 für die Dauer von zwei Jahren",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2555",
+      "created": "2013-11-07T09:15:45+01:00",
+      "modified": "2013-11-07T09:15:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10370",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 9,
+      "name": "(Folge-)Förderung Mehrgenerationenhaus - Antrag KOMM e. V.\n(DS 104/2013; wird nachgereicht)",
+      "created": "2013-11-08T10:05:35+01:00",
+      "modified": "2013-11-08T10:05:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10371",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 10,
+      "name": "Freizeitbad Nordstemmen - Neufassung Haus- und Badeordnung\n(DS 105/2013; wird nachgereicht)",
+      "created": "2013-11-08T10:07:05+01:00",
+      "modified": "2013-11-08T10:07:05+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10372",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 11,
+      "name": "Information über das Präventionsprojekt Communities That Care - CTC -",
+      "created": "2013-11-08T10:07:54+01:00",
+      "modified": "2013-11-08T10:07:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10355",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 12,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2013-11-07T09:15:45+01:00",
+      "modified": "2013-11-07T09:15:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10356",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 13,
+      "name": "Anträge und Anfragen",
+      "created": "2013-11-07T09:15:45+01:00",
+      "modified": "2013-11-07T09:15:45+01:00"
+    }
+  ]
+}

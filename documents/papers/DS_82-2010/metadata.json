@@ -1,0 +1,40 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/567",
+  "reference": "DS 82/2010",
+  "name": "Annahme und Vermittlung von Zuwendungen",
+  "paperType": "Beschlussvorlage",
+  "date": "2010-12-02",
+  "mainFile": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-6108",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Beschlussvorlage (Annahme und Vermittlung von Zuwendungen)",
+    "mimeType": "application/pdf",
+    "date": "2010-12-02",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYH4DeuG4ZdW_PN_dcVC3rO_YojdHpkN9bNRr0L1uOx1/Beschlussvorlage_DS_82-2010.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYH4DeuG4ZdW_PN_dcVC3rO_YojdHpkN9bNRr0L1uOx1/Beschlussvorlage_DS_82-2010.pdf",
+    "created": "2010-11-17T08:38:10+01:00",
+    "modified": "2010-11-17T08:38:10+01:00"
+  },
+  "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1481",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-2"
+      ],
+      "created": "2010-11-16T15:41:51+01:00",
+      "modified": "2010-11-16T15:41:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1482",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1551",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2010-11-16T15:42:08+01:00",
+      "modified": "2010-11-16T15:42:08+01:00"
+    }
+  ]
+}

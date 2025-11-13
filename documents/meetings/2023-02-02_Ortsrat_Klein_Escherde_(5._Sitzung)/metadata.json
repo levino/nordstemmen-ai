@@ -1,0 +1,178 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5147",
+  "name": "Ortsrat Klein Escherde (5. Sitzung)",
+  "start": "2023-02-02T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-9",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Klein Escherde, Eschestraße 3, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Eschestraße 3",
+    "room": "Feuerwehrhaus Klein Escherde, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Klein Escherde",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:54:15+02:00",
+    "modified": "2019-06-06T11:56:23+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-16"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-35864",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2023-02-02",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZak4pYqxeZ4b6WcKoNaQeKw6Mixa0dbc9avVMvuhYxed/Bekanntmachung_Ortsrat_Klein_Escherde_02.02.2023.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZak4pYqxeZ4b6WcKoNaQeKw6Mixa0dbc9avVMvuhYxed/Bekanntmachung_Ortsrat_Klein_Escherde_02.02.2023.pdf",
+    "created": "2023-01-20T13:00:29+01:00",
+    "modified": "2023-01-20T13:00:29+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-36083",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2023-02-02",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYSkoxB55HAZqRnhl7jANqGwZgswECXOoo2Lcy89HhJl/Oeffentliche_Niederschrift_Ortsrat_Klein_Escherde_02.02.2023.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYSkoxB55HAZqRnhl7jANqGwZgswECXOoo2Lcy89HhJl/Oeffentliche_Niederschrift_Ortsrat_Klein_Escherde_02.02.2023.pdf",
+    "created": "2023-02-28T19:00:27+01:00",
+    "modified": "2023-02-28T19:00:27+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20780",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2023-01-18T09:34:05+01:00",
+      "modified": "2023-01-18T09:34:05+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20781",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2023-01-18T09:34:05+01:00",
+      "modified": "2023-01-18T09:34:05+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20782",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 17. November 2022",
+      "created": "2023-01-18T09:34:05+01:00",
+      "modified": "2023-01-18T09:34:05+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20785",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Mitteilungen der Verwaltung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6036",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 TOP 3)",
+          "mimeType": "application/pdf",
+          "date": "2023-02-02",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWgLNll_oQDag-vdySNleil54iUVNnuiXz-_K_QCrmBp/Anlage_1_TOP_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWgLNll_oQDag-vdySNleil54iUVNnuiXz-_K_QCrmBp/Anlage_1_TOP_3.pdf",
+          "created": "2023-02-28T13:00:16+01:00",
+          "modified": "2023-02-28T13:00:16+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6037",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2 TOP 3)",
+          "mimeType": "application/pdf",
+          "date": "2023-02-02",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXUslFTENMnoH1UxHF2HStDcAOyGJE7lbLhuLpO-CAIM/Anlage_2_TOP_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXUslFTENMnoH1UxHF2HStDcAOyGJE7lbLhuLpO-CAIM/Anlage_2_TOP_3.pdf",
+          "created": "2023-02-28T13:00:16+01:00",
+          "modified": "2023-02-28T13:00:16+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6038",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 3 TOP 3)",
+          "mimeType": "application/pdf",
+          "date": "2023-02-02",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVLNJkAFjgQUJWppMmETNkCGUuBQggKNJMR--66xHHp-/Anlage_3_TOP_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVLNJkAFjgQUJWppMmETNkCGUuBQggKNJMR--66xHHp-/Anlage_3_TOP_3.pdf",
+          "created": "2023-02-28T13:00:16+01:00",
+          "modified": "2023-02-28T13:00:16+01:00"
+        }
+      ],
+      "created": "2023-01-18T09:34:05+01:00",
+      "modified": "2023-01-18T09:34:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20784",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2023-01-18T09:34:05+01:00",
+      "modified": "2023-01-18T09:34:44+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20787",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Anstehende Termine und Organisation",
+      "created": "2023-01-18T09:35:08+01:00",
+      "modified": "2023-01-18T09:35:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20788",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Auswertung Verkehrsschau Landkreis Hildesheim",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6039",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 4 TOP 6)",
+          "mimeType": "application/pdf",
+          "date": "2023-02-02",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZU3qSxBAwmMrjimVgXc1APm5pYXIL39bBlLtlho2d8WL/Anlage_4_TOP_6.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZU3qSxBAwmMrjimVgXc1APm5pYXIL39bBlLtlho2d8WL/Anlage_4_TOP_6.pdf",
+          "created": "2023-02-28T13:00:16+01:00",
+          "modified": "2023-02-28T13:00:16+01:00"
+        }
+      ],
+      "created": "2023-01-18T09:35:27+01:00",
+      "modified": "2023-01-18T09:35:27+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20783",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2023-01-18T09:34:05+01:00",
+      "modified": "2023-01-18T09:35:49+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20789",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Anfragen und Anregungen",
+      "created": "2023-01-18T09:36:22+01:00",
+      "modified": "2023-01-18T09:36:22+01:00"
+    }
+  ]
+}

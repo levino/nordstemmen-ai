@@ -1,0 +1,167 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4225",
+  "name": "Ortsrat Adensen (9. Sitzung)",
+  "start": "2019-02-21T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-2",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Adensen, Dorfstraße 19, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Dorfstraße 19",
+    "room": "Feuerwehrhaus Adensen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Adensen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T10:54:03+02:00",
+    "modified": "2019-06-06T11:57:02+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-11"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-26337",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2019-02-21",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZS9kSPX_-Fw1KR8G4KCQiJIluvuXVWcdnG6Q8Ax6mTWi/Bekanntmachung_Ortsrat_Adensen_21.02.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZS9kSPX_-Fw1KR8G4KCQiJIluvuXVWcdnG6Q8Ax6mTWi/Bekanntmachung_Ortsrat_Adensen_21.02.2019.pdf",
+    "created": "2019-02-08T11:46:34+01:00",
+    "modified": "2019-02-08T11:46:34+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-26957",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2019-02-21",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYRDhffH8DmZLiOoaOEku8u5-ridLUCxUpAb95pRdiy8/Oeffentliche_Niederschrift_Ortsrat_Adensen_21.02.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYRDhffH8DmZLiOoaOEku8u5-ridLUCxUpAb95pRdiy8/Oeffentliche_Niederschrift_Ortsrat_Adensen_21.02.2019.pdf",
+    "created": "2019-04-16T11:40:29+02:00",
+    "modified": "2019-04-16T11:40:29+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16217",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2019-02-07T16:12:52+01:00",
+      "modified": "2019-02-07T16:12:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16218",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2019-02-07T16:12:52+01:00",
+      "modified": "2019-02-07T16:12:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16219",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 29. Oktober 2018",
+      "created": "2019-02-07T16:12:52+01:00",
+      "modified": "2019-02-07T16:12:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16220",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4346",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Adensen Anlage 1 TOP 3)",
+          "mimeType": "application/pdf",
+          "date": "2019-02-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRvid2o1UKbnhtKxZ4hSHLfy5xf7S8-FPqqGFkgCH6Gq/OR_Adensen_Anlage_1_TOP_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRvid2o1UKbnhtKxZ4hSHLfy5xf7S8-FPqqGFkgCH6Gq/OR_Adensen_Anlage_1_TOP_3.pdf",
+          "created": "2019-04-15T19:01:20+02:00",
+          "modified": "2019-04-15T19:01:20+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4347",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Adensen Anlage 2 TOP 3)",
+          "mimeType": "application/pdf",
+          "date": "2019-02-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUY8Z0xoF1m5k_YIwHwodafU-VJr5Z29hjltxqG2yWfB/OR_Adensen_Anlage_2_TOP_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUY8Z0xoF1m5k_YIwHwodafU-VJr5Z29hjltxqG2yWfB/OR_Adensen_Anlage_2_TOP_3.pdf",
+          "created": "2019-04-15T19:01:20+02:00",
+          "modified": "2019-04-15T19:01:20+02:00"
+        }
+      ],
+      "created": "2019-02-07T16:12:52+01:00",
+      "modified": "2019-02-07T16:12:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16221",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2019-02-07T16:12:52+01:00",
+      "modified": "2019-02-07T16:12:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16222",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Haushaltsplan 2019 und Investitionsprogramm bis 2022 für die Ortschaft Adensen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6464",
+      "created": "2019-02-07T16:12:52+01:00",
+      "modified": "2019-02-07T16:12:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16226",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Verwendung der Ortsratsmittel im Haushaltsjahr 2019",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4348",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Adensen Anlage  3 TOP 6)",
+          "mimeType": "application/pdf",
+          "date": "2019-02-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZmsOb_Jq5Nt1Fvvh4xOBqOFOpZ0CTNMFwf1VjnLkN7X/OR_Adensen_Anlage__3_TOP_6.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZmsOb_Jq5Nt1Fvvh4xOBqOFOpZ0CTNMFwf1VjnLkN7X/OR_Adensen_Anlage__3_TOP_6.pdf",
+          "created": "2019-04-15T19:01:20+02:00",
+          "modified": "2019-04-15T19:01:20+02:00"
+        }
+      ],
+      "created": "2019-02-07T16:13:29+01:00",
+      "modified": "2019-02-07T16:13:29+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16223",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2019-02-07T16:12:52+01:00",
+      "modified": "2019-02-07T16:12:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16224",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Anträge und Anfragen",
+      "created": "2019-02-07T16:12:52+01:00",
+      "modified": "2019-02-07T16:12:52+01:00"
+    }
+  ]
+}

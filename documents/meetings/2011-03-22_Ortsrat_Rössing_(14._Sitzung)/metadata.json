@@ -1,0 +1,217 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1600",
+  "name": "Ortsrat Rössing (14. Sitzung)",
+  "start": "2011-03-22T19:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-11",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Gaststätte \"Alt Rössinger Saal\", Maschstraße 1, 31171 Nordstemmen, Clubraum",
+    "streetAddress": "Maschstraße 1",
+    "room": "Gaststätte \"Alt Rössinger Saal\", Clubraum",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T12:02:32+02:00",
+    "modified": "2017-09-12T17:09:38+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-6422",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2011-03-22",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQFYy98AZInwXgIQLkFMHi5seZ94GU8IFgAbpJ62tJ6Z/Bekanntmachung_Ortsrat_Roessing_22.03.2011.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQFYy98AZInwXgIQLkFMHi5seZ94GU8IFgAbpJ62tJ6Z/Bekanntmachung_Ortsrat_Roessing_22.03.2011.pdf",
+    "created": "2011-03-04T13:02:38+01:00",
+    "modified": "2011-03-04T13:02:38+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7039",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2011-03-03T14:54:49+01:00",
+      "modified": "2011-03-25T08:38:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7040",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2011-03-03T14:54:49+01:00",
+      "modified": "2011-03-03T14:54:49+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7041",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 26.10.2010",
+      "created": "2011-03-03T14:54:49+01:00",
+      "modified": "2011-03-03T14:54:49+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7042",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2011-03-03T14:54:49+01:00",
+      "modified": "2011-03-03T14:54:49+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7101",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Zuschuss zur Stiftungsgründung der St. Peter-und-Paul-Kirchengemeinde\n- Beratung und Beschlussfassung",
+      "created": "2011-03-25T08:58:56+01:00",
+      "modified": "2011-03-25T08:58:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7102",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Tätigkeitsbericht der Gleichstellungsbeauftragten der Gemeinde Nordstemmen",
+      "created": "2011-03-25T08:59:45+01:00",
+      "modified": "2011-03-25T08:59:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7049",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Antrag der Grundschule Barnten auf finanzielle Unterstützung zum Bau einer Kletterstrecke\n- siehe Anlage 1\n(Beratung und Beschlussfassung)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-494",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2011-03-22",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbZjU9U7IBhiSTHdExJ1fBhPm16vr3GJ7WDmQUnan88n/Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbZjU9U7IBhiSTHdExJ1fBhPm16vr3GJ7WDmQUnan88n/Anlage_1.pdf",
+          "created": "2011-03-29T13:02:05+02:00",
+          "modified": "2011-03-29T13:02:05+02:00"
+        }
+      ],
+      "created": "2011-03-03T14:55:52+01:00",
+      "modified": "2011-03-03T14:55:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7050",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Beitrag des Ortsrates zur Finanzierung der musikalischen Umrahmung auf dem Weihnachtsmarkt\n(Beratung und Beschlussfassung; weitere Ausführungen werden in der Sitzung gemacht)",
+      "created": "2011-03-03T14:56:58+01:00",
+      "modified": "2011-03-03T14:56:58+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7051",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Veranstaltung zum 20-jährigen Jubiläum der \"Alten Schule\" als Dorfgemeinschaftshaus sowie gleichzeitig 5 Jahre Bewirtschaftung in Eigenregie durch den Kulturkreis\n(Beratung und Beschlussfassung; weitere Ausführungen werden in der Sitzung gemacht)",
+      "created": "2011-03-03T14:58:15+01:00",
+      "modified": "2011-03-03T14:58:15+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7052",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Zustimmung zu den vorgeschlagenen Ergänzungen für die vorhandenen Straßenschilder in der Ortschaft\n- siehe Anlage 2\n(Beratung und Beschlussfassung)",
+      "created": "2011-03-03T14:59:31+01:00",
+      "modified": "2011-03-03T14:59:31+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7053",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Besprechung der Organisation des Umweltaktionstages am 09. April 2011",
+      "created": "2011-03-03T15:00:02+01:00",
+      "modified": "2011-03-03T15:00:02+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7054",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Planung der Durchführung / Gestaltung für den Tag der Deutschen Einheit im Jahr 2011",
+      "created": "2011-03-03T15:00:32+01:00",
+      "modified": "2011-03-03T15:00:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7056",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Vorstellungen / erste Ideen zum Neujahrsempfang 2012",
+      "created": "2011-03-03T15:01:39+01:00",
+      "modified": "2011-03-03T15:01:44+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7055",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Benennung einer Kandidatin / eines Kandidaten für den Vorsitz des Kulturkreises",
+      "created": "2011-03-03T15:01:11+01:00",
+      "modified": "2011-03-03T15:01:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7043",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2011-03-03T14:54:49+01:00",
+      "modified": "2011-03-03T14:54:49+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7044",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Mitteilungen der Ortsbürgermeisterin",
+      "created": "2011-03-03T14:54:49+01:00",
+      "modified": "2011-03-03T14:54:49+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7045",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 17,
+      "name": "Behandlung von Anträgen",
+      "created": "2011-03-03T14:54:49+01:00",
+      "modified": "2011-03-03T14:54:49+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7046",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 18,
+      "name": "Behandlung von Anfragen",
+      "created": "2011-03-03T14:54:49+01:00",
+      "modified": "2011-03-03T14:54:49+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7047",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "18",
+      "order": 19,
+      "name": "Anregungen",
+      "created": "2011-03-03T14:54:49+01:00",
+      "modified": "2011-03-03T14:54:49+01:00"
+    }
+  ]
+}

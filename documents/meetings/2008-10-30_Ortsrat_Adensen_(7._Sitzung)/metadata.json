@@ -1,0 +1,179 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1152",
+  "name": "Ortsrat Adensen (7. Sitzung)",
+  "start": "2008-10-30T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-2",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Adensen, Dorfstraße 19, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Dorfstraße 19",
+    "room": "Feuerwehrhaus Adensen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Adensen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T10:54:03+02:00",
+    "modified": "2019-06-06T11:57:02+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-11"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-3212",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2008-10-30",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZX7epE2Lhx8hVQ9gYVO96NSFMf8_AETk23CyMphmaQov/Bekanntmachung_Ortsrat_Adensen_30.10.2008.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZX7epE2Lhx8hVQ9gYVO96NSFMf8_AETk23CyMphmaQov/Bekanntmachung_Ortsrat_Adensen_30.10.2008.pdf",
+    "created": "2009-02-11T14:06:44+01:00",
+    "modified": "2009-02-11T14:06:44+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3942",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2008-10-20T08:27:32+02:00",
+      "modified": "2008-10-20T08:27:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3943",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2008-10-20T08:27:32+02:00",
+      "modified": "2008-10-20T08:27:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3944",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 21.05.2008",
+      "created": "2008-10-20T08:27:32+02:00",
+      "modified": "2008-10-20T08:27:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3945",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2008-10-20T08:27:32+02:00",
+      "modified": "2008-10-20T08:27:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3946",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Abschluss einer Vereinbarung bezüglich der Nutzungsüberlassung des Sammlungsraumes in der \"Rolf-Gehrke-Halle\" in der Ortschaft Adensen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/802",
+      "created": "2008-10-20T08:27:33+02:00",
+      "modified": "2008-10-20T08:27:33+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4776",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Anhörung des Ortsrates zum Haushaltsplan 2009 und zum Investitionsprogramm für den Investitionszeitraum bis zum Haushaltsjahr 2012 unter Fortschreibung des Haushaltssicherungskonzeptes",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/820",
+      "created": "2009-08-12T08:32:24+02:00",
+      "modified": "2009-08-12T08:32:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3953",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Einrichtung eines Rufbusverkehrs nach Adensen\n(siehe Drucksache 63/2008)",
+      "created": "2008-10-20T08:32:27+02:00",
+      "modified": "2008-10-20T08:32:27+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3954",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bürgersolaranlagen\n(siehe Drucksache 64/2008)",
+      "created": "2008-10-20T08:33:10+02:00",
+      "modified": "2008-10-20T08:33:10+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3955",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Behandlung von Anträgen\nAntrag UWG vom 09.10.2008 bzgl. Verbesserung der Straßenbeleuchtung\n(siehe Anlage 1)\nAntrag UWG vom 02.09.2008 bzgl. Erweiterung des Durchlasses der Pusse unter der K 505\n(siehe Anlage 2)\nAnträge der UWG vom 15.10.2008\na) Teerdecke Pussenweg\nb) Randstreifen Grundstück Röhnsch\nc) Bodenhülse Maibaum\nd) Platz für Sitzbänke, Infotafel, Bodenhülse\ne) Material Sitzbank\n(siehe Anlage 3)",
+      "created": "2008-10-20T08:36:44+02:00",
+      "modified": "2008-10-20T08:36:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3956",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Anfragen UWG und SPD\nHochwasser\nSanierung Dorfstraße\nDE-Maßnahme \"Düsterer Pump\"\nGehweg an der K 505\nAblauf Feuerlöschteich\nBau einer Putenmastanlage\n380 kV-Höchstspannungsleitung\n(siehe Anlagen 3 und 4)",
+      "created": "2008-10-20T08:37:52+02:00",
+      "modified": "2008-10-20T08:37:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3947",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2008-10-20T08:27:33+02:00",
+      "modified": "2008-10-20T08:27:33+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3957",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Benutzungs- und Gebührenordnung Sammlungsraum \"Rolf-Gehrke-Halle\"",
+      "created": "2008-10-20T08:40:22+02:00",
+      "modified": "2008-10-20T08:40:22+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3958",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Seniorenfeier",
+      "created": "2008-10-20T08:40:38+02:00",
+      "modified": "2008-10-20T08:40:38+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3959",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Neujahrsempfang",
+      "created": "2008-10-20T08:40:56+02:00",
+      "modified": "2008-10-20T08:40:56+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3948",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Mitteilungen des Ortsbürgermeisters",
+      "created": "2008-10-20T08:27:33+02:00",
+      "modified": "2008-10-20T08:27:33+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3950",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Anregungen",
+      "created": "2008-10-20T08:27:33+02:00",
+      "modified": "2008-10-20T08:27:33+02:00"
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1529",
+  "name": "Ortsrat Adensen (15. Sitzung)",
+  "start": "2010-10-25T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-2",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Adensen, Dorfstraße 19, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Dorfstraße 19",
+    "room": "Feuerwehrhaus Adensen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Adensen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T10:54:03+02:00",
+    "modified": "2019-06-06T11:57:02+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-11"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-5857",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2010-10-25",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZzbqOEYVoVbkHmBp5tOUQItryzcIlzxJzRxJQYSrFtu/Bekanntmachung_Ortsrat_Adensen_25.10.2010.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZzbqOEYVoVbkHmBp5tOUQItryzcIlzxJzRxJQYSrFtu/Bekanntmachung_Ortsrat_Adensen_25.10.2010.pdf",
+    "created": "2010-10-18T13:26:47+02:00",
+    "modified": "2010-10-18T13:26:47+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6511",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2010-10-15T09:16:12+02:00",
+      "modified": "2010-10-15T09:16:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6512",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2010-10-15T09:16:12+02:00",
+      "modified": "2010-10-15T09:16:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6513",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 2. August 2010",
+      "created": "2010-10-15T09:16:12+02:00",
+      "modified": "2010-10-15T09:16:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6514",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2010-10-15T09:16:12+02:00",
+      "modified": "2010-10-15T09:16:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6515",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 6,
+      "name": "Anhörung zum Haushalt für das Haushaltsjahr 2011 ff.",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1398",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-6104",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Anhörung zum Haushalt für das Haushaltsjahr 2011 ff.)",
+        "mimeType": "application/pdf",
+        "date": "2010-10-25",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZX5oqFCfGZC-hCagC5ePx5XxWM3f5M5iuSAFlqHPdGVY/Beschlusstext_DS_59-2010_-oeffentlich-_Ortsrat_Adensen_25.10.2010.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZX5oqFCfGZC-hCagC5ePx5XxWM3f5M5iuSAFlqHPdGVY/Beschlusstext_DS_59-2010_-oeffentlich-_Ortsrat_Adensen_25.10.2010.pdf",
+        "created": "2010-11-16T14:18:54+01:00",
+        "modified": "2010-11-16T14:18:54+01:00"
+      },
+      "created": "2010-10-15T09:16:12+02:00",
+      "modified": "2010-10-15T09:16:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6525",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 7,
+      "name": "Anhörung zur Straßenausbaumaßnahme \"Düsterer Pump\" im Rahmen der Dorferneuerung - Maßnahmenbeschluss\n(DS 69/2010; wird nachgereicht)",
+      "created": "2010-10-15T09:19:11+02:00",
+      "modified": "2010-10-15T09:19:22+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6518",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 8,
+      "name": "Dorferneuerung Adensen - Hallerburg\n1. Ergänzung des Dorferneuerung-Planes um die Maßnahme \"Dorfstraße\"",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1379",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-6105",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Dorferneuerung Adensen - Hallerburg\n1. Ergänzung des Dorferneuerung-Planes um die Maßnahme \"Dorfstraße\")",
+        "mimeType": "application/pdf",
+        "date": "2010-10-25",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZU9qDMklMFICybf2hqgZ05UdQA87EGsRj_8DVb9dd7IE/Beschlusstext_DS_54-2010_-oeffentlich-_Ortsrat_Adensen_25.10.2010.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZU9qDMklMFICybf2hqgZ05UdQA87EGsRj_8DVb9dd7IE/Beschlusstext_DS_54-2010_-oeffentlich-_Ortsrat_Adensen_25.10.2010.pdf",
+        "created": "2010-11-16T14:18:54+01:00",
+        "modified": "2010-11-16T14:18:54+01:00"
+      },
+      "created": "2010-10-15T09:16:12+02:00",
+      "modified": "2010-10-15T09:33:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6517",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "20. Änderung des Flächennutzungsplanes (Obere Wanne) und Bebauungsplan Nr. 0208 \"Obere Wanne - Bioenergienutzung\", Ortschaft Adensen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1375",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-6106",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (20. Änderung des Flächennutzungsplanes (Obere Wanne) und Bebauungsplan Nr. 0208 \"Obere Wanne - Bioenergienutzung\", Ortschaft Adensen)",
+        "mimeType": "application/pdf",
+        "date": "2010-10-25",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZU_NsNxl25bxYJA7qvtM6qLPR9P7jeXXAxb4Ht_9YOfj/Beschlusstext_DS_53-2010_-oeffentlich-_Ortsrat_Adensen_25.10.2010.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZU_NsNxl25bxYJA7qvtM6qLPR9P7jeXXAxb4Ht_9YOfj/Beschlusstext_DS_53-2010_-oeffentlich-_Ortsrat_Adensen_25.10.2010.pdf",
+        "created": "2010-11-16T14:18:54+01:00",
+        "modified": "2010-11-16T14:18:54+01:00"
+      },
+      "created": "2010-10-15T09:16:12+02:00",
+      "modified": "2010-10-15T09:33:36+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6516",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Widmung von Straßenflächen und Fortschreibung des Bestandsverzeichnisses in der Ortschaft Adensen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1273",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-6107",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Widmung von Straßenflächen und Fortschreibung des Bestandsverzeichnisses in der Ortschaft Adensen)",
+        "mimeType": "application/pdf",
+        "date": "2010-10-25",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfHFYBMOL2mRnbrJzLFtv57OalleKySEiwB1SMDyecCj/Beschlusstext_DS_27-2010_-oeffentlich-_Ortsrat_Adensen_25.10.2010.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfHFYBMOL2mRnbrJzLFtv57OalleKySEiwB1SMDyecCj/Beschlusstext_DS_27-2010_-oeffentlich-_Ortsrat_Adensen_25.10.2010.pdf",
+        "created": "2010-11-16T14:18:54+01:00",
+        "modified": "2010-11-16T14:18:54+01:00"
+      },
+      "created": "2010-10-15T09:16:12+02:00",
+      "modified": "2010-10-15T09:16:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6526",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Entscheidung über eine Teilnahme am Wettbewerb 2011 \"Unser Dorf hat Zukunft\"\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2010-10-15T09:25:36+02:00",
+      "modified": "2010-10-15T09:25:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6527",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Verwendung der im Haushaltsjahr 2010 noch zur Verfügung stehenden Ortsratsmittel\n-  Seniorenfeier\n-  Neujahrsempfang\n-  Verschönerung Festplatz (K 506) Einmündung von der Umgehungsstraße\n(siehe Anlage 1 - Beratung und Beschlussfassung)",
+      "created": "2010-10-15T09:28:43+02:00",
+      "modified": "2010-10-15T09:29:11+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6528",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Übergabe des Sammlungsraumes (ehem. Gaststättenbetrieb) der Rolf-Gehrke-Halle an den TTC Adensen-Hallerburg\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2010-10-15T09:35:34+02:00",
+      "modified": "2010-10-15T09:35:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6519",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Mitteilungen des Bürgermeisters\n-  Nachbesserung der Schotterrasenflächen in der Adenoyser Straße\n-  Stand Abrechnung Anliegerkosten für die Adenoyser Straße\n-  Stand der Entschlammungsmaßnahmen und der Reparaturen beim    Wasserablauf Regenrückhaltebecken / Feuerlöschteich\n-  Schreiben der UWG-Fraktion - Anlage 2",
+      "created": "2010-10-15T09:16:12+02:00",
+      "modified": "2010-10-15T09:16:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6520",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 15,
+      "name": "Mitteilungen des Ortsbürgermeisters",
+      "created": "2010-10-15T09:16:12+02:00",
+      "modified": "2010-10-15T09:16:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6521",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 16,
+      "name": "Behandlung von Anträgen",
+      "created": "2010-10-15T09:16:12+02:00",
+      "modified": "2010-10-15T09:16:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6522",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 17,
+      "name": "Behandlung von Anfragen",
+      "created": "2010-10-15T09:16:12+02:00",
+      "modified": "2010-10-15T09:16:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6523",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 18,
+      "name": "Anregungen",
+      "created": "2010-10-15T09:16:12+02:00",
+      "modified": "2010-10-15T09:16:12+02:00"
+    }
+  ]
+}

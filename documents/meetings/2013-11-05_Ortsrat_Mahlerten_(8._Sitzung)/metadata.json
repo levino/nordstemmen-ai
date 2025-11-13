@@ -1,0 +1,159 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2168",
+  "name": "Ortsrat Mahlerten (8. Sitzung)",
+  "start": "2013-11-05T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-10",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Mahlerten, Leunisstraße 16, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Leunisstraße 16",
+    "room": "Dorfgemeinschaftshaus Mahlerten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Mahlerten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T12:00:53+02:00",
+    "modified": "2019-06-06T11:57:30+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-17"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-11888",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2013-11-05",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZStvyIKuEAFOTd1ThJFSOPHLJk9Y2Hw2gZQVAUBgZvG3/Bekanntmachung_Ortsrat_Mahlerten_05.11.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZStvyIKuEAFOTd1ThJFSOPHLJk9Y2Hw2gZQVAUBgZvG3/Bekanntmachung_Ortsrat_Mahlerten_05.11.2013.pdf",
+    "created": "2013-10-21T19:00:15+02:00",
+    "modified": "2013-10-22T19:00:33+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-12104",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2013-11-05",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZU6W-vplnwRRKjBBxt7CRNRKVzZ_cpxJYRw_Jvjp61Jl/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_05.11.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZU6W-vplnwRRKjBBxt7CRNRKVzZ_cpxJYRw_Jvjp61Jl/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_05.11.2013.pdf",
+    "created": "2013-11-26T13:00:24+01:00",
+    "modified": "2014-03-06T13:00:31+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10316",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2013-10-21T11:21:43+02:00",
+      "modified": "2013-10-21T11:21:43+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10317",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2013-10-21T11:21:43+02:00",
+      "modified": "2013-10-21T11:21:43+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10318",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 28. August 2013",
+      "created": "2013-10-21T11:21:43+02:00",
+      "modified": "2013-10-21T11:21:43+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10319",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Anhörung zum Haushaltsplan 2014 und zum Investitionsprogramm bis 2017 für die\nOrtschaft Mahlerten",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2535",
+      "created": "2013-10-21T11:21:43+02:00",
+      "modified": "2013-10-21T11:21:43+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10324",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Beschlussfassung über die Teilnahme an der Veranstaltung \"Unser Dorf hat Zukunft\" 2014",
+      "created": "2013-10-21T11:22:43+02:00",
+      "modified": "2013-10-21T11:22:43+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10325",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Beschlussfassung über die Restarbeiten des Ortsrates Mahlerten in 2013",
+      "created": "2013-10-21T11:23:17+02:00",
+      "modified": "2013-10-21T11:23:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10326",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Abschlussgepräch über die Geruchsbelästigung durch Maiseinlagerung",
+      "created": "2013-10-21T11:23:43+02:00",
+      "modified": "2013-10-21T11:23:43+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10404",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Sachstand zur schnellen Internetversorgung in der Ortschaft Mahlerten",
+      "created": "2013-11-18T15:10:52+01:00",
+      "modified": "2013-11-18T15:10:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10320",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2013-10-21T11:21:43+02:00",
+      "modified": "2013-10-21T11:21:43+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10321",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1022",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Mahlerten 05.11.2013 18.00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2013-11-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeBz8XpaWGVk06vRbeNJaDhEOmekbPKNSYkAn5ovZ7Ml/Ortsrat_Mahlerten_05.11.2013_18.00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeBz8XpaWGVk06vRbeNJaDhEOmekbPKNSYkAn5ovZ7Ml/Ortsrat_Mahlerten_05.11.2013_18.00_Uhr.pdf",
+          "created": "2013-11-27T13:00:24+01:00",
+          "modified": "2013-11-27T13:00:24+01:00"
+        }
+      ],
+      "created": "2013-10-21T11:21:43+02:00",
+      "modified": "2013-10-21T11:21:43+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10322",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Anträge und Anfragen\n- weiteres Vorgehen bei der Baumaßnahme am Dorfgemeinschaftshaus Mahlerten\n- Antrag des Ortsrates auf Auszahlung des Betrages von 1.500,00 € zur Verschönerung des Dorfgemeinschaftshausvorplatzes\n- Versetzung der Verkehrsschilder \"Zum Kastenborn\"",
+      "created": "2013-10-21T11:21:43+02:00",
+      "modified": "2013-10-21T11:21:43+02:00"
+    }
+  ]
+}

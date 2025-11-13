@@ -1,0 +1,173 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1955",
+  "name": "Ortsrat Adensen (25. Sitzung)",
+  "start": "2012-11-12T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-2",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Adensen, Dorfstraße 19, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Dorfstraße 19",
+    "room": "Feuerwehrhaus Adensen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Adensen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T10:54:03+02:00",
+    "modified": "2019-06-06T11:57:02+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-11"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-9038",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2012-11-12",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQ6fAMPuc1VlrNJFLHZgO_9jQLPpkBFMiXqFl84F9Lw-/Bekanntmachung_Ortsrat_Adensen_12.11.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQ6fAMPuc1VlrNJFLHZgO_9jQLPpkBFMiXqFl84F9Lw-/Bekanntmachung_Ortsrat_Adensen_12.11.2012.pdf",
+    "created": "2012-11-02T11:33:45+01:00",
+    "modified": "2012-11-02T11:33:45+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-9249",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2012-11-12",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaj3ZNJV1v-ZSBpVM30-Ne4zorGYhKUgOTY-0C656YCF/Oeffentliche_Niederschrift_Ortsrat_Adensen_12.11.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaj3ZNJV1v-ZSBpVM30-Ne4zorGYhKUgOTY-0C656YCF/Oeffentliche_Niederschrift_Ortsrat_Adensen_12.11.2012.pdf",
+    "created": "2012-11-27T13:29:33+01:00",
+    "modified": "2012-11-27T13:29:33+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9112",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2012-11-02T08:33:50+01:00",
+      "modified": "2012-11-02T08:33:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9113",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2012-11-02T08:33:50+01:00",
+      "modified": "2012-11-02T08:33:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9114",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 24.09.2012",
+      "created": "2012-11-02T08:33:50+01:00",
+      "modified": "2012-11-02T08:33:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9115",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2012-11-02T08:33:50+01:00",
+      "modified": "2012-11-02T08:33:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9116",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Anhörung zum Haushaltsplan 2013 und zum Investitionsprogramm bis 2016 für die Ortschaft Adensen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2051",
+      "created": "2012-11-02T08:33:50+01:00",
+      "modified": "2012-11-02T08:33:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9122",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Verwendung der im Haushaltsjahr 2012 noch zur Verfügung stehenden Ortsratsmittel\n- Antrag Förderverein CJD Grundschule Adensen-Hallerburg e. V. vom 29.10.2012\n- Antrag der Ortsratsfraktion Die Unabhängigen in Nordstemmen\n  Anbringung von historischen Platz-/Straßenbezeichnungen \n- Antrag der Ortsratsfraktion Die Unabhängigen in Nordstemmen vom 31.10.2012\n  Wahrnehmung der Aufgaben des Ortsheimatpflegers\n(siehe Anlage 1 - 3 - Beratung und Beschlussfassung)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-785",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage zu TOP 5)",
+          "mimeType": "application/pdf",
+          "date": "2012-11-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVTJyQo_FRYJnPJw7NEOAQzeLZar9UrKOddpIJ9k-q5W/Anlage_zu_TOP_5.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVTJyQo_FRYJnPJw7NEOAQzeLZar9UrKOddpIJ9k-q5W/Anlage_zu_TOP_5.pdf",
+          "created": "2012-11-02T11:33:45+01:00",
+          "modified": "2012-11-02T11:33:45+01:00"
+        }
+      ],
+      "created": "2012-11-02T08:46:33+01:00",
+      "modified": "2012-11-02T08:46:33+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9123",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Benennung eines Vertreters des Ortsrates für den Vorstand des Fördervereins CJD Grundschule Adensen-Hallerburg e. V.\n(siehe Anlage 2 - Beratung und Beschlussfassung)",
+      "created": "2012-11-02T08:47:48+01:00",
+      "modified": "2012-11-02T08:47:48+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9124",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Besprechung der Durchführung zu anstehenden Veranstaltungen\n- Weihnachtsfeier Senioren 2012\n- Silvester-/Neujahrsempfang 2012/2013",
+      "created": "2012-11-02T08:49:02+01:00",
+      "modified": "2012-11-02T08:49:02+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9117",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-809",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage zu TOP 8)",
+          "mimeType": "application/pdf",
+          "date": "2012-11-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSuPqgI2ivZ0G15Czww1kpPc3X5LrWp4ADR3pd-IsRrJ/Anlage_zu_TOP_8.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSuPqgI2ivZ0G15Czww1kpPc3X5LrWp4ADR3pd-IsRrJ/Anlage_zu_TOP_8.pdf",
+          "created": "2012-11-20T17:19:29+01:00",
+          "modified": "2012-11-20T17:19:29+01:00"
+        }
+      ],
+      "created": "2012-11-02T08:33:50+01:00",
+      "modified": "2012-11-02T08:33:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9118",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2012-11-02T08:33:50+01:00",
+      "modified": "2012-11-02T08:33:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9119",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anträge und Anfragen",
+      "created": "2012-11-02T08:33:50+01:00",
+      "modified": "2012-11-02T08:33:50+01:00"
+    }
+  ]
+}

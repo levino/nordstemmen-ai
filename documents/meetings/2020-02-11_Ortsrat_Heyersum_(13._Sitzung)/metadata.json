@@ -1,0 +1,207 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4431",
+  "name": "Ortsrat Heyersum (13. Sitzung)",
+  "start": "2020-02-11T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-8",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Altes Schulhaus Heyersum, Martin-Luther-Platz 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Martin-Luther-Platz 3",
+    "room": "Altes Schulhaus Heyersum, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Heyersum",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:37:30+02:00",
+    "modified": "2019-10-24T16:49:00+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-13"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-28894",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2020-02-11",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTN290Y_UCAzWvu8TrKn2IgHZFWqRar1eXKe7TjXu3Kw/Bekanntmachung_Ortsrat_Heyersum_11.02.2020.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTN290Y_UCAzWvu8TrKn2IgHZFWqRar1eXKe7TjXu3Kw/Bekanntmachung_Ortsrat_Heyersum_11.02.2020.pdf",
+    "created": "2020-01-29T13:00:35+01:00",
+    "modified": "2020-01-29T13:00:35+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-29093",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2020-02-11",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYZRFk5iwEXQ5i-gjh2emugfwMHorha0E4H-ybdeGv16/Oeffentliche_Niederschrift_Ortsrat_Heyersum_11.02.2020.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYZRFk5iwEXQ5i-gjh2emugfwMHorha0E4H-ybdeGv16/Oeffentliche_Niederschrift_Ortsrat_Heyersum_11.02.2020.pdf",
+    "created": "2021-02-03T13:00:07+01:00",
+    "modified": "2021-02-03T13:00:07+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17186",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2020-01-28T15:29:21+01:00",
+      "modified": "2020-01-28T15:29:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17187",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2020-01-28T15:29:21+01:00",
+      "modified": "2020-01-28T15:29:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17188",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 24. Oktober 2019",
+      "created": "2020-01-28T15:29:21+01:00",
+      "modified": "2020-01-28T15:29:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17190",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4674",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Heyersum Anlage TOP 3)",
+          "mimeType": "application/pdf",
+          "date": "2020-02-11",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSu-0Q65BWe3R_2XWaR7Tfp5WF-CWQxJCUr-RFhzzvDH/OR_Heyersum_Anlage_TOP_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSu-0Q65BWe3R_2XWaR7Tfp5WF-CWQxJCUr-RFhzzvDH/OR_Heyersum_Anlage_TOP_3.pdf",
+          "created": "2020-02-21T13:00:58+01:00",
+          "modified": "2020-02-21T13:00:58+01:00"
+        }
+      ],
+      "created": "2020-01-28T15:29:21+01:00",
+      "modified": "2020-01-28T15:29:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17191",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4675",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Heyersum Anlage TOP 4)",
+          "mimeType": "application/pdf",
+          "date": "2020-02-11",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeLMMcr6VKdrEcr3L7Mwo8HUD34Okh7ShHOkGp3nXfv0/OR_Heyersum_Anlage_TOP_4.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeLMMcr6VKdrEcr3L7Mwo8HUD34Okh7ShHOkGp3nXfv0/OR_Heyersum_Anlage_TOP_4.pdf",
+          "created": "2020-02-21T13:00:58+01:00",
+          "modified": "2020-02-21T13:00:58+01:00"
+        }
+      ],
+      "created": "2020-01-28T15:29:21+01:00",
+      "modified": "2020-01-28T15:29:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17189",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohnerfragestunde",
+      "created": "2020-01-28T15:29:21+01:00",
+      "modified": "2020-01-28T15:29:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17194",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Geplante Aufhebung der Bahnübergänge in der Verlängerung der St.-Aubin-Straße",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4676",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (OR Heyersum_Anlage TOP 6)",
+          "mimeType": "application/pdf",
+          "date": "2020-02-11",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUVUdrinl-sX0Xf5zK7-2CbalXDNCGDs-jHbJ5RSlj7q/OR_Heyersum_Anlage_TOP_6.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUVUdrinl-sX0Xf5zK7-2CbalXDNCGDs-jHbJ5RSlj7q/OR_Heyersum_Anlage_TOP_6.pdf",
+          "created": "2020-02-21T13:00:58+01:00",
+          "modified": "2020-02-21T13:00:58+01:00"
+        }
+      ],
+      "created": "2020-01-28T15:30:43+01:00",
+      "modified": "2020-01-28T15:30:43+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17209",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Haushaltsplan 2020 und Investitionsprogramm bis 2023 für die Ortschaft Heyersum",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6713",
+      "result": "Zur Kenntnis genommen",
+      "created": "2020-01-28T16:24:55+01:00",
+      "modified": "2020-01-28T16:25:00+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17195",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Verwendung der Ortsratsmittel im Haushaltsjahr 2020",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4677",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (OR Heyersum Anlage TOP 8)",
+          "mimeType": "application/pdf",
+          "date": "2020-02-11",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTQARZmKyOQ1mLjFZL44ezRDswB60vqPDmQuBiAJpVZ8/OR_Heyersum_Anlage_TOP_8.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTQARZmKyOQ1mLjFZL44ezRDswB60vqPDmQuBiAJpVZ8/OR_Heyersum_Anlage_TOP_8.pdf",
+          "created": "2020-02-21T13:00:58+01:00",
+          "modified": "2020-02-21T13:00:58+01:00"
+        }
+      ],
+      "created": "2020-01-28T15:31:06+01:00",
+      "modified": "2020-01-28T15:31:06+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17192",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Anträge und Anfragen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4678",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Heyersum_Anlage TOP 9)",
+          "mimeType": "application/pdf",
+          "date": "2020-02-11",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVStLd38BVeUyBWcOaID1XrH9tbcXiW33jyZu5dMZOYg/OR_Heyersum_Anlage_TOP_9.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVStLd38BVeUyBWcOaID1XrH9tbcXiW33jyZu5dMZOYg/OR_Heyersum_Anlage_TOP_9.pdf",
+          "created": "2020-02-21T13:00:58+01:00",
+          "modified": "2020-02-21T13:00:58+01:00"
+        }
+      ],
+      "created": "2020-01-28T15:29:21+01:00",
+      "modified": "2020-01-28T15:29:21+01:00"
+    }
+  ]
+}

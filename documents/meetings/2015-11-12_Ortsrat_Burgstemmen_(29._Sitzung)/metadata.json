@@ -1,0 +1,178 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2569",
+  "name": "Ortsrat Burgstemmen (29. Sitzung)",
+  "start": "2015-11-12T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Burgstemmen, Sackstraße 2, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Sackstraße 2",
+    "room": "Feuerwehrhaus Burgstemmen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Burgstemmen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:33:23+02:00",
+    "modified": "2019-06-06T11:56:46+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-12"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15009",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2015-11-12",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWLNbRdzrhn4kdGP6SGGyGs-EoRrW0zY5bTliDV2_kr3/Bekanntmachung_Ortsrat_Burgstemmen_12.11.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWLNbRdzrhn4kdGP6SGGyGs-EoRrW0zY5bTliDV2_kr3/Bekanntmachung_Ortsrat_Burgstemmen_12.11.2015.pdf",
+    "created": "2015-11-10T13:00:41+01:00",
+    "modified": "2015-11-10T13:00:41+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15351",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2015-11-12",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZX3Cgob5NxENGSW6q1GQJYHCb8aCHzC5IIGKorKi7Mux/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_12.11.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZX3Cgob5NxENGSW6q1GQJYHCb8aCHzC5IIGKorKi7Mux/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_12.11.2015.pdf",
+    "created": "2015-12-10T15:14:33+01:00",
+    "modified": "2016-02-24T13:00:46+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12214",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2015-10-06T16:26:58+02:00",
+      "modified": "2015-10-06T16:26:58+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12215",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2015-10-06T16:26:58+02:00",
+      "modified": "2015-10-06T16:26:58+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12216",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 11.06.2015",
+      "created": "2015-10-06T16:26:58+02:00",
+      "modified": "2015-10-29T11:54:26+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12217",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2015-10-06T16:26:58+02:00",
+      "modified": "2015-10-06T16:26:58+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12338",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 6,
+      "name": "Errichtung einer Fußgänger-/Radfahrerquerung mit Anforderungsampel im Zuge der B1 - \"Reichsstraße\" / Einmündung \"Neuer Weg\"\nBeratung und Empfehlung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1448",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Burgstemmen 12.11.2015 19:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-11-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVwh1zGMgXA_wpDyOrodax05H1jPqgyNTTlO027qHDkg/Ortsrat_Burgstemmen_12.11.2015_19-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVwh1zGMgXA_wpDyOrodax05H1jPqgyNTTlO027qHDkg/Ortsrat_Burgstemmen_12.11.2015_19-00_Uhr.pdf",
+          "created": "2015-12-09T13:00:39+01:00",
+          "modified": "2015-12-09T13:00:39+01:00"
+        }
+      ],
+      "created": "2015-10-29T11:40:43+01:00",
+      "modified": "2015-10-29T11:40:43+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12339",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 7,
+      "name": "Verwendung der am Ende eines Haushaltsjahres übrig gebliebenen Ortsratsmittel \n(siehe hierzu DS 02/2015)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1449",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Burgstemmen 12.11.2015 19:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-11-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZak7KaVi6SDQEhXKpy7Cz0CzjhDJFqUyde0vGr5rvYGk/Ortsrat_Burgstemmen_12.11.2015_19-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZak7KaVi6SDQEhXKpy7Cz0CzjhDJFqUyde0vGr5rvYGk/Ortsrat_Burgstemmen_12.11.2015_19-00_Uhr.pdf",
+          "created": "2015-12-09T13:00:39+01:00",
+          "modified": "2015-12-09T13:00:39+01:00"
+        }
+      ],
+      "created": "2015-10-29T11:41:51+01:00",
+      "modified": "2015-10-29T11:41:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12340",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 8,
+      "name": "Anhörung zum Haushaltsplan 2016 und zum Investitonsprogramm bis 2019 für die Ortschaft Burgstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3289",
+      "created": "2015-10-29T11:42:41+01:00",
+      "modified": "2015-10-29T11:42:41+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12218",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2015-10-06T16:26:58+02:00",
+      "modified": "2015-10-06T16:26:58+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12219",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2015-10-06T16:26:58+02:00",
+      "modified": "2015-10-06T16:26:58+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12220",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Anträge und Anfragen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1450",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Burgstemmen 12.11.2015 19:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-11-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQI7Ymo-RXulVcUex1jn4bcEEGhq65vdeD4tEHSHQI0b/Ortsrat_Burgstemmen_12.11.2015_19-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQI7Ymo-RXulVcUex1jn4bcEEGhq65vdeD4tEHSHQI0b/Ortsrat_Burgstemmen_12.11.2015_19-00_Uhr.pdf",
+          "created": "2015-12-09T13:00:39+01:00",
+          "modified": "2015-12-09T13:00:39+01:00"
+        }
+      ],
+      "created": "2015-10-06T16:26:58+02:00",
+      "modified": "2015-10-06T16:26:58+02:00"
+    }
+  ]
+}

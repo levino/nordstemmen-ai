@@ -1,0 +1,134 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1609",
+  "name": "Fachausschuss Finanzen (13. Sitzung)",
+  "start": "2011-04-07T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-3"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-6534",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Finanzen, Wirtschaftsförderung und Marketing)",
+    "mimeType": "application/pdf",
+    "date": "2011-04-07",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQd7flW60QvVr2raR3kF2lQjygNWDpo8vhl8qM46xlKE/Bekanntmachung_Fachausschuss_Finanzen-_Wirtschaftsfoerderung_und_Marketing_07.04.2011.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQd7flW60QvVr2raR3kF2lQjygNWDpo8vhl8qM46xlKE/Bekanntmachung_Fachausschuss_Finanzen-_Wirtschaftsfoerderung_und_Marketing_07.04.2011.pdf",
+    "created": "2011-03-28T13:01:56+02:00",
+    "modified": "2011-03-28T13:01:56+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7125",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2011-03-28T10:29:19+02:00",
+      "modified": "2011-03-28T10:29:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7126",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2011-03-28T10:29:19+02:00",
+      "modified": "2011-03-28T10:29:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7127",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 16.11.2010",
+      "created": "2011-03-28T10:29:19+02:00",
+      "modified": "2011-03-28T10:29:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7128",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2011-03-28T10:29:19+02:00",
+      "modified": "2011-03-28T10:29:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7130",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Auf Antrag der Ratsgruppe SPD/Grüne:\nSenkung der Baulandpreise",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1535",
+      "created": "2011-03-28T10:29:19+02:00",
+      "modified": "2011-03-28T10:29:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7131",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4.1",
+      "order": 6,
+      "name": "Auf Antrag der Ratsgruppe SPD/Grüne:\nSenkung der Baulandpreise",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1548",
+      "created": "2011-03-28T10:29:19+02:00",
+      "modified": "2011-03-28T10:29:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7132",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 7,
+      "name": "Breitbandversorgung in der Gemeinde Nordstemmen;\nInformation bzw. weitere Vorgehensweise",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1567",
+      "created": "2011-03-28T10:29:19+02:00",
+      "modified": "2011-03-28T10:29:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7137",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 9,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2011-03-28T10:57:51+02:00",
+      "modified": "2011-03-28T10:57:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7133",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 10,
+      "name": "Behandlung von Anträgen",
+      "created": "2011-03-28T10:29:19+02:00",
+      "modified": "2011-03-28T10:29:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7134",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 11,
+      "name": "Behandlung von Anfragen",
+      "created": "2011-03-28T10:29:19+02:00",
+      "modified": "2011-03-28T10:29:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7135",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 12,
+      "name": "Anregungen",
+      "created": "2011-03-28T10:29:19+02:00",
+      "modified": "2011-03-28T10:29:19+02:00"
+    }
+  ]
+}

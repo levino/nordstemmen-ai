@@ -1,0 +1,167 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1100",
+  "name": "Ortsrat Rössing (7. Sitzung)",
+  "start": "2008-05-22T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-11",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Gaststätte \"Alt Rössinger Saal\", Maschstraße 1, 31171 Nordstemmen, Clubraum",
+    "streetAddress": "Maschstraße 1",
+    "room": "Gaststätte \"Alt Rössinger Saal\", Clubraum",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T12:02:32+02:00",
+    "modified": "2017-09-12T17:09:38+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-2614",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2008-05-22",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbwo1ZQi5MnLFpqyv8UKtPqMbX8bq-RtND_X97lsA4yX/Bekanntmachung_Ortsrat_Roessing_22.05.2008.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbwo1ZQi5MnLFpqyv8UKtPqMbX8bq-RtND_X97lsA4yX/Bekanntmachung_Ortsrat_Roessing_22.05.2008.pdf",
+    "created": "2008-05-20T13:06:34+02:00",
+    "modified": "2008-05-20T13:06:34+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3558",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2008-05-15T11:02:37+02:00",
+      "modified": "2008-05-15T11:02:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3559",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2008-05-15T11:02:37+02:00",
+      "modified": "2008-05-15T11:02:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3575",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Feststellung des Sitzverlustes des Ortsratsmitgliedes Herr Kolja Leffers gemäß § 37 Abs. 2 NGO",
+      "created": "2008-05-15T11:20:37+02:00",
+      "modified": "2008-05-15T11:20:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3568",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Pflichtenbelehrung und Verpflichtung des nachrückenden Ortsratsmitgliedes Herr Uwe Dietrich",
+      "created": "2008-05-15T11:03:49+02:00",
+      "modified": "2008-05-15T11:03:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3560",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 13.02.2008",
+      "created": "2008-05-15T11:02:37+02:00",
+      "modified": "2008-05-15T11:20:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3561",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohnerfragestunde",
+      "created": "2008-05-15T11:02:37+02:00",
+      "modified": "2008-05-15T11:02:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3570",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Antrag des Kulturkreises Rössing vom 09.04.2008 zu den Energiekosten des DGH Rössing\n- Beratung und Beschlussempfehlung\n(siehe Anlage 1)",
+      "created": "2008-05-15T11:05:28+02:00",
+      "modified": "2008-05-15T11:05:28+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3571",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Situation zur Verkehrssicherheit in der Clausstraße\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2008-05-15T11:07:06+02:00",
+      "modified": "2008-05-15T11:07:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3596",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Antrag der Dorfpflege Rössing e. V. zur Aufstellung eines Schilderbaumes\n(siehe Anlage 2 zur OR Sitzung Rössing am 22.05.2008)",
+      "created": "2008-05-19T10:36:59+02:00",
+      "modified": "2008-05-19T10:36:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3572",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Verwendung der vom Verein Freizeitsee Rössing zurückgezahlten Zuwendung, die aus Ortsratsmitteln gewährt war\n- Beratung und Beschlussfassung\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2008-05-15T11:08:49+02:00",
+      "modified": "2008-05-15T11:08:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3573",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Durchführung von Sammlungen im Ort\n(Ausführungen werden in der Sitzung gemacht; es geht um den Ersatz von zwei \"ausgestiegenen Vereinen\")",
+      "created": "2008-05-15T11:09:51+02:00",
+      "modified": "2008-05-15T11:09:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3563",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Mitteilungen des Bürgermeistes",
+      "created": "2008-05-15T11:02:37+02:00",
+      "modified": "2008-05-15T11:10:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3564",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Mitteilungen der Ortsbürgermeisterin",
+      "created": "2008-05-15T11:02:37+02:00",
+      "modified": "2008-05-15T11:10:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3565",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Behandlung von Anfragen",
+      "created": "2008-05-15T11:02:37+02:00",
+      "modified": "2008-05-15T11:02:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3566",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Anregungen",
+      "created": "2008-05-15T11:02:37+02:00",
+      "modified": "2008-05-15T11:02:37+02:00"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1903",
+  "name": "Ortsrat Groß Escherde (16. Sitzung)",
+  "start": "2012-07-05T19:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-7",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Groß Escherde, Schulstraße 9 a, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Schulstraße 9 a",
+    "room": "Feuerwehrhaus Groß Escherde, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Groß Escherde",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:35:20+02:00",
+    "modified": "2019-06-06T11:56:38+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-14"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-8416",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2012-07-05",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZY9bnPRRQZD_sh8qMZwJ7eDHNKTXARXGAMhyGKWH2lSo/Bekanntmachung_Ortsrat_Gross_Escherde_05.07.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZY9bnPRRQZD_sh8qMZwJ7eDHNKTXARXGAMhyGKWH2lSo/Bekanntmachung_Ortsrat_Gross_Escherde_05.07.2012.pdf",
+    "created": "2012-06-25T15:27:28+02:00",
+    "modified": "2012-06-25T15:27:28+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-8559",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2012-07-05",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQFuw0d6U8-XRpIgen2l71PnU20hD7oIIVjc7wCxjBw5/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_05.07.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQFuw0d6U8-XRpIgen2l71PnU20hD7oIIVjc7wCxjBw5/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_05.07.2012.pdf",
+    "created": "2012-07-16T13:01:31+02:00",
+    "modified": "2012-07-16T13:01:31+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8429",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2012-05-14T08:13:49+02:00",
+      "modified": "2012-05-14T08:13:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8430",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2012-05-14T08:13:49+02:00",
+      "modified": "2012-05-14T08:13:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8431",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 28. Februar 2012",
+      "created": "2012-05-14T08:13:49+02:00",
+      "modified": "2012-05-14T08:13:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8432",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2012-05-14T08:13:49+02:00",
+      "modified": "2012-05-14T08:13:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8681",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Siteseeing in und um Groß Escherde\n- gemeinsame Veranstaltung vom Ortsrat und der Ortsheimatpflegerin\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2012-06-25T13:17:35+02:00",
+      "modified": "2012-06-25T13:17:35+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8682",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Information bezüglich des Zustandes Buswartehäuschen \"Am Thie\"\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2012-06-25T13:18:12+02:00",
+      "modified": "2012-06-25T13:18:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8683",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Teilnahme am Wettbewerb \"Unser Dorf hat Zukunft\"\n- Beratung und Beschlussfassung\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2012-06-25T13:19:00+02:00",
+      "modified": "2012-06-25T13:19:00+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8684",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Mittelanmeldungen vom Ortsrat für das Haushaltsjahr 2013 ff\n- Beratung und Beschlussfassung\n(Ausführungen werden in der Sitzung vom Ortsbürgermeister gemacht)",
+      "created": "2012-06-25T13:20:03+02:00",
+      "modified": "2012-06-25T13:20:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8434",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2012-05-14T08:13:49+02:00",
+      "modified": "2012-05-14T08:13:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8435",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Mitteilungen des Ortsbürgermeisters",
+      "created": "2012-05-14T08:13:49+02:00",
+      "modified": "2012-05-14T08:13:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8436",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Behandlung von Anfragen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-711",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage zu TOP 10)",
+          "mimeType": "application/pdf",
+          "date": "2012-07-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeknCGmGK0dJ6m5WdNsXKRRJ3mYX0Y-GODp8YanxqkYc/Anlage_zu_TOP_10.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeknCGmGK0dJ6m5WdNsXKRRJ3mYX0Y-GODp8YanxqkYc/Anlage_zu_TOP_10.pdf",
+          "created": "2012-07-13T10:34:22+02:00",
+          "modified": "2012-07-13T10:34:22+02:00"
+        }
+      ],
+      "created": "2012-05-14T08:13:49+02:00",
+      "modified": "2012-05-14T08:13:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8437",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Anregungen",
+      "created": "2012-05-14T08:13:49+02:00",
+      "modified": "2012-05-14T08:13:49+02:00"
+    }
+  ]
+}

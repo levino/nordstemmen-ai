@@ -1,0 +1,143 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5188",
+  "name": "Ortsrat Adensen (6. Sitzung)",
+  "start": "2023-04-27T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-21",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Sportgaststätte Rolf-Gehrke-Halle, An der Sporthalle 1, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "An der Sporthalle 1",
+    "room": "Sportgaststätte Rolf-Gehrke-Halle, Sammlungsraum",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2010-01-14T08:49:23+01:00",
+    "modified": "2021-10-27T14:00:03+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-11"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-36381",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2023-04-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWvQCb6TAx9Zr2iiV0hswQl1LT9TFzxmZHC7BslUOOSH/Bekanntmachung_Ortsrat_Adensen_27.04.2023.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWvQCb6TAx9Zr2iiV0hswQl1LT9TFzxmZHC7BslUOOSH/Bekanntmachung_Ortsrat_Adensen_27.04.2023.pdf",
+    "created": "2023-04-20T13:00:26+02:00",
+    "modified": "2023-04-20T13:00:26+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-36718",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2023-04-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdD2VOxdswKeiev3WLe5S80r6ELPIvKvYAihiq1X8ja2/Oeffentliche_Niederschrift_Ortsrat_Adensen_27.04.2023.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdD2VOxdswKeiev3WLe5S80r6ELPIvKvYAihiq1X8ja2/Oeffentliche_Niederschrift_Ortsrat_Adensen_27.04.2023.pdf",
+    "created": "2023-06-07T13:00:24+02:00",
+    "modified": "2023-06-07T13:00:24+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20999",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2023-03-30T17:18:24+02:00",
+      "modified": "2023-03-30T17:18:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21000",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2023-03-30T17:18:24+02:00",
+      "modified": "2023-03-30T17:18:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21001",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 16. Februar 2023",
+      "created": "2023-03-30T17:18:24+02:00",
+      "modified": "2023-04-19T07:32:27+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21005",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Mitteilungen der Verwaltung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6214",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2023-04-27",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaQqBxTFy08x7ukJA-xOBvE5SS7HfbHpa5iAHzfbmPuz/Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaQqBxTFy08x7ukJA-xOBvE5SS7HfbHpa5iAHzfbmPuz/Anlage_1.pdf",
+          "created": "2023-06-07T13:00:24+02:00",
+          "modified": "2023-06-07T13:00:24+02:00"
+        }
+      ],
+      "created": "2023-03-30T17:18:24+02:00",
+      "modified": "2023-04-19T07:31:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21003",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2023-03-30T17:18:24+02:00",
+      "modified": "2023-04-19T07:34:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21075",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2024 sowie für die mittelfristige\nFinanzplanung 2025 bis 2027",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7698",
+      "result": "Zur Kenntnis genommen.",
+      "created": "2023-04-19T07:31:52+02:00",
+      "modified": "2023-04-19T07:31:58+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21074",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Anhörung zur Aufstellung der Vorschlagsliste für die Neuwahl der Schöffinnen und Schöffen sowie Jugendschöffinnen und Jugendschöffen für die Geschäftsjahre 2024 bis 2028",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7687",
+      "result": "Einstimmig lt. Vorschlagsliste",
+      "created": "2023-04-19T07:31:18+02:00",
+      "modified": "2023-04-19T07:31:21+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21004",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2023-03-30T17:18:24+02:00",
+      "modified": "2023-03-30T17:18:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21002",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Anfragen und Anregungen",
+      "created": "2023-03-30T17:18:24+02:00",
+      "modified": "2023-04-19T07:34:28+02:00"
+    }
+  ]
+}

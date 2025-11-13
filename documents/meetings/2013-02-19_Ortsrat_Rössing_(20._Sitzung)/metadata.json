@@ -1,0 +1,197 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2025",
+  "name": "Ortsrat Rössing (20. Sitzung)",
+  "start": "2013-02-19T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-11",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Gaststätte \"Alt Rössinger Saal\", Maschstraße 1, 31171 Nordstemmen, Clubraum",
+    "streetAddress": "Maschstraße 1",
+    "room": "Gaststätte \"Alt Rössinger Saal\", Clubraum",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T12:02:32+02:00",
+    "modified": "2017-09-12T17:09:38+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-9536",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2013-02-19",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZckyS-bW1LIOAmcY1hHQAl_wvIWrujkCSu-1fqs8TJxI/Bekanntmachung_Ortsrat_Roessing_19.02.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZckyS-bW1LIOAmcY1hHQAl_wvIWrujkCSu-1fqs8TJxI/Bekanntmachung_Ortsrat_Roessing_19.02.2013.pdf",
+    "created": "2013-02-08T12:24:58+01:00",
+    "modified": "2013-02-08T12:24:58+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-9727",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2013-02-19",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbounwuU3U6j4aNKw7yizMlD3muGPbTtJYY6937gD5Ub/Oeffentliche_Niederschrift_Ortsrat_Roessing_19.02.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbounwuU3U6j4aNKw7yizMlD3muGPbTtJYY6937gD5Ub/Oeffentliche_Niederschrift_Ortsrat_Roessing_19.02.2013.pdf",
+    "created": "2013-03-07T15:15:08+01:00",
+    "modified": "2013-03-07T15:15:08+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9326",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2013-02-08T09:35:59+01:00",
+      "modified": "2013-02-08T09:35:59+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9327",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2013-02-08T09:35:59+01:00",
+      "modified": "2013-02-08T09:35:59+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9328",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 13.11.2012",
+      "created": "2013-02-08T09:35:59+01:00",
+      "modified": "2013-02-08T09:35:59+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9329",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2013-02-08T09:35:59+01:00",
+      "modified": "2013-02-08T09:35:59+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9334",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Konkretisierung der Beteiligung des Ortsrates am Dorfladen Rössing\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2013-02-08T09:36:58+01:00",
+      "modified": "2013-02-08T09:36:58+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9335",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Organisation des Umwelttages am 6. April 2013",
+      "created": "2013-02-08T09:37:24+01:00",
+      "modified": "2013-02-08T09:37:24+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9336",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Wiederaufnahme von Ehrungen im Rahmen des Neujahrsempfangs 2014\n(Ausführungen werden in der Sitzung gemacht)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-892",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Ortsrat Rössing Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2013-02-19",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQLKejIc5F2efsesSY4Z2Db_ifnCrRBatJVKg1B4YBlA/Ortsrat_Roessing_Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQLKejIc5F2efsesSY4Z2Db_ifnCrRBatJVKg1B4YBlA/Ortsrat_Roessing_Anlage_1.pdf",
+          "created": "2013-02-28T16:50:53+01:00",
+          "modified": "2013-02-28T16:50:53+01:00"
+        }
+      ],
+      "created": "2013-02-08T09:38:13+01:00",
+      "modified": "2013-02-08T09:38:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9337",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Verwendung der im Haushaltsjahr 2013 zur Verfügung stehenden Ortsratsmittel \n(siehe Anlage 1)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-876",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Rössing 19.02.2013 18.00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2013-02-19",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfd4aabs-RKJA2j0lG5P0_SfkQEIH0SoSnAGgUeZeFWf/Ortsrat_Roessing_19.02.2013_18.00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfd4aabs-RKJA2j0lG5P0_SfkQEIH0SoSnAGgUeZeFWf/Ortsrat_Roessing_19.02.2013_18.00_Uhr.pdf",
+          "created": "2013-02-08T12:24:58+01:00",
+          "modified": "2013-02-08T12:24:58+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-893",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Rössing Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2013-02-19",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZa7D9xuSQHARo3fUV09Rg9obW8Veri2CDXSKpTdb4gZ2/Ortsrat_Roessing_Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZa7D9xuSQHARo3fUV09Rg9obW8Veri2CDXSKpTdb4gZ2/Ortsrat_Roessing_Anlage_2.pdf",
+          "created": "2013-02-28T16:50:53+01:00",
+          "modified": "2013-02-28T16:50:53+01:00"
+        }
+      ],
+      "created": "2013-02-08T09:38:44+01:00",
+      "modified": "2013-02-08T10:29:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9330",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2013-02-08T09:35:59+01:00",
+      "modified": "2013-02-08T10:14:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9331",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-894",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Rössing Anlage 3)",
+          "mimeType": "application/pdf",
+          "date": "2013-02-19",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVQsD9oR7vRfYUnLVx_q1pRn2_Mjfpdf4lObGHQA3UD7/Ortsrat_Roessing_Anlage_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVQsD9oR7vRfYUnLVx_q1pRn2_Mjfpdf4lObGHQA3UD7/Ortsrat_Roessing_Anlage_3.pdf",
+          "created": "2013-02-28T16:50:53+01:00",
+          "modified": "2013-02-28T16:50:53+01:00"
+        }
+      ],
+      "created": "2013-02-08T09:35:59+01:00",
+      "modified": "2013-02-08T09:35:59+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9332",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anträge und Anfragen",
+      "created": "2013-02-08T09:35:59+01:00",
+      "modified": "2013-02-08T09:35:59+01:00"
+    }
+  ]
+}

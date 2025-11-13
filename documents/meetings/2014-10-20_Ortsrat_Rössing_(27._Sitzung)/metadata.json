@@ -1,0 +1,204 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2373",
+  "name": "Ortsrat Rössing (27. Sitzung)",
+  "start": "2014-10-20T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-26",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Gaststätte \"Zum Dorfbrunnen\", Loderwinkel 2 a, 31171 Nordstemmen, Clubraum",
+    "streetAddress": "Loderwinkel 2 a",
+    "room": "Gaststätte \"Zum Dorfbrunnen\", Clubraum",
+    "postalCode": "31171",
+    "subLocality": "Rössing",
+    "locality": "Nordstemmen",
+    "created": "2014-10-09T10:17:13+02:00",
+    "modified": "2017-09-12T17:09:54+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-13305",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2014-10-20",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYMmsO6bq4LnUJpaiBaElsIMFjdoNqb_Db4BgZImM7hH/Bekanntmachung_Ortsrat_Roessing_20.10.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYMmsO6bq4LnUJpaiBaElsIMFjdoNqb_Db4BgZImM7hH/Bekanntmachung_Ortsrat_Roessing_20.10.2014.pdf",
+    "created": "2014-10-09T19:00:51+02:00",
+    "modified": "2014-10-09T19:00:51+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-13470",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2014-10-20",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXGm7kK0wKVYh8HD8n4sgcTn5FPXf5UA4zyLHIm06AWc/Oeffentliche_Niederschrift_Ortsrat_Roessing_20.10.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXGm7kK0wKVYh8HD8n4sgcTn5FPXf5UA4zyLHIm06AWc/Oeffentliche_Niederschrift_Ortsrat_Roessing_20.10.2014.pdf",
+    "created": "2014-10-30T19:00:37+01:00",
+    "modified": "2016-05-19T19:01:02+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11170",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2014-09-30T17:51:23+02:00",
+      "modified": "2014-09-30T17:51:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11171",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2014-09-30T17:51:23+02:00",
+      "modified": "2014-09-30T17:51:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11172",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 10. Juni 2014",
+      "created": "2014-09-30T17:51:23+02:00",
+      "modified": "2014-09-30T17:51:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11173",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2014-09-30T17:51:23+02:00",
+      "modified": "2014-09-30T17:51:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11254",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Ersetzen der Waschbetonkübel \"Unter den Eichen\" durch Findlinge\n- Beratung und Beschlussfassung",
+      "created": "2014-10-09T10:21:12+02:00",
+      "modified": "2014-10-09T10:21:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11255",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Alternativen zur Bepflanzung der Beete an der Bahnhofsstraße und Maschstraße\n- Beratung und Beschlussfassung",
+      "created": "2014-10-09T10:21:47+02:00",
+      "modified": "2014-10-09T10:21:47+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11256",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Fortführung der Veranstaltung \"Offenes Singen\"\n- Beratung und Beschlussfassung",
+      "created": "2014-10-09T10:22:12+02:00",
+      "modified": "2014-10-09T10:22:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11257",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bekanntmachung der Suche des Ortsrates nach einer Nachfolgerin / einem Nachfolger für Frau Helga Fredebold im Amt der Ortsheimatpflegerin\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2014-10-09T10:23:30+02:00",
+      "modified": "2014-10-09T10:23:30+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11174",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Neu- bzw. Wiederwahl der Schiedspersonen für die Schiedsamtsbezirke in der Gemeinde Nordstemmen im Jahre 2014",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2865",
+      "created": "2014-09-30T17:51:23+02:00",
+      "modified": "2014-09-30T17:51:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11258",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Verwendung der im Haushalt 2014 noch zur Verfügung stehenden Ortsratsmittel\n(siehe Anlage 1, Seite 1-2)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1167",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anl 1 zu TOP 9 Ortsrat Rössing)",
+          "mimeType": "application/pdf",
+          "date": "2014-10-20",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZ2J2XkCCoT4v1gmDV_XUeg4bNychZm-quEp0MMLkjgz/Anl_1_zu_TOP_9_Ortsrat_Roessing.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZ2J2XkCCoT4v1gmDV_XUeg4bNychZm-quEp0MMLkjgz/Anl_1_zu_TOP_9_Ortsrat_Roessing.pdf",
+          "created": "2014-10-09T19:00:51+02:00",
+          "modified": "2014-10-09T19:00:51+02:00"
+        }
+      ],
+      "created": "2014-10-09T10:24:14+02:00",
+      "modified": "2014-10-09T10:24:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11259",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anhörung zum Haushaltsplan 2015 und zum Investitionsprogramm bis 2018 für die Ortschaft Rössing\n(DS 67/2014; wird nachgereicht)",
+      "created": "2014-10-09T10:26:03+02:00",
+      "modified": "2014-10-09T10:26:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11260",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Bevorstehende Termine im Jahr 2015\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2014-10-09T10:26:25+02:00",
+      "modified": "2014-10-09T10:26:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11299",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Teilnahme am Vor- und Landeswettbewerb \"Unser Dorf hat Zukunft\"\n- Beratung und Beschlussfassung",
+      "created": "2014-10-28T14:52:09+01:00",
+      "modified": "2014-10-28T14:52:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11175",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 15,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2014-09-30T17:51:23+02:00",
+      "modified": "2014-09-30T17:51:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11176",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 16,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2014-09-30T17:51:23+02:00",
+      "modified": "2014-09-30T17:51:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11177",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 17,
+      "name": "Anträge und Anfragen",
+      "created": "2014-09-30T17:51:23+02:00",
+      "modified": "2014-09-30T17:51:23+02:00"
+    }
+  ]
+}

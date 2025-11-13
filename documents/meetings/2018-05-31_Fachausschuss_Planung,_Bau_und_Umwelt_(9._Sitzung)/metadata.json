@@ -1,0 +1,177 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4060",
+  "name": "Fachausschuss Planung, Bau und Umwelt (9. Sitzung)",
+  "start": "2018-05-31T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-31"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-24104",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Planung, Bau und Umwelt)",
+    "mimeType": "application/pdf",
+    "date": "2018-05-31",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfExyIULnBHUXzLhn6y7jHXKcsDPzmlcVo8SFG3p7LFD/Bekanntmachung_Fachausschuss_Planung-_Bau_und_Umwelt_31.05.2018.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfExyIULnBHUXzLhn6y7jHXKcsDPzmlcVo8SFG3p7LFD/Bekanntmachung_Fachausschuss_Planung-_Bau_und_Umwelt_31.05.2018.pdf",
+    "created": "2018-05-18T13:01:00+02:00",
+    "modified": "2018-05-18T13:01:00+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-24725",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Planung, Bau und Umwelt)",
+    "mimeType": "application/pdf",
+    "date": "2018-05-31",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXFJSiIaN3yVYGMdNQaRIlLmd76ly5qmbTEkASZT1mZK/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau_und_Umwelt_31.05.2018.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXFJSiIaN3yVYGMdNQaRIlLmd76ly5qmbTEkASZT1mZK/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau_und_Umwelt_31.05.2018.pdf",
+    "created": "2018-07-02T13:01:05+02:00",
+    "modified": "2018-07-02T13:01:05+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15412",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2018-05-08T11:47:26+02:00",
+      "modified": "2018-05-08T11:47:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15413",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2018-05-08T11:47:26+02:00",
+      "modified": "2018-05-08T11:47:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15414",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 17. April 2018",
+      "created": "2018-05-08T11:47:26+02:00",
+      "modified": "2018-05-16T08:56:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15415",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2018-05-08T11:47:26+02:00",
+      "modified": "2018-05-08T11:47:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15426",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einstellung Nacht-AST-Verkehr in der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6276",
+      "result": "einstimmig, 1 Enthaltung lt. Beschlussvorschlag",
+      "created": "2018-05-16T08:25:49+02:00",
+      "modified": "2018-05-16T08:25:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15430",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bebauungsplan Nr. 0123 \"Heyersumer Straße-Süd\", 2. Änderung, Ortschaft Nordstemmen\n(ehem. Penny) mit örtlicher Bauvorschrift\n\nVorstellung des Entwurfes und Beschluss zur öffentlichen Auslegung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6280",
+      "result": "einstimmig lt. Beschlussvorschlag",
+      "created": "2018-05-16T11:03:32+02:00",
+      "modified": "2018-05-16T11:03:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15428",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bebauungsplan Nr. 0115 \"Hauptstraße-Süd\", 3. Änderung mit örtlichen Bauvorschriften, Ortschaft Nordstemmen (Brunnenstraße)\n- Satzungsbeschluss gem. § 10 Abs. 1 BauGB",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6279",
+      "result": "einstimmig lt. Beschlussvorschlag",
+      "created": "2018-05-16T08:58:55+02:00",
+      "modified": "2018-05-16T08:58:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15431",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "DB - Bahnübergänge im Gemeindegebiet Nordstemmen\n(Ausführungen werden in der Sitzung gemacht)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4077",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (FA PBU 2018 05 31 Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2018-05-31",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaSEsHLEruKVOlJpOQl_YDL1t23DpETQ2GGWHCMInKpi/FA_PBU_2018_05_31_Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaSEsHLEruKVOlJpOQl_YDL1t23DpETQ2GGWHCMInKpi/FA_PBU_2018_05_31_Anlage_1.pdf",
+          "created": "2018-06-29T13:00:15+02:00",
+          "modified": "2018-06-29T13:00:15+02:00"
+        }
+      ],
+      "created": "2018-05-16T13:36:29+02:00",
+      "modified": "2018-05-16T13:36:33+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15429",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Sachstand über aktuelle Themen im Bereich Hoch- und Tiefbau",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4078",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (FA PBU 2018 05 31 Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2018-05-31",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZvcyLfskv2TH5Tm-yp1ZzPThCOVNLZcEAnaU2kr3FRx/FA_PBU_2018_05_31_Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZvcyLfskv2TH5Tm-yp1ZzPThCOVNLZcEAnaU2kr3FRx/FA_PBU_2018_05_31_Anlage_2.pdf",
+          "created": "2018-06-29T13:00:15+02:00",
+          "modified": "2018-06-29T13:00:15+02:00"
+        }
+      ],
+      "created": "2018-05-16T08:59:27+02:00",
+      "modified": "2018-05-16T08:59:27+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15417",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2018-05-08T11:47:26+02:00",
+      "modified": "2018-05-08T11:47:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15418",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anträge und Anfragen",
+      "created": "2018-05-08T11:47:26+02:00",
+      "modified": "2018-05-08T11:47:26+02:00"
+    }
+  ]
+}

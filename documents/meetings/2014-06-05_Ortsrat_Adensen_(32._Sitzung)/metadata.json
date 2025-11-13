@@ -1,0 +1,250 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2284",
+  "name": "Ortsrat Adensen (32. Sitzung)",
+  "start": "2014-06-05T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-2",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Adensen, Dorfstraße 19, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Dorfstraße 19",
+    "room": "Feuerwehrhaus Adensen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Adensen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T10:54:03+02:00",
+    "modified": "2019-06-06T11:57:02+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-11"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-12774",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2014-06-05",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZW6ZIMJqzhUGd-Y9hXd-tQjQ0VdiHw8Tqm5o6rbcoJGU/Bekanntmachung_Ortsrat_Adensen_05.06.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZW6ZIMJqzhUGd-Y9hXd-tQjQ0VdiHw8Tqm5o6rbcoJGU/Bekanntmachung_Ortsrat_Adensen_05.06.2014.pdf",
+    "created": "2014-06-02T13:00:44+02:00",
+    "modified": "2014-06-02T13:00:44+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-12954",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2014-06-05",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWcAn-VlpzTZ1UUJBJp2ELox5fliN3_3mU-Tbn7TKfL6/Oeffentliche_Niederschrift_Ortsrat_Adensen_05.06.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWcAn-VlpzTZ1UUJBJp2ELox5fliN3_3mU-Tbn7TKfL6/Oeffentliche_Niederschrift_Ortsrat_Adensen_05.06.2014.pdf",
+    "created": "2014-07-15T13:00:41+02:00",
+    "modified": "2014-07-15T13:00:41+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10754",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2014-06-02T07:24:21+02:00",
+      "modified": "2014-06-02T07:24:21+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10755",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2014-06-02T07:24:21+02:00",
+      "modified": "2014-06-02T07:24:21+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10756",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 1. April 2014",
+      "created": "2014-06-02T07:24:21+02:00",
+      "modified": "2014-06-02T07:24:21+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10757",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2014-06-02T07:24:21+02:00",
+      "modified": "2014-06-02T07:24:21+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10810",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Eingrenzung der Dauer der Aufstellung des Maikranzes\n- Beratung und Beschlussfassung\n(siehe Anlage 1, Ziffer 1)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1119",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Adensen 05.06.2014 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2014-06-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbeiTTn2m9UZpFTjFVpSjL_pgirnNMB958xLfMaLgqrs/Ortsrat_Adensen_05.06.2014_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbeiTTn2m9UZpFTjFVpSjL_pgirnNMB958xLfMaLgqrs/Ortsrat_Adensen_05.06.2014_18-00_Uhr.pdf",
+          "created": "2014-07-14T13:00:08+02:00",
+          "modified": "2014-07-14T13:00:08+02:00"
+        }
+      ],
+      "created": "2014-06-02T09:37:07+02:00",
+      "modified": "2014-06-02T09:37:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10811",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Behandlung von Anträgen\n- Pflegearbeiten am Regenrückhaltebecken im Pussenweg (siehe Anlage 1, Ziffer 2)\n- Hochwasserschutz\na) Graben an der Hallerburger Straße\nb) Regenrückhaltebecken \"Untere Wanne\"\nc) Wassereinlauf in den Ringgraben und Zustand des Ringgrabens selbst\nd) Gräbenzustand in der Unteren Wanne\n(Ausführungen werden in der Sitzung gemacht)\n- Anbringung eines Zusatzes \"Keine Wendemöglichkeit\" Zufahrt zur Sackgasse Grüne Gasse\n- Ausbesserung von Schlaglöchern im Pussenweg\n(Ausführungen werden in der Sitzung gemacht)\n- Straßenzustand in der Ortschaft Hallerburg\n(Ausführungen werden an dieser Stelle in der Sache von Ortsvorsteher Pompetzki gemacht, siehe dazu auch Anlage 2)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1098",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Adensen 05.06.2014 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2014-06-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSslCF26y3_F05R5mFX8fEzFTd86RH2N-slUsLFeCnzI/Ortsrat_Adensen_05.06.2014_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSslCF26y3_F05R5mFX8fEzFTd86RH2N-slUsLFeCnzI/Ortsrat_Adensen_05.06.2014_18-00_Uhr.pdf",
+          "created": "2014-06-02T13:00:44+02:00",
+          "modified": "2014-06-02T13:00:44+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1099",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Adensen 05.06.2014 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2014-06-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRr4UFSqvSl7d67VsrANRHxPiHMTOPaWRnmDBXAl8A70/Ortsrat_Adensen_05.06.2014_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRr4UFSqvSl7d67VsrANRHxPiHMTOPaWRnmDBXAl8A70/Ortsrat_Adensen_05.06.2014_18-00_Uhr.pdf",
+          "created": "2014-06-02T13:00:44+02:00",
+          "modified": "2014-06-02T13:00:44+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1120",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Adensen 05.06.2014 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2014-06-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQ08DD1CfKYTNmw9Mm28MByvWE3npu2ZWzL8rKmFbKsn/Ortsrat_Adensen_05.06.2014_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQ08DD1CfKYTNmw9Mm28MByvWE3npu2ZWzL8rKmFbKsn/Ortsrat_Adensen_05.06.2014_18-00_Uhr.pdf",
+          "created": "2014-07-14T13:00:08+02:00",
+          "modified": "2014-07-14T13:00:08+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1122",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Adensen 05.06.2014 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2014-06-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUEnO7jMMefW0ko3e5BlV_M4NlYQBQO_evKFxUY7bWGG/Ortsrat_Adensen_05.06.2014_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUEnO7jMMefW0ko3e5BlV_M4NlYQBQO_evKFxUY7bWGG/Ortsrat_Adensen_05.06.2014_18-00_Uhr.pdf",
+          "created": "2014-07-14T13:00:08+02:00",
+          "modified": "2014-07-14T13:00:08+02:00"
+        }
+      ],
+      "created": "2014-06-02T09:43:32+02:00",
+      "modified": "2014-06-02T09:43:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10812",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bericht über die aktuelle Situation zur Ortsheimatpflege\n(Ausführungen werden in der Sitzung gemacht, siehe auch Anlage 1, Ziffer 3)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1121",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Adensen 05.06.2014 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2014-06-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeFsPHisU4LH9hbtQlWMb1xB7Ek93wwE_NEoqEKzyZ_d/Ortsrat_Adensen_05.06.2014_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeFsPHisU4LH9hbtQlWMb1xB7Ek93wwE_NEoqEKzyZ_d/Ortsrat_Adensen_05.06.2014_18-00_Uhr.pdf",
+          "created": "2014-07-14T13:00:08+02:00",
+          "modified": "2014-07-14T13:00:08+02:00"
+        }
+      ],
+      "created": "2014-06-02T09:47:12+02:00",
+      "modified": "2014-06-02T09:47:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10813",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bericht über die BI-Versammlung zum Thema Südlink\n(Ausführungen werden in der Sitzung durch Herrn Bernd Beyer gemacht)",
+      "created": "2014-06-02T09:48:12+02:00",
+      "modified": "2014-06-02T09:48:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10759",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1123",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Adensen 05.06.2014 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2014-06-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVPlTzOGIC-ZoAZMvw6WYBlLJZfjoOlTRpp_uCtdnDVv/Ortsrat_Adensen_05.06.2014_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVPlTzOGIC-ZoAZMvw6WYBlLJZfjoOlTRpp_uCtdnDVv/Ortsrat_Adensen_05.06.2014_18-00_Uhr.pdf",
+          "created": "2014-07-14T13:00:08+02:00",
+          "modified": "2014-07-14T13:00:08+02:00"
+        }
+      ],
+      "created": "2014-06-02T07:24:21+02:00",
+      "modified": "2014-06-02T07:24:21+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10760",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1124",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Adensen 05.06.2014 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2014-06-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdf7gc5X3wruSR2W-agEaznUhZ43cVSYwOclFUZmsNnK/Ortsrat_Adensen_05.06.2014_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdf7gc5X3wruSR2W-agEaznUhZ43cVSYwOclFUZmsNnK/Ortsrat_Adensen_05.06.2014_18-00_Uhr.pdf",
+          "created": "2014-07-14T13:00:08+02:00",
+          "modified": "2014-07-14T13:00:08+02:00"
+        }
+      ],
+      "created": "2014-06-02T07:24:21+02:00",
+      "modified": "2014-06-02T07:24:21+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10761",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anträge und Anfragen\n- aktueller Stand zum Ausbau Dorfstraße / Einmündung Albesgasse\n- Ausbaumaßnahme K 506",
+      "created": "2014-06-02T07:24:21+02:00",
+      "modified": "2014-06-02T07:24:21+02:00"
+    }
+  ]
+}

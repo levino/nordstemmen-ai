@@ -1,0 +1,227 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2451",
+  "name": "Ortsrat Groß Escherde (26. Sitzung)",
+  "start": "2015-02-17T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-12",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Groß Escherde, Schulstraße 9 a, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Schulstraße 9 a",
+    "room": "Dorfgemeinschaftshaus Groß Escherde, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Groß Escherde",
+    "locality": "Nordstemmen",
+    "created": "2005-04-07T10:37:20+02:00",
+    "modified": "2019-06-06T11:57:41+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-14"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-13892",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2015-02-17",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbj1UfXjgKioL4xFuhprOrkWdkW5V3sj3UeBfGKGROU-/Bekanntmachung_Ortsrat_Gross_Escherde_17.02.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbj1UfXjgKioL4xFuhprOrkWdkW5V3sj3UeBfGKGROU-/Bekanntmachung_Ortsrat_Gross_Escherde_17.02.2015.pdf",
+    "created": "2015-01-29T19:00:25+01:00",
+    "modified": "2015-02-06T13:00:26+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-14090",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2015-02-17",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSwSZmvX7WoScc8gycE-8s-t0sg8NkUxseMe6TVKotOi/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_17.02.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSwSZmvX7WoScc8gycE-8s-t0sg8NkUxseMe6TVKotOi/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_17.02.2015.pdf",
+    "created": "2015-03-12T19:00:35+01:00",
+    "modified": "2015-03-12T19:00:35+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11497",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2015-01-29T16:05:37+01:00",
+      "modified": "2015-01-29T16:05:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11498",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2015-01-29T16:05:37+01:00",
+      "modified": "2015-01-29T16:05:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11499",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 21. Oktober 2014",
+      "created": "2015-01-29T16:05:37+01:00",
+      "modified": "2015-01-29T16:05:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11500",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2015-01-29T16:05:37+01:00",
+      "modified": "2015-01-29T16:05:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11505",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Verwendung der im Haushalt 2015 zur Verfügung stehenden Ortsratsmittel\n(siehe Anlage 1, Seite 1)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1256",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Groß Escherde 17.02.2015 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-02-17",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQBalsRjvwIAPVigscAdDyo_NMWczS4OUGCgonL6vwri/Ortsrat_Gross_Escherde_17.02.2015_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQBalsRjvwIAPVigscAdDyo_NMWczS4OUGCgonL6vwri/Ortsrat_Gross_Escherde_17.02.2015_18-00_Uhr.pdf",
+          "created": "2015-01-29T19:00:25+01:00",
+          "modified": "2015-01-29T19:00:25+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1287",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Groß Escherde 17.02.2015 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-02-17",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYX0gOOKBuW6MX015YcZ2c--ZNHWHrUujYUp_2u5xrjj/Ortsrat_Gross_Escherde_17.02.2015_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYX0gOOKBuW6MX015YcZ2c--ZNHWHrUujYUp_2u5xrjj/Ortsrat_Gross_Escherde_17.02.2015_18-00_Uhr.pdf",
+          "created": "2015-03-05T19:00:29+01:00",
+          "modified": "2015-03-05T19:00:29+01:00"
+        }
+      ],
+      "created": "2015-01-29T16:08:15+01:00",
+      "modified": "2015-01-29T16:08:15+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11506",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Ergebnisse und Planungen der Ortsbegehungen\n- Bericht der Verwaltung über durchgeführte Maßnahmen in Bezug der Begehungen 2013 und 2014\n- Terminfestlegung für die Begehung 2015",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1288",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Groß Escherde 17.02.2015 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-02-17",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZW9Y314xk4ad1PrvjboWNGB5LaquzXFo6sbQ-NR0SySV/Ortsrat_Gross_Escherde_17.02.2015_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZW9Y314xk4ad1PrvjboWNGB5LaquzXFo6sbQ-NR0SySV/Ortsrat_Gross_Escherde_17.02.2015_18-00_Uhr.pdf",
+          "created": "2015-03-05T19:00:29+01:00",
+          "modified": "2015-03-05T19:00:29+01:00"
+        }
+      ],
+      "created": "2015-01-29T16:09:40+01:00",
+      "modified": "2015-01-29T16:09:40+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11530",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "",
+      "order": 8,
+      "name": "Austausch der Bestuhlung im DGH\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2015-02-06T09:30:00+01:00",
+      "modified": "2015-02-06T09:30:00+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11501",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 9,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1289",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Groß Escherde 17.02.2015 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-02-17",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZG4t3tVDs-CCtiwyjCaT-vaj-NR2NRdh10NGrXGNjc0/Ortsrat_Gross_Escherde_17.02.2015_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZG4t3tVDs-CCtiwyjCaT-vaj-NR2NRdh10NGrXGNjc0/Ortsrat_Gross_Escherde_17.02.2015_18-00_Uhr.pdf",
+          "created": "2015-03-05T19:00:29+01:00",
+          "modified": "2015-03-05T19:00:29+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1290",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Groß Escherde 17.02.2015 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-02-17",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZCwLs5mWHA83VXLyL2e7HRT71Tt0M-fgfiqlbPxPl9W/Ortsrat_Gross_Escherde_17.02.2015_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZCwLs5mWHA83VXLyL2e7HRT71Tt0M-fgfiqlbPxPl9W/Ortsrat_Gross_Escherde_17.02.2015_18-00_Uhr.pdf",
+          "created": "2015-03-05T19:00:29+01:00",
+          "modified": "2015-03-05T19:00:29+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1291",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Groß Escherde 17.02.2015 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-02-17",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRulEgngHfxNYH2c69_LYkuveZCKUqR82sri7Ib17GcB/Ortsrat_Gross_Escherde_17.02.2015_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRulEgngHfxNYH2c69_LYkuveZCKUqR82sri7Ib17GcB/Ortsrat_Gross_Escherde_17.02.2015_18-00_Uhr.pdf",
+          "created": "2015-03-05T19:00:29+01:00",
+          "modified": "2015-03-05T19:00:29+01:00"
+        }
+      ],
+      "created": "2015-01-29T16:05:37+01:00",
+      "modified": "2015-01-29T16:05:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11502",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2015-01-29T16:05:37+01:00",
+      "modified": "2015-01-29T16:05:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11503",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 11,
+      "name": "Anträge und Anfragen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1292",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Groß Escherde 17.02.2015 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-02-17",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdnkxKzmJH1zciED_FV1pofErKS0TOSLhw0xyO22pmYk/Ortsrat_Gross_Escherde_17.02.2015_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdnkxKzmJH1zciED_FV1pofErKS0TOSLhw0xyO22pmYk/Ortsrat_Gross_Escherde_17.02.2015_18-00_Uhr.pdf",
+          "created": "2015-03-05T19:00:29+01:00",
+          "modified": "2015-03-05T19:00:29+01:00"
+        }
+      ],
+      "created": "2015-01-29T16:05:37+01:00",
+      "modified": "2015-01-29T16:05:37+01:00"
+    }
+  ]
+}

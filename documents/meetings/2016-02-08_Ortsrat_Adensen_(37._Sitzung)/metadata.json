@@ -1,0 +1,245 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2638",
+  "name": "Ortsrat Adensen (37. Sitzung)",
+  "start": "2016-02-08T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-2",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Adensen, Dorfstraße 19, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Dorfstraße 19",
+    "room": "Feuerwehrhaus Adensen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Adensen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T10:54:03+02:00",
+    "modified": "2019-06-06T11:57:02+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-11"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15587",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2016-02-08",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZT_MRAMuxRZ48tq3KzLHowR_Nwjhx_jLRVp09r3RFJiB/Bekanntmachung_Ortsrat_Adensen_08.02.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZT_MRAMuxRZ48tq3KzLHowR_Nwjhx_jLRVp09r3RFJiB/Bekanntmachung_Ortsrat_Adensen_08.02.2016.pdf",
+    "created": "2016-01-29T13:01:13+01:00",
+    "modified": "2016-01-29T13:01:13+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15754",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2016-02-08",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfg7-V-92XTiV0rwzrgNFTlTtivJC9M9kPBH5QzNOOeh/Oeffentliche_Niederschrift_Ortsrat_Adensen_08.02.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfg7-V-92XTiV0rwzrgNFTlTtivJC9M9kPBH5QzNOOeh/Oeffentliche_Niederschrift_Ortsrat_Adensen_08.02.2016.pdf",
+    "created": "2016-02-24T13:00:46+01:00",
+    "modified": "2016-02-24T13:00:46+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12524",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2016-01-21T13:48:08+01:00",
+      "modified": "2016-01-21T13:48:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12525",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2016-01-21T13:48:08+01:00",
+      "modified": "2016-01-21T13:48:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12526",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 16.11.2015",
+      "created": "2016-01-21T13:48:08+01:00",
+      "modified": "2016-01-21T13:48:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12527",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2016-01-21T13:48:08+01:00",
+      "modified": "2016-01-21T13:48:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12547",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Hort der DRK Kindertagesstätte Adensen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3382",
+      "created": "2016-01-25T08:52:05+01:00",
+      "modified": "2016-01-25T08:52:05+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12559",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Verwendung der im Haushaltsjahr 2016 zur Verfügung stehenden Ortsratsmittel\n- Beratung und Beschlussfassung\n- Antrag der Ortsratsfraktion Die Unabhängigen in Nordstemmen vom 13.01.2016\n  Übertrag von Haushaltsmitteln; siehe Anlage 1 Nr. 2 und Anlage 2",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1471",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Adensen 08.02.2016 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2016-02-08",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSybI3bEPgK59PILWB-xY9y4rG2PFlOsrcicDyCkUQbw/Ortsrat_Adensen_08.02.2016_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSybI3bEPgK59PILWB-xY9y4rG2PFlOsrcicDyCkUQbw/Ortsrat_Adensen_08.02.2016_18-00_Uhr.pdf",
+          "created": "2016-01-29T13:01:13+01:00",
+          "modified": "2016-01-29T13:01:13+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1472",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Adensen Anlage TOP 5)",
+          "mimeType": "application/pdf",
+          "date": "2016-02-08",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcIgJmYJqvd3h-4jawQMnOjmttQtTIPkajWZWc3hECr7/Ortsrat_Adensen_Anlage_TOP_5.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcIgJmYJqvd3h-4jawQMnOjmttQtTIPkajWZWc3hECr7/Ortsrat_Adensen_Anlage_TOP_5.pdf",
+          "created": "2016-01-29T13:01:13+01:00",
+          "modified": "2016-01-29T13:01:13+01:00"
+        }
+      ],
+      "created": "2016-01-26T14:25:34+01:00",
+      "modified": "2016-01-26T14:25:34+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12560",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Umrüstung der Innenbeleuchtung auf LED-Leuchtmittel in der Rolf-Gehrke-Halle, Ortschaft Adensen\n- Beratung und Beschlussfassung\nAntrag der Ortsratsfraktion Die Unabhängigen in Nordstemmen vom 13.01.2016, siehe Anlage 1 Nr. 1",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1473",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Adensen Anlage TOP 6)",
+          "mimeType": "application/pdf",
+          "date": "2016-02-08",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSc8XXygVFtq9xe_zte2OSqaqPK06D6U8zytC5di-DRC/Ortsrat_Adensen_Anlage_TOP_6.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSc8XXygVFtq9xe_zte2OSqaqPK06D6U8zytC5di-DRC/Ortsrat_Adensen_Anlage_TOP_6.pdf",
+          "created": "2016-01-29T13:01:13+01:00",
+          "modified": "2016-01-29T13:01:13+01:00"
+        }
+      ],
+      "created": "2016-01-26T14:27:10+01:00",
+      "modified": "2016-01-26T14:27:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12561",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Errichtung eines Schutzdaches über der vorhandenen Sitzgruppe auf dem Dorfplatz \"Thie\"\n- Beratung und Beschlussfassung\nAntrag von Ortsbürgermeister Henning Lange; siehe Anlage 3",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1474",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Adensen Anlage TOP 7)",
+          "mimeType": "application/pdf",
+          "date": "2016-02-08",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeszVFwq3QPBZyUQdE7sKV7-N2FvIow5uC7JC8Pdx2Nr/Ortsrat_Adensen_Anlage_TOP_7.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeszVFwq3QPBZyUQdE7sKV7-N2FvIow5uC7JC8Pdx2Nr/Ortsrat_Adensen_Anlage_TOP_7.pdf",
+          "created": "2016-01-29T13:01:13+01:00",
+          "modified": "2016-01-29T13:01:13+01:00"
+        }
+      ],
+      "created": "2016-01-26T14:28:32+01:00",
+      "modified": "2016-01-26T14:28:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12682",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Ausbau der Kreisstraße 506 (Hallerburger Straße/Neustadt) in der Ortsdurchfahrt Adensen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1488",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage zum TOP 8)",
+          "mimeType": "application/pdf",
+          "date": "2016-02-08",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbTzwfN4LGHtIdBRuKx7Rgr4Lowqg3TBykSHhGvV5MDT/Anlage_zum_TOP_8.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbTzwfN4LGHtIdBRuKx7Rgr4Lowqg3TBykSHhGvV5MDT/Anlage_zum_TOP_8.pdf",
+          "created": "2016-02-24T13:00:46+01:00",
+          "modified": "2016-02-24T13:00:46+01:00"
+        }
+      ],
+      "created": "2016-02-22T09:32:12+01:00",
+      "modified": "2016-02-22T09:32:22+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12683",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Newsletter Adensen/Hallerburg",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1489",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage zum TOP 9)",
+          "mimeType": "application/pdf",
+          "date": "2016-02-08",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZa2oEmM0dbCY_ArSqCKUKIUp3kLKbFsIo74f24Ivwhbs/Anlage_zum_TOP_9.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZa2oEmM0dbCY_ArSqCKUKIUp3kLKbFsIo74f24Ivwhbs/Anlage_zum_TOP_9.pdf",
+          "created": "2016-02-24T13:00:46+01:00",
+          "modified": "2016-02-24T13:00:46+01:00"
+        }
+      ],
+      "created": "2016-02-22T09:33:55+01:00",
+      "modified": "2016-02-22T09:33:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12528",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2016-01-21T13:48:08+01:00",
+      "modified": "2016-01-21T13:48:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12529",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2016-01-21T13:48:08+01:00",
+      "modified": "2016-01-21T13:48:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12530",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Anträge und Anfragen",
+      "created": "2016-01-21T13:48:08+01:00",
+      "modified": "2016-01-21T13:48:08+01:00"
+    }
+  ]
+}

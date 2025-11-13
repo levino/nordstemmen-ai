@@ -1,0 +1,181 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1394",
+  "name": "Ortsrat Nordstemmen (14. Sitzung)",
+  "start": "2010-02-23T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-8"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-4970",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Nordstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2010-02-23",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSe_c58kZ5g9Ebz-1AWdLiyPnCNODFv748MF2MFuKqBW/Bekanntmachung_Ortsrat_Nordstemmen_23.02.2010.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSe_c58kZ5g9Ebz-1AWdLiyPnCNODFv748MF2MFuKqBW/Bekanntmachung_Ortsrat_Nordstemmen_23.02.2010.pdf",
+    "created": "2010-02-16T18:06:35+01:00",
+    "modified": "2010-02-16T18:06:35+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5849",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2010-02-11T11:36:06+01:00",
+      "modified": "2010-02-11T11:36:06+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5850",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2010-02-11T11:36:06+01:00",
+      "modified": "2010-02-11T11:36:06+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5859",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Verleihung einer Ehrenbezeichnung",
+      "created": "2010-02-11T11:36:42+01:00",
+      "modified": "2010-02-11T11:36:42+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5851",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 28. Oktober 2009",
+      "created": "2010-02-11T11:36:06+01:00",
+      "modified": "2010-02-11T11:36:06+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5852",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2010-02-11T11:36:06+01:00",
+      "modified": "2010-02-11T11:36:06+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5860",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Anhörung zum doppischen Haushalt für die Haushaltsjahre 2010 bis 2013 /\nInvestitionstätigkeit in der Ortschaft Nordstemmen\n(DS 15/2010; wird nachagereicht)",
+      "created": "2010-02-11T11:38:23+01:00",
+      "modified": "2010-02-11T11:38:23+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5861",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Auf Antrag von Frau Dr. Ott:\n-  Verkehrssituation im Einzugsbereich Asternstraße / Berliner Straße\n   - Beratung und ggf. Beschlussempfehlung - \n (Ausführungen werden in der Sitzung gemacht)",
+      "created": "2010-02-11T11:38:53+01:00",
+      "modified": "2010-02-11T11:38:53+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5862",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Diskussion und ggf. Beschlussfassung über die Notwendigkeit zum Erhalt und zur Ausstattung der in der Ortschaft Nordstemmen vorhandenen Spielplätze\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2010-02-11T11:42:41+01:00",
+      "modified": "2010-02-11T11:42:41+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5863",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Verwendung der im Haushaltsjahr 2010 zur Verfügung stehenden Ortsratsmittel\n-  Zuschussantrag GJR Nordstemmen\n-  Zuschuss an KKS Nordstemmen bzgl. der Bürgerschießwettbewerbe\n-  Tunnelsprayaktion 2010 (3. Abschnitt)\n-  sonstige Verwendungen\n   - Beratung und Beschlussfassung)\n(siehe Anlage 1 und 2 sowie DS 15/2010 zu TOP 5)\n   ",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-369",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Nordstemmen 23.02.2010 18.00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2010-02-23",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdlkF-a7EMRqNBqdeZsTQwgTEWvC3NDiXsv-S5jfKDtt/Ortsrat_Nordstemmen_23.02.2010_18.00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdlkF-a7EMRqNBqdeZsTQwgTEWvC3NDiXsv-S5jfKDtt/Ortsrat_Nordstemmen_23.02.2010_18.00_Uhr.pdf",
+          "created": "2010-05-20T13:04:48+02:00",
+          "modified": "2010-05-20T13:04:48+02:00"
+        }
+      ],
+      "created": "2010-02-11T11:45:38+01:00",
+      "modified": "2010-02-11T11:45:38+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5864",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Besprechung der Durchführung der Müllsammelaktion am 10. April 2010",
+      "created": "2010-02-11T11:46:32+01:00",
+      "modified": "2010-02-11T11:46:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5853",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Mitteilungen des Bürgermeisters\n-  Stand zur Entwicklung ehem. Betriebsgelände Firma Müller\n-  Ausstattung des Verbindungsweges (\"grüner Weg\" Jahnstraße - Mahlerter \n   Straße) mit einer Straßenbeleuchtung\n-  Benennung des \"grünen Weges\" mit einem Straßen- /Wegenamen\n-  Zustand des Zaunes Bahngelände an der Hauptstraße ab dem Bereich der\n   Firma Böhm",
+      "created": "2010-02-11T11:36:06+01:00",
+      "modified": "2010-02-11T11:36:06+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5854",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Mitteilungen des Ortsbürgermeisters",
+      "created": "2010-02-11T11:36:06+01:00",
+      "modified": "2010-02-11T11:36:06+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5855",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Behandlung von Anträgen",
+      "created": "2010-02-11T11:36:06+01:00",
+      "modified": "2010-02-11T11:36:06+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5856",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 15,
+      "name": "Behandlung von Anfragen",
+      "created": "2010-02-11T11:36:06+01:00",
+      "modified": "2010-02-11T11:36:06+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5857",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 16,
+      "name": "Anregungen",
+      "created": "2010-02-11T11:36:06+01:00",
+      "modified": "2010-02-11T11:36:06+01:00"
+    }
+  ]
+}

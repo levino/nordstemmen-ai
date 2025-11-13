@@ -1,0 +1,161 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/833",
+  "name": "Ortsrat Adensen (3. Sitzung)",
+  "start": "2007-06-18T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-2",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Adensen, Dorfstraße 19, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Dorfstraße 19",
+    "room": "Feuerwehrhaus Adensen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Adensen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T10:54:03+02:00",
+    "modified": "2019-06-06T11:57:02+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-11"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-1049",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2007-06-18",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUfA290gxUEJe2Xi4evIwJFoGOseWOQDGeThgbs3QoOU/Bekanntmachung_Ortsrat_Adensen_18.06.2007.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUfA290gxUEJe2Xi4evIwJFoGOseWOQDGeThgbs3QoOU/Bekanntmachung_Ortsrat_Adensen_18.06.2007.pdf",
+    "created": "2007-06-11T08:15:25+02:00",
+    "modified": "2007-06-11T08:15:25+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1534",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2007-06-08T08:33:16+02:00",
+      "modified": "2007-06-08T08:33:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1535",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Tagesordnung\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2007-06-08T08:33:16+02:00",
+      "modified": "2007-06-08T08:33:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1536",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 05.03.2007",
+      "created": "2007-06-08T08:33:16+02:00",
+      "modified": "2007-06-08T08:33:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1537",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2007-06-08T08:33:16+02:00",
+      "modified": "2007-06-08T08:33:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1839",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht des Bürgermeisters über die Verhandlungen mit dem Öffentlichen Personennahverkehr (ÖPNV) und dem Landkreis zur besseren Busanbindung",
+      "created": "2007-07-05T09:24:10+02:00",
+      "modified": "2007-07-05T09:24:10+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1538",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Resolution der Gemeinde Nordstemmen zur Anbindung der Ortschaften Adensen und Hallerburg an den ÖPNV im Landkreis Hildesheim",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/254",
+      "created": "2007-06-08T08:33:16+02:00",
+      "modified": "2007-07-05T09:24:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1544",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Resolution des Ortsrates Adensen zur Errichtung einer künftigen Busverbindung im ÖPNV von Adensen nach Nordstemmen\n- Antrag der Unabhängigen Wählergemeinschaft Nordstemmen - Adensen\nBeratung und Beschlussfassung (siehe Anlage 1)",
+      "created": "2007-06-08T08:35:38+02:00",
+      "modified": "2007-06-08T08:35:38+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1539",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "S-Bahn Anschluss Barnten;\n\nVerbindung von Adensen/ Hallerburg und Nordstemmen nach Barnten",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/260",
+      "created": "2007-06-08T08:33:16+02:00",
+      "modified": "2007-06-08T08:35:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1540",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Mitteilungen des Bürgermeisters / Ortsbürgermeisters\n- Anlegung Fußweg Hallerburger Straße (K 506)",
+      "created": "2007-06-08T08:33:16+02:00",
+      "modified": "2007-06-08T08:33:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1541",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Behandlung von Anfragen\n- Dorferneuerungsmaßnahme \"Adenoyser Straße / Ortsmitte Thie\"\n  (Anfrage der UWG - Ortsratsfraktion)\n- Straßen- und Fußwegereinigung\n  (Anfrage der UWG - Ortsratsfraktion)\n- Spielplatz Untere Wanne\n  (Anfrage der UWG - Ortsratsfraktion)",
+      "created": "2007-06-08T08:33:16+02:00",
+      "modified": "2007-06-08T08:33:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1545",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Vorstellung des Konzeptes für den Jugendtreff Adensen durch den Gemeindejugendring Nordstemmen e.V.",
+      "created": "2007-06-08T08:39:30+02:00",
+      "modified": "2007-06-08T08:39:30+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1546",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Vorstellung der ehrenamtlichen Gleichstellungsbeauftragten der Gemeinde Nordstemmen",
+      "created": "2007-06-08T08:41:15+02:00",
+      "modified": "2007-06-08T08:41:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1547",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Ausrichtung eines Neujahrsempfanges 2008\n(Ausführungen werden in der Sitzung gemacht)\n- Beratung und Beschlussfassung",
+      "created": "2007-06-08T08:43:14+02:00",
+      "modified": "2007-06-08T08:43:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/1542",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Anregungen",
+      "created": "2007-06-08T08:33:16+02:00",
+      "modified": "2007-06-08T08:43:18+02:00"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4586",
+  "name": "Rat (25. Sitzung)",
+  "start": "2020-08-27T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-36",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Mehrzweckhalle Nordstemmen, Hauptstraße 32 a, 31171 Nordstemmen, Saal",
+    "streetAddress": "Hauptstraße 32 a",
+    "room": "Mehrzweckhalle Nordstemmen, Saal",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2020-06-05T12:12:39+02:00",
+    "modified": "2020-06-09T08:15:42+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-29775",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2020-08-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXPtRNqEwOQB1ETJj8R5I0YFM6Ls1jfLtUtDmEXffYfX/Bekanntmachung_Rat_27.08.2020.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXPtRNqEwOQB1ETJj8R5I0YFM6Ls1jfLtUtDmEXffYfX/Bekanntmachung_Rat_27.08.2020.pdf",
+    "created": "2020-08-14T13:00:24+02:00",
+    "modified": "2020-08-14T13:00:24+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-29950",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2020-08-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbQxX5xoa50chrRMp_9lc60J4W70zXNgs3WeobPmyv9R/Oeffentliche_Niederschrift_Rat_27.08.2020.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbQxX5xoa50chrRMp_9lc60J4W70zXNgs3WeobPmyv9R/Oeffentliche_Niederschrift_Rat_27.08.2020.pdf",
+    "created": "2020-09-18T13:00:26+02:00",
+    "modified": "2020-09-18T13:00:26+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17715",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2020-08-11T16:22:40+02:00",
+      "modified": "2020-08-11T16:22:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17716",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2020-08-11T16:22:40+02:00",
+      "modified": "2020-08-11T16:22:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17724",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Feststellung des Sitzverlustes des Ratsmitgliedes Herrn Felix Kaufmann",
+      "created": "2020-08-12T12:39:41+02:00",
+      "modified": "2020-08-12T12:39:41+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17725",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Förmliche Verpflichtung und Pflichtenbelehrung des nachrückenden Ratsmitgliedes Herrn Hans-Herbert Weigt",
+      "created": "2020-08-12T12:40:39+02:00",
+      "modified": "2020-08-12T12:40:39+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17726",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Umbildung des Verwaltungsausschusses",
+      "created": "2020-08-12T12:41:03+02:00",
+      "modified": "2020-08-12T12:41:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17727",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Neubesetzung der Fachausschüsse durch die CDU-Ratsfraktion",
+      "created": "2020-08-12T12:41:47+02:00",
+      "modified": "2020-08-12T12:41:47+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17728",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Neubesetzung der Fachausschüsse durch die SPD-Ratsfraktion",
+      "created": "2020-08-12T12:42:27+02:00",
+      "modified": "2020-08-12T12:42:27+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17717",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Genehmigung des Protokolls der Sitzung des Rates vom 25. Juni 2020",
+      "created": "2020-08-11T16:22:40+02:00",
+      "modified": "2020-08-13T08:55:43+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17718",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht des Bürgermeisters über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4864",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zur Niederschrift der Sitzung)",
+          "mimeType": "application/pdf",
+          "date": "2020-08-27",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZe5QWiNuMhXrvvPy5mneDDfkA7N2gdLOfwdj6LVsbsxv/Anlage_1_zur_Niederschrift_der_Sitzung.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZe5QWiNuMhXrvvPy5mneDDfkA7N2gdLOfwdj6LVsbsxv/Anlage_1_zur_Niederschrift_der_Sitzung.pdf",
+          "created": "2020-09-18T13:00:26+02:00",
+          "modified": "2020-09-18T13:00:26+02:00"
+        }
+      ],
+      "created": "2020-08-11T16:22:40+02:00",
+      "modified": "2020-08-11T16:22:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17719",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Einwohnerfragestunde",
+      "created": "2020-08-11T16:22:40+02:00",
+      "modified": "2020-08-11T16:22:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17723",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Entsendung eines Vertreters in den Beirat (Wasserversorgung) Überlandwerk Leinetal GmbH durch die SPD-Ratsfraktion",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6811",
+      "result": "einstimmig / eine Enthaltung",
+      "created": "2020-08-11T16:38:29+02:00",
+      "modified": "2020-08-11T16:47:35+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17720",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Mitteilungen bzw. Bericht des Bürgermeisters",
+      "created": "2020-08-11T16:22:40+02:00",
+      "modified": "2020-08-11T16:22:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17721",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Anträge und Anfragen",
+      "created": "2020-08-11T16:22:40+02:00",
+      "modified": "2020-08-11T16:22:40+02:00"
+    }
+  ]
+}

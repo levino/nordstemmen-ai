@@ -1,0 +1,169 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1390",
+  "name": "Ortsrat Barnten (10. Sitzung)",
+  "start": "2010-02-18T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-5",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Barnten, Glückaufstraße 1, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Glückaufstraße 1",
+    "room": "Dorfgemeinschaftshaus Barnten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Barnten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:29:00+02:00",
+    "modified": "2019-06-06T11:57:52+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-10"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-4954",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2010-02-18",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSSLylUjpMQXmfNhW2V2E5WcvvRpHzsY4ifF0ByBRKjN/Bekanntmachung_Ortsrat_Barnten_18.02.2010.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSSLylUjpMQXmfNhW2V2E5WcvvRpHzsY4ifF0ByBRKjN/Bekanntmachung_Ortsrat_Barnten_18.02.2010.pdf",
+    "created": "2010-02-09T13:05:12+01:00",
+    "modified": "2010-02-09T13:05:12+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5788",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2010-02-05T09:50:26+01:00",
+      "modified": "2010-02-05T09:50:26+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5789",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2010-02-05T09:50:26+01:00",
+      "modified": "2010-02-05T09:50:26+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5790",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 3. November 2009",
+      "created": "2010-02-05T09:50:26+01:00",
+      "modified": "2010-02-05T09:50:26+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5791",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-345",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Barnten 18.02.2010 Anlage)",
+          "mimeType": "application/pdf",
+          "date": "2010-02-18",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZS-d-LLrRmR6bLsCZ1MzGXO8qoQd9q6r3b451Xmgba-b/Ortsrat_Barnten_18.02.2010_Anlage.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZS-d-LLrRmR6bLsCZ1MzGXO8qoQd9q6r3b451Xmgba-b/Ortsrat_Barnten_18.02.2010_Anlage.pdf",
+          "created": "2010-03-16T13:06:37+01:00",
+          "modified": "2010-03-16T13:06:37+01:00"
+        }
+      ],
+      "created": "2010-02-05T09:50:26+01:00",
+      "modified": "2010-02-05T09:50:26+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5798",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Anhörung zum doppischen Haushalt für die Haushaltsjahre 2010 bis 2013 /\nInvestitionstätigkeit in der Ortschaft Barnten\n(siehe DS 11/2010; wird nachgereicht)",
+      "created": "2010-02-05T09:52:14+01:00",
+      "modified": "2010-02-05T09:52:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5799",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Situation der Zuganbindung am Haltepunkt Bahnhof Barnten nach Streichung\nder Zughalte für den Metronom Strecke Hannover - Göttingen\n- Beratung und Beschlussfassung -\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2010-02-05T09:55:49+01:00",
+      "modified": "2010-02-05T09:55:49+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5800",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 8,
+      "name": "Verwendung der im Haushaltsjahr 2010 zur Verfügung stehenden Ortsratsmittel\n - Beratung und Beschlussfassung -\n(siehe Anlage 1 sowie DS 11/2010 zu TOP 4)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-346",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Barnten 18.02.2010 Anlage)",
+          "mimeType": "application/pdf",
+          "date": "2010-02-18",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZI-p72x8LS5PR-hNNtpIts6ltZFSgFUGFG2KvjV48Qp/Ortsrat_Barnten_18.02.2010_Anlage.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZI-p72x8LS5PR-hNNtpIts6ltZFSgFUGFG2KvjV48Qp/Ortsrat_Barnten_18.02.2010_Anlage.pdf",
+          "created": "2010-03-16T13:06:37+01:00",
+          "modified": "2010-03-16T13:06:37+01:00"
+        }
+      ],
+      "created": "2010-02-05T10:31:05+01:00",
+      "modified": "2010-02-05T10:31:05+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5792",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2010-02-05T09:50:26+01:00",
+      "modified": "2010-02-05T09:50:26+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5793",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Mitteilungen des Ortsbürgermeisters",
+      "created": "2010-02-05T09:50:26+01:00",
+      "modified": "2010-02-05T09:50:26+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5794",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Behandlung von Anträgen",
+      "created": "2010-02-05T09:50:26+01:00",
+      "modified": "2010-02-05T09:50:26+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5795",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Behandlung von Anfragen\n(siehe Anlage 2)",
+      "created": "2010-02-05T09:50:26+01:00",
+      "modified": "2010-02-05T09:50:26+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5796",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Anregungen",
+      "created": "2010-02-05T09:50:26+01:00",
+      "modified": "2010-02-05T09:50:26+01:00"
+    }
+  ]
+}

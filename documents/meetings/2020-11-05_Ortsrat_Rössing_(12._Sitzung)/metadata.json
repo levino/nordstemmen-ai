@@ -1,0 +1,148 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4601",
+  "name": "Ortsrat Rössing (12. Sitzung)",
+  "start": "2020-11-05T10:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
+  ],
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-30457",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2020-11-05",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdw53GKu56zpOVotxwY5s_t7k3J5OEp3Jhk5lKXjY98V/Oeffentliche_Niederschrift_Ortsrat_Roessing_05.11.2020.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdw53GKu56zpOVotxwY5s_t7k3J5OEp3Jhk5lKXjY98V/Oeffentliche_Niederschrift_Ortsrat_Roessing_05.11.2020.pdf",
+    "created": "2020-12-22T19:00:11+01:00",
+    "modified": "2020-12-22T19:00:11+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18066",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2020-11-05T17:49:52+01:00",
+      "modified": "2020-11-16T14:36:20+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18221",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Anhörung zum Haushaltsplan 2021 und zum Investitionsprogramm bis 2024 für die Ortschaft Rössing",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6883",
+      "created": "2020-11-16T14:22:00+01:00",
+      "modified": "2020-11-16T14:22:00+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18222",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Information zur Optimierung des Angebots Kinderspielplätze",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6866",
+      "created": "2020-11-16T14:22:15+01:00",
+      "modified": "2020-11-16T14:22:15+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18228",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Neu- bzw. Wiederwahl der Schiedspersonen für die Schiedsamtsbezirke in der Gemeinde Nordstemmen im Jahre 2020",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6852",
+      "created": "2020-11-16T14:35:30+01:00",
+      "modified": "2020-11-16T14:35:30+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18223",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Beratung einer Empfehlung an die Gemeindeverwaltung Nordstemmen die Information des Ortsbürgermeisters bzw. des Ortsrates über geplante Maßnahmen oder deren Änderung zu verbessern\n",
+      "created": "2020-11-16T14:24:34+01:00",
+      "modified": "2020-11-16T14:24:34+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18224",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Information der Gemeindeverwaltung über die Planung bzw. über deren Umsetzung der geplanten Hochwasserschutzmaßnahmen für die Ortschaft Rössing",
+      "created": "2020-11-16T14:25:27+01:00",
+      "modified": "2020-11-16T14:25:27+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18230",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bericht der Gemeindeverwaltung über die geplanten Verkehrssicherungs- und Verkehrsberuhigungsmaßnahmen in der Ortschaft Rössing",
+      "created": "2020-11-16T15:24:28+01:00",
+      "modified": "2020-11-16T15:24:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18225",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Erarbeitung eines Konzepts zur Verbesserung der Müllsituation am Freizeitsee Rössing",
+      "created": "2020-11-16T14:26:23+01:00",
+      "modified": "2020-11-16T14:26:23+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18226",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Beratung und Beschlussfassung zur Verwendung der restlichen Ortsratsmittel für 2020",
+      "created": "2020-11-16T14:27:03+01:00",
+      "modified": "2020-11-16T14:27:03+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18227",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Gestaltung der Gedenkfeier zum Volkstrauertag",
+      "created": "2020-11-16T14:27:40+01:00",
+      "modified": "2020-11-16T14:27:40+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18229",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4918",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Rössing Anlage)",
+          "mimeType": "application/pdf",
+          "date": "2020-11-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZd__TTNyGghQh5aEOUurn0SYY8FJ8-kDseqHvsllwAzF/OR_Roessing_Anlage.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZd__TTNyGghQh5aEOUurn0SYY8FJ8-kDseqHvsllwAzF/OR_Roessing_Anlage.pdf",
+          "created": "2020-12-22T19:00:11+01:00",
+          "modified": "2020-12-22T19:00:11+01:00"
+        }
+      ],
+      "created": "2020-11-16T14:35:54+01:00",
+      "modified": "2020-11-16T14:35:58+01:00"
+    }
+  ]
+}

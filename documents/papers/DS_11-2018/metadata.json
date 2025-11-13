@@ -1,0 +1,43 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4521",
+  "reference": "DS 11/2018",
+  "name": "Nordstemmer Wochenmarkt",
+  "paperType": "Beschlussvorlage",
+  "date": "2018-03-15",
+  "mainFile": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-23264",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Beschlussvorlage (Nordstemmer Wochenmarkt)",
+    "mimeType": "application/pdf",
+    "date": "2018-03-15",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcRs4TgBrPpnuJfhC_O-d0u0qtpYnOoPcOdIzeJgDS_b/Beschlussvorlage_DS_11-2018.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcRs4TgBrPpnuJfhC_O-d0u0qtpYnOoPcOdIzeJgDS_b/Beschlussvorlage_DS_11-2018.pdf",
+    "created": "2018-02-26T13:00:45+01:00",
+    "modified": "2018-04-12T19:02:04+02:00"
+  },
+  "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6136",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15101",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4044",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-29"
+      ],
+      "created": "2018-02-12T07:57:30+01:00",
+      "modified": "2018-02-12T07:57:30+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6158",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15176",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4047",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2018-02-23T12:03:23+01:00",
+      "modified": "2018-02-23T12:03:23+01:00"
+    }
+  ]
+}

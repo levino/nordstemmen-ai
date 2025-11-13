@@ -1,0 +1,266 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4365",
+  "name": "Ortsrat Rössing (10. Sitzung)",
+  "start": "2019-10-30T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-23",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Rössing, Kirchstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Kirchstraße 3",
+    "room": "Dorfgemeinschaftshaus Rössing, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Rössing",
+    "locality": "Nordstemmen",
+    "created": "2013-09-16T09:34:20+02:00",
+    "modified": "2019-06-06T11:57:18+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-28300",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2019-10-30",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZexi8tDKk6BuXiVBV_DWzLqyU9_RCCro9D52cXFwAIWt/Bekanntmachung_Ortsrat_Roessing_30.10.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZexi8tDKk6BuXiVBV_DWzLqyU9_RCCro9D52cXFwAIWt/Bekanntmachung_Ortsrat_Roessing_30.10.2019.pdf",
+    "created": "2019-11-12T15:02:26+01:00",
+    "modified": "2019-11-12T15:02:26+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-28605",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2019-10-30",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRBBJcmD4c68otggXQgsxpJ08WyVdNzaDf8zkLkjMXta/Oeffentliche_Niederschrift_Ortsrat_Roessing_30.10.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRBBJcmD4c68otggXQgsxpJ08WyVdNzaDf8zkLkjMXta/Oeffentliche_Niederschrift_Ortsrat_Roessing_30.10.2019.pdf",
+    "created": "2019-11-21T19:01:34+01:00",
+    "modified": "2019-11-21T19:01:34+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16872",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2019-09-23T11:51:06+02:00",
+      "modified": "2019-09-23T11:51:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16873",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2019-09-23T11:51:06+02:00",
+      "modified": "2019-09-23T11:51:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16874",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 16. Mai 2019",
+      "created": "2019-09-23T11:51:06+02:00",
+      "modified": "2019-09-23T11:51:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16876",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4538",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Protokoll OR Rössing Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2019-10-30",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZa2Agbug-7x4Y9OGODMc6uQqXH63hOwiNK4VhIZUfKgt/Protokoll_OR_Roessing_Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZa2Agbug-7x4Y9OGODMc6uQqXH63hOwiNK4VhIZUfKgt/Protokoll_OR_Roessing_Anlage_1.pdf",
+          "created": "2019-11-21T13:01:45+01:00",
+          "modified": "2019-11-21T13:01:45+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4539",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Protokoll OR Rössing Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2019-10-30",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRPRoNfJL2r4-bsPhGlL9J1Q6o48qqzvACZq3AfczRhh/Protokoll_OR_Roessing_Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRPRoNfJL2r4-bsPhGlL9J1Q6o48qqzvACZq3AfczRhh/Protokoll_OR_Roessing_Anlage_2.pdf",
+          "created": "2019-11-21T13:01:45+01:00",
+          "modified": "2019-11-21T13:01:45+01:00"
+        }
+      ],
+      "created": "2019-09-23T11:51:06+02:00",
+      "modified": "2019-10-17T07:55:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16978",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Antrag auf Verbesserung der Verkehrs- und Parksituation in der \"Clausstraße\"\n- Beratung und Empfehlung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4540",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Protokoll OR Rössing Anlage 3)",
+          "mimeType": "application/pdf",
+          "date": "2019-10-30",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXpcVwLZAucQrs_VLGDn4XXpgzM3IefSqKpFETXBUN9G/Protokoll_OR_Roessing_Anlage_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXpcVwLZAucQrs_VLGDn4XXpgzM3IefSqKpFETXBUN9G/Protokoll_OR_Roessing_Anlage_3.pdf",
+          "created": "2019-11-21T13:01:45+01:00",
+          "modified": "2019-11-21T13:01:45+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4541",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Protokoll OR Rössing Anlage 4)",
+          "mimeType": "application/pdf",
+          "date": "2019-10-30",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZC4q99lClOucQZGCDMJtsrOLNC1r7e_IxQk8C46YlHv/Protokoll_OR_Roessing_Anlage_4.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZC4q99lClOucQZGCDMJtsrOLNC1r7e_IxQk8C46YlHv/Protokoll_OR_Roessing_Anlage_4.pdf",
+          "created": "2019-11-21T13:01:45+01:00",
+          "modified": "2019-11-21T13:01:45+01:00"
+        }
+      ],
+      "created": "2019-10-17T07:57:37+02:00",
+      "modified": "2019-10-17T07:57:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16979",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Antrag auf Ausweisung zweier Parkplätze vor der Bankfiliale mit Bankautomaten in der \"Maschstraße\"\n- Beratung und Beschluss",
+      "created": "2019-10-17T07:58:53+02:00",
+      "modified": "2019-10-17T07:58:53+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16956",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bebauungsplan-Nr. 1010 „Clausstraße - West“, Ortschaft Rössing\n- Anhörung des Ortsrates gemäß § 94 Absatz 1 NKomVG",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6655",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4542",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Protokoll OR Rössing Anlage 5)",
+          "mimeType": "application/pdf",
+          "date": "2019-10-30",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZR-QKWkbZfBHeEAzW-4-8OWixnScJeJV8zgYZGayykHV/Protokoll_OR_Roessing_Anlage_5.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZR-QKWkbZfBHeEAzW-4-8OWixnScJeJV8zgYZGayykHV/Protokoll_OR_Roessing_Anlage_5.pdf",
+          "created": "2019-11-21T13:01:45+01:00",
+          "modified": "2019-11-21T13:01:45+01:00"
+        }
+      ],
+      "created": "2019-10-11T11:01:23+02:00",
+      "modified": "2019-10-17T07:59:13+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16875",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Einwohnerfragestunde",
+      "created": "2019-09-23T11:51:06+02:00",
+      "modified": "2019-10-17T07:59:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16955",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Anhörung zum Haushaltsplan 2020 und zum Investitionsprogramm bis 2023 für die Ortschaft  Rössing",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6653",
+      "created": "2019-10-11T11:01:14+02:00",
+      "modified": "2019-10-17T07:59:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16980",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Verwendung der im Haushaltsjahr 2019 noch zur Verfügung stehenden Ortsratsmittel\n- Beratung und Beschlussfassung",
+      "created": "2019-10-17T08:01:13+02:00",
+      "modified": "2019-10-17T08:01:13+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16981",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Bürgerfahrt zur Partnergemeinde Beyernaumburg im Jahr 2020\n- Beratung und Beschlussfassung",
+      "created": "2019-10-17T08:02:15+02:00",
+      "modified": "2019-10-17T08:02:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16982",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Versetzung der Fahrradständer an der \"Alfred-Stubenrauch-Turnhalle\"\n- Beratung und Beschlussfassung",
+      "created": "2019-10-17T08:03:03+02:00",
+      "modified": "2019-10-17T08:03:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16983",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Bepflanzung und Pflege der beiden Blumenkübel \"Unter den Eichen\"\n- Beratung und Beschlussfassung",
+      "created": "2019-10-17T08:04:16+02:00",
+      "modified": "2019-10-17T08:04:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16984",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Durchführung eines Informationsabends über Maßnahmen zum Verhindern des Insektensterbens auf Privat- und Gemeindeflächen\n- Planung und Beschlussfassung",
+      "created": "2019-10-17T08:06:57+02:00",
+      "modified": "2019-10-17T08:06:57+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16985",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Antrag in allen Ortsteilen Rasenflächen in Blumenwiesen umzuwandeln\n- Erarbeitung einer Empfehlung",
+      "created": "2019-10-17T08:09:16+02:00",
+      "modified": "2019-10-17T08:09:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16877",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisters",
+      "created": "2019-09-23T11:51:06+02:00",
+      "modified": "2019-09-23T11:51:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16878",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 17,
+      "name": "Anträge und Anfragen",
+      "created": "2019-09-23T11:51:06+02:00",
+      "modified": "2019-09-23T11:51:06+02:00"
+    }
+  ]
+}

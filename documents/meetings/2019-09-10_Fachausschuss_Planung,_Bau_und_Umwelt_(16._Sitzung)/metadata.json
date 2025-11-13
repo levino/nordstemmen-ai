@@ -1,0 +1,154 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4344",
+  "name": "Fachausschuss Planung, Bau und Umwelt (16. Sitzung)",
+  "start": "2019-09-10T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-31"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-28006",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Planung, Bau und Umwelt)",
+    "mimeType": "application/pdf",
+    "date": "2019-09-10",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTBG3sgt41lieek7DcCb2icHHcu90qIAPPz2-a0b17kT/Bekanntmachung_Fachausschuss_Planung-_Bau_und_Umwelt_10.09.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTBG3sgt41lieek7DcCb2icHHcu90qIAPPz2-a0b17kT/Bekanntmachung_Fachausschuss_Planung-_Bau_und_Umwelt_10.09.2019.pdf",
+    "created": "2019-08-30T13:01:30+02:00",
+    "modified": "2019-08-30T13:01:30+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-28326",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Planung, Bau und Umwelt)",
+    "mimeType": "application/pdf",
+    "date": "2019-09-10",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQFqX1BGasN_lUj5co3tRjEgtYNXYIrOCG39zTqgYTlE/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau_und_Umwelt_10.09.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQFqX1BGasN_lUj5co3tRjEgtYNXYIrOCG39zTqgYTlE/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau_und_Umwelt_10.09.2019.pdf",
+    "created": "2019-10-24T19:00:43+02:00",
+    "modified": "2019-10-24T19:00:43+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16781",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2019-08-27T08:38:05+02:00",
+      "modified": "2019-08-27T08:38:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16782",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2019-08-27T08:38:05+02:00",
+      "modified": "2019-08-27T08:38:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16783",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 20. Juni 2019",
+      "created": "2019-08-27T08:38:05+02:00",
+      "modified": "2019-08-27T08:38:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16784",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2019-08-27T08:38:05+02:00",
+      "modified": "2019-08-27T08:38:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16786",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bebauungsplan Nr. 1010 \"Clausstraße - West\", Ortschaft Rössing\n- Vorstellung des Entwurfes und Beschluss zur öffentlichen Auslegung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6612",
+      "result": "Einstimmig – Ja ",
+      "created": "2019-08-27T08:38:05+02:00",
+      "modified": "2019-09-12T15:01:08+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16798",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bebauungsplan Nr. 0307 \"Barnten - Süd IV\"\n- Vorstellung des neuen Entwurfes und Beschluss zur erneuten (2.) öffentlichen Auslegung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6614",
+      "result": "Einstimmig / ja",
+      "created": "2019-08-29T14:01:50+02:00",
+      "modified": "2019-09-12T15:01:21+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16785",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Aufweitung des Salzbaches, Ortschaft Nordstemmen, zwischen der Bahnlinie und der Straße „Oberer Kamp“ sowie Ertüchtigung des Durchlasses „Oberer Kamp“",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6609",
+      "result": "Einstimmig – 1 Enthaltung",
+      "created": "2019-08-27T08:38:05+02:00",
+      "modified": "2019-08-27T08:38:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16799",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Sachstand aktuelle Themen im Bereich Hoch- und Tiefbau",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4483",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Protokoll FA Planung_Bau_Umwelt 2019 09 10 Anlage)",
+          "mimeType": "application/pdf",
+          "date": "2019-09-10",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdOTwWSU-l-Qrwd27UHrp99jbZLsSfSHV1COeR9alkd_/Protokoll_FA_Planung_Bau_Umwelt_2019_09_10_Anlage.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdOTwWSU-l-Qrwd27UHrp99jbZLsSfSHV1COeR9alkd_/Protokoll_FA_Planung_Bau_Umwelt_2019_09_10_Anlage.pdf",
+          "created": "2019-10-22T19:00:44+02:00",
+          "modified": "2019-10-22T19:00:44+02:00"
+        }
+      ],
+      "created": "2019-08-29T15:15:12+02:00",
+      "modified": "2019-08-29T15:15:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16787",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2019-08-27T08:38:05+02:00",
+      "modified": "2019-08-27T08:38:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16788",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Anträge und Anfragen",
+      "created": "2019-08-27T08:38:05+02:00",
+      "modified": "2019-08-27T08:38:05+02:00"
+    }
+  ]
+}

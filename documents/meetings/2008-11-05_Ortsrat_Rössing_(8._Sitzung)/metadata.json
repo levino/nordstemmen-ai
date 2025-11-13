@@ -1,0 +1,177 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1192",
+  "name": "Ortsrat Rössing (8. Sitzung)",
+  "start": "2008-11-05T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-11",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Gaststätte \"Alt Rössinger Saal\", Maschstraße 1, 31171 Nordstemmen, Clubraum",
+    "streetAddress": "Maschstraße 1",
+    "room": "Gaststätte \"Alt Rössinger Saal\", Clubraum",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T12:02:32+02:00",
+    "modified": "2017-09-12T17:09:38+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-3244",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2008-11-05",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSInXeeQf2VIYYDfH4U5n9UazBbBmJRLgRFfIzAWO9fm/Bekanntmachung_Ortsrat_Roessing_05.11.2008.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSInXeeQf2VIYYDfH4U5n9UazBbBmJRLgRFfIzAWO9fm/Bekanntmachung_Ortsrat_Roessing_05.11.2008.pdf",
+    "created": "2009-04-28T18:05:50+02:00",
+    "modified": "2009-04-28T18:05:50+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3984",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2008-10-23T16:33:31+02:00",
+      "modified": "2008-10-23T16:33:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3985",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2008-10-23T16:33:31+02:00",
+      "modified": "2008-10-23T16:33:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3986",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 22.05.2008",
+      "created": "2008-10-23T16:33:31+02:00",
+      "modified": "2008-10-23T16:33:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3987",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2008-10-23T16:33:31+02:00",
+      "modified": "2008-10-23T16:33:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3993",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Nochmalige Anhörung zur Erschließung eines Teilstückes der Straße \"Jägerweg\"\nBeigefügt sind:\nDS 35/2008 - Anlage 1\nBeschluss des Rates in der Sache vom 08.07.2008 - Anlage 2\nNiederschrift des Anliegergespräches vom 02.09.2008 - Anlage 3",
+      "created": "2008-10-23T16:38:02+02:00",
+      "modified": "2008-10-23T16:38:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4773",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Anhörung des Ortsrates zum Haushaltsplan 2009 und zum Investitionsprogramm für den Investitionszeitraum bis zum Haushaltsjahr 2012",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/830",
+      "created": "2009-08-12T08:22:43+02:00",
+      "modified": "2009-08-12T08:22:43+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3995",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bürgersolaranlagen\n(Drucksache 64/2008)",
+      "created": "2008-10-23T16:42:15+02:00",
+      "modified": "2008-10-23T16:42:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3996",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Behandlung von Anfragen\nVerkehrssituation Karlstraße\nMehrfachschaukel Bolzplatz / Spielplatz Maschstraße\nErneuerung Straßenbelag Abzweig Kirchstraße bis Kindergarten",
+      "created": "2008-10-23T16:43:09+02:00",
+      "modified": "2008-10-23T16:43:09+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3988",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2008-10-23T16:33:31+02:00",
+      "modified": "2008-10-23T16:33:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3997",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Übernahme eines durch den Kulturkreis Rössing zur Verfügung stehenden Schaukastens\n- Beratung und Beschlussfassung\n(weitere Ausführungen werden in der Sitzung gemacht)",
+      "created": "2008-10-23T16:45:16+02:00",
+      "modified": "2008-10-23T16:45:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3998",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Darstellung und Schenkung der durch die Dorfpflege erstellten Geschichtsdokumentierung der Ortschaft Rössing durch den Ehrenortsbürgermeister, Herrn Peter Winkler",
+      "created": "2008-10-23T16:50:15+02:00",
+      "modified": "2008-10-23T16:50:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4001",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Verwendung der im Haushaltsjahr 2008 noch zur Verfügung stehenden Ortsratsmittel\n- Beratung und Beschlussfassung\n(Anlage 4)",
+      "created": "2008-10-23T16:57:23+02:00",
+      "modified": "2008-10-23T16:57:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4000",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Durchführung Neujahrsempfang 2009",
+      "created": "2008-10-23T16:51:22+02:00",
+      "modified": "2008-10-23T16:57:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3999",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Termine 2009",
+      "created": "2008-10-23T16:50:49+02:00",
+      "modified": "2008-10-23T16:50:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3989",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Mitteilungen der Ortsbürgermeisterin",
+      "created": "2008-10-23T16:33:31+02:00",
+      "modified": "2008-10-23T16:33:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3991",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Anregungen",
+      "created": "2008-10-23T16:33:31+02:00",
+      "modified": "2008-10-23T16:33:31+02:00"
+    }
+  ]
+}

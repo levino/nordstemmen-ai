@@ -1,0 +1,107 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/813",
+  "name": "Ortsrat Klein Escherde (2. Sitzung)",
+  "start": "2007-03-01T18:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-9",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Klein Escherde, Eschestraße 3, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Eschestraße 3",
+    "room": "Feuerwehrhaus Klein Escherde, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Klein Escherde",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:54:15+02:00",
+    "modified": "2019-06-06T11:56:23+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-16"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-242",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2007-03-01",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUwdDmFnbE_ElhtosS1lkNqJzkpNqwnp4CoFarmdswAo/Bekanntmachung_Ortsrat_Klein_Escherde_01.03.2007.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUwdDmFnbE_ElhtosS1lkNqJzkpNqwnp4CoFarmdswAo/Bekanntmachung_Ortsrat_Klein_Escherde_01.03.2007.pdf",
+    "created": "2007-05-15T16:18:28+02:00",
+    "modified": "2007-05-15T16:18:28+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/603",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung - Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder - Feststellung der Tagesordnung - Beschlussfähigkeit über Anträge zur Tagesordnung - Feststellung der Tagesordnung",
+      "created": "2007-02-20T08:39:47+01:00",
+      "modified": "2007-02-20T08:39:47+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/604",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 30.11.2006",
+      "created": "2007-02-20T08:41:25+01:00",
+      "modified": "2007-02-20T08:41:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/605",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2007-02-20T08:41:44+01:00",
+      "modified": "2007-02-20T08:41:44+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5061",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Anhörung des Ortsrates zum Haushaltsplan 2007 und zum Investitionsprogramm für den Investitionszeitraum bis zum Haushaltsjahr 2010 unter Fortschreibung des Haushaltssicherungskonzeptes",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/90",
+      "created": "2009-09-02T09:28:14+02:00",
+      "modified": "2009-09-02T09:28:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/607",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Verwendung der im Haushaltsjahr 2007 zur Verfügung stehenden Ortsratsmittel - Beratung und Beschlussfassung (siehe Anlage 1)",
+      "created": "2007-02-20T08:44:28+01:00",
+      "modified": "2007-02-20T08:44:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/608",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Mitteilungen des Bürgermeisters / der Ortsbürgermeisterin - Erweiterungsbau der Maststallanlage in der Gemarkung Klein Escherde - Grundstücksangelegenheit Escherder Kirchweg",
+      "created": "2007-02-20T08:46:27+01:00",
+      "modified": "2007-02-20T08:46:27+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/609",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Anfragen - Zustand Verbindungsweg Klein Escherde - Groß Escherde (Anfrage des OR-Mitgliedes Franz-Josef Kliemann vom 13.01.2007) - Zuwegung vom Neubaugebiet Klein Escherde-Ost zum Escherder Kirchweg (Möglichkeiten, Alternativen; Anfrage der SPD-Ortsratsfraktion)",
+      "created": "2007-02-20T08:51:40+01:00",
+      "modified": "2007-02-20T08:51:40+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/610",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Anregungen",
+      "created": "2007-02-20T08:52:01+01:00",
+      "modified": "2007-02-20T08:52:01+01:00"
+    }
+  ]
+}

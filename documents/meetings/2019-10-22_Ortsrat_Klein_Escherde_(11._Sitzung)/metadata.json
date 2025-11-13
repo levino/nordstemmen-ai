@@ -1,0 +1,218 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4358",
+  "name": "Ortsrat Klein Escherde (11. Sitzung)",
+  "start": "2019-10-22T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-9",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Klein Escherde, Eschestraße 3, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Eschestraße 3",
+    "room": "Feuerwehrhaus Klein Escherde, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Klein Escherde",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:54:15+02:00",
+    "modified": "2019-06-06T11:56:23+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-16"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-28254",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2019-10-22",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVCy_WxqVaOT3rRcHd6btR62pCqoKJ-r0nIbwLNjJD2k/Bekanntmachung_Ortsrat_Klein_Escherde_22.10.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVCy_WxqVaOT3rRcHd6btR62pCqoKJ-r0nIbwLNjJD2k/Bekanntmachung_Ortsrat_Klein_Escherde_22.10.2019.pdf",
+    "created": "2019-10-10T19:01:03+02:00",
+    "modified": "2019-10-10T19:01:03+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-28558",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2019-10-22",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcm2LWH_lyh92em67D3DJd00FCLsUQtDQ6v3XXBeeauU/Oeffentliche_Niederschrift_Ortsrat_Klein_Escherde_22.10.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcm2LWH_lyh92em67D3DJd00FCLsUQtDQ6v3XXBeeauU/Oeffentliche_Niederschrift_Ortsrat_Klein_Escherde_22.10.2019.pdf",
+    "created": "2019-11-13T13:02:04+01:00",
+    "modified": "2019-11-13T13:02:04+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16865",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2019-09-23T11:45:19+02:00",
+      "modified": "2019-09-23T11:45:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16866",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2019-09-23T11:45:19+02:00",
+      "modified": "2019-09-23T11:45:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16867",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 09. Mai 2019",
+      "created": "2019-09-23T11:45:19+02:00",
+      "modified": "2019-09-23T11:45:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16921",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4501",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Klein Escherde Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2019-10-22",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSGluKemEsi1hX14C-UBv28ZjWzrXZtPLoK-PJRuwB9P/OR_Klein_Escherde_Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSGluKemEsi1hX14C-UBv28ZjWzrXZtPLoK-PJRuwB9P/OR_Klein_Escherde_Anlage_2.pdf",
+          "created": "2019-11-12T13:01:49+01:00",
+          "modified": "2019-11-12T13:01:49+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4502",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Klein Escherde Anlage 3)",
+          "mimeType": "application/pdf",
+          "date": "2019-10-22",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZU5fpY_latKEGaLNWVcaJDMwrKJ-giOb4xMzWbYXjwDc/OR_Klein_Escherde_Anlage_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZU5fpY_latKEGaLNWVcaJDMwrKJ-giOb4xMzWbYXjwDc/OR_Klein_Escherde_Anlage_3.pdf",
+          "created": "2019-11-12T13:01:49+01:00",
+          "modified": "2019-11-12T13:01:49+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4503",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Klein Escherde Anlage 4)",
+          "mimeType": "application/pdf",
+          "date": "2019-10-22",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZelBDC4liopECZvUgF2KdAtRNtlEvDo2HOCc5iXCG-Tn/OR_Klein_Escherde_Anlage_4.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZelBDC4liopECZvUgF2KdAtRNtlEvDo2HOCc5iXCG-Tn/OR_Klein_Escherde_Anlage_4.pdf",
+          "created": "2019-11-12T13:01:49+01:00",
+          "modified": "2019-11-12T13:01:49+01:00"
+        }
+      ],
+      "created": "2019-10-10T10:38:24+02:00",
+      "modified": "2019-10-10T10:38:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16868",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2019-09-23T11:45:19+02:00",
+      "modified": "2019-09-23T11:45:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16869",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohnerfragestunde",
+      "created": "2019-09-23T11:45:19+02:00",
+      "modified": "2019-09-23T11:45:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16922",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Planung und Organisation\na) Martinsumzug am Freitag, 08.11.2019\nb) Volkstrauertag - Gedenkfeier am Samstag, 16.11.2019",
+      "created": "2019-10-10T10:39:35+02:00",
+      "modified": "2019-10-10T10:39:35+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16923",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Termine im Jahr 2020",
+      "created": "2019-10-10T10:39:57+02:00",
+      "modified": "2019-10-10T10:39:57+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16924",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Verwendung Ortsratsmittel 2019\n- Beratung und Beschlussfassung\n(Ausführungen werden in der Sitzung gemacht)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4504",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Klein Escherde Anlage 5)",
+          "mimeType": "application/pdf",
+          "date": "2019-10-22",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZa0sFAiu7zcRshcxJVCgy3qLjpDlnp3uUmOyv1hIaOdm/OR_Klein_Escherde_Anlage_5.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZa0sFAiu7zcRshcxJVCgy3qLjpDlnp3uUmOyv1hIaOdm/OR_Klein_Escherde_Anlage_5.pdf",
+          "created": "2019-11-12T13:01:49+01:00",
+          "modified": "2019-11-12T13:01:49+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4505",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Klein Escherde Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2019-10-22",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYj4hAQ42cwRO9BxbUJHN4bQU5EmwUHPDBevYwZn8gh1/OR_Klein_Escherde_Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYj4hAQ42cwRO9BxbUJHN4bQU5EmwUHPDBevYwZn8gh1/OR_Klein_Escherde_Anlage_1.pdf",
+          "created": "2019-11-12T13:01:49+01:00",
+          "modified": "2019-11-12T13:01:49+01:00"
+        }
+      ],
+      "created": "2019-10-10T10:40:38+02:00",
+      "modified": "2019-10-10T10:40:38+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16925",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Verkehrs- und Parksituation in der Schmiedestraße\n- Beratung und Beschlussfassung\n(Ausführungen werden in der Sitzung gemacht) ",
+      "created": "2019-10-10T10:41:40+02:00",
+      "modified": "2019-10-10T10:41:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16926",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anhörung zum Haushaltsplan 2020 und zum Investitionsprogramm bis 2023 für die Ortschaft Klein Escherde",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6649",
+      "created": "2019-10-10T10:42:03+02:00",
+      "modified": "2019-10-10T10:42:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16870",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Anträge und Anfragen",
+      "created": "2019-09-23T11:45:19+02:00",
+      "modified": "2019-09-23T11:45:19+02:00"
+    }
+  ]
+}

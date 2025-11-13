@@ -1,0 +1,133 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/816",
+  "name": "Ortsrat Rössing (2. Sitzung)",
+  "start": "2007-03-06T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-11",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Gaststätte \"Alt Rössinger Saal\", Maschstraße 1, 31171 Nordstemmen, Clubraum",
+    "streetAddress": "Maschstraße 1",
+    "room": "Gaststätte \"Alt Rössinger Saal\", Clubraum",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T12:02:32+02:00",
+    "modified": "2017-09-12T17:09:38+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-254",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2007-03-06",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZc73j5x76SVUivpVoYZnyoJvZNH_HdXSDl8Th4qyg4pL/Bekanntmachung_Ortsrat_Roessing_06.03.2007.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZc73j5x76SVUivpVoYZnyoJvZNH_HdXSDl8Th4qyg4pL/Bekanntmachung_Ortsrat_Roessing_06.03.2007.pdf",
+    "created": "2007-05-16T13:43:19+02:00",
+    "modified": "2007-05-16T13:43:19+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/631",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung - Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder - Feststellung der Tagesordnung - Beschlussfassung über Anträge zur Tagesordnung - Feststellung der Tagesordnung",
+      "created": "2007-02-21T08:15:17+01:00",
+      "modified": "2007-02-21T08:23:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/633",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Feststellung des Sitzverlustes des Ortsratsmitgliedes Frau Madeleine Freifrau von Rössing gemäß § 37 Abs. 2 NGO",
+      "created": "2007-02-21T08:17:20+01:00",
+      "modified": "2007-02-21T08:17:40+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/634",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Pflichtenbelehrung und Verpflichtung des nachrückenden Ortsratsmitgliedes Kolja Leffers",
+      "created": "2007-02-21T08:19:02+01:00",
+      "modified": "2007-02-21T08:19:02+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/632",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 28.11.2006",
+      "created": "2007-02-21T08:15:57+01:00",
+      "modified": "2007-02-21T08:19:15+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/635",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohnerfragestunde",
+      "created": "2007-02-21T08:19:58+01:00",
+      "modified": "2007-02-21T08:19:58+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/628",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Anhörung des Ortsrates zum Haushaltsplan 2007 und zum Investitionsprogramm für den Investitionszeitraum bis zum Haushaltsjahr 2010 unter Fortschreibung des Haushaltssicherungskonzeptes",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/93",
+      "created": "2007-02-21T08:13:33+01:00",
+      "modified": "2007-02-21T08:20:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/636",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Antrag des Vereins Dorfpflege Rössing zur Anbringung von Hundekotbeutelspendern an bestehende Pfosten / Masten - Beratung und Beschlussfassung (siehe Anlage 1)",
+      "created": "2007-02-21T08:23:14+01:00",
+      "modified": "2007-02-21T08:23:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/637",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Verwendung der im Haushaltsjahr 2007 zur Verfügung stehenden Ortsratsmittel - Beratung und Beschlussfassung (siehe Anlage 2)",
+      "created": "2007-02-21T08:24:34+01:00",
+      "modified": "2007-02-21T08:24:34+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/638",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Mitteilungen des Bürgermeisters / der Ortsbürgermeisterin - Bericht zur Ortsbesichtigung der Straße \"An der Feuerwache\" durch FA Planung, Bau, Umwelt, Sicherheit am 15.02.2007",
+      "created": "2007-02-21T08:25:49+01:00",
+      "modified": "2007-02-21T08:25:49+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/639",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Behandlung von Anfragen",
+      "created": "2007-02-21T08:26:11+01:00",
+      "modified": "2007-02-21T08:26:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/640",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Anregungen",
+      "created": "2007-02-21T08:26:35+01:00",
+      "modified": "2007-02-21T08:26:35+01:00"
+    }
+  ]
+}

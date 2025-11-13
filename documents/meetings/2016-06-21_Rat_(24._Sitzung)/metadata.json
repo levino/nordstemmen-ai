@@ -1,0 +1,224 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2695",
+  "name": "Rat (24. Sitzung)",
+  "start": "2016-06-21T17:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-16392",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2016-06-21",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXH7cJw7MzH5UcEPoMsvRkjNpGc8AQBmpFYzzN3dzAxj/Bekanntmachung_Rat_21.06.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXH7cJw7MzH5UcEPoMsvRkjNpGc8AQBmpFYzzN3dzAxj/Bekanntmachung_Rat_21.06.2016.pdf",
+    "created": "2016-06-09T19:00:19+02:00",
+    "modified": "2016-06-13T13:01:06+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-16703",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2016-06-21",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUiUA_fa0LeBk76ywmg-ZrbJlqtki8_TzMfqN_x968ye/Oeffentliche_Niederschrift_Rat_21.06.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUiUA_fa0LeBk76ywmg-ZrbJlqtki8_TzMfqN_x968ye/Oeffentliche_Niederschrift_Rat_21.06.2016.pdf",
+    "created": "2016-07-05T19:01:29+02:00",
+    "modified": "2016-07-05T19:01:29+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12900",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2016-05-12T07:45:32+02:00",
+      "modified": "2016-05-12T07:45:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12901",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2016-05-12T07:45:32+02:00",
+      "modified": "2016-05-12T07:45:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12902",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung des Rates vom 28. April 2016",
+      "created": "2016-05-12T07:45:32+02:00",
+      "modified": "2016-05-12T07:45:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12903",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 5,
+      "name": "Bericht des Bürgermeisters über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1566",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (TOP 3 Bericht des Bürgermeisters)",
+          "mimeType": "application/pdf",
+          "date": "2016-06-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQpCxQgymOToGcu1e6WheC19wMWzepxNFWNNFKOp0X5u/TOP_3_Bericht_des_Buergermeisters.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQpCxQgymOToGcu1e6WheC19wMWzepxNFWNNFKOp0X5u/TOP_3_Bericht_des_Buergermeisters.pdf",
+          "created": "2016-06-27T19:00:49+02:00",
+          "modified": "2016-06-27T19:00:49+02:00"
+        }
+      ],
+      "created": "2016-05-12T07:45:32+02:00",
+      "modified": "2016-05-12T07:45:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12904",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 6,
+      "name": "Einwohnerfragestunde",
+      "created": "2016-05-12T07:45:32+02:00",
+      "modified": "2016-05-12T07:45:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12909",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 7,
+      "name": "Tätigkeitsbericht Gleichstellungsbeauftragte",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1567",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Tätigkeitsbericht Gleichstellungsbeauftragte)",
+          "mimeType": "application/pdf",
+          "date": "2016-06-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSBtFM7HkSb6P0hro_VsjW1FowYYA2bnTgCmf0xqd52F/Taetigkeitsbericht_Gleichstellungsbeauftragte.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSBtFM7HkSb6P0hro_VsjW1FowYYA2bnTgCmf0xqd52F/Taetigkeitsbericht_Gleichstellungsbeauftragte.pdf",
+          "created": "2016-06-27T19:00:49+02:00",
+          "modified": "2016-06-27T19:00:49+02:00"
+        }
+      ],
+      "created": "2016-05-12T07:47:20+02:00",
+      "modified": "2016-05-12T07:47:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12992",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 8,
+      "name": "Festsetzung der Elternbeiträge für die Kindertagesstätten und Kindertagespflege",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3558",
+      "created": "2016-06-07T10:36:01+02:00",
+      "modified": "2016-06-07T10:36:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12993",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Antrag auf Bezuschussung des KOMM e. V. Mehrgenerationenhauses (MGH) Nordstemmen für die Haushaltsjahre 2017 bis 2020",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3519",
+      "created": "2016-06-07T10:36:10+02:00",
+      "modified": "2016-06-07T10:36:10+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12994",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Antrag auf Bezuschussung des KOMM Nachbarschaftszentrum Nordstemmen e. V. Mehrgenerationenhaus (MGH) für die Haushaltsjahre 2017 bis 2020",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3565",
+      "created": "2016-06-07T10:36:18+02:00",
+      "modified": "2016-06-07T10:36:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12996",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Grundschule Barnten - Umnutzung der Hausmeisterwohnung (für inklusive Beschulung)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3532",
+      "created": "2016-06-07T10:36:36+02:00",
+      "modified": "2016-06-07T10:36:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12997",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Benennung von Vertretern/innen für die Gesellschafterversammlung der NBEG Baulandentwicklung Beteiligungsgesellschaft mbH Nordstemmen und der NBEG Baulandentwicklungsgesellschaft mbH Nordstemmen GmbH & Co. KG",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3540",
+      "created": "2016-06-07T10:36:47+02:00",
+      "modified": "2016-06-07T10:36:50+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12995",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Einrichtung von Nacht-AST-Verkehren in der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3512",
+      "created": "2016-06-07T10:36:28+02:00",
+      "modified": "2016-06-07T10:36:28+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12905",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Widmung von Straßenflächen in der Ortschaft Barnten und Fortschreibung des Bestandsverzeichnisses;\nhier: Landesstraße",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3438",
+      "created": "2016-05-12T07:45:32+02:00",
+      "modified": "2016-05-12T07:45:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12998",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 15,
+      "name": "Nebentätigkeiten und öffentliche Ehrenämter des Bürgermeisters",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3552",
+      "created": "2016-06-07T10:37:09+02:00",
+      "modified": "2016-06-07T10:37:11+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12906",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 16,
+      "name": "Mitteilungen bzw. Bericht des Bürgermeisters",
+      "created": "2016-05-12T07:45:32+02:00",
+      "modified": "2016-05-12T07:45:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12907",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 17,
+      "name": "Anträge und Anfragen",
+      "created": "2016-05-12T07:45:32+02:00",
+      "modified": "2016-05-12T07:45:32+02:00"
+    }
+  ]
+}

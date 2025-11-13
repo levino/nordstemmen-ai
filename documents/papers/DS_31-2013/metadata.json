@@ -1,0 +1,40 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/829",
+  "reference": "DS 31/2013",
+  "name": "Entlassung und Ernennung von Führungskräften der Feuerwehr",
+  "paperType": "Beschlussvorlage",
+  "date": "2013-03-14",
+  "mainFile": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-9718",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Beschlussvorlage (Entlassung und Ernennung von Führungskräften der Feuerwehr)",
+    "mimeType": "application/pdf",
+    "date": "2013-03-14",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVYze5ATnLWjNGzJNc1s7kJ8Y7bmGIQ_8ev-m3Sym-9F/Beschlussvorlage_DS_31-2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVYze5ATnLWjNGzJNc1s7kJ8Y7bmGIQ_8ev-m3Sym-9F/Beschlussvorlage_DS_31-2013.pdf",
+    "created": "2013-03-07T15:15:08+01:00",
+    "modified": "2013-03-07T15:15:08+01:00"
+  },
+  "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2261",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-6"
+      ],
+      "created": "2013-03-07T13:39:38+01:00",
+      "modified": "2013-03-07T13:39:38+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2263",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2042",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2013-03-07T13:39:56+01:00",
+      "modified": "2013-03-07T13:39:56+01:00"
+    }
+  ]
+}

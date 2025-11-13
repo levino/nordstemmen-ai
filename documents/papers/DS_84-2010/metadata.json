@@ -1,0 +1,40 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/555",
+  "reference": "DS 84/2010",
+  "name": "Bestimmung des Wahltermines für die Bürgermeisterwahl 2011",
+  "paperType": "Beschlussvorlage",
+  "date": "2010-12-02",
+  "mainFile": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-6004",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Beschlussvorlage (Bestimmung des Wahltermines für die Bürgermeisterwahl 2011)",
+    "mimeType": "application/pdf",
+    "date": "2010-12-02",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQkRl3A4GNMBr4lGtyWQImjL63_uh0L9V66ARv6T1krK/Beschlussvorlage_DS_84-2010.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQkRl3A4GNMBr4lGtyWQImjL63_uh0L9V66ARv6T1krK/Beschlussvorlage_DS_84-2010.pdf",
+    "created": "2010-11-11T18:01:21+01:00",
+    "modified": "2010-11-11T18:01:21+01:00"
+  },
+  "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1439",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-2"
+      ],
+      "created": "2010-11-09T09:22:46+01:00",
+      "modified": "2010-11-09T09:22:46+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1440",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1551",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2010-11-09T09:23:01+01:00",
+      "modified": "2010-11-09T09:23:01+01:00"
+    }
+  ]
+}

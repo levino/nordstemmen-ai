@@ -1,0 +1,222 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2376",
+  "name": "Ortsrat Heyersum (24. Sitzung)",
+  "start": "2014-10-23T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-8",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Altes Schulhaus Heyersum, Martin-Luther-Platz 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Martin-Luther-Platz 3",
+    "room": "Altes Schulhaus Heyersum, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Heyersum",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:37:30+02:00",
+    "modified": "2019-10-24T16:49:00+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-13"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-13317",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2014-10-23",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRZu8fKpxBOx8wHodJ0YPeP1ShIlYO0qbjkyHgoGQRRI/Bekanntmachung_Ortsrat_Heyersum_23.10.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRZu8fKpxBOx8wHodJ0YPeP1ShIlYO0qbjkyHgoGQRRI/Bekanntmachung_Ortsrat_Heyersum_23.10.2014.pdf",
+    "created": "2014-10-13T13:00:25+02:00",
+    "modified": "2014-10-13T13:00:25+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-13585",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2014-10-23",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfJEoUGsSuD2hUN1qGigDf6MbnYLd2Gq4ffjmTZMhTW5/Oeffentliche_Niederschrift_Ortsrat_Heyersum_23.10.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfJEoUGsSuD2hUN1qGigDf6MbnYLd2Gq4ffjmTZMhTW5/Oeffentliche_Niederschrift_Ortsrat_Heyersum_23.10.2014.pdf",
+    "created": "2014-11-10T13:00:35+01:00",
+    "modified": "2014-11-10T13:00:35+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11274",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2014-10-10T11:50:02+02:00",
+      "modified": "2014-10-10T11:50:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11275",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2014-10-10T11:50:02+02:00",
+      "modified": "2014-10-10T11:50:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11276",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 12.06.2014",
+      "created": "2014-10-10T11:50:02+02:00",
+      "modified": "2014-10-10T11:50:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11277",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2014-10-10T11:50:02+02:00",
+      "modified": "2014-10-10T11:50:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11288",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Anhörung zum Haushaltsplan 2015 und zum Investitionsprogramm bis 2018 für die Ortschaft Heyersum\n(DS 67/2014; wird nachgereicht)",
+      "created": "2014-10-10T11:52:57+02:00",
+      "modified": "2014-11-04T16:28:36+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11284",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Weitere Vorgehensweise Kündigung \"Altes Schulhaus\" Heyersum\n- Beratungen",
+      "created": "2014-10-10T11:50:51+02:00",
+      "modified": "2014-10-10T11:50:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11285",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Schutzhütte für Heyersum\n- Beratungen",
+      "created": "2014-10-10T11:51:09+02:00",
+      "modified": "2014-10-10T11:51:09+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11286",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Verwendung der im Haushalt 2014 noch zur Verfügung stehenden Ortsratsmittel\n(siehe Anlage 1, Seite 1 - 2)\n- Beratung und Beschlussfassung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1170",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zu TOP 6 Ortsrat Heyersum)",
+          "mimeType": "application/pdf",
+          "date": "2014-10-23",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZD64u674IGaX9Mj-e5PXNEOLBP5CM_CExbVVHj2u2ru/Anlage_1_zu_TOP_6_Ortsrat_Heyersum.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZD64u674IGaX9Mj-e5PXNEOLBP5CM_CExbVVHj2u2ru/Anlage_1_zu_TOP_6_Ortsrat_Heyersum.pdf",
+          "created": "2014-10-13T13:00:25+02:00",
+          "modified": "2014-10-13T13:00:25+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1192",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2014-10-23",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZY5MNxkHCxCFJFnFAktshy2_AJ4LRuGQZMTKKDQ-_gTZ/Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZY5MNxkHCxCFJFnFAktshy2_AJ4LRuGQZMTKKDQ-_gTZ/Anlage_1.pdf",
+          "created": "2014-11-05T13:00:24+01:00",
+          "modified": "2014-11-05T13:00:24+01:00"
+        }
+      ],
+      "created": "2014-10-10T11:51:50+02:00",
+      "modified": "2014-10-10T11:51:50+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11287",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Verwendung der Ortsratsmittel 2015\n- Beratung und Beschlussfassung",
+      "created": "2014-10-10T11:52:11+02:00",
+      "modified": "2014-10-10T11:52:11+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11278",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Neu- bzw. Wiederwahl der Schiedspersonen für die Schiedsamtsbezirke in der Gemeinde Nordstemmen im Jahre 2014",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2861",
+      "created": "2014-10-10T11:50:02+02:00",
+      "modified": "2014-10-10T11:50:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11279",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Barrierefreier Ausbau von Bushaltestellen: Kreuzstraße, Heyersum",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2768",
+      "created": "2014-10-10T11:50:02+02:00",
+      "modified": "2014-10-10T11:50:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11289",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Planungen der Adventsfeier und des Volkstrauertages",
+      "created": "2014-10-10T11:53:28+02:00",
+      "modified": "2014-10-10T11:53:28+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11280",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1193",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2014-10-23",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZczZLW6YXLV1A2xGWQZenIJmX8plYr_Io-bueaxDy5St/Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZczZLW6YXLV1A2xGWQZenIJmX8plYr_Io-bueaxDy5St/Anlage_2.pdf",
+          "created": "2014-11-05T13:00:24+01:00",
+          "modified": "2014-11-05T13:00:24+01:00"
+        }
+      ],
+      "created": "2014-10-10T11:50:02+02:00",
+      "modified": "2014-10-10T11:50:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11281",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2014-10-10T11:50:02+02:00",
+      "modified": "2014-10-10T11:50:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11282",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Anträge und Anfragen\n- Friedhof (beschädigter Pfosten am Eingang)\n- Pflege des Parkplatzes zum Alten Schulhaus",
+      "created": "2014-10-10T11:50:02+02:00",
+      "modified": "2014-10-10T11:50:02+02:00"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1669",
+  "name": "Fachausschuss Freizeit, Kultur, Jugend, Soziales (34. Sitzung)",
+  "start": "2011-06-14T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-7"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-6850",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie)",
+    "mimeType": "application/pdf",
+    "date": "2011-06-14",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXuYhCK-XziJzcBw9_laWUZneIBbKecbDIi_nF4BlZq0/Bekanntmachung_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_14.06.2011.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXuYhCK-XziJzcBw9_laWUZneIBbKecbDIi_nF4BlZq0/Bekanntmachung_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_14.06.2011.pdf",
+    "created": "2011-06-06T13:00:33+02:00",
+    "modified": "2011-06-06T13:00:33+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7308",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2011-05-27T08:15:01+02:00",
+      "modified": "2011-07-07T09:21:57+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7309",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2011-05-27T08:15:01+02:00",
+      "modified": "2011-05-27T08:15:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7310",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 09.11.2010",
+      "created": "2011-05-27T08:15:01+02:00",
+      "modified": "2011-05-27T08:15:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7311",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2011-05-27T08:15:01+02:00",
+      "modified": "2011-05-27T08:15:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7338",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Konzept zur Bildung, Erziehung und Betreuung der Krippen-, Kindergarten- und Hortkinder in der Gemeinde Nordstemmen\nBelegung der Plätze zum 01.08.2011\nEntwicklung der Kinderzahlen (Geburtenfortschreibung)\nUmsetzung des Konzeptes / Stand 01.08.2011\nOptimierung des Konzeptes\n(Ausführungen werden in der Sitzung gemacht)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-553",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zu TOP 4)",
+          "mimeType": "application/pdf",
+          "date": "2011-06-14",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSvJnB5mDnBR7JiHJdf7HFalF_XZ_7Va1HM_mCJdTrJ4/Anlage_1_zu_TOP_4.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSvJnB5mDnBR7JiHJdf7HFalF_XZ_7Va1HM_mCJdTrJ4/Anlage_1_zu_TOP_4.pdf",
+          "created": "2011-07-26T09:32:50+02:00",
+          "modified": "2011-08-12T13:01:22+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-554",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2 zu TOP 4)",
+          "mimeType": "application/pdf",
+          "date": "2011-06-14",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdNz441TeaI5qbzq07DMr4BJdPWkYSVJdXQOA7N-mc1-/Anlage_2_zu_TOP_4.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdNz441TeaI5qbzq07DMr4BJdPWkYSVJdXQOA7N-mc1-/Anlage_2_zu_TOP_4.pdf",
+          "created": "2011-07-26T09:32:50+02:00",
+          "modified": "2011-08-12T13:01:22+02:00"
+        }
+      ],
+      "created": "2011-05-31T16:17:51+02:00",
+      "modified": "2011-05-31T16:17:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7319",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Familien- und Kinderservicebüro / kreisweite Projekte\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2011-05-27T08:19:40+02:00",
+      "modified": "2011-05-27T08:19:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7320",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bildungs- und Teilhabepaket\n(Ausführungen werden in der Sitzung gemacht)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-555",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 3 zu TOP 6)",
+          "mimeType": "application/pdf",
+          "date": "2011-06-14",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYyHBP4_2v248cK_R3b3AMcIT8K-pIX41jHz6Rh9iV_7/Anlage_3_zu_TOP_6.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYyHBP4_2v248cK_R3b3AMcIT8K-pIX41jHz6Rh9iV_7/Anlage_3_zu_TOP_6.pdf",
+          "created": "2011-07-11T13:00:31+02:00",
+          "modified": "2011-08-12T13:01:22+02:00"
+        }
+      ],
+      "created": "2011-05-27T08:23:16+02:00",
+      "modified": "2011-05-27T08:23:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7312",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-558",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 4)",
+          "mimeType": "application/pdf",
+          "date": "2011-06-14",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTTtf3KqH6O4D7GobCn7shszCVULGkiucjH8xDCTQWcX/Anlage_4.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTTtf3KqH6O4D7GobCn7shszCVULGkiucjH8xDCTQWcX/Anlage_4.pdf",
+          "created": "2011-07-26T09:32:50+02:00",
+          "modified": "2011-08-12T13:01:22+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-573",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 5)",
+          "mimeType": "application/pdf",
+          "date": "2011-06-14",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZU_tt0dxIWl3b2vDf7mcVIw_WfhsGIkY1kAcHr_fpdN1/Anlage_5.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZU_tt0dxIWl3b2vDf7mcVIw_WfhsGIkY1kAcHr_fpdN1/Anlage_5.pdf",
+          "created": "2011-08-12T13:01:22+02:00",
+          "modified": "2011-08-12T13:01:22+02:00"
+        }
+      ],
+      "created": "2011-05-27T08:15:01+02:00",
+      "modified": "2011-05-27T08:15:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7313",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Behandlung von Anträgen",
+      "created": "2011-05-27T08:15:01+02:00",
+      "modified": "2011-05-27T08:15:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7314",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Behandlung von Anfragen",
+      "created": "2011-05-27T08:15:01+02:00",
+      "modified": "2011-05-27T08:15:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7315",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anregungen",
+      "created": "2011-05-27T08:15:01+02:00",
+      "modified": "2011-05-27T08:15:01+02:00"
+    }
+  ]
+}

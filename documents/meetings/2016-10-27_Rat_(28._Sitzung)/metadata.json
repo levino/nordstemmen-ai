@@ -1,0 +1,137 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2830",
+  "name": "Rat (28. Sitzung)",
+  "start": "2016-10-27T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-29",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Marienbergschule Nordstemmen, Schlingweg 21, 31171 Nordstemmen, Aula",
+    "streetAddress": "Schlingweg 21",
+    "room": "Marienbergschule Nordstemmen, Aula",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2016-08-30T13:29:34+02:00",
+    "modified": "2017-09-12T17:11:03+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-17266",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2016-10-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeBwy0L5ROCL7kqtkTMfnIYiXT2d1QnJaZ9q0qC5Ps96/Bekanntmachung_Rat_27.10.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeBwy0L5ROCL7kqtkTMfnIYiXT2d1QnJaZ9q0qC5Ps96/Bekanntmachung_Rat_27.10.2016.pdf",
+    "created": "2016-10-13T19:00:37+02:00",
+    "modified": "2016-10-21T19:00:39+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-17484",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2016-10-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdAs8f55VH2sUhhetAHgbIIRnZL0QkVrHtezVjw70920/Oeffentliche_Niederschrift_Rat_27.10.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdAs8f55VH2sUhhetAHgbIIRnZL0QkVrHtezVjw70920/Oeffentliche_Niederschrift_Rat_27.10.2016.pdf",
+    "created": "2016-11-14T13:01:46+01:00",
+    "modified": "2016-11-14T13:01:46+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13332",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2016-10-12T09:07:20+02:00",
+      "modified": "2016-10-12T09:07:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13333",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2016-10-12T09:07:20+02:00",
+      "modified": "2016-10-12T09:07:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13334",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung des Rates vom 29.09.2016",
+      "created": "2016-10-12T09:07:20+02:00",
+      "modified": "2016-10-12T09:07:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13335",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht des Bürgermeisters über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "created": "2016-10-12T09:07:20+02:00",
+      "modified": "2016-10-12T09:07:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13336",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2016-10-12T09:07:20+02:00",
+      "modified": "2016-10-12T09:07:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13337",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Ernennung einer Führungskraft der Feuerwehr",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3647",
+      "created": "2016-10-12T09:07:20+02:00",
+      "modified": "2016-10-12T09:07:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13338",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "21. Änderung des Flächennutzungsplanes der Gemeinde Nordstemmen (Flächen für die Windenergie mit Ausschlusswirkung gemäß § 35 Abs. 3 Satz 3 BauGB)\n- öffentliche Auslegung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3662",
+      "created": "2016-10-12T09:07:20+02:00",
+      "modified": "2016-10-12T09:07:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13371",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6.1",
+      "order": 8,
+      "name": "21. Änderung des Flächennutzungsplanes der Gemeinde Nordstemmen (Flächen für die Windenergie mit Ausschlusswirkung gemäß § 35 Abs. 3 Satz 3 BauGB)\n- öffentliche Auslegung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3665",
+      "created": "2016-10-25T15:21:16+02:00",
+      "modified": "2016-10-25T15:21:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13339",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Mitteilungen bzw. Bericht des Bürgermeisters",
+      "created": "2016-10-12T09:07:20+02:00",
+      "modified": "2016-10-12T09:07:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13340",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Anträge und Anfragen",
+      "created": "2016-10-12T09:07:20+02:00",
+      "modified": "2016-10-12T09:07:20+02:00"
+    }
+  ]
+}

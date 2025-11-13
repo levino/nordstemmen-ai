@@ -1,0 +1,147 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5064",
+  "name": "Fachausschuss Kindertagesstätten (5. Sitzung)",
+  "start": "2022-09-13T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-42"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-34791",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Kindertagesstätten)",
+    "mimeType": "application/pdf",
+    "date": "2022-09-13",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRb87S_UX30XZKvKR5w6_0FGTsuhfmkB7UfT3BfkYdtR/Bekanntmachung_Fachausschuss_Kindertagesstaetten_13.09.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRb87S_UX30XZKvKR5w6_0FGTsuhfmkB7UfT3BfkYdtR/Bekanntmachung_Fachausschuss_Kindertagesstaetten_13.09.2022.pdf",
+    "created": "2022-09-08T10:17:21+02:00",
+    "modified": "2022-09-08T10:17:21+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-35227",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Kindertagesstätten)",
+    "mimeType": "application/pdf",
+    "date": "2022-09-13",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZa4kFEVgjY7jYaY9lm_dzwjvCsp-VHFvYzp4V9p5GdEZ/Oeffentliche_Niederschrift_Fachausschuss_Kindertagesstaetten_13.09.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZa4kFEVgjY7jYaY9lm_dzwjvCsp-VHFvYzp4V9p5GdEZ/Oeffentliche_Niederschrift_Fachausschuss_Kindertagesstaetten_13.09.2022.pdf",
+    "created": "2022-11-10T13:00:00+01:00",
+    "modified": "2022-11-10T13:00:00+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20223",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2022-07-27T11:49:18+02:00",
+      "modified": "2022-07-27T11:49:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20224",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2022-07-27T11:49:18+02:00",
+      "modified": "2022-07-27T11:49:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20225",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 12. Juli 2022",
+      "created": "2022-07-27T11:49:18+02:00",
+      "modified": "2022-09-07T14:38:48+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20226",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Anfragen und Anregungen",
+      "created": "2022-07-27T11:49:18+02:00",
+      "modified": "2022-07-27T11:49:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20227",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2022-07-27T11:49:18+02:00",
+      "modified": "2022-07-27T11:49:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20371",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Unterrichtung über die\n- Entwicklung der Kinderbetreuungszahlen (Geburtenfortschreibung)\n- Belegung der Plätze in den Kindertagesstätten und Horten zum 01.08.2022\n- aktuelle Situation zur Kindertagespflege",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5745",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2022-09-13",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZICmoUV8-scQSkbzjVucdc5d3y1C2f5MLNOmTUoAYpQ/Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZICmoUV8-scQSkbzjVucdc5d3y1C2f5MLNOmTUoAYpQ/Anlage_1.pdf",
+          "created": "2022-11-10T13:00:00+01:00",
+          "modified": "2022-11-10T13:00:00+01:00"
+        }
+      ],
+      "created": "2022-09-07T14:40:46+02:00",
+      "modified": "2022-09-07T14:40:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20372",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Ausbau der Kindertagesbetreuung;\nInformation zum Sachstand zur Einrichtung von Kleingruppen\nVorstellung der (Vor-)Entwurfsplanung für die Erweiterung der Kindertagestätten in Barnten, Burgstemmen und Heyersum",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7513",
+      "result": "Einstimmig bei 9 Ja-Stimmen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5746",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2022-09-13",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdortUHuegjIw77jQu_z70BVXx4RAN9UZqbCxYZz8qi-/Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdortUHuegjIw77jQu_z70BVXx4RAN9UZqbCxYZz8qi-/Anlage_2.pdf",
+          "created": "2022-11-10T13:00:00+01:00",
+          "modified": "2022-11-10T13:00:00+01:00"
+        }
+      ],
+      "created": "2022-09-07T14:40:55+02:00",
+      "modified": "2022-09-07T14:40:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20228",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Mitteilungen der Verwaltung",
+      "created": "2022-07-27T11:49:18+02:00",
+      "modified": "2022-07-27T11:49:18+02:00"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2976",
+  "name": "Ortsrat Adensen (4. Sitzung)",
+  "start": "2017-11-01T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-2",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Adensen, Dorfstraße 19, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Dorfstraße 19",
+    "room": "Feuerwehrhaus Adensen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Adensen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T10:54:03+02:00",
+    "modified": "2019-06-06T11:57:02+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-11"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-22113",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2017-11-01",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRy7-llMMha4jye78wRYdx7pbBZO75jWCnWzcrundYtQ/Bekanntmachung_Ortsrat_Adensen_01.11.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRy7-llMMha4jye78wRYdx7pbBZO75jWCnWzcrundYtQ/Bekanntmachung_Ortsrat_Adensen_01.11.2017.pdf",
+    "created": "2017-10-23T13:02:06+02:00",
+    "modified": "2017-10-23T13:02:06+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-22595",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2017-11-01",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbfZW_nSZw3jO46E9s4tPeQywEd8m20l4OkWaPEhWKkn/Oeffentliche_Niederschrift_Ortsrat_Adensen_01.11.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbfZW_nSZw3jO46E9s4tPeQywEd8m20l4OkWaPEhWKkn/Oeffentliche_Niederschrift_Ortsrat_Adensen_01.11.2017.pdf",
+    "created": "2017-11-17T13:01:02+01:00",
+    "modified": "2017-11-22T13:00:31+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14610",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2017-10-11T09:32:49+02:00",
+      "modified": "2017-10-11T09:32:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14611",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2017-10-11T09:32:49+02:00",
+      "modified": "2017-10-11T09:32:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14612",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 15. Mai 2017",
+      "created": "2017-10-11T09:32:49+02:00",
+      "modified": "2017-10-11T09:32:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14614",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters\n- Baumaßnahme „Neustadt/Hallerburger Straße“\n- Sachstand des Leerstands- und Baulückenkatasters\n- Antrag bzgl. der Weitsprunganlage\n- Sachstand Windkraftanlagen bzw. 21. Flächennutzungsplan\n- Verkehrsspiegel „Am Mühlenfeld/Im Schlingen“ und „Adenoyser Straße/Düsterer Pump“\n- Hochwasserschutz Adensen und Hallerburg\n",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-3879",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Adensen 2017 11 01 Anlagen)",
+          "mimeType": "application/pdf",
+          "date": "2017-11-01",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbv3Ovr0xJLci2-KbMytBaahICXZAkxEcF7vCDbozAP2/OR_Adensen_2017_11_01_Anlagen.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbv3Ovr0xJLci2-KbMytBaahICXZAkxEcF7vCDbozAP2/OR_Adensen_2017_11_01_Anlagen.pdf",
+          "created": "2017-11-22T08:56:46+01:00",
+          "modified": "2017-11-22T08:56:46+01:00"
+        }
+      ],
+      "created": "2017-10-11T09:32:49+02:00",
+      "modified": "2017-10-20T10:17:39+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14613",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2017-10-11T09:32:49+02:00",
+      "modified": "2017-10-11T09:32:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14668",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Anhörung zum Haushaltsplan 2018 und zum Investitionsprogramm bis 2021 für die Ortschaft Adensen \n(DS wird nachgereicht)",
+      "created": "2017-10-20T10:18:25+02:00",
+      "modified": "2017-10-20T10:18:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14669",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Verwendung der im Haushaltsjahr 2017 noch zur Verfügung stehenden Ortsratsmittel\n- Beratung und Beschlussfassung\n",
+      "created": "2017-10-20T10:18:51+02:00",
+      "modified": "2017-10-20T10:18:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14615",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2017-10-11T09:32:49+02:00",
+      "modified": "2017-10-11T09:32:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14616",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Anträge und Anfragen",
+      "created": "2017-10-11T09:32:49+02:00",
+      "modified": "2017-10-11T09:32:49+02:00"
+    }
+  ]
+}

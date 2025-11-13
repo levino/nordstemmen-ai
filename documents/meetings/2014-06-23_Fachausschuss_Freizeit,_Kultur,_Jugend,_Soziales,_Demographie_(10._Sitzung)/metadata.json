@@ -1,0 +1,144 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2289",
+  "name": "Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie (10. Sitzung)",
+  "start": "2014-06-23T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-20",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer Rathaus Altbau",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer Rathaus Altbau",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2009-02-10T14:08:10+01:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-7"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-12808",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie)",
+    "mimeType": "application/pdf",
+    "date": "2014-06-23",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZe425CqSafQ07fxxujqI2dTzOXt8B0OnqYowQVTqfkSD/Bekanntmachung_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_23.06.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZe425CqSafQ07fxxujqI2dTzOXt8B0OnqYowQVTqfkSD/Bekanntmachung_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_23.06.2014.pdf",
+    "created": "2014-06-13T13:00:50+02:00",
+    "modified": "2014-06-13T13:00:50+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-13031",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie)",
+    "mimeType": "application/pdf",
+    "date": "2014-06-23",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYuvKwcY2DWwLyskucH-pViqgkffScwXrQ_zNZRelUdA/Oeffentliche_Niederschrift_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_23.06.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYuvKwcY2DWwLyskucH-pViqgkffScwXrQ_zNZRelUdA/Oeffentliche_Niederschrift_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_23.06.2014.pdf",
+    "created": "2014-08-11T13:00:35+02:00",
+    "modified": "2016-08-05T13:01:53+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10862",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2014-06-10T17:15:56+02:00",
+      "modified": "2014-06-10T17:15:56+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10863",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2014-06-10T17:15:56+02:00",
+      "modified": "2014-06-10T17:15:56+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10864",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 10. März 2014",
+      "created": "2014-06-10T17:15:56+02:00",
+      "modified": "2014-06-10T17:15:56+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10865",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2014-06-10T17:15:56+02:00",
+      "modified": "2014-06-10T17:15:56+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10890",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Asylunterkunft Zum Klay in Rössing\n- Antrag der SPD-Fraktion (siehe Anlage 1)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1104",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie 23.06.2014 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2014-06-23",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZepWHEyzvXgeyBqYWyteO8IXofs4v4PpR6VlZqWenQD0/Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_23.06.2014_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZepWHEyzvXgeyBqYWyteO8IXofs4v4PpR6VlZqWenQD0/Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_23.06.2014_18-00_Uhr.pdf",
+          "created": "2014-06-13T13:00:50+02:00",
+          "modified": "2014-06-13T13:00:50+02:00"
+        }
+      ],
+      "created": "2014-06-12T18:46:38+02:00",
+      "modified": "2014-06-12T18:46:38+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10891",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 7,
+      "name": "Bildung und Besetzung der Planungsgruppe \"Modernisierung Freizeitbad\"\n- Antrag der SPD-Fraktion (siehe Anlage 2)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1105",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie 23.06.2014 18:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2014-06-23",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZc_dQKmcIbI7dVaW8wKHPi0bJhuiaBowdH9F2atjC_QR/Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_23.06.2014_18-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZc_dQKmcIbI7dVaW8wKHPi0bJhuiaBowdH9F2atjC_QR/Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_23.06.2014_18-00_Uhr.pdf",
+          "created": "2014-06-13T13:00:50+02:00",
+          "modified": "2014-06-13T13:00:50+02:00"
+        }
+      ],
+      "created": "2014-06-12T18:47:13+02:00",
+      "modified": "2014-06-12T18:47:13+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10866",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 8,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2014-06-10T17:15:56+02:00",
+      "modified": "2014-06-10T17:15:56+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10867",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Anträge und Anfragen",
+      "created": "2014-06-10T17:15:56+02:00",
+      "modified": "2014-06-10T17:15:56+02:00"
+    }
+  ]
+}

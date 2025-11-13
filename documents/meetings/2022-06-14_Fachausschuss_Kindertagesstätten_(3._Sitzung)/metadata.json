@@ -1,0 +1,133 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5003",
+  "name": "Fachausschuss Kindertagesstätten (3. Sitzung)",
+  "start": "2022-06-14T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-42"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-34290",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Kindertagesstätten)",
+    "mimeType": "application/pdf",
+    "date": "2022-06-14",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaW2hmXO2S-TpjH1m2K2zyRkZESEMwmGfWl9y8w4FC91/Bekanntmachung_Fachausschuss_Kindertagesstaetten_14.06.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaW2hmXO2S-TpjH1m2K2zyRkZESEMwmGfWl9y8w4FC91/Bekanntmachung_Fachausschuss_Kindertagesstaetten_14.06.2022.pdf",
+    "created": "2022-06-08T13:00:29+02:00",
+    "modified": "2022-06-08T13:00:29+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-34506",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Kindertagesstätten)",
+    "mimeType": "application/pdf",
+    "date": "2022-06-14",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZS1a6U8riHkwAhmbk2hLrOrE_EpetWdfYRmAdhxLLQmJ/Oeffentliche_Niederschrift_Fachausschuss_Kindertagesstaetten_14.06.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZS1a6U8riHkwAhmbk2hLrOrE_EpetWdfYRmAdhxLLQmJ/Oeffentliche_Niederschrift_Fachausschuss_Kindertagesstaetten_14.06.2022.pdf",
+    "created": "2022-07-04T13:00:08+02:00",
+    "modified": "2022-07-04T13:00:08+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20091",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2022-06-07T13:20:26+02:00",
+      "modified": "2022-06-07T13:20:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20092",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2022-06-07T13:20:26+02:00",
+      "modified": "2022-06-07T13:20:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20093",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 15. März 2022",
+      "created": "2022-06-07T13:20:26+02:00",
+      "modified": "2022-06-07T13:20:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20094",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2022-06-07T13:20:26+02:00",
+      "modified": "2022-06-07T13:20:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20099",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Unterrichtung über die\n- Entwicklung der Kinderbetreuungszahlen (Geburtenfortschreibung)\n- Belegung der Plätze in den Kindertagesstätten und Horten zum 01.05.2022\n- aktuelle Situation zur Kindertagespflege",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5662",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext ((Microsoft PowerPoint - Präsentation))",
+          "mimeType": "application/pdf",
+          "date": "2022-06-14",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRD-Peuv2FCO3BjAA7H9U0XPrnAscXLSKt_YpmgnKx-7/-Microsoft_PowerPoint_-_Praesentation-.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRD-Peuv2FCO3BjAA7H9U0XPrnAscXLSKt_YpmgnKx-7/-Microsoft_PowerPoint_-_Praesentation-.pdf",
+          "created": "2022-07-04T13:00:08+02:00",
+          "modified": "2022-07-04T13:00:08+02:00"
+        }
+      ],
+      "created": "2022-06-07T13:22:25+02:00",
+      "modified": "2022-06-07T13:22:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20095",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Ausbau der Kindertagesbetreuung; Festlegung von (Einzel-)Maßnahmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7431",
+      "result": "Zu 1.,2.,4. Einst./9 Ja-St. / zu 3. Einst./2Enth.",
+      "created": "2022-06-07T13:20:26+02:00",
+      "modified": "2022-06-07T13:20:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20096",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Mitteilungen der Bürgermeisterin",
+      "created": "2022-06-07T13:20:26+02:00",
+      "modified": "2022-06-07T13:20:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20097",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Anträge und Anfragen",
+      "created": "2022-06-07T13:20:26+02:00",
+      "modified": "2022-06-07T13:20:26+02:00"
+    }
+  ]
+}

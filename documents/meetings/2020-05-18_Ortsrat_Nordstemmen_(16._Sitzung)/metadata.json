@@ -1,0 +1,200 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4456",
+  "name": "Ortsrat Nordstemmen (16. Sitzung)",
+  "start": "2020-05-18T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-8"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-29515",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Nordstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2020-05-18",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWDKHCUfZnpzQtt3QaNYGov-GjHQITTujXmWXLOJHR8j/Bekanntmachung_Ortsrat_Nordstemmen_18.05.2020.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWDKHCUfZnpzQtt3QaNYGov-GjHQITTujXmWXLOJHR8j/Bekanntmachung_Ortsrat_Nordstemmen_18.05.2020.pdf",
+    "created": "2020-05-08T13:00:12+02:00",
+    "modified": "2020-05-08T13:00:12+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-29563",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Nordstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2020-05-18",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRaC6XZ9eOWj4wQPn8_f9wP4-hh_cEdaNXDKSR8MWjb1/Oeffentliche_Niederschrift_Ortsrat_Nordstemmen_18.05.2020.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRaC6XZ9eOWj4wQPn8_f9wP4-hh_cEdaNXDKSR8MWjb1/Oeffentliche_Niederschrift_Ortsrat_Nordstemmen_18.05.2020.pdf",
+    "created": "2020-06-09T13:00:21+02:00",
+    "modified": "2020-06-09T13:00:21+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17572",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2020-05-07T17:15:40+02:00",
+      "modified": "2020-05-07T17:25:35+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17573",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2020-05-07T17:15:40+02:00",
+      "modified": "2020-05-07T17:15:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17574",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 17. Februar 2020",
+      "created": "2020-05-07T17:15:40+02:00",
+      "modified": "2020-05-07T17:15:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17576",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2020-05-07T17:15:40+02:00",
+      "modified": "2020-05-27T09:28:35+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17575",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4731",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Fachbereich 3)",
+          "mimeType": "application/pdf",
+          "date": "2020-05-18",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZU9Te_W7QTZjvz2DSC9Ncji802y5dlXP6M-4ht0XMN56/Fachbereich_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZU9Te_W7QTZjvz2DSC9Ncji802y5dlXP6M-4ht0XMN56/Fachbereich_3.pdf",
+          "created": "2020-05-27T11:37:32+02:00",
+          "modified": "2020-05-27T11:37:32+02:00"
+        }
+      ],
+      "created": "2020-05-07T17:15:40+02:00",
+      "modified": "2020-05-07T17:15:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17578",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 0130 „Rauhe Wiese - West“, Ortschaft Nordstemmen\n- Anhörung des Ortsrates gemäß § 94 Absatz 1 NKomVG",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6782",
+      "result": "Zustimmend zur Kenntnis genommen",
+      "created": "2020-05-07T17:15:40+02:00",
+      "modified": "2020-05-07T17:16:08+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17582",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Antrag des KOMM auf Zuschuss für das Projekt \"Spurensuche\"",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4723",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Nordstemmen Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2020-05-18",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQUQmaIjjC-0VXTyhWwTGu4edTVTpHpCuyYgs1hZHnhr/OR_Nordstemmen_Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQUQmaIjjC-0VXTyhWwTGu4edTVTpHpCuyYgs1hZHnhr/OR_Nordstemmen_Anlage_1.pdf",
+          "created": "2020-05-08T13:00:12+02:00",
+          "modified": "2020-05-08T13:00:12+02:00"
+        }
+      ],
+      "created": "2020-05-07T17:17:25+02:00",
+      "modified": "2020-05-07T17:17:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17583",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Verwendung der Ortsratsmittel 2020\n- Antrag des KBN",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4724",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ausgaben.xls)",
+          "mimeType": "application/pdf",
+          "date": "2020-05-18",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVxUTcn04LUeX8AvVluD4iA17Cd2A5D7LQZrEnH3YarT/Ausgaben.xls.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVxUTcn04LUeX8AvVluD4iA17Cd2A5D7LQZrEnH3YarT/Ausgaben.xls.pdf",
+          "created": "2020-05-08T13:00:12+02:00",
+          "modified": "2020-05-08T13:00:12+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4725",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Nordstemmen Anlage 3)",
+          "mimeType": "application/pdf",
+          "date": "2020-05-18",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRARb9zr-30DiveRWYIuDTNlfIQFGcaXC0OosboU-X6J/OR_Nordstemmen_Anlage_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRARb9zr-30DiveRWYIuDTNlfIQFGcaXC0OosboU-X6J/OR_Nordstemmen_Anlage_3.pdf",
+          "created": "2020-05-08T13:00:12+02:00",
+          "modified": "2020-05-08T13:00:12+02:00"
+        }
+      ],
+      "created": "2020-05-07T17:19:05+02:00",
+      "modified": "2020-05-07T17:19:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17577",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2021 sowie für die mittelfristige Finanzplanung 2022 bis 2024",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6779",
+      "created": "2020-05-07T17:15:40+02:00",
+      "modified": "2020-05-07T17:15:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17579",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2020-05-07T17:15:40+02:00",
+      "modified": "2020-05-07T17:15:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/17580",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anträge und Anfragen",
+      "created": "2020-05-07T17:15:40+02:00",
+      "modified": "2020-05-07T17:15:40+02:00"
+    }
+  ]
+}

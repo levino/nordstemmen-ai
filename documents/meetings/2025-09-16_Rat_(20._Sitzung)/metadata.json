@@ -1,0 +1,371 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5592",
+  "name": "Rat (20. Sitzung)",
+  "start": "2025-09-16T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-42488",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2025-09-16",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXIZBg3l8H_QRvSYndxw4k0VfQfHLRneV0EyeiA_ZUri/Bekanntmachung_Rat_16.09.2025.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXIZBg3l8H_QRvSYndxw4k0VfQfHLRneV0EyeiA_ZUri/Bekanntmachung_Rat_16.09.2025.pdf",
+    "created": "2025-09-09T07:53:58+02:00",
+    "modified": "2025-09-09T07:53:58+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-42739",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2025-09-16",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeD7BDVQO-ZOsEKDbPF6L-Jtriq1v9dvgPH64AGNDepk/Oeffentliche_Niederschrift_Rat_16.09.2025.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeD7BDVQO-ZOsEKDbPF6L-Jtriq1v9dvgPH64AGNDepk/Oeffentliche_Niederschrift_Rat_16.09.2025.pdf",
+    "created": "2025-09-30T12:39:01+02:00",
+    "modified": "2025-09-30T12:39:01+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23835",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:53:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23836",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:53:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23837",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 24. Juni 2025",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7394",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Protokoll 24.06.2025)",
+          "mimeType": "application/pdf",
+          "date": "2025-09-16",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQxUdpFXM6BM1CsROIpnCljDuCmhgLd_7qvQIT7tvMP6/Protokoll_24.06.2025.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQxUdpFXM6BM1CsROIpnCljDuCmhgLd_7qvQIT7tvMP6/Protokoll_24.06.2025.pdf",
+          "created": "2025-09-09T08:15:26+02:00",
+          "modified": "2025-09-09T08:15:26+02:00"
+        }
+      ],
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-09T08:07:28+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23838",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht der Bürgermeisterin über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7421",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext ((4) Rats-Protokoll vom 16.09.2025_Anlage 1_zu TOP 3_Bericht Bgm)",
+          "mimeType": "application/pdf",
+          "date": "2025-09-16",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRLjPGTDNxpQ3qpv5WY2O-TjNP_Iar5JBD95C3GVFaHb/-4-_Rats-Protokoll_vom_16.09.2025_Anlage_1_zu_TOP_3_Bericht_Bgm.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRLjPGTDNxpQ3qpv5WY2O-TjNP_Iar5JBD95C3GVFaHb/-4-_Rats-Protokoll_vom_16.09.2025_Anlage_1_zu_TOP_3_Bericht_Bgm.pdf",
+          "created": "2025-09-30T12:39:01+02:00",
+          "modified": "2025-09-30T12:39:01+02:00"
+        }
+      ],
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:53:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23839",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Anfragen und Anregungen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7422",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext ((4) Rats-Protokoll vom 16.09.2025_Anlage 2_zu TOP 4_Wortbeitrag Opitz)",
+          "mimeType": "application/pdf",
+          "date": "2025-09-16",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVHUONK-WmrxLhb0ECamn5Y6eMIx8T8YTlTHiKcgtDJ0/-4-_Rats-Protokoll_vom_16.09.2025_Anlage_2_zu_TOP_4_Wortbeitrag_Opitz.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVHUONK-WmrxLhb0ECamn5Y6eMIx8T8YTlTHiKcgtDJ0/-4-_Rats-Protokoll_vom_16.09.2025_Anlage_2_zu_TOP_4_Wortbeitrag_Opitz.pdf",
+          "created": "2025-09-30T12:39:01+02:00",
+          "modified": "2025-09-30T12:39:01+02:00"
+        }
+      ],
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:53:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23862",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:55:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23842",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bestimmung des Wahltermins für die Bürgermeisterwahl 2026",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8451",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:55:43+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23843",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Berufung eines Gemeindewahlleiters und einer stellvertretenden Gemeindewahlleiterin für die Kommunalwahlen am 13. September 2026",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8453",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:55:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23848",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht über die Erstellung des Jahresergebnisses zum 31. Dezember 2024 der NBEG Baulandentwicklung Beteiligungsgesellschaft mbH Nordstemmen & Co. KG",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8503",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:56:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23849",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht über die Erstellung des Jahresergebnisses zum 31. Dezember 2024 der NBEG Baulandentwicklung Beteiligungsgesellschaft mbH Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8506",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:56:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23850",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Vorbereitung der Gründung einer Gesellschaft mit beschränkter Haftung (GmbH) -Wärmeversorgung-",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8509",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:56:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23851",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Verhandlungsmandat zum Erwerb eines Grundstückes zur Gewerbeansiedlung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8511",
+      "result": "Mehrheitlich bei 14 Ja-Stimmen, 7 Nein-Stimmen und zwei Enthaltungen lt. Beschlussvorschlag",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:56:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23844",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Beitritt zur Gesellschaft für kommunale Immobilien mbH (GKHi);\nBildung eines Gesellschafterbeirates",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8459",
+      "result": "Einstimmig bei einer Enthaltung lt. Beschlussvorschlag",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:58:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23845",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Teilaufhebung des Entsendungsbeschlusses für die Gesellschafterversammlung der Kreiswohnbau Hildesheim GmbH",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8460",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:59:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23861",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Grundsatzbeschluss zur Gründung einer LEADER-Region",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8483",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:57:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23846",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Satzung über die Festsetzung der Hebesätze für die Grund- und Gewerbesteuer in der Gemeinde Nordstemmen (Hebesatzsatzung)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8463",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:57:21+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23840",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 17,
+      "name": "Überprüfung der Basis für die Gewerbesteuerzerlegung mit dem Ziel, einen größeren Anteil an den von der Nordzucker AG zu zahlenden Gewerbesteuern zu erhalten",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8490",
+      "result": "Einstimmig gem. Antrag",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:53:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23841",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 18,
+      "name": "Antrag der Fraktion Bündnis 90/Die Grünen auf Berücksichtigung von Haushaltsmitteln mit dem Ziel eines Straßentausches",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8493",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:53:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23847",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "18",
+      "order": 19,
+      "name": "Zuschussantrag TC Gelb-Rot Nordstemmen e. V. auf Bezuschussung der Sanierung der Sanitäranlagen im Klubhaus des TC Gelb-Rot Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8481",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:57:43+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23852",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "19",
+      "order": 20,
+      "name": "Konkretisierung der Tarifstruktur/Eintrittsgelder Freizeitbad Nordstemmen ab der Badesaison 2025",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8475",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:53:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23853",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "19.1",
+      "order": 21,
+      "name": "Konkretisierung der Tarifstruktur/Eintrittsgelder Freizeitbad Nordstemmen ab der Badesaison 2026",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8514",
+      "result": "Mehrheitlich bei 15 Ja-Stimmen, 4 Nein-Stimmen u. 6 Enthaltungen lt. geändertem Beschluss",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:53:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23857",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "20",
+      "order": 22,
+      "name": "Umsetzung Ganztagsanspruch für Grundschulkinder ab dem Schuljahr 2026/2027",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8471",
+      "result": "Mehrheitlich bei 24 Ja-Stimmen und einer Nein-Stimme lt. Beschluss",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-04T11:57:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23858",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "21",
+      "order": 23,
+      "name": "Ganztagsgrundschule Asternschule, Vorstellung des überarbeiteten Raumprogramms und Erläuterung der Vorzugsvariante",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8487",
+      "result": "Mehrheitlich bei 20 Ja-Stimmen, 2 Nein-Stimmen und 3 Enthaltungen gem. Beschlussvorschlag",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-04T11:57:58+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23856",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "22",
+      "order": 24,
+      "name": "Priorisierung Ersatzneubau Kindertagesstätte Groß Escherde",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8467",
+      "result": "Einstimmig bei 23 Ja-Stimmen und 2 Enthaltungen lt. geändertem Beschluss",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:53:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23869",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "22.2",
+      "order": 25,
+      "name": "Priorisierung Ersatzneubau Kindertagesstätte Groß Escherde",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8517",
+      "created": "2025-09-04T13:55:16+02:00",
+      "modified": "2025-09-09T13:24:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23859",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "23",
+      "order": 26,
+      "name": "Kommunalrechtliche Prüfung der Beschaffung von 8 Mehrzweckfahrzeugen für die Ortsfeuerwehren der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8496",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:53:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23860",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "24",
+      "order": 27,
+      "name": "Änderung der Satzung für die Freiwillige Feuerwehr der Gemeinde Nordstemmen, Landkreis Hildesheim (Feuerwehrsatzung)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8499",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:53:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23863",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "25",
+      "order": 28,
+      "name": "Mitteilungen der Verwaltung",
+      "created": "2025-09-01T14:53:29+02:00",
+      "modified": "2025-09-01T14:53:29+02:00"
+    }
+  ]
+}

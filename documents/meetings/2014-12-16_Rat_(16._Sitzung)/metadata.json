@@ -1,0 +1,243 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2401",
+  "name": "Rat (16. Sitzung)",
+  "start": "2014-12-16T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-27",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Landhaus Adensen, Am Pfarrkamp 13 - 13 a, 31171 Nordstemmen, Saal",
+    "streetAddress": "Am Pfarrkamp 13 - 13 a",
+    "room": "Landhaus Adensen, Saal",
+    "postalCode": "31171",
+    "subLocality": "Adensen",
+    "locality": "Nordstemmen",
+    "created": "2014-11-27T08:38:26+01:00",
+    "modified": "2017-08-31T09:05:44+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-13735",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2014-12-16",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaJqn5NHJ2r1j59-BY3wlFAibXnC9FJoG8XwyI1j7v_Q/Bekanntmachung_Rat_16.12.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaJqn5NHJ2r1j59-BY3wlFAibXnC9FJoG8XwyI1j7v_Q/Bekanntmachung_Rat_16.12.2014.pdf",
+    "created": "2014-12-04T19:00:51+01:00",
+    "modified": "2014-12-04T19:00:51+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-13866",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2014-12-16",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdKQcMr9x6veNRkXE6_7SZj3LpLfmLgcNvbrF1RegEIj/Oeffentliche_Niederschrift_Rat_16.12.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdKQcMr9x6veNRkXE6_7SZj3LpLfmLgcNvbrF1RegEIj/Oeffentliche_Niederschrift_Rat_16.12.2014.pdf",
+    "created": "2015-01-20T19:00:31+01:00",
+    "modified": "2015-01-20T19:00:31+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11395",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2014-11-25T11:41:30+01:00",
+      "modified": "2014-11-25T11:41:30+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11396",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2014-11-25T11:41:30+01:00",
+      "modified": "2014-11-25T11:41:30+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11398",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Bericht des Bürgermeisters über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1253",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zu TOP 2 Bericht des Bürgermeisters)",
+          "mimeType": "application/pdf",
+          "date": "2014-12-16",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSE_znZE0FGQ9Uy2JvwH-kDMeOeb0tMH0Ju_0rzQpKiA/Anlage_1_zu_TOP_2_Bericht_des_Buergermeisters.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSE_znZE0FGQ9Uy2JvwH-kDMeOeb0tMH0Ju_0rzQpKiA/Anlage_1_zu_TOP_2_Bericht_des_Buergermeisters.pdf",
+          "created": "2015-01-19T19:00:41+01:00",
+          "modified": "2015-01-19T19:00:41+01:00"
+        }
+      ],
+      "created": "2014-11-25T11:41:30+01:00",
+      "modified": "2014-11-25T11:41:30+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11399",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2014-11-25T11:41:30+01:00",
+      "modified": "2014-11-25T11:41:30+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11402",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Beschlussfassung über den Jahresabschluss 2010 der Gemeinde Nordstemmen;\nEntlastung des Bürgermeisters für den Jahresabschluss 2010;\nVerwendung des Jahresergebnisses 2010",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2946",
+      "created": "2014-11-25T11:41:30+01:00",
+      "modified": "2014-11-25T11:41:30+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11403",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Beschlussfassung über den Jahresabschluss 2011 der Gemeinde Nordstemmen;\nEntlastung des Bürgermeisters für den Jahresabschluss 2011;\nVerwendung des Jahresergebnisses 2011",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2949",
+      "created": "2014-11-25T11:41:30+01:00",
+      "modified": "2014-11-25T11:41:30+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11441",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5.1",
+      "order": 7,
+      "name": "Beschlussfassung über den Jahresabschluss 2011 der Gemeinde Nordstemmen;\nEntlastung des Bürgermeisters für den Jahresabschluss 2011;\nVerwendung des Jahresergebnisses 2011",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2970",
+      "created": "2014-12-01T11:38:55+01:00",
+      "modified": "2014-12-01T11:39:02+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11444",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5.2",
+      "order": 8,
+      "name": "Beschlussfassung über den Jahresabschluss 2011 der Gemeinde Nordstemmen;\nEntlastung des Bürgermeisters für den Jahresabschluss 2011;\nVerwendung des Jahresergebnisses 2011",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2975",
+      "created": "2014-12-02T13:49:11+01:00",
+      "modified": "2014-12-02T13:49:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11443",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 9,
+      "name": "Landes-Raumordnungsprogramm Niedersachsen (LROP); Entwurf 2014;\nBeteiligungsverfahren zum Entwurf einer Änderung und Ergänzung\n- Stellungnahme der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2974",
+      "created": "2014-12-02T09:15:33+01:00",
+      "modified": "2014-12-02T09:15:38+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11407",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 10,
+      "name": "Barrierefreier Ausbau von Bushaltestellen: Kreuzstraße, Heyersum",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2771",
+      "created": "2014-11-25T11:41:30+01:00",
+      "modified": "2014-12-01T14:35:16+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11401",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 11,
+      "name": "Unterrichtung über die Aufnahme von Kommunaldarlehen gemäß § 7 der Richtlinie der Gemeinde Nordstemmen für die Aufnahme von Krediten und zur Umschuldung von Krediten vom 01.11.2011",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2942",
+      "created": "2014-11-25T11:41:30+01:00",
+      "modified": "2014-12-01T14:33:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11404",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 12,
+      "name": "Haushaltssatzung und Haushaltsplan 2015",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2959",
+      "created": "2014-11-25T11:41:30+01:00",
+      "modified": "2014-12-01T14:34:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11405",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9.3",
+      "order": 13,
+      "name": "Haushaltssatzung und Haushaltsplan 2015",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2966",
+      "created": "2014-11-25T11:41:30+01:00",
+      "modified": "2014-11-25T11:41:30+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11445",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9.4",
+      "order": 14,
+      "name": "Haushaltssatzung und Haushaltsplan 2015",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2977",
+      "created": "2014-12-02T13:49:20+01:00",
+      "modified": "2014-12-02T13:49:20+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11406",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 15,
+      "name": "Investitionsprogramm für den Investitionszeitraum bis zum Haushaltsjahr 2018; mittelfristige Ergebnis- und Finanzplanung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2962",
+      "created": "2014-11-25T11:41:30+01:00",
+      "modified": "2014-12-01T14:34:20+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11400",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 16,
+      "name": "Neu- bzw. Wiederwahl der Schiedspersonen für die Schiedsamtsbezirke in der Gemeinde Nordstemmen im Jahre 2014",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2883",
+      "created": "2014-11-25T11:41:30+01:00",
+      "modified": "2014-12-01T14:33:22+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11442",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 17,
+      "name": "Neuaufstellung des Regionalen Raumordnungsprogramms (RROP) für den Landkreis Hildesheim - Entwurf 2013 - Stand Oktober 2014\n\nErneutes Beteiligungsverfahren gemäß § 3 Niedersächsisches Gesetz über Raumordnung und Landesplanung (NROG)\n\nStellungnahme der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2973",
+      "created": "2014-12-01T11:39:10+01:00",
+      "modified": "2014-12-02T09:15:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11408",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 18,
+      "name": "Mitteilungen bzw. Bericht des Bürgermeisters",
+      "created": "2014-11-25T11:41:30+01:00",
+      "modified": "2014-11-25T11:41:30+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11409",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 19,
+      "name": "Anträge und Anfragen",
+      "created": "2014-11-25T11:41:30+01:00",
+      "modified": "2014-11-25T11:41:30+01:00"
+    }
+  ]
+}

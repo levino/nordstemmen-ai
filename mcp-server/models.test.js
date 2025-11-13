@@ -3,14 +3,14 @@ import { describe, it, expect } from 'vitest';
 import { InferenceClient } from '@huggingface/inference';
 
 const workingModels = [
-  { name: "intfloat/multilingual-e5-base", expectedDim: 768 },
-  { name: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2", expectedDim: 384 },
-  { name: "BAAI/bge-small-en-v1.5", expectedDim: 384 },
+  { name: 'intfloat/multilingual-e5-base', expectedDim: 768 },
+  { name: 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2', expectedDim: 384 },
+  { name: 'BAAI/bge-small-en-v1.5', expectedDim: 384 },
 ];
 
 const unavailableModels = [
-  { name: "jinaai/jina-embeddings-v3", expectedDim: 1024 },
-  { name: "jinaai/jina-embeddings-v2-base-de", expectedDim: 768 },
+  { name: 'jinaai/jina-embeddings-v3', expectedDim: 1024 },
+  { name: 'jinaai/jina-embeddings-v2-base-de', expectedDim: 768 },
 ];
 
 describe('HuggingFace Model Availability', () => {
@@ -21,8 +21,8 @@ describe('HuggingFace Model Availability', () => {
 
         const embedding = await client.featureExtraction({
           model: name,
-          inputs: "Schwimmbad Kosten",
-          provider: "hf-inference",
+          inputs: 'Schwimmbad Kosten',
+          provider: 'hf-inference',
         });
 
         const embeddingArray = Array.isArray(embedding) ? embedding : Array.from(embedding);
@@ -42,8 +42,8 @@ describe('HuggingFace Model Availability', () => {
         await expect(async () => {
           await client.featureExtraction({
             model: name,
-            inputs: "Schwimmbad Kosten",
-            provider: "hf-inference",
+            inputs: 'Schwimmbad Kosten',
+            provider: 'hf-inference',
           });
         }).rejects.toThrow();
       }, 30000);

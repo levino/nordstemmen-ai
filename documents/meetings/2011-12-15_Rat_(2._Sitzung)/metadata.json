@@ -1,0 +1,161 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1734",
+  "name": "Rat (2. Sitzung)",
+  "start": "2011-12-15T18:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-20",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer Rathaus Altbau",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer Rathaus Altbau",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2009-02-10T14:08:10+01:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-7504",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2011-12-15",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdRnWZJXoSShz6WrsujGrR3bCh5RhJwPUukgi0TU5vvg/Bekanntmachung_Rat_15.12.2011.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdRnWZJXoSShz6WrsujGrR3bCh5RhJwPUukgi0TU5vvg/Bekanntmachung_Rat_15.12.2011.pdf",
+    "created": "2017-03-09T16:20:05+01:00",
+    "modified": "2017-03-09T16:20:05+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-7620",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2011-12-15",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfqzb0kBrle1-pTzfDoerK4uNBViye_fzDHGkz0kjpgn/Oeffentliche_Niederschrift_Rat_15.12.2011.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfqzb0kBrle1-pTzfDoerK4uNBViye_fzDHGkz0kjpgn/Oeffentliche_Niederschrift_Rat_15.12.2011.pdf",
+    "created": "2012-01-24T13:01:22+01:00",
+    "modified": "2012-01-24T13:01:22+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7853",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2011-12-02T09:14:33+01:00",
+      "modified": "2011-12-02T09:14:33+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7854",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2011-12-02T09:14:33+01:00",
+      "modified": "2011-12-02T09:14:33+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7864",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Nachträgliche Verpflichtung und Pflichtenbelehrung von Ratsherren gemäß § 60 NKomVG durch den Bürgermeister",
+      "created": "2011-12-02T09:15:45+01:00",
+      "modified": "2011-12-02T09:15:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7855",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Genehmigung der Niederschrift der Sitzung des Rates vom 10.11.2011 ",
+      "created": "2011-12-02T09:14:33+01:00",
+      "modified": "2011-12-02T09:14:33+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7857",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2011-12-02T09:14:33+01:00",
+      "modified": "2011-12-02T09:15:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7871",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Neufassung der Hauptsatzung der Gemeinde Nordstemmen\n(DS 65/2011)",
+      "created": "2011-12-07T09:12:28+01:00",
+      "modified": "2011-12-07T09:12:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7858",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Erneuerung / Erweiterung der Kläranlage Nordstemmen;\nZustimmung zu einer überplanmäßigen Auszahlung gemäß § 117 NKomVG",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1735",
+      "created": "2011-12-02T09:14:33+01:00",
+      "modified": "2011-12-02T09:18:18+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7867",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2011-12-02T09:18:46+01:00",
+      "modified": "2011-12-02T09:18:46+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7860",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Behandlung von schriftlichen Anfragen und Anträgen\n- Anfrage der CDU-Fraktion vom 28.11.2011 zur Vermarktung der Baugrundstücke (siehe Anlage 1)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-607",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Rat 15.12.2011 18.30 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2011-12-15",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVfH6ZZa5oKsqSE8YwvXvcvLY5BnQCtjp4lwe0qmdxZ8/Rat_15.12.2011_18.30_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVfH6ZZa5oKsqSE8YwvXvcvLY5BnQCtjp4lwe0qmdxZ8/Rat_15.12.2011_18.30_Uhr.pdf",
+          "created": "2012-01-24T13:01:22+01:00",
+          "modified": "2012-01-24T13:01:22+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-609",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2011-12-15",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcm5Zg-23HhLQZefZEJADhoRjamxqI7t2XWqGiKNC7ff/Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcm5Zg-23HhLQZefZEJADhoRjamxqI7t2XWqGiKNC7ff/Anlage_1.pdf",
+          "created": "2012-01-24T13:01:22+01:00",
+          "modified": "2012-01-24T13:01:22+01:00"
+        }
+      ],
+      "created": "2011-12-02T09:14:33+01:00",
+      "modified": "2011-12-02T09:14:33+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7862",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Anregungen",
+      "created": "2011-12-02T09:14:33+01:00",
+      "modified": "2011-12-02T09:14:33+01:00"
+    }
+  ]
+}

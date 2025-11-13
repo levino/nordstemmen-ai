@@ -1,0 +1,56 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/786",
+  "reference": "DS 102/2012",
+  "name": "Haushalt 2013",
+  "paperType": "Beschlussvorlage",
+  "date": "2012-12-13",
+  "mainFile": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-9245",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Beschlussvorlage (Haushalt 2013)",
+    "mimeType": "application/pdf",
+    "date": "2012-12-13",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdzGomVQaKN5mJNaxLijuaCRstgxe0p2zJbadPTDRnE5/Beschlussvorlage_DS_102-2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdzGomVQaKN5mJNaxLijuaCRstgxe0p2zJbadPTDRnE5/Beschlussvorlage_DS_102-2012.pdf",
+    "created": "2012-11-28T11:39:59+01:00",
+    "modified": "2012-11-28T11:39:59+01:00"
+  },
+  "auxiliaryFile": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-828",
+      "type": "https://schema.oparl.org/1.1/File",
+      "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+      "name": "Beschlussvorlage (Anlage 1 zur DS 102/2012)",
+      "mimeType": "application/pdf",
+      "date": "2012-12-13",
+      "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVhhDpdbfTGazw3031XucO4KkR15p-dctswYAtcdc2WD/Anlage_1_zur_DS_102-2012.pdf",
+      "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVhhDpdbfTGazw3031XucO4KkR15p-dctswYAtcdc2WD/Anlage_1_zur_DS_102-2012.pdf",
+      "created": "2012-11-28T11:39:59+01:00",
+      "modified": "2012-11-28T11:39:59+01:00"
+    }
+  ],
+  "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2115",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1965",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-3"
+      ],
+      "created": "2012-11-27T09:34:23+01:00",
+      "modified": "2012-11-27T09:34:23+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2116",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9262",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1975",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2012-11-27T09:34:42+01:00",
+      "modified": "2012-11-27T09:34:42+01:00"
+    }
+  ]
+}

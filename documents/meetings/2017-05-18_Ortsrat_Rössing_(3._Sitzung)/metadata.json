@@ -1,0 +1,249 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2883",
+  "name": "Ortsrat Rössing (3. Sitzung)",
+  "start": "2017-05-18T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-25",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Gasthaus \"Alt Rössing\", Friedrichstraße 8, 31171 Nordstemmen, Clubraum",
+    "streetAddress": "Friedrichstraße 8",
+    "room": "Gasthaus \"Alt Rössing\", Clubraum",
+    "postalCode": "31171",
+    "subLocality": "Rössing",
+    "locality": "Nordstemmen",
+    "created": "2014-02-07T09:38:24+01:00",
+    "modified": "2019-06-06T11:58:30+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-18819",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2017-05-18",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTbJGyO7ZHInkmNaynaczw17e5AwGdDzY8f96BgKtNW0/Bekanntmachung_Ortsrat_Roessing_18.05.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTbJGyO7ZHInkmNaynaczw17e5AwGdDzY8f96BgKtNW0/Bekanntmachung_Ortsrat_Roessing_18.05.2017.pdf",
+    "created": "2017-05-18T19:01:12+02:00",
+    "modified": "2017-05-18T19:01:12+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-19212",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2017-05-18",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWqu1iljfuR0DQDWmfTU2s8J_B4ptuO1rslqzwUe2JcD/Oeffentliche_Niederschrift_Ortsrat_Roessing_18.05.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWqu1iljfuR0DQDWmfTU2s8J_B4ptuO1rslqzwUe2JcD/Oeffentliche_Niederschrift_Ortsrat_Roessing_18.05.2017.pdf",
+    "created": "2017-06-07T19:01:16+02:00",
+    "modified": "2017-06-07T19:01:16+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14064",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2017-05-04T10:27:55+02:00",
+      "modified": "2017-05-04T10:27:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14065",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2017-05-04T10:27:55+02:00",
+      "modified": "2017-05-04T10:27:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14066",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 21. Februar 2017",
+      "created": "2017-05-04T10:27:55+02:00",
+      "modified": "2017-05-04T10:27:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14067",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2017-05-04T10:27:55+02:00",
+      "modified": "2017-05-04T10:27:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14073",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einrichtung eines Hundeauslaufplatzes in Rössing\n- Beratung und Empfehlung",
+      "created": "2017-05-04T10:33:23+02:00",
+      "modified": "2017-05-04T10:33:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14074",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Mitfahrbänke: Gibt es Bedarf bei den Rössinger Bürgerinnen und Bürgern?\n- Beratung und Beschlussfassung",
+      "created": "2017-05-04T10:34:45+02:00",
+      "modified": "2017-05-04T10:34:45+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14075",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Ausweisung von Baugebieten in der Ortschaft Rössing",
+      "created": "2017-05-04T10:35:07+02:00",
+      "modified": "2017-05-04T10:35:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14076",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Möglichkeiten zur Schaffung von Tempo-30-Zonen in der Ortschaft\n- Beratung und Empfehlung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1753",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zu Ortsrat Rössing 18.05.2017)",
+          "mimeType": "application/pdf",
+          "date": "2017-05-18",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcXyIDTWjnELCFsBQ1kTe4RgdyRBUDuax-dM2ecokhIV/Anlage_1_zu_Ortsrat_Roessing_18.05.2017.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcXyIDTWjnELCFsBQ1kTe4RgdyRBUDuax-dM2ecokhIV/Anlage_1_zu_Ortsrat_Roessing_18.05.2017.pdf",
+          "created": "2017-06-06T13:00:15+02:00",
+          "modified": "2017-06-06T13:00:15+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1754",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2 zu Ortsrat Rössing 18.05.2017)",
+          "mimeType": "application/pdf",
+          "date": "2017-05-18",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTJ5QrOOfrTcSdwtvm_oalF65c36ROGcteRpNaNc1fCy/Anlage_2_zu_Ortsrat_Roessing_18.05.2017.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTJ5QrOOfrTcSdwtvm_oalF65c36ROGcteRpNaNc1fCy/Anlage_2_zu_Ortsrat_Roessing_18.05.2017.pdf",
+          "created": "2017-06-06T13:00:15+02:00",
+          "modified": "2017-06-06T13:00:15+02:00"
+        }
+      ],
+      "created": "2017-05-04T10:35:36+02:00",
+      "modified": "2017-05-04T10:35:36+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14077",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Verwendung der noch zur Verfügung stehenden Ortsratsmittel",
+      "created": "2017-05-04T10:36:03+02:00",
+      "modified": "2017-05-04T10:36:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14068",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2018 sowie für die mittelfristige Finanzplanung 2019 bis 2021",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3841",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1755",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Anlage 3 zu Ortsrat Rössing 18.05.2017)",
+          "mimeType": "application/pdf",
+          "date": "2017-05-18",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZV3oPKPOViaX1mQ5VRRBxAfPQuVV4PSRt3n4U2zBoyKa/Anlage_3_zu_Ortsrat_Roessing_18.05.2017.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZV3oPKPOViaX1mQ5VRRBxAfPQuVV4PSRt3n4U2zBoyKa/Anlage_3_zu_Ortsrat_Roessing_18.05.2017.pdf",
+          "created": "2017-06-06T13:00:15+02:00",
+          "modified": "2017-06-06T13:00:15+02:00"
+        }
+      ],
+      "created": "2017-05-04T10:27:55+02:00",
+      "modified": "2017-05-04T10:27:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14078",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Erarbeitung von Möglichkeiten die Straßenausbaubeitragssatzung der Gemeinde abzuschaffen oder zu modifizieren und einen entsprechenden Antrag an die Gemeinde Nordstemmen zu stellen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1756",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 4 zu Ortsrat Rössing 18.05.2017)",
+          "mimeType": "application/pdf",
+          "date": "2017-05-18",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQD2vluYk3KQoxmoA5otKPpFjCXOOQkZaViSQbQq4ZBg/Anlage_4_zu_Ortsrat_Roessing_18.05.2017.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQD2vluYk3KQoxmoA5otKPpFjCXOOQkZaViSQbQq4ZBg/Anlage_4_zu_Ortsrat_Roessing_18.05.2017.pdf",
+          "created": "2017-06-06T13:00:15+02:00",
+          "modified": "2017-06-06T13:00:15+02:00"
+        }
+      ],
+      "created": "2017-05-04T10:37:22+02:00",
+      "modified": "2017-05-08T13:19:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14221",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Planung Tag der deutschen Einheit und Volkstrauertag",
+      "created": "2017-06-06T12:19:11+02:00",
+      "modified": "2017-06-06T12:19:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14069",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1757",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 5 zu  Ortsrat Rössing 18.05.2017)",
+          "mimeType": "application/pdf",
+          "date": "2017-05-18",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZepeOrWBZqhmVmbQtvHM4vcMkDlJUtMJuD2F4omBQ_aG/Anlage_5_zu__Ortsrat_Roessing_18.05.2017.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZepeOrWBZqhmVmbQtvHM4vcMkDlJUtMJuD2F4omBQ_aG/Anlage_5_zu__Ortsrat_Roessing_18.05.2017.pdf",
+          "created": "2017-06-06T13:00:15+02:00",
+          "modified": "2017-06-06T13:00:15+02:00"
+        }
+      ],
+      "created": "2017-05-04T10:27:55+02:00",
+      "modified": "2017-05-04T10:27:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14070",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2017-05-04T10:27:55+02:00",
+      "modified": "2017-05-04T10:27:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14071",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Anträge und Anfragen",
+      "created": "2017-05-04T10:27:55+02:00",
+      "modified": "2017-05-04T10:27:55+02:00"
+    }
+  ]
+}

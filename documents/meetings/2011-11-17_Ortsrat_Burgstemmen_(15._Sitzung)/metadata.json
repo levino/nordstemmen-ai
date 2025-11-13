@@ -1,0 +1,180 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1720",
+  "name": "Ortsrat Burgstemmen (15. Sitzung)",
+  "start": "2011-11-17T19:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Burgstemmen, Sackstraße 2, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Sackstraße 2",
+    "room": "Feuerwehrhaus Burgstemmen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Burgstemmen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:33:23+02:00",
+    "modified": "2019-06-06T11:56:46+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-12"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-7293",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2011-11-17",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUBGTfP9FNAXdt_7tHuQgAtZTMLpzEiyHHdd1qF0n3iV/Bekanntmachung_Ortsrat_Burgstemmen_17.11.2011.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUBGTfP9FNAXdt_7tHuQgAtZTMLpzEiyHHdd1qF0n3iV/Bekanntmachung_Ortsrat_Burgstemmen_17.11.2011.pdf",
+    "created": "2011-11-08T18:00:52+01:00",
+    "modified": "2011-11-08T18:00:52+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-7587",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2011-11-17",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdfb1lhb7bLcKekO1Vu8KzSKiMBQwkegAsKTqkUMF6pp/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_17.11.2011.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdfb1lhb7bLcKekO1Vu8KzSKiMBQwkegAsKTqkUMF6pp/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_17.11.2011.pdf",
+    "created": "2012-01-12T13:02:15+01:00",
+    "modified": "2012-01-12T13:02:15+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7743",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2011-11-08T11:21:35+01:00",
+      "modified": "2011-12-20T15:22:36+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7744",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit ",
+      "created": "2011-11-08T11:21:35+01:00",
+      "modified": "2011-11-08T11:21:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7745",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Verpflichtung und Pflichtenbelehrung durch den bisherigen Ortsbürgermeister",
+      "created": "2011-11-08T11:21:35+01:00",
+      "modified": "2011-11-08T11:21:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7752",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bildung von Fraktionen und Gruppen",
+      "created": "2011-11-08T11:22:57+01:00",
+      "modified": "2011-11-08T11:22:57+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7753",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Wahl der Ortsbürgermeisterin / des Ortsbürgermeisters",
+      "created": "2011-11-08T11:23:18+01:00",
+      "modified": "2011-11-08T11:23:18+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7754",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Feststellung der Tagesordnung",
+      "created": "2011-11-08T11:23:41+01:00",
+      "modified": "2011-11-08T11:23:41+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7755",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Wahl einer stellvertretenden Ortsbürgermeisterin / eines stellvertretenden Ortsbürgemeisters",
+      "created": "2011-11-08T11:24:14+01:00",
+      "modified": "2011-11-08T11:24:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7756",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Verabschiedung ausgeschiedener Ortsratsmitglieder",
+      "created": "2011-11-08T11:24:39+01:00",
+      "modified": "2011-11-08T11:24:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7757",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Benennung einer Vertreterin / eines Vertreters einschließlich Stellvertretung aus dem Ortsrat für den Kindertagesstättenausschuss des Kindergartens in der Ortschaft Burgstemmen",
+      "created": "2011-11-08T11:25:59+01:00",
+      "modified": "2011-11-08T11:25:59+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7746",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Einwohnerfragestunde",
+      "created": "2011-11-08T11:21:35+01:00",
+      "modified": "2011-11-08T11:21:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7758",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Übernahme der Restkosten für den Bau der Kellertreppe an der Mehrzweckhalle\n- Beratung und Beschlussfassung\n(siehe Anlage)",
+      "created": "2011-11-08T11:26:51+01:00",
+      "modified": "2011-11-08T11:26:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7747",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2011-11-08T11:21:35+01:00",
+      "modified": "2011-11-08T11:21:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7759",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Mitteilungen der Ortsbürgermeisterin / des Ortsbürgermeisters",
+      "created": "2011-11-08T11:45:14+01:00",
+      "modified": "2011-11-08T11:45:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7748",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 15,
+      "name": "Behandlung von schriftlichen Anfragen und Anträgen",
+      "created": "2011-11-08T11:21:35+01:00",
+      "modified": "2011-11-08T11:21:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7750",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 16,
+      "name": "Anregungen",
+      "created": "2011-11-08T11:21:35+01:00",
+      "modified": "2011-11-08T11:21:35+01:00"
+    }
+  ]
+}

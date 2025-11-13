@@ -1,0 +1,56 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1488",
+  "name": "Arbeitsgespräch Rat (24. Sitzung)",
+  "start": "2010-05-20T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5991",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "",
+      "order": 1,
+      "name": "Thema:\nKann Nordstemmen eine gentechnikfreie Gemeinde werden?",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-365",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage zum TOP)",
+          "mimeType": "application/pdf",
+          "date": "2010-05-20",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcUBqNJuBpwoGfdKVgG5Qjgks1XKMK_X7l2FoohuppiN/Anlage_zum_TOP.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcUBqNJuBpwoGfdKVgG5Qjgks1XKMK_X7l2FoohuppiN/Anlage_zum_TOP.pdf",
+          "created": "2010-04-27T18:06:23+02:00",
+          "modified": "2010-04-27T18:06:23+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-375",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Arbeitsgespräch Rat 20.05.2010 19.00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2010-05-20",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZY2BbDgtP1Cv4zr8kJGQdM_lTuMQbMC2CDwINj4iDqn-/Arbeitsgespraech_Rat_20.05.2010_19.00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZY2BbDgtP1Cv4zr8kJGQdM_lTuMQbMC2CDwINj4iDqn-/Arbeitsgespraech_Rat_20.05.2010_19.00_Uhr.pdf",
+          "created": "2010-05-25T13:04:34+02:00",
+          "modified": "2010-05-25T13:04:34+02:00"
+        }
+      ],
+      "created": "2010-04-26T09:57:16+02:00",
+      "modified": "2010-04-26T09:57:16+02:00"
+    }
+  ]
+}

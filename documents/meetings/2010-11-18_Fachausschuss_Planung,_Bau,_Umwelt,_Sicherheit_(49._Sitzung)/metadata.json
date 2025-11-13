@@ -1,0 +1,162 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1541",
+  "name": "Fachausschuss Planung, Bau, Umwelt, Sicherheit (49. Sitzung)",
+  "start": "2010-11-18T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-6"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-5970",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Planung, Bau, Umwelt, Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2010-11-18",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbPqlD5ofocUcSZLUKvS9jsLdo-clliR7P0JZLj1EupF/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_18.11.2010.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbPqlD5ofocUcSZLUKvS9jsLdo-clliR7P0JZLj1EupF/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_18.11.2010.pdf",
+    "created": "2010-11-05T13:00:34+01:00",
+    "modified": "2010-11-05T13:00:34+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6623",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2010-10-29T09:19:44+02:00",
+      "modified": "2010-11-25T14:22:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6624",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2010-10-29T09:19:44+02:00",
+      "modified": "2010-10-29T09:19:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6626",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Einwohnerfragestunde",
+      "created": "2010-10-29T09:19:44+02:00",
+      "modified": "2010-10-29T09:19:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6698",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Straßenausbaumaßnahme \"Düsterer Pump\" in der Ortschaft Adensen im Rahmen der Dorferneuerung\n- Maßnahmenbeschluss\n(DS 69/2010)",
+      "created": "2010-11-04T10:21:26+01:00",
+      "modified": "2010-11-04T10:21:26+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6699",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Ausbauplanung für das Baugebiet \"Barnten-Süd III\"\n- Maßnahmenbeschluss\n(DS 80/2010)",
+      "created": "2010-11-04T10:22:10+01:00",
+      "modified": "2010-11-04T10:22:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6627",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Dorferneuerung Adensen - Hallerburg\n1. Ergänzung des Dorferneuerung-Planes um die Maßnahme \"Dorfstraße\"",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1380",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-6279",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Dorferneuerung Adensen - Hallerburg\n1. Ergänzung des Dorferneuerung-Planes um die Maßnahme \"Dorfstraße\")",
+        "mimeType": "application/pdf",
+        "date": "2010-11-18",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbbk7msU3eTSMAbS679hCummFANF6XZWWDBxufi-FehV/Beschlusstext_DS_54-2010_-oeffentlich-_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_18.11.2010.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbbk7msU3eTSMAbS679hCummFANF6XZWWDBxufi-FehV/Beschlusstext_DS_54-2010_-oeffentlich-_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_18.11.2010.pdf",
+        "created": "2011-01-04T13:05:36+01:00",
+        "modified": "2011-01-04T13:05:36+01:00"
+      },
+      "created": "2010-10-29T09:19:44+02:00",
+      "modified": "2010-11-04T10:24:47+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6700",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bebauungsplan Nr. 0122 \"Innerörtliche Verbindungsstraße / Zuckerfabrik\", 6. Änderung\n- öffentliche Auslegung\n(DS 77/2010)",
+      "created": "2010-11-04T10:22:57+01:00",
+      "modified": "2010-11-04T10:28:29+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6701",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "20. Änderung des Flächennutzungsplanes der Gemeinde Nordstemmen (Obere Wanne)\n- öffentliche Auslegung\n(DS 78/2010)",
+      "created": "2010-11-04T10:23:38+01:00",
+      "modified": "2010-11-04T10:25:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6702",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Bebauungsplan Nr. 0208 \"Obere Wanne\", Ortschaft Adensen\n- öffentliche Auslegung\n(DS 79/2010)",
+      "created": "2010-11-04T10:24:20+01:00",
+      "modified": "2010-11-04T10:25:18+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6628",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2010-10-29T09:19:44+02:00",
+      "modified": "2010-10-29T09:19:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6629",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Behandlung von Anträgen",
+      "created": "2010-10-29T09:19:44+02:00",
+      "modified": "2010-10-29T09:19:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6630",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Behandlung von Anfragen",
+      "created": "2010-10-29T09:19:44+02:00",
+      "modified": "2010-10-29T09:19:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6631",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Anregungen",
+      "created": "2010-10-29T09:19:44+02:00",
+      "modified": "2010-10-29T09:19:44+02:00"
+    }
+  ]
+}

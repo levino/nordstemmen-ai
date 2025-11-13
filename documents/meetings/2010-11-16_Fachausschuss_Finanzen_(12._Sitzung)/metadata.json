@@ -1,0 +1,197 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1545",
+  "name": "Fachausschuss Finanzen (12. Sitzung)",
+  "start": "2010-11-16T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-3"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-5965",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Finanzen, Wirtschaftsförderung und Marketing)",
+    "mimeType": "application/pdf",
+    "date": "2010-11-16",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTlpVuf5lKaQXC9ZlIx2CR0eAOxSqj1CBys68YsmZEn2/Bekanntmachung_Fachausschuss_Finanzen-_Wirtschaftsfoerderung_und_Marketing_16.11.2010.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTlpVuf5lKaQXC9ZlIx2CR0eAOxSqj1CBys68YsmZEn2/Bekanntmachung_Fachausschuss_Finanzen-_Wirtschaftsfoerderung_und_Marketing_16.11.2010.pdf",
+    "created": "2010-11-05T13:00:34+01:00",
+    "modified": "2010-11-05T13:00:34+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6666",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2010-11-04T08:33:55+01:00",
+      "modified": "2010-11-30T14:51:04+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6667",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2010-11-04T08:33:55+01:00",
+      "modified": "2010-11-04T08:33:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6668",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 07.09.2010",
+      "created": "2010-11-04T08:33:55+01:00",
+      "modified": "2010-11-04T08:33:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6669",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2010-11-04T08:33:55+01:00",
+      "modified": "2010-11-04T08:33:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6671",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Haushalt 2011;\nHaushaltssicherungskonzept",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1414",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-6276",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Haushalt 2011;\nHaushaltssicherungskonzept)",
+        "mimeType": "application/pdf",
+        "date": "2010-11-16",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZerVAlqlKO-bjyb7gzrVI_y_pFlw7TCjRKmrRtzHaRAe/Beschlusstext_DS_71-2010_-oeffentlich-_Fachausschuss_Finanzen-_Wirtschaftsfoerderung_und_Marketing_16.11.2010.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZerVAlqlKO-bjyb7gzrVI_y_pFlw7TCjRKmrRtzHaRAe/Beschlusstext_DS_71-2010_-oeffentlich-_Fachausschuss_Finanzen-_Wirtschaftsfoerderung_und_Marketing_16.11.2010.pdf",
+        "created": "2011-01-04T13:05:36+01:00",
+        "modified": "2011-01-04T13:05:36+01:00"
+      },
+      "created": "2010-11-04T08:33:55+01:00",
+      "modified": "2010-11-04T08:34:05+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6672",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Begleitende Beschlüsse zur Eröffnungsbilanz",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1434",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-6277",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Begleitende Beschlüsse zur Eröffnungsbilanz)",
+        "mimeType": "application/pdf",
+        "date": "2010-11-16",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcar_vh7wsDoQq_NYgMYUUnWvXAjqnMY4lXWlvCcjLmL/Beschlusstext_DS_76-2010_-oeffentlich-_Fachausschuss_Finanzen-_Wirtschaftsfoerderung_und_Marketing_16.11.2010.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcar_vh7wsDoQq_NYgMYUUnWvXAjqnMY4lXWlvCcjLmL/Beschlusstext_DS_76-2010_-oeffentlich-_Fachausschuss_Finanzen-_Wirtschaftsfoerderung_und_Marketing_16.11.2010.pdf",
+        "created": "2011-01-04T13:05:36+01:00",
+        "modified": "2011-01-04T13:05:36+01:00"
+      },
+      "created": "2010-11-04T08:33:55+01:00",
+      "modified": "2010-11-04T08:34:12+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6677",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Unterrichtung über Haushaltsüberschreitungen in der Zeit vom 01.01. bis 31.12.2009 gemäß § 89 Abs. 1 Niedersächsische Gemeindeordnung (NGO)\n(DS 67/2010)",
+      "created": "2010-11-04T08:35:41+01:00",
+      "modified": "2010-11-04T08:35:41+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6670",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bekanntgabe des Berichts über die unvermutete örtliche Prüfung der Gemeindekasse Nordstemmen durch das Rechnungsprüfungsamt des Landkreises Hildesheim",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1385",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-6278",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Infotext (Bekanntgabe des Berichts über die unvermutete örtliche Prüfung der Gemeindekasse Nordstemmen durch das Rechnungsprüfungsamt des Landkreises Hildesheim)",
+        "mimeType": "application/pdf",
+        "date": "2010-11-16",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZX5aEDFzxGG4FfdS93qXpD8DVgmg5mO4wvHJlTygi7kD/Infotext_DS_57-2010_-oeffentlich-_Fachausschuss_Finanzen-_Wirtschaftsfoerderung_und_Marketing_16.11.2010.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZX5aEDFzxGG4FfdS93qXpD8DVgmg5mO4wvHJlTygi7kD/Infotext_DS_57-2010_-oeffentlich-_Fachausschuss_Finanzen-_Wirtschaftsfoerderung_und_Marketing_16.11.2010.pdf",
+        "created": "2011-01-04T13:05:36+01:00",
+        "modified": "2011-01-04T13:05:36+01:00"
+      },
+      "created": "2010-11-04T08:33:55+01:00",
+      "modified": "2010-11-04T08:33:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6678",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Unterrichtung über die Aufnahme von Kommunaldarlehen\n(DS 55/2010)",
+      "created": "2010-11-04T08:36:22+01:00",
+      "modified": "2010-11-04T08:36:22+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6679",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Neufassung der Hundesteuersatzung der Gemeinde Nordstemmen\n(DS 46/2010)",
+      "created": "2010-11-04T08:36:55+01:00",
+      "modified": "2010-11-04T08:36:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6704",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2010-11-05T10:58:32+01:00",
+      "modified": "2010-11-05T10:58:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6673",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Behandlung von Anträgen",
+      "created": "2010-11-04T08:33:55+01:00",
+      "modified": "2010-11-04T08:33:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6674",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Behandlung von Anfragen",
+      "created": "2010-11-04T08:33:55+01:00",
+      "modified": "2010-11-04T08:33:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6675",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 15,
+      "name": "Anregungen",
+      "created": "2010-11-04T08:33:55+01:00",
+      "modified": "2010-11-04T08:33:55+01:00"
+    }
+  ]
+}

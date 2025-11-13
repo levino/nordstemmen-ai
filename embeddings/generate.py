@@ -201,8 +201,13 @@ class EmbeddingGenerator:
                 }
         return {}
 
-    def process_pdf(self, filepath: Path) -> bool:
-        """Process a single PDF file. Returns True if skipped, False if processed."""
+    def process_pdf(self, filepath: Path) -> Optional[bool]:
+        """Process a single PDF file.
+        Returns:
+            True if skipped (already processed)
+            False if processed successfully
+            None if failed (no text extracted)
+        """
         filename = filepath.name
         relative_path = str(filepath.relative_to(DOCUMENTS_DIR))
 
@@ -220,7 +225,7 @@ class EmbeddingGenerator:
         pages = self._extract_text_from_pdf(filepath)
         if not pages:
             logger.warning(f"No text extracted from {filename}")
-            return
+            return None  # Failed
 
         # Get metadata
         file_metadata = self._get_metadata_for_file(filename)
@@ -284,22 +289,34 @@ class EmbeddingGenerator:
 
         # Process each PDF with progress bar
         skipped_count = 0
+        failed_count = 0
+        processed_count = 0
+
         with tqdm(pdf_files, desc="Processing", unit="file") as pbar:
             for pdf_file in pbar:
                 try:
                     # Update progress bar with current file
                     filename = pdf_file.name[:50] + '...' if len(pdf_file.name) > 50 else pdf_file.name
 
-                    was_skipped = self.process_pdf(pdf_file)
-                    if was_skipped:
+                    result = self.process_pdf(pdf_file)
+
+                    if result is True:
                         skipped_count += 1
+                    elif result is False:
+                        processed_count += 1
+                    elif result is None:
+                        failed_count += 1
 
                     # Update display with current stats
-                    pbar.set_postfix_str(f"Skipped: {skipped_count} | {filename}")
+                    pbar.set_postfix_str(f"Processed: {processed_count} | Skipped: {skipped_count} | Failed: {failed_count} | {filename}")
                 except Exception as e:
                     logger.error(f"Error: {pdf_file.name}: {e}")
+                    failed_count += 1
 
-        print(f"\n✅ Processing complete! (Skipped {skipped_count} already processed)")
+        print(f"\n✅ Processing complete!")
+        print(f"   Processed: {processed_count}")
+        print(f"   Skipped: {skipped_count} (already processed)")
+        print(f"   Failed: {failed_count} (no text extracted)")
 
 
 def main():

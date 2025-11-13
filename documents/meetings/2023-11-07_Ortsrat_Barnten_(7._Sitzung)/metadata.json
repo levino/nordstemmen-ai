@@ -1,0 +1,230 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5346",
+  "name": "Ortsrat Barnten (7. Sitzung)",
+  "start": "2023-11-07T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-5",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Barnten, Glückaufstraße 1, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Glückaufstraße 1",
+    "room": "Dorfgemeinschaftshaus Barnten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Barnten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:29:00+02:00",
+    "modified": "2019-06-06T11:57:52+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-10"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-37544",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2023-11-07",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZe7LyhE_-IWnGmhr7vtbSAnU_zaFXAbRO4FdbwUgwa8p/Bekanntmachung_Ortsrat_Barnten_07.11.2023.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZe7LyhE_-IWnGmhr7vtbSAnU_zaFXAbRO4FdbwUgwa8p/Bekanntmachung_Ortsrat_Barnten_07.11.2023.pdf",
+    "created": "2023-10-26T13:00:02+02:00",
+    "modified": "2023-10-26T13:00:02+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-38161",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2023-11-07",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdG4wGRIy93nzxmS065p3RoAkQiC5VI-J1QQwshYnqou/Oeffentliche_Niederschrift_Ortsrat_Barnten_07.11.2023.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdG4wGRIy93nzxmS065p3RoAkQiC5VI-J1QQwshYnqou/Oeffentliche_Niederschrift_Ortsrat_Barnten_07.11.2023.pdf",
+    "created": "2023-12-21T19:00:09+01:00",
+    "modified": "2023-12-21T19:00:09+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21566",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2023-09-14T13:42:47+02:00",
+      "modified": "2023-09-14T13:42:47+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21567",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2023-09-14T13:42:47+02:00",
+      "modified": "2023-09-14T13:42:47+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21568",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 16. Mai 2023",
+      "created": "2023-09-14T13:42:47+02:00",
+      "modified": "2023-09-14T13:42:47+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21572",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Mitteilungen der Verwaltung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6523",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 3 Fahrradkäfig Barnten)",
+          "mimeType": "application/pdf",
+          "date": "2023-11-07",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQ3S-tSHWs9Suyd6RmBN7Uc8lUKBABJ01nIi6prhHDqW/Anlage_3_Fahrradkaefig_Barnten.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQ3S-tSHWs9Suyd6RmBN7Uc8lUKBABJ01nIi6prhHDqW/Anlage_3_Fahrradkaefig_Barnten.pdf",
+          "created": "2023-12-21T19:00:09+01:00",
+          "modified": "2023-12-21T19:00:09+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6524",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 4 Verwarnungen in Barnten)",
+          "mimeType": "application/pdf",
+          "date": "2023-11-07",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTb_ssM-6FaVFkacRJL4l88llFskMSKeJDjIroe6QovB/Anlage_4_Verwarnungen_in_Barnten.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTb_ssM-6FaVFkacRJL4l88llFskMSKeJDjIroe6QovB/Anlage_4_Verwarnungen_in_Barnten.pdf",
+          "created": "2023-12-21T19:00:09+01:00",
+          "modified": "2023-12-21T19:00:09+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6525",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 5 Spielplatz Weststraße)",
+          "mimeType": "application/pdf",
+          "date": "2023-11-07",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQ7Pm8fYJiKnnQYdy9snps2kM21ssgk1b2IoXVM1bhgi/Anlage_5_Spielplatz_Weststrasse.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQ7Pm8fYJiKnnQYdy9snps2kM21ssgk1b2IoXVM1bhgi/Anlage_5_Spielplatz_Weststrasse.pdf",
+          "created": "2023-12-21T19:00:09+01:00",
+          "modified": "2023-12-21T19:00:09+01:00"
+        }
+      ],
+      "created": "2023-09-14T13:42:47+02:00",
+      "modified": "2023-10-12T13:50:45+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21570",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2023-09-14T13:42:47+02:00",
+      "modified": "2023-10-12T13:50:53+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21574",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bestandsaufnahme im Rahmen der Neuaufstellung des Flächennutzungsplans\n(Vorstellung der Ergebnisse und Austausch)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6532",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zu TOP 5)",
+          "mimeType": "application/pdf",
+          "date": "2023-11-07",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTG2-_r4NDAh0a70UgSpA4OmDK_KV53ZGYGT1zNdPAga/Anlage_1_zu_TOP_5.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTG2-_r4NDAh0a70UgSpA4OmDK_KV53ZGYGT1zNdPAga/Anlage_1_zu_TOP_5.pdf",
+          "created": "2023-12-21T19:00:09+01:00",
+          "modified": "2023-12-21T19:00:09+01:00"
+        }
+      ],
+      "created": "2023-09-14T13:43:47+02:00",
+      "modified": "2023-09-14T13:43:47+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21665",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Beratung über die Verkehrssicherheit am Kreisel von der Grundschule nach Rössing",
+      "created": "2023-10-12T13:41:33+02:00",
+      "modified": "2023-10-12T13:41:33+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21664",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Standorte für die Pflanzung weiterer Bäume\n- Beratung und Beschlussfassung",
+      "created": "2023-10-12T13:40:42+02:00",
+      "modified": "2023-10-12T13:40:42+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21666",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Einladung eines Mitgliedes des Jugendparlaments aus dem Landkreis Hildesheim zu einer der nächsten Ortsratssitzungen\n- Beratung und Beschlussfassung",
+      "created": "2023-10-12T13:48:40+02:00",
+      "modified": "2023-10-12T13:48:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21667",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Verwendung von noch vorhandenen Ortsratsmitteln im Haushaltsjahr 2023",
+      "created": "2023-10-12T13:50:14+02:00",
+      "modified": "2023-10-12T13:50:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21668",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anhörung zum Haushaltsplan 2024 und zum Investitionsprogramm bis 2027 für die Ortschaft Barnten",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7824",
+      "result": "Zustimmend zur Kenntnis genommen",
+      "created": "2023-10-12T13:54:18+02:00",
+      "modified": "2023-10-12T13:54:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21571",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6526",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2 Mitteilungen)",
+          "mimeType": "application/pdf",
+          "date": "2023-11-07",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUKn8HocQnAlBtrPVQVSPyUQzh3sqLw-SdOug4awMOIz/Anlage_2_Mitteilungen.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUKn8HocQnAlBtrPVQVSPyUQzh3sqLw-SdOug4awMOIz/Anlage_2_Mitteilungen.pdf",
+          "created": "2023-12-21T19:00:09+01:00",
+          "modified": "2023-12-21T19:00:09+01:00"
+        }
+      ],
+      "created": "2023-09-14T13:42:47+02:00",
+      "modified": "2023-09-14T13:42:47+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21569",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Anfragen und Anregungen",
+      "created": "2023-09-14T13:42:47+02:00",
+      "modified": "2023-10-12T13:52:40+02:00"
+    }
+  ]
+}

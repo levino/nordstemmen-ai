@@ -1,0 +1,200 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2880",
+  "name": "Ortsrat Mahlerten (3. Sitzung)",
+  "start": "2017-05-30T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-10",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Mahlerten, Leunisstraße 16, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Leunisstraße 16",
+    "room": "Dorfgemeinschaftshaus Mahlerten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Mahlerten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T12:00:53+02:00",
+    "modified": "2019-06-06T11:57:30+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-17"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-18975",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2017-05-30",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSpMqOX7uvQ5bdFZ4tKUc1OO219vSHfTaI1JhwHTJOsw/Bekanntmachung_Ortsrat_Mahlerten_30.05.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSpMqOX7uvQ5bdFZ4tKUc1OO219vSHfTaI1JhwHTJOsw/Bekanntmachung_Ortsrat_Mahlerten_30.05.2017.pdf",
+    "created": "2017-05-22T19:01:09+02:00",
+    "modified": "2017-05-22T19:01:09+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-19262",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2017-05-30",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQxkE-8BtnWnUmvlMyMMHhPXaPxmdmZStQ8V7gycayCX/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_30.05.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQxkE-8BtnWnUmvlMyMMHhPXaPxmdmZStQ8V7gycayCX/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_30.05.2017.pdf",
+    "created": "2017-06-13T19:00:44+02:00",
+    "modified": "2017-11-24T13:01:11+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14126",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2017-05-22T09:13:07+02:00",
+      "modified": "2017-05-22T09:13:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14127",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2017-05-22T09:13:07+02:00",
+      "modified": "2017-05-22T09:13:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14128",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 16.02.2017",
+      "created": "2017-05-22T09:13:07+02:00",
+      "modified": "2017-05-22T09:13:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14131",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2017-05-22T09:13:07+02:00",
+      "modified": "2017-05-22T09:41:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14144",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht des Ortsrates über die Fragen der letzten Ortsratssitzungen",
+      "created": "2017-05-22T09:42:43+02:00",
+      "modified": "2017-05-22T09:42:43+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14129",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohnerfragestunde",
+      "created": "2017-05-22T09:13:07+02:00",
+      "modified": "2017-05-22T09:13:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14130",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2018 sowie für die mittelfristige Finanzplanung 2019 bis 2021",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3833",
+      "created": "2017-05-22T09:13:07+02:00",
+      "modified": "2017-05-22T09:13:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14145",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Verlegung des Altpapiercontainerstandortes an der Einmündung \"Am Kastenborn / Hainholzfeld\"\n- Beratung und Beschlussfassung",
+      "created": "2017-05-22T09:44:05+02:00",
+      "modified": "2017-05-22T09:44:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14146",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Benennung von Wegen in der Gemarkung Mahlerten;\na) Weg zwischen \"Rohrbusch\" und \"Am Kastenborn\" - StrNr. Ma 015 -\nb) Weg am östlichen Ortsrand (zwischen B 1 und Breslauer Straße) - StrNr. Ma 016 -\n- Beratung und Beschlussfassung",
+      "created": "2017-05-22T09:46:38+02:00",
+      "modified": "2017-05-22T09:46:38+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14147",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Straßenverkehrsangelegenheiten\na) Ampelschaltung im Kreuzungsbereich \"B 1, Leunisstraße, Im Markfelde\",\nb) Installation einer Vorschaltampel/eines Vorschaltblinklichtes vor der Ampelkreuzung \"B 1, Leunisstraße, Im Markfelde\" aus östlicher Richtung,\nc) Verdeutlichung der Regelung \"Rechts vor Links\" im Kreuzungsbereich \"Leunisstraße, Am Kastenborn, Breslauer Straße\"\n- Beratung und Empfehlung",
+      "created": "2017-05-22T09:50:04+02:00",
+      "modified": "2017-05-22T09:50:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14148",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Reparatur-Tag\n- Beratung und Beschlussfassung",
+      "created": "2017-05-22T09:50:48+02:00",
+      "modified": "2017-05-22T09:50:48+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14149",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Bericht Ortsheimatpfleger",
+      "created": "2017-05-22T09:51:06+02:00",
+      "modified": "2017-05-22T09:51:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14150",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Verabschiedung der bisherigen Schiedsperson",
+      "created": "2017-05-22T09:51:40+02:00",
+      "modified": "2017-05-22T09:51:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14153",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Wahl einer Schiedsperson für den Schiedsamtsbezirk Mahlerten in der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3892",
+      "created": "2017-05-22T10:43:25+02:00",
+      "modified": "2017-05-22T10:43:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14152",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Begrüßung der Neubürger durch den Ortsrat\n- Beratung und Beschlussfassung",
+      "created": "2017-05-22T09:59:20+02:00",
+      "modified": "2017-05-22T09:59:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14132",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2017-05-22T09:13:07+02:00",
+      "modified": "2017-05-22T09:13:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14133",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 17,
+      "name": "Anträge und Anfragen",
+      "created": "2017-05-22T09:13:07+02:00",
+      "modified": "2017-05-22T09:13:07+02:00"
+    }
+  ]
+}

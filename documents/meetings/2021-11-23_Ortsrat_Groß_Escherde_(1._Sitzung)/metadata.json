@@ -1,0 +1,268 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4780",
+  "name": "Ortsrat Groß Escherde (1. Sitzung)",
+  "start": "2021-11-23T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-12",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Groß Escherde, Schulstraße 9 a, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Schulstraße 9 a",
+    "room": "Dorfgemeinschaftshaus Groß Escherde, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Groß Escherde",
+    "locality": "Nordstemmen",
+    "created": "2005-04-07T10:37:20+02:00",
+    "modified": "2019-06-06T11:57:41+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-14"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-32530",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2021-11-23",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQXM0SdxULJMkofBfvcMWSmUwb973WiZPPA21vdR9fGY/Bekanntmachung_Ortsrat_Gross_Escherde_23.11.2021.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQXM0SdxULJMkofBfvcMWSmUwb973WiZPPA21vdR9fGY/Bekanntmachung_Ortsrat_Gross_Escherde_23.11.2021.pdf",
+    "created": "2021-11-11T09:39:59+01:00",
+    "modified": "2021-11-11T09:39:59+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-33063",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2021-11-23",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfNz-ulfrWVOlSOrE7fhJjvCUSBFQ8QWfvD373c3-nRy/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_23.11.2021.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfNz-ulfrWVOlSOrE7fhJjvCUSBFQ8QWfvD373c3-nRy/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_23.11.2021.pdf",
+    "created": "2022-01-19T13:00:22+01:00",
+    "modified": "2022-01-19T13:00:22+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19005",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2021-10-04T11:49:18+02:00",
+      "modified": "2021-10-04T11:49:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19006",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit",
+      "created": "2021-10-04T11:49:18+02:00",
+      "modified": "2021-10-04T11:49:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19198",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Verpflichtung und Pflichtenbelehrung durch den bisherigen Ortsbürgermeister",
+      "created": "2021-11-08T10:03:38+01:00",
+      "modified": "2021-11-08T10:03:38+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19202",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bekanntgabe der Bildung von Fraktionen und Gruppen",
+      "created": "2021-11-08T10:07:00+01:00",
+      "modified": "2021-11-08T10:07:00+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19199",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Wahl der Ortsbürgermeisterin/des Ortsbürgermeisters",
+      "created": "2021-11-08T10:05:10+01:00",
+      "modified": "2021-11-08T10:33:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19200",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Feststellung der Tagesordnung",
+      "created": "2021-11-08T10:05:29+01:00",
+      "modified": "2021-11-08T10:33:33+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19201",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Wahl von zwei gleichberechtigten stellvertretenden Ortsbürgermeisterinnen/stellvertretenden Ortsbürgermeistern",
+      "created": "2021-11-08T10:06:28+01:00",
+      "modified": "2021-11-08T10:33:40+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19203",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Verabschiedung ausgeschiedener Ortsratsmitglieder",
+      "created": "2021-11-08T10:07:45+01:00",
+      "modified": "2021-11-08T10:07:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19204",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Benennung einer Vertreterin/eines Vertreters einschließlich Stellvertretung aus dem Ortsrat für den Kindertagesstättenausschuss des Kindergartens Groß Escherde",
+      "created": "2021-11-08T10:08:47+01:00",
+      "modified": "2021-11-08T10:08:47+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19208",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Auswertung der Geschwindigkeitsmessgeräte",
+      "created": "2021-11-08T10:20:58+01:00",
+      "modified": "2021-11-08T14:58:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19207",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Änderungen im Winterdienst der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7193",
+      "created": "2021-11-08T10:15:51+01:00",
+      "modified": "2021-11-09T11:01:44+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19209",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Verabschiedung des Schiedsmannes",
+      "created": "2021-11-08T10:21:55+01:00",
+      "modified": "2021-11-08T10:35:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19210",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Begrüßung der neuen Schiedsfrau",
+      "created": "2021-11-08T10:22:28+01:00",
+      "modified": "2021-11-08T10:35:30+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19008",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Bericht bzw. Mitteilungen der Bürgermeisterin",
+      "created": "2021-10-04T11:49:18+02:00",
+      "modified": "2021-11-08T10:34:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19009",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin/des Ortsbürgermeisters",
+      "created": "2021-10-04T11:49:18+02:00",
+      "modified": "2021-11-08T10:18:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19010",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Einwohnerfragestunde",
+      "created": "2021-10-04T11:49:18+02:00",
+      "modified": "2021-11-08T10:19:43+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19211",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 17,
+      "name": "Aufstellung der Geschwindigkeitsmessgeräte",
+      "created": "2021-11-08T10:23:05+01:00",
+      "modified": "2021-11-08T10:23:05+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19205",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 18,
+      "name": "Verwendung von im Haushaltsjahr 2021 noch zur Verfügung stehenden Ortsratsmitteln",
+      "created": "2021-11-08T10:10:14+01:00",
+      "modified": "2021-11-08T10:10:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19206",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "18",
+      "order": 19,
+      "name": "Anhörung zum Haushaltsplanentwurf 2022 und zum Investitionsprogramm bis 2025 für die Ortschaft Groß Escherde",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7212",
+      "created": "2021-11-08T10:15:35+01:00",
+      "modified": "2021-11-08T10:15:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19212",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "19",
+      "order": 20,
+      "name": "Veranstaltungen 2021",
+      "created": "2021-11-08T10:23:55+01:00",
+      "modified": "2021-11-08T10:23:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19213",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "20",
+      "order": 21,
+      "name": "Veranstaltungen 2022",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5357",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Groß Escherde Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2021-11-23",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQWpqrz57yo1oDoCB5xMFdrICb6s7Uje2j-uzfCLsHty/OR_Gross_Escherde_Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQWpqrz57yo1oDoCB5xMFdrICb6s7Uje2j-uzfCLsHty/OR_Gross_Escherde_Anlage_1.pdf",
+          "created": "2022-01-19T13:00:22+01:00",
+          "modified": "2022-01-19T13:00:22+01:00"
+        }
+      ],
+      "created": "2021-11-08T10:24:07+01:00",
+      "modified": "2021-11-08T10:24:07+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19214",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "21",
+      "order": 22,
+      "name": "Veranstaltungen 2023",
+      "created": "2021-11-08T10:24:28+01:00",
+      "modified": "2021-11-08T10:24:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19011",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "22",
+      "order": 23,
+      "name": "Anträge und Anfragen",
+      "created": "2021-10-04T11:49:18+02:00",
+      "modified": "2021-10-04T11:49:18+02:00"
+    }
+  ]
+}

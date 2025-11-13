@@ -1,0 +1,297 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4040",
+  "name": "Ortsrat Barnten (6. Sitzung)",
+  "start": "2018-02-15T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-5",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Barnten, Glückaufstraße 1, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Glückaufstraße 1",
+    "room": "Dorfgemeinschaftshaus Barnten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Barnten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:29:00+02:00",
+    "modified": "2019-06-06T11:57:52+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-10"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-23168",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2018-02-15",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcTtoZHY1klLOMxY0WXgnryE9AYc43FH4z_qQM33MaPD/Bekanntmachung_Ortsrat_Barnten_15.02.2018.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcTtoZHY1klLOMxY0WXgnryE9AYc43FH4z_qQM33MaPD/Bekanntmachung_Ortsrat_Barnten_15.02.2018.pdf",
+    "created": "2018-02-01T19:01:45+01:00",
+    "modified": "2018-02-07T13:00:44+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-23552",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2018-02-15",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVEivJS3iKUDEw4AK3ms4lgj6R83KJfMTfz9ifrZthgp/Oeffentliche_Niederschrift_Ortsrat_Barnten_15.02.2018.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVEivJS3iKUDEw4AK3ms4lgj6R83KJfMTfz9ifrZthgp/Oeffentliche_Niederschrift_Ortsrat_Barnten_15.02.2018.pdf",
+    "created": "2018-02-28T13:00:46+01:00",
+    "modified": "2018-02-28T13:00:46+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15023",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2018-01-31T09:08:19+01:00",
+      "modified": "2018-01-31T09:08:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15024",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2018-01-31T09:08:19+01:00",
+      "modified": "2018-01-31T09:08:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15025",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 09. November 2017",
+      "created": "2018-01-31T09:08:19+01:00",
+      "modified": "2018-01-31T09:08:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15026",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2018-01-31T09:08:19+01:00",
+      "modified": "2018-01-31T09:08:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15027",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-3941",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Barnten Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2018-02-15",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRLCFfR7paaEjG3gTwS-N5JwgyuLMyZX27fdva_CIYOF/OR_Barnten_Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRLCFfR7paaEjG3gTwS-N5JwgyuLMyZX27fdva_CIYOF/OR_Barnten_Anlage_1.pdf",
+          "created": "2018-02-27T19:01:24+01:00",
+          "modified": "2018-02-27T19:01:24+01:00"
+        }
+      ],
+      "created": "2018-01-31T09:08:19+01:00",
+      "modified": "2018-01-31T09:08:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15089",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "B-Plan 0307 \"Barnten-Süd IV\"\n- Vorstellung verschiedener Entwurfsvarianten",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-3978",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 7 gleichzeitig Variante A)",
+          "mimeType": "application/pdf",
+          "date": "2018-02-15",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdZ985fa-cm1z5xpa-vEjwz7p9RSRAU9q4kJ0jgSkmYm/Anlage_7_gleichzeitig_Variante_A.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdZ985fa-cm1z5xpa-vEjwz7p9RSRAU9q4kJ0jgSkmYm/Anlage_7_gleichzeitig_Variante_A.pdf",
+          "created": "2018-03-16T13:00:40+01:00",
+          "modified": "2018-03-16T13:00:40+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-3979",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Variante 6 gleichzeitig Variante B)",
+          "mimeType": "application/pdf",
+          "date": "2018-02-15",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZelj5tKyoxocssQbLzdE2FUfWsM_y33wHdtLXQy-Rfbk/Variante_6_gleichzeitig_Variante_B.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZelj5tKyoxocssQbLzdE2FUfWsM_y33wHdtLXQy-Rfbk/Variante_6_gleichzeitig_Variante_B.pdf",
+          "created": "2018-03-16T13:00:40+01:00",
+          "modified": "2018-03-16T13:00:40+01:00"
+        }
+      ],
+      "created": "2018-02-07T11:49:19+01:00",
+      "modified": "2018-02-07T11:49:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15028",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Potenzielle Hotspot-Standorte im Rahmen der EU-Förderung (WIFI4EU)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6096",
+      "result": "einstimmig/abweichender Beschluss",
+      "created": "2018-01-31T09:08:19+01:00",
+      "modified": "2018-01-31T09:08:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15032",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bericht über das Ergebnis der Bürgerbefragung, Veranstaltung vom 20.01.2018\n(Ausführungen werden in der Sitzung gemacht)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-3948",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ergebnisse der Befragung)",
+          "mimeType": "application/pdf",
+          "date": "2018-02-15",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfao6GrB6pM1apW0CV2qFeQbFSXfKtu2-QuW3N0iczHi/Ergebnisse_der_Befragung.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfao6GrB6pM1apW0CV2qFeQbFSXfKtu2-QuW3N0iczHi/Ergebnisse_der_Befragung.pdf",
+          "created": "2018-02-27T19:01:24+01:00",
+          "modified": "2018-02-27T19:01:24+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-3949",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Auswertung Fragebo¨gen)",
+          "mimeType": "application/pdf",
+          "date": "2018-02-15",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZccUNTG_lIZB5E2fzgNax0Rj7ErTovPpx2ufqePwqkA0/Auswertung_Fragebo--gen.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZccUNTG_lIZB5E2fzgNax0Rj7ErTovPpx2ufqePwqkA0/Auswertung_Fragebo--gen.pdf",
+          "created": "2018-02-27T19:01:24+01:00",
+          "modified": "2018-02-27T19:01:24+01:00"
+        }
+      ],
+      "created": "2018-01-31T09:09:53+01:00",
+      "modified": "2018-01-31T09:09:53+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15033",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht über die Ortsbegehung am 7. Februar 2018\n(Ausführungen werden in der Sitzung gemacht)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-3942",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Barnten Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2018-02-15",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVn1CuGT81lAECR11WyAkjiQD458wDJG-DUGiUHf4ePL/OR_Barnten_Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVn1CuGT81lAECR11WyAkjiQD458wDJG-DUGiUHf4ePL/OR_Barnten_Anlage_2.pdf",
+          "created": "2018-02-27T19:01:24+01:00",
+          "modified": "2018-02-27T19:01:24+01:00"
+        }
+      ],
+      "created": "2018-01-31T09:10:41+01:00",
+      "modified": "2018-01-31T09:10:41+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15034",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Verwendung der im Haushaltsjahr 2018 zur Verfügung stehenden Ortsratsmittel\n(Ausführungen werden in der Sitzung gemacht)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-3943",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Barnten Anlage 3)",
+          "mimeType": "application/pdf",
+          "date": "2018-02-15",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXWg5nKaGLQ4eP9oEaZh8AHKpYOjQvdFpC_5mX32OqvT/OR_Barnten_Anlage_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXWg5nKaGLQ4eP9oEaZh8AHKpYOjQvdFpC_5mX32OqvT/OR_Barnten_Anlage_3.pdf",
+          "created": "2018-02-27T19:01:24+01:00",
+          "modified": "2018-02-27T19:01:24+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-3944",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Barnten Anlage 4)",
+          "mimeType": "application/pdf",
+          "date": "2018-02-15",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZrKepdA4qhyUzdbG7HvBXnZ54ibmYZQkRIT8s4-9IWs/Ortsrat_Barnten_Anlage_4.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZrKepdA4qhyUzdbG7HvBXnZ54ibmYZQkRIT8s4-9IWs/Ortsrat_Barnten_Anlage_4.pdf",
+          "created": "2018-02-27T19:01:24+01:00",
+          "modified": "2018-02-27T19:01:24+01:00"
+        }
+      ],
+      "created": "2018-01-31T09:11:51+01:00",
+      "modified": "2018-01-31T09:11:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15035",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Teilnahme am Dorfwettbewerb \"Unser Dorf hat Zukunft\"\n- Beratung und Beschlussfassung\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2018-01-31T09:13:03+01:00",
+      "modified": "2018-01-31T09:13:03+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15036",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Veranstaltung für neu hinzugezogene Einwohner/innen\n- Beratung und Beschlussfassung\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2018-01-31T09:13:41+01:00",
+      "modified": "2018-01-31T09:13:41+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15037",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Durchführung des Umwelttages am 7. April 2018\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2018-01-31T09:14:15+01:00",
+      "modified": "2018-01-31T09:14:15+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15038",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Verkehrs- und Parksituation in der Straße \"Landrat-Böllersen\"\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2018-01-31T09:14:50+01:00",
+      "modified": "2018-01-31T09:14:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15029",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2018-01-31T09:08:19+01:00",
+      "modified": "2018-01-31T09:08:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15030",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Anträge und Anfragen",
+      "created": "2018-01-31T09:08:19+01:00",
+      "modified": "2018-01-31T09:08:19+01:00"
+    }
+  ]
+}

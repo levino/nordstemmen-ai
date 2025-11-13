@@ -1,0 +1,220 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2997",
+  "name": "Rat (8. Sitzung)",
+  "start": "2017-12-19T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-27",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Landhaus Adensen, Am Pfarrkamp 13 - 13 a, 31171 Nordstemmen, Saal",
+    "streetAddress": "Am Pfarrkamp 13 - 13 a",
+    "room": "Landhaus Adensen, Saal",
+    "postalCode": "31171",
+    "subLocality": "Adensen",
+    "locality": "Nordstemmen",
+    "created": "2014-11-27T08:38:26+01:00",
+    "modified": "2017-08-31T09:05:44+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-22836",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2017-12-19",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTo8GrbpXPTSmoj6Qq-2XSojhrGkfcpgRx1ukkw1bbx4/Bekanntmachung_Rat_19.12.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTo8GrbpXPTSmoj6Qq-2XSojhrGkfcpgRx1ukkw1bbx4/Bekanntmachung_Rat_19.12.2017.pdf",
+    "created": "2017-12-05T19:01:27+01:00",
+    "modified": "2017-12-05T19:01:27+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-23101",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2017-12-19",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeNYqh6fAWkI0scWRUDQCH7VZGBX-1bKpW9_V3Im_1Lm/Oeffentliche_Niederschrift_Rat_19.12.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeNYqh6fAWkI0scWRUDQCH7VZGBX-1bKpW9_V3Im_1Lm/Oeffentliche_Niederschrift_Rat_19.12.2017.pdf",
+    "created": "2018-01-25T13:01:39+01:00",
+    "modified": "2018-01-25T13:01:39+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14882",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2017-12-01T08:16:09+01:00",
+      "modified": "2017-12-01T08:16:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14883",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2017-12-01T08:16:09+01:00",
+      "modified": "2017-12-01T08:16:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14884",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung des Rates vom 28. November 2017",
+      "created": "2017-12-01T08:16:09+01:00",
+      "modified": "2017-12-01T08:16:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14885",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht des Bürgermeisters über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-3962",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Bericht des Bürgermeisters)",
+          "mimeType": "application/pdf",
+          "date": "2017-12-19",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZagoEgBQVLaC--J84bMwhDGtfaVIxO3HYdX4df4ayC8P/Bericht_des_Buergermeisters.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZagoEgBQVLaC--J84bMwhDGtfaVIxO3HYdX4df4ayC8P/Bericht_des_Buergermeisters.pdf",
+          "created": "2018-03-06T11:05:03+01:00",
+          "modified": "2018-03-06T11:05:03+01:00"
+        }
+      ],
+      "created": "2017-12-01T08:16:09+01:00",
+      "modified": "2017-12-01T08:16:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14886",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2017-12-01T08:16:09+01:00",
+      "modified": "2017-12-01T08:16:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15191",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Tätigkeitsbericht Gleichstellungsbeauftragte",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-3964",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Tätigkeitsbericht Gleichstellungsbeauftragte)",
+          "mimeType": "application/pdf",
+          "date": "2017-12-19",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZOEpnSJNQlZDK8toPtuK9CU5Udck3gqXZ7473q6pART/Taetigkeitsbericht_Gleichstellungsbeauftragte.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZOEpnSJNQlZDK8toPtuK9CU5Udck3gqXZ7473q6pART/Taetigkeitsbericht_Gleichstellungsbeauftragte.pdf",
+          "created": "2018-03-06T11:26:50+01:00",
+          "modified": "2018-03-06T11:26:50+01:00"
+        }
+      ],
+      "created": "2018-03-06T11:20:52+01:00",
+      "modified": "2018-03-06T11:20:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14887",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bekanntgabe des Berichts über die unvermutete örtliche Prüfung der Gemeindekasse Nordstemmen durch das Rechnungsprüfungsamt des Landkreises Hildesheim",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6069",
+      "created": "2017-12-01T08:16:09+01:00",
+      "modified": "2017-12-01T08:16:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14888",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Beschlussfassung über den Jahresabschluss 2014 der Gemeinde Nordstemmen;\nEntlastung des Bürgermeisters für den Jahresabschluss 2014;\nVerwendung des Jahresergebnisses 2014",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6072",
+      "result": "zu a) einstimmig, zu b) einstimmig/eine Enthaltung, zu c) einstimmig",
+      "created": "2017-12-01T08:16:09+01:00",
+      "modified": "2017-12-01T08:16:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14908",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Zustimmung zu einer außerplanmäßigen Aufwendung für die Bildung einer Rückstellung im Rahmen des Jahresabschlusses 2015 zur Begleichung der Aufwendungen für die Kreisumlage 2016\nBeschlussfassung über den Jahresabschluss 2015 der Gemeinde Nordstemmen;\nEntlastung des Bürgermeisters für den Jahresabschluss 2015;\nVerwendung des Jahresergebnisses 2015",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6076",
+      "result": "zu a) einstimmig, zu b) einstimmig, zu c) einstimmig/eine Enthaltung, zu d) einstimmig",
+      "created": "2017-12-01T13:05:02+01:00",
+      "modified": "2017-12-01T13:05:07+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14909",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Unterrichtung über die Veränderungen von Kommunaldarlehen gemäß § 7 der Richtlinie der Gemeinde Nordstemmen für die Aufnahme von Krediten und zur Umschuldung von Krediten vom 01.11.2011",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6080",
+      "created": "2017-12-01T13:05:13+01:00",
+      "modified": "2017-12-01T13:05:18+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14910",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Verfahren für die Veräußerung eines Grundstücks",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6082",
+      "result": "einstimmig lt. Beschlussvorschlag",
+      "created": "2017-12-01T13:05:27+01:00",
+      "modified": "2017-12-01T13:05:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14917",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Abschluss einer Vereinbarung zur interkommunalen Zusammenarbeit im Bereich Kultur",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6087",
+      "result": "mehrheitlich bei 18 Ja-Stimmen, 6 Nein-Stimmen, 2 Enthaltungen",
+      "created": "2017-12-04T13:38:53+01:00",
+      "modified": "2017-12-04T13:38:53+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14918",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Antrag von Herr Lassen zur Behandlung von Anträgen nach § 56 NKomVG ",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6090",
+      "result": "einstimmig",
+      "created": "2017-12-04T13:39:03+01:00",
+      "modified": "2017-12-04T13:39:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14889",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Mitteilungen bzw. Bericht des Bürgermeisters",
+      "created": "2017-12-01T08:16:09+01:00",
+      "modified": "2017-12-01T08:16:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14890",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Anträge und Anfragen",
+      "created": "2017-12-01T08:16:09+01:00",
+      "modified": "2017-12-01T08:16:09+01:00"
+    }
+  ]
+}

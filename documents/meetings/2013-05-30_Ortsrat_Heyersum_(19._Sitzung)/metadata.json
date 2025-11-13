@@ -1,0 +1,218 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2065",
+  "name": "Ortsrat Heyersum (19. Sitzung)",
+  "start": "2013-05-30T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-8",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Altes Schulhaus Heyersum, Martin-Luther-Platz 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Martin-Luther-Platz 3",
+    "room": "Altes Schulhaus Heyersum, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Heyersum",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:37:30+02:00",
+    "modified": "2019-10-24T16:49:00+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-13"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-10093",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2013-05-30",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTE367SkwaP5xDbfdlI1YBKWZyhLNvXhnGKIjPqrCmfZ/Bekanntmachung_Ortsrat_Heyersum_30.05.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTE367SkwaP5xDbfdlI1YBKWZyhLNvXhnGKIjPqrCmfZ/Bekanntmachung_Ortsrat_Heyersum_30.05.2013.pdf",
+    "created": "2013-05-17T13:00:20+02:00",
+    "modified": "2013-05-17T13:00:20+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-10247",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2013-05-30",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZT_68GreBbPl0W46GNC-29krqg4puyC-EAMimZQsULcW/Oeffentliche_Niederschrift_Ortsrat_Heyersum_30.05.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZT_68GreBbPl0W46GNC-29krqg4puyC-EAMimZQsULcW/Oeffentliche_Niederschrift_Ortsrat_Heyersum_30.05.2013.pdf",
+    "created": "2013-07-02T13:02:59+02:00",
+    "modified": "2013-07-02T13:02:59+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9783",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2013-05-17T09:36:45+02:00",
+      "modified": "2013-05-17T09:36:45+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9784",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2013-05-17T09:36:45+02:00",
+      "modified": "2013-05-17T09:36:45+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9785",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 6. März 2013",
+      "created": "2013-05-17T09:36:45+02:00",
+      "modified": "2013-05-17T09:36:45+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9786",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2013-05-17T09:36:45+02:00",
+      "modified": "2013-05-17T09:36:45+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9793",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Antrag für die Beschaffung einer neuen Teichpumpe\n- Beratung und Beschlussfassung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-937",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage_1)",
+          "mimeType": "application/pdf",
+          "date": "2013-05-30",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZf-yq9O93BrU-_4Ksl67DOCOZZNDv1Hf4jkqF12ghzbO/Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZf-yq9O93BrU-_4Ksl67DOCOZZNDv1Hf4jkqF12ghzbO/Anlage_1.pdf",
+          "created": "2013-06-12T13:05:58+02:00",
+          "modified": "2013-06-12T13:05:58+02:00"
+        }
+      ],
+      "created": "2013-05-17T09:39:22+02:00",
+      "modified": "2013-05-17T09:39:22+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9794",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Ortswegweiser Heyersum\n- Anfrage zur Erneuerung",
+      "created": "2013-05-17T09:39:52+02:00",
+      "modified": "2013-05-17T09:39:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9787",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Anhörung zur Aufstellung der Vorschlagsliste für die Neuwahl der Schöffen für die Jahre 2014 - 2018",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2281",
+      "created": "2013-05-17T09:36:45+02:00",
+      "modified": "2013-05-17T09:36:45+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9795",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Mitteilung der Kontrollpunkte für die Geschwindigkeitsanzeigegeräte\n- Beratung und Beschlussfassung",
+      "created": "2013-05-17T09:41:06+02:00",
+      "modified": "2013-05-17T09:41:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9796",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7.1",
+      "order": 9,
+      "name": "Einsatz der Geschwindigkeitsanzeigegeräte im Rahmen der Verkehrsüberwachung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2383",
+      "created": "2013-05-17T09:41:25+02:00",
+      "modified": "2013-05-17T09:41:30+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9797",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Veranstaltungsort der künftigen Wahlen in Heyersum\n- Beratung",
+      "created": "2013-05-17T09:42:11+02:00",
+      "modified": "2013-05-17T09:42:11+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9789",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 12,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-939",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage_2)",
+          "mimeType": "application/pdf",
+          "date": "2013-05-30",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfhDVhn8YyGkcPhDeecge1owhSllUEvprZbdYg2LAmH_/Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfhDVhn8YyGkcPhDeecge1owhSllUEvprZbdYg2LAmH_/Anlage_2.pdf",
+          "created": "2013-06-12T13:05:58+02:00",
+          "modified": "2013-06-12T13:05:58+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-940",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage_3)",
+          "mimeType": "application/pdf",
+          "date": "2013-05-30",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYRZySzW3R6loreXAh-albAmJPvZcbWvjwmK4PZRJx79/Anlage_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYRZySzW3R6loreXAh-albAmJPvZcbWvjwmK4PZRJx79/Anlage_3.pdf",
+          "created": "2013-06-12T13:05:58+02:00",
+          "modified": "2013-06-12T13:05:58+02:00"
+        }
+      ],
+      "created": "2013-05-17T09:36:45+02:00",
+      "modified": "2013-05-17T09:36:45+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9790",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 13,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2013-05-17T09:36:45+02:00",
+      "modified": "2013-05-17T09:36:45+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9791",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 14,
+      "name": "Anträge und Anfragen\nGeländer (Scharfe Worth und Ententeich)\nNeuanstrich Heinz-Fiolka-Halle\nSchaukel und Sand für den Spielplatz (Am Salzbach)\nObere Tür (Altes Schulhaus)\nBaugenehmigung für Carport - Bolzplatz\nBeseitigung der Straßenschäden/Fußwegschäden in Heyersum",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-938",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage_4)",
+          "mimeType": "application/pdf",
+          "date": "2013-05-30",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVTdQV9KHDaQjS2LzmhYhuK3flSdJuWtmPMWY4op0gxl/Anlage_4.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVTdQV9KHDaQjS2LzmhYhuK3flSdJuWtmPMWY4op0gxl/Anlage_4.pdf",
+          "created": "2013-06-12T13:05:58+02:00",
+          "modified": "2013-06-12T13:05:58+02:00"
+        }
+      ],
+      "created": "2013-05-17T09:36:45+02:00",
+      "modified": "2013-05-17T09:36:45+02:00"
+    }
+  ]
+}

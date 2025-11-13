@@ -1,0 +1,136 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2688",
+  "name": "Fachausschuss Schulen (36. Sitzung)",
+  "start": "2016-06-02T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-4"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-16206",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Schulen)",
+    "mimeType": "application/pdf",
+    "date": "2016-06-02",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRTQX0vhiWHWlZVhcbHPOfmqalJSpI7AxERuUeGzniLa/Bekanntmachung_Fachausschuss_Schulen_02.06.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRTQX0vhiWHWlZVhcbHPOfmqalJSpI7AxERuUeGzniLa/Bekanntmachung_Fachausschuss_Schulen_02.06.2016.pdf",
+    "created": "2016-05-24T13:00:52+02:00",
+    "modified": "2016-05-24T13:00:52+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-16547",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Schulen)",
+    "mimeType": "application/pdf",
+    "date": "2016-06-02",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeGGAIB0RUjBxKOkgSotqT9-bWL3Fw4MIJiMot5aJcgk/Oeffentliche_Niederschrift_Fachausschuss_Schulen_02.06.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeGGAIB0RUjBxKOkgSotqT9-bWL3Fw4MIJiMot5aJcgk/Oeffentliche_Niederschrift_Fachausschuss_Schulen_02.06.2016.pdf",
+    "created": "2016-06-17T13:01:31+02:00",
+    "modified": "2016-06-17T13:01:31+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12930",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2016-05-24T08:08:51+02:00",
+      "modified": "2016-05-24T08:08:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12931",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2016-05-24T08:08:51+02:00",
+      "modified": "2016-05-24T08:08:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12932",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 26.11.2015",
+      "created": "2016-05-24T08:08:51+02:00",
+      "modified": "2016-05-24T08:08:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12933",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2016-05-24T08:08:51+02:00",
+      "modified": "2016-05-24T08:08:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12938",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht der Schulleitungen aus den Grundschulen\n- Grundschule Barnten\n- Asternschule Nordstemmen\n- CJD Grundschule Adensen",
+      "created": "2016-05-24T08:09:46+02:00",
+      "modified": "2016-05-24T08:09:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12939",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bericht der Schulleitung aus der Marienbergschule",
+      "created": "2016-05-24T08:11:12+02:00",
+      "modified": "2016-05-24T08:11:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12934",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Grundschule Barnten - Umnutzung der Hausmeisterwohnung (für inklusive Beschulung)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3524",
+      "result": "10 Ja-Stimme(n), 0 Gegenstimme(n), 0 Stimmenthaltung(en)",
+      "created": "2016-05-24T08:08:51+02:00",
+      "modified": "2016-06-16T11:25:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12940",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Information Sachstand Bildungsvielfalt Nordstemmen",
+      "created": "2016-05-24T08:18:02+02:00",
+      "modified": "2016-05-24T08:18:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12935",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2016-05-24T08:08:51+02:00",
+      "modified": "2016-05-24T08:08:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12936",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Anträge und Anfragen",
+      "created": "2016-05-24T08:08:51+02:00",
+      "modified": "2016-05-24T08:08:51+02:00"
+    }
+  ]
+}

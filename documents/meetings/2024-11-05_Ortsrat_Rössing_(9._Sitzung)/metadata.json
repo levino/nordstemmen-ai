@@ -1,0 +1,191 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5474",
+  "name": "Ortsrat Rössing (9. Sitzung)",
+  "start": "2024-11-05T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-23",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Rössing, Kirchstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Kirchstraße 3",
+    "room": "Dorfgemeinschaftshaus Rössing, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Rössing",
+    "locality": "Nordstemmen",
+    "created": "2013-09-16T09:34:20+02:00",
+    "modified": "2019-06-06T11:57:18+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-40107",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2024-11-05",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcWYsnKkxEDpafWRNcLaPHXyHhH2f5bKUPyzBaCYB8ou/Bekanntmachung_Ortsrat_Roessing_05.11.2024.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcWYsnKkxEDpafWRNcLaPHXyHhH2f5bKUPyzBaCYB8ou/Bekanntmachung_Ortsrat_Roessing_05.11.2024.pdf",
+    "created": "2024-10-17T13:00:28+02:00",
+    "modified": "2024-10-17T13:00:28+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-40317",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2024-11-05",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXd9bdTCCW_5ban7p2CtDm0gbDo93vv45kYABUwXYKQZ/Oeffentliche_Niederschrift_Ortsrat_Roessing_05.11.2024.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXd9bdTCCW_5ban7p2CtDm0gbDo93vv45kYABUwXYKQZ/Oeffentliche_Niederschrift_Ortsrat_Roessing_05.11.2024.pdf",
+    "created": "2024-11-13T13:00:08+01:00",
+    "modified": "2024-11-13T13:00:08+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22809",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2024-10-09T09:21:54+02:00",
+      "modified": "2024-10-09T09:21:54+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22810",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2024-10-09T09:21:54+02:00",
+      "modified": "2024-10-09T09:21:54+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22811",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 07. Mai 2024",
+      "created": "2024-10-09T09:21:54+02:00",
+      "modified": "2024-10-09T09:21:54+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22818",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Mitteilungen der Verwaltung",
+      "created": "2024-10-09T09:21:54+02:00",
+      "modified": "2024-10-16T15:45:39+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22817",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2024-10-09T09:21:54+02:00",
+      "modified": "2024-10-16T15:45:54+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22813",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2024-10-09T09:21:54+02:00",
+      "modified": "2024-10-16T15:46:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22847",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Sachstand Begehung Rössingbach (Rechen)",
+      "created": "2024-10-16T15:47:15+02:00",
+      "modified": "2024-10-16T15:47:28+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22848",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Kirchstraße Tempo 30",
+      "created": "2024-10-16T15:47:51+02:00",
+      "modified": "2024-10-16T15:47:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22849",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Zuschuss zum Wappenbaum",
+      "created": "2024-10-16T15:48:14+02:00",
+      "modified": "2024-10-16T15:48:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22850",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Verwendung der noch zur Verfügung stehenden Ortsratsmittel 2024\n- Anschaffung Lautsprecher und Mikrofon\n- Anschaffung einer Jubiläumsscheibe\n",
+      "created": "2024-10-16T15:48:40+02:00",
+      "modified": "2024-10-16T15:48:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22814",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anhörung zum Haushaltsplan 2025 und zum Investitionsprogramm bis 2028 für die Ortschaft Rössing",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8173",
+      "result": "Einstimmig, mit abweichendem Beschluss.",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7009",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Anlage 1 Mittelanmeldungen vom Ortsrat Rössing für den Haushalt 2025)",
+          "mimeType": "application/pdf",
+          "date": "2024-11-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZR3nESMlc3ti4_yOtbovh3W6HLCwu1cXNV-5ngaJpkyj/Anlage_1_Mittelanmeldungen_vom_Ortsrat_Roessing_fuer_den_Haushalt_2025.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZR3nESMlc3ti4_yOtbovh3W6HLCwu1cXNV-5ngaJpkyj/Anlage_1_Mittelanmeldungen_vom_Ortsrat_Roessing_fuer_den_Haushalt_2025.pdf",
+          "created": "2024-11-13T13:00:08+01:00",
+          "modified": "2024-11-13T13:00:08+01:00"
+        }
+      ],
+      "created": "2024-10-09T09:21:54+02:00",
+      "modified": "2024-10-09T09:21:54+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22815",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Spielplatzkonzept der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8007",
+      "result": "Einstimmig geänderter Beschluss",
+      "created": "2024-10-09T09:21:54+02:00",
+      "modified": "2024-10-09T09:21:54+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22816",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Grundsatzbeschluss zur Ortsumgehung der Bundesstraße 1",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8161",
+      "result": "Variante A: 5 Ja-Stimmen, 2 EnthaltungenVariante B: - ",
+      "created": "2024-10-09T09:21:54+02:00",
+      "modified": "2024-10-09T09:21:54+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22812",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Anfragen und Anregungen",
+      "created": "2024-10-09T09:21:54+02:00",
+      "modified": "2024-10-16T15:46:09+02:00"
+    }
+  ]
+}

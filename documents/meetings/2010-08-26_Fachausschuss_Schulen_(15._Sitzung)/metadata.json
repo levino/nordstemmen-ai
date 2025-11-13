@@ -1,0 +1,212 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1554",
+  "name": "Fachausschuss Schulen (15. Sitzung)",
+  "start": "2010-08-26T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-4"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-5597",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Schulen)",
+    "mimeType": "application/pdf",
+    "date": "2010-08-26",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbjJwAe5f2DVylE7bHWOrqD6cCu8fzspAnUFp__9XIPl/Bekanntmachung_Fachausschuss_Schulen_26.08.2010.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbjJwAe5f2DVylE7bHWOrqD6cCu8fzspAnUFp__9XIPl/Bekanntmachung_Fachausschuss_Schulen_26.08.2010.pdf",
+    "created": "2010-08-17T13:08:13+02:00",
+    "modified": "2010-08-17T13:08:13+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6237",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2010-08-17T10:45:30+02:00",
+      "modified": "2010-09-07T10:44:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6238",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2010-08-17T10:45:30+02:00",
+      "modified": "2010-08-17T10:47:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6239",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 01.03.2010",
+      "created": "2010-08-17T10:45:30+02:00",
+      "modified": "2010-08-17T10:47:11+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6240",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2010-08-17T10:45:30+02:00",
+      "modified": "2010-08-17T10:47:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6246",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Stellungnahme der Gemeinde Nordstemmen zur Schulentwicklungsplanung im Landkreis Hildesheim\n(siehe Anlage 1)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-391",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage zum TOP 4)",
+          "mimeType": "application/pdf",
+          "date": "2010-08-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSPVhG01i5ZPbRtHNn_XIf5DjFkXk8ZnmmAQHrtFUFER/Anlage_zum_TOP_4.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSPVhG01i5ZPbRtHNn_XIf5DjFkXk8ZnmmAQHrtFUFER/Anlage_zum_TOP_4.pdf",
+          "created": "2010-08-17T13:08:13+02:00",
+          "modified": "2010-08-17T13:08:13+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-406",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Fachausschuss Schulen 26.08.2010)",
+          "mimeType": "application/pdf",
+          "date": "2010-08-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQR7SIUy_AMdMrCRZXcN7RQtsd3M9-LmMHLKDfKYMpXR/Fachausschuss_Schulen_26.08.2010.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQR7SIUy_AMdMrCRZXcN7RQtsd3M9-LmMHLKDfKYMpXR/Fachausschuss_Schulen_26.08.2010.pdf",
+          "created": "2010-09-14T13:06:39+02:00",
+          "modified": "2010-09-14T13:06:39+02:00"
+        }
+      ],
+      "created": "2010-08-17T10:48:21+02:00",
+      "modified": "2010-08-17T10:48:21+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6247",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einschulungen zum 01.08.2010 im Primarbereich / Entwicklung bis zum Jahr 2016\n(Ausführungen werden in der Sitzung gemacht)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-407",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Fachausschuss Schulen 26.08.2010)",
+          "mimeType": "application/pdf",
+          "date": "2010-08-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaGJ8fZJDKMUqGG7D39kj9Jg2rVXLxrmYbBFoZC4yzZj/Fachausschuss_Schulen_26.08.2010.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaGJ8fZJDKMUqGG7D39kj9Jg2rVXLxrmYbBFoZC4yzZj/Fachausschuss_Schulen_26.08.2010.pdf",
+          "created": "2010-09-14T13:06:39+02:00",
+          "modified": "2010-09-14T13:06:39+02:00"
+        }
+      ],
+      "created": "2010-08-17T10:49:14+02:00",
+      "modified": "2010-08-17T10:49:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6248",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Situation zu der Grundschule Adensen\n- Schulleitung, Sekretärin, Hausmeister, Kleinsthort, Schulinspektion\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2010-08-17T10:50:16+02:00",
+      "modified": "2010-08-17T10:50:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6249",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Antrag der Grundschule Adensen auf Aufhebung der Grundschulbezirke in der Gemeinde Nordstemmen (siehe Anlage 2 - Antrag vom 19.05.2010)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-392",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage zum TOP 7)",
+          "mimeType": "application/pdf",
+          "date": "2010-08-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYdiUvLPpOOtKzg881GwMVbzTu9YDF-Zkcv0RXUEbi_j/Anlage_zum_TOP_7.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYdiUvLPpOOtKzg881GwMVbzTu9YDF-Zkcv0RXUEbi_j/Anlage_zum_TOP_7.pdf",
+          "created": "2010-08-17T13:08:13+02:00",
+          "modified": "2010-08-17T13:08:13+02:00"
+        }
+      ],
+      "created": "2010-08-17T10:52:09+02:00",
+      "modified": "2010-08-17T10:52:09+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6250",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Durchführung einer Moderation zur Schullandschaft in der Gemeinde Nordstemmen im Primarbereich\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2010-08-17T10:52:58+02:00",
+      "modified": "2010-08-17T10:52:58+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6251",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Erste Erfahrungswerte zur Einführung der offenen Ganztagsschule Barnten mit dem Schuljahresbeginn zum 01.08.2010\n(Information erfolgt durch den Rektor der GS Barnten, Herrn Baumgarten)",
+      "created": "2010-08-17T10:54:26+02:00",
+      "modified": "2010-08-17T10:54:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6241",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2010-08-17T10:45:30+02:00",
+      "modified": "2010-08-17T10:54:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6252",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Behandlung von Anträgen",
+      "created": "2010-08-17T10:54:52+02:00",
+      "modified": "2010-08-17T10:54:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6243",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Behandlung von Anfragen",
+      "created": "2010-08-17T10:45:30+02:00",
+      "modified": "2010-08-17T10:45:30+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6244",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 15,
+      "name": "Anregungen",
+      "created": "2010-08-17T10:45:30+02:00",
+      "modified": "2010-08-17T10:45:30+02:00"
+    }
+  ]
+}

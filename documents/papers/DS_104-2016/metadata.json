@@ -1,0 +1,57 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1308",
+  "reference": "DS 104/2016",
+  "name": "Stellenplan 2017",
+  "paperType": "Beschlussvorlage",
+  "date": "2016-12-20",
+  "mainFile": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-17685",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Beschlussvorlage (Stellenplan 2017)",
+    "mimeType": "application/pdf",
+    "date": "2016-12-20",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZd4KgjjmvsuiWc_nK10KJt6iAjeq0NfOfjDZcumHLCzW/Beschlussvorlage_DS_104-2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZd4KgjjmvsuiWc_nK10KJt6iAjeq0NfOfjDZcumHLCzW/Beschlussvorlage_DS_104-2016.pdf",
+    "created": "2016-11-30T11:43:17+01:00",
+    "modified": "2016-11-30T11:43:17+01:00"
+  },
+  "auxiliaryFile": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1643",
+      "type": "https://schema.oparl.org/1.1/File",
+      "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+      "name": "Beschlussvorlage (Anlage zur DS 104/2016)",
+      "mimeType": "application/pdf",
+      "date": "2016-12-20",
+      "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZc5oVMD1q88quw89me3-NzKVv5bIeHRizd3nhBHRz9pa/Anlage_zur_DS_104-2016.pdf",
+      "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZc5oVMD1q88quw89me3-NzKVv5bIeHRizd3nhBHRz9pa/Anlage_zur_DS_104-2016.pdf",
+      "created": "2016-12-09T11:27:33+01:00",
+      "modified": "2016-12-09T11:27:33+01:00"
+    }
+  ],
+  "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3731",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13613",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2834",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-29"
+      ],
+      "created": "2016-11-29T13:56:26+01:00",
+      "modified": "2016-11-29T13:56:26+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3733",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13628",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2804",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2016-11-29T13:56:44+01:00",
+      "modified": "2016-11-29T13:56:44+01:00"
+    }
+  ]
+}

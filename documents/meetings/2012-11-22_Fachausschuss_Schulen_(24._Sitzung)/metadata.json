@@ -1,0 +1,182 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1963",
+  "name": "Fachausschuss Schulen (24. Sitzung)",
+  "start": "2012-11-22T18:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-4"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-9128",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Schulen)",
+    "mimeType": "application/pdf",
+    "date": "2012-11-22",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZagOYsArfcFDWAa1tuS8j4iXOTBf-1PYhU_w_erjktPE/Bekanntmachung_Fachausschuss_Schulen_22.11.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZagOYsArfcFDWAa1tuS8j4iXOTBf-1PYhU_w_erjktPE/Bekanntmachung_Fachausschuss_Schulen_22.11.2012.pdf",
+    "created": "2012-11-13T15:39:24+01:00",
+    "modified": "2012-11-13T15:39:24+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-9420",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Schulen)",
+    "mimeType": "application/pdf",
+    "date": "2012-11-22",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXs3eCb1sXOaEE6kxqyKOTlBdTPUgxvirGKzs5neM1Ui/Oeffentliche_Niederschrift_Fachausschuss_Schulen_22.11.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXs3eCb1sXOaEE6kxqyKOTlBdTPUgxvirGKzs5neM1Ui/Oeffentliche_Niederschrift_Fachausschuss_Schulen_22.11.2012.pdf",
+    "created": "2013-01-14T11:32:37+01:00",
+    "modified": "2013-01-14T11:32:37+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9172",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2012-11-09T12:30:37+01:00",
+      "modified": "2012-11-09T12:30:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9173",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2012-11-09T12:30:37+01:00",
+      "modified": "2012-11-09T12:30:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9181",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Förmliche Verpflichtung von Lehrer- und Elternvertretungen",
+      "created": "2012-11-13T11:45:16+01:00",
+      "modified": "2012-11-13T11:45:16+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9174",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Genehmigung des Protokolls der Sitzung vom 06.09.2012",
+      "created": "2012-11-09T12:30:37+01:00",
+      "modified": "2013-01-03T16:54:26+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9175",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2012-11-09T12:30:37+01:00",
+      "modified": "2013-01-03T16:41:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9182",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Vorstellung einer möglichen IT-Lösung an den Grundschulen der Gemeinde Nordstemmen\n(Ausführungen werden in der Sache von der Firma MTS Reinhardt GmbH gemacht)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-849",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zum TOP 5)",
+          "mimeType": "application/pdf",
+          "date": "2012-11-22",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUw5jte9oznzIMu35uVvcZn1kyt6-7uK5TMW6l47ve9P/Anlage_1_zum_TOP_5.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUw5jte9oznzIMu35uVvcZn1kyt6-7uK5TMW6l47ve9P/Anlage_1_zum_TOP_5.pdf",
+          "created": "2013-01-04T12:08:17+01:00",
+          "modified": "2013-01-04T12:08:17+01:00"
+        }
+      ],
+      "created": "2012-11-13T11:46:09+01:00",
+      "modified": "2012-11-13T11:46:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9177",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Satzung über die Festlegung von Schulbezirken für die Grundschulen in der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2076",
+      "created": "2012-11-09T12:30:37+01:00",
+      "modified": "2012-11-13T11:46:17+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9176",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Haushalt 2013;\nTeilhaushalt für den Produktbereich Schulen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2054",
+      "created": "2012-11-09T12:30:37+01:00",
+      "modified": "2012-11-09T12:30:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9183",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht zum Stand der Bildungsregion Nordstemmen\n(Ausführungen werden in der Sitzung gemacht)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-850",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2 zum TOP 8)",
+          "mimeType": "application/pdf",
+          "date": "2012-11-22",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcuwCr2qIjrhtCPJib3vTWcFSj_NBjFoFvTiq9EB52Km/Anlage_2_zum_TOP_8.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcuwCr2qIjrhtCPJib3vTWcFSj_NBjFoFvTiq9EB52Km/Anlage_2_zum_TOP_8.pdf",
+          "created": "2013-01-04T12:08:17+01:00",
+          "modified": "2013-01-04T12:08:17+01:00"
+        }
+      ],
+      "created": "2012-11-13T11:47:00+01:00",
+      "modified": "2012-11-13T11:47:00+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9184",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht der Schulleitungen aus den Grundschulen\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2012-11-13T11:47:26+01:00",
+      "modified": "2012-11-13T11:47:26+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9178",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2012-11-09T12:30:37+01:00",
+      "modified": "2012-11-09T12:30:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9179",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Anträge und Anfragen",
+      "created": "2012-11-09T12:30:37+01:00",
+      "modified": "2012-11-09T12:30:37+01:00"
+    }
+  ]
+}

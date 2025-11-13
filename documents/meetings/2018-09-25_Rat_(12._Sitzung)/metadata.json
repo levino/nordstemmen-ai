@@ -1,0 +1,249 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4140",
+  "name": "Rat (12. Sitzung)",
+  "start": "2018-09-25T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-29",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Marienbergschule Nordstemmen, Schlingweg 21, 31171 Nordstemmen, Aula",
+    "streetAddress": "Schlingweg 21",
+    "room": "Marienbergschule Nordstemmen, Aula",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2016-08-30T13:29:34+02:00",
+    "modified": "2017-09-12T17:11:03+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-25026",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2018-09-25",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTx4wt8sn4YT1yCbyv6OnCaEbxoC2izrvdXEwGZvWuSV/Bekanntmachung_Rat_25.09.2018.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTx4wt8sn4YT1yCbyv6OnCaEbxoC2izrvdXEwGZvWuSV/Bekanntmachung_Rat_25.09.2018.pdf",
+    "created": "2018-09-14T13:00:45+02:00",
+    "modified": "2018-09-14T13:00:45+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-25324",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2018-09-25",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZShyGyJPcFXDGAlWDBANY0tCZJCqGCrIt4Uqi_Sxb3Js/Oeffentliche_Niederschrift_Rat_25.09.2018.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZShyGyJPcFXDGAlWDBANY0tCZJCqGCrIt4Uqi_Sxb3Js/Oeffentliche_Niederschrift_Rat_25.09.2018.pdf",
+    "created": "2018-10-10T13:01:31+02:00",
+    "modified": "2018-10-10T13:01:31+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15518",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2018-06-26T15:12:26+02:00",
+      "modified": "2018-06-26T15:12:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15519",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2018-06-26T15:12:26+02:00",
+      "modified": "2018-06-26T15:12:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15520",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung des Rates vom 14. Juni 2018",
+      "created": "2018-06-26T15:12:26+02:00",
+      "modified": "2018-06-26T15:12:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15521",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht des Bürgermeisters über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4145",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zur Niederschrift der Sitzung)",
+          "mimeType": "application/pdf",
+          "date": "2018-09-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZV6SQ2723fpir_QRuGSpPQXC3M_fnDOTMaCR7OMrW1FL/Anlage_1_zur_Niederschrift_der_Sitzung.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZV6SQ2723fpir_QRuGSpPQXC3M_fnDOTMaCR7OMrW1FL/Anlage_1_zur_Niederschrift_der_Sitzung.pdf",
+          "created": "2018-10-09T13:01:15+02:00",
+          "modified": "2018-10-09T13:01:15+02:00"
+        }
+      ],
+      "created": "2018-06-26T15:12:26+02:00",
+      "modified": "2018-06-26T15:12:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15522",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2018-06-26T15:12:26+02:00",
+      "modified": "2018-06-26T15:12:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15683",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Wechsel der Ausschussmitgliedschaft;\nAntrag der Ratsfraktion Die Unabhängigen ",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6359",
+      "result": "einstimmig",
+      "created": "2018-09-12T08:40:56+02:00",
+      "modified": "2018-09-12T08:41:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15635",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Straßenausbaubeiträge und alternative Finanzierungen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6311",
+      "result": "23 Ja-Stimmen und eine Nein-Stimme",
+      "created": "2018-09-04T13:12:44+02:00",
+      "modified": "2018-09-04T13:12:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15637",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Betriebsergebnis der Abwasserbeseitigung 2016",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6329",
+      "created": "2018-09-04T13:13:11+02:00",
+      "modified": "2018-09-11T16:45:30+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15636",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Betriebsergebnis der Abwasserbeseitigung 2017",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6326",
+      "created": "2018-09-04T13:13:00+02:00",
+      "modified": "2018-09-04T13:13:00+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15638",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Erhöhung der Abwassergebühren zum 01.01.2019",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6332",
+      "result": "einstimmig bei zwei Enthaltungen",
+      "created": "2018-09-04T13:13:24+02:00",
+      "modified": "2018-09-04T13:13:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15680",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Modernisierung, Ertüchtigung und Erweiterung von Sportstätten und Sportanlagen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6345",
+      "created": "2018-09-11T16:40:31+02:00",
+      "modified": "2018-09-12T09:02:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15684",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10.1",
+      "order": 12,
+      "name": "Modernisierung, Ertüchtigung und Erweiterung von Sportstätten und Sportanlagen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6313",
+      "created": "2018-09-14T09:05:28+02:00",
+      "modified": "2018-09-14T09:05:30+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15640",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Verwaltungskostensatzung der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6316",
+      "result": "einstimmig",
+      "created": "2018-09-04T13:13:51+02:00",
+      "modified": "2018-09-04T13:13:57+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15681",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Bebauungsplan Nr. 0123 \"Heyersumer Straße-Süd\", 2. Änderung, \n- Satzungsbeschluss gem. § 10 Abs. 1 BauGB",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6355",
+      "result": "einstimmig",
+      "created": "2018-09-11T16:41:48+02:00",
+      "modified": "2018-09-11T16:41:48+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15642",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 15,
+      "name": "Richtlinie über die Aufnahme von Krediten nach § 120 Abs. 1 Satz 2 Niedersächsisches Kommunalverfassungsgesetz (NKomVG)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6337",
+      "result": "einstimmig",
+      "created": "2018-09-04T13:14:17+02:00",
+      "modified": "2018-09-04T13:14:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15643",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 16,
+      "name": "2. Nachtragshaushaltssatzung 2018 der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6340",
+      "result": "einstimmig",
+      "created": "2018-09-04T13:14:31+02:00",
+      "modified": "2018-09-04T13:14:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15682",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 17,
+      "name": "Änderung der Hauptsatzung der Gemeinde Nordstemmen; \nErnennung eines stellvertretenden Ortsvorstehers / einer stellvertretenden Ortsvorsteherin für die Ortschaft Hallerburg",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6342",
+      "result": "einstimmig",
+      "created": "2018-09-11T16:42:00+02:00",
+      "modified": "2018-09-11T16:48:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15523",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 18,
+      "name": "Mitteilungen bzw. Bericht des Bürgermeisters",
+      "created": "2018-06-26T15:12:26+02:00",
+      "modified": "2018-06-26T15:12:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/15524",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 19,
+      "name": "Anträge und Anfragen",
+      "created": "2018-06-26T15:12:26+02:00",
+      "modified": "2018-06-26T15:12:26+02:00"
+    }
+  ]
+}

@@ -532,83 +532,18 @@ python generate.py         # Alles neu verarbeiten
 - **Open Source**: MIT License, voller Code auf GitHub
 - **Unabhängiges Projekt**: Keine offizielle Gemeinde-Anwendung
 
-## Roadmap
+## Status
 
-- [x] OParl Scraper (TypeScript)
-- [x] Embedding Generator mit Jina v3
-- [x] MCP Server mit Cloudflare Pages
-- [x] Hash-basierte Change Detection
-- [x] Deep Links zu Originaldokumenten
-- [x] Progress Bar mit Skip Counter
-- [ ] GitHub Actions für automatisches Scraping/Embedding
-- [ ] Web-Frontend (Next.js) für nicht-Claude-User
-- [ ] Multi-Tenancy (weitere Gemeinden hinzufügen)
-- [ ] OCR-Support für gescannte PDFs
+**Das Projekt ist produktiv und funktionsfähig!**
 
-## Troubleshooting
+✅ OParl Scraper (TypeScript)
+✅ Embedding Generator mit Jina v3
+✅ MCP Server live unter https://nordstemmen-mcp.levinkeller.de/mcp
+✅ Hash-basierte Change Detection
+✅ Deep Links zu Originaldokumenten
+✅ Robuste PDF-Verarbeitung mit pdfplumber
 
-### Embedding Generator
-
-**Problem:** `ModuleNotFoundError: No module named 'sentence_transformers'`
-```bash
-cd embeddings
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
-**Problem:** `RuntimeError: CUDA out of memory`
-```python
-# In generate.py, reduce batch size:
-embedding = self.model.encode(
-    chunk_text,
-    task='retrieval.passage',
-    batch_size=8  # Reduce from default 32
-)
-```
-
-**Problem:** `QdrantException: Connection refused`
-```bash
-# Check .env
-echo $QDRANT_URL
-echo $QDRANT_API_KEY
-echo $QDRANT_PORT
-
-# Test connection
-python embeddings/test_connection.py
-```
-
-### MCP Server
-
-**Problem:** `401 Unauthorized` bei Jina AI
-```bash
-# Check API key
-echo $JINA_API_KEY
-
-# Test Jina API manually
-curl https://api.jina.ai/v1/embeddings \
-  -H "Authorization: Bearer $JINA_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{"model":"jina-embeddings-v3","input":["test"]}'
-```
-
-**Problem:** Claude findet MCP Server nicht
-```bash
-# Check URL erreichbar
-curl https://nordstemmen-mcp.levinkeller.de/
-
-# Test MCP endpoint
-curl -X POST https://nordstemmen-mcp.levinkeller.de/mcp \
-  -H "Content-Type: application/json" \
-  -d '{"jsonrpc":"2.0","method":"tools/list","id":1}'
-
-# Check logs in Cloudflare Dashboard
-# Pages → nordstemmen-mcp → View logs
-
-# Claude Desktop: Check config location
-cat ~/Library/Application\ Support/Claude/claude_desktop_config.json
-
-# Claude Web: Check in Profile → Connectors
-```
+Der MCP Server ist öffentlich nutzbar - siehe [🚀 Jetzt sofort nutzen](#-jetzt-sofort-nutzen) am Anfang der README.
 
 ## Support & Beitragen
 

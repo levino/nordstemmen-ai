@@ -1,0 +1,385 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1551",
+  "name": "Rat (30. Sitzung)",
+  "start": "2010-12-02T18:35:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-5967",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2010-12-02",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSrRsLygbyupfTf1BHZNrz5SSSLvfdL6fO1QQucbMHwB/Bekanntmachung_Rat_02.12.2010.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSrRsLygbyupfTf1BHZNrz5SSSLvfdL6fO1QQucbMHwB/Bekanntmachung_Rat_02.12.2010.pdf",
+    "created": "2010-11-23T13:00:38+01:00",
+    "modified": "2010-11-23T13:00:38+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6406",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2010-10-12T15:21:58+02:00",
+      "modified": "2010-12-13T09:09:41+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6407",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2010-10-12T15:21:58+02:00",
+      "modified": "2010-10-12T15:21:58+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6408",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung des Rates vom 16.09.2010 ",
+      "created": "2010-10-12T15:21:58+02:00",
+      "modified": "2010-10-12T15:21:58+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6409",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht des Bürgermeisters über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "created": "2010-10-12T15:21:58+02:00",
+      "modified": "2010-10-12T15:21:58+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6410",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2010-10-12T15:21:58+02:00",
+      "modified": "2010-10-12T15:21:58+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6680",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Widmung von Straßenflächen und Fortschreibung der Bestandsverzeichnisse in den Ortschaften Groß Escherde, Mahlerten, Adensen und Rössing\n(DS 24/2010, DS 26/2010, DS 27/2010 und DS 29/2010)",
+      "created": "2010-11-04T08:57:23+01:00",
+      "modified": "2010-11-04T08:57:23+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6417",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Dorferneuerung Adensen - Hallerburg\n1. Ergänzung des Dorferneuerung-Planes um die Maßnahme \"Dorfstraße\"",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1384",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-6248",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Dorferneuerung Adensen - Hallerburg\n1. Ergänzung des Dorferneuerung-Planes um die Maßnahme \"Dorfstraße\")",
+        "mimeType": "application/pdf",
+        "date": "2010-12-02",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSwXS2Xc0euNF0i9Z3ErAP2BGXbSom1C1dlex2iYB4gu/Beschlusstext_DS_54-2010_-oeffentlich-_Rat_02.12.2010.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSwXS2Xc0euNF0i9Z3ErAP2BGXbSom1C1dlex2iYB4gu/Beschlusstext_DS_54-2010_-oeffentlich-_Rat_02.12.2010.pdf",
+        "created": "2010-12-14T13:03:34+01:00",
+        "modified": "2010-12-14T13:03:34+01:00"
+      },
+      "created": "2010-10-12T15:21:59+02:00",
+      "modified": "2010-11-04T08:57:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6681",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Straßenausbaumaßnahme \"Düsterer Pump\" in der Ortschaft Adensen im Rahmen der Dorferneuerung\n- Maßnahmenbeschluss\n(DS 69/2010)",
+      "created": "2010-11-04T08:59:06+01:00",
+      "modified": "2010-11-04T08:59:06+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6682",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Ausbauplanung für das Baugebiet \"Barnten-Süd III\"\n- Maßnahmenbeschluss\n(DS 80/2010)",
+      "created": "2010-11-04T09:00:03+01:00",
+      "modified": "2010-11-04T09:00:03+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6683",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bebauungsplan Nr. 0122 \"Innerörtliche Verbindungsstraße / Zuckerfabrik\", 6. Änderung\n- öffentliche Auslegung\n(DS 77/2010)",
+      "created": "2010-11-04T09:01:14+01:00",
+      "modified": "2010-11-04T09:01:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6684",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "20. Änderung des Flächennutzungsplanes der Gemeinde Nordstemmen (Obere Wanne)\n- öffentliche Auslegung\n(DS 78/2010)",
+      "created": "2010-11-04T09:02:13+01:00",
+      "modified": "2010-11-04T09:02:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6685",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Bebauungsplan Nr. 0208 \"Obere Wanne\", Ortschaft Adensen\n- öffentliche Auslegung\n(DS 79/2010)",
+      "created": "2010-11-04T09:03:13+01:00",
+      "modified": "2010-11-04T09:03:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6686",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Weiterentwicklung des Freizeitbades; Sanierungsänderung Kinderbecken\n(DS 64/2009 - 2. Ergänzung)",
+      "created": "2010-11-04T09:04:21+01:00",
+      "modified": "2010-11-04T09:04:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6687",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Vereinbarung zwischen der Gemeinde Nordstemmen und dem Landkreis Hildesheim zur Wahrnehmung der Aufgaben der Kindertagesbetreuung und der Kindertagespflege",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1423",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-6249",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Vereinbarung zwischen der Gemeinde Nordstemmen und dem Landkreis Hildesheim zur Wahrnehmung der Aufgaben der Kindertagesbetreuung und der Kindertagespflege)",
+        "mimeType": "application/pdf",
+        "date": "2010-12-02",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUtCwwiC_0IKuMZv-udG8cRnm3e_jvMJGK3iE-7idUmc/Beschlusstext_DS_70-2010_-oeffentlich-_Rat_02.12.2010.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUtCwwiC_0IKuMZv-udG8cRnm3e_jvMJGK3iE-7idUmc/Beschlusstext_DS_70-2010_-oeffentlich-_Rat_02.12.2010.pdf",
+        "created": "2010-12-14T13:03:34+01:00",
+        "modified": "2010-12-14T13:03:34+01:00"
+      },
+      "created": "2010-11-04T09:04:57+01:00",
+      "modified": "2010-11-04T09:05:04+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6688",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Haushaltsplan mit Haushaltssatzung für das Haushaltsjahr 2011 einschließlich Haushaltssicherungskonzept\n(DS 71/2010 einschließlich dem an die Ratsmitglieder dazu übersandten Verwaltungsentwurf zum Haushalt 2011)",
+      "created": "2010-11-04T09:08:53+01:00",
+      "modified": "2010-11-04T09:08:53+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6689",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Begleitende Beschlüsse zur Eröffnungsbilanz",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1436",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-6250",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Begleitende Beschlüsse zur Eröffnungsbilanz)",
+        "mimeType": "application/pdf",
+        "date": "2010-12-02",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSwU_f1HDo17n0tr3EGPaKFjPaaLu8c2fot3Lu4KLyvC/Beschlusstext_DS_76-2010_-oeffentlich-_Rat_02.12.2010.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSwU_f1HDo17n0tr3EGPaKFjPaaLu8c2fot3Lu4KLyvC/Beschlusstext_DS_76-2010_-oeffentlich-_Rat_02.12.2010.pdf",
+        "created": "2010-12-14T13:03:34+01:00",
+        "modified": "2010-12-14T13:03:34+01:00"
+      },
+      "created": "2010-11-04T09:12:05+01:00",
+      "modified": "2010-11-04T09:12:05+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6690",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 17,
+      "name": "Unterrichtung über Haushaltsüberschreitungen in der Zeit vom 01.01. bis 31.12.2009 gemäß § 89 Abs. 1 Niedersächsische Gemeindeordnung (NGO)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1391",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-6251",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Infotext (Unterrichtung über Haushaltsüberschreitungen in der Zeit vom 01.01. bis 31.12.2009 gemäß § 89 Abs. 1 Niedersächsische Gemeindeordnung (NGO))",
+        "mimeType": "application/pdf",
+        "date": "2010-12-02",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRPKCzigPdqfz1ArMdQ2gHNYfFX3iydSWerHu4ao4PR2/Infotext_DS_67-2010_-oeffentlich-_Rat_02.12.2010.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRPKCzigPdqfz1ArMdQ2gHNYfFX3iydSWerHu4ao4PR2/Infotext_DS_67-2010_-oeffentlich-_Rat_02.12.2010.pdf",
+        "created": "2010-12-14T13:03:34+01:00",
+        "modified": "2010-12-14T13:03:34+01:00"
+      },
+      "created": "2010-11-04T09:12:33+01:00",
+      "modified": "2010-11-04T09:12:33+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6412",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 18,
+      "name": "Bekanntgabe des Berichts über die unvermutete örtliche Prüfung der Gemeindekasse Nordstemmen durch das Rechnungsprüfungsamt des Landkreises Hildesheim",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1387",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-6252",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Infotext (Bekanntgabe des Berichts über die unvermutete örtliche Prüfung der Gemeindekasse Nordstemmen durch das Rechnungsprüfungsamt des Landkreises Hildesheim)",
+        "mimeType": "application/pdf",
+        "date": "2010-12-02",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTY4Ep7wTiWnHc4SuHcR3hXDJoCVT2JEjJ6Olu8jgzyD/Infotext_DS_57-2010_-oeffentlich-_Rat_02.12.2010.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTY4Ep7wTiWnHc4SuHcR3hXDJoCVT2JEjJ6Olu8jgzyD/Infotext_DS_57-2010_-oeffentlich-_Rat_02.12.2010.pdf",
+        "created": "2010-12-14T13:03:34+01:00",
+        "modified": "2010-12-14T13:03:34+01:00"
+      },
+      "created": "2010-10-12T15:21:58+02:00",
+      "modified": "2010-11-04T09:12:49+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6411",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "18",
+      "order": 19,
+      "name": "Unterrichtung über die Aufnahme von Kommunaldarlehen gemäß § 7 der Richtlinie der Gemeinde Nordstemmen für die Aufnahme von Krediten und zur Umschuldung von Krediten vom 14. Juni 2007",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1377",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-6253",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Infotext (Unterrichtung über die Aufnahme von Kommunaldarlehen gemäß § 7 der Richtlinie der Gemeinde Nordstemmen für die Aufnahme von Krediten und zur Umschuldung von Krediten vom 14. Juni 2007)",
+        "mimeType": "application/pdf",
+        "date": "2010-12-02",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZReQDLUo8aAhlF83kMXTUMyEp-sZ2YJ3He-7NGI43UmO/Infotext_DS_55-2010_-oeffentlich-_Rat_02.12.2010.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZReQDLUo8aAhlF83kMXTUMyEp-sZ2YJ3He-7NGI43UmO/Infotext_DS_55-2010_-oeffentlich-_Rat_02.12.2010.pdf",
+        "created": "2010-12-14T13:03:34+01:00",
+        "modified": "2010-12-14T13:03:34+01:00"
+      },
+      "created": "2010-10-12T15:21:58+02:00",
+      "modified": "2010-11-04T09:12:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6691",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "19",
+      "order": 20,
+      "name": "Neufassung der Hundesteuersatzung der Gemeinde Nordstemmen\n(DS 46/2010)",
+      "created": "2010-11-04T09:14:27+01:00",
+      "modified": "2010-11-04T09:14:27+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6692",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "20",
+      "order": 21,
+      "name": "Annahme und Vermittlung von Zuwendungen\n- Grundsatzbeschluss\n(DS 82/2010)",
+      "created": "2010-11-04T09:15:06+01:00",
+      "modified": "2010-11-04T09:15:06+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6693",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "21",
+      "order": 22,
+      "name": "Annahme von zurückliegenden Zuwendungen\n(DS 83/2010)",
+      "created": "2010-11-04T09:15:40+01:00",
+      "modified": "2010-11-04T09:15:40+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6694",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "22",
+      "order": 23,
+      "name": "Bestimmung des Wahltermines für die Bürgermeisterwhl 2011\n(DS 84/2010)",
+      "created": "2010-11-04T09:16:13+01:00",
+      "modified": "2010-11-04T09:16:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6695",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "23",
+      "order": 24,
+      "name": "Berufung eines Gemeindewahlleiters und eines stellvertretenden Gemeindewahlleiters für die Kommunalwahlen am 11. September 2011\n(DS 85/2010)",
+      "created": "2010-11-04T09:17:02+01:00",
+      "modified": "2010-11-04T09:17:02+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6696",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "24",
+      "order": 25,
+      "name": "Verabschiedung einer Resolution zum Anbau gentechnisch veränderter Pflanzen auf dem Gebiet der Gemeinde Nordstemmen\n(siehe beigefügte Anlagen)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-434",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Rat 02.12.2010 18.30 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2010-12-02",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVc5BvoLonFkWNrozPpYxVFHjPAq5xbQkZ076V9rJh5v/Rat_02.12.2010_18.30_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVc5BvoLonFkWNrozPpYxVFHjPAq5xbQkZ076V9rJh5v/Rat_02.12.2010_18.30_Uhr.pdf",
+          "created": "2010-11-05T13:00:34+01:00",
+          "modified": "2010-11-05T13:00:34+01:00"
+        }
+      ],
+      "created": "2010-11-04T09:18:02+01:00",
+      "modified": "2010-11-04T09:18:02+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6418",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "25",
+      "order": 26,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2010-10-12T15:21:59+02:00",
+      "modified": "2010-10-12T15:21:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6419",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "26",
+      "order": 27,
+      "name": "Behandlung von Anträgen",
+      "created": "2010-10-12T15:21:59+02:00",
+      "modified": "2010-10-12T15:21:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6420",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "27",
+      "order": 28,
+      "name": "Behandlung von Anfragen",
+      "created": "2010-10-12T15:21:59+02:00",
+      "modified": "2010-10-12T15:21:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6421",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "28",
+      "order": 29,
+      "name": "Anregungen",
+      "created": "2010-10-12T15:21:59+02:00",
+      "modified": "2010-10-12T15:21:59+02:00"
+    }
+  ]
+}

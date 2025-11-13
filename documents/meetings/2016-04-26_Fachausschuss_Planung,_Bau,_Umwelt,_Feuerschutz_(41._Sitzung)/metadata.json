@@ -1,0 +1,198 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2667",
+  "name": "Fachausschuss Planung, Bau, Umwelt, Feuerschutz (41. Sitzung)",
+  "start": "2016-04-26T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-6"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-16040",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Planung, Bau, Umwelt, Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2016-04-26",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZds17NiNpDL-OhL6X2KRCltRzJLUGtVh-DYZN76rYJHE/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_26.04.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZds17NiNpDL-OhL6X2KRCltRzJLUGtVh-DYZN76rYJHE/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_26.04.2016.pdf",
+    "created": "2016-04-14T19:00:25+02:00",
+    "modified": "2016-04-14T19:00:25+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-16165",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Planung, Bau, Umwelt, Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2016-04-26",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVe0EOVZNHUy9MUUI6oCY6M_SpdKAKgII7TBQdr07JjM/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_26.04.2016.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVe0EOVZNHUy9MUUI6oCY6M_SpdKAKgII7TBQdr07JjM/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_26.04.2016.pdf",
+    "created": "2016-05-17T19:00:42+02:00",
+    "modified": "2016-05-17T19:00:42+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12717",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2016-04-11T08:02:55+02:00",
+      "modified": "2016-04-11T08:02:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12718",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2016-04-11T08:02:55+02:00",
+      "modified": "2016-04-11T08:02:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12719",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 25.02.2016",
+      "created": "2016-04-11T08:02:55+02:00",
+      "modified": "2016-04-11T08:02:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12720",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2016-04-11T08:02:55+02:00",
+      "modified": "2016-04-11T08:02:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12756",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Barrierefreier Ausbau von Bushaltestellen - Konzeption für das weitere Vorgehen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3474",
+      "created": "2016-04-12T11:21:46+02:00",
+      "modified": "2016-04-12T11:21:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12759",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Umbau / Modernisierung der Bushaltestellen in der \"Kreuzstraße\", Ortschaft Heyersum;\nVergabe der Straßenbauarbeiten",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3480",
+      "created": "2016-04-12T15:47:08+02:00",
+      "modified": "2016-04-12T15:47:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12722",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Ausbau der Kreisstraße 506 (Hallerburger Straße / Neustadt) in der Ortsdurchfahrt Adensen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3440",
+      "created": "2016-04-11T08:02:55+02:00",
+      "modified": "2016-04-12T15:47:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12757",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Abwasserbeseitigung und Entwässerung im Zuge der Kreisstraße 506 (Hallerburger Straße / Neustadt) in der Ortsdurchfahrt Adensen;\nErteilung eines Planungsauftrages",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3471",
+      "created": "2016-04-12T11:22:03+02:00",
+      "modified": "2016-04-12T15:48:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12721",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Umbau und Erweiterung Feuerwehrhaus Mahlerten\n- Zustimmung zu einer überplanmäßigen Auszahlung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3465",
+      "created": "2016-04-11T08:02:55+02:00",
+      "modified": "2016-04-11T08:02:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12760",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Ausbau der „Kolberger Straße“ in der Ortschaft Nordstemmen;\nVergabe eines Planungsauftrages",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3482",
+      "created": "2016-04-12T15:48:17+02:00",
+      "modified": "2016-04-12T15:48:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12758",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Bebauungsplan Nr. 0125 \"Mahlerter Straße - Nord\", 3. Änderung\n- Satzungsbeschluss gem. § 10 Abs. 1 BauGB",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3477",
+      "created": "2016-04-12T11:22:10+02:00",
+      "modified": "2016-04-12T15:48:33+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12766",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Neuaufstellung des Regionalen Raumordnungsprogramms (RROP) der Region Hannover Entwurf 2016; Zweites beschränktes Beteiligungsverfahren  \n\nStellungnahme der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3484",
+      "created": "2016-04-14T14:15:57+02:00",
+      "modified": "2016-04-14T14:17:30+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12724",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters\nAusbau der Gemeindeverbindungsstraße Barnten - Nordstemmen, 4. Bauabschnitt",
+      "created": "2016-04-11T08:02:55+02:00",
+      "modified": "2016-04-14T14:16:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12723",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12.1",
+      "order": 14,
+      "name": "Avifaunistische Grunderfassung im Rahmen der 21. Änderung des Flächennutzungsplanes der Gemeinde Nordstemmen\n- Genehmigung einer überplanmäßigen Aufwendung nach § 117 Abs. 1 NKomVG,\n- Vergabe eines Auftrages für die avifaunistische Grunderfassung\n   Eilentscheidung gemäß § 89 NKomVG",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3468",
+      "created": "2016-04-11T08:02:55+02:00",
+      "modified": "2016-04-12T15:57:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12727",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12.2",
+      "order": 15,
+      "name": "Ausbau der \"Schmiedestraße\" in der Ortschaft Klein Escherde;\nVergabe eines Planungsauftrages",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3470",
+      "created": "2016-04-11T08:02:55+02:00",
+      "modified": "2016-04-12T15:49:21+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12725",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 16,
+      "name": "Anträge und Anfragen",
+      "created": "2016-04-11T08:02:55+02:00",
+      "modified": "2016-04-14T14:17:03+02:00"
+    }
+  ]
+}

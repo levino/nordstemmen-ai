@@ -1,0 +1,178 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5253",
+  "name": "Ortsrat Mahlerten (7. Sitzung)",
+  "start": "2023-10-10T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-10",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Mahlerten, Leunisstraße 16, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Leunisstraße 16",
+    "room": "Dorfgemeinschaftshaus Mahlerten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Mahlerten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T12:00:53+02:00",
+    "modified": "2019-06-06T11:57:30+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-17"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-37419",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2023-10-10",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZBWAW-lyK0sPl3x8Q0u-jHKTgE1SPQDwsLVTJYnbSF2/Bekanntmachung_Ortsrat_Mahlerten_10.10.2023.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZBWAW-lyK0sPl3x8Q0u-jHKTgE1SPQDwsLVTJYnbSF2/Bekanntmachung_Ortsrat_Mahlerten_10.10.2023.pdf",
+    "created": "2023-09-29T13:00:24+02:00",
+    "modified": "2023-09-29T13:00:24+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-37814",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2023-10-10",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeGYSXPzRIDTgkQcsDPerdF1qjFpE8veESNle__NVIpj/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_10.10.2023.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeGYSXPzRIDTgkQcsDPerdF1qjFpE8veESNle__NVIpj/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_10.10.2023.pdf",
+    "created": "2023-11-16T13:00:06+01:00",
+    "modified": "2023-11-16T13:00:06+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21469",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2023-09-08T07:28:03+02:00",
+      "modified": "2023-09-08T07:28:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21470",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2023-09-08T07:28:03+02:00",
+      "modified": "2023-09-08T07:28:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21477",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Feststellung des Sitzverlustes des Ortsratsmitgliedes Herrn Jens Grages",
+      "created": "2023-09-08T07:33:00+02:00",
+      "modified": "2023-09-08T07:33:00+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21478",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Verpflichtung und Pflichtenbelehrung eines nachrückenden Ortsratsmitgliedes",
+      "created": "2023-09-08T07:33:48+02:00",
+      "modified": "2023-09-08T07:33:48+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21471",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Genehmigung des Protokolls der Sitzung vom 09. Mai 2023",
+      "created": "2023-09-08T07:28:03+02:00",
+      "modified": "2023-09-28T15:20:11+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21555",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bestandsaufnahme im Rahmen der Neuaufstellung des Flächennutzungsplans\n(Vorstellung der Ergebnisse und Austausch)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6578",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 TOP 5)",
+          "mimeType": "application/pdf",
+          "date": "2023-10-10",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSnXLJ64UCXsWM-r24OddbAEXDMpeFYla7hTE-ocPuSX/Anlage_1_TOP_5.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSnXLJ64UCXsWM-r24OddbAEXDMpeFYla7hTE-ocPuSX/Anlage_1_TOP_5.pdf",
+          "created": "2023-12-08T13:00:21+01:00",
+          "modified": "2023-12-08T13:00:21+01:00"
+        }
+      ],
+      "created": "2023-09-14T13:30:08+02:00",
+      "modified": "2023-09-28T14:48:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21649",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Mitteilungen der Verwaltung\n- Aktueller Stand Löschwassertank\n- Aktueller Stand Regenrückhaltebecken\n- Vorstellung Klimaschutzmanager der Gemeinde Nordstemmen",
+      "created": "2023-09-28T14:49:20+02:00",
+      "modified": "2023-09-28T14:49:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21650",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bericht des Ortsrates über die Fragen der letzten Ortsratssitzungen",
+      "created": "2023-09-28T14:49:53+02:00",
+      "modified": "2023-09-28T14:49:53+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21473",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2023-09-08T07:28:03+02:00",
+      "modified": "2023-09-28T14:50:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21651",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Anhörung zum Haushaltsplan 2024 und zum Investitionsprogramm bis 2027 für die Ortschaft Mahlerten",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7818",
+      "result": "Anhörung einstimmig angenommen",
+      "created": "2023-09-28T14:50:11+02:00",
+      "modified": "2023-09-28T14:50:11+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21652",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "B 1 Ortsumgehung - Sachstand",
+      "created": "2023-09-28T14:51:01+02:00",
+      "modified": "2023-09-28T14:51:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21475",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters\n- Anlegen von Blühstreifen\n- Info Jubiläum 50 Jahre Einheitsgemeinde Nordstemmen\n- Weihnachtsmarkt 01.12.2023",
+      "created": "2023-09-08T07:28:03+02:00",
+      "modified": "2023-09-28T14:51:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21472",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Anfragen und Anregungen",
+      "created": "2023-09-08T07:28:03+02:00",
+      "modified": "2023-09-28T14:52:47+02:00"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5598",
+  "name": "Fachausschuss Kindertagesstätten (17. Sitzung)",
+  "start": "2025-06-05T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-42"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-41703",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Kindertagesstätten)",
+    "mimeType": "application/pdf",
+    "date": "2025-06-05",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaf8b4NL4L60bk9Jgpvat_QMiG-D6wtvvMUfZeEtvMPa/Bekanntmachung_Fachausschuss_Kindertagesstaetten_05.06.2025.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaf8b4NL4L60bk9Jgpvat_QMiG-D6wtvvMUfZeEtvMPa/Bekanntmachung_Fachausschuss_Kindertagesstaetten_05.06.2025.pdf",
+    "created": "2025-05-22T13:00:24+02:00",
+    "modified": "2025-05-22T13:00:24+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-42216",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Kindertagesstätten)",
+    "mimeType": "application/pdf",
+    "date": "2025-06-05",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZ5WLxMneHeZiiEOkidB6pR0yQpW0OE6MVGfIaoEl7JT/Oeffentliche_Niederschrift_Fachausschuss_Kindertagesstaetten_05.06.2025.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZ5WLxMneHeZiiEOkidB6pR0yQpW0OE6MVGfIaoEl7JT/Oeffentliche_Niederschrift_Fachausschuss_Kindertagesstaetten_05.06.2025.pdf",
+    "created": "2025-07-23T13:00:12+02:00",
+    "modified": "2025-07-23T13:00:12+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23602",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2025-05-21T08:08:25+02:00",
+      "modified": "2025-05-21T08:08:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23603",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2025-05-21T08:08:25+02:00",
+      "modified": "2025-05-21T08:08:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23604",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 11. März 2025",
+      "created": "2025-05-21T08:08:25+02:00",
+      "modified": "2025-05-21T08:08:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23605",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Anfragen und Anregungen",
+      "created": "2025-05-21T08:08:25+02:00",
+      "modified": "2025-05-21T08:08:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23606",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2025-05-21T08:08:25+02:00",
+      "modified": "2025-05-21T08:08:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23609",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Information über die\n- Entwicklung der Kinderbetreuungszahlen (Geburtenfortschreibung)\n- Belegung der Plätze in den Kindertagesstätten, Horten und Kindertagespflegen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7343",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Microsoft PowerPoint - Anlage 1 Protokoll Geburtenzahlen.pptx)",
+          "mimeType": "application/pdf",
+          "date": "2025-06-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZatx3UZMIDFeqEg3O8gvp6DDNcT8PZ7yY2Qw42CAjO5v/Microsoft_PowerPoint_-_Anlage_1_Protokoll_Geburtenzahlen.pptx.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZatx3UZMIDFeqEg3O8gvp6DDNcT8PZ7yY2Qw42CAjO5v/Microsoft_PowerPoint_-_Anlage_1_Protokoll_Geburtenzahlen.pptx.pdf",
+          "created": "2025-07-23T13:00:12+02:00",
+          "modified": "2025-07-23T13:00:12+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7344",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext ((Microsoft PowerPoint - Präsentation1))",
+          "mimeType": "application/pdf",
+          "date": "2025-06-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYQD20ovl7jvEgHvsqf5nv_KvBsRbaTDwvgd7ntqcRBQ/-Microsoft_PowerPoint_-_Praesentation1-.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYQD20ovl7jvEgHvsqf5nv_KvBsRbaTDwvgd7ntqcRBQ/-Microsoft_PowerPoint_-_Praesentation1-.pdf",
+          "created": "2025-07-23T13:00:12+02:00",
+          "modified": "2025-07-23T13:00:12+02:00"
+        }
+      ],
+      "created": "2025-05-21T08:10:51+02:00",
+      "modified": "2025-05-21T08:10:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23626",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Information aus den Kindertagesstätten",
+      "created": "2025-05-21T10:00:30+02:00",
+      "modified": "2025-05-21T10:00:30+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23607",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Mitteilungen der Verwaltung",
+      "created": "2025-05-21T08:08:25+02:00",
+      "modified": "2025-05-21T08:08:25+02:00"
+    }
+  ]
+}

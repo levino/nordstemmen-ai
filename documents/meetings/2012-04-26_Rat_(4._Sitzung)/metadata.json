@@ -1,0 +1,276 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1843",
+  "name": "Rat (4. Sitzung)",
+  "start": "2012-04-26T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-13",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Grundschule Nordstemmen, Asternstraße 13, 31171 Nordstemmen, Musikraum",
+    "streetAddress": "Asternstraße 13",
+    "room": "Grundschule Nordstemmen, Musikraum",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2006-05-15T10:39:45+02:00",
+    "modified": "2022-05-17T15:56:26+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-8134",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2012-04-26",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZegRrcnKX05ZADHqW5EUwyjTCN0h4ZgK5n6wwmvzn-4r/Bekanntmachung_Rat_26.04.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZegRrcnKX05ZADHqW5EUwyjTCN0h4ZgK5n6wwmvzn-4r/Bekanntmachung_Rat_26.04.2012.pdf",
+    "created": "2012-04-16T12:32:13+02:00",
+    "modified": "2012-04-17T13:01:23+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-8321",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2012-04-26",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRNOj5zTYteD1fnbnJ3LYkx2_qYeGhVl4-jaRfhpY4IP/Oeffentliche_Niederschrift_Rat_26.04.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRNOj5zTYteD1fnbnJ3LYkx2_qYeGhVl4-jaRfhpY4IP/Oeffentliche_Niederschrift_Rat_26.04.2012.pdf",
+    "created": "2012-06-15T09:30:54+02:00",
+    "modified": "2012-06-15T09:30:54+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8253",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2012-03-28T11:37:39+02:00",
+      "modified": "2012-03-28T11:37:39+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8254",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2012-03-28T11:37:39+02:00",
+      "modified": "2012-03-28T11:37:39+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8255",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung des Rates vom 22.03.2012",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-686",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2012-04-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWzJrgfoJG3odAYOL-8RcXOsrfpkP4RPxqZAcN3qx_O_/Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWzJrgfoJG3odAYOL-8RcXOsrfpkP4RPxqZAcN3qx_O_/Anlage_1.pdf",
+          "created": "2012-06-14T18:00:51+02:00",
+          "modified": "2012-06-15T09:30:54+02:00"
+        }
+      ],
+      "created": "2012-03-28T11:37:39+02:00",
+      "modified": "2012-03-28T11:37:39+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8256",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht des Bürgermeisters über die ausgeführten Beschlüsse des Rates aus der Sitzung vom 22. März 2012 einschließlich wichtiger Beschlüsse des Verwaltungsausschusses",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-679",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Rat 26.04.2012 18.30 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2012-04-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUr--4n4evKs7bIkiRMAu3Le2Aqfd79E2Z0ti3IyFm-M/Rat_26.04.2012_18.30_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUr--4n4evKs7bIkiRMAu3Le2Aqfd79E2Z0ti3IyFm-M/Rat_26.04.2012_18.30_Uhr.pdf",
+          "created": "2012-05-21T13:01:07+02:00",
+          "modified": "2012-06-15T09:30:54+02:00"
+        }
+      ],
+      "created": "2012-03-28T11:37:39+02:00",
+      "modified": "2012-03-28T11:37:39+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8257",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2012-03-28T11:37:39+02:00",
+      "modified": "2012-03-28T11:37:39+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8258",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bekanntgabe des Berichts über die unvermutete örtliche Prüfung der Gemeindekasse Nordstemmen durch das Rechnungsprüfungsamt des Landkreises Hildesheim",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1759",
+      "created": "2012-03-28T11:37:39+02:00",
+      "modified": "2012-03-28T11:37:39+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8263",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Situation zum Fortbestand der Grundschule Adensen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1859",
+      "created": "2012-03-28T11:37:39+02:00",
+      "modified": "2012-03-29T17:00:27+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8304",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Änderung der Schulbezirke in der Gemeinde Nordstemmen\n- Antrag des Ratsmitgliedes Dietmar Rebmann vom 16. März 2012 (Anlage 1)\n- Antrag der Fraktion der UWG-Fraktionen vom 16. März 2012 (Anlage 2)\nBeratung und Beschlussfassung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-671",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage zu TOP 7)",
+          "mimeType": "application/pdf",
+          "date": "2012-04-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZm9A-grbPinA6hZgWWZGc1a15sehU0Bfr0lcRgNPDWT/Anlage_zu_TOP_7.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZm9A-grbPinA6hZgWWZGc1a15sehU0Bfr0lcRgNPDWT/Anlage_zu_TOP_7.pdf",
+          "created": "2012-04-18T09:16:53+02:00",
+          "modified": "2012-06-15T09:30:54+02:00"
+        }
+      ],
+      "created": "2012-03-29T17:02:14+02:00",
+      "modified": "2012-03-29T17:02:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8261",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Straßenausbaumaßnahme \"Dorfstraße\", Ortschaft Adensen, im Rahmen der Dorferneuerung - Grundsatzbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1847",
+      "created": "2012-03-28T11:37:39+02:00",
+      "modified": "2012-03-29T17:02:45+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8364",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8.1",
+      "order": 10,
+      "name": "Straßenausbaumaßnahme \"Dorfstraße\", Ortschaft Adensen, im Rahmen der Dorferneuerung - Grundsatzbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1886",
+      "created": "2012-04-17T11:12:11+02:00",
+      "modified": "2012-04-17T11:12:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8356",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 12,
+      "name": "Bebauungsplan Nr. 0122 \"Innerörtliche Verbindungsstraße / Zuckerfabrik\", 8. Änderung;\nSatzungsbeschluss gem. § 10 Abs. 1 BauGB",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1895",
+      "created": "2012-04-16T09:27:28+02:00",
+      "modified": "2012-04-16T09:27:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8357",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 13,
+      "name": "Bebauungsplan Nr. 0306 \"Barnten - Süd III\", 2. Änderung;\nSatzungsbeschluss gem. § 10 Abs. 1 BauGB",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1898",
+      "created": "2012-04-16T09:27:49+02:00",
+      "modified": "2012-04-16T09:27:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8262",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 14,
+      "name": "Entlassung und Ernennung von Führungskräften der Feuerwehr",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1874",
+      "created": "2012-03-28T11:37:39+02:00",
+      "modified": "2012-04-16T09:28:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8260",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 15,
+      "name": "Nordstemmer-Kinder-Bauland-Bonus",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1866",
+      "created": "2012-03-28T11:37:39+02:00",
+      "modified": "2012-04-16T09:28:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8259",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 16,
+      "name": "Haushalt 2012",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1831",
+      "created": "2012-03-28T11:37:39+02:00",
+      "modified": "2012-04-16T09:28:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8359",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13.2",
+      "order": 17,
+      "name": "Haushalt 2012",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1878",
+      "created": "2012-04-17T09:57:18+02:00",
+      "modified": "2012-04-17T09:57:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8307",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 18,
+      "name": "DS 8/2012 Unterrichtung über die Veränderungen von Kommunaldarlehen\n",
+      "created": "2012-03-29T17:08:06+02:00",
+      "modified": "2012-03-29T17:08:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8264",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 19,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2012-03-28T11:37:39+02:00",
+      "modified": "2012-03-28T11:37:39+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8265",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 20,
+      "name": "Behandlung von Anfragen",
+      "created": "2012-03-28T11:37:39+02:00",
+      "modified": "2012-03-28T11:37:39+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8266",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 21,
+      "name": "Anregungen",
+      "created": "2012-03-28T11:37:39+02:00",
+      "modified": "2012-03-28T11:37:39+02:00"
+    }
+  ]
+}

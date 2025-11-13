@@ -1,0 +1,153 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2852",
+  "name": "Ortsrat Rössing (38. Sitzung)",
+  "start": "2017-02-21T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-26",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Gaststätte \"Zum Dorfbrunnen\", Loderwinkel 2 a, 31171 Nordstemmen, Clubraum",
+    "streetAddress": "Loderwinkel 2 a",
+    "room": "Gaststätte \"Zum Dorfbrunnen\", Clubraum",
+    "postalCode": "31171",
+    "subLocality": "Rössing",
+    "locality": "Nordstemmen",
+    "created": "2014-10-09T10:17:13+02:00",
+    "modified": "2017-09-12T17:09:54+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-18184",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2017-02-21",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZR4Irbg0ipBGse3LSwGifcKhh4_qACP8xiRK7tnBfeBv/Bekanntmachung_Ortsrat_Roessing_21.02.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZR4Irbg0ipBGse3LSwGifcKhh4_qACP8xiRK7tnBfeBv/Bekanntmachung_Ortsrat_Roessing_21.02.2017.pdf",
+    "created": "2017-02-13T13:01:20+01:00",
+    "modified": "2017-02-13T13:01:20+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-18344",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2017-02-21",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbkbIv65pe80eLVKxjz9IkDYNOXPFVb11ejllAoYKOc6/Oeffentliche_Niederschrift_Ortsrat_Roessing_21.02.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbkbIv65pe80eLVKxjz9IkDYNOXPFVb11ejllAoYKOc6/Oeffentliche_Niederschrift_Ortsrat_Roessing_21.02.2017.pdf",
+    "created": "2017-03-06T09:27:34+01:00",
+    "modified": "2017-03-06T09:27:34+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13797",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2017-02-10T08:41:09+01:00",
+      "modified": "2017-02-10T08:41:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13798",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2017-02-10T08:41:09+01:00",
+      "modified": "2017-02-10T08:41:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13799",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 15.11.2016",
+      "created": "2017-02-10T08:41:09+01:00",
+      "modified": "2017-02-10T08:41:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13800",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2017-02-10T08:41:09+01:00",
+      "modified": "2017-02-10T08:41:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13805",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Durchführung und Organisation des Umwelttages am 25. März 2017",
+      "created": "2017-02-10T08:42:21+01:00",
+      "modified": "2017-02-10T08:42:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13806",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Schwerpunktziele für die laufende Legislaturperiode\n- Beratung der weiteren Vorgehensweise",
+      "created": "2017-02-10T08:43:10+01:00",
+      "modified": "2017-02-10T08:43:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13807",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Teilnahme am Wettbewerb \"Unser Dorf hat Zukunft\"\n- Beratung und Beschlussfassung",
+      "created": "2017-02-10T08:49:58+01:00",
+      "modified": "2017-02-10T08:49:58+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13841",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Ehrung von Frau Madeleine von Rössing für die Auszeichnung mit dem Bundesverdienstkreuz",
+      "created": "2017-02-24T10:46:57+01:00",
+      "modified": "2017-02-24T10:47:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13842",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Festlegung eines Termins für das Treffen der Beetpaten",
+      "created": "2017-02-24T10:47:39+01:00",
+      "modified": "2017-02-24T10:47:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13801",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2017-02-10T08:41:09+01:00",
+      "modified": "2017-02-10T08:41:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13802",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2017-02-10T08:41:09+01:00",
+      "modified": "2017-02-10T08:41:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13803",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Anträge und Anfragen",
+      "created": "2017-02-10T08:41:09+01:00",
+      "modified": "2017-02-10T08:41:09+01:00"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1850",
+  "name": "Fachausschuss Planung, Bau, Umwelt, Feuerschutz (4. Sitzung)",
+  "start": "2012-05-09T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-13",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Grundschule Nordstemmen, Asternstraße 13, 31171 Nordstemmen, Musikraum",
+    "streetAddress": "Asternstraße 13",
+    "room": "Grundschule Nordstemmen, Musikraum",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2006-05-15T10:39:45+02:00",
+    "modified": "2022-05-17T15:56:26+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-6"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-8203",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Planung, Bau, Umwelt, Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2012-05-09",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZSUiT-hsLDmdtj9sA-sUzen35QxTj2Ld2_GrgW6wEQf/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_09.05.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZSUiT-hsLDmdtj9sA-sUzen35QxTj2Ld2_GrgW6wEQf/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_09.05.2012.pdf",
+    "created": "2012-04-26T13:02:14+02:00",
+    "modified": "2012-04-26T13:02:14+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-8393",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Planung, Bau, Umwelt, Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2012-05-09",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbvCoNUeXythfGN8RG7RRJxl0ZsIBPn-qCSGOhDaecXD/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_09.05.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbvCoNUeXythfGN8RG7RRJxl0ZsIBPn-qCSGOhDaecXD/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_09.05.2012.pdf",
+    "created": "2012-06-15T09:30:54+02:00",
+    "modified": "2012-07-04T10:43:43+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8377",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2012-04-26T09:06:43+02:00",
+      "modified": "2012-04-26T09:06:43+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8378",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2012-04-26T09:06:43+02:00",
+      "modified": "2012-04-26T09:06:43+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8379",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 17. April 2012",
+      "created": "2012-04-26T09:06:43+02:00",
+      "modified": "2012-04-26T09:06:43+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8380",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2012-04-26T09:06:43+02:00",
+      "modified": "2012-04-26T09:06:43+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8381",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einführung einer getrennten Abwassergebühr für Schmutzwasser und Niederschlagswasser (Gesplittete Abwassergebühr) in der Gemeinde Nordstemmen;\nRabatte für die Flächenermittlung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1905",
+      "created": "2012-04-26T09:06:44+02:00",
+      "modified": "2012-04-26T09:06:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8382",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Sanierung des Regenwasserkanals in der Stöckumer Straße, Ortschaft Groß Escherde;\nMaßnahmenbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1909",
+      "created": "2012-04-26T09:06:44+02:00",
+      "modified": "2012-04-26T09:06:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8387",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 8,
+      "name": "Radwegenetz in der Gemeinde Nordstemmen\n- Anfrage der Gruppe Bündnis 90/Die Grünen-Rebmann\n(siehe Anlage 1; Ausführungen werden in der Sitzung gemacht)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-678",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Fachausschuss Planung, Bau, Umwelt, Feuerschutz 09.05.2012 18.00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2012-05-09",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdMMLxCSmB-5UQWM3ffxK8CXFuL-k4_ELXH-4Pq9HYjd/Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_09.05.2012_18.00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdMMLxCSmB-5UQWM3ffxK8CXFuL-k4_ELXH-4Pq9HYjd/Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_09.05.2012_18.00_Uhr.pdf",
+          "created": "2012-04-26T13:02:14+02:00",
+          "modified": "2012-07-04T10:43:43+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-703",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Fachausschuss Planung, Bau, Umwelt, Feuerschutz 09.05.2012)",
+          "mimeType": "application/pdf",
+          "date": "2012-05-09",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRSdGz3VZYcLUP7d-IfSGwiKRgFTnL_6qfFDlFWSCb4j/Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_09.05.2012.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRSdGz3VZYcLUP7d-IfSGwiKRgFTnL_6qfFDlFWSCb4j/Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_09.05.2012.pdf",
+          "created": "2012-07-04T10:43:43+02:00",
+          "modified": "2012-07-04T10:43:43+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-704",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Fachausschuss Planung, Bau, Umwelt, Feuerschutz 09.05.2012)",
+          "mimeType": "application/pdf",
+          "date": "2012-05-09",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTVxoQB1hMUeCszuw1cQw53lbg2lN3S4OfVSKoSDwyBW/Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_09.05.2012.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTVxoQB1hMUeCszuw1cQw53lbg2lN3S4OfVSKoSDwyBW/Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_09.05.2012.pdf",
+          "created": "2012-07-04T10:43:43+02:00",
+          "modified": "2012-07-04T10:43:43+02:00"
+        }
+      ],
+      "created": "2012-04-26T09:08:45+02:00",
+      "modified": "2012-04-26T09:08:45+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8383",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2012-04-26T09:06:44+02:00",
+      "modified": "2012-04-26T09:06:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8384",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Behandlung von Anfragen",
+      "created": "2012-04-26T09:06:44+02:00",
+      "modified": "2012-04-26T09:06:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8385",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Anregungen",
+      "created": "2012-04-26T09:06:44+02:00",
+      "modified": "2012-04-26T09:06:44+02:00"
+    }
+  ]
+}

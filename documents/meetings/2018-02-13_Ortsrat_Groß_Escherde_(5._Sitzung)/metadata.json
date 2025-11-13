@@ -1,0 +1,174 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4039",
+  "name": "Ortsrat Groß Escherde (5. Sitzung)",
+  "start": "2018-02-13T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-12",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Groß Escherde, Schulstraße 9 a, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Schulstraße 9 a",
+    "room": "Dorfgemeinschaftshaus Groß Escherde, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Groß Escherde",
+    "locality": "Nordstemmen",
+    "created": "2005-04-07T10:37:20+02:00",
+    "modified": "2019-06-06T11:57:41+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-14"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-23124",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2018-02-13",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZezsUU1QB6YjoH2MDih9qjQWcAK6sFB9zz5NUQZTzF2B/Bekanntmachung_Ortsrat_Gross_Escherde_13.02.2018.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZezsUU1QB6YjoH2MDih9qjQWcAK6sFB9zz5NUQZTzF2B/Bekanntmachung_Ortsrat_Gross_Escherde_13.02.2018.pdf",
+    "created": "2018-02-02T13:01:20+01:00",
+    "modified": "2018-02-02T13:01:20+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-23446",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2018-02-13",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZd_h4c6nKFhTQit0ezBmEQ9AhypWmI807Fd20MWt1p-c/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_13.02.2018.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZd_h4c6nKFhTQit0ezBmEQ9AhypWmI807Fd20MWt1p-c/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_13.02.2018.pdf",
+    "created": "2018-02-21T13:01:05+01:00",
+    "modified": "2018-02-21T13:01:05+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14970",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2018-01-25T11:26:56+01:00",
+      "modified": "2018-01-25T11:26:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14971",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2018-01-25T11:26:56+01:00",
+      "modified": "2018-01-25T11:26:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14972",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 07. November 2017",
+      "created": "2018-01-25T11:26:56+01:00",
+      "modified": "2018-01-25T11:26:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14973",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2018-01-25T11:26:56+01:00",
+      "modified": "2018-02-14T10:30:41+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14974",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2018-01-25T11:26:56+01:00",
+      "modified": "2018-02-14T10:30:58+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14978",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Vorfahrtsregelung Kreuzung Stöckumer Straße / Schulstraße;\nTeilnahme eines Ortsratsvertreters am Ortstermin der Verkehrskommission\n(Beratung und Beschlussfassung)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-3937",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Protokoll OR Groß Escherde Anlage TOP 5)",
+          "mimeType": "application/pdf",
+          "date": "2018-02-13",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVspSf8iyOkfSvJ2ytg_N6Xhjv1jKCKUM2sd1mluP3h1/Protokoll_OR_Gross_Escherde_Anlage_TOP_5.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVspSf8iyOkfSvJ2ytg_N6Xhjv1jKCKUM2sd1mluP3h1/Protokoll_OR_Gross_Escherde_Anlage_TOP_5.pdf",
+          "created": "2018-02-19T13:01:03+01:00",
+          "modified": "2018-02-19T13:01:03+01:00"
+        }
+      ],
+      "created": "2018-01-25T11:55:05+01:00",
+      "modified": "2018-01-25T11:55:05+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14979",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Jugendveranstaltung des Ortsrates 2018\n(Beratung und Beschlussfassung)",
+      "created": "2018-01-25T11:55:44+01:00",
+      "modified": "2018-01-25T11:55:44+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14980",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Verwendung der Ortsratsmittel 2018\n(Beratung und Beschlussfassung)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-3915",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Groß Escherde Anlage TOP 5)",
+          "mimeType": "application/pdf",
+          "date": "2018-02-13",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZapETBvmEkHGHy0bY1S0wWBEYTCiocS_EsR-4HyRpPkR/OR_Gross_Escherde_Anlage_TOP_5.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZapETBvmEkHGHy0bY1S0wWBEYTCiocS_EsR-4HyRpPkR/OR_Gross_Escherde_Anlage_TOP_5.pdf",
+          "created": "2018-02-02T13:01:20+01:00",
+          "modified": "2018-02-02T13:01:20+01:00"
+        }
+      ],
+      "created": "2018-01-25T11:56:15+01:00",
+      "modified": "2018-01-25T11:56:15+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14981",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Begrüßung von Neubürgerinnen und Neubürgern bei der Veranstaltung \"Tanz in den Mai\"\n(Beratung und Beschlussfassung)",
+      "created": "2018-01-25T11:56:58+01:00",
+      "modified": "2018-01-25T11:56:58+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14975",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Potenzielle Hotspot-Standorte im Rahmen der EU-Förderung (WIFI4EU)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6098",
+      "result": "einstimmig/abweichender Beschluss",
+      "created": "2018-01-25T11:26:56+01:00",
+      "modified": "2018-01-25T11:57:23+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14976",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anträge und Anfragen",
+      "created": "2018-01-25T11:26:56+01:00",
+      "modified": "2018-01-25T11:26:56+01:00"
+    }
+  ]
+}

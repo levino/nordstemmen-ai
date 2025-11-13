@@ -1,0 +1,175 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4966",
+  "name": "Fachausschuss Kindertagesstätten (2. Sitzung)",
+  "start": "2022-03-15T18:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-42"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-33590",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Kindertagesstätten)",
+    "mimeType": "application/pdf",
+    "date": "2022-03-15",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZT3uTiUMv6bTvEs-NW4ycRZoNkfhXR1n0WxmIvs9j5jY/Bekanntmachung_Fachausschuss_Kindertagesstaetten_15.03.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZT3uTiUMv6bTvEs-NW4ycRZoNkfhXR1n0WxmIvs9j5jY/Bekanntmachung_Fachausschuss_Kindertagesstaetten_15.03.2022.pdf",
+    "created": "2022-03-09T11:41:48+01:00",
+    "modified": "2022-03-09T11:41:48+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-33820",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Kindertagesstätten)",
+    "mimeType": "application/pdf",
+    "date": "2022-03-15",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeYdY9_0_nVDTqXPdXfNWWBWQlSPxoNFhR_03eGIqYWH/Oeffentliche_Niederschrift_Fachausschuss_Kindertagesstaetten_15.03.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeYdY9_0_nVDTqXPdXfNWWBWQlSPxoNFhR_03eGIqYWH/Oeffentliche_Niederschrift_Fachausschuss_Kindertagesstaetten_15.03.2022.pdf",
+    "created": "2022-04-12T19:00:00+02:00",
+    "modified": "2022-04-12T19:00:00+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19837",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2022-03-07T14:32:08+01:00",
+      "modified": "2022-03-07T14:32:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19838",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2022-03-07T14:32:08+01:00",
+      "modified": "2022-03-07T14:32:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19839",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 02. Dezember 2021",
+      "created": "2022-03-07T14:32:08+01:00",
+      "modified": "2022-03-07T14:32:48+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19840",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2022-03-07T14:32:08+01:00",
+      "modified": "2022-03-07T14:32:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19850",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Unterrichtung über die\n- Entwicklung der Kinderbetreuungszahlen (Geburtenfortschreibung)\n- Belegung der Plätze in den Kindertagesstätten und Horten zum 01.02.2022\n- aktuelle Situation zur Kindertagespflege",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5566",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zu TOP 4)",
+          "mimeType": "application/pdf",
+          "date": "2022-03-15",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfeBz-ElRswz4qnLvto6d7q135LN31EifTfDUhxEgaPs/Anlage_1_zu_TOP_4.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfeBz-ElRswz4qnLvto6d7q135LN31EifTfDUhxEgaPs/Anlage_1_zu_TOP_4.pdf",
+          "created": "2022-04-19T13:00:13+02:00",
+          "modified": "2022-04-19T13:00:13+02:00"
+        }
+      ],
+      "created": "2022-03-07T14:36:44+01:00",
+      "modified": "2022-03-07T14:36:44+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19844",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Unterrichtung über die Betriebsabrechnung Kindertagesstätten 2018 - 2020",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7355",
+      "created": "2022-03-07T14:32:08+01:00",
+      "modified": "2022-03-07T14:36:59+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19841",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Erweiterung des Platzangebots um 15 Dreivierteltagsplätze in der AWO Kita Heyersum",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7296",
+      "result": "Einstimmig mit 9 Ja-Stimmen lt. Beschlussvorlage",
+      "created": "2022-03-07T14:32:08+01:00",
+      "modified": "2022-03-07T14:32:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19845",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Ausbau der Kindertagesbetreuung; Festlegung von Betreuungsquoten in der Kinderbetreuung und Ausbauzielen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7356",
+      "result": "Einstimmig mit 9 Ja-Stimmen lt. Beschlussvorlage",
+      "created": "2022-03-07T14:32:08+01:00",
+      "modified": "2022-03-07T14:37:12+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19842",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Anpassung der entgeltfreien Betreuungszeit von 8,5 auf 8 Stunden im Bereich Kindertagesstätten",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7320",
+      "result": "Einstimmig mit 9 Ja-Stimmen lt. Beschlussvorlage",
+      "created": "2022-03-07T14:32:08+01:00",
+      "modified": "2022-03-07T14:32:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19843",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bereitstellung der Beförderung der Kindergartenkinder aus der Ortschaft Mahlerten",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7335",
+      "created": "2022-03-07T14:32:08+01:00",
+      "modified": "2022-03-07T14:32:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19847",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Mitteilungen der Bürgermeisterin",
+      "created": "2022-03-07T14:32:08+01:00",
+      "modified": "2022-03-07T14:32:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19848",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Anträge und Anfragen",
+      "created": "2022-03-07T14:32:08+01:00",
+      "modified": "2022-03-07T14:32:08+01:00"
+    }
+  ]
+}

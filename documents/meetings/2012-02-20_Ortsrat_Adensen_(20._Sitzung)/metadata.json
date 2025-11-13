@@ -1,0 +1,164 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1808",
+  "name": "Ortsrat Adensen (20. Sitzung)",
+  "start": "2012-02-20T19:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-2",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Adensen, Dorfstraße 19, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Dorfstraße 19",
+    "room": "Feuerwehrhaus Adensen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Adensen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T10:54:03+02:00",
+    "modified": "2019-06-06T11:57:02+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-11"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-7737",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2012-02-20",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWVszQVaNhxSkn0eR-pgIi1CZAT6KZvIRjAkk4I50TfC/Bekanntmachung_Ortsrat_Adensen_20.02.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWVszQVaNhxSkn0eR-pgIi1CZAT6KZvIRjAkk4I50TfC/Bekanntmachung_Ortsrat_Adensen_20.02.2012.pdf",
+    "created": "2012-02-13T12:17:10+01:00",
+    "modified": "2012-02-13T12:17:10+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-7976",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2012-02-20",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcrcnJpkMs7-kX1rroj2NzqEF33h8ib5YbU2XmMBokrG/Oeffentliche_Niederschrift_Ortsrat_Adensen_20.02.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcrcnJpkMs7-kX1rroj2NzqEF33h8ib5YbU2XmMBokrG/Oeffentliche_Niederschrift_Ortsrat_Adensen_20.02.2012.pdf",
+    "created": "2012-03-19T11:57:05+01:00",
+    "modified": "2012-03-19T11:57:05+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8035",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2012-02-10T09:53:45+01:00",
+      "modified": "2012-02-10T09:53:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8036",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2012-02-10T09:53:45+01:00",
+      "modified": "2012-02-10T09:53:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8037",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 14.11.2011",
+      "created": "2012-02-10T09:53:45+01:00",
+      "modified": "2012-02-10T09:53:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8038",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2012-02-10T09:53:45+01:00",
+      "modified": "2012-02-10T09:53:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8039",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Anhörung zum Haushalt für das Haushaltsjahr 2012 ff.",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1795",
+      "created": "2012-02-10T09:53:45+01:00",
+      "modified": "2012-02-10T09:53:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8040",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bereitstellung von Dachflächen zur Errichtung von Photovoltaikanlagen durch eine Bürger-Photovoltaikgenossenschaft",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1803",
+      "created": "2012-02-10T09:53:45+01:00",
+      "modified": "2012-02-10T09:53:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8046",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Auf Antrag der UWG Ortsratsfraktion vom 05.02.2012:\nMaßnahmen zur Verkehrsberuhigung in der Köselgasse und in der Grünen Gasse\n- Beratung und Beschlussfassung (siehe Anlage 1)",
+      "created": "2012-02-10T09:56:53+01:00",
+      "modified": "2012-02-10T09:56:53+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8047",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Auf Antrag des Ortsheimatpflegers vom 07.02.2012:\nAnbringung / Aufstellung einer Hinweistafel auf dem \"Dorfplatz\" (Thie)\n- Beratung und Beschlussfassung (siehe Anlage 2)",
+      "created": "2012-02-10T09:58:32+01:00",
+      "modified": "2012-02-10T09:58:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8048",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Verwendung der im Haushaltsjahr 2012 zur Verfügung stehenden Ortsratsmittel\n- Beratung und Beschlussfassung\n(verwiesen wird hierzu auf die Drucksache zu TOP 4 dieser Sitzung - ansonsten siehe Anlage 3, zudem werden weitere Ausführungen in der Sitzung gemacht)",
+      "created": "2012-02-10T10:00:35+01:00",
+      "modified": "2012-02-10T10:00:35+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8041",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2012-02-10T09:53:45+01:00",
+      "modified": "2012-02-10T09:53:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8042",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Mitteilungen des Ortsbürgermeisters",
+      "created": "2012-02-10T09:53:45+01:00",
+      "modified": "2012-02-10T09:53:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8043",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Behandlung von schriftlichen Anfragen und Anträgen\n- schriftliche Anfrage der UWG-Ortsratsfraktion vom 02.02.2012 zur Dorferneuerung, zu Zuständigkeiten in den Dorfgassen sowie zum Mobilfunkempfang (siehe Anlage 4)\n- Straßenzustand in der Straße \"Am Pfarrkamp\"",
+      "created": "2012-02-10T09:53:45+01:00",
+      "modified": "2012-02-10T09:53:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8044",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Anregungen",
+      "created": "2012-02-10T09:53:45+01:00",
+      "modified": "2012-02-10T09:53:45+01:00"
+    }
+  ]
+}

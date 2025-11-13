@@ -1,0 +1,16 @@
+{
+  "name": "nordstemmen-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": ["scraper", "mcp-server", "embeddings"],
+  "scripts": {
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write .",
+    "test": "npm run test --workspaces"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4"
+  }
+}

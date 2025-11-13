@@ -1,0 +1,43 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5201",
+  "reference": "DS 86/2022",
+  "name": "Umsetzungsbeschluss zum Ratsbeschluss vom 30.09.2021 zur Drucksache 85/2021",
+  "paperType": "Beschlussvorlage",
+  "date": "2022-09-27",
+  "mainFile": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-34735",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Beschlussvorlage (Umsetzungsbeschluss zum Ratsbeschluss vom 30.09.2021 zur Drucksache 85/2021)",
+    "mimeType": "application/pdf",
+    "date": "2022-09-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUrk66OL1f3PWEHpdRT7wR7cmUMo_NpobYVb5sWrxnQW/Beschlussvorlage_DS_86-2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUrk66OL1f3PWEHpdRT7wR7cmUMo_NpobYVb5sWrxnQW/Beschlussvorlage_DS_86-2022.pdf",
+    "created": "2024-09-27T13:00:19+02:00",
+    "modified": "2024-09-27T13:00:19+02:00"
+  },
+  "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7499",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20354",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5066",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-29"
+      ],
+      "created": "2022-08-30T16:09:55+02:00",
+      "modified": "2022-08-30T16:09:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7501",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20399",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5071",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2022-08-30T16:10:11+02:00",
+      "modified": "2022-08-30T16:10:11+02:00"
+    }
+  ]
+}

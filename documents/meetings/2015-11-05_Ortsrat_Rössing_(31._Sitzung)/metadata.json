@@ -1,0 +1,226 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2563",
+  "name": "Ortsrat Rössing (31. Sitzung)",
+  "start": "2015-11-05T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-25",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Gasthaus \"Alt Rössing\", Friedrichstraße 8, 31171 Nordstemmen, Clubraum",
+    "streetAddress": "Friedrichstraße 8",
+    "room": "Gasthaus \"Alt Rössing\", Clubraum",
+    "postalCode": "31171",
+    "subLocality": "Rössing",
+    "locality": "Nordstemmen",
+    "created": "2014-02-07T09:38:24+01:00",
+    "modified": "2019-06-06T11:58:30+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-14960",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2015-11-05",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZS-X0LKleiU7RLMSseZ-CaP_tErBdqfDPG8kqZNBwg_o/Bekanntmachung_Ortsrat_Roessing_05.11.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZS-X0LKleiU7RLMSseZ-CaP_tErBdqfDPG8kqZNBwg_o/Bekanntmachung_Ortsrat_Roessing_05.11.2015.pdf",
+    "created": "2015-10-26T19:00:45+01:00",
+    "modified": "2015-10-26T19:00:45+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-15247",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2015-11-05",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZO9fAHSh2oZf_E-E4r5yRRjPKgWIZIvZb77LIglJu4f/Oeffentliche_Niederschrift_Ortsrat_Roessing_05.11.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZO9fAHSh2oZf_E-E4r5yRRjPKgWIZIvZb77LIglJu4f/Oeffentliche_Niederschrift_Ortsrat_Roessing_05.11.2015.pdf",
+    "created": "2015-11-26T13:01:07+01:00",
+    "modified": "2015-11-26T13:01:07+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12243",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2015-10-20T07:39:35+02:00",
+      "modified": "2015-10-20T07:39:35+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12244",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2015-10-20T07:39:35+02:00",
+      "modified": "2015-10-20T07:39:35+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12245",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 30.04.2015",
+      "created": "2015-10-20T07:39:35+02:00",
+      "modified": "2015-10-20T07:43:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12246",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2015-10-20T07:39:35+02:00",
+      "modified": "2015-10-20T07:39:35+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12293",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Verkehrssituation in der \"Clausstraße\", Ortschaft Rössing;\nBeratung und Beschlussfassung/ -empfehlung\n(siehe Anlage 1)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1413",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Rössing 05.11.2015 19:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-11-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfNjge8OKQUFVyGsyUJ075VODjgdBY8pABlJ8TL4z23z/Ortsrat_Roessing_05.11.2015_19-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfNjge8OKQUFVyGsyUJ075VODjgdBY8pABlJ8TL4z23z/Ortsrat_Roessing_05.11.2015_19-00_Uhr.pdf",
+          "created": "2015-10-26T19:00:45+01:00",
+          "modified": "2015-10-26T19:00:45+01:00"
+        }
+      ],
+      "created": "2015-10-26T10:00:42+01:00",
+      "modified": "2015-10-26T10:00:42+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12404",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Grundstücksverhältnisse im Einmündungsbereich Karlstraße/Eikenhof\n- Anhörung -",
+      "created": "2015-11-19T10:42:18+01:00",
+      "modified": "2015-11-19T10:42:18+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12294",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Beratung und Beschlussfassung im Zusammenhang mit der Veränderung des großen westlichen Fensters in der Friedhofskapelle in der Ortschaft Rössing (siehe Anlage 2)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1414",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Rössing 05.11.2015 19:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-11-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVEsnk33Bx0kmKUCO8lP8Za1_b9bQUMVSoIEwk7iFNmO/Ortsrat_Roessing_05.11.2015_19-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVEsnk33Bx0kmKUCO8lP8Za1_b9bQUMVSoIEwk7iFNmO/Ortsrat_Roessing_05.11.2015_19-00_Uhr.pdf",
+          "created": "2015-10-26T19:00:45+01:00",
+          "modified": "2015-10-26T19:00:45+01:00"
+        }
+      ],
+      "created": "2015-10-26T10:02:09+01:00",
+      "modified": "2015-10-26T10:02:09+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12405",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Umgestaltung weitere Beete zur Blumenwiese\n- Beratung und Beschlussfassung -",
+      "created": "2015-11-19T10:43:13+01:00",
+      "modified": "2015-11-19T10:43:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12406",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Gestaltung des Neujahrsempfang am 17.01.2016\n- Beratung -",
+      "created": "2015-11-19T10:43:58+01:00",
+      "modified": "2015-11-19T10:43:58+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12295",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Verwendung der im Haushalt 2015 noch zur Verfügung stehenden Ortsratsmittel\n(siehe Anlage 3)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1415",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Rössing 05.11.2015 19:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-11-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcBF2NJtfAH4Ba1RLMm6EOpBuZvivTDXfeDbH7DfP1qf/Ortsrat_Roessing_05.11.2015_19-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcBF2NJtfAH4Ba1RLMm6EOpBuZvivTDXfeDbH7DfP1qf/Ortsrat_Roessing_05.11.2015_19-00_Uhr.pdf",
+          "created": "2015-10-26T19:00:45+01:00",
+          "modified": "2015-10-26T19:00:45+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1432",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Rössing 05.11.2015 19:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-11-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZURmyku8JzWBzeOzAxF4EsrGMaVKIgDQPuIayeNJJ86W/Ortsrat_Roessing_05.11.2015_19-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZURmyku8JzWBzeOzAxF4EsrGMaVKIgDQPuIayeNJJ86W/Ortsrat_Roessing_05.11.2015_19-00_Uhr.pdf",
+          "created": "2015-11-20T13:00:27+01:00",
+          "modified": "2015-11-20T13:00:27+01:00"
+        }
+      ],
+      "created": "2015-10-26T10:02:50+01:00",
+      "modified": "2015-10-26T10:02:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12297",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Anhörung zum Haushaltsplan 2016 und zum Investitionsprogramm bis 2019 für die Ortschaft Rössing",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3269",
+      "created": "2015-10-26T10:12:53+01:00",
+      "modified": "2015-10-26T10:12:53+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12247",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2015-10-20T07:39:35+02:00",
+      "modified": "2015-10-20T07:39:35+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12248",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2015-10-20T07:39:35+02:00",
+      "modified": "2015-10-20T07:39:35+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12249",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 15,
+      "name": "Anträge und Anfragen",
+      "created": "2015-10-20T07:39:35+02:00",
+      "modified": "2015-10-20T07:39:35+02:00"
+    }
+  ]
+}

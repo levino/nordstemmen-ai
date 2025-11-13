@@ -1,0 +1,282 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5159",
+  "name": "Ortsrat Rössing (4. Sitzung)",
+  "start": "2023-02-21T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-23",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Rössing, Kirchstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Kirchstraße 3",
+    "room": "Dorfgemeinschaftshaus Rössing, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Rössing",
+    "locality": "Nordstemmen",
+    "created": "2013-09-16T09:34:20+02:00",
+    "modified": "2019-06-06T11:57:18+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-35906",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2023-02-21",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYyNM_aA7vF7epNR6uqo5mG44noJYKKu0UFDyzIlXkYN/Bekanntmachung_Ortsrat_Roessing_21.02.2023.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYyNM_aA7vF7epNR6uqo5mG44noJYKKu0UFDyzIlXkYN/Bekanntmachung_Ortsrat_Roessing_21.02.2023.pdf",
+    "created": "2023-02-03T13:00:15+01:00",
+    "modified": "2023-02-03T13:00:15+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-36211",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2023-02-21",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZegLXhzFhol0tSwqVMjJ7njoASrDtACR_VKS7Pkw-IAU/Oeffentliche_Niederschrift_Ortsrat_Roessing_21.02.2023.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZegLXhzFhol0tSwqVMjJ7njoASrDtACR_VKS7Pkw-IAU/Oeffentliche_Niederschrift_Ortsrat_Roessing_21.02.2023.pdf",
+    "created": "2023-03-16T19:00:28+01:00",
+    "modified": "2023-03-16T19:00:28+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20825",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2023-01-31T10:46:50+01:00",
+      "modified": "2023-01-31T10:46:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20826",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2023-01-31T10:46:50+01:00",
+      "modified": "2023-01-31T10:46:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20827",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 15. November 2022",
+      "created": "2023-01-31T10:46:50+01:00",
+      "modified": "2023-01-31T10:46:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20833",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bauliche Situation Clausstraße",
+      "created": "2023-02-02T10:05:20+01:00",
+      "modified": "2023-02-02T10:05:20+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20834",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Auswertung des Verkehrsstatistikgeräts Kirchstraße",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6113",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2023-02-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZd5izA46zG-G2OlJnOUwp_60ap1uA41fTD0asUXaA3WD/Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZd5izA46zG-G2OlJnOUwp_60ap1uA41fTD0asUXaA3WD/Anlage_1.pdf",
+          "created": "2023-03-16T19:00:28+01:00",
+          "modified": "2023-03-16T19:00:28+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6114",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2023-02-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZT7wEwVE1Yk4ZXawKphoBJCsldZlN9XJP8EXm1yZfYwX/Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZT7wEwVE1Yk4ZXawKphoBJCsldZlN9XJP8EXm1yZfYwX/Anlage_2.pdf",
+          "created": "2023-03-16T19:00:28+01:00",
+          "modified": "2023-03-16T19:00:28+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6115",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 3)",
+          "mimeType": "application/pdf",
+          "date": "2023-02-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRmVDKv2zm2wK2y959TStNuupafjq4frKb0N_I_1-mDE/Anlage_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRmVDKv2zm2wK2y959TStNuupafjq4frKb0N_I_1-mDE/Anlage_3.pdf",
+          "created": "2023-03-16T19:00:28+01:00",
+          "modified": "2023-03-16T19:00:28+01:00"
+        }
+      ],
+      "created": "2023-02-02T10:06:34+01:00",
+      "modified": "2023-02-02T10:06:34+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20835",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Ergebnisse der Verkehrsschau 2022\nu. a. - Kirchstraße\n        - Leinkamp",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6116",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 4 Ergebnis Verkehrsschau 2022)",
+          "mimeType": "application/pdf",
+          "date": "2023-02-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZBTrXq_2dH_WHXx4hGAWgkw6stptWdshcDT08k5fMLk/Anlage_4_Ergebnis_Verkehrsschau_2022.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZBTrXq_2dH_WHXx4hGAWgkw6stptWdshcDT08k5fMLk/Anlage_4_Ergebnis_Verkehrsschau_2022.pdf",
+          "created": "2023-03-16T19:00:28+01:00",
+          "modified": "2023-03-16T19:00:28+01:00"
+        }
+      ],
+      "created": "2023-02-02T10:10:48+01:00",
+      "modified": "2023-03-08T14:24:18+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20828",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Anfragen und Anregungen",
+      "created": "2023-01-31T10:46:50+01:00",
+      "modified": "2023-03-08T14:22:30+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20829",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2023-01-31T10:46:50+01:00",
+      "modified": "2023-03-08T14:22:43+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20830",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6095",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Rössing Anlage 4 Ergebnis Verkehrsschau 2022)",
+          "mimeType": "application/pdf",
+          "date": "2023-02-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSG1wX9RD-XaF-oRdqRpwjo2M7ar3L7rjI3DBOJcJbem/OR_Roessing_Anlage_4_Ergebnis_Verkehrsschau_2022.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSG1wX9RD-XaF-oRdqRpwjo2M7ar3L7rjI3DBOJcJbem/OR_Roessing_Anlage_4_Ergebnis_Verkehrsschau_2022.pdf",
+          "created": "2023-03-16T19:00:28+01:00",
+          "modified": "2023-03-16T19:00:28+01:00"
+        }
+      ],
+      "created": "2023-01-31T10:46:50+01:00",
+      "modified": "2023-03-08T14:23:01+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20831",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Mitteilungen der Verwaltung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6117",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Rössing Anlage 5 Stromverteiler)",
+          "mimeType": "application/pdf",
+          "date": "2023-02-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSEpL19GF26w-VaGG16_85oIO4lP0Tuv9A_kaGQZFqu9/OR_Roessing_Anlage_5_Stromverteiler.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSEpL19GF26w-VaGG16_85oIO4lP0Tuv9A_kaGQZFqu9/OR_Roessing_Anlage_5_Stromverteiler.pdf",
+          "created": "2023-03-16T19:00:28+01:00",
+          "modified": "2023-03-16T19:00:28+01:00"
+        }
+      ],
+      "created": "2023-01-31T10:46:50+01:00",
+      "modified": "2023-03-08T14:20:56+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20836",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Flächennutzungsplan Rössing\nBeratung und Beschlussfassung über die Ausweisung von Bauerwartungsland",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6097",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Rössing Anlage 6 Bauerwartungsland)",
+          "mimeType": "application/pdf",
+          "date": "2023-02-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVt2MbvNRVdj-WiAVh5tYcSaFJQEqSaomwCrUZITgpEA/OR_Roessing_Anlage_6_Bauerwartungsland.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVt2MbvNRVdj-WiAVh5tYcSaFJQEqSaomwCrUZITgpEA/OR_Roessing_Anlage_6_Bauerwartungsland.pdf",
+          "created": "2023-03-16T19:00:28+01:00",
+          "modified": "2023-03-16T19:00:28+01:00"
+        }
+      ],
+      "created": "2023-02-02T10:11:36+01:00",
+      "modified": "2023-02-02T10:11:36+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20837",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Antrag Aufbau eines Mülleimers Kirchstraße",
+      "created": "2023-02-02T10:12:03+01:00",
+      "modified": "2023-02-02T10:12:03+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20838",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Verwendung von Ortsratsmitteln\n- Antrag Feuerwehrmusikzug Rössing",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6098",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Rössing Anlage 7 Antrag Musikzug)",
+          "mimeType": "application/pdf",
+          "date": "2023-02-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRQfQdBAiiQBkhLJ7i5xJOOFvWXHAHYljaNQnvWL_5p8/OR_Roessing_Anlage_7_Antrag_Musikzug.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRQfQdBAiiQBkhLJ7i5xJOOFvWXHAHYljaNQnvWL_5p8/OR_Roessing_Anlage_7_Antrag_Musikzug.pdf",
+          "created": "2023-03-16T19:00:28+01:00",
+          "modified": "2023-03-16T19:00:28+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6099",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Rössing Anlage 8 Antrag Kulturkreis)",
+          "mimeType": "application/pdf",
+          "date": "2023-02-21",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWWXDw7MyxN2YPrOHETfgrGWMQz4dgPjShPBt688lllq/OR_Roessing_Anlage_8_Antrag_Kulturkreis.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWWXDw7MyxN2YPrOHETfgrGWMQz4dgPjShPBt688lllq/OR_Roessing_Anlage_8_Antrag_Kulturkreis.pdf",
+          "created": "2023-03-16T19:00:28+01:00",
+          "modified": "2023-03-16T19:00:28+01:00"
+        }
+      ],
+      "created": "2023-02-02T10:12:32+01:00",
+      "modified": "2023-02-02T10:12:32+01:00"
+    }
+  ]
+}

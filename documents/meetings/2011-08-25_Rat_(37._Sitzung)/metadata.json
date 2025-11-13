@@ -1,0 +1,258 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1632",
+  "name": "Rat (37. Sitzung)",
+  "start": "2011-08-25T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-13",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Grundschule Nordstemmen, Asternstraße 13, 31171 Nordstemmen, Musikraum",
+    "streetAddress": "Asternstraße 13",
+    "room": "Grundschule Nordstemmen, Musikraum",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2006-05-15T10:39:45+02:00",
+    "modified": "2022-05-17T15:56:26+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-7070",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2011-08-25",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVKCFVM3QdH4jEGz3sIKeIpf17SgDuZ5DoF3xy3W3NLz/Bekanntmachung_Rat_25.08.2011.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVKCFVM3QdH4jEGz3sIKeIpf17SgDuZ5DoF3xy3W3NLz/Bekanntmachung_Rat_25.08.2011.pdf",
+    "created": "2011-08-09T13:00:27+02:00",
+    "modified": "2011-08-09T13:00:27+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7528",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2011-08-05T11:31:23+02:00",
+      "modified": "2011-08-05T11:31:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7529",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2011-08-05T11:31:23+02:00",
+      "modified": "2011-08-05T11:31:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7530",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung des Rates vom 05.07.2011 ",
+      "created": "2011-08-05T11:31:23+02:00",
+      "modified": "2011-08-05T11:31:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7531",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht des Bürgermeisters über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-576",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Rat 25.08.2011 18.30 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2011-08-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQl4HcE6ewnL5hWLurdOlf_AR3qt1lM3fEBavqzA8ZUI/Rat_25.08.2011_18.30_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQl4HcE6ewnL5hWLurdOlf_AR3qt1lM3fEBavqzA8ZUI/Rat_25.08.2011_18.30_Uhr.pdf",
+          "created": "2011-10-27T18:00:14+02:00",
+          "modified": "2011-10-27T18:00:14+02:00"
+        }
+      ],
+      "created": "2011-08-05T11:31:23+02:00",
+      "modified": "2011-08-05T11:31:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7532",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-577",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Rat 25.08.2011 18.30 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2011-08-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYFjnTry22Ob5E_L6n2qcGChFupznon2ZCMgwP9FIz4Q/Rat_25.08.2011_18.30_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYFjnTry22Ob5E_L6n2qcGChFupznon2ZCMgwP9FIz4Q/Rat_25.08.2011_18.30_Uhr.pdf",
+          "created": "2011-10-27T18:00:14+02:00",
+          "modified": "2011-10-27T18:00:14+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-578",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Rat 25.08.2011)",
+          "mimeType": "application/pdf",
+          "date": "2011-08-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQOw9h9foMLo_rqQ_CqS3xoYN2LVjDErPG6trJOnzzKf/Rat_25.08.2011.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQOw9h9foMLo_rqQ_CqS3xoYN2LVjDErPG6trJOnzzKf/Rat_25.08.2011.pdf",
+          "created": "2011-11-01T13:01:09+01:00",
+          "modified": "2011-11-01T13:01:09+01:00"
+        }
+      ],
+      "created": "2011-08-05T11:31:23+02:00",
+      "modified": "2011-08-05T11:31:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7538",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Grundschullandschaft in der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1716",
+      "created": "2011-08-05T11:31:23+02:00",
+      "modified": "2011-08-05T11:31:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7544",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Über- und außerplanmäßige Aufwendungen und Auszahlungen nach § 89 Abs. 1 NGO\n(DS 1/2011)",
+      "created": "2011-08-05T11:32:39+02:00",
+      "modified": "2011-08-05T11:32:39+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7545",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Unterrichtung über die Aufnahme eines Kommunaldarlehens\n(DS 31/2011)",
+      "created": "2011-08-05T11:33:12+02:00",
+      "modified": "2011-08-05T11:33:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7546",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Richtlinie über die Aufnahme von Krediten\n(DS 30/2011)",
+      "created": "2011-08-05T11:33:38+02:00",
+      "modified": "2011-08-05T11:33:38+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7547",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Jahresrechnungen für die Haushaltsjahre 2008 und 2009 sowie Entlastung des Bürgermeisters\n(DS 29/2011)",
+      "created": "2011-08-05T11:34:19+02:00",
+      "modified": "2011-08-05T11:34:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7533",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Überörtliche Prüfung der Haushaltsjahre 2006 bis 2008",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1708",
+      "created": "2011-08-05T11:31:23+02:00",
+      "modified": "2011-08-05T11:31:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7534",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Beschlussfassung über die erste Eröffnungsbilanz der Gemeinde Nordstemmen zum 01.01.2010",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1698",
+      "created": "2011-08-05T11:31:23+02:00",
+      "modified": "2011-08-05T11:31:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7548",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Einführung einer getrennten Abwassergebühr für Schmutzwasser und Niederschlagswasser (gesplittete Abwassergebühr) in der Gemeinde Nordstemmen\n(DS 35/2011)",
+      "created": "2011-08-05T11:35:25+02:00",
+      "modified": "2011-08-05T11:35:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7537",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Straßenausbaumaßnahme \"Adenoyser Straße / Am Thie\", Straßenausbaubeitragserhebung;\nAufwandsspaltung Grunderwerb",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1703",
+      "created": "2011-08-05T11:31:23+02:00",
+      "modified": "2011-08-05T11:35:30+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7535",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Durchführung von Kanalbauarbeiten auf dem Lagerplatz der ehemaligen Firma C. Müller Landmaschinen GmbH (alter Sportplatz an der Frankfurter Straße) in der Ortschaft Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1693",
+      "created": "2011-08-05T11:31:23+02:00",
+      "modified": "2011-08-05T11:31:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7536",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14.1",
+      "order": 16,
+      "name": "Durchführung von Kanalbauarbeiten auf dem Lagerplatz der ehemaligen Firma C. Müller Landmaschinen GmbH (alter Sportplatz an der Frankfurter Straße) in der Ortschaft Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1711",
+      "created": "2011-08-05T11:31:23+02:00",
+      "modified": "2011-08-05T11:31:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7539",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 17,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2011-08-05T11:31:23+02:00",
+      "modified": "2011-08-05T11:31:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7540",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 18,
+      "name": "Behandlung von Anträgen",
+      "created": "2011-08-05T11:31:23+02:00",
+      "modified": "2011-08-05T11:31:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7541",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 19,
+      "name": "Behandlung von Anfragen",
+      "created": "2011-08-05T11:31:23+02:00",
+      "modified": "2011-08-05T11:31:23+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7542",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "18",
+      "order": 20,
+      "name": "Anregungen",
+      "created": "2011-08-05T11:31:23+02:00",
+      "modified": "2011-08-05T11:31:23+02:00"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2885",
+  "name": "Ortsrat Nordstemmen (3. Sitzung)",
+  "start": "2017-05-15T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-8"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-18807",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Nordstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2017-05-15",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbxt-fpU0FRRFsK6JFfCUuEAX4DOcchNmxrvMRR0C91u/Bekanntmachung_Ortsrat_Nordstemmen_15.05.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbxt-fpU0FRRFsK6JFfCUuEAX4DOcchNmxrvMRR0C91u/Bekanntmachung_Ortsrat_Nordstemmen_15.05.2017.pdf",
+    "created": "2017-05-03T13:01:17+02:00",
+    "modified": "2017-05-08T19:00:54+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-19090",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Nordstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2017-05-15",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeZBxnDTm-nGL-oKfMiljo351cAd4BxtRAho8DG2IkLX/Oeffentliche_Niederschrift_Ortsrat_Nordstemmen_15.05.2017.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeZBxnDTm-nGL-oKfMiljo351cAd4BxtRAho8DG2IkLX/Oeffentliche_Niederschrift_Ortsrat_Nordstemmen_15.05.2017.pdf",
+    "created": "2017-05-31T19:00:26+02:00",
+    "modified": "2017-05-31T19:00:26+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13927",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2017-04-07T09:55:26+02:00",
+      "modified": "2017-04-07T09:55:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13928",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2017-04-07T09:55:26+02:00",
+      "modified": "2017-04-07T09:55:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13929",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 13.02.2017",
+      "created": "2017-04-07T09:55:26+02:00",
+      "modified": "2017-04-07T09:55:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13933",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2017-04-07T09:55:26+02:00",
+      "modified": "2017-05-02T15:35:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13930",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2017-04-07T09:55:26+02:00",
+      "modified": "2017-04-07T09:55:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14055",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Vorstellung des Entwurfes der Umfrage \"Mitfahrerbank\"",
+      "created": "2017-05-02T15:36:38+02:00",
+      "modified": "2017-05-02T15:36:38+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14056",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Information durch den Ortsbrandmeister über Neuerungen im Brandschutz",
+      "created": "2017-05-02T15:37:10+02:00",
+      "modified": "2017-05-02T15:37:10+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13931",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2018 sowie für die mittelfristige Finanzplanung 2019 bis 2021",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3837",
+      "created": "2017-04-07T09:55:26+02:00",
+      "modified": "2017-04-07T09:55:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14057",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Antrag der KKS Nordstemmen auf Zuschuss zur Anschaffung von zwei Lichtpunktgewehren für die Jugendarbeit (siehe Anlage)\n- Beratung und Beschlussfassung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1728",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage Antrag KKS)",
+          "mimeType": "application/pdf",
+          "date": "2017-05-15",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSYGasl0yy6WmVTUMzAu1lNd16LAcy8tncIKd-JRn2LP/Anlage_Antrag_KKS.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSYGasl0yy6WmVTUMzAu1lNd16LAcy8tncIKd-JRn2LP/Anlage_Antrag_KKS.pdf",
+          "created": "2017-05-03T13:01:17+02:00",
+          "modified": "2017-05-03T13:01:17+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1730",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage Übersicht OR Mittel)",
+          "mimeType": "application/pdf",
+          "date": "2017-05-15",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfy44dRZ-urF7oCJifei2UL-fq_ZV82Gdkj5n9tAnYuD/Anlage_Uebersicht_OR_Mittel.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfy44dRZ-urF7oCJifei2UL-fq_ZV82Gdkj5n9tAnYuD/Anlage_Uebersicht_OR_Mittel.pdf",
+          "created": "2017-05-04T09:37:49+02:00",
+          "modified": "2017-05-04T09:37:49+02:00"
+        }
+      ],
+      "created": "2017-05-02T15:39:00+02:00",
+      "modified": "2017-05-02T15:39:00+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13932",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Ausweisung eines Teilstückes der Straße \"Schlingweg\", Ortschaft Nordstemmen, als geschwindigkeitsbeschränkte Zone (Zone 30)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3842",
+      "created": "2017-04-07T09:55:26+02:00",
+      "modified": "2017-04-07T09:55:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14058",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Verkehrsgerechte Umgestaltung des Knotenpunktes K 503 (Burgstemmer Straße) / K 504 (Mahlerter Straße) / L 410 (Hauptstraße) in der Ortsdurchfahrt Nordstemmen (Fortsetzung der Gespräche vom Ortstermin)\n- Beratung und Empfehlung\n",
+      "created": "2017-05-02T15:41:31+02:00",
+      "modified": "2017-05-02T15:41:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14059",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Ausbau der Kolberger Straße und der Bunzlauer Straße\n(Information - Ausführungen werden in der Sitzung gemacht)",
+      "created": "2017-05-02T15:43:01+02:00",
+      "modified": "2017-05-02T15:43:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/14060",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Barrierefreier Ausbau der Bushaltestelle \"Mensing\", Nordstemmen;\nMaßnahmenbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3856",
+      "created": "2017-05-02T15:43:23+02:00",
+      "modified": "2017-05-02T15:43:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13934",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2017-04-07T09:55:26+02:00",
+      "modified": "2017-04-07T09:55:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13935",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Anträge und Anfragen",
+      "created": "2017-04-07T09:55:26+02:00",
+      "modified": "2017-04-07T09:55:26+02:00"
+    }
+  ]
+}

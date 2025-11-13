@@ -1,0 +1,254 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4770",
+  "name": "Rat (1. Sitzung)",
+  "start": "2021-11-02T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-12",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Groß Escherde, Schulstraße 9 a, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Schulstraße 9 a",
+    "room": "Dorfgemeinschaftshaus Groß Escherde, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Groß Escherde",
+    "locality": "Nordstemmen",
+    "created": "2005-04-07T10:37:20+02:00",
+    "modified": "2019-06-06T11:57:41+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-32431",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2021-11-02",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZW9YDJXIpnBW4q7xqCeHYcOTafhdw6zv36uL_QQ4Uq7j/Bekanntmachung_Rat_02.11.2021.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZW9YDJXIpnBW4q7xqCeHYcOTafhdw6zv36uL_QQ4Uq7j/Bekanntmachung_Rat_02.11.2021.pdf",
+    "created": "2021-10-14T19:00:07+02:00",
+    "modified": "2021-10-14T19:00:07+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-32527",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2021-11-02",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXFsTMnoRkRSKBXPterbDkclyC9zYfR49cnD4g_GEpnv/Oeffentliche_Niederschrift_Rat_02.11.2021.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXFsTMnoRkRSKBXPterbDkclyC9zYfR49cnD4g_GEpnv/Oeffentliche_Niederschrift_Rat_02.11.2021.pdf",
+    "created": "2021-11-17T13:00:27+01:00",
+    "modified": "2021-11-17T13:00:27+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18981",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2021-10-04T07:46:41+02:00",
+      "modified": "2021-10-12T12:39:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18982",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit",
+      "created": "2021-10-04T07:46:41+02:00",
+      "modified": "2021-10-04T07:46:41+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19066",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Förmliche Verpflichtung und Pflichtenbelehrung der Ratsfrauen und Ratsherren gemäß § 60 NKomVG durch die Bürgermeisterin",
+      "created": "2021-10-12T09:59:37+02:00",
+      "modified": "2021-10-12T09:59:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19076",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Wahl der Ratsvorsitzenden/des Ratsvorsitzenden",
+      "created": "2021-10-12T12:31:12+02:00",
+      "modified": "2021-10-12T12:31:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19067",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Feststellung der Tagesordnung",
+      "created": "2021-10-12T09:59:57+02:00",
+      "modified": "2021-10-12T09:59:57+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19068",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Wahl der Vertreterin/des Vertreters der Ratsvorsitzenden/des Ratsvorsitzenden",
+      "created": "2021-10-12T10:00:30+02:00",
+      "modified": "2021-10-12T10:00:30+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19069",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bekanntgabe der Bildung von Fraktionen und Gruppen",
+      "created": "2021-10-12T10:00:57+02:00",
+      "modified": "2021-10-12T10:00:57+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19077",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Vorläufige Geschäftsordnung für die Wahlperiode 2021 bis 2026",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7189",
+      "result": "Einstimmig lt. Beschlussvorschlag",
+      "created": "2021-10-12T12:31:37+02:00",
+      "modified": "2021-10-12T12:31:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19070",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bildung des Verwaltungsausschusses\n- Beschlussfassung über die Erhöhung der Anzahl der Beigeordneten gemäß § 74 Absatz 2 Satz 2 NKomVG\n- Feststellung der auf die einzelnen Fraktionen bzw. Gruppen entfallenden Sitze\n- Benennung der Beigeordneten und deren Vertreterinnen und Vertreter durch die Fraktionen bzw. Gruppen\n- Feststellung über die Bildung des Verwaltungsausschusses",
+      "created": "2021-10-12T10:03:22+02:00",
+      "modified": "2021-10-12T10:03:22+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19071",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Wahl von zwei gleichberechtigten stellvertretenden Bürgermeisterinnen/Bürgermeistern",
+      "created": "2021-10-12T10:04:36+02:00",
+      "modified": "2021-10-12T10:04:43+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19072",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Bildung der Fachausschüsse\n- Vorschlag für die zu bildenden Fachausschüsse\n- Bestimmung der Anzahl der Ausschusssitze\n- Feststellung der Sitzverteilung nach dem Verfahren d´Hondt\n- Zuteilung der Ausschussvorsitze nach dem Verfahren d´Hondt und Benennung der Ausschussvorsitzenden und deren Stellvertreter\n- Benennung der Ausschussmitglieder und Vertreterinnen/Vertreter",
+      "created": "2021-10-12T10:07:05+02:00",
+      "modified": "2021-10-12T10:07:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19074",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Beschluss über die Entsendung von Vertreterinnen und Vertreter in Unternehmen, Verbänden, Vereinen, Organisationen\n- Niedersächsischer Städte- und Gemeindebund\n- Leineverband\n- Beirat (Wasserversorgung) Überlandwerk Leinetal GmbH\n- Kreiswohnbau Hildesheim GmbH\n- Gesellschafterversammlung NBEG Baulandentwicklungsgesellschaft mbH Nordstemmen & Co.KG\n- Gemeindejugendring Nordstemmen e.V.\n- Wohnungsbaugenossenschaft Nordstemmen e.G.",
+      "created": "2021-10-12T10:09:33+02:00",
+      "modified": "2021-10-12T12:32:28+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19073",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Bestimmung der Ortsvorsteherin/des Ortsvorstehers für die Ortschaft Hallerburg und deren/dessen Stellvertretung",
+      "created": "2021-10-12T10:07:29+02:00",
+      "modified": "2021-10-12T10:07:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19083",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Fraktionsübergreifender Antrag vom 30.09.2021 \n- Neufassung der Satzung eines gemeinsamen Schulbezirkes für die Grundschulen der Gemeinde Nordstemmen (Anlage 1)\n",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5290",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zu TOP 13)",
+          "mimeType": "application/pdf",
+          "date": "2021-11-02",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZb67l8ncS_KaGbPskFgS-YI6Luudem0F93ElE-Im5mbk/Anlage_1_zu_TOP_13.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZb67l8ncS_KaGbPskFgS-YI6Luudem0F93ElE-Im5mbk/Anlage_1_zu_TOP_13.pdf",
+          "created": "2021-10-14T19:00:07+02:00",
+          "modified": "2021-10-14T19:00:07+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5298",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 Antrag Neufassung Satzung Schulbezirk)",
+          "mimeType": "application/pdf",
+          "date": "2021-11-02",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdDvwUoL4GV0WyBB-e30pTPz68sdLA8t_fYeUj7KQFvh/Anlage_1_Antrag_Neufassung_Satzung_Schulbezirk.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdDvwUoL4GV0WyBB-e30pTPz68sdLA8t_fYeUj7KQFvh/Anlage_1_Antrag_Neufassung_Satzung_Schulbezirk.pdf",
+          "created": "2021-11-17T13:00:27+01:00",
+          "modified": "2021-11-17T13:00:27+01:00"
+        }
+      ],
+      "created": "2021-10-14T12:26:36+02:00",
+      "modified": "2021-10-14T12:26:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18986",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Mitteilungen bzw. Bericht der Bürgermeisterin",
+      "created": "2021-10-04T07:46:41+02:00",
+      "modified": "2021-10-04T07:46:41+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18987",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Anträge und Anfragen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5299",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2 Anfrage B90/Grüne Baumfällungen)",
+          "mimeType": "application/pdf",
+          "date": "2021-11-02",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQV1b6iXz2qUsxe2DyITVjufkiO04KJHfDHeTTMSfGT4/Anlage_2_Anfrage_B90-Gruene_Baumfaellungen.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQV1b6iXz2qUsxe2DyITVjufkiO04KJHfDHeTTMSfGT4/Anlage_2_Anfrage_B90-Gruene_Baumfaellungen.pdf",
+          "created": "2021-11-17T13:00:27+01:00",
+          "modified": "2021-11-17T13:00:27+01:00"
+        }
+      ],
+      "created": "2021-10-04T07:46:41+02:00",
+      "modified": "2021-10-12T12:33:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19075",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 17,
+      "name": "Ehrungen von Rats- und Ortsratsmitgliedern/Verabschiedungen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5300",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 3 Übersicht ehrende Personen)",
+          "mimeType": "application/pdf",
+          "date": "2021-11-02",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQr2SjBHaoWuFY4NVovwjYNhc-9z2uyr8szU6ckI4Gn7/Anlage_3_Uebersicht_ehrende_Personen.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQr2SjBHaoWuFY4NVovwjYNhc-9z2uyr8szU6ckI4Gn7/Anlage_3_Uebersicht_ehrende_Personen.pdf",
+          "created": "2021-11-17T13:00:27+01:00",
+          "modified": "2021-11-17T13:00:27+01:00"
+        }
+      ],
+      "created": "2021-10-12T10:10:02+02:00",
+      "modified": "2021-10-12T10:10:06+02:00"
+    }
+  ]
+}

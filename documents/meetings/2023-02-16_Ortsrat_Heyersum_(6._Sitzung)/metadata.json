@@ -1,0 +1,196 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5150",
+  "name": "Ortsrat Heyersum (6. Sitzung)",
+  "start": "2023-02-16T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-32",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Heyersum, Am Schmiedekamp 3, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Am Schmiedekamp 3",
+    "room": "Feuerwehrhaus Heyersum, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Heyersum",
+    "locality": "Nordstemmen",
+    "created": "2018-08-17T10:28:00+02:00",
+    "modified": "2019-06-06T11:56:17+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-13"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-35894",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2023-02-16",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVo0Cwq_HlgUySkTXhCxAHuD_QH-Jjg0LGhRyRTSR1ds/Bekanntmachung_Ortsrat_Heyersum_16.02.2023.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVo0Cwq_HlgUySkTXhCxAHuD_QH-Jjg0LGhRyRTSR1ds/Bekanntmachung_Ortsrat_Heyersum_16.02.2023.pdf",
+    "created": "2023-02-01T19:00:25+01:00",
+    "modified": "2023-02-01T19:00:25+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-36110",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2023-02-16",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWgRwxirM_Z9093zKFUHCB1ZUUqHBg2l9Xq1uS4BvV3J/Oeffentliche_Niederschrift_Ortsrat_Heyersum_16.02.2023.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWgRwxirM_Z9093zKFUHCB1ZUUqHBg2l9Xq1uS4BvV3J/Oeffentliche_Niederschrift_Ortsrat_Heyersum_16.02.2023.pdf",
+    "created": "2023-03-09T13:15:28+01:00",
+    "modified": "2023-03-09T13:15:28+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20809",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2023-01-30T11:10:40+01:00",
+      "modified": "2023-01-30T11:10:40+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20810",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2023-01-30T11:10:40+01:00",
+      "modified": "2023-01-30T11:10:40+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20811",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 10. November 2022",
+      "created": "2023-01-30T11:10:40+01:00",
+      "modified": "2023-01-30T11:10:40+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20812",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Anfragen und Anregungen",
+      "created": "2023-01-30T11:10:40+01:00",
+      "modified": "2023-01-30T11:10:40+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20813",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2023-01-30T11:10:40+01:00",
+      "modified": "2023-01-30T11:10:40+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20817",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Baumpflanzaktion auf dem Sportplatz",
+      "created": "2023-01-30T11:13:00+01:00",
+      "modified": "2023-01-30T11:13:00+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20818",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Verwendung Ortsratsmittel 2023",
+      "created": "2023-01-30T11:13:30+01:00",
+      "modified": "2023-01-30T11:13:30+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20819",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bericht über die Entwicklung der Einwohnerzahlen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6080",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1a)",
+          "mimeType": "application/pdf",
+          "date": "2023-02-16",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdXU9PPiXYIlDfNKkmbaL0KOl6dVq8-qOwaYdCPf8Uzr/Anlage_1a.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdXU9PPiXYIlDfNKkmbaL0KOl6dVq8-qOwaYdCPf8Uzr/Anlage_1a.pdf",
+          "created": "2023-03-09T13:15:28+01:00",
+          "modified": "2023-03-09T13:15:28+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6081",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1b)",
+          "mimeType": "application/pdf",
+          "date": "2023-02-16",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdT0dk1gpO_n93XVQ2zDIFC-TYHbpdUJKXzAxUjUDVrZ/Anlage_1b.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdT0dk1gpO_n93XVQ2zDIFC-TYHbpdUJKXzAxUjUDVrZ/Anlage_1b.pdf",
+          "created": "2023-03-09T13:15:28+01:00",
+          "modified": "2023-03-09T13:15:28+01:00"
+        }
+      ],
+      "created": "2023-01-30T11:14:11+01:00",
+      "modified": "2023-01-30T11:14:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20820",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Organisation Umwelttag der Gemeinde Nordstemmen am 18.03.2023",
+      "created": "2023-01-30T11:14:43+01:00",
+      "modified": "2023-01-30T11:14:43+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20814",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2023-01-30T11:10:40+01:00",
+      "modified": "2023-01-30T11:10:40+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/20815",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Mitteilungen der Verwaltung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6082",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 3)",
+          "mimeType": "application/pdf",
+          "date": "2023-02-16",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWcEFq2wBjszvFUm9s86Bn79OC0x9LG1kehjtdE3kgwR/Anlage_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWcEFq2wBjszvFUm9s86Bn79OC0x9LG1kehjtdE3kgwR/Anlage_3.pdf",
+          "created": "2023-03-09T13:15:28+01:00",
+          "modified": "2023-03-09T13:15:28+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6083",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 4)",
+          "mimeType": "application/pdf",
+          "date": "2023-02-16",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeyLxqFyF8vsz6t3jWmfPR5WfEicMmL8OmGfqPE8uSkW/Anlage_4.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeyLxqFyF8vsz6t3jWmfPR5WfEicMmL8OmGfqPE8uSkW/Anlage_4.pdf",
+          "created": "2023-03-09T13:15:28+01:00",
+          "modified": "2023-03-09T13:15:28+01:00"
+        }
+      ],
+      "created": "2023-01-30T11:10:40+01:00",
+      "modified": "2023-01-30T11:10:40+01:00"
+    }
+  ]
+}

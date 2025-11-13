@@ -1,0 +1,229 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4220",
+  "name": "Ortsrat Heyersum (10. Sitzung)",
+  "start": "2019-02-14T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-32",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Heyersum, Am Schmiedekamp 3, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Am Schmiedekamp 3",
+    "room": "Feuerwehrhaus Heyersum, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Heyersum",
+    "locality": "Nordstemmen",
+    "created": "2018-08-17T10:28:00+02:00",
+    "modified": "2019-06-06T11:56:17+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-13"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-26306",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2019-02-14",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWdbVWFmIACatUoyI2xnPOWHmGFforidLiz10EmeIzlD/Bekanntmachung_Ortsrat_Heyersum_14.02.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWdbVWFmIACatUoyI2xnPOWHmGFforidLiz10EmeIzlD/Bekanntmachung_Ortsrat_Heyersum_14.02.2019.pdf",
+    "created": "2019-02-04T13:01:49+01:00",
+    "modified": "2019-02-04T13:01:49+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-26921",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Heyersum)",
+    "mimeType": "application/pdf",
+    "date": "2019-02-14",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTXcfngTx21TetLXBBIBJCmLsBApCbWs5TtQS4JhJHnI/Oeffentliche_Niederschrift_Ortsrat_Heyersum_14.02.2019.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTXcfngTx21TetLXBBIBJCmLsBApCbWs5TtQS4JhJHnI/Oeffentliche_Niederschrift_Ortsrat_Heyersum_14.02.2019.pdf",
+    "created": "2019-04-09T19:01:41+02:00",
+    "modified": "2019-04-09T19:01:41+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16163",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2019-01-31T10:16:55+01:00",
+      "modified": "2019-01-31T10:16:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16164",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2019-01-31T10:16:55+01:00",
+      "modified": "2019-01-31T10:16:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16165",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 30. Oktober 2018",
+      "created": "2019-01-31T10:16:55+01:00",
+      "modified": "2019-01-31T10:16:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16168",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4332",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Heyersum Anlage 1 2019 01 29 Information Windkraft)",
+          "mimeType": "application/pdf",
+          "date": "2019-02-14",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaJJkeI1XjhCufX1hvugKRsshAEuP48Zd6-81whB_4Rz/OR_Heyersum_Anlage_1_2019_01_29_Information_Windkraft.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaJJkeI1XjhCufX1hvugKRsshAEuP48Zd6-81whB_4Rz/OR_Heyersum_Anlage_1_2019_01_29_Information_Windkraft.pdf",
+          "created": "2019-04-02T19:01:22+02:00",
+          "modified": "2019-04-02T19:01:22+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4333",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Heyersum Anlage 2 Ausweisung von Wohnbauflächen in den Ortschaften)",
+          "mimeType": "application/pdf",
+          "date": "2019-02-14",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZToDm23JCirYvIiW6fMkFcWgCi074vdjfblY4UmvWdER/OR_Heyersum_Anlage_2_Ausweisung_von_Wohnbauflaechen_in_den_Ortschaften.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZToDm23JCirYvIiW6fMkFcWgCi074vdjfblY4UmvWdER/OR_Heyersum_Anlage_2_Ausweisung_von_Wohnbauflaechen_in_den_Ortschaften.pdf",
+          "created": "2019-04-02T19:01:22+02:00",
+          "modified": "2019-04-02T19:01:22+02:00"
+        }
+      ],
+      "created": "2019-01-31T10:16:55+01:00",
+      "modified": "2019-01-31T10:20:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16169",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2019-01-31T10:16:55+01:00",
+      "modified": "2019-01-31T10:20:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16166",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohnerfragestunde",
+      "created": "2019-01-31T10:16:55+01:00",
+      "modified": "2019-01-31T10:16:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16167",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Haushaltsplan 2019 und Investitionsprogramm bis 2022 für die Ortschaft Heyersum",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6458",
+      "created": "2019-01-31T10:16:55+01:00",
+      "modified": "2019-01-31T10:16:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16172",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Antrag des Europakomitees Heyersum an den Ortsrat Heyersum auf finanzielle Unterstützung für das 50-jährige Partnerschaftsjubiläum Saint-Aubin\n- Beratung und Beschlussfassung",
+      "created": "2019-01-31T10:24:25+01:00",
+      "modified": "2019-01-31T10:24:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16173",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Antrag des JUZ an den Ortsrat Heyersum auf finanzielle Unterstützung für die Ferienpassaktion 2019 und Klärung der Teilnahme\n- Beratung und Beschlussfassung",
+      "created": "2019-01-31T10:25:16+01:00",
+      "modified": "2019-01-31T10:25:16+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16174",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Verwendung der Ortsratsmittel im Haushaltsjahr 2019\n- Beratung und Beschlussfassung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4334",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Heyersum Anlage 3 Kopie von 190212_Verwendung ORMittel 2019)",
+          "mimeType": "application/pdf",
+          "date": "2019-02-14",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaszCQnTz4LCJMXxy2Ckt2-LtRNZSdjSrB8voJmvPGQA/OR_Heyersum_Anlage_3_Kopie_von_190212_Verwendung_ORMittel_2019.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaszCQnTz4LCJMXxy2Ckt2-LtRNZSdjSrB8voJmvPGQA/OR_Heyersum_Anlage_3_Kopie_von_190212_Verwendung_ORMittel_2019.pdf",
+          "created": "2019-04-02T19:01:22+02:00",
+          "modified": "2019-04-02T19:01:22+02:00"
+        }
+      ],
+      "created": "2019-01-31T10:27:02+01:00",
+      "modified": "2019-01-31T10:27:02+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16175",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Vorstellung des Projektes \"Gemeinsam älter werden\" des KOMM e. V.",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4335",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (PowerPoint-Präsentation)",
+          "mimeType": "application/pdf",
+          "date": "2019-02-14",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbyVNrjl337Yxw-C6O6XZ8EiUrndCS2f7NNVWAakgy4M/PowerPoint-Praesentation.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbyVNrjl337Yxw-C6O6XZ8EiUrndCS2f7NNVWAakgy4M/PowerPoint-Praesentation.pdf",
+          "created": "2019-04-02T19:01:22+02:00",
+          "modified": "2019-04-02T19:01:22+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4337",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Heyersum Anlage 4_1 Planungsreihe Demografischer Wandel Ortsrat Heyersum)",
+          "mimeType": "application/pdf",
+          "date": "2019-02-14",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXTBe5bg0TInt5396ydP00lYzzK7zArUD5VFZAFbWMq5/OR_Heyersum_Anlage_4_1_Planungsreihe_Demografischer_Wandel_Ortsrat_Heyersum.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXTBe5bg0TInt5396ydP00lYzzK7zArUD5VFZAFbWMq5/OR_Heyersum_Anlage_4_1_Planungsreihe_Demografischer_Wandel_Ortsrat_Heyersum.pdf",
+          "created": "2019-04-02T19:01:22+02:00",
+          "modified": "2019-04-02T19:01:22+02:00"
+        }
+      ],
+      "created": "2019-01-31T10:28:12+01:00",
+      "modified": "2019-01-31T10:28:12+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16176",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Planung des Umwelttages am 06.04.2019",
+      "created": "2019-01-31T10:28:44+01:00",
+      "modified": "2019-01-31T10:28:44+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/16170",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Anträge und Anfragen",
+      "created": "2019-01-31T10:16:55+01:00",
+      "modified": "2019-01-31T10:16:55+01:00"
+    }
+  ]
+}

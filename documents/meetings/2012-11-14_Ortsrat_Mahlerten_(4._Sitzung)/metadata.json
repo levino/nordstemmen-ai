@@ -1,0 +1,150 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1959",
+  "name": "Ortsrat Mahlerten (4. Sitzung)",
+  "start": "2012-11-14T18:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-10",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Mahlerten, Leunisstraße 16, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Leunisstraße 16",
+    "room": "Dorfgemeinschaftshaus Mahlerten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Mahlerten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T12:00:53+02:00",
+    "modified": "2019-06-06T11:57:30+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-17"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-9031",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2012-11-14",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWFTHUHisNRDmMGeAUTfVElxHvC4x5bOorXQ-GCpIbRM/Bekanntmachung_Ortsrat_Mahlerten_14.11.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWFTHUHisNRDmMGeAUTfVElxHvC4x5bOorXQ-GCpIbRM/Bekanntmachung_Ortsrat_Mahlerten_14.11.2012.pdf",
+    "created": "2012-11-02T11:33:45+01:00",
+    "modified": "2012-11-02T11:33:45+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-9251",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2012-11-14",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYlTz-hh0t89ExeHYOmWj1EMP-n8SEleO0c6ztoGItum/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_14.11.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYlTz-hh0t89ExeHYOmWj1EMP-n8SEleO0c6ztoGItum/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_14.11.2012.pdf",
+    "created": "2012-11-27T13:29:33+01:00",
+    "modified": "2012-11-27T13:29:33+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9098",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2012-11-01T16:44:06+01:00",
+      "modified": "2012-11-01T16:44:06+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9099",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2012-11-01T16:44:06+01:00",
+      "modified": "2012-11-01T16:44:06+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9100",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 25.06.2012",
+      "created": "2012-11-01T16:44:06+01:00",
+      "modified": "2012-11-01T16:44:06+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9107",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2012-11-01T16:44:29+01:00",
+      "modified": "2012-11-01T16:44:29+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9101",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Anhörung zum Haushaltsplan 2013 und zum Investitionsprogramm bis 2016 für die Ortschaft Mahlerten",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2047",
+      "created": "2012-11-01T16:44:06+01:00",
+      "modified": "2012-11-01T16:44:06+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9108",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einrichtung einer Zone 30 km/h im Straßenzug Im Markfelde\n(Beratung und Beschlussfassung - Ausführungen werden in der Sitzung gemacht)",
+      "created": "2012-11-01T16:46:17+01:00",
+      "modified": "2012-11-01T16:46:17+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9109",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Durchführung von Erhaltungs- und Unterhaltungsmaßnahmen Spielplatz / Bolzplatz / Grillplatz\n- Beratung und Beschlussfassung",
+      "created": "2012-11-01T16:47:24+01:00",
+      "modified": "2012-11-01T16:47:24+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9110",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters\n- Stand Verkauf Leunisstraße 5\n- Verbesserung htp-Versorgung\n- Zustand bzw. Sanierung Regenrückhaltebecken",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-821",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Mahlerten 14.11.2012 18.30 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2012-11-14",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeinnMMJWiSnODXbPYGJzq5rx5K8T3e1XMaCTLEE4Cr3/Ortsrat_Mahlerten_14.11.2012_18.30_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeinnMMJWiSnODXbPYGJzq5rx5K8T3e1XMaCTLEE4Cr3/Ortsrat_Mahlerten_14.11.2012_18.30_Uhr.pdf",
+          "created": "2012-11-26T14:00:31+01:00",
+          "modified": "2012-11-26T14:00:31+01:00"
+        }
+      ],
+      "created": "2012-11-01T16:48:32+01:00",
+      "modified": "2012-11-01T16:48:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9102",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2012-11-01T16:44:06+01:00",
+      "modified": "2012-11-01T16:44:06+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9105",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Anträge und Anfragen",
+      "created": "2012-11-01T16:44:06+01:00",
+      "modified": "2012-11-01T16:44:06+01:00"
+    }
+  ]
+}

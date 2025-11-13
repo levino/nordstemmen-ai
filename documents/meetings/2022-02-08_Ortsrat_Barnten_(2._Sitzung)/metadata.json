@@ -1,0 +1,268 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4970",
+  "name": "Ortsrat Barnten (2. Sitzung)",
+  "start": "2022-02-08T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-5",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Barnten, Glückaufstraße 1, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Glückaufstraße 1",
+    "room": "Dorfgemeinschaftshaus Barnten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Barnten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:29:00+02:00",
+    "modified": "2019-06-06T11:57:52+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-10"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-33205",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2022-02-08",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXNLgnejDwoCByE_-LfjoAbFYSJjyJnq6loMCKLxQ4uO/Bekanntmachung_Ortsrat_Barnten_08.02.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXNLgnejDwoCByE_-LfjoAbFYSJjyJnq6loMCKLxQ4uO/Bekanntmachung_Ortsrat_Barnten_08.02.2022.pdf",
+    "created": "2022-02-09T13:00:11+01:00",
+    "modified": "2022-02-09T13:00:11+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-33467",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Barnten)",
+    "mimeType": "application/pdf",
+    "date": "2022-02-08",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTnM8NdnGMhIDam7klArFJOHKN-pPCg0tqpUlbtx9_TC/Oeffentliche_Niederschrift_Ortsrat_Barnten_08.02.2022.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTnM8NdnGMhIDam7klArFJOHKN-pPCg0tqpUlbtx9_TC/Oeffentliche_Niederschrift_Ortsrat_Barnten_08.02.2022.pdf",
+    "created": "2022-03-07T13:00:28+01:00",
+    "modified": "2022-03-07T13:00:28+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19627",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2022-01-31T13:55:28+01:00",
+      "modified": "2022-01-31T13:55:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19628",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung - Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n",
+      "created": "2022-01-31T13:55:28+01:00",
+      "modified": "2022-01-31T13:55:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19642",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Verpflichtung und Pflichtenbelehrung von Ortsratsmitgliedern durch den Ortsbürgermeister",
+      "created": "2022-02-01T11:33:24+01:00",
+      "modified": "2022-02-01T11:33:24+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19643",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Feststellung der Tagesordnung",
+      "created": "2022-02-01T11:33:46+01:00",
+      "modified": "2022-02-01T11:45:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19629",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Genehmigung des Protokolls der Sitzung vom 11. November 2021",
+      "created": "2022-01-31T13:55:28+01:00",
+      "modified": "2022-02-01T11:39:31+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19644",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Parksituation entlang der Landesstraße",
+      "created": "2022-02-01T11:34:12+01:00",
+      "modified": "2022-02-01T11:34:12+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19645",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Situation der Monteurswohnungen in Barnten, dessen Besitzer außerhalb von Barnten wohnen",
+      "created": "2022-02-01T11:39:17+01:00",
+      "modified": "2022-02-01T11:39:17+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19630",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Bericht bzw. Mitteilungen der Bürgermeisterin",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5521",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Barnten Anlage 3)",
+          "mimeType": "application/pdf",
+          "date": "2022-02-08",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZV46TAHNM4kAk3t5aNXHUWLzEDm3JgDX0mjJxJTjtK2P/OR_Barnten_Anlage_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZV46TAHNM4kAk3t5aNXHUWLzEDm3JgDX0mjJxJTjtK2P/OR_Barnten_Anlage_3.pdf",
+          "created": "2022-03-07T13:00:28+01:00",
+          "modified": "2022-03-07T13:00:28+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5522",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Barnten Anlage 4)",
+          "mimeType": "application/pdf",
+          "date": "2022-02-08",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdjES8kK4jabRqv7rqztIodL_vtcJr3O1rJN2picoOtr/OR_Barnten_Anlage_4.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdjES8kK4jabRqv7rqztIodL_vtcJr3O1rJN2picoOtr/OR_Barnten_Anlage_4.pdf",
+          "created": "2022-03-07T13:00:28+01:00",
+          "modified": "2022-03-07T13:00:28+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5523",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Barnten Anlage 5)",
+          "mimeType": "application/pdf",
+          "date": "2022-02-08",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZf51naR0L8Z2d2rAVSUhFokV3XEFJ_u2iZ2wNTHFrbvC/OR_Barnten_Anlage_5.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZf51naR0L8Z2d2rAVSUhFokV3XEFJ_u2iZ2wNTHFrbvC/OR_Barnten_Anlage_5.pdf",
+          "created": "2022-03-07T13:00:28+01:00",
+          "modified": "2022-03-07T13:00:28+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5524",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Barnten Anlage 6)",
+          "mimeType": "application/pdf",
+          "date": "2022-02-08",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVdjfxRW020gae4lzpyzQ9dYAYA4YPvFCA7snD_unC4_/OR_Barnten_Anlage_6.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVdjfxRW020gae4lzpyzQ9dYAYA4YPvFCA7snD_unC4_/OR_Barnten_Anlage_6.pdf",
+          "created": "2022-03-07T13:00:28+01:00",
+          "modified": "2022-03-07T13:00:28+01:00"
+        }
+      ],
+      "created": "2022-01-31T13:55:28+01:00",
+      "modified": "2022-01-31T13:55:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19631",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Einwohnerfragestunde",
+      "created": "2022-01-31T13:55:28+01:00",
+      "modified": "2022-01-31T13:55:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19646",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Verwendung von im Haushaltsjahr 2022 noch zur Verfügung stehenden Ortsratsmittel",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5525",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (OR Barnten Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2022-02-08",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXeqJEJ4VTt4O0tto1AF5yrzO0_G9kxqnJUCD3F9aPrm/OR_Barnten_Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXeqJEJ4VTt4O0tto1AF5yrzO0_G9kxqnJUCD3F9aPrm/OR_Barnten_Anlage_1.pdf",
+          "created": "2022-03-07T13:00:28+01:00",
+          "modified": "2022-03-07T13:00:28+01:00"
+        }
+      ],
+      "created": "2022-02-01T11:42:50+01:00",
+      "modified": "2022-02-01T11:42:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19632",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2023 sowie für die mittelfristige\nFinanzplanung 2024 bis 2026",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7281",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5526",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (OR Barnten Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2022-02-08",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdGjc-W0HAd52Pezx022isUfiUelEJy_S8xM7KeMqgYa/OR_Barnten_Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdGjc-W0HAd52Pezx022isUfiUelEJy_S8xM7KeMqgYa/OR_Barnten_Anlage_2.pdf",
+          "created": "2022-03-07T13:00:28+01:00",
+          "modified": "2022-03-07T13:00:28+01:00"
+        }
+      ],
+      "created": "2022-01-31T13:55:28+01:00",
+      "modified": "2022-02-01T11:56:17+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19647",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Beratung und Beschlussfassung über einen Antrag an die Verwaltung zur Errichtung einer Sitzbank um den Kastanienbaum auf dem Spielplatz Am Osterfeld",
+      "created": "2022-02-01T11:43:55+01:00",
+      "modified": "2022-02-01T11:43:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19649",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Beratung über die Ernennung von Manfred Hänsch als Ehrenortsbürgermeister der Ortschaft Barnten“",
+      "created": "2022-02-01T11:52:54+01:00",
+      "modified": "2022-02-01T11:52:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19648",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Beratung und Beschlussfassung über einen Antrag an die Verwaltung, den zurückgebauten Spielplatz an der Barntener Hameke anders als ein Bauplatz zu nutzen",
+      "created": "2022-02-01T11:45:12+01:00",
+      "modified": "2022-02-01T11:45:12+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19633",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2022-01-31T13:55:28+01:00",
+      "modified": "2022-01-31T13:55:28+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/19634",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Anträge und Anfragen",
+      "created": "2022-01-31T13:55:28+01:00",
+      "modified": "2022-01-31T13:55:28+01:00"
+    }
+  ]
+}

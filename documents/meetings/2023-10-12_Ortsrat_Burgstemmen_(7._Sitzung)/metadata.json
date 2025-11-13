@@ -1,0 +1,220 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5255",
+  "name": "Ortsrat Burgstemmen (7. Sitzung)",
+  "start": "2023-10-12T19:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Burgstemmen, Sackstraße 2, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Sackstraße 2",
+    "room": "Feuerwehrhaus Burgstemmen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Burgstemmen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:33:23+02:00",
+    "modified": "2019-06-06T11:56:46+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-12"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-37414",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2023-10-12",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUx6Djj9anVyUNFUNMHb27HGxE1yblpFTyWaJtuSxTPX/Bekanntmachung_Ortsrat_Burgstemmen_12.10.2023.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUx6Djj9anVyUNFUNMHb27HGxE1yblpFTyWaJtuSxTPX/Bekanntmachung_Ortsrat_Burgstemmen_12.10.2023.pdf",
+    "created": "2023-10-13T13:00:12+02:00",
+    "modified": "2023-10-13T13:00:12+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-37783",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2023-10-12",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaOv2ePNYJDChS95ZBTR7TBDeIGDVVzbsAD-g9RfyQHq/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_12.10.2023.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaOv2ePNYJDChS95ZBTR7TBDeIGDVVzbsAD-g9RfyQHq/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_12.10.2023.pdf",
+    "created": "2023-11-14T11:16:35+01:00",
+    "modified": "2023-11-14T11:16:35+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21479",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2023-09-08T07:34:11+02:00",
+      "modified": "2023-09-08T07:34:11+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21480",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2023-09-08T07:34:11+02:00",
+      "modified": "2023-09-08T07:34:11+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21487",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Feststellung des Sitzverlustes des Ortsratsmitgliedes Herrn Andreas Seefeldt",
+      "created": "2023-09-08T07:35:20+02:00",
+      "modified": "2023-09-08T07:35:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21488",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Verpflichtung und Pflichtenbelehrung des nachrückenden Ortsratsmitgliedes Frau Kerstin Zeichardt-Hageroth",
+      "created": "2023-09-08T07:37:01+02:00",
+      "modified": "2023-09-08T07:37:01+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21481",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Genehmigung des Protokolls der Sitzung vom 11. Mai 2023",
+      "created": "2023-09-08T07:34:11+02:00",
+      "modified": "2023-09-08T07:34:11+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21484",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Mitteilungen der Verwaltung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6470",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Fragen des Ortsrates Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2023-10-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTT3f16cYQ-UGHvBDUTxlBtfnMveLCt5Tts23FKhhHIY/Fragen_des_Ortsrates_Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTT3f16cYQ-UGHvBDUTxlBtfnMveLCt5Tts23FKhhHIY/Fragen_des_Ortsrates_Anlage_1.pdf",
+          "created": "2023-11-14T11:16:35+01:00",
+          "modified": "2023-11-14T11:16:35+01:00"
+        }
+      ],
+      "created": "2023-09-08T07:34:11+02:00",
+      "modified": "2023-09-27T09:07:08+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21485",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2023-09-08T07:34:11+02:00",
+      "modified": "2023-09-27T09:07:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21483",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2023-09-08T07:34:11+02:00",
+      "modified": "2023-09-27T09:07:21+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21645",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Anhörung zum Haushaltsplan 2024 und zum Investitionsprogramm bis 2027 für die Ortschaft Burgstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7820",
+      "result": "Einstimmig zur Kenntnis genommen",
+      "created": "2023-09-27T09:12:55+02:00",
+      "modified": "2023-09-27T09:12:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21642",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Auswertungsergebnisse Verkehrsstatistikgeräte Feldstraße und B1, Anzeigetafel Nordstraße",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6471",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2 Statistiken)",
+          "mimeType": "application/pdf",
+          "date": "2023-10-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZX63ptzpzAH8uGX_dRH9dir9bXFlTMkX2SSKXaEkl98d/Anlage_2_Statistiken.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZX63ptzpzAH8uGX_dRH9dir9bXFlTMkX2SSKXaEkl98d/Anlage_2_Statistiken.pdf",
+          "created": "2023-11-14T11:16:35+01:00",
+          "modified": "2023-11-14T11:16:35+01:00"
+        }
+      ],
+      "created": "2023-09-27T09:08:25+02:00",
+      "modified": "2023-09-27T09:08:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21643",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Verwendung der zur Verfügung stehenden Ortsratsmittel - Antrag des Blasorchesters Burgstemmen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6472",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 3 Antrag Blasorchester)",
+          "mimeType": "application/pdf",
+          "date": "2023-10-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdGPFEr_m-8BmR0hk5EQS9c2PJ8dfdQeXoD0H-jAi0Ei/Anlage_3_Antrag_Blasorchester.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdGPFEr_m-8BmR0hk5EQS9c2PJ8dfdQeXoD0H-jAi0Ei/Anlage_3_Antrag_Blasorchester.pdf",
+          "created": "2023-11-14T11:16:35+01:00",
+          "modified": "2023-11-14T11:16:35+01:00"
+        }
+      ],
+      "created": "2023-09-27T09:09:08+02:00",
+      "modified": "2023-09-27T09:09:08+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21644",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Standorte Geschwindigkeitsanzeigetafeln und Verkehrsstatistikgerät  2024",
+      "created": "2023-09-27T09:10:24+02:00",
+      "modified": "2023-09-27T09:10:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21482",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Anfragen und Anregungen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6473",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 4 Brief Kindergarten)",
+          "mimeType": "application/pdf",
+          "date": "2023-10-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZwsPaJyzwK9OW7NTCODpren2Q0sdirL6yQ56d_mpQlJ/Anlage_4_Brief_Kindergarten.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZwsPaJyzwK9OW7NTCODpren2Q0sdirL6yQ56d_mpQlJ/Anlage_4_Brief_Kindergarten.pdf",
+          "created": "2023-11-14T11:16:35+01:00",
+          "modified": "2023-11-14T11:16:35+01:00"
+        }
+      ],
+      "created": "2023-09-08T07:34:11+02:00",
+      "modified": "2023-09-08T07:34:11+02:00"
+    }
+  ]
+}

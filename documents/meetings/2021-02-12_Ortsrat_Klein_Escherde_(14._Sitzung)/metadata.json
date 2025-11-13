@@ -1,0 +1,64 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4712",
+  "name": "Ortsrat Klein Escherde (14. Sitzung)",
+  "start": "2021-02-12T09:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-20",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer Rathaus Altbau",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer Rathaus Altbau",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2009-02-10T14:08:10+01:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-16"
+  ],
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-30919",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2021-02-12",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTOm9Kl1EBVT1z88kYGD2GPsZrXTxo--PdjMcuUbhYnE/Oeffentliche_Niederschrift_Ortsrat_Klein_Escherde_12.02.2021.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTOm9Kl1EBVT1z88kYGD2GPsZrXTxo--PdjMcuUbhYnE/Oeffentliche_Niederschrift_Ortsrat_Klein_Escherde_12.02.2021.pdf",
+    "created": "2021-03-01T13:00:23+01:00",
+    "modified": "2021-03-01T13:00:23+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18347",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2021-02-15T08:32:00+01:00",
+      "modified": "2021-02-15T08:33:44+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/18348",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "B-Plan Nr. 0804 „Teichstraße - Ost“; Ortschaft Klein Escherde\n- Anhörung Ortsrat Klein Escherde gemäß § 94 Abs. 1 i. V. m. § 182 Abs. 2 Satz 1 Nr. 7 NKomVG \n",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5060",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Gemeinde Nordstemmen)",
+          "mimeType": "application/pdf",
+          "date": "2021-02-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSy6_H07Mn1esLT90M1GKbLpO7E0ypwUkBPWlXoGsvQj/Gemeinde_Nordstemmen.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSy6_H07Mn1esLT90M1GKbLpO7E0ypwUkBPWlXoGsvQj/Gemeinde_Nordstemmen.pdf",
+          "created": "2021-03-01T13:00:23+01:00",
+          "modified": "2021-03-01T13:00:23+01:00"
+        }
+      ],
+      "created": "2021-02-15T08:32:00+01:00",
+      "modified": "2021-02-15T08:32:00+01:00"
+    }
+  ]
+}

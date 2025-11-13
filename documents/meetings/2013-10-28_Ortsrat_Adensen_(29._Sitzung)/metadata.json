@@ -1,0 +1,168 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2160",
+  "name": "Ortsrat Adensen (29. Sitzung)",
+  "start": "2013-10-28T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-2",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Adensen, Dorfstraße 19, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Dorfstraße 19",
+    "room": "Feuerwehrhaus Adensen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Adensen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T10:54:03+02:00",
+    "modified": "2019-06-06T11:57:02+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-11"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-11856",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2013-10-28",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZV2LHmFPAlNn8Jvx5kuI7dq_Y9p176CQpdyYjfFjGstA/Bekanntmachung_Ortsrat_Adensen_28.10.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZV2LHmFPAlNn8Jvx5kuI7dq_Y9p176CQpdyYjfFjGstA/Bekanntmachung_Ortsrat_Adensen_28.10.2013.pdf",
+    "created": "2013-10-18T19:00:15+02:00",
+    "modified": "2013-10-21T13:00:19+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-12078",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2013-10-28",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYvRqH7DfOjURghaG83tJQFMrmNLiO7D8ydH9Ss5isxD/Oeffentliche_Niederschrift_Ortsrat_Adensen_28.10.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYvRqH7DfOjURghaG83tJQFMrmNLiO7D8ydH9Ss5isxD/Oeffentliche_Niederschrift_Ortsrat_Adensen_28.10.2013.pdf",
+    "created": "2013-11-21T19:00:18+01:00",
+    "modified": "2013-11-21T19:00:18+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10228",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2013-10-17T16:17:59+02:00",
+      "modified": "2013-10-17T16:17:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10229",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2013-10-17T16:17:59+02:00",
+      "modified": "2013-10-17T16:17:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10230",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 26. August 2013",
+      "created": "2013-10-17T16:17:59+02:00",
+      "modified": "2013-10-17T16:17:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10231",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2013-10-17T16:17:59+02:00",
+      "modified": "2013-10-17T16:17:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10302",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Antrag der Fraktion Die Unabhängigen in Nordstemmen\n- Fraktion im Ortsrat Adensen\n- Pflegezustand Regenrückhaltebecken\n- Beleuchtung in der Albes-Gasse\n- Zustand Dorfstraße\n- Straßenbeleuchtung Bereiche: An der Sporthalle, Südstraße, Ringstraße \nBeratung und Beschlussfassung\n(siehe Anlage 1)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-991",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Ortsrat Adensen 28.10.2013 18.00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2013-10-28",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSL29sZoC6m9wiBJJ0_NrTQLNlA0H7-FDr_jba_4XND7/Ortsrat_Adensen_28.10.2013_18.00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSL29sZoC6m9wiBJJ0_NrTQLNlA0H7-FDr_jba_4XND7/Ortsrat_Adensen_28.10.2013_18.00_Uhr.pdf",
+          "created": "2013-10-29T13:00:15+01:00",
+          "modified": "2013-10-29T13:00:15+01:00"
+        }
+      ],
+      "created": "2013-10-18T13:01:32+02:00",
+      "modified": "2013-10-18T13:01:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10232",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Anhörung zum Haushaltsplan 2014 und zum Investitionsprogramm bis 2017 für die Ortschaft Adensen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2512",
+      "created": "2013-10-17T16:17:59+02:00",
+      "modified": "2013-10-17T16:17:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10303",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Offener Bücherschrank in Adensen\n- Beratung und Beschlussfassung \n(es wird auf TOP 3 - Einwohnerfragestunde der Sitzung vom 26. August 2013 verwiesen)",
+      "created": "2013-10-18T13:02:51+02:00",
+      "modified": "2013-10-18T13:02:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10304",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Aufstellung eines Gedenksteines oder einer Gedenktafel zur Geschichte von Adensen\n- Beratung und Beschlussfassung\n(es wird auf TOP 3 - Einwohnerfragestunde der Sitzung vom 26. August 2013 verwiesen)",
+      "created": "2013-10-18T13:05:25+02:00",
+      "modified": "2013-10-18T13:05:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10305",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Verwendung der im Haushaltsjahr 2013 noch zur Verfügungen stehenden Ortsratsmittel\n- Beratung und Beschlussfassung\n(weitere Ausführungen werden in der Sitzung gemacht",
+      "created": "2013-10-18T13:06:22+02:00",
+      "modified": "2013-10-18T13:06:22+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10233",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2013-10-17T16:17:59+02:00",
+      "modified": "2013-10-17T16:17:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10234",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2013-10-17T16:17:59+02:00",
+      "modified": "2013-10-17T16:17:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10235",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Anträge und Anfragen",
+      "created": "2013-10-17T16:17:59+02:00",
+      "modified": "2013-10-17T16:17:59+02:00"
+    }
+  ]
+}

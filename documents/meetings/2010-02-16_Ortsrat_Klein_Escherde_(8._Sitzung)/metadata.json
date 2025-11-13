@@ -1,0 +1,169 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1386",
+  "name": "Ortsrat Klein Escherde (8. Sitzung)",
+  "start": "2010-02-16T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-9",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Klein Escherde, Eschestraße 3, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Eschestraße 3",
+    "room": "Feuerwehrhaus Klein Escherde, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Klein Escherde",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:54:15+02:00",
+    "modified": "2019-06-06T11:56:23+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-16"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-4950",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2010-02-16",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcpoa7racEONkF2f1IZiWffxCQb-iYb1kgr8ZKQ5nlO7/Bekanntmachung_Ortsrat_Klein_Escherde_16.02.2010.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcpoa7racEONkF2f1IZiWffxCQb-iYb1kgr8ZKQ5nlO7/Bekanntmachung_Ortsrat_Klein_Escherde_16.02.2010.pdf",
+    "created": "2010-02-05T13:06:19+01:00",
+    "modified": "2010-02-05T13:06:19+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5775",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2010-02-04T16:45:37+01:00",
+      "modified": "2010-02-04T16:45:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5776",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2010-02-04T16:45:37+01:00",
+      "modified": "2010-02-04T16:45:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5777",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 27.10.2009",
+      "created": "2010-02-04T16:45:37+01:00",
+      "modified": "2010-02-04T16:45:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5778",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2010-02-04T16:45:37+01:00",
+      "modified": "2010-02-04T16:45:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5785",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Anhörung zum doppischen Haushalt für die Haushaltsjahre 2010 bis 2013 / Investitionstätigkeit in der Ortschaft Klein Escherde\n(DS 9/2010; wird nachgereicht)",
+      "created": "2010-02-04T16:47:05+01:00",
+      "modified": "2010-02-04T16:47:05+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5786",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Verwendung der im Haushaltsjahr 2010 zur Verfügung stehenden Ortsratsmittel\n- Beratung und Beschlussfassung\n(siehe Anlage 1 sowie DS 9/2010 zu TOP 4)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-352",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zu TOP 5 OR Klein Escherde 16.02.2010)",
+          "mimeType": "application/pdf",
+          "date": "2010-02-16",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdCsnvRI3tFhNT-pJiPeDxNhlOP0c-itCnZ4pqW89a6n/Anlage_1_zu_TOP_5_OR_Klein_Escherde_16.02.2010.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdCsnvRI3tFhNT-pJiPeDxNhlOP0c-itCnZ4pqW89a6n/Anlage_1_zu_TOP_5_OR_Klein_Escherde_16.02.2010.pdf",
+          "created": "2010-04-27T13:04:09+02:00",
+          "modified": "2010-04-27T13:04:09+02:00"
+        }
+      ],
+      "created": "2010-02-04T16:48:07+01:00",
+      "modified": "2010-02-04T16:48:07+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5787",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Durchführung des Umwelttages am 10. April 2010\n- Beratung und Beschlussfassung",
+      "created": "2010-02-04T16:48:40+01:00",
+      "modified": "2010-02-04T16:48:40+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5779",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2010-02-04T16:45:37+01:00",
+      "modified": "2010-02-04T16:45:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5780",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Mitteilungen der Ortsbürgermeisterin",
+      "created": "2010-02-04T16:45:37+01:00",
+      "modified": "2010-02-04T16:45:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5781",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Behandlung von Anträgen",
+      "created": "2010-02-04T16:45:37+01:00",
+      "modified": "2010-02-04T16:45:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5782",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Behandlung von Anfragen\n(siehe Anlage 2)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-348",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Klein Escherde Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2010-02-16",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfdtdFTNTjImtm0t0U1BW25C-cl5VanbUYQrrU0bVlDS/Ortsrat_Klein_Escherde_Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfdtdFTNTjImtm0t0U1BW25C-cl5VanbUYQrrU0bVlDS/Ortsrat_Klein_Escherde_Anlage_2.pdf",
+          "created": "2010-04-27T13:04:09+02:00",
+          "modified": "2010-04-27T13:04:09+02:00"
+        }
+      ],
+      "created": "2010-02-04T16:45:37+01:00",
+      "modified": "2010-02-04T16:45:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/5783",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Anregungen",
+      "created": "2010-02-04T16:45:37+01:00",
+      "modified": "2010-02-04T16:45:37+01:00"
+    }
+  ]
+}

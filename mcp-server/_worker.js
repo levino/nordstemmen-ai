@@ -15,7 +15,7 @@ async function generateEmbedding(env, text) {
   return fetch('https://api.jina.ai/v1/embeddings', {
     method: 'POST',
     headers: {
-      'Authorization': `Bearer ${env.JINA_API_KEY}`,
+      Authorization: `Bearer ${env.JINA_API_KEY}`,
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
@@ -24,15 +24,15 @@ async function generateEmbedding(env, text) {
       task: 'retrieval.query',
     }),
   })
-    .then(response => {
+    .then((response) => {
       if (!response.ok) {
-        return response.text().then(errorBody => {
+        return response.text().then((errorBody) => {
           throw new Error(`Jina API error: ${response.status} ${response.statusText} - ${errorBody}`);
         });
       }
       return response.json();
     })
-    .then(data => {
+    .then((data) => {
       if (data.data && data.data[0] && data.data[0].embedding) {
         return data.data[0].embedding;
       }
@@ -55,35 +55,37 @@ async function searchDocuments(env, args) {
     });
 
     return generateEmbedding(env, query)
-      .then(queryEmbedding => {
+      .then((queryEmbedding) => {
         return client.search(env.QDRANT_COLLECTION, {
           vector: queryEmbedding,
           limit: Math.min(limit, 10),
-          with_payload: true
+          with_payload: true,
         });
       })
-      .then(results => {
+      .then((results) => {
         if (!results || results.length === 0) {
           return {
             text: 'No relevant documents found.',
-            structured: []
+            structured: [],
           };
         }
 
         // Build both text and structured versions
-        const textResults = results.map((result, index) => {
-          const payload = result.payload;
-          const title = payload.name || payload.filename || 'Unknown';
-          const url = payload.access_url || '';
-          const date = payload.date || '';
-          const score = result.score?.toFixed(3) || '?';
+        const textResults = results
+          .map((result, index) => {
+            const payload = result.payload;
+            const title = payload.name || payload.filename || 'Unknown';
+            const url = payload.access_url || '';
+            const date = payload.date || '';
+            const score = result.score?.toFixed(3) || '?';
 
-          // Markdown with clickable link
-          const titleLink = url ? `[${title}](${url})` : title;
-          const metadata = [date, `Score: ${score}`].filter(Boolean).join(' • ');
+            // Markdown with clickable link
+            const titleLink = url ? `[${title}](${url})` : title;
+            const metadata = [date, `Score: ${score}`].filter(Boolean).join(' • ');
 
-          return `${index + 1}. ${titleLink}\n${metadata}\n\n${payload.text || ''}`;
-        }).join('\n\n---\n\n');
+            return `${index + 1}. ${titleLink}\n${metadata}\n\n${payload.text || ''}`;
+          })
+          .join('\n\n---\n\n');
 
         const structuredResults = results.map((result, index) => {
           const payload = result.payload;
@@ -95,13 +97,13 @@ async function searchDocuments(env, args) {
             page: payload.page || null,
             score: result.score || 0,
             excerpt: payload.text || '',
-            filename: payload.filename || null
+            filename: payload.filename || null,
           };
         });
 
         return {
           text: textResults,
-          structured: structuredResults
+          structured: structuredResults,
         };
       });
   } catch (error) {
@@ -159,11 +161,11 @@ async function handleMCPRequest(request, env) {
           protocolVersion: '2024-11-05',
           serverInfo: {
             name: 'nordstemmen-mcp-server',
-            version: '1.0.0'
+            version: '1.0.0',
           },
           capabilities: {
-            tools: {}
-          }
+            tools: {},
+          },
         };
         break;
 
@@ -193,18 +195,20 @@ Jedes Ergebnis enthält einen direkten Link zum Originaldokument im Ratsinformat
                 properties: {
                   query: {
                     type: 'string',
-                    description: 'Die Suchanfrage in natürlicher Sprache. Kann eine Frage sein ("Was kostet das neue Schwimmbad?") oder Stichwörter ("Haushalt 2023", "Baugebiet Escherder Straße"). Die semantische Suche versteht den Kontext und findet relevante Dokumente auch bei unterschiedlichen Formulierungen.'
+                    description:
+                      'Die Suchanfrage in natürlicher Sprache. Kann eine Frage sein ("Was kostet das neue Schwimmbad?") oder Stichwörter ("Haushalt 2023", "Baugebiet Escherder Straße"). Die semantische Suche versteht den Kontext und findet relevante Dokumente auch bei unterschiedlichen Formulierungen.',
                   },
                   limit: {
                     type: 'number',
-                    description: 'Maximale Anzahl der zurückgegebenen Suchergebnisse. Standard ist 5, Maximum ist 10. Bei spezifischen Fragen reichen oft 3-5 Ergebnisse, bei breiten Themen können 10 Ergebnisse sinnvoll sein.',
-                    default: 5
-                  }
+                    description:
+                      'Maximale Anzahl der zurückgegebenen Suchergebnisse. Standard ist 5, Maximum ist 10. Bei spezifischen Fragen reichen oft 3-5 Ergebnisse, bei breiten Themen können 10 Ergebnisse sinnvoll sein.',
+                    default: 5,
+                  },
                 },
-                required: ['query']
-              }
-            }
-          ]
+                required: ['query'],
+              },
+            },
+          ],
         };
         break;
 
@@ -213,18 +217,17 @@ Jedes Ergebnis enthält einen direkten Link zum Originaldokument im Ratsinformat
         const toolArgs = params?.arguments || {};
 
         if (toolName === 'search_documents') {
-          result = await searchDocuments(env, toolArgs)
-            .then(searchResult => ({
-              content: [
-                {
-                  type: 'text',
-                  text: searchResult.text
-                }
-              ],
-              structuredContent: {
-                results: searchResult.structured
-              }
-            }));
+          result = await searchDocuments(env, toolArgs).then((searchResult) => ({
+            content: [
+              {
+                type: 'text',
+                text: searchResult.text,
+              },
+            ],
+            structuredContent: {
+              results: searchResult.structured,
+            },
+          }));
         } else {
           throw new Error(`Unknown tool: ${toolName}`);
         }
@@ -237,7 +240,7 @@ Jedes Ergebnis enthält einen direkten Link zum Originaldokument im Ratsinformat
     return {
       jsonrpc: '2.0',
       id,
-      result
+      result,
     };
   } catch (error) {
     // Log full error for debugging
@@ -248,8 +251,8 @@ Jedes Ergebnis enthält einen direkten Link zum Originaldokument im Ratsinformat
       id,
       error: {
         code: -32601,
-        message: sanitizeError(error, env)
-      }
+        message: sanitizeError(error, env),
+      },
     };
   }
 }
@@ -264,36 +267,36 @@ app.get('/', (c) => {
     name: 'nordstemmen-mcp-server',
     version: '1.0.0',
     protocol: 'mcp/2024-11-05',
-    description: 'MCP Server for Nordstemmen documents via Qdrant'
+    description: 'MCP Server for Nordstemmen documents via Qdrant',
   });
 });
 
 // POST /mcp - MCP endpoint
 app.post('/mcp', async (c) => {
   try {
-    return c.req.json().then(mcpRequest => {
+    return c.req.json().then((mcpRequest) => {
       const env = c.env;
 
       // Handle batch requests (array of JSON-RPC messages)
       if (Array.isArray(mcpRequest)) {
-        return Promise.all(
-          mcpRequest.map(req => handleMCPRequest(req, env))
-        ).then(responses => c.json(responses));
+        return Promise.all(mcpRequest.map((req) => handleMCPRequest(req, env))).then((responses) => c.json(responses));
       }
 
       // Handle single request
-      return handleMCPRequest(mcpRequest, env)
-        .then(mcpResponse => c.json(mcpResponse));
+      return handleMCPRequest(mcpRequest, env).then((mcpResponse) => c.json(mcpResponse));
     });
   } catch (error) {
-    return c.json({
-      jsonrpc: '2.0',
-      id: null,
-      error: {
-        code: -32700,
-        message: 'Parse error'
-      }
-    }, 400);
+    return c.json(
+      {
+        jsonrpc: '2.0',
+        id: null,
+        error: {
+          code: -32700,
+          message: 'Parse error',
+        },
+      },
+      400,
+    );
   }
 });
 

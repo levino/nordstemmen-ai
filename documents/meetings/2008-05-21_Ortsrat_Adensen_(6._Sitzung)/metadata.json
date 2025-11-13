@@ -1,0 +1,168 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1093",
+  "name": "Ortsrat Adensen (6. Sitzung)",
+  "start": "2008-05-21T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-2",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Adensen, Dorfstraße 19, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Dorfstraße 19",
+    "room": "Feuerwehrhaus Adensen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Adensen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T10:54:03+02:00",
+    "modified": "2019-06-06T11:57:02+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-11"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-2612",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2008-05-21",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZS78P6ru-JYrU0RW0yMozLD7SQfnOv8ofMmexDV0jNxu/Bekanntmachung_Ortsrat_Adensen_21.05.2008.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZS78P6ru-JYrU0RW0yMozLD7SQfnOv8ofMmexDV0jNxu/Bekanntmachung_Ortsrat_Adensen_21.05.2008.pdf",
+    "created": "2008-05-20T13:06:34+02:00",
+    "modified": "2008-05-20T13:06:34+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3541",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2008-05-14T10:28:18+02:00",
+      "modified": "2008-05-14T10:28:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3542",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2008-05-14T10:28:18+02:00",
+      "modified": "2008-05-14T10:28:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3543",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 12.02.2008",
+      "created": "2008-05-14T10:28:18+02:00",
+      "modified": "2008-05-14T10:28:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3544",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2008-05-14T10:28:18+02:00",
+      "modified": "2008-05-14T10:28:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3551",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Antrag der UWG-Fraktion\n- Ausschöpfung der restlichen Finanzmittel der Dorferneuerung für den Ausbau Düsterer Pump\n(Beratung und Beschlussempfehlung; siehe Anlage 1)",
+      "created": "2008-05-14T11:13:34+02:00",
+      "modified": "2008-05-14T11:13:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3552",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Antrag der UWG-Fraktion\n- Erneuerung des Überlaufs am Feuerlöschteich\n(Beratung und Beschlussempfehlung; siehe Anlage 1)",
+      "created": "2008-05-14T11:15:34+02:00",
+      "modified": "2008-05-14T11:15:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3553",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Antrag der UWG-Fraktion\n- Erneuerung der Teerdecken für die Dorfstraße\n(Beratung und Beschlussempfehlung; siehe Anlage 1)",
+      "created": "2008-05-14T11:16:22+02:00",
+      "modified": "2008-05-14T11:16:22+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3554",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Einrichtung von Fahrbahnverengungen im Bergwinkelsweg\n(Beratung und Beschlussempfehlung; siehe Anlage 2)",
+      "created": "2008-05-14T11:17:07+02:00",
+      "modified": "2008-05-14T11:17:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3555",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Antrag der UWG-Fraktion\n- Erneuerung des Schaukastens für öffentliche Bekanntmachungen\n(Beratung und Beschlussempfehlung; siehe Anlage 1)",
+      "created": "2008-05-14T11:17:59+02:00",
+      "modified": "2008-05-14T11:17:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3556",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Antrag der UWG-Fraktion\n- Änderung für Jubiläumsgaben\n(Beratung und Beschlussfassung; siehe Anlage 1)",
+      "created": "2008-05-14T11:18:46+02:00",
+      "modified": "2008-05-14T11:18:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3775",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Gaststätte \"Rolf-Gehrke-Halle\"",
+      "created": "2008-06-27T11:16:05+02:00",
+      "modified": "2008-06-27T11:16:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3546",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2008-05-14T10:28:18+02:00",
+      "modified": "2008-05-14T10:28:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3547",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Mitteilungen des Ortsbürgermeisters",
+      "created": "2008-05-14T10:28:18+02:00",
+      "modified": "2008-05-14T10:28:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3548",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Behandlung von Anfragen\n(siehe Anlage 1 - Punkte 6 bis 9)",
+      "created": "2008-05-14T10:28:18+02:00",
+      "modified": "2008-05-14T10:28:18+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3549",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Anregungen",
+      "created": "2008-05-14T10:28:18+02:00",
+      "modified": "2008-05-14T10:28:18+02:00"
+    }
+  ]
+}

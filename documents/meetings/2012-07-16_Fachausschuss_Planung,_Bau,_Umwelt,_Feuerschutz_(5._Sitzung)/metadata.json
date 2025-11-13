@@ -1,0 +1,140 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1884",
+  "name": "Fachausschuss Planung, Bau, Umwelt, Feuerschutz (5. Sitzung)",
+  "start": "2012-07-16T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Burgstemmen, Sackstraße 2, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Sackstraße 2",
+    "room": "Feuerwehrhaus Burgstemmen, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Burgstemmen",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:33:23+02:00",
+    "modified": "2019-06-06T11:56:46+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-6"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-8505",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Planung, Bau, Umwelt, Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2012-07-16",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcGVOlrNLA4mSvD7l5-C_6CeKhhbrBOH7MOO9FOLTlgQ/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_16.07.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcGVOlrNLA4mSvD7l5-C_6CeKhhbrBOH7MOO9FOLTlgQ/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_16.07.2012.pdf",
+    "created": "2012-07-06T12:30:13+02:00",
+    "modified": "2012-07-06T12:30:13+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-8620",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Planung, Bau, Umwelt, Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2012-07-16",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeOOvHugwy2OLDyFFR0R9PA-FVRZQSt7ubfPBNFoRnbU/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_16.07.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeOOvHugwy2OLDyFFR0R9PA-FVRZQSt7ubfPBNFoRnbU/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_16.07.2012.pdf",
+    "created": "2012-07-26T13:00:56+02:00",
+    "modified": "2012-07-26T13:00:56+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8721",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2012-07-06T08:35:11+02:00",
+      "modified": "2012-07-06T08:35:11+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8722",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2012-07-06T08:35:11+02:00",
+      "modified": "2012-07-06T08:35:11+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8731",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Förmliche Verpflichtung und Pflichtenbelehrung der hinzugewählten nicht stimmberechtigten Ausschussmitglieder",
+      "created": "2012-07-06T08:36:51+02:00",
+      "modified": "2012-07-06T08:36:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8723",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Genehmigung des Protokolls der Sitzung vom 09.05.2012",
+      "created": "2012-07-06T08:35:11+02:00",
+      "modified": "2012-07-06T08:35:11+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8724",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2012-07-06T08:35:11+02:00",
+      "modified": "2012-07-06T08:35:11+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8732",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 7,
+      "name": "Information über die Erweiterung der Bauschuttdeponie Betheln in das Gebiet der Gemeinde Nordstemmen, Gemarkung Burgstemmen\n(Ausführungen werden in der Sitzung gemacht)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-714",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Fachausschuss Planung, Bau, Umwelt, Feuerschutz 16.07.2012 18.00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2012-07-16",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcndwgmvMT2EcJTwUC7U-L9JbGwO9AzDA-mjcQdmbzUc/Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_16.07.2012_18.00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcndwgmvMT2EcJTwUC7U-L9JbGwO9AzDA-mjcQdmbzUc/Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_16.07.2012_18.00_Uhr.pdf",
+          "created": "2012-07-26T13:00:56+02:00",
+          "modified": "2012-07-26T13:00:56+02:00"
+        }
+      ],
+      "created": "2012-07-06T08:38:37+02:00",
+      "modified": "2012-07-06T08:38:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8725",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 8,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2012-07-06T08:35:11+02:00",
+      "modified": "2012-07-06T08:35:11+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8726",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Behandlung von Anfragen",
+      "created": "2012-07-06T08:35:11+02:00",
+      "modified": "2012-07-06T08:35:11+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8727",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Anregungen",
+      "created": "2012-07-06T08:35:11+02:00",
+      "modified": "2012-07-06T08:35:11+02:00"
+    }
+  ]
+}

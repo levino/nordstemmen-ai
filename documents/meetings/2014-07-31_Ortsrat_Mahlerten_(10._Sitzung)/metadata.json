@@ -1,0 +1,153 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2285",
+  "name": "Ortsrat Mahlerten (10. Sitzung)",
+  "start": "2014-07-31T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-10",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Mahlerten, Leunisstraße 16, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Leunisstraße 16",
+    "room": "Dorfgemeinschaftshaus Mahlerten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Mahlerten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T12:00:53+02:00",
+    "modified": "2019-06-06T11:57:30+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-17"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-12798",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2014-07-31",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUcErlxx0QTi0RfIxTOvi9_YOsZxXTogGv5TFXwwNiNn/Bekanntmachung_Ortsrat_Mahlerten_31.07.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUcErlxx0QTi0RfIxTOvi9_YOsZxXTogGv5TFXwwNiNn/Bekanntmachung_Ortsrat_Mahlerten_31.07.2014.pdf",
+    "created": "2014-06-06T13:00:23+02:00",
+    "modified": "2014-07-22T19:00:29+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-13144",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2014-07-31",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSvu1mY2DAgZy7PwXtyZvr0nGmIxuRquMsdvAohoiMgT/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_31.07.2014.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSvu1mY2DAgZy7PwXtyZvr0nGmIxuRquMsdvAohoiMgT/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_31.07.2014.pdf",
+    "created": "2014-09-05T13:00:35+02:00",
+    "modified": "2016-05-19T13:01:36+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10851",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2014-06-06T08:24:00+02:00",
+      "modified": "2014-08-12T16:43:38+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10852",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2014-06-06T08:24:00+02:00",
+      "modified": "2014-06-06T08:24:00+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10853",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 20. Februar 2014",
+      "created": "2014-06-06T08:24:00+02:00",
+      "modified": "2014-06-06T08:24:00+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10978",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2014-07-22T07:40:50+02:00",
+      "modified": "2014-07-22T07:40:50+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10859",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Vorbereitung der Informationsveranstaltung mit der Firma htp\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2014-06-06T08:31:05+02:00",
+      "modified": "2014-06-06T08:31:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10860",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Verschönerung des Vorplatzes am DGH im Zuge der Neugestaltung des Bereiches Feuerwehrgerätehaus\n- Gedanken, Ideen, Pläne\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2014-06-06T08:31:32+02:00",
+      "modified": "2014-06-06T08:31:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10861",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Verschönerungsarbeiten am Regenrückhaltebecken in Eigenregie\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2014-06-06T08:32:06+02:00",
+      "modified": "2014-06-06T08:32:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10979",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Beete und Grünstreifen in der Ortschaft\n- evtl. Bereitschaft zur Übernahme von Patenschaften\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2014-07-22T07:45:46+02:00",
+      "modified": "2014-07-22T07:45:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10980",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Besprechung der weiteren vom Ortsrat zu erledigenden Arbeiten\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2014-07-22T07:46:33+02:00",
+      "modified": "2014-07-22T07:46:33+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10854",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2014-06-06T08:24:00+02:00",
+      "modified": "2014-06-06T08:24:00+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10855",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2014-06-06T08:24:00+02:00",
+      "modified": "2014-06-06T08:24:00+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10856",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Anträge und Anfragen\n",
+      "created": "2014-06-06T08:24:00+02:00",
+      "modified": "2014-06-06T08:24:00+02:00"
+    }
+  ]
+}

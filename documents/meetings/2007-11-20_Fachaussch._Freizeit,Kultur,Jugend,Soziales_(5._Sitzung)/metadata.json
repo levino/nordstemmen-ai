@@ -1,0 +1,132 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/883",
+  "name": "Fachaussch. Freizeit,Kultur,Jugend,Soziales (5. Sitzung)",
+  "start": "2007-11-20T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-7"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-1849",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Freizeit, Kultur, Jugend, Soziales, Demographie)",
+    "mimeType": "application/pdf",
+    "date": "2007-11-20",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSSEC_XvugUX43NFxlSSu9Nm_dk98mam179f4rLFXjyY/Bekanntmachung_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_20.11.2007.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSSEC_XvugUX43NFxlSSu9Nm_dk98mam179f4rLFXjyY/Bekanntmachung_Fachausschuss_Freizeit-_Kultur-_Jugend-_Soziales-_Demographie_20.11.2007.pdf",
+    "created": "2009-10-08T18:18:27+02:00",
+    "modified": "2009-10-08T18:18:27+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2951",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2007-11-08T08:00:50+01:00",
+      "modified": "2007-11-08T08:00:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2952",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2007-11-08T08:00:50+01:00",
+      "modified": "2007-11-08T08:00:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2953",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 26.06.2007",
+      "created": "2007-11-08T08:00:50+01:00",
+      "modified": "2007-11-08T08:00:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2954",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2007-11-08T08:00:50+01:00",
+      "modified": "2007-11-08T08:00:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2960",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Zwischenbericht zum Stand für das Betreuungskonzept der Gemeinde Nordstemmen für Krippen-, Kindergarten- und Schulkinder\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2007-11-08T08:07:24+01:00",
+      "modified": "2007-11-08T08:11:44+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2961",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bericht über durchgeführte und laufende Maßnahmen im Freizeitbad Nordstemmen sowie Überlegungen zu weiteren Investitionsmaßnahmen und zum Betrieb des Freizeitbades\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2007-11-08T08:17:07+01:00",
+      "modified": "2007-11-08T08:17:07+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2955",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Abschluss eines Fortführungsvertrages zwischen dem Gemeindejugendring e. V. und der Gemeinde Nordstemmen über die kommunale Jugendarbeit",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/437",
+      "created": "2007-11-08T08:00:50+01:00",
+      "modified": "2007-11-08T08:17:27+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2962",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Beratung und Beschlussempfehlung zum Haushalt 2008 und Investitionsprogramm bis zum Haushaltsjahr 2011 unter Fortschreibung des Haushaltssicherungskonzeptes\n(siehe dazu die Ihnen vorliegenden Haushaltsunterlagen bzw. die für die hinzugewählten Mitglieder hier beigefügten Haushaltsunterlagen mit Stand vom 26.10.2007 - evtl. Ergänzungen werden nachgereicht - auch als Tischvorlage)",
+      "created": "2007-11-08T08:22:08+01:00",
+      "modified": "2007-11-08T08:22:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2956",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2007-11-08T08:00:50+01:00",
+      "modified": "2007-11-08T08:07:58+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2957",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Behandlung von Anfragen",
+      "created": "2007-11-08T08:00:50+01:00",
+      "modified": "2007-11-08T08:00:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/2958",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anregungen",
+      "created": "2007-11-08T08:00:50+01:00",
+      "modified": "2007-11-08T08:00:50+01:00"
+    }
+  ]
+}

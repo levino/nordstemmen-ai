@@ -1,0 +1,166 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1830",
+  "name": "Fachausschuss Schulen (21. Sitzung)",
+  "start": "2012-03-15T18:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-4"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-7874",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Schulen)",
+    "mimeType": "application/pdf",
+    "date": "2012-03-15",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZS5L0-tUb-HomB3j4UECd3OWrZ7_1GbmE6PW33Z2yUMj/Bekanntmachung_Fachausschuss_Schulen_15.03.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZS5L0-tUb-HomB3j4UECd3OWrZ7_1GbmE6PW33Z2yUMj/Bekanntmachung_Fachausschuss_Schulen_15.03.2012.pdf",
+    "created": "2012-03-07T11:30:01+01:00",
+    "modified": "2012-03-07T11:30:01+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-8210",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Schulen)",
+    "mimeType": "application/pdf",
+    "date": "2012-03-15",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeC5Zx3JX--xZfHcNOxbGknG_eupXm230M7kpA64I6ER/Oeffentliche_Niederschrift_Fachausschuss_Schulen_15.03.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeC5Zx3JX--xZfHcNOxbGknG_eupXm230M7kpA64I6ER/Oeffentliche_Niederschrift_Fachausschuss_Schulen_15.03.2012.pdf",
+    "created": "2012-04-26T13:02:14+02:00",
+    "modified": "2012-04-26T13:02:14+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7940",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2012-01-13T08:43:25+01:00",
+      "modified": "2012-01-13T08:43:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7941",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2012-01-13T08:43:25+01:00",
+      "modified": "2012-01-13T08:43:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7942",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Förmliche Verpflichtung der Lehrer- und Elternvertreter",
+      "created": "2012-01-13T08:43:25+01:00",
+      "modified": "2012-01-13T08:43:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7943",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2012-01-13T08:43:25+01:00",
+      "modified": "2012-03-07T10:35:22+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8160",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bildungsregion Nordstemmen\n- Situation zum Fortbestand der Grundschule Adensen\n(DS 32/2012 sowie Anlage 1 bis 3 zur Drucksache)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-649",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Fachausschuss Schulen 15.03.2012 18.00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2012-03-15",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZM-ZWfqkL3m1IgKeC5t-ga5uYUHFcCmQk3duDMtL5zR/Fachausschuss_Schulen_15.03.2012_18.00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZM-ZWfqkL3m1IgKeC5t-ga5uYUHFcCmQk3duDMtL5zR/Fachausschuss_Schulen_15.03.2012_18.00_Uhr.pdf",
+          "created": "2012-03-12T15:24:59+01:00",
+          "modified": "2012-03-12T15:24:59+01:00"
+        }
+      ],
+      "created": "2012-03-07T10:17:33+01:00",
+      "modified": "2012-03-07T10:17:33+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8365",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 8,
+      "name": "Bildungsregion Nordstemmen\n- Antrag der SPD-Ratsfraktion zur Entwicklung eines Grundschulkonzeptes",
+      "created": "2012-04-24T11:13:00+02:00",
+      "modified": "2012-04-24T11:13:00+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8162",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 9,
+      "name": "Antrag der Grundschule Nordstemmen auf Umwandlung in eine \"Offene Ganztagsschule\"\n(DS 10/2012)",
+      "created": "2012-03-07T10:19:48+01:00",
+      "modified": "2012-03-07T10:19:54+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8161",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 10,
+      "name": "Antrag der Grundschule Barnten zur Teilnahme einer zweiten Gruppe am Modellprojekt \"Lefis - Lernförderung in Schulen\"\n(DS 9/2012)",
+      "created": "2012-03-07T10:18:34+01:00",
+      "modified": "2012-03-07T10:18:34+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8163",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 11,
+      "name": "Doppischer Haushalt für die Haushaltsjahre 2012 bis 2015 einschließlich Investitionstätigkeiten in der Gemeinde Nordstemmen\n(DS 30/2012; Verwaltungsentwurf liegt dort vor - für die Lehrer- und Elternvertreter werden die erforderlichen Unterlagen nachgereicht)",
+      "created": "2012-03-07T10:21:41+01:00",
+      "modified": "2012-03-07T10:21:41+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7944",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 12,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2012-01-13T08:43:25+01:00",
+      "modified": "2012-01-13T08:43:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7945",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 13,
+      "name": "Behandlung von schriftlichen Anfragen und Anträgen",
+      "created": "2012-01-13T08:43:25+01:00",
+      "modified": "2012-01-13T08:43:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/7946",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 14,
+      "name": "Anregungen",
+      "created": "2012-01-13T08:43:25+01:00",
+      "modified": "2012-01-13T08:43:25+01:00"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5432",
+  "name": "Fachausschuss Schule, Jugend, Soziales und Kultur (10. Sitzung)",
+  "start": "2024-02-20T18:30:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-41"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-38481",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Schule, Jugend, Soziales und Kultur)",
+    "mimeType": "application/pdf",
+    "date": "2024-02-20",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQ-omoTh2q1qyDsUFyPPPXxAzY2ACEi3_RGV28gqmjUr/Bekanntmachung_Fachausschuss_Schule-_Jugend-_Soziales_und_Kultur_20.02.2024.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQ-omoTh2q1qyDsUFyPPPXxAzY2ACEi3_RGV28gqmjUr/Bekanntmachung_Fachausschuss_Schule-_Jugend-_Soziales_und_Kultur_20.02.2024.pdf",
+    "created": "2024-02-06T13:00:12+01:00",
+    "modified": "2024-02-06T13:00:12+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-38674",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Schule, Jugend, Soziales und Kultur)",
+    "mimeType": "application/pdf",
+    "date": "2024-02-20",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeJYnrBzth3eiY5Qkd09rvD_2y3q1dzRhfq_kIkZ8_yQ/Oeffentliche_Niederschrift_Fachausschuss_Schule-_Jugend-_Soziales_und_Kultur_20.02.2024.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeJYnrBzth3eiY5Qkd09rvD_2y3q1dzRhfq_kIkZ8_yQ/Oeffentliche_Niederschrift_Fachausschuss_Schule-_Jugend-_Soziales_und_Kultur_20.02.2024.pdf",
+    "created": "2024-03-01T13:00:22+01:00",
+    "modified": "2024-03-01T13:00:22+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21732",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2023-10-26T17:16:57+02:00",
+      "modified": "2023-10-26T17:16:57+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21733",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2023-10-26T17:16:57+02:00",
+      "modified": "2023-10-26T17:16:57+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22082",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 29. August 2023",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6687",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Protokoll FA SJSK 2023 08 29)",
+          "mimeType": "application/pdf",
+          "date": "2024-02-20",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfRri_h_sqFKvl2BBBa0i2RTILAftKUYXgMgBh4gi33t/Protokoll_FA_SJSK_2023_08_29.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfRri_h_sqFKvl2BBBa0i2RTILAftKUYXgMgBh4gi33t/Protokoll_FA_SJSK_2023_08_29.pdf",
+          "created": "2024-02-06T13:00:12+01:00",
+          "modified": "2024-02-06T13:00:12+01:00"
+        }
+      ],
+      "created": "2024-02-05T13:06:12+01:00",
+      "modified": "2024-02-05T13:06:12+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21734",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Genehmigung des Protokolls der Sitzung vom 16. November 2023",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6694",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Protokoll FA SJSK 2023 11 16 gesamt)",
+          "mimeType": "application/pdf",
+          "date": "2024-02-20",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZeGYvvK-qFY2_RgxP1I7phaoTJb-FA47slxyekdQnPy/Protokoll_FA_SJSK_2023_11_16_gesamt.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZeGYvvK-qFY2_RgxP1I7phaoTJb-FA47slxyekdQnPy/Protokoll_FA_SJSK_2023_11_16_gesamt.pdf",
+          "created": "2024-02-06T13:00:12+01:00",
+          "modified": "2024-02-06T13:00:12+01:00"
+        }
+      ],
+      "created": "2023-10-26T17:16:57+02:00",
+      "modified": "2024-02-05T13:05:55+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22083",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Verpflichtung von Ausschussmitgliedern\n- Elternvertretungen",
+      "created": "2024-02-05T13:14:02+01:00",
+      "modified": "2024-02-05T13:14:02+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22084",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Anfragen und Anregungen",
+      "created": "2024-02-05T13:14:46+01:00",
+      "modified": "2024-02-05T13:14:46+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21736",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Einwohner*innen Fragestunde\n\n\nJugend, Soziales und Kultur (inkl. Aufgaben des Jugendausschusses nach § 13 AG KJHG):",
+      "created": "2023-10-26T17:16:57+02:00",
+      "modified": "2024-02-05T13:15:40+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22086",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Inklusionsbeirat: Vorstellung der Aufgaben, Zielsetzungen und Zusammensetzung\n- Information durch Herrn Sperling\n- Aussprache und Diskussion",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6718",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlagen TOP 7)",
+          "mimeType": "application/pdf",
+          "date": "2024-02-20",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZd5OVGKBSwqto_u56oHUfnrGUQERZlepAY65S7DqMXBZ/Anlagen_TOP_7.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZd5OVGKBSwqto_u56oHUfnrGUQERZlepAY65S7DqMXBZ/Anlagen_TOP_7.pdf",
+          "created": "2024-03-01T13:00:22+01:00",
+          "modified": "2024-03-01T13:00:22+01:00"
+        }
+      ],
+      "created": "2024-02-05T13:17:03+01:00",
+      "modified": "2024-02-05T13:17:03+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/22087",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Ergebnis der Freibadsaison 2023\n",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7959",
+      "result": "Zur Kenntnis genommen.",
+      "created": "2024-02-05T13:17:25+01:00",
+      "modified": "2024-02-05T13:17:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/21737",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Mitteilungen der Verwaltung",
+      "created": "2023-10-26T17:16:57+02:00",
+      "modified": "2023-10-26T17:16:57+02:00"
+    }
+  ]
+}

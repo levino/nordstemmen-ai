@@ -1,0 +1,195 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1867",
+  "name": "Ortsrat Mahlerten (3. Sitzung)",
+  "start": "2012-06-25T19:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-10",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Dorfgemeinschaftshaus Mahlerten, Leunisstraße 16, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Leunisstraße 16",
+    "room": "Dorfgemeinschaftshaus Mahlerten, Sitzungszimmer",
+    "postalCode": "31171",
+    "subLocality": "Mahlerten",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T12:00:53+02:00",
+    "modified": "2019-06-06T11:57:30+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-17"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-8384",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2012-06-25",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZpQzxKaW-M0rBHX3J2UJ-Y6KvkmhsQY4cjCX5KiZREu/Bekanntmachung_Ortsrat_Mahlerten_25.06.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZpQzxKaW-M0rBHX3J2UJ-Y6KvkmhsQY4cjCX5KiZREu/Bekanntmachung_Ortsrat_Mahlerten_25.06.2012.pdf",
+    "created": "2012-06-15T13:01:08+02:00",
+    "modified": "2012-06-18T13:01:03+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-8513",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2012-06-25",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaJSuOHPVriTpEP1-geRPLFurOXnc5IQ-LQRhr9WX0rl/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_25.06.2012.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaJSuOHPVriTpEP1-geRPLFurOXnc5IQ-LQRhr9WX0rl/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_25.06.2012.pdf",
+    "created": "2012-07-09T14:58:24+02:00",
+    "modified": "2012-07-09T14:58:24+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8598",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2012-06-14T12:12:29+02:00",
+      "modified": "2012-06-14T12:12:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8599",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2012-06-14T12:12:29+02:00",
+      "modified": "2012-06-14T12:12:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8600",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 20. Februar 2012",
+      "created": "2012-06-14T12:12:29+02:00",
+      "modified": "2012-06-14T12:12:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8617",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Anschaffung neuer Spielgeräte für den Spielplatz \"Am Kastenborn\"\n- Beratung und Beschlussfassung",
+      "created": "2012-06-14T16:29:55+02:00",
+      "modified": "2012-06-14T16:29:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8618",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Beratung von Möglichkeiten zur Schaffung zusätzlicher Parkplätze am Dorfgemeinschaftshaus \n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2012-06-14T16:31:08+02:00",
+      "modified": "2012-06-14T16:31:08+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8619",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bericht zum Sachstand zur Beseitigung der Feuchtigkeitsschäden am Jugendraum\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2012-06-14T16:32:14+02:00",
+      "modified": "2012-06-14T16:32:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8620",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "optische Verengung der Leunisstraße \n- abschließende Beratung und Beschlussfassung",
+      "created": "2012-06-14T16:32:53+02:00",
+      "modified": "2012-06-14T16:32:53+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8655",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Anhörung zur Veräußerung von gemeindeeigenen Grundbesitz in der Ortschaft Mahlerten",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1934",
+      "created": "2012-06-18T09:32:33+02:00",
+      "modified": "2012-06-18T09:35:50+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8622",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Mittelanmeldungen vom Ortsrat für das Haushaltsjahr 2013 ff\n- Beratung und Beschlussfassung\n(weitere Ausführungen werden vom Ortsbürgermeister in der Sitzung gemacht)",
+      "created": "2012-06-14T16:34:35+02:00",
+      "modified": "2012-06-14T16:34:35+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8623",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Teilnahme am Wettbewerb \"Unser Dorf hat Zukunft\"\n- Beratung und Beschlussfassung\n(weitere Ausführungen werden in der Sitzung gemacht)",
+      "created": "2012-06-14T16:35:24+02:00",
+      "modified": "2012-06-14T16:35:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8624",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Verwendung der im Haushaltsjahr 2012 zur Verfügung stehenden Ortsratsmittel\n- Beratung und Beschlussfassung\n(siehe Anlage 1)",
+      "created": "2012-06-14T16:36:52+02:00",
+      "modified": "2012-06-14T16:36:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8601",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Mitteilungen des Bürgermeisters\n- Anlieferung von Rindenmulch\n- Vorgaben für die Ausführung zur Beschilderung verschiedener Wegebezeichnungen",
+      "created": "2012-06-14T12:12:29+02:00",
+      "modified": "2012-06-14T16:30:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8602",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Mitteilungen des Ortsbürgermeisters",
+      "created": "2012-06-14T12:12:29+02:00",
+      "modified": "2012-06-14T12:12:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8603",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Behandlung von Anfragen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-705",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage zu TOP 13)",
+          "mimeType": "application/pdf",
+          "date": "2012-06-25",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaescCVZe5jbR93wVfNNgL8Rug07nQiM2VRNTOxcrGhs/Anlage_zu_TOP_13.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaescCVZe5jbR93wVfNNgL8Rug07nQiM2VRNTOxcrGhs/Anlage_zu_TOP_13.pdf",
+          "created": "2012-07-09T13:00:33+02:00",
+          "modified": "2012-07-09T13:00:33+02:00"
+        }
+      ],
+      "created": "2012-06-14T12:12:29+02:00",
+      "modified": "2012-06-14T12:12:29+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8604",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Anregungen",
+      "created": "2012-06-14T12:12:29+02:00",
+      "modified": "2012-06-14T12:12:29+02:00"
+    }
+  ]
+}

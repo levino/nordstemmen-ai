@@ -6,8 +6,8 @@ const IncomingRequest = Request;
 
 describe('MCP Worker', () => {
   it('should respond to GET /', async () => {
-    const request = new IncomingRequest('https://example.com/')
-    const ctx = createExecutionContext()
+    const request = new IncomingRequest('https://example.com/');
+    const ctx = createExecutionContext();
     const response = await worker.fetch(request, env, ctx);
     await waitOnExecutionContext(ctx);
     expect(response.status).toBe(200);
@@ -20,7 +20,7 @@ describe('MCP Worker', () => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Accept': 'application/json, text/event-stream'
+        Accept: 'application/json, text/event-stream',
       },
       body: JSON.stringify({
         jsonrpc: '2.0',
@@ -28,9 +28,9 @@ describe('MCP Worker', () => {
         method: 'tools/call',
         params: {
           name: 'search_documents',
-          arguments: { query: 'Schwimmbad Kosten', limit: 5 }
-        }
-      })
+          arguments: { query: 'Schwimmbad Kosten', limit: 5 },
+        },
+      }),
     });
     const ctx = createExecutionContext();
     const response = await worker.fetch(request, env, ctx);
@@ -47,7 +47,7 @@ describe('MCP Worker', () => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Accept': 'application/json, text/event-stream'
+        Accept: 'application/json, text/event-stream',
       },
       body: JSON.stringify([
         {
@@ -56,8 +56,8 @@ describe('MCP Worker', () => {
           method: 'tools/call',
           params: {
             name: 'search_documents',
-            arguments: { query: 'Schwimmbad Nordstemmen', limit: 3 }
-          }
+            arguments: { query: 'Schwimmbad Nordstemmen', limit: 3 },
+          },
         },
         {
           jsonrpc: '2.0',
@@ -65,8 +65,8 @@ describe('MCP Worker', () => {
           method: 'tools/call',
           params: {
             name: 'search_documents',
-            arguments: { query: 'Schwimmbad Kosten', limit: 3 }
-          }
+            arguments: { query: 'Schwimmbad Kosten', limit: 3 },
+          },
         },
         {
           jsonrpc: '2.0',
@@ -74,10 +74,10 @@ describe('MCP Worker', () => {
           method: 'tools/call',
           params: {
             name: 'search_documents',
-            arguments: { query: 'Schwimmbad Öffnungszeiten', limit: 3 }
-          }
-        }
-      ])
+            arguments: { query: 'Schwimmbad Öffnungszeiten', limit: 3 },
+          },
+        },
+      ]),
     });
     const ctx = createExecutionContext();
     const response = await worker.fetch(request, env, ctx);

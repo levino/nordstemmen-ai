@@ -1,0 +1,131 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1012",
+  "name": "Ortsrat Rössing (6. Sitzung)",
+  "start": "2008-02-13T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-11",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Gaststätte \"Alt Rössinger Saal\", Maschstraße 1, 31171 Nordstemmen, Clubraum",
+    "streetAddress": "Maschstraße 1",
+    "room": "Gaststätte \"Alt Rössinger Saal\", Clubraum",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T12:02:32+02:00",
+    "modified": "2017-09-12T17:09:38+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-2265",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2008-02-13",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWcp_pIRVJO8lRZX8YFGLO8gHCqVDdiy8giQn7Q23pqP/Bekanntmachung_Ortsrat_Roessing_13.02.2008.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWcp_pIRVJO8lRZX8YFGLO8gHCqVDdiy8giQn7Q23pqP/Bekanntmachung_Ortsrat_Roessing_13.02.2008.pdf",
+    "created": "2008-04-22T13:27:30+02:00",
+    "modified": "2008-04-22T13:27:30+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3316",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2008-02-05T16:26:10+01:00",
+      "modified": "2008-02-05T16:26:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3317",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2008-02-05T16:26:10+01:00",
+      "modified": "2008-02-05T16:26:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3318",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 07.11.2007",
+      "created": "2008-02-05T16:26:10+01:00",
+      "modified": "2008-02-05T16:26:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3319",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2008-02-05T16:26:10+01:00",
+      "modified": "2008-02-05T16:26:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3324",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Auf Antrag des CDU-Ortsverbandes Rössing vom 21.02.2008;\n- Verkehrssituation und -entwicklung in der Maschstraße und Bahnhofsstraße\n  (Ortsdurchfahrt L 410)\n- Beratung und ggf. Beschlussfassung\n(siehe Anlage 1 - Antrag des CDU-Ortsverbandes)",
+      "created": "2008-02-05T16:28:11+01:00",
+      "modified": "2008-02-05T16:28:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3325",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Mitteilungen des Bürgermeisters\n- Sachstand Ausbau Kirchstraße\n- Sachstand Straßenausbau Jägerweg\n- Sachstand Straßenausbau Am Nordbruch u. a.\n- Einbahnstraße Karlstraße; Umsetzung des Zulassens für Radfahrer auch in\n  Gegenrichtung",
+      "created": "2008-02-05T16:29:59+01:00",
+      "modified": "2008-02-05T16:29:59+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3326",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Verwendung der im Haushaltsjahr 2008 zur Verfügung stehenden Ortsratsmittel\n- Zuwendung an den Bergmannsverein (nachträglicher Beschluss)\n- Zuwendung an den Musikzug der Freiwilligen Feuerwehr (nachträglicher\n  Beschluss)\n- Spende des Ortsrates für die Nutzung des Dorfgemeinschaftshauses\n- Sonstiges\nBeratung und Beschlussfassung (siehe Anlage 2)\n",
+      "created": "2008-02-05T16:32:13+01:00",
+      "modified": "2008-02-05T16:32:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3327",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Aussprache und Lösungsfindung zu den im Ort durchzuführenden Sammlungen\nAusführungen werden in der Sitzung gemacht)",
+      "created": "2008-02-05T16:34:07+01:00",
+      "modified": "2008-02-05T16:35:07+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3320",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Mitteilungen der Ortsbürgermeisterin",
+      "created": "2008-02-05T16:26:10+01:00",
+      "modified": "2008-02-05T16:34:17+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3321",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Behandlung von Anfragen",
+      "created": "2008-02-05T16:26:10+01:00",
+      "modified": "2008-02-05T16:34:29+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3322",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Anregungen",
+      "created": "2008-02-05T16:26:10+01:00",
+      "modified": "2008-02-05T16:26:10+01:00"
+    }
+  ]
+}

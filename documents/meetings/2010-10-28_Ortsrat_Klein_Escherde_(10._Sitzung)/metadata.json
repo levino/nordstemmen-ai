@@ -1,0 +1,163 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1535",
+  "name": "Ortsrat Klein Escherde (10. Sitzung)",
+  "start": "2010-10-28T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-9",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Klein Escherde, Eschestraße 3, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Eschestraße 3",
+    "room": "Feuerwehrhaus Klein Escherde, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Klein Escherde",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:54:15+02:00",
+    "modified": "2019-06-06T11:56:23+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-16"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-5871",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2010-10-28",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUTiSdSJVxWaybg0OtgUDixsg3mlGBsBXWKtdNCV6LcU/Bekanntmachung_Ortsrat_Klein_Escherde_28.10.2010.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUTiSdSJVxWaybg0OtgUDixsg3mlGBsBXWKtdNCV6LcU/Bekanntmachung_Ortsrat_Klein_Escherde_28.10.2010.pdf",
+    "created": "2010-10-18T13:26:47+02:00",
+    "modified": "2010-10-18T13:26:47+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6549",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2010-10-15T11:48:40+02:00",
+      "modified": "2010-11-11T15:59:13+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6550",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2010-10-15T11:48:40+02:00",
+      "modified": "2010-10-15T11:48:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6551",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung vom 02.08.2010",
+      "created": "2010-10-15T11:48:40+02:00",
+      "modified": "2010-10-15T11:48:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6552",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2010-10-15T11:48:40+02:00",
+      "modified": "2010-10-15T11:48:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6553",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Anhörung zum Haushalt für das Haushaltsjahr 2011 ff.",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1401",
+      "resolutionFile": {
+        "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-6135",
+        "type": "https://schema.oparl.org/1.1/File",
+        "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+        "name": "Beschlusstext (Anhörung zum Haushalt für das Haushaltsjahr 2011 ff.)",
+        "mimeType": "application/pdf",
+        "date": "2010-10-28",
+        "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZf71j3G_D3GPKxOw09OEVPzL-1JP_DkmnS0Ak5XEIkf_/Beschlusstext_DS_64-2010_-oeffentlich-_Ortsrat_Klein_Escherde_28.10.2010.pdf",
+        "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZf71j3G_D3GPKxOw09OEVPzL-1JP_DkmnS0Ak5XEIkf_/Beschlusstext_DS_64-2010_-oeffentlich-_Ortsrat_Klein_Escherde_28.10.2010.pdf",
+        "created": "2010-11-19T13:02:13+01:00",
+        "modified": "2010-11-19T13:02:13+01:00"
+      },
+      "created": "2010-10-15T11:48:40+02:00",
+      "modified": "2010-10-15T11:48:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6714",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Teilnahme am Wettbewerb \"Unser Dorf soll schöner werden\" 2011\n- Beratung und Beschlussfassung -",
+      "created": "2010-11-11T15:57:49+01:00",
+      "modified": "2010-11-11T15:57:49+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6715",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 8,
+      "name": "Aufstellung eines Protestbanners Megamasten\n- Beratung und Beschlussfassung",
+      "created": "2010-11-11T15:58:29+01:00",
+      "modified": "2010-11-11T15:58:29+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6561",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Durchführung Veranstaltungen 2010\nLaternenumzug am 12.11.2010\nGedenkfeier zum Volkstrauertag",
+      "created": "2010-10-18T09:54:03+02:00",
+      "modified": "2010-10-18T09:54:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6554",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2010-10-15T11:48:40+02:00",
+      "modified": "2010-10-15T11:48:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6555",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Mitteilungen der Ortsbürgermeisterin",
+      "created": "2010-10-15T11:48:40+02:00",
+      "modified": "2010-10-15T11:48:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6556",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Behandlung von Anträgen",
+      "created": "2010-10-15T11:48:40+02:00",
+      "modified": "2010-10-15T11:48:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6557",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Behandlung von Anfragen",
+      "created": "2010-10-15T11:48:40+02:00",
+      "modified": "2010-10-15T11:48:40+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/6558",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 14,
+      "name": "Anregungen",
+      "created": "2010-10-15T11:48:40+02:00",
+      "modified": "2010-10-15T11:48:40+02:00"
+    }
+  ]
+}

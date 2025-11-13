@@ -1,0 +1,199 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2188",
+  "name": "Fachausschuss Planung, Bau, Umwelt, Feuerschutz (22. Sitzung)",
+  "start": "2013-10-24T18:00:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-6"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-11807",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Planung, Bau, Umwelt, Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2013-10-24",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaJtSQHA8jRJrD1mmL3JgCjO7k4yLGTHJQOoTHypckvr/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_24.10.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaJtSQHA8jRJrD1mmL3JgCjO7k4yLGTHJQOoTHypckvr/Bekanntmachung_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_24.10.2013.pdf",
+    "created": "2013-10-16T13:00:20+02:00",
+    "modified": "2013-10-16T13:00:20+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-12069",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Planung, Bau, Umwelt, Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2013-10-24",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZc0OcjbKTqB3nsewgbaRovE0dkWeULRV73LM5KwToCxI/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_24.10.2013.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZc0OcjbKTqB3nsewgbaRovE0dkWeULRV73LM5KwToCxI/Oeffentliche_Niederschrift_Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_24.10.2013.pdf",
+    "created": "2013-11-19T13:00:25+01:00",
+    "modified": "2013-11-19T13:00:25+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10032",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2013-08-21T09:35:07+02:00",
+      "modified": "2013-08-21T09:35:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10033",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2013-08-21T09:35:07+02:00",
+      "modified": "2013-08-21T09:35:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10034",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 23. September 2013",
+      "created": "2013-08-21T09:35:07+02:00",
+      "modified": "2013-08-21T09:35:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10035",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2013-08-21T09:35:07+02:00",
+      "modified": "2013-08-21T09:35:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10209",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bebauungsplan Nr. 0108 \"Gewerbegebiet Nord\", 2. Änderung\n- Aufstellungsbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2507",
+      "created": "2013-10-16T11:26:22+02:00",
+      "modified": "2013-10-16T11:26:22+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10225",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bebauungsplan Nr. 0122 \"Innerörtliche Verbindungsstraße/Zuckerfabrik\", Ortschaft Nordstemmen, 9. Änderung\n- erneuter Beschluss über die öffentliche Auslegung\n(DS 87/2013)",
+      "created": "2013-10-16T12:37:03+02:00",
+      "modified": "2013-10-16T12:37:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10226",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Aufstellung einer Innenbereichssatzung in der Ortschaft Mahlerten (gegenüber Autohaus Machel)\n- Aufstellungsbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2516",
+      "created": "2013-10-16T12:38:04+02:00",
+      "modified": "2013-10-16T12:38:08+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10347",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Flächennutzungsplan der Gemeinde Nordstemmen; 21. Änderung - Windenergienutzung Teil II\n- Vorstellung der Ergebnisse der Voruntersuchung und weiteres Verfahren",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2537",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-994",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Fachausschuss Planung, Bau, Umwelt, Feuerschutz 24.10.2013 18.00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2013-10-24",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRt60aIbkcPMV_0acIP3fOw4ztL0E6xBpJLEV2tYegHS/Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_24.10.2013_18.00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRt60aIbkcPMV_0acIP3fOw4ztL0E6xBpJLEV2tYegHS/Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_24.10.2013_18.00_Uhr.pdf",
+          "created": "2013-10-31T13:00:10+01:00",
+          "modified": "2013-10-31T13:00:10+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-995",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Fachausschuss Planung, Bau, Umwelt, Feuerschutz 24.10.2013 18.00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2013-10-24",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSCg7tlx3pl_QcnPXa_bM-lZJditYQbzf8oROlR3R6bt/Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_24.10.2013_18.00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSCg7tlx3pl_QcnPXa_bM-lZJditYQbzf8oROlR3R6bt/Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_24.10.2013_18.00_Uhr.pdf",
+          "created": "2013-10-31T13:00:10+01:00",
+          "modified": "2013-10-31T13:00:10+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-996",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Fachausschuss Planung, Bau, Umwelt, Feuerschutz 24.10.2013 18.00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2013-10-24",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVXGLib0WyDJIXJgYwN4cSvy4xR1u2_AVCm5-eE3kQR_/Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_24.10.2013_18.00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVXGLib0WyDJIXJgYwN4cSvy4xR1u2_AVCm5-eE3kQR_/Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_24.10.2013_18.00_Uhr.pdf",
+          "created": "2013-10-31T13:00:10+01:00",
+          "modified": "2013-10-31T13:00:10+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-997",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Fachausschuss Planung, Bau, Umwelt, Feuerschutz 24.10.2013 18.00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2013-10-24",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXax_n5zJTMgjb8aIW0zgknrXLv-RlM7oVFCfPREsywo/Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_24.10.2013_18.00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXax_n5zJTMgjb8aIW0zgknrXLv-RlM7oVFCfPREsywo/Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_24.10.2013_18.00_Uhr.pdf",
+          "created": "2013-10-31T13:00:10+01:00",
+          "modified": "2013-10-31T13:00:10+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-998",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Fachausschuss Planung, Bau, Umwelt, Feuerschutz 24.10.2013 18.00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2013-10-24",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZdgE1CkI6--uxbp4tULXhMB8SkKXaAqMpH-1f01qpMX/Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_24.10.2013_18.00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZdgE1CkI6--uxbp4tULXhMB8SkKXaAqMpH-1f01qpMX/Fachausschuss_Planung-_Bau-_Umwelt-_Feuerschutz_24.10.2013_18.00_Uhr.pdf",
+          "created": "2013-10-31T13:00:10+01:00",
+          "modified": "2013-10-31T13:00:10+01:00"
+        }
+      ],
+      "created": "2013-10-23T10:54:15+02:00",
+      "modified": "2013-10-23T10:54:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10036",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2013-08-21T09:35:07+02:00",
+      "modified": "2013-08-21T09:35:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10037",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Anträge und Anfragen",
+      "created": "2013-08-21T09:35:07+02:00",
+      "modified": "2013-08-21T09:35:07+02:00"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2452",
+  "name": "Ortsrat Klein Escherde (23. Sitzung)",
+  "start": "2015-02-17T19:00:00+01:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-9",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Feuerwehrhaus Klein Escherde, Eschestraße 3, 31171 Nordstemmen, Sammlungsraum",
+    "streetAddress": "Eschestraße 3",
+    "room": "Feuerwehrhaus Klein Escherde, Sammlungsraum",
+    "postalCode": "31171",
+    "subLocality": "Klein Escherde",
+    "locality": "Nordstemmen",
+    "created": "2002-08-15T11:54:15+02:00",
+    "modified": "2019-06-06T11:56:23+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-16"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-13871",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2015-02-17",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdn6Dhp9MU7hXDFH8CUxPV1nkNcn_GT1LxW3Fzjckmb6/Bekanntmachung_Ortsrat_Klein_Escherde_17.02.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdn6Dhp9MU7hXDFH8CUxPV1nkNcn_GT1LxW3Fzjckmb6/Bekanntmachung_Ortsrat_Klein_Escherde_17.02.2015.pdf",
+    "created": "2015-01-26T13:00:45+01:00",
+    "modified": "2015-01-26T13:00:45+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-14315",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Klein Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2015-02-17",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXFadVXieOqtUQxm9yQE9R7m0Hq18ZRRY-i9d0x3fg2k/Oeffentliche_Niederschrift_Ortsrat_Klein_Escherde_17.02.2015.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXFadVXieOqtUQxm9yQE9R7m0Hq18ZRRY-i9d0x3fg2k/Oeffentliche_Niederschrift_Ortsrat_Klein_Escherde_17.02.2015.pdf",
+    "created": "2015-05-05T19:00:40+02:00",
+    "modified": "2015-10-19T19:01:00+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11459",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2015-01-22T09:24:04+01:00",
+      "modified": "2015-01-22T09:24:04+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11460",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2015-01-22T09:24:04+01:00",
+      "modified": "2015-01-22T09:24:04+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11461",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 21.10.2014",
+      "created": "2015-01-22T09:24:04+01:00",
+      "modified": "2015-01-22T09:24:04+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11462",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Einwohnerfragestunde",
+      "created": "2015-01-22T09:24:04+01:00",
+      "modified": "2015-01-22T09:24:04+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11467",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Verwendung der im Haushalt 2015 zur Verfügung stehenden Haushaltsmittel 2015\n",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1333",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Klein Escherde 17.02.2015 19:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-02-17",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTbcjkoWmEOqrsfv8smxLwe0cRFapl1m7YRlu0HkPoC0/Ortsrat_Klein_Escherde_17.02.2015_19-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTbcjkoWmEOqrsfv8smxLwe0cRFapl1m7YRlu0HkPoC0/Ortsrat_Klein_Escherde_17.02.2015_19-00_Uhr.pdf",
+          "created": "2015-05-05T19:00:40+02:00",
+          "modified": "2015-05-05T19:00:40+02:00"
+        }
+      ],
+      "created": "2015-01-22T09:28:45+01:00",
+      "modified": "2015-01-22T09:28:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11468",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Errichtung eines neuen Spielgerätes auf dem Spielplatz \"Dorfmitte\"\n- Beratung und Beschlussfassung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1334",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Klein Escherde 17.02.2015 19:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-02-17",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZn0-Gh8Ih8erVuy-DHrgEXuafE_z6ZJuiMwuSEwJ6TJ/Ortsrat_Klein_Escherde_17.02.2015_19-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZn0-Gh8Ih8erVuy-DHrgEXuafE_z6ZJuiMwuSEwJ6TJ/Ortsrat_Klein_Escherde_17.02.2015_19-00_Uhr.pdf",
+          "created": "2015-05-05T19:00:40+02:00",
+          "modified": "2015-05-05T19:00:40+02:00"
+        }
+      ],
+      "created": "2015-01-22T09:30:33+01:00",
+      "modified": "2015-01-22T09:30:33+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11469",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 8,
+      "name": "Personennahverkehr insbesondere Schülerbeförderung in Klein Escherde\n- Beratung und Empfehlung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-1335",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsrat Klein Escherde 17.02.2015 19:00 Uhr)",
+          "mimeType": "application/pdf",
+          "date": "2015-02-17",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQbds67gA88X2nai2kXDViHsg8Qmg6Y0vr_eE0XPpCjH/Ortsrat_Klein_Escherde_17.02.2015_19-00_Uhr.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQbds67gA88X2nai2kXDViHsg8Qmg6Y0vr_eE0XPpCjH/Ortsrat_Klein_Escherde_17.02.2015_19-00_Uhr.pdf",
+          "created": "2015-05-05T19:00:40+02:00",
+          "modified": "2015-05-05T19:00:40+02:00"
+        }
+      ],
+      "created": "2015-01-22T09:31:51+01:00",
+      "modified": "2015-01-22T09:31:51+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11470",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Vorstellung der Ergebnisse aus der Geschwindigkeitsmessung in Klein Escherde\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2015-01-22T09:32:58+01:00",
+      "modified": "2015-01-22T09:32:58+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11471",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Durchführung des Umwelttages am 31. März 2015",
+      "created": "2015-01-22T09:34:00+01:00",
+      "modified": "2015-01-22T09:34:00+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11463",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Bericht bzw. Mitteilungen des Bürgermeisters",
+      "created": "2015-01-22T09:24:04+01:00",
+      "modified": "2015-01-22T09:24:04+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11464",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2015-01-22T09:24:04+01:00",
+      "modified": "2015-01-22T09:24:04+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11465",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 13,
+      "name": "Anträge und Anfragen",
+      "created": "2015-01-22T09:24:04+01:00",
+      "modified": "2015-01-22T09:24:04+01:00"
+    }
+  ]
+}

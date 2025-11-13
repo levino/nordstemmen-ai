@@ -1,0 +1,293 @@
+{
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1112",
+  "name": "Rat (10. Sitzung)",
+  "start": "2008-07-08T18:30:00+02:00",
+  "location": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "description": "Rathaus, Rathausstraße 3, 31171 Nordstemmen, Sitzungszimmer",
+    "streetAddress": "Rathausstraße 3",
+    "room": "Rathaus, Sitzungszimmer",
+    "postalCode": "31171",
+    "locality": "Nordstemmen",
+    "created": "2002-08-14T09:09:58+02:00",
+    "modified": "2017-09-14T11:14:32+02:00"
+  },
+  "organization": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-2776",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2008-07-08",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdt237ESuSaSISCua2gWVB9EefQVAMa2vskoHZ0CFMV7/Bekanntmachung_Rat_08.07.2008.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdt237ESuSaSISCua2gWVB9EefQVAMa2vskoHZ0CFMV7/Bekanntmachung_Rat_08.07.2008.pdf",
+    "created": "2008-06-24T13:34:05+02:00",
+    "modified": "2008-06-24T13:34:05+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3689",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2008-06-05T11:29:20+02:00",
+      "modified": "2008-06-05T11:29:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3690",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2008-06-05T11:29:20+02:00",
+      "modified": "2008-06-05T11:29:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3691",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung der Niederschrift der Sitzung des Rates vom 6. März 2008",
+      "created": "2008-06-05T11:29:20+02:00",
+      "modified": "2008-06-05T11:29:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3692",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht des Bürgermeisters über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "created": "2008-06-05T11:29:20+02:00",
+      "modified": "2008-06-05T11:29:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3693",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohnerfragestunde",
+      "created": "2008-06-05T11:29:20+02:00",
+      "modified": "2008-06-05T11:29:20+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3704",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Vorschlagsliste für die Neuwahl der Schöffen für die Jahre 2009 bis 2013",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/698",
+      "created": "2008-06-05T11:29:21+02:00",
+      "modified": "2008-06-19T11:52:42+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3702",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Erlass einer Richtlinie für die Arbeit der ehrenamtlichen Gleichstellungsbeauftragten in der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/672",
+      "created": "2008-06-05T11:29:21+02:00",
+      "modified": "2008-06-19T11:53:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4896",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Erlass einer Richtlinie für die Arbeit der ehrenamtlichen Gleichstellungsbeauftragten in der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/728",
+      "created": "2009-08-28T08:15:43+02:00",
+      "modified": "2009-08-28T08:15:43+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3705",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Beschlussfassung über die Jahresrechnung 2006 und über die Entlastung des Bürgermeisters gemäß § 101 Abs. 1 NGO",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/703",
+      "created": "2008-06-05T11:29:21+02:00",
+      "modified": "2009-08-28T08:16:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3694",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Unterrichtung über Haushaltsüberschreitungen in der Zeit vom 01.01. bis 31.12.2007\ngemäß § 89 Abs. 1 NGO",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/600",
+      "created": "2008-06-05T11:29:20+02:00",
+      "modified": "2009-08-28T08:15:48+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3750",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Unterrichtung über die Anordnung einer haushaltswirtschaftlichen Sperre für das Haushaltsjahr 2008\n(siehe Anlage 1)",
+      "created": "2008-06-19T13:54:50+02:00",
+      "modified": "2008-06-19T13:54:50+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3703",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Verlängerung des Nordstemmer-Kinder-Bauland-Bonus",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/679",
+      "created": "2008-06-05T11:29:21+02:00",
+      "modified": "2008-06-19T13:55:12+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3700",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Ev.-luth. Kindertagesstätte in der Ortschaft Nordstemmen;\n- Anbau von Räumlichkeiten zur Betreibung einer Krippengruppe",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/689",
+      "created": "2008-06-05T11:29:20+02:00",
+      "modified": "2008-06-19T13:55:30+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3699",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Sanierung Sportzentrum Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/668",
+      "created": "2008-06-05T11:29:20+02:00",
+      "modified": "2008-06-19T13:55:48+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4831",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Resolution gegen die Streichung der IC-Halte in Elze und Alfeld",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/730",
+      "created": "2009-08-17T07:51:34+02:00",
+      "modified": "2009-08-17T07:51:34+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3696",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Neufassung der Satzung über die Erhebung von Erschließungsbeiträgen in der\nGemeinde Nordstemmen;\n(Erschließungsbeitragssatzung - EBS)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/646",
+      "created": "2008-06-05T11:29:20+02:00",
+      "modified": "2008-06-19T14:03:53+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3697",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 17,
+      "name": "Neufassung der Satzung der Gemeinde Nordstemmen über die Erhebung von Beiträgen nach § 6 des Niedersächsischen Kommunalabgabengesetzes (NKAG) für straßenbauliche Maßnahmen; (Straßenausbaubeitragssatzung - ABS)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/658",
+      "created": "2008-06-05T11:29:20+02:00",
+      "modified": "2008-06-19T14:04:19+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4901",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 18,
+      "name": "Neufassung der Satzung der Gemeinde Nordstemmen über die Erhebung von Beiträgen nach § 6 des Niedersächsischen Kommunalabgabengesetzes (NKAG) für straßenbauliche Maßnahmen; (Straßenausbaubeitragssatzung - ABS)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/721",
+      "created": "2009-08-28T08:24:30+02:00",
+      "modified": "2009-08-28T08:24:30+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3706",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "18",
+      "order": 19,
+      "name": "Erschließung eines Teilstückes der Straße \"Jägerweg\" in der Ortschaft Rössing - Maßnahmenbeschluss",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/709",
+      "created": "2008-06-05T11:29:21+02:00",
+      "modified": "2008-06-19T14:05:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4897",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "19",
+      "order": 20,
+      "name": "Fahrbahnerneuerung der Gemeindeverbindungsstraße Barnten - Nordstemmen;\nerweiterter Maßnahmenbeschluss um einen zweiten und dritten Bauabschnitt",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/739",
+      "created": "2009-08-28T08:16:39+02:00",
+      "modified": "2009-08-28T08:16:39+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4898",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "20",
+      "order": 21,
+      "name": "Bebauungsplan Nr. 0120 \"Hauptstraße - Mitte III\", 1. Änderung, Ortschaft Nordstemmen\n- zweite öffentliche Auslegung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/726",
+      "created": "2009-08-28T08:17:14+02:00",
+      "modified": "2009-08-28T08:17:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4863",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "21",
+      "order": 22,
+      "name": "Bebauungsplan Nr. 0120 \"Hauptstraße - Mitte III\", 1. Änderung, Ortschaft Nordstemmen\n- zweite öffentliche Auslegung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/754",
+      "created": "2009-08-27T08:25:59+02:00",
+      "modified": "2009-08-27T08:25:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4899",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "22",
+      "order": 23,
+      "name": "B-Plan 0129 A ÖPNV-Haltepunkt Bahnhof Nordstemmen II\n\n- zweite öffentliche Auslegung",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/749",
+      "created": "2009-08-28T08:18:16+02:00",
+      "modified": "2009-08-28T08:18:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/4832",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "23",
+      "order": 24,
+      "name": "Zusammenführung der Kreiswohnbaugesellschaften im Landkreis Hildesheim",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/734",
+      "created": "2009-08-17T08:05:08+02:00",
+      "modified": "2009-08-17T08:05:08+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3707",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "24",
+      "order": 25,
+      "name": "Mitteilungen des Bürgermeisters",
+      "created": "2008-06-05T11:29:21+02:00",
+      "modified": "2008-06-05T11:29:21+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3708",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "25",
+      "order": 26,
+      "name": "Behandlung von Anfragen",
+      "created": "2008-06-05T11:29:21+02:00",
+      "modified": "2008-06-05T11:29:21+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/3709",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "26",
+      "order": 27,
+      "name": "Anregungen",
+      "created": "2008-06-05T11:29:21+02:00",
+      "modified": "2008-06-05T11:29:21+02:00"
+    }
+  ]
+}
