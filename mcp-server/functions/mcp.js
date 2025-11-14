@@ -97,7 +97,8 @@ async function searchDocuments(env, args) {
           .map((result, index) => {
             const payload = result.payload;
             const title = payload.entity_name || payload.filename || 'Unknown';
-            const url = payload.entity_id || '';
+            // Prefer mainFile_access_url for direct PDF link, fallback to entity_id (OParl API)
+            const url = payload.mainFile_access_url || payload.entity_id || '';
             const date = payload.date || '';
             const score = result.score?.toFixed(3) || '?';
             const ref = payload.paper_reference ? ` (${payload.paper_reference})` : '';
@@ -115,7 +116,9 @@ async function searchDocuments(env, args) {
           return {
             rank: index + 1,
             title: payload.entity_name || payload.filename || 'Unknown',
-            url: payload.entity_id || null,
+            url: payload.mainFile_access_url || payload.entity_id || null,
+            oparl_id: payload.entity_id || null,
+            pdf_url: payload.mainFile_access_url || null,
             date: payload.date || null,
             page: payload.page || null,
             score: result.score || 0,
@@ -174,14 +177,20 @@ async function getPaperByReference(env, args) {
 
     const payload = scrollResult.points[0].payload;
 
+    // Prefer direct PDF link over OParl API link
+    const pdfUrl = payload.mainFile_access_url || '';
+    const oparlUrl = payload.entity_id || '';
+    const primaryLink = pdfUrl || oparlUrl;
+
     const paperInfo = `# ${payload.entity_name || 'Unknown Paper'}
 
 **Reference:** ${payload.paper_reference || 'N/A'}
 **Type:** ${payload.paper_type || 'N/A'}
 **Date:** ${payload.date || 'N/A'}
-**OParl ID:** ${payload.entity_id || 'N/A'}
+${pdfUrl ? `**PDF:** ${pdfUrl}` : ''}
+**OParl ID:** ${oparlUrl || 'N/A'}
 
-[View in Ratsinformationssystem](${payload.entity_id || '#'})`;
+[${pdfUrl ? 'View PDF' : 'View in Ratsinformationssystem'}](${primaryLink || '#'})`;
 
     return {
       text: paperInfo,
@@ -191,6 +200,7 @@ async function getPaperByReference(env, args) {
         paperType: payload.paper_type || null,
         date: payload.date || null,
         oparl_id: payload.entity_id || null,
+        pdf_url: payload.mainFile_access_url || null,
       },
     };
   } catch (error) {
@@ -275,6 +285,7 @@ async function searchPapers(env, args) {
           paperType: p.paper_type || null,
           date: p.date || null,
           oparl_id: p.entity_id || null,
+          pdf_url: p.mainFile_access_url || null,
         });
       }
     });
@@ -284,7 +295,9 @@ async function searchPapers(env, args) {
     // Build text output
     const textResults = papers
       .map((paper, index) => {
-        const titleLink = paper.oparl_id ? `[${paper.name}](${paper.oparl_id})` : paper.name;
+        // Prefer PDF link over OParl API link
+        const url = paper.pdf_url || paper.oparl_id;
+        const titleLink = url ? `[${paper.name}](${url})` : paper.name;
         const metadata = [paper.reference, paper.paperType, paper.date].filter(Boolean).join(' • ');
 
         return `${index + 1}. ${titleLink}\n${metadata}`;
@@ -378,10 +391,22 @@ Zeitraum: Dokumente ab 2007 bis heute
 Die semantische Suche findet relevante Informationen auch wenn die exakten Suchbegriffe nicht im Text vorkommen.
 Ideal für Fragen zu kommunalen Themen wie Bauprojekte, Haushalt, Beschlüsse, Verkehr, Bildung, Soziales, etc.
 
+**WICHTIG - Zwei Arten von Links:**
+Für jedes Dokument werden ZWEI Links zurückgegeben:
+
+1. **Haupt-Link (url/pdf_url)**: Direkter Link zum PDF-Dokument
+   - Beispiel: https://nordstemmen.ratsinfomanagement.net/.../Beschlussvorlage_DS_12-2024.pdf
+   - **Nutze diesen Link wenn der Nutzer das Dokument lesen möchte**
+
+2. **OParl-API-Link (oparl_id)**: Link zum Paper-Objekt in der OParl-API
+   - Beispiel: https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5475
+   - **Nutze diesen Link wenn der Nutzer Metadaten, Beratungsverläufe oder Abstimmungen sehen möchte**
+   - Die API liefert strukturierte Daten zu Beratungen, Beschlüssen, zugehörigen Meetings, etc.
+
+**Standard-Empfehlung:** Für die meisten Fragen ist der direkte PDF-Link die beste Wahl für Nutzer.
+
 **Über OParl:**
 OParl ist ein offener Standard für parlamentarische Informationssysteme (https://oparl.org).
-Alle zurückgegebenen IDs sind direkte, klickbare Links zu den Originaldokumenten im OParl-konformen
-Ratsinformationssystem der Gemeinde Nordstemmen.
 
 Datenstruktur:
 - Paper (Drucksache): Beschlussvorlagen, Anträge, Mitteilungen
@@ -428,10 +453,20 @@ Das Tool normalisiert automatisch die verschiedenen Formate und findet die passe
 
 Die Drucksachennummer muss das Jahr enthalten (z.B. "101/2012"). Reine Nummern ohne Jahr (z.B. "101") sind mehrdeutig und werden nicht akzeptiert.
 
+**WICHTIG - Zwei Arten von Links:**
+Das Tool liefert ZWEI Links:
+
+1. **PDF-Link**: Direkter Link zum PDF-Hauptdokument
+   - **Nutze diesen Link wenn der Nutzer das Dokument lesen möchte**
+
+2. **OParl-ID**: Link zum Paper-Objekt in der OParl-API
+   - **Nutze diesen Link wenn der Nutzer Metadaten, Beratungsverläufe oder Abstimmungen sehen möchte**
+   - Die API liefert strukturierte Daten zu Beratungen, Beschlüssen, zugehörigen Meetings, etc.
+
+**Standard-Empfehlung:** Für die meisten Fragen ist der direkte PDF-Link die beste Wahl für Nutzer.
+
 **Über OParl:**
-OParl ist ein offener Standard für parlamentarische Informationssysteme (https://oparl.org).
-Die zurückgegebene OParl-ID ist ein direkter, klickbarer Link zur Drucksache im Ratsinformationssystem
-der Gemeinde Nordstemmen, wo alle Details, Dateien und Beratungsverläufe einsehbar sind.`,
+OParl ist ein offener Standard für parlamentarische Informationssysteme (https://oparl.org).`,
               inputSchema: {
                 type: 'object',
                 properties: {
@@ -459,11 +494,20 @@ Ideal für:
 - "Bebauungspläne aus den letzten 2 Jahren"
 - "Drucksachen zum Thema Haushalt"
 
+**WICHTIG - Zwei Arten von Links:**
+Für jede Drucksache werden ZWEI Links zurückgegeben:
+
+1. **Haupt-Link**: Direkter Link zum PDF-Hauptdokument
+   - **Nutze diesen Link wenn der Nutzer das Dokument lesen möchte**
+
+2. **OParl-ID**: Link zum Paper-Objekt in der OParl-API
+   - **Nutze diesen Link wenn der Nutzer Metadaten, Beratungsverläufe oder Abstimmungen sehen möchte**
+   - Die API liefert strukturierte Daten zu Beratungen, Beschlüssen, zugehörigen Meetings, etc.
+
+**Standard-Empfehlung:** Für die meisten Fragen ist der direkte PDF-Link die beste Wahl für Nutzer.
+
 **Über OParl:**
-OParl ist ein offener Standard für parlamentarische Informationssysteme (https://oparl.org).
-Jede Drucksache hat eine OParl-ID, die ein direkter, klickbarer Link zum Originaldokument
-im Ratsinformationssystem ist. Dort sind alle zugehörigen PDF-Dateien, Beratungsverläufe
-und Beschlüsse einsehbar.`,
+OParl ist ein offener Standard für parlamentarische Informationssysteme (https://oparl.org).`,
               inputSchema: {
                 type: 'object',
                 properties: {

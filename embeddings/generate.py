@@ -312,6 +312,13 @@ class EmbeddingGenerator:
                 'paper_type': folder_metadata.get('paperType', ''),
             })
 
+            # Extract mainFile accessUrl for direct PDF links
+            main_file = folder_metadata.get('mainFile', {})
+            if isinstance(main_file, dict):
+                access_url = main_file.get('accessUrl', '')
+                if access_url:
+                    base_metadata['mainFile_access_url'] = access_url
+
         # Try to load from cache
         cached_chunks = self._load_embeddings_cache(filepath, file_hash)
 
