@@ -12,8 +12,3 @@ einops>=0.8.0
 # Utilities
 tqdm==4.66.1
 langchain-text-splitters==0.3.2
-
-# OCR support
-pytesseract==0.3.10
-pillow==10.1.0
-pdf2image==1.16.3

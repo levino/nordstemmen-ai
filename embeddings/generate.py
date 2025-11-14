@@ -16,9 +16,6 @@ from typing import List, Dict, Optional
 from dotenv import load_dotenv
 
 import pdfplumber
-import pytesseract
-from pdf2image import convert_from_path
-from PIL import Image
 from sentence_transformers import SentenceTransformer
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams, PointStruct, Filter, FieldCondition, MatchValue
@@ -214,38 +211,13 @@ class EmbeddingGenerator:
         except Exception as e:
             logger.warning(f"Error deleting old chunks: {e}")
 
-    def _extract_text_with_ocr(self, filepath: Path) -> List[tuple[int, str]]:
-        """Extract text from PDF using OCR (fallback for scanned documents)."""
-        try:
-            # Convert PDF pages to images
-            images = convert_from_path(filepath, dpi=300)
-            pages = []
-
-            for i, image in enumerate(images):
-                try:
-                    # Perform OCR with German and English
-                    text = pytesseract.image_to_string(image, lang='deu+eng')
-                    if text and text.strip():
-                        pages.append((i + 1, text))
-                except Exception as page_error:
-                    logger.warning(f"OCR error on page {i+1} of {filepath.name}: {page_error}")
-                    continue
-
-            return pages
-        except Exception as e:
-            logger.error(f"OCR failed for {filepath.name}: {e}")
-            return []
-
     def _extract_text_from_pdf(self, filepath: Path) -> List[tuple[int, str]]:
         """Extract text from PDF, returns list of (page_num, text) tuples.
 
-        First tries pdfplumber for text extraction. If no text is found
-        or extraction fails, falls back to OCR for scanned documents.
+        Uses pdfplumber for text extraction. PDFs without extractable text are skipped.
         """
         pages = []
-        use_ocr = False
 
-        # Try pdfplumber first (fast for text-based PDFs)
         try:
             # Suppress pdfplumber warnings about malformed PDFs
             with warnings.catch_warnings():
@@ -264,18 +236,30 @@ class EmbeddingGenerator:
 
         except Exception as e:
             logger.warning(f"pdfplumber failed for {filepath.name}: {e}")
-            use_ocr = True
-
-        # Fall back to OCR if no text was extracted
-        if not pages or use_ocr:
-            logger.info(f"Falling back to OCR for {filepath.name} (no text extracted)")
-            pages = self._extract_text_with_ocr(filepath)
 
         return pages
 
+    def _clean_text(self, text: str) -> str:
+        """Clean up poorly extracted text (e.g., spaced letters, excessive whitespace)."""
+        import re
+
+        # Fix single-letter spacing (e.g., "B r a n d s c h u tz" -> "Brandschutz")
+        # Look for patterns like "a b c d" where single letters are separated by spaces
+        text = re.sub(r'\b([a-zA-ZäöüÄÖÜß])\s+(?=[a-zA-ZäöüÄÖÜß]\s|[a-zA-ZäöüÄÖÜß]\b)', r'\1', text)
+
+        # Replace multiple spaces with single space
+        text = re.sub(r'\s+', ' ', text)
+
+        # Replace multiple newlines with max 2
+        text = re.sub(r'\n{3,}', '\n\n', text)
+
+        return text.strip()
+
     def _chunk_text(self, text: str) -> List[str]:
         """Split text into overlapping chunks using LangChain."""
-        chunks = self.text_splitter.split_text(text)
+        # Clean text before chunking
+        cleaned_text = self._clean_text(text)
+        chunks = self.text_splitter.split_text(cleaned_text)
         return [c.strip() for c in chunks if c.strip()]
 
     def _save_embeddings_cache(self, filepath: Path, file_hash: str, chunks_data: List[Dict]):
