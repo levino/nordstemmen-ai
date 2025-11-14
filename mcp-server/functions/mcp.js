@@ -97,8 +97,8 @@ async function searchDocuments(env, args) {
           .map((result, index) => {
             const payload = result.payload;
             const title = payload.entity_name || payload.filename || 'Unknown';
-            // Prefer mainFile_access_url for direct PDF link, fallback to entity_id (OParl API)
-            const url = payload.mainFile_access_url || payload.entity_id || '';
+            // Prefer pdf_access_url for direct PDF link, fallback to entity_id (OParl API)
+            const url = payload.pdf_access_url || payload.entity_id || '';
             const date = payload.date || '';
             const score = result.score?.toFixed(3) || '?';
             const ref = payload.paper_reference ? ` (${payload.paper_reference})` : '';
@@ -116,9 +116,9 @@ async function searchDocuments(env, args) {
           return {
             rank: index + 1,
             title: payload.entity_name || payload.filename || 'Unknown',
-            url: payload.mainFile_access_url || payload.entity_id || null,
+            url: payload.pdf_access_url || payload.entity_id || null,
             oparl_id: payload.entity_id || null,
-            pdf_url: payload.mainFile_access_url || null,
+            pdf_url: payload.pdf_access_url || null,
             date: payload.date || null,
             page: payload.page || null,
             score: result.score || 0,
@@ -178,7 +178,7 @@ async function getPaperByReference(env, args) {
     const payload = scrollResult.points[0].payload;
 
     // Prefer direct PDF link over OParl API link
-    const pdfUrl = payload.mainFile_access_url || '';
+    const pdfUrl = payload.pdf_access_url || '';
     const oparlUrl = payload.entity_id || '';
     const primaryLink = pdfUrl || oparlUrl;
 
@@ -200,7 +200,7 @@ ${pdfUrl ? `**PDF:** ${pdfUrl}` : ''}
         paperType: payload.paper_type || null,
         date: payload.date || null,
         oparl_id: payload.entity_id || null,
-        pdf_url: payload.mainFile_access_url || null,
+        pdf_url: payload.pdf_access_url || null,
       },
     };
   } catch (error) {
@@ -285,7 +285,7 @@ async function searchPapers(env, args) {
           paperType: p.paper_type || null,
           date: p.date || null,
           oparl_id: p.entity_id || null,
-          pdf_url: p.mainFile_access_url || null,
+          pdf_url: p.pdf_access_url || null,
         });
       }
     });

@@ -102,6 +102,21 @@ class EmbeddingGenerator:
             logger.warning(f"Error loading metadata from {metadata_file}: {e}")
             return {}
 
+    def _extract_filename_from_url(self, url: str) -> str:
+        """Extract filename from accessUrl or downloadUrl."""
+        try:
+            from urllib.parse import unquote
+            parts = url.split('/')
+            last = parts[-1]
+            # Decode URL-encoded characters
+            filename = unquote(last)
+            # Sanitize filename (remove invalid chars)
+            filename = filename.replace('/', '_').replace('\\', '_').replace(':', '_')
+            return filename
+        except Exception as e:
+            logger.warning(f"Error extracting filename from URL {url}: {e}")
+            return ''
+
     def _ensure_collection(self):
         """Create Qdrant collection if it doesn't exist."""
         collections = [c.name for c in self.client.get_collections().collections]
@@ -312,12 +327,30 @@ class EmbeddingGenerator:
                 'paper_type': folder_metadata.get('paperType', ''),
             })
 
-            # Extract mainFile accessUrl for direct PDF links
+            # Build filename to accessUrl mapping for all files (main + auxiliary)
+            file_url_map = {}
+
+            # Add mainFile
             main_file = folder_metadata.get('mainFile', {})
-            if isinstance(main_file, dict):
-                access_url = main_file.get('accessUrl', '')
-                if access_url:
-                    base_metadata['mainFile_access_url'] = access_url
+            if isinstance(main_file, dict) and main_file.get('accessUrl'):
+                main_filename = self._extract_filename_from_url(main_file['accessUrl'])
+                if main_filename:
+                    file_url_map[main_filename] = main_file['accessUrl']
+
+            # Add auxiliaryFiles
+            aux_files = folder_metadata.get('auxiliaryFile', [])
+            if isinstance(aux_files, list):
+                for aux in aux_files:
+                    if isinstance(aux, dict) and aux.get('accessUrl'):
+                        aux_filename = self._extract_filename_from_url(aux['accessUrl'])
+                        if aux_filename:
+                            file_url_map[aux_filename] = aux['accessUrl']
+
+            # Find accessUrl for current PDF file
+            current_filename = filepath.name
+            pdf_access_url = file_url_map.get(current_filename, '')
+            if pdf_access_url:
+                base_metadata['pdf_access_url'] = pdf_access_url
 
         # Try to load from cache
         cached_chunks = self._load_embeddings_cache(filepath, file_hash)
