@@ -545,220 +545,274 @@ und Beschlüsse einsehbar.`,
 // GET / - Homepage
 app.get('/', (c) => {
   const html = `<!DOCTYPE html>
-<html lang="de">
+<html lang="de" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nordstemmen MCP Server</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen">
-  <div class="container mx-auto px-4 py-12 max-w-5xl">
+<body class="bg-base-200">
+  <div class="container mx-auto px-4 py-12 max-w-6xl">
     <!-- Header -->
-    <header class="text-center mb-12">
-      <h1 class="text-5xl font-bold text-gray-800 mb-4">
-        🏛️ Nordstemmen MCP Server
-      </h1>
-      <p class="text-xl text-gray-600">
-        Zugriff auf das Ratsinformationssystem der Gemeinde Nordstemmen via Model Context Protocol
-      </p>
-    </header>
-
-    <!-- Video Section -->
-    <section class="bg-white rounded-xl shadow-lg p-8 mb-8">
-      <h2 class="text-3xl font-bold text-gray-800 mb-4">📹 So funktioniert's</h2>
-      <div class="aspect-video bg-gradient-to-br from-gray-200 to-gray-300 rounded-lg flex items-center justify-center mb-4">
-        <div class="text-center">
-          <svg class="w-24 h-24 mx-auto text-gray-400 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path>
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-          </svg>
-          <p class="text-gray-500 text-lg">Video/GIF kommt bald</p>
+    <div class="hero bg-gradient-to-r from-primary to-secondary rounded-box mb-8 text-primary-content">
+      <div class="hero-content text-center py-12">
+        <div class="max-w-3xl">
+          <h1 class="text-6xl font-bold mb-4">🏛️ Nordstemmen MCP Server</h1>
+          <p class="text-xl">
+            Zugriff auf das Ratsinformationssystem der Gemeinde Nordstemmen via Model Context Protocol
+          </p>
         </div>
       </div>
-      <p class="text-gray-600">
-        Im Video siehst du, wie du Claude im Webinterface eine Frage zu Nordstemmen stellst und der MCP Server dir direkt mit relevanten Protokollen und Dokumenten aus dem Ratsinformationssystem antwortet.
-      </p>
-    </section>
+    </div>
+
+    <!-- Video Section -->
+    <div class="card bg-base-100 shadow-xl mb-6">
+      <div class="card-body">
+        <h2 class="card-title text-3xl mb-4">📹 So funktioniert's</h2>
+        <div class="aspect-video bg-gradient-to-br from-base-300 to-base-200 rounded-lg flex items-center justify-center mb-4">
+          <div class="text-center">
+            <svg class="w-24 h-24 mx-auto opacity-50 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <p class="text-base-content opacity-60 text-lg">Video/GIF kommt bald</p>
+          </div>
+        </div>
+        <p class="text-base-content">
+          Im Video siehst du, wie du Claude im Webinterface eine Frage zu Nordstemmen stellst und der MCP Server dir direkt mit relevanten Protokollen und Dokumenten aus dem Ratsinformationssystem antwortet.
+        </p>
+      </div>
+    </div>
 
     <!-- What is this? -->
-    <section class="bg-white rounded-xl shadow-lg p-8 mb-8">
-      <h2 class="text-3xl font-bold text-gray-800 mb-4">🤔 Was ist dieser MCP Server?</h2>
-      <div class="prose prose-lg text-gray-600 max-w-none">
+    <div class="card bg-base-100 shadow-xl mb-6">
+      <div class="card-body">
+        <h2 class="card-title text-3xl mb-4">🤔 Was ist dieser MCP Server?</h2>
         <p class="mb-4">
           Dieser Server ermöglicht es KI-Assistenten wie <strong>Claude</strong>, direkt auf die öffentlichen Dokumente
           des Ratsinformationssystems der Gemeinde Nordstemmen zuzugreifen. Du kannst ganz natürlich Fragen stellen wie:
         </p>
-        <ul class="list-disc list-inside mb-4 space-y-2">
+        <ul class="list-disc list-inside mb-4 space-y-2 ml-4">
           <li><em>"Was wurde in der letzten Ratssitzung beschlossen?"</em></li>
           <li><em>"Welche Bauvorhaben sind in Adensen geplant?"</em></li>
           <li><em>"Wie hoch ist der Haushalt für 2024?"</em></li>
           <li><em>"Gibt es Beschlüsse zur Verkehrsplanung?"</em></li>
         </ul>
-        <p class="mb-4">
-          Der Server durchsucht <strong>semantisch</strong> über <strong>18 Jahre</strong> an öffentlichen Dokumenten
-          (seit 2007) und findet relevante Informationen – selbst wenn die exakten Suchbegriffe nicht im Text vorkommen.
-        </p>
+        <div class="alert alert-info">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          <span>Der Server durchsucht <strong>semantisch</strong> über <strong>18 Jahre</strong> an öffentlichen Dokumenten (seit 2007) und findet relevante Informationen – selbst wenn die exakten Suchbegriffe nicht im Text vorkommen.</span>
+        </div>
       </div>
-    </section>
+    </div>
 
     <!-- Data Source -->
-    <section class="bg-white rounded-xl shadow-lg p-8 mb-8">
-      <h2 class="text-3xl font-bold text-gray-800 mb-4">📊 Woher kommen die Daten?</h2>
-      <div class="space-y-4 text-gray-600">
-        <p>
-          Alle Daten stammen direkt aus dem <strong>OParl-konformen</strong> Ratsinformationssystem der Gemeinde Nordstemmen:
+    <div class="card bg-base-100 shadow-xl mb-6">
+      <div class="card-body">
+        <h2 class="card-title text-3xl mb-4">📊 Woher kommen die Daten?</h2>
+        <p class="mb-4">
+          Alle Daten stammen direkt aus dem <span class="badge badge-primary">OParl-konformen</span> Ratsinformationssystem der Gemeinde Nordstemmen:
         </p>
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded">
-          <p class="font-mono text-sm">
-            🔗 <a href="https://nordstemmen.ratsinfomanagement.net" target="_blank" class="text-blue-600 hover:underline">
+        <div class="alert alert-info">
+          <span class="font-mono text-sm">
+            🔗 <a href="https://nordstemmen.ratsinfomanagement.net" target="_blank" class="link link-primary">
               nordstemmen.ratsinfomanagement.net
             </a>
-          </p>
+          </span>
         </div>
-        <p>
-          Die Datenbank enthält:
-        </p>
-        <ul class="grid md:grid-cols-2 gap-3 list-disc list-inside">
-          <li>Sitzungsprotokolle</li>
-          <li>Beschlussvorlagen</li>
-          <li>Bekanntmachungen</li>
-          <li>Haushaltspläne</li>
-          <li>Bebauungspläne</li>
-          <li>Verwaltungsvorlagen</li>
-          <li>Anträge und Anfragen</li>
-          <li>Finanzberichte</li>
-        </ul>
-        <div class="bg-green-50 border-l-4 border-green-500 p-4 rounded mt-4">
-          <p class="text-sm">
-            <strong>💡 Was ist OParl?</strong><br>
-            <a href="https://oparl.org" target="_blank" class="text-green-700 hover:underline">OParl</a>
-            ist ein offener Standard für parlamentarische Informationssysteme in Deutschland.
-            Alle Dokumente sind über standardisierte, klickbare Links direkt abrufbar.
-          </p>
+        <p class="mt-4 mb-2 font-semibold">Die Datenbank enthält:</p>
+        <div class="grid md:grid-cols-2 gap-2 mb-4">
+          <div class="badge badge-outline badge-lg">📝 Sitzungsprotokolle</div>
+          <div class="badge badge-outline badge-lg">📋 Beschlussvorlagen</div>
+          <div class="badge badge-outline badge-lg">📢 Bekanntmachungen</div>
+          <div class="badge badge-outline badge-lg">💰 Haushaltspläne</div>
+          <div class="badge badge-outline badge-lg">🏗️ Bebauungspläne</div>
+          <div class="badge badge-outline badge-lg">📄 Verwaltungsvorlagen</div>
+          <div class="badge badge-outline badge-lg">✋ Anträge und Anfragen</div>
+          <div class="badge badge-outline badge-lg">📊 Finanzberichte</div>
+        </div>
+        <div class="alert alert-success">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          <div>
+            <div class="font-bold">💡 Was ist OParl?</div>
+            <div class="text-sm">
+              <a href="https://oparl.org" target="_blank" class="link">OParl</a>
+              ist ein offener Standard für parlamentarische Informationssysteme in Deutschland.
+              Alle Dokumente sind über standardisierte, klickbare Links direkt abrufbar.
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
 
     <!-- Open Source -->
-    <section class="bg-white rounded-xl shadow-lg p-8 mb-8">
-      <h2 class="text-3xl font-bold text-gray-800 mb-4">🔓 100% Open Source</h2>
-      <div class="text-gray-600 space-y-4">
-        <p>
+    <div class="card bg-base-100 shadow-xl mb-6">
+      <div class="card-body">
+        <h2 class="card-title text-3xl mb-4">🔓 100% Open Source</h2>
+        <p class="mb-4">
           Dieser MCP Server ist <strong>vollständig Open Source</strong>. Du kannst den gesamten Code,
           die Datenverarbeitung und die Infrastruktur auf GitHub einsehen und nachvollziehen:
         </p>
-        <div class="bg-gray-50 border-l-4 border-gray-500 p-4 rounded">
-          <p class="font-mono text-sm">
-            🐙 <a href="https://github.com/levino/nordstemmen-ai" target="_blank" class="text-gray-700 hover:underline font-semibold">
+        <div class="alert">
+          <span class="font-mono text-sm">
+            🐙 <a href="https://github.com/levino/nordstemmen-ai" target="_blank" class="link link-primary font-semibold">
               github.com/levino/nordstemmen-ai
             </a>
-          </p>
+          </span>
         </div>
-        <p>
-          Das Projekt umfasst:
-        </p>
-        <ul class="list-disc list-inside space-y-2">
-          <li><strong>Scraper:</strong> Automatisches Herunterladen der Dokumente vom Ratsinformationssystem</li>
-          <li><strong>Embeddings:</strong> Verarbeitung der PDFs und Erstellung semantischer Suchindizes</li>
-          <li><strong>MCP Server:</strong> Der Server selbst (dieser hier!)</li>
-        </ul>
-        <p class="text-sm text-gray-500 mt-4">
-          Lizenz: MIT – Du darfst den Code frei verwenden, modifizieren und teilen.
-        </p>
+        <p class="mt-4 mb-2 font-semibold">Das Projekt umfasst:</p>
+        <div class="flex flex-col gap-2">
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="project-accordion" checked />
+            <div class="collapse-title font-medium">
+              <strong>Scraper</strong> - Automatisches Herunterladen der Dokumente
+            </div>
+            <div class="collapse-content">
+              <p>Automatisches Herunterladen der Dokumente vom Ratsinformationssystem über die OParl-API</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="project-accordion" />
+            <div class="collapse-title font-medium">
+              <strong>Embeddings</strong> - Verarbeitung der PDFs
+            </div>
+            <div class="collapse-content">
+              <p>Verarbeitung der PDFs und Erstellung semantischer Suchindizes mit Jina AI Embeddings</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="project-accordion" />
+            <div class="collapse-title font-medium">
+              <strong>MCP Server</strong> - Der Server selbst
+            </div>
+            <div class="collapse-content">
+              <p>Der MCP Server (dieser hier!) läuft auf Cloudflare Pages und bietet die API für KI-Assistenten</p>
+            </div>
+          </div>
+        </div>
+        <div class="badge badge-outline mt-4">Lizenz: MIT</div>
       </div>
-    </section>
+    </div>
 
     <!-- Try it out -->
-    <section class="bg-gradient-to-r from-indigo-600 to-blue-600 rounded-xl shadow-lg p-8 mb-8 text-white">
-      <h2 class="text-3xl font-bold mb-4">🛠️ Probiere es selbst aus!</h2>
-      <p class="text-lg mb-6">
-        Mit dem <strong>MCP Inspector</strong> kannst du direkt mit der API experimentieren und die verfügbaren Tools testen:
-      </p>
-      <a href="/mcp"
-         class="inline-block bg-white text-indigo-600 font-bold py-3 px-8 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
-        🔍 MCP Inspector öffnen
-      </a>
-      <p class="text-sm mt-4 opacity-90">
-        Der Inspector ist bereits mit der Server-URL vorkonfiguriert. Klick einfach auf "Connect" und probiere die Tools aus!
-      </p>
-    </section>
+    <div class="card bg-gradient-to-r from-primary to-secondary text-primary-content shadow-xl mb-6">
+      <div class="card-body items-center text-center">
+        <h2 class="card-title text-3xl mb-4">🛠️ Probiere es selbst aus!</h2>
+        <p class="text-lg mb-6">
+          Mit dem <strong>MCP Inspector</strong> kannst du direkt mit der API experimentieren und die verfügbaren Tools testen:
+        </p>
+        <div class="card-actions">
+          <a href="/mcp" class="btn btn-lg btn-neutral">
+            🔍 MCP Inspector öffnen
+          </a>
+        </div>
+        <p class="text-sm mt-4 opacity-90">
+          Der Inspector ist bereits mit der Server-URL vorkonfiguriert. Klick einfach auf "Connect" und probiere die Tools aus!
+        </p>
+      </div>
+    </div>
 
     <!-- Usage Guide -->
-    <section class="bg-white rounded-xl shadow-lg p-8 mb-8">
-      <h2 class="text-3xl font-bold text-gray-800 mb-4">📱 Wie benutze ich den Server mit Claude?</h2>
-      <div class="text-gray-600 space-y-6">
-        <div>
-          <h3 class="text-xl font-semibold text-gray-700 mb-2">Option 1: Claude Desktop App</h3>
-          <p class="mb-2">Füge diese Konfiguration in deine Claude Desktop Settings ein:</p>
-          <div class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto">
-            <pre class="text-sm"><code>{
-  "mcpServers": {
-    "nordstemmen": {
-      "url": "https://nordstemmen-mcp.levinkeller.de/mcp"
-    }
-  }
-}</code></pre>
-          </div>
+    <div class="card bg-base-100 shadow-xl mb-6">
+      <div class="card-body">
+        <h2 class="card-title text-3xl mb-4">📱 Wie benutze ich den Server mit Claude?</h2>
+        <div class="tabs tabs-boxed mb-4">
+          <a class="tab tab-active">Desktop App</a>
+          <a class="tab">Web Interface</a>
         </div>
 
-        <div>
-          <h3 class="text-xl font-semibold text-gray-700 mb-2">Option 2: Claude Web (claude.ai)</h3>
-          <p class="mb-2">
-            In der Claude Web-Oberfläche kannst du MCP-Server direkt in den Einstellungen verbinden.
-            Nutze diese URL:
-          </p>
-          <div class="bg-blue-50 border border-blue-200 p-3 rounded-lg font-mono text-sm">
-            https://nordstemmen-mcp.levinkeller.de/mcp
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Option 1: Claude Desktop App</h3>
+            <p class="mb-2">Füge diese Konfiguration in deine Claude Desktop Settings ein:</p>
+            <div class="mockup-code">
+              <pre data-prefix="1"><code>{</code></pre>
+              <pre data-prefix="2"><code>  "mcpServers": {</code></pre>
+              <pre data-prefix="3"><code>    "nordstemmen": {</code></pre>
+              <pre data-prefix="4"><code>      "url": "https://nordstemmen-mcp.levinkeller.de/mcp"</code></pre>
+              <pre data-prefix="5"><code>    }</code></pre>
+              <pre data-prefix="6"><code>  }</code></pre>
+              <pre data-prefix="7"><code>}</code></pre>
+            </div>
           </div>
-        </div>
 
-        <div class="bg-yellow-50 border-l-4 border-yellow-500 p-4 rounded">
-          <p class="text-sm">
-            <strong>💡 Tipp:</strong> Nach der Verbindung kannst du Claude einfach Fragen zu Nordstemmen stellen.
-            Claude wird automatisch die richtigen Tools verwenden, um dir zu antworten.
-          </p>
+          <div class="divider">ODER</div>
+
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Option 2: Claude Web (claude.ai)</h3>
+            <p class="mb-2">
+              In der Claude Web-Oberfläche kannst du MCP-Server direkt in den Einstellungen verbinden.
+              Nutze diese URL:
+            </p>
+            <div class="alert">
+              <span class="font-mono text-sm">https://nordstemmen-mcp.levinkeller.de/mcp</span>
+            </div>
+          </div>
+
+          <div class="alert alert-warning">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+            <span><strong>💡 Tipp:</strong> Nach der Verbindung kannst du Claude einfach Fragen zu Nordstemmen stellen. Claude wird automatisch die richtigen Tools verwenden, um dir zu antworten.</span>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
 
     <!-- Available Tools -->
-    <section class="bg-white rounded-xl shadow-lg p-8 mb-8">
-      <h2 class="text-3xl font-bold text-gray-800 mb-4">🧰 Verfügbare Tools</h2>
-      <div class="space-y-4">
-        <div class="border-l-4 border-blue-500 pl-4">
-          <h3 class="text-xl font-semibold text-gray-700 mb-2">🔍 search_documents</h3>
-          <p class="text-gray-600">
-            Semantische Suche durch alle Dokumentinhalte. Findet relevante Informationen auch bei ungenauen Suchbegriffen.
-          </p>
-        </div>
-        <div class="border-l-4 border-green-500 pl-4">
-          <h3 class="text-xl font-semibold text-gray-700 mb-2">📄 get_paper_by_reference</h3>
-          <p class="text-gray-600">
-            Ruft eine spezifische Drucksache direkt über ihre Nummer ab (z.B. "DS 101/2024").
-          </p>
-        </div>
-        <div class="border-l-4 border-purple-500 pl-4">
-          <h3 class="text-xl font-semibold text-gray-700 mb-2">📋 search_papers</h3>
-          <p class="text-gray-600">
-            Strukturierte Suche mit Filtern nach Typ, Zeitraum, Nummer oder Stichwörtern im Titel.
-          </p>
+    <div class="card bg-base-100 shadow-xl mb-6">
+      <div class="card-body">
+        <h2 class="card-title text-3xl mb-4">🧰 Verfügbare Tools</h2>
+        <div class="join join-vertical w-full">
+          <div class="collapse collapse-plus join-item border border-base-300">
+            <input type="radio" name="tools-accordion" checked />
+            <div class="collapse-title text-xl font-medium">
+              🔍 search_documents
+            </div>
+            <div class="collapse-content">
+              <p>Semantische Suche durch alle Dokumentinhalte. Findet relevante Informationen auch bei ungenauen Suchbegriffen.</p>
+              <div class="badge badge-primary mt-2">Semantische Suche</div>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus join-item border border-base-300">
+            <input type="radio" name="tools-accordion" />
+            <div class="collapse-title text-xl font-medium">
+              📄 get_paper_by_reference
+            </div>
+            <div class="collapse-content">
+              <p>Ruft eine spezifische Drucksache direkt über ihre Nummer ab (z.B. "DS 101/2024").</p>
+              <div class="badge badge-success mt-2">Direkter Zugriff</div>
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus join-item border border-base-300">
+            <input type="radio" name="tools-accordion" />
+            <div class="collapse-title text-xl font-medium">
+              📋 search_papers
+            </div>
+            <div class="collapse-content">
+              <p>Strukturierte Suche mit Filtern nach Typ, Zeitraum, Nummer oder Stichwörtern im Titel.</p>
+              <div class="badge badge-secondary mt-2">Erweiterte Filter</div>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
 
     <!-- Footer -->
-    <footer class="text-center text-gray-600 mt-12 pb-8">
-      <p class="mb-2">
-        Erstellt von <a href="https://levinkeller.de" target="_blank" class="text-blue-600 hover:underline">Levin Keller</a>
-      </p>
-      <p class="text-sm text-gray-500">
-        Powered by
-        <a href="https://modelcontextprotocol.io" target="_blank" class="text-gray-700 hover:underline">Model Context Protocol</a> •
-        <a href="https://qdrant.tech" target="_blank" class="text-gray-700 hover:underline">Qdrant</a> •
-        <a href="https://jina.ai" target="_blank" class="text-gray-700 hover:underline">Jina AI</a> •
-        <a href="https://pages.cloudflare.com" target="_blank" class="text-gray-700 hover:underline">Cloudflare Pages</a>
-      </p>
+    <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded-box">
+      <aside>
+        <p class="font-semibold">
+          Erstellt von <a href="https://levinkeller.de" target="_blank" class="link link-primary">Levin Keller</a>
+        </p>
+        <p>Powered by</p>
+        <div class="grid grid-flow-col gap-4">
+          <a href="https://modelcontextprotocol.io" target="_blank" class="link link-hover">Model Context Protocol</a>
+          <a href="https://qdrant.tech" target="_blank" class="link link-hover">Qdrant</a>
+          <a href="https://jina.ai" target="_blank" class="link link-hover">Jina AI</a>
+          <a href="https://pages.cloudflare.com" target="_blank" class="link link-hover">Cloudflare Pages</a>
+        </div>
+      </aside>
     </footer>
   </div>
 </body>
@@ -770,60 +824,59 @@ app.get('/', (c) => {
 // GET /mcp - MCP Inspector
 app.get('/mcp', (c) => {
   const serverUrl = 'https://nordstemmen-mcp.levinkeller.de/mcp';
-  const inspectorUrl = \`https://modelcontextprotocol.io/inspector?server=\${encodeURIComponent(serverUrl)}\`;
+  const inspectorUrl = 'https://modelcontextprotocol.io/inspector?server=' + encodeURIComponent(serverUrl);
 
-  const html = \`<!DOCTYPE html>
-<html lang="de">
+  const html = `<!DOCTYPE html>
+<html lang="de" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MCP Inspector - Nordstemmen MCP Server</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body, html {
       margin: 0;
       padding: 0;
-      height: 100%;
+      height: 100vh;
       overflow: hidden;
     }
   </style>
 </head>
-<body class="bg-gray-100">
-  <!-- Header Bar -->
-  <div class="bg-gradient-to-r from-indigo-600 to-blue-600 text-white px-6 py-4 shadow-lg">
-    <div class="flex items-center justify-between max-w-7xl mx-auto">
-      <div class="flex items-center space-x-4">
-        <a href="/" class="text-2xl font-bold hover:text-blue-100 transition-colors">
-          🏛️ Nordstemmen MCP Server
-        </a>
-        <span class="text-blue-100 text-sm">→ Inspector</span>
-      </div>
-      <a href="/" class="bg-white text-indigo-600 px-4 py-2 rounded-lg font-semibold hover:bg-blue-50 transition-colors text-sm">
-        ← Zurück zur Homepage
+<body>
+  <!-- Navbar -->
+  <div class="navbar bg-gradient-to-r from-primary to-secondary text-primary-content shadow-lg">
+    <div class="flex-1">
+      <a href="/" class="btn btn-ghost text-xl">
+        🏛️ Nordstemmen MCP Server
+      </a>
+      <div class="badge badge-outline ml-2">Inspector</div>
+    </div>
+    <div class="flex-none">
+      <a href="/" class="btn btn-neutral btn-sm">
+        ← Zurück
       </a>
     </div>
   </div>
 
-  <!-- Info Bar -->
-  <div class="bg-blue-50 border-b border-blue-200 px-6 py-3">
-    <div class="max-w-7xl mx-auto">
-      <p class="text-sm text-gray-700">
-        <strong>ℹ️ Anleitung:</strong>
-        Der MCP Inspector ist bereits mit der Server-URL vorkonfiguriert.
-        Klicke auf <strong>"Connect"</strong> um die Verbindung herzustellen, dann kannst du die verfügbaren Tools testen.
-      </p>
-    </div>
+  <!-- Alert Info -->
+  <div class="alert alert-info rounded-none">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+    <span>
+      <strong>Anleitung:</strong> Der MCP Inspector ist bereits mit der Server-URL vorkonfiguriert.
+      Klicke auf <strong>"Connect"</strong> um die Verbindung herzustellen, dann kannst du die verfügbaren Tools testen.
+    </span>
   </div>
 
   <!-- Inspector iframe -->
   <iframe
-    src="\${inspectorUrl}"
-    style="width: 100%; height: calc(100vh - 140px); border: none;"
+    src="${inspectorUrl}"
+    style="width: 100%; height: calc(100vh - 132px); border: none;"
     title="MCP Inspector"
   ></iframe>
 
 </body>
-</html>\`;
+</html>`;
 
   return c.html(html);
 });
