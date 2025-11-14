@@ -313,6 +313,108 @@ async function searchPapers(env, args) {
   }
 }
 
+async function getPdfContent(env, args) {
+  const { pdf_url } = args;
+
+  // Validate URL
+  if (!pdf_url || typeof pdf_url !== 'string') {
+    throw new Error('pdf_url is required and must be a string');
+  }
+
+  try {
+    // Parse URL to extract filename
+    const url = new URL(pdf_url);
+    const filename = url.pathname.split('/').pop() || 'document.pdf';
+
+    // Download PDF with timeout and size limit
+    const MAX_SIZE_MB = 30;
+    const MAX_SIZE_BYTES = MAX_SIZE_MB * 1024 * 1024;
+    const TIMEOUT_MS = 10000; // 10 seconds
+
+    // Create abort controller for timeout
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), TIMEOUT_MS);
+
+    try {
+      const response = await fetch(pdf_url, {
+        signal: controller.signal,
+        headers: {
+          'User-Agent': 'Nordstemmen-MCP-Server/1.0',
+        },
+      });
+
+      clearTimeout(timeoutId);
+
+      if (!response.ok) {
+        throw new Error(`PDF download failed: ${response.status} ${response.statusText}`);
+      }
+
+      // Check content type
+      const contentType = response.headers.get('content-type');
+      if (contentType && !contentType.includes('pdf')) {
+        throw new Error(`Invalid content type: ${contentType}. Expected PDF.`);
+      }
+
+      // Check content length if provided
+      const contentLength = response.headers.get('content-length');
+      if (contentLength && parseInt(contentLength) > MAX_SIZE_BYTES) {
+        throw new Error(`PDF too large: ${(parseInt(contentLength) / 1024 / 1024).toFixed(2)} MB (max: ${MAX_SIZE_MB} MB)`);
+      }
+
+      // Get PDF as ArrayBuffer
+      const arrayBuffer = await response.arrayBuffer();
+
+      // Check actual size
+      if (arrayBuffer.byteLength > MAX_SIZE_BYTES) {
+        throw new Error(`PDF too large: ${(arrayBuffer.byteLength / 1024 / 1024).toFixed(2)} MB (max: ${MAX_SIZE_MB} MB)`);
+      }
+
+      // Convert ArrayBuffer to Base64 using Web APIs (Cloudflare Workers compatible)
+      const uint8Array = new Uint8Array(arrayBuffer);
+      let binaryString = '';
+      for (let i = 0; i < uint8Array.length; i++) {
+        binaryString += String.fromCharCode(uint8Array[i]);
+      }
+      const contentBase64 = btoa(binaryString);
+
+      return {
+        text: `# PDF Content Extracted Successfully
+
+**Filename:** ${filename}
+**URL:** ${pdf_url}
+**Size:** ${(arrayBuffer.byteLength / 1024).toFixed(2)} KB (${(arrayBuffer.byteLength / 1024 / 1024).toFixed(2)} MB)
+
+✅ PDF successfully downloaded and encoded
+
+**Next Steps:**
+The PDF is now available as Base64-encoded content in the structured response.
+You can analyze the PDF content directly using the content_base64 field.
+
+**Base64 Content:** ${contentBase64.length} characters (ready for analysis)`,
+        structured: {
+          pdf_url,
+          filename,
+          size_bytes: arrayBuffer.byteLength,
+          size_kb: Math.round(arrayBuffer.byteLength / 1024),
+          size_mb: Math.round((arrayBuffer.byteLength / 1024 / 1024) * 100) / 100,
+          content_base64: contentBase64,
+        },
+      };
+    } catch (fetchError) {
+      clearTimeout(timeoutId);
+
+      // Handle abort (timeout)
+      if (fetchError.name === 'AbortError') {
+        throw new Error(`PDF download timeout after ${TIMEOUT_MS / 1000} seconds`);
+      }
+
+      throw fetchError;
+    }
+  } catch (error) {
+    throw new Error(`Failed to get PDF content: ${error.message}`);
+  }
+}
+
 // ============================================================================
 // Error Handling
 // ============================================================================
@@ -552,6 +654,54 @@ OParl ist ein offener Standard für parlamentarische Informationssysteme (https:
                 required: [],
               },
             },
+            {
+              name: 'get_pdf_content',
+              description: `Lädt ein PDF-Dokument herunter und liefert es als Base64-kodierten Inhalt.
+
+**WICHTIG:** Dieses Tool lädt die vollständige PDF-Datei herunter und kodiert sie als Base64-String, damit du das PDF direkt analysieren kannst.
+
+**Verwendung:**
+1. Nutze zuerst search_documents, get_paper_by_reference oder search_papers um relevante Dokumente zu finden
+2. Diese Tools liefern pdf_url für jedes Dokument
+3. Übergebe die pdf_url an get_pdf_content um das vollständige PDF zu laden
+4. Analysiere das PDF direkt aus dem content_base64 Feld
+
+**Rückgabe:**
+- **content_base64**: Vollständige PDF-Datei Base64-kodiert
+  - Du kannst dieses PDF direkt öffnen und analysieren
+  - Ideal für alle PDFs: Text, Bilder, Grafiken, Tabellen, Diagramme, gescannte Dokumente
+  - Vollständiger Zugriff auf alle PDF-Inhalte
+
+- **size_bytes / size_kb / size_mb**: Dateigröße in verschiedenen Einheiten
+- **filename**: Dateiname des PDFs
+- **pdf_url**: Original-URL
+
+**Limits:**
+- Maximale Dateigröße: 30 MB
+- Timeout: 10 Sekunden
+- Fehler bei ungültigen URLs, nicht erreichbaren Dokumenten oder zu großen Dateien
+
+**Typische Use Cases:**
+- Analyse von Haushaltsplänen und Finanzberichten (Tabellen, Zahlen extrahieren)
+- Auswertung von Bebauungsplänen (Karten, Grafiken analysieren)
+- Detaillierte Textanalyse von Beschlussvorlagen
+- Extraktion von Strukturdaten aus komplexen Dokumenten
+- Verarbeitung von gescannten Dokumenten (OCR)
+
+**Performance-Hinweis:**
+Bei großen PDFs (>10 MB) kann der Download mehrere Sekunden dauern.`,
+              inputSchema: {
+                type: 'object',
+                properties: {
+                  pdf_url: {
+                    type: 'string',
+                    description:
+                      'Die vollständige URL zum PDF-Dokument. Diese URL wird typischerweise von search_documents, get_paper_by_reference oder search_papers zurückgegeben. Beispiel: "https://nordstemmen.ratsinfomanagement.net/.../Dokument.pdf"',
+                  },
+                },
+                required: ['pdf_url'],
+              },
+            },
           ],
         };
         break;
@@ -593,6 +743,16 @@ OParl ist ein offener Standard für parlamentarische Informationssysteme (https:
             structuredContent: {
               papers: searchResult.structured,
             },
+          }));
+        } else if (toolName === 'get_pdf_content') {
+          result = await getPdfContent(env, toolArgs).then((pdfResult) => ({
+            content: [
+              {
+                type: 'text',
+                text: pdfResult.text,
+              },
+            ],
+            structuredContent: pdfResult.structured,
           }));
         } else {
           throw new Error(`Unknown tool: ${toolName}`);
