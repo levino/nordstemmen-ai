@@ -286,7 +286,7 @@ class LocalEmbeddingGenerator:
             embeddings = self.model.encode(
                 all_chunks_text,
                 task='retrieval.passage',
-                batch_size=128,  # Much larger batch size for better GPU usage
+                batch_size=32,  # Optimal batch size to avoid RAM overload
                 show_progress_bar=False,
                 normalize_embeddings=True,  # Enable normalization on GPU
                 convert_to_tensor=False  # Return as numpy for faster processing
@@ -315,14 +315,32 @@ class LocalEmbeddingGenerator:
             print(f"⚠ No PDF files found in {DOCUMENTS_DIR}")
             return
 
-        print(f"📁 Found {len(pdf_files)} PDF files\n")
-
-        # Process each PDF with progress bar
+        print(f"📁 Found {len(pdf_files)} PDF files")
+        
+        # First pass: identify files that need processing
+        print("🔍 Checking which files need processing...")
+        files_to_process = []
         skipped_count = 0
+        
+        for pdf_file in tqdm(pdf_files, desc="Scanning", unit="file"):
+            file_hash = self._compute_file_hash(pdf_file)
+            cached_chunks = self._load_embeddings_cache(pdf_file, file_hash)
+            if cached_chunks:
+                skipped_count += 1
+            else:
+                files_to_process.append(pdf_file)
+        
+        print(f"📊 Analysis complete: {len(files_to_process)} files to process, {skipped_count} already done\n")
+
+        if not files_to_process:
+            print("✅ All files are already processed!")
+            return
+
+        # Second pass: process only files that need it
         failed_count = 0
         processed_count = 0
 
-        with tqdm(pdf_files, desc="Processing", unit="file") as pbar:
+        with tqdm(files_to_process, desc="Processing", unit="file") as pbar:
             for pdf_file in pbar:
                 try:
                     # Update progress bar with current file
@@ -330,15 +348,13 @@ class LocalEmbeddingGenerator:
 
                     result = self.process_pdf(pdf_file)
 
-                    if result is True:
-                        skipped_count += 1
-                    elif result is False:
+                    if result is False:  # Successfully processed
                         processed_count += 1
-                    elif result is None:
+                    elif result is None:  # Failed
                         failed_count += 1
 
                     # Update display with current stats
-                    pbar.set_postfix_str(f"Processed: {processed_count} | Skipped: {skipped_count} | Failed: {failed_count} | {filename}")
+                    pbar.set_postfix_str(f"Processed: {processed_count} | Failed: {failed_count} | {filename}")
                 except Exception as e:
                     logger.error(f"Error: {pdf_file.name}: {e}")
                     failed_count += 1
