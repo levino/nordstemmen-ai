@@ -87,6 +87,10 @@ class EmbeddingGenerator:
 
         # Ensure collection exists
         self._ensure_collection()
+
+        # Load all processed files into memory cache (performance optimization)
+        self.processed_files_cache = self._load_processed_files_cache()
+        print(f"✓ Loaded {len(self.processed_files_cache)} already-processed files into cache")
         print()
 
     def _load_folder_metadata(self, folder_path: Path) -> Dict:
@@ -133,6 +137,46 @@ class EmbeddingGenerator:
         else:
             logger.info(f"Collection exists: {QDRANT_COLLECTION}")
 
+    def _load_processed_files_cache(self) -> set:
+        """Load all processed (filename, hash) tuples from Qdrant into memory.
+
+        This is a performance optimization to avoid N individual Qdrant calls
+        for checking if files are already processed.
+        """
+        print("🔄 Loading processed files cache from Qdrant...")
+        processed = set()
+
+        try:
+            offset = None
+            while True:
+                # Scroll through all points, only fetch filename and file_hash
+                result = self.client.scroll(
+                    collection_name=QDRANT_COLLECTION,
+                    limit=1000,
+                    offset=offset,
+                    with_payload=['filename', 'file_hash'],
+                    with_vectors=False
+                )
+
+                points, next_offset = result
+
+                for point in points:
+                    payload = point.payload
+                    filename = payload.get('filename')
+                    file_hash = payload.get('file_hash')
+                    if filename and file_hash:
+                        processed.add((filename, file_hash))
+
+                # Check if there are more results
+                if next_offset is None:
+                    break
+                offset = next_offset
+
+        except Exception as e:
+            logger.warning(f"Error loading processed files cache: {e}")
+
+        return processed
+
     def _compute_file_hash(self, filepath: Path) -> str:
         """Compute MD5 hash of file."""
         md5 = hashlib.md5()
@@ -142,28 +186,8 @@ class EmbeddingGenerator:
         return md5.hexdigest()
 
     def _is_already_processed(self, filename: str, file_hash: str) -> bool:
-        """Check if file with this hash is already in Qdrant."""
-        try:
-            result = self.client.scroll(
-                collection_name=QDRANT_COLLECTION,
-                scroll_filter=Filter(
-                    must=[
-                        FieldCondition(
-                            key="filename",
-                            match=MatchValue(value=filename)
-                        ),
-                        FieldCondition(
-                            key="file_hash",
-                            match=MatchValue(value=file_hash)
-                        )
-                    ]
-                ),
-                limit=1
-            )
-            return len(result[0]) > 0
-        except Exception as e:
-            logger.warning(f"Error checking if file processed: {e}")
-            return False
+        """Check if file with this hash is already in Qdrant (using in-memory cache)."""
+        return (filename, file_hash) in self.processed_files_cache
 
     def _delete_old_chunks(self, filename: str):
         """Delete old chunks for a file (when file changed)."""
@@ -382,6 +406,8 @@ class EmbeddingGenerator:
                     collection_name=QDRANT_COLLECTION,
                     points=all_points
                 )
+                # Update cache with newly processed file
+                self.processed_files_cache.add((relative_path, file_hash))
 
             return False  # Processed from cache
 
@@ -445,6 +471,8 @@ class EmbeddingGenerator:
                 collection_name=QDRANT_COLLECTION,
                 points=all_points
             )
+            # Update cache with newly processed file
+            self.processed_files_cache.add((relative_path, file_hash))
 
         return False  # Processed
 
