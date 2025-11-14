@@ -2,8 +2,8 @@
 """
 Qdrant Uploader for Nordstemmen Transparent
 
-Uploads pre-generated embeddings from embeddings.json files to Qdrant.
-Uses hash-based change detection to avoid reprocessing unchanged files.
+Uploads pre-generated embeddings from *.embeddings.json files to Qdrant.
+Uses metadata.json as source of truth for file information.
 """
 
 import os
@@ -12,7 +12,7 @@ import hashlib
 import logging
 import uuid
 from pathlib import Path
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Tuple
 from dotenv import load_dotenv
 
 from qdrant_client import QdrantClient
@@ -35,15 +35,13 @@ QDRANT_API_KEY = os.getenv('QDRANT_API_KEY')
 QDRANT_PORT = int(os.getenv('QDRANT_PORT', 443))
 QDRANT_COLLECTION = os.getenv('QDRANT_COLLECTION', 'nordstemmen')
 DOCUMENTS_DIR = Path(__file__).parent.parent / 'documents'
-PAPERS_DIR = DOCUMENTS_DIR / 'papers'
-MEETINGS_DIR = DOCUMENTS_DIR / 'meetings'
 
 # Update mode: If true, update metadata for already processed files
 UPDATE_QDRANT_METADATA = os.getenv('UPDATE_QDRANT_METADATA', 'false').lower() == 'true'
 
 
 class QdrantUploader:
-    """Uploads pre-generated embeddings to Qdrant."""
+    """Uploads pre-generated embeddings to Qdrant using metadata-driven approach."""
 
     def __init__(self):
         """Initialize Qdrant client."""
@@ -58,14 +56,14 @@ class QdrantUploader:
             url=QDRANT_URL,
             api_key=QDRANT_API_KEY,
             port=QDRANT_PORT,
-            timeout=30,  # Increase timeout for remote server
+            timeout=30,
         )
         print(f"✓ Connected to Qdrant")
 
         # Ensure collection exists
         self._ensure_collection()
 
-        # Load all processed files into memory cache (performance optimization)
+        # Load all processed files into memory cache
         self.processed_files_cache = self._load_processed_files_cache()
         print(f"✓ Loaded {len(self.processed_files_cache)} already-processed files into cache")
 
@@ -74,43 +72,13 @@ class QdrantUploader:
 
         print()
 
-    def _load_folder_metadata(self, folder_path: Path) -> Dict:
-        """Load metadata.json from a paper/meeting folder."""
-        metadata_file = folder_path / 'metadata.json'
-        if not metadata_file.exists():
-            return {}
-
-        try:
-            with open(metadata_file, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except Exception as e:
-            logger.warning(f"Error loading metadata from {metadata_file}: {e}")
-            return {}
-
-    def _extract_filename_from_url(self, url: str) -> str:
-        """Extract filename from accessUrl or downloadUrl."""
-        try:
-            from urllib.parse import unquote
-            parts = url.split('/')
-            last = parts[-1]
-            # Decode URL-encoded characters
-            filename = unquote(last)
-            # Sanitize filename (remove invalid chars)
-            filename = filename.replace('/', '_').replace('\\', '_').replace(':', '_')
-            return filename
-        except Exception as e:
-            logger.warning(f"Error extracting filename from URL {url}: {e}")
-            return ''
-
     def _ensure_collection(self):
         """Create Qdrant collection if it doesn't exist."""
         collections = [c.name for c in self.client.get_collections().collections]
 
         if QDRANT_COLLECTION not in collections:
             logger.info(f"Creating collection: {QDRANT_COLLECTION}")
-            # We need to determine vector size from first embeddings file
-            # For now, use default Jina v3 size (1024)
-            vector_size = 1024
+            vector_size = 1024  # Jina v3 default
             self.client.create_collection(
                 collection_name=QDRANT_COLLECTION,
                 vectors_config=VectorParams(
@@ -122,18 +90,13 @@ class QdrantUploader:
             logger.info(f"Collection exists: {QDRANT_COLLECTION}")
 
     def _load_processed_files_cache(self) -> set:
-        """Load all processed (filename, hash) tuples from Qdrant into memory.
-
-        This is a performance optimization to avoid N individual Qdrant calls
-        for checking if files are already processed.
-        """
+        """Load all processed (filename, hash) tuples from Qdrant into memory."""
         print("🔄 Loading processed files cache from Qdrant...")
         processed = set()
 
         try:
             offset = None
             while True:
-                # Scroll through all points, only fetch filename and file_hash
                 result = self.client.scroll(
                     collection_name=QDRANT_COLLECTION,
                     limit=1000,
@@ -151,7 +114,6 @@ class QdrantUploader:
                     if filename and file_hash:
                         processed.add((filename, file_hash))
 
-                # Check if there are more results
                 if next_offset is None:
                     break
                 offset = next_offset
@@ -170,7 +132,7 @@ class QdrantUploader:
         return md5.hexdigest()
 
     def _is_already_processed(self, filename: str, file_hash: str) -> bool:
-        """Check if file with this hash is already in Qdrant (using in-memory cache)."""
+        """Check if file with this hash is already in Qdrant."""
         return (filename, file_hash) in self.processed_files_cache
 
     def _delete_old_chunks(self, filename: str):
@@ -191,104 +153,164 @@ class QdrantUploader:
         except Exception as e:
             logger.warning(f"Error deleting old chunks: {e}")
 
-    def _load_embeddings_file(self, embeddings_file: Path) -> Optional[Dict]:
-        """Load embeddings.json file."""
-        if not embeddings_file.exists():
-            return None
-
+    def _extract_filename_from_url(self, url: str) -> str:
+        """Extract filename from accessUrl or downloadUrl."""
         try:
-            with open(embeddings_file, 'r', encoding='utf-8') as f:
-                return json.load(f)
+            from urllib.parse import unquote
+            parts = url.split('/')
+            last = parts[-1]
+            filename = unquote(last)
+            filename = filename.replace('/', '_').replace('\\', '_').replace(':', '_')
+            return filename
         except Exception as e:
-            logger.warning(f"Error loading embeddings from {embeddings_file}: {e}")
-            return None
+            logger.warning(f"Error extracting filename from URL {url}: {e}")
+            return ''
 
-    def upload_from_embeddings_file(self, embeddings_file: Path) -> Optional[bool]:
-        """Upload embeddings from an embeddings.json file to Qdrant.
+    def _get_file_objects_from_paper(self, metadata: Dict) -> List[Dict]:
+        """Extract file objects from paper metadata."""
+        files = []
+
+        # mainFile
+        main_file = metadata.get('mainFile')
+        if isinstance(main_file, dict) and main_file.get('accessUrl'):
+            files.append({
+                'file_type': 'mainFile',
+                'file_id': main_file.get('id', ''),
+                'access_url': main_file.get('accessUrl', ''),
+                'download_url': main_file.get('downloadUrl', ''),
+                'name': main_file.get('name', ''),
+            })
+
+        # auxiliaryFile
+        aux_files = metadata.get('auxiliaryFile', [])
+        if isinstance(aux_files, list):
+            for aux in aux_files:
+                if isinstance(aux, dict) and aux.get('accessUrl'):
+                    files.append({
+                        'file_type': 'auxiliaryFile',
+                        'file_id': aux.get('id', ''),
+                        'access_url': aux.get('accessUrl', ''),
+                        'download_url': aux.get('downloadUrl', ''),
+                        'name': aux.get('name', ''),
+                    })
+
+        return files
+
+    def _get_file_objects_from_meeting(self, metadata: Dict) -> List[Dict]:
+        """Extract file objects from meeting metadata."""
+        files = []
+
+        # invitation
+        invitation = metadata.get('invitation')
+        if isinstance(invitation, dict) and invitation.get('accessUrl'):
+            files.append({
+                'file_type': 'invitation',
+                'file_id': invitation.get('id', ''),
+                'access_url': invitation.get('accessUrl', ''),
+                'download_url': invitation.get('downloadUrl', ''),
+                'name': invitation.get('name', ''),
+            })
+
+        # resultsProtocol
+        results_protocol = metadata.get('resultsProtocol')
+        if isinstance(results_protocol, dict) and results_protocol.get('accessUrl'):
+            files.append({
+                'file_type': 'resultsProtocol',
+                'file_id': results_protocol.get('id', ''),
+                'access_url': results_protocol.get('accessUrl', ''),
+                'download_url': results_protocol.get('downloadUrl', ''),
+                'name': results_protocol.get('name', ''),
+            })
+
+        # auxiliaryFile from agendaItems
+        agenda_items = metadata.get('agendaItem', [])
+        if isinstance(agenda_items, list):
+            for item in agenda_items:
+                if not isinstance(item, dict):
+                    continue
+                aux_files = item.get('auxiliaryFile', [])
+                if isinstance(aux_files, list):
+                    for aux in aux_files:
+                        if isinstance(aux, dict) and aux.get('accessUrl'):
+                            files.append({
+                                'file_type': 'auxiliaryFile',
+                                'file_id': aux.get('id', ''),
+                                'access_url': aux.get('accessUrl', ''),
+                                'download_url': aux.get('downloadUrl', ''),
+                                'name': aux.get('name', ''),
+                            })
+
+        return files
+
+    def _upload_file_embeddings(
+        self,
+        folder_path: Path,
+        file_obj: Dict,
+        base_metadata: Dict
+    ) -> Optional[bool]:
+        """Upload embeddings for a single file.
+
         Returns:
             True if skipped (already processed)
             False if uploaded successfully
-            None if failed (no embeddings found)
+            None if failed (no embeddings or error)
         """
-        folder_path = embeddings_file.parent
+        # Extract filename from URL
+        access_url = file_obj['access_url']
+        pdf_filename = self._extract_filename_from_url(access_url)
+        if not pdf_filename:
+            logger.warning(f"Could not extract filename from URL: {access_url}")
+            return None
 
-        # Load embeddings data
-        embeddings_data = self._load_embeddings_file(embeddings_file)
-        if not embeddings_data:
-            logger.warning(f"No embeddings data in {embeddings_file}")
+        # Find embeddings file
+        pdf_stem = Path(pdf_filename).stem
+        embeddings_file = folder_path / f"{pdf_stem}.embeddings.json"
+
+        if not embeddings_file.exists():
+            # No embeddings for this file yet - not an error, just skip
+            return None
+
+        # Load embeddings
+        try:
+            with open(embeddings_file, 'r', encoding='utf-8') as f:
+                embeddings_data = json.load(f)
+        except Exception as e:
+            logger.warning(f"Error loading {embeddings_file}: {e}")
             return None
 
         file_hash = embeddings_data.get('file_hash')
-        pdf_filename = embeddings_data.get('filename')
         chunks = embeddings_data.get('chunks', [])
 
-        if not file_hash or not pdf_filename or not chunks:
+        if not file_hash or not chunks:
             logger.warning(f"Invalid embeddings data in {embeddings_file}")
             return None
 
-        # Find the PDF file
+        # Check if PDF exists
         pdf_filepath = folder_path / pdf_filename
         if not pdf_filepath.exists():
-            logger.warning(f"PDF file not found: {pdf_filepath}")
+            logger.warning(f"PDF not found: {pdf_filepath}")
             return None
 
         relative_path = str(pdf_filepath.relative_to(DOCUMENTS_DIR))
 
-        # Check if already processed in Qdrant
+        # Check if already processed
         already_processed = self._is_already_processed(relative_path, file_hash)
 
         if already_processed and not UPDATE_QDRANT_METADATA:
             return True  # Skipped
 
-        # Delete old chunks only if file changed (not when just updating metadata)
+        # Delete old chunks if file changed
         if not already_processed:
             self._delete_old_chunks(relative_path)
 
-        # Load folder metadata
-        folder_metadata = self._load_folder_metadata(folder_path)
-
-        # Determine entity type and extract metadata
-        entity_type = 'paper' if '/papers/' in str(pdf_filepath) else 'meeting' if '/meetings/' in str(pdf_filepath) else 'unknown'
-
-        base_metadata = {
-            'source': 'oparl',
-            'entity_type': entity_type,
-            'entity_id': folder_metadata.get('id', ''),
-            'entity_name': folder_metadata.get('name', ''),
-            'date': folder_metadata.get('date', folder_metadata.get('start', '')),
+        # Build metadata for this file
+        file_metadata = {
+            **base_metadata,
+            'file_type': file_obj['file_type'],
+            'file_id': file_obj['file_id'],
+            'pdf_access_url': access_url,
+            'pdf_download_url': file_obj.get('download_url', ''),
         }
-
-        # Add paper-specific metadata
-        if entity_type == 'paper':
-            base_metadata.update({
-                'paper_reference': folder_metadata.get('reference', ''),
-                'paper_type': folder_metadata.get('paperType', ''),
-            })
-
-            # Build filename to accessUrl mapping for all files (main + auxiliary)
-            file_url_map = {}
-
-            # Add mainFile
-            main_file = folder_metadata.get('mainFile', {})
-            if isinstance(main_file, dict) and main_file.get('accessUrl'):
-                main_filename = self._extract_filename_from_url(main_file['accessUrl'])
-                if main_filename:
-                    file_url_map[main_filename] = main_file['accessUrl']
-
-            # Add auxiliaryFiles
-            aux_files = folder_metadata.get('auxiliaryFile', [])
-            if isinstance(aux_files, list):
-                for aux in aux_files:
-                    if isinstance(aux, dict) and aux.get('accessUrl'):
-                        aux_filename = self._extract_filename_from_url(aux['accessUrl'])
-                        if aux_filename:
-                            file_url_map[aux_filename] = aux['accessUrl']
-
-            # Find accessUrl for current PDF file
-            current_filename = pdf_filepath.name
-            pdf_access_url = file_url_map.get(current_filename, '')
-            if pdf_access_url:
-                base_metadata['pdf_access_url'] = pdf_access_url
 
         # Create points from chunks
         all_points = []
@@ -305,7 +327,7 @@ class QdrantUploader:
                     'page': chunk_data['page'],
                     'chunk_index': chunk_data['chunk_index'],
                     'text': chunk_data['text'],
-                    **base_metadata
+                    **file_metadata
                 }
             )
             all_points.append(point)
@@ -316,51 +338,107 @@ class QdrantUploader:
                 collection_name=QDRANT_COLLECTION,
                 points=all_points
             )
-            # Update cache with newly processed file
             self.processed_files_cache.add((relative_path, file_hash))
 
         return False  # Processed
 
-    def upload_all(self):
-        """Upload all embeddings from *.embeddings.json files."""
-        embeddings_files = sorted(DOCUMENTS_DIR.rglob('*.embeddings.json'))
+    def _process_folder(self, metadata_file: Path) -> Tuple[int, int, int]:
+        """Process all files in a folder based on its metadata.json.
 
-        if not embeddings_files:
-            print(f"⚠ No *.embeddings.json files found in {DOCUMENTS_DIR}")
+        Returns:
+            (uploaded_count, skipped_count, failed_count)
+        """
+        folder_path = metadata_file.parent
+
+        # Load metadata
+        try:
+            with open(metadata_file, 'r', encoding='utf-8') as f:
+                metadata = json.load(f)
+        except Exception as e:
+            logger.warning(f"Error loading {metadata_file}: {e}")
+            return (0, 0, 1)
+
+        # Determine entity type
+        entity_type = 'paper' if '/papers/' in str(folder_path) else 'meeting' if '/meetings/' in str(folder_path) else 'unknown'
+
+        # Build base metadata
+        base_metadata = {
+            'source': 'oparl',
+            'entity_type': entity_type,
+            'entity_id': metadata.get('id', ''),
+            'entity_name': metadata.get('name', ''),
+            'date': metadata.get('date', metadata.get('start', '')),
+        }
+
+        # Add paper-specific metadata
+        if entity_type == 'paper':
+            base_metadata.update({
+                'paper_reference': metadata.get('reference', ''),
+                'paper_type': metadata.get('paperType', ''),
+            })
+
+        # Get file objects based on entity type
+        if entity_type == 'paper':
+            file_objects = self._get_file_objects_from_paper(metadata)
+        elif entity_type == 'meeting':
+            file_objects = self._get_file_objects_from_meeting(metadata)
+        else:
+            logger.warning(f"Unknown entity type for {folder_path}")
+            return (0, 0, 1)
+
+        # Process each file
+        uploaded = 0
+        skipped = 0
+        failed = 0
+
+        for file_obj in file_objects:
+            result = self._upload_file_embeddings(folder_path, file_obj, base_metadata)
+
+            if result is True:
+                skipped += 1
+            elif result is False:
+                uploaded += 1
+            elif result is None:
+                failed += 1
+
+        return (uploaded, skipped, failed)
+
+    def upload_all(self):
+        """Upload all embeddings using metadata.json as source of truth."""
+        # Find all metadata.json files
+        metadata_files = sorted(DOCUMENTS_DIR.rglob('metadata.json'))
+
+        if not metadata_files:
+            print(f"⚠ No metadata.json files found in {DOCUMENTS_DIR}")
             return
 
-        print(f"📁 Found {len(embeddings_files)} *.embeddings.json files\n")
+        print(f"📁 Found {len(metadata_files)} folders with metadata.json\n")
 
-        # Upload each embeddings file with progress bar
-        skipped_count = 0
-        failed_count = 0
-        uploaded_count = 0
+        # Process each folder
+        total_uploaded = 0
+        total_skipped = 0
+        total_failed = 0
 
-        with tqdm(embeddings_files, desc="Uploading", unit="file") as pbar:
-            for embeddings_file in pbar:
+        with tqdm(metadata_files, desc="Processing", unit="folder") as pbar:
+            for metadata_file in pbar:
                 try:
-                    # Update progress bar with current folder
-                    folder_name = embeddings_file.parent.name[:50] + '...' if len(embeddings_file.parent.name) > 50 else embeddings_file.parent.name
+                    uploaded, skipped, failed = self._process_folder(metadata_file)
 
-                    result = self.upload_from_embeddings_file(embeddings_file)
+                    total_uploaded += uploaded
+                    total_skipped += skipped
+                    total_failed += failed
 
-                    if result is True:
-                        skipped_count += 1
-                    elif result is False:
-                        uploaded_count += 1
-                    elif result is None:
-                        failed_count += 1
+                    # Update display with compact format
+                    pbar.set_postfix(up=total_uploaded, skip=total_skipped, fail=total_failed)
 
-                    # Update display with current stats
-                    pbar.set_postfix_str(f"Uploaded: {uploaded_count} | Skipped: {skipped_count} | Failed: {failed_count} | {folder_name}")
                 except Exception as e:
-                    logger.error(f"Error: {embeddings_file}: {e}")
-                    failed_count += 1
+                    logger.error(f"Error processing {metadata_file}: {e}")
+                    total_failed += 1
 
         print(f"\n✅ Upload complete!")
-        print(f"   Uploaded: {uploaded_count}")
-        print(f"   Skipped: {skipped_count} (already in Qdrant)")
-        print(f"   Failed: {failed_count} (invalid data)")
+        print(f"   Uploaded: {total_uploaded}")
+        print(f"   Skipped: {total_skipped} (already in Qdrant)")
+        print(f"   Failed: {total_failed} (no embeddings or errors)")
 
 
 def main():

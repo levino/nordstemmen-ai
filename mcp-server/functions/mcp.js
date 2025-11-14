@@ -396,17 +396,17 @@ Für jedes Dokument werden ZWEI Links zurückgegeben:
 
 1. **PDF-Link (pdf_url)**: Direkter Link zum PDF-Dokument
    - Beispiel: https://nordstemmen.ratsinfomanagement.net/.../Beschlussvorlage_DS_12-2024.pdf
-   - **Zeige diesen Link dem Nutzer, wenn er das Dokument lesen möchte**
-   - Für Menschen lesbar und direkt nutzbar
+   - **Nutze diesen Link um das PDF selbst zu laden und zu lesen**
+   - **Zeige diesen Link auch dem Nutzer als Quellenangabe**
+   - Öffnet im Browser-PDF-Viewer (keine Download-Aufforderung)
 
-2. **OParl-API-Link (oparl_id)**: Link zum Paper-Objekt in der OParl-API
+2. **OParl-API-Link (oparl_id)**: Link zum Paper/Meeting-Objekt in der OParl-API
    - Beispiel: https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5475
-   - **Dieser Link ist für die KI gedacht, nicht für Menschen!**
-   - Nutze ihn, um strukturierte Daten abzurufen: Metadaten, Beratungsverläufe, Abstimmungen, verwandte Dokumente, zugehörige Meetings
-   - Liefert maschinenlesbares JSON
-   - Zeige diesen Link nur, wenn der Nutzer explizit nach API-Links oder Rohdaten fragt
+   - **Nutze ihn NUR um verwandte Dokumente zu finden**: weitere Anhänge bei Papers, weitere Dokumente bei Meetings
+   - Liefert maschinenlesbares JSON mit Metadaten und Links zu anderen Dokumenten
+   - Zeige diesen Link nur, wenn der Nutzer explizit nach API-Links fragt
 
-**Standard-Empfehlung:** Zeige dem Nutzer den PDF-Link. Nutze den OParl-API-Link selbst zum Abrufen weiterer Informationen.
+**Workflow:** Für jedes relevante Suchergebnis: (1) Lade und lies das PDF über pdf_url, (2) Falls du weitere Anhänge/Dokumente brauchst, nutze oparl_id um diese zu finden, (3) Zeige dem Nutzer den pdf_url als Quellenangabe.
 
 **Über OParl:**
 OParl ist ein offener Standard für parlamentarische Informationssysteme (https://oparl.org).
@@ -460,16 +460,16 @@ Die Drucksachennummer muss das Jahr enthalten (z.B. "101/2012"). Reine Nummern o
 Das Tool liefert ZWEI Links:
 
 1. **PDF-Link (pdf_url)**: Direkter Link zum PDF-Hauptdokument
-   - **Zeige diesen Link dem Nutzer, wenn er das Dokument lesen möchte**
-   - Für Menschen lesbar und direkt nutzbar
+   - **Nutze diesen Link um das PDF selbst zu laden und zu lesen**
+   - **Zeige diesen Link auch dem Nutzer als Quellenangabe**
+   - Öffnet im Browser-PDF-Viewer (keine Download-Aufforderung)
 
 2. **OParl-ID (oparl_id)**: Link zum Paper-Objekt in der OParl-API
-   - **Dieser Link ist für die KI gedacht, nicht für Menschen!**
-   - Nutze ihn, um strukturierte Daten abzurufen: Metadaten, Beratungsverläufe, Abstimmungen, verwandte Dokumente, zugehörige Meetings
-   - Liefert maschinenlesbares JSON
-   - Zeige diesen Link nur, wenn der Nutzer explizit nach API-Links oder Rohdaten fragt
+   - **Nutze ihn NUR um verwandte Dokumente zu finden**: weitere Anhänge, Beratungsverläufe, zugehörige Meetings
+   - Liefert maschinenlesbares JSON mit Metadaten und Links zu anderen Dokumenten
+   - Zeige diesen Link nur, wenn der Nutzer explizit nach API-Links fragt
 
-**Standard-Empfehlung:** Zeige dem Nutzer den PDF-Link. Nutze den OParl-API-Link selbst zum Abrufen weiterer Informationen.
+**Workflow:** (1) Lade und lies das PDF über pdf_url, (2) Falls du weitere Anhänge/Dokumente brauchst, nutze oparl_id um diese zu finden, (3) Zeige dem Nutzer den pdf_url als Quellenangabe.
 
 **Über OParl:**
 OParl ist ein offener Standard für parlamentarische Informationssysteme (https://oparl.org).`,
@@ -504,16 +504,16 @@ Ideal für:
 Für jede Drucksache werden ZWEI Links zurückgegeben:
 
 1. **PDF-Link (pdf_url)**: Direkter Link zum PDF-Hauptdokument
-   - **Zeige diesen Link dem Nutzer, wenn er das Dokument lesen möchte**
-   - Für Menschen lesbar und direkt nutzbar
+   - **Nutze diesen Link um das PDF selbst zu laden und zu lesen**
+   - **Zeige diesen Link auch dem Nutzer als Quellenangabe**
+   - Öffnet im Browser-PDF-Viewer (keine Download-Aufforderung)
 
 2. **OParl-ID (oparl_id)**: Link zum Paper-Objekt in der OParl-API
-   - **Dieser Link ist für die KI gedacht, nicht für Menschen!**
-   - Nutze ihn, um strukturierte Daten abzurufen: Metadaten, Beratungsverläufe, Abstimmungen, verwandte Dokumente, zugehörige Meetings
-   - Liefert maschinenlesbares JSON
-   - Zeige diesen Link nur, wenn der Nutzer explizit nach API-Links oder Rohdaten fragt
+   - **Nutze ihn NUR um verwandte Dokumente zu finden**: weitere Anhänge, Beratungsverläufe, zugehörige Meetings
+   - Liefert maschinenlesbares JSON mit Metadaten und Links zu anderen Dokumenten
+   - Zeige diesen Link nur, wenn der Nutzer explizit nach API-Links fragt
 
-**Standard-Empfehlung:** Zeige dem Nutzer den PDF-Link. Nutze den OParl-API-Link selbst zum Abrufen weiterer Informationen.
+**Workflow:** (1) Lade und lies das PDF über pdf_url, (2) Falls du weitere Anhänge/Dokumente brauchst, nutze oparl_id um diese zu finden, (3) Zeige dem Nutzer den pdf_url als Quellenangabe.
 
 **Über OParl:**
 OParl ist ein offener Standard für parlamentarische Informationssysteme (https://oparl.org).`,
