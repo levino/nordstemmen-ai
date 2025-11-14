@@ -12,7 +12,7 @@ sentence-transformers>=3.1.0
 tqdm==4.66.1
 langchain-text-splitters==0.3.2
 
-# Optional: OCR support (uncomment if needed)
-# pytesseract==0.3.10
-# pillow==10.1.0
-# pdf2image==1.16.3
+# OCR support
+pytesseract==0.3.10
+pillow==10.1.0
+pdf2image==1.16.3

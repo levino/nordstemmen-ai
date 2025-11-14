@@ -16,16 +16,10 @@ from typing import List, Dict, Optional
 from dotenv import load_dotenv
 
 import pdfplumber
+import pytesseract
+from pdf2image import convert_from_path
+from PIL import Image
 from sentence_transformers import SentenceTransformer
-
-# Optional OCR dependencies (only needed for scanned PDFs)
-try:
-    import pytesseract
-    from pdf2image import convert_from_path
-    from PIL import Image
-    OCR_AVAILABLE = True
-except ImportError:
-    OCR_AVAILABLE = False
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams, PointStruct, Filter, FieldCondition, MatchValue
 from tqdm import tqdm
@@ -222,10 +216,6 @@ class EmbeddingGenerator:
 
     def _extract_text_with_ocr(self, filepath: Path) -> List[tuple[int, str]]:
         """Extract text from PDF using OCR (fallback for scanned documents)."""
-        if not OCR_AVAILABLE:
-            logger.warning(f"OCR not available for {filepath.name}. Install: pip install pytesseract pillow pdf2image")
-            return []
-
         try:
             # Convert PDF pages to images
             images = convert_from_path(filepath, dpi=300)
