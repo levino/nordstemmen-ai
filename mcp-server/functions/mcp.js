@@ -1,11 +1,15 @@
-import { Hono } from 'hono';
-import { cors } from 'hono/cors';
 import { QdrantClient } from '@qdrant/js-client-rest';
 
-const app = new Hono();
+// ============================================================================
+// CORS Headers
+// ============================================================================
 
-// CORS middleware
-app.use('/*', cors());
+const corsHeaders = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+  'Access-Control-Allow-Headers': '*',
+  'Access-Control-Max-Age': '86400',
+};
 
 // ============================================================================
 // Embedding Service
@@ -539,50 +543,59 @@ und Beschlüsse einsehbar.`,
 }
 
 // ============================================================================
-// Routes
+// Cloudflare Pages Functions Handlers
 // ============================================================================
 
-// GET / - Server info
-app.get('/', (c) => {
-  return c.json({
-    name: 'nordstemmen-mcp-server',
-    version: '1.0.0',
-    protocol: 'mcp/2024-11-05',
-    description: 'MCP Server for Nordstemmen documents via Qdrant',
+// Handle OPTIONS for CORS preflight
+export async function onRequestOptions() {
+  return new Response(null, {
+    headers: corsHeaders,
   });
-});
+}
 
-// POST /mcp - MCP endpoint
-app.post('/mcp', async (c) => {
+// Handle POST /mcp
+export async function onRequestPost(context) {
+  const { request, env } = context;
+
   try {
-    return c.req.json().then((mcpRequest) => {
-      const env = c.env;
+    const mcpRequest = await request.json();
 
-      // Handle batch requests (array of JSON-RPC messages)
-      if (Array.isArray(mcpRequest)) {
-        return Promise.all(mcpRequest.map((req) => handleMCPRequest(req, env))).then((responses) => c.json(responses));
-      }
+    // Handle batch requests (array of JSON-RPC messages)
+    if (Array.isArray(mcpRequest)) {
+      const responses = await Promise.all(mcpRequest.map((req) => handleMCPRequest(req, env)));
+      return new Response(JSON.stringify(responses), {
+        headers: {
+          ...corsHeaders,
+          'Content-Type': 'application/json',
+        },
+      });
+    }
 
-      // Handle single request
-      return handleMCPRequest(mcpRequest, env).then((mcpResponse) => c.json(mcpResponse));
+    // Handle single request
+    const mcpResponse = await handleMCPRequest(mcpRequest, env);
+    return new Response(JSON.stringify(mcpResponse), {
+      headers: {
+        ...corsHeaders,
+        'Content-Type': 'application/json',
+      },
     });
   } catch (error) {
-    return c.json(
-      {
+    return new Response(
+      JSON.stringify({
         jsonrpc: '2.0',
         id: null,
         error: {
           code: -32700,
           message: 'Parse error',
         },
+      }),
+      {
+        status: 400,
+        headers: {
+          ...corsHeaders,
+          'Content-Type': 'application/json',
+        },
       },
-      400,
     );
   }
-});
-
-// ============================================================================
-// Export
-// ============================================================================
-
-export default app;
+}
