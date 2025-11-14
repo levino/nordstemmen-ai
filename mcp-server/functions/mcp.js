@@ -1,5 +1,4 @@
 import { QdrantClient } from '@qdrant/js-client-rest';
-import pdfParse from 'pdf-parse';
 
 // ============================================================================
 // CORS Headers
@@ -370,50 +369,35 @@ async function getPdfContent(env, args) {
         throw new Error(`PDF too large: ${(arrayBuffer.byteLength / 1024 / 1024).toFixed(2)} MB (max: ${MAX_SIZE_MB} MB)`);
       }
 
-      // Convert to Buffer for pdf-parse
-      const buffer = Buffer.from(arrayBuffer);
-
-      // Extract text from PDF
-      let pdfText = '';
-      let pdfMetadata = {};
-      let numPages = 0;
-
-      try {
-        const pdfData = await pdfParse(buffer);
-        pdfText = pdfData.text || '';
-        numPages = pdfData.numpages || 0;
-        pdfMetadata = pdfData.info || {};
-      } catch (parseError) {
-        // PDF parsing failed - could be scanned PDF without text
-        console.error('PDF parsing error:', parseError.message);
-        pdfText = '[PDF parsing failed - possibly scanned document without embedded text]';
+      // Convert ArrayBuffer to Base64 using Web APIs (Cloudflare Workers compatible)
+      const uint8Array = new Uint8Array(arrayBuffer);
+      let binaryString = '';
+      for (let i = 0; i < uint8Array.length; i++) {
+        binaryString += String.fromCharCode(uint8Array[i]);
       }
-
-      // Encode to Base64
-      const contentBase64 = buffer.toString('base64');
+      const contentBase64 = btoa(binaryString);
 
       return {
-        text: `# PDF Content Extracted
+        text: `# PDF Content Extracted Successfully
 
 **Filename:** ${filename}
 **URL:** ${pdf_url}
-**Size:** ${(arrayBuffer.byteLength / 1024).toFixed(2)} KB
-**Pages:** ${numPages}
-${pdfMetadata.Title ? `**Title:** ${pdfMetadata.Title}` : ''}
+**Size:** ${(arrayBuffer.byteLength / 1024).toFixed(2)} KB (${(arrayBuffer.byteLength / 1024 / 1024).toFixed(2)} MB)
 
-**Text Preview:**
-${pdfText.substring(0, 1000)}${pdfText.length > 1000 ? '...\n\n[Text truncated in preview. Full text available in structured response.]' : ''}
+✅ PDF successfully downloaded and encoded
 
-**Base64 Content:** Available in structured response (${contentBase64.length} characters)`,
+**Next Steps:**
+The PDF is now available as Base64-encoded content in the structured response.
+You can analyze the PDF content directly using the content_base64 field.
+
+**Base64 Content:** ${contentBase64.length} characters (ready for analysis)`,
         structured: {
           pdf_url,
           filename,
           size_bytes: arrayBuffer.byteLength,
           size_kb: Math.round(arrayBuffer.byteLength / 1024),
-          num_pages: numPages,
-          metadata: pdfMetadata,
+          size_mb: Math.round((arrayBuffer.byteLength / 1024 / 1024) * 100) / 100,
           content_base64: contentBase64,
-          content_text: pdfText,
         },
       };
     } catch (fetchError) {
@@ -672,27 +656,25 @@ OParl ist ein offener Standard für parlamentarische Informationssysteme (https:
             },
             {
               name: 'get_pdf_content',
-              description: `Lädt ein PDF-Dokument herunter und extrahiert dessen Inhalt.
+              description: `Lädt ein PDF-Dokument herunter und liefert es als Base64-kodierten Inhalt.
 
-**WICHTIG:** Dieses Tool lädt die vollständige PDF-Datei herunter und extrahiert sowohl den Text als auch den Base64-kodierten Inhalt.
+**WICHTIG:** Dieses Tool lädt die vollständige PDF-Datei herunter und kodiert sie als Base64-String, damit du das PDF direkt analysieren kannst.
 
 **Verwendung:**
 1. Nutze zuerst search_documents, get_paper_by_reference oder search_papers um relevante Dokumente zu finden
 2. Diese Tools liefern pdf_url für jedes Dokument
-3. Übergebe die pdf_url an get_pdf_content um den vollständigen Inhalt zu laden
+3. Übergebe die pdf_url an get_pdf_content um das vollständige PDF zu laden
+4. Analysiere das PDF direkt aus dem content_base64 Feld
 
 **Rückgabe:**
-- **content_base64**: Vollständige PDF-Datei Base64-kodiert (UTF-8 String)
-  - Ideal für komplexe PDFs mit Bildern, Grafiken, Tabellen, Diagrammen
-  - Kann direkt an andere APIs/Tools weitergegeben werden
+- **content_base64**: Vollständige PDF-Datei Base64-kodiert
+  - Du kannst dieses PDF direkt öffnen und analysieren
+  - Ideal für alle PDFs: Text, Bilder, Grafiken, Tabellen, Diagramme, gescannte Dokumente
+  - Vollständiger Zugriff auf alle PDF-Inhalte
 
-- **content_text**: Extrahierter Volltext aus dem PDF
-  - Für reine Textanalyse und Informationsextraktion
-  - Bei gescannten PDFs ohne eingebetteten Text steht hier ein Hinweis
-
-- **metadata**: PDF-Metadaten (Titel, Autor, Erstellungsdatum, etc.)
-- **num_pages**: Anzahl der Seiten
-- **size_bytes / size_kb**: Dateigröße
+- **size_bytes / size_kb / size_mb**: Dateigröße in verschiedenen Einheiten
+- **filename**: Dateiname des PDFs
+- **pdf_url**: Original-URL
 
 **Limits:**
 - Maximale Dateigröße: 30 MB
@@ -700,13 +682,14 @@ OParl ist ein offener Standard für parlamentarische Informationssysteme (https:
 - Fehler bei ungültigen URLs, nicht erreichbaren Dokumenten oder zu großen Dateien
 
 **Typische Use Cases:**
-- Analyse von Haushaltsplänen und Finanzberichten (Tabellen, Zahlen)
-- Auswertung von Bebauungsplänen (Karten, Grafiken)
+- Analyse von Haushaltsplänen und Finanzberichten (Tabellen, Zahlen extrahieren)
+- Auswertung von Bebauungsplänen (Karten, Grafiken analysieren)
 - Detaillierte Textanalyse von Beschlussvorlagen
 - Extraktion von Strukturdaten aus komplexen Dokumenten
+- Verarbeitung von gescannten Dokumenten (OCR)
 
 **Performance-Hinweis:**
-Bei großen PDFs (>10 MB) kann die Verarbeitung mehrere Sekunden dauern.`,
+Bei großen PDFs (>10 MB) kann der Download mehrere Sekunden dauern.`,
               inputSchema: {
                 type: 'object',
                 properties: {
