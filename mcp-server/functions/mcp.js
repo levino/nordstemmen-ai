@@ -1,19 +1,14 @@
-import { Hono } from 'hono';
-import { cors } from 'hono/cors';
 import { QdrantClient } from '@qdrant/js-client-rest';
 
 // ============================================================================
-// App Setup
+// CORS Headers
 // ============================================================================
 
-const app = new Hono();
-
-// CORS middleware
-app.use('/*', cors({
-  origin: '*',
-  allowMethods: ['POST', 'OPTIONS'],
-  allowHeaders: ['Content-Type'],
-}));
+const corsHeaders = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'POST, OPTIONS',
+  'Access-Control-Allow-Headers': 'Content-Type',
+};
 
 // ============================================================================
 // Embedding Service
@@ -547,39 +542,59 @@ und Beschlüsse einsehbar.`,
 }
 
 // ============================================================================
-// Routes
+// Cloudflare Pages Functions Handlers
 // ============================================================================
 
-app.post('/', async (c) => {
+// Handle OPTIONS for CORS preflight
+export async function onRequestOptions() {
+  return new Response(null, {
+    headers: corsHeaders,
+  });
+}
+
+// Handle POST /mcp
+export async function onRequestPost(context) {
+  const { request, env } = context;
+
   try {
-    const mcpRequest = await c.req.json();
+    const mcpRequest = await request.json();
 
     // Handle batch requests (array of JSON-RPC messages)
     if (Array.isArray(mcpRequest)) {
-      const responses = await Promise.all(mcpRequest.map((req) => handleMCPRequest(req, c.env)));
-      return c.json(responses);
+      const responses = await Promise.all(mcpRequest.map((req) => handleMCPRequest(req, env)));
+      return new Response(JSON.stringify(responses), {
+        headers: {
+          ...corsHeaders,
+          'Content-Type': 'application/json',
+        },
+      });
     }
 
     // Handle single request
-    const mcpResponse = await handleMCPRequest(mcpRequest, c.env);
-    return c.json(mcpResponse);
+    const mcpResponse = await handleMCPRequest(mcpRequest, env);
+    return new Response(JSON.stringify(mcpResponse), {
+      headers: {
+        ...corsHeaders,
+        'Content-Type': 'application/json',
+      },
+    });
   } catch (error) {
-    return c.json(
-      {
+    return new Response(
+      JSON.stringify({
         jsonrpc: '2.0',
         id: null,
         error: {
           code: -32700,
           message: 'Parse error',
         },
+      }),
+      {
+        status: 400,
+        headers: {
+          ...corsHeaders,
+          'Content-Type': 'application/json',
+        },
       },
-      400
     );
   }
-});
-
-// ============================================================================
-// Export for Cloudflare Pages Functions
-// ============================================================================
-
-export default app;
+}
