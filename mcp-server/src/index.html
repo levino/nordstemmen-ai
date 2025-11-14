@@ -25,12 +25,42 @@
 
   <div class="container mx-auto px-4 py-12 max-w-4xl">
     <!-- Header -->
-    <header class="mb-16 text-center">
+    <header class="mb-12 text-center">
       <h1 class="text-5xl font-bold mb-4">Nordstemmen KI-Connector</h1>
-      <p class="text-xl text-base-content/70">
-        Verbinde KI-Assistenten wie Claude mit dem Ratsinformationssystem der Gemeinde Nordstemmen
+      <p class="text-xl text-base-content/70 mb-8">
+        Verbinde Claude mit dem Ratsinformationssystem der Gemeinde Nordstemmen
       </p>
+
+      <!-- Connector URL - Prominent -->
+      <div class="bg-primary/10 border-2 border-primary rounded-lg p-6 max-w-2xl mx-auto">
+        <p class="text-sm font-semibold text-primary mb-3">🔗 CONNECTOR-URL</p>
+        <div class="flex items-center gap-3 bg-base-100 p-4 rounded font-mono text-sm">
+          <code id="connector-url" class="flex-1 break-all">https://nordstemmen-mcp.levinkeller.de/mcp</code>
+          <button onclick="copyUrl()" class="btn btn-sm btn-primary" title="URL kopieren">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+            </svg>
+          </button>
+        </div>
+        <p class="text-xs text-base-content/60 mt-2">Kopiere diese URL, um den Connector in Claude einzubinden</p>
+      </div>
     </header>
+
+    <script>
+      function copyUrl() {
+        const url = document.getElementById('connector-url').textContent;
+        navigator.clipboard.writeText(url).then(() => {
+          const btn = event.currentTarget;
+          const originalHTML = btn.innerHTML;
+          btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>';
+          btn.classList.add('btn-success');
+          setTimeout(() => {
+            btn.innerHTML = originalHTML;
+            btn.classList.remove('btn-success');
+          }, 2000);
+        });
+      }
+    </script>
 
     <!-- Was ist das? -->
     <section id="was-ist-das" class="mb-16">
@@ -106,27 +136,46 @@
 
     <!-- Verwendung -->
     <section id="verwendung" class="mb-16">
-      <h2 class="text-3xl font-bold mb-6 pb-2 border-b border-base-300">Verwendung mit Claude</h2>
+      <h2 class="text-3xl font-bold mb-6 pb-2 border-b border-base-300">So bindest du den Connector ein</h2>
 
-      <p class="mb-6 leading-relaxed">
-        Der KI-Connector funktioniert mit <strong>Claude Web, Desktop und sogar auf Android</strong>.
-        Nach der Konfiguration kannst du Claude einfach Fragen zur Nordstemmer Kommunalpolitik stellen.
-      </p>
+      <div class="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
+        <p class="font-semibold text-lg mb-4">📱 Für Claude Web & Android</p>
+        <ol class="list-decimal list-inside space-y-3 ml-2">
+          <li>Gehe zu <a href="https://claude.ai" target="_blank" class="link link-primary font-semibold">claude.ai</a></li>
+          <li>Klicke auf dein Profil (unten links) → <strong>Settings</strong> → <strong>Connectors</strong></li>
+          <li>Klicke auf <strong>Add Custom Connector</strong></li>
+          <li>Trage ein:
+            <ul class="list-none ml-6 mt-2 space-y-1 text-sm">
+              <li><strong>Name:</strong> <code class="bg-white px-2 py-1 rounded">Gemeinde Nordstemmen</code></li>
+              <li><strong>URL:</strong> <code class="bg-white px-2 py-1 rounded">https://nordstemmen-mcp.levinkeller.de/mcp</code></li>
+            </ul>
+          </li>
+          <li>Klicke auf <strong>Save</strong></li>
+        </ol>
+        <p class="mt-4 text-sm text-base-content/70">
+          ✅ Fertig! Du kannst jetzt Fragen zur Gemeinde Nordstemmen stellen.
+        </p>
+      </div>
 
-      <h3 class="text-xl font-semibold mb-3">Desktop App Konfiguration</h3>
-      <p class="mb-3 text-sm text-base-content/70">
-        Füge in <code class="bg-base-200 px-2 py-1 rounded">~/.config/claude-desktop/config.json</code> ein:
-      </p>
-
-      <div class="bg-base-900 text-base-content p-4 rounded overflow-x-auto">
-        <pre class="text-sm"><code>{
+      <details class="collapse collapse-arrow bg-base-200">
+        <summary class="collapse-title text-lg font-medium">
+          💻 Für Claude Desktop App
+        </summary>
+        <div class="collapse-content">
+          <p class="mb-3 text-sm">
+            Füge in <code class="bg-base-300 px-2 py-1 rounded">~/.config/claude-desktop/config.json</code> ein:
+          </p>
+          <div class="bg-base-900 text-base-content p-4 rounded overflow-x-auto">
+            <pre class="text-sm"><code>{
   "mcpServers": {
     "nordstemmen": {
       "url": "https://nordstemmen-mcp.levinkeller.de/mcp"
     }
   }
 }</code></pre>
-      </div>
+          </div>
+        </div>
+      </details>
     </section>
 
     <!-- Tools -->
