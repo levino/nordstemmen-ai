@@ -264,7 +264,7 @@ async function searchPapers(env, args) {
     const scrollResult = await client.scroll(env.QDRANT_COLLECTION, {
       filter: { must },
       limit: Math.min(limit, 50),
-      with_payload: ['entity_name', 'paper_reference', 'paper_type', 'date', 'entity_id'],
+      with_payload: ['entity_name', 'paper_reference', 'paper_type', 'date', 'entity_id', 'pdf_access_url'],
     });
 
     if (!scrollResult.points || scrollResult.points.length === 0) {
