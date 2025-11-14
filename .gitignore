@@ -3,6 +3,9 @@ node_modules/
 dist/
 *.tsbuildinfo
 
+# Build output
+mcp-server/public/
+
 # Test downloads
 .test-downloads/
 
