@@ -1,4 +1,5 @@
 import { QdrantClient } from '@qdrant/js-client-rest';
+import pdfParse from 'pdf-parse';
 
 // ============================================================================
 // CORS Headers
@@ -313,6 +314,123 @@ async function searchPapers(env, args) {
   }
 }
 
+async function getPdfContent(env, args) {
+  const { pdf_url } = args;
+
+  // Validate URL
+  if (!pdf_url || typeof pdf_url !== 'string') {
+    throw new Error('pdf_url is required and must be a string');
+  }
+
+  try {
+    // Parse URL to extract filename
+    const url = new URL(pdf_url);
+    const filename = url.pathname.split('/').pop() || 'document.pdf';
+
+    // Download PDF with timeout and size limit
+    const MAX_SIZE_MB = 30;
+    const MAX_SIZE_BYTES = MAX_SIZE_MB * 1024 * 1024;
+    const TIMEOUT_MS = 10000; // 10 seconds
+
+    // Create abort controller for timeout
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), TIMEOUT_MS);
+
+    try {
+      const response = await fetch(pdf_url, {
+        signal: controller.signal,
+        headers: {
+          'User-Agent': 'Nordstemmen-MCP-Server/1.0',
+        },
+      });
+
+      clearTimeout(timeoutId);
+
+      if (!response.ok) {
+        throw new Error(`PDF download failed: ${response.status} ${response.statusText}`);
+      }
+
+      // Check content type
+      const contentType = response.headers.get('content-type');
+      if (contentType && !contentType.includes('pdf')) {
+        throw new Error(`Invalid content type: ${contentType}. Expected PDF.`);
+      }
+
+      // Check content length if provided
+      const contentLength = response.headers.get('content-length');
+      if (contentLength && parseInt(contentLength) > MAX_SIZE_BYTES) {
+        throw new Error(`PDF too large: ${(parseInt(contentLength) / 1024 / 1024).toFixed(2)} MB (max: ${MAX_SIZE_MB} MB)`);
+      }
+
+      // Get PDF as ArrayBuffer
+      const arrayBuffer = await response.arrayBuffer();
+
+      // Check actual size
+      if (arrayBuffer.byteLength > MAX_SIZE_BYTES) {
+        throw new Error(`PDF too large: ${(arrayBuffer.byteLength / 1024 / 1024).toFixed(2)} MB (max: ${MAX_SIZE_MB} MB)`);
+      }
+
+      // Convert to Buffer for pdf-parse
+      const buffer = Buffer.from(arrayBuffer);
+
+      // Extract text from PDF
+      let pdfText = '';
+      let pdfMetadata = {};
+      let numPages = 0;
+
+      try {
+        const pdfData = await pdfParse(buffer);
+        pdfText = pdfData.text || '';
+        numPages = pdfData.numpages || 0;
+        pdfMetadata = pdfData.info || {};
+      } catch (parseError) {
+        // PDF parsing failed - could be scanned PDF without text
+        console.error('PDF parsing error:', parseError.message);
+        pdfText = '[PDF parsing failed - possibly scanned document without embedded text]';
+      }
+
+      // Encode to Base64
+      const contentBase64 = buffer.toString('base64');
+
+      return {
+        text: `# PDF Content Extracted
+
+**Filename:** ${filename}
+**URL:** ${pdf_url}
+**Size:** ${(arrayBuffer.byteLength / 1024).toFixed(2)} KB
+**Pages:** ${numPages}
+${pdfMetadata.Title ? `**Title:** ${pdfMetadata.Title}` : ''}
+
+**Text Preview:**
+${pdfText.substring(0, 1000)}${pdfText.length > 1000 ? '...\n\n[Text truncated in preview. Full text available in structured response.]' : ''}
+
+**Base64 Content:** Available in structured response (${contentBase64.length} characters)`,
+        structured: {
+          pdf_url,
+          filename,
+          size_bytes: arrayBuffer.byteLength,
+          size_kb: Math.round(arrayBuffer.byteLength / 1024),
+          num_pages: numPages,
+          metadata: pdfMetadata,
+          content_base64: contentBase64,
+          content_text: pdfText,
+        },
+      };
+    } catch (fetchError) {
+      clearTimeout(timeoutId);
+
+      // Handle abort (timeout)
+      if (fetchError.name === 'AbortError') {
+        throw new Error(`PDF download timeout after ${TIMEOUT_MS / 1000} seconds`);
+      }
+
+      throw fetchError;
+    }
+  } catch (error) {
+    throw new Error(`Failed to get PDF content: ${error.message}`);
+  }
+}
+
 // ============================================================================
 // Error Handling
 // ============================================================================
@@ -552,6 +670,55 @@ OParl ist ein offener Standard für parlamentarische Informationssysteme (https:
                 required: [],
               },
             },
+            {
+              name: 'get_pdf_content',
+              description: `Lädt ein PDF-Dokument herunter und extrahiert dessen Inhalt.
+
+**WICHTIG:** Dieses Tool lädt die vollständige PDF-Datei herunter und extrahiert sowohl den Text als auch den Base64-kodierten Inhalt.
+
+**Verwendung:**
+1. Nutze zuerst search_documents, get_paper_by_reference oder search_papers um relevante Dokumente zu finden
+2. Diese Tools liefern pdf_url für jedes Dokument
+3. Übergebe die pdf_url an get_pdf_content um den vollständigen Inhalt zu laden
+
+**Rückgabe:**
+- **content_base64**: Vollständige PDF-Datei Base64-kodiert (UTF-8 String)
+  - Ideal für komplexe PDFs mit Bildern, Grafiken, Tabellen, Diagrammen
+  - Kann direkt an andere APIs/Tools weitergegeben werden
+
+- **content_text**: Extrahierter Volltext aus dem PDF
+  - Für reine Textanalyse und Informationsextraktion
+  - Bei gescannten PDFs ohne eingebetteten Text steht hier ein Hinweis
+
+- **metadata**: PDF-Metadaten (Titel, Autor, Erstellungsdatum, etc.)
+- **num_pages**: Anzahl der Seiten
+- **size_bytes / size_kb**: Dateigröße
+
+**Limits:**
+- Maximale Dateigröße: 30 MB
+- Timeout: 10 Sekunden
+- Fehler bei ungültigen URLs, nicht erreichbaren Dokumenten oder zu großen Dateien
+
+**Typische Use Cases:**
+- Analyse von Haushaltsplänen und Finanzberichten (Tabellen, Zahlen)
+- Auswertung von Bebauungsplänen (Karten, Grafiken)
+- Detaillierte Textanalyse von Beschlussvorlagen
+- Extraktion von Strukturdaten aus komplexen Dokumenten
+
+**Performance-Hinweis:**
+Bei großen PDFs (>10 MB) kann die Verarbeitung mehrere Sekunden dauern.`,
+              inputSchema: {
+                type: 'object',
+                properties: {
+                  pdf_url: {
+                    type: 'string',
+                    description:
+                      'Die vollständige URL zum PDF-Dokument. Diese URL wird typischerweise von search_documents, get_paper_by_reference oder search_papers zurückgegeben. Beispiel: "https://nordstemmen.ratsinfomanagement.net/.../Dokument.pdf"',
+                  },
+                },
+                required: ['pdf_url'],
+              },
+            },
           ],
         };
         break;
@@ -593,6 +760,16 @@ OParl ist ein offener Standard für parlamentarische Informationssysteme (https:
             structuredContent: {
               papers: searchResult.structured,
             },
+          }));
+        } else if (toolName === 'get_pdf_content') {
+          result = await getPdfContent(env, toolArgs).then((pdfResult) => ({
+            content: [
+              {
+                type: 'text',
+                text: pdfResult.text,
+              },
+            ],
+            structuredContent: pdfResult.structured,
           }));
         } else {
           throw new Error(`Unknown tool: ${toolName}`);
