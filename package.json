@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "workspaces": ["scraper", "mcp-server", "embeddings"],
+  "workspaces": [
+    "scraper",
+    "mcp-server",
+    "embeddings"
+  ],
   "scripts": {
     "lint": "biome check .",
     "lint:fix": "biome check --write .",
     "format": "biome format --write .",
-    "test": "npm run test --workspaces"
+    "test": "npm run test --workspaces",
+    "lfs-pull": "git lfs pull --include='*'"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4"
