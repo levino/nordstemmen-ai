@@ -5,11 +5,21 @@
 ```
 Browser
   ↓
-Cloudflare Pages
-  ├─ GET /          → public/index.html (static)
-  ├─ GET /mcp       → functions/_middleware.js → Coolify Container
-  └─ POST /mcp      → functions/mcp.js (API)
+Cloudflare Pages (nordstemmen-mcp.levinkeller.de)
+  ├─ GET /          → public/index.html (static homepage)
+  └─ POST /mcp      → functions/mcp.js (MCP API)
+
+Browser (via Link von Homepage)
+  ↓
+Coolify Container (mcp-inspector.levinkeller.de)
+  ├─ Port 6274      → MCPI Client UI
+  └─ Port 6277      → MCPP Proxy Server
 ```
+
+Der Inspector läuft **separat** auf einer eigenen Domain, da er:
+- Zwei Ports benötigt (6274 + 6277)
+- Wahrscheinlich WebSockets zwischen UI und Proxy nutzt
+- Zu komplex für einfaches HTTP-Proxying ist
 
 ## Coolify Container Setup
 
@@ -28,86 +38,78 @@ ghcr.io/modelcontextprotocol/inspector:latest
 
 **Domain:**
 ```
-inspector.nordstemmen-mcp.levinkeller.de
+mcp-inspector.levinkeller.de
 ```
 
-**Oder einfach die Server-IP nutzen, wenn du nicht public exponieren willst**
+**Wichtig:** Beide Ports müssen gemappt werden!
+- `6274` für die Web-UI (MCPI Client)
+- `6277` für den Proxy-Server (MCPP)
 
-### 2. DNS Konfiguration (wenn Subdomain)
+### 2. DNS Konfiguration
 
 In Cloudflare DNS:
 ```
 Type: A
-Name: inspector
+Name: mcp-inspector
 Content: [DEINE_SERVER_IP]
-Proxy: Off (graue Cloud) - direkter Zugriff für Middleware
+Proxy: Proxied (orange Cloud) - für SSL via Cloudflare
 ```
 
-**WICHTIG:** Der Inspector muss vom Internet erreichbar sein, damit die Cloudflare Worker Middleware darauf zugreifen kann.
+**WICHTIG:** Coolify muss beide Ports auf die Domain routen:
+- Entweder über Coolify's Proxy-Konfiguration
+- Oder mit einem Nginx Reverse Proxy davor
 
-### 3. Cloudflare Pages Environment Variable
+### 3. Keine Environment Variables nötig!
 
-In Cloudflare Pages Dashboard:
-```
-Settings → Environment Variables → Production
-
-Variable: INSPECTOR_URL
-Value: https://inspector.nordstemmen-mcp.levinkeller.de
-```
-
-**ODER** wenn du nur über IP gehst:
-```
-Value: http://DEINE_SERVER_IP:6274
-```
+Da der Inspector separat läuft, brauchst du **keine** Cloudflare Pages Environment Variables.
 
 ## Wie es funktioniert
 
-1. User besucht `https://nordstemmen-mcp.levinkeller.de/mcp`
-2. Cloudflare Pages empfängt GET Request
-3. `functions/_middleware.js` intercepted den Request
-4. Middleware proxied zu `$INSPECTOR_URL/mcp` (dein Container)
-5. Inspector Container antwortet mit der UI
-6. Middleware gibt Response zurück zum User
+1. User besucht Homepage: `https://nordstemmen-mcp.levinkeller.de/`
+2. Klickt auf "MCP Inspector öffnen"
+3. Neuer Tab öffnet sich: `https://mcp-inspector.levinkeller.de`
+4. User verbindet Inspector manuell mit: `https://nordstemmen-mcp.levinkeller.de/mcp`
+5. Inspector kommuniziert über POST mit dem MCP Server
 
-**POST /mcp** geht direkt zu `functions/mcp.js` (MCP API) - kein Proxy!
+**Cleanere Separation!** Jeder Service auf seiner eigenen Domain.
 
 ## Testen
 
-1. Container läuft auf `inspector.nordstemmen-mcp.levinkeller.de`
-2. Teste direkt: `curl https://inspector.nordstemmen-mcp.levinkeller.de`
-3. Deploy Cloudflare Pages mit der neuen Middleware
-4. Besuche: `https://nordstemmen-mcp.levinkeller.de/mcp`
+1. Container läuft auf `mcp-inspector.levinkeller.de`
+2. Teste UI direkt: `curl https://mcp-inspector.levinkeller.de` (sollte HTML zurückgeben)
+3. Öffne im Browser: `https://mcp-inspector.levinkeller.de`
+4. Verbinde mit MCP Server: `https://nordstemmen-mcp.levinkeller.de/mcp`
 
 ## Troubleshooting
 
-### Inspector zeigt "Unavailable"
+### Inspector lädt nicht
 
 - Check: Container läuft? `docker ps` in Coolify
 - Check: Port 6274 exposed?
-- Check: Domain/IP erreichbar? `curl https://inspector...`
-- Check: `INSPECTOR_URL` Environment Variable gesetzt in CF Pages?
+- Check: Domain erreichbar? `curl https://mcp-inspector.levinkeller.de`
+- Check: Coolify Proxy korrekt konfiguriert?
 
-### POST /mcp funktioniert nicht mehr
+### Ports-Problem
 
-- Middleware sollte POST durchlassen (check `functions/_middleware.js`)
-- `return next()` für alle Nicht-GET Requests
+Der Inspector braucht **beide Ports**:
+- 6274: Web-UI
+- 6277: Proxy-Server
 
-### CORS Errors
+In Coolify musst du beide Ports auf Port 80/443 der Domain routen (via Proxy).
+Das kann komplex sein! Eventuell ist es einfacher, den Container auf einem Sub-Path zu routen.
 
-- Inspector Container hat eigene CORS Config
-- Sollte okay sein, da alles über same domain läuft
+### CORS Errors beim Verbinden zum MCP Server
 
-## Alternative: Lokale IP (nicht öffentlich)
+- Check: `functions/mcp.js` hat CORS Headers (sollte bereits konfiguriert sein)
+- Check: POST zu `/mcp` funktioniert direkt: `curl -X POST https://nordstemmen-mcp.levinkeller.de/mcp`
 
-Falls du den Inspector NICHT öffentlich exponieren willst:
+### Alternative: Ohne Domain
 
-**Problem:** Cloudflare Workers können nicht auf private IPs zugreifen!
-
-**Lösung:** Du musst den Inspector öffentlich machen ODER Cloudflare Tunnel nutzen:
+Falls die Domain-Konfiguration zu kompliziert ist:
 
 ```bash
-# In Coolify/Server
-cloudflared tunnel --url http://localhost:6274
+# Einfach per IP und Port
+http://DEINE_IP:6274
 ```
 
-Dann die Tunnel URL als `INSPECTOR_URL` verwenden.
+Dann wird die Verbindung aber ohne SSL sein.
