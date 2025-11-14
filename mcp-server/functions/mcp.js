@@ -49,7 +49,7 @@ async function generateEmbedding(env, text) {
 // ============================================================================
 
 async function searchDocuments(env, args) {
-  const { query, limit = 5 } = args;
+  const { query, limit = 5, date_from, date_to } = args;
 
   try {
     const client = new QdrantClient({
@@ -60,11 +60,29 @@ async function searchDocuments(env, args) {
 
     return generateEmbedding(env, query)
       .then((queryEmbedding) => {
-        return client.search(env.QDRANT_COLLECTION, {
+        // Build filter for date range if provided
+        const searchParams = {
           vector: queryEmbedding,
           limit: Math.min(limit, 10),
           with_payload: true,
-        });
+        };
+
+        if (date_from || date_to) {
+          const range = {};
+          if (date_from) range.gte = date_from;
+          if (date_to) range.lte = date_to;
+
+          searchParams.filter = {
+            must: [
+              {
+                key: 'date',
+                range,
+              },
+            ],
+          };
+        }
+
+        return client.search(env.QDRANT_COLLECTION, searchParams);
       })
       .then((results) => {
         if (!results || results.length === 0) {
@@ -382,6 +400,16 @@ Datenstruktur:
                     description:
                       'Maximale Anzahl der zurückgegebenen Suchergebnisse. Standard ist 5, Maximum ist 10. Bei spezifischen Fragen reichen oft 3-5 Ergebnisse, bei breiten Themen können 10 Ergebnisse sinnvoll sein.',
                     default: 5,
+                  },
+                  date_from: {
+                    type: 'string',
+                    description:
+                      'Optionales Startdatum für die Filterung im Format YYYY-MM-DD. Beispiel: "2024-01-01". Begrenzt die Suche auf Dokumente ab diesem Datum.',
+                  },
+                  date_to: {
+                    type: 'string',
+                    description:
+                      'Optionales Enddatum für die Filterung im Format YYYY-MM-DD. Beispiel: "2024-12-31". Begrenzt die Suche auf Dokumente bis zu diesem Datum.',
                   },
                 },
                 required: ['query'],
