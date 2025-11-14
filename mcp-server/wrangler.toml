@@ -1,5 +1,8 @@
 name = "nordstemmen-mcp-server"
 compatibility_date = "2024-11-14"
 
+# Pages configuration
+pages_build_output_dir = "./public"
+
 [site]
 bucket = "./public"
