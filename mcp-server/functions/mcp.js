@@ -48,6 +48,108 @@ async function generateEmbedding(env, text) {
 // MCP Tools
 // ============================================================================
 
+// Configuration for excerpt enrichment
+const MIN_EXCERPT_LENGTH = 300; // Minimum characters for a useful excerpt
+const MAX_EXCERPT_LENGTH = 2000; // Maximum characters to avoid too long excerpts
+const CONTEXT_CHUNK_LIMIT = 5; // Max number of chunks to load for context
+
+/**
+ * Enriches short excerpts by loading additional chunks from the same document.
+ * This ensures excerpts are long enough to be useful for AI analysis.
+ */
+async function enrichExcerpt(client, collectionName, result) {
+  const payload = result.payload;
+  const currentText = payload.text || '';
+
+  // If excerpt is already long enough, return as-is
+  if (currentText.length >= MIN_EXCERPT_LENGTH) {
+    return currentText;
+  }
+
+  try {
+    // Load additional chunks from same document (same filename, nearby pages)
+    const filename = payload.filename;
+    const currentPage = payload.page || 0;
+
+    // Search for chunks from same file, nearby pages
+    const contextResults = await client.scroll(collectionName, {
+      filter: {
+        must: [
+          {
+            key: 'filename',
+            match: { value: filename },
+          },
+        ],
+      },
+      limit: CONTEXT_CHUNK_LIMIT,
+      with_payload: ['text', 'page', 'chunk_index'],
+      with_vectors: false,
+    });
+
+    if (!contextResults || !contextResults[0] || contextResults[0].length === 0) {
+      return currentText;
+    }
+
+    const chunks = contextResults[0];
+
+    // Sort chunks by page and chunk_index
+    chunks.sort((a, b) => {
+      const pageDiff = (a.payload.page || 0) - (b.payload.page || 0);
+      if (pageDiff !== 0) return pageDiff;
+      return (a.payload.chunk_index || 0) - (b.payload.chunk_index || 0);
+    });
+
+    // Find current chunk position
+    const currentChunkIndex = payload.chunk_index || 0;
+    const currentIdx = chunks.findIndex(
+      (c) => c.payload.page === currentPage && c.payload.chunk_index === currentChunkIndex,
+    );
+
+    // Build enriched excerpt by combining nearby chunks
+    let enrichedText = currentText;
+    let totalLength = currentText.length;
+
+    // Add chunks before and after current chunk until we reach MIN_EXCERPT_LENGTH
+    let beforeIdx = currentIdx - 1;
+    let afterIdx = currentIdx + 1;
+
+    while (totalLength < MIN_EXCERPT_LENGTH && totalLength < MAX_EXCERPT_LENGTH) {
+      let added = false;
+
+      // Try to add chunk before
+      if (beforeIdx >= 0 && chunks[beforeIdx]) {
+        const beforeText = chunks[beforeIdx].payload.text || '';
+        if (totalLength + beforeText.length <= MAX_EXCERPT_LENGTH) {
+          enrichedText = beforeText + '\n\n' + enrichedText;
+          totalLength += beforeText.length + 2;
+          beforeIdx--;
+          added = true;
+        }
+      }
+
+      // Try to add chunk after
+      if (afterIdx < chunks.length && chunks[afterIdx]) {
+        const afterText = chunks[afterIdx].payload.text || '';
+        if (totalLength + afterText.length <= MAX_EXCERPT_LENGTH) {
+          enrichedText = enrichedText + '\n\n' + afterText;
+          totalLength += afterText.length + 2;
+          afterIdx++;
+          added = true;
+        }
+      }
+
+      // If we couldn't add any more chunks, stop
+      if (!added) break;
+    }
+
+    return enrichedText;
+  } catch (error) {
+    // If enrichment fails, return original text
+    console.error('Excerpt enrichment error:', error);
+    return currentText;
+  }
+}
+
 async function searchDocuments(env, args) {
   const { query, limit = 5, date_from, date_to } = args;
 
@@ -84,7 +186,7 @@ async function searchDocuments(env, args) {
 
         return client.search(env.QDRANT_COLLECTION, searchParams);
       })
-      .then((results) => {
+      .then(async (results) => {
         if (!results || results.length === 0) {
           return {
             text: 'No relevant documents found.',
@@ -92,8 +194,25 @@ async function searchDocuments(env, args) {
           };
         }
 
+        // Enrich excerpts for short chunks
+        const client = new QdrantClient({
+          url: env.QDRANT_URL,
+          apiKey: env.QDRANT_API_KEY,
+          port: env.QDRANT_PORT ? parseInt(env.QDRANT_PORT) : undefined,
+        });
+
+        const enrichedResults = await Promise.all(
+          results.map(async (result) => {
+            const enrichedExcerpt = await enrichExcerpt(client, env.QDRANT_COLLECTION, result);
+            return {
+              ...result,
+              enrichedExcerpt,
+            };
+          }),
+        );
+
         // Build both text and structured versions
-        const textResults = results
+        const textResults = enrichedResults
           .map((result, index) => {
             const payload = result.payload;
             const title = payload.entity_name || payload.filename || 'Unknown';
@@ -107,11 +226,11 @@ async function searchDocuments(env, args) {
             const titleLink = url ? `[${title}](${url})` : title;
             const metadata = [date, `Score: ${score}`].filter(Boolean).join(' • ');
 
-            return `${index + 1}. ${titleLink}${ref}\n${metadata}\n\n${payload.text || ''}`;
+            return `${index + 1}. ${titleLink}${ref}\n${metadata}\n\n${result.enrichedExcerpt}`;
           })
           .join('\n\n---\n\n');
 
-        const structuredResults = results.map((result, index) => {
+        const structuredResults = enrichedResults.map((result, index) => {
           const payload = result.payload;
           return {
             rank: index + 1,
@@ -122,7 +241,7 @@ async function searchDocuments(env, args) {
             date: payload.date || null,
             page: payload.page || null,
             score: result.score || 0,
-            excerpt: payload.text || '',
+            excerpt: result.enrichedExcerpt,
             filename: payload.filename || null,
             reference: payload.paper_reference || null,
             entity_type: payload.entity_type || null,
