@@ -46,7 +46,7 @@ PAPERS_DIR = DOCUMENTS_DIR / 'papers'
 MEETINGS_DIR = DOCUMENTS_DIR / 'meetings'
 
 # Update mode: If true, update metadata for already processed files
-UPDATE_METADATA = os.getenv('UPDATE_METADATA', 'false').lower() == 'true'
+UPDATE_QDRANT_METADATA = os.getenv('UPDATE_QDRANT_METADATA', 'false').lower() == 'true'
 
 # Embedding model configuration
 EMBEDDING_MODEL = 'jinaai/jina-embeddings-v3'
@@ -95,8 +95,8 @@ class EmbeddingGenerator:
         self.processed_files_cache = self._load_processed_files_cache()
         print(f"✓ Loaded {len(self.processed_files_cache)} already-processed files into cache")
 
-        if UPDATE_METADATA:
-            print("⚠️  UPDATE_METADATA mode enabled - will update metadata for already processed files")
+        if UPDATE_QDRANT_METADATA:
+            print("⚠️  UPDATE_QDRANT_METADATA mode enabled - will update metadata for already processed files")
 
         print()
 
@@ -333,7 +333,7 @@ class EmbeddingGenerator:
         # Check if already processed in Qdrant
         already_processed = self._is_already_processed(relative_path, file_hash)
 
-        if already_processed and not UPDATE_METADATA:
+        if already_processed and not UPDATE_QDRANT_METADATA:
             return True  # Skipped
 
         # Delete old chunks only if file changed (not when just updating metadata)
