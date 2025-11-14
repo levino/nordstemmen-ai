@@ -49,6 +49,7 @@ MEETINGS_DIR = DOCUMENTS_DIR / 'meetings'
 EMBEDDING_MODEL = 'jinaai/jina-embeddings-v3'
 CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 200
+MIN_CHUNK_LENGTH = 100  # Skip chunks shorter than this (e.g., from charts, maps)
 
 
 class EmbeddingGenerator:
@@ -383,6 +384,10 @@ class EmbeddingGenerator:
             # Use cached embeddings
             all_points = []
             for chunk_data in cached_chunks:
+                # Skip chunks that are too short (e.g., from charts, maps)
+                if len(chunk_data.get('text', '').strip()) < MIN_CHUNK_LENGTH:
+                    continue
+
                 chunk_id_string = f"{file_hash}_{chunk_data['page']}_{chunk_data['chunk_index']}"
                 chunk_uuid = str(uuid.uuid5(uuid.NAMESPACE_DNS, chunk_id_string))
 
@@ -425,7 +430,8 @@ class EmbeddingGenerator:
             chunks = self._chunk_text(page_text)
 
             for chunk_idx, chunk_text in enumerate(chunks):
-                if not chunk_text.strip():
+                # Skip empty chunks or chunks that are too short (e.g., from charts, maps)
+                if not chunk_text.strip() or len(chunk_text.strip()) < MIN_CHUNK_LENGTH:
                     continue
 
                 # Generate embedding
