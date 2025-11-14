@@ -15,6 +15,9 @@ from pathlib import Path
 from typing import List, Dict, Optional
 from dotenv import load_dotenv
 
+# Set tokenizers parallelism before importing transformers/sentence-transformers
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 import pdfplumber
 import pytesseract
 from pdf2image import convert_from_path
@@ -23,6 +26,9 @@ from sentence_transformers import SentenceTransformer
 from tqdm import tqdm
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import warnings
+
+# Suppress the torch_dtype deprecation warning from sentence-transformers
+warnings.filterwarnings("ignore", message=".*torch_dtype.*is deprecated.*")
 
 # Configure logging (only errors and warnings)
 logging.basicConfig(
@@ -51,12 +57,29 @@ class LocalEmbeddingGenerator:
     def __init__(self):
         """Initialize embedding model."""
         print("🚀 Initializing Local Embedding Generator...")
+        
+        # Check for MPS (Apple Silicon GPU) availability
+        import torch
+        if torch.backends.mps.is_available():
+            device = "mps"
+            print(f"🎮 Using Apple Silicon GPU (MPS)")
+        else:
+            device = "cpu"
+            print(f"💻 Using CPU (MPS not available)")
 
         # Initialize embedding model
         print(f"📦 Loading model: {EMBEDDING_MODEL}")
-        self.model = SentenceTransformer(EMBEDDING_MODEL, trust_remote_code=True)
+        self.model = SentenceTransformer(EMBEDDING_MODEL, trust_remote_code=True, device=device)
+        
+        # Optimize PyTorch for maximum GPU performance
+        if device == "mps":
+            import torch
+            # Enable optimized attention and compilation (if supported)
+            torch.backends.mps.enable_fallback = False
+            print("🔥 Enabled MPS optimizations for maximum GPU performance")
+        
         self.vector_size = self.model.get_sentence_embedding_dimension()
-        print(f"✓ Model loaded ({self.vector_size}D vectors)")
+        print(f"✓ Model loaded ({self.vector_size}D vectors) on {device.upper()}")
 
         # Initialize text splitter
         self.text_splitter = RecursiveCharacterTextSplitter(
@@ -240,25 +263,41 @@ class LocalEmbeddingGenerator:
 
         # Process each page and generate embeddings
         chunks_for_cache = []
+        all_chunks_text = []
+        chunk_metadata = []
 
+        # First, collect all chunks and their metadata
         for page_num, page_text in pages:
             chunks = self._chunk_text(page_text)
 
             for chunk_idx, chunk_text in enumerate(chunks):
                 if not chunk_text.strip():
                     continue
+                
+                all_chunks_text.append(chunk_text)
+                chunk_metadata.append({
+                    'page_num': page_num,
+                    'chunk_idx': chunk_idx
+                })
 
-                # Generate embedding
-                embedding = self.model.encode(
-                    chunk_text,
-                    task='retrieval.passage'
-                ).tolist()
+        # Batch encode all chunks at once for better GPU utilization
+        if all_chunks_text:
+            # Increase batch size for better GPU utilization
+            embeddings = self.model.encode(
+                all_chunks_text,
+                task='retrieval.passage',
+                batch_size=128,  # Much larger batch size for better GPU usage
+                show_progress_bar=False,
+                normalize_embeddings=True,  # Enable normalization on GPU
+                convert_to_tensor=False  # Return as numpy for faster processing
+            ).tolist()
 
-                # Save for cache
+            # Save for cache - pair each embedding with its metadata
+            for i, (embedding, metadata) in enumerate(zip(embeddings, chunk_metadata)):
                 chunks_for_cache.append({
-                    'page': page_num,
-                    'chunk_index': chunk_idx,
-                    'text': chunk_text,
+                    'page': metadata['page_num'],
+                    'chunk_index': metadata['chunk_idx'],
+                    'text': all_chunks_text[i],
                     'vector': embedding
                 })
 
