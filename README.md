@@ -23,6 +23,24 @@ Fertig! Jetzt kannst du Claude fragen:
 
 Claude durchsucht automatisch alle Dokumente seit 2007 und gibt dir Antworten mit Links zu den Originaldokumenten im Ratsinformationssystem.
 
+### Für ChatGPT
+
+Du brauchst einen bezahlten Account (z.B. Plus) und musst unter https://chatgpt.com/ eingeloggt sein.
+
+1. Klicke auf dein Profil (unten links) → **Einstellungen** -> **Apps und Konnektoren**.
+2. Unter **Erweiterte Einstellungen** den **Entwicklermodus** aktivieren (falls noch nicht aktiv). Danach auf **Zurück** klicken.
+3. Rechts oben auf **Erstellen** klicken und Folgendes eintragen:
+   - **Name**: Gemeinde Nordstemmen
+   - **URL des MCP-Servers**: `https://nordstemmen-mcp.levinkeller.de/mcp`
+   - **Authentifizierung**: Keine Authentifizierung
+4. Die **Ich verstehe und ich möchte fortfahren**-Checkbox anklicken und auf **Erstellen** klicken.
+
+Der Konnektor ist nun eingerichtet und bereit zur Verwendung. Öffne dafür einen **neuen Chat** und wähle über das **+**-Symbol links im Eingabefeld →  **... Mehr"**  → **Gemeinde Nordstemmen** aus.
+
+Jetzt kannst du ChatGPT Fragen zu den Gemeindedokumenten stellen – Beispiele findest du oben.
+
+Beim ersten Aufruf einer Aktion musst du diesen aus Sicherheitsgründen bestätigen. Du kannst dabei die Option **Für dieses Gespräch merken** aktivieren, um die Anzahl der Rückfragen zu reduzieren. Da der Konnektor mehrere Aktionstypen bereitstellt, können dennoch gelegentlich weitere Bestätigungen notwendig sein.
+
 ---
 
 ## Was ist das?
