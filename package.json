@@ -13,7 +13,8 @@
     "lint:fix": "biome check --write .",
     "format": "biome format --write .",
     "test": "npm run test --workspaces",
-    "lfs-pull": "git lfs pull --include='*'"
+    "lfs-pull": "git lfs pull --include='*'",
+    "lfs:repair": "bash scripts/lfs-repair.sh"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4"
