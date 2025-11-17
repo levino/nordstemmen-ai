@@ -35,7 +35,7 @@ Du brauchst einen bezahlten Account (z.B. Plus) und musst unter https://chatgpt.
    - **Authentifizierung**: Keine Authentifizierung
 4. Die **Ich verstehe und ich möchte fortfahren**-Checkbox anklicken und auf **Erstellen** klicken.
 
-Der Konnektor ist nun eingerichtet und bereit zur Verwendung. Öffne dafür einen **neuen Chat** und wähle über das **+**-Symbol links im Eingabefeld →  **... Mehr"**  → **Gemeinde Nordstemmen** aus.
+Der Konnektor ist nun eingerichtet und bereit zur Verwendung. Öffne dafür einen **neuen Chat** und wähle über das **+**-Symbol links im Eingabefeld → **... Mehr** → **Gemeinde Nordstemmen** aus.
 
 Jetzt kannst du ChatGPT Fragen zu den Gemeindedokumenten stellen – Beispiele findest du oben.
 
