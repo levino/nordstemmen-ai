@@ -1,6 +1,6 @@
-import { Effect, Schema as S, pipe, flow } from 'effect';
-import { PaperListResponseSchema, MeetingListResponseSchema } from './schema.ts';
-import type { OParlPaper, OParlMeeting } from './schema.ts';
+import { Effect, flow, pipe, Schema as S } from 'effect';
+import type { OParlMeeting, OParlPaper } from './schema.ts';
+import { MeetingListResponseSchema, PaperListResponseSchema } from './schema.ts';
 
 export const PAPER_LIST_URL = 'https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper';
 export const MEETING_LIST_URL = 'https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting';
@@ -13,7 +13,10 @@ export const effectFetch = (url: string): Effect.Effect<Response, Error> =>
     ),
   );
 
-export const effectFetchJson = flow(effectFetch, Effect.flatMap((response) => Effect.tryPromise(() => response.json())));
+export const effectFetchJson = flow(
+  effectFetch,
+  Effect.flatMap((response) => Effect.tryPromise(() => response.json())),
+);
 
 const fetchPaperPage = flow(
   effectFetchJson,
@@ -53,10 +56,10 @@ const fetchAllPaperPages = (startUrl: string): Effect.Effect<OParlPaper[], Error
 
     const results = yield* Effect.all(
       pageUrls.map((url) => fetchPaperPage(url)),
-      { concurrency: 32 }
+      { concurrency: 32 },
     );
 
-    return results.flatMap(r => r.papers);
+    return results.flatMap((r) => r.papers);
   });
 
 const fetchAllMeetingPages = (startUrl: string): Effect.Effect<OParlMeeting[], Error> =>
@@ -79,10 +82,10 @@ const fetchAllMeetingPages = (startUrl: string): Effect.Effect<OParlMeeting[], E
 
     const results = yield* Effect.all(
       pageUrls.map((url) => fetchMeetingPage(url)),
-      { concurrency: 32 }
+      { concurrency: 32 },
     );
 
-    return results.flatMap(r => r.meetings);
+    return results.flatMap((r) => r.meetings);
   });
 
 export const fetchAllPapers = (): Effect.Effect<OParlPaper[], Error> => fetchAllPaperPages(PAPER_LIST_URL);

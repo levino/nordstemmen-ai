@@ -5,8 +5,7 @@
   "type": "module",
   "workspaces": [
     "scraper",
-    "mcp-server",
-    "embeddings"
+    "mcp-server"
   ],
   "scripts": {
     "lint": "biome check .",
@@ -17,6 +16,6 @@
     "lfs:repair": "bash scripts/lfs-repair.sh"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4"
+    "@biomejs/biome": "2.3.6"
   }
 }

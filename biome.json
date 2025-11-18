@@ -1,25 +1,12 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.3.6/schema.json",
   "vcs": {
     "enabled": true,
     "clientKind": "git",
     "useIgnoreFile": true
   },
   "files": {
-    "ignore": [
-      "node_modules",
-      "dist",
-      "build",
-      ".venv",
-      "venv",
-      "embeddings/venv",
-      "__pycache__",
-      "*.pyc",
-      "*.py",
-      "test-output",
-      ".test-downloads",
-      "documents"
-    ]
+    "includes": ["**", "!!documents"]
   },
   "formatter": {
     "enabled": true,

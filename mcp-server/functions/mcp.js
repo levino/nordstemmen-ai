@@ -152,7 +152,7 @@ async function getPaperByReference(env, args) {
     // Normalize reference: remove "DS " prefix if present, convert / or - to standard format
     let normalizedRef = reference.trim();
     normalizedRef = normalizedRef.replace(/^DS\s+/i, '');
-    normalizedRef = normalizedRef.replace(/[-\/]/g, '/');
+    normalizedRef = normalizedRef.replace(/[-/]/g, '/');
 
     // Search for exact match
     const scrollResult = await client.scroll(env.QDRANT_COLLECTION, {
@@ -358,7 +358,9 @@ async function getPdfContent(env, args) {
       // Check content length if provided
       const contentLength = response.headers.get('content-length');
       if (contentLength && parseInt(contentLength) > MAX_SIZE_BYTES) {
-        throw new Error(`PDF too large: ${(parseInt(contentLength) / 1024 / 1024).toFixed(2)} MB (max: ${MAX_SIZE_MB} MB)`);
+        throw new Error(
+          `PDF too large: ${(parseInt(contentLength) / 1024 / 1024).toFixed(2)} MB (max: ${MAX_SIZE_MB} MB)`,
+        );
       }
 
       // Get PDF as ArrayBuffer
@@ -366,7 +368,9 @@ async function getPdfContent(env, args) {
 
       // Check actual size
       if (arrayBuffer.byteLength > MAX_SIZE_BYTES) {
-        throw new Error(`PDF too large: ${(arrayBuffer.byteLength / 1024 / 1024).toFixed(2)} MB (max: ${MAX_SIZE_MB} MB)`);
+        throw new Error(
+          `PDF too large: ${(arrayBuffer.byteLength / 1024 / 1024).toFixed(2)} MB (max: ${MAX_SIZE_MB} MB)`,
+        );
       }
 
       // Convert ArrayBuffer to Base64 using Web APIs (Cloudflare Workers compatible)
@@ -706,7 +710,7 @@ Bei großen PDFs (>10 MB) kann der Download mehrere Sekunden dauern.`,
         };
         break;
 
-      case 'tools/call':
+      case 'tools/call': {
         const toolName = params?.name;
         const toolArgs = params?.arguments || {};
 
@@ -758,6 +762,7 @@ Bei großen PDFs (>10 MB) kann der Download mehrere Sekunden dauern.`,
           throw new Error(`Unknown tool: ${toolName}`);
         }
         break;
+      }
 
       default:
         throw new Error(`Method not found: ${method}`);
