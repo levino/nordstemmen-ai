@@ -1,19 +1,10 @@
 import { createExecutionContext, env, waitOnExecutionContext } from 'cloudflare:test';
 import { describe, expect, it } from 'vitest';
-import worker from './_worker.js';
+import { onRequestPost } from './functions/mcp.js';
 
 const IncomingRequest = Request;
 
-describe('MCP Worker', () => {
-  it('should respond to GET /', async () => {
-    const request = new IncomingRequest('https://example.com/');
-    const ctx = createExecutionContext();
-    const response = await worker.fetch(request, env, ctx);
-    await waitOnExecutionContext(ctx);
-    expect(response.status).toBe(200);
-    const data = await response.json();
-    expect(data.name).toBe('nordstemmen-mcp-server');
-  });
+describe('MCP Server', () => {
 
   it('should handle single search_documents call', async () => {
     const request = new IncomingRequest('https://example.com/mcp', {
@@ -33,8 +24,12 @@ describe('MCP Worker', () => {
       }),
     });
     const ctx = createExecutionContext();
-    const response = await worker.fetch(request, env, ctx);
+    
+    // Use Pages function format instead of Worker
+    const context = { request, env };
+    const response = await onRequestPost(context);
     await waitOnExecutionContext(ctx);
+    
     expect(response.status).toBe(200);
     const data = await response.json();
     expect(data.jsonrpc).toBe('2.0');
@@ -80,8 +75,12 @@ describe('MCP Worker', () => {
       ]),
     });
     const ctx = createExecutionContext();
-    const response = await worker.fetch(request, env, ctx);
+    
+    // Use Pages function format instead of Worker
+    const context = { request, env };
+    const response = await onRequestPost(context);
     await waitOnExecutionContext(ctx);
+    
     expect(response.status).toBe(200);
     const data = await response.json();
 

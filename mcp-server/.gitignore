@@ -4,3 +4,7 @@ dist/
 *.log
 .DS_Store
 .wrangler/
+
+# Prevent test files from being deployed as functions
+functions/**/*.test.js
+functions/**/*.test.ts

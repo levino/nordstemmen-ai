@@ -97,8 +97,20 @@ async function searchDocuments(env, args) {
           .map((result, index) => {
             const payload = result.payload;
             const title = payload.entity_name || payload.filename || 'Unknown';
-            // Prefer pdf_access_url for direct PDF link, fallback to entity_id (OParl API)
-            const url = payload.pdf_access_url || payload.entity_id || '';
+            
+            // Generate proxy URL from file_hash if available, fallback to entity_id (OParl API)
+            let url = payload.entity_id || '';
+            if (payload.file_hash) {
+              const proxyBaseUrl = env.PDF_PROXY_URL || 'https://nordstemmen-mcp.levinkeller.de';
+              url = `${proxyBaseUrl}/pdf/${payload.file_hash}`;
+              
+              // Add filename if available
+              if (payload.filename) {
+                const filename = payload.filename.split('/').pop(); // Get just the filename part
+                url += `?filename=${encodeURIComponent(filename)}`;
+              }
+            }
+            
             const date = payload.date || '';
             const score = result.score?.toFixed(3) || '?';
             const ref = payload.paper_reference ? ` (${payload.paper_reference})` : '';
@@ -113,12 +125,27 @@ async function searchDocuments(env, args) {
 
         const structuredResults = results.map((result, index) => {
           const payload = result.payload;
+          
+          // Generate proxy URL from file_hash if available
+          let proxyUrl = null;
+          if (payload.file_hash) {
+            const proxyBaseUrl = env.PDF_PROXY_URL || 'https://nordstemmen-mcp.levinkeller.de';
+            proxyUrl = `${proxyBaseUrl}/pdf/${payload.file_hash}`;
+            
+            // Add filename if available
+            if (payload.filename) {
+              const filename = payload.filename.split('/').pop(); // Get just the filename part
+              proxyUrl += `?filename=${encodeURIComponent(filename)}`;
+            }
+          }
+          
           return {
             rank: index + 1,
             title: payload.entity_name || payload.filename || 'Unknown',
-            url: payload.pdf_access_url || payload.entity_id || null,
+            url: proxyUrl || payload.entity_id || null,
             oparl_id: payload.entity_id || null,
-            pdf_url: payload.pdf_access_url || null,
+            pdf_url: proxyUrl || null,
+            file_hash: payload.file_hash || null,
             date: payload.date || null,
             page: payload.page || null,
             score: result.score || 0,
@@ -177,8 +204,19 @@ async function getPaperByReference(env, args) {
 
     const payload = scrollResult.points[0].payload;
 
-    // Prefer direct PDF link over OParl API link
-    const pdfUrl = payload.pdf_access_url || '';
+    // Generate proxy URL from file_hash if available
+    let pdfUrl = '';
+    if (payload.file_hash) {
+      const proxyBaseUrl = env.PDF_PROXY_URL || 'https://nordstemmen-mcp.levinkeller.de';
+      pdfUrl = `${proxyBaseUrl}/pdf/${payload.file_hash}`;
+      
+      // Add filename if available
+      if (payload.filename) {
+        const filename = payload.filename.split('/').pop(); // Get just the filename part
+        pdfUrl += `?filename=${encodeURIComponent(filename)}`;
+      }
+    }
+    
     const oparlUrl = payload.entity_id || '';
     const primaryLink = pdfUrl || oparlUrl;
 
@@ -201,6 +239,7 @@ ${pdfUrl ? `**PDF:** ${pdfUrl}` : ''}
         date: payload.date || null,
         oparl_id: payload.entity_id || null,
         pdf_url: payload.pdf_access_url || null,
+        file_hash: payload.file_hash || null,
       },
     };
   } catch (error) {
@@ -279,13 +318,27 @@ async function searchPapers(env, args) {
     scrollResult.points.forEach((point) => {
       const p = point.payload;
       if (!papersMap.has(p.paper_reference)) {
+        // Generate proxy URL from file_hash if available
+        let proxyUrl = null;
+        if (p.file_hash) {
+          const proxyBaseUrl = env.PDF_PROXY_URL || 'https://nordstemmen-mcp.levinkeller.de';
+          proxyUrl = `${proxyBaseUrl}/pdf/${p.file_hash}`;
+          
+          // Add filename if available
+          if (p.filename) {
+            const filename = p.filename.split('/').pop(); // Get just the filename part
+            proxyUrl += `?filename=${encodeURIComponent(filename)}`;
+          }
+        }
+        
         papersMap.set(p.paper_reference, {
           reference: p.paper_reference || null,
           name: p.entity_name || null,
           paperType: p.paper_type || null,
           date: p.date || null,
           oparl_id: p.entity_id || null,
-          pdf_url: p.pdf_access_url || null,
+          pdf_url: proxyUrl || null,
+          file_hash: p.file_hash || null,
         });
       }
     });
@@ -295,7 +348,7 @@ async function searchPapers(env, args) {
     // Build text output
     const textResults = papers
       .map((paper, index) => {
-        // Prefer PDF link over OParl API link
+        // Prefer proxy PDF link over OParl API link
         const url = paper.pdf_url || paper.oparl_id;
         const titleLink = url ? `[${paper.name}](${url})` : paper.name;
         const metadata = [paper.reference, paper.paperType, paper.date].filter(Boolean).join(' • ');
@@ -314,29 +367,39 @@ async function searchPapers(env, args) {
 }
 
 async function getPdfContent(env, args) {
-  const { pdf_url } = args;
+  const { file_hash, filename } = args;
 
-  // Validate URL
-  if (!pdf_url || typeof pdf_url !== 'string') {
-    throw new Error('pdf_url is required and must be a string');
+  // Validate file_hash
+  if (!file_hash || typeof file_hash !== 'string') {
+    throw new Error('file_hash is required and must be a string');
+  }
+
+  // Validate SHA256 format (64 hex characters)
+  if (!/^[a-f0-9]{64}$/i.test(file_hash)) {
+    throw new Error('file_hash must be a valid SHA256 hash (64 hex characters)');
   }
 
   try {
-    // Parse URL to extract filename
-    const url = new URL(pdf_url);
-    const filename = url.pathname.split('/').pop() || 'document.pdf';
+    // Build proxy URL with optional filename
+    const proxyBaseUrl = env.PDF_PROXY_URL || 'https://nordstemmen-mcp.levinkeller.de';
+    let proxyUrl = `${proxyBaseUrl}/pdf/${file_hash}`;
+    
+    // Add filename as query parameter if provided
+    if (filename && typeof filename === 'string') {
+      proxyUrl += `?filename=${encodeURIComponent(filename)}`;
+    }
 
     // Download PDF with timeout and size limit
     const MAX_SIZE_MB = 30;
     const MAX_SIZE_BYTES = MAX_SIZE_MB * 1024 * 1024;
-    const TIMEOUT_MS = 10000; // 10 seconds
+    const TIMEOUT_MS = 30000; // 30 seconds (proxy might need to fetch from B2)
 
     // Create abort controller for timeout
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), TIMEOUT_MS);
 
     try {
-      const response = await fetch(pdf_url, {
+      const response = await fetch(proxyUrl, {
         signal: controller.signal,
         headers: {
           'User-Agent': 'Nordstemmen-MCP-Server/1.0',
@@ -346,6 +409,9 @@ async function getPdfContent(env, args) {
       clearTimeout(timeoutId);
 
       if (!response.ok) {
+        if (response.status === 404) {
+          throw new Error(`PDF not found: ${file_hash}`);
+        }
         throw new Error(`PDF download failed: ${response.status} ${response.statusText}`);
       }
 
@@ -384,11 +450,11 @@ async function getPdfContent(env, args) {
       return {
         text: `# PDF Content Extracted Successfully
 
-**Filename:** ${filename}
-**URL:** ${pdf_url}
+**File Hash:** ${file_hash}
+**Proxy URL:** ${proxyUrl}
 **Size:** ${(arrayBuffer.byteLength / 1024).toFixed(2)} KB (${(arrayBuffer.byteLength / 1024 / 1024).toFixed(2)} MB)
 
-✅ PDF successfully downloaded and encoded
+✅ PDF successfully downloaded from proxy and encoded
 
 **Next Steps:**
 The PDF is now available as Base64-encoded content in the structured response.
@@ -396,8 +462,8 @@ You can analyze the PDF content directly using the content_base64 field.
 
 **Base64 Content:** ${contentBase64.length} characters (ready for analysis)`,
         structured: {
-          pdf_url,
-          filename,
+          file_hash,
+          proxy_url: proxyUrl,
           size_bytes: arrayBuffer.byteLength,
           size_kb: Math.round(arrayBuffer.byteLength / 1024),
           size_mb: Math.round((arrayBuffer.byteLength / 1024 / 1024) * 100) / 100,
@@ -666,9 +732,20 @@ OParl ist ein offener Standard für parlamentarische Informationssysteme (https:
 
 **Verwendung:**
 1. Nutze zuerst search_documents, get_paper_by_reference oder search_papers um relevante Dokumente zu finden
-2. Diese Tools liefern pdf_url für jedes Dokument
-3. Übergebe die pdf_url an get_pdf_content um das vollständige PDF zu laden
+2. Diese Tools liefern **file_hash** für jedes Dokument
+3. Übergebe den **file_hash** an get_pdf_content um das vollständige PDF zu laden
 4. Analysiere das PDF direkt aus dem content_base64 Feld
+
+**Beispiel-Workflow:**
+\`\`\`
+// 1. Dokument suchen
+result = search_documents({ query: "Haushalt 2024" })
+// result enthält: { file_hash: "ce1d08d628f81887927ec346f7e6312da768fbb04f0e771c19da7b00bce80b39", ... }
+
+// 2. PDF laden
+pdf = get_pdf_content({ file_hash: "ce1d08d628f81887927ec346f7e6312da768fbb04f0e771c19da7b00bce80b39" })
+// pdf enthält: { content_base64: "JVBERi0xLjQK...", ... }
+\`\`\`
 
 **Rückgabe:**
 - **content_base64**: Vollständige PDF-Datei Base64-kodiert
@@ -676,14 +753,19 @@ OParl ist ein offener Standard für parlamentarische Informationssysteme (https:
   - Ideal für alle PDFs: Text, Bilder, Grafiken, Tabellen, Diagramme, gescannte Dokumente
   - Vollständiger Zugriff auf alle PDF-Inhalte
 
+- **file_hash**: Der SHA256-Hash der PDF-Datei
+- **proxy_url**: Die Proxy-URL von der das PDF geladen wurde
 - **size_bytes / size_kb / size_mb**: Dateigröße in verschiedenen Einheiten
-- **filename**: Dateiname des PDFs
-- **pdf_url**: Original-URL
+
+**Technische Details:**
+- PDFs werden von einem optimierten Cloudflare-Proxy geladen (Edge-Caching)
+- Backing Storage: Backblaze B2 via Git LFS
+- Der file_hash ist ein SHA256-Hash und identifiziert die PDF-Datei eindeutig
 
 **Limits:**
 - Maximale Dateigröße: 30 MB
-- Timeout: 10 Sekunden
-- Fehler bei ungültigen URLs, nicht erreichbaren Dokumenten oder zu großen Dateien
+- Timeout: 30 Sekunden
+- Fehler bei ungültigem file_hash oder zu großen Dateien
 
 **Typische Use Cases:**
 - Analyse von Haushaltsplänen und Finanzberichten (Tabellen, Zahlen extrahieren)
@@ -693,17 +775,23 @@ OParl ist ein offener Standard für parlamentarische Informationssysteme (https:
 - Verarbeitung von gescannten Dokumenten (OCR)
 
 **Performance-Hinweis:**
-Bei großen PDFs (>10 MB) kann der Download mehrere Sekunden dauern.`,
+Bei großen PDFs (>10 MB) kann der Download mehrere Sekunden dauern. Der erste Request ist langsamer (Fetch von B2), nachfolgende Requests sind schnell (Edge Cache).`,
               inputSchema: {
                 type: 'object',
                 properties: {
-                  pdf_url: {
+                  file_hash: {
                     type: 'string',
                     description:
-                      'Die vollständige URL zum PDF-Dokument. Diese URL wird typischerweise von search_documents, get_paper_by_reference oder search_papers zurückgegeben. Beispiel: "https://nordstemmen.ratsinfomanagement.net/.../Dokument.pdf"',
+                      'Der SHA256-Hash der PDF-Datei (64 hex Zeichen). Dieser wird von search_documents, get_paper_by_reference oder search_papers zurückgegeben. Beispiel: "ce1d08d628f81887927ec346f7e6312da768fbb04f0e771c19da7b00bce80b39"',
+                    pattern: '^[a-f0-9]{64}$',
+                  },
+                  filename: {
+                    type: 'string',
+                    description:
+                      'Optionaler ursprünglicher Dateiname (z.B. "DS_25_2005.pdf"). Wird für den Download-Header verwendet. Falls nicht angegeben, wird "{file_hash}.pdf" verwendet.',
                   },
                 },
-                required: ['pdf_url'],
+                required: ['file_hash'],
               },
             },
           ],

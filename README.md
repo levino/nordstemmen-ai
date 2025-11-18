@@ -225,7 +225,7 @@ python generate.py
 **Was passiert:**
 1. Lädt Jina Embeddings v3 Modell (570M Parameter, 1024 Dimensionen)
 2. Liest alle PDFs aus `documents/`
-3. Berechnet MD5-Hash pro PDF
+3. Berechnet SHA256-Hash pro PDF
 4. Prüft in Qdrant: "Bereits verarbeitet?"
 5. Bei neuen/geänderten PDFs:
    - Text extrahieren (pypdf)
@@ -249,7 +249,7 @@ Processing: 100%|████████| 150/150 [08:42<00:00] Skipped: 145 | 
 ```
 
 **Hash-basierte Change Detection:**
-- Der Generator trackt bereits verarbeitete Dateien via MD5-Hash in Qdrant
+- Der Generator trackt bereits verarbeitete Dateien via SHA256-Hash in Qdrant
 - Bei erneutem Ausführen werden nur neue/geänderte PDFs verarbeitet
 - Kein lokaler State nötig - Qdrant ist Single Source of Truth
 - Prozess kann jederzeit gestoppt und später fortgesetzt werden
