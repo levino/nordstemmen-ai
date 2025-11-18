@@ -86,6 +86,11 @@ describe('PDF Proxy', () => {
       expect(response.headers.get('Content-Type')).toBe('application/pdf');
       expect(response.headers.get('Content-Disposition')).toContain(TEST_FILENAME);
       
+      // Verify cache headers are set
+      expect(response.headers.get('Cache-Control')).toBe('public, max-age=31536000, immutable');
+      expect(response.headers.get('ETag')).toBe(`"${TEST_SHA256}"`);
+      expect(response.headers.get('Last-Modified')).toBeTruthy();
+      
       // Verify we actually got PDF content
       const pdfContent = await response.arrayBuffer();
       expect(pdfContent.byteLength).toBeGreaterThan(0);
@@ -104,6 +109,25 @@ describe('PDF Proxy', () => {
       
       expect(response.status).toBe(200);
       expect(response.headers.get('Access-Control-Allow-Origin')).toBe('*');
+    });
+
+    it('should add CF-Cache-Status header for debugging', async () => {
+      const request = new IncomingRequest(`https://example.com/pdf/${TEST_SHA256}?filename=${TEST_FILENAME}`);
+      const ctx = createExecutionContext();
+      
+      const mockContext = {
+        request,
+        params: { sha256: TEST_SHA256 },
+        env
+      };
+
+      const response = await onRequestGet(mockContext);
+      await waitOnExecutionContext(ctx);
+      
+      if (response.status === 200) {
+        // Should have cache status header (MISS for first request)
+        expect(response.headers.get('CF-Cache-Status')).toBeTruthy();
+      }
     });
 
     it('should NOT have "Invalid URL: undefined" error - this test should FAIL until bug is fixed', async () => {

@@ -107,6 +107,18 @@ export async function onRequestGet(context) {
       });
     }
 
+    // Check Cloudflare edge cache first
+    const cache = caches.default;
+    const cacheKey = new Request(request.url, { method: 'GET' });
+    const cachedResponse = await cache.match(cacheKey);
+    
+    if (cachedResponse) {
+      // Serve from edge cache - add cache hit header for debugging
+      const response = new Response(cachedResponse.body, cachedResponse);
+      response.headers.set('CF-Cache-Status', 'HIT');
+      return response;
+    }
+
     // Check required environment variables
     if (!env.B2_KEY_ID || !env.B2_APP_KEY || !env.B2_BUCKET_NAME || !env.B2_BUCKET_ID) {
       return new Response('Missing B2 configuration', {
@@ -137,14 +149,25 @@ export async function onRequestGet(context) {
     // Use original filename if provided, otherwise fallback to hash
     const downloadFilename = originalFilename || `${sha256}.pdf`;
 
-    // Return the PDF with proper headers
-    return new Response(b2Response.body, {
+    // Create response with caching headers
+    const response = new Response(b2Response.body, {
       headers: {
         ...CORS_HEADERS,
         'Content-Type': 'application/pdf',
         'Content-Disposition': `inline; filename="${downloadFilename}"`,
+        // Aggressive caching since PDFs are immutable (identified by SHA256)
+        'Cache-Control': 'public, max-age=31536000, immutable', // 1 year
+        'ETag': `"${sha256}"`, // Use hash as ETag for validation
+        'Last-Modified': new Date('2020-01-01').toUTCString(), // Static date for immutable content
+        'CF-Cache-Status': 'MISS', // Debug header
       },
     });
+
+    // Cache the response at the edge for future requests
+    const responseToCache = response.clone();
+    await cache.put(cacheKey, responseToCache);
+
+    return response;
   } catch (error) {
     return new Response(`Error: ${error.message}`, {
       status: 500,
