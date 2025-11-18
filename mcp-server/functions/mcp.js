@@ -366,119 +366,6 @@ async function searchPapers(env, args) {
   }
 }
 
-async function getPdfContent(env, args) {
-  const { file_hash } = args;
-
-  // Validate file_hash
-  if (!file_hash || typeof file_hash !== 'string') {
-    throw new Error('file_hash is required and must be a string');
-  }
-
-  // Validate SHA256 format (64 hex characters)
-  if (!/^[a-f0-9]{64}$/i.test(file_hash)) {
-    throw new Error('file_hash must be a valid SHA256 hash (64 hex characters)');
-  }
-
-  try {
-    // Build proxy URL
-    const proxyBaseUrl = env.PDF_PROXY_URL || 'https://nordstemmen-mcp.levinkeller.de';
-    const proxyUrl = `${proxyBaseUrl}/pdf/${file_hash}`;
-
-    // Download PDF with timeout and size limit
-    const MAX_SIZE_MB = 30;
-    const MAX_SIZE_BYTES = MAX_SIZE_MB * 1024 * 1024;
-    const TIMEOUT_MS = 30000; // 30 seconds (proxy might need to fetch from B2)
-
-    // Create abort controller for timeout
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), TIMEOUT_MS);
-
-    try {
-      const response = await fetch(proxyUrl, {
-        signal: controller.signal,
-        headers: {
-          'User-Agent': 'Nordstemmen-MCP-Server/1.0',
-        },
-      });
-
-      clearTimeout(timeoutId);
-
-      if (!response.ok) {
-        if (response.status === 404) {
-          throw new Error(`PDF not found: ${file_hash}`);
-        }
-        throw new Error(`PDF download failed: ${response.status} ${response.statusText}`);
-      }
-
-      // Check content type
-      const contentType = response.headers.get('content-type');
-      if (contentType && !contentType.includes('pdf')) {
-        throw new Error(`Invalid content type: ${contentType}. Expected PDF.`);
-      }
-
-      // Check content length if provided
-      const contentLength = response.headers.get('content-length');
-      if (contentLength && parseInt(contentLength) > MAX_SIZE_BYTES) {
-        throw new Error(
-          `PDF too large: ${(parseInt(contentLength) / 1024 / 1024).toFixed(2)} MB (max: ${MAX_SIZE_MB} MB)`,
-        );
-      }
-
-      // Get PDF as ArrayBuffer
-      const arrayBuffer = await response.arrayBuffer();
-
-      // Check actual size
-      if (arrayBuffer.byteLength > MAX_SIZE_BYTES) {
-        throw new Error(
-          `PDF too large: ${(arrayBuffer.byteLength / 1024 / 1024).toFixed(2)} MB (max: ${MAX_SIZE_MB} MB)`,
-        );
-      }
-
-      // Convert ArrayBuffer to Base64 using Web APIs (Cloudflare Workers compatible)
-      const uint8Array = new Uint8Array(arrayBuffer);
-      let binaryString = '';
-      for (let i = 0; i < uint8Array.length; i++) {
-        binaryString += String.fromCharCode(uint8Array[i]);
-      }
-      const contentBase64 = btoa(binaryString);
-
-      return {
-        text: `# PDF Content Extracted Successfully
-
-**File Hash:** ${file_hash}
-**Proxy URL:** ${proxyUrl}
-**Size:** ${(arrayBuffer.byteLength / 1024).toFixed(2)} KB (${(arrayBuffer.byteLength / 1024 / 1024).toFixed(2)} MB)
-
-✅ PDF successfully downloaded from proxy and encoded
-
-**Next Steps:**
-The PDF is now available as Base64-encoded content in the structured response.
-You can analyze the PDF content directly using the content_base64 field.
-
-**Base64 Content:** ${contentBase64.length} characters (ready for analysis)`,
-        structured: {
-          file_hash,
-          proxy_url: proxyUrl,
-          size_bytes: arrayBuffer.byteLength,
-          size_kb: Math.round(arrayBuffer.byteLength / 1024),
-          size_mb: Math.round((arrayBuffer.byteLength / 1024 / 1024) * 100) / 100,
-          content_base64: contentBase64,
-        },
-      };
-    } catch (fetchError) {
-      clearTimeout(timeoutId);
-
-      // Handle abort (timeout)
-      if (fetchError.name === 'AbortError') {
-        throw new Error(`PDF download timeout after ${TIMEOUT_MS / 1000} seconds`);
-      }
-
-      throw fetchError;
-    }
-  } catch (error) {
-    throw new Error(`Failed to get PDF content: ${error.message}`);
-  }
-}
 
 // ============================================================================
 // Error Handling
@@ -559,21 +446,31 @@ Die semantische Suche findet relevante Informationen auch wenn die exakten Suchb
 Ideal für Fragen zu kommunalen Themen wie Bauprojekte, Haushalt, Beschlüsse, Verkehr, Bildung, Soziales, etc.
 
 **WICHTIG - Zwei Arten von Links:**
-Für jedes Dokument werden ZWEI Links zurückgegeben:
+
+Für jedes Dokument werden ZWEI Informationen zurückgegeben:
 
 1. **PDF-Link (pdf_url)**: Direkter Link zum PDF-Dokument
-   - Beispiel: https://nordstemmen.ratsinfomanagement.net/.../Beschlussvorlage_DS_12-2024.pdf
-   - **Nutze diesen Link um das PDF selbst zu laden und zu lesen**
+   - Beispiel: https://nordstemmen-mcp.levinkeller.de/pdf/abc123...
+   - **Lade das PDF direkt über diesen Link**
+   - Funktioniert für alle PDFs, schnell und effizient durch Edge-Caching
    - **Zeige diesen Link auch dem Nutzer als Quellenangabe**
-   - Öffnet im Browser-PDF-Viewer (keine Download-Aufforderung)
 
 2. **OParl-API-Link (oparl_id)**: Link zum Paper/Meeting-Objekt in der OParl-API
    - Beispiel: https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5475
    - **Nutze ihn NUR um verwandte Dokumente zu finden**: weitere Anhänge bei Papers, weitere Dokumente bei Meetings
    - Liefert maschinenlesbares JSON mit Metadaten und Links zu anderen Dokumenten
-   - Zeige diesen Link nur, wenn der Nutzer explizit nach API-Links fragt
 
-**Workflow:** Für jedes relevante Suchergebnis: (1) Lade und lies das PDF über pdf_url, (2) Falls du weitere Anhänge/Dokumente brauchst, nutze oparl_id um diese zu finden, (3) Zeige dem Nutzer den pdf_url als Quellenangabe.
+**WORKFLOW:**
+
+1. **PDF-Download**: Lade das PDF direkt über pdf_url
+   \`\`\`
+   response = fetch(pdf_url)
+   pdf_content = response.body
+   \`\`\`
+
+2. **Weitere Dokumente**: Nutze oparl_id um verwandte Dokumente zu finden
+
+3. **Quellenangabe**: Zeige dem Nutzer den pdf_url als Quellenangabe
 
 **Über OParl:**
 OParl ist ein offener Standard für parlamentarische Informationssysteme (https://oparl.org).
@@ -623,20 +520,20 @@ Das Tool normalisiert automatisch die verschiedenen Formate und findet die passe
 
 Die Drucksachennummer muss das Jahr enthalten (z.B. "101/2012"). Reine Nummern ohne Jahr (z.B. "101") sind mehrdeutig und werden nicht akzeptiert.
 
-**WICHTIG - Zwei Arten von Links:**
-Das Tool liefert ZWEI Links:
+**WICHTIG - PDF-Zugriff:**
+
+Das Tool liefert zwei Informationen für den PDF-Zugriff:
 
 1. **PDF-Link (pdf_url)**: Direkter Link zum PDF-Hauptdokument
-   - **Nutze diesen Link um das PDF selbst zu laden und zu lesen**
+   - **Lade das PDF direkt über diesen Link**
+   - Schnell und effizient, funktioniert für alle PDFs
    - **Zeige diesen Link auch dem Nutzer als Quellenangabe**
-   - Öffnet im Browser-PDF-Viewer (keine Download-Aufforderung)
 
 2. **OParl-ID (oparl_id)**: Link zum Paper-Objekt in der OParl-API
    - **Nutze ihn NUR um verwandte Dokumente zu finden**: weitere Anhänge, Beratungsverläufe, zugehörige Meetings
    - Liefert maschinenlesbares JSON mit Metadaten und Links zu anderen Dokumenten
-   - Zeige diesen Link nur, wenn der Nutzer explizit nach API-Links fragt
 
-**Workflow:** (1) Lade und lies das PDF über pdf_url, (2) Falls du weitere Anhänge/Dokumente brauchst, nutze oparl_id um diese zu finden, (3) Zeige dem Nutzer den pdf_url als Quellenangabe.
+**Workflow:** (1) Lade das PDF direkt über pdf_url, (2) Falls du weitere Anhänge brauchst, nutze oparl_id, (3) Zeige dem Nutzer den pdf_url als Quellenangabe.
 
 **Über OParl:**
 OParl ist ein offener Standard für parlamentarische Informationssysteme (https://oparl.org).`,
@@ -667,20 +564,20 @@ Ideal für:
 - "Bebauungspläne aus den letzten 2 Jahren"
 - "Drucksachen zum Thema Haushalt"
 
-**WICHTIG - Zwei Arten von Links:**
-Für jede Drucksache werden ZWEI Links zurückgegeben:
+**WICHTIG - PDF-Zugriff:**
+
+Für jede Drucksache werden zwei Informationen für den PDF-Zugriff zurückgegeben:
 
 1. **PDF-Link (pdf_url)**: Direkter Link zum PDF-Hauptdokument
-   - **Nutze diesen Link um das PDF selbst zu laden und zu lesen**
+   - **Lade das PDF direkt über diesen Link**
+   - Schnell und effizient, funktioniert für alle PDFs
    - **Zeige diesen Link auch dem Nutzer als Quellenangabe**
-   - Öffnet im Browser-PDF-Viewer (keine Download-Aufforderung)
 
 2. **OParl-ID (oparl_id)**: Link zum Paper-Objekt in der OParl-API
    - **Nutze ihn NUR um verwandte Dokumente zu finden**: weitere Anhänge, Beratungsverläufe, zugehörige Meetings
    - Liefert maschinenlesbares JSON mit Metadaten und Links zu anderen Dokumenten
-   - Zeige diesen Link nur, wenn der Nutzer explizit nach API-Links fragt
 
-**Workflow:** (1) Lade und lies das PDF über pdf_url, (2) Falls du weitere Anhänge/Dokumente brauchst, nutze oparl_id um diese zu finden, (3) Zeige dem Nutzer den pdf_url als Quellenangabe.
+**Workflow:** (1) Lade das PDF direkt über pdf_url, (2) Falls du weitere Anhänge brauchst, nutze oparl_id, (3) Zeige dem Nutzer den pdf_url als Quellenangabe.
 
 **Über OParl:**
 OParl ist ein offener Standard für parlamentarische Informationssysteme (https://oparl.org).`,
@@ -717,71 +614,6 @@ OParl ist ein offener Standard für parlamentarische Informationssysteme (https:
                   },
                 },
                 required: [],
-              },
-            },
-            {
-              name: 'get_pdf_content',
-              description: `Lädt ein PDF-Dokument herunter und liefert es als Base64-kodierten Inhalt.
-
-**WICHTIG:** Dieses Tool lädt die vollständige PDF-Datei herunter und kodiert sie als Base64-String, damit du das PDF direkt analysieren kannst.
-
-**Verwendung:**
-1. Nutze zuerst search_documents, get_paper_by_reference oder search_papers um relevante Dokumente zu finden
-2. Diese Tools liefern **file_hash** für jedes Dokument
-3. Übergebe den **file_hash** an get_pdf_content um das vollständige PDF zu laden
-4. Analysiere das PDF direkt aus dem content_base64 Feld
-
-**Beispiel-Workflow:**
-\`\`\`
-// 1. Dokument suchen
-result = search_documents({ query: "Haushalt 2024" })
-// result enthält: { file_hash: "ce1d08d628f81887927ec346f7e6312da768fbb04f0e771c19da7b00bce80b39", ... }
-
-// 2. PDF laden
-pdf = get_pdf_content({ file_hash: "ce1d08d628f81887927ec346f7e6312da768fbb04f0e771c19da7b00bce80b39" })
-// pdf enthält: { content_base64: "JVBERi0xLjQK...", ... }
-\`\`\`
-
-**Rückgabe:**
-- **content_base64**: Vollständige PDF-Datei Base64-kodiert
-  - Du kannst dieses PDF direkt öffnen und analysieren
-  - Ideal für alle PDFs: Text, Bilder, Grafiken, Tabellen, Diagramme, gescannte Dokumente
-  - Vollständiger Zugriff auf alle PDF-Inhalte
-
-- **file_hash**: Der SHA256-Hash der PDF-Datei
-- **proxy_url**: Die Proxy-URL von der das PDF geladen wurde
-- **size_bytes / size_kb / size_mb**: Dateigröße in verschiedenen Einheiten
-
-**Technische Details:**
-- PDFs werden von einem optimierten Cloudflare-Proxy geladen (Edge-Caching)
-- Backing Storage: Backblaze B2 via Git LFS
-- Der file_hash ist ein SHA256-Hash und identifiziert die PDF-Datei eindeutig
-
-**Limits:**
-- Maximale Dateigröße: 30 MB
-- Timeout: 30 Sekunden
-- Fehler bei ungültigem file_hash oder zu großen Dateien
-
-**Typische Use Cases:**
-- Analyse von Haushaltsplänen und Finanzberichten (Tabellen, Zahlen extrahieren)
-- Auswertung von Bebauungsplänen (Karten, Grafiken analysieren)
-- Detaillierte Textanalyse von Beschlussvorlagen
-- Extraktion von Strukturdaten aus komplexen Dokumenten
-- Verarbeitung von gescannten Dokumenten (OCR)
-
-**Performance-Hinweis:**
-Bei großen PDFs (>10 MB) kann der Download mehrere Sekunden dauern. Der erste Request ist langsamer (Fetch von B2), nachfolgende Requests sind schnell (Edge Cache).`,
-              inputSchema: {
-                type: 'object',
-                properties: {
-                  file_hash: {
-                    type: 'string',
-                    description:
-                      'Der SHA256-Hash der PDF-Datei (64 hex Zeichen). Dieser wird von search_documents, get_paper_by_reference oder search_papers zurückgegeben. Beispiel: "ce1d08d628f81887927ec346f7e6312da768fbb04f0e771c19da7b00bce80b39"',
-                    pattern: '^[a-f0-9]{64}$',
-                  },
-                },
-                required: ['file_hash'],
               },
             },
           ],
@@ -825,16 +657,6 @@ Bei großen PDFs (>10 MB) kann der Download mehrere Sekunden dauern. Der erste R
             structuredContent: {
               papers: searchResult.structured,
             },
-          }));
-        } else if (toolName === 'get_pdf_content') {
-          result = await getPdfContent(env, toolArgs).then((pdfResult) => ({
-            content: [
-              {
-                type: 'text',
-                text: pdfResult.text,
-              },
-            ],
-            structuredContent: pdfResult.structured,
           }));
         } else {
           throw new Error(`Unknown tool: ${toolName}`);
