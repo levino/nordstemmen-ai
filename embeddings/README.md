@@ -25,7 +25,7 @@ python generate.py
 ## What it does
 
 1. Loads all PDFs from `../documents/`
-2. Computes MD5 hash for each file
+2. Computes SHA256 hash for each file
 3. Checks Qdrant if file already processed (by filename + hash)
 4. Checks for cached embeddings in `embeddings.json` (Git LFS tracked)
 5. For new/changed files:
@@ -39,7 +39,7 @@ python generate.py
 
 Each chunk is stored with:
 - `filename`: Relative path to PDF
-- `file_hash`: MD5 hash of PDF
+- `file_hash`: SHA256 hash of PDF
 - `page`: Page number
 - `chunk_index`: Chunk index within page
 - `text`: Actual text content

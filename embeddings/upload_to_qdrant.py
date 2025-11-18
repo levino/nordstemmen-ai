@@ -124,12 +124,12 @@ class QdrantUploader:
         return processed
 
     def _compute_file_hash(self, filepath: Path) -> str:
-        """Compute MD5 hash of file."""
-        md5 = hashlib.md5()
+        """Compute SHA256 hash of file."""
+        sha256 = hashlib.sha256()
         with open(filepath, 'rb') as f:
             for chunk in iter(lambda: f.read(8192), b''):
-                md5.update(chunk)
-        return md5.hexdigest()
+                sha256.update(chunk)
+        return sha256.hexdigest()
 
     def _is_already_processed(self, filename: str, file_hash: str) -> bool:
         """Check if file with this hash is already in Qdrant."""
