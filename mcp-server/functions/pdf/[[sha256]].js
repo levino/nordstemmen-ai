@@ -45,8 +45,8 @@ export async function authenticateB2(env) {
   const authData = await authResponse.json();
   return {
     authorizationToken: authData.authorizationToken,
-    apiUrl: authData.apiUrl,
-    downloadUrl: authData.downloadUrl,
+    apiUrl: authData.apiInfo?.storageApi?.apiUrl,
+    downloadUrl: authData.apiInfo?.storageApi?.downloadUrl,
   };
 }
 

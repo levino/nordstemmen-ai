@@ -102,5 +102,56 @@ describe('PDF Proxy', () => {
       expect(response.status).toBe(200);
       expect(response.headers.get('Access-Control-Allow-Origin')).toBe('*');
     });
+
+    it('should NOT have "Invalid URL: undefined" error - this test should FAIL until bug is fixed', async () => {
+      const problemSha = 'da0f67eb2b8f35fa809718a147b16d4ef50765e600344b3bd8de5a91bef9cbf6';
+      const problemFilename = '2._Finanzbericht_2019.pdf';
+      
+      const request = new IncomingRequest(
+        `https://example.com/pdf/${problemSha}?filename=${encodeURIComponent(problemFilename)}`
+      );
+      const ctx = createExecutionContext();
+      
+      const mockContext = {
+        request,
+        params: { sha256: problemSha },
+        env
+      };
+
+      const response = await onRequestGet(mockContext);
+      await waitOnExecutionContext(ctx);
+      
+      const responseText = await response.text();
+      
+      // This test should FAIL if we reproduce the bug
+      // The bug is "Invalid URL: undefined/b2api/..."
+      expect(responseText).not.toContain('Invalid URL: undefined');
+      
+      // Also ensure we don't get a 500 error due to undefined apiUrl
+      if (response.status === 500) {
+        console.log('Got 500 error:', responseText);
+        // If it's a 500, it should be for a good reason, not undefined URL
+        expect(responseText).not.toMatch(/Invalid URL:.*undefined/);
+      }
+    });
+
+    it('should test B2 authentication works correctly', async () => {
+      const { authenticateB2 } = await import('./functions/pdf/[[sha256]].js');
+      
+      const authData = await authenticateB2(env);
+      
+      // Verify all required fields are present and valid
+      expect(authData).toHaveProperty('authorizationToken');
+      expect(authData).toHaveProperty('apiUrl');
+      expect(authData).toHaveProperty('downloadUrl');
+      
+      expect(typeof authData.authorizationToken).toBe('string');
+      expect(typeof authData.apiUrl).toBe('string');
+      expect(typeof authData.downloadUrl).toBe('string');
+      
+      expect(authData.authorizationToken.length).toBeGreaterThan(0);
+      expect(authData.apiUrl).toMatch(/^https:\/\//);
+      expect(authData.downloadUrl).toMatch(/^https:\/\//);
+    });
   });
 });
