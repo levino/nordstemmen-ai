@@ -81,10 +81,8 @@ export async function getDownloadAuth(env, authData, fileName) {
 export function getFileNameForHash(sha256) {
   // Ensure sha256 is a string
   const hashStr = String(sha256);
-  // Git LFS stores files as: lfs/objects/{first2chars}/{remaining62chars}
-  const first2 = hashStr.substring(0, 2);
-  const remaining = hashStr.substring(2);
-  return `lfs/objects/${first2}/${remaining}`;
+  // Files are stored directly as the hash (no folder structure)
+  return hashStr;
 }
 
 /**
