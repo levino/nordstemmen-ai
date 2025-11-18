@@ -1,6 +1,6 @@
 import { createExecutionContext, env, waitOnExecutionContext } from 'cloudflare:test';
-import { describe, it, expect } from 'vitest';
-import { getFileNameForHash, onRequestGet } from './[[sha256]].js';
+import { describe, expect, it } from 'vitest';
+import { getFileNameForHash, onRequestGet } from './functions/pdf/[[sha256]].js';
 
 const IncomingRequest = Request;
 
@@ -92,13 +92,10 @@ describe('PDF Proxy', () => {
     });
 
     it('should handle CORS headers correctly', async () => {
-      const request = new IncomingRequest(`https://example.com/pdf/${TEST_SHA256}`, {
-        method: 'OPTIONS'
-      });
       const ctx = createExecutionContext();
       
       // Test importing OPTIONS handler - should be available
-      const { onRequestOptions } = await import('./[[sha256]].js');
+      const { onRequestOptions } = await import('./functions/pdf/[[sha256]].js');
       const response = await onRequestOptions();
       await waitOnExecutionContext(ctx);
       
