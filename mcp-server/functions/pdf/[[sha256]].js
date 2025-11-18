@@ -43,6 +43,7 @@ async function authenticateB2(env) {
   }
 
   const authData = await authResponse.json();
+  console.log('B2 auth response:', authData);
   return {
     authorizationToken: authData.authorizationToken,
     apiUrl: authData.apiUrl,
@@ -114,6 +115,12 @@ export async function onRequestGet(context) {
 
     // Check required environment variables
     if (!env.B2_KEY_ID || !env.B2_APP_KEY || !env.B2_BUCKET_NAME || !env.B2_BUCKET_ID) {
+      console.log('Missing B2 env vars:', {
+        B2_KEY_ID: !!env.B2_KEY_ID,
+        B2_APP_KEY: !!env.B2_APP_KEY, 
+        B2_BUCKET_NAME: !!env.B2_BUCKET_NAME,
+        B2_BUCKET_ID: !!env.B2_BUCKET_ID
+      });
       return new Response('Missing B2 configuration', {
         status: 500,
         headers: CORS_HEADERS,
