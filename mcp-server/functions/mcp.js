@@ -764,6 +764,11 @@ Bei großen PDFs (>10 MB) kann der Download mehrere Sekunden dauern.`,
         break;
       }
 
+      case 'notifications/initialized':
+        // Simply acknowledge the notification without logging
+        result = {};
+        break;
+
       default:
         throw new Error(`Method not found: ${method}`);
     }
