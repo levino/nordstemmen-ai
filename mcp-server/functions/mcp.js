@@ -367,7 +367,7 @@ async function searchPapers(env, args) {
 }
 
 async function getPdfContent(env, args) {
-  const { file_hash, filename } = args;
+  const { file_hash } = args;
 
   // Validate file_hash
   if (!file_hash || typeof file_hash !== 'string') {
@@ -380,14 +380,9 @@ async function getPdfContent(env, args) {
   }
 
   try {
-    // Build proxy URL with optional filename
+    // Build proxy URL
     const proxyBaseUrl = env.PDF_PROXY_URL || 'https://nordstemmen-mcp.levinkeller.de';
-    let proxyUrl = `${proxyBaseUrl}/pdf/${file_hash}`;
-    
-    // Add filename as query parameter if provided
-    if (filename && typeof filename === 'string') {
-      proxyUrl += `?filename=${encodeURIComponent(filename)}`;
-    }
+    const proxyUrl = `${proxyBaseUrl}/pdf/${file_hash}`;
 
     // Download PDF with timeout and size limit
     const MAX_SIZE_MB = 30;
@@ -784,11 +779,6 @@ Bei großen PDFs (>10 MB) kann der Download mehrere Sekunden dauern. Der erste R
                     description:
                       'Der SHA256-Hash der PDF-Datei (64 hex Zeichen). Dieser wird von search_documents, get_paper_by_reference oder search_papers zurückgegeben. Beispiel: "ce1d08d628f81887927ec346f7e6312da768fbb04f0e771c19da7b00bce80b39"',
                     pattern: '^[a-f0-9]{64}$',
-                  },
-                  filename: {
-                    type: 'string',
-                    description:
-                      'Optionaler ursprünglicher Dateiname (z.B. "DS_25_2005.pdf"). Wird für den Download-Header verwendet. Falls nicht angegeben, wird "{file_hash}.pdf" verwendet.',
                   },
                 },
                 required: ['file_hash'],
