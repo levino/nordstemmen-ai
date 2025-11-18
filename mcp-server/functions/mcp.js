@@ -97,8 +97,20 @@ async function searchDocuments(env, args) {
           .map((result, index) => {
             const payload = result.payload;
             const title = payload.entity_name || payload.filename || 'Unknown';
-            // Prefer pdf_access_url for direct PDF link, fallback to entity_id (OParl API)
-            const url = payload.pdf_access_url || payload.entity_id || '';
+            
+            // Generate proxy URL from file_hash if available, fallback to entity_id (OParl API)
+            let url = payload.entity_id || '';
+            if (payload.file_hash) {
+              const proxyBaseUrl = env.PDF_PROXY_URL || 'https://nordstemmen-mcp.levinkeller.de';
+              url = `${proxyBaseUrl}/pdf/${payload.file_hash}`;
+              
+              // Add filename if available
+              if (payload.filename) {
+                const filename = payload.filename.split('/').pop(); // Get just the filename part
+                url += `?filename=${encodeURIComponent(filename)}`;
+              }
+            }
+            
             const date = payload.date || '';
             const score = result.score?.toFixed(3) || '?';
             const ref = payload.paper_reference ? ` (${payload.paper_reference})` : '';
@@ -113,12 +125,26 @@ async function searchDocuments(env, args) {
 
         const structuredResults = results.map((result, index) => {
           const payload = result.payload;
+          
+          // Generate proxy URL from file_hash if available
+          let proxyUrl = null;
+          if (payload.file_hash) {
+            const proxyBaseUrl = env.PDF_PROXY_URL || 'https://nordstemmen-mcp.levinkeller.de';
+            proxyUrl = `${proxyBaseUrl}/pdf/${payload.file_hash}`;
+            
+            // Add filename if available
+            if (payload.filename) {
+              const filename = payload.filename.split('/').pop(); // Get just the filename part
+              proxyUrl += `?filename=${encodeURIComponent(filename)}`;
+            }
+          }
+          
           return {
             rank: index + 1,
             title: payload.entity_name || payload.filename || 'Unknown',
-            url: payload.pdf_access_url || payload.entity_id || null,
+            url: proxyUrl || payload.entity_id || null,
             oparl_id: payload.entity_id || null,
-            pdf_url: payload.pdf_access_url || null,
+            pdf_url: proxyUrl || null,
             file_hash: payload.file_hash || null,
             date: payload.date || null,
             page: payload.page || null,
@@ -178,8 +204,19 @@ async function getPaperByReference(env, args) {
 
     const payload = scrollResult.points[0].payload;
 
-    // Prefer direct PDF link over OParl API link
-    const pdfUrl = payload.pdf_access_url || '';
+    // Generate proxy URL from file_hash if available
+    let pdfUrl = '';
+    if (payload.file_hash) {
+      const proxyBaseUrl = env.PDF_PROXY_URL || 'https://nordstemmen-mcp.levinkeller.de';
+      pdfUrl = `${proxyBaseUrl}/pdf/${payload.file_hash}`;
+      
+      // Add filename if available
+      if (payload.filename) {
+        const filename = payload.filename.split('/').pop(); // Get just the filename part
+        pdfUrl += `?filename=${encodeURIComponent(filename)}`;
+      }
+    }
+    
     const oparlUrl = payload.entity_id || '';
     const primaryLink = pdfUrl || oparlUrl;
 
@@ -281,13 +318,26 @@ async function searchPapers(env, args) {
     scrollResult.points.forEach((point) => {
       const p = point.payload;
       if (!papersMap.has(p.paper_reference)) {
+        // Generate proxy URL from file_hash if available
+        let proxyUrl = null;
+        if (p.file_hash) {
+          const proxyBaseUrl = env.PDF_PROXY_URL || 'https://nordstemmen-mcp.levinkeller.de';
+          proxyUrl = `${proxyBaseUrl}/pdf/${p.file_hash}`;
+          
+          // Add filename if available
+          if (p.filename) {
+            const filename = p.filename.split('/').pop(); // Get just the filename part
+            proxyUrl += `?filename=${encodeURIComponent(filename)}`;
+          }
+        }
+        
         papersMap.set(p.paper_reference, {
           reference: p.paper_reference || null,
           name: p.entity_name || null,
           paperType: p.paper_type || null,
           date: p.date || null,
           oparl_id: p.entity_id || null,
-          pdf_url: p.pdf_access_url || null,
+          pdf_url: proxyUrl || null,
           file_hash: p.file_hash || null,
         });
       }
@@ -298,7 +348,7 @@ async function searchPapers(env, args) {
     // Build text output
     const textResults = papers
       .map((paper, index) => {
-        // Prefer PDF link over OParl API link
+        // Prefer proxy PDF link over OParl API link
         const url = paper.pdf_url || paper.oparl_id;
         const titleLink = url ? `[${paper.name}](${url})` : paper.name;
         const metadata = [paper.reference, paper.paperType, paper.date].filter(Boolean).join(' • ');
