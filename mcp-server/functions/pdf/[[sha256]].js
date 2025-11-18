@@ -79,9 +79,11 @@ async function getDownloadAuth(env, authData, fileName) {
  * Get filename for a given SHA256 hash
  */
 function getFileNameForHash(sha256) {
+  // Ensure sha256 is a string
+  const hashStr = String(sha256);
   // Git LFS stores files as: lfs/objects/{first2chars}/{remaining62chars}
-  const first2 = sha256.substring(0, 2);
-  const remaining = sha256.substring(2);
+  const first2 = hashStr.substring(0, 2);
+  const remaining = hashStr.substring(2);
   return `lfs/objects/${first2}/${remaining}`;
 }
 
@@ -93,7 +95,7 @@ export async function onRequestGet(context) {
   const { request, params, env } = context;
 
   try {
-    const sha256 = params.sha256;
+    const sha256 = String(params.sha256 || '');
     
     // Get filename from query parameter
     const url = new URL(request.url);
