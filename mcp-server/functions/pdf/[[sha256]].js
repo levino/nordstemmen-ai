@@ -95,6 +95,9 @@ export async function onRequestGet(context) {
   const { request, params, env } = context;
 
   try {
+    // Debug: Log the actual params to understand the issue
+    console.log('Debug params:', typeof params.sha256, params.sha256, params);
+    
     const sha256 = String(params.sha256 || '');
     
     // Get filename from query parameter
