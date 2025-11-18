@@ -1,6 +1,6 @@
 import { env } from 'cloudflare:test';
-import { describe, it, expect } from 'vitest';
 import { InferenceClient } from '@huggingface/inference';
+import { describe, expect, it } from 'vitest';
 
 const workingModels = [
   { name: 'intfloat/multilingual-e5-base', expectedDim: 768 },

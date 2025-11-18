@@ -1,6 +1,6 @@
-import { describe, it, expect } from 'vitest';
 import { Effect } from 'effect';
 import nock from 'nock';
+import { describe, expect, it } from 'vitest';
 import { fetchAllPapers } from '../client.ts';
 
 nock.back.fixtures = `${import.meta.dirname}/nockFixtures`;

@@ -1,6 +1,6 @@
-import { Effect } from 'effect';
-import { join, dirname } from 'node:path';
+import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { Effect } from 'effect';
 import { runScraper } from './scraper.ts';
 
 const __filename = fileURLToPath(import.meta.url);

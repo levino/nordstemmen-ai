@@ -1,10 +1,10 @@
-import { Effect, Schema as S, pipe, flow } from 'effect';
-import { writeFile, mkdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
+import { mkdir, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { fetchAllPapers, fetchAllMeetings, downloadFile, effectFetchJson } from './client.ts';
+import { Effect, flow, pipe, Schema as S } from 'effect';
+import { downloadFile, effectFetchJson, fetchAllMeetings, fetchAllPapers } from './client.ts';
+import type { OParlMeeting, OParlPaper } from './schema.ts';
 import { OParlPaperSchema } from './schema.ts';
-import type { OParlPaper, OParlMeeting } from './schema.ts';
 
 export const fetchPaperMetadata = flow(effectFetchJson, Effect.flatMap(S.decodeUnknown(OParlPaperSchema)));
 
@@ -20,12 +20,12 @@ interface Stats {
 const extractFilename = (url: string): string => {
   const parts = url.split('/');
   const last = parts[parts.length - 1];
-  return decodeURIComponent(last).replace(/[\/\\:*?"<>|]/g, '_');
+  return decodeURIComponent(last).replace(/[/\\:*?"<>|]/g, '_');
 };
 
 const sanitize = (name: string): string =>
   name
-    .replace(/[\/\\:*?"<>|]/g, '_')
+    .replace(/[/\\:*?"<>|]/g, '_')
     .replace(/\s+/g, '_')
     .slice(0, 100);
 
