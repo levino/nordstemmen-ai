@@ -30,7 +30,7 @@ export async function onRequestOptions() {
 /**
  * Authenticate with Backblaze B2 and get auth token
  */
-async function authenticateB2(env) {
+export async function authenticateB2(env) {
   const authResponse = await fetch(`${B2_API_BASE_URL}/b2api/v3/b2_authorize_account`, {
     method: 'GET',
     headers: {
@@ -43,7 +43,6 @@ async function authenticateB2(env) {
   }
 
   const authData = await authResponse.json();
-  console.log('B2 auth response:', authData);
   return {
     authorizationToken: authData.authorizationToken,
     apiUrl: authData.apiUrl,
@@ -54,7 +53,7 @@ async function authenticateB2(env) {
 /**
  * Get download authorization for a file
  */
-async function getDownloadAuth(env, authData, fileName) {
+export async function getDownloadAuth(env, authData, fileName) {
   const response = await fetch(`${authData.apiUrl}/b2api/v3/b2_get_download_authorization`, {
     method: 'POST',
     headers: {
@@ -79,7 +78,7 @@ async function getDownloadAuth(env, authData, fileName) {
 /**
  * Get filename for a given SHA256 hash
  */
-function getFileNameForHash(sha256) {
+export function getFileNameForHash(sha256) {
   // Ensure sha256 is a string
   const hashStr = String(sha256);
   // Git LFS stores files as: lfs/objects/{first2chars}/{remaining62chars}
@@ -96,9 +95,6 @@ export async function onRequestGet(context) {
   const { request, params, env } = context;
 
   try {
-    // Debug: Log the actual params to understand the issue
-    console.log('Debug params:', typeof params.sha256, params.sha256, params);
-    
     const sha256 = String(params.sha256 || '');
     
     // Get filename from query parameter
@@ -115,12 +111,6 @@ export async function onRequestGet(context) {
 
     // Check required environment variables
     if (!env.B2_KEY_ID || !env.B2_APP_KEY || !env.B2_BUCKET_NAME || !env.B2_BUCKET_ID) {
-      console.log('Missing B2 env vars:', {
-        B2_KEY_ID: !!env.B2_KEY_ID,
-        B2_APP_KEY: !!env.B2_APP_KEY, 
-        B2_BUCKET_NAME: !!env.B2_BUCKET_NAME,
-        B2_BUCKET_ID: !!env.B2_BUCKET_ID
-      });
       return new Response('Missing B2 configuration', {
         status: 500,
         headers: CORS_HEADERS,
