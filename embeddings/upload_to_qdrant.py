@@ -280,6 +280,7 @@ class QdrantUploader:
 
         file_hash = embeddings_data.get('file_hash')
         chunks = embeddings_data.get('chunks', [])
+        full_text = embeddings_data.get('full_text', '')  # Load full text if available
 
         if not file_hash or not chunks:
             logger.warning(f"Invalid embeddings data in {embeddings_file}")
@@ -318,17 +319,24 @@ class QdrantUploader:
             chunk_id_string = f"{file_hash}_{chunk_data['page']}_{chunk_data['chunk_index']}"
             chunk_uuid = str(uuid.uuid5(uuid.NAMESPACE_DNS, chunk_id_string))
 
+            # Build payload
+            payload = {
+                'filename': relative_path,
+                'file_hash': file_hash,
+                'page': chunk_data['page'],
+                'chunk_index': chunk_data['chunk_index'],
+                'text': chunk_data['text'],
+                **file_metadata
+            }
+
+            # Add full_text only to the first chunk (page 1, chunk 0) to save storage
+            if chunk_data['page'] == 1 and chunk_data['chunk_index'] == 0 and full_text:
+                payload['full_text'] = full_text
+
             point = PointStruct(
                 id=chunk_uuid,
                 vector=chunk_data['vector'],
-                payload={
-                    'filename': relative_path,
-                    'file_hash': file_hash,
-                    'page': chunk_data['page'],
-                    'chunk_index': chunk_data['chunk_index'],
-                    'text': chunk_data['text'],
-                    **file_metadata
-                }
+                payload=payload
             )
             all_points.append(point)
 

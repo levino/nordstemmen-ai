@@ -191,7 +191,7 @@ class LocalEmbeddingGenerator:
         chunks = self.text_splitter.split_text(text)
         return [c.strip() for c in chunks if c.strip()]
 
-    def _save_embeddings_cache(self, filepath: Path, file_hash: str, chunks_data: List[Dict]):
+    def _save_embeddings_cache(self, filepath: Path, file_hash: str, chunks_data: List[Dict], full_text: str = ''):
         """Save embeddings to cache file."""
         # Use PDF filename (without extension) + .embeddings.json to avoid overwrites
         cache_filename = filepath.stem + '.embeddings.json'
@@ -199,6 +199,7 @@ class LocalEmbeddingGenerator:
         cache_data = {
             'file_hash': file_hash,
             'filename': filepath.name,
+            'full_text': full_text,  # Store the complete extracted text
             'chunks': chunks_data
         }
 
@@ -261,6 +262,9 @@ class LocalEmbeddingGenerator:
             logger.warning(f"No text extracted from {filename}")
             return None  # Failed
 
+        # Combine all page texts into full_text for storage
+        full_text = '\n\n'.join([f"[Seite {page_num}]\n{page_text}" for page_num, page_text in pages])
+
         # Process each page and generate embeddings
         chunks_for_cache = []
         all_chunks_text = []
@@ -303,7 +307,7 @@ class LocalEmbeddingGenerator:
 
         # Save to cache
         if chunks_for_cache:
-            self._save_embeddings_cache(filepath, file_hash, chunks_for_cache)
+            self._save_embeddings_cache(filepath, file_hash, chunks_for_cache, full_text)
 
         return False  # Processed
 

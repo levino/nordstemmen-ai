@@ -49,7 +49,7 @@ async function generateEmbedding(env, text) {
 // ============================================================================
 
 async function searchDocuments(env, args) {
-  const { query, limit = 5, date_from, date_to } = args;
+  const { query, limit = 5, offset = 0, date_from, date_to } = args;
 
   try {
     const client = new QdrantClient({
@@ -61,9 +61,12 @@ async function searchDocuments(env, args) {
     return generateEmbedding(env, query)
       .then((queryEmbedding) => {
         // Build filter for date range if provided
+        // For pagination: fetch limit + offset results, then slice
+        const effectiveLimit = Math.min(limit, 10);
+        const fetchLimit = effectiveLimit + offset;
         const searchParams = {
           vector: queryEmbedding,
-          limit: Math.min(limit, 10),
+          limit: fetchLimit,
           with_payload: true,
         };
 
@@ -85,7 +88,10 @@ async function searchDocuments(env, args) {
         return client.search(env.QDRANT_COLLECTION, searchParams);
       })
       .then((results) => {
-        if (!results || results.length === 0) {
+        // Apply pagination: skip first 'offset' results
+        const paginatedResults = results.slice(offset);
+
+        if (!paginatedResults || paginatedResults.length === 0) {
           return {
             text: 'No relevant documents found.',
             structured: [],
@@ -93,7 +99,7 @@ async function searchDocuments(env, args) {
         }
 
         // Build both text and structured versions
-        const textResults = results
+        const textResults = paginatedResults
           .map((result, index) => {
             const payload = result.payload;
             const title = payload.entity_name || payload.filename || 'Unknown';
@@ -123,7 +129,7 @@ async function searchDocuments(env, args) {
           })
           .join('\n\n---\n\n');
 
-        const structuredResults = results.map((result, index) => {
+        const structuredResults = paginatedResults.map((result, index) => {
           const payload = result.payload;
           
           // Generate proxy URL from file_hash if available
@@ -247,8 +253,86 @@ ${pdfUrl ? `**PDF:** ${pdfUrl}` : ''}
   }
 }
 
+async function getDocumentText(env, args) {
+  const { file_hash } = args;
+
+  try {
+    const client = new QdrantClient({
+      url: env.QDRANT_URL,
+      apiKey: env.QDRANT_API_KEY,
+      port: env.QDRANT_PORT ? parseInt(env.QDRANT_PORT) : undefined,
+    });
+
+    // Search for the first chunk of the document (page 1, chunk_index 0) which contains full_text
+    const scrollResult = await client.scroll(env.QDRANT_COLLECTION, {
+      filter: {
+        must: [
+          {
+            key: 'file_hash',
+            match: { value: file_hash },
+          },
+          {
+            key: 'page',
+            match: { value: 1 },
+          },
+          {
+            key: 'chunk_index',
+            match: { value: 0 },
+          },
+        ],
+      },
+      limit: 1,
+      with_payload: ['full_text', 'filename', 'entity_name', 'paper_reference', 'date', 'entity_type'],
+    });
+
+    if (!scrollResult.points || scrollResult.points.length === 0) {
+      return {
+        text: `Document with file_hash "${file_hash}" not found.`,
+        structured: null,
+      };
+    }
+
+    const payload = scrollResult.points[0].payload;
+    const fullText = payload.full_text;
+
+    if (!fullText) {
+      return {
+        text: `Full text not available for this document. The document may have been indexed before full text storage was enabled.`,
+        structured: {
+          file_hash,
+          filename: payload.filename || null,
+          entity_name: payload.entity_name || null,
+          full_text: null,
+          error: 'Full text not available - document needs re-indexing',
+        },
+      };
+    }
+
+    const title = payload.entity_name || payload.filename || 'Unknown';
+    const ref = payload.paper_reference ? ` (${payload.paper_reference})` : '';
+    const date = payload.date ? ` - ${payload.date}` : '';
+
+    const textResponse = `# ${title}${ref}${date}\n\n${fullText}`;
+
+    return {
+      text: textResponse,
+      structured: {
+        file_hash,
+        filename: payload.filename || null,
+        entity_name: payload.entity_name || null,
+        paper_reference: payload.paper_reference || null,
+        date: payload.date || null,
+        entity_type: payload.entity_type || null,
+        full_text: fullText,
+      },
+    };
+  } catch (error) {
+    throw new Error(`Get document text error: ${error.message}`);
+  }
+}
+
 async function searchPapers(env, args) {
-  const { reference_pattern, name_contains, paper_type, date_from, date_to, limit = 10 } = args;
+  const { reference_pattern, name_contains, paper_type, date_from, date_to, limit = 10, offset = 0 } = args;
 
   try {
     const client = new QdrantClient({
@@ -300,10 +384,13 @@ async function searchPapers(env, args) {
     }
 
     // Scroll through results (no vector search, just filtering)
+    // For pagination: fetch more results to account for offset and deduplication
+    const effectiveLimit = Math.min(limit, 50);
+    const fetchLimit = (effectiveLimit + offset) * 3; // Fetch extra to account for deduplication
     const scrollResult = await client.scroll(env.QDRANT_COLLECTION, {
       filter: { must },
-      limit: Math.min(limit, 50),
-      with_payload: ['entity_name', 'paper_reference', 'paper_type', 'date', 'entity_id', 'pdf_access_url'],
+      limit: fetchLimit,
+      with_payload: ['entity_name', 'paper_reference', 'paper_type', 'date', 'entity_id', 'pdf_access_url', 'file_hash', 'filename'],
     });
 
     if (!scrollResult.points || scrollResult.points.length === 0) {
@@ -343,7 +430,16 @@ async function searchPapers(env, args) {
       }
     });
 
-    const papers = Array.from(papersMap.values());
+    // Apply pagination after deduplication
+    const allPapers = Array.from(papersMap.values());
+    const papers = allPapers.slice(offset, offset + effectiveLimit);
+
+    if (papers.length === 0) {
+      return {
+        text: 'No papers found matching the criteria.',
+        structured: [],
+      };
+    }
 
     // Build text output
     const textResults = papers
@@ -493,6 +589,12 @@ Datenstruktur:
                       'Maximale Anzahl der zurückgegebenen Suchergebnisse. Standard ist 5, Maximum ist 10. Bei spezifischen Fragen reichen oft 3-5 Ergebnisse, bei breiten Themen können 10 Ergebnisse sinnvoll sein.',
                     default: 5,
                   },
+                  offset: {
+                    type: 'number',
+                    description:
+                      'Anzahl der Ergebnisse, die übersprungen werden sollen (für Pagination). Standard ist 0. Beispiel: offset=5 überspringt die ersten 5 Ergebnisse.',
+                    default: 0,
+                  },
                   date_from: {
                     type: 'string',
                     description:
@@ -612,8 +714,43 @@ OParl ist ein offener Standard für parlamentarische Informationssysteme (https:
                     description: 'Maximale Anzahl Ergebnisse. Standard: 10, Maximum: 50.',
                     default: 10,
                   },
+                  offset: {
+                    type: 'number',
+                    description: 'Anzahl der Ergebnisse, die übersprungen werden sollen (für Pagination). Standard ist 0.',
+                    default: 0,
+                  },
                 },
                 required: [],
+              },
+            },
+            {
+              name: 'get_document_text',
+              description: `Ruft den vollständigen extrahierten Text eines Dokuments anhand seines file_hash ab.
+
+Der file_hash ist der SHA256-Hash der PDF-Datei und wird in den Suchergebnissen von search_documents und search_papers zurückgegeben.
+
+Dieses Tool ist nützlich, wenn du den kompletten Inhalt eines Dokuments lesen möchtest, anstatt nur die Textausschnitte (excerpts) aus den Suchergebnissen.
+
+**Anwendungsfälle:**
+- Vollständige Analyse eines gefundenen Dokuments
+- Extraktion aller Details aus einer Drucksache
+- Lesen des gesamten Protokolls einer Sitzung
+
+**Rückgabe:**
+- Der vollständige extrahierte Text des PDFs mit Seitenmarkierungen
+- Metadaten wie Titel, Datum und Referenz
+
+**Hinweis:** Dokumente, die vor der Einführung dieser Funktion indiziert wurden, haben möglicherweise keinen vollständigen Text gespeichert und müssen neu indiziert werden.`,
+              inputSchema: {
+                type: 'object',
+                properties: {
+                  file_hash: {
+                    type: 'string',
+                    description:
+                      'Der SHA256-Hash der PDF-Datei. Dieser wird in den Suchergebnissen als "file_hash" zurückgegeben.',
+                  },
+                },
+                required: ['file_hash'],
               },
             },
           ],
@@ -657,6 +794,16 @@ OParl ist ein offener Standard für parlamentarische Informationssysteme (https:
             structuredContent: {
               papers: searchResult.structured,
             },
+          }));
+        } else if (toolName === 'get_document_text') {
+          result = await getDocumentText(env, toolArgs).then((docResult) => ({
+            content: [
+              {
+                type: 'text',
+                text: docResult.text,
+              },
+            ],
+            structuredContent: docResult.structured,
           }));
         } else {
           throw new Error(`Unknown tool: ${toolName}`);
