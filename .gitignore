@@ -25,4 +25,11 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Python
 .venv/
+__pycache__/
+*.pyc
+
+# Fulltext extraction (temporary, uploaded to B2)
+*.fulltext.json

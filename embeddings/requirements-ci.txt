@@ -1,0 +1,11 @@
+# CI dependencies (no PyTorch, no sentence-transformers)
+# Uses Jina API for embeddings instead of local model
+python-dotenv==1.0.1
+qdrant-client==1.12.1
+pdfplumber==0.11.4
+tqdm==4.67.1
+langchain-text-splitters==0.3.2
+requests>=2.31.0
+pytesseract==0.3.13
+pillow==11.0.0
+pdf2image==1.17.0
