@@ -48,9 +48,12 @@ jobs:
         run: pip install -r embeddings/requirements-ci.txt
 
       - name: Configure Git LFS credentials
+        env:
+          LFS_USERNAME: ${{ vars.GIT_LFS_USERNAME }}
+          LFS_PASSWORD: ${{ secrets.GIT_LFS_PASSWORD }}
         run: |
           git lfs install
-          git config lfs.url "https://${{ vars.GIT_LFS_USERNAME }}:${{ secrets.GIT_LFS_PASSWORD }}@git-lfs.nordstemmen-ai.levinkeller.de"
+          git config lfs.url "https://${LFS_USERNAME}:${LFS_PASSWORD}@git-lfs.nordstemmen-ai.levinkeller.de"
           git config lfs.https://git-lfs.nordstemmen-ai.levinkeller.de.locksverify false
 
       - name: Run scraper
