@@ -7,6 +7,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Added
+- `.force_ocr` flag support in embedding generator: place an empty `.force_ocr` file in a document directory to force OCR re-extraction, bypassing broken embedded text (e.g. Aspose.PDF encoding bug)
+- `/project:review-fulltext` skill for AI-assisted quality review of extracted fulltext
 - `CLAUDE.md` with accurate project context for AI assistants
 - Documentation maintenance rules (CLAUDE.md ↔ README.md sync, changelog, sub-READMEs)
 - `CHANGELOG.md` to track project changes

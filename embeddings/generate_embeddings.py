@@ -67,6 +67,11 @@ def _is_lfs_pointer(filepath: Path) -> bool:
         return False
 
 
+def _has_force_ocr(filepath: Path) -> bool:
+    """Check if a .force_ocr flag file exists next to the PDF."""
+    return (filepath.parent / '.force_ocr').exists()
+
+
 def _backfill_single_file(pdf_file: Path, file_hash: str) -> bool:
     """Backfill fulltext for a single PDF. Top-level function for multiprocessing."""
     try:
@@ -110,21 +115,22 @@ class _BackfillHelper:
 
     def _extract_text_from_pdf(self, filepath: Path) -> List[tuple[int, str]]:
         pages = []
-        use_ocr = False
-        try:
-            with warnings.catch_warnings():
-                warnings.filterwarnings("ignore", message=".*Cannot set gray.*")
-                warnings.filterwarnings("ignore", message=".*invalid float value.*")
-                with pdfplumber.open(filepath) as pdf:
-                    for i, page in enumerate(pdf.pages):
-                        try:
-                            text = page.extract_text()
-                            if text and text.strip():
-                                pages.append((i + 1, text))
-                        except Exception:
-                            continue
-        except Exception:
-            use_ocr = True
+        use_ocr = _has_force_ocr(filepath)
+        if not use_ocr:
+            try:
+                with warnings.catch_warnings():
+                    warnings.filterwarnings("ignore", message=".*Cannot set gray.*")
+                    warnings.filterwarnings("ignore", message=".*invalid float value.*")
+                    with pdfplumber.open(filepath) as pdf:
+                        for i, page in enumerate(pdf.pages):
+                            try:
+                                text = page.extract_text()
+                                if text and text.strip():
+                                    pages.append((i + 1, text))
+                            except Exception:
+                                continue
+            except Exception:
+                use_ocr = True
         if not pages or use_ocr:
             pages = self._extract_text_with_ocr(filepath)
         return pages
@@ -138,6 +144,8 @@ class _BackfillHelper:
             'pages': [{'page': page_num, 'text': text} for page_num, text in pages],
             'full_text': full_text
         }
+        if _has_force_ocr(filepath):
+            fulltext_data['force_ocr'] = True
         with open(fulltext_file, 'w', encoding='utf-8') as f:
             json.dump(fulltext_data, f, ensure_ascii=False, indent=2)
 
@@ -233,28 +241,36 @@ class EmbeddingGeneratorBase(ABC):
             return []
 
     def _extract_text_from_pdf(self, filepath: Path) -> List[tuple[int, str]]:
-        """Extract text from PDF, returns list of (page_num, text) tuples."""
+        """Extract text from PDF, returns list of (page_num, text) tuples.
+
+        If a .force_ocr flag file exists next to the PDF, skips pdfplumber
+        and goes straight to OCR (for PDFs with broken embedded text).
+        """
         pages = []
-        use_ocr = False
+        use_ocr = _has_force_ocr(filepath)
 
-        try:
-            with warnings.catch_warnings():
-                warnings.filterwarnings("ignore", message=".*Cannot set gray.*")
-                warnings.filterwarnings("ignore", message=".*invalid float value.*")
+        if use_ocr:
+            logger.info(f"Force OCR for {filepath.name} (.force_ocr flag set)")
 
-                with pdfplumber.open(filepath) as pdf:
-                    for i, page in enumerate(pdf.pages):
-                        try:
-                            text = page.extract_text()
-                            if text and text.strip():
-                                pages.append((i + 1, text))
-                        except Exception as page_error:
-                            logger.warning(f"Error extracting page {i+1} from {filepath.name}: {page_error}")
-                            continue
+        if not use_ocr:
+            try:
+                with warnings.catch_warnings():
+                    warnings.filterwarnings("ignore", message=".*Cannot set gray.*")
+                    warnings.filterwarnings("ignore", message=".*invalid float value.*")
 
-        except Exception as e:
-            logger.warning(f"pdfplumber failed for {filepath.name}: {e}")
-            use_ocr = True
+                    with pdfplumber.open(filepath) as pdf:
+                        for i, page in enumerate(pdf.pages):
+                            try:
+                                text = page.extract_text()
+                                if text and text.strip():
+                                    pages.append((i + 1, text))
+                            except Exception as page_error:
+                                logger.warning(f"Error extracting page {i+1} from {filepath.name}: {page_error}")
+                                continue
+
+            except Exception as e:
+                logger.warning(f"pdfplumber failed for {filepath.name}: {e}")
+                use_ocr = True
 
         if not pages or use_ocr:
             logger.info(f"Falling back to OCR for {filepath.name} (no text extracted)")
@@ -276,6 +292,8 @@ class EmbeddingGeneratorBase(ABC):
             'filename': filepath.name,
             'chunks': chunks_data
         }
+        if _has_force_ocr(filepath):
+            cache_data['force_ocr'] = True
 
         try:
             with open(cache_file, 'w', encoding='utf-8') as f:
@@ -290,7 +308,7 @@ class EmbeddingGeneratorBase(ABC):
         Returns:
             List of chunks if cache is valid
             Empty list [] if cache exists but is unreadable (e.g. LFS pointer)
-            None if no cache file exists
+            None if no cache file exists or force_ocr status changed
         """
         cache_filename = filepath.stem + '.embeddings.json'
         cache_file = filepath.parent / cache_filename
@@ -311,13 +329,19 @@ class EmbeddingGeneratorBase(ABC):
             if cache_data.get('filename') != filepath.name:
                 return None
 
+            # Invalidate if force_ocr status changed
+            force_ocr_active = _has_force_ocr(filepath)
+            was_force_ocr = cache_data.get('force_ocr', False)
+            if force_ocr_active != was_force_ocr:
+                return None
+
             return cache_data.get('chunks', [])
         except Exception as e:
             logger.warning(f"Error loading embeddings cache: {e}")
             return None
 
     def _save_fulltext(self, filepath: Path, file_hash: str, pages: List[tuple[int, str]]):
-        """Save extracted fulltext as .fulltext.json for B2 upload."""
+        """Save extracted fulltext as .fulltext.json."""
         fulltext_file = filepath.parent / (filepath.stem + '.fulltext.json')
         full_text = "\n\n".join(text for _, text in pages)
         fulltext_data = {
@@ -326,6 +350,8 @@ class EmbeddingGeneratorBase(ABC):
             'pages': [{'page': page_num, 'text': text} for page_num, text in pages],
             'full_text': full_text
         }
+        if _has_force_ocr(filepath):
+            fulltext_data['force_ocr'] = True
 
         try:
             with open(fulltext_file, 'w', encoding='utf-8') as f:
@@ -357,7 +383,7 @@ class EmbeddingGeneratorBase(ABC):
         Returns:
             List of (page, text) tuples if text available
             Empty list [] if file was marked as skipped (no text extractable)
-            None if no fulltext file exists
+            None if no fulltext file exists or force_ocr status changed
         """
         fulltext_file = filepath.parent / (filepath.stem + '.fulltext.json')
         if not fulltext_file.exists() or _is_lfs_pointer(fulltext_file):
@@ -366,6 +392,12 @@ class EmbeddingGeneratorBase(ABC):
         try:
             with open(fulltext_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
+
+            # Invalidate if force_ocr status changed
+            force_ocr_active = _has_force_ocr(filepath)
+            was_force_ocr = data.get('force_ocr', False)
+            if force_ocr_active != was_force_ocr:
+                return None
 
             # Skipped files — return empty list to signal "already tried, nothing there"
             if data.get('skipped'):

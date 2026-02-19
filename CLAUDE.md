@@ -64,15 +64,22 @@ nordstemmen-ai/
 │   │   └── DS_<num>-<year>/
 │   │       ├── metadata.json   # OParl paper metadata
 │   │       ├── *.pdf           # Main + auxiliary files
-│   │       └── *.embeddings.json  # Cached embeddings (LFS)
+│   │       ├── *.fulltext.json # Extracted fulltext (for MCP server)
+│   │       ├── *.embeddings.json  # Cached embeddings (LFS)
+│   │       └── .force_ocr      # Optional: force OCR re-extraction
 │   └── meetings/               # ~1087 meeting directories
 │       └── <date>_<name>/
 │           ├── metadata.json   # OParl meeting metadata
 │           ├── *.pdf           # Invitation, protocol, attachments
-│           └── *.embeddings.json  # Cached embeddings (LFS)
+│           ├── *.fulltext.json # Extracted fulltext (for MCP server)
+│           ├── *.embeddings.json  # Cached embeddings (LFS)
+│           └── .force_ocr      # Optional: force OCR re-extraction
 ├── scripts/
 │   ├── lfs-repair.sh           # Detect/fix LFS pointer files
 │   └── update-hashes-to-sha256.py
+├── .claude/
+│   └── commands/
+│       └── review-fulltext.md  # Skill: AI review of fulltext quality
 ├── .github/workflows/
 │   └── claude.yml              # Claude Code Action (@claude in issues/PRs)
 ├── .devcontainer/
@@ -115,7 +122,7 @@ cd mcp-server && npm run build  # Production build
 ## Architecture
 
 - **Scraper**: TypeScript + Effect library. Crawls OParl API (`/paper` + `/meeting` collections), downloads PDFs, saves structured metadata per entity
-- **Embeddings**: Python. Extracts text (pdfplumber, OCR fallback), chunks (1000 chars, 200 overlap), generates embeddings (Jina v3, 1024D), caches to `.embeddings.json`, uploads to Qdrant
+- **Embeddings**: Python. Extracts text (pdfplumber, OCR fallback; `.force_ocr` flag forces OCR), chunks (1000 chars, 200 overlap), generates embeddings (Jina v3, 1024D), caches to `.embeddings.json`, uploads to Qdrant
 - **MCP Server**: Cloudflare Pages Functions. Three MCP tools: `search_documents` (semantic vector search), `get_paper_by_reference` (direct DS lookup), `search_papers` (filtered metadata search). Also serves PDFs via proxy at `/pdf/<sha256>`
 - **Vector DB**: Qdrant (self-hosted at qdrant.levinkeller.de)
 - **Embeddings API**: Jina AI v3 (query-time embeddings)
@@ -139,6 +146,14 @@ See `.env.example`:
 
 MCP Server additionally needs (set in Cloudflare dashboard):
 - `JINA_API_KEY` — Jina AI API key for query embeddings
+
+## OCR Quality Review
+
+Some PDFs have broken embedded text (e.g. Aspose.PDF encoding bug in 2019-2020 documents). The `.force_ocr` flag mechanism handles this:
+
+- **`.force_ocr` flag**: Empty file placed in a document directory. Forces OCR re-extraction for all PDFs in that folder, bypassing pdfplumber.
+- **`/project:review-fulltext` skill**: AI agent reviews `.fulltext.json` files for gibberish text and sets `.force_ocr` flags where needed. Run occasionally, not in CI.
+- When `generate_embeddings.py` runs, it detects `.force_ocr` flags and invalidates cached fulltext/embeddings that were generated without OCR.
 
 ## Data Update Workflow (current — manual/local)
 

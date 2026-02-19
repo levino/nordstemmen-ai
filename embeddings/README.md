@@ -67,11 +67,25 @@ Embeddings are cached to disk in `embeddings.json` files:
 - Cache is invalidated when PDF hash changes
 - Contains vectors and text chunks
 
+## Force OCR (`.force_ocr` flag)
+
+Some PDFs have broken embedded text (e.g. Aspose.PDF encoding bug in 2019-2020 Jahresabschlüsse). To force OCR re-extraction:
+
+1. Create an empty `.force_ocr` file in the document directory:
+   ```bash
+   touch documents/papers/DS_123-2020/.force_ocr
+   ```
+2. Run `python generate_embeddings.py` — it will skip pdfplumber and use OCR for all PDFs in flagged directories
+3. Both `.fulltext.json` and `.embeddings.json` caches are automatically invalidated and regenerated
+
+Use the `/project:review-fulltext` skill to let the AI agent identify gibberish text and set flags.
+
 ## Re-processing
 
 Files are automatically re-processed when:
 - Hash changes (file was modified)
 - Not found in Qdrant
 - Cache is missing or invalid
+- `.force_ocr` flag is added or removed (force_ocr status changed)
 
 Cached embeddings are reused when available (no recomputation needed).
