@@ -2,6 +2,15 @@
 
 > Machine-readable project context for AI assistants. Human-readable docs: [README.md](README.md)
 
+## Documentation Maintenance Rules
+
+**These rules are mandatory for every commit/push:**
+
+1. **CLAUDE.md ↔ README.md sync**: When you change project structure, commands, architecture, or workflows, update BOTH `CLAUDE.md` (machine-readable) and `README.md` (human-readable). Never let them drift apart.
+2. **CHANGELOG.md**: Every user-facing or structural change gets an entry in [CHANGELOG.md](CHANGELOG.md). Follow the existing format (Keep a Changelog). Add entries under `[Unreleased]`. Categories: Added, Changed, Fixed, Removed.
+3. **Sub-READMEs**: If changes affect `scraper/`, `embeddings/`, or `mcp-server/`, update their respective `README.md` files too.
+4. **Verify before push**: Before pushing, confirm that file paths, command names, and structure descriptions in docs match the actual repository state.
+
 ## Project Overview
 
 Semantic search over public documents from the municipality of Nordstemmen (Gemeinde Nordstemmen).
@@ -72,6 +81,7 @@ nordstemmen-ai/
 ├── .gitattributes              # LFS tracking: *.pdf, *.embeddings.json
 ├── .lfsconfig                  # Custom LFS server: git-lfs.nordstemmen-ai.levinkeller.de
 ├── biome.json                  # Linter/formatter config
+├── CHANGELOG.md                # Project changelog (Keep a Changelog format)
 └── package.json                # Root workspace (scraper + mcp-server)
 ```
 

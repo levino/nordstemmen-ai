@@ -167,6 +167,8 @@ nordstemmen-ai/
 ├── .lfsconfig                    # Custom LFS Server Konfiguration
 ├── biome.json                    # Linter/Formatter (Biome)
 ├── package.json                  # Root Workspace (scraper + mcp-server)
+├── CLAUDE.md                     # Projekt-Kontext für KI-Assistenten
+├── CHANGELOG.md                  # Änderungsprotokoll
 ├── .gitignore
 ├── LICENSE                       # MIT License
 └── README.md
