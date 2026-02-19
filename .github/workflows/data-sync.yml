@@ -95,4 +95,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git commit -m "data: sync new documents from OParl API" || echo "Nothing to commit"
+          git pull --rebase origin main
           git push
