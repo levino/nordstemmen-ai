@@ -98,24 +98,11 @@ async function searchDocuments(env, args) {
             const payload = result.payload;
             const title = payload.entity_name || payload.filename || 'Unknown';
             
-            // Generate proxy URL from file_hash if available, fallback to entity_id (OParl API)
-            let url = payload.entity_id || '';
-            if (payload.file_hash) {
-              const proxyBaseUrl = env.PDF_PROXY_URL || 'https://nordstemmen-mcp.levinkeller.de';
-              url = `${proxyBaseUrl}/pdf/${payload.file_hash}`;
-              
-              // Add filename if available
-              if (payload.filename) {
-                const filename = payload.filename.split('/').pop(); // Get just the filename part
-                url += `?filename=${encodeURIComponent(filename)}`;
-              }
-            }
-            
+            const url = payload.pdf_access_url || payload.entity_id || '';
             const date = payload.date || '';
             const score = result.score?.toFixed(3) || '?';
             const ref = payload.paper_reference ? ` (${payload.paper_reference})` : '';
 
-            // Markdown with clickable link
             const titleLink = url ? `[${title}](${url})` : title;
             const metadata = [date, `Score: ${score}`].filter(Boolean).join(' • ');
 
@@ -125,26 +112,14 @@ async function searchDocuments(env, args) {
 
         const structuredResults = results.map((result, index) => {
           const payload = result.payload;
-          
-          // Generate proxy URL from file_hash if available
-          let proxyUrl = null;
-          if (payload.file_hash) {
-            const proxyBaseUrl = env.PDF_PROXY_URL || 'https://nordstemmen-mcp.levinkeller.de';
-            proxyUrl = `${proxyBaseUrl}/pdf/${payload.file_hash}`;
-            
-            // Add filename if available
-            if (payload.filename) {
-              const filename = payload.filename.split('/').pop(); // Get just the filename part
-              proxyUrl += `?filename=${encodeURIComponent(filename)}`;
-            }
-          }
-          
+          const pdfUrl = payload.pdf_access_url || null;
+
           return {
             rank: index + 1,
             title: payload.entity_name || payload.filename || 'Unknown',
-            url: proxyUrl || payload.entity_id || null,
+            url: pdfUrl || payload.entity_id || null,
             oparl_id: payload.entity_id || null,
-            pdf_url: proxyUrl || null,
+            pdf_url: pdfUrl,
             file_hash: payload.file_hash || null,
             date: payload.date || null,
             page: payload.page || null,
@@ -204,19 +179,7 @@ async function getPaperByReference(env, args) {
 
     const payload = scrollResult.points[0].payload;
 
-    // Generate proxy URL from file_hash if available
-    let pdfUrl = '';
-    if (payload.file_hash) {
-      const proxyBaseUrl = env.PDF_PROXY_URL || 'https://nordstemmen-mcp.levinkeller.de';
-      pdfUrl = `${proxyBaseUrl}/pdf/${payload.file_hash}`;
-      
-      // Add filename if available
-      if (payload.filename) {
-        const filename = payload.filename.split('/').pop(); // Get just the filename part
-        pdfUrl += `?filename=${encodeURIComponent(filename)}`;
-      }
-    }
-    
+    const pdfUrl = payload.pdf_access_url || '';
     const oparlUrl = payload.entity_id || '';
     const primaryLink = pdfUrl || oparlUrl;
 
@@ -318,26 +281,13 @@ async function searchPapers(env, args) {
     scrollResult.points.forEach((point) => {
       const p = point.payload;
       if (!papersMap.has(p.paper_reference)) {
-        // Generate proxy URL from file_hash if available
-        let proxyUrl = null;
-        if (p.file_hash) {
-          const proxyBaseUrl = env.PDF_PROXY_URL || 'https://nordstemmen-mcp.levinkeller.de';
-          proxyUrl = `${proxyBaseUrl}/pdf/${p.file_hash}`;
-          
-          // Add filename if available
-          if (p.filename) {
-            const filename = p.filename.split('/').pop(); // Get just the filename part
-            proxyUrl += `?filename=${encodeURIComponent(filename)}`;
-          }
-        }
-        
         papersMap.set(p.paper_reference, {
           reference: p.paper_reference || null,
           name: p.entity_name || null,
           paperType: p.paper_type || null,
           date: p.date || null,
           oparl_id: p.entity_id || null,
-          pdf_url: proxyUrl || null,
+          pdf_url: p.pdf_access_url || null,
           file_hash: p.file_hash || null,
         });
       }
@@ -376,64 +326,17 @@ async function getDocumentText(env, args) {
   }
 
   try {
-    // Authenticate with B2 (same pattern as pdf/[[sha256]].js)
-    const authResponse = await fetch('https://api.backblazeb2.com/b2api/v3/b2_authorize_account', {
-      method: 'GET',
-      headers: {
-        Authorization: `Basic ${btoa(`${env.B2_KEY_ID}:${env.B2_APP_KEY}`)}`,
-      },
-    });
+    // Read from bundled static assets
+    const response = await env.ASSETS.fetch(new Request(`http://dummy/text/${file_hash}.txt`));
 
-    if (!authResponse.ok) {
-      throw new Error(`B2 auth failed: ${authResponse.status}`);
+    if (!response.ok) {
+      return {
+        text: `No fulltext available for file hash ${file_hash}. The document may not have been processed yet.`,
+      };
     }
 
-    const authData = await authResponse.json();
-    const downloadUrl = authData.apiInfo?.storageApi?.downloadUrl;
-    const apiUrl = authData.apiInfo?.storageApi?.apiUrl;
-
-    // Get download authorization
-    const downloadAuthResponse = await fetch(`${apiUrl}/b2api/v3/b2_get_download_authorization`, {
-      method: 'POST',
-      headers: {
-        Authorization: authData.authorizationToken,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        bucketId: env.B2_BUCKET_ID,
-        fileNamePrefix: `${file_hash}.txt`,
-        validDurationInSeconds: 3600,
-      }),
-    });
-
-    if (!downloadAuthResponse.ok) {
-      throw new Error(`B2 download auth failed: ${downloadAuthResponse.status}`);
-    }
-
-    const downloadAuth = await downloadAuthResponse.json();
-
-    // Download the text file
-    const textUrl = `${downloadUrl}/file/${env.B2_BUCKET_NAME}/${file_hash}.txt`;
-    const textResponse = await fetch(textUrl, {
-      headers: {
-        Authorization: downloadAuth.authorizationToken,
-      },
-    });
-
-    if (!textResponse.ok) {
-      if (textResponse.status === 404) {
-        return {
-          text: `No fulltext available for file hash ${file_hash}. The document may not have been processed yet.`,
-        };
-      }
-      throw new Error(`B2 download failed: ${textResponse.status}`);
-    }
-
-    const fullText = await textResponse.text();
-
-    return {
-      text: fullText,
-    };
+    const fullText = await response.text();
+    return { text: fullText };
   } catch (error) {
     throw new Error(`Get document text error: ${error.message}`);
   }
@@ -517,40 +420,12 @@ Zeitraum: Dokumente ab 2007 bis heute
 Die semantische Suche findet relevante Informationen auch wenn die exakten Suchbegriffe nicht im Text vorkommen.
 Ideal für Fragen zu kommunalen Themen wie Bauprojekte, Haushalt, Beschlüsse, Verkehr, Bildung, Soziales, etc.
 
-**WICHTIG - Zwei Arten von Links:**
+**Links:**
 
-Für jedes Dokument werden ZWEI Informationen zurückgegeben:
-
-1. **PDF-Link (pdf_url)**: Direkter Link zum PDF-Dokument
-   - Beispiel: https://nordstemmen-mcp.levinkeller.de/pdf/abc123...
-   - **Lade das PDF direkt über diesen Link**
-   - Funktioniert für alle PDFs, schnell und effizient durch Edge-Caching
-   - **Zeige diesen Link auch dem Nutzer als Quellenangabe**
-
-2. **OParl-API-Link (oparl_id)**: Link zum Paper/Meeting-Objekt in der OParl-API
-   - Beispiel: https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5475
-   - **Nutze ihn NUR um verwandte Dokumente zu finden**: weitere Anhänge bei Papers, weitere Dokumente bei Meetings
-   - Liefert maschinenlesbares JSON mit Metadaten und Links zu anderen Dokumenten
-
-**WORKFLOW:**
-
-1. **PDF-Download**: Lade das PDF direkt über pdf_url
-   \`\`\`
-   response = fetch(pdf_url)
-   pdf_content = response.body
-   \`\`\`
-
-2. **Weitere Dokumente**: Nutze oparl_id um verwandte Dokumente zu finden
-
-3. **Quellenangabe**: Zeige dem Nutzer den pdf_url als Quellenangabe
-
-**Über OParl:**
-OParl ist ein offener Standard für parlamentarische Informationssysteme (https://oparl.org).
-
-Datenstruktur:
-- Paper (Drucksache): Beschlussvorlagen, Anträge, Mitteilungen
-- Meeting (Sitzung): Rats- und Ausschusssitzungen
-- Files: PDF-Dokumente der Vorlagen und Protokolle`,
+Für jedes Dokument werden zurückgegeben:
+- **pdf_url**: Direkter Link zum PDF auf dem Ratsinformationssystem (nordstemmen.ratsinfomanagement.net). Zeige diesen Link dem Nutzer als Quellenangabe.
+- **oparl_id**: Link zum OParl-API-Objekt. Nutze ihn um verwandte Dokumente zu finden (weitere Anhänge, zugehörige Meetings).
+- **file_hash**: SHA256-Hash des PDFs. Nutze \`get_document_text\` mit diesem Hash um den Volltext abzurufen.`,
               inputSchema: {
                 type: 'object',
                 properties: {
@@ -592,23 +467,7 @@ Das Tool normalisiert automatisch die verschiedenen Formate und findet die passe
 
 Die Drucksachennummer muss das Jahr enthalten (z.B. "101/2012"). Reine Nummern ohne Jahr (z.B. "101") sind mehrdeutig und werden nicht akzeptiert.
 
-**WICHTIG - PDF-Zugriff:**
-
-Das Tool liefert zwei Informationen für den PDF-Zugriff:
-
-1. **PDF-Link (pdf_url)**: Direkter Link zum PDF-Hauptdokument
-   - **Lade das PDF direkt über diesen Link**
-   - Schnell und effizient, funktioniert für alle PDFs
-   - **Zeige diesen Link auch dem Nutzer als Quellenangabe**
-
-2. **OParl-ID (oparl_id)**: Link zum Paper-Objekt in der OParl-API
-   - **Nutze ihn NUR um verwandte Dokumente zu finden**: weitere Anhänge, Beratungsverläufe, zugehörige Meetings
-   - Liefert maschinenlesbares JSON mit Metadaten und Links zu anderen Dokumenten
-
-**Workflow:** (1) Lade das PDF direkt über pdf_url, (2) Falls du weitere Anhänge brauchst, nutze oparl_id, (3) Zeige dem Nutzer den pdf_url als Quellenangabe.
-
-**Über OParl:**
-OParl ist ein offener Standard für parlamentarische Informationssysteme (https://oparl.org).`,
+**Links:** pdf_url zeigt direkt auf das Ratsinformationssystem. Nutze \`get_document_text\` mit dem file_hash für den Volltext.`,
               inputSchema: {
                 type: 'object',
                 properties: {
@@ -636,23 +495,7 @@ Ideal für:
 - "Bebauungspläne aus den letzten 2 Jahren"
 - "Drucksachen zum Thema Haushalt"
 
-**WICHTIG - PDF-Zugriff:**
-
-Für jede Drucksache werden zwei Informationen für den PDF-Zugriff zurückgegeben:
-
-1. **PDF-Link (pdf_url)**: Direkter Link zum PDF-Hauptdokument
-   - **Lade das PDF direkt über diesen Link**
-   - Schnell und effizient, funktioniert für alle PDFs
-   - **Zeige diesen Link auch dem Nutzer als Quellenangabe**
-
-2. **OParl-ID (oparl_id)**: Link zum Paper-Objekt in der OParl-API
-   - **Nutze ihn NUR um verwandte Dokumente zu finden**: weitere Anhänge, Beratungsverläufe, zugehörige Meetings
-   - Liefert maschinenlesbares JSON mit Metadaten und Links zu anderen Dokumenten
-
-**Workflow:** (1) Lade das PDF direkt über pdf_url, (2) Falls du weitere Anhänge brauchst, nutze oparl_id, (3) Zeige dem Nutzer den pdf_url als Quellenangabe.
-
-**Über OParl:**
-OParl ist ein offener Standard für parlamentarische Informationssysteme (https://oparl.org).`,
+**Links:** pdf_url zeigt direkt auf das Ratsinformationssystem. Nutze \`get_document_text\` mit dem file_hash für den Volltext.`,
               inputSchema: {
                 type: 'object',
                 properties: {
