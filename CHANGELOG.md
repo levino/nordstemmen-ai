@@ -11,7 +11,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Documentation maintenance rules (CLAUDE.md ↔ README.md sync, changelog, sub-READMEs)
 - `CHANGELOG.md` to track project changes
 
+### Changed
+- MCP tool responses now return JSON in `content.text` instead of formatted Markdown, so AI clients can reliably access all fields including `file_hash`
+- Removed `structuredContent` from MCP responses (most clients ignored it)
+
 ### Fixed
+- `searchPapers` was not fetching `file_hash` from Qdrant (missing in `with_payload`)
+- `file_hash` was invisible to AI clients because it only existed in `structuredContent`, which most MCP clients ignore
 - Wrong file names in README (`generate.py` → `generate_embeddings.py`, `_worker.js` → `functions/mcp.js`)
 - Outdated repository structure in README (now reflects papers/meetings subdirs, functions/, src/, scripts/, .devcontainer/, .github/)
 - README now documents all 3 MCP tools instead of just `search_documents`

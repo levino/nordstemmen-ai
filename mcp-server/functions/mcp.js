@@ -86,31 +86,10 @@ async function searchDocuments(env, args) {
       })
       .then((results) => {
         if (!results || results.length === 0) {
-          return {
-            text: 'No relevant documents found.',
-            structured: [],
-          };
+          return [];
         }
 
-        // Build both text and structured versions
-        const textResults = results
-          .map((result, index) => {
-            const payload = result.payload;
-            const title = payload.entity_name || payload.filename || 'Unknown';
-            
-            const url = payload.pdf_access_url || payload.entity_id || '';
-            const date = payload.date || '';
-            const score = result.score?.toFixed(3) || '?';
-            const ref = payload.paper_reference ? ` (${payload.paper_reference})` : '';
-
-            const titleLink = url ? `[${title}](${url})` : title;
-            const metadata = [date, `Score: ${score}`].filter(Boolean).join(' • ');
-
-            return `${index + 1}. ${titleLink}${ref}\n${metadata}\n\n${payload.text || ''}`;
-          })
-          .join('\n\n---\n\n');
-
-        const structuredResults = results.map((result, index) => {
+        return results.map((result, index) => {
           const payload = result.payload;
           const pdfUrl = payload.pdf_access_url || null;
 
@@ -130,11 +109,6 @@ async function searchDocuments(env, args) {
             entity_type: payload.entity_type || null,
           };
         });
-
-        return {
-          text: textResults,
-          structured: structuredResults,
-        };
       });
   } catch (error) {
     throw new Error(`Search error: ${error.message}`);
@@ -171,39 +145,19 @@ async function getPaperByReference(env, args) {
     });
 
     if (!scrollResult.points || scrollResult.points.length === 0) {
-      return {
-        text: `Paper with reference "${reference}" not found.`,
-        structured: null,
-      };
+      return null;
     }
 
     const payload = scrollResult.points[0].payload;
 
-    const pdfUrl = payload.pdf_access_url || '';
-    const oparlUrl = payload.entity_id || '';
-    const primaryLink = pdfUrl || oparlUrl;
-
-    const paperInfo = `# ${payload.entity_name || 'Unknown Paper'}
-
-**Reference:** ${payload.paper_reference || 'N/A'}
-**Type:** ${payload.paper_type || 'N/A'}
-**Date:** ${payload.date || 'N/A'}
-${pdfUrl ? `**PDF:** ${pdfUrl}` : ''}
-**OParl ID:** ${oparlUrl || 'N/A'}
-
-[${pdfUrl ? 'View PDF' : 'View in Ratsinformationssystem'}](${primaryLink || '#'})`;
-
     return {
-      text: paperInfo,
-      structured: {
-        reference: payload.paper_reference || null,
-        name: payload.entity_name || null,
-        paperType: payload.paper_type || null,
-        date: payload.date || null,
-        oparl_id: payload.entity_id || null,
-        pdf_url: payload.pdf_access_url || null,
-        file_hash: payload.file_hash || null,
-      },
+      reference: payload.paper_reference || null,
+      name: payload.entity_name || null,
+      paperType: payload.paper_type || null,
+      date: payload.date || null,
+      oparl_id: payload.entity_id || null,
+      pdf_url: payload.pdf_access_url || null,
+      file_hash: payload.file_hash || null,
     };
   } catch (error) {
     throw new Error(`Get paper error: ${error.message}`);
@@ -266,14 +220,19 @@ async function searchPapers(env, args) {
     const scrollResult = await client.scroll(env.QDRANT_COLLECTION, {
       filter: { must },
       limit: Math.min(limit, 50),
-      with_payload: ['entity_name', 'paper_reference', 'paper_type', 'date', 'entity_id', 'pdf_access_url'],
+      with_payload: [
+        'entity_name',
+        'paper_reference',
+        'paper_type',
+        'date',
+        'entity_id',
+        'pdf_access_url',
+        'file_hash',
+      ],
     });
 
     if (!scrollResult.points || scrollResult.points.length === 0) {
-      return {
-        text: 'No papers found matching the criteria.',
-        structured: [],
-      };
+      return [];
     }
 
     // Group by paper_reference to deduplicate (since each chunk has same metadata)
@@ -293,29 +252,11 @@ async function searchPapers(env, args) {
       }
     });
 
-    const papers = Array.from(papersMap.values());
-
-    // Build text output
-    const textResults = papers
-      .map((paper, index) => {
-        // Prefer proxy PDF link over OParl API link
-        const url = paper.pdf_url || paper.oparl_id;
-        const titleLink = url ? `[${paper.name}](${url})` : paper.name;
-        const metadata = [paper.reference, paper.paperType, paper.date].filter(Boolean).join(' • ');
-
-        return `${index + 1}. ${titleLink}\n${metadata}`;
-      })
-      .join('\n\n');
-
-    return {
-      text: textResults,
-      structured: papers,
-    };
+    return Array.from(papersMap.values());
   } catch (error) {
     throw new Error(`Search papers error: ${error.message}`);
   }
 }
-
 
 async function getDocumentText(env, args) {
   const { file_hash } = args;
@@ -330,13 +271,10 @@ async function getDocumentText(env, args) {
     const response = await env.ASSETS.fetch(new Request(`http://dummy/text/${file_hash}.txt`));
 
     if (!response.ok) {
-      return {
-        text: `No fulltext available for file hash ${file_hash}. The document may not have been processed yet.`,
-      };
+      return `No fulltext available for file hash ${file_hash}. The document may not have been processed yet.`;
     }
 
-    const fullText = await response.text();
-    return { text: fullText };
+    return await response.text();
   } catch (error) {
     throw new Error(`Get document text error: ${error.message}`);
   }
@@ -563,52 +501,27 @@ Der file_hash wird von den anderen Tools (search_documents, get_paper_by_referen
         const toolName = params?.name;
         const toolArgs = params?.arguments || {};
 
-        if (toolName === 'search_documents') {
-          result = await searchDocuments(env, toolArgs).then((searchResult) => ({
-            content: [
-              {
-                type: 'text',
-                text: searchResult.text,
-              },
-            ],
-            structuredContent: {
-              results: searchResult.structured,
-            },
-          }));
-        } else if (toolName === 'get_paper_by_reference') {
-          result = await getPaperByReference(env, toolArgs).then((paperResult) => ({
-            content: [
-              {
-                type: 'text',
-                text: paperResult.text,
-              },
-            ],
-            structuredContent: paperResult.structured,
-          }));
-        } else if (toolName === 'search_papers') {
-          result = await searchPapers(env, toolArgs).then((searchResult) => ({
-            content: [
-              {
-                type: 'text',
-                text: searchResult.text,
-              },
-            ],
-            structuredContent: {
-              papers: searchResult.structured,
-            },
-          }));
-        } else if (toolName === 'get_document_text') {
-          result = await getDocumentText(env, toolArgs).then((textResult) => ({
-            content: [
-              {
-                type: 'text',
-                text: textResult.text,
-              },
-            ],
-          }));
-        } else {
+        const toolHandlers = {
+          search_documents: searchDocuments,
+          get_paper_by_reference: getPaperByReference,
+          search_papers: searchPapers,
+          get_document_text: getDocumentText,
+        };
+
+        const handler = toolHandlers[toolName];
+        if (!handler) {
           throw new Error(`Unknown tool: ${toolName}`);
         }
+
+        const toolResult = await handler(env, toolArgs);
+        result = {
+          content: [
+            {
+              type: 'text',
+              text: typeof toolResult === 'string' ? toolResult : JSON.stringify(toolResult),
+            },
+          ],
+        };
         break;
       }
 
