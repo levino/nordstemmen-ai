@@ -54,6 +54,9 @@ jobs:
           git lfs install
 
       - name: Run scraper
+        env:
+          OPARL_PROXY_URL: https://nordstemmen.ratsinfomanagement.levinkeller.de
+          OPARL_PROXY_SECRET: nordstemmen-oparl-2026
         run: npm run scrape
         working-directory: scraper
 

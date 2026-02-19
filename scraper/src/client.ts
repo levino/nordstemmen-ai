@@ -2,16 +2,29 @@ import { Effect, flow, pipe, Schema as S } from 'effect';
 import type { OParlMeeting, OParlPaper } from './schema.ts';
 import { MeetingListResponseSchema, PaperListResponseSchema } from './schema.ts';
 
-export const PAPER_LIST_URL = 'https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper';
-export const MEETING_LIST_URL = 'https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting';
+const OPARL_ORIGIN = 'https://nordstemmen.ratsinfomanagement.net';
+const PROXY_URL = process.env.OPARL_PROXY_URL; // e.g. https://nordstemmen.ratsinfomanagement.levinkeller.de
+const PROXY_SECRET = process.env.OPARL_PROXY_SECRET;
 
-export const effectFetch = (url: string): Effect.Effect<Response, Error> =>
-  pipe(
-    Effect.tryPromise(() => fetch(url)),
+export const PAPER_LIST_URL = `${OPARL_ORIGIN}/webservice/oparl/v1.1/body/1/paper`;
+export const MEETING_LIST_URL = `${OPARL_ORIGIN}/webservice/oparl/v1.1/body/1/meeting`;
+
+export const effectFetch = (url: string): Effect.Effect<Response, Error> => {
+  let fetchUrl = url;
+  const headers: Record<string, string> = {};
+
+  if (PROXY_URL && url.startsWith(OPARL_ORIGIN)) {
+    fetchUrl = url.replace(OPARL_ORIGIN, PROXY_URL);
+    if (PROXY_SECRET) headers['X-Proxy-Secret'] = PROXY_SECRET;
+  }
+
+  return pipe(
+    Effect.tryPromise(() => fetch(fetchUrl, { headers })),
     Effect.flatMap((response) =>
       response.ok ? Effect.succeed(response) : Effect.fail(new Error(`HTTP ${response.status}`)),
     ),
   );
+};
 
 export const effectFetchJson = flow(
   effectFetch,
