@@ -49,9 +49,9 @@ jobs:
 
       - name: Configure Git LFS credentials
         run: |
-          git config --global credential.helper store
-          echo "https://${{ vars.GIT_LFS_USERNAME }}:${{ secrets.GIT_LFS_PASSWORD }}@git-lfs.nordstemmen-ai.levinkeller.de" > ~/.git-credentials
           git lfs install
+          git config lfs.url "https://${{ vars.GIT_LFS_USERNAME }}:${{ secrets.GIT_LFS_PASSWORD }}@git-lfs.nordstemmen-ai.levinkeller.de"
+          git config lfs.https://git-lfs.nordstemmen-ai.levinkeller.de.locksverify false
 
       - name: Run scraper
         env:
