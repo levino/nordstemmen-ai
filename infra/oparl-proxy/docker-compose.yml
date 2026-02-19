@@ -1,0 +1,29 @@
+services:
+  oparl-proxy:
+    image: nginx:alpine
+    configs:
+      - source: nginx-conf
+        target: /etc/nginx/nginx.conf
+
+configs:
+  nginx-conf:
+    content: |
+      events { worker_connections 64; }
+      http {
+        server {
+          listen 80;
+          location / {
+            if ($$http_x_proxy_secret != "nordstemmen-oparl-2026") {
+              return 403;
+            }
+            proxy_pass https://nordstemmen.ratsinfomanagement.net;
+            proxy_ssl_server_name on;
+            proxy_set_header Host nordstemmen.ratsinfomanagement.net;
+            proxy_set_header X-Proxy-Secret "";
+            proxy_connect_timeout 30s;
+            proxy_read_timeout 120s;
+            proxy_send_timeout 60s;
+          }
+          location /health { return 200 "ok"; }
+        }
+      }

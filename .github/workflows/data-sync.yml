@@ -50,10 +50,13 @@ jobs:
       - name: Configure Git LFS credentials
         run: |
           git config --global credential.helper store
-          echo "https://${{ secrets.GIT_LFS_USERNAME }}:${{ secrets.GIT_LFS_PASSWORD }}@git-lfs.nordstemmen-ai.levinkeller.de" > ~/.git-credentials
+          echo "https://${{ vars.GIT_LFS_USERNAME }}:${{ secrets.GIT_LFS_PASSWORD }}@git-lfs.nordstemmen-ai.levinkeller.de" > ~/.git-credentials
           git lfs install
 
       - name: Run scraper
+        env:
+          OPARL_PROXY_URL: https://nordstemmen.ratsinfomanagement.levinkeller.de
+          OPARL_PROXY_SECRET: nordstemmen-oparl-2026
         run: npm run scrape
         working-directory: scraper
 
@@ -74,19 +77,10 @@ jobs:
           JINA_API_KEY: ${{ secrets.JINA_API_KEY }}
         run: python embeddings/generate_embeddings.py
 
-      - name: Upload to B2
-        if: steps.check.outputs.new_files != '0'
-        env:
-          B2_KEY_ID: ${{ secrets.B2_KEY_ID }}
-          B2_APP_KEY: ${{ secrets.B2_APP_KEY }}
-          B2_BUCKET_ID: ${{ secrets.B2_BUCKET_ID }}
-          B2_BUCKET_NAME: ${{ secrets.B2_BUCKET_NAME }}
-        run: python scripts/upload_to_b2.py
-
       - name: Upload to Qdrant
         if: steps.check.outputs.new_files != '0'
         env:
-          QDRANT_URL: ${{ secrets.QDRANT_URL }}
+          QDRANT_URL: ${{ vars.QDRANT_URL }}
           QDRANT_API_KEY: ${{ secrets.QDRANT_API_KEY }}
           CI: 'true'
         run: python embeddings/upload_to_qdrant.py

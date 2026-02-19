@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node build-text.js",
     "preview": "vite preview",
     "test": "vitest",
     "test:watch": "vitest --watch"
