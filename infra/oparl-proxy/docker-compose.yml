@@ -21,7 +21,8 @@ configs:
             proxy_set_header Host nordstemmen.ratsinfomanagement.net;
             proxy_set_header X-Proxy-Secret "";
             proxy_connect_timeout 30s;
-            proxy_read_timeout 60s;
+            proxy_read_timeout 120s;
+            proxy_send_timeout 60s;
           }
           location /health { return 200 "ok"; }
         }
