@@ -4,10 +4,17 @@
   "name": "Node.js & TypeScript",
   "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
   "updateContentCommand": "npm install",
+  "postCreateCommand": {
+    "claude": "npm install -g @anthropic-ai/claude-code",
+    "zellij": "curl -sSL https://github.com/zellij-org/zellij/releases/latest/download/zellij-x86_64-unknown-linux-musl.tar.gz | sudo tar xz -C /usr/local/bin"
+  },
   "features": {
     "ghcr.io/devcontainers/features/python:1": {},
     "ghcr.io/devcontainers/features/git-lfs:1": {},
-    "ghcr.io/devcontainers-extra/features/poppler-utils-apt-get:1": {}
+    "ghcr.io/devcontainers-extra/features/poppler-utils-apt-get:1": {},
+    "ghcr.io/devcontainers-extra/features/apt-packages:1": {
+      "packages": "tesseract-ocr,tesseract-ocr-deu"
+    }
   },
   "customizations": {
     "vscode": {

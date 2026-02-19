@@ -19,6 +19,8 @@ from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams, PointStruct, Filter, FieldCondition, MatchValue
 from tqdm import tqdm
 
+from generate_embeddings import _is_lfs_pointer
+
 # Configure logging (only errors and warnings)
 logging.basicConfig(
     level=logging.WARNING,
@@ -38,6 +40,9 @@ DOCUMENTS_DIR = Path(__file__).parent.parent / 'documents'
 
 # Update mode: If true, update metadata for already processed files
 UPDATE_QDRANT_METADATA = os.getenv('UPDATE_QDRANT_METADATA', 'false').lower() == 'true'
+
+# CI mode: relax PDF existence check (PDFs may be LFS pointers)
+IS_CI = os.getenv('CI', 'false').lower() == 'true'
 
 
 class QdrantUploader:
@@ -270,6 +275,10 @@ class QdrantUploader:
             # No embeddings for this file yet - not an error, just skip
             return None
 
+        # Skip LFS pointers (already uploaded in previous run)
+        if _is_lfs_pointer(embeddings_file):
+            return True
+
         # Load embeddings
         try:
             with open(embeddings_file, 'r', encoding='utf-8') as f:
@@ -285,12 +294,13 @@ class QdrantUploader:
             logger.warning(f"Invalid embeddings data in {embeddings_file}")
             return None
 
-        # Check if PDF exists
+        # Check if PDF exists (relaxed in CI where PDFs may be LFS pointers)
         pdf_filepath = folder_path / pdf_filename
-        if not pdf_filepath.exists():
+        if not pdf_filepath.exists() and not IS_CI:
             logger.warning(f"PDF not found: {pdf_filepath}")
             return None
 
+        # In CI, PDF may not exist as real file but we still know its relative path
         relative_path = str(pdf_filepath.relative_to(DOCUMENTS_DIR))
 
         # Check if already processed

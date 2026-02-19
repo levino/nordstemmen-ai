@@ -1,0 +1,101 @@
+name: Data Sync
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Every hour
+  workflow_dispatch: # Manual trigger
+
+concurrency:
+  group: data-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    env:
+      GIT_LFS_SKIP_SMUDGE: 1
+
+    steps:
+      - name: Checkout (LFS pointers only)
+        uses: actions/checkout@v4
+        with:
+          lfs: false
+          fetch-depth: 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils tesseract-ocr tesseract-ocr-deu
+
+      - name: Install scraper dependencies
+        run: npm ci
+        working-directory: scraper
+
+      - name: Install Python dependencies
+        run: pip install -r embeddings/requirements-ci.txt
+
+      - name: Configure Git LFS credentials
+        run: |
+          git config --global credential.helper store
+          echo "https://${{ secrets.GIT_LFS_USERNAME }}:${{ secrets.GIT_LFS_PASSWORD }}@git-lfs.nordstemmen-ai.levinkeller.de" > ~/.git-credentials
+          git lfs install
+
+      - name: Run scraper
+        run: npm run scrape
+        working-directory: scraper
+
+      - name: Check for new documents
+        id: check
+        run: |
+          NEW_FILES=$(git status documents/ --porcelain | wc -l)
+          echo "new_files=$NEW_FILES" >> "$GITHUB_OUTPUT"
+          if [ "$NEW_FILES" -eq 0 ]; then
+            echo "✅ No new documents found. Nothing to do."
+          else
+            echo "📦 Found $NEW_FILES new/changed files in documents/"
+          fi
+
+      - name: Generate embeddings (API mode)
+        if: steps.check.outputs.new_files != '0'
+        env:
+          JINA_API_KEY: ${{ secrets.JINA_API_KEY }}
+        run: python embeddings/generate_embeddings.py
+
+      - name: Upload to B2
+        if: steps.check.outputs.new_files != '0'
+        env:
+          B2_KEY_ID: ${{ secrets.B2_KEY_ID }}
+          B2_APP_KEY: ${{ secrets.B2_APP_KEY }}
+          B2_BUCKET_ID: ${{ secrets.B2_BUCKET_ID }}
+          B2_BUCKET_NAME: ${{ secrets.B2_BUCKET_NAME }}
+        run: python scripts/upload_to_b2.py
+
+      - name: Upload to Qdrant
+        if: steps.check.outputs.new_files != '0'
+        env:
+          QDRANT_URL: ${{ secrets.QDRANT_URL }}
+          QDRANT_API_KEY: ${{ secrets.QDRANT_API_KEY }}
+          CI: 'true'
+        run: python embeddings/upload_to_qdrant.py
+
+      - name: Commit and push new data
+        if: steps.check.outputs.new_files != '0'
+        run: |
+          git add documents/
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "data: sync new documents from OParl API" || echo "Nothing to commit"
+          git push

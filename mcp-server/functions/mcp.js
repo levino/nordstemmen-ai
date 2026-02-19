@@ -367,6 +367,78 @@ async function searchPapers(env, args) {
 }
 
 
+async function getDocumentText(env, args) {
+  const { file_hash } = args;
+
+  // Validate SHA256 format
+  if (!file_hash || !/^[a-f0-9]{64}$/i.test(file_hash)) {
+    throw new Error('Invalid file_hash: must be a 64-character hex SHA256 hash');
+  }
+
+  try {
+    // Authenticate with B2 (same pattern as pdf/[[sha256]].js)
+    const authResponse = await fetch('https://api.backblazeb2.com/b2api/v3/b2_authorize_account', {
+      method: 'GET',
+      headers: {
+        Authorization: `Basic ${btoa(`${env.B2_KEY_ID}:${env.B2_APP_KEY}`)}`,
+      },
+    });
+
+    if (!authResponse.ok) {
+      throw new Error(`B2 auth failed: ${authResponse.status}`);
+    }
+
+    const authData = await authResponse.json();
+    const downloadUrl = authData.apiInfo?.storageApi?.downloadUrl;
+    const apiUrl = authData.apiInfo?.storageApi?.apiUrl;
+
+    // Get download authorization
+    const downloadAuthResponse = await fetch(`${apiUrl}/b2api/v3/b2_get_download_authorization`, {
+      method: 'POST',
+      headers: {
+        Authorization: authData.authorizationToken,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        bucketId: env.B2_BUCKET_ID,
+        fileNamePrefix: `${file_hash}.txt`,
+        validDurationInSeconds: 3600,
+      }),
+    });
+
+    if (!downloadAuthResponse.ok) {
+      throw new Error(`B2 download auth failed: ${downloadAuthResponse.status}`);
+    }
+
+    const downloadAuth = await downloadAuthResponse.json();
+
+    // Download the text file
+    const textUrl = `${downloadUrl}/file/${env.B2_BUCKET_NAME}/${file_hash}.txt`;
+    const textResponse = await fetch(textUrl, {
+      headers: {
+        Authorization: downloadAuth.authorizationToken,
+      },
+    });
+
+    if (!textResponse.ok) {
+      if (textResponse.status === 404) {
+        return {
+          text: `No fulltext available for file hash ${file_hash}. The document may not have been processed yet.`,
+        };
+      }
+      throw new Error(`B2 download failed: ${textResponse.status}`);
+    }
+
+    const fullText = await textResponse.text();
+
+    return {
+      text: fullText,
+    };
+  } catch (error) {
+    throw new Error(`Get document text error: ${error.message}`);
+  }
+}
+
 // ============================================================================
 // Error Handling
 // ============================================================================
@@ -616,6 +688,30 @@ OParl ist ein offener Standard für parlamentarische Informationssysteme (https:
                 required: [],
               },
             },
+            {
+              name: 'get_document_text',
+              description: `Ruft den extrahierten Volltext eines Dokuments anhand seines SHA256-Hashes ab.
+
+Nutze dieses Tool, wenn du den kompletten Text eines Dokuments benötigst, z.B. um:
+- Den Inhalt eines gefundenen Dokuments vollständig zu lesen
+- Detaillierte Fragen zu einem spezifischen Dokument zu beantworten
+- Den vollen Kontext eines Suchergebnisses zu erhalten
+
+Der file_hash wird von den anderen Tools (search_documents, get_paper_by_reference, search_papers) im Feld "file_hash" zurückgegeben.
+
+**Hinweis:** Der Volltext ist nur verfügbar, wenn das Dokument bereits verarbeitet wurde. Für sehr alte oder gescannte Dokumente kann der Text unvollständig oder nicht verfügbar sein.`,
+              inputSchema: {
+                type: 'object',
+                properties: {
+                  file_hash: {
+                    type: 'string',
+                    description:
+                      'Der SHA256-Hash des Dokuments (64 Zeichen, hexadezimal). Wird von den Such-Tools im Feld "file_hash" zurückgegeben.',
+                  },
+                },
+                required: ['file_hash'],
+              },
+            },
           ],
         };
         break;
@@ -657,6 +753,15 @@ OParl ist ein offener Standard für parlamentarische Informationssysteme (https:
             structuredContent: {
               papers: searchResult.structured,
             },
+          }));
+        } else if (toolName === 'get_document_text') {
+          result = await getDocumentText(env, toolArgs).then((textResult) => ({
+            content: [
+              {
+                type: 'text',
+                text: textResult.text,
+              },
+            ],
           }));
         } else {
           throw new Error(`Unknown tool: ${toolName}`);

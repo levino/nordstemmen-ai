@@ -58,11 +58,12 @@ Die semantische KI-Suche findet relevante Informationen auch wenn die exakten Su
 
 ## Technischer Überblick (für Entwickler)
 
-Das Projekt besteht aus drei Komponenten:
+Das Projekt besteht aus vier Komponenten:
 
 1. **OParl Scraper** - Lädt PDF-Dokumente vom Ratsinformationssystem herunter
-2. **Embedding Generator** - Verarbeitet PDFs lokal und erstellt Vektorembeddings mit Jina AI v3
+2. **Embedding Generator** - Verarbeitet PDFs und erstellt Vektorembeddings mit Jina AI v3 (lokal oder via API)
 3. **MCP Server** - Cloudflare Pages Function für semantische Suche via Claude (Web & Desktop)
+4. **CI Pipeline** - GitHub Actions Cronjob synchronisiert stündlich neue Dokumente
 
 ## Architektur
 
@@ -71,62 +72,78 @@ graph TB
     User[Claude Web/Desktop<br/>User]
     MCP[MCP Server<br/>Cloudflare Pages]
     Qdrant[(Qdrant<br/>Vector Store<br/>Cloud VPS)]
-    Embeddings[Embedding Generator<br/>Local/Mac]
+    B2[(Backblaze B2<br/>PDF + Text Storage)]
+    Embeddings[Embedding Generator<br/>Local or CI]
     Docs[Documents<br/>PDF Files]
     Scraper[OParl Scraper<br/>TypeScript]
     Jina[Jina AI API]
+    CI[GitHub Actions<br/>Hourly Cron]
 
     User -->|MCP Protocol<br/>Connector| MCP
     MCP -->|Query Embeddings| Jina
     MCP -->|Vector Search| Qdrant
+    MCP -->|PDF + Fulltext| B2
+    CI -->|Hourly| Scraper
+    CI -->|Hourly| Embeddings
     Scraper -->|Download PDFs<br/>+ Metadata| Docs
     Docs -->|Read PDFs| Embeddings
-    Embeddings -->|Jina v3 Local<br/>1024D Vectors| Qdrant
+    Embeddings -->|Jina v3 API<br/>1024D Vectors| Qdrant
+    Embeddings -->|PDFs + Text| B2
 
     style User fill:#e1f5ff
     style MCP fill:#fff4e1
     style Qdrant fill:#e8f5e9
+    style B2 fill:#e8f5e9
     style Embeddings fill:#f3e5f5
     style Docs fill:#fce4ec
     style Scraper fill:#e0f2f1
     style Jina fill:#fff9c4
+    style CI fill:#f0f0f0
 ```
 
 ### Warum Hybrid-Ansatz?
 
-- **Dokument-Embeddings**: Lokal mit Jina v3 (einmalig, hohe Rechenleistung, kostenlos)
+- **Dokument-Embeddings**: Jina AI API in CI, oder lokal mit Jina v3 Modell (einmalig, kostenlos)
 - **Query-Embeddings**: Jina AI API (häufig, niedrige Kosten pro Query, keine GPU nötig)
 - **Vector Search**: Qdrant Cloud (persistente Speicherung, schnelle Suche)
 - **MCP Server**: Cloudflare Pages (kostenloses Hosting, globales CDN, niedrige Latenz)
+- **PDF/Text Storage**: Backblaze B2 (günstig, per SHA256-Hash adressiert)
+- **CI Pipeline**: GitHub Actions (stündliche Synchronisierung, LFS-optimiert)
 
 ## Repository-Struktur
 
 ```
 nordstemmen-ai/
+├── .github/workflows/
+│   ├── data-sync.yml      # Stündlicher CI-Cronjob für Datenaktualisierung
+│   └── claude.yml         # Claude Code Action
 ├── documents/              # Heruntergeladene PDFs und Metadaten
-│   ├── *.pdf              # PDF-Dokumente vom Ratsinformationssystem
-│   └── metadata.json      # OParl-Metadaten (Datum, Name, URL, etc.)
+│   ├── papers/            # Drucksachen (nach OParl-ID)
+│   └── meetings/          # Sitzungen (nach OParl-ID)
 ├── scraper/               # OParl Scraper (TypeScript)
 │   ├── src/
 │   │   ├── index.ts       # CLI Entry Point
 │   │   ├── scraper.ts     # OParl Scraper Logic
 │   │   ├── client.ts      # HTTP Client
 │   │   └── schema.ts      # OParl Type Definitions
-│   ├── package.json
-│   └── tsconfig.json
+│   └── package.json
 ├── embeddings/            # Embedding Generator (Python)
-│   ├── generate.py        # Hauptskript: PDF → Embeddings → Qdrant
-│   ├── requirements.txt   # Dependencies (sentence-transformers, qdrant-client)
-│   └── venv/             # Python Virtual Environment
-├── mcp-server/            # MCP Server (JavaScript/Hono)
-│   ├── _worker.js         # Cloudflare Pages Function
-│   ├── _worker.test.js    # Integration Tests
-│   ├── models.test.js     # Embedding Model Tests
-│   ├── package.json
-│   └── vitest.config.js
-├── .env.example          # Template für Umgebungsvariablen
+│   ├── generate_embeddings.py  # PDF → Embeddings (lokal oder API)
+│   ├── upload_to_qdrant.py     # Embeddings → Qdrant
+│   ├── requirements.txt        # Dependencies (mit PyTorch, lokal)
+│   └── requirements-ci.txt     # Dependencies (ohne PyTorch, CI)
+├── scripts/
+│   └── upload_to_b2.py    # PDFs + Volltext → Backblaze B2
+├── mcp-server/            # MCP Server (Cloudflare Pages)
+│   ├── functions/
+│   │   ├── mcp.js         # MCP Protocol Handler + Tools
+│   │   └── pdf/[[sha256]].js  # PDF Proxy (B2 → CDN)
+│   └── package.json
+├── docs/
+│   └── github-secrets.md  # CI Secret-Dokumentation
+├── .env.example
 ├── .gitignore
-├── LICENSE               # MIT License
+├── LICENSE
 └── README.md
 ```
 
@@ -213,25 +230,28 @@ documents/
 cd embeddings
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
+pip install -r requirements.txt      # Lokal (mit PyTorch)
+# oder: pip install -r requirements-ci.txt  # CI (ohne PyTorch, nutzt Jina API)
 ```
 
 **Embeddings generieren:**
 
 ```bash
-python generate.py
+python generate_embeddings.py                # Lokal mit GPU/CPU
+JINA_API_KEY=xxx python generate_embeddings.py  # Via Jina API (kein PyTorch nötig)
 ```
 
 **Was passiert:**
-1. Lädt Jina Embeddings v3 Modell (570M Parameter, 1024 Dimensionen)
-2. Liest alle PDFs aus `documents/`
+1. Lädt Jina Embeddings v3 Modell lokal oder nutzt Jina API (wenn `JINA_API_KEY` gesetzt)
+2. Liest alle PDFs aus `documents/` (überspringt Git LFS Pointer)
 3. Berechnet SHA256-Hash pro PDF
-4. Prüft in Qdrant: "Bereits verarbeitet?"
+4. Prüft Cache: "Bereits verarbeitet?"
 5. Bei neuen/geänderten PDFs:
-   - Text extrahieren (pypdf)
+   - Text extrahieren (pdfplumber, Fallback: OCR)
+   - Volltext als `.fulltext.json` speichern (für B2-Upload)
    - Text in Chunks aufteilen (1000 Zeichen, 200 Overlap, LangChain)
    - Embeddings generieren mit `task='retrieval.passage'`
-   - Alte Chunks löschen, neue hochladen
+   - Embeddings als `.embeddings.json` speichern
 
 **Output:**
 ```
@@ -323,6 +343,22 @@ Tests umfassen:
 **Der MCP Server ist live unter `https://nordstemmen-mcp.levinkeller.de/mcp`**
 
 Die Anleitung zur Einbindung in Claude findest du ganz oben unter [🚀 Jetzt sofort nutzen](#-jetzt-sofort-nutzen).
+
+### 7. Automatische Datenaktualisierung (CI)
+
+Die Daten werden **stündlich automatisch** via GitHub Actions aktualisiert:
+
+1. **Scraper** lädt neue Dokumente von der OParl-API
+2. **Embedding Generator** verarbeitet neue PDFs (via Jina API)
+3. **B2-Upload** lädt PDFs und Volltext nach Backblaze B2
+4. **Qdrant-Upload** lädt neue Embeddings hoch
+5. **Git Commit** speichert neue Dateien (LFS für PDFs/Embeddings)
+
+Der Workflow nutzt `GIT_LFS_SKIP_SMUDGE=1` beim Checkout, sodass nur LFS-Pointer geladen werden. Neue Dateien vom Scraper sind echte Dateien. So bleibt der CI-Job schnell (~2-3 Min wenn keine neuen Daten).
+
+**Manuell auslösen:** GitHub Actions > Data Sync > Run workflow
+
+**Benötigte Secrets:** Siehe [docs/github-secrets.md](docs/github-secrets.md)
 
 ## MCP Tool: `search_documents`
 
@@ -536,11 +572,14 @@ python generate.py         # Alles neu verarbeiten
 **Das Projekt ist produktiv und funktionsfähig!**
 
 ✅ OParl Scraper (TypeScript)
-✅ Embedding Generator mit Jina v3
+✅ Embedding Generator mit Jina v3 (lokal + API-Modus)
 ✅ MCP Server live unter https://nordstemmen-mcp.levinkeller.de/mcp
 ✅ Hash-basierte Change Detection
 ✅ Deep Links zu Originaldokumenten
-✅ Robuste PDF-Verarbeitung mit pdfplumber
+✅ Robuste PDF-Verarbeitung mit pdfplumber + OCR
+✅ Volltext-Abruf via MCP Tool (`get_document_text`)
+✅ Stündliche automatische Datenaktualisierung (GitHub Actions CI)
+✅ PDF + Volltext Storage auf Backblaze B2
 
 Der MCP Server ist öffentlich nutzbar - siehe [🚀 Jetzt sofort nutzen](#-jetzt-sofort-nutzen) am Anfang der README.
 
