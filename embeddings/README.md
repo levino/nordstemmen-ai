@@ -19,7 +19,7 @@ pip install -r requirements.txt
 # Make sure .env is configured with Qdrant credentials
 cd embeddings
 source venv/bin/activate
-python generate.py
+python generate_embeddings.py
 ```
 
 ## What it does

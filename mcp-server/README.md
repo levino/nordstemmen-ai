@@ -226,10 +226,21 @@ Der Server implementiert den MCP Standard (2024-11-05) und kann mit jedem kompat
 
 ```
 mcp-server/
-├── _worker.js           # Cloudflare Pages Worker (Advanced Mode)
-├── package.json         # Dependencies
-├── .gitignore
-├── .dev.vars.example    # Template für lokale Environment Variables
+├── functions/
+│   ├── mcp.js              # MCP-Implementierung (3 Tools)
+│   └── pdf/
+│       └── [[sha256]].js   # PDF-Proxy (stellt PDFs per Hash bereit)
+├── src/
+│   ├── index.html          # Landing Page
+│   └── style.css           # Tailwind CSS Styles
+├── mcp-server.test.js      # MCP-Protokoll-Tests
+├── pdf-proxy.test.js       # PDF-Proxy-Tests
+├── package.json            # Dependencies
+├── vite.config.js          # Build-Konfiguration
+├── vitest.config.js        # Test-Konfiguration
+├── tailwind.config.js      # Tailwind CSS
+├── postcss.config.js       # PostCSS
+├── wrangler.test.jsonc     # Cloudflare Test-Konfiguration
 └── README.md
 ```
 

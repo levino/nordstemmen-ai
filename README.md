@@ -60,28 +60,31 @@ Die semantische KI-Suche findet relevante Informationen auch wenn die exakten Su
 
 Das Projekt besteht aus drei Komponenten:
 
-1. **OParl Scraper** - Lädt PDF-Dokumente vom Ratsinformationssystem herunter
-2. **Embedding Generator** - Verarbeitet PDFs lokal und erstellt Vektorembeddings mit Jina AI v3
-3. **MCP Server** - Cloudflare Pages Function für semantische Suche via Claude (Web & Desktop)
+1. **OParl Scraper** - Lädt PDF-Dokumente und Metadaten vom Ratsinformationssystem herunter (TypeScript, Effect)
+2. **Embedding Generator** - Verarbeitet PDFs lokal, erstellt Vektorembeddings mit Jina AI v3, cached Ergebnisse (Python)
+3. **MCP Server** - Cloudflare Pages Functions für semantische Suche und Drucksachen-Lookup (JavaScript, Vite)
 
 ## Architektur
 
 ```mermaid
 graph TB
-    User[Claude Web/Desktop<br/>User]
+    User[Claude / ChatGPT<br/>User]
     MCP[MCP Server<br/>Cloudflare Pages]
-    Qdrant[(Qdrant<br/>Vector Store<br/>Cloud VPS)]
-    Embeddings[Embedding Generator<br/>Local/Mac]
-    Docs[Documents<br/>PDF Files]
-    Scraper[OParl Scraper<br/>TypeScript]
+    Qdrant[(Qdrant<br/>Vector Store<br/>Self-hosted VPS)]
+    LFS[(Git LFS Server<br/>Custom)]
+    Embeddings[Embedding Generator<br/>Local/Python]
+    Docs[Documents<br/>PDF Files + Metadata]
+    Scraper[OParl Scraper<br/>TypeScript/Effect]
     Jina[Jina AI API]
 
     User -->|MCP Protocol<br/>Connector| MCP
     MCP -->|Query Embeddings| Jina
     MCP -->|Vector Search| Qdrant
-    Scraper -->|Download PDFs<br/>+ Metadata| Docs
+    MCP -->|PDF Proxy| LFS
+    Scraper -->|Download PDFs<br/>+ OParl Metadata| Docs
     Docs -->|Read PDFs| Embeddings
     Embeddings -->|Jina v3 Local<br/>1024D Vectors| Qdrant
+    Docs -->|Git LFS Push| LFS
 
     style User fill:#e1f5ff
     style MCP fill:#fff4e1
@@ -90,43 +93,82 @@ graph TB
     style Docs fill:#fce4ec
     style Scraper fill:#e0f2f1
     style Jina fill:#fff9c4
+    style LFS fill:#f0f0f0
 ```
 
 ### Warum Hybrid-Ansatz?
 
 - **Dokument-Embeddings**: Lokal mit Jina v3 (einmalig, hohe Rechenleistung, kostenlos)
 - **Query-Embeddings**: Jina AI API (häufig, niedrige Kosten pro Query, keine GPU nötig)
-- **Vector Search**: Qdrant Cloud (persistente Speicherung, schnelle Suche)
+- **Vector Search**: Qdrant (self-hosted VPS, persistente Speicherung, schnelle Suche)
 - **MCP Server**: Cloudflare Pages (kostenloses Hosting, globales CDN, niedrige Latenz)
+- **PDF Storage**: Git LFS mit eigenem Server (kostengünstig, versioniert)
 
 ## Repository-Struktur
 
 ```
 nordstemmen-ai/
-├── documents/              # Heruntergeladene PDFs und Metadaten
-│   ├── *.pdf              # PDF-Dokumente vom Ratsinformationssystem
-│   └── metadata.json      # OParl-Metadaten (Datum, Name, URL, etc.)
-├── scraper/               # OParl Scraper (TypeScript)
+├── documents/                    # Heruntergeladene PDFs + Metadaten (Git LFS)
+│   ├── metadata.json             # Master-Index aller Dateien
+│   ├── papers/                   # ~1578 Drucksachen-Ordner
+│   │   └── DS_<nr>-<jahr>/
+│   │       ├── metadata.json     # OParl Paper-Metadaten
+│   │       ├── *.pdf             # Haupt- und Anlagendateien
+│   │       └── *.embeddings.json # Cached Embeddings (LFS)
+│   └── meetings/                 # ~1087 Sitzungs-Ordner
+│       └── <datum>_<name>/
+│           ├── metadata.json     # OParl Meeting-Metadaten
+│           ├── *.pdf             # Einladung, Protokoll, Anlagen
+│           └── *.embeddings.json # Cached Embeddings (LFS)
+├── scraper/                      # OParl Scraper (TypeScript, Effect)
 │   ├── src/
-│   │   ├── index.ts       # CLI Entry Point
-│   │   ├── scraper.ts     # OParl Scraper Logic
-│   │   ├── client.ts      # HTTP Client
-│   │   └── schema.ts      # OParl Type Definitions
+│   │   ├── index.ts              # CLI Entry Point
+│   │   ├── scraper.ts            # OParl Scraper Logic
+│   │   ├── client.ts             # HTTP Client
+│   │   ├── schema.ts             # OParl Type Definitions
+│   │   └── __tests__/            # Tests (vitest + nock fixtures)
 │   ├── package.json
-│   └── tsconfig.json
-├── embeddings/            # Embedding Generator (Python)
-│   ├── generate.py        # Hauptskript: PDF → Embeddings → Qdrant
-│   ├── requirements.txt   # Dependencies (sentence-transformers, qdrant-client)
-│   └── venv/             # Python Virtual Environment
-├── mcp-server/            # MCP Server (JavaScript/Hono)
-│   ├── _worker.js         # Cloudflare Pages Function
-│   ├── _worker.test.js    # Integration Tests
-│   ├── models.test.js     # Embedding Model Tests
+│   ├── tsconfig.json
+│   ├── vitest.config.ts
+│   └── README.md                 # Detaillierte OParl-Datenmodell-Doku
+├── embeddings/                   # Embedding Generator (Python)
+│   ├── generate_embeddings.py    # PDF → Text → Chunks → Embeddings
+│   ├── upload_to_qdrant.py       # Upload Embeddings nach Qdrant
+│   ├── migrate_embeddings.py     # Migrations-Utility
+│   ├── drop_collection.py        # Qdrant Collection löschen
+│   ├── inspect_data.py           # Daten-Inspektion
+│   ├── test_*.py                 # Diverse Test-Skripte
+│   ├── requirements.txt
+│   └── README.md
+├── mcp-server/                   # MCP Server (Cloudflare Pages)
+│   ├── functions/
+│   │   ├── mcp.js                # MCP-Implementierung (3 Tools)
+│   │   └── pdf/
+│   │       └── [[sha256]].js     # PDF-Proxy (stellt PDFs per Hash bereit)
+│   ├── src/
+│   │   ├── index.html            # Landing Page
+│   │   └── style.css             # Tailwind CSS Styles
+│   ├── mcp-server.test.js        # MCP-Protokoll-Tests
+│   ├── pdf-proxy.test.js         # PDF-Proxy-Tests
 │   ├── package.json
-│   └── vitest.config.js
-├── .env.example          # Template für Umgebungsvariablen
+│   ├── vite.config.js            # Build-Konfiguration
+│   ├── vitest.config.js          # Test-Konfiguration
+│   ├── tailwind.config.js
+│   └── README.md                 # API-Doku, Deployment-Guide
+├── scripts/
+│   ├── lfs-repair.sh             # Git LFS Pointer-Dateien reparieren
+│   └── update-hashes-to-sha256.py
+├── .github/workflows/
+│   └── claude.yml                # Claude Code Action (@claude in Issues/PRs)
+├── .devcontainer/
+│   └── devcontainer.json         # Dev Container: Node 22, Python, Git LFS, poppler
+├── .env.example                  # Template für Umgebungsvariablen
+├── .gitattributes                # Git LFS Tracking (*.pdf, *.embeddings.json)
+├── .lfsconfig                    # Custom LFS Server Konfiguration
+├── biome.json                    # Linter/Formatter (Biome)
+├── package.json                  # Root Workspace (scraper + mcp-server)
 ├── .gitignore
-├── LICENSE               # MIT License
+├── LICENSE                       # MIT License
 └── README.md
 ```
 
@@ -143,14 +185,15 @@ nordstemmen-ai/
 ### 1. Repository klonen
 
 ```bash
-git clone https://github.com/yourusername/nordstemmen-ai.git
+git clone https://github.com/levinkeller/nordstemmen-ai.git
 cd nordstemmen-ai
 
 # PDFs herunterladen (Git LFS)
-git lfs pull
+# Hinweis: Nutzt eigenen LFS-Server (konfiguriert in .lfsconfig)
+npm run lfs-pull
 ```
 
-**Wichtig:** Die PDF-Dokumente werden via Git LFS verwaltet. Nach dem Clone muss `git lfs pull` ausgeführt werden, um die Dateien tatsächlich herunterzuladen.
+**Wichtig:** Die PDF-Dokumente und Embedding-Caches werden via Git LFS verwaltet, mit einem eigenen LFS-Server (`git-lfs.nordstemmen-ai.levinkeller.de`). Die `.lfsconfig` hat `fetchexclude = *` gesetzt, d.h. LFS-Dateien werden beim Clone nicht automatisch heruntergeladen. `npm run lfs-pull` lädt alle LFS-Dateien explizit herunter.
 
 ### 2. Umgebungsvariablen konfigurieren
 
@@ -189,29 +232,39 @@ npm install
 **Scraper ausführen:**
 
 ```bash
-npm start
+npm run scrape
 ```
 
 **Was passiert:**
-- Traversiert OParl-API der Gemeinde Nordstemmen
+- Traversiert OParl-API der Gemeinde Nordstemmen (Paper- und Meeting-Collections)
 - Lädt neue/geänderte PDF-Dokumente herunter
-- Speichert Metadaten (Datum, Name, Gremium, URL) in `documents/metadata.json`
+- Speichert strukturierte OParl-Metadaten (DS-Nummer, Gremium, Tagesordnung, Beratungsverläufe) pro Entity
 - Erkennt bereits heruntergeladene Dokumente via OParl-ID
+- Nutzt die [Effect](https://effect.website/) Library für robuste, funktionale Programmierung
 
 **Output:**
 ```
 documents/
-├── 2024-11-12_Gemeinderat_Protokoll.pdf
-├── 2024-10-15_Bauausschuss_Beschluss.pdf
-├── 2023-05-20_Haushalt_Vorlage.pdf
-└── metadata.json
+├── metadata.json                    # Master-Index
+├── papers/
+│   └── DS_46-2024/
+│       ├── metadata.json            # OParl Paper-Metadaten
+│       ├── mainFile.pdf
+│       └── Anlage_1.pdf
+└── meetings/
+    └── 2024-09-24_Rat/
+        ├── metadata.json            # OParl Meeting-Metadaten
+        ├── invitation.pdf
+        └── resultsProtocol.pdf
 ```
+
+Detaillierte OParl-Datenmodell-Dokumentation: [scraper/README.md](scraper/README.md)
 
 ### 4. Embedding Generator Setup
 
 ```bash
 cd embeddings
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
@@ -219,39 +272,32 @@ pip install -r requirements.txt
 **Embeddings generieren:**
 
 ```bash
-python generate.py
+python generate_embeddings.py
 ```
 
 **Was passiert:**
 1. Lädt Jina Embeddings v3 Modell (570M Parameter, 1024 Dimensionen)
-2. Liest alle PDFs aus `documents/`
+2. Liest alle PDFs aus `documents/papers/` und `documents/meetings/`
 3. Berechnet SHA256-Hash pro PDF
-4. Prüft in Qdrant: "Bereits verarbeitet?"
+4. Prüft: bereits verarbeitet? (via Hash in Qdrant oder vorhandenem Cache)
 5. Bei neuen/geänderten PDFs:
-   - Text extrahieren (pypdf)
-   - Text in Chunks aufteilen (1000 Zeichen, 200 Overlap, LangChain)
+   - Text extrahieren (pdfplumber, OCR-Fallback via tesseract für gescannte Dokumente)
+   - Text in Chunks aufteilen (1000 Zeichen, 200 Overlap)
    - Embeddings generieren mit `task='retrieval.passage'`
-   - Alte Chunks löschen, neue hochladen
+   - Ergebnis in `.embeddings.json` Cache-Datei speichern (Git LFS tracked)
 
-**Output:**
+**Upload nach Qdrant:**
+
+```bash
+python upload_to_qdrant.py
 ```
-🚀 Initializing Embedding Generator...
-✓ Connected to Qdrant
-📦 Loading model: jinaai/jina-embeddings-v3
-✓ Model loaded (1024D vectors)
-✓ Loaded metadata for 150 files
 
-📁 Found 150 PDF files
-
-Processing: 100%|████████| 150/150 [08:42<00:00] Skipped: 145 | 2024-11-12.pdf
-
-✅ Processing complete! (Skipped 145 already processed)
-```
+Liest die gecachten `.embeddings.json` Dateien und lädt sie nach Qdrant hoch.
 
 **Hash-basierte Change Detection:**
-- Der Generator trackt bereits verarbeitete Dateien via SHA256-Hash in Qdrant
+- Der Generator trackt bereits verarbeitete Dateien via SHA256-Hash
 - Bei erneutem Ausführen werden nur neue/geänderte PDFs verarbeitet
-- Kein lokaler State nötig - Qdrant ist Single Source of Truth
+- Embedding-Cache in `.embeddings.json` neben den PDFs vermeidet Neuberechnung
 - Prozess kann jederzeit gestoppt und später fortgesetzt werden
 
 **Embedding Modell:**
@@ -262,10 +308,17 @@ Processing: 100%|████████| 150/150 [08:42<00:00] Skipped: 145 | 
 
 ### 5. MCP Server Deployment (Cloudflare Pages)
 
-Der MCP Server ist eine Cloudflare Pages Function, die:
-- Semantische Suche via Jina AI API + Qdrant bereitstellt
-- MCP Protocol implementiert für Claude Desktop
-- Deep Links zu Originaldokumenten im Ratsinformationssystem zurückgibt
+Der MCP Server besteht aus Cloudflare Pages Functions:
+- **`functions/mcp.js`** — MCP-Protokoll mit 3 Tools: `search_documents`, `get_paper_by_reference`, `search_papers`
+- **`functions/pdf/[[sha256]].js`** — PDF-Proxy, stellt PDFs per SHA256-Hash bereit
+- **`src/index.html`** — Landing Page mit Einrichtungsanleitung
+
+Features:
+- Semantische Suche via Jina AI API + Qdrant
+- Direkte Drucksachen-Abfrage per DS-Nummer
+- Strukturierte Metadaten-Suche mit Filtern
+- Deep Links zu Originaldokumenten im Ratsinformationssystem
+- PDF-Proxy für direkte Dokumentanzeige
 - Fehler in Production sanitiert (keine API-Details an User)
 
 #### Deployment-Schritte
@@ -284,39 +337,35 @@ npm install
 3. Wähle dieses GitHub Repository
 4. **Build-Konfiguration:**
    - Framework preset: **None**
-   - Build command: **`npm install`**
-   - Build output directory: **(leer lassen)**
+   - Build command: **`npm run build`**
+   - Build output directory: **`mcp-server/dist`**
    - Root directory: `/mcp-server`
 
 5. **Environment Variables** (Settings → Environment variables):
    ```
-   QDRANT_URL=https://your-qdrant-instance.example.com
+   QDRANT_URL=https://qdrant.levinkeller.de
    QDRANT_API_KEY=your-api-key
-   QDRANT_PORT=443
    QDRANT_COLLECTION=nordstemmen
    JINA_API_KEY=your-jina-api-key
-   ENVIRONMENT=production
    ```
 
 6. Deploy!
 
-**Beispiel-URL (kann mit Custom Domain angepasst werden):**
-```
-https://nordstemmen-mcp.levinkeller.de
-```
-
-Für dieses Projekt: `https://nordstemmen-mcp.levinkeller.de/mcp`
+**Live-URL:** `https://nordstemmen-mcp.levinkeller.de/mcp`
 
 #### Lokales Testen
 
 ```bash
+cd mcp-server
 npm test
 ```
 
 Tests umfassen:
 - MCP Protocol Endpoints (`initialize`, `tools/list`, `tools/call`)
+- PDF-Proxy Funktionalität
 - Einzelne und Batch-Requests
-- Embedding Model Verfügbarkeit (HuggingFace vs. Jina AI)
+
+Detaillierte API-Dokumentation: [mcp-server/README.md](mcp-server/README.md)
 
 ### 6. Claude Integration
 
@@ -324,50 +373,43 @@ Tests umfassen:
 
 Die Anleitung zur Einbindung in Claude findest du ganz oben unter [🚀 Jetzt sofort nutzen](#-jetzt-sofort-nutzen).
 
-## MCP Tool: `search_documents`
+## MCP Tools
 
-Das MCP Tool bietet semantische Suche über alle Dokumente:
+Der Server stellt drei Tools bereit:
 
-**Input:**
-```json
-{
-  "query": "Schwimmbad Kosten",
-  "limit": 5
-}
-```
+### `search_documents` — Semantische Suche
 
-**Output:**
-```json
-{
-  "content": [
-    {
-      "type": "text",
-      "text": "1. [Haushaltsbeschluss 2024](https://nordstemmen.de/...) • 2024-11-12 • Score: 0.892\n\nDer Gemeinderat beschließt den Haushalt 2024 mit einem Budget von 2,5 Mio € für das neue Schwimmbad..."
-    }
-  ],
-  "structuredContent": {
-    "results": [
-      {
-        "rank": 1,
-        "title": "Haushaltsbeschluss 2024",
-        "url": "https://nordstemmen.de/...",
-        "date": "2024-11-12",
-        "page": 3,
-        "score": 0.892,
-        "excerpt": "Der Gemeinderat beschließt...",
-        "filename": "2024-11-12_Gemeinderat.pdf"
-      }
-    ]
-  }
-}
-```
+Durchsucht alle Dokumentinhalte via Vektorsuche.
 
-**Features:**
-- Semantische Suche (findet relevante Dokumente auch ohne exakte Keywords)
+**Parameter:**
+- `query` (string, required): Suchbegriff oder Frage
+- `limit` (number, optional): Ergebnisse (Standard: 5, Max: 10)
+- `date_from` / `date_to` (string, optional): Zeitraum-Filter (YYYY-MM-DD)
+
+### `get_paper_by_reference` — Drucksachen-Lookup
+
+Findet eine Drucksache direkt per DS-Nummer.
+
+**Parameter:**
+- `reference` (string, required): z.B. "DS 101/2012", "101/2012", "101-2012"
+
+### `search_papers` — Strukturierte Metadaten-Suche
+
+Sucht durch Paper-Metadaten mit Filtern.
+
+**Parameter:**
+- `reference_pattern` (string, optional): z.B. "*/2024" für alle aus 2024
+- `name_contains` (string, optional): Text im Titel
+- `paper_type` (string, optional): z.B. "Beschlussvorlage", "Mitteilungsvorlage"
+- `date_from` / `date_to` (string, optional): Zeitraum
+- `limit` (number, optional): Ergebnisse (Standard: 10, Max: 50)
+
+**Alle Tools liefern:**
 - Deep Links zu Originaldokumenten im Ratsinformationssystem
-- Markdown-Formatierung für Claude (Text)
-- Strukturierte JSON-Daten für programmatischen Zugriff
-- Relevanz-Score (Cosine Similarity)
+- OParl-API-Links für weitergehende Abfragen
+- PDF-URLs für direkten Dokumentzugriff
+
+Detaillierte API-Dokumentation mit curl-Beispielen: [mcp-server/README.md](mcp-server/README.md)
 
 ## Qdrant Payload Schema
 
@@ -377,127 +419,79 @@ Jeder Chunk wird mit folgendem Schema gespeichert:
 {
   "vector": [0.123, -0.456, ...],  // 1024 Dimensionen (Jina v3)
   "payload": {
-    "filename": "documents/2024-11-12_Gemeinderat_Protokoll.pdf",
+    "filename": "documents/papers/DS_46-2024/mainFile.pdf",
     "file_hash": "abc123def456...",
     "page": 3,
     "chunk_index": 5,
     "text": "Der Gemeinderat beschließt...",
     "source": "oparl",
-
-    // OParl Metadata
-    "oparl_id": "https://nordstemmen.de/api/oparl/v1/paper/123",
-    "date": "2024-11-12",
-    "name": "Haushaltsbeschluss 2024",
-    "mime_type": "application/pdf",
-    "access_url": "https://nordstemmen.de/buergerinfo/..."
+    "entity_type": "paper",
+    "entity_id": "https://nordstemmen.../body/1/paper/5189",
+    "entity_name": "Neugestaltung der Tarifstruktur",
+    "date": "2024-09-24",
+    "paper_reference": "DS 46/2024",
+    "paper_type": "Beschlussvorlage"
   }
 }
 ```
 
-**Metadaten-Quelle:** `documents/metadata.json` (vom Scraper generiert)
+**Metadaten-Quelle:** Pro-Entity `metadata.json` Dateien in `documents/papers/*/` und `documents/meetings/*/` (vom Scraper generiert)
 
 ## Entwicklung
 
 ### Code-Struktur
 
-**`embeddings/generate.py`:**
-- `EmbeddingGenerator.__init__()` - Initialisierung (Qdrant, Jina v3 Model)
-- `process_pdf()` - Single PDF verarbeiten, returns bool (skipped?)
-- `process_all()` - Alle PDFs mit tqdm Progress Bar
-- `_is_already_processed()` - Hash-basierte Change Detection
-- `_delete_old_chunks()` - Alte Chunks bei File-Änderung löschen
+**`embeddings/generate_embeddings.py`:**
+- PDF-Text-Extraktion (pdfplumber, OCR-Fallback)
+- Chunking (1000 Zeichen, 200 Overlap)
+- Embedding-Generierung (Jina v3, 1024D)
+- Cache in `.embeddings.json` (Git LFS)
 
-**`mcp-server/_worker.js`:**
-- `generateEmbedding()` - Jina AI API Call für Query Embeddings
-- `searchDocuments()` - Qdrant Search mit Cosine Similarity
-- `handleMCPRequest()` - MCP Protocol Handler (initialize, tools/list, tools/call)
-- `sanitizeError()` - Production Error Sanitization
+**`embeddings/upload_to_qdrant.py`:**
+- Liest gecachte Embeddings
+- Upload nach Qdrant mit OParl-Metadaten
 
-### Logging
+**`mcp-server/functions/mcp.js`:**
+- MCP Protocol Handler (initialize, tools/list, tools/call)
+- `search_documents` — Jina AI Query-Embedding + Qdrant Vector Search
+- `get_paper_by_reference` — Direkte Drucksachen-Suche in Qdrant
+- `search_papers` — Strukturierte Metadaten-Filterung
+- Production Error Sanitization
 
-**Embedding Generator:**
-```
-🚀 Initializing...
-✓ Connected to Qdrant
-📦 Loading model: jinaai/jina-embeddings-v3
-✓ Model loaded (1024D vectors)
-📁 Found 150 PDF files
-
-Processing: |████| 45/150 [02:30] Skipped: 42 | filename.pdf
-
-✅ Complete! (Skipped 145 already processed)
-```
-
-**MCP Server:**
-- Nur Errors/Warnings werden geloggt
-- In Production: Sanitierte Error Messages (keine API-Details)
-- In Development: Volle Error Messages mit Stack Traces
+**`mcp-server/functions/pdf/[[sha256]].js`:**
+- PDF-Proxy: Stellt PDFs per SHA256-Hash bereit
+- Leitet an Git LFS Server weiter
 
 ### Testing
 
-**Embedding Generator:**
 ```bash
-cd embeddings
-source venv/bin/activate
-
-# Test connection
-python test_connection.py
-
-# Test query
-python test_query.py "Schwimmbad Kosten"
-
-# Drop collection (⚠️ VORSICHT!)
-python drop_collection.py
-```
-
-**MCP Server:**
-```bash
-cd mcp-server
-
-# All tests
+# Alles testen (Root)
 npm test
 
-# Watch mode
-npm run test:watch
+# MCP Server Tests
+cd mcp-server && npm test
+cd mcp-server && npm run test:watch
 
-# Single test
-npm test -- _worker.test.js
+# Scraper Tests
+cd scraper && npm test
+
+# Embedding Tests
+cd embeddings
+source venv/bin/activate
+python test_connection.py       # Qdrant-Verbindung
+python test_query.py "Schwimmbad"  # Semantische Suche
 ```
 
 ### Re-Processing erzwingen
 
-**Option 1: PDF ändern**
-```bash
-# Touch the file to change modification date
-touch documents/2024-11-12_Gemeinderat.pdf
-python embeddings/generate.py
-```
-
-**Option 2: Qdrant Chunks löschen**
-```python
-# embeddings/delete_specific.py
-from qdrant_client import QdrantClient
-from qdrant_client.models import Filter, FieldCondition, MatchValue
-
-client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)
-client.delete(
-    collection_name="nordstemmen",
-    points_selector=Filter(
-        must=[
-            FieldCondition(
-                key="filename",
-                match=MatchValue(value="documents/2024-11-12_Gemeinderat.pdf")
-            )
-        ]
-    )
-)
-```
-
-**Option 3: Collection komplett löschen**
 ```bash
 cd embeddings
-python drop_collection.py  # ⚠️ VORSICHT: Löscht ALLE Embeddings!
-python generate.py         # Alles neu verarbeiten
+source venv/bin/activate
+
+# Collection komplett löschen und neu aufbauen
+python drop_collection.py           # ⚠️ Löscht ALLE Embeddings!
+python generate_embeddings.py       # Alles neu verarbeiten
+python upload_to_qdrant.py          # Alles neu hochladen
 ```
 
 ## Kosten & Performance
@@ -508,10 +502,9 @@ python generate.py         # Alles neu verarbeiten
 - **Typischer Query**: ~50 tokens
 - **→ ~20.000 Queries kostenlos/Monat**
 
-### Qdrant Cloud
-- **Free Tier**: 1GB Storage
-- **~150 PDFs**: ~500MB (mit 1024D Embeddings)
-- **Kosten danach**: ~$25/month für 4GB
+### Qdrant (Self-hosted)
+- Self-hosted auf eigenem VPS
+- **~5.800 PDFs**: Aktuelle Datenmenge
 
 ### Cloudflare Pages
 - **Free Tier**: 100.000 Requests/Tag
@@ -520,8 +513,8 @@ python generate.py         # Alles neu verarbeiten
 
 ### Embedding Generation (Lokal)
 - **Jina v3 Model**: ~2GB VRAM
-- **150 PDFs**: ~8-10 Minuten (M1/M2 Mac)
 - **Kosten**: $0 (lokal)
+- Embedding-Cache in `.embeddings.json` vermeidet Neuberechnung
 
 ## Datenschutz & Transparenz
 
@@ -535,18 +528,21 @@ python generate.py         # Alles neu verarbeiten
 
 **Das Projekt ist produktiv und funktionsfähig!**
 
-✅ OParl Scraper (TypeScript)
-✅ Embedding Generator mit Jina v3
-✅ MCP Server live unter https://nordstemmen-mcp.levinkeller.de/mcp
-✅ Hash-basierte Change Detection
-✅ Deep Links zu Originaldokumenten
-✅ Robuste PDF-Verarbeitung mit pdfplumber
+- OParl Scraper (TypeScript/Effect) — ~5.800 PDFs indexiert
+- Embedding Generator mit Jina v3 + Embedding-Cache
+- MCP Server live unter https://nordstemmen-mcp.levinkeller.de/mcp
+- 3 MCP Tools: Semantische Suche, Drucksachen-Lookup, Metadaten-Suche
+- PDF-Proxy für direkten Dokumentzugriff
+- Hash-basierte Change Detection
+- OCR-Support für gescannte Dokumente
+- Git LFS mit eigenem Server für PDF-Speicherung
+- Claude Code Action für @claude in Issues/PRs
 
-Der MCP Server ist öffentlich nutzbar - siehe [🚀 Jetzt sofort nutzen](#-jetzt-sofort-nutzen) am Anfang der README.
+Der MCP Server ist öffentlich nutzbar - siehe [Jetzt sofort nutzen](#-jetzt-sofort-nutzen) am Anfang der README.
 
 ## Support & Beitragen
 
-**Issues:** https://github.com/yourusername/nordstemmen-ai/issues
+**Issues:** https://github.com/levinkeller/nordstemmen-ai/issues
 
 **Pull Requests sind willkommen!** Bitte:
 1. Fork das Repo
