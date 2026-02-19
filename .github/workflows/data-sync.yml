@@ -55,7 +55,13 @@ jobs:
 
       - name: Debug OParl API connectivity
         run: |
-          curl -v -o /dev/null https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1 2>&1 | head -40
+          echo "=== curl ==="
+          curl -s -o /dev/null -w "HTTP %{http_code}" https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper
+          echo ""
+          echo "=== node fetch (no headers) ==="
+          node -e "fetch('https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper').then(r => console.log('HTTP', r.status, Object.fromEntries(r.headers)))"
+          echo "=== node fetch (with User-Agent) ==="
+          node -e "fetch('https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper', {headers:{'User-Agent':'Mozilla/5.0'}}).then(r => console.log('HTTP', r.status, Object.fromEntries(r.headers)))"
 
       - name: Run scraper
         run: npm run scrape
