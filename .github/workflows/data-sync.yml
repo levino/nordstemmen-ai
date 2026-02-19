@@ -53,6 +53,10 @@ jobs:
           echo "https://${{ secrets.GIT_LFS_USERNAME }}:${{ secrets.GIT_LFS_PASSWORD }}@git-lfs.nordstemmen-ai.levinkeller.de" > ~/.git-credentials
           git lfs install
 
+      - name: Debug OParl API connectivity
+        run: |
+          curl -v -o /dev/null https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1 2>&1 | head -40
+
       - name: Run scraper
         run: npm run scrape
         working-directory: scraper
