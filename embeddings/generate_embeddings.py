@@ -28,6 +28,8 @@ import pytesseract
 from pdf2image import convert_from_path
 from PIL import Image
 from tqdm import tqdm
+
+IS_CI = os.environ.get('CI') or os.environ.get('GITHUB_ACTIONS')
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import warnings
 
@@ -469,7 +471,7 @@ class EmbeddingGeneratorBase(ABC):
 
         fulltext_backfill = []
 
-        for pdf_file in tqdm(pdf_files, desc="Scanning", unit="file"):
+        for pdf_file in tqdm(pdf_files, desc="Scanning", unit="file", disable=IS_CI):
             # Skip LFS pointers
             if _is_lfs_pointer(pdf_file):
                 skipped_count += 1
@@ -503,7 +505,7 @@ class EmbeddingGeneratorBase(ABC):
                     executor.submit(_backfill_single_file, pdf_file, file_hash): pdf_file
                     for pdf_file, file_hash in fulltext_backfill
                 }
-                with tqdm(total=len(futures), desc="Fulltext", unit="file") as pbar:
+                with tqdm(total=len(futures), desc="Fulltext", unit="file", disable=IS_CI) as pbar:
                     for future in as_completed(futures):
                         try:
                             success = future.result()
@@ -528,7 +530,7 @@ class EmbeddingGeneratorBase(ABC):
         failed_count = 0
         processed_count = 0
 
-        with tqdm(files_to_process, desc="Processing", unit="file") as pbar:
+        with tqdm(files_to_process, desc="Processing", unit="file", disable=IS_CI) as pbar:
             for pdf_file in pbar:
                 try:
                     filename = pdf_file.name[:50] + '...' if len(pdf_file.name) > 50 else pdf_file.name
