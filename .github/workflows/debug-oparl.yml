@@ -1,0 +1,19 @@
+name: Debug OParl API
+
+on:
+  workflow_dispatch:
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test OParl API connectivity
+        run: |
+          echo "=== curl (verbose) ==="
+          curl -v https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper 2>&1 | head -50
+          echo ""
+          echo "=== Response body ==="
+          curl -s https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper | head -c 500
+          echo ""
+          echo "=== Runner IP ==="
+          curl -s https://ifconfig.me
