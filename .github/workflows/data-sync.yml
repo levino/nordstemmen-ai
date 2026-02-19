@@ -77,15 +77,6 @@ jobs:
           JINA_API_KEY: ${{ secrets.JINA_API_KEY }}
         run: python embeddings/generate_embeddings.py
 
-      - name: Upload to B2
-        if: steps.check.outputs.new_files != '0'
-        env:
-          B2_KEY_ID: ${{ vars.B2_KEY_ID }}
-          B2_APP_KEY: ${{ secrets.B2_APP_KEY }}
-          B2_BUCKET_ID: ${{ vars.B2_BUCKET_ID }}
-          B2_BUCKET_NAME: ${{ vars.B2_BUCKET_NAME }}
-        run: python scripts/upload_to_b2.py
-
       - name: Upload to Qdrant
         if: steps.check.outputs.new_files != '0'
         env:
