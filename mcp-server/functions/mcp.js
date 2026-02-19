@@ -103,10 +103,11 @@ async function searchDocuments(env, args) {
             const score = result.score?.toFixed(3) || '?';
             const ref = payload.paper_reference ? ` (${payload.paper_reference})` : '';
 
+            const fileHash = payload.file_hash || '';
             const titleLink = url ? `[${title}](${url})` : title;
             const metadata = [date, `Score: ${score}`].filter(Boolean).join(' • ');
 
-            return `${index + 1}. ${titleLink}${ref}\n${metadata}\n\n${payload.text || ''}`;
+            return `${index + 1}. ${titleLink}${ref}\n${metadata}${fileHash ? `\nfile_hash: ${fileHash}` : ''}\n\n${payload.text || ''}`;
           })
           .join('\n\n---\n\n');
 
@@ -183,6 +184,8 @@ async function getPaperByReference(env, args) {
     const oparlUrl = payload.entity_id || '';
     const primaryLink = pdfUrl || oparlUrl;
 
+    const fileHash = payload.file_hash || '';
+
     const paperInfo = `# ${payload.entity_name || 'Unknown Paper'}
 
 **Reference:** ${payload.paper_reference || 'N/A'}
@@ -190,6 +193,7 @@ async function getPaperByReference(env, args) {
 **Date:** ${payload.date || 'N/A'}
 ${pdfUrl ? `**PDF:** ${pdfUrl}` : ''}
 **OParl ID:** ${oparlUrl || 'N/A'}
+${fileHash ? `**file_hash:** ${fileHash}` : ''}
 
 [${pdfUrl ? 'View PDF' : 'View in Ratsinformationssystem'}](${primaryLink || '#'})`;
 
@@ -266,7 +270,7 @@ async function searchPapers(env, args) {
     const scrollResult = await client.scroll(env.QDRANT_COLLECTION, {
       filter: { must },
       limit: Math.min(limit, 50),
-      with_payload: ['entity_name', 'paper_reference', 'paper_type', 'date', 'entity_id', 'pdf_access_url'],
+      with_payload: ['entity_name', 'paper_reference', 'paper_type', 'date', 'entity_id', 'pdf_access_url', 'file_hash'],
     });
 
     if (!scrollResult.points || scrollResult.points.length === 0) {
@@ -303,7 +307,7 @@ async function searchPapers(env, args) {
         const titleLink = url ? `[${paper.name}](${url})` : paper.name;
         const metadata = [paper.reference, paper.paperType, paper.date].filter(Boolean).join(' • ');
 
-        return `${index + 1}. ${titleLink}\n${metadata}`;
+        return `${index + 1}. ${titleLink}\n${metadata}${paper.file_hash ? `\nfile_hash: ${paper.file_hash}` : ''}`;
       })
       .join('\n\n');
 
