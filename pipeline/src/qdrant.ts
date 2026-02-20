@@ -1,7 +1,7 @@
 import { QdrantClient } from '@qdrant/js-client-rest';
 import { v5 as uuidv5 } from 'uuid';
 import { UUID_NAMESPACE_DNS } from './config.ts';
-import type { QdrantPayload } from './types.ts';
+import type { QdrantPayload, SparseVector } from './types.ts';
 
 export interface QdrantConfig {
   url: string;
@@ -24,7 +24,8 @@ export function createQdrantService(config: QdrantConfig) {
     const exists = collections.collections.some((c) => c.name === config.collection);
     if (!exists) {
       await client.createCollection(config.collection, {
-        vectors: { size: 1024, distance: 'Cosine' },
+        vectors: { dense: { size: 1024, distance: 'Cosine' } },
+        sparse_vectors: { sparse: {} },
       });
     }
   }
@@ -50,6 +51,7 @@ export function createQdrantService(config: QdrantConfig) {
       chunkIndex: number;
       text: string;
       vector: number[];
+      sparseVector: SparseVector;
     }>,
     payload: Omit<QdrantPayload, 'page' | 'chunk_index' | 'text'>,
   ): Promise<void> {
@@ -58,7 +60,10 @@ export function createQdrantService(config: QdrantConfig) {
       const id = uuidv5(idString, UUID_NAMESPACE_DNS);
       return {
         id,
-        vector: chunk.vector,
+        vector: {
+          dense: chunk.vector,
+          sparse: chunk.sparseVector,
+        },
         payload: {
           ...payload,
           page: chunk.page,

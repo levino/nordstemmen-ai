@@ -59,8 +59,8 @@ Die semantische KI-Suche findet relevante Informationen auch wenn die exakten Su
 Das Projekt besteht aus drei Komponenten:
 
 1. **OParl Scraper** — Lädt PDF-Dokumente und Metadaten vom Ratsinformationssystem herunter
-2. **Document Pipeline** — Verarbeitet PDFs komplett: Gemini OCR → Jina Embeddings → Qdrant
-3. **MCP Server** — Cloudflare Pages Function für semantische Suche via Claude/ChatGPT
+2. **Document Pipeline** — Verarbeitet PDFs komplett: Gemini OCR → Jina Embeddings + Sparse Vectors → Qdrant
+3. **MCP Server** — Cloudflare Pages Function für Hybrid-Suche (semantisch + Keyword) via Claude/ChatGPT
 
 Dazu kommt eine **CI Pipeline** (GitHub Actions Cronjob), die stündlich neue Dokumente synchronisiert.
 
@@ -79,15 +79,15 @@ graph TB
     CI[GitHub Actions<br/>Hourly Cron]
 
     User -->|MCP Protocol<br/>Connector| MCP
-    MCP -->|Query Embeddings| Jina
-    MCP -->|Vector Search| Qdrant
+    MCP -->|Query Embeddings<br/>+ Sparse Vector| Jina
+    MCP -->|Hybrid Search<br/>Dense + Sparse RRF| Qdrant
     MCP -->|Fulltext| MCP
     CI -->|Hourly| Scraper
     CI -->|Hourly| Pipeline
     Scraper -->|Download PDFs<br/>+ Metadata| Docs
     Docs -->|Read PDFs| Pipeline
     Pipeline -->|OCR| Gemini
-    Pipeline -->|Jina v3 API<br/>1024D Vectors| Qdrant
+    Pipeline -->|Jina v3 Dense<br/>+ BM25 Sparse| Qdrant
 
     style User fill:#e1f5ff
     style MCP fill:#fff4e1
@@ -105,12 +105,20 @@ graph TB
 | Komponente | Technologie | Zweck |
 |---|---|---|
 | **OParl Scraper** | TypeScript + Effect | PDFs + Metadaten von OParl-API herunterladen |
-| **Document Pipeline** | TypeScript, async/await | PDF → Gemini OCR → Jina Embeddings → Qdrant |
-| **MCP Server** | Cloudflare Pages Functions | Semantische Suche, Volltext-Abruf |
-| **Vector DB** | Qdrant (self-hosted) | Vektorspeicher für Embeddings |
+| **Document Pipeline** | TypeScript, async/await | PDF → Gemini OCR → Jina Embeddings + Sparse Vectors → Qdrant |
+| **MCP Server** | Cloudflare Pages Functions | Hybrid-Suche (Dense + Sparse RRF), Volltext-Abruf |
+| **Vector DB** | Qdrant (self-hosted) | Named Vectors: Dense (Jina 1024D) + Sparse (BM25-TF) |
 | **OCR** | Gemini 2.5 Flash | PDF → Text (seitenweise) |
-| **Embeddings** | Jina AI v3 (1024D) | Text → Vektoren |
+| **Embeddings** | Jina AI v3 (1024D) + lokale BM25-TF | Text → Dense + Sparse Vektoren |
 | **Fulltext** | Cloudflare Static Assets | Volltext als `.txt`-Dateien im MCP-Server gebündelt |
+
+### Warum Hybrid Search?
+
+Die Suche kombiniert zwei Ansätze via **Reciprocal Rank Fusion (RRF)**:
+- **Dense Vectors** (Jina v3, 1024D): Semantische Suche — versteht Bedeutung, findet "Schwimmbad" auch bei "Hallenbad"
+- **Sparse Vectors** (BM25-TF, lokal berechnet): Keyword-Suche — findet exakte Namen ("Müller"), Nummern ("DS 101/2024"), Straßennamen ("Escherder Straße")
+
+Sparse Vectors werden **lokal** aus dem Text berechnet (FNV-1a Hash, deutsche Stopwörter, keine API nötig). Der gleiche Tokenizer läuft in Pipeline und MCP Server.
 
 ### KI-Modell-Entscheidungen
 
@@ -144,9 +152,11 @@ nordstemmen-ai/
 │   │   ├── pipeline.ts    # Orchestrator
 │   │   ├── ocr.ts         # Gemini OCR
 │   │   ├── jina.ts        # Jina Embeddings (mit Semaphore)
-│   │   ├── qdrant.ts      # Qdrant Upload
+│   │   ├── sparse.ts      # BM25-TF Sparse Vectors (lokal)
+│   │   ├── qdrant.ts      # Qdrant Upload (Named Vectors: dense + sparse)
 │   │   ├── cache.ts       # Cache + .completed Tracking
-│   │   └── rebuild-qdrant.ts  # Qdrant aus Cache neu aufbauen
+│   │   ├── rebuild-qdrant.ts  # Qdrant aus Cache neu aufbauen
+│   │   └── migrate-sparse.ts  # Einmalige Migration (danach löschen)
 │   └── package.json
 ├── mcp-server/            # MCP Server (Cloudflare Pages)
 │   ├── functions/
@@ -236,7 +246,7 @@ Pro PDF: Gemini OCR → Jina Embeddings → Qdrant Upload. Die `.completed`-Date
 ### 5. MCP Server Deployment (Cloudflare Pages)
 
 Der MCP Server ist eine Cloudflare Pages Function mit vier Tools:
-- `search_documents` — Semantische Vektorsuche
+- `search_documents` — Hybrid-Suche (Dense + Sparse RRF)
 - `get_paper_by_reference` — Drucksache per DS-Nummer abrufen
 - `search_papers` — Strukturierte Filtersuche
 - `get_document_text` — Volltext per SHA256-Hash abrufen
@@ -271,7 +281,7 @@ Die Daten werden **stündlich automatisch** via GitHub Actions aktualisiert:
 
 ### `search_documents`
 
-Semantische Suche über alle Dokumente. Findet relevante Ergebnisse auch ohne exakte Keywords.
+Hybrid-Suche (semantisch + Keyword) über alle Dokumente. Kombiniert Dense Vectors (Jina v3) und Sparse Vectors (BM25-TF) via Reciprocal Rank Fusion (RRF). Findet relevante Ergebnisse auch ohne exakte Keywords, und exakte Namen/Nummern zuverlässig.
 
 ```json
 {"query": "Schwimmbad Kosten", "limit": 5}
@@ -331,7 +341,7 @@ Volltext eines Dokuments per SHA256-Hash abrufen. Optional einzelne Seite.
 **Das Projekt ist produktiv und funktionsfähig!**
 
 - OParl Scraper (TypeScript + Effect)
-- Document Pipeline (TypeScript): Gemini OCR → Jina Embeddings → Qdrant
+- Document Pipeline (TypeScript): Gemini OCR → Jina Embeddings + Sparse Vectors → Qdrant
 - MCP Server live unter https://nordstemmen-mcp.levinkeller.de/mcp
 - 4 MCP Tools: Semantische Suche, DS-Lookup, Filtersuche, Volltext-Abruf
 - ~5.800 PDFs indiziert (2007 bis heute)

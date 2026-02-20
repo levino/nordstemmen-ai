@@ -7,6 +7,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Added
+- **Hybrid Search**: `search_documents` now combines dense (Jina v3) and sparse (BM25-TF) vectors via Reciprocal Rank Fusion (RRF). Improves results for exact names, numbers, and street names
+- **Sparse Vectors** (`pipeline/src/sparse.ts`): Local BM25-TF computation with FNV-1a token hashing and German stopwords. No external API needed
+- **Migration script** (`npm run migrate:sparse` in pipeline): One-time Qdrant rebuild from cached embeddings — no API calls needed. Delete `migrate-sparse.ts` after use
 - **Document Pipeline** (`pipeline/`): New TypeScript workspace replacing all Python processing scripts. Single command (`npm run pipeline`) processes documents end-to-end: PDF → Gemini OCR → Jina Embeddings → Qdrant
 - Pipeline CLI flags: `--limit`, `--force`, `--dry-run`, `--skip-qdrant`, `--only`, `--concurrency`, `--max-pdf-size`
 - Gemini 2.5 Flash OCR: sends entire PDF as inline data (no pdf2image/poppler dependency)
@@ -21,6 +24,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - AI model choice documentation (why Gemini 2.5 Flash for OCR, why Jina v3 for embeddings)
 
 ### Changed
+- **Qdrant collection schema**: Switched from unnamed vectors to named vectors (`dense` + `sparse`). Requires collection rebuild
+- **MCP `search_documents`**: Uses Qdrant Query API with `prefetch` + `fusion: 'rrf'` instead of simple `search()`
 - MCP tool responses now return JSON in `content.text` instead of formatted Markdown, so AI clients can reliably access all fields including `file_hash`
 - Removed `structuredContent` from MCP responses (most clients ignored it)
 - Data update workflow simplified from 4 Python scripts to single `npm run pipeline` command
