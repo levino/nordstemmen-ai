@@ -1,6 +1,5 @@
-import { stat as fsStat, readFile } from 'node:fs/promises';
-import { type B2Config, createB2Service } from './b2.ts';
-import { loadEmbeddings, loadFulltext, markCompleted, saveEmbeddings, saveFulltext } from './cache.ts';
+import { stat as fsStat } from 'node:fs/promises';
+import { markCompleted, saveEmbeddings, saveFulltext } from './cache.ts';
 import { GEMINI_MODEL } from './config.ts';
 import { discoverDocuments, needsProcessing } from './discovery.ts';
 import { createJinaClient, type JinaClient } from './jina.ts';
@@ -23,7 +22,6 @@ export interface EnvConfig {
   geminiApiKey: string;
   jinaApiKey: string;
   qdrant: QdrantConfig;
-  b2: B2Config;
 }
 
 async function processFile(
@@ -33,64 +31,53 @@ async function processFile(
   geminiApiKey: string,
   jina: JinaClient,
   qdrant: ReturnType<typeof createQdrantService>,
-  b2: ReturnType<typeof createB2Service>,
 ): Promise<ProcessingResult> {
   try {
-    // Step 1: OCR via Gemini (or reuse existing fulltext cache)
-    let fulltext = await loadFulltext(file.pdfPath, file.fileHash);
+    // Step 1: OCR via Gemini — always fresh, no cache reuse
+    const ocrResult = await ocrPdf(file.pdfPath, geminiApiKey);
 
-    if (!fulltext) {
-      const ocrResult = await ocrPdf(file.pdfPath, geminiApiKey);
+    const fulltext: FulltextData = {
+      file_hash: file.fileHash,
+      filename: file.fileName,
+      pages: ocrResult.pages,
+      full_text: ocrResult.fullText,
+      extraction: {
+        model: GEMINI_MODEL,
+        prompt: 'page-level OCR',
+        extracted_at: new Date().toISOString(),
+        total_input_tokens: ocrResult.inputTokens,
+        total_output_tokens: ocrResult.outputTokens,
+      },
+    };
 
-      const fulltextData: FulltextData = {
-        file_hash: file.fileHash,
-        filename: file.fileName,
-        pages: ocrResult.pages,
-        full_text: ocrResult.fullText,
-        extraction: {
-          model: GEMINI_MODEL,
-          prompt: 'page-level OCR',
-          extracted_at: new Date().toISOString(),
-          total_input_tokens: ocrResult.inputTokens,
-          total_output_tokens: ocrResult.outputTokens,
-        },
-      };
-
-      await saveFulltext(file.pdfPath, fulltextData);
-      fulltext = fulltextData;
-    }
+    await saveFulltext(file.pdfPath, fulltext);
 
     if (!fulltext.pages.length) {
       return { file, status: 'failed', error: 'No text extracted' };
     }
 
-    // Step 2: Generate embeddings via Jina (or reuse existing cache)
-    let embeddings = await loadEmbeddings(file.pdfPath, file.fileHash);
+    // Step 2: Generate embeddings via Jina — always fresh
+    const pageTexts = fulltext.pages.filter((p) => p.text.trim().length > 0).map((p) => p.text);
+    const pageNums = fulltext.pages.filter((p) => p.text.trim().length > 0).map((p) => p.page);
 
-    if (!embeddings) {
-      const pageTexts = fulltext.pages.filter((p) => p.text.trim().length > 0).map((p) => p.text);
-      const pageNums = fulltext.pages.filter((p) => p.text.trim().length > 0).map((p) => p.page);
-
-      if (pageTexts.length === 0) {
-        return { file, status: 'failed', error: 'No non-empty pages' };
-      }
-
-      const vectors = await jina.embed(pageTexts);
-
-      const embeddingsData: EmbeddingsData = {
-        file_hash: file.fileHash,
-        filename: file.fileName,
-        chunks: pageTexts.map((text, i) => ({
-          page: pageNums[i],
-          chunk_index: 0,
-          text,
-          vector: vectors[i],
-        })),
-      };
-
-      await saveEmbeddings(file.pdfPath, embeddingsData);
-      embeddings = embeddingsData;
+    if (pageTexts.length === 0) {
+      return { file, status: 'failed', error: 'No non-empty pages' };
     }
+
+    const vectors = await jina.embed(pageTexts);
+
+    const embeddings: EmbeddingsData = {
+      file_hash: file.fileHash,
+      filename: file.fileName,
+      chunks: pageTexts.map((text, i) => ({
+        page: pageNums[i],
+        chunk_index: 0,
+        text,
+        vector: vectors[i],
+      })),
+    };
+
+    await saveEmbeddings(file.pdfPath, embeddings);
 
     // Step 3: Upload to Qdrant
     if (!config.skipQdrant) {
@@ -128,23 +115,7 @@ async function processFile(
       );
     }
 
-    // Step 4: Upload to B2
-    if (!config.skipB2) {
-      const pdfExists = await b2.fileExists(file.fileHash);
-      if (!pdfExists) {
-        const pdfData = await readFile(file.pdfPath);
-        await b2.uploadFile(file.fileHash, pdfData, 'application/pdf');
-      }
-
-      const textName = `${file.fileHash}.txt`;
-      const textExists = await b2.fileExists(textName);
-      if (!textExists && fulltext.pages.length > 0) {
-        const textContent = fulltext.pages.map((p) => `--- Page ${p.page} ---\n${p.text}`).join('\n\n');
-        await b2.uploadFile(textName, Buffer.from(textContent, 'utf-8'), 'text/plain; charset=utf-8');
-      }
-    }
-
-    // Step 5: Mark as completed — ONLY after all steps succeeded
+    // Step 4: Mark as completed — ONLY after all steps succeeded
     await markCompleted(file.pdfPath, file.fileHash);
 
     return { file, status: 'processed', pages: fulltext.pages.length };
@@ -161,18 +132,12 @@ export async function runPipeline(config: PipelineConfig, env: EnvConfig): Promi
   console.log('Pipeline starting...\n');
 
   const qdrant = createQdrantService(env.qdrant);
-  const b2 = createB2Service(env.b2);
   const jina = createJinaClient(env.jinaApiKey);
 
   if (!config.dryRun) {
     if (!config.skipQdrant) {
       await qdrant.ensureCollection();
       console.log('Qdrant collection verified.');
-    }
-
-    if (!config.skipB2) {
-      await b2.authorize();
-      console.log('B2 authorized.');
     }
   }
 
@@ -223,7 +188,7 @@ export async function runPipeline(config: PipelineConfig, env: EnvConfig): Promi
 
   // Process files with concurrency control
   const tasks = limited.map(({ document, file }) => async () => {
-    const result = await processFile(document, file, config, env.geminiApiKey, jina, qdrant, b2);
+    const result = await processFile(document, file, config, env.geminiApiKey, jina, qdrant);
 
     const icon = result.status === 'processed' ? '+' : result.status === 'skipped' ? '-' : 'X';
     const suffix = result.error ? ` (${result.error})` : result.pages ? ` (${result.pages} pages)` : '';

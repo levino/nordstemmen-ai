@@ -1,6 +1,5 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { join, parse } from 'node:path';
-import { isLfsPointer } from './hash.ts';
 import type { EmbeddingsData, FulltextData } from './types.ts';
 
 export function fulltextPath(pdfPath: string): string {
@@ -31,33 +30,6 @@ export async function isCompleted(pdfPath: string, expectedHash: string): Promis
 export async function markCompleted(pdfPath: string, fileHash: string): Promise<void> {
   const data = { file_hash: fileHash, completed_at: new Date().toISOString() };
   await writeFile(completedPath(pdfPath), JSON.stringify(data, null, 2), 'utf-8');
-}
-
-export async function loadFulltext(pdfPath: string, expectedHash: string): Promise<FulltextData | null> {
-  try {
-    const path = fulltextPath(pdfPath);
-    if (await isLfsPointer(path)) return null;
-    const raw = await readFile(path, 'utf-8');
-    const data: FulltextData = JSON.parse(raw);
-    if (data.file_hash !== expectedHash) return null;
-    if (data.skipped) return null;
-    return data;
-  } catch {
-    return null;
-  }
-}
-
-export async function loadEmbeddings(pdfPath: string, expectedHash: string): Promise<EmbeddingsData | null> {
-  try {
-    const path = embeddingsPath(pdfPath);
-    if (await isLfsPointer(path)) return null;
-    const raw = await readFile(path, 'utf-8');
-    const data: EmbeddingsData = JSON.parse(raw);
-    if (data.file_hash !== expectedHash) return null;
-    return data;
-  } catch {
-    return null;
-  }
 }
 
 export async function saveFulltext(pdfPath: string, data: FulltextData): Promise<void> {

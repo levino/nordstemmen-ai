@@ -16,7 +16,6 @@ const { values } = parseArgs({
     limit: { type: 'string', default: '0' },
     force: { type: 'boolean', default: false },
     'dry-run': { type: 'boolean', default: false },
-    'skip-b2': { type: 'boolean', default: false },
     'skip-qdrant': { type: 'boolean', default: false },
     only: { type: 'string' },
     concurrency: { type: 'string', default: '5' },
@@ -30,7 +29,6 @@ const config: PipelineConfig = {
   limit: parseInt(String(values.limit ?? '0'), 10),
   force: values.force === true,
   dryRun: values['dry-run'] === true,
-  skipB2: values['skip-b2'] === true,
   skipQdrant: values['skip-qdrant'] === true,
   only: typeof values.only === 'string' ? values.only : undefined,
   concurrency: parseInt(String(values.concurrency ?? '5'), 10),
@@ -55,12 +53,6 @@ const env: EnvConfig = {
     apiKey: required('QDRANT_API_KEY'),
     port: parseInt(process.env.QDRANT_PORT ?? '443', 10),
     collection: process.env.QDRANT_COLLECTION ?? 'nordstemmen',
-  },
-  b2: {
-    keyId: config.skipB2 ? '' : required('B2_KEY_ID'),
-    appKey: config.skipB2 ? '' : required('B2_APP_KEY'),
-    bucketId: config.skipB2 ? '' : required('B2_BUCKET_ID'),
-    bucketName: config.skipB2 ? '' : required('B2_BUCKET_NAME'),
   },
 };
 

@@ -6,17 +6,13 @@ on:
   workflow_dispatch:
     inputs:
       force:
-        description: 'Force reprocess all documents (ignore cache)'
+        description: 'Force reprocess all documents (ignore .completed)'
         type: boolean
         default: false
       limit:
         description: 'Max documents to process (0 = all)'
         type: string
         default: '0'
-      skip-b2:
-        description: 'Skip B2 upload'
-        type: boolean
-        default: false
 
 concurrency:
   group: data-sync
@@ -84,10 +80,6 @@ jobs:
           QDRANT_URL: ${{ vars.QDRANT_URL }}
           QDRANT_API_KEY: ${{ secrets.QDRANT_API_KEY }}
           QDRANT_PORT: '443'
-          B2_KEY_ID: ${{ secrets.B2_KEY_ID }}
-          B2_APP_KEY: ${{ secrets.B2_APP_KEY }}
-          B2_BUCKET_ID: ${{ vars.B2_BUCKET_ID }}
-          B2_BUCKET_NAME: ${{ vars.B2_BUCKET_NAME }}
         run: |
           ARGS=""
           if [ "${{ inputs.force || 'false' }}" = "true" ]; then
@@ -96,9 +88,6 @@ jobs:
           LIMIT="${{ inputs.limit || '0' }}"
           if [ "$LIMIT" != "0" ]; then
             ARGS="$ARGS --limit $LIMIT"
-          fi
-          if [ "${{ inputs.skip-b2 || 'false' }}" = "true" ]; then
-            ARGS="$ARGS --skip-b2"
           fi
           npm run pipeline -- $ARGS
 

@@ -8,8 +8,6 @@ export const JINA_MODEL = 'jina-embeddings-v3';
 
 export const JINA_BATCH_SIZE = 64;
 
-export const B2_API_BASE = 'https://api.backblazeb2.com';
-
 /** DNS namespace UUID for uuid v5 — matches Python uuid.NAMESPACE_DNS */
 export const UUID_NAMESPACE_DNS = '6ba7b810-9dad-11d1-80b4-00c04fd430c8';
 

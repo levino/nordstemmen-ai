@@ -119,7 +119,6 @@ export interface PipelineConfig {
   limit: number;
   force: boolean;
   dryRun: boolean;
-  skipB2: boolean;
   skipQdrant: boolean;
   only?: string;
   concurrency: number;

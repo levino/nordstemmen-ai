@@ -29,33 +29,11 @@ export function createQdrantService(config: QdrantConfig) {
     }
   }
 
-  async function loadProcessedFiles(): Promise<Set<string>> {
-    const processed = new Set<string>();
-    let offset: string | number | undefined;
-
-    while (true) {
-      const result = await client.scroll(config.collection, {
-        limit: 1000,
-        offset,
-        with_payload: ['filename', 'file_hash'],
-        with_vector: false,
-      });
-
-      for (const point of result.points) {
-        const p = point.payload as {
-          filename?: string;
-          file_hash?: string;
-        };
-        if (p.filename && p.file_hash) {
-          processed.add(`${p.filename}::${p.file_hash}`);
-        }
-      }
-
-      if (!result.next_page_offset) break;
-      offset = result.next_page_offset as string | number | undefined;
+  async function dropCollection(): Promise<void> {
+    const collections = await client.getCollections();
+    if (collections.collections.some((c) => c.name === config.collection)) {
+      await client.deleteCollection(config.collection);
     }
-
-    return processed;
   }
 
   async function deleteFileChunks(filename: string): Promise<void> {
@@ -93,5 +71,5 @@ export function createQdrantService(config: QdrantConfig) {
     await client.upsert(config.collection, { points });
   }
 
-  return { ensureCollection, loadProcessedFiles, deleteFileChunks, upsertChunks };
+  return { ensureCollection, dropCollection, deleteFileChunks, upsertChunks };
 }
