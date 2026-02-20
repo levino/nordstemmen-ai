@@ -27,6 +27,13 @@ export interface ProcessingResult {
   pages?: number;
 }
 
+// === Sparse Vectors ===
+
+export interface SparseVector {
+  indices: number[];
+  values: number[];
+}
+
 // === Cache Files ===
 
 export interface FulltextData {
@@ -52,6 +59,7 @@ export interface EmbeddingsData {
     chunk_index: number;
     text: string;
     vector: number[];
+    sparseVector?: SparseVector;
   }>;
 }
 

@@ -61,8 +61,8 @@ Die semantische KI-Suche findet relevante Informationen auch wenn die exakten Su
 Das Projekt besteht aus vier Komponenten:
 
 1. **OParl Scraper** - Lädt PDF-Dokumente vom Ratsinformationssystem herunter
-2. **Document Pipeline** - Verarbeitet PDFs komplett: Gemini OCR → Jina Embeddings → Qdrant → Backblaze B2
-3. **MCP Server** - Cloudflare Pages Function für semantische Suche via Claude (Web & Desktop)
+2. **Document Pipeline** - Verarbeitet PDFs komplett: Gemini OCR → Jina Embeddings + Sparse Vectors → Qdrant → Backblaze B2
+3. **MCP Server** - Cloudflare Pages Function für Hybrid-Suche (semantisch + Keyword) via Claude (Web & Desktop)
 4. **CI Pipeline** - GitHub Actions Cronjob synchronisiert stündlich neue Dokumente
 
 ## Architektur
@@ -80,14 +80,14 @@ graph TB
     CI[GitHub Actions<br/>Hourly Cron]
 
     User -->|MCP Protocol<br/>Connector| MCP
-    MCP -->|Query Embeddings| Jina
-    MCP -->|Vector Search| Qdrant
+    MCP -->|Query Embeddings<br/>+ Sparse Vector| Jina
+    MCP -->|Hybrid Search<br/>Dense + Sparse RRF| Qdrant
     MCP -->|PDF + Fulltext| B2
     CI -->|Hourly| Scraper
     CI -->|Hourly| Embeddings
     Scraper -->|Download PDFs<br/>+ Metadata| Docs
     Docs -->|Read PDFs| Embeddings
-    Embeddings -->|Jina v3 API<br/>1024D Vectors| Qdrant
+    Embeddings -->|Jina v3 Dense<br/>+ BM25 Sparse| Qdrant
     Embeddings -->|PDFs + Text| B2
 
     style User fill:#e1f5ff
@@ -101,11 +101,19 @@ graph TB
     style CI fill:#f0f0f0
 ```
 
-### Warum Hybrid-Ansatz?
+### Warum Hybrid Search?
 
-- **Dokument-Embeddings**: Jina AI API in CI, oder lokal mit Jina v3 Modell (einmalig, kostenlos)
-- **Query-Embeddings**: Jina AI API (häufig, niedrige Kosten pro Query, keine GPU nötig)
-- **Vector Search**: Qdrant Cloud (persistente Speicherung, schnelle Suche)
+Die Suche kombiniert zwei Ansätze via **Reciprocal Rank Fusion (RRF)**:
+- **Dense Vectors** (Jina v3, 1024D): Semantische Suche — versteht Bedeutung, findet "Schwimmbad" auch bei "Hallenbad"
+- **Sparse Vectors** (BM25-TF, lokal berechnet): Keyword-Suche — findet exakte Namen ("Müller"), Nummern ("DS 101/2024"), Straßennamen ("Escherder Straße")
+
+Sparse Vectors werden **lokal** aus dem Text berechnet (FNV-1a Hash, deutsche Stopwörter, keine API nötig). Der gleiche Tokenizer läuft in Pipeline und MCP Server.
+
+### Technologie-Stack
+
+- **Dokument-Embeddings**: Jina AI API in CI (Dense) + lokale Berechnung (Sparse)
+- **Query-Embeddings**: Jina AI API für Dense + lokale Sparse-Berechnung im MCP Server
+- **Vector Search**: Qdrant (self-hosted) mit Named Vectors (dense + sparse) und RRF Fusion
 - **MCP Server**: Cloudflare Pages (kostenloses Hosting, globales CDN, niedrige Latenz)
 - **PDF/Text Storage**: Backblaze B2 (günstig, per SHA256-Hash adressiert)
 - **CI Pipeline**: GitHub Actions (stündliche Synchronisierung, LFS-optimiert)
@@ -403,11 +411,11 @@ Das MCP Tool bietet semantische Suche über alle Dokumente:
 ```
 
 **Features:**
-- Semantische Suche (findet relevante Dokumente auch ohne exakte Keywords)
+- Hybrid-Suche: Semantisch (Dense) + Keyword (Sparse BM25) via RRF
 - Deep Links zu Originaldokumenten im Ratsinformationssystem
 - Markdown-Formatierung für Claude (Text)
 - Strukturierte JSON-Daten für programmatischen Zugriff
-- Relevanz-Score (Cosine Similarity)
+- Relevanz-Score (RRF Fusion Score)
 
 ## Qdrant Payload Schema
 
@@ -415,7 +423,10 @@ Jeder Chunk wird mit folgendem Schema gespeichert:
 
 ```json
 {
-  "vector": [0.123, -0.456, ...],  // 1024 Dimensionen (Jina v3)
+  "vector": {
+    "dense": [0.123, -0.456, ...],  // 1024D (Jina v3, Cosine)
+    "sparse": { "indices": [42, 1337, ...], "values": [0.45, 0.71, ...] }  // BM25-TF
+  },
   "payload": {
     "filename": "documents/2024-11-12_Gemeinderat_Protokoll.pdf",
     "file_hash": "abc123def456...",

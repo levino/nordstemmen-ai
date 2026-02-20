@@ -12,6 +12,333 @@ const corsHeaders = {
 };
 
 // ============================================================================
+// Sparse Vector (BM25-TF) — must match pipeline/src/sparse.ts exactly
+// ============================================================================
+
+const STOPWORDS = new Set([
+  'aber',
+  'alle',
+  'allem',
+  'allen',
+  'aller',
+  'allerdings',
+  'alles',
+  'also',
+  'am',
+  'an',
+  'ander',
+  'andere',
+  'anderem',
+  'anderen',
+  'anderer',
+  'anderes',
+  'anderm',
+  'andern',
+  'anders',
+  'auch',
+  'auf',
+  'aus',
+  'bei',
+  'beim',
+  'bereits',
+  'besonders',
+  'bin',
+  'bis',
+  'bisher',
+  'bist',
+  'da',
+  'dabei',
+  'dadurch',
+  'dafür',
+  'dagegen',
+  'daher',
+  'dahin',
+  'damals',
+  'damit',
+  'danach',
+  'daneben',
+  'dann',
+  'daran',
+  'darauf',
+  'daraus',
+  'darf',
+  'darfst',
+  'darin',
+  'darum',
+  'darunter',
+  'darüber',
+  'das',
+  'dass',
+  'davon',
+  'davor',
+  'dazu',
+  'dein',
+  'deine',
+  'deinem',
+  'deinen',
+  'deiner',
+  'dem',
+  'den',
+  'denn',
+  'dennoch',
+  'der',
+  'deren',
+  'des',
+  'deshalb',
+  'dessen',
+  'die',
+  'dies',
+  'diese',
+  'dieselbe',
+  'dieselben',
+  'diesem',
+  'diesen',
+  'dieser',
+  'dieses',
+  'doch',
+  'dort',
+  'du',
+  'durch',
+  'dürfen',
+  'ein',
+  'eine',
+  'einem',
+  'einen',
+  'einer',
+  'einige',
+  'einigem',
+  'einigen',
+  'einiger',
+  'einiges',
+  'einmal',
+  'er',
+  'erst',
+  'es',
+  'etwa',
+  'etwas',
+  'euch',
+  'euer',
+  'eure',
+  'eurem',
+  'euren',
+  'eurer',
+  'für',
+  'ganz',
+  'gar',
+  'gegen',
+  'gehen',
+  'geht',
+  'gemacht',
+  'genug',
+  'gern',
+  'gerne',
+  'gibt',
+  'ging',
+  'hab',
+  'habe',
+  'haben',
+  'hat',
+  'hatte',
+  'hätte',
+  'her',
+  'herr',
+  'hier',
+  'hin',
+  'hinter',
+  'ich',
+  'ihm',
+  'ihn',
+  'ihnen',
+  'ihr',
+  'ihre',
+  'ihrem',
+  'ihren',
+  'ihrer',
+  'immer',
+  'in',
+  'indem',
+  'infolge',
+  'innen',
+  'ins',
+  'irgend',
+  'ist',
+  'ja',
+  'jede',
+  'jedem',
+  'jeden',
+  'jeder',
+  'jedes',
+  'jedoch',
+  'jemals',
+  'jene',
+  'jenem',
+  'jenen',
+  'jener',
+  'jenes',
+  'jetzt',
+  'kann',
+  'kannst',
+  'kein',
+  'keine',
+  'keinem',
+  'keinen',
+  'keiner',
+  'kommen',
+  'konnte',
+  'können',
+  'könnte',
+  'lassen',
+  'machen',
+  'macht',
+  'man',
+  'manch',
+  'manche',
+  'manchem',
+  'manchen',
+  'mancher',
+  'manchmal',
+  'mehr',
+  'mein',
+  'meine',
+  'meinem',
+  'meinen',
+  'meiner',
+  'mit',
+  'möchte',
+  'muss',
+  'musste',
+  'müssen',
+  'nach',
+  'nachdem',
+  'nachher',
+  'nein',
+  'nicht',
+  'nichts',
+  'noch',
+  'nun',
+  'nur',
+  'ob',
+  'oder',
+  'ohne',
+  'sehr',
+  'seid',
+  'sein',
+  'seine',
+  'seinem',
+  'seinen',
+  'seiner',
+  'seit',
+  'seitdem',
+  'sich',
+  'sie',
+  'sind',
+  'so',
+  'sogar',
+  'solch',
+  'solche',
+  'solchem',
+  'solchen',
+  'solcher',
+  'soll',
+  'sollen',
+  'sollte',
+  'sollten',
+  'solltest',
+  'sondern',
+  'sonst',
+  'sowie',
+  'über',
+  'um',
+  'und',
+  'uns',
+  'unser',
+  'unsere',
+  'unserem',
+  'unseren',
+  'unserer',
+  'unter',
+  'viel',
+  'viele',
+  'vielen',
+  'vielleicht',
+  'vom',
+  'von',
+  'vor',
+  'vorbei',
+  'vorher',
+  'warum',
+  'was',
+  'weder',
+  'weil',
+  'welch',
+  'welche',
+  'welchem',
+  'welchen',
+  'welcher',
+  'welches',
+  'wenn',
+  'wer',
+  'werde',
+  'werden',
+  'werdet',
+  'wessen',
+  'wie',
+  'wieder',
+  'will',
+  'wir',
+  'wird',
+  'wirst',
+  'wo',
+  'wohl',
+  'wollen',
+  'worden',
+  'wurde',
+  'würde',
+  'während',
+  'würden',
+  'zu',
+  'zum',
+  'zur',
+  'zwar',
+  'zwischen',
+]);
+
+function hashToken(token) {
+  let hash = 0x811c9dc5;
+  for (let i = 0; i < token.length; i++) {
+    hash ^= token.charCodeAt(i);
+    hash = Math.imul(hash, 0x01000193);
+  }
+  return hash >>> 0;
+}
+
+function tokenize(text) {
+  return text
+    .toLowerCase()
+    .split(/[^a-zäöüß0-9]+/)
+    .filter((t) => t.length >= 2 && !STOPWORDS.has(t));
+}
+
+function computeSparseVector(text) {
+  const tokens = tokenize(text);
+  if (tokens.length === 0) return { indices: [], values: [] };
+
+  const tf = new Map();
+  for (const token of tokens) {
+    tf.set(token, (tf.get(token) ?? 0) + 1);
+  }
+
+  const indices = [];
+  const values = [];
+  for (const [token, count] of tf) {
+    indices.push(hashToken(token));
+    values.push(count / (count + 1.2));
+  }
+
+  return { indices, values };
+}
+
+// ============================================================================
 // Embedding Service
 // ============================================================================
 
@@ -58,58 +385,59 @@ async function searchDocuments(env, args) {
       port: env.QDRANT_PORT ? parseInt(env.QDRANT_PORT) : undefined,
     });
 
-    return generateEmbedding(env, query)
-      .then((queryEmbedding) => {
-        // Build filter for date range if provided
-        const searchParams = {
-          vector: queryEmbedding,
-          limit: Math.min(limit, 10),
-          with_payload: true,
-        };
+    const queryEmbedding = await generateEmbedding(env, query);
+    const sparseQuery = computeSparseVector(query);
 
-        if (date_from || date_to) {
-          const range = {};
-          if (date_from) range.gte = date_from;
-          if (date_to) range.lte = date_to;
-
-          searchParams.filter = {
+    const filter =
+      date_from || date_to
+        ? {
             must: [
               {
                 key: 'date',
-                range,
+                range: {
+                  ...(date_from ? { gte: date_from } : {}),
+                  ...(date_to ? { lte: date_to } : {}),
+                },
               },
             ],
-          };
-        }
+          }
+        : undefined;
 
-        return client.search(env.QDRANT_COLLECTION, searchParams);
-      })
-      .then((results) => {
-        if (!results || results.length === 0) {
-          return [];
-        }
+    const effectiveLimit = Math.min(limit, 10);
 
-        return results.map((result, index) => {
-          const payload = result.payload;
-          const pdfUrl = payload.pdf_access_url || null;
+    const result = await client.query(env.QDRANT_COLLECTION, {
+      prefetch: [
+        { query: queryEmbedding, using: 'dense', limit: 20, filter },
+        { query: { indices: sparseQuery.indices, values: sparseQuery.values }, using: 'sparse', limit: 20, filter },
+      ],
+      query: { fusion: 'rrf' },
+      limit: effectiveLimit,
+      with_payload: true,
+    });
 
-          return {
-            rank: index + 1,
-            title: payload.entity_name || payload.filename || 'Unknown',
-            url: pdfUrl || payload.entity_id || null,
-            oparl_id: payload.entity_id || null,
-            pdf_url: pdfUrl,
-            file_hash: payload.file_hash || null,
-            date: payload.date || null,
-            page: payload.page || null,
-            score: result.score || 0,
-            excerpt: payload.text || '',
-            filename: payload.filename || null,
-            reference: payload.paper_reference || null,
-            entity_type: payload.entity_type || null,
-          };
-        });
-      });
+    const points = result.points || [];
+    if (points.length === 0) return [];
+
+    return points.map((point, index) => {
+      const payload = point.payload;
+      const pdfUrl = payload.pdf_access_url || null;
+
+      return {
+        rank: index + 1,
+        title: payload.entity_name || payload.filename || 'Unknown',
+        url: pdfUrl || payload.entity_id || null,
+        oparl_id: payload.entity_id || null,
+        pdf_url: pdfUrl,
+        file_hash: payload.file_hash || null,
+        date: payload.date || null,
+        page: payload.page || null,
+        score: point.score || 0,
+        excerpt: payload.text || '',
+        filename: payload.filename || null,
+        reference: payload.paper_reference || null,
+        entity_type: payload.entity_type || null,
+      };
+    });
   } catch (error) {
     throw new Error(`Search error: ${error.message}`);
   }

@@ -42,8 +42,10 @@ nordstemmen-ai/
 │   │   ├── hash.ts             # SHA256 hashing, LFS pointer detection
 │   │   ├── cache.ts            # .fulltext.json / .embeddings.json I/O
 │   │   ├── ocr.ts              # Gemini API: PDF → page-level text
+│   │   ├── sparse.ts           # BM25-TF sparse vectors (FNV-1a hash, German stopwords)
+│   │   ├── migrate-sparse.ts   # One-time migration script (delete after use)
 │   │   ├── embeddings.ts       # Jina API: text → 1024D vectors
-│   │   ├── qdrant.ts           # Qdrant upload (upsert, deduplicate)
+│   │   ├── qdrant.ts           # Qdrant upload (named vectors: dense + sparse)
 │   │   ├── b2.ts               # Backblaze B2 upload (PDF + fulltext)
 │   │   └── retry.ts            # Retry + concurrency helpers
 │   ├── package.json
@@ -116,6 +118,7 @@ cd scraper && npm run scrape    # Run OParl scraper
 cd scraper && npm test          # Run scraper tests
 
 # Pipeline (replaces all Python scripts)
+npm run migrate:sparse -w pipeline        # One-time: rebuild Qdrant with sparse vectors (no API calls)
 npm run pipeline                          # Process all unprocessed documents
 npm run pipeline -- --limit 500           # Limit to 500 documents
 npm run pipeline -- --force               # Re-process everything (ignore cache)
@@ -141,10 +144,12 @@ cd mcp-server && npm run build  # Production build
 ## Architecture
 
 - **Scraper**: TypeScript + Effect library. Crawls OParl API (`/paper` + `/meeting` collections), downloads PDFs, saves structured metadata per entity
-- **Pipeline**: TypeScript, plain async/await. Document-oriented processing: PDF → Gemini OCR → Jina Embeddings → Qdrant → B2. Replaces all Python scripts. No build step (`node --experimental-strip-types`). Uses `@google/genai` SDK for Gemini, raw `fetch` for Jina, `@qdrant/js-client-rest` for Qdrant, raw `fetch` for B2
-- **MCP Server**: Cloudflare Pages Functions. Three MCP tools: `search_documents` (semantic vector search), `get_paper_by_reference` (direct DS lookup), `search_papers` (filtered metadata search). Also serves PDFs via proxy at `/pdf/<sha256>`
+- **Pipeline**: TypeScript, plain async/await. Document-oriented processing: PDF → Gemini OCR → Jina Embeddings + local Sparse Vectors → Qdrant → B2. Replaces all Python scripts. No build step (`node --experimental-strip-types`). Uses `@google/genai` SDK for Gemini, raw `fetch` for Jina, `@qdrant/js-client-rest` for Qdrant, raw `fetch` for B2
+- **MCP Server**: Cloudflare Pages Functions. Three MCP tools: `search_documents` (hybrid search: dense + sparse with RRF fusion), `get_paper_by_reference` (direct DS lookup), `search_papers` (filtered metadata search). Also serves PDFs via proxy at `/pdf/<sha256>`
 - **Embeddings (deprecated)**: Python. Replaced by pipeline. Kept for reference
-- **Vector DB**: Qdrant (self-hosted at qdrant.levinkeller.de)
+- **Vector DB**: Qdrant (self-hosted at qdrant.levinkeller.de). Named vectors: `dense` (Jina 1024D, Cosine) + `sparse` (BM25-TF)
+- **Hybrid Search**: MCP Server uses Qdrant Query API with `prefetch` (dense + sparse) and RRF (Reciprocal Rank Fusion). Combines semantic similarity with keyword matching
+- **Sparse Vectors**: Locally computed BM25-TF weights with FNV-1a token hashing. Same tokenizer in pipeline (`sparse.ts`) and MCP server (`mcp.js`). German stopwords, no external API needed
 - **Embeddings API**: Jina AI v3 — `retrieval.passage` for indexing (pipeline), `retrieval.query` for search (MCP server)
 - **OCR**: Gemini 2.5 Flash — sends entire PDF as inline data, page-level text extraction via `--- Page N ---` markers
 - **PDF/Text Storage**: Backblaze B2 — PDFs as `{sha256}`, fulltext as `{sha256}.txt`
@@ -154,9 +159,10 @@ cd mcp-server && npm run build  # Production build
 
 - **Document-oriented pipeline**: Each document goes through the complete chain (OCR → Embeddings → Qdrant → B2) before moving to the next. Simpler error handling, resumable
 - **Gemini OCR**: Sends entire PDF as inline data to Gemini 2.5 Flash — no pdf2image, no poppler dependency. Page-level text via `--- Page N ---` markers in prompt
-- **Page-level embeddings**: 1 embedding per page (Jina v3, 1024D). `chunk_index` is always 0. No sub-page chunking
+- **Page-level embeddings**: 1 dense embedding + 1 sparse vector per page (Jina v3, 1024D). `chunk_index` is always 0. No sub-page chunking
+- **Hybrid search via RRF**: Dense vectors (semantic) + sparse vectors (keyword/BM25) combined via Reciprocal Rank Fusion. Improves results for exact names, numbers, street names
 - **Hash-based change detection**: SHA256 per PDF, tracked in Qdrant payload — no local state needed
-- **Cache files**: `.fulltext.json` and `.embeddings.json` alongside PDFs — avoids recomputation. Existing cache from Python scripts is honored
+- **Cache files**: `.fulltext.json` and `.embeddings.json` alongside PDFs — avoids recomputation. Pipeline reuses cached OCR and dense embeddings, only computes sparse vectors locally
 - **Custom LFS server**: Separate from GitHub LFS for cost/control
 - **OParl metadata preserved**: Full paper/meeting context (DS-numbers, consultations, agenda items) stored in Qdrant payload for rich search results
 
