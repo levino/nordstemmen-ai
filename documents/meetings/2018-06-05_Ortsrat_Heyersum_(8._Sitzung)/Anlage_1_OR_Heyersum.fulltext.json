@@ -1,8 +1,18 @@
 {
   "file_hash": "b0340e0e36c94dc415b41b28cb12068c430481234fb79e75945fe725bf8cc178",
   "filename": "Anlage_1_OR_Heyersum.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Protocoll 05.06.2018\nAnlage 1\nOR Heyerscen\n\nOrtsratmittel 2018 vom 4.6.18 2563,65 €\nVerwendung der Ortsratmittel 2018\n\n| Geplante Ausgaben | Betrag |\n| :------------------------------ | :------- |\n| Ortsheimatspflege               | 150,00 € |\n| Strom Schaukasten               | 15,00 €  |\n| Umwelttag                       | 50,00 €  |\n| Volkstrauertag Trompeter/Kranz  | 100,00 € |\n| Adventsfeier                    | 250,00 € |\n| Sitzgruppe für den Bolzplatz    | 1000,00 € |\n| Wandkalender 2019               | 250,00 € |\n| Präsent für Frankreich          | 50,00€   |\n| Unterstützung GJR Ferienpass    | 100,00€  |\n| Reserve für 2018                | 100,00 € |\n| Geburtstage                     | 46x7=343 € |\n| Ehejubiläum 6x                  | 150 €    |\n|                                 | 2558 €   |\n\nHaushaltsmittel Gemeinde 2019\n2 neue Schilder Europakomitee Heyersum/Saint Aubin\n2 neue Ortstafeln Lageplan Heyersum\nVordach Sporthalle\n2 neue Bänke Dorf/ Schlingweg\nBolzplatz Neugestaltung\nNeugestaltung Grünstreifen Altes Schulhaus\nUnterhaltungsmaßnahmen für den Ort Heyersum"
+    }
+  ],
+  "full_text": "Protocoll 05.06.2018\nAnlage 1\nOR Heyerscen\n\nOrtsratmittel 2018 vom 4.6.18 2563,65 €\nVerwendung der Ortsratmittel 2018\n\n| Geplante Ausgaben | Betrag |\n| :------------------------------ | :------- |\n| Ortsheimatspflege               | 150,00 € |\n| Strom Schaukasten               | 15,00 €  |\n| Umwelttag                       | 50,00 €  |\n| Volkstrauertag Trompeter/Kranz  | 100,00 € |\n| Adventsfeier                    | 250,00 € |\n| Sitzgruppe für den Bolzplatz    | 1000,00 € |\n| Wandkalender 2019               | 250,00 € |\n| Präsent für Frankreich          | 50,00€   |\n| Unterstützung GJR Ferienpass    | 100,00€  |\n| Reserve für 2018                | 100,00 € |\n| Geburtstage                     | 46x7=343 € |\n| Ehejubiläum 6x                  | 150 €    |\n|                                 | 2558 €   |\n\nHaushaltsmittel Gemeinde 2019\n2 neue Schilder Europakomitee Heyersum/Saint Aubin\n2 neue Ortstafeln Lageplan Heyersum\nVordach Sporthalle\n2 neue Bänke Dorf/ Schlingweg\nBolzplatz Neugestaltung\nNeugestaltung Grünstreifen Altes Schulhaus\nUnterhaltungsmaßnahmen für den Ort Heyersum",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:12.443Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 413
+  }
 }

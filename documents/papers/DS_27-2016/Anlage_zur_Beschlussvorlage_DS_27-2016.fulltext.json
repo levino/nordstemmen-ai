@@ -1,8 +1,18 @@
 {
   "file_hash": "21af81c96bde6d06033cc5cee7a78163a8c2ab49dac631a3092c16158bdecec0",
   "filename": "Anlage_zur_Beschlussvorlage_DS_27-2016.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Eine Katasterkarte, die Grundstücke und Gebäude darstellt.]\nE 555656 m\nN 5783126 m\n©2015 LGLN"
+    }
+  ],
+  "full_text": "[Eine Katasterkarte, die Grundstücke und Gebäude darstellt.]\nE 555656 m\nN 5783126 m\n©2015 LGLN",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:51:17.910Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 50
+  }
 }

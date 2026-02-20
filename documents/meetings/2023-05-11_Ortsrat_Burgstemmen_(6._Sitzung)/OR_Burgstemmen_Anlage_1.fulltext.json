@@ -1,8 +1,18 @@
 {
   "file_hash": "866cf7e69e9934b6809ff76b3dfa7e2ad5fc1416391b4b77737c98dd671611a2",
   "filename": "OR_Burgstemmen_Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "-Anlage 7-\n\n## Absender\nUlf Moldenhauer\nOrtsbürgermeister\nBethelnerstr. 19\n31171 Nordstemmen-Burgstemmen\n05069/1475\nmoldenhauer-burgstemmen@t-online.de\n\nBurgstemmen, 11.Mai 2023\n\n## Empfänger\nAn die\nBürgermeisterin der Gemeinde Nordstemmen\nFrau Nicole Dombrowski\nRathausstr.\nNordstemmen\n\nSehr geehrte Frau Bürgermeisterin,\nliebe Nicole,\nMittelanmeldungen des Ortsrates Burgstemmen für den Haushalt 2024 und die mittelfristige\nFinanzplanung 2025-2027:\n*   Energetische Sanierung MZH\n*   Fußwegerstellung Ortsausgang Richtung Betheln westliche Seite\n*   Erneuerung Zaun Sportplatz\n*   Errichtung Fahrradstellplatz mit E-Ladestation Sportplatz Burgstemmen\n*   Anstrich der MZH\n*   Sanierung der WC-Anlagen MZH\n*   Mittelbereitstellung Hochwasserschutz Osterbach/Goldbeeke\n*   Errichtung E-Ladestation MZH\n*   Planungskosten für die Umgestaltung des Festplatzes\n*   Ausbau Mühlenweg incl. Querungshilfe\n\nWir bitten sie unsere Anmeldungen für den Haushalt 2024 und die mittelfristige\nFinanzplanung zu berücksichtigen, besonders um den akuten Sanierungsstau an der MZH\nund am Sportplatz zu beheben.\n\nHerzliche Grüße im Namen des Ortsrates Burgstemmen\n[Unterschrift]"
+    }
+  ],
+  "full_text": "-Anlage 7-\n\n## Absender\nUlf Moldenhauer\nOrtsbürgermeister\nBethelnerstr. 19\n31171 Nordstemmen-Burgstemmen\n05069/1475\nmoldenhauer-burgstemmen@t-online.de\n\nBurgstemmen, 11.Mai 2023\n\n## Empfänger\nAn die\nBürgermeisterin der Gemeinde Nordstemmen\nFrau Nicole Dombrowski\nRathausstr.\nNordstemmen\n\nSehr geehrte Frau Bürgermeisterin,\nliebe Nicole,\nMittelanmeldungen des Ortsrates Burgstemmen für den Haushalt 2024 und die mittelfristige\nFinanzplanung 2025-2027:\n*   Energetische Sanierung MZH\n*   Fußwegerstellung Ortsausgang Richtung Betheln westliche Seite\n*   Erneuerung Zaun Sportplatz\n*   Errichtung Fahrradstellplatz mit E-Ladestation Sportplatz Burgstemmen\n*   Anstrich der MZH\n*   Sanierung der WC-Anlagen MZH\n*   Mittelbereitstellung Hochwasserschutz Osterbach/Goldbeeke\n*   Errichtung E-Ladestation MZH\n*   Planungskosten für die Umgestaltung des Festplatzes\n*   Ausbau Mühlenweg incl. Querungshilfe\n\nWir bitten sie unsere Anmeldungen für den Haushalt 2024 und die mittelfristige\nFinanzplanung zu berücksichtigen, besonders um den akuten Sanierungsstau an der MZH\nund am Sportplatz zu beheben.\n\nHerzliche Grüße im Namen des Ortsrates Burgstemmen\n[Unterschrift]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:04:59.194Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 381
+  }
 }

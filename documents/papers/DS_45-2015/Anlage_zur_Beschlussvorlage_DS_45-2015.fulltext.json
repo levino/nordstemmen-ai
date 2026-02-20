@@ -1,8 +1,18 @@
 {
   "file_hash": "61b4bd9ab823787ddeafeef8ee6b824a461f2d443ea09e83192af638a36b6da0",
   "filename": "Anlage_zur_Beschlussvorlage_DS_45-2015.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Regionale Karte mit geografischen Merkmalen, Straßennetz und einem hervorgehobenen Abschnitt, der als Baustrecke gekennzeichnet ist.]"
+    }
+  ],
+  "full_text": "[Regionale Karte mit geografischen Merkmalen, Straßennetz und einem hervorgehobenen Abschnitt, der als Baustrecke gekennzeichnet ist.]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:04:32.398Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 36
+  }
 }

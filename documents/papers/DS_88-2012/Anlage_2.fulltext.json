@@ -1,8 +1,18 @@
 {
   "file_hash": "ab21c21d55db885c8e1f95273a835b1685c19ad851d4bccdb71be575448be1b8",
   "filename": "Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 2 zur DS 88 / 2012\nSatzung\nüber die Festlegung von Schulbezirken für die Grundschulen in der\nGemeinde Nordstemmen\n\nAufgrund des § 10 des Niedersächsischen Kommunalverfassungsgesetzes (NKomVG)\nvom 17. Dezember 2010, zuletzt geändert durch Artikel 10 des Gesetzes vom 17.11.2011\n(Nds. GVBI. S. 422) in Verbindung mit § 63 Abs. 2 des Nds. Schulgesetzes (NSchG) in\nder Fassung vom 3. März 1998 (Nds. GVBI. S. 137), zuletzt geändert durch Artikel 8 des\nGesetzes vom 09.12.2011 (Nds. GVBI. S. 471), wird durch Beschluss des Rates der\nGemeinde Nordstemmen vom 26. April 2012 folgende Satzung erlassen:\n\n§ 1\n\nBegriffsbestimmung\n\nSchulbezirke sind gemäß § 63 Abs. 2 NSchG für alle Schulen im Primarbereich unter\nBerücksichtigung der Ziele des Schulentwicklungsplanes festzulegen. Nach Einführung\nverbindlicher Schulbezirke können Schüler grundsätzlich nur die Schule besuchen, in\nderen Schulbezirk sie ihren Wohnsitz oder gewöhnlichen Aufenthalt haben, sofern nicht\ngemäß § 63 Abs. 3 Satz 4 NSchG der Besuch einer anderen als der örtlich zuständigen\nSchule gestattet wird.\n\n§ 2\n\nGrundschule Nordstemmen\n\nDer Schulbezirk für die Grundschule Nordstemmen umfasst das Gebiet der Ortschaften\nBurgstemmen, Heyersum, Mahlerten und Nordstemmen.\n\n§ 3\n\nGrundschule Barnten\n\nDer Schulbezirk für die Grundschule Barnten umfasst das Gebiet der Ortschaften\nAdensen, Barnten, Groß Escherde, Hallerburg, Klein Escherde und Rössing.\n\n§ 4\n\nInkrafttreten\n\nDiese Satzung tritt zum Schuljahresbeginn 2013 / 2014 in Kraft.\nGleichzeitig tritt die Satzung über die Festlegung von Schulbezirken für die Schulen in\nder Trägerschaft der Gemeinde Nordstemmen vom 13. Januar 1999 außer Kraft.\n\nNordstemmen, den\n\nGemeinde Nordstemmen\nDer Bürgermeister\n\nNorbert Pallentin"
+    }
+  ],
+  "full_text": "Anlage 2 zur DS 88 / 2012\nSatzung\nüber die Festlegung von Schulbezirken für die Grundschulen in der\nGemeinde Nordstemmen\n\nAufgrund des § 10 des Niedersächsischen Kommunalverfassungsgesetzes (NKomVG)\nvom 17. Dezember 2010, zuletzt geändert durch Artikel 10 des Gesetzes vom 17.11.2011\n(Nds. GVBI. S. 422) in Verbindung mit § 63 Abs. 2 des Nds. Schulgesetzes (NSchG) in\nder Fassung vom 3. März 1998 (Nds. GVBI. S. 137), zuletzt geändert durch Artikel 8 des\nGesetzes vom 09.12.2011 (Nds. GVBI. S. 471), wird durch Beschluss des Rates der\nGemeinde Nordstemmen vom 26. April 2012 folgende Satzung erlassen:\n\n§ 1\n\nBegriffsbestimmung\n\nSchulbezirke sind gemäß § 63 Abs. 2 NSchG für alle Schulen im Primarbereich unter\nBerücksichtigung der Ziele des Schulentwicklungsplanes festzulegen. Nach Einführung\nverbindlicher Schulbezirke können Schüler grundsätzlich nur die Schule besuchen, in\nderen Schulbezirk sie ihren Wohnsitz oder gewöhnlichen Aufenthalt haben, sofern nicht\ngemäß § 63 Abs. 3 Satz 4 NSchG der Besuch einer anderen als der örtlich zuständigen\nSchule gestattet wird.\n\n§ 2\n\nGrundschule Nordstemmen\n\nDer Schulbezirk für die Grundschule Nordstemmen umfasst das Gebiet der Ortschaften\nBurgstemmen, Heyersum, Mahlerten und Nordstemmen.\n\n§ 3\n\nGrundschule Barnten\n\nDer Schulbezirk für die Grundschule Barnten umfasst das Gebiet der Ortschaften\nAdensen, Barnten, Groß Escherde, Hallerburg, Klein Escherde und Rössing.\n\n§ 4\n\nInkrafttreten\n\nDiese Satzung tritt zum Schuljahresbeginn 2013 / 2014 in Kraft.\nGleichzeitig tritt die Satzung über die Festlegung von Schulbezirken für die Schulen in\nder Trägerschaft der Gemeinde Nordstemmen vom 13. Januar 1999 außer Kraft.\n\nNordstemmen, den\n\nGemeinde Nordstemmen\nDer Bürgermeister\n\nNorbert Pallentin",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:27:26.310Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 560
+  }
 }

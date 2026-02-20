@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage 1 zu TOP 4: Einwohner*innen Fragestunde"
+      "text": "Anlage 1 zu TOP 4: Einwohner*innen Fragestunde\n\nBlüh wiesen!!\nMehr Bien hästen aufstellen\nInschten ho tals aufbaven\nWassar Spenden an Baume\nmehr Mülleimer ausstellen\nmew Ausgleichsflächen bei Barivar haben (z.B. dann bei\nBi-Umgehung)\nWasser Spender in nordstemmen aufstellen"
     }
   ],
-  "full_text": "Anlage 1 zu TOP 4: Einwohner*innen Fragestunde"
+  "full_text": "Anlage 1 zu TOP 4: Einwohner*innen Fragestunde\n\nBlüh wiesen!!\nMehr Bien hästen aufstellen\nInschten ho tals aufbaven\nWassar Spenden an Baume\nmehr Mülleimer ausstellen\nmew Ausgleichsflächen bei Barivar haben (z.B. dann bei\nBi-Umgehung)\nWasser Spender in nordstemmen aufstellen",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:06:34.966Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 93
+  }
 }

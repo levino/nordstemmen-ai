@@ -1,8 +1,18 @@
 {
   "file_hash": "003d5733f8abbdd40ed982526f5f5e1dfd24b7ea014f557578cb0534fd4609f3",
   "filename": "Anlage_5.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Ailage S\nOR Groß Esclerde\n00 - 14.02.2017\n\nVerwendung der Ortsratmittel für das Haushaltsjahr 2017\n\n| Senioren | 990,00 € |\n| :------------------------------------------ | :------- |\n| (inkl. Geburtstagsblumen)                   |          |\n| Jugend                                      | 1.000,00 € |\n| Volkstrauertag                              | 75,00 €  |\n| Sammlung von Kulturgut, Erstellung von Ortschroniken | 584,00 € |\n| Freie Verwendung                            | 244,12 € |\n|                                             |          |\n|                                             | 2.893,12 € |"
+    }
+  ],
+  "full_text": "Ailage S\nOR Groß Esclerde\n00 - 14.02.2017\n\nVerwendung der Ortsratmittel für das Haushaltsjahr 2017\n\n| Senioren | 990,00 € |\n| :------------------------------------------ | :------- |\n| (inkl. Geburtstagsblumen)                   |          |\n| Jugend                                      | 1.000,00 € |\n| Volkstrauertag                              | 75,00 €  |\n| Sammlung von Kulturgut, Erstellung von Ortschroniken | 584,00 € |\n| Freie Verwendung                            | 244,12 € |\n|                                             |          |\n|                                             | 2.893,12 € |",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:59:41.519Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 184
+  }
 }

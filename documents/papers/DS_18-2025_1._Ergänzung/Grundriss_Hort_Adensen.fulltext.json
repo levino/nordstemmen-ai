@@ -1,8 +1,18 @@
 {
   "file_hash": "a6544f8959e8bacee5807d75e2a623c39b5c80b2a94eb9d0e31e27b48ea23480",
   "filename": "Grundriss_Hort_Adensen.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Grundriss eines Gebäudes]\nGEMEINDE NORDSTEMMEN\nUmnutzung\nIm Schlingen 18 in der\nOrtschaft Adensen\nMASSSTAB 1/50\nGROSSE\nBLATT 1\nGEZ. 23.4.98 GEA.\nBAUHERR\nGemeinde Nordstemmen\nPLANUNG\nGemeinde Nordstemmen"
+    }
+  ],
+  "full_text": "[Grundriss eines Gebäudes]\nGEMEINDE NORDSTEMMEN\nUmnutzung\nIm Schlingen 18 in der\nOrtschaft Adensen\nMASSSTAB 1/50\nGROSSE\nBLATT 1\nGEZ. 23.4.98 GEA.\nBAUHERR\nGemeinde Nordstemmen\nPLANUNG\nGemeinde Nordstemmen",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:41:28.016Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 92
+  }
 }

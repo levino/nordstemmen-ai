@@ -1,8 +1,18 @@
 {
   "file_hash": "0c38af25a2c3e0f7d0e6eb34022960eba060d956f0343a5eb7782bb9318dc492",
   "filename": "2025_Antrag_Berker.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Adelheid Berker\nSchlingweg 8 A\nNordstemmen\n10.06.2025\n\nAn den Ortsrat\nder Gemeinde Nordstemmen\nz.Hd. Frau Dr. Cornelia Ott\n\n## Betreff\nZuschuss zu meiner 15. Info-Tafel\n\nUm meinen geschichtlichen Rundgang zu erweitern, werde ich in den nächsten\nWochen eine Tafel zum Thema „Stromversorgung Nordstemmens\" fertig stellen\nund möchte sie am Netto-Parkplatz - dort wo früher die Klinkergebäudewand\nder Landmaschinenfabrik Carl Müller stand -. aufstellen.\n\nWie schon in der Vergangenheit bitte ich den Ortsrat der Gemeinde\nNordstemmens um die Genehmigung dieses Vorhabens.\n\nIch würde mich auch über eine finanzielle Unterstützung sehr freuen.\n\nMit freundlichen Grüßen\n\n[Unterschrift]\nAdelheid Berker\nOrtsheimatpflegerin"
+    }
+  ],
+  "full_text": "Adelheid Berker\nSchlingweg 8 A\nNordstemmen\n10.06.2025\n\nAn den Ortsrat\nder Gemeinde Nordstemmen\nz.Hd. Frau Dr. Cornelia Ott\n\n## Betreff\nZuschuss zu meiner 15. Info-Tafel\n\nUm meinen geschichtlichen Rundgang zu erweitern, werde ich in den nächsten\nWochen eine Tafel zum Thema „Stromversorgung Nordstemmens\" fertig stellen\nund möchte sie am Netto-Parkplatz - dort wo früher die Klinkergebäudewand\nder Landmaschinenfabrik Carl Müller stand -. aufstellen.\n\nWie schon in der Vergangenheit bitte ich den Ortsrat der Gemeinde\nNordstemmens um die Genehmigung dieses Vorhabens.\n\nIch würde mich auch über eine finanzielle Unterstützung sehr freuen.\n\nMit freundlichen Grüßen\n\n[Unterschrift]\nAdelheid Berker\nOrtsheimatpflegerin",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:06:48.576Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 205
+  }
 }

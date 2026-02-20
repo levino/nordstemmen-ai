@@ -1,8 +1,18 @@
 {
   "file_hash": "7a506c3bb4b4f4d0c833fcde9af0d1d562fcf410ed6b614f9786b3d0a224cf16",
   "filename": "Anlage_1_zur_DS_35-2010.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Übersichtskarte eines Siedlungsgebiets mit Darstellung der Geltungsbereiche zweier Bebauungspläne]\n1\n3\nAnlage 1\n0 100 200 400 600 800 m"
+    }
+  ],
+  "full_text": "[Übersichtskarte eines Siedlungsgebiets mit Darstellung der Geltungsbereiche zweier Bebauungspläne]\n1\n3\nAnlage 1\n0 100 200 400 600 800 m",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:56:21.276Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 66
+  }
 }

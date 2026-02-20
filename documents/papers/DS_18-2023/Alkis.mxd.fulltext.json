@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "469/1\n15.193\nm²\n470\n24.697\nm²\n814/1\n58.672\nm²\nNordstemmen\n±\n1:5.000 Stand: 03.03.2023"
+      "text": "[Karte, die Flurstücke in einer ländlichen Gegend mit angrenzender Bebauung zeigt, mit eingezeichneten Parzellen inklusive Nummern und Flächenangaben.]\nMaßstab: 1:5.000\nStand: 03.03.2023"
     }
   ],
-  "full_text": "469/1\n15.193\nm²\n470\n24.697\nm²\n814/1\n58.672\nm²\nNordstemmen\n±\n1:5.000 Stand: 03.03.2023"
+  "full_text": "[Karte, die Flurstücke in einer ländlichen Gegend mit angrenzender Bebauung zeigt, mit eingezeichneten Parzellen inklusive Nummern und Flächenangaben.]\nMaßstab: 1:5.000\nStand: 03.03.2023",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:40:04.523Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 70
+  }
 }

@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Legende\nHaltestellen\nStatus\nFertig\n2017\n2018\n±\nspätere Jahre\nungewiss\nBusLinie\n1:15.000 Stand: 02.03.2017"
+      "text": "Anlage zur\nDS 8/2018\n[Karte, die eine Buslinie mit Haltestellen unterschiedlichen Status durch eine bebaute und ländliche Gegend zeigt.]\nLegende\nHaltestellen\nStatus\nFertig\n2017\n2018\n2019\nspätere Jahre\nungewiss\nBusLinie\n1:15.000\nStand: 02.03.2017"
     }
   ],
-  "full_text": "Legende\nHaltestellen\nStatus\nFertig\n2017\n2018\n±\nspätere Jahre\nungewiss\nBusLinie\n1:15.000 Stand: 02.03.2017"
+  "full_text": "Anlage zur\nDS 8/2018\n[Karte, die eine Buslinie mit Haltestellen unterschiedlichen Status durch eine bebaute und ländliche Gegend zeigt.]\nLegende\nHaltestellen\nStatus\nFertig\n2017\n2018\n2019\nspätere Jahre\nungewiss\nBusLinie\n1:15.000\nStand: 02.03.2017",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:22:35.469Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 109
+  }
 }

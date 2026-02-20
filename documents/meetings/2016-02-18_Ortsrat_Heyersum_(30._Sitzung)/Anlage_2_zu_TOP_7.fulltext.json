@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "01.01.2016\n\nVerwendung der Ortsratsmittel 2016\n\nGeplante Ausgaben | Betrag\n\nAusgaben\n\nRunde Geburtstage\n(59 Runde)\n\nEhejubiläum\nRückerstattung\n\nUmwelttag\nRückerstattung\n\nGedenkfeier\n\nAdventfeier\n\nHeimatpflege\n\nGesamt:\n\n"
+      "text": "Verwendung der Ortsratsmittel 2016\n\n| Einnahmen      | Betrag   |\n| :------------- | :------- |\n| 01.01.2016     | 1306,49  |\n| Ausgaben       | -1098    |\n|                |          |\n| Gesamt:        | 208,49   |\n\n| Geplante Ausgaben | Betrag |\n| :---------------- | :----- |\n| Runde Geburtstage | -413   |\n| (59 Runde)        |        |\n| Ehejubiläum       | -450   |\n| Rückerstattung    | 225    |\n| Umwelttag         | -50    |\n| Rückerstattung    | 50     |\n| Gedenkfeier       | -110   |\n| Adventfeier       | -200   |\n| Heimatpflege      | -150   |\n| Gesamt:           | -1098  |\n7"
     }
   ],
-  "full_text": "01.01.2016\n\nVerwendung der Ortsratsmittel 2016\n\nGeplante Ausgaben | Betrag\n\nAusgaben\n\nRunde Geburtstage\n(59 Runde)\n\nEhejubiläum\nRückerstattung\n\nUmwelttag\nRückerstattung\n\nGedenkfeier\n\nAdventfeier\n\nHeimatpflege\n\nGesamt:\n\n"
+  "full_text": "Verwendung der Ortsratsmittel 2016\n\n| Einnahmen      | Betrag   |\n| :------------- | :------- |\n| 01.01.2016     | 1306,49  |\n| Ausgaben       | -1098    |\n|                |          |\n| Gesamt:        | 208,49   |\n\n| Geplante Ausgaben | Betrag |\n| :---------------- | :----- |\n| Runde Geburtstage | -413   |\n| (59 Runde)        |        |\n| Ehejubiläum       | -450   |\n| Rückerstattung    | 225    |\n| Umwelttag         | -50    |\n| Rückerstattung    | 50     |\n| Gedenkfeier       | -110   |\n| Adventfeier       | -200   |\n| Heimatpflege      | -150   |\n| Gesamt:           | -1098  |\n7",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:57:02.173Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 243
+  }
 }

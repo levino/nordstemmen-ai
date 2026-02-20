@@ -1,8 +1,22 @@
 {
   "file_hash": "4aa2116f38b22539293e05ae30ad7f9ad60467812a0300fe4d6d981a9102df97",
   "filename": "OR_Nordstemmen_Anlage_TOP_5.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "OR Nordstemmen\nAnlage TOP 5\n\n[Zeigt den Entwurf eines Schildes für eine Mitfahrbank mit der Aufschrift „MITFAHRBANK“ und einem nach rechts zeigenden Pfeil, der die Aufschrift „Einkaufszentrum“ trägt.]\nOBORNIK\nWERBETECHNIK KG\n\nKunde\nGemeinde Nordstemmen\nBlatt 2/4\nProjekt\nDibondschild Mitfahrbank\nDatum 30.01.2017\nMaßstab 1:10\nGrafik SW"
+    },
+    {
+      "page": 2,
+      "text": "[Zeigt den Entwurf eines Schildes für eine Mitfahrbank mit der Aufschrift „MITFAHRBANK“ und einem nach oben zeigenden Pfeil, der die Aufschrift „Hauptstrasse“ trägt.]\nOBORNIK\nWERBETECHNIK KG\n\nKunde\nGemeinde Nordstemmen\nBlatt 1/4\nProjekt\nDibondschild Mitfahrbank\nDatum 30.01.2017\nMaßstab 1:10\nGrafik SW"
+    }
+  ],
+  "full_text": "OR Nordstemmen\nAnlage TOP 5\n\n[Zeigt den Entwurf eines Schildes für eine Mitfahrbank mit der Aufschrift „MITFAHRBANK“ und einem nach rechts zeigenden Pfeil, der die Aufschrift „Einkaufszentrum“ trägt.]\nOBORNIK\nWERBETECHNIK KG\n\nKunde\nGemeinde Nordstemmen\nBlatt 2/4\nProjekt\nDibondschild Mitfahrbank\nDatum 30.01.2017\nMaßstab 1:10\nGrafik SW\n\n[Zeigt den Entwurf eines Schildes für eine Mitfahrbank mit der Aufschrift „MITFAHRBANK“ und einem nach oben zeigenden Pfeil, der die Aufschrift „Hauptstrasse“ trägt.]\nOBORNIK\nWERBETECHNIK KG\n\nKunde\nGemeinde Nordstemmen\nBlatt 1/4\nProjekt\nDibondschild Mitfahrbank\nDatum 30.01.2017\nMaßstab 1:10\nGrafik SW",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:09.820Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 238
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "f450bfc6d8bc73c67276719599d1f8f52d5ca53341b0a784afcaf229d6129042",
   "filename": "Antrag_SPD_-_Einbau_von_Luftfiltern.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "## Absender\nSPD-Fraktion\nGemeinde Nordstemmen\nHeike Wälter\nVorsitzende des Ausschuss BKS\nIm Riethwinkel 43\n31171 Nordstemmen\n\n## Empfänger\nGemeinde Nordstemmen\nRathausstraße 3\n31171 Nordstemmen\n\nNordstemmen, den 12.07.2021\n\nGemeinde Nordstemmen\n14. Juli 2021\n23. [handschriftliche Anmerkung und Unterschrift]\nRIS 15.07. Mü\n\n## Betreff\nEinbau von Luftfiltern in den Grundschulen der Gemeinde Nordstemmen\n\nSehr geehrte Damen und Herren,\n\nhiermit beantragt die SPD-Fraktion die Prüfung und Einbau von Luftfiltern in unseren beiden\nGrundschulen zum Schuljahresbeginn 2021/2022. Entsprechende Anträge auf Förderung vom Land\nNiedersachsen mögen gestellt werden.\n\nMit freundlichen Grüßen\n\nHeike Wälter\nVorsitzende des Ausschuss BKS"
+    }
+  ],
+  "full_text": "## Absender\nSPD-Fraktion\nGemeinde Nordstemmen\nHeike Wälter\nVorsitzende des Ausschuss BKS\nIm Riethwinkel 43\n31171 Nordstemmen\n\n## Empfänger\nGemeinde Nordstemmen\nRathausstraße 3\n31171 Nordstemmen\n\nNordstemmen, den 12.07.2021\n\nGemeinde Nordstemmen\n14. Juli 2021\n23. [handschriftliche Anmerkung und Unterschrift]\nRIS 15.07. Mü\n\n## Betreff\nEinbau von Luftfiltern in den Grundschulen der Gemeinde Nordstemmen\n\nSehr geehrte Damen und Herren,\n\nhiermit beantragt die SPD-Fraktion die Prüfung und Einbau von Luftfiltern in unseren beiden\nGrundschulen zum Schuljahresbeginn 2021/2022. Entsprechende Anträge auf Förderung vom Land\nNiedersachsen mögen gestellt werden.\n\nMit freundlichen Grüßen\n\nHeike Wälter\nVorsitzende des Ausschuss BKS",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:24.298Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 250
+  }
 }

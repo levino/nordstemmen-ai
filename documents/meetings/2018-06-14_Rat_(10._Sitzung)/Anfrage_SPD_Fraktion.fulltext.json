@@ -1,8 +1,18 @@
 {
   "file_hash": "9c10032d257d0e514c5139fabeed53339139a3d257280fa0a53c3276806684df",
   "filename": "Anfrage_SPD_Fraktion.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Von: Cornelia Ott [mailto:corneliaott@yahoo.de]\nGesendet: Mittwoch, 30. Mai 2018 08:41\nAn: Pallentin, Norbert\nCc: Ludewig, Gerald; Pallentin, Norbert (extern)\nBetreff: Antrag der SPD Fraktion\n\nSehr geehrter Herr Bürgermeister, lieber Norbert,\n\nich möchte im Namen der SPD Fraktion im Gemeinderat folgenden Antrag für die\nnächste Ratssitzung einreichen:\n\nDie SDP Fraktion beantragt zu prüfen, welche gemeindeeigenen Gebäude\n(Mehrzweckhallen, Dorfgemeinschaftshäusern, Schulen, Kindergärten, Rathaus,\nKläranlage, Bauhof) sich für das Anbringen von Mauerseglerkästen eignen. Nach\nerfolgter Prüfung sollen dann auch an die geeigneten Gebäude Mauerseglerkästen\nangebracht werden.\n\nMauersegler finden durch Renovierungs-und Dämmmassnahmen immer weniger\nNistmöglichkeiten und benötigen daher diese zusätzlichen Angebote.\n\nMit freundlichen Grüßen,\nCornelia Ott\n\n2"
+    }
+  ],
+  "full_text": "Von: Cornelia Ott [mailto:corneliaott@yahoo.de]\nGesendet: Mittwoch, 30. Mai 2018 08:41\nAn: Pallentin, Norbert\nCc: Ludewig, Gerald; Pallentin, Norbert (extern)\nBetreff: Antrag der SPD Fraktion\n\nSehr geehrter Herr Bürgermeister, lieber Norbert,\n\nich möchte im Namen der SPD Fraktion im Gemeinderat folgenden Antrag für die\nnächste Ratssitzung einreichen:\n\nDie SDP Fraktion beantragt zu prüfen, welche gemeindeeigenen Gebäude\n(Mehrzweckhallen, Dorfgemeinschaftshäusern, Schulen, Kindergärten, Rathaus,\nKläranlage, Bauhof) sich für das Anbringen von Mauerseglerkästen eignen. Nach\nerfolgter Prüfung sollen dann auch an die geeigneten Gebäude Mauerseglerkästen\nangebracht werden.\n\nMauersegler finden durch Renovierungs-und Dämmmassnahmen immer weniger\nNistmöglichkeiten und benötigen daher diese zusätzlichen Angebote.\n\nMit freundlichen Grüßen,\nCornelia Ott\n\n2",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:14.231Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 245
+  }
 }

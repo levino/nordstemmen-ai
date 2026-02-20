@@ -1,8 +1,18 @@
 {
   "file_hash": "e3b8b68e0499db80506000f8504c37ea771f62645151df3c9c03c1b457b41bce",
   "filename": "Anlage_3.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 3\nOrtsrat Mahlerten\nMahlerten, den 15.02.2022\nAntrag Beförderung der Kindergartenkinder\n[Bild eines Wappens/Logos]\n\n## Empfänger\nGemeinde Nordstemmen\nRathausstraße 3\n31171 Nordstemmen\n\nSehr geehrte Frau Bürgermeisterin Dombrowski,\n\nim Namen des Ortsrates Mahlerten beantrage ich die Bereitstellung der Beförderung der\nKindergartenkinder in die Ortschaft Mahlerten.\n\nHintergrund und Begründung:\nDie Ortschaft Mahlerten verfügt über keinen eigenen Kindergarten. Die Mahlerter Kinder\nmüssen einen Kindergarten außerhalb des eigenen Ortes besuchen. Hierdurch sind alle\nEltern gezwungen mit dem eigenen PKW ihre Kinder in und aus der KITA zu holen. Um\nGerechtigkeit mit den anderen Ortschaften herzustellen und um das Verkehrsaufkommen zu\nreduzieren, wäre es sinnvoll einen Bus zur Beförderung der Kindergartenkinder aus\nMahlerten einzusetzen. Dieser sollte die Kinder in eine der vorhandenen Kindertagesstätten\nder Gemeinde bringen und abholen.\n\nVorschlag:\nDer Bus sollte zumindest die Abholung ermöglichen, da diese zeitlich einheitlich ist. (meist\n14.00 Uhr)\nDer Transport sollte zum AWO Kindergarten Heyersum erfolgen, da dies traditionell der\nKindergarten ist, der von Mahlerten aus am meisten genutzt wird.\nEs gibt den Bus des Gemeindejugendrings, der täglich den Kindergarten Heyersum anfährt,\njedoch nicht allen Eltern zur Verfügung stehen darf. Eventuell könnte man hier eine\ngemeinsame Nutzung ermöglichen.\n\nIch bitte den Antrag auf Bereitstellung der Beförderung der Kindergartenkinder aus der\nOrtschaft Mahlerten schnellstmöglich zur Beratung an die entsprechenden Gremien\nweiterzuleiten.\n\n[Unterschrift]"
+    }
+  ],
+  "full_text": "Anlage 3\nOrtsrat Mahlerten\nMahlerten, den 15.02.2022\nAntrag Beförderung der Kindergartenkinder\n[Bild eines Wappens/Logos]\n\n## Empfänger\nGemeinde Nordstemmen\nRathausstraße 3\n31171 Nordstemmen\n\nSehr geehrte Frau Bürgermeisterin Dombrowski,\n\nim Namen des Ortsrates Mahlerten beantrage ich die Bereitstellung der Beförderung der\nKindergartenkinder in die Ortschaft Mahlerten.\n\nHintergrund und Begründung:\nDie Ortschaft Mahlerten verfügt über keinen eigenen Kindergarten. Die Mahlerter Kinder\nmüssen einen Kindergarten außerhalb des eigenen Ortes besuchen. Hierdurch sind alle\nEltern gezwungen mit dem eigenen PKW ihre Kinder in und aus der KITA zu holen. Um\nGerechtigkeit mit den anderen Ortschaften herzustellen und um das Verkehrsaufkommen zu\nreduzieren, wäre es sinnvoll einen Bus zur Beförderung der Kindergartenkinder aus\nMahlerten einzusetzen. Dieser sollte die Kinder in eine der vorhandenen Kindertagesstätten\nder Gemeinde bringen und abholen.\n\nVorschlag:\nDer Bus sollte zumindest die Abholung ermöglichen, da diese zeitlich einheitlich ist. (meist\n14.00 Uhr)\nDer Transport sollte zum AWO Kindergarten Heyersum erfolgen, da dies traditionell der\nKindergarten ist, der von Mahlerten aus am meisten genutzt wird.\nEs gibt den Bus des Gemeindejugendrings, der täglich den Kindergarten Heyersum anfährt,\njedoch nicht allen Eltern zur Verfügung stehen darf. Eventuell könnte man hier eine\ngemeinsame Nutzung ermöglichen.\n\nIch bitte den Antrag auf Bereitstellung der Beförderung der Kindergartenkinder aus der\nOrtschaft Mahlerten schnellstmöglich zur Beratung an die entsprechenden Gremien\nweiterzuleiten.\n\n[Unterschrift]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:44.085Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 415
+  }
 }

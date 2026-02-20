@@ -1,8 +1,26 @@
 {
   "file_hash": "425f64495ce4e6c440b677534b21f26ccfc56c153c8fff07fea97272ad394fdc",
   "filename": "Anlage_zur_Beschlussvorlage_DS_59-2014.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Topografische Karte, die die Region um Betheln, Burgstemmen und Mahlerten zeigt, mit einer markierten Deponiefläche.]\nPlanvermerk: DS 59_2014 Anlage 1\nMaßstab: 1:25.000\nPlanungsbüro: LGLN"
+    },
+    {
+      "page": 2,
+      "text": "[Lageplan mit Flurstücken und dem markierten Antragsgebiet einer Deponie.]\nKartentitel: Übersichtslageplan\nUntertitel: Deponie Betheln\nPlanvermerk: DS 59 2014 Anlage 2\nMaßstab: 1:5.000\nPlanungsbüro: Dr. Röhrs & Herrmann Beratende Ingenieure und Geologen"
+    },
+    {
+      "page": 3,
+      "text": "[Plan, der die Abgrenzung eines Antragsgebiets, den geplanten Ablagerungsbereich und Betriebsabschnitte einer Deponie im Bereich Osterholz zeigt, inklusive verschiedener Verfüllungsbereiche.]\nPlanvermerk: DS 59_2014 Anlage 3"
+    }
+  ],
+  "full_text": "[Topografische Karte, die die Region um Betheln, Burgstemmen und Mahlerten zeigt, mit einer markierten Deponiefläche.]\nPlanvermerk: DS 59_2014 Anlage 1\nMaßstab: 1:25.000\nPlanungsbüro: LGLN\n\n[Lageplan mit Flurstücken und dem markierten Antragsgebiet einer Deponie.]\nKartentitel: Übersichtslageplan\nUntertitel: Deponie Betheln\nPlanvermerk: DS 59 2014 Anlage 2\nMaßstab: 1:5.000\nPlanungsbüro: Dr. Röhrs & Herrmann Beratende Ingenieure und Geologen\n\n[Plan, der die Abgrenzung eines Antragsgebiets, den geplanten Ablagerungsbereich und Betriebsabschnitte einer Deponie im Bereich Osterholz zeigt, inklusive verschiedener Verfüllungsbereiche.]\nPlanvermerk: DS 59_2014 Anlage 3",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:12:17.186Z",
+    "total_input_tokens": 1118,
+    "total_output_tokens": 241
+  }
 }

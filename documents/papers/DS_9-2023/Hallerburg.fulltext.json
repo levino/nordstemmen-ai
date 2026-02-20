@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "E 547633 m\nm\n8300875\nN\nN\n5782648\nm\nE 549274 m\n§\n© 2020\n1:10.000\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, © Bundesamt für Kartographie und Geodäsie"
+      "text": "[Luftbildaufnahme eines ländlichen Gebiets mit landwirtschaftlichen Flächen, einem Waldstück und Teilen einer Siedlung, durchzogen von Wegen und umrandet von einer roten Linie.]\n1:10.000\n© 2020 LGLN\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung Niedersachsen | © OpenStreetMap Contributors, © Bundesamt für Kartographie und Geodäsie"
     }
   ],
-  "full_text": "E 547633 m\nm\n8300875\nN\nN\n5782648\nm\nE 549274 m\n§\n© 2020\n1:10.000\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, © Bundesamt für Kartographie und Geodäsie"
+  "full_text": "[Luftbildaufnahme eines ländlichen Gebiets mit landwirtschaftlichen Flächen, einem Waldstück und Teilen einer Siedlung, durchzogen von Wegen und umrandet von einer roten Linie.]\n1:10.000\n© 2020 LGLN\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung Niedersachsen | © OpenStreetMap Contributors, © Bundesamt für Kartographie und Geodäsie",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:29:53.758Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 112
+  }
 }

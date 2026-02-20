@@ -1,8 +1,18 @@
 {
   "file_hash": "c7b240cf54bd0e83580862dd8bbe45a715efac260b2997fe491a844b98cf6aad",
   "filename": "Antrag_Ortsvorsteher_Hallerburg.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Ris: 23.04.2018\nTischbier, Marcus\nVon: Hans Jürgen Pompetzki <hj-pompetzki@gmx.de>\nGesendet: Dienstag, 17. April 2018 14:01\nAn: Pallentin, Norbert\nCc: Tischbier, Marcus\nBetreff: Antrag auf Stellvertreter Ortsvorsteher Hallerburg\n\nGemeinde Nordstemmen\n17. April 2018\n1\n[Unterschrift]\nSehr geehrte Herren,\n\nals Ortsvorsteher von Hallerburg beantrage ich hiermit die Genehmigung für einen Stellvertreter.\n\nMit freundlichen Grüßen\n\nHans Jürgen Pompetzki\n\n1"
+    }
+  ],
+  "full_text": "Ris: 23.04.2018\nTischbier, Marcus\nVon: Hans Jürgen Pompetzki <hj-pompetzki@gmx.de>\nGesendet: Dienstag, 17. April 2018 14:01\nAn: Pallentin, Norbert\nCc: Tischbier, Marcus\nBetreff: Antrag auf Stellvertreter Ortsvorsteher Hallerburg\n\nGemeinde Nordstemmen\n17. April 2018\n1\n[Unterschrift]\nSehr geehrte Herren,\n\nals Ortsvorsteher von Hallerburg beantrage ich hiermit die Genehmigung für einen Stellvertreter.\n\nMit freundlichen Grüßen\n\nHans Jürgen Pompetzki\n\n1",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:16.119Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 165
+  }
 }

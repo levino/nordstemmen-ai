@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "- 1 - Anlage 2"
+      "text": "[Lageplan eines Industriegebiets (Zuckerfabrik) mit eingezeichneten Baufeldern und Höhenangaben.]\nAnlage 2\nNordstemmen\nPlangebiet\nnur für Anlagen der Zuckerfabrik\nDas Nordfeld\nBMZ 10,0\nOK max. 103,0 m über NN\nMaßstab: 100 m\n- 1 -"
     }
   ],
-  "full_text": "- 1 - Anlage 2"
+  "full_text": "[Lageplan eines Industriegebiets (Zuckerfabrik) mit eingezeichneten Baufeldern und Höhenangaben.]\nAnlage 2\nNordstemmen\nPlangebiet\nnur für Anlagen der Zuckerfabrik\nDas Nordfeld\nBMZ 10,0\nOK max. 103,0 m über NN\nMaßstab: 100 m\n- 1 -",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:30:07.257Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 93
+  }
 }

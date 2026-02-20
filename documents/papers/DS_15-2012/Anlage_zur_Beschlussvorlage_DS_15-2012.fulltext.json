@@ -1,8 +1,18 @@
 {
   "file_hash": "a0d4d6ef1f4d4ac2f2ec181d76d56e18484eb3709a00e6e3ec0826ffe9cf5442",
   "filename": "Anlage_zur_Beschlussvorlage_DS_15-2012.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Verteilung der Ortsratsmittel im Haushaltsjahr 2012\nOrtsrat\nGrundbetrag\n€\nEinwohnerbetrag\n€\nGesamtbetrag\n€\nBemerkungnen\nAdensen\n400,00\n1.016,00\n1.416,00\nBarnten\n400,00\n990,00\n1.390,00\nBurgstemmen\n400,00\n1.144,00\n1.544,00\nGroß Escherde\n525,00\n649,00\n1.174,00\nHallerburg\n400,00\n0,00\n400,00\nHeyersum\n400,00\n1.032,00\n1.432,00\nKlein Escherde\n575,00\n528,00\n1.103,00\nMahlerten\n525,00\n635,00\n1.160,00\nNordstemmen\n400,00\n4.945,00\n5.345,00\nRössing\n400,00\n1.770,00\n2.170,00\nGesamt\n4.425,00\n12.709,00\n17.134,00\n\nDer Einwohnerbetrag, der neben dem Grundbetrag zusätzlich gewährt wird, beträgt 1,00 € je Einwohnerin und Einwohner nach der eigenen\nEinwohnerfortschreibung der Gemeinde zum 30. 06. des vorangegangenen Haushaltsjahres.\nLediglich die Ortschaft Hallerburg erhält keinen zusätzlichen Einwohnerbetrag."
+    }
+  ],
+  "full_text": "Verteilung der Ortsratsmittel im Haushaltsjahr 2012\nOrtsrat\nGrundbetrag\n€\nEinwohnerbetrag\n€\nGesamtbetrag\n€\nBemerkungnen\nAdensen\n400,00\n1.016,00\n1.416,00\nBarnten\n400,00\n990,00\n1.390,00\nBurgstemmen\n400,00\n1.144,00\n1.544,00\nGroß Escherde\n525,00\n649,00\n1.174,00\nHallerburg\n400,00\n0,00\n400,00\nHeyersum\n400,00\n1.032,00\n1.432,00\nKlein Escherde\n575,00\n528,00\n1.103,00\nMahlerten\n525,00\n635,00\n1.160,00\nNordstemmen\n400,00\n4.945,00\n5.345,00\nRössing\n400,00\n1.770,00\n2.170,00\nGesamt\n4.425,00\n12.709,00\n17.134,00\n\nDer Einwohnerbetrag, der neben dem Grundbetrag zusätzlich gewährt wird, beträgt 1,00 € je Einwohnerin und Einwohner nach der eigenen\nEinwohnerfortschreibung der Gemeinde zum 30. 06. des vorangegangenen Haushaltsjahres.\nLediglich die Ortschaft Hallerburg erhält keinen zusätzlichen Einwohnerbetrag.",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:36:44.397Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 435
+  }
 }

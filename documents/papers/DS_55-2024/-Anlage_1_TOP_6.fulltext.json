@@ -1,8 +1,22 @@
 {
   "file_hash": "946ce0f5554a101cd63853fdd9f7b34fa59afbd2ea5e697f648fde0af2e23534",
   "filename": "-Anlage_1_TOP_6.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "ZUSCHUSSANTRAG\n\n(Name des Vereins, Ansprechpartner)\nBunde der Vertriebenen\nHerr Karl-Heinz-Hoffmann\nHermann-Löns-Weg 3\n31171 Nordstemmen\n\nGemeinde Nordstemmen\nFachbereich Innere Dienste und Finanzen\nRathausstraße 3\n31171 Nordstemmen\n,\n08.02.2024\n(Datum)\n\nSehr geehrte Damen und Herren,\n\nhiermit beantrage ich/beantragen wir einen Zuschuss für folgendes Projekt (ggf. auf\ngesonderter Anlage):\nMahnkreuz Gedenkstätte Sanierung Innenhof\n\nBegründung: (Ggf. auf gesonderter Anlage)\nGehwegplatten sind inzwischen eine Unfallgefahr (liegen nicht gerade, teilweise\nzerbrochen, Oberschicht abgeplatzt)\n\nMit freundlichen Grüßen\n\nAnlagen:\n☑ mindestens ein Kostenvoranschlag\n☑ Kopien der Anträge an die Gemeinde/Verbände (z.B. Sportvereine, die an zwei\nGemeinden Anträge gestellt haben oder andere Förderungen in Anspruch nehmen)\n☑ Kassenbericht der letzten drei Jahre (Der Kassenbestand muss ersichtlich sein!)\n☑ Finanzierungsplan\n☑ Sonstiges\n\nWichtiger Hinweis: Der Zuschussantrag muss bis spätestens zum 30.06. des\nVorjahres vor Maßnahmenbeginn gestellt sein.\n(z.B.: Durchführung der Maßnahme im Jahr 2023,\nAntrag bis zum 30.06.2022!!!)"
+    },
+    {
+      "page": 2,
+      "text": "Anlage zum Antrag vom (Datum): 08.02.2024\nProjekt: Mahnkreuz Gedenkstätte Sanierung Innenhof\n\nFINANZIERUNGSPLAN\n\nGesamtkosten des Projektes:\n5726,28 €\n\nFinanzierung durch:\n\nEigenmittel des Vereins / der Organisation:\n1800,00 €\n\nWeitere beantragte Zuschüsse:\n\nBdV - LV-Niedersachsen\n2000,00 €\nOrtsrat Nordstemmen\n400,00€*\nMittel aus Spenden:\nentfällt\nMittel aus Sponsoren:\nentfällt\n\nBeantragter Zuschuss gegenüber der Gemeinde: 4926,28€ 1526,28€*\n\nProjektbeginn (Datum):\nApril 2024\n\nGeplante Fertigstellung (Datum):\nAugust 2024\n\nKassenbestand am 31.12.2023 :\n1933,02 €\n\nKassenbestand aktuell:\n1950,22 €\n\n* siehe Schreiben vom 14.02.2024\nBeantragter Zuschuss dementsprechend angepasst\n\nNordstemmen 14. Februar 2024\n[Unterschrift]\n(Unterschrift)"
+    }
+  ],
+  "full_text": "ZUSCHUSSANTRAG\n\n(Name des Vereins, Ansprechpartner)\nBunde der Vertriebenen\nHerr Karl-Heinz-Hoffmann\nHermann-Löns-Weg 3\n31171 Nordstemmen\n\nGemeinde Nordstemmen\nFachbereich Innere Dienste und Finanzen\nRathausstraße 3\n31171 Nordstemmen\n,\n08.02.2024\n(Datum)\n\nSehr geehrte Damen und Herren,\n\nhiermit beantrage ich/beantragen wir einen Zuschuss für folgendes Projekt (ggf. auf\ngesonderter Anlage):\nMahnkreuz Gedenkstätte Sanierung Innenhof\n\nBegründung: (Ggf. auf gesonderter Anlage)\nGehwegplatten sind inzwischen eine Unfallgefahr (liegen nicht gerade, teilweise\nzerbrochen, Oberschicht abgeplatzt)\n\nMit freundlichen Grüßen\n\nAnlagen:\n☑ mindestens ein Kostenvoranschlag\n☑ Kopien der Anträge an die Gemeinde/Verbände (z.B. Sportvereine, die an zwei\nGemeinden Anträge gestellt haben oder andere Förderungen in Anspruch nehmen)\n☑ Kassenbericht der letzten drei Jahre (Der Kassenbestand muss ersichtlich sein!)\n☑ Finanzierungsplan\n☑ Sonstiges\n\nWichtiger Hinweis: Der Zuschussantrag muss bis spätestens zum 30.06. des\nVorjahres vor Maßnahmenbeginn gestellt sein.\n(z.B.: Durchführung der Maßnahme im Jahr 2023,\nAntrag bis zum 30.06.2022!!!)\n\nAnlage zum Antrag vom (Datum): 08.02.2024\nProjekt: Mahnkreuz Gedenkstätte Sanierung Innenhof\n\nFINANZIERUNGSPLAN\n\nGesamtkosten des Projektes:\n5726,28 €\n\nFinanzierung durch:\n\nEigenmittel des Vereins / der Organisation:\n1800,00 €\n\nWeitere beantragte Zuschüsse:\n\nBdV - LV-Niedersachsen\n2000,00 €\nOrtsrat Nordstemmen\n400,00€*\nMittel aus Spenden:\nentfällt\nMittel aus Sponsoren:\nentfällt\n\nBeantragter Zuschuss gegenüber der Gemeinde: 4926,28€ 1526,28€*\n\nProjektbeginn (Datum):\nApril 2024\n\nGeplante Fertigstellung (Datum):\nAugust 2024\n\nKassenbestand am 31.12.2023 :\n1933,02 €\n\nKassenbestand aktuell:\n1950,22 €\n\n* siehe Schreiben vom 14.02.2024\nBeantragter Zuschuss dementsprechend angepasst\n\nNordstemmen 14. Februar 2024\n[Unterschrift]\n(Unterschrift)",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:10:14.023Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 668
+  }
 }

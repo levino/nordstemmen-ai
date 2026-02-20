@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage 1 zur DS 3/2025 - Annahme von Zuwendungen\nLfd.\nDatum Zuwendungsgeber Höhe Empfänger Zweck\nNr.\nTeilnahme an der Kooperations-\n1 Spielfreunde Heyersum von 1947 e.V., vereinbarung zur Förderung der\n06.01.2025 3.078,60 € Gemeinde Nordstemmen\nHeyersum interkommunalen Zusammenarbeit\nim Bereich Kultur (IKV)"
+      "text": "Anlage 1 zur DS 3/2025 - Annahme von Zuwendungen\n\n| Lfd. Nr. | Datum      | Zuwendungsgeber                          | Höhe        | Empfänger           | Zweck                                                                                                        |\n| :------- | :--------- | :--------------------------------------- | :---------- | :------------------ | :----------------------------------------------------------------------------------------------------------- |\n| 1        | 06.01.2025 | Spielfreunde Heyersum von 1947 e.V., Heyersum | 3.078,60 € | Gemeinde Nordstemmen | Teilnahme an der Kooperations- vereinbarung zur Förderung der interkommunalen Zusammenarbeit im Bereich Kultur (IKV) |"
     }
   ],
-  "full_text": "Anlage 1 zur DS 3/2025 - Annahme von Zuwendungen\nLfd.\nDatum Zuwendungsgeber Höhe Empfänger Zweck\nNr.\nTeilnahme an der Kooperations-\n1 Spielfreunde Heyersum von 1947 e.V., vereinbarung zur Förderung der\n06.01.2025 3.078,60 € Gemeinde Nordstemmen\nHeyersum interkommunalen Zusammenarbeit\nim Bereich Kultur (IKV)"
+  "full_text": "Anlage 1 zur DS 3/2025 - Annahme von Zuwendungen\n\n| Lfd. Nr. | Datum      | Zuwendungsgeber                          | Höhe        | Empfänger           | Zweck                                                                                                        |\n| :------- | :--------- | :--------------------------------------- | :---------- | :------------------ | :----------------------------------------------------------------------------------------------------------- |\n| 1        | 06.01.2025 | Spielfreunde Heyersum von 1947 e.V., Heyersum | 3.078,60 € | Gemeinde Nordstemmen | Teilnahme an der Kooperations- vereinbarung zur Förderung der interkommunalen Zusammenarbeit im Bereich Kultur (IKV) |",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:52:50.884Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 160
+  }
 }

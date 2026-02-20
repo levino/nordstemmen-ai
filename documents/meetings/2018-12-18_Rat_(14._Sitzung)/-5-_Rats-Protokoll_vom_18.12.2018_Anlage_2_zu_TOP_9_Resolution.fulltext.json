@@ -1,8 +1,18 @@
 {
   "file_hash": "e089ee0b65c07df47c99c6dc534ca2df2f0166046a6115cc10491956a07e4984",
   "filename": "-5-_Rats-Protokoll_vom_18.12.2018_Anlage_2_zu_TOP_9_Resolution.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Ratssitzung am 18.12.18\nAnlage 2 zu TOP 9\nMit großer Bestürzung haben wir aus den Medien erfahren, dass in der Mitte unserer\nGemeinde ein Mann lebt, der wegen seiner Teilnahme an einem abscheulichen\nKriegsverbrechen in Frankreich rechtskräftig verurteilt wurde.\nSeine Taten blieben jedoch ungesühnt und bleiben es auch, weil er in Deutschland\nnicht mehr bestraft werden darf.\nWir sind entsetzt darüber, dass dieser Mitbürger auch nach vielen Jahren keine\nEinsicht in seine verbrecherischen Handlungen zeigt, keinerlei Reue oder Bedauern\näußert und stattdessen sein damaliges Handeln öffentlich auch noch rechtfertigt.\nEs ist unerträglich, wenn Neonazis heute diesen Kriegsverbrecher deshalb für seine\nTaten rühmen und als Vorbild für die deutsche Jugend darstellen.\nStrafe kann das Leid und die Trauer der Opfer und ihrer Hinterbliebenen nie\nausgleichen.\nWir sprechen jedoch den Hinterbliebenen des Verbrechens in Frankreich unsere\nBetroffenheit und tiefes Mitgefühl aus und versichern, dass undemokratische und\nneonazistische Kräfte keinen Platz in unserer Gesellschaft haben dürfen."
+    }
+  ],
+  "full_text": "Ratssitzung am 18.12.18\nAnlage 2 zu TOP 9\nMit großer Bestürzung haben wir aus den Medien erfahren, dass in der Mitte unserer\nGemeinde ein Mann lebt, der wegen seiner Teilnahme an einem abscheulichen\nKriegsverbrechen in Frankreich rechtskräftig verurteilt wurde.\nSeine Taten blieben jedoch ungesühnt und bleiben es auch, weil er in Deutschland\nnicht mehr bestraft werden darf.\nWir sind entsetzt darüber, dass dieser Mitbürger auch nach vielen Jahren keine\nEinsicht in seine verbrecherischen Handlungen zeigt, keinerlei Reue oder Bedauern\näußert und stattdessen sein damaliges Handeln öffentlich auch noch rechtfertigt.\nEs ist unerträglich, wenn Neonazis heute diesen Kriegsverbrecher deshalb für seine\nTaten rühmen und als Vorbild für die deutsche Jugend darstellen.\nStrafe kann das Leid und die Trauer der Opfer und ihrer Hinterbliebenen nie\nausgleichen.\nWir sprechen jedoch den Hinterbliebenen des Verbrechens in Frankreich unsere\nBetroffenheit und tiefes Mitgefühl aus und versichern, dass undemokratische und\nneonazistische Kräfte keinen Platz in unserer Gesellschaft haben dürfen.",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:38.848Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 272
+  }
 }

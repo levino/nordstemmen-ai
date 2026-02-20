@@ -1,8 +1,18 @@
 {
   "file_hash": "a0e9fcbe1231489550733b8ca3f8f82313892dafa5a33e7449530f83c390992f",
   "filename": "OR_No_Einladung_16.08.2018_Anlage_3.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "15.07.2018\nJährlich wiederkehrende Koste des\nOrtsrates Nordstemmen\nbisher\naufgerundet ausgegeben\n\n| | | |\n|---|---|---|\n| Senioren Fahrt | 1.100,00 € | |\n| Seniorenweihnachtsfeier | 600,00 € | |\n| Müllsammelaktion | 200,00 € | 200,00 € |\n| Bürgerscheibe u. Schiessen | 500,00 € | |\n| Blasorchester (Jahreskonzert) | 100,00 € | 100,00 € |\n| Feuerwehr/Blasorchester | 200,00 € | 200,00 € |\n| Jahresempfang der Kirchen | 100,00 € | 100,00 € |\n| Schule Abschlussklassen | 100,00 € | 100,00 € |\n| Geburtstage (80. - 85. -90. - 91.....) | 1.600,00 € | 640,00 € |\n| Weltkindertag | 100,00 € | |\n| Volkstrauertag | 100,00 € | |\n| Ortsheimatpflegerin | 150,00 € | 150,00 € |\n| Hundekotbeute | 100,00 € | |\n| Jubiläen (Goldene Hochzeiten) | 160,00 € | |\n| Ortsbürgermeister z.b.V. | 500,00 € | 50,00 € |\n| Ferienpass | 100,00 € | 100,00 € |\n| Neubürger | 200,00 € | 171,00 € |\n| 140 Jahre FF | | 200,00 € |\n| Mitfahrbänke | | 955,00 € |\n| Zuschuss Fahrt GJR | | 100,00 € |\n| Ersttatung Auslagen Schule | | 100,00 € |\n| Summe | 5.910,00 € | 3.166,00 € |\n\n| | | |\n|---|---|---|\n| Zuweisung | 2018 | 8.900,00 € |\n| Übertrag | 2017 | 2.169,00 € |\n| Summe 2018 | 2018 | 11.069,00 € |\n\nnoch Verfügbar:\n7.868,39 €"
+    }
+  ],
+  "full_text": "15.07.2018\nJährlich wiederkehrende Koste des\nOrtsrates Nordstemmen\nbisher\naufgerundet ausgegeben\n\n| | | |\n|---|---|---|\n| Senioren Fahrt | 1.100,00 € | |\n| Seniorenweihnachtsfeier | 600,00 € | |\n| Müllsammelaktion | 200,00 € | 200,00 € |\n| Bürgerscheibe u. Schiessen | 500,00 € | |\n| Blasorchester (Jahreskonzert) | 100,00 € | 100,00 € |\n| Feuerwehr/Blasorchester | 200,00 € | 200,00 € |\n| Jahresempfang der Kirchen | 100,00 € | 100,00 € |\n| Schule Abschlussklassen | 100,00 € | 100,00 € |\n| Geburtstage (80. - 85. -90. - 91.....) | 1.600,00 € | 640,00 € |\n| Weltkindertag | 100,00 € | |\n| Volkstrauertag | 100,00 € | |\n| Ortsheimatpflegerin | 150,00 € | 150,00 € |\n| Hundekotbeute | 100,00 € | |\n| Jubiläen (Goldene Hochzeiten) | 160,00 € | |\n| Ortsbürgermeister z.b.V. | 500,00 € | 50,00 € |\n| Ferienpass | 100,00 € | 100,00 € |\n| Neubürger | 200,00 € | 171,00 € |\n| 140 Jahre FF | | 200,00 € |\n| Mitfahrbänke | | 955,00 € |\n| Zuschuss Fahrt GJR | | 100,00 € |\n| Ersttatung Auslagen Schule | | 100,00 € |\n| Summe | 5.910,00 € | 3.166,00 € |\n\n| | | |\n|---|---|---|\n| Zuweisung | 2018 | 8.900,00 € |\n| Übertrag | 2017 | 2.169,00 € |\n| Summe 2018 | 2018 | 11.069,00 € |\n\nnoch Verfügbar:\n7.868,39 €",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:23.749Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 666
+  }
 }

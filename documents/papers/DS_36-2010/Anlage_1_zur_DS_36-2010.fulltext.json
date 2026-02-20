@@ -1,8 +1,18 @@
 {
   "file_hash": "426667ed351183efabe67ae2a0a893b044a33a03e9dc9767f91b4377a9c16834",
   "filename": "Anlage_1_zur_DS_36-2010.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Karte zeigt einen Ausschnitt der Gemarkung Adensen mit topografischen Merkmalen, Siedlungen und Straßen, sowie einem hervorgehobenen Bereich \"Sondergebiet 'Tiermast'\".]\n1. sachlicher Teilflächennutzungsplan für\nden Bereich der Gemarkung Adensen\nzur Regelung der Zulässigkeit von\nTiermastbetrieben\n(Vorschlag)\nSondergebiet\n„Tiermast“\nAnlage 1\n0 0.2 0.4 0.8 1.2 km"
+    }
+  ],
+  "full_text": "[Karte zeigt einen Ausschnitt der Gemarkung Adensen mit topografischen Merkmalen, Siedlungen und Straßen, sowie einem hervorgehobenen Bereich \"Sondergebiet 'Tiermast'\".]\n1. sachlicher Teilflächennutzungsplan für\nden Bereich der Gemarkung Adensen\nzur Regelung der Zulässigkeit von\nTiermastbetrieben\n(Vorschlag)\nSondergebiet\n„Tiermast“\nAnlage 1\n0 0.2 0.4 0.8 1.2 km",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:56:40.666Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 124
+  }
 }

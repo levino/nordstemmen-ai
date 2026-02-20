@@ -1,8 +1,22 @@
 {
   "file_hash": "ced2574bfdc0ad1dbfc7a7923e6c1347ffbe27c06ee52de372cfa55430a3ec03",
   "filename": "Anlage_zur_DS_10-2013.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "alt\n[Karte zeigt einen Bebauungsplan oder eine Flurkarte mit Grundstücken, Gebäuden und Straßenverläufen in einem Wohngebiet. Einige Bereiche sind farblich hervorgehoben.]\n1:1000\nHintergrund: Auszug aus den Geobasisdaten der Niedersächsischen Vermessungs- und Katasterverwaltung\n©2013 LGLN"
+    },
+    {
+      "page": 2,
+      "text": "neu\n[Karte zeigt einen Bebauungsplan oder eine Flurkarte mit Grundstücken, Gebäuden und Straßenverläufen in einem Wohngebiet. Einige Bereiche sind farblich hervorgehoben.]\n1:1000\nHintergrund: Auszug aus den Geobasisdaten der Niedersächsischen Vermessungs- und Katasterverwaltung\n©2013 LGLN"
+    }
+  ],
+  "full_text": "alt\n[Karte zeigt einen Bebauungsplan oder eine Flurkarte mit Grundstücken, Gebäuden und Straßenverläufen in einem Wohngebiet. Einige Bereiche sind farblich hervorgehoben.]\n1:1000\nHintergrund: Auszug aus den Geobasisdaten der Niedersächsischen Vermessungs- und Katasterverwaltung\n©2013 LGLN\n\nneu\n[Karte zeigt einen Bebauungsplan oder eine Flurkarte mit Grundstücken, Gebäuden und Straßenverläufen in einem Wohngebiet. Einige Bereiche sind farblich hervorgehoben.]\n1:1000\nHintergrund: Auszug aus den Geobasisdaten der Niedersächsischen Vermessungs- und Katasterverwaltung\n©2013 LGLN",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:30:14.166Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 181
+  }
 }

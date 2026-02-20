@@ -1,8 +1,18 @@
 {
   "file_hash": "ac91ea4f9ee0beec0d364d8d25faf7145b115dfbb2040718be338b0e40a6a8b8",
   "filename": "DS_36_2017_Anlage.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Eine Karte, die ein Straßennetz mit markierten Bereichen und Wegen zeigt.]\nAnlage 3\n1:2.500\nLGLN"
+    }
+  ],
+  "full_text": "[Eine Karte, die ein Straßennetz mit markierten Bereichen und Wegen zeigt.]\nAnlage 3\n1:2.500\nLGLN",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:57:02.735Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 40
+  }
 }

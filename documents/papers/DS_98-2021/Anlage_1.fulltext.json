@@ -1,8 +1,18 @@
 {
   "file_hash": "e9c01045952285761681a634b599f681b2d12c70e63e7cfa2ea52cd97a4eca26",
   "filename": "Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "E 549956 m\nN 5781171 m\n\nTitel\nAnlage 1\nInhalt\nAnlage zur Drucksache \"Umgestaltung\nTeilbereiche der Adenoyser\nStraße\"\nInstitution\nGemeinde Nordstemmen\nRathausstraße 3\n31171 Nordstemmen\nDatum\n01. NOV. 2021\nMaßstab\n1 : 1.500\nBearbeiter\nTobias Cieplik (Gemeinde\nNordstemen)\n© 2020 LGLN\n\n[Orthophoto showing a part of the village Adensen with buildings, streets, and parcel numbers.]\n\nN 5780779 m\nE 549710 m\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, Bundesamt für Kartographie und Geodäsie"
+    }
+  ],
+  "full_text": "E 549956 m\nN 5781171 m\n\nTitel\nAnlage 1\nInhalt\nAnlage zur Drucksache \"Umgestaltung\nTeilbereiche der Adenoyser\nStraße\"\nInstitution\nGemeinde Nordstemmen\nRathausstraße 3\n31171 Nordstemmen\nDatum\n01. NOV. 2021\nMaßstab\n1 : 1.500\nBearbeiter\nTobias Cieplik (Gemeinde\nNordstemen)\n© 2020 LGLN\n\n[Orthophoto showing a part of the village Adensen with buildings, streets, and parcel numbers.]\n\nN 5780779 m\nE 549710 m\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, Bundesamt für Kartographie und Geodäsie",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:34:10.841Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 225
+  }
 }

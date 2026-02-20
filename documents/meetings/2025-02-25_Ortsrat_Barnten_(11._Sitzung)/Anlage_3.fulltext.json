@@ -1,8 +1,18 @@
 {
   "file_hash": "00f3e700f4f195ad5b358105113e6dd9efee99a0baf9d0a7c1223d38b2bbcdb5",
   "filename": "Anlage_3.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Protokoll\nOR\nAnlage\nBarnte- 25.02.\n2025\n3\nOrtsrat Barnten\nFebruar 2025\nVorschlag: Vergabe Ortsratsmittel für das Jahr 2025\nHaushaltsrest 2024\nOrtsratsmittel 2025\n€\n€\n€\n157,53\n2872,00\n3029,53\nVerfügungsmittel Ortsbürgermeister für Präsente\n(34 x Blumengutscheine á 15,00€, 5 x Präsentkorb á 25,00€)\n€ 635,00\n€ 2394,53\nHeimatstube\nOrtsheimatpflegerin\nKranz für Volkstrauertag\nUmwelttag\nAdventfeier AWO, Kirche, DRK, SoVD, Ortsrat\nZuschuss, für Pokale, beim Schießen um die Bürgerkönige (XX)\nChorgemeinschaft singen am Volkstrauertag (XX)\nFFW Musikzug Rössing für Volkstrauertag (XX)\nVerbleibt auf dem Ortsratskonto\nAusgaben gesamt:\n€\n€\n€\n€\n€\n€\n€\n€\n€\n€\n120,00\n150,00\n100,00\n100,00\n200,00\n100,00\n75,00\n100,00\n1300,00\n2245,00\nHaushaltsrest\n€\n149,53\n(XX) = soll persönlich übergeben werden\n(Beträge in Euro) neue Posten gegenüber 2024"
+    }
+  ],
+  "full_text": "Protokoll\nOR\nAnlage\nBarnte- 25.02.\n2025\n3\nOrtsrat Barnten\nFebruar 2025\nVorschlag: Vergabe Ortsratsmittel für das Jahr 2025\nHaushaltsrest 2024\nOrtsratsmittel 2025\n€\n€\n€\n157,53\n2872,00\n3029,53\nVerfügungsmittel Ortsbürgermeister für Präsente\n(34 x Blumengutscheine á 15,00€, 5 x Präsentkorb á 25,00€)\n€ 635,00\n€ 2394,53\nHeimatstube\nOrtsheimatpflegerin\nKranz für Volkstrauertag\nUmwelttag\nAdventfeier AWO, Kirche, DRK, SoVD, Ortsrat\nZuschuss, für Pokale, beim Schießen um die Bürgerkönige (XX)\nChorgemeinschaft singen am Volkstrauertag (XX)\nFFW Musikzug Rössing für Volkstrauertag (XX)\nVerbleibt auf dem Ortsratskonto\nAusgaben gesamt:\n€\n€\n€\n€\n€\n€\n€\n€\n€\n€\n120,00\n150,00\n100,00\n100,00\n200,00\n100,00\n75,00\n100,00\n1300,00\n2245,00\nHaushaltsrest\n€\n149,53\n(XX) = soll persönlich übergeben werden\n(Beträge in Euro) neue Posten gegenüber 2024",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:06:24.189Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 418
+  }
 }

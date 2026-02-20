@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "s\ne\nd i\na\na r\nP\nm\nA\nN\no\nK r e u z k a m p r d s\nt\nr\na\nß\ne\nR a i f f e i s e n s t r a ß e\nß e\nR a i f f e i s e n\nDs at\nn\nnr a\nAm Hang\nVon-Reden-Kah am up\ns\ne\nn\nk\na\nm\nReichsstraßp e - B 1\nEnge\nStraße\ne\nß\na\nr\nt\ns\ne\ni 8\nT 6\n4\nL\n-\ne\nß\na\nr\nt\nS\nr\ne ±\nn\nl\ne\nh\nt\nPlanbereich B-Plan e\nB\nNr. 0402 \"Dannhausenkamp\"\n1:2.500 5. Änderung SacksStrtaanßd:e 18.11.2021"
+      "text": "[Karte, die eine Stadtteilkarte mit Straßen, Bebauung und einem markierten Planbereich zeigt.]\nAnlage 1\nzu DS 114/2021\n1:2.500\nPlanbereich B-Plan\nNr. 0402 \"Dannhausenkamp\"\n5. Änderung\nSack Stand: 18.11.2021"
     }
   ],
-  "full_text": "s\ne\nd i\na\na r\nP\nm\nA\nN\no\nK r e u z k a m p r d s\nt\nr\na\nß\ne\nR a i f f e i s e n s t r a ß e\nß e\nR a i f f e i s e n\nDs at\nn\nnr a\nAm Hang\nVon-Reden-Kah am up\ns\ne\nn\nk\na\nm\nReichsstraßp e - B 1\nEnge\nStraße\ne\nß\na\nr\nt\ns\ne\ni 8\nT 6\n4\nL\n-\ne\nß\na\nr\nt\nS\nr\ne ±\nn\nl\ne\nh\nt\nPlanbereich B-Plan e\nB\nNr. 0402 \"Dannhausenkamp\"\n1:2.500 5. Änderung SacksStrtaanßd:e 18.11.2021"
+  "full_text": "[Karte, die eine Stadtteilkarte mit Straßen, Bebauung und einem markierten Planbereich zeigt.]\nAnlage 1\nzu DS 114/2021\n1:2.500\nPlanbereich B-Plan\nNr. 0402 \"Dannhausenkamp\"\n5. Änderung\nSack Stand: 18.11.2021",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:32:30.850Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 93
+  }
 }

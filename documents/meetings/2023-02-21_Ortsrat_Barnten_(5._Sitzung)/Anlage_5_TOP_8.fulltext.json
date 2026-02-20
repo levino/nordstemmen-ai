@@ -1,8 +1,18 @@
 {
   "file_hash": "9a9c2840e0f996ccf31c09eb6376850b75b63cf2246bfca3a1d5fc6c4660d91e",
   "filename": "Anlage_5_TOP_8.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "000\nAnlage 5\nProtokoll OR Baunte 21.02.20\nOrtsrat Barnten\n\nFebruar 2023\n\nVorschlag: Vergabe Ortsratsmittel für das Jahr 2023\n\nHaushaltsrest 2022\nOrtsratsmittel 2023\n\n€\n74,52\n€ 2869,00\n=€ 2943,52\n\nVerfügungsmittel Ortsbürgermeister für Präsente\n(24 x Blumengutscheine, 12 x Präsentkorb)\n\n€ 660,00\n=€ 2283,52\n\nHeimatstube\nOrtsheimatpflegerin\nKranz für Volkstrauertag\nUmwelttag\nZuschuss, für Pokale, beim Schießen um die Bürgerkönige (XX)\nAdventfeier OR/AWO/DRK/SoVD/Kirchengemeinde\nChorgemeinschaft singen am Volkstrauertag (XX)\nFFW Musikzug Rössing für Volkstrauertag (XX)\nZuschuss zum 150. Jubiläum der Chorgemeinschaft (XX)\nZuschuss zur Bank auf dem Spielplatz am Osterfeld\nAusgaben gesamt:\n\n€\n120,00\n€\n150,00\n€\n100,00\n€\n100,00\n€\n100,00\n€\n100,00\n€\n50,00\n€\n100,00\n€\n150,00\n€\n300,00\n=€ 1270,00\n\nHaushaltsrest\n\n=€ 1013,52\n\n(XX) = soll persönlich übergeben werden\n\n(Beträge in Euro) neue Posten gegenüber 2022"
+    }
+  ],
+  "full_text": "000\nAnlage 5\nProtokoll OR Baunte 21.02.20\nOrtsrat Barnten\n\nFebruar 2023\n\nVorschlag: Vergabe Ortsratsmittel für das Jahr 2023\n\nHaushaltsrest 2022\nOrtsratsmittel 2023\n\n€\n74,52\n€ 2869,00\n=€ 2943,52\n\nVerfügungsmittel Ortsbürgermeister für Präsente\n(24 x Blumengutscheine, 12 x Präsentkorb)\n\n€ 660,00\n=€ 2283,52\n\nHeimatstube\nOrtsheimatpflegerin\nKranz für Volkstrauertag\nUmwelttag\nZuschuss, für Pokale, beim Schießen um die Bürgerkönige (XX)\nAdventfeier OR/AWO/DRK/SoVD/Kirchengemeinde\nChorgemeinschaft singen am Volkstrauertag (XX)\nFFW Musikzug Rössing für Volkstrauertag (XX)\nZuschuss zum 150. Jubiläum der Chorgemeinschaft (XX)\nZuschuss zur Bank auf dem Spielplatz am Osterfeld\nAusgaben gesamt:\n\n€\n120,00\n€\n150,00\n€\n100,00\n€\n100,00\n€\n100,00\n€\n100,00\n€\n50,00\n€\n100,00\n€\n150,00\n€\n300,00\n=€ 1270,00\n\nHaushaltsrest\n\n=€ 1013,52\n\n(XX) = soll persönlich übergeben werden\n\n(Beträge in Euro) neue Posten gegenüber 2022",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:04:49.243Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 440
+  }
 }

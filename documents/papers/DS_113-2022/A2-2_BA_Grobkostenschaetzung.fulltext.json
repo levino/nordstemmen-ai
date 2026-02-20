@@ -1,8 +1,18 @@
 {
   "file_hash": "a36f14766a78bd46931e85b00eb15746c200c5833181341805348765c15eaca0",
   "filename": "A2-2_BA_Grobkostenschaetzung.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Dipl.-Ing. Architekt Peter Appel, Haferkamp 10, 31171 Nordstemmen\nAPPEL\nARCHITEKTUR\nGrobkostenschätzung\nBV: Erweiterung Kita Barnten, Glückaufstraße 1, 31171 Nordstemmen\nBH: Gemeinde Nordstemmen, Rathausstraße 3, 31171 Nordstemmen\nGrundlage\nVorentwurfspläne vom 14.11.2022\nBGF Gebäude: 172 m²\nBGF Erschließungsgang: 49 m²\nKostenansätze: Modul / 1-Gruppe\n\n| Kostengruppe | | Einzelsumme KG netto € | Gesamtsumme KG netto € |\n| :----------- | :------------------------------------------- | :--------------------- | :--------------------- |\n| 100 Grundstück | entfällt | / | 0,00 |\n| 200 Vorbereitende Maßnahmen | - Herrichten Grundstück | | 18.000,00 |\n| | - Hausanschlüsse TGA | 10.000,00 | |\n| | - Hausanschlüsse RW/SW | 8.000,00 | |\n| 300 Bauwerk - Baukonstruktion | - Abbruch befestigte Außenanlagen | 10.000,00 | 440.000,00 |\n| | u. dergl. | | |\n| | - Erschließungsgang | 80.000,00 | |\n| | 49 m² | | |\n| | - Gebäude | 350.000,00 | |\n| | 172 m² | | |\n| 400 Bauwerk - Technische Anlagen | KG 400 | 120.000,00 | 120.000,00 |\n| 500 Außenanlagen + Freiflächen | | 26.000,00 | 26.000,00 |\n| 600 Ausstattung + Kunstwerke | Ohne Inventar, vom Bauherrn anzugeben | 0,00 | 0,00 |\n| 700 Baunebenkosten | ca. 18% von KG 300-500 | 105.000,00 | 105.000,00 |\n| 800 Finanzierung | nicht enthalten | 0,00 | 0,00 |\n| **Gesamt Netto €** | | **709.000,00** | **709.000,00** |\n| zzgl. 19% MwSt | | 134.710,00 | 134.710,00 |\n| **Gesamt Brutto €** | | **843.710,00** | **843.710,00** |\n| **Gesamt Brutto gerundet €** | | **844.000,00** | **844.000,00** |\n\nAufgrund der derzeitigen Konjunkturlage und Entwicklung der Baustoffpreise sind zukünftige Preiserhöhungen zu erwarten. Prognose ca. 15 - 20% / a.\nDie Gründungsverhältnisse sind noch zu klären. Kosten für Arbeiten im Bestand sind nicht enthalten\n\nNordstemmen, den 14.11.2022"
+    }
+  ],
+  "full_text": "Dipl.-Ing. Architekt Peter Appel, Haferkamp 10, 31171 Nordstemmen\nAPPEL\nARCHITEKTUR\nGrobkostenschätzung\nBV: Erweiterung Kita Barnten, Glückaufstraße 1, 31171 Nordstemmen\nBH: Gemeinde Nordstemmen, Rathausstraße 3, 31171 Nordstemmen\nGrundlage\nVorentwurfspläne vom 14.11.2022\nBGF Gebäude: 172 m²\nBGF Erschließungsgang: 49 m²\nKostenansätze: Modul / 1-Gruppe\n\n| Kostengruppe | | Einzelsumme KG netto € | Gesamtsumme KG netto € |\n| :----------- | :------------------------------------------- | :--------------------- | :--------------------- |\n| 100 Grundstück | entfällt | / | 0,00 |\n| 200 Vorbereitende Maßnahmen | - Herrichten Grundstück | | 18.000,00 |\n| | - Hausanschlüsse TGA | 10.000,00 | |\n| | - Hausanschlüsse RW/SW | 8.000,00 | |\n| 300 Bauwerk - Baukonstruktion | - Abbruch befestigte Außenanlagen | 10.000,00 | 440.000,00 |\n| | u. dergl. | | |\n| | - Erschließungsgang | 80.000,00 | |\n| | 49 m² | | |\n| | - Gebäude | 350.000,00 | |\n| | 172 m² | | |\n| 400 Bauwerk - Technische Anlagen | KG 400 | 120.000,00 | 120.000,00 |\n| 500 Außenanlagen + Freiflächen | | 26.000,00 | 26.000,00 |\n| 600 Ausstattung + Kunstwerke | Ohne Inventar, vom Bauherrn anzugeben | 0,00 | 0,00 |\n| 700 Baunebenkosten | ca. 18% von KG 300-500 | 105.000,00 | 105.000,00 |\n| 800 Finanzierung | nicht enthalten | 0,00 | 0,00 |\n| **Gesamt Netto €** | | **709.000,00** | **709.000,00** |\n| zzgl. 19% MwSt | | 134.710,00 | 134.710,00 |\n| **Gesamt Brutto €** | | **843.710,00** | **843.710,00** |\n| **Gesamt Brutto gerundet €** | | **844.000,00** | **844.000,00** |\n\nAufgrund der derzeitigen Konjunkturlage und Entwicklung der Baustoffpreise sind zukünftige Preiserhöhungen zu erwarten. Prognose ca. 15 - 20% / a.\nDie Gründungsverhältnisse sind noch zu klären. Kosten für Arbeiten im Bestand sind nicht enthalten\n\nNordstemmen, den 14.11.2022",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:32:58.576Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 832
+  }
 }

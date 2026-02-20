@@ -1,8 +1,18 @@
 {
   "file_hash": "1079af28572efb04275af6c37720818f6dfb96fc38eec9032411efb7d853eb72",
   "filename": "DS_45_2020_Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Eine topografische Karte zeigt das Naturschutzgebiet \"Leineaue zwischen Gronau und Burgstemmen\" mit seiner Abgrenzung und einer FFH-Umsetzungsfläche.]\n\nAnlage 2\nzur DS 45/2020\n\nEntwurf\nÜbersichtsplan\n\nNaturschutzgebiet HA 129\n\"Leineaue zwischen Gronau und Burgstemmen\"\n\nMaßstab: 1:30.000\n\nLandkreis Hildesheim\nDer Landrat\n\nErstellt durch:\n208 - Umweltamt\nNaturschutzbehörde\n\nQuelle:\nKartengrundlage - Auszug aus den Geobasisdaten\nder Nds. Vermessungs- und Katasterverwaltung (c) LGLN\nFachdaten - Landkreis Hildesheim (c) Kartengrundlage AK5\n\nStand:\nFu / 05 / 2020"
+    }
+  ],
+  "full_text": "[Eine topografische Karte zeigt das Naturschutzgebiet \"Leineaue zwischen Gronau und Burgstemmen\" mit seiner Abgrenzung und einer FFH-Umsetzungsfläche.]\n\nAnlage 2\nzur DS 45/2020\n\nEntwurf\nÜbersichtsplan\n\nNaturschutzgebiet HA 129\n\"Leineaue zwischen Gronau und Burgstemmen\"\n\nMaßstab: 1:30.000\n\nLandkreis Hildesheim\nDer Landrat\n\nErstellt durch:\n208 - Umweltamt\nNaturschutzbehörde\n\nQuelle:\nKartengrundlage - Auszug aus den Geobasisdaten\nder Nds. Vermessungs- und Katasterverwaltung (c) LGLN\nFachdaten - Landkreis Hildesheim (c) Kartengrundlage AK5\n\nStand:\nFu / 05 / 2020",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:04:46.529Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 200
+  }
 }

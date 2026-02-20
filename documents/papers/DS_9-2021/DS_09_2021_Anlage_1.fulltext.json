@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "E 555591 m\nm\n3992875\nN\nN\n5783080\nm\nE 555716 m\n§\n© 2020\n1:500\nHintergrund:Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, © Bundesamt für Kartographie und Geodäsie"
+      "text": "[Luftbildaufnahme mit Markierungen für geplante Fahrradabstellanlagen und Wegeführungen in der Nähe eines Bahnhofs.]\nDS 9/2021\nAnlage 1\nMaßstab: 1:500\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung Niedersachsen | © OpenStreetMap Contributors, © Bundesamt für Kartographie und Geodäsie\n© 2020 LGLN"
     }
   ],
-  "full_text": "E 555591 m\nm\n3992875\nN\nN\n5783080\nm\nE 555716 m\n§\n© 2020\n1:500\nHintergrund:Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, © Bundesamt für Kartographie und Geodäsie"
+  "full_text": "[Luftbildaufnahme mit Markierungen für geplante Fahrradabstellanlagen und Wegeführungen in der Nähe eines Bahnhofs.]\nDS 9/2021\nAnlage 1\nMaßstab: 1:500\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung Niedersachsen | © OpenStreetMap Contributors, © Bundesamt für Kartographie und Geodäsie\n© 2020 LGLN",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:29:50.753Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 113
+  }
 }

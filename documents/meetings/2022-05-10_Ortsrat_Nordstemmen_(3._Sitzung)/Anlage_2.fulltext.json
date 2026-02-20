@@ -1,8 +1,18 @@
 {
   "file_hash": "0c7651f5d64a4c5e1b8977522f1557835947146ad7b3e54477d23cb955a9e31d",
   "filename": "Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 2 zu OR Nordstemmen\n06.05.2022\n\nJährlich wiederkehrende Koste des\nOrtsrates Nordstemmen\naufgerundet\nbisher\nausgegeben\n\nSenioren Fahrt\nSeniorenweihnachtsfeier\nMüllsammelaktion\nBürgerscheibe u. Schiessen\nBlasorchester (Jahreskonzert)\nFeuerwehr/Blasorchester\nJahresempfang der Kirchen JHV\nSchule Abschlussklassen\nGeburtstage (80. - 85. -90. - 91.....)\nWeltkindertag\nVolkstrauertag\nOrtsheimatpflegerin\nHundekotbeute\nJubiläen (Goldene Hochzeiten)\nOrtsbürgermeister\nz.b.V.\nFerienpass\nNeubürger\nZuschuss Fahrt Juz\nZuschuss Kultur u. Brauchtum Flyer\nZugesagt:\nMTV\n2 Bänke\nStangen/Argentum\n5 Vereine\n20 Stühle\n\nSumme\n\nZuweisung\nÜbertrag\n\nSumme\nAusgaben/geplant\n\nnoch Verfügbar:\n\nblau = ausgefallen\n1.500,00 €\n900,00 €\n250,00 € 300,00 €\n500,00 €\n100,00 €\n200,00 € 200,00 €\n200,00 € 0,00 €\n100,00 €\n2.000,00 € 570,00 €\n100,00 €\n100,00 €\n150,00 € 150,00 €\n1.000,00 € 534,43 €\n600,00 €\n400,00 €\n100,00 € 100,00 €\n600,00 € 0,00 €\n100,00 €\n500,00 €\n\n400,00 € 400,00 €\n600,00 €\n600,00 €\n2.000,00 € 2.000,00 €\n3.500,00 €\n\n16.500,00 € 4.254,43 €\n\n2022\n2021\n\n2022\n2022\n\nca.\n8.740,00 €\n8.771,50 €\n\n17.511,50 €\n12.346,00 €\n\n5.000,00 €"
+    }
+  ],
+  "full_text": "Anlage 2 zu OR Nordstemmen\n06.05.2022\n\nJährlich wiederkehrende Koste des\nOrtsrates Nordstemmen\naufgerundet\nbisher\nausgegeben\n\nSenioren Fahrt\nSeniorenweihnachtsfeier\nMüllsammelaktion\nBürgerscheibe u. Schiessen\nBlasorchester (Jahreskonzert)\nFeuerwehr/Blasorchester\nJahresempfang der Kirchen JHV\nSchule Abschlussklassen\nGeburtstage (80. - 85. -90. - 91.....)\nWeltkindertag\nVolkstrauertag\nOrtsheimatpflegerin\nHundekotbeute\nJubiläen (Goldene Hochzeiten)\nOrtsbürgermeister\nz.b.V.\nFerienpass\nNeubürger\nZuschuss Fahrt Juz\nZuschuss Kultur u. Brauchtum Flyer\nZugesagt:\nMTV\n2 Bänke\nStangen/Argentum\n5 Vereine\n20 Stühle\n\nSumme\n\nZuweisung\nÜbertrag\n\nSumme\nAusgaben/geplant\n\nnoch Verfügbar:\n\nblau = ausgefallen\n1.500,00 €\n900,00 €\n250,00 € 300,00 €\n500,00 €\n100,00 €\n200,00 € 200,00 €\n200,00 € 0,00 €\n100,00 €\n2.000,00 € 570,00 €\n100,00 €\n100,00 €\n150,00 € 150,00 €\n1.000,00 € 534,43 €\n600,00 €\n400,00 €\n100,00 € 100,00 €\n600,00 € 0,00 €\n100,00 €\n500,00 €\n\n400,00 € 400,00 €\n600,00 €\n600,00 €\n2.000,00 € 2.000,00 €\n3.500,00 €\n\n16.500,00 € 4.254,43 €\n\n2022\n2021\n\n2022\n2022\n\nca.\n8.740,00 €\n8.771,50 €\n\n17.511,50 €\n12.346,00 €\n\n5.000,00 €",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:59.175Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 650
+  }
 }

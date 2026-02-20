@@ -1,8 +1,18 @@
 {
   "file_hash": "ef1513f2d0605cb830f378d0dc59bbe999024dd4188673e9b8f9e111c8b5f506",
   "filename": "Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 1 zur Niederschrift der Sitzung\ndes Rates vom 14. Juni 2018\nBericht des Bürgermeisters in der Sitzung des Rates der Gemeinde Nordstemmen am\n14. Juni 2018 über:\na)\nausgeführten Beschlüsse des Rates aus vorangegangenen Sitzungen\nsowie\nb)\nwichtige Beschlüsse des Verwaltungsausschusses\nZu a) vorangegangene Ratssitzungen\nZu Punkt 6:\nNeufassung der Hauptsatzung der Gemeinde Nordstemmen\n(DS 31/2017 - 1. und 2. Ergänzung)\nDie rechtskräftige Veröffentlichung der Hauptsatzung der Gemeinde Nordstemmen ist im\nAmtsblatt Nr. 13 des Landkreises Hildesheim am 28. März 2018 erfolgt.\nZu Punkt 16: Bebauungsplan Nr. 0107 “Ortsmitte Ost“, 6. Änderung sowie 3. Berichtigung\ndes Flächennutzungsplanes der Gemeinde Nordstemmen;\nAnhörung des Ortsrates gemäß § 10 Abs. 1 BauGB\n(DS 5/2018)\nDer Bebauungspian Nr. 0107 „Ortsmitte-Ost“, 6. Änderung mit örtlichen Bauvorschriften und\nmit 3. Berichtigung des Flächennutzungsplanes im beschleunigten Verfahren gem. § 13 a\nBauGB der Gemeinde Nordstemmen ist in Kraft getreten. Die rechtskräftige Veröffentlichung\nim ist Amtsblatt Nr. 13 des Landkreises Hildesheim am 28. März 2018 erfolgt.\nZu b) Wichtige Beschlüsse des Verwaltungsausschusses seit der Ratssitzung vom\n15. März 2018\n./."
+    }
+  ],
+  "full_text": "Anlage 1 zur Niederschrift der Sitzung\ndes Rates vom 14. Juni 2018\nBericht des Bürgermeisters in der Sitzung des Rates der Gemeinde Nordstemmen am\n14. Juni 2018 über:\na)\nausgeführten Beschlüsse des Rates aus vorangegangenen Sitzungen\nsowie\nb)\nwichtige Beschlüsse des Verwaltungsausschusses\nZu a) vorangegangene Ratssitzungen\nZu Punkt 6:\nNeufassung der Hauptsatzung der Gemeinde Nordstemmen\n(DS 31/2017 - 1. und 2. Ergänzung)\nDie rechtskräftige Veröffentlichung der Hauptsatzung der Gemeinde Nordstemmen ist im\nAmtsblatt Nr. 13 des Landkreises Hildesheim am 28. März 2018 erfolgt.\nZu Punkt 16: Bebauungsplan Nr. 0107 “Ortsmitte Ost“, 6. Änderung sowie 3. Berichtigung\ndes Flächennutzungsplanes der Gemeinde Nordstemmen;\nAnhörung des Ortsrates gemäß § 10 Abs. 1 BauGB\n(DS 5/2018)\nDer Bebauungspian Nr. 0107 „Ortsmitte-Ost“, 6. Änderung mit örtlichen Bauvorschriften und\nmit 3. Berichtigung des Flächennutzungsplanes im beschleunigten Verfahren gem. § 13 a\nBauGB der Gemeinde Nordstemmen ist in Kraft getreten. Die rechtskräftige Veröffentlichung\nim ist Amtsblatt Nr. 13 des Landkreises Hildesheim am 28. März 2018 erfolgt.\nZu b) Wichtige Beschlüsse des Verwaltungsausschusses seit der Ratssitzung vom\n15. März 2018\n./.",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:14.981Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 419
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "36959e249399e59dbaf526d4c1e126bb4e52e86bfb4bfabe5dac30625905e824",
   "filename": "Anlage_zur_Beschlussvorlage_DS_1-2015.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Topografische Karte, die Felder, Gebäude und zwei in Rot hervorgehobene Wege zeigt.]\nE 555733 m\nN 5784347 m\nN 5783303 m\n1:4.000\nE 555077 m\n©2013\nLGLN\nHintergrund: Auszug aus den Geobasisdaten der LGLN"
+    }
+  ],
+  "full_text": "[Topografische Karte, die Felder, Gebäude und zwei in Rot hervorgehobene Wege zeigt.]\nE 555733 m\nN 5784347 m\nN 5783303 m\n1:4.000\nE 555077 m\n©2013\nLGLN\nHintergrund: Auszug aus den Geobasisdaten der LGLN",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:30:02.361Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 104
+  }
 }

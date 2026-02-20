@@ -1,8 +1,18 @@
 {
   "file_hash": "f3c8c3ef23b9f3eb5ec6b3a2a06f9bd29cad2193aa877af4e61a21d36eb45bb0",
   "filename": "Anlage_zur_Beschlussvorlage_DS_39-2007.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": ""
+    }
+  ],
+  "full_text": "",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T16:28:19.269Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 5
+  }
 }

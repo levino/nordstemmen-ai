@@ -1,8 +1,18 @@
 {
   "file_hash": "e3a72410bcab4727d642a5b0e8e008e39b9e5c8932e15586294b92d7b6e854b2",
   "filename": "Kopie_des_Bebauungsplanes.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Ein Bebauungsplan, der die Flurstücke und Straßenführung in einem Teilgebiet der Ortschaft Nordstemmen, insbesondere die \"Heyersumer Straße - Süd\", darstellt, mit eingezeichneten Baugrenzen und Nutzungskategorien.]\nANLAGE 2/1\nzur DS 71/2018\n\nGemeinde Nordstemmen\nOrtschaft Nordstemmen\nBebauungsplan Nr. 0123\n\"Heyersumer Straße - Süd\"\n2. Änderung\nim Verfahren nach § 13 a BauGB\nSatzungsbeschluss\nMaßstab 1:1.000\n\nPlanungsbüro SRL Weber Spinozastraße 1 30625 Hannover\nTelefon: (0511) 85 65 8-0 Fax: (0511) 85 65 8-99 eMail: email@srl-weber.de"
+    }
+  ],
+  "full_text": "[Ein Bebauungsplan, der die Flurstücke und Straßenführung in einem Teilgebiet der Ortschaft Nordstemmen, insbesondere die \"Heyersumer Straße - Süd\", darstellt, mit eingezeichneten Baugrenzen und Nutzungskategorien.]\nANLAGE 2/1\nzur DS 71/2018\n\nGemeinde Nordstemmen\nOrtschaft Nordstemmen\nBebauungsplan Nr. 0123\n\"Heyersumer Straße - Süd\"\n2. Änderung\nim Verfahren nach § 13 a BauGB\nSatzungsbeschluss\nMaßstab 1:1.000\n\nPlanungsbüro SRL Weber Spinozastraße 1 30625 Hannover\nTelefon: (0511) 85 65 8-0 Fax: (0511) 85 65 8-99 eMail: email@srl-weber.de",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:46:53.530Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 216
+  }
 }

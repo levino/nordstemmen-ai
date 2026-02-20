@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Geltungsbereich\nB-Plan Nr. 0207A \"Krummer Kamp II\"\n´\n© 2023"
+      "text": "[Karte, die den Geltungsbereich des Bebauungsplans Nr. 0207A \"Krummer Kamp II\" in einem ländlichen Gebiet um Adensen zeigt, mit Höhenlinien und Straßenverlauf]\nAnlage 1 zu\nODS 11/2023\nGeltungsbereich\nB-Plan Nr. 0207A \"Krummer Kamp II\"\n© 2023 LGLN"
     }
   ],
-  "full_text": "Geltungsbereich\nB-Plan Nr. 0207A \"Krummer Kamp II\"\n´\n© 2023"
+  "full_text": "[Karte, die den Geltungsbereich des Bebauungsplans Nr. 0207A \"Krummer Kamp II\" in einem ländlichen Gebiet um Adensen zeigt, mit Höhenlinien und Straßenverlauf]\nAnlage 1 zu\nODS 11/2023\nGeltungsbereich\nB-Plan Nr. 0207A \"Krummer Kamp II\"\n© 2023 LGLN",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:32:12.630Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 105
+  }
 }

@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "A\ne\nß\na\nr\nt\ns\nn\na\nPl\nP\nla\nn\ns\nt\nr\na\nß\ne\nA\nPlanstraße A\n±\nBebauungsplan Nr. 0411 \"Mühlenweg-Poppenburg\"\n1:1.250 hier: Straßenbennenung Stand: 26.10.2022"
+      "text": "[Ein Bebauungsplan, der ein Wohngebiet mit geplanten Straßen und Parzellen in einer ländlichen Umgebung zeigt. Es sind bestehende Gebäude, Flurstücke und neue Bauflächen (WA – Wohngebiet, RR – Private Grünfläche mit spezieller Nutzung, LW – Landwirtschaft, ED – Private Grünfläche mit spezieller Nutzung) sowie eine nördliche Ausrichtung dargestellt.]\nBebauungsplan Nr. 0411 \"Mühlenweg-Poppenburg\"\nhier: Straßenbennenung\n1:1.250\nStand: 26.10.2022"
     }
   ],
-  "full_text": "A\ne\nß\na\nr\nt\ns\nn\na\nPl\nP\nla\nn\ns\nt\nr\na\nß\ne\nA\nPlanstraße A\n±\nBebauungsplan Nr. 0411 \"Mühlenweg-Poppenburg\"\n1:1.250 hier: Straßenbennenung Stand: 26.10.2022"
+  "full_text": "[Ein Bebauungsplan, der ein Wohngebiet mit geplanten Straßen und Parzellen in einer ländlichen Umgebung zeigt. Es sind bestehende Gebäude, Flurstücke und neue Bauflächen (WA – Wohngebiet, RR – Private Grünfläche mit spezieller Nutzung, LW – Landwirtschaft, ED – Private Grünfläche mit spezieller Nutzung) sowie eine nördliche Ausrichtung dargestellt.]\nBebauungsplan Nr. 0411 \"Mühlenweg-Poppenburg\"\nhier: Straßenbennenung\n1:1.250\nStand: 26.10.2022",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:31:12.555Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 135
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "2312b54db7b6a30c6bf4af60b0edc83a0478a99be2d8108716eacc3510dffae1",
   "filename": "Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 2\n\n## Absender\nOrtsrat Mahlerten\n\n## Betreff\nAntrag Skaterbahn\n\nMahlerten, den 15.02.2022\n\n## Empfänger\nGemeinde Nordstemmen\nRathausstraße 3\n31171 Nordstemmen\n\nSehr geehrte Frau Bürgermeisterin Dombrowski,\nim Namen des Ortsrates Mahlerten beantrage ich in der Gemarkung Mahlerten eine\nSkaterbahn zu errichten. Die optimale Stelle wäre unserer Meinung nach im Bereich\ndes Spielplatzes „Am Kastenborn\". Die Lage des Spielplatzes ist recht abgelegen\nvom Ort und wird so auch lärmtechnisch tolerierbar sein. Bitte stellen Sie die nötigen\nPlanungsmittel in den nächsten Haushalt ein!\nBitte schauen Sie welche Arten von Förderung es gibt, damit auch unsere kleine\nOrtschaft weiterhin attraktiv für unsere nächste Generation an Jugendlichen wird.\n\nIch bitte den Antrag auf zur Beratung an die entsprechenden Gremien weiterzuleiten.\n\n[Unterschrift]"
+    }
+  ],
+  "full_text": "Anlage 2\n\n## Absender\nOrtsrat Mahlerten\n\n## Betreff\nAntrag Skaterbahn\n\nMahlerten, den 15.02.2022\n\n## Empfänger\nGemeinde Nordstemmen\nRathausstraße 3\n31171 Nordstemmen\n\nSehr geehrte Frau Bürgermeisterin Dombrowski,\nim Namen des Ortsrates Mahlerten beantrage ich in der Gemarkung Mahlerten eine\nSkaterbahn zu errichten. Die optimale Stelle wäre unserer Meinung nach im Bereich\ndes Spielplatzes „Am Kastenborn\". Die Lage des Spielplatzes ist recht abgelegen\nvom Ort und wird so auch lärmtechnisch tolerierbar sein. Bitte stellen Sie die nötigen\nPlanungsmittel in den nächsten Haushalt ein!\nBitte schauen Sie welche Arten von Förderung es gibt, damit auch unsere kleine\nOrtschaft weiterhin attraktiv für unsere nächste Generation an Jugendlichen wird.\n\nIch bitte den Antrag auf zur Beratung an die entsprechenden Gremien weiterzuleiten.\n\n[Unterschrift]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:45.818Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 229
+  }
 }

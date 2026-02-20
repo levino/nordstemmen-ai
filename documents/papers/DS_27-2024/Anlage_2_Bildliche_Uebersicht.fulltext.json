@@ -1,8 +1,18 @@
 {
   "file_hash": "fffd86b777d0ce5546c115e4f87808fdf9bee0f89d41e8bc2a5163e755e9a37e",
   "filename": "Anlage_2_Bildliche_Uebersicht.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Layout-Skizze einer Kassen- und Zutrittskontrollanlage für ein Freibad mit verschiedenen Komponenten und Zugangs-/Ausgangspunkten]\n\nGültig nur für Anfragen\nZur Herstellung\nneue Zeichnungen anfordern\n\nneue Komponenten\nbestehende Komponenten\nbauseits zu erstellende Komponenten\nbauseits zu entfernende Komponenten\n\n15.07.2022\nZugangskontrollanlage\nM.: 1:50, N. Wolters\n\nKassen-/ Zutrittskontrollanlage,\nFreibad Nordstemmen\nVorschlag2\nPlanungsskizze Zugangskontrollanlage\n[Nordstemmen Freibad]\n\necs\nemmeln\ncontrol\nsystems\nMetallbau Emmeln GmbH & Co. KG, Eichenstraße 58. 49733 Haren, Tel.: 05932/7255-0, Fax: 05932/7255-20"
+    }
+  ],
+  "full_text": "[Layout-Skizze einer Kassen- und Zutrittskontrollanlage für ein Freibad mit verschiedenen Komponenten und Zugangs-/Ausgangspunkten]\n\nGültig nur für Anfragen\nZur Herstellung\nneue Zeichnungen anfordern\n\nneue Komponenten\nbestehende Komponenten\nbauseits zu erstellende Komponenten\nbauseits zu entfernende Komponenten\n\n15.07.2022\nZugangskontrollanlage\nM.: 1:50, N. Wolters\n\nKassen-/ Zutrittskontrollanlage,\nFreibad Nordstemmen\nVorschlag2\nPlanungsskizze Zugangskontrollanlage\n[Nordstemmen Freibad]\n\necs\nemmeln\ncontrol\nsystems\nMetallbau Emmeln GmbH & Co. KG, Eichenstraße 58. 49733 Haren, Tel.: 05932/7255-0, Fax: 05932/7255-20",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:51:21.541Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 227
+  }
 }

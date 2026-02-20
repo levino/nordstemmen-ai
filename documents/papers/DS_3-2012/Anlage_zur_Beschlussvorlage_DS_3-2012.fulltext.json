@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Planbereich\n1:2.000"
+      "text": "[Karte, die einen Teil einer Ortschaft mit Straßen und Gebäuden zeigt, mit einem hervorgehobenen Bereich]\nAnlage 1\n1:2.000"
     }
   ],
-  "full_text": "Planbereich\n1:2.000"
+  "full_text": "[Karte, die einen Teil einer Ortschaft mit Straßen und Gebäuden zeigt, mit einem hervorgehobenen Bereich]\nAnlage 1\n1:2.000",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:52:28.098Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 43
+  }
 }

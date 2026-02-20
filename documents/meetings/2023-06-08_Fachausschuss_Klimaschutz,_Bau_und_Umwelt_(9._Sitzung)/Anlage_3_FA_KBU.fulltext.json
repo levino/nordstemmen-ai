@@ -1,8 +1,18 @@
 {
   "file_hash": "dbb94c8a4662fc77491103e1d4a4ce9b322dd87cdc639fb841ffcf7362e71230",
   "filename": "Anlage_3_FA_KBU.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 3\n\nEnergetische Maßnahmen\n\nErgebnishaushalt\n\n| Jahr | Objekt | Kosten | Bemerkung |\n| :--- | :--- | :--- | :--- |\n| 2021 | FWH Adensen - Erneuerung Fenster (zur Garage) | 3.500,00 € | erledigt |\n| 2021 | FWH Nordstemmen - Erneuerung Fenster (Rückseite) | 2.500,00 € | erledigt |\n| 2021 | Turnhalle Barnten - Erneuerung östliche Fensterfront | 25.000,00 € | erledigt |\n| 2021 | Freibad - Erneuerung Fenster Umkleidekabinen | 16.000,00 € | erledigt |\n| 2022 | FWH Klein Escherde - Austausch Fenster | 3.000,00 € | erledigt |\n| 2022 | Kiga Adensen - Erneuerung Fenster / Türelement | 7.000,00 € | erledigt |\n| 2022 | Sportplatz Burgstemmen - 3 neue Fenster vorne | 3.000,00 € | erledigt |\n| 2023 | Altes Schulhaus Heyersum - Erneuerung der Hauseingangstür | 7.000,00 € | beauftragt |\n| 2023 | FWH Klein Escherde - LED Austausch | 1.000,00 € | erledigt |\n| 2023 | FWH Nordstemmen - Erneuerung Fenster, Türen Schulungsraum | 15.000,00 € | offen |\n| 2023 | Kiga Adensen - Erneuerung Fenster | 5.000,00 € | erledigt |\n| 2023 | Kiga AWO Nordstemmen - LED Umstellung | 2.500,00 € | offen |\n| 2023 | Sportplatz Burgstemmen - Erneuerung der Eingangstür | 7.000,00 € | erledigt |\n| 2023 | Turnhalle Barnten - LED Beleuchtung DGH | 4.000,00 € | offen |\n| 2023 | MZH Heyersum - Erneuerung der Heizungsanlage | 55.000,00 € | Klärung welche Anlage zuerst |\n| | | 156.500,00 € | |\n\nFinanzhaushalt\n\n| Jahr | Objekt | Kosten | Bemerkung |\n| :--- | :--- | :--- | :--- |\n| 2023 | Rathaus - PV-Anlage | 100.000,00 € | Vorbereitung der Ausschreibung |\n| 2023 | Rathaus - Modernisierungsmaßnahmen | 100.000,00 € | Modernisierung Heizungsversorgung = 50.000 € |\n| | | | Gewerk Tischlerarbeiten (Fenster) = 60.000 € |\n| 2024 | Rathaus - Modernisierungsmaßnahmen | 95.000,00 € | Innenausbau - Metallbau / Brandschutzmaßnahmen - Rohre |"
+    }
+  ],
+  "full_text": "Anlage 3\n\nEnergetische Maßnahmen\n\nErgebnishaushalt\n\n| Jahr | Objekt | Kosten | Bemerkung |\n| :--- | :--- | :--- | :--- |\n| 2021 | FWH Adensen - Erneuerung Fenster (zur Garage) | 3.500,00 € | erledigt |\n| 2021 | FWH Nordstemmen - Erneuerung Fenster (Rückseite) | 2.500,00 € | erledigt |\n| 2021 | Turnhalle Barnten - Erneuerung östliche Fensterfront | 25.000,00 € | erledigt |\n| 2021 | Freibad - Erneuerung Fenster Umkleidekabinen | 16.000,00 € | erledigt |\n| 2022 | FWH Klein Escherde - Austausch Fenster | 3.000,00 € | erledigt |\n| 2022 | Kiga Adensen - Erneuerung Fenster / Türelement | 7.000,00 € | erledigt |\n| 2022 | Sportplatz Burgstemmen - 3 neue Fenster vorne | 3.000,00 € | erledigt |\n| 2023 | Altes Schulhaus Heyersum - Erneuerung der Hauseingangstür | 7.000,00 € | beauftragt |\n| 2023 | FWH Klein Escherde - LED Austausch | 1.000,00 € | erledigt |\n| 2023 | FWH Nordstemmen - Erneuerung Fenster, Türen Schulungsraum | 15.000,00 € | offen |\n| 2023 | Kiga Adensen - Erneuerung Fenster | 5.000,00 € | erledigt |\n| 2023 | Kiga AWO Nordstemmen - LED Umstellung | 2.500,00 € | offen |\n| 2023 | Sportplatz Burgstemmen - Erneuerung der Eingangstür | 7.000,00 € | erledigt |\n| 2023 | Turnhalle Barnten - LED Beleuchtung DGH | 4.000,00 € | offen |\n| 2023 | MZH Heyersum - Erneuerung der Heizungsanlage | 55.000,00 € | Klärung welche Anlage zuerst |\n| | | 156.500,00 € | |\n\nFinanzhaushalt\n\n| Jahr | Objekt | Kosten | Bemerkung |\n| :--- | :--- | :--- | :--- |\n| 2023 | Rathaus - PV-Anlage | 100.000,00 € | Vorbereitung der Ausschreibung |\n| 2023 | Rathaus - Modernisierungsmaßnahmen | 100.000,00 € | Modernisierung Heizungsversorgung = 50.000 € |\n| | | | Gewerk Tischlerarbeiten (Fenster) = 60.000 € |\n| 2024 | Rathaus - Modernisierungsmaßnahmen | 95.000,00 € | Innenausbau - Metallbau / Brandschutzmaßnahmen - Rohre |",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:05:05.391Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 779
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "d7e1259794888051333bdb278b18588c01c01f5dfac1d0979f4562b58b46959c",
   "filename": "Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "1\n[Übersichtsplan eines Siedlungsgebiets mit eingezeichneten Straßen, einer Bahnlinie, einer Schule und mehreren markierten Planungsbereichen für Wohnbau und einen Spielplatz.]\nAnlage 1\nMaßstab ca. 1 : 2 500"
+    }
+  ],
+  "full_text": "1\n[Übersichtsplan eines Siedlungsgebiets mit eingezeichneten Straßen, einer Bahnlinie, einer Schule und mehreren markierten Planungsbereichen für Wohnbau und einen Spielplatz.]\nAnlage 1\nMaßstab ca. 1 : 2 500",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:58:28.466Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 67
+  }
 }

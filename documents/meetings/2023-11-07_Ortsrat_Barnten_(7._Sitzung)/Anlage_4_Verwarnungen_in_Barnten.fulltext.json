@@ -1,8 +1,18 @@
 {
   "file_hash": "059b201c02b2646a7b61a70bc98e1f30af0a7abb0626a1b57337267271375630",
   "filename": "Anlage_4_Verwarnungen_in_Barnten.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 4\nPotokoll OR Barnten von 07.11.2023\nStatistik\n\nAlle Vorgänge vom 01.05.2023 um 00:00 Uhr bis 07.11.2023 um 23:59 Uhr\nDatumsgruppierung: Uhrzeit, Weitere Gruppierung: Gerät\nDatenfilter: Ortsname enthält Barnten\n\n| Datum | Gerät | Anzahl | Betrag |\n| :---- | :---- | :----- | :----- |\n| 23:00 | | 0 | 0,00 € |\n| 22:00 | | 0 | 0,00 € |\n| 21:00 | | 0 | 0,00 € |\n| 20:00 | | 0 | 0,00 € |\n| 19:00 | | 0 | 0,00 € |\n| 18:00 | | 1 | 55,00 € |\n| 17:00 | | 1 | 55,00 € |\n| 16:00 | | 4 | 115,00 € |\n| 15:00 | | 0 | 0,00 € |\n| 14:00 | | 3 | 165,00 € |\n| 13:00 | | 2 | 40,00 € |\n| 12:00 | | 0 | 0,00 € |\n| 11:00 | | 0 | 0,00 € |\n| 10:00 | | 0 | 0,00 € |\n| 09:00 | | 7 | 155,00 € |\n| 08:00 | | 0 | 0,00 € |\n| 07:00 | | 0 | 0,00 € |\n| 06:00 | | 0 | 0,00 € |\n| 05:00 | | 0 | 0,00 € |\n| 04:00 | | 0 | 0,00 € |\n| 03:00 | | 0 | 0,00 € |\n| 02:00 | | 0 | 0,00 € |\n| 01:00 | | 0 | 0,00 € |\n| 00:00 | | 0 | 0,00 € |\n\nVerwarnungen in Barnten seit\ndem 01.05.2023 ohne Verwarnunge-\nweg- Parken in Wohngebieten\n\nErstellt am 07.11.2023 10:01:27 von Cieplik\n1/1"
+    }
+  ],
+  "full_text": "Anlage 4\nPotokoll OR Barnten von 07.11.2023\nStatistik\n\nAlle Vorgänge vom 01.05.2023 um 00:00 Uhr bis 07.11.2023 um 23:59 Uhr\nDatumsgruppierung: Uhrzeit, Weitere Gruppierung: Gerät\nDatenfilter: Ortsname enthält Barnten\n\n| Datum | Gerät | Anzahl | Betrag |\n| :---- | :---- | :----- | :----- |\n| 23:00 | | 0 | 0,00 € |\n| 22:00 | | 0 | 0,00 € |\n| 21:00 | | 0 | 0,00 € |\n| 20:00 | | 0 | 0,00 € |\n| 19:00 | | 0 | 0,00 € |\n| 18:00 | | 1 | 55,00 € |\n| 17:00 | | 1 | 55,00 € |\n| 16:00 | | 4 | 115,00 € |\n| 15:00 | | 0 | 0,00 € |\n| 14:00 | | 3 | 165,00 € |\n| 13:00 | | 2 | 40,00 € |\n| 12:00 | | 0 | 0,00 € |\n| 11:00 | | 0 | 0,00 € |\n| 10:00 | | 0 | 0,00 € |\n| 09:00 | | 7 | 155,00 € |\n| 08:00 | | 0 | 0,00 € |\n| 07:00 | | 0 | 0,00 € |\n| 06:00 | | 0 | 0,00 € |\n| 05:00 | | 0 | 0,00 € |\n| 04:00 | | 0 | 0,00 € |\n| 03:00 | | 0 | 0,00 € |\n| 02:00 | | 0 | 0,00 € |\n| 01:00 | | 0 | 0,00 € |\n| 00:00 | | 0 | 0,00 € |\n\nVerwarnungen in Barnten seit\ndem 01.05.2023 ohne Verwarnunge-\nweg- Parken in Wohngebieten\n\nErstellt am 07.11.2023 10:01:27 von Cieplik\n1/1",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:05:24.555Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 681
+  }
 }

@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "E 552808 m\nm\n1718775\nN\nN\n5779388\nm\nE 554566 m\n§\n© 2019\n1:7.000\nHintergrund:Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, © Bundesamt für Kartographie und Geodäsie"
+      "text": "[Karte mit einem Ausschnitt einer Siedlung und umliegender Felder]\n\nMaßstab: 1:7.000\n\n©2019 LGLN\n\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, © Bundesamt für Kartographie und Geodäsie"
     }
   ],
-  "full_text": "E 552808 m\nm\n1718775\nN\nN\n5779388\nm\nE 554566 m\n§\n© 2019\n1:7.000\nHintergrund:Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, © Bundesamt für Kartographie und Geodäsie"
+  "full_text": "[Karte mit einem Ausschnitt einer Siedlung und umliegender Felder]\n\nMaßstab: 1:7.000\n\n©2019 LGLN\n\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, © Bundesamt für Kartographie und Geodäsie",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:02:15.487Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 91
+  }
 }

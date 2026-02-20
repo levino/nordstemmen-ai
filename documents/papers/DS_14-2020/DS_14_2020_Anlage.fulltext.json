@@ -1,8 +1,18 @@
 {
   "file_hash": "4c8eb9e52553d5773c4803df28aefb987223675b0061da5fab58769567187c93",
   "filename": "DS_14_2020_Anlage.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 1\nN 5782098 m\nE 555446 m\nE 555822 m\nN 5781837 m\n[Eine Karte, die einen Ausschnitt eines Wohngebiets mit Straßen und Parzellen zeigt.]\nTitel: Clausstraße Rössing (Teilbereich)\nInstitution: Gemeinde Nordstemmen\nDatum: 21.02.2020\nBearbeiter: Tobias Cieplik (Gemeinde Nordstemen)\nMaßstab: 1:1.500\n©2019 LGLN\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung Niedersachsen | © OpenStreetMap Contributors, Bundesamt für Kartographie und Geodäsie"
+    }
+  ],
+  "full_text": "Anlage 1\nN 5782098 m\nE 555446 m\nE 555822 m\nN 5781837 m\n[Eine Karte, die einen Ausschnitt eines Wohngebiets mit Straßen und Parzellen zeigt.]\nTitel: Clausstraße Rössing (Teilbereich)\nInstitution: Gemeinde Nordstemmen\nDatum: 21.02.2020\nBearbeiter: Tobias Cieplik (Gemeinde Nordstemen)\nMaßstab: 1:1.500\n©2019 LGLN\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung Niedersachsen | © OpenStreetMap Contributors, Bundesamt für Kartographie und Geodäsie",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:36:01.282Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 189
+  }
 }

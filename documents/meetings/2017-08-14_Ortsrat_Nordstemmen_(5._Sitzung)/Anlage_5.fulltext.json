@@ -1,8 +1,18 @@
 {
   "file_hash": "0ffceb1bd4b60cab047022c0450c91d98f6914100572935964762c3b6fbfc1bc",
   "filename": "Anlage_5.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "10.08.2017\n\n# Jährlich wiederkehrende Koste des Ortsrates Nordstemmen\n\n| | bisher | aufgerundet ausgegeben |\n| :-------------------------------------- | :---------- | :--------------------- |\n| Senioren Fahrt | 1.100,00 € | |\n| Seniorenweihnachtsfeier | 500,00 € | |\n| Müllsammelaktion | 200,00 € | 162,87 € |\n| Bürgerscheibe u. Schiessen | 500,00 € | 230,00 € |\n| Blasorchester (Jahreskonzert) | 100,00 € | 100,00 € |\n| Feuerwehr/Blasorchester | 200,00 € | 200,00 € |\n| Jahresempfang der Kirchen | 100,00 € | 100,00 € |\n| Schule Abschlussklassen | 100,00 € | 100,00 € |\n| Geburtstage (80. - 85. - 90. - 91.....) | 1.200,00 € | 865,00 € |\n| Weltkindertag | 100,00 € | |\n| Ortsheimatpflegerin | 150,00 € | 150,00 € |\n| Hundekotbeute | 400,00 € | 303,09 € |\n| Jubiläen (Goldene Hochzeiten) | 150,00 € | 80,00 € |\n| Ortsbürgermeister z.b.V. | 400,00 € | 125,00 € |\n| Ferienpass | 100,00 € | 100,00 € |\n| Neubürger | | 79,50 € |\n| KKS Lichtpunktgewehre | | 300,00 € |\n| **Summe** | **5.300,00 €** | **2.895,46 €** |\n\n| | | | |\n| :------------------ | :--- | :---------- | :---------- |\n| Zuweisung | 2017 | 6.050,00 € | |\n| Übertrag | 2016 | 2.868,00 € | |\n| **Summe 2017** | **2017** | **8.918,00 €** | **6.022,63 €** |\n\nNoch geplante Ausgaben 2.650,00 €"
+    }
+  ],
+  "full_text": "10.08.2017\n\n# Jährlich wiederkehrende Koste des Ortsrates Nordstemmen\n\n| | bisher | aufgerundet ausgegeben |\n| :-------------------------------------- | :---------- | :--------------------- |\n| Senioren Fahrt | 1.100,00 € | |\n| Seniorenweihnachtsfeier | 500,00 € | |\n| Müllsammelaktion | 200,00 € | 162,87 € |\n| Bürgerscheibe u. Schiessen | 500,00 € | 230,00 € |\n| Blasorchester (Jahreskonzert) | 100,00 € | 100,00 € |\n| Feuerwehr/Blasorchester | 200,00 € | 200,00 € |\n| Jahresempfang der Kirchen | 100,00 € | 100,00 € |\n| Schule Abschlussklassen | 100,00 € | 100,00 € |\n| Geburtstage (80. - 85. - 90. - 91.....) | 1.200,00 € | 865,00 € |\n| Weltkindertag | 100,00 € | |\n| Ortsheimatpflegerin | 150,00 € | 150,00 € |\n| Hundekotbeute | 400,00 € | 303,09 € |\n| Jubiläen (Goldene Hochzeiten) | 150,00 € | 80,00 € |\n| Ortsbürgermeister z.b.V. | 400,00 € | 125,00 € |\n| Ferienpass | 100,00 € | 100,00 € |\n| Neubürger | | 79,50 € |\n| KKS Lichtpunktgewehre | | 300,00 € |\n| **Summe** | **5.300,00 €** | **2.895,46 €** |\n\n| | | | |\n| :------------------ | :--- | :---------- | :---------- |\n| Zuweisung | 2017 | 6.050,00 € | |\n| Übertrag | 2016 | 2.868,00 € | |\n| **Summe 2017** | **2017** | **8.918,00 €** | **6.022,63 €** |\n\nNoch geplante Ausgaben 2.650,00 €",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:00:43.413Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 651
+  }
 }

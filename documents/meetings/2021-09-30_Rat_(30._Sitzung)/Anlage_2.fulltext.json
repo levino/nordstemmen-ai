@@ -1,8 +1,18 @@
 {
   "file_hash": "6637906bfe1c60bc5ec6b349f3170407812235641915f5633184b9b00f7c1a29",
   "filename": "Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 2\nSitzung des Rates der Gemeinde Nordstemmen -\nMitteilungen der Bürgermeisterin am 30.09.2021\n\nErnennungen\n1. Yannick Castilho Marcao, Kronprinzenstraße 5, 31134 Hildesheim, mit Wirkung vom\n01.07.2021 zum „Gemeindeinspektor\" für den Fachbereich 3 - Planung, Bau und Umwelt\n\nVersetzungen\n1. Pascal Dißmer, Mauerstraße 10, 30982 Pattensen, zum 15.09.2021 zum Niedersächsi-\nschen Ministerium für Inneres und Sport"
+    }
+  ],
+  "full_text": "Anlage 2\nSitzung des Rates der Gemeinde Nordstemmen -\nMitteilungen der Bürgermeisterin am 30.09.2021\n\nErnennungen\n1. Yannick Castilho Marcao, Kronprinzenstraße 5, 31134 Hildesheim, mit Wirkung vom\n01.07.2021 zum „Gemeindeinspektor\" für den Fachbereich 3 - Planung, Bau und Umwelt\n\nVersetzungen\n1. Pascal Dißmer, Mauerstraße 10, 30982 Pattensen, zum 15.09.2021 zum Niedersächsi-\nschen Ministerium für Inneres und Sport",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:18.039Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 162
+  }
 }

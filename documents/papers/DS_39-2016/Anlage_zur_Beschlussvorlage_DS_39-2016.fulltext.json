@@ -7,5 +7,12 @@
       "text": "Anlage 1\nzur DS 39/2016"
     }
   ],
-  "full_text": "Anlage 1\nzur DS 39/2016"
+  "full_text": "Anlage 1\nzur DS 39/2016",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:59:07.521Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 21
+  }
 }

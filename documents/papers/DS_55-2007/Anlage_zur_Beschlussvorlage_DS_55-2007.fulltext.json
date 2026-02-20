@@ -1,8 +1,18 @@
 {
   "file_hash": "ccee604ba4315090054b461ea503917b90cc606a5b592d009b286257cf71faf0",
   "filename": "Anlage_zur_Beschlussvorlage_DS_55-2007.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": ""
+    }
+  ],
+  "full_text": "",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T16:28:17.669Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 5
+  }
 }

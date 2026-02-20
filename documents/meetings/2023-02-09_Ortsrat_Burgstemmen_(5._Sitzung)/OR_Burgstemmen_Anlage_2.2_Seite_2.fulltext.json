@@ -1,8 +1,18 @@
 {
   "file_hash": "e3a630648fea4a49f8983e833f49ebed4cc2d3982ff39d7663ce1977051b7267",
   "filename": "OR_Burgstemmen_Anlage_2.2_Seite_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 2,
+      "text": "Gemeinde Nordstemmen\n5821-20 - Hydraulische Modellierung\nOsterbach und Goldbach in Burgstemmen\nÜbersicht Abflusskapazität\nPlanung\npp\nAnlage E - Lageplan Abflusskapazität\n[Luftbildaufnahme, die den Verlauf von Osterbach und Goldbach in Burgstemmen mit farblich markierten Linien zeigt.]\n2"
+    }
+  ],
+  "full_text": "Gemeinde Nordstemmen\n5821-20 - Hydraulische Modellierung\nOsterbach und Goldbach in Burgstemmen\nÜbersicht Abflusskapazität\nPlanung\npp\nAnlage E - Lageplan Abflusskapazität\n[Luftbildaufnahme, die den Verlauf von Osterbach und Goldbach in Burgstemmen mit farblich markierten Linien zeigt.]\n2",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:04:55.434Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 90
+  }
 }

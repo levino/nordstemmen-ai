@@ -1,8 +1,18 @@
 {
   "file_hash": "6d1d97d19236140f663b6ff291a118ec73278310d98a0fe969ace0ba8077de53",
   "filename": "OR_Heyersum_Anlage_Anfrage_Loebel_-_Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 2\nLutz Loebel\nMitglied des Ortsrates Heyersum\n08.10.2025\nJonas Schefe\nOrtsbürgermeister Heyersum\nAnfrage\nGuten Tag Herr Ortsbürgermeister,\nfür die kommende Ortsratssitzung bitte ich um Beantwortung der folgenden Anfrage.\n1. Gibt es Pläne der Gemeindeverwaltung, Pflegearbeiten am Graben in der\nVerlängerung des Feldweges an der Straße Riethwinkel vornehmen zu lassen?\nWenn dies bejaht wird,\n2. Erscheinen diese notwendig und in welchem Umfang soll dies geschehen?\n3. Wer ist generell für Pflege und Unterhaltung des Grabens verantwortlich? Die\nanliegenden Eigentümer oder die Gemeinde Nordstemmen?\nBegründung:\nIm August dieses Jahres machte ein Mitarbeiter der Gemeindeverwaltung vor Ort Fotos und\nteilte dabei mit, dass damit der Bewuchs an der fraglichen Strecke bis zum Ende der\nOrtsbebauung dokumentiert werde und es unklar sei, wer hier überhaupt für\nPflegemaßnahmen zuständig sei.\nFreundliche Grüße\nLutz Loebel"
+    }
+  ],
+  "full_text": "Anlage 2\nLutz Loebel\nMitglied des Ortsrates Heyersum\n08.10.2025\nJonas Schefe\nOrtsbürgermeister Heyersum\nAnfrage\nGuten Tag Herr Ortsbürgermeister,\nfür die kommende Ortsratssitzung bitte ich um Beantwortung der folgenden Anfrage.\n1. Gibt es Pläne der Gemeindeverwaltung, Pflegearbeiten am Graben in der\nVerlängerung des Feldweges an der Straße Riethwinkel vornehmen zu lassen?\nWenn dies bejaht wird,\n2. Erscheinen diese notwendig und in welchem Umfang soll dies geschehen?\n3. Wer ist generell für Pflege und Unterhaltung des Grabens verantwortlich? Die\nanliegenden Eigentümer oder die Gemeinde Nordstemmen?\nBegründung:\nIm August dieses Jahres machte ein Mitarbeiter der Gemeindeverwaltung vor Ort Fotos und\nteilte dabei mit, dass damit der Bewuchs an der fraglichen Strecke bis zum Ende der\nOrtsbebauung dokumentiert werde und es unklar sei, wer hier überhaupt für\nPflegemaßnahmen zuständig sei.\nFreundliche Grüße\nLutz Loebel",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:06:56.153Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 256
+  }
 }

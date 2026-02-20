@@ -1,8 +1,18 @@
 {
   "file_hash": "0dc17b231b463a9a078c4a8400722add3f0108550ddd5e6ffcc7ee996c48f00c",
   "filename": "Anlage_2_zu_DS_59_2023_Ansichtsbild.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Technical drawing showing the foundation plan and dimensions for an outdoor service station, likely for bicycles.]\nFundamentplan 069.305\nwww.ziegler-metall.com\nSeite 1 von 1\nZIEGLER\n®\nMehr Wert für draußen.\nStand 02.2022"
+    }
+  ],
+  "full_text": "[Technical drawing showing the foundation plan and dimensions for an outdoor service station, likely for bicycles.]\nFundamentplan 069.305\nwww.ziegler-metall.com\nSeite 1 von 1\nZIEGLER\n®\nMehr Wert für draußen.\nStand 02.2022",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:12:45.417Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 77
+  }
 }

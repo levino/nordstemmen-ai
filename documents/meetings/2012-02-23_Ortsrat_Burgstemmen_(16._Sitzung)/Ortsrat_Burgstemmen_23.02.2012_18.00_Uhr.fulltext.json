@@ -4,12 +4,27 @@
   "pages": [
     {
       "page": 1,
-      "text": "ele\nAsh\nal\n\\> x\n\n"
+      "text": "Anlage 1\nOR-Protokoll\nCom 23.02.12\n\n① Feldstraße\n\n② Feldstraße"
+    },
+    {
+      "page": 2,
+      "text": "③ Feldstraße - An Hang\n\n④ Feldstraße - Am Hang"
     },
     {
       "page": 3,
-      "text": "Poke Fel ob dos (2 c\n\n"
+      "text": "7\n⑤ + ⑥ Lichtmast Ecke Feldstraße"
+    },
+    {
+      "page": 4,
+      "text": "7\n⑦ + ⑧ Schildesberg (Aufgang tur Poppenburg)\n↓"
     }
   ],
-  "full_text": "ele\nAsh\nal\n\\> x\n\n\n\nPoke Fel ob dos (2 c\n\n"
+  "full_text": "Anlage 1\nOR-Protokoll\nCom 23.02.12\n\n① Feldstraße\n\n② Feldstraße\n\n③ Feldstraße - An Hang\n\n④ Feldstraße - Am Hang\n\n7\n⑤ + ⑥ Lichtmast Ecke Feldstraße\n\n7\n⑦ + ⑧ Schildesberg (Aufgang tur Poppenburg)\n↓",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:44:50.007Z",
+    "total_input_tokens": 1376,
+    "total_output_tokens": 99
+  }
 }

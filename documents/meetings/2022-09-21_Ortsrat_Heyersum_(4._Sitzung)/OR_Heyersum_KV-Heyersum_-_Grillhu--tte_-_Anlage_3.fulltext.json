@@ -1,8 +1,22 @@
 {
   "file_hash": "af9e586e79fe3733a975a301eb08cfc597d27bbf5b1335fd5a008075c944c7d7",
   "filename": "OR_Heyersum_KV-Heyersum_-_Grillhu--tte_-_Anlage_3.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Katasterplan mit eingezeichnetem Projektbereich für einen Boulebahnpavillon, eine Boulebahn und eine 100m Laufbahn neben einem Kindergarten und der Heinz-Fielka-Halle.]\nOR Heyersum\nAnlage 3\nTOP 6\nProjekt Boulebahnpavillon Heyersum\nMaßstab: 1:1.000\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n© 2015 LGLN\nE. Wälter 06.06.2016 u. 11.08.2022"
+    },
+    {
+      "page": 2,
+      "text": "[Skizze und technische Zeichnungen (Vorder- und Seitenansicht) eines Pavillons für eine Boulebahn.]\nProjekt Boulebahnpavillon Heyersum\nSportplatz / Auf der Leege\nBoulebahnpavillon:\n• Grundfläche 10 m²\n• Holzständerbauweise\n■ Seitenwände und Rückwand geschlossen\nPavillon an der Boulebahi\nMaßstab\n1:50\nMaße in\nMeter\ngezeichnet:\nElmar Wälter\n11 08 2029"
+    }
+  ],
+  "full_text": "[Katasterplan mit eingezeichnetem Projektbereich für einen Boulebahnpavillon, eine Boulebahn und eine 100m Laufbahn neben einem Kindergarten und der Heinz-Fielka-Halle.]\nOR Heyersum\nAnlage 3\nTOP 6\nProjekt Boulebahnpavillon Heyersum\nMaßstab: 1:1.000\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n© 2015 LGLN\nE. Wälter 06.06.2016 u. 11.08.2022\n\n[Skizze und technische Zeichnungen (Vorder- und Seitenansicht) eines Pavillons für eine Boulebahn.]\nProjekt Boulebahnpavillon Heyersum\nSportplatz / Auf der Leege\nBoulebahnpavillon:\n• Grundfläche 10 m²\n• Holzständerbauweise\n■ Seitenwände und Rückwand geschlossen\nPavillon an der Boulebahi\nMaßstab\n1:50\nMaße in\nMeter\ngezeichnet:\nElmar Wälter\n11 08 2029",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:04:39.952Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 274
+  }
 }

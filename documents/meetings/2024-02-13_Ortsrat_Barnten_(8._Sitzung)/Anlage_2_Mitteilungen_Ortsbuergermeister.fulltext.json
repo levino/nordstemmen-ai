@@ -1,8 +1,22 @@
 {
   "file_hash": "5abf81f87f5dc0a919632ab6b29ffb65ca555b1eacd700a454ca817cf5f83081",
   "filename": "Anlage_2_Mitteilungen_Ortsbuergermeister.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 2\nProtokoll OR Banten\n13.02.2024\n\nTOP 14: Bericht bzw. Mitteilung des Ortsbürgermeisters\n\nIch möchte bevor ich zu meinen Mitteilungen komme ein\npaar persönliche Dinge ansprechen, welche mich\numtreiben. Mit Sorge betrachte ich das erstarken der\nrechtsextremistischen Partei. Selbst in Barnten finden sich\nimmer wieder Hinweise durch Verschmutzung von\nBushaltestellen. Dieses mach mich sehr betroffen und\nnachdenklich. Wenn Bürger*innen mit der Arbeit des\nOrtsrats nicht zufrieden sein sollten, ist es der falsche Weg\neine rechtsextremistische Partei zu wählen. Der richtige\nWeg wäre mit uns das Gespräch zu suchen und dazu laden\nwir Sie als Ortsrat herzlich ein.\n\nIch komme nun zu meiner Mitteilungen:\n• Das Jubiläumsjahr ist mit einer gut besuchten\nSilvesterfeier gestartet,\n\n• Das nächste Event ist am 24.02.2024 die\nTravestieshow welche bereits ausverkauft ist,\n\n• Der Umwelttag findet am 13.04.2024 statt. Der\nOrtsrat würde sich über eine rege Beteiligung freuen.\n\n• Am 01.05.2024 findet traditionell unser Familientag\nmit Begrüßung der Neubürger*inn statt.\n\n• Es werden Verkehrsstatistikgeräte an folgenden\nStandorten aufgestellt:\nFebruar-März: Zum Cordesholz und vor dem\nKindergarten"
+    },
+    {
+      "page": 2,
+      "text": "• Dem OR liegt eine Baumfällliste vor, und eine\nNeubepflanzungsliste vor.\n\n• Hinweis auf die bedarfsgerechte Mobilität\n\n• Der Gottesdienst zum Volktrauertag um 09:00 Uhr\nentfällt ab diesem Jahr. Die Gedenkveranstaltung\nfindet wie gewohnt um 10:00 Uhr am Ehrenmahl\nstatt."
+    }
+  ],
+  "full_text": "Anlage 2\nProtokoll OR Banten\n13.02.2024\n\nTOP 14: Bericht bzw. Mitteilung des Ortsbürgermeisters\n\nIch möchte bevor ich zu meinen Mitteilungen komme ein\npaar persönliche Dinge ansprechen, welche mich\numtreiben. Mit Sorge betrachte ich das erstarken der\nrechtsextremistischen Partei. Selbst in Barnten finden sich\nimmer wieder Hinweise durch Verschmutzung von\nBushaltestellen. Dieses mach mich sehr betroffen und\nnachdenklich. Wenn Bürger*innen mit der Arbeit des\nOrtsrats nicht zufrieden sein sollten, ist es der falsche Weg\neine rechtsextremistische Partei zu wählen. Der richtige\nWeg wäre mit uns das Gespräch zu suchen und dazu laden\nwir Sie als Ortsrat herzlich ein.\n\nIch komme nun zu meiner Mitteilungen:\n• Das Jubiläumsjahr ist mit einer gut besuchten\nSilvesterfeier gestartet,\n\n• Das nächste Event ist am 24.02.2024 die\nTravestieshow welche bereits ausverkauft ist,\n\n• Der Umwelttag findet am 13.04.2024 statt. Der\nOrtsrat würde sich über eine rege Beteiligung freuen.\n\n• Am 01.05.2024 findet traditionell unser Familientag\nmit Begrüßung der Neubürger*inn statt.\n\n• Es werden Verkehrsstatistikgeräte an folgenden\nStandorten aufgestellt:\nFebruar-März: Zum Cordesholz und vor dem\nKindergarten\n\n• Dem OR liegt eine Baumfällliste vor, und eine\nNeubepflanzungsliste vor.\n\n• Hinweis auf die bedarfsgerechte Mobilität\n\n• Der Gottesdienst zum Volktrauertag um 09:00 Uhr\nentfällt ab diesem Jahr. Die Gedenkveranstaltung\nfindet wie gewohnt um 10:00 Uhr am Ehrenmahl\nstatt.",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:05:36.966Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 442
+  }
 }

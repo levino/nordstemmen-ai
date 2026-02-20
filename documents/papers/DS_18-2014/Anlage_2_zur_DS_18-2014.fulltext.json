@@ -1,8 +1,22 @@
 {
   "file_hash": "14b8e25f16d098fb7a5de70f01468e24e4e2fe2d1ea3249a91089686122c340d",
   "filename": "Anlage_2_zur_DS_18-2014.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Katasterplan, der Grundstücksgrenzen, Gebäudeumrisse, Straßen und Parzellen in einem Wohngebiet zeigt]\nAnlage 2 zu\nDS 18/2014\nE 553983 m\nN 5779492 m\nGent GmbH\nBauunternehmen\nBachstraße 1.38704 Liebenburg\nTel.: 0 53 46/9 11 02 Fax: 944.00\n© 2013 LGLN\nN 5779231 m\n1:1.000\nE 553819 m\nHintergrund: Auszug aus den Geobasisdaten der LGLN\nPeter Bauermeister\nGronauer Straße 41\n31171 NORDSTEMME\nTel. 0 50 69/7667"
+    },
+    {
+      "page": 2,
+      "text": "[Schnittzeichnung eines mehrstöckigen Gebäudes]\nPeter Bauermeister\nGronauer Straße 41\n31171 NORDSTEMMEN\nTel. 0 50 69/7667"
+    }
+  ],
+  "full_text": "[Katasterplan, der Grundstücksgrenzen, Gebäudeumrisse, Straßen und Parzellen in einem Wohngebiet zeigt]\nAnlage 2 zu\nDS 18/2014\nE 553983 m\nN 5779492 m\nGent GmbH\nBauunternehmen\nBachstraße 1.38704 Liebenburg\nTel.: 0 53 46/9 11 02 Fax: 944.00\n© 2013 LGLN\nN 5779231 m\n1:1.000\nE 553819 m\nHintergrund: Auszug aus den Geobasisdaten der LGLN\nPeter Bauermeister\nGronauer Straße 41\n31171 NORDSTEMME\nTel. 0 50 69/7667\n\n[Schnittzeichnung eines mehrstöckigen Gebäudes]\nPeter Bauermeister\nGronauer Straße 41\n31171 NORDSTEMMEN\nTel. 0 50 69/7667",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:39:35.762Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 267
+  }
 }

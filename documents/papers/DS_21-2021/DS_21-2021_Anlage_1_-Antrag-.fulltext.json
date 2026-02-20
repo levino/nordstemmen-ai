@@ -1,8 +1,22 @@
 {
   "file_hash": "07e6746862aca3e40d6f6a2392a63cfbf670d266b7f4973e8c512c866ed42e08",
   "filename": "DS_21-2021_Anlage_1_-Antrag-.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "6.2.2020\nAnlage 1\nzu DS 21/2021\nAn die\nGemeinde Nordstemmen\nGemeinde Nordstemmen\n1. E Best. ✓\n07. Feb. 2020\n2.0 Wiber zur\n34 Stellgn.\nAls Eigentümer des Grundstückes Bohhoeferstraße 8 Nordstemmen\nbeantrage ich eine Bebauungsplanänderung, die es ermöglicht eine\nzusätzliche Wohnbebauung zu schaffen.\n\nDie Kosten dafür übernehme ich.\n\n1953 wurden auf dem 1531 m² Grundstück Gemüse und Kartoffeln\nangebaut zur eigenen Versorgung.\n\nIn Zeiten des Wohnungsmangels möchte ich die 10 Meter und ca.\n7,20 Meter Grenzabstände der Bebauung deutlich abgesenkt wissen.\n\nDerzeit steht das Haus mit 180 m² auf der 1531 m² Fläche.\n\nCa. 230 m² ebenerdiger Wohnraum soll geschaffen werden.\n\n10 Pkw Stellplätze sind derzeit bereits vorhanden ein Teil des\nGrundstückes bleibt Gartenland.\n\nDie direkt angrenzenden Eigentümer sowie der Ortsrat erhalten dies\nals Durchschrift.\n\nMit full. Gruß"
+    },
+    {
+      "page": 2,
+      "text": "[Skizze eines Grundstücks mit Gebäuden, geplanten Stellplätzen und Maßangaben.]"
+    }
+  ],
+  "full_text": "6.2.2020\nAnlage 1\nzu DS 21/2021\nAn die\nGemeinde Nordstemmen\nGemeinde Nordstemmen\n1. E Best. ✓\n07. Feb. 2020\n2.0 Wiber zur\n34 Stellgn.\nAls Eigentümer des Grundstückes Bohhoeferstraße 8 Nordstemmen\nbeantrage ich eine Bebauungsplanänderung, die es ermöglicht eine\nzusätzliche Wohnbebauung zu schaffen.\n\nDie Kosten dafür übernehme ich.\n\n1953 wurden auf dem 1531 m² Grundstück Gemüse und Kartoffeln\nangebaut zur eigenen Versorgung.\n\nIn Zeiten des Wohnungsmangels möchte ich die 10 Meter und ca.\n7,20 Meter Grenzabstände der Bebauung deutlich abgesenkt wissen.\n\nDerzeit steht das Haus mit 180 m² auf der 1531 m² Fläche.\n\nCa. 230 m² ebenerdiger Wohnraum soll geschaffen werden.\n\n10 Pkw Stellplätze sind derzeit bereits vorhanden ein Teil des\nGrundstückes bleibt Gartenland.\n\nDie direkt angrenzenden Eigentümer sowie der Ortsrat erhalten dies\nals Durchschrift.\n\nMit full. Gruß\n\n[Skizze eines Grundstücks mit Gebäuden, geplanten Stellplätzen und Maßangaben.]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:47:33.685Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 312
+  }
 }

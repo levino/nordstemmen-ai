@@ -1,8 +1,18 @@
 {
   "file_hash": "4b340288d6735bdbc13ef663ad783d785265441bf389245dd2236699d1ebf81d",
   "filename": "Anlage_Plan.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "000016\n00'0001\n[Lageplan einer Teilsanierung einer Ortsumgehung mit eingezeichneter Straßenführung, angrenzenden Grundstücken, Gebäuden und einer Eisenbahnlinie]\n\nAnlage\n\nGemeinde Nordstemmen\nTeilsanierung Ortsumgehung\n\"An der Zuckerfabrik\" in der OS Nordstemmen\n\nAnlage:\nLageplan\nStraßenbau\n\nDatum Zeichen\nbearbeitet 20.05.2020 KI\ngezeichnet\nnach-/geprüft 20.05.2020\n\nBlatt-Nr.: 2\nMaßstab 1:2000\n\nIngenieurbüro Rehe\nBirnbaumskamp 1c\n31139 Hildesheim\nTel.: 05121/9236-\nFax: 05121/92 34-36\nwww.ib-rehe.de\nrehe\n\nR:\\CARD 2004 \\Lp-Str 2000.PL1\n16.04.21 kl"
+    }
+  ],
+  "full_text": "000016\n00'0001\n[Lageplan einer Teilsanierung einer Ortsumgehung mit eingezeichneter Straßenführung, angrenzenden Grundstücken, Gebäuden und einer Eisenbahnlinie]\n\nAnlage\n\nGemeinde Nordstemmen\nTeilsanierung Ortsumgehung\n\"An der Zuckerfabrik\" in der OS Nordstemmen\n\nAnlage:\nLageplan\nStraßenbau\n\nDatum Zeichen\nbearbeitet 20.05.2020 KI\ngezeichnet\nnach-/geprüft 20.05.2020\n\nBlatt-Nr.: 2\nMaßstab 1:2000\n\nIngenieurbüro Rehe\nBirnbaumskamp 1c\n31139 Hildesheim\nTel.: 05121/9236-\nFax: 05121/92 34-36\nwww.ib-rehe.de\nrehe\n\nR:\\CARD 2004 \\Lp-Str 2000.PL1\n16.04.21 kl",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:54:24.398Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 260
+  }
 }

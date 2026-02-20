@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage 1\nDS 19/2020"
+      "text": "[Plan eines Straßenabschnitts mit bestehenden und geplanten Infrastrukturelementen, einschließlich Wartehallen, Fahrradstellplätzen, Geh- und Radwegen sowie einem Querprofil.]\nAnlage 1\nDS 19/2020"
     }
   ],
-  "full_text": "Anlage 1\nDS 19/2020"
+  "full_text": "[Plan eines Straßenabschnitts mit bestehenden und geplanten Infrastrukturelementen, einschließlich Wartehallen, Fahrradstellplätzen, Geh- und Radwegen sowie einem Querprofil.]\nAnlage 1\nDS 19/2020",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:44:06.879Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 61
+  }
 }

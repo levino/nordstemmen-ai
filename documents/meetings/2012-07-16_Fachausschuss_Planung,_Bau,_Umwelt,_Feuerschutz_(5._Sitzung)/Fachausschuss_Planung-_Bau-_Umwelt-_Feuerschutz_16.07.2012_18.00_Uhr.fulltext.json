@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "G fo MAF\ni\n\n12\nApe Stef |\n\n= Y\nIEZENNG\nLEP =)\n\n| \\\nPN eo\n\n‘Le ©2012 @\nNee\nBR Tle IR - Nee Fi is WLGLN\n\n1:30000 | \\\n"
+      "text": "6/10 MI\n[Topografische Karte, die ein Gebiet mit Höhenlinien, Straßen, Ortschaften und markierten Gebieten zeigt.]\nAnlage zum Protokoll\nFA Planung Bau Umwelt Feuerschutz\nvom 16.07.2012\n1:30000\n© 2012\nLGLN"
     }
   ],
-  "full_text": "G fo MAF\ni\n\n12\nApe Stef |\n\n= Y\nIEZENNG\nLEP =)\n\n| \\\nPN eo\n\n‘Le ©2012 @\nNee\nBR Tle IR - Nee Fi is WLGLN\n\n1:30000 | \\\n"
+  "full_text": "6/10 MI\n[Topografische Karte, die ein Gebiet mit Höhenlinien, Straßen, Ortschaften und markierten Gebieten zeigt.]\nAnlage zum Protokoll\nFA Planung Bau Umwelt Feuerschutz\nvom 16.07.2012\n1:30000\n© 2012\nLGLN",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:45:36.215Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 82
+  }
 }

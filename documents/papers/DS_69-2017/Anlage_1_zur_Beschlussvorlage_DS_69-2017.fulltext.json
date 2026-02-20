@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage 1\nzur DS 69/2017\nSchiedspersonen für die Schiedsamtsbezirke der Gemeinde Nordstemmen\nGroß Escherde - Neuwahl -\nHerr Jürgen Kubitzke, Stöckumer Straße 14 A, 31171 Nordstemmen\nmit der gleichzeitigen Vertretung für Klein Escherde\nMahlerten - Neuwahl -\nFrau Irmhild Tummer, Breslauer Straße 20, 31171 Nordstemmen\nmit der gleichzeitigen Vertretung für Heyersum"
+      "text": "Anlage 1\nzur DS 69/2017\n\n## Schiedspersonen für die Schiedsamtsbezirke der Gemeinde Nordstemmen\n\n### Groß Escherde - Neuwahl -\n\nHerr Jürgen Kubitzke, Stöckumer Straße 14 A, 31171 Nordstemmen\nmit der gleichzeitigen Vertretung für Klein Escherde\n\n### Mahlerten - Neuwahl -\n\nFrau Irmhild Tummer, Breslauer Straße 20, 31171 Nordstemmen\nmit der gleichzeitigen Vertretung für Heyersum"
     }
   ],
-  "full_text": "Anlage 1\nzur DS 69/2017\nSchiedspersonen für die Schiedsamtsbezirke der Gemeinde Nordstemmen\nGroß Escherde - Neuwahl -\nHerr Jürgen Kubitzke, Stöckumer Straße 14 A, 31171 Nordstemmen\nmit der gleichzeitigen Vertretung für Klein Escherde\nMahlerten - Neuwahl -\nFrau Irmhild Tummer, Breslauer Straße 20, 31171 Nordstemmen\nmit der gleichzeitigen Vertretung für Heyersum"
+  "full_text": "Anlage 1\nzur DS 69/2017\n\n## Schiedspersonen für die Schiedsamtsbezirke der Gemeinde Nordstemmen\n\n### Groß Escherde - Neuwahl -\n\nHerr Jürgen Kubitzke, Stöckumer Straße 14 A, 31171 Nordstemmen\nmit der gleichzeitigen Vertretung für Klein Escherde\n\n### Mahlerten - Neuwahl -\n\nFrau Irmhild Tummer, Breslauer Straße 20, 31171 Nordstemmen\nmit der gleichzeitigen Vertretung für Heyersum",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:17:26.051Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 140
+  }
 }

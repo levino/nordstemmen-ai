@@ -1,8 +1,18 @@
 {
   "file_hash": "65f824248b5e8d432c31049e0619347137b3e7ad38dbc1d84a1d25b5d5091f46",
   "filename": "OR_Burgstemmen_Anlage_TOP_8.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "OR Burgstemme\nAnlage\nzu TOP 8\nPregayosEM\nFRUCHTHR\nNORTHEIM"
+    }
+  ],
+  "full_text": "OR Burgstemme\nAnlage\nzu TOP 8\nPregayosEM\nFRUCHTHR\nNORTHEIM",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:00:50.831Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 30
+  }
 }

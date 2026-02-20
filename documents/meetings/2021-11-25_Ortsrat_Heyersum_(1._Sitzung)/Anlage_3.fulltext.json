@@ -1,8 +1,18 @@
 {
   "file_hash": "7c7ea0abb3f2d9e5dcce57c0180772b281e20e9a9432310577223ade225e13b2",
   "filename": "Anlage_3.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "OR Heyersum 25.11.2021\nAnlage 3\nMitteilung Ortsbürgermeister Heyersum Ortsrat Sitzung 25.11.2021\nMitteilung von mir vorgetragen, aber größtenteils noch von Heike\n*   Verschiedene Paatenbeete wurden in Absprache mit den Anwohnern/Paten neugestaltet. ✔\n*   Das Blumenbeet Gronauerstraße/Scharfe Worth ist neugestaltet (Lavendel) und ein Baum ist dort gepflanzt worden Dank an den Bauhof ✔\n*   Der Salzbach wurde in der Gronauerstraße zurück geschnittenv\n*   Am Spielplatz Am Salzbach ist ein trockener Baum entfernt worden, eine neu Pflanzung als Ersatz ist in Planung✓\n*   Es wurde begonnen die Alte Kirchturmspitze aufzubauen. Das Gerüst und das Dach stehen, die Spitze fehlt noch. Sehr gut geworden ✓\n*   Das Ortswappen am Ortsausgang Heyersum/Nordstemmen wird demnächst ausgetauscht v\n*   Vor diesem Wappen werden verschiedene Frühlingsblumen in Form einer 1000 gepflanzt. Danke Lutz ✔\n*   Im September hat Heyersum an dem Wettbewerb „Unser Dorf hat Zukunft\" teilgenommen und 300€ sowie einen Apfelbaum gewonnen. Das Geld ist in die Kasse des Festausschusses geflossen. Der Baum ist auf dem Platz vor der Kirche neben dem Baum des Europakomitees gepflanzt worden ✓\n*   Htp ist mit dem Glasfaserausbau in Heyersum weit fortgeschritten, die ersten ✓ Häuser sind angeschlossen und haben schnelleres Internet ✓\n*   Über den Winter, jetzt sollte die Pumpe aus dem Dorfteich entfernt werden um Frostschäden zu vermeiden\n*   Für 2022 wird es wieder einen Veranstaltungskalender geben, die Vereine haben ihre Veranstaltungen gemeldet und ein Wichtiger Bestandteil sind die verschiedensten Veranstaltungen zum 1000 Jährigem Dorfjubiläum ✓\n*   Wichtig ist die Müllsammelaktion am 26.03.2022 ver Ferien [unleserlich]\n*   Aufgrund der steigenden Zahlen und des damit verbundenden Risikos haben wir uns entschieden die Senioren Weihnachtsfeier wieder abzusagen. Die angemeldeten Teilnehmer haben gestern abend ein kleines Präsent erhalten ✓\numrunding Dorffeichnee v"
+    }
+  ],
+  "full_text": "OR Heyersum 25.11.2021\nAnlage 3\nMitteilung Ortsbürgermeister Heyersum Ortsrat Sitzung 25.11.2021\nMitteilung von mir vorgetragen, aber größtenteils noch von Heike\n*   Verschiedene Paatenbeete wurden in Absprache mit den Anwohnern/Paten neugestaltet. ✔\n*   Das Blumenbeet Gronauerstraße/Scharfe Worth ist neugestaltet (Lavendel) und ein Baum ist dort gepflanzt worden Dank an den Bauhof ✔\n*   Der Salzbach wurde in der Gronauerstraße zurück geschnittenv\n*   Am Spielplatz Am Salzbach ist ein trockener Baum entfernt worden, eine neu Pflanzung als Ersatz ist in Planung✓\n*   Es wurde begonnen die Alte Kirchturmspitze aufzubauen. Das Gerüst und das Dach stehen, die Spitze fehlt noch. Sehr gut geworden ✓\n*   Das Ortswappen am Ortsausgang Heyersum/Nordstemmen wird demnächst ausgetauscht v\n*   Vor diesem Wappen werden verschiedene Frühlingsblumen in Form einer 1000 gepflanzt. Danke Lutz ✔\n*   Im September hat Heyersum an dem Wettbewerb „Unser Dorf hat Zukunft\" teilgenommen und 300€ sowie einen Apfelbaum gewonnen. Das Geld ist in die Kasse des Festausschusses geflossen. Der Baum ist auf dem Platz vor der Kirche neben dem Baum des Europakomitees gepflanzt worden ✓\n*   Htp ist mit dem Glasfaserausbau in Heyersum weit fortgeschritten, die ersten ✓ Häuser sind angeschlossen und haben schnelleres Internet ✓\n*   Über den Winter, jetzt sollte die Pumpe aus dem Dorfteich entfernt werden um Frostschäden zu vermeiden\n*   Für 2022 wird es wieder einen Veranstaltungskalender geben, die Vereine haben ihre Veranstaltungen gemeldet und ein Wichtiger Bestandteil sind die verschiedensten Veranstaltungen zum 1000 Jährigem Dorfjubiläum ✓\n*   Wichtig ist die Müllsammelaktion am 26.03.2022 ver Ferien [unleserlich]\n*   Aufgrund der steigenden Zahlen und des damit verbundenden Risikos haben wir uns entschieden die Senioren Weihnachtsfeier wieder abzusagen. Die angemeldeten Teilnehmer haben gestern abend ein kleines Präsent erhalten ✓\numrunding Dorffeichnee v",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:38.013Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 549
+  }
 }

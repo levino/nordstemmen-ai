@@ -1,8 +1,18 @@
 {
   "file_hash": "f9a276142b14226d7eacb7d661867c1fbaa7139b44b1ed80f9317342dc911356",
   "filename": "Anlage_1_zu_TOP_8.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Alaze 1\nOR Baunte-\nvom\n23.02.2017\nOrtsrat Barnten\n\n26. Januar 2017\n\nVorschlag: Vergabe Ortsratsmittel für das Jahr 2017\n\n| Item               | Betrag    |\n|:-------------------|----------:|\n| Haushaltsrest 2016 | € 9,59    |\n| Ortsratsmittel 2017| € 1887,00 |\n|                    | =€ 1896,59|\n\nVerfügungsmittel Ortsbürgermeister für Präsente\n(22 x Sträuße, 4 x Präsentkorb)\n| Item | Betrag    |\n|:-----|----------:|\n|      | € 364,00  |\n|      | =€ 1532,59|\n\n| Item                                                          | Betrag    |\n|:--------------------------------------------------------------|----------:|\n| Heimatstube                                                   | € 120,00  |\n| Kranz für Volkstrauertag                                      | € 80,00   |\n| Zuschuss, für Pokale, beim Schießen um die Bürgerkönige (XX)  | € 50,00   |\n| Ortsheimatpfleger                                             | € 150,00  |\n| Adventfeier OR/AWO/DRK/SoVD/Kirchengemeinde                   | € 100,00  |\n| Chorgemeinschaft singen am Volkstrauertag (XX)                | € 40,00   |\n| FFW Kapelle Rössing für Volkstrauertag (XX)                   | € 100.00  |\n| Umwelttag                                                     | € 100,00  |\n| 30 Jahre Grundschule Rössing/Barnten, 50 Jahre Schule (XX)    | € 100,00  |\n| 50 Jahre Schützengesellschaft (XX)                            | € 50,00   |\n| Ersatz für Schaukasten im Cordesholz                          | € 500,00  |\n\nAusgaben gesamt:\n| Item | Betrag     |\n|:-----|-----------:|\n|      | =€ 1390,00 |\n\nHaushaltsrest\n| Item | Betrag    |\n|:-----|----------:|\n|      | =€ 142,59 |\n\n(XX) = soll persönlich übergeben werden"
+    }
+  ],
+  "full_text": "Alaze 1\nOR Baunte-\nvom\n23.02.2017\nOrtsrat Barnten\n\n26. Januar 2017\n\nVorschlag: Vergabe Ortsratsmittel für das Jahr 2017\n\n| Item               | Betrag    |\n|:-------------------|----------:|\n| Haushaltsrest 2016 | € 9,59    |\n| Ortsratsmittel 2017| € 1887,00 |\n|                    | =€ 1896,59|\n\nVerfügungsmittel Ortsbürgermeister für Präsente\n(22 x Sträuße, 4 x Präsentkorb)\n| Item | Betrag    |\n|:-----|----------:|\n|      | € 364,00  |\n|      | =€ 1532,59|\n\n| Item                                                          | Betrag    |\n|:--------------------------------------------------------------|----------:|\n| Heimatstube                                                   | € 120,00  |\n| Kranz für Volkstrauertag                                      | € 80,00   |\n| Zuschuss, für Pokale, beim Schießen um die Bürgerkönige (XX)  | € 50,00   |\n| Ortsheimatpfleger                                             | € 150,00  |\n| Adventfeier OR/AWO/DRK/SoVD/Kirchengemeinde                   | € 100,00  |\n| Chorgemeinschaft singen am Volkstrauertag (XX)                | € 40,00   |\n| FFW Kapelle Rössing für Volkstrauertag (XX)                   | € 100.00  |\n| Umwelttag                                                     | € 100,00  |\n| 30 Jahre Grundschule Rössing/Barnten, 50 Jahre Schule (XX)    | € 100,00  |\n| 50 Jahre Schützengesellschaft (XX)                            | € 50,00   |\n| Ersatz für Schaukasten im Cordesholz                          | € 500,00  |\n\nAusgaben gesamt:\n| Item | Betrag     |\n|:-----|-----------:|\n|      | =€ 1390,00 |\n\nHaushaltsrest\n| Item | Betrag    |\n|:-----|----------:|\n|      | =€ 142,59 |\n\n(XX) = soll persönlich übergeben werden",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:00:12.732Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 586
+  }
 }

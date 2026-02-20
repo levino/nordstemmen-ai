@@ -61,7 +61,7 @@ Die semantische KI-Suche findet relevante Informationen auch wenn die exakten Su
 Das Projekt besteht aus vier Komponenten:
 
 1. **OParl Scraper** - Lädt PDF-Dokumente vom Ratsinformationssystem herunter
-2. **Embedding Generator** - Verarbeitet PDFs und erstellt Vektorembeddings mit Jina AI v3 (lokal oder via API)
+2. **Document Pipeline** - Verarbeitet PDFs komplett: Gemini OCR → Jina Embeddings → Qdrant → Backblaze B2
 3. **MCP Server** - Cloudflare Pages Function für semantische Suche via Claude (Web & Desktop)
 4. **CI Pipeline** - GitHub Actions Cronjob synchronisiert stündlich neue Dokumente
 
@@ -73,7 +73,7 @@ graph TB
     MCP[MCP Server<br/>Cloudflare Pages]
     Qdrant[(Qdrant<br/>Vector Store<br/>Cloud VPS)]
     B2[(Backblaze B2<br/>PDF + Text Storage)]
-    Embeddings[Embedding Generator<br/>Local or CI]
+    Embeddings[Document Pipeline<br/>TypeScript]
     Docs[Documents<br/>PDF Files]
     Scraper[OParl Scraper<br/>TypeScript]
     Jina[Jina AI API]
@@ -127,13 +127,19 @@ nordstemmen-ai/
 │   │   ├── client.ts      # HTTP Client
 │   │   └── schema.ts      # OParl Type Definitions
 │   └── package.json
-├── embeddings/            # Embedding Generator (Python)
+├── pipeline/              # Document Pipeline (TypeScript)
+│   ├── src/
+│   │   ├── index.ts       # CLI Entry Point
+│   │   ├── pipeline.ts    # Orchestrator
+│   │   ├── ocr.ts         # Gemini OCR
+│   │   ├── embeddings.ts  # Jina Embeddings
+│   │   ├── qdrant.ts      # Qdrant Upload
+│   │   └── b2.ts          # B2 Upload
+│   └── package.json
+├── embeddings/            # Embedding Generator (Python, deprecated)
 │   ├── generate_embeddings.py  # PDF → Embeddings (lokal oder API)
 │   ├── upload_to_qdrant.py     # Embeddings → Qdrant
-│   ├── requirements.txt        # Dependencies (mit PyTorch, lokal)
-│   └── requirements-ci.txt     # Dependencies (ohne PyTorch, CI)
-├── scripts/
-│   └── upload_to_b2.py    # PDFs + Volltext → Backblaze B2
+│   └── requirements.txt
 ├── mcp-server/            # MCP Server (Cloudflare Pages)
 │   ├── functions/
 │   │   ├── mcp.js         # MCP Protocol Handler + Tools
@@ -349,10 +355,8 @@ Die Anleitung zur Einbindung in Claude findest du ganz oben unter [🚀 Jetzt so
 Die Daten werden **stündlich automatisch** via GitHub Actions aktualisiert:
 
 1. **Scraper** lädt neue Dokumente von der OParl-API
-2. **Embedding Generator** verarbeitet neue PDFs (via Jina API)
-3. **B2-Upload** lädt PDFs und Volltext nach Backblaze B2
-4. **Qdrant-Upload** lädt neue Embeddings hoch
-5. **Git Commit** speichert neue Dateien (LFS für PDFs/Embeddings)
+2. **Document Pipeline** verarbeitet neue PDFs komplett (Gemini OCR → Jina Embeddings → Qdrant → B2)
+3. **Git Commit** speichert neue Dateien (LFS für PDFs/Embeddings)
 
 Der Workflow nutzt `GIT_LFS_SKIP_SMUDGE=1` beim Checkout, sodass nur LFS-Pointer geladen werden. Neue Dateien vom Scraper sind echte Dateien. So bleibt der CI-Job schnell (~2-3 Min wenn keine neuen Daten).
 

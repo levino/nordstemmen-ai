@@ -1,8 +1,18 @@
 {
   "file_hash": "fcccb8c788ead31902cd2a3d4692f6832720724815f47f47ed8efe6d9538a85a",
   "filename": "Anlage_3.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 3\nDißmer, Pascal\n\nVon: Oliver Riechelmann <oliver-riechelmann@web.de>\nGesendet: Dienstag, 31. Januar 2017 07:34\nAn: Dißmer, Pascal\nBetreff: Fwd: Entwurf Tagesordnung Ortsrat Adensen\n\nGuten Morgen Herr Dißmer,\n\neine Anfrage haben wir noch :\nUnd zwar wie es jetzt mit dem Flächennutzungsplan bei uns weiter geht.\na) Wird der jetzt noch mal ausgelegt und gibt es eine zweite Anhörung?\nb) Werden die Windräder, für die in Adensen schon ein Bauantrag vorliegt, dort schon eingezeichnet?\nc) Wurde der Bauantrag ev. schon genehmigt?\n\nWenn das noch eingefügt werden könnte wäre das super.\n\nGruß\n\nOliver Riechelmann\nGesendet mit meinem iPhone\n\n1"
+    }
+  ],
+  "full_text": "Anlage 3\nDißmer, Pascal\n\nVon: Oliver Riechelmann <oliver-riechelmann@web.de>\nGesendet: Dienstag, 31. Januar 2017 07:34\nAn: Dißmer, Pascal\nBetreff: Fwd: Entwurf Tagesordnung Ortsrat Adensen\n\nGuten Morgen Herr Dißmer,\n\neine Anfrage haben wir noch :\nUnd zwar wie es jetzt mit dem Flächennutzungsplan bei uns weiter geht.\na) Wird der jetzt noch mal ausgelegt und gibt es eine zweite Anhörung?\nb) Werden die Windräder, für die in Adensen schon ein Bauantrag vorliegt, dort schon eingezeichnet?\nc) Wurde der Bauantrag ev. schon genehmigt?\n\nWenn das noch eingefügt werden könnte wäre das super.\n\nGruß\n\nOliver Riechelmann\nGesendet mit meinem iPhone\n\n1",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:59:26.525Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 205
+  }
 }

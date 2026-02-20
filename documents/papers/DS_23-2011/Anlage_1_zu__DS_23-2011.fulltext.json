@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage 1"
+      "text": "[Eine topografische Karte zeigt den Geltungsbereich der 7. Änderung des Bebauungsplans Nr. 0122, ein markiertes Gebiet im Bereich der Zuckerfabrik in Nordstemmen. Die Karte zeigt auch die umgebenden Wohngebiete, Straßen, Felder und Gewässer.]\nAnlage 1\nGeltungsbereich der 7. Änderung\ndes Bebauungsplans Nr. 0122\nNordwiese\nKartengrundlage: Auszug aus der AK 5;\nQuelle: Geobasisdaten des Landes Niedersachsen\nMaßstab: 0m 100m 200m 300m"
     }
   ],
-  "full_text": "Anlage 1"
+  "full_text": "[Eine topografische Karte zeigt den Geltungsbereich der 7. Änderung des Bebauungsplans Nr. 0122, ein markiertes Gebiet im Bereich der Zuckerfabrik in Nordstemmen. Die Karte zeigt auch die umgebenden Wohngebiete, Straßen, Felder und Gewässer.]\nAnlage 1\nGeltungsbereich der 7. Änderung\ndes Bebauungsplans Nr. 0122\nNordwiese\nKartengrundlage: Auszug aus der AK 5;\nQuelle: Geobasisdaten des Landes Niedersachsen\nMaßstab: 0m 100m 200m 300m",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:48:52.078Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 151
+  }
 }

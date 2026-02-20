@@ -1,8 +1,18 @@
 {
   "file_hash": "5b83b12a7c414eba05b0fd216cea62a40fd7114d7dc654d96af5407765a7a5c9",
   "filename": "Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "OR Nordstemmen 09.11.21\nAnlage 1\n05.11.2021\n\n## Jährlich wiederkehrende Koste des Ortsrates Nordstemmen\n\n| | aufgerundet | bisher ausgegeben |\n|---|---|---|\n| Senioren Fahrt | 1.200,00 € | 0,00 € |\n| Seniorenweihnachtsfeier | 900,00 € | 0,00 € |\n| Müllsammelaktion | 250,00 € | 351,80 € |\n| Bürgerscheibe u. Schiessen | 500,00 € | 0,00 € |\n| Blasorchester (Jahreskonzert) | 200,00 € | 200,00 € |\n| Feuerwehr/Blasorchester | 400,00 € | 400,00 € |\n| Jahresempfang der Kirchen JHV | 200,00 € | 0,00 € |\n| Schule Abschlussklassen | 100,00 € | 100,00 € |\n| Geburtstage (80.- 85. -90.- 91.....) | 2.000,00 € | 990,00 € |\n| Weltkindertag | 100,00 € | 0,00 € |\n| Volkstrauertag | 100,00 € | |\n| Ortsheimatpflegerin | 150,00 € | 150,00 € |\n| Hundekotbeute | 800,00 € | 680,27 € |\n| Jubiläen (Goldene Hochzeiten) | 600,00 € | 568,50 € |\n| Ortsbürgermeister z.b.V. | 500,00 € | 53,84 € |\n| Ferienpass | 100,00 € | 100,00 € |\n| Neubürger | 600,00 € | 0,00 € |\n| Zuschuss Fahrt Juz | 100,00 € | 0,00 € |\n| Zuschuss Kultur u. Brauchtum Flyer | 500,00 € | 0,00 € |\n| Stollenaktion | | 1.000,00 € |\n| Schnelltest | | 51,66 € |\n| 20 Chroniken | | 220,00 € |\n| JHV KKS | | 100,00 € |\n| 20 Jahre KOMM | | 100,00 € |\n| 60 Jahre Kreut des Ostens | | 100,00 € |\n| JHV JUZ | | 100,00 € |\n| VFL Trikot | | 300,00 € |\n| DRK | | 300,00 € |\n| Summe | 9.300,00 € | 5.866,07 € |\n\nZuweisung 2021 8.771,50 €\nÜbertrag 2020 6.045,81 €\n\nSumme 2021 14.817,31 €\nAusgaben/geplant 2021 9.300,00 € 4.100,00 €\n\nnoch Verfügbar: ca. 9.730,00 €\n\nblau = ausgefallen"
+    }
+  ],
+  "full_text": "OR Nordstemmen 09.11.21\nAnlage 1\n05.11.2021\n\n## Jährlich wiederkehrende Koste des Ortsrates Nordstemmen\n\n| | aufgerundet | bisher ausgegeben |\n|---|---|---|\n| Senioren Fahrt | 1.200,00 € | 0,00 € |\n| Seniorenweihnachtsfeier | 900,00 € | 0,00 € |\n| Müllsammelaktion | 250,00 € | 351,80 € |\n| Bürgerscheibe u. Schiessen | 500,00 € | 0,00 € |\n| Blasorchester (Jahreskonzert) | 200,00 € | 200,00 € |\n| Feuerwehr/Blasorchester | 400,00 € | 400,00 € |\n| Jahresempfang der Kirchen JHV | 200,00 € | 0,00 € |\n| Schule Abschlussklassen | 100,00 € | 100,00 € |\n| Geburtstage (80.- 85. -90.- 91.....) | 2.000,00 € | 990,00 € |\n| Weltkindertag | 100,00 € | 0,00 € |\n| Volkstrauertag | 100,00 € | |\n| Ortsheimatpflegerin | 150,00 € | 150,00 € |\n| Hundekotbeute | 800,00 € | 680,27 € |\n| Jubiläen (Goldene Hochzeiten) | 600,00 € | 568,50 € |\n| Ortsbürgermeister z.b.V. | 500,00 € | 53,84 € |\n| Ferienpass | 100,00 € | 100,00 € |\n| Neubürger | 600,00 € | 0,00 € |\n| Zuschuss Fahrt Juz | 100,00 € | 0,00 € |\n| Zuschuss Kultur u. Brauchtum Flyer | 500,00 € | 0,00 € |\n| Stollenaktion | | 1.000,00 € |\n| Schnelltest | | 51,66 € |\n| 20 Chroniken | | 220,00 € |\n| JHV KKS | | 100,00 € |\n| 20 Jahre KOMM | | 100,00 € |\n| 60 Jahre Kreut des Ostens | | 100,00 € |\n| JHV JUZ | | 100,00 € |\n| VFL Trikot | | 300,00 € |\n| DRK | | 300,00 € |\n| Summe | 9.300,00 € | 5.866,07 € |\n\nZuweisung 2021 8.771,50 €\nÜbertrag 2020 6.045,81 €\n\nSumme 2021 14.817,31 €\nAusgaben/geplant 2021 9.300,00 € 4.100,00 €\n\nnoch Verfügbar: ca. 9.730,00 €\n\nblau = ausgefallen",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:33.870Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 864
+  }
 }

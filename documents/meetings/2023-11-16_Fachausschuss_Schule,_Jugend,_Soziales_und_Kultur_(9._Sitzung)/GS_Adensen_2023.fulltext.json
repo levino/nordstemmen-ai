@@ -1,8 +1,18 @@
 {
   "file_hash": "9e8847054dbf06bf5d78bcf8883f096132c3efb4b5b6f7f62d8464c24c5b5add",
   "filename": "GS_Adensen_2023.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "GS Adensen 2023\n[Karte, die die Verteilung von Schülern aus verschiedenen Ortschaften der Region Adensen zeigt]\nStand: 10.10.2023\n\n| Adensen und | | | | | | | | | | |\n| :---------- | :---------- | :---------- | :---------- | :---------- | :---------- | :---------- | :---------- | :---------- | :---------- | :---------- | :---------- |\n| Klasse      | ▼Schülerzahl | Hallerburg | ▼ Barnten | Burgst. | Gr. Escherde | Heyersum | Kl. Escherde | Mahlerten | Nordst. | Rössing | sonstige |\n| 1           | 20          | 1           | 0           | 1         | 0            | 1        | 0            | 0         | 0         | 0         | 17       |\n| 2           | 21          | 2           | 0           | 0         | 0            | 0        | 0            | 0         | 4         | 1         | 14       |\n| 3           | 19          | 1           | 0           | 0         | 0            | 1        | 0            | 0         | 6         | 0         | 11       |\n| 4           | 24          | 2           | 0           | 0         | 0            | 0        | 0            | 2         | 0         | 0         | 20       |\n| Gesamt:     | 84          | 6           | 0           | 1         | 0            | 2        | 0            | 2         | 10        | 1         | 62       |\n\nsonstige: Alfeld (1), Coppenbrügge (4), Elze (9), Giesen (1), Gronau (1), Hannover (1), Hemmingen (1), Pattensen (27), Salzhemmdorf (1), Salzhemmendorf (2)\nSarstedt (6), Sibbesse (1), Springe (7)"
+    }
+  ],
+  "full_text": "GS Adensen 2023\n[Karte, die die Verteilung von Schülern aus verschiedenen Ortschaften der Region Adensen zeigt]\nStand: 10.10.2023\n\n| Adensen und | | | | | | | | | | |\n| :---------- | :---------- | :---------- | :---------- | :---------- | :---------- | :---------- | :---------- | :---------- | :---------- | :---------- | :---------- |\n| Klasse      | ▼Schülerzahl | Hallerburg | ▼ Barnten | Burgst. | Gr. Escherde | Heyersum | Kl. Escherde | Mahlerten | Nordst. | Rössing | sonstige |\n| 1           | 20          | 1           | 0           | 1         | 0            | 1        | 0            | 0         | 0         | 0         | 17       |\n| 2           | 21          | 2           | 0           | 0         | 0            | 0        | 0            | 0         | 4         | 1         | 14       |\n| 3           | 19          | 1           | 0           | 0         | 0            | 1        | 0            | 0         | 6         | 0         | 11       |\n| 4           | 24          | 2           | 0           | 0         | 0            | 0        | 0            | 2         | 0         | 0         | 20       |\n| Gesamt:     | 84          | 6           | 0           | 1         | 0            | 2        | 0            | 2         | 10        | 1         | 62       |\n\nsonstige: Alfeld (1), Coppenbrügge (4), Elze (9), Giesen (1), Gronau (1), Hannover (1), Hemmingen (1), Pattensen (27), Salzhemmdorf (1), Salzhemmendorf (2)\nSarstedt (6), Sibbesse (1), Springe (7)",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:05:32.445Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 494
+  }
 }

@@ -1,8 +1,22 @@
 {
   "file_hash": "73f421d973d0eb1128647955b6034db6c6c214d6fe28fa05391912836cfe77aa",
   "filename": "Anlage_1_Raeume_Nordstemmen.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "DS 82/2021\nAnlage 1\nRäumlichkeiten der Grundschule Nordstemmen\nRaum 61 Klasse 1b\nRaum 60 Gruppenraum Klasse 1b\nRaum 59 Gruppenraum Klasse 2b\nRaum 58 Klasse 2b\nRaum 57 Werkraum\nRaum 56 Lagerraum Werkraum\nRaum 53/54 Mensa\nRaum 52 Betreuung verlässliche Grundschule, könnte multifunktional genutzt werden\nRaum 49 Betreuung verlässliche Grundschule, könnte multifunktional genutzt werden\nRaum 18 Klasse 3b\nRaum 19 Gruppenraum Klasse 3b\nRaum 20 Gruppenraum Klasse 4b\nRaum 21 Klasse 4b\nRaum 41 Veranstaltungsraum/Aula/Eingangshalle\nRaum 68 Klasse 2a\nRaum 69 Gruppenraum Klasse 2a\nRaum 70 Gruppenraum Klasse 1a\nRaum 71 Klasse 1a\nRaum 72 Klasse 2c\nRaum 73 Gruppenraum Klasse 2c\nRaum 74 Fachraum Religion, könnte als zusätzlicher Klassenraum genutzt werden\nRaum 75 Klasse 1c\nRaum 76 Gruppenraum Klasse 1c\nRaum 77 Büro Beratungslehrerin\nRaum 64 Bücherei\nRaum 84 Klasse 3c\nRaum 85 Gruppenraum Klasse 3c\nRaum 86 Gruppenraum Klasse 3a\nRaum 87 Klasse 3a\nRaum 88 Computerraum, nicht als Klasseraum nutzbar, da über Eck\nRaum 90 Klasse 4a\nRaum 91 Gruppenraum Klasse 4a\nRaum 92 Gruppenraum Klasse 4c\nRaum 93 Klasse 4c\nzusätzlich Verwaltung, WC-Räume und Lehrerzimmer"
+    },
+    {
+      "page": 2,
+      "text": "DS 82/2021\nAnlage 1\nGS Nordstemmen\n[Grundriss-Schema der Grundschule Nordstemmen mit Raumbezeichnungen und Funktionen]"
+    }
+  ],
+  "full_text": "DS 82/2021\nAnlage 1\nRäumlichkeiten der Grundschule Nordstemmen\nRaum 61 Klasse 1b\nRaum 60 Gruppenraum Klasse 1b\nRaum 59 Gruppenraum Klasse 2b\nRaum 58 Klasse 2b\nRaum 57 Werkraum\nRaum 56 Lagerraum Werkraum\nRaum 53/54 Mensa\nRaum 52 Betreuung verlässliche Grundschule, könnte multifunktional genutzt werden\nRaum 49 Betreuung verlässliche Grundschule, könnte multifunktional genutzt werden\nRaum 18 Klasse 3b\nRaum 19 Gruppenraum Klasse 3b\nRaum 20 Gruppenraum Klasse 4b\nRaum 21 Klasse 4b\nRaum 41 Veranstaltungsraum/Aula/Eingangshalle\nRaum 68 Klasse 2a\nRaum 69 Gruppenraum Klasse 2a\nRaum 70 Gruppenraum Klasse 1a\nRaum 71 Klasse 1a\nRaum 72 Klasse 2c\nRaum 73 Gruppenraum Klasse 2c\nRaum 74 Fachraum Religion, könnte als zusätzlicher Klassenraum genutzt werden\nRaum 75 Klasse 1c\nRaum 76 Gruppenraum Klasse 1c\nRaum 77 Büro Beratungslehrerin\nRaum 64 Bücherei\nRaum 84 Klasse 3c\nRaum 85 Gruppenraum Klasse 3c\nRaum 86 Gruppenraum Klasse 3a\nRaum 87 Klasse 3a\nRaum 88 Computerraum, nicht als Klasseraum nutzbar, da über Eck\nRaum 90 Klasse 4a\nRaum 91 Gruppenraum Klasse 4a\nRaum 92 Gruppenraum Klasse 4c\nRaum 93 Klasse 4c\nzusätzlich Verwaltung, WC-Räume und Lehrerzimmer\n\nDS 82/2021\nAnlage 1\nGS Nordstemmen\n[Grundriss-Schema der Grundschule Nordstemmen mit Raumbezeichnungen und Funktionen]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:23:48.520Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 497
+  }
 }

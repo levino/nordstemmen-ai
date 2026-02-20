@@ -1,8 +1,18 @@
 {
   "file_hash": "468e8789d9267e95e190dd4b74edc63dd4a7f96f5e49648d38b135d605ff9982",
   "filename": "Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Bund der\nBdV Vertriebenen\n\nOrtsverbände\nNordstemmen\nMahlerten\nHönze\nim Kreisverband Alfeld / Leine\nRössing\nGiesen-Hasede\nim Kreisverband Hildesheim - Mbg.\n\nEinladung\nzum Gedenken und Kranzniederlegung am\n„Mahnkreuz“\nFreitag, den 01. September 2017, um 16.00 Uhr\nauf dem Mühlenberg in Heyersum\n\nProgramm\nMusikalische Unterstützung\nPommernlied,\nWenn in stiller Stunde...\nBegrüßung\nGedenken der Verstorbenen\n„Ich hat 'einen Kameraden“\nund Kranzniederlegung\nGedicht\nOstpreußenlied,\nLand der dunklen Wälder...\nGedicht\nSchlesierlied,\nKehr ich einst zur Heimat wieder...\nAnsprache\nBrandenburgerlied,\nMärkische Heide, märkischer Sand...\nGrußworte\nDank- und Schlussworte\nDeutschlandlied - Hymne\n\nGJR - Nordstemmen\ngemeinsam\nKarl Heinz Hoffmann\nHans - Jürgen Degner\nHerward Gloeden\nKurt Kunze\nManfred Lilienthal\nUrsula Hoffmann\ngemeinsam\nRosemarie Mai\ngemeinsam\nKarsten Riemann\nEhrenvorsitzender des\nVereins zur Pflege schlesiescher\nKunst und Kultur e. V. (VSK)\ngemeinsam\nHerward Gloeden\nBdV Kreisvorsitzender, Alfeld\ngemeinsam\n\nDer Vorstand\nTel.: 05069-2830\nSitz- Parkplätze und\nRegenmäntel sind vorhanden\nÄnderungen vorbehalten"
+    }
+  ],
+  "full_text": "Bund der\nBdV Vertriebenen\n\nOrtsverbände\nNordstemmen\nMahlerten\nHönze\nim Kreisverband Alfeld / Leine\nRössing\nGiesen-Hasede\nim Kreisverband Hildesheim - Mbg.\n\nEinladung\nzum Gedenken und Kranzniederlegung am\n„Mahnkreuz“\nFreitag, den 01. September 2017, um 16.00 Uhr\nauf dem Mühlenberg in Heyersum\n\nProgramm\nMusikalische Unterstützung\nPommernlied,\nWenn in stiller Stunde...\nBegrüßung\nGedenken der Verstorbenen\n„Ich hat 'einen Kameraden“\nund Kranzniederlegung\nGedicht\nOstpreußenlied,\nLand der dunklen Wälder...\nGedicht\nSchlesierlied,\nKehr ich einst zur Heimat wieder...\nAnsprache\nBrandenburgerlied,\nMärkische Heide, märkischer Sand...\nGrußworte\nDank- und Schlussworte\nDeutschlandlied - Hymne\n\nGJR - Nordstemmen\ngemeinsam\nKarl Heinz Hoffmann\nHans - Jürgen Degner\nHerward Gloeden\nKurt Kunze\nManfred Lilienthal\nUrsula Hoffmann\ngemeinsam\nRosemarie Mai\ngemeinsam\nKarsten Riemann\nEhrenvorsitzender des\nVereins zur Pflege schlesiescher\nKunst und Kultur e. V. (VSK)\ngemeinsam\nHerward Gloeden\nBdV Kreisvorsitzender, Alfeld\ngemeinsam\n\nDer Vorstand\nTel.: 05069-2830\nSitz- Parkplätze und\nRegenmäntel sind vorhanden\nÄnderungen vorbehalten",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:00:30.881Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 383
+  }
 }

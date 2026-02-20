@@ -1,8 +1,22 @@
 {
   "file_hash": "0d6da1ddb5bd9f6b456bb33e0bd8a62e800f3af8e7a8eaf557e477c61fa6ad45",
   "filename": "OR_Adensen_-_Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 2\nBitte um Aufnahme in das Protokoll der Sitzung vom 14.05.2018\nSchadensmeldung Hallerburg, Hallerstr.2 – 18 durch Fotos belegt:\nBürgersteig stellenweise abgesackt, dadurch ständige Pfützen und bei\nFrost Glatteis (Rutschgefahr).\nAn der Bushaltestelle ebenso Pfützen.\nRandstreifenbefestigung muss verlängert werden, da die Fahrzeuge (Busse)\ntiefe Furchen in den angrenzenden Grünstreifen verursachen und dadurch\neine erhebliche Fahrbahnverschmutzung erfolgt.\nHans Jürgen Pompetzki"
+    },
+    {
+      "page": 2,
+      "text": ""
+    }
+  ],
+  "full_text": "Anlage 2\nBitte um Aufnahme in das Protokoll der Sitzung vom 14.05.2018\nSchadensmeldung Hallerburg, Hallerstr.2 – 18 durch Fotos belegt:\nBürgersteig stellenweise abgesackt, dadurch ständige Pfützen und bei\nFrost Glatteis (Rutschgefahr).\nAn der Bushaltestelle ebenso Pfützen.\nRandstreifenbefestigung muss verlängert werden, da die Fahrzeuge (Busse)\ntiefe Furchen in den angrenzenden Grünstreifen verursachen und dadurch\neine erhebliche Fahrbahnverschmutzung erfolgt.\nHans Jürgen Pompetzki\n\n",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:08.879Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 156
+  }
 }

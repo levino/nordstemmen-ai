@@ -148,11 +148,16 @@ def main():
                 try:
                     with open(fulltext_file, 'r', encoding='utf-8') as f:
                         fulltext_data = json.load(f)
-                    full_text = fulltext_data.get('full_text', '')
-                    if full_text:
+                    pages = fulltext_data.get('pages', [])
+                    if pages:
+                        # Build text with page markers for page-level retrieval
+                        parts = []
+                        for p in pages:
+                            parts.append(f"--- Page {p['page']} ---\n{p['text']}")
+                        text_with_markers = '\n\n'.join(parts)
                         print(f"  📤 Uploading text: {text_name[:12]}...")
                         upload_info = b2_get_upload_url(auth, bucket_id)
-                        b2_upload_file(upload_info, text_name, full_text.encode('utf-8'), 'text/plain; charset=utf-8')
+                        b2_upload_file(upload_info, text_name, text_with_markers.encode('utf-8'), 'text/plain; charset=utf-8')
                         uploaded_texts += 1
                 except Exception as e:
                     logger.warning(f"Error uploading fulltext for {pdf_file.name}: {e}")

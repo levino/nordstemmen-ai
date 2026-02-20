@@ -1,8 +1,22 @@
 {
   "file_hash": "03067d865d3e4dfbba432da70af9818c65f277005fe072356d13436db0e453b7",
   "filename": "Anlage_zur_Beschlussvorlage_DS_53-2007_1._Ergaenzung.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Planzeichenerklärung\n\n1. Art der baulichen Nutzung\nWA\nAllgemeine Wohngebiete\n\n2. Maß der baulichen Nutzung\n1\nZahl der Vollgeschosse\n0,4\nGrundflächenzahl\n0,4\nED\nGeschoßflächenzahl\nnur Einzel- und Doppelhäuser zulässig\n\n3. Bauweise, Baulinien, Baugrenzen\nBaugrenze\nüberbaubare Fläche\nnicht überbaubare Fläche\n\n4. Verkehrsflächen\nStraßenverkehrsflächen\nStraßenbegrenzungslinie auch gegenüber Verkehrsflächen\nbesonderer Zweckbestimmung\nFußgängerbereich\n\n5. Grünflächen\nSpielplatz\nV\nVerkehrsgrün\n\n6. Planungen, Nutzungsregelungen, Maßnahmen und Flächen für Maßnahmen\nzum Schutz, zur Pflege und zur Entwicklung von Natur und Landschaft\n000000\nUmgrenzung von Flächen zum Anpflanzen von Bäumen,\nSträuchern und sonstigen Bepflanzungen\n000000\nBäume erhalten\n\n7. Sonstige Planzeichen\nGrenze des räumlichen Geltungsbereichs des Bebauungsplans\nMit Geh-, Fahr- und Leitungsrechten zu belastende Flächen"
+    },
+    {
+      "page": 2,
+      "text": "[Diese Seite zeigt einen Bebauungsplan mit einem Grundriss von Häusern, Straßen, Gärten und Höhenlinien in einem Gebiet namens \"Groß Escherde Ost\". Die Karte zeigt Symbole für allgemeine Wohngebiete (WA), Grünflächen (V), sowie Angaben zu Geschossflächenzahl, Grundflächenzahl und Baugrenzen. Im Hintergrund sind Parzellen und vorhandene Gebäude dargestellt.]\n\nN\n\nPlanzeichenerklärung:\nz.B.: 109\nHöhenlinie mit Angabe der Höhe in Metern\nüber NN (Normal Null); die Höhenangaben\nsind der Deutschen Grundkarte (DGK), M.\n1: 5.000, des Katasteramtes Alfeld / Leine\nentnommen.\n\nGemeinde Nordstemmen\nOrtschaft Groß Escherde\nBebauungsplan Nr. 0506\n\"Groß Escherde Ost\"\n\nStand:\nVorbereitung Öffentliche Auslegung\n\nPlanungsbüro SRL Weber Spinozastraße 1 30625 Hannover\nTel. 0511/8 56 580 Fax 0511/8 55 58-99 Mail srlweber@t-online.de\n\n0 10 20 30 40 50 100 m"
+    }
+  ],
+  "full_text": "Planzeichenerklärung\n\n1. Art der baulichen Nutzung\nWA\nAllgemeine Wohngebiete\n\n2. Maß der baulichen Nutzung\n1\nZahl der Vollgeschosse\n0,4\nGrundflächenzahl\n0,4\nED\nGeschoßflächenzahl\nnur Einzel- und Doppelhäuser zulässig\n\n3. Bauweise, Baulinien, Baugrenzen\nBaugrenze\nüberbaubare Fläche\nnicht überbaubare Fläche\n\n4. Verkehrsflächen\nStraßenverkehrsflächen\nStraßenbegrenzungslinie auch gegenüber Verkehrsflächen\nbesonderer Zweckbestimmung\nFußgängerbereich\n\n5. Grünflächen\nSpielplatz\nV\nVerkehrsgrün\n\n6. Planungen, Nutzungsregelungen, Maßnahmen und Flächen für Maßnahmen\nzum Schutz, zur Pflege und zur Entwicklung von Natur und Landschaft\n000000\nUmgrenzung von Flächen zum Anpflanzen von Bäumen,\nSträuchern und sonstigen Bepflanzungen\n000000\nBäume erhalten\n\n7. Sonstige Planzeichen\nGrenze des räumlichen Geltungsbereichs des Bebauungsplans\nMit Geh-, Fahr- und Leitungsrechten zu belastende Flächen\n\n[Diese Seite zeigt einen Bebauungsplan mit einem Grundriss von Häusern, Straßen, Gärten und Höhenlinien in einem Gebiet namens \"Groß Escherde Ost\". Die Karte zeigt Symbole für allgemeine Wohngebiete (WA), Grünflächen (V), sowie Angaben zu Geschossflächenzahl, Grundflächenzahl und Baugrenzen. Im Hintergrund sind Parzellen und vorhandene Gebäude dargestellt.]\n\nN\n\nPlanzeichenerklärung:\nz.B.: 109\nHöhenlinie mit Angabe der Höhe in Metern\nüber NN (Normal Null); die Höhenangaben\nsind der Deutschen Grundkarte (DGK), M.\n1: 5.000, des Katasteramtes Alfeld / Leine\nentnommen.\n\nGemeinde Nordstemmen\nOrtschaft Groß Escherde\nBebauungsplan Nr. 0506\n\"Groß Escherde Ost\"\n\nStand:\nVorbereitung Öffentliche Auslegung\n\nPlanungsbüro SRL Weber Spinozastraße 1 30625 Hannover\nTel. 0511/8 56 580 Fax 0511/8 55 58-99 Mail srlweber@t-online.de\n\n0 10 20 30 40 50 100 m",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:08:24.673Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 576
+  }
 }

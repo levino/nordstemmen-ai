@@ -1,8 +1,18 @@
 {
   "file_hash": "4a1b565a8da752c850a9bf8573eb7184a9fd1b23f3822fd1d502be96456b9dac",
   "filename": "OR_Heyersum_07.05.2019_Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 1 zu TOP3\nOR Protokoll Heyersum\n07.05.18\n\nBuchholz, Tobias\nVon:\nGesendet:\nAn:\nCc:\nBetreff:\nLauenstein-Wagner, Rouven\nMontag, 6. Mai 2019 10:46\nBuchholz, Tobias\nSkibera, Hannes; Schwindt, Florian; bauhof\nMitteilung OR Heyersum; Bolzplatz Heyersum\n\nHallo Herr Bucholz,\n\nich bitte Sie, in der Sitzung des OR Heyersum am 7.5.19 folgendes zum Bolzplatz Heyersum mitzuteilen:\n\nDer eingesäte Rasen auf der „Bolzplatzfläche\" geht langsam an.\nDer Bauhof wird in den nächsten Tagen den ersten Schnitt des Rasens vornehmen.\nDann erfolgt der Einbau der Bodenhülsen für die Fußballtore und die Volleyballanlage.\nDies geschieht so rechtzeitig, damit der Beton vorschriftsmäßig aushärten kann.\nDie Grasnarbe ist jedoch noch nicht fest genug, dass die Fläche als Bolzplatz bereits genutzt werden kann.\nSobald die Gärtner den Rasen für strapazierfähig genug halten, wird die Fläche von der Gemeinde freigegeben.\nEin konkreter Termin hierfür kann nicht genannt werden.\nZum jetzigen Zeitpunkt ist davon auszugehen, dass die in ca. 6 Wochen der Fall sein wird.\n\nRouven Lauenstein-Wagner\nFachbereich 3 – Planung, Bau und Umwelt.\n1"
+    }
+  ],
+  "full_text": "Anlage 1 zu TOP3\nOR Protokoll Heyersum\n07.05.18\n\nBuchholz, Tobias\nVon:\nGesendet:\nAn:\nCc:\nBetreff:\nLauenstein-Wagner, Rouven\nMontag, 6. Mai 2019 10:46\nBuchholz, Tobias\nSkibera, Hannes; Schwindt, Florian; bauhof\nMitteilung OR Heyersum; Bolzplatz Heyersum\n\nHallo Herr Bucholz,\n\nich bitte Sie, in der Sitzung des OR Heyersum am 7.5.19 folgendes zum Bolzplatz Heyersum mitzuteilen:\n\nDer eingesäte Rasen auf der „Bolzplatzfläche\" geht langsam an.\nDer Bauhof wird in den nächsten Tagen den ersten Schnitt des Rasens vornehmen.\nDann erfolgt der Einbau der Bodenhülsen für die Fußballtore und die Volleyballanlage.\nDies geschieht so rechtzeitig, damit der Beton vorschriftsmäßig aushärten kann.\nDie Grasnarbe ist jedoch noch nicht fest genug, dass die Fläche als Bolzplatz bereits genutzt werden kann.\nSobald die Gärtner den Rasen für strapazierfähig genug halten, wird die Fläche von der Gemeinde freigegeben.\nEin konkreter Termin hierfür kann nicht genannt werden.\nZum jetzigen Zeitpunkt ist davon auszugehen, dass die in ca. 6 Wochen der Fall sein wird.\n\nRouven Lauenstein-Wagner\nFachbereich 3 – Planung, Bau und Umwelt.\n1",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:54.728Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 343
+  }
 }

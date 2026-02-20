@@ -3,9 +3,32 @@
   "filename": "DS_33-2018_1._Ergaenzung_-_Anlage.pdf",
   "pages": [
     {
+      "page": 1,
+      "text": "[Übersichtskarte mit eingezeichnetem Bolzplatz und angrenzenden Sportflächen]\nBOLZPLATZ V1\nca. 4.000m² zzgl. Boule\nMaßstab: 1:1.000\nPlanvermerk:\nE 555888 m\nN 5779110 m\nN 5778849 m\nE 555724 m\nHintergrund: Auszug aus den Geobasisdaten der LGLN\nGemeinde Nordstemmen\nRathausstraße 3\n31171 Nordstemmen\nPlanungsbüro: © 2016 LGLN\nMai 2018 FB3 Schwindt"
+    },
+    {
+      "page": 2,
+      "text": "[Übersichtskarte mit eingezeichnetem Bolzplatz und angrenzenden Sportflächen, mit einer anderen Flächenberechnung]\nBOLZPLATZ V2\nca. 5.460m². zzgl. Boule\nMaßstab: 1:1.000\nPlanvermerk:\nE 555888 m\nN 5779110 m\nN 5778849 m\nE 555724 m\nHintergrund: Auszug aus den Geobasisdaten der LGLN\nGemeinde Nordstemmen\nRathausstraße 3\n31171 Nordstemmen\nPlanungsbüro: © 2016 LGLN\nMai 2018 FB3 Schwindt"
+    },
+    {
+      "page": 3,
+      "text": "[Katasterkarte mit Grundstücksgrenzen, Bebauung und eingezeichneten Anmerkungen]\nMaßstab: 1:750\nPlanvermerk:\nN 5778898 m\nE 555871 m\nN 5779094 m\nE 555748 m\n1 Pforte im Zaun\n2 Boulebahn\nHintergrund: Auszug aus den Geobasisdaten der LGLN\nPlanungsbüro: ©2016 LGLN"
+    },
+    {
+      "page": 4,
+      "text": ""
+    },
+    {
       "page": 5,
-      "text": "—\n"
+      "text": "GTK"
     }
   ],
-  "full_text": "—\n"
+  "full_text": "[Übersichtskarte mit eingezeichnetem Bolzplatz und angrenzenden Sportflächen]\nBOLZPLATZ V1\nca. 4.000m² zzgl. Boule\nMaßstab: 1:1.000\nPlanvermerk:\nE 555888 m\nN 5779110 m\nN 5778849 m\nE 555724 m\nHintergrund: Auszug aus den Geobasisdaten der LGLN\nGemeinde Nordstemmen\nRathausstraße 3\n31171 Nordstemmen\nPlanungsbüro: © 2016 LGLN\nMai 2018 FB3 Schwindt\n\n[Übersichtskarte mit eingezeichnetem Bolzplatz und angrenzenden Sportflächen, mit einer anderen Flächenberechnung]\nBOLZPLATZ V2\nca. 5.460m². zzgl. Boule\nMaßstab: 1:1.000\nPlanvermerk:\nE 555888 m\nN 5779110 m\nN 5778849 m\nE 555724 m\nHintergrund: Auszug aus den Geobasisdaten der LGLN\nGemeinde Nordstemmen\nRathausstraße 3\n31171 Nordstemmen\nPlanungsbüro: © 2016 LGLN\nMai 2018 FB3 Schwindt\n\n[Katasterkarte mit Grundstücksgrenzen, Bebauung und eingezeichneten Anmerkungen]\nMaßstab: 1:750\nPlanvermerk:\nN 5778898 m\nE 555871 m\nN 5779094 m\nE 555748 m\n1 Pforte im Zaun\n2 Boulebahn\nHintergrund: Auszug aus den Geobasisdaten der LGLN\nPlanungsbüro: ©2016 LGLN\n\n\n\nGTK",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:55:09.579Z",
+    "total_input_tokens": 1634,
+    "total_output_tokens": 502
+  }
 }

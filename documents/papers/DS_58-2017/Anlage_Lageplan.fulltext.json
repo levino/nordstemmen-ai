@@ -1,8 +1,18 @@
 {
   "file_hash": "80f3dbf17df5e54d1b14038c88a9ca23e7c2aa79ec1816cf63ec31c4ed095159",
   "filename": "Anlage_Lageplan.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Katasterkarte, die Gebäude, Flurstücke und Straßenverläufe zeigt]\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n1:1.000\n©2016\nLGLN"
+    }
+  ],
+  "full_text": "[Katasterkarte, die Gebäude, Flurstücke und Straßenverläufe zeigt]\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n1:1.000\n©2016\nLGLN",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:11:40.474Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 59
+  }
 }

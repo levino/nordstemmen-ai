@@ -4,12 +4,19 @@
   "pages": [
     {
       "page": 1,
-      "text": "Schulabgänger Grundschulen 31.07.2023 und die\nvorraussichtlich weiterf. Schulen\nAsternschule Nordstemmen\nBismarckschule Hannover 1\nCJD Perspektivklasse 3\nGazianter Schule Türkei 1\nGrundschule Himmelsthür 1\nGS Otfried-Preußler-Schule Hannover 1\nGymnasium CJD 4\nGymnasium Himmelsthür 7\nGymnasium Mariano-Josephinum 8\nGymnasium Michelsen 3\nIGS Kronsberg 1\nKGS Gronau 15\nOBS Marienberg 25\nRS Albertus-Magnus 1\nRS Himmelsthür 1\n72\nGS Adensen:\nCJD Christophorusschule 14\nGymnasium Sarstedt 1\nKGS Pattensen 4\nKGS Gronau 2\nOB Duingen 1\nErnst Reuter Schule Pattensen 1\n23\nGS Barnten\nGymnasium Andreanum 3\nGymnasium Himmelsthür 8"
+      "text": "Weiterführende Schulen\nSchulabgänger Grundschulen 31.07.2023 und die\nvorraussichtlich weiterf. Schulen\n\nAsternschule Nordstemmen\nBismarckschule Hannover 1\nCJD Perspektivklasse 3\nGazianter Schule Türkei 1\nGrundschule Himmelsthür 1\nGS Otfried-Preußler-Schule Hannover 1\nGymnasium CJD 4\nGymnasium Himmelsthür 7\nGymnasium Mariano-Josephinum 8\nGymnasium Michelsen 3\nIGS Kronsberg 1\nKGS Gronau 15\nOBS Marienberg 25\nRS Albertus-Magnus 1\nRS Himmelsthür 1\n72\n\nGS Adensen:\nCJD Christophorusschule 14\nGymnasium Sarstedt 1\nKGS Pattensen 4\nKGS Gronau 2\nOB Duingen 1\nErnst Reuter Schule Pattensen 1\n23\n\nGS Barnten\nGymnasium Andreanum 3\nGymnasium Himmelsthür 8"
     },
     {
       "page": 2,
       "text": "Gymnasium Sarstedt 4\nKGS Gronau 6\nMarienbergschule Nordstemmen 16\nSt. Augustinus Schule 1\nAlbert-Magnusschule 2\nGymnasium Mariano-Josephinum 2\nGymnasium Michelsenschule 2\n44"
     }
   ],
-  "full_text": "Schulabgänger Grundschulen 31.07.2023 und die\nvorraussichtlich weiterf. Schulen\nAsternschule Nordstemmen\nBismarckschule Hannover 1\nCJD Perspektivklasse 3\nGazianter Schule Türkei 1\nGrundschule Himmelsthür 1\nGS Otfried-Preußler-Schule Hannover 1\nGymnasium CJD 4\nGymnasium Himmelsthür 7\nGymnasium Mariano-Josephinum 8\nGymnasium Michelsen 3\nIGS Kronsberg 1\nKGS Gronau 15\nOBS Marienberg 25\nRS Albertus-Magnus 1\nRS Himmelsthür 1\n72\nGS Adensen:\nCJD Christophorusschule 14\nGymnasium Sarstedt 1\nKGS Pattensen 4\nKGS Gronau 2\nOB Duingen 1\nErnst Reuter Schule Pattensen 1\n23\nGS Barnten\nGymnasium Andreanum 3\nGymnasium Himmelsthür 8\n\nGymnasium Sarstedt 4\nKGS Gronau 6\nMarienbergschule Nordstemmen 16\nSt. Augustinus Schule 1\nAlbert-Magnusschule 2\nGymnasium Mariano-Josephinum 2\nGymnasium Michelsenschule 2\n44"
+  "full_text": "Weiterführende Schulen\nSchulabgänger Grundschulen 31.07.2023 und die\nvorraussichtlich weiterf. Schulen\n\nAsternschule Nordstemmen\nBismarckschule Hannover 1\nCJD Perspektivklasse 3\nGazianter Schule Türkei 1\nGrundschule Himmelsthür 1\nGS Otfried-Preußler-Schule Hannover 1\nGymnasium CJD 4\nGymnasium Himmelsthür 7\nGymnasium Mariano-Josephinum 8\nGymnasium Michelsen 3\nIGS Kronsberg 1\nKGS Gronau 15\nOBS Marienberg 25\nRS Albertus-Magnus 1\nRS Himmelsthür 1\n72\n\nGS Adensen:\nCJD Christophorusschule 14\nGymnasium Sarstedt 1\nKGS Pattensen 4\nKGS Gronau 2\nOB Duingen 1\nErnst Reuter Schule Pattensen 1\n23\n\nGS Barnten\nGymnasium Andreanum 3\nGymnasium Himmelsthür 8\n\nGymnasium Sarstedt 4\nKGS Gronau 6\nMarienbergschule Nordstemmen 16\nSt. Augustinus Schule 1\nAlbert-Magnusschule 2\nGymnasium Mariano-Josephinum 2\nGymnasium Michelsenschule 2\n44",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:05:29.069Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 312
+  }
 }

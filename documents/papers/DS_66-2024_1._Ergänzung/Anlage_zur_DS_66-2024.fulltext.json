@@ -1,8 +1,18 @@
 {
   "file_hash": "02b3f3f8e6e4f0876a6cf66831f27fb45d79b1b79b69472bc882735f13871dff",
   "filename": "Anlage_zur_DS_66-2024.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Eine topographische Karte zeigt vorgeschlagene Straßenkorridore (Nord-Süd, Mitte, Nord) für eine Ortsumgehung der B 1 um Burgstemmen und Mahlerten, mit vorhandenen Siedlungsgebieten, Wäldern und Flüssen.]\nQuelle: Auszug aus den Geobasisdaten der Niedersächsischen Vermessungs- und Katasterverwaltung\n©2019 LGLN\nPROJIS-Nr.: 0397153600\nUnterlage / Blatt-Nr.: Lageplan\nMaßstab: 1:10 000\nNeubau der B 1 OU Burgstemmen / Mahlerten"
+    }
+  ],
+  "full_text": "[Eine topographische Karte zeigt vorgeschlagene Straßenkorridore (Nord-Süd, Mitte, Nord) für eine Ortsumgehung der B 1 um Burgstemmen und Mahlerten, mit vorhandenen Siedlungsgebieten, Wäldern und Flüssen.]\nQuelle: Auszug aus den Geobasisdaten der Niedersächsischen Vermessungs- und Katasterverwaltung\n©2019 LGLN\nPROJIS-Nr.: 0397153600\nUnterlage / Blatt-Nr.: Lageplan\nMaßstab: 1:10 000\nNeubau der B 1 OU Burgstemmen / Mahlerten",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:16:18.924Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 155
+  }
 }

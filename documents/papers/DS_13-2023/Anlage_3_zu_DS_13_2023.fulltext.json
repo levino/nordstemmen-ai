@@ -1,8 +1,18 @@
 {
   "file_hash": "3ba63ea11fdcefbaa668b72c50267ae622192906d4c24e73c1c3e6d611b23184",
   "filename": "Anlage_3_zu_DS_13_2023.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 3 zu DS\n13/2023\n\n[Plan einer städtischen Bebauung mit Straßen, Gebäudebereichen und Parzellen, mit einer rot umrandeten Markierung.]\n\nAuszug B-Plan Nr. 0303\n\"Barnten Süd II\", 1. Änderung\n/15"
+    }
+  ],
+  "full_text": "Anlage 3 zu DS\n13/2023\n\n[Plan einer städtischen Bebauung mit Straßen, Gebäudebereichen und Parzellen, mit einer rot umrandeten Markierung.]\n\nAuszug B-Plan Nr. 0303\n\"Barnten Süd II\", 1. Änderung\n/15",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:34:56.036Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 80
+  }
 }

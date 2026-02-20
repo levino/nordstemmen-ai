@@ -1,8 +1,18 @@
 {
   "file_hash": "ce3168534592f3f2d3f762cb7c21c00b437d5ac7a627089f294b82fcf846bc13",
   "filename": "Anlage_3_zu_DS_10_2023.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 3 zu\nDS 10/2023\n\nLegende\n- vorhandene Zuwegung\n- Neue Wegfläche\n- vorhandene Eingrünung\n- bestehende Anlagen\n- neue Anlagen\n- Wallanlage Eingrünung neu\n- Baugrenzen\n- Umwallung neu\n- öffentliche Verkehrsflächen\n- Regenwasser\n  Rückhaltebecken vorhanden\n- Regenwasser\n  Rückhaltebecken neu\n\n[Lageplan einer Biogasanlage mit verschiedenen Erweiterungen und Anlagen]\n\nProjekt\nÄnderung Flächennutzungsplan\nBauleitplanung\nBlatt Nr.\n\nBlattgröße:\nPlaner\nPlan:\nLageplan\nBauherr\nDatum\n22.11.2022\ngez.: KNE\nBauort\n\"Krummer Kamp\"\nMaßstab\n1:1000"
+    }
+  ],
+  "full_text": "Anlage 3 zu\nDS 10/2023\n\nLegende\n- vorhandene Zuwegung\n- Neue Wegfläche\n- vorhandene Eingrünung\n- bestehende Anlagen\n- neue Anlagen\n- Wallanlage Eingrünung neu\n- Baugrenzen\n- Umwallung neu\n- öffentliche Verkehrsflächen\n- Regenwasser\n  Rückhaltebecken vorhanden\n- Regenwasser\n  Rückhaltebecken neu\n\n[Lageplan einer Biogasanlage mit verschiedenen Erweiterungen und Anlagen]\n\nProjekt\nÄnderung Flächennutzungsplan\nBauleitplanung\nBlatt Nr.\n\nBlattgröße:\nPlaner\nPlan:\nLageplan\nBauherr\nDatum\n22.11.2022\ngez.: KNE\nBauort\n\"Krummer Kamp\"\nMaßstab\n1:1000",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:30:52.454Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 195
+  }
 }

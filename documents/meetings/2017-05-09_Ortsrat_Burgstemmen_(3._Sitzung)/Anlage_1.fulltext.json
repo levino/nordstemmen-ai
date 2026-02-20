@@ -1,8 +1,26 @@
 {
   "file_hash": "7a11a578e181ed446c639039db66cae35677763e339accbb8dcdf0d18f1b6e5b",
   "filename": "Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "- 1 -\nOR Burgstemmen, 09.05.2017\nAnlage I"
+    },
+    {
+      "page": 2,
+      "text": "-2-\nOR Burgstemmen\n04.05.2017\nAnlage I"
+    },
+    {
+      "page": 3,
+      "text": "- 3 -\nOR Bürgstemmen,\n09.05.2017\nAnlage I"
+    }
+  ],
+  "full_text": "- 1 -\nOR Burgstemmen, 09.05.2017\nAnlage I\n\n-2-\nOR Burgstemmen\n04.05.2017\nAnlage I\n\n- 3 -\nOR Bürgstemmen,\n09.05.2017\nAnlage I",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:00:15.712Z",
+    "total_input_tokens": 1118,
+    "total_output_tokens": 94
+  }
 }

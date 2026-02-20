@@ -1,8 +1,18 @@
 {
   "file_hash": "fcee3318f175d2ada3ad1e93b278ec0f361b4fbf3a34256699057c69b88a3df0",
   "filename": "Protokoll_OR_Gross_Escherde_Anlage_TOP_5.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "OR Groß Eschende\nAnlage TOP 5\n[Schwarz-Weiß-Luftbildausschnitt eines Wohngebiets mit Straßen und Gebäuden]\n13.2.18\n[Unterschrift]"
+    }
+  ],
+  "full_text": "OR Groß Eschende\nAnlage TOP 5\n[Schwarz-Weiß-Luftbildausschnitt eines Wohngebiets mit Straßen und Gebäuden]\n13.2.18\n[Unterschrift]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:00:58.115Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 54
+  }
 }

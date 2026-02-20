@@ -1,8 +1,18 @@
 {
   "file_hash": "5cdca778cf4fd753e2b4829ca6da210e8647ef8c96de8472ff6cc9f38607109a",
   "filename": "DS_77_2022_Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "DS 77/2022\nAnlage 1\n\nDie Ortsbürgermeister*in und der Ortsvorsteher\nder Gemeinde Nordstemmen\n\nBarnten, 15.06.2022\n\nGemeinde Nordstemmen\nBürgermeisterin Frau Dombrowski\nRathausstraße 3\n31171 Nordstemmen\n\nGemeinde Nordstemmen\n\n15. Juni 2022\n\nVerwendung von Ortsratsmitteln\n\nSehr geehrte Frau Bürgermeisterin,\n\ndie Ortsbürgermeister*in und der Ortsvorsteher der Gemeinde Nordstemmen beantragen, dass\ndie aus dem laufenden Haushaltsjahr nicht verauslagte Ortsratsmittel automatisch in das neue\nHaushaltsjahr übertragen werden können -ungeachtet der Höhe des Betrages- und nicht\nverfallen werden. Über eine zustimmende Antwort würden wir uns sehr freuen.\n\nIch bitte den Antrag zur Beratung an die Fraktionen weiterzuleiten und entsprechend dem Rat\nzur Entscheidung vorzulegen, des Weiteren bitte ich darum diesen Antrag in das\nRatsinformationssystem einzustellen.\n\nFür die Ortsbürgermeister*in und Ortsvorsteher\nDaniel Bartsch-Romanovski\nOrtsbürgermeister von Barnten"
+    }
+  ],
+  "full_text": "DS 77/2022\nAnlage 1\n\nDie Ortsbürgermeister*in und der Ortsvorsteher\nder Gemeinde Nordstemmen\n\nBarnten, 15.06.2022\n\nGemeinde Nordstemmen\nBürgermeisterin Frau Dombrowski\nRathausstraße 3\n31171 Nordstemmen\n\nGemeinde Nordstemmen\n\n15. Juni 2022\n\nVerwendung von Ortsratsmitteln\n\nSehr geehrte Frau Bürgermeisterin,\n\ndie Ortsbürgermeister*in und der Ortsvorsteher der Gemeinde Nordstemmen beantragen, dass\ndie aus dem laufenden Haushaltsjahr nicht verauslagte Ortsratsmittel automatisch in das neue\nHaushaltsjahr übertragen werden können -ungeachtet der Höhe des Betrages- und nicht\nverfallen werden. Über eine zustimmende Antwort würden wir uns sehr freuen.\n\nIch bitte den Antrag zur Beratung an die Fraktionen weiterzuleiten und entsprechend dem Rat\nzur Entscheidung vorzulegen, des Weiteren bitte ich darum diesen Antrag in das\nRatsinformationssystem einzustellen.\n\nFür die Ortsbürgermeister*in und Ortsvorsteher\nDaniel Bartsch-Romanovski\nOrtsbürgermeister von Barnten",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:21:25.441Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 269
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "2f1a062fb8ebeff0c8b8f78bbb65310b2706200b66e1cbbe0be9af11bd955c92",
   "filename": "Einzugsgebiet_Adensen.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Karte zeigt eine Region mit mehreren Orten, die durch Linien verbunden sind.]\nStand: 01.10.2021\nAdensen und\n| Klasse | Schüleranzahl | Hallerburg | Barnten | Burgst. | | | Gr. Escherde Heyersum | Kl. Escherde Nordst. | | Rössing | sonstiges |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n| 1 | 16 | 0 | 0 | 0 | 0 | 1 | 0 | 3 | 0 | 0 | 12 |\n| 2 | 21 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 19 |\n| 3 | 22 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 19 |\n| 4 | 18 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 16 |\n| 8 | 77 | 5 | 0 | 0 | 0 | 1 | 0 | 5 | 0 | 0 | 66 |\nsonstige: Pattensen (23), Elze (15), Coppenbrügge (3), Springe (6), Gronau (2), Alfeld (6), Eime (1), Hildesheim (1), Salzhemmendorf (1), Laatzen (1)\nSarstedt (3), Sibbesse (1), Hemmingen (1), Giesen (1), Duingen (1)"
+    }
+  ],
+  "full_text": "[Karte zeigt eine Region mit mehreren Orten, die durch Linien verbunden sind.]\nStand: 01.10.2021\nAdensen und\n| Klasse | Schüleranzahl | Hallerburg | Barnten | Burgst. | | | Gr. Escherde Heyersum | Kl. Escherde Nordst. | | Rössing | sonstiges |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n| 1 | 16 | 0 | 0 | 0 | 0 | 1 | 0 | 3 | 0 | 0 | 12 |\n| 2 | 21 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 19 |\n| 3 | 22 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 19 |\n| 4 | 18 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 16 |\n| 8 | 77 | 5 | 0 | 0 | 0 | 1 | 0 | 5 | 0 | 0 | 66 |\nsonstige: Pattensen (23), Elze (15), Coppenbrügge (3), Springe (6), Gronau (2), Alfeld (6), Eime (1), Hildesheim (1), Salzhemmendorf (1), Laatzen (1)\nSarstedt (3), Sibbesse (1), Hemmingen (1), Giesen (1), Duingen (1)",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:52.901Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 390
+  }
 }

@@ -1,8 +1,22 @@
 {
   "file_hash": "2a8fb8d2010800ff158aefdfc79fbc5986380e933a602b52c8b889565ed1a258",
   "filename": "Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "OR Nordstemmen\n07.09.2021\nAnlage 1\n\nBeschreibung der Kleinmaßnahmen rund um das Rathaus\nGemäß dem beiliegenden Plan aufgeführt von A bis G\n\nA: Rundbank (Halbkreis) unter dem Baum zum Verweilen\nNeugestaltung Rasenflächen mit blühenden Büschen\nB: Überarbeitung der Beete und Blühstreifen (optisch)\nUnterhalb des Banners zum Kreisel\nC: pflegeleichte Bepflanzung am Hang (Cotoneaster\nblühend mit Spireen ergänzt)\nD: Entfernung Steintrog vor Fluchtfenster\nE: Ersatz der Felgenspiralen gegen Fahrradbügel\nF: Weg und Bänke zum Verweilen und Ergänzung blühender\nBüsche auf der Grünfläche rechts\nG: Blühwiese (natur) mit Steintrog (Kräuter etc.) und großem\nInsektenhotel auf der Blühwiese\n\n• Der rot gepflasterte Platz wird freigehalten\n• Ergänzt um ggfs. weitere Anregungen des Ortsrates\n• Vorplanung einer Fahrradservicestation in möglicher\nKombination mit einer Ladestation für E-Bikes,\nStandort muss sonnig und gut sichtbar sein\n• Umsetzung sukzessive gemäß Wuchsperioden und\ngeplant in Eigenleistung durch Bauhofpersonal\n\nNordstemmen, 03.09.2021-FB 3 - Schwindt"
+    },
+    {
+      "page": 2,
+      "text": "[Karte mit Luftbildausschnitt und Umrisslinien von Gebäuden und Grundstücken, die das Rathaus von Nordstemmen und die umgebende Bebauung zeigen. Mehrere Fotos, beschriftet mit A bis G, sind auf der Karte platziert und zeigen Details der im Text beschriebenen Kleinmaßnahmen.]\nMaßstab: 1:390\nQuelle: Hintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung Niedersachsen | OpenStreetMap Contributors, Bundesamt für Kartographie und Geodäsie\nCopyright: ©2020 LGLN"
+    }
+  ],
+  "full_text": "OR Nordstemmen\n07.09.2021\nAnlage 1\n\nBeschreibung der Kleinmaßnahmen rund um das Rathaus\nGemäß dem beiliegenden Plan aufgeführt von A bis G\n\nA: Rundbank (Halbkreis) unter dem Baum zum Verweilen\nNeugestaltung Rasenflächen mit blühenden Büschen\nB: Überarbeitung der Beete und Blühstreifen (optisch)\nUnterhalb des Banners zum Kreisel\nC: pflegeleichte Bepflanzung am Hang (Cotoneaster\nblühend mit Spireen ergänzt)\nD: Entfernung Steintrog vor Fluchtfenster\nE: Ersatz der Felgenspiralen gegen Fahrradbügel\nF: Weg und Bänke zum Verweilen und Ergänzung blühender\nBüsche auf der Grünfläche rechts\nG: Blühwiese (natur) mit Steintrog (Kräuter etc.) und großem\nInsektenhotel auf der Blühwiese\n\n• Der rot gepflasterte Platz wird freigehalten\n• Ergänzt um ggfs. weitere Anregungen des Ortsrates\n• Vorplanung einer Fahrradservicestation in möglicher\nKombination mit einer Ladestation für E-Bikes,\nStandort muss sonnig und gut sichtbar sein\n• Umsetzung sukzessive gemäß Wuchsperioden und\ngeplant in Eigenleistung durch Bauhofpersonal\n\nNordstemmen, 03.09.2021-FB 3 - Schwindt\n\n[Karte mit Luftbildausschnitt und Umrisslinien von Gebäuden und Grundstücken, die das Rathaus von Nordstemmen und die umgebende Bebauung zeigen. Mehrere Fotos, beschriftet mit A bis G, sind auf der Karte platziert und zeigen Details der im Text beschriebenen Kleinmaßnahmen.]\nMaßstab: 1:390\nQuelle: Hintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung Niedersachsen | OpenStreetMap Contributors, Bundesamt für Kartographie und Geodäsie\nCopyright: ©2020 LGLN",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:19.797Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 476
+  }
 }

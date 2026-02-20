@@ -1,8 +1,18 @@
 {
   "file_hash": "d17ff8dbd1cd9c0633454d917aa2e13bbf0390bb1e592a6f3eb49703d28ff208",
   "filename": "Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 1\nAntrag während OR Sitzung bei\nTops erhalten 1122 NOACK\nSPD- Fraktion im Ortsrat Heyersum\nHeyersum, den 07.2.2024\nAntrag der SPD-Fraktion des Ortsrates in Heyersum an die Gemeinde\nNordstemmen:\nDie Fraktion beantragt die weiteren Vorgehensmaßnahmen bezüglich des\nDorfteiches bis zur nächsten Sitzung dem Ortsrat mitzuteilen.\nBegründung:\nBei dem Starkregen um Weihnachten, kam es zu einem Überlaufen des Dorfteiches.\nDabei wurde der Garten von Hof Bernd sowie das Haus am Dorfteich vom Wasser\nbedroht. Die Feuerwehr konnte durch Einsatz ihrer Pumpe, das Wasser in den Kanal\nableiten. Durch Baumaßnahmen am Überlauf, Erneuerung des Ablaufrohr, soll der\nAblauf des Wassers gesichert sein!? Der Ortsrat wurde hierzu leider nicht informiert.\nAuch ist der Dorfteich wieder sehr verschlammt und mit Schilf versehen.\nFrau Boje übernahm die Pflege des Dorfteichs Ehrenamtlich und ist 2023 aus\npersönlichen Gründen nicht oft zur Pflege gekommen.\nDas von Seiten der Gemeinde oft angebrachte Argument: Dann schütten wir den\nDorfteich einfach zu, geht aus Gründen der im Teich befindlichen Quellen nicht!\n2017 hat sich der damalige Ortsrat sehr intensiv mit dem Dorfteich befasst und auch\nfinanzielle Mittel zur Verfügung gestellt. LUFA-Gutachten, Abfischen\n(Fischereiverein) und Abpumpen (Ortsfeuerwehr).\nDie SPD-Fraktion hat ein sehr großes Interesse den Dorfteich zu erhalten, der zum\nhistorischen Dorfmittelpunkt gehört. Die Gemeinde wird gebeten, die notwendigen\nVorkehrungen zu treffen, ggfs. durch eine geeignete Art und Weise ein Überlaufen\ndes Dorfteiches zu verhindern. Eigentum verpflichtet! Auch würde es uns sehr\ninteressieren, wie der Zu- und Ablauf vom Dorfteich geregelt ist. Es gab bis jetzt\nkeine ausreichende Aussage von Seiten der Gemeinde.\nMit freundlichen Grüßen\nHeike Wälter\nFraktionsvorsitzende"
+    }
+  ],
+  "full_text": "Anlage 1\nAntrag während OR Sitzung bei\nTops erhalten 1122 NOACK\nSPD- Fraktion im Ortsrat Heyersum\nHeyersum, den 07.2.2024\nAntrag der SPD-Fraktion des Ortsrates in Heyersum an die Gemeinde\nNordstemmen:\nDie Fraktion beantragt die weiteren Vorgehensmaßnahmen bezüglich des\nDorfteiches bis zur nächsten Sitzung dem Ortsrat mitzuteilen.\nBegründung:\nBei dem Starkregen um Weihnachten, kam es zu einem Überlaufen des Dorfteiches.\nDabei wurde der Garten von Hof Bernd sowie das Haus am Dorfteich vom Wasser\nbedroht. Die Feuerwehr konnte durch Einsatz ihrer Pumpe, das Wasser in den Kanal\nableiten. Durch Baumaßnahmen am Überlauf, Erneuerung des Ablaufrohr, soll der\nAblauf des Wassers gesichert sein!? Der Ortsrat wurde hierzu leider nicht informiert.\nAuch ist der Dorfteich wieder sehr verschlammt und mit Schilf versehen.\nFrau Boje übernahm die Pflege des Dorfteichs Ehrenamtlich und ist 2023 aus\npersönlichen Gründen nicht oft zur Pflege gekommen.\nDas von Seiten der Gemeinde oft angebrachte Argument: Dann schütten wir den\nDorfteich einfach zu, geht aus Gründen der im Teich befindlichen Quellen nicht!\n2017 hat sich der damalige Ortsrat sehr intensiv mit dem Dorfteich befasst und auch\nfinanzielle Mittel zur Verfügung gestellt. LUFA-Gutachten, Abfischen\n(Fischereiverein) und Abpumpen (Ortsfeuerwehr).\nDie SPD-Fraktion hat ein sehr großes Interesse den Dorfteich zu erhalten, der zum\nhistorischen Dorfmittelpunkt gehört. Die Gemeinde wird gebeten, die notwendigen\nVorkehrungen zu treffen, ggfs. durch eine geeignete Art und Weise ein Überlaufen\ndes Dorfteiches zu verhindern. Eigentum verpflichtet! Auch würde es uns sehr\ninteressieren, wie der Zu- und Ablauf vom Dorfteich geregelt ist. Es gab bis jetzt\nkeine ausreichende Aussage von Seiten der Gemeinde.\nMit freundlichen Grüßen\nHeike Wälter\nFraktionsvorsitzende",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:05:38.838Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 499
+  }
 }

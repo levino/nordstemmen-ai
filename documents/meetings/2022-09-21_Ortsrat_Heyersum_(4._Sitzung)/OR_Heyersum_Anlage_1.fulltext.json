@@ -1,8 +1,18 @@
 {
   "file_hash": "1e86f466133f757e120d11fc353a58bf0de4a3cff1acf7f21f89132b7ee108d0",
   "filename": "OR_Heyersum_Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "A-lage\n1\nProtokoll OR Heyersum vom\n21.02.2022\n\nDipl.-Ing. Peter\nAppel\nHaferkamp 10\nAPPEL\n31171 Nordstemmen\nARCHITEKTUR\n05069-96 48 4\n\n13.09.2022\n\nLageplan\nHeyersum\n\nVorentwurf\nfür die Erweiterung der\nKindergärten in der\nGemeinde Nordstemmen\n\nHeyersum\nBurgstemmen\nBarnten\n\n[Der Plan zeigt den Lageplan einer Kindergartenanlage mit einer bestehenden Halle und potenziellen Erweiterungsflächen.]\n\n18"
+    }
+  ],
+  "full_text": "A-lage\n1\nProtokoll OR Heyersum vom\n21.02.2022\n\nDipl.-Ing. Peter\nAppel\nHaferkamp 10\nAPPEL\n31171 Nordstemmen\nARCHITEKTUR\n05069-96 48 4\n\n13.09.2022\n\nLageplan\nHeyersum\n\nVorentwurf\nfür die Erweiterung der\nKindergärten in der\nGemeinde Nordstemmen\n\nHeyersum\nBurgstemmen\nBarnten\n\n[Der Plan zeigt den Lageplan einer Kindergartenanlage mit einer bestehenden Halle und potenziellen Erweiterungsflächen.]\n\n18",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:04:31.809Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 157
+  }
 }

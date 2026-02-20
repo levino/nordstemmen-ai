@@ -1,8 +1,22 @@
 {
   "file_hash": "277d0d1952df55324912b8e00e939b42e40aabaf9be91455c26d30b113ee90cd",
   "filename": "Anlage_6.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Karte, die die Planung von Konzentrationsflächen für Windenergie und Landwirtschaft zeigt, mit einer Hervorhebung dieser Flächen in Orange und gestrichelten Linien für Gemeindegrenzen.]\nANLAGE 6.1\nzur DS 79/2016\n\nPLANZEICHENERKLÄRUNG\n1. Art der baulichen Nutzung\nSO\nSondergebiete\nZweckbestimmung:\nWindenergienutzung und Landwirtschaft\n2. Sonstige Planzeichen\nGrenze der räumlichen Geltungsbereiche\nder 21. Änderung des Flächennutzungsplans\nGrenze des Gemeindegebiets\n\nGemeinde Nordstemmen Flächennutzungsplan\n21. Änderung\n(Konzentrationsflächen Windenergie)\nPlanungsbüro SRL Weber Spinozastraße 1 30625 Hannover\nTelefon: (0511) 85 65 8-0 Fax: (0511) 85 65 8-99 eMail: email@srl-weber.de\nMaßstab 1:10.000"
+    },
+    {
+      "page": 2,
+      "text": "[Karte, die die Planung von Konzentrationsflächen für Windenergie und Landwirtschaft zeigt, mit einer Hervorhebung dieser Flächen in Orange und gestrichelten Linien für Gemeindegrenzen, im Bereich von Rössing.]\nANLAGE 6.2\nzur DS 79/2016\n\nPLANZEICHENERKLÄRUNG\n1. Art der baulichen Nutzung\nSO\nSondergebiete\nZweckbestimmung:\nWindenergienutzung und Landwirtschaft\n2. Sonstige Planzeichen\nGrenze der räumlichen Geltungsbereiche\nder 21. Änderung des Flächennutzungsplans\nGrenze des Gemeindegebiets\n\nGemeinde Nordstemmen Flächennutzungsplan\n21. Änderung\n(Konzentrationsflächen Windenergie)\nPlanungsbüro SRL Weber Spinozastraße 1 30625 Hannover\nTelefon: (0511) 85 65 8-0 Fax: (0511) 85 65 8-99 eMail: email@srl-weber.de\nMaßstab 1:10.000"
+    }
+  ],
+  "full_text": "[Karte, die die Planung von Konzentrationsflächen für Windenergie und Landwirtschaft zeigt, mit einer Hervorhebung dieser Flächen in Orange und gestrichelten Linien für Gemeindegrenzen.]\nANLAGE 6.1\nzur DS 79/2016\n\nPLANZEICHENERKLÄRUNG\n1. Art der baulichen Nutzung\nSO\nSondergebiete\nZweckbestimmung:\nWindenergienutzung und Landwirtschaft\n2. Sonstige Planzeichen\nGrenze der räumlichen Geltungsbereiche\nder 21. Änderung des Flächennutzungsplans\nGrenze des Gemeindegebiets\n\nGemeinde Nordstemmen Flächennutzungsplan\n21. Änderung\n(Konzentrationsflächen Windenergie)\nPlanungsbüro SRL Weber Spinozastraße 1 30625 Hannover\nTelefon: (0511) 85 65 8-0 Fax: (0511) 85 65 8-99 eMail: email@srl-weber.de\nMaßstab 1:10.000\n\n[Karte, die die Planung von Konzentrationsflächen für Windenergie und Landwirtschaft zeigt, mit einer Hervorhebung dieser Flächen in Orange und gestrichelten Linien für Gemeindegrenzen, im Bereich von Rössing.]\nANLAGE 6.2\nzur DS 79/2016\n\nPLANZEICHENERKLÄRUNG\n1. Art der baulichen Nutzung\nSO\nSondergebiete\nZweckbestimmung:\nWindenergienutzung und Landwirtschaft\n2. Sonstige Planzeichen\nGrenze der räumlichen Geltungsbereiche\nder 21. Änderung des Flächennutzungsplans\nGrenze des Gemeindegebiets\n\nGemeinde Nordstemmen Flächennutzungsplan\n21. Änderung\n(Konzentrationsflächen Windenergie)\nPlanungsbüro SRL Weber Spinozastraße 1 30625 Hannover\nTelefon: (0511) 85 65 8-0 Fax: (0511) 85 65 8-99 eMail: email@srl-weber.de\nMaßstab 1:10.000",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:22:19.027Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 520
+  }
 }

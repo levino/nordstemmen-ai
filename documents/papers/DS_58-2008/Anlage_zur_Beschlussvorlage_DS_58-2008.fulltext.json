@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage 2"
+      "text": "N\n\n[Der Plan zeigt einen Bebauungsplan für einen ÖPNV-Haltepunkt. Er zeigt eine längliche Fläche, die entlang einer Linie (vermutlich einer Bahnstrecke oder Straße) verläuft, umgeben von Flurstücken mit Nummern und Gebäuden, sowie einen Maßstab und einen Nordpfeil.]\n200\n2\n10 20 30 40 50 m\n\nGemeinde Nordstemmen\nOrtschaft Nordstemmen\n\nBebauungsplan Nr. 0129 A\n\"ÖPNV- Haltepunkt\nBahnhof Nordstemmen II\"\n\nM. 1:500\n\n2. Öffentliche Auslegung\n\nPlanungsbüro SRL Weber Spinozastraße 1 30625 Hannover\nTel. 0511/8 56 58-0 Fax 0511/8 56 58-99 – eMail email@srl-weber.de\n\nAnlage 2"
     }
   ],
-  "full_text": "Anlage 2"
+  "full_text": "N\n\n[Der Plan zeigt einen Bebauungsplan für einen ÖPNV-Haltepunkt. Er zeigt eine längliche Fläche, die entlang einer Linie (vermutlich einer Bahnstrecke oder Straße) verläuft, umgeben von Flurstücken mit Nummern und Gebäuden, sowie einen Maßstab und einen Nordpfeil.]\n200\n2\n10 20 30 40 50 m\n\nGemeinde Nordstemmen\nOrtschaft Nordstemmen\n\nBebauungsplan Nr. 0129 A\n\"ÖPNV- Haltepunkt\nBahnhof Nordstemmen II\"\n\nM. 1:500\n\n2. Öffentliche Auslegung\n\nPlanungsbüro SRL Weber Spinozastraße 1 30625 Hannover\nTel. 0511/8 56 58-0 Fax 0511/8 56 58-99 – eMail email@srl-weber.de\n\nAnlage 2",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:11:37.259Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 230
+  }
 }

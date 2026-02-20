@@ -1,8 +1,18 @@
 {
   "file_hash": "24714cd10757fdd592cfd370ac67d28fe9ff34fc9bf7ae2cc94339cf0faf53d5",
   "filename": "Anlage_DS_69-2013.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Eine topografische Karte der Region Hildesheim, die Standorte von Bergwerksanlagen (Schächte), Hafenanlagen und Bahntrassen darstellt, ergänzt durch eine Legende, die diese Punkte und deren Funktionen erläutert.]\nAnlage 1 zu\nDS 24/2015\n\nGlückauf-Sarstedt (GS):\n(Sarstedt)\nSeilfahrtschacht zur\nPersonenförderung\n\nFürstenhall (FH):\n(Ahrbergen) Wetterschacht\nzur Frischluftversorgung +\nMaterialschacht\n\nRössing-Barnten (RB):\n(Nordstemmen)\nWetterschacht zur\nFrischluftversorgung\n\nSiegfried Giesen (SG):\n(Giesen)\nFörderschacht +\nFabrikanlage +\nLogistik\n\nHafen Harsum:\n(Harsum)\nHafenanlage → Umschlag auf\ndie Wasserstraße\n\nÜbergabebahnhof:\n(Harsum)\nAnnahme + Übergabe\nBahnwagen an DB\n\nQuelle: Auszug aus den Geobasisdaten der Niedersächsischen\nVermessungs- und Katasterverwaltung (LGLN, 2014) LGN"
+    }
+  ],
+  "full_text": "[Eine topografische Karte der Region Hildesheim, die Standorte von Bergwerksanlagen (Schächte), Hafenanlagen und Bahntrassen darstellt, ergänzt durch eine Legende, die diese Punkte und deren Funktionen erläutert.]\nAnlage 1 zu\nDS 24/2015\n\nGlückauf-Sarstedt (GS):\n(Sarstedt)\nSeilfahrtschacht zur\nPersonenförderung\n\nFürstenhall (FH):\n(Ahrbergen) Wetterschacht\nzur Frischluftversorgung +\nMaterialschacht\n\nRössing-Barnten (RB):\n(Nordstemmen)\nWetterschacht zur\nFrischluftversorgung\n\nSiegfried Giesen (SG):\n(Giesen)\nFörderschacht +\nFabrikanlage +\nLogistik\n\nHafen Harsum:\n(Harsum)\nHafenanlage → Umschlag auf\ndie Wasserstraße\n\nÜbergabebahnhof:\n(Harsum)\nAnnahme + Übergabe\nBahnwagen an DB\n\nQuelle: Auszug aus den Geobasisdaten der Niedersächsischen\nVermessungs- und Katasterverwaltung (LGLN, 2014) LGN",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:49:31.123Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 271
+  }
 }

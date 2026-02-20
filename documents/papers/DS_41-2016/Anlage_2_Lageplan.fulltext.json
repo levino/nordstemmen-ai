@@ -1,8 +1,18 @@
 {
   "file_hash": "630d6958689855ab005d35df1673799e094c986efa75d70c260008b7e321cdbe",
   "filename": "Anlage_2_Lageplan.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 2 DS 41/2016\n\n| Bezeichnung Potenzialfläche | Pattensen-Springe 01 |\n| :-------------------------- | :------------------- |\n| Stadt-/Gemeindegebiet       | Pattensen und Springe |\n\n[Karte zeigt eine Potenzialfläche für Windenergienutzung mit geografischen Merkmalen und eingezeichneten Zonen für Windenergienutzung und Ausschlussbereiche.]\n\n| | Potenzialfläche Windenergienutzung |\n| :-: | :-------------------------------------------------------------------------------------- |\n| | Keine Eignung für die Festlegung „Vorranggebiet Windenergienutzung\" (entfallende Potenzialfläche bzw. Potenzialflächenbereich) |\n| | Festlegung „Vorranggebiet Windenergienutzung\" |\n\nKarte 2b: Potenzialfläche nach Abwägung relevanter Belange (vgl. 2.7)\n\nAnhang zu 4.4.3 (Gebietsblätter Windenergie), Stand: Februar 2016\n253"
+    }
+  ],
+  "full_text": "Anlage 2 DS 41/2016\n\n| Bezeichnung Potenzialfläche | Pattensen-Springe 01 |\n| :-------------------------- | :------------------- |\n| Stadt-/Gemeindegebiet       | Pattensen und Springe |\n\n[Karte zeigt eine Potenzialfläche für Windenergienutzung mit geografischen Merkmalen und eingezeichneten Zonen für Windenergienutzung und Ausschlussbereiche.]\n\n| | Potenzialfläche Windenergienutzung |\n| :-: | :-------------------------------------------------------------------------------------- |\n| | Keine Eignung für die Festlegung „Vorranggebiet Windenergienutzung\" (entfallende Potenzialfläche bzw. Potenzialflächenbereich) |\n| | Festlegung „Vorranggebiet Windenergienutzung\" |\n\nKarte 2b: Potenzialfläche nach Abwägung relevanter Belange (vgl. 2.7)\n\nAnhang zu 4.4.3 (Gebietsblätter Windenergie), Stand: Februar 2016\n253",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:02:27.032Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 230
+  }
 }

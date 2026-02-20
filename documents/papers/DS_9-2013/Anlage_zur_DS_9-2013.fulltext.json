@@ -1,8 +1,18 @@
 {
   "file_hash": "f8921737280fc08191211580f2f73bc94e3d4e7130d3e8b534465fd4309324ca",
   "filename": "Anlage_zur_DS_9-2013.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Karte zeigt einen Ausschnitt aus einem Wohngebiet mit Straßen, Gebäuden und Flurstücken. Einige Bereiche sind farblich hervorgehoben.]\n22\n20\n12\n12A\nTöpferweg\n5\n5A 5B 5C 5D 5E 5F\n13A\n11C 11B\n13\n6\n11\n9A\n11A\n10\nWeg\n6)\n田\nΠ\n4C\n4B\n4A\n8C\n8B\n8A\n6C\n6D\n6A\n6B\n7A\nBöttcherstraße\nV\nBöttcherstraße\n1:669\n©2013\nLGLN\nHintergrund: Auszug aus den Geobasisdaten der Niedersächsischen Vermessungs- und Katasterverwaltung"
+    }
+  ],
+  "full_text": "[Karte zeigt einen Ausschnitt aus einem Wohngebiet mit Straßen, Gebäuden und Flurstücken. Einige Bereiche sind farblich hervorgehoben.]\n22\n20\n12\n12A\nTöpferweg\n5\n5A 5B 5C 5D 5E 5F\n13A\n11C 11B\n13\n6\n11\n9A\n11A\n10\nWeg\n6)\n田\nΠ\n4C\n4B\n4A\n8C\n8B\n8A\n6C\n6D\n6A\n6B\n7A\nBöttcherstraße\nV\nBöttcherstraße\n1:669\n©2013\nLGLN\nHintergrund: Auszug aus den Geobasisdaten der Niedersächsischen Vermessungs- und Katasterverwaltung",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:29:37.431Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 201
+  }
 }

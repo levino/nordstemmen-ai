@@ -1,8 +1,18 @@
 {
   "file_hash": "95e5ea032e91b07315df727f6888c93a9e11cc82c46eb41e24b93d1a98efae0e",
   "filename": "Anlage_zur_DS_66-2024.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Lageplan für den Neubau der B1 Ortsumgehung Burgstemmen / Mahlerten mit verschiedenen Korridorvarianten auf topografischer Karte.]\nNeubau der\nB 1 OU Burgstemmen / Mahlerten\nUnterlage / Blatt-Nr.:\nLageplan\nPROJIS-Nr.: 0397153600\nMaßstab: 1:10 000\nPlanungsbüro: Straßenbauverwaltung des Landes Niedersachsen\nPlanungsbüro: LGLN"
+    }
+  ],
+  "full_text": "[Lageplan für den Neubau der B1 Ortsumgehung Burgstemmen / Mahlerten mit verschiedenen Korridorvarianten auf topografischer Karte.]\nNeubau der\nB 1 OU Burgstemmen / Mahlerten\nUnterlage / Blatt-Nr.:\nLageplan\nPROJIS-Nr.: 0397153600\nMaßstab: 1:10 000\nPlanungsbüro: Straßenbauverwaltung des Landes Niedersachsen\nPlanungsbüro: LGLN",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:16:27.594Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 124
+  }
 }

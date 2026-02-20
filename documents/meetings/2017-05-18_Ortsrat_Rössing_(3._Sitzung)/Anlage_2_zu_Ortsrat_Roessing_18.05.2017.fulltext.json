@@ -1,8 +1,18 @@
 {
   "file_hash": "6fc865eda8d1753be08ffb6c9387cd749df90ff907ae5c5c05a3d4695284e7d5",
   "filename": "Anlage_2_zu_Ortsrat_Roessing_18.05.2017.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Stadtplan, der Straßen, Gebäude und Flurstücke zeigt, mit eingezeichneten Verkehrszeichen und handschriftlichen Anmerkungen zu Verkehrsregelungen.]\n\nE 555636 m\nN 5781767 m\n\nAnlage 2\n\nVZ 274 = zulässige\nHöchstgeschwindijkait\n\nVZ 286 = eingeschränhtes\nHalteverbot A-M-E\n\n1:1.500\nE 555260 m\nHintergrund: Auszug aus den Geobasisdaten der LGLN\nN 5781506 m"
+    }
+  ],
+  "full_text": "[Stadtplan, der Straßen, Gebäude und Flurstücke zeigt, mit eingezeichneten Verkehrszeichen und handschriftlichen Anmerkungen zu Verkehrsregelungen.]\n\nE 555636 m\nN 5781767 m\n\nAnlage 2\n\nVZ 274 = zulässige\nHöchstgeschwindijkait\n\nVZ 286 = eingeschränhtes\nHalteverbot A-M-E\n\n1:1.500\nE 555260 m\nHintergrund: Auszug aus den Geobasisdaten der LGLN\nN 5781506 m",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:00:28.322Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 148
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "12b4fd0986d41560a6cee7966371fc746c1f2d7508eff69a6a733e19b1700ba2",
   "filename": "Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage. 2\nEs hat auch Diskussionen um die Geschwindigkeit auf der B 1 in Richtung\nHildesheim gegeben.\nDazu hier folgender erklärender Sachstand:\nAuf Intention des Straßenbaulastträgers hin, wird die Geschwindigkeit\nnicht auf 50 km/h reduziert, sondern verbleibt (wie vor dem\nVerkehrsversuch) bei 70 km/h im Bereich der Ausfahrt Klein Escherde.\n\nBegründung:\nDie \"Gewöhnungsphase\" für die ausfahrenden Kfz aus Klein Escherde ist\nzeitlich lang gewählt worden. Nunmehr kennen alle Bewohner aus Klein\nEscherde die Einbiegesituation. Durchgangsverkehr in Klein Escherde\nfindet nicht statt, so dass hier ein begrenzter Kfz Kreis mit der\nSituation konfrontiert wird.\n\nDie \"Einbiegespur\" ist lediglich ein Angebot. Es ist nicht zwingend\nvorgeschrieben, diese zu nutzen.\n\nDas Auffahren auf die B 1 aus Klein Escherde heraus, hat vor dem\nVersuch bei Tempo 70 auch immer geklappt. Im Berufsverkehr kam es jedoch\nzu langen Wartezeiten, was nunmehr durch die neu geschaffene Spur\nentschärft werden soll.\n\nDie Verkehrsbehörde schließt sich dem Vorschlag des NLStBV an, und\nordnet keine weitere Geschwindigkeitsreduzierung (hier 50 km/h) an. Der\ndauerhafte Eingriff in den fließenden Verkehr auf der B 1 mit eine\nReduzierung ist in Abwägung mit den ausfahrenden Pkw aus Klein Escherde\nzu bringen.\n\nAuf Grundlage des § 45 Abs. 9 ist die besondere Gefahrenlage für die\nausfahrenden Pkw aus Klein Escherde nicht vorhanden und somit sind\nderzeit keine weiteren verkehrsbehördlichen Beschränkungen für den B 1\nVerkehr anordnungsfähig.\n\nIch bitte darum, die genannten Maßnahmen wie beschrieben umzusetzen\nbzw. Anzupassen"
+    }
+  ],
+  "full_text": "Anlage. 2\nEs hat auch Diskussionen um die Geschwindigkeit auf der B 1 in Richtung\nHildesheim gegeben.\nDazu hier folgender erklärender Sachstand:\nAuf Intention des Straßenbaulastträgers hin, wird die Geschwindigkeit\nnicht auf 50 km/h reduziert, sondern verbleibt (wie vor dem\nVerkehrsversuch) bei 70 km/h im Bereich der Ausfahrt Klein Escherde.\n\nBegründung:\nDie \"Gewöhnungsphase\" für die ausfahrenden Kfz aus Klein Escherde ist\nzeitlich lang gewählt worden. Nunmehr kennen alle Bewohner aus Klein\nEscherde die Einbiegesituation. Durchgangsverkehr in Klein Escherde\nfindet nicht statt, so dass hier ein begrenzter Kfz Kreis mit der\nSituation konfrontiert wird.\n\nDie \"Einbiegespur\" ist lediglich ein Angebot. Es ist nicht zwingend\nvorgeschrieben, diese zu nutzen.\n\nDas Auffahren auf die B 1 aus Klein Escherde heraus, hat vor dem\nVersuch bei Tempo 70 auch immer geklappt. Im Berufsverkehr kam es jedoch\nzu langen Wartezeiten, was nunmehr durch die neu geschaffene Spur\nentschärft werden soll.\n\nDie Verkehrsbehörde schließt sich dem Vorschlag des NLStBV an, und\nordnet keine weitere Geschwindigkeitsreduzierung (hier 50 km/h) an. Der\ndauerhafte Eingriff in den fließenden Verkehr auf der B 1 mit eine\nReduzierung ist in Abwägung mit den ausfahrenden Pkw aus Klein Escherde\nzu bringen.\n\nAuf Grundlage des § 45 Abs. 9 ist die besondere Gefahrenlage für die\nausfahrenden Pkw aus Klein Escherde nicht vorhanden und somit sind\nderzeit keine weiteren verkehrsbehördlichen Beschränkungen für den B 1\nVerkehr anordnungsfähig.\n\nIch bitte darum, die genannten Maßnahmen wie beschrieben umzusetzen\nbzw. Anzupassen",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:05:30.955Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 450
+  }
 }

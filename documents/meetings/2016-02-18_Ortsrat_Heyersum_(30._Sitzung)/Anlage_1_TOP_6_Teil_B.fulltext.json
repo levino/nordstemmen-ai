@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Sportplatz / Auf der Leege\n\n"
+      "text": "Sportplatz / Auf der Leege\n[Foto eines schneebedeckten Geländes mit Bäumen im Hintergrund, das eine rot umrandete, dreieckige Fläche zeigt.]"
     }
   ],
-  "full_text": "Sportplatz / Auf der Leege\n\n"
+  "full_text": "Sportplatz / Auf der Leege\n[Foto eines schneebedeckten Geländes mit Bäumen im Hintergrund, das eine rot umrandete, dreieckige Fläche zeigt.]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:57:07.196Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 44
+  }
 }

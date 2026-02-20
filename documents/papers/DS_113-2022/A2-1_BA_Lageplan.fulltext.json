@@ -1,8 +1,18 @@
 {
   "file_hash": "7a4ca876aaf2394c2e9157c99ca2f66dbf2336b0e9c971b536dea75235337837",
   "filename": "A2-1_BA_Lageplan.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Lageplan zeigt die Erweiterung eines Kindergartens mit Bestandsgebäuden, Anbauflächen, Freiflächen, Zufahrten und umliegender Bebauung.]\nKita Barnten\n\nLEGENDE\nBESTAND\nABBRUCH\nNEUBA\n\nDIPL.-ING. PETER APPEL\nHAFERKAMP 10\n31171 NORDSTEMMEN\nPETER APPEL\n0 5069/964 84\n0 5069/964 86\nARCHITEKT\ninfo@appel-architektur.de\nwww.appel-architektur.de\n\n| BAUVORHABEN: | Erweiterung der Kindergärten Nordstemmen |\n|--------------|------------------------------------------|\n| OBJEKT:      | Glückaufstraße 11                        |\n|              | 31171 Nordstemmen/OT Barnten             |\n\n| BAUHERR/IN:    | Gemeinde Nordstemmen |\n|----------------|----------------------|\n| EIGENTÜMER/IN: | Rathausstraße 3      |\n|                | 31171 Nordstemmen    |\n\n| BAUTEIL:     | Lageplan    |\n|--------------|-------------|\n|              | Vorentwurf  |\n| GEBÄUDETEIL: | MABSTAB:    |\n|              | M 1:500     |\n\n| DATUM:       | BEARBEITER   | BAUHERR/IN: | ARCHITEKT: | PLAN-NR:    |\n|--------------|--------------|-------------|------------|-------------|\n| 14.11.2022   | J.-P. Schäfer |             |            | - 1.0 V/a - |\n\nDifferenz des Grenzabstandes zwischen Lageplan und gemessenen Werten!\nPrüfung der Grenzpunkte erforderlich."
+    }
+  ],
+  "full_text": "[Lageplan zeigt die Erweiterung eines Kindergartens mit Bestandsgebäuden, Anbauflächen, Freiflächen, Zufahrten und umliegender Bebauung.]\nKita Barnten\n\nLEGENDE\nBESTAND\nABBRUCH\nNEUBA\n\nDIPL.-ING. PETER APPEL\nHAFERKAMP 10\n31171 NORDSTEMMEN\nPETER APPEL\n0 5069/964 84\n0 5069/964 86\nARCHITEKT\ninfo@appel-architektur.de\nwww.appel-architektur.de\n\n| BAUVORHABEN: | Erweiterung der Kindergärten Nordstemmen |\n|--------------|------------------------------------------|\n| OBJEKT:      | Glückaufstraße 11                        |\n|              | 31171 Nordstemmen/OT Barnten             |\n\n| BAUHERR/IN:    | Gemeinde Nordstemmen |\n|----------------|----------------------|\n| EIGENTÜMER/IN: | Rathausstraße 3      |\n|                | 31171 Nordstemmen    |\n\n| BAUTEIL:     | Lageplan    |\n|--------------|-------------|\n|              | Vorentwurf  |\n| GEBÄUDETEIL: | MABSTAB:    |\n|              | M 1:500     |\n\n| DATUM:       | BEARBEITER   | BAUHERR/IN: | ARCHITEKT: | PLAN-NR:    |\n|--------------|--------------|-------------|------------|-------------|\n| 14.11.2022   | J.-P. Schäfer |             |            | - 1.0 V/a - |\n\nDifferenz des Grenzabstandes zwischen Lageplan und gemessenen Werten!\nPrüfung der Grenzpunkte erforderlich.",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:33:07.475Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 425
+  }
 }

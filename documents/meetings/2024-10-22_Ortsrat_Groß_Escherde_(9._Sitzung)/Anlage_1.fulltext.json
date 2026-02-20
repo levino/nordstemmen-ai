@@ -1,8 +1,18 @@
 {
   "file_hash": "afb2bec9d20ffc1c76c63ac064f05f853d0a12aeef013ad78e312bfcea70865f",
   "filename": "Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 1\nAufruf um finanzielle Unterstützung der Anlage des Mahnkreuzes an der B 1\n\nUm das Mahnkreuz auf dem Mühlenberg bei Heyersum in der Gemeinde Nordstemmen ist\ndringend eine neue Pflasterung erforderlich. Die bisher dort noch vorhandenen Platten sind derart\nbeschädigt bzw. uneben, dass dringend eine Erneuerung, noch in diesem Herbst, notwendig ist.\n\nDie Anlage fragt seit 1961 alle Menschen nach der Bedeutung, die entlang der Bundesstraße 1\nfahren.\n\nDiese Kreuz geht Heimatvertriebene und Heimatverbliebene der damaligen Zeit etwas an, also uns\nalle, weil wir gemeinsam für die Erinnerung an die deutschen Schicksale verantwortlich sind.\n\nDie vorhandenen Finanzierungsmittel, auch die Zusagen von Körperschaften, reichen leider nicht\naus, um die zu erwartenden Kosten decken zu können.\n\nWir bitten um Ihre baldige finanzielle Hilfe und Überweisung auf das Konto des Kreisverbandes\nAlfeld des Bundes der Vertriebenen bei der Sparkasse Hildesheim-Goslar-Peine\nKontonummer DE48 2595 0130 0010 0396 18 Stichwort Mahnkreuz\n\nSollte uns eine größere Spende erreichen, (über 300 €) bitten wir zuvor, wegen der Bescheinigung\num Kontakt.\n\nWir, die Verantwortlichen, danken Ihnen von ganzem Herzen.\n\nKarl-Heinz Hoffmann, Herward Gloeden, Peter Winkler, Hans-\nJürgen Degner, Kurt Kunze.\n\nFalls Sie Fragen haben, wenden Sie sich bitte an:\n\nHerward Gloeden Tel. 05065 1598\nMail: herward-gloeden@t-online.de oder\nPeter Winkler Tel. 05069 2216 Mail PeterKWinkler@web.de\n\n[Abbildung: Zwei Bilder. Links eine Ansicht der bestehenden Pflasterung, rechts das Mahnkreuz mit der neuen Pflasterung.]\n\nderzeitige Plattenanlage\nGesamtanlage"
+    }
+  ],
+  "full_text": "Anlage 1\nAufruf um finanzielle Unterstützung der Anlage des Mahnkreuzes an der B 1\n\nUm das Mahnkreuz auf dem Mühlenberg bei Heyersum in der Gemeinde Nordstemmen ist\ndringend eine neue Pflasterung erforderlich. Die bisher dort noch vorhandenen Platten sind derart\nbeschädigt bzw. uneben, dass dringend eine Erneuerung, noch in diesem Herbst, notwendig ist.\n\nDie Anlage fragt seit 1961 alle Menschen nach der Bedeutung, die entlang der Bundesstraße 1\nfahren.\n\nDiese Kreuz geht Heimatvertriebene und Heimatverbliebene der damaligen Zeit etwas an, also uns\nalle, weil wir gemeinsam für die Erinnerung an die deutschen Schicksale verantwortlich sind.\n\nDie vorhandenen Finanzierungsmittel, auch die Zusagen von Körperschaften, reichen leider nicht\naus, um die zu erwartenden Kosten decken zu können.\n\nWir bitten um Ihre baldige finanzielle Hilfe und Überweisung auf das Konto des Kreisverbandes\nAlfeld des Bundes der Vertriebenen bei der Sparkasse Hildesheim-Goslar-Peine\nKontonummer DE48 2595 0130 0010 0396 18 Stichwort Mahnkreuz\n\nSollte uns eine größere Spende erreichen, (über 300 €) bitten wir zuvor, wegen der Bescheinigung\num Kontakt.\n\nWir, die Verantwortlichen, danken Ihnen von ganzem Herzen.\n\nKarl-Heinz Hoffmann, Herward Gloeden, Peter Winkler, Hans-\nJürgen Degner, Kurt Kunze.\n\nFalls Sie Fragen haben, wenden Sie sich bitte an:\n\nHerward Gloeden Tel. 05065 1598\nMail: herward-gloeden@t-online.de oder\nPeter Winkler Tel. 05069 2216 Mail PeterKWinkler@web.de\n\n[Abbildung: Zwei Bilder. Links eine Ansicht der bestehenden Pflasterung, rechts das Mahnkreuz mit der neuen Pflasterung.]\n\nderzeitige Plattenanlage\nGesamtanlage",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:06:02.227Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 461
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "a0d4d6ef1f4d4ac2f2ec181d76d56e18484eb3709a00e6e3ec0826ffe9cf5442",
   "filename": "Anlage_zur_Beschlussvorlage_DS_12-2012.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Verteilung der Ortsratsmittel im Haushaltsjahr 2012\n\n| Ortsrat         | Grundbetrag € | Einwohnerbetrag € | Gesamtbetrag € | Bemerkungnen |\n| :-------------- | :------------ | :---------------- | :------------- | :----------- |\n| Adensen         | 400,00        | 1.016,00          | 1.416,00       |              |\n| Barnten         | 400,00        | 990,00            | 1.390,00       |              |\n| Burgstemmen     | 400,00        | 1.144,00          | 1.544,00       |              |\n| Groß Escherde   | 525,00        | 649,00            | 1.174,00       |              |\n| Hallerburg      | 400,00        | 0,00              | 400,00         |              |\n| Heyersum        | 400,00        | 1.032,00          | 1.432,00       |              |\n| Klein Escherde  | 575,00        | 528,00            | 1.103,00       |              |\n| Mahlerten       | 525,00        | 635,00            | 1.160,00       |              |\n| Nordstemmen     | 400,00        | 4.945,00          | 5.345,00       |              |\n| Rössing         | 400,00        | 1.770,00          | 2.170,00       |              |\n| **Gesamt**      | **4.425,00**  | **12.709,00**     | **17.134,00**  |              |\n\nDer Einwohnerbetrag, der neben dem Grundbetrag zusätzlich gewährt wird, beträgt 1,00 € je Einwohnerin und Einwohner nach der eigenen\nEinwohnerfortschreibung der Gemeinde zum 30. 06. des vorangegangenen Haushaltsjahres.\nLediglich die Ortschaft Hallerburg erhält keinen zusätzlichen Einwohnerbetrag."
+    }
+  ],
+  "full_text": "Verteilung der Ortsratsmittel im Haushaltsjahr 2012\n\n| Ortsrat         | Grundbetrag € | Einwohnerbetrag € | Gesamtbetrag € | Bemerkungnen |\n| :-------------- | :------------ | :---------------- | :------------- | :----------- |\n| Adensen         | 400,00        | 1.016,00          | 1.416,00       |              |\n| Barnten         | 400,00        | 990,00            | 1.390,00       |              |\n| Burgstemmen     | 400,00        | 1.144,00          | 1.544,00       |              |\n| Groß Escherde   | 525,00        | 649,00            | 1.174,00       |              |\n| Hallerburg      | 400,00        | 0,00              | 400,00         |              |\n| Heyersum        | 400,00        | 1.032,00          | 1.432,00       |              |\n| Klein Escherde  | 575,00        | 528,00            | 1.103,00       |              |\n| Mahlerten       | 525,00        | 635,00            | 1.160,00       |              |\n| Nordstemmen     | 400,00        | 4.945,00          | 5.345,00       |              |\n| Rössing         | 400,00        | 1.770,00          | 2.170,00       |              |\n| **Gesamt**      | **4.425,00**  | **12.709,00**     | **17.134,00**  |              |\n\nDer Einwohnerbetrag, der neben dem Grundbetrag zusätzlich gewährt wird, beträgt 1,00 € je Einwohnerin und Einwohner nach der eigenen\nEinwohnerfortschreibung der Gemeinde zum 30. 06. des vorangegangenen Haushaltsjahres.\nLediglich die Ortschaft Hallerburg erhält keinen zusätzlichen Einwohnerbetrag.",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:33:10.907Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 573
+  }
 }

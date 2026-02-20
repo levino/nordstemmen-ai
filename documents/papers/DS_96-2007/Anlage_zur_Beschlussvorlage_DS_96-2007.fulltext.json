@@ -3,9 +3,24 @@
   "filename": "Anlage_zur_Beschlussvorlage_DS_96-2007.pdf",
   "pages": [
     {
+      "page": 1,
+      "text": "Anlage 1 zur Begründung\n\n[Eine Karte, die einen Bebauungsentwurf für eine Siedlung mit Straßen, Parzellen, Grünflächen und bestehenden Gebäuden zeigt.]\n\nBEBAUUNGSENTWURF\nzum Bebauungsplan Nr. 0506 \"Gr.Escherde - Ost\"\n\nFriedhof\nAn Thie\nSchulstraße\nKleingarten\nVirg\nSt. Johannes-Kirche\n১/-\nPlatz\n2/\nSpielplatz-\nPLANUNGSBÜRO SRL WEBER\nSPINOZASTRASSE 1.\n30625 HANNOVER\nGeplante Regenwasser-\nleitung\nVirg\nJNO 901\nPLANSTRA\nVorgeschlagene Neubebauung\nAnzupflanzende Bäume und\nSträucher\nVorgeschlagene\nFlurstucksteilung\nFUSSWEG\nzu erhaltende\nGehölze\n2-\nder Fußwegverbindung\nWeiterführung der\nin spätere Bauabschnitte\nHecke\nVerkehrsgrün-\nfläche\nVerkehrsgrün-\nfläche\n111.0-\n10 Veg\n1.210\nMN\n00100\n110.0\n109.0\nANSTR\nKlintstraße\n45\n0 10 20\n20\n40\n60 m\n47"
+    },
+    {
+      "page": 2,
+      "text": "Anlage zu 1.2\n\n[Eine Karte, die einen Ausschnitt eines Wohngebiets oder Dorfes mit Parzellen, Gebäuden und Straßen zeigt, darunter \"Dorfgemeinschaftshaus\", \"Kindergarten\" und \"Feuerwehr\".]\n\nSchulstraße\nDorfgemein-\nschaftshaus\n11\nKindergarten\n6\nFeuerwehr\n37\n36\nP\n35\n1132\n3\n132\n8\n16\n1\n132\nWeg\n22/\n14\n15\n16\n2\n330\n51\n237\n221/53\n25\n17\n133\nWeg Weg 2\n5\n3\n17-\n20/1\n26\n313\n17\n221\n17\n17\n213\n27\nX\nL 3 Lö 82/85\nWeg\n21\n126\n44\nL3 Lo 76/79\n64\nX"
+    },
+    {
       "page": 3,
-      "text": "Anlage zu 2.1\n\n"
+      "text": "Anlage zu 2.1\n\n[Eine Karte, die landwirtschaftliche Flächen mit Parzellennummern und vereinzelten Gebäuden zeigt.]\n\nM\n3\nF\nA\n13\n1"
     }
   ],
-  "full_text": "Anlage zu 2.1\n\n"
+  "full_text": "Anlage 1 zur Begründung\n\n[Eine Karte, die einen Bebauungsentwurf für eine Siedlung mit Straßen, Parzellen, Grünflächen und bestehenden Gebäuden zeigt.]\n\nBEBAUUNGSENTWURF\nzum Bebauungsplan Nr. 0506 \"Gr.Escherde - Ost\"\n\nFriedhof\nAn Thie\nSchulstraße\nKleingarten\nVirg\nSt. Johannes-Kirche\n১/-\nPlatz\n2/\nSpielplatz-\nPLANUNGSBÜRO SRL WEBER\nSPINOZASTRASSE 1.\n30625 HANNOVER\nGeplante Regenwasser-\nleitung\nVirg\nJNO 901\nPLANSTRA\nVorgeschlagene Neubebauung\nAnzupflanzende Bäume und\nSträucher\nVorgeschlagene\nFlurstucksteilung\nFUSSWEG\nzu erhaltende\nGehölze\n2-\nder Fußwegverbindung\nWeiterführung der\nin spätere Bauabschnitte\nHecke\nVerkehrsgrün-\nfläche\nVerkehrsgrün-\nfläche\n111.0-\n10 Veg\n1.210\nMN\n00100\n110.0\n109.0\nANSTR\nKlintstraße\n45\n0 10 20\n20\n40\n60 m\n47\n\nAnlage zu 1.2\n\n[Eine Karte, die einen Ausschnitt eines Wohngebiets oder Dorfes mit Parzellen, Gebäuden und Straßen zeigt, darunter \"Dorfgemeinschaftshaus\", \"Kindergarten\" und \"Feuerwehr\".]\n\nSchulstraße\nDorfgemein-\nschaftshaus\n11\nKindergarten\n6\nFeuerwehr\n37\n36\nP\n35\n1132\n3\n132\n8\n16\n1\n132\nWeg\n22/\n14\n15\n16\n2\n330\n51\n237\n221/53\n25\n17\n133\nWeg Weg 2\n5\n3\n17-\n20/1\n26\n313\n17\n221\n17\n17\n213\n27\nX\nL 3 Lö 82/85\nWeg\n21\n126\n44\nL3 Lo 76/79\n64\nX\n\nAnlage zu 2.1\n\n[Eine Karte, die landwirtschaftliche Flächen mit Parzellennummern und vereinzelten Gebäuden zeigt.]\n\nM\n3\nF\nA\n13\n1",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:32:53.119Z",
+    "total_input_tokens": 1118,
+    "total_output_tokens": 624
+  }
 }

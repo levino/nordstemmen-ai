@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "99\n4\n12\n100\n4\n14\n13\n16 10 12\n105\n1\n14\ne\n131\n15\n141\n5\nkEj\n5\n2\n6\n9\n1\n63\n1\nµ\n9/2\n±\n1:1.000 © 2025 Stand: 03.06.2025"
+      "text": "DS 46/2025 Anlage 1\n[Kartenausschnitt mit Flurstücken und einer markierten Fläche]\nMaßstab: 1:1.000\n© 2025 LGLN\nPlanvermerk: Stand: 03.06.2025"
     }
   ],
-  "full_text": "99\n4\n12\n100\n4\n14\n13\n16 10 12\n105\n1\n14\ne\n131\n15\n141\n5\nkEj\n5\n2\n6\n9\n1\n63\n1\nµ\n9/2\n±\n1:1.000 © 2025 Stand: 03.06.2025"
+  "full_text": "DS 46/2025 Anlage 1\n[Kartenausschnitt mit Flurstücken und einer markierten Fläche]\nMaßstab: 1:1.000\n© 2025 LGLN\nPlanvermerk: Stand: 03.06.2025",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:05:23.660Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 75
+  }
 }

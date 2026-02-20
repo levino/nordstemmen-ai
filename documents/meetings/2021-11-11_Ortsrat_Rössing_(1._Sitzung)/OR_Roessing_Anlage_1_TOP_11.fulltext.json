@@ -1,8 +1,18 @@
 {
   "file_hash": "56879bf10c42edb0e141dbd48e7bb409e34e220d733cd1ced4dbf8d76b091357",
   "filename": "OR_Roessing_Anlage_1_TOP_11.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Amouge 1 TOP 11\n[Die Seite zeigt eine Luftaufnahme mit Flurstücken und Gebäuden in einem Wohngebiet, überlagert von einem Katasterplan.]\n\nTitel: Mögliche Umgestaltung Leinkamp\n\n| Feld        | Wert                                                                                |\n| :---------- | :---------------------------------------------------------------------------------- |\n| Titel       | Mögliche Umgestaltung Leinkamp                                                      |\n| Inhalt      | += V2 Halteverbol bis<br>: Gehwig soulich andern (pflastern und abgesenkter Hochbord/) |\n| Institution |                                                                                     |\n| Datum       | 11.11.2021                                                                          |\n| Maßstab     | 1:1.000                                                                             |\n| Bearbeiter  | Tobias Cieplik (Gemeinde Nordstemen)                                                |\n|             | ©2020 LGLN                                                                          |\n\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung Niedersachsen | © OpenStreetMap Contributors, © Bundesamt für Kartographie und Geodäsie"
+    }
+  ],
+  "full_text": "Amouge 1 TOP 11\n[Die Seite zeigt eine Luftaufnahme mit Flurstücken und Gebäuden in einem Wohngebiet, überlagert von einem Katasterplan.]\n\nTitel: Mögliche Umgestaltung Leinkamp\n\n| Feld        | Wert                                                                                |\n| :---------- | :---------------------------------------------------------------------------------- |\n| Titel       | Mögliche Umgestaltung Leinkamp                                                      |\n| Inhalt      | += V2 Halteverbol bis<br>: Gehwig soulich andern (pflastern und abgesenkter Hochbord/) |\n| Institution |                                                                                     |\n| Datum       | 11.11.2021                                                                          |\n| Maßstab     | 1:1.000                                                                             |\n| Bearbeiter  | Tobias Cieplik (Gemeinde Nordstemen)                                                |\n|             | ©2020 LGLN                                                                          |\n\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung Niedersachsen | © OpenStreetMap Contributors, © Bundesamt für Kartographie und Geodäsie",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:38.677Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 254
+  }
 }

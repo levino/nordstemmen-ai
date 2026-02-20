@@ -1,4 +1,4 @@
-import { Effect, Schedule, flow, pipe, Schema as S } from 'effect';
+import { Effect, flow, pipe, Schema as S, Schedule } from 'effect';
 import type { OParlMeeting, OParlPaper } from './schema.ts';
 import { MeetingListResponseSchema, PaperListResponseSchema } from './schema.ts';
 
@@ -9,10 +9,7 @@ const PROXY_SECRET = process.env.OPARL_PROXY_SECRET;
 export const PAPER_LIST_URL = `${OPARL_ORIGIN}/webservice/oparl/v1.1/body/1/paper`;
 export const MEETING_LIST_URL = `${OPARL_ORIGIN}/webservice/oparl/v1.1/body/1/meeting`;
 
-const retrySchedule = pipe(
-  Schedule.exponential('1 second'),
-  Schedule.compose(Schedule.recurs(3)),
-);
+const retrySchedule = pipe(Schedule.exponential('1 second'), Schedule.compose(Schedule.recurs(3)));
 
 export const effectFetch = (url: string): Effect.Effect<Response, Error> => {
   let fetchUrl = url;

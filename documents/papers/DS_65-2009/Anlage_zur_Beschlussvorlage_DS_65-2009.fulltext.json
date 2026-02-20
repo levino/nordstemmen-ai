@@ -1,8 +1,18 @@
 {
   "file_hash": "a53820a0ac2b9e803d0775cf4d9a176716d10605394e08ab7a6fdfda205a0231",
   "filename": "Anlage_zur_Beschlussvorlage_DS_65-2009.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "29\n[Bebauungsplan für das allgemeine Wohngebiet \"Barnten - Süd III\" mit Regenrückhaltebecken, Grünflächen, Spielplatz und Straßenführung. Eine spezifische Bebauungsplanänderung wird für den Bereich WA hervorgehoben.]\n\nPLANZEICHENERKLÄRUNG\n1. Art der baulichen Nutzung\n(§ 5 Abs. 2 Nr.1 BauGB §1 Abs. 1 und 2\nBauNVO)\nWA\nAllgemeine Wohngebiete\n(§ 4 BauNVO)\n2. Bauweise, Baulinien, Baugrenzen\n- Zahl der Vollgeschosse\n0,4\n- Grundflächenzahl GRZ\n0,4\n- Geschossflächenzahl GFZ\n- Bauweise: nur Einzel- und\nDoppelhäuser zulässig\nBaugrenze\n3. Sonstige Planzeichen\nGrenze des räumlichen Geltungs-\nbereichs der 1. Änderung Bebauungsplans\n\nOrtschaft Barnten\nGemeinde Nordstemmen\nBebauungsplan Nr. 0306\n\"Barnten - Süd III\",\n1. Änderung\ngem. § 13a BauGB\n\nM. 1:1000\n\nBeteiligung der Behörden und sonstiger Träger\nöffentlicher Belange im Bauleitplanverfahren\ngem. § 13a Abs. 2 Ziffer 3 BauGB\ni.V.m. § 13a Abs. 2 Nr. 1 BauGB\n\nPlanungsbüro SRL Weber • Spinozastraße 1 • 30625 Hannover"
+    }
+  ],
+  "full_text": "29\n[Bebauungsplan für das allgemeine Wohngebiet \"Barnten - Süd III\" mit Regenrückhaltebecken, Grünflächen, Spielplatz und Straßenführung. Eine spezifische Bebauungsplanänderung wird für den Bereich WA hervorgehoben.]\n\nPLANZEICHENERKLÄRUNG\n1. Art der baulichen Nutzung\n(§ 5 Abs. 2 Nr.1 BauGB §1 Abs. 1 und 2\nBauNVO)\nWA\nAllgemeine Wohngebiete\n(§ 4 BauNVO)\n2. Bauweise, Baulinien, Baugrenzen\n- Zahl der Vollgeschosse\n0,4\n- Grundflächenzahl GRZ\n0,4\n- Geschossflächenzahl GFZ\n- Bauweise: nur Einzel- und\nDoppelhäuser zulässig\nBaugrenze\n3. Sonstige Planzeichen\nGrenze des räumlichen Geltungs-\nbereichs der 1. Änderung Bebauungsplans\n\nOrtschaft Barnten\nGemeinde Nordstemmen\nBebauungsplan Nr. 0306\n\"Barnten - Süd III\",\n1. Änderung\ngem. § 13a BauGB\n\nM. 1:1000\n\nBeteiligung der Behörden und sonstiger Träger\nöffentlicher Belange im Bauleitplanverfahren\ngem. § 13a Abs. 2 Ziffer 3 BauGB\ni.V.m. § 13a Abs. 2 Nr. 1 BauGB\n\nPlanungsbüro SRL Weber • Spinozastraße 1 • 30625 Hannover",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:15:35.210Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 364
+  }
 }

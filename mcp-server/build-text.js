@@ -3,7 +3,7 @@
  * Copies fulltext from documents/*.fulltext.json → public/text/{hash}.txt
  * Runs as part of the MCP server build step.
  */
-import { readFileSync, writeFileSync, mkdirSync, readdirSync, statSync } from 'node:fs';
+import { mkdirSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 
 const DOCUMENTS_DIR = resolve(import.meta.dirname, '..', 'documents');

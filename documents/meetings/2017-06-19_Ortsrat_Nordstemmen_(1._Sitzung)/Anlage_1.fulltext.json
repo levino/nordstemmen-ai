@@ -1,8 +1,18 @@
 {
   "file_hash": "83e9faacdadc8ce15f5514720bf4c64807dfa0579cc24f275e9a6eec76d13917",
   "filename": "Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Eingegangen 14.5.17\n91\n\n## Absender\nKultur- und Heimatverein\n31171 Nordstemmen e.V.\nRathausstraße 3 A\n\n## Ort und Datum\nNordstemmen, den 13.05.2017\n\n## Empfänger\nOrtsrat Nordstemmen\nz. Hd. Herrn Flegel - hier -\n\nKultur- und Heimatverein\nNordstemmen e.V.\nRathausstraße 3 A\n31171 Nordstemmen\n\n## Betreff\nBetr.: Spendenantrag zum 1. Edelstahl-Standschild „Nordstemmer\nKönigsweg 1858\" über 500 Euro (in Anlehnung an Stornierung 2015)\n\n## Anrede\nSehr geehrte Mitglieder des Ortsrates in Nordstemmen,\n\n## Brieftext\ndurch die Erneuerung des kompletten Vorstandes im örtlichen\nHeimatverein, siehe auch beiliegende Pressemitteilung, sind wir\nwieder in der Lage, über unseren wichtigen Königsweg vom Bahnhof\nbis zum Schloss Marienburg nachzudenken. Schwerpunkt ist nun aus\nKostengründen nur ein Standschild am Bahnhof, da der historische\nKönigsweg (ehemalige und derzeitige Marienbergstraße) ja hier den\nnachweisbaren Anfang mit König Georg V. gefunden hat!\n\nGerade Nordstemmen wird mit diesem Edelstahl-Standschild,\nAusführung wie das Leine-Heide-Radweg-Schild am Schlosskreisel\nund der heimatlichen Welfengeschichte, Aufsehen erzeugen! Die\nWaggonachse am Bhf. hat ja auch als „Nordstemmer Wahrzeichen\"\nseine Wirkung nicht verfehlt! Der Erbauer beider Objekte, Heinz\nKrummland, kämpft nun als 2. Vorsitzender im Heimatverein mit\nEDV-Spezialisten (Geschichtsforum) weiter um die fachliche\nErstellung! Ab sofort können sich Bürger im Vereinsschaukasten, am\nHaus „Schreibwaren Walter\" lfd. orientieren!\n\n## Unterschriften\n1. Vorsitzender Rolf Müller\n[Unterschrift]\n2. Vorsitzender Heinz Krummland\n[Unterschrift]"
+    }
+  ],
+  "full_text": "Eingegangen 14.5.17\n91\n\n## Absender\nKultur- und Heimatverein\n31171 Nordstemmen e.V.\nRathausstraße 3 A\n\n## Ort und Datum\nNordstemmen, den 13.05.2017\n\n## Empfänger\nOrtsrat Nordstemmen\nz. Hd. Herrn Flegel - hier -\n\nKultur- und Heimatverein\nNordstemmen e.V.\nRathausstraße 3 A\n31171 Nordstemmen\n\n## Betreff\nBetr.: Spendenantrag zum 1. Edelstahl-Standschild „Nordstemmer\nKönigsweg 1858\" über 500 Euro (in Anlehnung an Stornierung 2015)\n\n## Anrede\nSehr geehrte Mitglieder des Ortsrates in Nordstemmen,\n\n## Brieftext\ndurch die Erneuerung des kompletten Vorstandes im örtlichen\nHeimatverein, siehe auch beiliegende Pressemitteilung, sind wir\nwieder in der Lage, über unseren wichtigen Königsweg vom Bahnhof\nbis zum Schloss Marienburg nachzudenken. Schwerpunkt ist nun aus\nKostengründen nur ein Standschild am Bahnhof, da der historische\nKönigsweg (ehemalige und derzeitige Marienbergstraße) ja hier den\nnachweisbaren Anfang mit König Georg V. gefunden hat!\n\nGerade Nordstemmen wird mit diesem Edelstahl-Standschild,\nAusführung wie das Leine-Heide-Radweg-Schild am Schlosskreisel\nund der heimatlichen Welfengeschichte, Aufsehen erzeugen! Die\nWaggonachse am Bhf. hat ja auch als „Nordstemmer Wahrzeichen\"\nseine Wirkung nicht verfehlt! Der Erbauer beider Objekte, Heinz\nKrummland, kämpft nun als 2. Vorsitzender im Heimatverein mit\nEDV-Spezialisten (Geschichtsforum) weiter um die fachliche\nErstellung! Ab sofort können sich Bürger im Vereinsschaukasten, am\nHaus „Schreibwaren Walter\" lfd. orientieren!\n\n## Unterschriften\n1. Vorsitzender Rolf Müller\n[Unterschrift]\n2. Vorsitzender Heinz Krummland\n[Unterschrift]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:00:33.837Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 508
+  }
 }

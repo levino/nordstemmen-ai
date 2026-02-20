@@ -1,8 +1,18 @@
 {
   "file_hash": "3716f62b31641bd8703597b2ac33b7b33fa298cca1c44aef01cf799bb6d79f9b",
   "filename": "OR_Klein_Escherde_Verteilerkasten_Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "# Nördlicher Ortseingang –\n# Verteilerkasten Ende Akazienstraße\n14"
+    }
+  ],
+  "full_text": "# Nördlicher Ortseingang –\n# Verteilerkasten Ende Akazienstraße\n14",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:30.138Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 29
+  }
 }

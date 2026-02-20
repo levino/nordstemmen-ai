@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage 2"
+      "text": "Anlage 2\n[Karte, die einen Siedlungsbereich mit markierten Standorten für mögliche Siedlungserweiterungen zeigt.]\nAlternative Standorte einer\nSiedlungserweiterung\nBisheriger Standort einer\nSiedlungserweiterung\n0 25 50 100 200 m"
     }
   ],
-  "full_text": "Anlage 2"
+  "full_text": "Anlage 2\n[Karte, die einen Siedlungsbereich mit markierten Standorten für mögliche Siedlungserweiterungen zeigt.]\nAlternative Standorte einer\nSiedlungserweiterung\nBisheriger Standort einer\nSiedlungserweiterung\n0 25 50 100 200 m",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:38:51.920Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 75
+  }
 }

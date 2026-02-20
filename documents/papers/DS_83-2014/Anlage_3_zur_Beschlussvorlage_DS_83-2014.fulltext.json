@@ -1,8 +1,18 @@
 {
   "file_hash": "4a0985e5f86e39674b4545a890fe75167f8a07e4e1394fd39aa8ba6a3fd46021",
   "filename": "Anlage_3_zur_Beschlussvorlage_DS_83-2014.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Eine topografische Karte oder ein Bebauungsplan, der ein Gebiet um eine Eisenbahnlinie und mehrere Straßen in Springe, Flur 6, Gemarkung Marsch, zeigt. Markiert sind Flächen für eine geplante Änderung und Bereiche ohne inhaltliche Änderungen. Die Karte zeigt Parzellen, Gebäudeumrisse, Straßen und eine Eisenbahnlinie.]\n\nT\nC\nIDKREIS SPRINGE\nFLUR 6\n„\nMarsch\n„\n\nAnlage 3 zu\nDS 83/2014\n\nVoraussichtlicher\nGeltungsbereich der\n2. Änderung (ca. 1,74 ha)\nTeil des Geltungsbereichs,\nfür den keine inhaltlichen\nÄnderungen vorgesehen\nsind (ca. 0,33 ha)"
+    }
+  ],
+  "full_text": "[Eine topografische Karte oder ein Bebauungsplan, der ein Gebiet um eine Eisenbahnlinie und mehrere Straßen in Springe, Flur 6, Gemarkung Marsch, zeigt. Markiert sind Flächen für eine geplante Änderung und Bereiche ohne inhaltliche Änderungen. Die Karte zeigt Parzellen, Gebäudeumrisse, Straßen und eine Eisenbahnlinie.]\n\nT\nC\nIDKREIS SPRINGE\nFLUR 6\n„\nMarsch\n„\n\nAnlage 3 zu\nDS 83/2014\n\nVoraussichtlicher\nGeltungsbereich der\n2. Änderung (ca. 1,74 ha)\nTeil des Geltungsbereichs,\nfür den keine inhaltlichen\nÄnderungen vorgesehen\nsind (ca. 0,33 ha)",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:24:10.161Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 182
+  }
 }

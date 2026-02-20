@@ -1,8 +1,18 @@
 {
   "file_hash": "311adf5c0c40781c7b8ead81d277f2ef1d4a5ce40cf873437a7a360be9142b8c",
   "filename": "Anlage_zur_Beschlussvorlage_DS_5-2017.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Luftbildaufnahme mit farblich markierten Flächen, die unterschiedliche Bepflanzungs- und Gestaltungsvorschläge entlang einer Bahnlinie und Straße zeigen.]\nAnlage 1 zur DS 5/2017\n1:1.000\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n© 2016 LGLN"
+    }
+  ],
+  "full_text": "[Luftbildaufnahme mit farblich markierten Flächen, die unterschiedliche Bepflanzungs- und Gestaltungsvorschläge entlang einer Bahnlinie und Straße zeigen.]\nAnlage 1 zur DS 5/2017\n1:1.000\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n© 2016 LGLN",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:06:58.721Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 89
+  }
 }

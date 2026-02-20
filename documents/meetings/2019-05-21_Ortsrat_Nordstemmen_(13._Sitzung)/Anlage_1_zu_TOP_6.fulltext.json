@@ -1,8 +1,18 @@
 {
   "file_hash": "60a0d7f0d06b9159c9c968e45fa7ce1922d0d81bb587a7e9c8ce775647ab90ca",
   "filename": "Anlage_1_zu_TOP_6.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "18.02.2019\nJährlich wiederkehrende Koste des\nOrtsrates Nordstemmen\nbisher\naufgerundet ausgegeben\nSenioren Fahrt\n1.200,00 €\nSeniorenweihnachtsfeier\n700,00 €\nMüllsammelaktion\n200,00 € 250,00 €\nBürgerscheibe u. Schiessen\n500,00 €\nBlasorchester (Jahreskonzert)\n100,00 € 100,00 €\nFeuerwehr/Blasorchester\n200,00 € 0,00 €\nJahresempfang der Kirchen\n100,00 € 0,00 €\nSchule Abschlussklassen\n100,00 €\nGeburtstage (80.- 85. -90.- 91.....)\n1.700,00 €\nWeltkindertag\n100,00 €\nVolkstrauertag\n100,00 €\nOrtsheimatpflegerin\n150,00 € 150,00 €\nHundekotbeute\n400,00 €\nJubiläen (Goldene Hochzeiten)\n160,00 € 80,00 €\nOrtsbürgermeister\nz.b.V.\n500,00 € 87,45 €\nFerienpass\n100,00 € 100,00 €\nNeubürger\n400,00 € 60,00 €\nZuschuss Fahrt Juz\n100,00 €\nZuschuss Kultur u. Brauchtum Flyer\n440,00 €\n70 Jahre BDV Nordstemmen\n100,00 €\n120 Jahre DRK\n\nSumme\n6.710,00 € 1.467,45 €\n\nZuweisung\n2019\n8.900,00 €\nÜbertrag\n2018\n2.839,00 €\n\nSumme 2019\n2019\n11.739,00 €\nAusgaben\n2019\n1.467,45 €\nVerplant\n2019\n5.700,00 €\n\nnoch Verfügbar:\nca.\n4.570,00 €"
+    }
+  ],
+  "full_text": "18.02.2019\nJährlich wiederkehrende Koste des\nOrtsrates Nordstemmen\nbisher\naufgerundet ausgegeben\nSenioren Fahrt\n1.200,00 €\nSeniorenweihnachtsfeier\n700,00 €\nMüllsammelaktion\n200,00 € 250,00 €\nBürgerscheibe u. Schiessen\n500,00 €\nBlasorchester (Jahreskonzert)\n100,00 € 100,00 €\nFeuerwehr/Blasorchester\n200,00 € 0,00 €\nJahresempfang der Kirchen\n100,00 € 0,00 €\nSchule Abschlussklassen\n100,00 €\nGeburtstage (80.- 85. -90.- 91.....)\n1.700,00 €\nWeltkindertag\n100,00 €\nVolkstrauertag\n100,00 €\nOrtsheimatpflegerin\n150,00 € 150,00 €\nHundekotbeute\n400,00 €\nJubiläen (Goldene Hochzeiten)\n160,00 € 80,00 €\nOrtsbürgermeister\nz.b.V.\n500,00 € 87,45 €\nFerienpass\n100,00 € 100,00 €\nNeubürger\n400,00 € 60,00 €\nZuschuss Fahrt Juz\n100,00 €\nZuschuss Kultur u. Brauchtum Flyer\n440,00 €\n70 Jahre BDV Nordstemmen\n100,00 €\n120 Jahre DRK\n\nSumme\n6.710,00 € 1.467,45 €\n\nZuweisung\n2019\n8.900,00 €\nÜbertrag\n2018\n2.839,00 €\n\nSumme 2019\n2019\n11.739,00 €\nAusgaben\n2019\n1.467,45 €\nVerplant\n2019\n5.700,00 €\n\nnoch Verfügbar:\nca.\n4.570,00 €",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:02:02.621Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 586
+  }
 }

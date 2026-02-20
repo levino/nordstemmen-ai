@@ -1,8 +1,18 @@
 {
   "file_hash": "619abd0fedb32b02436175ce8a6f01833cb5d13f3b4332a9d5d45ab87665143d",
   "filename": "Verwendung_von_noch_vorhamdenen_OR-Mitteln_in_2024.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "OR Barnten Anlage TOP 12\nOrtsrat Barnten\nOktober 2024\nVorschlag: Vergabe restlicher Ortsratsmittel für das Jahr 2024\nNoch verfügbare Ortsratsmittel für 2023\n€ 2.292.53€\nVerfügungsmittel Ortsbürgermeister für Präsente\n€ 25,00\n=€ 2.267.53€\nKranz für Volkstrauertag\nAdventfeier OR/AWO/DRK/SoVD/Kirchengemeinde\nChorgemeinschaft singen am Volkstrauertag (XX)\nFFW Musikzug Rössing für Volkstrauertag (XX)\nAusgaben gesamt:\nHaushaltsrest\n€ 100,00\n€ 150,00\n€ 60,00\n€ 100,00\n=€ 410,00 €\n=€ 1857,53\n(XX) = soll persönlich übergeben werden\nEmpfehlung für den Ortsrat:\nDie verbleibenden Ortsratsmittel in Höhe von 1700,00€ gehen auf das Konto der\nDorfpflege mit dem Verwendungszweck Norbert-Pallentin-Park."
+    }
+  ],
+  "full_text": "OR Barnten Anlage TOP 12\nOrtsrat Barnten\nOktober 2024\nVorschlag: Vergabe restlicher Ortsratsmittel für das Jahr 2024\nNoch verfügbare Ortsratsmittel für 2023\n€ 2.292.53€\nVerfügungsmittel Ortsbürgermeister für Präsente\n€ 25,00\n=€ 2.267.53€\nKranz für Volkstrauertag\nAdventfeier OR/AWO/DRK/SoVD/Kirchengemeinde\nChorgemeinschaft singen am Volkstrauertag (XX)\nFFW Musikzug Rössing für Volkstrauertag (XX)\nAusgaben gesamt:\nHaushaltsrest\n€ 100,00\n€ 150,00\n€ 60,00\n€ 100,00\n=€ 410,00 €\n=€ 1857,53\n(XX) = soll persönlich übergeben werden\nEmpfehlung für den Ortsrat:\nDie verbleibenden Ortsratsmittel in Höhe von 1700,00€ gehen auf das Konto der\nDorfpflege mit dem Verwendungszweck Norbert-Pallentin-Park.",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:06:12.177Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 296
+  }
 }

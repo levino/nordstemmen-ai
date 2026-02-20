@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage 1 zur DS 45/2025 - Annahme einer Sachzuwendung für die First Responder-Gruppen Freiwillige Feuerwehren Nordstemmen\nLfd.\nDatum Zuwendungsgeber Höhe Empfänger Zweck\nNr.\nGemeinde Nordstemmen,\n1 Förderverein der Freiwilligen Feuerwehr First Responder-Gruppen Übungspuppe mit div.\n21.05.2025 5.336,50 €\nKlein Escherde e.V. Freiwillige Feuerwehren Übungsmaterial\nNordstemmen"
+      "text": "Anlage 1 zur DS 45/2025 - Annahme einer Sachzuwendung für die First Responder-Gruppen Freiwillige Feuerwehren Nordstemmen\n\n| Lfd. Nr. | Datum | Zuwendungsgeber | Höhe | Empfänger | Zweck |\n| :------- | :---- | :-------------- | :--- | :-------- | :---- |\n| 1 | 21.05.2025 | Förderverein der Freiwilligen Feuerwehr Klein Escherde e.V. | 5.336,50 € | Gemeinde Nordstemmen, First Responder-Gruppen Freiwillige Feuerwehren Nordstemmen | Übungspuppe mit div. Übungsmaterial |"
     }
   ],
-  "full_text": "Anlage 1 zur DS 45/2025 - Annahme einer Sachzuwendung für die First Responder-Gruppen Freiwillige Feuerwehren Nordstemmen\nLfd.\nDatum Zuwendungsgeber Höhe Empfänger Zweck\nNr.\nGemeinde Nordstemmen,\n1 Förderverein der Freiwilligen Feuerwehr First Responder-Gruppen Übungspuppe mit div.\n21.05.2025 5.336,50 €\nKlein Escherde e.V. Freiwillige Feuerwehren Übungsmaterial\nNordstemmen"
+  "full_text": "Anlage 1 zur DS 45/2025 - Annahme einer Sachzuwendung für die First Responder-Gruppen Freiwillige Feuerwehren Nordstemmen\n\n| Lfd. Nr. | Datum | Zuwendungsgeber | Höhe | Empfänger | Zweck |\n| :------- | :---- | :-------------- | :--- | :-------- | :---- |\n| 1 | 21.05.2025 | Förderverein der Freiwilligen Feuerwehr Klein Escherde e.V. | 5.336,50 € | Gemeinde Nordstemmen, First Responder-Gruppen Freiwillige Feuerwehren Nordstemmen | Übungspuppe mit div. Übungsmaterial |",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:04:49.001Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 160
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "c75bb7b8acb537f01b8432f8a797e050be337b3465b6dfbe006990259f08772d",
   "filename": "Anlage_4.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "OR Heyersum\nAnlage 4 TOP 7\n15.12.2022 Mittelanmeldung Ortsrat Heyersum für das Jahr 2022\n\n1. Außentür des Alten Schulhaus ist in einem desolaten Zustand und bedarf\neiner Erneuerung, dem geschichtlichen Hintergrund angepasst.\n2. In der Heinz-Fiolka-Halle sollen dieses Jahr die anstehenden\nElektroarbeiten und Elektroumbauten stattfinden! Danach wäre eine\nRenovierung des Flures notwendig. Malerarbeiten und neuer Fußboden.\n3. Küche in der Heinz-Fiolka-Halle benötig nach den Elektroarbeiten einen\nneuen Fliesenspiegel\n4. Die Spülmaschine in der Küche der Heinz-Fiolka-Halle ist defekt und\nmüsste ausgetauscht gegen eine Industriespülmaschine.\n5. Umsetzung einer Straßeneinengung (Pflanzbeet) Stellmacherstraße\n6. Neugestaltung der Toilettenanlage im Alten Schulhaus\n7. Unterhaltungsmaßnahmen für den Ort Heyersum"
+    }
+  ],
+  "full_text": "OR Heyersum\nAnlage 4 TOP 7\n15.12.2022 Mittelanmeldung Ortsrat Heyersum für das Jahr 2022\n\n1. Außentür des Alten Schulhaus ist in einem desolaten Zustand und bedarf\neiner Erneuerung, dem geschichtlichen Hintergrund angepasst.\n2. In der Heinz-Fiolka-Halle sollen dieses Jahr die anstehenden\nElektroarbeiten und Elektroumbauten stattfinden! Danach wäre eine\nRenovierung des Flures notwendig. Malerarbeiten und neuer Fußboden.\n3. Küche in der Heinz-Fiolka-Halle benötig nach den Elektroarbeiten einen\nneuen Fliesenspiegel\n4. Die Spülmaschine in der Küche der Heinz-Fiolka-Halle ist defekt und\nmüsste ausgetauscht gegen eine Industriespülmaschine.\n5. Umsetzung einer Straßeneinengung (Pflanzbeet) Stellmacherstraße\n6. Neugestaltung der Toilettenanlage im Alten Schulhaus\n7. Unterhaltungsmaßnahmen für den Ort Heyersum",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:48.171Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 245
+  }
 }

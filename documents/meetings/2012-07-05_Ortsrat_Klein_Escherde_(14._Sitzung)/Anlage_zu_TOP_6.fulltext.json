@@ -4,20 +4,27 @@
   "pages": [
     {
       "page": 1,
-      "text": "Gehweg Akazienstraße: loser Gehwegstein Meerbrink: diverse Löcher, zum Teil\nbereits instandgesetzt\n\nMeerbrink: fehlende Gehwegabsenkung beidseitig zum nördlichen Einmündungsbereich\n"
+      "text": "Spielplatz Akazienstraße:\nSchraube auf der Rutsche und Spielgerät\nGehweg Akazienstraße: loser Gehwegstein\nMeerbrink: diverse Löcher, zum Teil\nbereits instandgesetzt\nMeerbrink: fehlende Gehwegabsenkung beidseitig zum nördlichen Einmündungsbereich\n1627 NIO B"
     },
     {
       "page": 2,
-      "text": "Mittelstraße: fehlende Gehwegsteine\n\nJoseph-Bruns-Str.: Pfusch am Bau nach\nDSK-Verfahren\n\n"
+      "text": "Meerbrink / Rudolfstraße: diverse Bordsteinschäden Rudolfstraße: Fehler bereits behoben\nRuheplatz Mittelstraße: Bank defekt, Platten mit Stolperkanten, ungenügende Pflege\nMittelstraße: fehlende Gehwegsteine\nJoseph-Bruns-Str.: Pfusch am Bau nach\nDSK-Verfahren"
     },
     {
       "page": 3,
-      "text": "Neubaugebiet: Pflege (?) des\nSpielplatzes\n\nNeubaugebiet: eigenmächtige Grundstücksvergrößerung an der Wasserfurche (aus Richtung\nSpielplatz)\n\nBarthold-Linden-Str.: eingeschränkte Beleuchtung Neubaugebiet: Wasserfurche\n"
+      "text": "Neubaugebiet: fehlende Absperrung\nNeubaugebiet: Pflege (?) des\nSpielplatzes\nNeubaugebiet: eigenmächtige Grundstücksvergrößerung an der Wasserfurche (aus Richtung\nSpielplatz)\nBarthold-Linden-Str.: eingeschränkte Beleuchtung Neubaugebiet: Wasserfurche"
     },
     {
       "page": 4,
-      "text": "Neubaugebiet: Regenrückhaltebecken (!?)\n\n"
+      "text": "Neubaugebiet: Regenrückhaltebecken (!?)"
     }
   ],
-  "full_text": "Gehweg Akazienstraße: loser Gehwegstein Meerbrink: diverse Löcher, zum Teil\nbereits instandgesetzt\n\nMeerbrink: fehlende Gehwegabsenkung beidseitig zum nördlichen Einmündungsbereich\n\n\nMittelstraße: fehlende Gehwegsteine\n\nJoseph-Bruns-Str.: Pfusch am Bau nach\nDSK-Verfahren\n\n\n\nNeubaugebiet: Pflege (?) des\nSpielplatzes\n\nNeubaugebiet: eigenmächtige Grundstücksvergrößerung an der Wasserfurche (aus Richtung\nSpielplatz)\n\nBarthold-Linden-Str.: eingeschränkte Beleuchtung Neubaugebiet: Wasserfurche\n\n\nNeubaugebiet: Regenrückhaltebecken (!?)\n\n"
+  "full_text": "Spielplatz Akazienstraße:\nSchraube auf der Rutsche und Spielgerät\nGehweg Akazienstraße: loser Gehwegstein\nMeerbrink: diverse Löcher, zum Teil\nbereits instandgesetzt\nMeerbrink: fehlende Gehwegabsenkung beidseitig zum nördlichen Einmündungsbereich\n1627 NIO B\n\nMeerbrink / Rudolfstraße: diverse Bordsteinschäden Rudolfstraße: Fehler bereits behoben\nRuheplatz Mittelstraße: Bank defekt, Platten mit Stolperkanten, ungenügende Pflege\nMittelstraße: fehlende Gehwegsteine\nJoseph-Bruns-Str.: Pfusch am Bau nach\nDSK-Verfahren\n\nNeubaugebiet: fehlende Absperrung\nNeubaugebiet: Pflege (?) des\nSpielplatzes\nNeubaugebiet: eigenmächtige Grundstücksvergrößerung an der Wasserfurche (aus Richtung\nSpielplatz)\nBarthold-Linden-Str.: eingeschränkte Beleuchtung Neubaugebiet: Wasserfurche\n\nNeubaugebiet: Regenrückhaltebecken (!?)",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:45:23.514Z",
+    "total_input_tokens": 1376,
+    "total_output_tokens": 264
+  }
 }

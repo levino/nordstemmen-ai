@@ -1,8 +1,18 @@
 {
   "file_hash": "14e232ab7e226aa586a6f67223e48c3a1c4cf050b5104724a34506eda3d03ba5",
   "filename": "Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 2\n\n| Bezeichnung Potenzialfläche | Pattensen-Springe 01 |\n| Stadt-/ Gemeindegebiet     | Pattensen und Springe |\n\nBedeutung Fledermäuse:\nEin kleiner Teilbereich im Südosten überlagert sich mit einem Vorsorgeabstand von 1 km zur Leine\nals potenziellem Zugkorridor sensibler Arten; dieser Bereich überdeckt sich auch mit dem o. g. Vor-\nsorgeabstand der Gastvögel (lb).\nBedeutung Landschaftsbild:\nEs sind keine Landschaftsteilräume mit hoher Bedeutung für das Landschaftsbild betroffen.\n\n[Karte zeigt eine topografische Übersicht mit farblich markierten Flächen, die unterschiedliche Konfliktpotenziale für die Windenergienutzung darstellen.]\n\nKarte 2a (zu 2.3): Beurteilung des artenschutzrechtlichen Konfliktpotenzials (Abia 2015)\n\nAnhang zu 4.4.3 (Gebietsblätter Windenergie), Stand Juni 2015"
+    }
+  ],
+  "full_text": "Anlage 2\n\n| Bezeichnung Potenzialfläche | Pattensen-Springe 01 |\n| Stadt-/ Gemeindegebiet     | Pattensen und Springe |\n\nBedeutung Fledermäuse:\nEin kleiner Teilbereich im Südosten überlagert sich mit einem Vorsorgeabstand von 1 km zur Leine\nals potenziellem Zugkorridor sensibler Arten; dieser Bereich überdeckt sich auch mit dem o. g. Vor-\nsorgeabstand der Gastvögel (lb).\nBedeutung Landschaftsbild:\nEs sind keine Landschaftsteilräume mit hoher Bedeutung für das Landschaftsbild betroffen.\n\n[Karte zeigt eine topografische Übersicht mit farblich markierten Flächen, die unterschiedliche Konfliktpotenziale für die Windenergienutzung darstellen.]\n\nKarte 2a (zu 2.3): Beurteilung des artenschutzrechtlichen Konfliktpotenzials (Abia 2015)\n\nAnhang zu 4.4.3 (Gebietsblätter Windenergie), Stand Juni 2015",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:14:46.268Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 231
+  }
 }

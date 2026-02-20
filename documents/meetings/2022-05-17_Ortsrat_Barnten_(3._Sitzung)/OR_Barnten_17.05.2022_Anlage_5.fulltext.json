@@ -1,8 +1,18 @@
 {
   "file_hash": "de4cb21f166ca0a2b1ef9d16f99141a151f8da5ee661dcefd6c622d0c67a5d64",
   "filename": "OR_Barnten_17.05.2022_Anlage_5.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Allage 5\nPotokoll OR Bante [unleserlich]\n17.05.2022\n\n## Ortsrat Barnten\nSandwanne 20, 31171 Nordstemmen\nTel.: 0173-5314653 oder 05066 6971917\nE-Mail: bartschromanovski@web.de\n\n## Empfänger\nAn die Bürgermeisterin der Gemeinde Nordstemmen\nFrau Nicole Dombrowski\nRathausstraße 3\n31171 Nordstemmen\n\nGemeinde Nordstemmen\n2/3. Mai 2022\n[Unterschrift]\n\n## Betreff\nAntrag auf Entwidmung des Spielplatzes an der Barntener Hameke\n\nSehr geehrte Frau Bürgermeisterin,\n\nder Ortsrat Barnten beantragt die Entwidmung des Spielplatzes an der Barntener\nHameke um die Fläche neu gestalten zu können.\nÜber eine positive Entscheidung würde der Ortsrat sich sehr freuen.\n\nMit freundlichen Grüßen\n\n[Unterschrift]\n\nDaniel Bartsch-Romanovski\nOrtsbürgermeister"
+    }
+  ],
+  "full_text": "Allage 5\nPotokoll OR Bante [unleserlich]\n17.05.2022\n\n## Ortsrat Barnten\nSandwanne 20, 31171 Nordstemmen\nTel.: 0173-5314653 oder 05066 6971917\nE-Mail: bartschromanovski@web.de\n\n## Empfänger\nAn die Bürgermeisterin der Gemeinde Nordstemmen\nFrau Nicole Dombrowski\nRathausstraße 3\n31171 Nordstemmen\n\nGemeinde Nordstemmen\n2/3. Mai 2022\n[Unterschrift]\n\n## Betreff\nAntrag auf Entwidmung des Spielplatzes an der Barntener Hameke\n\nSehr geehrte Frau Bürgermeisterin,\n\nder Ortsrat Barnten beantragt die Entwidmung des Spielplatzes an der Barntener\nHameke um die Fläche neu gestalten zu können.\nÜber eine positive Entscheidung würde der Ortsrat sich sehr freuen.\n\nMit freundlichen Grüßen\n\n[Unterschrift]\n\nDaniel Bartsch-Romanovski\nOrtsbürgermeister",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:04:13.970Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 264
+  }
 }

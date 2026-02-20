@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "E 555478 m\nm\n3892875\nN\nN\n5783157\nm\nE 555729 m\n§\n© 2020\n1:1.000\nHintergrund:Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, © Bundesamt für Kartographie und Geodäsie"
+      "text": "N 5782983 m\nE 555729 m\nDS 9/2021\nAnlage 2\n[Karte zeigt eine Luftbildansicht eines Wohngebiets mit einer Schule (rot hervorgehoben), umgeben von Parzellen, Wegen und einer Straße neben Bahngleisen. Gebäude auf einigen Parzellen sind rot hervorgehoben.]\n1:1.000\nN 5783157 m\nE 555478 m\n© 2020 LGLN\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, Bundesamt für Kartographie und Geodäsie"
     }
   ],
-  "full_text": "E 555478 m\nm\n3892875\nN\nN\n5783157\nm\nE 555729 m\n§\n© 2020\n1:1.000\nHintergrund:Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, © Bundesamt für Kartographie und Geodäsie"
+  "full_text": "N 5782983 m\nE 555729 m\nDS 9/2021\nAnlage 2\n[Karte zeigt eine Luftbildansicht eines Wohngebiets mit einer Schule (rot hervorgehoben), umgeben von Parzellen, Wegen und einer Straße neben Bahngleisen. Gebäude auf einigen Parzellen sind rot hervorgehoben.]\n1:1.000\nN 5783157 m\nE 555478 m\n© 2020 LGLN\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, Bundesamt für Kartographie und Geodäsie",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:29:52.393Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 179
+  }
 }

@@ -1,8 +1,26 @@
 {
   "file_hash": "f614009bf1d2ce01f2a7c5afd95dfa0d18aaf57488eef07e56463ceda7d0991e",
   "filename": "Anlage_zur_Beschlussvorlage_DS_3-2008.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "30\n[Plan showing a road layout with a roundabout, labeled streets, and surrounding property parcels.]\nAnschlagblatt 1-1\nStraße \"A\"\nAn \"hol\"\nStraße \"G\"\nIng.-Büro Rehe\nDatum\nBearb.\nGez.\nNr.\nPl.-Art.\nRev. Nr.\nMaßstab\nBlatt Nr.\nLageplan"
+    },
+    {
+      "page": 2,
+      "text": "[Plan showing detailed property parceling, roads, and surrounding infrastructure.]\nskoseen\nFilederetupe\nm\nप\nAtr\nE\n334\n424\nΞ\n112\n624\n435\nAnschlagblatt HH. 1\n401\n435\n118\nIng. Büro Rehe\nDatum\nBearb.\nGez.\nNr.\nPl.-Art.\nRev. Nr.\nMaßstab\nBlatt Nr.\nAnschlagblatt HH.2\nLageplan"
+    },
+    {
+      "page": 3,
+      "text": "DS 3/2008\nAnlage 3\nTO\nFeldahorn\nBergahorn\nVogelbeere\nMehlbeere\nSpitzahorn\nObstbäume\nN"
+    }
+  ],
+  "full_text": "30\n[Plan showing a road layout with a roundabout, labeled streets, and surrounding property parcels.]\nAnschlagblatt 1-1\nStraße \"A\"\nAn \"hol\"\nStraße \"G\"\nIng.-Büro Rehe\nDatum\nBearb.\nGez.\nNr.\nPl.-Art.\nRev. Nr.\nMaßstab\nBlatt Nr.\nLageplan\n\n[Plan showing detailed property parceling, roads, and surrounding infrastructure.]\nskoseen\nFilederetupe\nm\nप\nAtr\nE\n334\n424\nΞ\n112\n624\n435\nAnschlagblatt HH. 1\n401\n435\n118\nIng. Büro Rehe\nDatum\nBearb.\nGez.\nNr.\nPl.-Art.\nRev. Nr.\nMaßstab\nBlatt Nr.\nAnschlagblatt HH.2\nLageplan\n\nDS 3/2008\nAnlage 3\nTO\nFeldahorn\nBergahorn\nVogelbeere\nMehlbeere\nSpitzahorn\nObstbäume\nN",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:52:31.826Z",
+    "total_input_tokens": 1118,
+    "total_output_tokens": 276
+  }
 }

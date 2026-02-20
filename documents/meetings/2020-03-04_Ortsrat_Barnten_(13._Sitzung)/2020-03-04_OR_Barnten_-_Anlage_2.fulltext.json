@@ -1,8 +1,18 @@
 {
   "file_hash": "0244a89ad8a9f63b393071e633de2cd763a0d6ba49c06ddb31bf7a49bbc192f6",
   "filename": "2020-03-04_OR_Barnten_-_Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 2\nProtokoll OR Barnte 04.03.2020\nGemeinde Nordstemmen\nFachbereich 3\nPlanung, Bau und Umwelt\nAz. 51.10.03_02/Barnten\n\nAuskunft erteilt: Frau Finke, Telefon: 05069 / 800-32 Nordstemmen, 18.02.2020\n\nAntrag auf Planänderung von unwesentlicher Bedeutung;\nKiesabbau der Fa. Holcim in der Gemeinde Nordstemmen, Gemarkung Barnten\n\nDie Firma Holcim hat beim Landkreis Hildesheim Planänderungen des durch wasserrechtlichen\nPlanfeststellungsbeschluss genehmigten Kiesabbaus beantragt. Die Gemeinde hat keine Einwände\ngegen die geplanten Änderungen erhoben.\n\nFolgende Planänderungen wurden beantragt:\n\n1. Aufgrund eines Klageverfahrens und des zwischenzeitliche geschlossenen Vergleichs soll die\nAbbaufläche 8 um eine Verzichtfläche verringert werden (s. Lageplan).\n\n2. Im Zuge des weiteren Abbaus wird auf dem bestehenden Betriebsgelände eine Vorhalde\nbeantragt, um die Produktion der verschiedenen Sand-Kies-Produkte unabhängiger von der\nAbbautätigkeit zu machen. Es ist eine kegelförmige Halde mit einer Grundfläche von ca. 35,0 m\nDurchmesser und einer Höhe von rund 12,0 m vorgesehen.\n\n[Plan einer Kiesabbaufläche mit eingezeichneten Abbauabschnitten, einer geplanten Vorhalde und einer Verzichtfläche.]"
+    }
+  ],
+  "full_text": "Anlage 2\nProtokoll OR Barnte 04.03.2020\nGemeinde Nordstemmen\nFachbereich 3\nPlanung, Bau und Umwelt\nAz. 51.10.03_02/Barnten\n\nAuskunft erteilt: Frau Finke, Telefon: 05069 / 800-32 Nordstemmen, 18.02.2020\n\nAntrag auf Planänderung von unwesentlicher Bedeutung;\nKiesabbau der Fa. Holcim in der Gemeinde Nordstemmen, Gemarkung Barnten\n\nDie Firma Holcim hat beim Landkreis Hildesheim Planänderungen des durch wasserrechtlichen\nPlanfeststellungsbeschluss genehmigten Kiesabbaus beantragt. Die Gemeinde hat keine Einwände\ngegen die geplanten Änderungen erhoben.\n\nFolgende Planänderungen wurden beantragt:\n\n1. Aufgrund eines Klageverfahrens und des zwischenzeitliche geschlossenen Vergleichs soll die\nAbbaufläche 8 um eine Verzichtfläche verringert werden (s. Lageplan).\n\n2. Im Zuge des weiteren Abbaus wird auf dem bestehenden Betriebsgelände eine Vorhalde\nbeantragt, um die Produktion der verschiedenen Sand-Kies-Produkte unabhängiger von der\nAbbautätigkeit zu machen. Es ist eine kegelförmige Halde mit einer Grundfläche von ca. 35,0 m\nDurchmesser und einer Höhe von rund 12,0 m vorgesehen.\n\n[Plan einer Kiesabbaufläche mit eingezeichneten Abbauabschnitten, einer geplanten Vorhalde und einer Verzichtfläche.]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:02:37.433Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 366
+  }
 }

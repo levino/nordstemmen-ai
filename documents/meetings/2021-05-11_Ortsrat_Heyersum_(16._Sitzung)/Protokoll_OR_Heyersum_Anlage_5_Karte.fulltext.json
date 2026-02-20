@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage 5 - 2. Seite"
+      "text": "Anlage 5 - 2. Seite\nAnlage zum Antrag vom 06.05.2021 des Ortsrates Heyersum\n[Luftbildausschnitt einer Straßenkreuzung mit angrenzenden Gebäuden]"
     }
   ],
-  "full_text": "Anlage 5 - 2. Seite"
+  "full_text": "Anlage 5 - 2. Seite\nAnlage zum Antrag vom 06.05.2021 des Ortsrates Heyersum\n[Luftbildausschnitt einer Straßenkreuzung mit angrenzenden Gebäuden]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:03.990Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 57
+  }
 }

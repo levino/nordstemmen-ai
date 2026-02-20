@@ -1,8 +1,18 @@
 {
   "file_hash": "52cc6f6e8c348c9d88decba7b50176bc79ba3c0e4d763a4a39928084672467b5",
   "filename": "Anlage_4_Ortsratsmittel.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "OR Nordstemmen 15.02.22\nAnlage 4\n13.02.2022\nJährlich wiederkehrende Koste des\nOrtsrates Nordstemmen\n\nSenioren Fahrt\nSeniorenweihnachtsfeier\nMüllsammelaktion\nBürgerscheibe u. Schiessen\nBlasorchester (Jahreskonzert)\nFeuerwehr/Blasorchester\nJahresempfang der Kirchen JHV\nSchule Abschlussklassen\nGeburtstage (80. - 85. -90. - 91.....)\nWeltkindertag\nVolkstrauertag\nOrtsheimatpflegerin\nHundekotbeute\nJubiläen (Goldene Hochzeiten)\nOrtsbürgermeister z.b.V.\nFerienpass\nNeubürger\nZuschuss Fahrt Juz\nZuschuss Kultur u. Brauchtum Flyer\nZugesagt:\nMTV\n2 Bänke\nStangen/Argentum\n\nSumme\n\nZuweisung\nÜbertrag\nSumme\nAusgaben/geplant\n\nnoch Verfügbar:\nblau = ausgefallen\nbisher\naufgerundet\nausgegeben\n\n1.200,00 €\n900,00 €\n250,00 €\n500,00 €\n200,00 €\n400,00 €\n200,00 €\n100,00 €\n2.000,00 €\n100,00 €\n100,00 €\n150,00 €\n800,00 €\n600,00 €\n400,00 €\n100,00 €\n600,00 €\n100,00 €\n500,00 €\n\n400,00 €\n600,00 €\n600,00 €\n\n10.800,00 €\n\n2022\n2021\n2022\n2022\n\nca.\n\n8.740,00 €\n8.771,50 €\n\n17.511,50 €\n10.800,00 €\n\n6.700,00 €\n0,00 €\n\n0,00 €"
+    }
+  ],
+  "full_text": "OR Nordstemmen 15.02.22\nAnlage 4\n13.02.2022\nJährlich wiederkehrende Koste des\nOrtsrates Nordstemmen\n\nSenioren Fahrt\nSeniorenweihnachtsfeier\nMüllsammelaktion\nBürgerscheibe u. Schiessen\nBlasorchester (Jahreskonzert)\nFeuerwehr/Blasorchester\nJahresempfang der Kirchen JHV\nSchule Abschlussklassen\nGeburtstage (80. - 85. -90. - 91.....)\nWeltkindertag\nVolkstrauertag\nOrtsheimatpflegerin\nHundekotbeute\nJubiläen (Goldene Hochzeiten)\nOrtsbürgermeister z.b.V.\nFerienpass\nNeubürger\nZuschuss Fahrt Juz\nZuschuss Kultur u. Brauchtum Flyer\nZugesagt:\nMTV\n2 Bänke\nStangen/Argentum\n\nSumme\n\nZuweisung\nÜbertrag\nSumme\nAusgaben/geplant\n\nnoch Verfügbar:\nblau = ausgefallen\nbisher\naufgerundet\nausgegeben\n\n1.200,00 €\n900,00 €\n250,00 €\n500,00 €\n200,00 €\n400,00 €\n200,00 €\n100,00 €\n2.000,00 €\n100,00 €\n100,00 €\n150,00 €\n800,00 €\n600,00 €\n400,00 €\n100,00 €\n600,00 €\n100,00 €\n500,00 €\n\n400,00 €\n600,00 €\n600,00 €\n\n10.800,00 €\n\n2022\n2021\n2022\n2022\n\nca.\n\n8.740,00 €\n8.771,50 €\n\n17.511,50 €\n10.800,00 €\n\n6.700,00 €\n0,00 €\n\n0,00 €",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:48.622Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 551
+  }
 }

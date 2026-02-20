@@ -1,8 +1,18 @@
 {
   "file_hash": "7c668b2eeb1e37fa5625fee737e0717f3ddd487138da3670c19cbea46db4d28a",
   "filename": "DS_73_2021_Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 1 zu DS 73/2021\n\n## Absender\nKarl-Heinz Brandes\nOrtsheimatpflege Heyersum\nLandrat-Hinsche Str 16 b, 31171 Heyersum\nTel 05069 6625 email: brande49@web.de\n\nHeyersum, den 28.04.2021\n\n## Empfänger\nAn die\nGemeinde Nordstemmen\n\n31171 Nordstemmen\n\n## Betreff\nAntrag zur Unterstützung der „1000-Jahr-Feier“\n\nSehr geehrte Damen und Herren!\nFür die Ortschaft Heyersum steht im Jahre 2022 die „1000-Jahr-\nFeier\" heran.\nIm Zusammenhang mit dieser Feier gibt es im Ort bereits einen\nArbeitskreis, der aus Angehörigen der Vereine, des Ortsrates und der\nOrtsheimatpflege besteht.\nEntwickelt wurden bereits viele Ideen und Vorhaben, die voraussichtlich\nmit nicht unerheblichen Kosten verbunden sein werden.\nBeteiligt ist unter anderem die Ortsheimatpflege, die für die Ausweisung\neines virtuellen und historischen Ortsrundganges verantwortlich ist.\nHierzu ist es erforderlich, hochwertige Schilder mit QR-Code zu\nbeschaffen und an den Objekten anzubringen.\nUm diese Maßnahme und andere Projekte zu unterstützen, bitte ich um\neinen Kostenbeitrag der Gemeinde in Höhe von 500 €, der\nzweckgebunden im Zusammenhang mit der „1000 Jahr-\nFeier\" einzusetzen wäre.\n\nMit freundlichen Grüßen"
+    }
+  ],
+  "full_text": "Anlage 1 zu DS 73/2021\n\n## Absender\nKarl-Heinz Brandes\nOrtsheimatpflege Heyersum\nLandrat-Hinsche Str 16 b, 31171 Heyersum\nTel 05069 6625 email: brande49@web.de\n\nHeyersum, den 28.04.2021\n\n## Empfänger\nAn die\nGemeinde Nordstemmen\n\n31171 Nordstemmen\n\n## Betreff\nAntrag zur Unterstützung der „1000-Jahr-Feier“\n\nSehr geehrte Damen und Herren!\nFür die Ortschaft Heyersum steht im Jahre 2022 die „1000-Jahr-\nFeier\" heran.\nIm Zusammenhang mit dieser Feier gibt es im Ort bereits einen\nArbeitskreis, der aus Angehörigen der Vereine, des Ortsrates und der\nOrtsheimatpflege besteht.\nEntwickelt wurden bereits viele Ideen und Vorhaben, die voraussichtlich\nmit nicht unerheblichen Kosten verbunden sein werden.\nBeteiligt ist unter anderem die Ortsheimatpflege, die für die Ausweisung\neines virtuellen und historischen Ortsrundganges verantwortlich ist.\nHierzu ist es erforderlich, hochwertige Schilder mit QR-Code zu\nbeschaffen und an den Objekten anzubringen.\nUm diese Maßnahme und andere Projekte zu unterstützen, bitte ich um\neinen Kostenbeitrag der Gemeinde in Höhe von 500 €, der\nzweckgebunden im Zusammenhang mit der „1000 Jahr-\nFeier\" einzusetzen wäre.\n\nMit freundlichen Grüßen",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:20:15.986Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 373
+  }
 }

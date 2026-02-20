@@ -1,8 +1,18 @@
 {
   "file_hash": "9be8b56502586d54e84a9eed9e36dbe8cb9d29e06ce69d00aaec88e6de4db57d",
   "filename": "OR_Barnten_Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 1\nProtokoll OR Barnten\n70-\n16.05.2.\nTOP 9 Mitteilung des Ortsbürgermeisters:\nIch möchte folgendes mitteilen:\n→ Der Ehrenamtstag findet am 09.06.2023 von\n17:00 – 21:00 Uhr am DGH in Barnten statt.\n→ In der letzten OR-Sitzung hat Herr Wandmacher\nüber Risse in Wohnhäusern berichtet. Der Aufruf des\nOR hat geholfen, so dass sich Bürger*innen gemeldet\nhaben. Das weitere Vorgehen dieser Problematik wird\njetzt zeitnah besprochen\n→ Es wurde ein Mülleimer für Hundekot im Baugebiet\nSüd IV aufgestellt. Herzlichen dank an die\nVerwaltung und Bauhof.\n→ Die Konstante der Buslinie ist immer noch nicht zu\nerkennen.\n→ Erfreulich kann ich Berichten, dass die\nHistorienschilder für das Baugebiet Süd IV in der\nBeschaffung sind und auf dem Ortsrat keine Kosten\nzukommen. Herzlichen Dank an den großzügigen\nBürger der dieses in die Wege geleitet hat.\n→ Des Weiteren habe ich eine Einladung zum Jubiläum\nder Chorgemeinschaft erhalten. Dieser werde ich\nfolgen und ein Flachgeschenk wie beschlossen in Höhe\nvon 150,00€ überreichen. Tobias bitten diese auf mein\nKonto zu überweisen"
+    }
+  ],
+  "full_text": "Anlage 1\nProtokoll OR Barnten\n70-\n16.05.2.\nTOP 9 Mitteilung des Ortsbürgermeisters:\nIch möchte folgendes mitteilen:\n→ Der Ehrenamtstag findet am 09.06.2023 von\n17:00 – 21:00 Uhr am DGH in Barnten statt.\n→ In der letzten OR-Sitzung hat Herr Wandmacher\nüber Risse in Wohnhäusern berichtet. Der Aufruf des\nOR hat geholfen, so dass sich Bürger*innen gemeldet\nhaben. Das weitere Vorgehen dieser Problematik wird\njetzt zeitnah besprochen\n→ Es wurde ein Mülleimer für Hundekot im Baugebiet\nSüd IV aufgestellt. Herzlichen dank an die\nVerwaltung und Bauhof.\n→ Die Konstante der Buslinie ist immer noch nicht zu\nerkennen.\n→ Erfreulich kann ich Berichten, dass die\nHistorienschilder für das Baugebiet Süd IV in der\nBeschaffung sind und auf dem Ortsrat keine Kosten\nzukommen. Herzlichen Dank an den großzügigen\nBürger der dieses in die Wege geleitet hat.\n→ Des Weiteren habe ich eine Einladung zum Jubiläum\nder Chorgemeinschaft erhalten. Dieser werde ich\nfolgen und ein Flachgeschenk wie beschlossen in Höhe\nvon 150,00€ überreichen. Tobias bitten diese auf mein\nKonto zu überweisen",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:05:05.095Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 335
+  }
 }

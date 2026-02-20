@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "E 555819 m\nm\n1683875\nN\nN\n5783881\nm\nE 555850 m\n§\n© 2016\n1:120\nHintergrund:Auszug aus den Geobasisdaten der LGLN"
+      "text": "[Ein Plan, der die Anordnung von Bäumen und Hecken in einer geschwungenen Form darstellt, mit einigen Bäumen, die für den Ersatz markiert sind.]\nAnlage zum\nDS 41/2017\nN 5783861 m\nN 5783881 m\n1:120\nE 555819 m\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n©2016 LGLN"
     }
   ],
-  "full_text": "E 555819 m\nm\n1683875\nN\nN\n5783881\nm\nE 555850 m\n§\n© 2016\n1:120\nHintergrund:Auszug aus den Geobasisdaten der LGLN"
+  "full_text": "[Ein Plan, der die Anordnung von Bäumen und Hecken in einer geschwungenen Form darstellt, mit einigen Bäumen, die für den Ersatz markiert sind.]\nAnlage zum\nDS 41/2017\nN 5783861 m\nN 5783881 m\n1:120\nE 555819 m\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n©2016 LGLN",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:02:24.353Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 121
+  }
 }

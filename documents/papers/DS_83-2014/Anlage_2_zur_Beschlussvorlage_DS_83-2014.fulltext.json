@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage 2 zu\nDS 82/2014"
+      "text": "[Karte eines Bebauungsplans oder Katasterauszugs mit eingezeichneten Grundstücksgrenzen, Gebäuden und Nutzungsbereichen.]\nAnlage 2 zu\nDS 83/2014"
     }
   ],
-  "full_text": "Anlage 2 zu\nDS 82/2014"
+  "full_text": "[Karte eines Bebauungsplans oder Katasterauszugs mit eingezeichneten Grundstücksgrenzen, Gebäuden und Nutzungsbereichen.]\nAnlage 2 zu\nDS 83/2014",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:24:04.705Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 51
+  }
 }

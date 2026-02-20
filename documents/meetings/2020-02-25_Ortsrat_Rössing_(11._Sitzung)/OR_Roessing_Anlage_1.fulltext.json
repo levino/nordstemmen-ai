@@ -1,8 +1,18 @@
 {
   "file_hash": "f354d8470acc7fa4df5fd150f6abd363b726f5a675898d03e79bd5cba1ed8903",
   "filename": "OR_Roessing_Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "## Zu TOP 7: Verwendung von Haushaltsmitteln\n\n| IST-Bestand am 25.02.2020 | | 4.179,09 € |\n|---|---|---|\n| geplante Ausgaben: | | |\n| 5 x GoHo | - | 75,00 € |\n| 52 x 10 €-Gutscheine | - | 520,00 € |\n| 2 x Musikzug 3. Okt., Volkstrauert. | - | 200,00 € |\n| 1 x Kranz | - | 40,00 € |\n| Tannenbaum aufstellen und abr. | - | 75,00 € |\n| Beköstigung und 5 x 10 €- Gutsch. Saubere Landsch. | - | 160,00 € |\n| Beköstigung Sektempfang 3. Okt. | - | 60,00 € |\n| Summe: | | 3.049,09 € |\n\n| zu beschließende Ausgaben | | |\n|---|---|---|\n| Dorfpflege: Verlägerung und Verteiler 380 V für DGH | - | 90,56 € |\n| Latten für Parkbänke + Farbe | - | 360,00 € |\n| Anschaffung einer Sitzkombi. mit Tisch | - | 347,14 € |\n| Anschaffung einer Leinwand mit Stativ 2,44 x 1,83 | - | 200,00 € |\n| Pflanzen für Blumenkästen Unter d. Eichen | - | 30,00 € |\n| Zuschuss für den Anbau der Feuerwehr | - | 300,00 € |\n| WLAN Anschluss für das DGH | - | 180,00 € |\n| Bus nach Beyernaumburg | - | 1.250,00 € |\n| Summe: | | 2.757,70 € |\n| Rest: | | 291,39 € |\n\nPlanung zur Fahrt nach Beyernaumburg 18.- 19.04.2020\n9.30 Uhr Abfahrt Rössing\n12.00 Uhr Ankunft und Begrüßung in Beyern.\nWeiterfahrt zur Besichtigung des Weinguts in\nFreyburg mit Mittagessen\nKaffee und Kuchen in Freyberg\nSchlossbesichtigung Freyberg\n19.00 Uhr Weinfest in Beyernaumburg\nJungweinprobe, Weinmajestäten, Weinkönigin,\nWeinpräsident, Blaskapelle, Essen und Tanz\nriesen Gaudi!!!\n\nSonntag: 9.00 Uhr Frühstück\n11.00 Uhr Rückfahrt\n13.30 Uhr Ankunft in Rössing\nKosten: 30 € Weinabend, 15 € Unterkunft pP\nGesamtkosten pro Person 50 €"
+    }
+  ],
+  "full_text": "## Zu TOP 7: Verwendung von Haushaltsmitteln\n\n| IST-Bestand am 25.02.2020 | | 4.179,09 € |\n|---|---|---|\n| geplante Ausgaben: | | |\n| 5 x GoHo | - | 75,00 € |\n| 52 x 10 €-Gutscheine | - | 520,00 € |\n| 2 x Musikzug 3. Okt., Volkstrauert. | - | 200,00 € |\n| 1 x Kranz | - | 40,00 € |\n| Tannenbaum aufstellen und abr. | - | 75,00 € |\n| Beköstigung und 5 x 10 €- Gutsch. Saubere Landsch. | - | 160,00 € |\n| Beköstigung Sektempfang 3. Okt. | - | 60,00 € |\n| Summe: | | 3.049,09 € |\n\n| zu beschließende Ausgaben | | |\n|---|---|---|\n| Dorfpflege: Verlägerung und Verteiler 380 V für DGH | - | 90,56 € |\n| Latten für Parkbänke + Farbe | - | 360,00 € |\n| Anschaffung einer Sitzkombi. mit Tisch | - | 347,14 € |\n| Anschaffung einer Leinwand mit Stativ 2,44 x 1,83 | - | 200,00 € |\n| Pflanzen für Blumenkästen Unter d. Eichen | - | 30,00 € |\n| Zuschuss für den Anbau der Feuerwehr | - | 300,00 € |\n| WLAN Anschluss für das DGH | - | 180,00 € |\n| Bus nach Beyernaumburg | - | 1.250,00 € |\n| Summe: | | 2.757,70 € |\n| Rest: | | 291,39 € |\n\nPlanung zur Fahrt nach Beyernaumburg 18.- 19.04.2020\n9.30 Uhr Abfahrt Rössing\n12.00 Uhr Ankunft und Begrüßung in Beyern.\nWeiterfahrt zur Besichtigung des Weinguts in\nFreyburg mit Mittagessen\nKaffee und Kuchen in Freyberg\nSchlossbesichtigung Freyberg\n19.00 Uhr Weinfest in Beyernaumburg\nJungweinprobe, Weinmajestäten, Weinkönigin,\nWeinpräsident, Blaskapelle, Essen und Tanz\nriesen Gaudi!!!\n\nSonntag: 9.00 Uhr Frühstück\n11.00 Uhr Rückfahrt\n13.30 Uhr Ankunft in Rössing\nKosten: 30 € Weinabend, 15 € Unterkunft pP\nGesamtkosten pro Person 50 €",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:02:39.076Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 698
+  }
 }

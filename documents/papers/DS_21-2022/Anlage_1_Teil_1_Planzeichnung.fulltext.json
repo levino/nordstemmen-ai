@@ -1,8 +1,18 @@
 {
   "file_hash": "a8534d1a60d7a3dab0e60c33800cca5f0096f971e6a390b7604a056a89b052cb",
   "filename": "Anlage_1_Teil_1_Planzeichnung.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Lärmkarte mit farbkodierten Pegelwerten]\ns. Landesbehörde für Straßenbau und Verkehr\nreg. Geschäftsbereich Hannover\n04.09.2020; Herr Giesche-Zudnik\n\nBundesstraße 1:\nDTV: 8.459 Kfz/24h\nSchwerverkehr tags: 9,3%\nSchwerverkehr nachts: 16,3%\nGeschwindigkeit. 50Km/h\n\nÜberschreitun\nLärmschutz\nRichtlinie-StV\nMaße\nnein\nnein\nnein\nnein\nnein\nN\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nN\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nN\nnein\nnein\nnein\nnein\nnein\nnein\n\nZeichenerklärung\nStraße\nStraßenachse\nEmissionslinie\nWohngebäude\nNebengebäude\nGrenzwertlinie Mischgebiet 22 bis 6Uhr 62dB(A)\n\nPegelwerte (nachts)\nLrN\nin dB(A)\n< = 40\n40 < = 43\n43 < = 46\n46 < = 49\n49 < = 52\n52 < = 55\n55 < = 58\n58 < = 61\n61 < = 64\n64 < = 67\n67 < = 70\n70 <"
+    }
+  ],
+  "full_text": "[Lärmkarte mit farbkodierten Pegelwerten]\ns. Landesbehörde für Straßenbau und Verkehr\nreg. Geschäftsbereich Hannover\n04.09.2020; Herr Giesche-Zudnik\n\nBundesstraße 1:\nDTV: 8.459 Kfz/24h\nSchwerverkehr tags: 9,3%\nSchwerverkehr nachts: 16,3%\nGeschwindigkeit. 50Km/h\n\nÜberschreitun\nLärmschutz\nRichtlinie-StV\nMaße\nnein\nnein\nnein\nnein\nnein\nN\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nN\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nnein\nN\nnein\nnein\nnein\nnein\nnein\nnein\n\nZeichenerklärung\nStraße\nStraßenachse\nEmissionslinie\nWohngebäude\nNebengebäude\nGrenzwertlinie Mischgebiet 22 bis 6Uhr 62dB(A)\n\nPegelwerte (nachts)\nLrN\nin dB(A)\n< = 40\n40 < = 43\n43 < = 46\n46 < = 49\n49 < = 52\n52 < = 55\n55 < = 58\n58 < = 61\n61 < = 64\n64 < = 67\n67 < = 70\n70 <",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:47:38.835Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 403
+  }
 }

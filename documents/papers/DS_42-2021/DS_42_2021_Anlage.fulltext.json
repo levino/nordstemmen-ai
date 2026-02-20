@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage zur\nDS 42/2021"
+      "text": "Anlage zur\nDS 42/2021\n\n[Luftbildaufnahme, die einen Bahnhofsbereich mit Gleisen, Gebäuden und umliegenden Straßen und Parkplätzen zeigt, mit Hervorhebung eines Bahnhofsgebäudes in Rot.]\nMaßstab: 1:1.000\n© 2020 LGLN\n\n[Detailansicht einer Luftbildaufnahme, die einen Parkplatzbereich mit Fahrzeugen zeigt.]\nMaßstab: 1:200\n© 2020 LGLN"
     }
   ],
-  "full_text": "Anlage zur\nDS 42/2021"
+  "full_text": "Anlage zur\nDS 42/2021\n\n[Luftbildaufnahme, die einen Bahnhofsbereich mit Gleisen, Gebäuden und umliegenden Straßen und Parkplätzen zeigt, mit Hervorhebung eines Bahnhofsgebäudes in Rot.]\nMaßstab: 1:1.000\n© 2020 LGLN\n\n[Detailansicht einer Luftbildaufnahme, die einen Parkplatzbereich mit Fahrzeugen zeigt.]\nMaßstab: 1:200\n© 2020 LGLN",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:03:12.486Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 125
+  }
 }

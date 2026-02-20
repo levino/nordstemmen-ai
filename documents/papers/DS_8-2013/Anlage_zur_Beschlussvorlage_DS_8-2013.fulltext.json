@@ -1,8 +1,18 @@
 {
   "file_hash": "51dfd354a68ede4f42cd39461a71b4cbc20d3b997b09aad3793f6f12614c5b2f",
   "filename": "Anlage_zur_Beschlussvorlage_DS_8-2013.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Die Seite zeigt einen farbigen Kartenausschnitt, der vermutlich einen Bebauungsplan oder eine Katasterkarte darstellt. Es sind Gebäude, Parzellen mit Nummern und Straßennamen abgebildet. Einige Gebäudeflächen sind blau oder rot schraffiert, eine Fläche ist rot umrandet und mit einem \"a)\" gekennzeichnet.]"
+    }
+  ],
+  "full_text": "[Die Seite zeigt einen farbigen Kartenausschnitt, der vermutlich einen Bebauungsplan oder eine Katasterkarte darstellt. Es sind Gebäude, Parzellen mit Nummern und Straßennamen abgebildet. Einige Gebäudeflächen sind blau oder rot schraffiert, eine Fläche ist rot umrandet und mit einem \"a)\" gekennzeichnet.]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:22:31.132Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 81
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "090d7ddddb96439661a7d095cc329ca62f24a680a7ff4443ccf749e236cab975",
   "filename": "Anlage_zu_TOP_4.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "10.02.2017\n\nJährlich wiederkehrende Koste des\nOrtsrates Nordstemmen\n                 bisher\naufgerundet ausgegeben\n\n| | | |\n|---|---|---|\n| Senioren Fahrt | 1.100,00 € | |\n| Seniorenweihnachtsfeier | 500,00 € | |\n| Müllsammelaktion | 200,00 € | |\n| Bürgerscheibe u. Schiessen | 500,00 € | |\n| Blasorchester (Jahreskonzert) | 100,00 € | |\n| Feuerwehr/Blasorchester | 200,00 € | 200,00 € |\n| Jahresempfang der Kirchen | 100,00 € | 100,00 € |\n| Schule Abschlussklassen | 100,00 € | |\n| Geburtstage (80.- 85.-90.- 91.....) | 1.200,00 € | |\n| Weltkindertag | 100,00 € | |\n| Ortsheimatpflegerin | 150,00 € | |\n| Hundekotbeute | 400,00 € | 303,09 € |\n| Jubiläen (Goldene Hochzeiten) | 150,00 € | |\n| Ortsbürgermeister z.b.V. | 400,00 € | 125,00 € |\n| Ferienpass | 100,00 € | |\n\nSumme 5.300,00 €\n\n| | | |\n|---|---|---|\n| Zuweisung | 2017 | 6.050,00 € |\n| Übertrag | 2016 | 2.868,00 € |\n| Summe 2017 | 2017 | 8.918,00 € |"
+    }
+  ],
+  "full_text": "10.02.2017\n\nJährlich wiederkehrende Koste des\nOrtsrates Nordstemmen\n                 bisher\naufgerundet ausgegeben\n\n| | | |\n|---|---|---|\n| Senioren Fahrt | 1.100,00 € | |\n| Seniorenweihnachtsfeier | 500,00 € | |\n| Müllsammelaktion | 200,00 € | |\n| Bürgerscheibe u. Schiessen | 500,00 € | |\n| Blasorchester (Jahreskonzert) | 100,00 € | |\n| Feuerwehr/Blasorchester | 200,00 € | 200,00 € |\n| Jahresempfang der Kirchen | 100,00 € | 100,00 € |\n| Schule Abschlussklassen | 100,00 € | |\n| Geburtstage (80.- 85.-90.- 91.....) | 1.200,00 € | |\n| Weltkindertag | 100,00 € | |\n| Ortsheimatpflegerin | 150,00 € | |\n| Hundekotbeute | 400,00 € | 303,09 € |\n| Jubiläen (Goldene Hochzeiten) | 150,00 € | |\n| Ortsbürgermeister z.b.V. | 400,00 € | 125,00 € |\n| Ferienpass | 100,00 € | |\n\nSumme 5.300,00 €\n\n| | | |\n|---|---|---|\n| Zuweisung | 2017 | 6.050,00 € |\n| Übertrag | 2016 | 2.868,00 € |\n| Summe 2017 | 2017 | 8.918,00 € |",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:59:37.199Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 480
+  }
 }

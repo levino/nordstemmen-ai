@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Am Dorfe\nSchmiedefeld\nWeingarten\nGeltungsbereich\n±\n1:3.000"
+      "text": "[Karte, die die Ortschaften Klein Escherde und Groß Escherde mit Straßen, Gebäuden und Flurstücken zeigt, inklusive eines markierten Geltungsbereichs.]\nAnlage 1 zu\nDS 25/2024\n1:3.000"
     }
   ],
-  "full_text": "Am Dorfe\nSchmiedefeld\nWeingarten\nGeltungsbereich\n±\n1:3.000"
+  "full_text": "[Karte, die die Ortschaften Klein Escherde und Groß Escherde mit Straßen, Gebäuden und Flurstücken zeigt, inklusive eines markierten Geltungsbereichs.]\nAnlage 1 zu\nDS 25/2024\n1:3.000",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:50:48.230Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 67
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "37ad7f2e756103579636cf46a683617307b8ff1d68f681c57920c4c84b298c9a",
   "filename": "Anlage_5.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage S\nProtokoll OR Baruten con\n25.02.2025\n\nTOP 13: Anfragen und Anregungen\n\n→ Wann ist mit der Errichtung der barrierefreien Bushaltestelle zu\nrechnen? Nach Rücksprache mit dem RVHI stehen hierfür\nFörderungen zur Verfügung. ✓\n\n→ Sachstand zur Tieferlegung der Verkehrsschilder\nauf der Verkehrsinsel an der Sartstedter Straße\n\n→ Sachstand zur Verkehrssicherheit am Kreisel nach\nNordstemmen und Rössing für die Schüler*innen?\n\n→ Aufbau der Bank am Spielplatz „Zum Osterfeld“ erfolgt in\nwelchem Jahr? Das Konto des OR ist mit der Bank bereits\nbelastet. Liest der Bauhof die OR-Protokolle? ✓\n\n→ Aufstellung weitere Mülleimer z.B. an der Bank am\nHolze? ✓\n\n→ Hinweisschild Prozesstechnik? Wann endlich?\n\n→ Anbringen eines Verkehrsspiegels an der Ecke\nGlückaufstraße / Landesstraße in der Verlängerung zum\nAnbau der KITA\n\nGibt es weitere Anfragen und Anregungen?"
+    }
+  ],
+  "full_text": "Anlage S\nProtokoll OR Baruten con\n25.02.2025\n\nTOP 13: Anfragen und Anregungen\n\n→ Wann ist mit der Errichtung der barrierefreien Bushaltestelle zu\nrechnen? Nach Rücksprache mit dem RVHI stehen hierfür\nFörderungen zur Verfügung. ✓\n\n→ Sachstand zur Tieferlegung der Verkehrsschilder\nauf der Verkehrsinsel an der Sartstedter Straße\n\n→ Sachstand zur Verkehrssicherheit am Kreisel nach\nNordstemmen und Rössing für die Schüler*innen?\n\n→ Aufbau der Bank am Spielplatz „Zum Osterfeld“ erfolgt in\nwelchem Jahr? Das Konto des OR ist mit der Bank bereits\nbelastet. Liest der Bauhof die OR-Protokolle? ✓\n\n→ Aufstellung weitere Mülleimer z.B. an der Bank am\nHolze? ✓\n\n→ Hinweisschild Prozesstechnik? Wann endlich?\n\n→ Anbringen eines Verkehrsspiegels an der Ecke\nGlückaufstraße / Landesstraße in der Verlängerung zum\nAnbau der KITA\n\nGibt es weitere Anfragen und Anregungen?",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:06:22.870Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 254
+  }
 }

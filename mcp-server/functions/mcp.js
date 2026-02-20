@@ -259,7 +259,7 @@ async function searchPapers(env, args) {
 }
 
 async function getDocumentText(env, args) {
-  const { file_hash } = args;
+  const { file_hash, page } = args;
 
   // Validate SHA256 format
   if (!file_hash || !/^[a-f0-9]{64}$/i.test(file_hash)) {
@@ -274,7 +274,65 @@ async function getDocumentText(env, args) {
       return `No fulltext available for file hash ${file_hash}. The document may not have been processed yet.`;
     }
 
-    return await response.text();
+    const fullText = await response.text();
+
+    // Split into pages (pages are separated by \n\n in the fulltext)
+    // The fulltext.json stores pages separately, and the .txt concatenates them with \n\n
+    // We use a page marker format: "--- Page X ---" to split reliably
+    const pageMarkerRegex = /^--- Page (\d+) ---$/gm;
+    const pages = [];
+    let lastIndex = 0;
+    let match;
+
+    while ((match = pageMarkerRegex.exec(fullText)) !== null) {
+      if (pages.length > 0) {
+        pages[pages.length - 1].text = fullText.slice(lastIndex, match.index).trim();
+      }
+      pages.push({ page: parseInt(match[1]), text: '' });
+      lastIndex = match.index + match[0].length;
+    }
+    if (pages.length > 0) {
+      pages[pages.length - 1].text = fullText.slice(lastIndex).trim();
+    }
+
+    // If no page markers found, treat entire text as page 1
+    if (pages.length === 0) {
+      pages.push({ page: 1, text: fullText.trim() });
+    }
+
+    const totalPages = pages.length;
+
+    // No page requested: return page 1 + overview
+    if (page === undefined || page === null) {
+      const firstPage = pages[0];
+      if (totalPages === 1) {
+        return firstPage.text;
+      }
+      return `Seite 1 von ${totalPages}:\n\n${firstPage.text}\n\n---\nDieses Dokument hat ${totalPages} Seiten. Nutze den Parameter "page" um weitere Seiten abzurufen (z.B. page=2 oder page="1-5").`;
+    }
+
+    // Parse page parameter
+    const pageStr = String(page);
+    const rangeMatch = pageStr.match(/^(\d+)-(\d+)$/);
+
+    if (rangeMatch) {
+      // Page range: "1-5"
+      const from = parseInt(rangeMatch[1]);
+      const to = parseInt(rangeMatch[2]);
+      const selected = pages.filter((p) => p.page >= from && p.page <= to);
+      if (selected.length === 0) {
+        return `Keine Seiten im Bereich ${from}-${to} gefunden. Das Dokument hat ${totalPages} Seiten.`;
+      }
+      return selected.map((p) => `--- Seite ${p.page} von ${totalPages} ---\n\n${p.text}`).join('\n\n');
+    }
+
+    // Single page number
+    const pageNum = parseInt(pageStr);
+    const found = pages.find((p) => p.page === pageNum);
+    if (!found) {
+      return `Seite ${pageNum} nicht gefunden. Das Dokument hat ${totalPages} Seiten (1-${pages[pages.length - 1].page}).`;
+    }
+    return `Seite ${found.page} von ${totalPages}:\n\n${found.text}`;
   } catch (error) {
     throw new Error(`Get document text error: ${error.message}`);
   }
@@ -488,6 +546,10 @@ Der file_hash wird von den anderen Tools (search_documents, get_paper_by_referen
                     type: 'string',
                     description:
                       'Der SHA256-Hash des Dokuments (64 Zeichen, hexadezimal). Wird von den Such-Tools im Feld "file_hash" zurückgegeben.',
+                  },
+                  page: {
+                    description:
+                      'Optionale Seitennummer oder Seitenbereich. Beispiele: 1 (einzelne Seite), "1-5" (Seiten 1 bis 5). Ohne Angabe wird nur Seite 1 zurückgegeben mit Hinweis auf die Gesamtseitenzahl.',
                   },
                 },
                 required: ['file_hash'],

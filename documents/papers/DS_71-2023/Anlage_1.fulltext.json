@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "±\nStraßenbennenung (Ortschaft Klein Escherde) Stand: 21.09.2023\n1:1.000"
+      "text": "[Übersichtsplan für eine Baugebietsentwicklung mit Bebauungsstrukturen und Straßenverläufen.]\nStraßenbennenung (Ortschaft Klein Escherde)\nStand: 21.09.2023\n1:1.000"
     }
   ],
-  "full_text": "±\nStraßenbennenung (Ortschaft Klein Escherde) Stand: 21.09.2023\n1:1.000"
+  "full_text": "[Übersichtsplan für eine Baugebietsentwicklung mit Bebauungsstrukturen und Straßenverläufen.]\nStraßenbennenung (Ortschaft Klein Escherde)\nStand: 21.09.2023\n1:1.000",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:19:46.481Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 66
+  }
 }

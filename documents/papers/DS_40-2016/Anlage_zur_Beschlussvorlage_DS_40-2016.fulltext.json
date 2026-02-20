@@ -1,8 +1,18 @@
 {
   "file_hash": "982caf47272bce6fd3fc0a1a0e56f9ebd07475a0d3bede57617d794ed936b0b4",
   "filename": "Anlage_zur_Beschlussvorlage_DS_40-2016.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Katasterplan, der Grundstücke, Straßen und Gebäudeumrisse zeigt.]\nN 5779417 m\nE 554237 m\n1:1.000\nE 553986 m\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n© 2015\nLGLN\nN 5779590 m"
+    }
+  ],
+  "full_text": "[Katasterplan, der Grundstücke, Straßen und Gebäudeumrisse zeigt.]\nN 5779417 m\nE 554237 m\n1:1.000\nE 553986 m\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n© 2015\nLGLN\nN 5779590 m",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:01:47.576Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 101
+  }
 }

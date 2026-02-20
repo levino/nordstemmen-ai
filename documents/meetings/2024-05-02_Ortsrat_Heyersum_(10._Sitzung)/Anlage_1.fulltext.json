@@ -1,8 +1,18 @@
 {
   "file_hash": "39fb87e01586d4354dd7255dc99803c7ce4d8185a6b4149a35656509ec2189f1",
   "filename": "Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "OR Heyersum 02.05.24\nAnlage 1\nOrtsrat\nHeyersum\n\nMitteilung des Ortsbürgermeisters\n\n- Am 13.04 fand der Umwelttag in Heyersum statt. ca. 30 Freiwillige haben sich um 10:00 Uhr\n  auf dem Bauernhof Bernd getroffen und haben sich dann ca. 2 Stunden Zeit genommen um\n  den Ort und die anliegenden Feldwege von Müll zu reinigen. Im Anschluss wurde am\n  Feuerwehrhaus bei einer leckeren Suppe von Henrike Bauermeister – Mund der Vormittag\n  ausgeklungen. Bei dem Essen kam die Idee den Sonnigen Nachmittag auch noch sinnvoll zu\n  nutzen und sich dem Dorfteich anzunehmen. So konnte hier von zahlreichen Helfer*innen\n  der Teich von abgestorbenen Pflanzen und Dreck befreit werden. Vielen Dank an alle die an\n  diesem Tag geholfen haben.\n- Veranstaltungen: Es haben verschiedene Veranstaltungen stattgefunden, welche der\n  Dorfgemeinschaft zu gute kamen, Vielen dank an alle Organisatoren.\n- Es kam in der letzten Woche auf dem Gelände der Kirche, zu einer Beschädigung an einer\n  Grabstein. Hier wird sich die Kirche noch äußern, ich möchte aber auf die Gefahr hinweisen\n  die bei herabstürzenden teilen auftreten kann.\n- Über das Himmelfahrtswochenende kommt eine besuchergruppe aus unserer\n  Partnergemeinde St. Aubin zu besuch. Es ist auch vorgesehen das durch den Ortsrat\n  beschaffte Schild dann aufzustellen\n- Nach aktuellem Stand werden die Bahnübergänge Richtung Rössing im November 2024\n  geschlossen\n\nJonas Schefe\nOrtsbürgermeister"
+    }
+  ],
+  "full_text": "OR Heyersum 02.05.24\nAnlage 1\nOrtsrat\nHeyersum\n\nMitteilung des Ortsbürgermeisters\n\n- Am 13.04 fand der Umwelttag in Heyersum statt. ca. 30 Freiwillige haben sich um 10:00 Uhr\n  auf dem Bauernhof Bernd getroffen und haben sich dann ca. 2 Stunden Zeit genommen um\n  den Ort und die anliegenden Feldwege von Müll zu reinigen. Im Anschluss wurde am\n  Feuerwehrhaus bei einer leckeren Suppe von Henrike Bauermeister – Mund der Vormittag\n  ausgeklungen. Bei dem Essen kam die Idee den Sonnigen Nachmittag auch noch sinnvoll zu\n  nutzen und sich dem Dorfteich anzunehmen. So konnte hier von zahlreichen Helfer*innen\n  der Teich von abgestorbenen Pflanzen und Dreck befreit werden. Vielen Dank an alle die an\n  diesem Tag geholfen haben.\n- Veranstaltungen: Es haben verschiedene Veranstaltungen stattgefunden, welche der\n  Dorfgemeinschaft zu gute kamen, Vielen dank an alle Organisatoren.\n- Es kam in der letzten Woche auf dem Gelände der Kirche, zu einer Beschädigung an einer\n  Grabstein. Hier wird sich die Kirche noch äußern, ich möchte aber auf die Gefahr hinweisen\n  die bei herabstürzenden teilen auftreten kann.\n- Über das Himmelfahrtswochenende kommt eine besuchergruppe aus unserer\n  Partnergemeinde St. Aubin zu besuch. Es ist auch vorgesehen das durch den Ortsrat\n  beschaffte Schild dann aufzustellen\n- Nach aktuellem Stand werden die Bahnübergänge Richtung Rössing im November 2024\n  geschlossen\n\nJonas Schefe\nOrtsbürgermeister",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:05:47.812Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 399
+  }
 }

@@ -30,7 +30,6 @@ from PIL import Image
 from tqdm import tqdm
 
 IS_CI = os.environ.get('CI') or os.environ.get('GITHUB_ACTIONS')
-from langchain_text_splitters import RecursiveCharacterTextSplitter
 import warnings
 
 # Configure logging (only errors and warnings)
@@ -50,8 +49,9 @@ MEETINGS_DIR = DOCUMENTS_DIR / 'meetings'
 
 # Embedding model configuration
 EMBEDDING_MODEL = 'jinaai/jina-embeddings-v3'
-CHUNK_SIZE = 1000
-CHUNK_OVERLAP = 200
+CHUNK_SIZE = 1000  # Legacy, kept for reference
+CHUNK_OVERLAP = 200  # Legacy, kept for reference
+# New: page-level chunking — each page is one embedding unit
 
 
 def _is_lfs_pointer(filepath: Path) -> bool:
@@ -159,13 +159,8 @@ class EmbeddingGeneratorBase(ABC):
     """Base class for embedding generators. Handles text extraction, chunking, and caching."""
 
     def __init__(self):
-        """Initialize text splitter."""
-        self.text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=CHUNK_SIZE,
-            chunk_overlap=CHUNK_OVERLAP,
-            length_function=len,
-            separators=["\n\n", "\n", ". ", " ", ""]
-        )
+        """Initialize generator."""
+        pass
 
     @abstractmethod
     def _encode_chunks(self, texts: List[str]) -> List[List[float]]:
@@ -261,11 +256,6 @@ class EmbeddingGeneratorBase(ABC):
             pages = self._extract_text_with_ocr(filepath)
 
         return pages
-
-    def _chunk_text(self, text: str) -> List[str]:
-        """Split text into overlapping chunks using LangChain."""
-        chunks = self.text_splitter.split_text(text)
-        return [c.strip() for c in chunks if c.strip()]
 
     def _save_embeddings_cache(self, filepath: Path, file_hash: str, chunks_data: List[Dict]):
         """Save embeddings to cache file."""
@@ -416,36 +406,29 @@ class EmbeddingGeneratorBase(ABC):
         if not pages:
             return None  # No text available
 
-        # Process each page and generate embeddings
-        all_chunks_text = []
-        chunk_metadata = []
+        # Page-level embedding: each page = one embedding unit
+        page_texts = []
+        page_nums = []
 
         for page_num, page_text in pages:
-            chunks = self._chunk_text(page_text)
+            text = page_text.strip()
+            if text:
+                page_texts.append(text)
+                page_nums.append(page_num)
 
-            for chunk_idx, chunk_text in enumerate(chunks):
-                if not chunk_text.strip():
-                    continue
-
-                all_chunks_text.append(chunk_text)
-                chunk_metadata.append({
-                    'page_num': page_num,
-                    'chunk_idx': chunk_idx
-                })
-
-        if not all_chunks_text:
+        if not page_texts:
             return None
 
-        # Encode all chunks
-        embeddings = self._encode_chunks(all_chunks_text)
+        # Encode all pages
+        embeddings = self._encode_chunks(page_texts)
 
-        # Save for cache
+        # Save for cache — one entry per page, chunk_index always 0
         chunks_for_cache = []
-        for i, (embedding, metadata) in enumerate(zip(embeddings, chunk_metadata)):
+        for i, (embedding, page_num) in enumerate(zip(embeddings, page_nums)):
             chunks_for_cache.append({
-                'page': metadata['page_num'],
-                'chunk_index': metadata['chunk_idx'],
-                'text': all_chunks_text[i],
+                'page': page_num,
+                'chunk_index': 0,
+                'text': page_texts[i],
                 'vector': embedding
             })
 

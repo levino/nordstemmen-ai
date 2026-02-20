@@ -1,8 +1,18 @@
 {
   "file_hash": "c5c305d495a29dc3ff87f1de159ee864075014eb86482d8fc971f9225664c69a",
   "filename": "Anlage_zur_DS_52-2019.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Ein Katasterplan-Auszug, der Grundstücksgrenzen, Flurstücksnummern und Straßenverläufe zeigt.]\nAnlage zur DS 5212019\n\nDipl.-Ing. Marco Jankowski\nÖffentlich bestellter Vermessungsingenieur\nBeratender Ingenieur\nImmengarten 15\n31134 Hildesheim\nTel.: 05121/16594-0\nFax: 05121/16594-10\nE-Mail: info@vermessung-hildesheim.de\nInternet: www.vermessung-hildesheim.de"
+    }
+  ],
+  "full_text": "[Ein Katasterplan-Auszug, der Grundstücksgrenzen, Flurstücksnummern und Straßenverläufe zeigt.]\nAnlage zur DS 5212019\n\nDipl.-Ing. Marco Jankowski\nÖffentlich bestellter Vermessungsingenieur\nBeratender Ingenieur\nImmengarten 15\n31134 Hildesheim\nTel.: 05121/16594-0\nFax: 05121/16594-10\nE-Mail: info@vermessung-hildesheim.de\nInternet: www.vermessung-hildesheim.de",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:08:14.657Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 155
+  }
 }

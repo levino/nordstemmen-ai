@@ -1,8 +1,18 @@
 {
   "file_hash": "fc49e55974e125e4a0b0957da0e64a2ead1a27a3c2c05ceda28f439f50a3daa6",
   "filename": "OR_Nordstemmen_Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "OR Nordstemmen\nAnlage 1\n\nKultur- und Heimatverein\nNordstemmen\n\n## Absender\nVorsitzender: Rolf Müller\nFliederstr. 16\n31171 Nordstemmen\nTEL.: 05069 3935\nrm@puschendorf.net\nKultur- und Heimatverein Nordstemmen e.V. - Fliederstr. 16 - 31171 Nordstemmen\nVolksbank Hildesheim\nLehrte - Pattensen\nIBAN:\nDE04 2519 3331 2230 7184 00\nBIC: GENODEF1PAT\nwww.heimatverein-nordstemmen.de\n\n## Empfänger\nGemeinde Nordstemmen\nOrtsrat, z.Hd. Herrn Ortsbürgermeister Flegel\nRathausstr. 3\n31171 Nordstemmen\n\nNordstemmen, den 17.03.2021\n\nSehr geehrte Damen und Herren,\n\nin der Brunnenstraße, auf dem Grundstück der „KWG“, befindet sich ein historischer\nBrunnen.\nUm diesen Brunnen zu erhalten und sichtbar zu gestalten, haben sich die Gemeinde, die\nHeimatpflegerin Frau Berker, sowie die KWG bereits eingesetzt.\n\nNun befindet sich genau gegenüber des Fachwerkhauses, auf dem Grundstück der Fa. Fischer\nein weiterer Brunnen. Herr Jung von der Fa. Fischer sagte mir, dass er den neuen Eigentümer\ndes Grundstücks dafür gewinnen möchte, diesen Brunnen zu übernehmen und zu erhalten.\n\nIch würde mich freuen, wenn die Gemeinde ihrerseits tätig würde, sich für den Erhalt\neinzusetzen.\nDadurch wäre auch für die Zukunft der Name Brunnenstraße historisch belegt.\n\nÜber eine positive Antwort freue ich mich.\n\nMit freundlichen Grüßen\n[Unterschrift]\n\nVolksbank Hildesheim - Lehrte - Pattensen\nIBAN: DE04 2519 3331 2230 7184 00\nBIC: GENODEF1PAT"
+    }
+  ],
+  "full_text": "OR Nordstemmen\nAnlage 1\n\nKultur- und Heimatverein\nNordstemmen\n\n## Absender\nVorsitzender: Rolf Müller\nFliederstr. 16\n31171 Nordstemmen\nTEL.: 05069 3935\nrm@puschendorf.net\nKultur- und Heimatverein Nordstemmen e.V. - Fliederstr. 16 - 31171 Nordstemmen\nVolksbank Hildesheim\nLehrte - Pattensen\nIBAN:\nDE04 2519 3331 2230 7184 00\nBIC: GENODEF1PAT\nwww.heimatverein-nordstemmen.de\n\n## Empfänger\nGemeinde Nordstemmen\nOrtsrat, z.Hd. Herrn Ortsbürgermeister Flegel\nRathausstr. 3\n31171 Nordstemmen\n\nNordstemmen, den 17.03.2021\n\nSehr geehrte Damen und Herren,\n\nin der Brunnenstraße, auf dem Grundstück der „KWG“, befindet sich ein historischer\nBrunnen.\nUm diesen Brunnen zu erhalten und sichtbar zu gestalten, haben sich die Gemeinde, die\nHeimatpflegerin Frau Berker, sowie die KWG bereits eingesetzt.\n\nNun befindet sich genau gegenüber des Fachwerkhauses, auf dem Grundstück der Fa. Fischer\nein weiterer Brunnen. Herr Jung von der Fa. Fischer sagte mir, dass er den neuen Eigentümer\ndes Grundstücks dafür gewinnen möchte, diesen Brunnen zu übernehmen und zu erhalten.\n\nIch würde mich freuen, wenn die Gemeinde ihrerseits tätig würde, sich für den Erhalt\neinzusetzen.\nDadurch wäre auch für die Zukunft der Name Brunnenstraße historisch belegt.\n\nÜber eine positive Antwort freue ich mich.\n\nMit freundlichen Grüßen\n[Unterschrift]\n\nVolksbank Hildesheim - Lehrte - Pattensen\nIBAN: DE04 2519 3331 2230 7184 00\nBIC: GENODEF1PAT",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:02.903Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 470
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "aff2e8489fa76d51be8dcf0a8892b780bf613044f8ca8efa8b3245b60993e277",
   "filename": "OR_Heyersum_Anlage_2_TOP_7.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 2\nOR Heyersum\nTOP 7\n44\n53"
+    }
+  ],
+  "full_text": "Anlage 2\nOR Heyersum\nTOP 7\n44\n53",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:00:38.479Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 25
+  }
 }

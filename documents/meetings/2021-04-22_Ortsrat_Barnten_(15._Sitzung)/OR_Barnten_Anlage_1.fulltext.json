@@ -1,8 +1,18 @@
 {
   "file_hash": "ce8b784ff56571c45d281fd75efd11e67b4b37b717e5b60de7d529728c517f4e",
   "filename": "OR_Barnten_Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "OR Barnte-\nAnlage 1\n502\n22.04.2021\nOrtsrat Barnten\nMärz 2021\nVorschlag: Vergabe Ortsratsmittel für das Jahr 2021\n\nHaushaltsrest 2020\nOrtsratsmittel 2021\n€ 94,54\n€ 2800,00\n=€ 2894,54\n\nVerfügungsmittel Ortsbürgermeister für Präsente\n(24 x Blumensträuße, 0 x Präsentkorb)\n€ 288,00\n=€ 2606,54\n\nHeimatstube\nOrtsheimatpflegerin\nKranz für Volkstrauertag\nUmwelttag\nZuschuss, für Pokale, beim Schießen um die Bürgerkönige (XX)\nAdventfeier OR/AWO/DRK/SoVD/Kirchengemeinde\nChorgemeinschaft singen am Volkstrauertag (XX)\nFFW Musikzug Rössing für Volkstrauertag (XX)\nZuschuss Dorfpflege, Neugestaltung Wappenbaum\n„Dankeschön“ für Günter Schulz (als Gutschein) (XX)\n€ 120,00\n€ 150,00\n€ 80,00\n€ 100,00\n€ 100,00\n€ 100,00\n€ 40,00\n€ 100,00\n€ 800,00\n€ 50,00\nAusgaben gesamt:\n=€ 1540,00\n\nHaushaltsrest\n=€ 966,54\n\n(XX) = soll persönlich übergeben werden"
+    }
+  ],
+  "full_text": "OR Barnte-\nAnlage 1\n502\n22.04.2021\nOrtsrat Barnten\nMärz 2021\nVorschlag: Vergabe Ortsratsmittel für das Jahr 2021\n\nHaushaltsrest 2020\nOrtsratsmittel 2021\n€ 94,54\n€ 2800,00\n=€ 2894,54\n\nVerfügungsmittel Ortsbürgermeister für Präsente\n(24 x Blumensträuße, 0 x Präsentkorb)\n€ 288,00\n=€ 2606,54\n\nHeimatstube\nOrtsheimatpflegerin\nKranz für Volkstrauertag\nUmwelttag\nZuschuss, für Pokale, beim Schießen um die Bürgerkönige (XX)\nAdventfeier OR/AWO/DRK/SoVD/Kirchengemeinde\nChorgemeinschaft singen am Volkstrauertag (XX)\nFFW Musikzug Rössing für Volkstrauertag (XX)\nZuschuss Dorfpflege, Neugestaltung Wappenbaum\n„Dankeschön“ für Günter Schulz (als Gutschein) (XX)\n€ 120,00\n€ 150,00\n€ 80,00\n€ 100,00\n€ 100,00\n€ 100,00\n€ 40,00\n€ 100,00\n€ 800,00\n€ 50,00\nAusgaben gesamt:\n=€ 1540,00\n\nHaushaltsrest\n=€ 966,54\n\n(XX) = soll persönlich übergeben werden",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:03.240Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 424
+  }
 }
