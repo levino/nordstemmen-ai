@@ -1,7 +1,7 @@
 {
   "name": "nordstemmen-pipeline",
   "version": "1.0.0",
-  "description": "Document processing pipeline: PDF → OCR → Embeddings → Qdrant → B2",
+  "description": "Document processing pipeline: PDF → OCR → Embeddings → Qdrant",
   "type": "module",
   "scripts": {
     "pipeline": "node --experimental-strip-types src/index.ts",

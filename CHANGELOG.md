@@ -7,19 +7,30 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Added
-- **Document Pipeline** (`pipeline/`): New TypeScript workspace replacing all Python processing scripts. Single command (`npm run pipeline`) processes documents end-to-end: PDF → Gemini OCR → Jina Embeddings → Qdrant → Backblaze B2
-- Pipeline supports CLI flags: `--limit`, `--force`, `--dry-run`, `--skip-b2`, `--skip-qdrant`, `--only`, `--concurrency`, `--max-pdf-size`
+- **Document Pipeline** (`pipeline/`): New TypeScript workspace replacing all Python processing scripts. Single command (`npm run pipeline`) processes documents end-to-end: PDF → Gemini OCR → Jina Embeddings → Qdrant
+- Pipeline CLI flags: `--limit`, `--force`, `--dry-run`, `--skip-qdrant`, `--only`, `--concurrency`, `--max-pdf-size`
 - Gemini 2.5 Flash OCR: sends entire PDF as inline data (no pdf2image/poppler dependency)
-- Page-level embeddings via Jina v3 API (`retrieval.passage` task)
-- Cache-aware processing: honors existing `.fulltext.json` and `.embeddings.json` files
+- Page-level embeddings via Jina v3 API (`retrieval.passage` task, 1024D vectors)
+- `.completed` tracking per PDF — written only after all steps (OCR → Embeddings → Qdrant) succeed, enables reliable resume on interruption
+- Jina API semaphore for concurrency limiting (handles both free and paid tier limits)
+- `rebuild-qdrant.ts` script to rebuild Qdrant from cached `.embeddings.json` files without API costs
+- Jina load test (`pipeline/src/__tests__/jina-load.test.ts`) for verifying API limits
 - `CLAUDE.md` with accurate project context for AI assistants
 - Documentation maintenance rules (CLAUDE.md ↔ README.md sync, changelog, sub-READMEs)
 - `CHANGELOG.md` to track project changes
+- AI model choice documentation (why Gemini 2.5 Flash for OCR, why Jina v3 for embeddings)
 
 ### Changed
 - MCP tool responses now return JSON in `content.text` instead of formatted Markdown, so AI clients can reliably access all fields including `file_hash`
 - Removed `structuredContent` from MCP responses (most clients ignored it)
 - Data update workflow simplified from 4 Python scripts to single `npm run pipeline` command
+- Pipeline always does fresh OCR + embeddings per file (no partial cache reuse from `.fulltext.json`/`.embeddings.json`)
+
+### Removed
+- **Backblaze B2 integration** — PDF and fulltext storage removed from pipeline. MCP server now serves fulltext from Cloudflare static assets (bundled `.txt` files)
+- **PDF proxy endpoint** (`/pdf/<sha256>`) — removed from MCP server, PDFs are linked directly to the Ratsinformationssystem
+- `--skip-b2` CLI flag (B2 no longer exists)
+- Partial cache reuse (pipeline no longer reads existing `.fulltext.json`/`.embeddings.json` to skip steps)
 
 ### Deprecated
 - Python embedding scripts (`embeddings/generate_embeddings.py`, `embeddings/upload_to_qdrant.py`, `scripts/vision_ocr.py`, `scripts/upload_to_b2.py`) — replaced by `pipeline/`
@@ -28,12 +39,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - `searchPapers` was not fetching `file_hash` from Qdrant (missing in `with_payload`)
 - `file_hash` was invisible to AI clients because it only existed in `structuredContent`, which most MCP clients ignore
 - Wrong file names in README (`generate.py` → `generate_embeddings.py`, `_worker.js` → `functions/mcp.js`)
-- Outdated repository structure in README (now reflects papers/meetings subdirs, functions/, src/, scripts/, .devcontainer/, .github/)
-- README now documents all 3 MCP tools instead of just `search_documents`
-- Missing documentation for PDF proxy, embedding cache, OCR support, custom LFS server
-- GitHub URLs corrected (`yourusername` → `levinkeller`)
+- Outdated repository structure in README
+- GitHub URLs corrected (`yourusername` → `levino`)
 - Qdrant description corrected from "Cloud" to "Self-hosted"
-- `embeddings/README.md` and `mcp-server/README.md` structure diagrams updated
+- Documentation updated: removed all B2 and PDF proxy references, added AI model rationale, corrected MCP tool count (4 not 3)
 
 ## [1.0.0] - 2025-11-12 – 2026-02-18
 

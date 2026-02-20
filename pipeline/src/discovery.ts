@@ -88,8 +88,16 @@ async function loadDocumentInfo(folderPath: string, documentsDir: string): Promi
       }
     }
 
-    if (files.length === 0) return null;
-    return { folderPath, entityType, metadata, files };
+    // Deduplicate: multiple OParl file objects can resolve to the same PDF on disk
+    const seen = new Set<string>();
+    const uniqueFiles = files.filter((f) => {
+      if (seen.has(f.pdfPath)) return false;
+      seen.add(f.pdfPath);
+      return true;
+    });
+
+    if (uniqueFiles.length === 0) return null;
+    return { folderPath, entityType, metadata, files: uniqueFiles };
   } catch {
     return null;
   }
@@ -115,10 +123,7 @@ export async function discoverDocuments(config: PipelineConfig): Promise<Documen
   return results.filter((d): d is DocumentInfo => d !== null);
 }
 
-export async function needsProcessing(
-  file: FileInfo,
-  config: PipelineConfig,
-): Promise<boolean> {
+export async function needsProcessing(file: FileInfo, config: PipelineConfig): Promise<boolean> {
   if (config.force) return true;
   return !(await isCompleted(file.pdfPath, file.fileHash));
 }

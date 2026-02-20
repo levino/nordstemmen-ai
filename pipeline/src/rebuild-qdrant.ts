@@ -4,14 +4,14 @@
  *
  * Usage: node --experimental-strip-types pipeline/src/rebuild-qdrant.ts
  */
-import { dirname, join } from 'node:path';
+
+import { readFile } from 'node:fs/promises';
+import { dirname, join, parse } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { config as loadEnv } from 'dotenv';
 import { discoverDocuments } from './discovery.ts';
 import { createQdrantService } from './qdrant.ts';
 import { withConcurrency } from './retry.ts';
-import { readFile } from 'node:fs/promises';
-import { parse } from 'node:path';
 import type { EmbeddingsData, MeetingMetadata, PaperMetadata, QdrantPayload } from './types.ts';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -20,7 +20,10 @@ loadEnv({ path: join(ROOT_DIR, '.env') });
 
 function required(name: string): string {
   const val = process.env[name];
-  if (!val) { console.error(`Missing: ${name}`); process.exit(1); }
+  if (!val) {
+    console.error(`Missing: ${name}`);
+    process.exit(1);
+  }
   return val;
 }
 
@@ -52,8 +55,12 @@ async function main() {
   // Discover all documents
   const documents = await discoverDocuments({
     documentsDir: join(ROOT_DIR, 'documents'),
-    limit: 0, force: false, dryRun: false, skipQdrant: false,
-    concurrency: 1, maxPdfSize: 100 * 1024 * 1024,
+    limit: 0,
+    force: false,
+    dryRun: false,
+    skipQdrant: false,
+    concurrency: 1,
+    maxPdfSize: 100 * 1024 * 1024,
   });
 
   const allFiles = documents.flatMap((doc) => doc.files.map((file) => ({ document: doc, file })));
@@ -109,4 +116,7 @@ async function main() {
   console.log(`\nDone! Uploaded: ${uploaded}, Skipped: ${skipped}`);
 }
 
-main().catch((e) => { console.error('Fatal:', e); process.exit(1); });
+main().catch((e) => {
+  console.error('Fatal:', e);
+  process.exit(1);
+});
