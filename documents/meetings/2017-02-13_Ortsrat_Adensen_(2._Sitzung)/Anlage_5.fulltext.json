@@ -1,8 +1,18 @@
 {
   "file_hash": "c6d8ba15be4787ebaae1c5deacab303b5cddea3a1beb9472fabfcea1de54a6a8",
   "filename": "Anlage_5.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 5\nAnfrage Ortsrat Adensen zur Sitzung am 13.02.2017\nPlanungsstand der Windkraftanlagen an der Bundesstraße 3\n(Marienburg/Schulenburg)\nDie öffentliche Auslegung des Entwurfes der 21. Änderung Flächennutzungsplan\n(Windenergienutzung) wurde vom Rat beschlossen. Das Planungsbüro SRL Weber hat\ndie Planunterlagen mittlerweile weitestgehend fertiggestellt. Gerade die Begründung als\nBestandteil der Flächennutzungsplanänderung musste aufwendig umgeschrieben\nwerden. Die Auslegung soll im Frühjahr 2017 durchgeführt werden.\nZu dem Verfahrensstand des RROP der Region Hannover bzw. der\nGenehmigungsanträgen für die Windenergieanlagen auf dem Gebiet von Schulenburg\nliegen der Verwaltung keine Kenntnisse vor."
+    }
+  ],
+  "full_text": "Anlage 5\nAnfrage Ortsrat Adensen zur Sitzung am 13.02.2017\nPlanungsstand der Windkraftanlagen an der Bundesstraße 3\n(Marienburg/Schulenburg)\nDie öffentliche Auslegung des Entwurfes der 21. Änderung Flächennutzungsplan\n(Windenergienutzung) wurde vom Rat beschlossen. Das Planungsbüro SRL Weber hat\ndie Planunterlagen mittlerweile weitestgehend fertiggestellt. Gerade die Begründung als\nBestandteil der Flächennutzungsplanänderung musste aufwendig umgeschrieben\nwerden. Die Auslegung soll im Frühjahr 2017 durchgeführt werden.\nZu dem Verfahrensstand des RROP der Region Hannover bzw. der\nGenehmigungsanträgen für die Windenergieanlagen auf dem Gebiet von Schulenburg\nliegen der Verwaltung keine Kenntnisse vor.",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:59:27.087Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 193
+  }
 }

@@ -1,8 +1,22 @@
 {
   "file_hash": "86f12e5f6758040151c57756a72b6f0f0d145e12c15e8ca0715335769758e9ad",
   "filename": "OR_Klein_Escherde_Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[handschriftlich] Anlage 2\n[handschriftlich] OR Klein Escherde vom 22.10.19\n\nFB 2 - Sicherheit, Einwohnerservice, Bildung\n21.10.2019\nund Soziales\nAz: (2) 12 40 30 / cie\n\n1.) Mitfahrerbank in Klein Escherde\n\nIn seiner Sitzung am 09.05.2019 beantragte der Ortsrat Klein Escherde die grundsätzliche\nAufstellung einer Mitfahrerbank in der Akazienstraße, vorzugsweise an dem Standort der bereits\nexistierenden Bank an der Ecke Drosselgasse (beim Willkommensschild am Drosselpark).\n\nHier sollte seitens der Verwaltung noch geprüft werden, ob neben der Bank ein Mülleimer\naufgestellt wird, ob die Aufstellung der Bank dort möglich ist und ob sich das Grundstück im\nEigentum der Gemeinde Nordstemmen befindet.\n\nHierbei ist festzuhalten, dass die derzeitige Bank und das Willkommensschild zwar auf\nGemeindegrundstück stehen (siehe beigefügter Flurkartenauszug), eine Aufstellung der\nMitfahrerbank aber aus rechtlichen Gründen nicht möglich ist. Nach § 12 der\nStraßenverkehrsordnung ist das Halten u.a. im Kreuzungsbereich verboten, von daher kann die\nGemeinde hier keine Bank aufstellen lassen, die ebendies zum Ziel hätte.\n\nEs wäre aber möglich, die Bank in nördlicher Richtung aufzustellen. Hier wären gegebenenfalls\netwa 2 m² Rasenfläche zu pflastern.\n\nEin Mülleimer wird seitens der Verwaltung nach Rücksprache mit dem Bauhof nicht aufgestellt.\nSo wird gemeindeweit verfahren, da sich gezeigt hat, dass die Mülleimer an diesen Standorten\nregelmäßig zweckentfremdet werden.\n\nDie Kosten für die Beschilderung sind durch den Ortsrat zu tragen, die Nordstemmer Schilder\nhaben (Ohne Fundament und Pfosten) ca. 70,- € pro Stück gekostet.\n\nEine Vorgabe, wer mitgenommen werden darf, kann nicht festgelegt werden, da hier der\nGleichbehandlungsgrundsatz zu beachten ist, es obliegt damit im Endeffekt der Entscheidung\ndes Autofahrers.\n\n[Unterschrift]\nTobias Cieplik\n\n2.) Ortsrat Klein Escherde zur Kenntnis\n3.) z.d.A."
+    },
+    {
+      "page": 2,
+      "text": "[Luftbild mit eingezeichneten Flurstücksgrenzen und Nummern]\n\nMaßstab: 1:250\n© 2019 LGLN\n\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors | © Bundesamt für Kartographie und Geodäsie"
+    }
+  ],
+  "full_text": "[handschriftlich] Anlage 2\n[handschriftlich] OR Klein Escherde vom 22.10.19\n\nFB 2 - Sicherheit, Einwohnerservice, Bildung\n21.10.2019\nund Soziales\nAz: (2) 12 40 30 / cie\n\n1.) Mitfahrerbank in Klein Escherde\n\nIn seiner Sitzung am 09.05.2019 beantragte der Ortsrat Klein Escherde die grundsätzliche\nAufstellung einer Mitfahrerbank in der Akazienstraße, vorzugsweise an dem Standort der bereits\nexistierenden Bank an der Ecke Drosselgasse (beim Willkommensschild am Drosselpark).\n\nHier sollte seitens der Verwaltung noch geprüft werden, ob neben der Bank ein Mülleimer\naufgestellt wird, ob die Aufstellung der Bank dort möglich ist und ob sich das Grundstück im\nEigentum der Gemeinde Nordstemmen befindet.\n\nHierbei ist festzuhalten, dass die derzeitige Bank und das Willkommensschild zwar auf\nGemeindegrundstück stehen (siehe beigefügter Flurkartenauszug), eine Aufstellung der\nMitfahrerbank aber aus rechtlichen Gründen nicht möglich ist. Nach § 12 der\nStraßenverkehrsordnung ist das Halten u.a. im Kreuzungsbereich verboten, von daher kann die\nGemeinde hier keine Bank aufstellen lassen, die ebendies zum Ziel hätte.\n\nEs wäre aber möglich, die Bank in nördlicher Richtung aufzustellen. Hier wären gegebenenfalls\netwa 2 m² Rasenfläche zu pflastern.\n\nEin Mülleimer wird seitens der Verwaltung nach Rücksprache mit dem Bauhof nicht aufgestellt.\nSo wird gemeindeweit verfahren, da sich gezeigt hat, dass die Mülleimer an diesen Standorten\nregelmäßig zweckentfremdet werden.\n\nDie Kosten für die Beschilderung sind durch den Ortsrat zu tragen, die Nordstemmer Schilder\nhaben (Ohne Fundament und Pfosten) ca. 70,- € pro Stück gekostet.\n\nEine Vorgabe, wer mitgenommen werden darf, kann nicht festgelegt werden, da hier der\nGleichbehandlungsgrundsatz zu beachten ist, es obliegt damit im Endeffekt der Entscheidung\ndes Autofahrers.\n\n[Unterschrift]\nTobias Cieplik\n\n2.) Ortsrat Klein Escherde zur Kenntnis\n3.) z.d.A.\n\n[Luftbild mit eingezeichneten Flurstücksgrenzen und Nummern]\n\nMaßstab: 1:250\n© 2019 LGLN\n\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors | © Bundesamt für Kartographie und Geodäsie",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:02:16.552Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 641
+  }
 }

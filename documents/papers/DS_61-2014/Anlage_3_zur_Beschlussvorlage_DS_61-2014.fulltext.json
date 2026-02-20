@@ -1,8 +1,18 @@
 {
   "file_hash": "18e8c413d674ee075123bd98a147cad813d0f82745c7e7d90d81a54e8784e94a",
   "filename": "Anlage_3_zur_Beschlussvorlage_DS_61-2014.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Karte zeigt einen Plan zur Rekultivierung und Kompensation eines Bodenabbauprojekts, mit verschiedenen Flächen für bestehende Gewässer, geplante Abbauflächen und unterschiedliche Rekultivierungs- und Kompensationsmaßnahmen.]\n\nRekultivierung und Kompensation\n\nGrenzen\n\nAnlage 3 zur\nDS 61/2014\n\nAuftraggeber:\nVP\nIngenieurbüro Patzold, Köbke\n& Partner Engineers GmbH\nRitscherstraße 5\n21244 Buchholz i. d. Nordheide\n\nProjekt:\nBarnten Bodenabbau\nOsterweiterung\n\nPlantitel:\nKarte 2\nRekultivierung und Kompensation\n\nPlanverfasser:\nLANDSCHAFTSPLANUNG\nGARDELER-HEMMERICH\nInh. Dipl.-Ing. (FH) Paul Stegmann\n\nQuellen:\nAuszug aus den Geobasisdaten der Niedersächsischen\nVermessungs- und Katasterverwaltung\n© 2012\n\nIngenieurbüro Pazold, Köbke & Partner Engineers GmbH\nLageplan- Planzustand nach Rekultivierung\nLGLN\n\nMeter"
+    }
+  ],
+  "full_text": "[Karte zeigt einen Plan zur Rekultivierung und Kompensation eines Bodenabbauprojekts, mit verschiedenen Flächen für bestehende Gewässer, geplante Abbauflächen und unterschiedliche Rekultivierungs- und Kompensationsmaßnahmen.]\n\nRekultivierung und Kompensation\n\nGrenzen\n\nAnlage 3 zur\nDS 61/2014\n\nAuftraggeber:\nVP\nIngenieurbüro Patzold, Köbke\n& Partner Engineers GmbH\nRitscherstraße 5\n21244 Buchholz i. d. Nordheide\n\nProjekt:\nBarnten Bodenabbau\nOsterweiterung\n\nPlantitel:\nKarte 2\nRekultivierung und Kompensation\n\nPlanverfasser:\nLANDSCHAFTSPLANUNG\nGARDELER-HEMMERICH\nInh. Dipl.-Ing. (FH) Paul Stegmann\n\nQuellen:\nAuszug aus den Geobasisdaten der Niedersächsischen\nVermessungs- und Katasterverwaltung\n© 2012\n\nIngenieurbüro Pazold, Köbke & Partner Engineers GmbH\nLageplan- Planzustand nach Rekultivierung\nLGLN\n\nMeter",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:13:33.245Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 270
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "8d0e8aa5b728eda84dcfad702c1bf487f6b99b97b17462dd519c3251b8aba3a1",
   "filename": "Anlage_zum_TOP_8.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Technische Zeichnung, die einen Regelquerschnitt eines Weges mit verschiedenen Schichten und Abmessungen zeigt]\n\nFlurbereinigung Sorsum - Escherde\nLandkreis Hildesheim\n\nMaßstab:\nM.d.L.:\nM.d.H.:.\n\nRegelquerschnitt\nBv. Nr. 3/90\nAnlage 2 Blätter: 3\nLB / DOB -neu-\nBlatt-Nr. 3\n\nGezeichnet: DO.\nGeprüft:\nBearbeitet:\nProjekt. Ing.:\nProjekt-Nr.: 5127-41\nDatum: Juli 90\n\nKT\nKulturtechnik GmbH\n2800 Bremen Friedrich-Miller-Straße 42 Tel. (0421) 23807-0\n\nSohlweg = Verbindung - südlich der B1 - zwischen\nKl. Escherde und Gr. Escherde"
+    }
+  ],
+  "full_text": "[Technische Zeichnung, die einen Regelquerschnitt eines Weges mit verschiedenen Schichten und Abmessungen zeigt]\n\nFlurbereinigung Sorsum - Escherde\nLandkreis Hildesheim\n\nMaßstab:\nM.d.L.:\nM.d.H.:.\n\nRegelquerschnitt\nBv. Nr. 3/90\nAnlage 2 Blätter: 3\nLB / DOB -neu-\nBlatt-Nr. 3\n\nGezeichnet: DO.\nGeprüft:\nBearbeitet:\nProjekt. Ing.:\nProjekt-Nr.: 5127-41\nDatum: Juli 90\n\nKT\nKulturtechnik GmbH\n2800 Bremen Friedrich-Miller-Straße 42 Tel. (0421) 23807-0\n\nSohlweg = Verbindung - südlich der B1 - zwischen\nKl. Escherde und Gr. Escherde",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:59:24.129Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 212
+  }
 }

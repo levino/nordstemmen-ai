@@ -1,8 +1,18 @@
 {
   "file_hash": "b3af2a50c25d46a2a7a95179a9768dd6f3ea51fd2b43ce296e13ff7806a14cac",
   "filename": "Anlage_3.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "OR Heyersum\nAnlage 3 TOP 6\n\nKontostand 15.02.2022\n3.438,75 €\n\n| Geplante Ausgaben          | Summe    |\n| :------------------------- | :------- |\n| Ortsheimatpflege           | 150,00 € |\n| Strom Schaukasten          | 15,00 €  |\n| Umwelttag                  | 50,00 €  |\n| Volkstrauertag Kranz/Trompeter | 100,00 € |\n| Adventfeier                | 250,00 € |\n| Wandkalender 2023          | 250,00 € |\n| Reserve für 2023           | 100,00 € |\n| GJR Ferienpass             | 100,00 € |\n| Blühpatenschaft AgriCo     | 100,00 € |\n| Geburtstage 33x7€          | 231,00 € |\n| Ehejubiläen 2x25€          | 50,00 €  |\n\n1.396,00 €\n\nRestbetrag\n2.042,75 €\n2X Strom höste\n800,- €\nBeschattung schild Jubiläum\n?\nHunde hot boutel\n[unleserlich]\nHepatenschutt\n720 t\nBuum"
+    }
+  ],
+  "full_text": "OR Heyersum\nAnlage 3 TOP 6\n\nKontostand 15.02.2022\n3.438,75 €\n\n| Geplante Ausgaben          | Summe    |\n| :------------------------- | :------- |\n| Ortsheimatpflege           | 150,00 € |\n| Strom Schaukasten          | 15,00 €  |\n| Umwelttag                  | 50,00 €  |\n| Volkstrauertag Kranz/Trompeter | 100,00 € |\n| Adventfeier                | 250,00 € |\n| Wandkalender 2023          | 250,00 € |\n| Reserve für 2023           | 100,00 € |\n| GJR Ferienpass             | 100,00 € |\n| Blühpatenschaft AgriCo     | 100,00 € |\n| Geburtstage 33x7€          | 231,00 € |\n| Ehejubiläen 2x25€          | 50,00 €  |\n\n1.396,00 €\n\nRestbetrag\n2.042,75 €\n2X Strom höste\n800,- €\nBeschattung schild Jubiläum\n?\nHunde hot boutel\n[unleserlich]\nHepatenschutt\n720 t\nBuum",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:51.657Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 346
+  }
 }

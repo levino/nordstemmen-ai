@@ -1,8 +1,18 @@
 {
   "file_hash": "f5cc8aabb3ba5ce0546c98375c696d5a31b737f1a44753c6c0accfa850e57162",
   "filename": "Anlage_2_Antrag_Brandt_und_Laube.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 2\nOrtsrat Nordstemmen\n\n## Schenken & Wohnen\nMiriam Brandt\nHauptstr. 61\n31171 Nordstemmen\n\nTel. 05069 420\nFax. 05069 3322\n\n## Herrn\nOrtsbürgermeister\nBernhard Flegel\nRichard-Wagner-Straße 3\n31171 Nordstemmen\n\nNordstemmen, den 13. Dezember 2016\n\n## Parksituation in der Hauptstraße in Nordstemmen\n\nSehr geehrter Herr Flegel,\n\nwie mit Herrn Risch am 19. August diesen Jahres und mit Ihnen auch schon einige Male\nbesprochen, geht es um die Parksituation in der Hauptstraße. Präzise um unsere\ngegenüberliegende Seite von Friseur Laube, Hauptstraße 61 bis zum Geschäft Schiewe. Bis\nvor einigen Jahren war dort eingeschränktes Halteverbot, sodass unsere und Martina Laubes\nKunden diese Parkplätze für Kundenbesuche nutzen konnten. Jetzt werden diese Parkplätze\nvon Dauerparkern in der Zeit von 8.00 Uhr bis 18.00 Uhr genutzt. Natürlich schlagen wir\nunseren Kunden vor, auf unserer Straßenseite zu parken. Allerdings ist dieses nicht ganz\neinfach. Durch das mittlerweile hohe Verkehrsaufkommen müssen die Kunden sehr schnell\ndas Auto verlassen, um unbeschadet von der Straße zu kommen. Da wir auch sehr viel ältere\nKunden haben, die dazu gar nicht in der Lage sind, ist diese Situation natürlich geschäfts-\nschädigend.\n\nWir bitten um die Wiedereinführung des eingeschränkten Parkverbotes in diesem Straßen-\nabschnitt.\n\nMit freundlichen Grüßen\n[Unterschrift]\nMiriam Brandt\n[Unterschrift]\nMartina Laube"
+    }
+  ],
+  "full_text": "Anlage 2\nOrtsrat Nordstemmen\n\n## Schenken & Wohnen\nMiriam Brandt\nHauptstr. 61\n31171 Nordstemmen\n\nTel. 05069 420\nFax. 05069 3322\n\n## Herrn\nOrtsbürgermeister\nBernhard Flegel\nRichard-Wagner-Straße 3\n31171 Nordstemmen\n\nNordstemmen, den 13. Dezember 2016\n\n## Parksituation in der Hauptstraße in Nordstemmen\n\nSehr geehrter Herr Flegel,\n\nwie mit Herrn Risch am 19. August diesen Jahres und mit Ihnen auch schon einige Male\nbesprochen, geht es um die Parksituation in der Hauptstraße. Präzise um unsere\ngegenüberliegende Seite von Friseur Laube, Hauptstraße 61 bis zum Geschäft Schiewe. Bis\nvor einigen Jahren war dort eingeschränktes Halteverbot, sodass unsere und Martina Laubes\nKunden diese Parkplätze für Kundenbesuche nutzen konnten. Jetzt werden diese Parkplätze\nvon Dauerparkern in der Zeit von 8.00 Uhr bis 18.00 Uhr genutzt. Natürlich schlagen wir\nunseren Kunden vor, auf unserer Straßenseite zu parken. Allerdings ist dieses nicht ganz\neinfach. Durch das mittlerweile hohe Verkehrsaufkommen müssen die Kunden sehr schnell\ndas Auto verlassen, um unbeschadet von der Straße zu kommen. Da wir auch sehr viel ältere\nKunden haben, die dazu gar nicht in der Lage sind, ist diese Situation natürlich geschäfts-\nschädigend.\n\nWir bitten um die Wiedereinführung des eingeschränkten Parkverbotes in diesem Straßen-\nabschnitt.\n\nMit freundlichen Grüßen\n[Unterschrift]\nMiriam Brandt\n[Unterschrift]\nMartina Laube",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:59:30.115Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 410
+  }
 }

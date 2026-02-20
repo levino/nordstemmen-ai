@@ -1,8 +1,18 @@
 {
   "file_hash": "b877d13abbc69e053c9b9d8d54a229361430b7c9ec96c2a451aa2355d49d05a1",
   "filename": "OR_Roessing_Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 1\n\nAppell an den Rössinger Ortsrat\n\nFußgänger sind in der Clausstraße gefährdet\n\n1.)\nDie Clausstraße ist fast zu 75% ohne Fußweg, die „Rechts-vor-Links\" Regel wird von\nPKW-Fahrern häufig ignoriert und Auswärtige sowie die Schulbusse (Fa. Bernhard) fahren\nmit hoher Geschwindigkeit durch die Straße.\n\n2.)\nMit Beginn der Baumaßnahme in der Kirchstraße würde das Verkehrsaufkommen in\nder Clausstraße zunehmen. Der ohnehin schon marode Straßenbelag in der Clausstraße\nwürde durch den Ausweichverkehr dann noch stärker beansprucht werden – wer bezahlt die\nInstandhaltungen?\n\n3.) Mit der geplanten Baumaßnahme in der Kirchstraße wird eine eindeutige Umleitungs-\nBeschilderung über die gut ausgebaute Maschstraße und Bahnhofstraße gefordert, damit der\nVerkehr nicht durch die Clausstraße abgeleitet wird.\n\n4.)\nDie Clausstraße muss eindeutiger als „30-Zone“ gekennzeichnet werden, damit Kinder\nund ältere Fußgänger sicher die Straße begehen können. Das Schild am Ortseingang von der\nLandesstraße ist kaum erkennbar, es muss erneuert werden.\nHinweise mit einer „30“ Markierung auf dem Straßenbelag, wie es in vielen Gemeinden\nüblich ist sowie Linien-Markierungen vor den vorfahrtsberechtigten Straßeneinmündungen\n(Kantstraße etc.), sind empfehlenswert. Derartige Markierungen sind preiswert und erhöhen\ndie Aufmerksamkeit sowie die Verkehrssicherheit.\n\n5.)\nAufgrund des schlechten Straßenbelags und der fehlenden Fußwege ist es sinnvoll, die\nClausstrasse als Anliegerstraße auszuweisen sowie ein Durchfahrverbot für LKW ab 3,5 t zu\nerlassen.\nDas ergäbe Sicherheit für alle Bürger und spart Folgekosten bei Instandhaltungen.\n\nRössing, den 24.04.2008\nDr. Udo Noack"
+    }
+  ],
+  "full_text": "Anlage 1\n\nAppell an den Rössinger Ortsrat\n\nFußgänger sind in der Clausstraße gefährdet\n\n1.)\nDie Clausstraße ist fast zu 75% ohne Fußweg, die „Rechts-vor-Links\" Regel wird von\nPKW-Fahrern häufig ignoriert und Auswärtige sowie die Schulbusse (Fa. Bernhard) fahren\nmit hoher Geschwindigkeit durch die Straße.\n\n2.)\nMit Beginn der Baumaßnahme in der Kirchstraße würde das Verkehrsaufkommen in\nder Clausstraße zunehmen. Der ohnehin schon marode Straßenbelag in der Clausstraße\nwürde durch den Ausweichverkehr dann noch stärker beansprucht werden – wer bezahlt die\nInstandhaltungen?\n\n3.) Mit der geplanten Baumaßnahme in der Kirchstraße wird eine eindeutige Umleitungs-\nBeschilderung über die gut ausgebaute Maschstraße und Bahnhofstraße gefordert, damit der\nVerkehr nicht durch die Clausstraße abgeleitet wird.\n\n4.)\nDie Clausstraße muss eindeutiger als „30-Zone“ gekennzeichnet werden, damit Kinder\nund ältere Fußgänger sicher die Straße begehen können. Das Schild am Ortseingang von der\nLandesstraße ist kaum erkennbar, es muss erneuert werden.\nHinweise mit einer „30“ Markierung auf dem Straßenbelag, wie es in vielen Gemeinden\nüblich ist sowie Linien-Markierungen vor den vorfahrtsberechtigten Straßeneinmündungen\n(Kantstraße etc.), sind empfehlenswert. Derartige Markierungen sind preiswert und erhöhen\ndie Aufmerksamkeit sowie die Verkehrssicherheit.\n\n5.)\nAufgrund des schlechten Straßenbelags und der fehlenden Fußwege ist es sinnvoll, die\nClausstrasse als Anliegerstraße auszuweisen sowie ein Durchfahrverbot für LKW ab 3,5 t zu\nerlassen.\nDas ergäbe Sicherheit für alle Bürger und spart Folgekosten bei Instandhaltungen.\n\nRössing, den 24.04.2008\nDr. Udo Noack",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:00:49.659Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 462
+  }
 }

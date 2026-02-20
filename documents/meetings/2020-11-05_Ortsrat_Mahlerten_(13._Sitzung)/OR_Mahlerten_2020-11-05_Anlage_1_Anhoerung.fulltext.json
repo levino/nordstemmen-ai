@@ -1,8 +1,18 @@
 {
   "file_hash": "c622873453412b92597b7e575c56bc80c66ce8e6241fd52864f58c1d009bea17",
   "filename": "OR_Mahlerten_2020-11-05_Anlage_1_Anhoerung.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Luftbildausschnitt mit eingezeichneten Anmerkungen und Hinweisen zur Gestaltung eines Spielplatzes]\nPimet 2\nBuchenhecke\nrumziehen. Wo die\nTannen standen\nkleine Bäume oder\nBüsche pflanzen.\nTunnelwirkung, die Bäume\noben zusammenwachsen\nlassen, unten den Boden\nfreischneiden! ==>Tolle\nVersteckmöglichkeiten für\nKinder....\nBedeutet die Hecke nicht\nimmer bis auf den Stock\nruntersetzen.\nAbsperrung in den\nWintermonaten\noder Rasengitterst\n\nGestaltung Spielplatz Mahlente.\nSo bis auf weiteres Beschlossen durch Orterat Mahlenth\n04.11.20 20\n[Unterschrift]"
+    }
+  ],
+  "full_text": "[Luftbildausschnitt mit eingezeichneten Anmerkungen und Hinweisen zur Gestaltung eines Spielplatzes]\nPimet 2\nBuchenhecke\nrumziehen. Wo die\nTannen standen\nkleine Bäume oder\nBüsche pflanzen.\nTunnelwirkung, die Bäume\noben zusammenwachsen\nlassen, unten den Boden\nfreischneiden! ==>Tolle\nVersteckmöglichkeiten für\nKinder....\nBedeutet die Hecke nicht\nimmer bis auf den Stock\nruntersetzen.\nAbsperrung in den\nWintermonaten\noder Rasengitterst\n\nGestaltung Spielplatz Mahlente.\nSo bis auf weiteres Beschlossen durch Orterat Mahlenth\n04.11.20 20\n[Unterschrift]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:00.343Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 176
+  }
 }

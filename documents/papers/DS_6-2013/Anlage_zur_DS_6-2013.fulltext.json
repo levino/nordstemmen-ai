@@ -1,8 +1,18 @@
 {
   "file_hash": "d123709a1cf74a6861cbc7be5edea8e8bea610e6cdef9684614494aa1e5f47fd",
   "filename": "Anlage_zur_DS_6-2013.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Ausschnitt aus einem Katasterplan oder Lageplan, der eine Bahnlinie, eine Hauptstraße, Gebäude und Park-and-Ride-Flächen zeigt.]"
+    }
+  ],
+  "full_text": "[Ausschnitt aus einem Katasterplan oder Lageplan, der eine Bahnlinie, eine Hauptstraße, Gebäude und Park-and-Ride-Flächen zeigt.]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:12:47.472Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 40
+  }
 }

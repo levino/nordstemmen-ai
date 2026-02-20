@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Geltungsbereich\nB-Plan Nr. 0123 \"Heyersumer Straße - Süd\",\n3. Änderung\nNordstemmen ´\n© 2021"
+      "text": "[Karte zeigt eine Übersichtskarte mit Gebäuden und Straßen, wobei ein Bereich als Geltungsbereich hervorgehoben ist.]\nAnlage 1 zu\nDS 84/2021\nGeltungsbereich\nB-Plan Nr. 0123 \"Heyersumer Straße - Süd\",\n3. Änderung\n© 2021 LGLN N"
     }
   ],
-  "full_text": "Geltungsbereich\nB-Plan Nr. 0123 \"Heyersumer Straße - Süd\",\n3. Änderung\nNordstemmen ´\n© 2021"
+  "full_text": "[Karte zeigt eine Übersichtskarte mit Gebäuden und Straßen, wobei ein Bereich als Geltungsbereich hervorgehoben ist.]\nAnlage 1 zu\nDS 84/2021\nGeltungsbereich\nB-Plan Nr. 0123 \"Heyersumer Straße - Süd\",\n3. Änderung\n© 2021 LGLN N",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:24:54.596Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 88
+  }
 }

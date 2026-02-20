@@ -1,8 +1,18 @@
 {
   "file_hash": "bfdfa0ac7609e339be1d098dedd47706db8125d0259a5ba33efa083aca583a5f",
   "filename": "Anlage_zur_Beschlussvorlage_DS_70-2017.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "N 5779417 m\nE 554237 m\n[Kartenausschnitt, der ein Wohngebiet mit Grundstücksparzellen und Straßennamen zeigt]\n1:1.000\nE 553986 m\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n© 2015\nLGLN\nN 5779590 m"
+    }
+  ],
+  "full_text": "N 5779417 m\nE 554237 m\n[Kartenausschnitt, der ein Wohngebiet mit Grundstücksparzellen und Straßennamen zeigt]\n1:1.000\nE 553986 m\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n© 2015\nLGLN\nN 5779590 m",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:18:26.181Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 106
+  }
 }

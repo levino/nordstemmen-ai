@@ -4,12 +4,19 @@
   "pages": [
     {
       "page": 1,
-      "text": "Baumpflanzungen Rössing\nZum Kley\n1\n2 3\n1. 3 Bäume – Lücken in der Baumreihe füllen\n2. 2 Bäume – Grünfläche vor Gebäudeeingang\n3. 1 Baum – Kleine Freifläche vor Sporthalle\nStettiner Straße\n4\n4. Ca. 14 Bäume – Ergänzungen der Reihe aus Obstgehölzen (grün = Bestand)"
+      "text": "OR Rössing\nAnlage 2\nBaumpflanzungen Rössing\nZum Kley\n[Luftbildaufnahme der Gegend um „Zum Kley“ mit markierten Stellen]\n1. 3 Bäume - Lücken in der Baumreihe füllen\n2. 2 Bäume – Grünfläche vor Gebäudeeingang\n3. 1 Baum - Kleine Freifläche vor Sporthalle\nStettiner Straße\n[Luftbildaufnahme der Stettiner Straße mit markierten Stellen]\n4. Ca. 14 Bäume - Ergänzungen der Reihe aus Obstgehölzen (grün = Bestand)"
     },
     {
       "page": 2,
-      "text": "Clausstraße\n5\n6\n5. 3 Bäume – Lore, vorher: Fällung von drei abgestorbenen Bäumen\n6. 1 Baum – gegenüber Lore\nCalenberger Landstraße\n7\n7. 6 Bäume – Lücken in den Baumreihen füllen"
+      "text": "Clausstraße\n[Luftbildaufnahme der Clausstraße mit markierten Stellen]\n5. 3 Bäume – Lore, vorher: Fällung von drei abgestorbenen Bäumen\n6. 1 Baum - gegenüber Lore\nCalenberger Landstraße\n[Luftbildaufnahme der Calenberger Landstraße mit markierten Stellen]\n7. 6 Bäume - Lücken in den Baumreihen füllen\n6"
     }
   ],
-  "full_text": "Baumpflanzungen Rössing\nZum Kley\n1\n2 3\n1. 3 Bäume – Lücken in der Baumreihe füllen\n2. 2 Bäume – Grünfläche vor Gebäudeeingang\n3. 1 Baum – Kleine Freifläche vor Sporthalle\nStettiner Straße\n4\n4. Ca. 14 Bäume – Ergänzungen der Reihe aus Obstgehölzen (grün = Bestand)\n\nClausstraße\n5\n6\n5. 3 Bäume – Lore, vorher: Fällung von drei abgestorbenen Bäumen\n6. 1 Baum – gegenüber Lore\nCalenberger Landstraße\n7\n7. 6 Bäume – Lücken in den Baumreihen füllen"
+  "full_text": "OR Rössing\nAnlage 2\nBaumpflanzungen Rössing\nZum Kley\n[Luftbildaufnahme der Gegend um „Zum Kley“ mit markierten Stellen]\n1. 3 Bäume - Lücken in der Baumreihe füllen\n2. 2 Bäume – Grünfläche vor Gebäudeeingang\n3. 1 Baum - Kleine Freifläche vor Sporthalle\nStettiner Straße\n[Luftbildaufnahme der Stettiner Straße mit markierten Stellen]\n4. Ca. 14 Bäume - Ergänzungen der Reihe aus Obstgehölzen (grün = Bestand)\n\nClausstraße\n[Luftbildaufnahme der Clausstraße mit markierten Stellen]\n5. 3 Bäume – Lore, vorher: Fällung von drei abgestorbenen Bäumen\n6. 1 Baum - gegenüber Lore\nCalenberger Landstraße\n[Luftbildaufnahme der Calenberger Landstraße mit markierten Stellen]\n7. 6 Bäume - Lücken in den Baumreihen füllen\n6",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:05:21.928Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 242
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "86b74d89362355705fdffe3eac48c8725286135ae8f47a6f74b80a76a6f3dc6c",
   "filename": "Anlage_zur_DS_7-2013.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Die Karte zeigt eine Liegenschaftsgrafik eines Ausschnitts von Nordstemmen mit Flurstücken, Gebäuden und Straßen. Die hervorgehobenen Flurstücke sind 107/114, 107/115, 256/3, 103/11 in den Fluren 2 und 3.]\nVermessung- und Katasterverwaltung\nNiedersachsen\nLiegenschaftsgrafik 1:1.000\nPräsentation der Liegenschaften\nGemeinde: Nordstemmen\nGemarkung: Nordstemmen\nFlurstück: 107/114, 107/115, 256/3, 103/11\nFlur: 2, 3\nErstellt am 13.01.2012\nMaßstab 1:1.000\nVerantwortlich für den Inhalt:\nLandesamt für Geoinformation und Landentwicklung Niedersachsen\nLGLN Regionaldirektion Hameln - Katasteramt Hildesheim -\nLangelinienwall 26\n31134 Hildesheim\nBereitgestellt durch:\nLandesamt für Geoinformation und Landentwicklung Niedersachsen\nLGLN Regionaldirektion Hameln - Katasteramt Hildesheim -\nLangelinienwall 26\n31134 Hildesheim\nZeichen: E1-390/2011\nDie Verwertung für nichteigene oder wirtschaftliche Zwecke und die öffentliche Wiedergabe ist gemäß § 5 Niedersächsisches Gesetz über das\namtliche Vermessungswesen vom 12. Dezember 2002 (Nds. GVBI. 2003) nur mit Erlaubnis der für den Inhalt verantwortlichen Behörde zulässig."
+    }
+  ],
+  "full_text": "[Die Karte zeigt eine Liegenschaftsgrafik eines Ausschnitts von Nordstemmen mit Flurstücken, Gebäuden und Straßen. Die hervorgehobenen Flurstücke sind 107/114, 107/115, 256/3, 103/11 in den Fluren 2 und 3.]\nVermessung- und Katasterverwaltung\nNiedersachsen\nLiegenschaftsgrafik 1:1.000\nPräsentation der Liegenschaften\nGemeinde: Nordstemmen\nGemarkung: Nordstemmen\nFlurstück: 107/114, 107/115, 256/3, 103/11\nFlur: 2, 3\nErstellt am 13.01.2012\nMaßstab 1:1.000\nVerantwortlich für den Inhalt:\nLandesamt für Geoinformation und Landentwicklung Niedersachsen\nLGLN Regionaldirektion Hameln - Katasteramt Hildesheim -\nLangelinienwall 26\n31134 Hildesheim\nBereitgestellt durch:\nLandesamt für Geoinformation und Landentwicklung Niedersachsen\nLGLN Regionaldirektion Hameln - Katasteramt Hildesheim -\nLangelinienwall 26\n31134 Hildesheim\nZeichen: E1-390/2011\nDie Verwertung für nichteigene oder wirtschaftliche Zwecke und die öffentliche Wiedergabe ist gemäß § 5 Niedersächsisches Gesetz über das\namtliche Vermessungswesen vom 12. Dezember 2002 (Nds. GVBI. 2003) nur mit Erlaubnis der für den Inhalt verantwortlichen Behörde zulässig.",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:18:17.908Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 417
+  }
 }

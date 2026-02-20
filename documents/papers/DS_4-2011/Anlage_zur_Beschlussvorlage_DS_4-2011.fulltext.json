@@ -1,8 +1,18 @@
 {
   "file_hash": "f29cbdcba0f05161114c46136e292baf89e4790a50995bf0e7a206035bceeb9b",
   "filename": "Anlage_zur_Beschlussvorlage_DS_4-2011.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 1\nzur DS 04/2011\n[Plan einer Siedlungsstruktur mit Gebäuden, Straßen und Feldern.]"
+    }
+  ],
+  "full_text": "Anlage 1\nzur DS 04/2011\n[Plan einer Siedlungsstruktur mit Gebäuden, Straßen und Feldern.]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:00:14.519Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 37
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "b0cf50c2cf53bd751556a1bc27806bc01ac3a567c244b7579a3905a00c51824d",
   "filename": "Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 2\nGemeinde Nordstemmen\nFachbereich 3\nPlanung, Bau und Umwelt\nAz. 00.09.04_Adensen\n\nAuskunft erteilt: Frau Finke, Telefon: 05069 / 800-32 Nordstemmen, 12.05.2021\n\nSachstand Hallerbrücke\n\nZuwegung: Überlegungen, auf Springer Seite teilweise einen neuen Weg zum Bau und zur\nUnterhaltung der Brücke herzustellen, wurden wieder verworfen. Zurzeit wird seitens des\nLiegenschaftsamtes der Stadt Springe zur Absicherung der dauerhaften Nutzung des Weges für\nFußgänger und Radfahrer, der sich auf beiden Seiten auf Flächen des BIOTOP e.V. befindet, die\ngrundbuchliche Sicherung seitens der Stadt Springe erarbeitet. Die Gemeinde Nordstemmen wird\nsoweit möglich die entwickelten Formulierungen übernehmen. Eine grundbuchliche Absicherung der\nZuwegung muss auch für Wartungs- und Unterhaltungsarbeiten erfolgen.\n\nBau: Es soll eine Brücke für Fußgänger und Radfahrer mit einer Breite von ca. 2,5 m errichtet\nwerden. Es sollen wartungsarme, beständige Materialien zum Einsatz kommen (kein Holz). Ein\nLeistungsverzeichnis oder Leistungsprogramm befindet sich noch in der Abstimmung. Es besteht\nnoch Klärungsbedarf, ob der Bau über vorhandene Wege (wie beim Abriss auch) und mit einem\neinmaligen Überfahren von Grünland auf Springer Seite erfolgen kann.\n\nGenehmigung: Erforderlich ist eine wasserrechtliche Genehmigung nach § 57 Niedersächsisches\nWassergesetz. Zuständige Behörde ist die Region Hannover - Untere Wasserbehörde. Vorgespräche\nund Abstimmungen haben stattgefunden, ein Antragsentwurf wurde seitens der Gemeinde\nNordstemmen vorgelegt. Dieser ist noch konkret mit der Unteren Wasserbehörde und der Stadt\nSpringe als Antragstellerin abzustimmen. Da sich Brücke und Zuwegungen in einem\nLandschaftsschutzgebiet befinden, wurde und wird auch die Untere Naturschutzbehörde, Region\nHannover, einbezogen."
+    }
+  ],
+  "full_text": "Anlage 2\nGemeinde Nordstemmen\nFachbereich 3\nPlanung, Bau und Umwelt\nAz. 00.09.04_Adensen\n\nAuskunft erteilt: Frau Finke, Telefon: 05069 / 800-32 Nordstemmen, 12.05.2021\n\nSachstand Hallerbrücke\n\nZuwegung: Überlegungen, auf Springer Seite teilweise einen neuen Weg zum Bau und zur\nUnterhaltung der Brücke herzustellen, wurden wieder verworfen. Zurzeit wird seitens des\nLiegenschaftsamtes der Stadt Springe zur Absicherung der dauerhaften Nutzung des Weges für\nFußgänger und Radfahrer, der sich auf beiden Seiten auf Flächen des BIOTOP e.V. befindet, die\ngrundbuchliche Sicherung seitens der Stadt Springe erarbeitet. Die Gemeinde Nordstemmen wird\nsoweit möglich die entwickelten Formulierungen übernehmen. Eine grundbuchliche Absicherung der\nZuwegung muss auch für Wartungs- und Unterhaltungsarbeiten erfolgen.\n\nBau: Es soll eine Brücke für Fußgänger und Radfahrer mit einer Breite von ca. 2,5 m errichtet\nwerden. Es sollen wartungsarme, beständige Materialien zum Einsatz kommen (kein Holz). Ein\nLeistungsverzeichnis oder Leistungsprogramm befindet sich noch in der Abstimmung. Es besteht\nnoch Klärungsbedarf, ob der Bau über vorhandene Wege (wie beim Abriss auch) und mit einem\neinmaligen Überfahren von Grünland auf Springer Seite erfolgen kann.\n\nGenehmigung: Erforderlich ist eine wasserrechtliche Genehmigung nach § 57 Niedersächsisches\nWassergesetz. Zuständige Behörde ist die Region Hannover - Untere Wasserbehörde. Vorgespräche\nund Abstimmungen haben stattgefunden, ein Antragsentwurf wurde seitens der Gemeinde\nNordstemmen vorgelegt. Dieser ist noch konkret mit der Unteren Wasserbehörde und der Stadt\nSpringe als Antragstellerin abzustimmen. Da sich Brücke und Zuwegungen in einem\nLandschaftsschutzgebiet befinden, wurde und wird auch die Untere Naturschutzbehörde, Region\nHannover, einbezogen.",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:08.156Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 481
+  }
 }

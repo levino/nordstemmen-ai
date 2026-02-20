@@ -1,8 +1,18 @@
 {
   "file_hash": "0b4fae1e971c9794b61d49278a78bcbb497de319ca59326c930d2fc0f4d5af9e",
   "filename": "Anlage_Einzugsgebiet_Barnten.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "sonstige: 5\nBarnten\n34\nHallerburg\n15\nAdensen\n25\nRössing\n46\nNordstemmen\nKlein Escherde\n16\n6\n3\nHeyersum\n23\nMahlerten\n5\nGroß Escherde\nBurgstemmen\nStand: 01.10.2021\n\n| Klasse | Schülerzahl | Adensen und Hallerburg | Barnten | Burgst. | Gr. Escherde Heyersum | Kl. Escherde | Mahlerten | Nordst. | Rössing | Sonstige |\n| :----- | :---------- | :--------------------- | :------ | :------ | :--------------------- | :---------- | :-------- | :------ | :-------- | :--------- |\n| 1      | 62          | 10                     | 11      | 0       | 9                      | 2           | 4         | 0       | 8         | 17         | 1          |\n| 2      | 45          | 2                      | 7       | 0       | 11                     | 3           | 4         | 1       | 5         | 11         | 1          |\n| 3      | 44          | 2                      | 13      | 2       | 1                      | 1           | 4         | 1       | 8         | 11         | 1          |\n| 4      | 35          | 1                      | 11      | 3       | 2                      | 0           | 4         | 1       | 4         | 7          | 2          |\n| 8      | 186         | 15                     | 42      | 5       | 23                     | 6           | 16        | 3       | 25        | 46         | 5          |\n\nsonstige: Förste (1), Schulenburg (1), Sarstedt (1), Giesen (1), Giften (1)"
+    }
+  ],
+  "full_text": "sonstige: 5\nBarnten\n34\nHallerburg\n15\nAdensen\n25\nRössing\n46\nNordstemmen\nKlein Escherde\n16\n6\n3\nHeyersum\n23\nMahlerten\n5\nGroß Escherde\nBurgstemmen\nStand: 01.10.2021\n\n| Klasse | Schülerzahl | Adensen und Hallerburg | Barnten | Burgst. | Gr. Escherde Heyersum | Kl. Escherde | Mahlerten | Nordst. | Rössing | Sonstige |\n| :----- | :---------- | :--------------------- | :------ | :------ | :--------------------- | :---------- | :-------- | :------ | :-------- | :--------- |\n| 1      | 62          | 10                     | 11      | 0       | 9                      | 2           | 4         | 0       | 8         | 17         | 1          |\n| 2      | 45          | 2                      | 7       | 0       | 11                     | 3           | 4         | 1       | 5         | 11         | 1          |\n| 3      | 44          | 2                      | 13      | 2       | 1                      | 1           | 4         | 1       | 8         | 11         | 1          |\n| 4      | 35          | 1                      | 11      | 3       | 2                      | 0           | 4         | 1       | 4         | 7          | 2          |\n| 8      | 186         | 15                     | 42      | 5       | 23                     | 6           | 16        | 3       | 25        | 46         | 5          |\n\nsonstige: Förste (1), Schulenburg (1), Sarstedt (1), Giesen (1), Giften (1)",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:31.964Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 476
+  }
 }

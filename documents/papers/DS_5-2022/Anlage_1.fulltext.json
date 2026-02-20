@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Geltungsbereich\nB-Plan Nr. 0122\n\"Innerörtliche Verbindungsstraße / Zuckerfabrik\",\n10. Änderung\nNordstemmen ´\n© 2022"
+      "text": "Anlage 1 zu\nDS 5/2022\n[Karte, die den Geltungsbereich eines Bebauungsplans in Nordstemmen um eine Zuckerfabrik und umliegende Straßen und Felder zeigt.]\nGeltungsbereich\nB-Plan Nr. 0122\n\"Innerörtliche Verbindungsstraße / Zuckerfabrik\",\n10. Änderung\n© 2022 LGLN N"
     }
   ],
-  "full_text": "Geltungsbereich\nB-Plan Nr. 0122\n\"Innerörtliche Verbindungsstraße / Zuckerfabrik\",\n10. Änderung\nNordstemmen ´\n© 2022"
+  "full_text": "Anlage 1 zu\nDS 5/2022\n[Karte, die den Geltungsbereich eines Bebauungsplans in Nordstemmen um eine Zuckerfabrik und umliegende Straßen und Felder zeigt.]\nGeltungsbereich\nB-Plan Nr. 0122\n\"Innerörtliche Verbindungsstraße / Zuckerfabrik\",\n10. Änderung\n© 2022 LGLN N",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:06:55.162Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 96
+  }
 }

@@ -1,8 +1,26 @@
 {
   "file_hash": "9d23c17b99186e23f42f32c7803c102033d2b716b7c31ee48139e06036531084",
   "filename": "Anlage_2_zu_DS_26_2024_Antrag.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 2 zu\nDS 26/2024\n\nGemeinde Nordstemmen\n1 6. April 2024\n3/14\n\nAn die\nGemeinde Nordstemmen\nPlanung\n\n11.04.2024\n\nBetr.: Flächennutzungsplan/Bebauungsplan der Gemeinde Giesen, OT Groß Escherde\nNr. 0505 An der Schützenstraße\n\nSehr geehrte Damen und Herren!\n\nHiermit beantragen wir die Änderung des Flächennutzungsplanes und Bebauungsplanes Nr. 0505\nan der Schützenstraße.\n\nEs isr geplant, dass ein ca. 40 m breiter Geländestreifen an der Schützenstraße zur Bebauung für\nWohnzwecke umgewidmet wird.\nDie Grundstückseigentümer wünschen eine Bebauung für 6 Grundstücke mit Einzel- bzw.\nDoppelhausbebauung.\n\nDer vorhandene Bolzplatz und die restliche Grünfläche soll in der geplanten Nutzung bestehen\nbleiben. Der Zugang zu den Restgrundstücken erfolgt über die vorhandenen Wege.\n\n[Unterschrift]\nOrtsbürgermeister"
+    },
+    {
+      "page": 2,
+      "text": "[Karte, die einen Auszug aus einem Flächennutzungsplan zeigt, mit verschiedenen farbigen und schraffierten Flächen, die unterschiedliche Nutzungsarten darstellen, sowie einem eingezeichneten Plangebiet.]\nAuszug Flächennutzungsplan\nStand: 27.03.2024\n1:2.000"
+    },
+    {
+      "page": 3,
+      "text": "[Lageplan, der einen Bebauungsplan zeigt, mit Parzellierungen, Wegen, einem Bolzplatz und einem Spielplatz, sowie angrenzender Bebauung und Straßen. Das Plangebiet ist rot umrandet.]\nBebauungsplan Nr. 0505 \"An der Schützenstraße\"\nStand: 27.03.2024\n1:1.500"
+    }
+  ],
+  "full_text": "Anlage 2 zu\nDS 26/2024\n\nGemeinde Nordstemmen\n1 6. April 2024\n3/14\n\nAn die\nGemeinde Nordstemmen\nPlanung\n\n11.04.2024\n\nBetr.: Flächennutzungsplan/Bebauungsplan der Gemeinde Giesen, OT Groß Escherde\nNr. 0505 An der Schützenstraße\n\nSehr geehrte Damen und Herren!\n\nHiermit beantragen wir die Änderung des Flächennutzungsplanes und Bebauungsplanes Nr. 0505\nan der Schützenstraße.\n\nEs isr geplant, dass ein ca. 40 m breiter Geländestreifen an der Schützenstraße zur Bebauung für\nWohnzwecke umgewidmet wird.\nDie Grundstückseigentümer wünschen eine Bebauung für 6 Grundstücke mit Einzel- bzw.\nDoppelhausbebauung.\n\nDer vorhandene Bolzplatz und die restliche Grünfläche soll in der geplanten Nutzung bestehen\nbleiben. Der Zugang zu den Restgrundstücken erfolgt über die vorhandenen Wege.\n\n[Unterschrift]\nOrtsbürgermeister\n\n[Karte, die einen Auszug aus einem Flächennutzungsplan zeigt, mit verschiedenen farbigen und schraffierten Flächen, die unterschiedliche Nutzungsarten darstellen, sowie einem eingezeichneten Plangebiet.]\nAuszug Flächennutzungsplan\nStand: 27.03.2024\n1:2.000\n\n[Lageplan, der einen Bebauungsplan zeigt, mit Parzellierungen, Wegen, einem Bolzplatz und einem Spielplatz, sowie angrenzender Bebauung und Straßen. Das Plangebiet ist rot umrandet.]\nBebauungsplan Nr. 0505 \"An der Schützenstraße\"\nStand: 27.03.2024\n1:1.500",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:50:56.395Z",
+    "total_input_tokens": 1118,
+    "total_output_tokens": 447
+  }
 }

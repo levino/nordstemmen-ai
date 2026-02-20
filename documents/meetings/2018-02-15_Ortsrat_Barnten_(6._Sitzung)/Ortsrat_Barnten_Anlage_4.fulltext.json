@@ -1,8 +1,18 @@
 {
   "file_hash": "f8e54986178a596eab2cc0cba4e8f4dba331b6eaf3620462548d056ced30b557",
   "filename": "Ortsrat_Barnten_Anlage_4.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 4 OR Bank 15.02.18\nOrtsrat Barnten\n\n11. Februar 2018\n\nVorschlag: Vergabe Ortsratsmittel für das Jahr 2018\n\nHaushaltsrest 2017 € 23,83\nOrtsratsmittel 2018 € 2747,50\n=€ 2771,33\n\nVerfügungsmittel Ortsbürgermeister für Präsente € 447,00\n(31 x Sträuße, 3 x Präsentkorb) =€ 2324,33\n\nHeimatstube € 120,00\nOrtsheimatpfleger € 150,00\nKranz für Volkstrauertag € 80,00\nZuschuss, für Pokale, beim Schießen um die Bürgerkönige (XX) € 100,00\nAdventfeier OR/AWO/DRK/SoVD/Kirchengemeinde € 100,00\nChorgemeinschaft singen am Volkstrauertag (XX) € 40,00\nFFW Kapelle Rössing für Volkstrauertag + 90 Jahre (XX) € 200.00\nUmwelttag € 100,00\nZuschuss an die Dorfpflege € 500,00\n145 Jahre Orpheus (XX) € 145,00\n\nAusgaben gesamt: € 1535,00\n\nHaushaltsrest =€ 789,33\n\n(XX) = soll persönlich übergeben werden"
+    }
+  ],
+  "full_text": "Anlage 4 OR Bank 15.02.18\nOrtsrat Barnten\n\n11. Februar 2018\n\nVorschlag: Vergabe Ortsratsmittel für das Jahr 2018\n\nHaushaltsrest 2017 € 23,83\nOrtsratsmittel 2018 € 2747,50\n=€ 2771,33\n\nVerfügungsmittel Ortsbürgermeister für Präsente € 447,00\n(31 x Sträuße, 3 x Präsentkorb) =€ 2324,33\n\nHeimatstube € 120,00\nOrtsheimatpfleger € 150,00\nKranz für Volkstrauertag € 80,00\nZuschuss, für Pokale, beim Schießen um die Bürgerkönige (XX) € 100,00\nAdventfeier OR/AWO/DRK/SoVD/Kirchengemeinde € 100,00\nChorgemeinschaft singen am Volkstrauertag (XX) € 40,00\nFFW Kapelle Rössing für Volkstrauertag + 90 Jahre (XX) € 200.00\nUmwelttag € 100,00\nZuschuss an die Dorfpflege € 500,00\n145 Jahre Orpheus (XX) € 145,00\n\nAusgaben gesamt: € 1535,00\n\nHaushaltsrest =€ 789,33\n\n(XX) = soll persönlich übergeben werden",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:00:59.038Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 388
+  }
 }

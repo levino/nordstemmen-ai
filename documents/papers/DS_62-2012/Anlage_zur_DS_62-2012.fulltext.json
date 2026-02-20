@@ -1,8 +1,18 @@
 {
   "file_hash": "d20075ea39a097179d64383a201796afe34ea67acdccd6d31e62ec9fc83c8648",
   "filename": "Anlage_zur_DS_62-2012.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "## Absender\nKIRCHENAMT Hildesheim\ndes Ev.-luth. Kirchenkreisverbandes Hildesheim\nKirchenamt Hildesheim Gropiusstr. 5 31137 Hildeshelm\n\n## Empfänger\nGemeinde Nordstemmen\nRathausstr. 3\n31171 Nordstemmen\n\nAuskunft erteilt: Oliver Handelmann\nZimmer: 38\nDurchwahl: 05121 100-503\nZentrale: 05121 100-0\nFax: 05121 100-599\nE-Mail: oliver.handelmann@evika.de\n\nWir sind für Sie da:\nMo, Di, Do, Fr: 9-12 Uhr sowie\nDo: 14-16 Uhr\n~Terminvereinbarung empfehlenswert ~\n\nBankverbindung:\nSparkasse Hildesheim Kto. 7 009 774\nBLZ: 259 501 30\nIBAN-Nr.: DE13 2595 0130 0007 0097 74\nBIC-Code: NOLADE21HIK\n\nHildesheim, den 23. August 2012\nAz: 3407/352-1\n\n## Betreff\nEv.-luth. Kindertagesstätte Burgstemmen\nhier: Antrag auf Genehmigung von Küchenstunden\n\nSehr geehrter Herr Falke,\nsehr geehrte Damen und Herren,\n\nin der Kindertagesstätte Burgstemmen ist die Anzahl der Kinder, die am Mittagessen\nteilnehmen, stetig angestiegen. Seit dem 01.08.2012 nehmen 39 Kinder am Mittag-\nessen teil. Das Mittagessen wird im Kindergarten zubereitet.\n\nIm genehmigten Stellenplan gibt es bisher keine Stunden für eine Küchenkraft.\n\nWir beantragen ab dem 01.09.2012 die Stelle einer Küchenkraft auf 400,- €-Basis\nmit einem Stundenumfang von 8,5 Wochenstunden. Die Personalkosten dafür belau-\nfen sich auf ca. 6.400 € im Jahr.\n\nMit freundlichen Grüßen\nIm Auftrag\n[Unterschrift]\n(Oliver Handelmann)"
+    }
+  ],
+  "full_text": "## Absender\nKIRCHENAMT Hildesheim\ndes Ev.-luth. Kirchenkreisverbandes Hildesheim\nKirchenamt Hildesheim Gropiusstr. 5 31137 Hildeshelm\n\n## Empfänger\nGemeinde Nordstemmen\nRathausstr. 3\n31171 Nordstemmen\n\nAuskunft erteilt: Oliver Handelmann\nZimmer: 38\nDurchwahl: 05121 100-503\nZentrale: 05121 100-0\nFax: 05121 100-599\nE-Mail: oliver.handelmann@evika.de\n\nWir sind für Sie da:\nMo, Di, Do, Fr: 9-12 Uhr sowie\nDo: 14-16 Uhr\n~Terminvereinbarung empfehlenswert ~\n\nBankverbindung:\nSparkasse Hildesheim Kto. 7 009 774\nBLZ: 259 501 30\nIBAN-Nr.: DE13 2595 0130 0007 0097 74\nBIC-Code: NOLADE21HIK\n\nHildesheim, den 23. August 2012\nAz: 3407/352-1\n\n## Betreff\nEv.-luth. Kindertagesstätte Burgstemmen\nhier: Antrag auf Genehmigung von Küchenstunden\n\nSehr geehrter Herr Falke,\nsehr geehrte Damen und Herren,\n\nin der Kindertagesstätte Burgstemmen ist die Anzahl der Kinder, die am Mittagessen\nteilnehmen, stetig angestiegen. Seit dem 01.08.2012 nehmen 39 Kinder am Mittag-\nessen teil. Das Mittagessen wird im Kindergarten zubereitet.\n\nIm genehmigten Stellenplan gibt es bisher keine Stunden für eine Küchenkraft.\n\nWir beantragen ab dem 01.09.2012 die Stelle einer Küchenkraft auf 400,- €-Basis\nmit einem Stundenumfang von 8,5 Wochenstunden. Die Personalkosten dafür belau-\nfen sich auf ca. 6.400 € im Jahr.\n\nMit freundlichen Grüßen\nIm Auftrag\n[Unterschrift]\n(Oliver Handelmann)",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:14:40.556Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 542
+  }
 }

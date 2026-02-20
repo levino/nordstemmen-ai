@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage 1\nzur DS 81/2013"
+      "text": "Anlage 1\nzur DS 81/2013\n[Karte zeigt einen Ausschnitt eines Ortes mit Straßen, Gebäuden und einem Bachlauf, auf der bestimmte Punkte markiert sind (1, 2, 3) und deren Bezeichnungen in einer Legende erklärt werden.]\nN 5778465 m\n1:2.500\nE 555383 m\nE 556011 m\nN 5778900 m\n1 Kreuzstraße Süd - soll ausgebaut werden\n2 Kreuzstraße Nord - soll aufgegeben werden\n3 Kreuzung - soll aufgegeben werden\n©2013 LGLN"
     }
   ],
-  "full_text": "Anlage 1\nzur DS 81/2013"
+  "full_text": "Anlage 1\nzur DS 81/2013\n[Karte zeigt einen Ausschnitt eines Ortes mit Straßen, Gebäuden und einem Bachlauf, auf der bestimmte Punkte markiert sind (1, 2, 3) und deren Bezeichnungen in einer Legende erklärt werden.]\nN 5778465 m\n1:2.500\nE 555383 m\nE 556011 m\nN 5778900 m\n1 Kreuzstraße Süd - soll ausgebaut werden\n2 Kreuzstraße Nord - soll aufgegeben werden\n3 Kreuzung - soll aufgegeben werden\n©2013 LGLN",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:22:53.613Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 156
+  }
 }

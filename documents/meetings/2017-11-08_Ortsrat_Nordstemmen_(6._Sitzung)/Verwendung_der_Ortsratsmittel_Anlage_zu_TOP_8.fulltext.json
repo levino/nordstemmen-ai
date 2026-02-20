@@ -1,8 +1,18 @@
 {
   "file_hash": "9cfbc83494e00fea2b8779a860c3d14d1c840536c7b41c1d2a0e7182219ace64",
   "filename": "Verwendung_der_Ortsratsmittel_Anlage_zu_TOP_8.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "30.10.2017\nJährlich wiederkehrende Koste des\nOrtsrates Nordstemmen\nbisher\naufgerundet ausgegeben\nSenioren Fahrt 1.100,00 € 1.026,00 €\nSeniorenweihnachtsfeier 500,00 €\nMüllsammelaktion 200,00 € 162,87 €\nBürgerscheibe u. Schiessen 500,00 € 500,00 €\nBlasorchester (Jahreskonzert) 100,00 € 100,00 €\nFeuerwehr/Blasorchester 200,00 € 200,00 €\nJahresempfang der Kirchen 100,00 € 100,00 €\nSchule Abschlussklassen 100,00 € 100,00 €\nGeburtstage (80. -85. -90. - 91.....) 1.200,00 € 865,00 €\nWeltkindertag 100,00 € 100,00 €\nOrtsheimatpflegerin 150,00 € 150,00 €\nHundekotbeute 400,00 € 303,09 €\nJubiläen (Goldene Hochzeiten) 150,00 € 80,00 €\nOrtsbürgermeister z.b.V. 400,00 € 225,00 €\nFerienpass 100,00 € 100,00 €\nNeubürger 79,50 €\nKKS Lichtpunktgewehre 300,00 €\nMarienbergschule (Farbe u. Pinsel) 300,00 €\nSumme 5.300,00 € 4.691,46 €\n\nZuweisung 2017 6.050,00 €\nÜbertrag 2016 2.868,00 €\n\nSumme 2017 2017 8.918,00 € 4.691,46 €\n\nNoch geplante Ausgaben 1.400,00 €\n\nnoch Verfügbar: 2.700,00 €"
+    }
+  ],
+  "full_text": "30.10.2017\nJährlich wiederkehrende Koste des\nOrtsrates Nordstemmen\nbisher\naufgerundet ausgegeben\nSenioren Fahrt 1.100,00 € 1.026,00 €\nSeniorenweihnachtsfeier 500,00 €\nMüllsammelaktion 200,00 € 162,87 €\nBürgerscheibe u. Schiessen 500,00 € 500,00 €\nBlasorchester (Jahreskonzert) 100,00 € 100,00 €\nFeuerwehr/Blasorchester 200,00 € 200,00 €\nJahresempfang der Kirchen 100,00 € 100,00 €\nSchule Abschlussklassen 100,00 € 100,00 €\nGeburtstage (80. -85. -90. - 91.....) 1.200,00 € 865,00 €\nWeltkindertag 100,00 € 100,00 €\nOrtsheimatpflegerin 150,00 € 150,00 €\nHundekotbeute 400,00 € 303,09 €\nJubiläen (Goldene Hochzeiten) 150,00 € 80,00 €\nOrtsbürgermeister z.b.V. 400,00 € 225,00 €\nFerienpass 100,00 € 100,00 €\nNeubürger 79,50 €\nKKS Lichtpunktgewehre 300,00 €\nMarienbergschule (Farbe u. Pinsel) 300,00 €\nSumme 5.300,00 € 4.691,46 €\n\nZuweisung 2017 6.050,00 €\nÜbertrag 2016 2.868,00 €\n\nSumme 2017 2017 8.918,00 € 4.691,46 €\n\nNoch geplante Ausgaben 1.400,00 €\n\nnoch Verfügbar: 2.700,00 €",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:00:45.954Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 587
+  }
 }

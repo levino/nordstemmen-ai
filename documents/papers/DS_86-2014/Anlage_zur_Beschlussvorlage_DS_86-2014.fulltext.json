@@ -1,8 +1,18 @@
 {
   "file_hash": "cfb7dab6b0f1e2b6b164699080f24fda45619238467d1d74bf79fd8e67d27f03",
   "filename": "Anlage_zur_Beschlussvorlage_DS_86-2014.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "ANLAGE ZUR DS 86/2014\nGemeinde Nordstemmen\nFlächennutzungsplan, 21. Änderung\n[Karte zeigt einen Flächennutzungsplan mit Planungsgebiet, Abständen zu Siedlungsflächen, Brutvogelbereichen, Eisenbahn und Elt-Leitung.]\n0 200 400 500 600 800 m\nPlanungsbüro SRL Weber Spinozastraße 1 30625 Hannover\nTelefon: (0511) 85 65 8-0 Fax: (0511) 85 65 8-99 eMail: email@srl-weber.de"
+    }
+  ],
+  "full_text": "ANLAGE ZUR DS 86/2014\nGemeinde Nordstemmen\nFlächennutzungsplan, 21. Änderung\n[Karte zeigt einen Flächennutzungsplan mit Planungsgebiet, Abständen zu Siedlungsflächen, Brutvogelbereichen, Eisenbahn und Elt-Leitung.]\n0 200 400 500 600 800 m\nPlanungsbüro SRL Weber Spinozastraße 1 30625 Hannover\nTelefon: (0511) 85 65 8-0 Fax: (0511) 85 65 8-99 eMail: email@srl-weber.de",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:25:44.754Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 170
+  }
 }

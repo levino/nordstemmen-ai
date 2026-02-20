@@ -1,8 +1,18 @@
 {
   "file_hash": "42fd4fdde7b9dd72386f5b7c23fe838007771f4cbde82a30425dc72f1db07eb0",
   "filename": "Anlage_3_zur_DS_40-2011.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "FB 4 - Bildung, Kultur, Freizeit, Ordnungsangelegenheiten\nVordruck C. 3\nGrundschule Adensen\nHerkunftsort der Schüler\nStand\n01.02.2011\nKlasse\nSchülerzahl\ngesamt\nAdensen\nBarnten\nBurgst.\nGr.Escherde\nHallerburg\nHeyersum\nKl.Escherde\nMahlerten\nNordst.\nRössing\nsonstige\nWülfingen\nAlferde\n1\n14\n8\n\n2\n1\n3\n\n2\n13\n6\n1\n\n2\n1\n\n1\n1\n3\n17\n9\n2\n\n2\n1\n\n2\n1\n4\n19\n6\n2\n\n4\n\n1\n2\n\n63\n32\n0\n2\n0\n5\n0\n6\n8\n2\n\n63\nGrundschule Barnten\nDie Einzugsgebiete jeder Grundschule sind blau hinterlegt!\nKlasse\nSchülerzahl\ngesamt\nAdensen\nBarnten\nBurgst\nGr.Escherde\nHallerburg\nHeyersum\nKl.Escherde\nMahlerten\nNordst.\nRössing\nsonstige\n1\n35\n\n10\n\n3\n\n14\nSchulenburg\n2\n40\n\n11\n\n3\n\n17\nSchulenburg\n3\n37\n\n5\n1\n\n3\n\n19\nSchulenburg\n4\n38\n\n9\n\n8\n\n1\n\n150\n0\n35\n1\n0\n16\n0\n1\n0\n0\n0\n67\n2\nGrundschule Nordstemmen\nAnlage 3\nzum\nD5 40/2011\nKl.Esch\nKlasse\nSchülerzahl\ngesamt\nAdensen\nBarnten\nBurgst.\nGr.Escherde\nHallerburg\nHeyersum\nKl.Escherde\nMahlerten\nNordst.\nRössing\nsonstige\n1\n72\n\n6\n\n48\n\n2\n62\n\n6\n\n4\n\n3\n84\n\n12\n\n1\n\n4\n63\n\n2\n\n281\n26\n0\n30\n0\n0\n0\n0\n0\n19\n205\n0\n2011-03-2011-02-Schüler-Herkunftsorte"
+    }
+  ],
+  "full_text": "FB 4 - Bildung, Kultur, Freizeit, Ordnungsangelegenheiten\nVordruck C. 3\nGrundschule Adensen\nHerkunftsort der Schüler\nStand\n01.02.2011\nKlasse\nSchülerzahl\ngesamt\nAdensen\nBarnten\nBurgst.\nGr.Escherde\nHallerburg\nHeyersum\nKl.Escherde\nMahlerten\nNordst.\nRössing\nsonstige\nWülfingen\nAlferde\n1\n14\n8\n\n2\n1\n3\n\n2\n13\n6\n1\n\n2\n1\n\n1\n1\n3\n17\n9\n2\n\n2\n1\n\n2\n1\n4\n19\n6\n2\n\n4\n\n1\n2\n\n63\n32\n0\n2\n0\n5\n0\n6\n8\n2\n\n63\nGrundschule Barnten\nDie Einzugsgebiete jeder Grundschule sind blau hinterlegt!\nKlasse\nSchülerzahl\ngesamt\nAdensen\nBarnten\nBurgst\nGr.Escherde\nHallerburg\nHeyersum\nKl.Escherde\nMahlerten\nNordst.\nRössing\nsonstige\n1\n35\n\n10\n\n3\n\n14\nSchulenburg\n2\n40\n\n11\n\n3\n\n17\nSchulenburg\n3\n37\n\n5\n1\n\n3\n\n19\nSchulenburg\n4\n38\n\n9\n\n8\n\n1\n\n150\n0\n35\n1\n0\n16\n0\n1\n0\n0\n0\n67\n2\nGrundschule Nordstemmen\nAnlage 3\nzum\nD5 40/2011\nKl.Esch\nKlasse\nSchülerzahl\ngesamt\nAdensen\nBarnten\nBurgst.\nGr.Escherde\nHallerburg\nHeyersum\nKl.Escherde\nMahlerten\nNordst.\nRössing\nsonstige\n1\n72\n\n6\n\n48\n\n2\n62\n\n6\n\n4\n\n3\n84\n\n12\n\n1\n\n4\n63\n\n2\n\n281\n26\n0\n30\n0\n0\n0\n0\n0\n19\n205\n0\n2011-03-2011-02-Schüler-Herkunftsorte",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:01:02.853Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 545
+  }
 }

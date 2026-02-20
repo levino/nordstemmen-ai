@@ -1,8 +1,22 @@
 {
   "file_hash": "899cab677be84be4c09054ee43305bf159c7b4f489732ba0b20c7ede5fa73074",
   "filename": "Anlage_2_zur_DS_111-2016.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Karte, die Landnutzung, Parzellen, Gewässer und Höhenlinien in einer ländlichen Gegend darstellt. Sie zeigt Flächenbezeichnungen, ein Kaliwerk und Naturschutzgebiete. Zwei rote Pfeile sind auf bestimmte Bereiche der Karte gerichtet.]\nAnlage 2 zu\nDS 111/2016"
+    },
+    {
+      "page": 2,
+      "text": "[Detailausschnitt einer Karte, die landwirtschaftliche Flächen, Gewässer und verschiedene Parzellen mit Höhenlinien zeigt. Eingetragen sind Nutzungen wie ein Kaliwerk, Naturschutzgebiete und Flächen mit Bezeichnungen wie A, ACEF und VF. Zwei rote Pfeile sind auf bestimmte Bereiche der Karte gerichtet.]"
+    }
+  ],
+  "full_text": "[Karte, die Landnutzung, Parzellen, Gewässer und Höhenlinien in einer ländlichen Gegend darstellt. Sie zeigt Flächenbezeichnungen, ein Kaliwerk und Naturschutzgebiete. Zwei rote Pfeile sind auf bestimmte Bereiche der Karte gerichtet.]\nAnlage 2 zu\nDS 111/2016\n\n[Detailausschnitt einer Karte, die landwirtschaftliche Flächen, Gewässer und verschiedene Parzellen mit Höhenlinien zeigt. Eingetragen sind Nutzungen wie ein Kaliwerk, Naturschutzgebiete und Flächen mit Bezeichnungen wie A, ACEF und VF. Zwei rote Pfeile sind auf bestimmte Bereiche der Karte gerichtet.]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:32:30.635Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 149
+  }
 }

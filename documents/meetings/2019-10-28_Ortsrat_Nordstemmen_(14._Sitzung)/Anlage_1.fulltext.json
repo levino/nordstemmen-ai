@@ -1,8 +1,18 @@
 {
   "file_hash": "71df6af219ceb587b475b25356b1c652641e4f4eadf69e1fa312453bac5ce59e",
   "filename": "Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "28.08.2019\nJährlich wiederkehrende Koste des\nOrtsrates Nordstemmen\nbisher\naufgerundet ausgegeben\nSenioren Fahrt\n1.200,00 € 2.413,39 €\nSeniorenweihnachtsfeier\n700,00 €\n0,00 €\nMüllsammelaktion\n200,00 €\n198,86 €\nBürgerscheibe u. Schiessen\n500,00 €\n500,00 €\nBlasorchester (Jahreskonzert)\n100,00 €\n100,00 €\nFeuerwehr/Blasorchester\n200,00 €\n0,00 €\n2018\nJahresempfang der Kirchen\n100,00 €\n0,00 €\n2018\nSchule Abschlussklassen\n100,00 €\n100,00 €\nGeburtstage (80.- 85.-90.- 91.....)\n1.700,00 €\n945,00 €\nWeltkindertag\n100,00 €\n100,00 €\nVolkstrauertag\n100,00 €\n0,00 €\nOrtsheimatpflegerin\n150,00 €\n150,00 €\nHundekotbeute\n400,00 €\n306,31 €\nJubiläen (Goldene Hochzeiten)\n160,00 €\n80,00 €\nOrtsbürgermeister\nz.b.V.\n500,00 €\n287,75 €\nFerienpass\n100,00 €\n100,00 €\nNeubürger\n400,00 €\n180,00 €\nZuschuss Fahrt Juz\n100,00 €\nZuschuss Kultur u. Brauchtum Flyer\n440,00 €\n70 Jahre BDV Nordstemmen\n100,00 €\n120 Jahre DRK\n150,00 €\nJubiläum Firma Kernbach\n50,00 €\nKarten OR\n141,61 €\nSumme\n6.710,00 € 6.442,92 €\nZuweisung\n2019\n8.900,00 €\nÜbertrag\n2018\n2.839,00 €\nSumme 2019\n2019\n11.739,00 €\nAusgaben\n2019\n6.442,92 €\nVerplant\n2019\n2.050,00 €\nnoch Verfügbar:\nca.\n3.246,08 €\nFahrt\n1.400,00 €"
+    }
+  ],
+  "full_text": "28.08.2019\nJährlich wiederkehrende Koste des\nOrtsrates Nordstemmen\nbisher\naufgerundet ausgegeben\nSenioren Fahrt\n1.200,00 € 2.413,39 €\nSeniorenweihnachtsfeier\n700,00 €\n0,00 €\nMüllsammelaktion\n200,00 €\n198,86 €\nBürgerscheibe u. Schiessen\n500,00 €\n500,00 €\nBlasorchester (Jahreskonzert)\n100,00 €\n100,00 €\nFeuerwehr/Blasorchester\n200,00 €\n0,00 €\n2018\nJahresempfang der Kirchen\n100,00 €\n0,00 €\n2018\nSchule Abschlussklassen\n100,00 €\n100,00 €\nGeburtstage (80.- 85.-90.- 91.....)\n1.700,00 €\n945,00 €\nWeltkindertag\n100,00 €\n100,00 €\nVolkstrauertag\n100,00 €\n0,00 €\nOrtsheimatpflegerin\n150,00 €\n150,00 €\nHundekotbeute\n400,00 €\n306,31 €\nJubiläen (Goldene Hochzeiten)\n160,00 €\n80,00 €\nOrtsbürgermeister\nz.b.V.\n500,00 €\n287,75 €\nFerienpass\n100,00 €\n100,00 €\nNeubürger\n400,00 €\n180,00 €\nZuschuss Fahrt Juz\n100,00 €\nZuschuss Kultur u. Brauchtum Flyer\n440,00 €\n70 Jahre BDV Nordstemmen\n100,00 €\n120 Jahre DRK\n150,00 €\nJubiläum Firma Kernbach\n50,00 €\nKarten OR\n141,61 €\nSumme\n6.710,00 € 6.442,92 €\nZuweisung\n2019\n8.900,00 €\nÜbertrag\n2018\n2.839,00 €\nSumme 2019\n2019\n11.739,00 €\nAusgaben\n2019\n6.442,92 €\nVerplant\n2019\n2.050,00 €\nnoch Verfügbar:\nca.\n3.246,08 €\nFahrt\n1.400,00 €",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:02:21.035Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 707
+  }
 }

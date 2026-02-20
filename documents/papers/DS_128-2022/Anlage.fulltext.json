@@ -1,8 +1,18 @@
 {
   "file_hash": "640364c13452d411f43592ed7d0ed3570787566538e59f5a5674c0362d3f7dda",
   "filename": "Anlage.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "DS 128/2022 Anlage\nAnlage 5\nProtokoll OR Barnten\n17.05.2022\n\nOrtsrat Barnten\nSandwanne 20, 31171 Nordstemmen\nTel.: 0173-5314653 oder 05066 6971917\nE-Mail: bartschromanovski@web.de\n\n## Empfänger\nAn die Bürgermeisterin der Gemeinde Nordstemmen\nFrau Nicole Dombrowski\nRathausstraße 3\n31171 Nordstemmen\n\nGemeinde Nordstemmen\n2/3. Mai 2022\nellie\n\n## Betreff\nAntrag auf Entwidmung des Spielplatzes an der Barntener Hameke\n\nSehr geehrte Frau Bürgermeisterin,\n\nder Ortsrat Barnten beantragt die Entwidmung des Spielplatzes an der Barntener\nHameke um die Fläche neu gestalten zu können.\nÜber eine positive Entscheidung würde der Ortsrat sich sehr freuen.\n\nMit freundlichen Grüßen\n[Unterschrift]\nDaniel Bartsch-Romanovski\nOrtsbürgermeister"
+    }
+  ],
+  "full_text": "DS 128/2022 Anlage\nAnlage 5\nProtokoll OR Barnten\n17.05.2022\n\nOrtsrat Barnten\nSandwanne 20, 31171 Nordstemmen\nTel.: 0173-5314653 oder 05066 6971917\nE-Mail: bartschromanovski@web.de\n\n## Empfänger\nAn die Bürgermeisterin der Gemeinde Nordstemmen\nFrau Nicole Dombrowski\nRathausstraße 3\n31171 Nordstemmen\n\nGemeinde Nordstemmen\n2/3. Mai 2022\nellie\n\n## Betreff\nAntrag auf Entwidmung des Spielplatzes an der Barntener Hameke\n\nSehr geehrte Frau Bürgermeisterin,\n\nder Ortsrat Barnten beantragt die Entwidmung des Spielplatzes an der Barntener\nHameke um die Fläche neu gestalten zu können.\nÜber eine positive Entscheidung würde der Ortsrat sich sehr freuen.\n\nMit freundlichen Grüßen\n[Unterschrift]\nDaniel Bartsch-Romanovski\nOrtsbürgermeister",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:34:26.080Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 267
+  }
 }

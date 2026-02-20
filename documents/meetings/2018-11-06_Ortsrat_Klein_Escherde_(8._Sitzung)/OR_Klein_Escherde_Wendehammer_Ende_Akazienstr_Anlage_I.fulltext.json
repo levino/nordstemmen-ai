@@ -1,8 +1,18 @@
 {
   "file_hash": "b2b65557771dee8e39928eb5110751dc660b1c299e266dfe4ae38d39ba976c01",
   "filename": "OR_Klein_Escherde_Wendehammer_Ende_Akazienstr_Anlage_I.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": ""
+    }
+  ],
+  "full_text": "",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:35.366Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 5
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "a139e389a1b0c93edf51921bd266d09b2238fe237183377f7b319af4ceb0e723",
   "filename": "Ortsrat_Nordstemmen_07.09.2020_19-00_Uhr.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "BdV Bund der\nVertriebenen\n\nOrtsverbände Nordstemmen\nMahlerten\nHönze\nim Kreisverband Alfeld/Leine\nRössing\nGiesen-Hasede\nim Kreisverband Hildesheim-Mbg.\n\nEinladung\nzum Gedenken und Kranzniederlegung\n„59 Jahre Mahnkreuz“\nFreitag, den 04. September 2020, um 16.00 Uhr\nauf dem Mühlenberg in Heyersum\n\nMusikalische Unterstützung\nProgramm\nChoral, Freude schöner Götterfunken .....\n\nBegrüßung\n\nPommernlied, Wenn in stiller Stunde ......\n\nGedenken der Verstorbenen\n\nIch hat' einen Kameraden\nund Kranzniederlegung\n\nLesung, An mein Enkelkind........\n\nOstpreußenlied, Land der dunklen Wälder ....\n\nLesung, Zur Heimat .....\n\nSchlesierlied, Kehr ich einst zur Heimat wieder ......\n\nLesung, Rückblick eines Vertriebenen nach 75 Jahren .\n\nBrandenburgerlied, Märkische Heide, märkischer Sand......\n\nGrußworte\n\nSchluss- und Dankesworte\n\nDeutschlandlied - Hymne\n„Einigkeit und Recht und Freiheit“\n\nDer Vorstand\nTel. 05069-2830\n\nGJR - Nordstemmen\n\nManfred Lilienthal\n\nKarl-Heinz Hoffmann\n\nHans-Jürgen Degner\n\nHerward Gloeden\nKurt Kunze\nManfred Lilienthal\n\nUrsula Hoffmann\n\nPeter Winkler\n\nKarl-Heinz Hoffmann\n\nHerward Gloeden\nBdV Kreisvorsitzender, Alfeld\n\nManfred Lilienthal\n\nParkplätze und Regenmäntel sind\nvorhanden – Änderungen vorbehalten\n\nAuf der Wiese, vor der Gedenkstätte werden Stühle/Bänke mit 1,5 Meter Abstand aufgestellt."
+    }
+  ],
+  "full_text": "BdV Bund der\nVertriebenen\n\nOrtsverbände Nordstemmen\nMahlerten\nHönze\nim Kreisverband Alfeld/Leine\nRössing\nGiesen-Hasede\nim Kreisverband Hildesheim-Mbg.\n\nEinladung\nzum Gedenken und Kranzniederlegung\n„59 Jahre Mahnkreuz“\nFreitag, den 04. September 2020, um 16.00 Uhr\nauf dem Mühlenberg in Heyersum\n\nMusikalische Unterstützung\nProgramm\nChoral, Freude schöner Götterfunken .....\n\nBegrüßung\n\nPommernlied, Wenn in stiller Stunde ......\n\nGedenken der Verstorbenen\n\nIch hat' einen Kameraden\nund Kranzniederlegung\n\nLesung, An mein Enkelkind........\n\nOstpreußenlied, Land der dunklen Wälder ....\n\nLesung, Zur Heimat .....\n\nSchlesierlied, Kehr ich einst zur Heimat wieder ......\n\nLesung, Rückblick eines Vertriebenen nach 75 Jahren .\n\nBrandenburgerlied, Märkische Heide, märkischer Sand......\n\nGrußworte\n\nSchluss- und Dankesworte\n\nDeutschlandlied - Hymne\n„Einigkeit und Recht und Freiheit“\n\nDer Vorstand\nTel. 05069-2830\n\nGJR - Nordstemmen\n\nManfred Lilienthal\n\nKarl-Heinz Hoffmann\n\nHans-Jürgen Degner\n\nHerward Gloeden\nKurt Kunze\nManfred Lilienthal\n\nUrsula Hoffmann\n\nPeter Winkler\n\nKarl-Heinz Hoffmann\n\nHerward Gloeden\nBdV Kreisvorsitzender, Alfeld\n\nManfred Lilienthal\n\nParkplätze und Regenmäntel sind\nvorhanden – Änderungen vorbehalten\n\nAuf der Wiese, vor der Gedenkstätte werden Stühle/Bänke mit 1,5 Meter Abstand aufgestellt.",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:02:42.257Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 412
+  }
 }

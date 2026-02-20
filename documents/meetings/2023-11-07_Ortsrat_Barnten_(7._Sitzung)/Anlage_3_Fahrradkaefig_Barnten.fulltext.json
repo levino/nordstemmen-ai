@@ -1,8 +1,18 @@
 {
   "file_hash": "3e676d5659f389fc72f1b8f695368ba30e01e13bf80d3e038c5e9598bd1c581e",
   "filename": "Anlage_3_Fahrradkaefig_Barnten.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Protokoll\nOR Barnten\nAnlage 3\n390 vom 07.11.2023\nCieplik, Tobias\nVon:\nGesendet:\nAn:\nBetreff:\nSkibera, Hannes\nMontag, 16. Oktober 2023 11:33\nCieplik, Tobias\nInfo Fahrradkäfig Barnten\n\nMoin,\n\nich habe folgende Info für den OR Barnten.\n\nDieses bitte bei der Sitzung im November bekannt geben.\n\nAb dem 01.11.2023 gibt es einen neuen Fahrradkäfig in Barnten.\n\nDieser ist in der Nähe der Bushaltestelle bei der Grundschule Barnten.\n\nEr umfasst Platz für 8 Fahrräder.\n\nInteressierte können sich bei Herrn Skibera melden und einen Schlüssel erwerben.\n\nDer Schlüsselpfand beträgt 10€ und die monatliche Gebühr 2€.\n\nViele Grüße\nHannes Skibera\nFachbereich 3 - Planung, Bau und Umwelt\nDurchwahl 52\n1"
+    }
+  ],
+  "full_text": "Protokoll\nOR Barnten\nAnlage 3\n390 vom 07.11.2023\nCieplik, Tobias\nVon:\nGesendet:\nAn:\nBetreff:\nSkibera, Hannes\nMontag, 16. Oktober 2023 11:33\nCieplik, Tobias\nInfo Fahrradkäfig Barnten\n\nMoin,\n\nich habe folgende Info für den OR Barnten.\n\nDieses bitte bei der Sitzung im November bekannt geben.\n\nAb dem 01.11.2023 gibt es einen neuen Fahrradkäfig in Barnten.\n\nDieser ist in der Nähe der Bushaltestelle bei der Grundschule Barnten.\n\nEr umfasst Platz für 8 Fahrräder.\n\nInteressierte können sich bei Herrn Skibera melden und einen Schlüssel erwerben.\n\nDer Schlüsselpfand beträgt 10€ und die monatliche Gebühr 2€.\n\nViele Grüße\nHannes Skibera\nFachbereich 3 - Planung, Bau und Umwelt\nDurchwahl 52\n1",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:05:21.631Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 241
+  }
 }

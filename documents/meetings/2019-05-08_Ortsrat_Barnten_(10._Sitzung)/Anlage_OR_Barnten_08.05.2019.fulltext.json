@@ -1,8 +1,18 @@
 {
   "file_hash": "1d1ba728997da90182893156771f8613890c0f6ee48a3d71a85bbb634f21759d",
   "filename": "Anlage_OR_Barnten_08.05.2019.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage zu TOP 5\nOR Bainter 08.05.18\nMittelanmeldungen vom Ortsrat Barnten für den Haushalt 2020\nund für die mittelfristige Finanzplanung\nder Jahre 2021 bis 2023\n1. Renovierung der östlichen Fensterfront im DGH\nbereits in der OR Sitzung am 17.05.2018 beantragt!!!\n2. LED Beleuchtung für das DGH\nbereits in der OR Sitzung am 17.05.2018 beantragt!!!\n3. Weitere energetische Maßnahmen am DGH zur Einsparung von Strom\nund Gas, z. B. Isolierungen am Gebäude\nbereits in der OR Sitzung am 17.05.2018 beantragt!!!\n4. Renovierung des Eingangsbereiches der Turnhalle\nbereits in der OR Sitzung am 17.05.2018 beantragt!!!\n5. Leichtbautreppe zur Bühne der Turnhalle\nbereits in der OR Sitzung am 17.05.2018 beantragt!!!\n6. Zweite Leuchte für den Weg östlich der Bahn, Sandwanne\nbereits in der OR Sitzung am 17.05.2018 beantragt!!!\n7. Renovierung der Fußböden im DGH, alle drei Räume, Küche und\nTeeküche NEU!!!\n8. Renovierung vom Flur im DGH\nbereits in der OR Sitzung am 17.05.2018 beantragt!!!\nLt. Haushalt für 2020 geplant!!!\n9. Heizung im DGH erneuern mit separater Abrechnung für DGH und\nTurnhalle!!!\nLt. Haushalt für 2020 geplant!!!"
+    }
+  ],
+  "full_text": "Anlage zu TOP 5\nOR Bainter 08.05.18\nMittelanmeldungen vom Ortsrat Barnten für den Haushalt 2020\nund für die mittelfristige Finanzplanung\nder Jahre 2021 bis 2023\n1. Renovierung der östlichen Fensterfront im DGH\nbereits in der OR Sitzung am 17.05.2018 beantragt!!!\n2. LED Beleuchtung für das DGH\nbereits in der OR Sitzung am 17.05.2018 beantragt!!!\n3. Weitere energetische Maßnahmen am DGH zur Einsparung von Strom\nund Gas, z. B. Isolierungen am Gebäude\nbereits in der OR Sitzung am 17.05.2018 beantragt!!!\n4. Renovierung des Eingangsbereiches der Turnhalle\nbereits in der OR Sitzung am 17.05.2018 beantragt!!!\n5. Leichtbautreppe zur Bühne der Turnhalle\nbereits in der OR Sitzung am 17.05.2018 beantragt!!!\n6. Zweite Leuchte für den Weg östlich der Bahn, Sandwanne\nbereits in der OR Sitzung am 17.05.2018 beantragt!!!\n7. Renovierung der Fußböden im DGH, alle drei Räume, Küche und\nTeeküche NEU!!!\n8. Renovierung vom Flur im DGH\nbereits in der OR Sitzung am 17.05.2018 beantragt!!!\nLt. Haushalt für 2020 geplant!!!\n9. Heizung im DGH erneuern mit separater Abrechnung für DGH und\nTurnhalle!!!\nLt. Haushalt für 2020 geplant!!!",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:58.197Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 419
+  }
 }

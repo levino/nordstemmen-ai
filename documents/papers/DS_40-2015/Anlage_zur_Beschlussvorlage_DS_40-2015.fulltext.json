@@ -1,8 +1,18 @@
 {
   "file_hash": "2c46a4438366c06266f477f7f18e6eb9e353b62474ad5bfbe84cbcafee5fe26c",
   "filename": "Anlage_zur_Beschlussvorlage_DS_40-2015.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Lageplan des Ausbaus von Bushaltestellen in der OS Heyersum]\n\n## Kartentitel\nLageplan\n\n## Untertitel\nGestaltung\n\n## Planvermerk\nAnlage zur\nDS 40/2015\n\nR:\\CARD 1501 \\Str_Bus.PLT\n15.04.15 kl\n\nGemeinde Nordstemmen\nAusbau Bushaltestellen\n\"Kreuzstraße\" in der OS Heyersum\n\n| | Datum | Zeichen |\n|:---|:---|:---|\n| bearbeitet | 15.04.2015 | KL |\n| gezeichnet | 15.04.2015 | KL |\n| nach-/geprüft | | Rule |\n\n1. Ausf.\nAnlage:\nBlatt-Nr.:\n102/33\n\n## Maßstab\nMaßstab 1:250\n\n## Planungsbüro\nIngenieurbüro Rehe\nBirnbaumskamp 1c\n31139 Hildesheim\nTel.: 05121 / 92 36 - 0\nFax: 05121 / 92 36 - 36\nwww.ib-rehe.de"
+    }
+  ],
+  "full_text": "[Lageplan des Ausbaus von Bushaltestellen in der OS Heyersum]\n\n## Kartentitel\nLageplan\n\n## Untertitel\nGestaltung\n\n## Planvermerk\nAnlage zur\nDS 40/2015\n\nR:\\CARD 1501 \\Str_Bus.PLT\n15.04.15 kl\n\nGemeinde Nordstemmen\nAusbau Bushaltestellen\n\"Kreuzstraße\" in der OS Heyersum\n\n| | Datum | Zeichen |\n|:---|:---|:---|\n| bearbeitet | 15.04.2015 | KL |\n| gezeichnet | 15.04.2015 | KL |\n| nach-/geprüft | | Rule |\n\n1. Ausf.\nAnlage:\nBlatt-Nr.:\n102/33\n\n## Maßstab\nMaßstab 1:250\n\n## Planungsbüro\nIngenieurbüro Rehe\nBirnbaumskamp 1c\n31139 Hildesheim\nTel.: 05121 / 92 36 - 0\nFax: 05121 / 92 36 - 36\nwww.ib-rehe.de",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:01:59.300Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 293
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "9143ca9ddd8196801118af477d8d81ab6219dc7ce2434bfbfeb555dd38f722f3",
   "filename": "Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "OR Heyersum\nAnlage 2 TOP 5\nMittelung des Ortsbürgermeisters\n- Der Herd in der Heinz Fiolka Halle konnte kurzfristig Ende 2021 ausgetauscht\nwerden\n- Die Anliegerbeiträge für den Bürgersteig der Gronauer Straße von vor ca. 10 Jahren\nwurden eingefordert. Eine frühzeitige Information fehlte leider\n- Der Ortsrat hat für das Jahr 2022 wieder eine Blühpatenschaft bei der AgriCo GbR\nerworben\n- Die Leine Piraten haben in Absprache mit der Verwaltung 5 Bäume an der Boulbahn\ngepflanzt\n- Durch eine Aktion die durch Heyersumer*innen ins leben gerufen wurde konnte die\nImpfaktion der Gemeinde in Heyersum unter dem Motto „Booster und Bockwurst\"\netwas angepriesen werden und war ein voller Erfolg.\n- Die Tannenbäume wurden durch die FF Heyersum eingesammelt, hier noch einmal\ndanke schön\n- Verschiedene Blumenzwiebeln sind vor dem Ortsschild gepflanzt worden\n- Diverse Baustellen zeichnen aktuell unsern Ort"
+    }
+  ],
+  "full_text": "OR Heyersum\nAnlage 2 TOP 5\nMittelung des Ortsbürgermeisters\n- Der Herd in der Heinz Fiolka Halle konnte kurzfristig Ende 2021 ausgetauscht\nwerden\n- Die Anliegerbeiträge für den Bürgersteig der Gronauer Straße von vor ca. 10 Jahren\nwurden eingefordert. Eine frühzeitige Information fehlte leider\n- Der Ortsrat hat für das Jahr 2022 wieder eine Blühpatenschaft bei der AgriCo GbR\nerworben\n- Die Leine Piraten haben in Absprache mit der Verwaltung 5 Bäume an der Boulbahn\ngepflanzt\n- Durch eine Aktion die durch Heyersumer*innen ins leben gerufen wurde konnte die\nImpfaktion der Gemeinde in Heyersum unter dem Motto „Booster und Bockwurst\"\netwas angepriesen werden und war ein voller Erfolg.\n- Die Tannenbäume wurden durch die FF Heyersum eingesammelt, hier noch einmal\ndanke schön\n- Verschiedene Blumenzwiebeln sind vor dem Ortsschild gepflanzt worden\n- Diverse Baustellen zeichnen aktuell unsern Ort",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:44.907Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 262
+  }
 }

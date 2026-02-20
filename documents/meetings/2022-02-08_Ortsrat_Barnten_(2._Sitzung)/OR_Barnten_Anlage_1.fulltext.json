@@ -1,8 +1,18 @@
 {
   "file_hash": "40d99e7990332d392a97a731803598a35dd6eb01b10e1fd3041feddfbd3f3f49",
   "filename": "OR_Barnten_Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 1\nPotokoll OR Baunten 05.02.20\nOrtsrat Barnten\n\nJanuar 2022\n\nVorschlag: Vergabe Ortsratsmittel für das Jahr 2022\n\nHaushaltsrest 2021\nOrtsratsmittel 2022\n€ 203,07\n€ 71,07\n€ 2768,50\n=€ 2839,57\n2.971,57 €\n\nVerfügungsmittel Ortsbürgermeister für Präsente\n(26 x Blumensträuße, 5 x Präsentkorb)\n€ 437,00\n=€ 2408,57\n2.534,57 E\n\nHeimatstube\nOrtsheimatpflegerin\n€ 120,00 ✓\n€ 150,00\nKranz für Volkstrauertag\nUmwelttag\n€ 100,00\n€ 100,00\nZuschuss, für Pokale, beim Schießen um die Bürgerkönige (XX)\n€ 100,00\nAdventfeier OR/AWO/DRK/SoVD/Kirchengemeinde\n€ 100,00\nChorgemeinschaft singen am Volkstrauertag (XX)\n€ 50,00\nFFW Musikzug Rössing für Volkstrauertag (XX)\n€ 100,00\nZuschuss Dorfpflege, als Startguthaben für das Jubiläum\n875 Jahre Barnten\n€ 875,00\nZuschuss zum 75. Jubiläum der Landfrauen (XX)\n€ 100,00\n1.795\nAusgaben gesamt:\n€ 1420,00\n\nHaushaltsrest\n=€ -613,57\n739, S7 E\n\n(XX) = soll persönlich übergeben werden\n(Beträge in Euro) neue Posten gegenüber 2021"
+    }
+  ],
+  "full_text": "Anlage 1\nPotokoll OR Baunten 05.02.20\nOrtsrat Barnten\n\nJanuar 2022\n\nVorschlag: Vergabe Ortsratsmittel für das Jahr 2022\n\nHaushaltsrest 2021\nOrtsratsmittel 2022\n€ 203,07\n€ 71,07\n€ 2768,50\n=€ 2839,57\n2.971,57 €\n\nVerfügungsmittel Ortsbürgermeister für Präsente\n(26 x Blumensträuße, 5 x Präsentkorb)\n€ 437,00\n=€ 2408,57\n2.534,57 E\n\nHeimatstube\nOrtsheimatpflegerin\n€ 120,00 ✓\n€ 150,00\nKranz für Volkstrauertag\nUmwelttag\n€ 100,00\n€ 100,00\nZuschuss, für Pokale, beim Schießen um die Bürgerkönige (XX)\n€ 100,00\nAdventfeier OR/AWO/DRK/SoVD/Kirchengemeinde\n€ 100,00\nChorgemeinschaft singen am Volkstrauertag (XX)\n€ 50,00\nFFW Musikzug Rössing für Volkstrauertag (XX)\n€ 100,00\nZuschuss Dorfpflege, als Startguthaben für das Jubiläum\n875 Jahre Barnten\n€ 875,00\nZuschuss zum 75. Jubiläum der Landfrauen (XX)\n€ 100,00\n1.795\nAusgaben gesamt:\n€ 1420,00\n\nHaushaltsrest\n=€ -613,57\n739, S7 E\n\n(XX) = soll persönlich übergeben werden\n(Beträge in Euro) neue Posten gegenüber 2021",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:49.729Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 491
+  }
 }

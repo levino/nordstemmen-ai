@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "E 552030 m\nm\n3265775\nN\nN\n5778233\nm\nE 553670 m\n§\n© 2020\n1:10.000\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, © Bundesamt für Kartographie und Geodäsie"
+      "text": "[Luftbildaufnahme, die eine ländliche Gegend mit Feldern, Wäldern und einer Siedlung zeigt, mit einem rot umrandeten Bereich in der unteren Bildhälfte]\n\nFA Kita 07.03.2023\nAnlage 2 TOP 7\n\nE 553670 m\nN 5778233 m\n\nN 5775623 m\n\n1:10.000\nE 552030 m\n\n© 2020\nLGLN\n\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, Bundesamt für Kartographie und Geodäsie"
     }
   ],
-  "full_text": "E 552030 m\nm\n3265775\nN\nN\n5778233\nm\nE 553670 m\n§\n© 2020\n1:10.000\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, © Bundesamt für Kartographie und Geodäsie"
+  "full_text": "[Luftbildaufnahme, die eine ländliche Gegend mit Feldern, Wäldern und einer Siedlung zeigt, mit einem rot umrandeten Bereich in der unteren Bildhälfte]\n\nFA Kita 07.03.2023\nAnlage 2 TOP 7\n\nE 553670 m\nN 5778233 m\n\nN 5775623 m\n\n1:10.000\nE 552030 m\n\n© 2020\nLGLN\n\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, Bundesamt für Kartographie und Geodäsie",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:04:53.130Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 177
+  }
 }

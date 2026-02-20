@@ -1,8 +1,18 @@
 {
   "file_hash": "034756fcbb1b00a72ada4bc6c8ea12521618cf68cc710fdae176772cad5dabd4",
   "filename": "Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 1\nBezeichnung Potenzialfläche Pattensen-Springe 01\nStadt-/ Gemeindegebiet Pattensen und Springe\n\n4. Gesamtbeurteilung nach Abwägung relevanter Belange und gebietsbezogener\nUmweltprüfung\n\n[Karte eines Gebiets mit gekennzeichnetem Vorranggebiet für Windenergienutzung, Straßen, Orten und Höhenlinien.]\nVorranggebiet Windenergienutzung\nKarte 4: Festlegung des Vorranggebiets Windenergienutzung „Pattensen - Schulenburg\"\n(Auszug zeichnerische Darstellung RROP 2015)\n\nAnhang zu 4.4.3 (Gebietsblätter Windenergie), Stand Juni 2015"
+    }
+  ],
+  "full_text": "Anlage 1\nBezeichnung Potenzialfläche Pattensen-Springe 01\nStadt-/ Gemeindegebiet Pattensen und Springe\n\n4. Gesamtbeurteilung nach Abwägung relevanter Belange und gebietsbezogener\nUmweltprüfung\n\n[Karte eines Gebiets mit gekennzeichnetem Vorranggebiet für Windenergienutzung, Straßen, Orten und Höhenlinien.]\nVorranggebiet Windenergienutzung\nKarte 4: Festlegung des Vorranggebiets Windenergienutzung „Pattensen - Schulenburg\"\n(Auszug zeichnerische Darstellung RROP 2015)\n\nAnhang zu 4.4.3 (Gebietsblätter Windenergie), Stand Juni 2015",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:14:43.513Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 164
+  }
 }

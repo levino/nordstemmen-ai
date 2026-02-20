@@ -1,8 +1,18 @@
 {
   "file_hash": "cae06fe5003a301c46ac1c5ee42c5b0b48b6df20de2bc0a405f6aed5ca2fe59e",
   "filename": "Protokoll_OR_Heyersum_2018_10_30_Anlage_TOP_5.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage\nTOP 5\n1. Wann soll der Rückschnitt auf dem Grünstreifen zwischen Bolzplatz und Grundstück\nOststraße 18 erfolgen?\n2. Buche und Wildkirsche bitte zurückschneiden\n• bis auf Grundstücksgrenze Oststraße 18\n• Kronen bitte einkürzen bis unterhalb der Apfelbäume auf Grundstück\nOststraße 18\n3. Weidenkätzchen, Holunder, Schlehe bitte moderat kürzen, bitte mindestens\n3-4 Meter stehen lassen. Weide evt. mehr\n4. Zurückgeschnittenen und neu ausgetriebenen Holunder und Wildrose hinter\nGrundstück Heinrich bitte weiter wachsen lassen\n5. Kann auf der „Blumenwiese\" eine Streuobstwiese mit „Obsthochstämmen\"\nangelegt werden?\nObst ist wichtig für Schmetterlinge, Igel, Wildbienen, Fledermäuse\n6. Kosten für Obstbaumbeschaffung können verringert werden durch „Antrag\nBingostiftung\", „Hochzeitswald wie in Rössing\", andere Spender"
+    }
+  ],
+  "full_text": "Anlage\nTOP 5\n1. Wann soll der Rückschnitt auf dem Grünstreifen zwischen Bolzplatz und Grundstück\nOststraße 18 erfolgen?\n2. Buche und Wildkirsche bitte zurückschneiden\n• bis auf Grundstücksgrenze Oststraße 18\n• Kronen bitte einkürzen bis unterhalb der Apfelbäume auf Grundstück\nOststraße 18\n3. Weidenkätzchen, Holunder, Schlehe bitte moderat kürzen, bitte mindestens\n3-4 Meter stehen lassen. Weide evt. mehr\n4. Zurückgeschnittenen und neu ausgetriebenen Holunder und Wildrose hinter\nGrundstück Heinrich bitte weiter wachsen lassen\n5. Kann auf der „Blumenwiese\" eine Streuobstwiese mit „Obsthochstämmen\"\nangelegt werden?\nObst ist wichtig für Schmetterlinge, Igel, Wildbienen, Fledermäuse\n6. Kosten für Obstbaumbeschaffung können verringert werden durch „Antrag\nBingostiftung\", „Hochzeitswald wie in Rössing\", andere Spender",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:24.922Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 246
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "a21cc335a9ecd10209c9c469d831b38e511557cada4d1b3f957d9b67b847a61d",
   "filename": "Ortsrat_Burgstemmen_16.02.2017_18-00_Uhr.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "OK Burg stemmen 16. 02. 2017 10P +\nAnlage 1\n[Luftbildaufnahme mit Markierungen und einem Textfeld, die einen Weg, umliegende Bebauung und ein Gewässer zeigt.]\nDer Weg hätte ca. 80m² und würde in Asphalt ca. 6664€ brutto betragen. Ob dieser dort gebaut werden darf, muß geklärt werden. Hickmann\n1:300\n©2016 LGLN\nHintergrund: Auszug aus den Geobasisdaten der LGLN"
+    }
+  ],
+  "full_text": "OK Burg stemmen 16. 02. 2017 10P +\nAnlage 1\n[Luftbildaufnahme mit Markierungen und einem Textfeld, die einen Weg, umliegende Bebauung und ein Gewässer zeigt.]\nDer Weg hätte ca. 80m² und würde in Asphalt ca. 6664€ brutto betragen. Ob dieser dort gebaut werden darf, muß geklärt werden. Hickmann\n1:300\n©2016 LGLN\nHintergrund: Auszug aus den Geobasisdaten der LGLN",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:59:55.485Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 138
+  }
 }

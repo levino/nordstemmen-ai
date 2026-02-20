@@ -1,8 +1,18 @@
 {
   "file_hash": "329e468fafe2332be361d48e7a1cd71771990444180084254026cea521f013e0",
   "filename": "DS_140_2017_Anlage_Kartenausschnitt.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Ein Lageplan oder Kartenausschnitt, der ein Wohngebiet mit Straßen und Gebäudeparcellen zeigt. Eine Parzelle ist grün umrandet und als \"Spielplatz\" gekennzeichnet. Mehrere Straßen sind benannt. Es gibt eine handschriftliche Notiz in der oberen rechten Ecke.]\nAnlage\nzu DS 140/201"
+    }
+  ],
+  "full_text": "[Ein Lageplan oder Kartenausschnitt, der ein Wohngebiet mit Straßen und Gebäudeparcellen zeigt. Eine Parzelle ist grün umrandet und als \"Spielplatz\" gekennzeichnet. Mehrere Straßen sind benannt. Es gibt eine handschriftliche Notiz in der oberen rechten Ecke.]\nAnlage\nzu DS 140/201",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:36:05.319Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 82
+  }
 }

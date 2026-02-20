@@ -1,8 +1,18 @@
 {
   "file_hash": "e30f9b311d801f3bcb50a6bf93f3b38badd6bd17ee3ddadfb2dd4648a17c33b9",
   "filename": "Anlage_4_Gebuehren_der_umliegenden_Kommunen.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Gebühren Schmutzwasser / Niederschlagswasser der umliegenden Kommunen\nStand: 28.02.2018\n\n| Kommune | Kreis / Region | pro m³ SW | pro m² RW | Grundgebühr (p.a.) | Hinweise |\n| :-------------------------------- | :------------- | :-------- | :-------- | :---------------- | :------------------------------- |\n| Alfeld | Hildesheim | 2,22 € | 0,31 € | ohne | |\n| Algermissen | Hildesheim | 3,20 € | 0,42 € | 120,00 € | Wasserverband Peine |\n| Bad Salzdetfurth | Hildesheim | 3,67 € | * | ohne | Abwasserverband Alme-Riehe |\n| Bockenem | Hildesheim | 2,81 € | 0,42 € | 84,00 € | |\n| Diekholzen | Hildesheim | 2,20 € | * | ohne | |\n| Elze | Hildesheim | 3,30 € | 0,27 € | 96,00 € | Wasserverband Peine |\n| Freden | Hildesheim | 2,50 € | 0,30 € | 96,00 € | Wasserverband Peine |\n| Giesen | Hildesheim | 3,00 € | 0,23 € | 96,00 € | |\n| Harsum | Hildesheim | 2,48 € | 0,27 € | ohne | |\n| Hildesheim | kreisfrei | 1,97 € | 0,57 € | ohne | |\n| Holle | Hildesheim | 3,00 € | 0,17 € | 60,00 € | Wasserverband Peine |\n| Lamspringe | Hildesheim | 3,67 € | * | ohne | Abwasserverband Alme-Riehe |\n| Leinebergland (alte Gem. Gronau) | Hildesheim | 2,74 € | 0,25 € | ohne | |\n| Leinebergland (Duingen) | Hildesheim | 4,20 € | * | 76,80 € | |\n| Nordstemmen | Hildesheim | 3,20 € | 0,35 € | ohne | |\n| Sarstedt | Hildesheim | 1,49 € | 0,17 € | ohne | |\n| Schellerten | Hildesheim | 3,45 € | * | 60,00 € | |\n| Sibbesse | Hildesheim | 3,67 € | * | ohne | Abwasserverband Alme-Riehe |\n| Söhlde | Hildesheim | 3,40 € | 0,30 € | 96,00 € | Wasserverband Peine |\n\n* = Noch keine Gebührentrennung durchgeführt\n\nAnlage 4"
+    }
+  ],
+  "full_text": "Gebühren Schmutzwasser / Niederschlagswasser der umliegenden Kommunen\nStand: 28.02.2018\n\n| Kommune | Kreis / Region | pro m³ SW | pro m² RW | Grundgebühr (p.a.) | Hinweise |\n| :-------------------------------- | :------------- | :-------- | :-------- | :---------------- | :------------------------------- |\n| Alfeld | Hildesheim | 2,22 € | 0,31 € | ohne | |\n| Algermissen | Hildesheim | 3,20 € | 0,42 € | 120,00 € | Wasserverband Peine |\n| Bad Salzdetfurth | Hildesheim | 3,67 € | * | ohne | Abwasserverband Alme-Riehe |\n| Bockenem | Hildesheim | 2,81 € | 0,42 € | 84,00 € | |\n| Diekholzen | Hildesheim | 2,20 € | * | ohne | |\n| Elze | Hildesheim | 3,30 € | 0,27 € | 96,00 € | Wasserverband Peine |\n| Freden | Hildesheim | 2,50 € | 0,30 € | 96,00 € | Wasserverband Peine |\n| Giesen | Hildesheim | 3,00 € | 0,23 € | 96,00 € | |\n| Harsum | Hildesheim | 2,48 € | 0,27 € | ohne | |\n| Hildesheim | kreisfrei | 1,97 € | 0,57 € | ohne | |\n| Holle | Hildesheim | 3,00 € | 0,17 € | 60,00 € | Wasserverband Peine |\n| Lamspringe | Hildesheim | 3,67 € | * | ohne | Abwasserverband Alme-Riehe |\n| Leinebergland (alte Gem. Gronau) | Hildesheim | 2,74 € | 0,25 € | ohne | |\n| Leinebergland (Duingen) | Hildesheim | 4,20 € | * | 76,80 € | |\n| Nordstemmen | Hildesheim | 3,20 € | 0,35 € | ohne | |\n| Sarstedt | Hildesheim | 1,49 € | 0,17 € | ohne | |\n| Schellerten | Hildesheim | 3,45 € | * | 60,00 € | |\n| Sibbesse | Hildesheim | 3,67 € | * | ohne | Abwasserverband Alme-Riehe |\n| Söhlde | Hildesheim | 3,40 € | 0,30 € | 96,00 € | Wasserverband Peine |\n\n* = Noch keine Gebührentrennung durchgeführt\n\nAnlage 4",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:02:29.808Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 699
+  }
 }

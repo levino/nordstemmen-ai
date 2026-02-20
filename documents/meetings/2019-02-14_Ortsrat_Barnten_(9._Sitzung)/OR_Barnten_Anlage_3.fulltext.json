@@ -1,8 +1,18 @@
 {
   "file_hash": "6d81a59d526e8e44b6638f831cd925bf8f7976ff70179d068a5f468fdb087c9e",
   "filename": "OR_Barnten_Anlage_3.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "muge\nProtokoll OR Baruten, 14.07.\nOrtsrat Barnten\n19. Januar 2019\n\nVorschlag: Vergabe Ortsratsmittel für das Jahr 2019\n\nHaushaltsrest 2018                                                      €    43,41\nOrtsratsmittel 2019                                                    € 2786,50\n                                                                       =€ 2829,91\n\nVerfügungsmittel Ortsbürgermeister für Präsente\n(31 x Sträuße, 3 x Präsentkorb)                                          € 460,00\n                                                                       =€ 2369,91\n\nHeimatstube                                                            €   120,00\nOrtsheimatpfleger                                                      €   150,00\nKranz für Volkstrauertag                                               €    80,00\nZuschuss, für Pokale, beim Schießen um die Bürgerkönige (XX)           €   100,00\nAdventfeier OR/AWO/DRK/SoVD/Kirchengemeinde                            €   100,00\nChorgemeinschaft singen am Volkstrauertag (XX)                         €    40,00\nFFW Musikzug Rössing für Volkstrauertag (XX)                           €   100,00\nMTV Germania Zuschuss für DGH                                          €   300.00\nUmwelttag                                                              €   100,00\nVerabschiedung Frau Wendt (XX)                                         €    25,00\nZuschuss Dorfpflege                                                    €   300,00\nZuschuss FFW für diverse Aktionen im Ort (XX)                          €   200,00\n\nAusgaben gesamt:                                                       =€ 1615,00\n\nHaushaltsrest                                                          =€   754,91\n\n(XX) = soll persönlich übergeben werden"
+    }
+  ],
+  "full_text": "muge\nProtokoll OR Baruten, 14.07.\nOrtsrat Barnten\n19. Januar 2019\n\nVorschlag: Vergabe Ortsratsmittel für das Jahr 2019\n\nHaushaltsrest 2018                                                      €    43,41\nOrtsratsmittel 2019                                                    € 2786,50\n                                                                       =€ 2829,91\n\nVerfügungsmittel Ortsbürgermeister für Präsente\n(31 x Sträuße, 3 x Präsentkorb)                                          € 460,00\n                                                                       =€ 2369,91\n\nHeimatstube                                                            €   120,00\nOrtsheimatpfleger                                                      €   150,00\nKranz für Volkstrauertag                                               €    80,00\nZuschuss, für Pokale, beim Schießen um die Bürgerkönige (XX)           €   100,00\nAdventfeier OR/AWO/DRK/SoVD/Kirchengemeinde                            €   100,00\nChorgemeinschaft singen am Volkstrauertag (XX)                         €    40,00\nFFW Musikzug Rössing für Volkstrauertag (XX)                           €   100,00\nMTV Germania Zuschuss für DGH                                          €   300.00\nUmwelttag                                                              €   100,00\nVerabschiedung Frau Wendt (XX)                                         €    25,00\nZuschuss Dorfpflege                                                    €   300,00\nZuschuss FFW für diverse Aktionen im Ort (XX)                          €   200,00\n\nAusgaben gesamt:                                                       =€ 1615,00\n\nHaushaltsrest                                                          =€   754,91\n\n(XX) = soll persönlich übergeben werden",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:44.889Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 459
+  }
 }

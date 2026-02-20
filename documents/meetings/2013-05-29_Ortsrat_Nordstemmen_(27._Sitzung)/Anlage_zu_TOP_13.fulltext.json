@@ -1,8 +1,18 @@
 {
   "file_hash": "bc55d315c19f3f6d29e08ec336c24582b9bef7ed16006141c4febba4ee3431fe",
   "filename": "Anlage_zu_TOP_13.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Katasterplan/Flurkarte mit Grundstücksgrenzen und Flurnamen]\nAnlage 1\nOR poldste momen"
+    }
+  ],
+  "full_text": "[Katasterplan/Flurkarte mit Grundstücksgrenzen und Flurnamen]\nAnlage 1\nOR poldste momen",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:47:51.667Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 35
+  }
 }

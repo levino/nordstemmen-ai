@@ -1,8 +1,18 @@
 {
   "file_hash": "2d06c046866ceed1559b7ee5ee241f15dff9e883bf4a6eec735699ff6cbf728d",
   "filename": "Anlage_zur_Beschlussvorlage_DS_8-2009_1._Ergaenzung.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Stand: 24.02.2009\n\nEntwicklung der Sollfehlbeträge und strukturellen Fehlbeträge bis Ende 2012\n\n| | HH-Jahr 2005 | HH-Jahr 2006 | HH-Jahr 2007 | HH-Jahr 2008 | HH-Jahr 2009 | HH-Jahr 2010 | HH-Jahr 2011 | HH-Jahr 2012 |\n| :-------------------------------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- |\n| Einnahmen Verwaltungshaushalt     | 13.948.669   | 13.701.031   | 14.815.401   | 16.005.800   | 20.474.900   | 20.879.000   | 21.097.800   | 21.140.100   |\n| Ausgaben Verwaltungshaushalt      | 16.886.665   | 17.132.346   | 17.914.537   | 18.731.300   | 22.650.400   | 21.934.000   | 20.767.000   | 19.714.200   |\n| Sollfehlbeträge                   | -2.937.996   | -3.431.315   | -3.099.136   | -2.725.500   | -2.175.500   | -1.055.000   | 330.800<br>Investitions-rate | 1.425.900<br>Investitions-rate |\n| Strukturelle Fehlbeträge          | -266.032     | -493.319     |              |              |              |              |              |              |\n| Überschüsse                       |              |              | 332.179      | 373.636      | 550.000      | 1.120.500    | 1.330.000    | 1.425.900    |\n\nAnlage 1\nzur Drucksache 8/2009,\n1. Ergänzung"
+    }
+  ],
+  "full_text": "Stand: 24.02.2009\n\nEntwicklung der Sollfehlbeträge und strukturellen Fehlbeträge bis Ende 2012\n\n| | HH-Jahr 2005 | HH-Jahr 2006 | HH-Jahr 2007 | HH-Jahr 2008 | HH-Jahr 2009 | HH-Jahr 2010 | HH-Jahr 2011 | HH-Jahr 2012 |\n| :-------------------------------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- |\n| Einnahmen Verwaltungshaushalt     | 13.948.669   | 13.701.031   | 14.815.401   | 16.005.800   | 20.474.900   | 20.879.000   | 21.097.800   | 21.140.100   |\n| Ausgaben Verwaltungshaushalt      | 16.886.665   | 17.132.346   | 17.914.537   | 18.731.300   | 22.650.400   | 21.934.000   | 20.767.000   | 19.714.200   |\n| Sollfehlbeträge                   | -2.937.996   | -3.431.315   | -3.099.136   | -2.725.500   | -2.175.500   | -1.055.000   | 330.800<br>Investitions-rate | 1.425.900<br>Investitions-rate |\n| Strukturelle Fehlbeträge          | -266.032     | -493.319     |              |              |              |              |              |              |\n| Überschüsse                       |              |              | 332.179      | 373.636      | 550.000      | 1.120.500    | 1.330.000    | 1.425.900    |\n\nAnlage 1\nzur Drucksache 8/2009,\n1. Ergänzung",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:22:36.285Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 632
+  }
 }

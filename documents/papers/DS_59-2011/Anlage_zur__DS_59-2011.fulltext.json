@@ -1,8 +1,18 @@
 {
   "file_hash": "72026cb84b56e5a9c1f2f572cfddd6b4a7ffab17fee3158aa8e5f2c4f4502936",
   "filename": "Anlage_zur__DS_59-2011.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Bebauungsplanentwurf für die Ortschaft Nordstemmen, der bestehende Gebäude, geplante Wohnbebauung, ein Marktgebäude, Straßen, Stellplätze, Grünflächen und Regenrückhaltebecken zeigt.]\nORTSCHAFT NORDSTEMMEN\nBEBAUUNGSENTWURF\nZUR 1. ÄNDERUNG DES BEBAUUNGSPLANES\nNR. 0118 „HAUPTSTRASSE-MITTE II\"\nUND ZUR 7. ÄNDERUNG DES BEBAUUNGSPLANES\nNR. 0103 A „SCHRATFELD\"\nPlanungsbüro SRL Weber • Spinozastraße 1 • 30625 Hannover"
+    }
+  ],
+  "full_text": "[Bebauungsplanentwurf für die Ortschaft Nordstemmen, der bestehende Gebäude, geplante Wohnbebauung, ein Marktgebäude, Straßen, Stellplätze, Grünflächen und Regenrückhaltebecken zeigt.]\nORTSCHAFT NORDSTEMMEN\nBEBAUUNGSENTWURF\nZUR 1. ÄNDERUNG DES BEBAUUNGSPLANES\nNR. 0118 „HAUPTSTRASSE-MITTE II\"\nUND ZUR 7. ÄNDERUNG DES BEBAUUNGSPLANES\nNR. 0103 A „SCHRATFELD\"\nPlanungsbüro SRL Weber • Spinozastraße 1 • 30625 Hannover",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:12:04.643Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 164
+  }
 }

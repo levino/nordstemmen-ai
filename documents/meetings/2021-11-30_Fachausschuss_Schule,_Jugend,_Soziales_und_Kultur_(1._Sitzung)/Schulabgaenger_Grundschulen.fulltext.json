@@ -1,8 +1,18 @@
 {
   "file_hash": "a0f9fd2f8111437eadda37c367a5d0743b7d862ab555b8958191c09b479251ff",
   "filename": "Schulabgaenger_Grundschulen.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Schulabgänger Grundschulen 31.07.2020 und die vorraussichtlich weiterf. Schulen\n\nAlbert Schweitzer Schule\nAlbertus-Magnus Schule\nCJD Elze\nGymnasium Andreanum\nGymnasium Himmelsthür\nGymnasium Josephinum\nGymnasium Marienschule\nGymnasium Michelsenschule\nKGS Gronau\nKGS Pattensen\nMarienbergschule Nordstemmen\nRobert-Bosch-Gesamtschule\nRealschule Himmelsthür\n1\n1\n11\n2\n12\n4\n4\n8\n24\n3\n31\n1\n1\n102\n\nGS Adensen:\nCJD Gymnasium\nCJD Realschule\nGymnasium Alfeld\nGymnasium Himmelsthür\nGymnasium Michelsenschule\nErich Kästner Gymnasium\nFreie Schule Weserbergland\nGymnasium Sarstedt\nKGS Pattensen\nKGs Gronau\n2\n6\n1\n2\n2\n1\n1\n1\n4\n1\n21"
+    }
+  ],
+  "full_text": "Schulabgänger Grundschulen 31.07.2020 und die vorraussichtlich weiterf. Schulen\n\nAlbert Schweitzer Schule\nAlbertus-Magnus Schule\nCJD Elze\nGymnasium Andreanum\nGymnasium Himmelsthür\nGymnasium Josephinum\nGymnasium Marienschule\nGymnasium Michelsenschule\nKGS Gronau\nKGS Pattensen\nMarienbergschule Nordstemmen\nRobert-Bosch-Gesamtschule\nRealschule Himmelsthür\n1\n1\n11\n2\n12\n4\n4\n8\n24\n3\n31\n1\n1\n102\n\nGS Adensen:\nCJD Gymnasium\nCJD Realschule\nGymnasium Alfeld\nGymnasium Himmelsthür\nGymnasium Michelsenschule\nErich Kästner Gymnasium\nFreie Schule Weserbergland\nGymnasium Sarstedt\nKGS Pattensen\nKGs Gronau\n2\n6\n1\n2\n2\n1\n1\n1\n4\n1\n21",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:32.634Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 239
+  }
 }

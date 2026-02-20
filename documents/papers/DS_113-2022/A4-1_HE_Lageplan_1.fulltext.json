@@ -1,8 +1,18 @@
 {
   "file_hash": "004cada78e5357af05dbae5b450883f9da733c566a411fd730dc9b5ac8e45d45",
   "filename": "A4-1_HE_Lageplan_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Lageplan zeigt die Erweiterung eines Kindergartens mit Bestandsgebäuden, Anbau, Freiflächen für Kita und Krippe, sowie Maßen und Erschließung.]\nKita Heyersum\n\nLEGENDE\nBESTAND\nABBRUCH\nNEUBAU\n\nPETER APPEL\nARCHITEKT\nDIPL.-ING. PETER APPEL\nHAFERKAMP 10\n31171 NORDSTEMMEN\n05069/964 84\n05069/964 86\ninfo@appel-architektur.de\nwww.appel-architektur.de\n\n| | |\n| :------------- | :--------------------------------------- |\n| BAUVORHABEN: | Erweiterung der Kidergärten Nordstemmen |\n| OBJEKT: | Am Schmiedekamp 1 |\n| | 31171 Nordstemmen/OT Heyersum |\n| BAUHERR/IN: | Gemeinde Nordstemmen |\n| EIGENTÜMER/IN: | Rathausstraße 3 |\n| | 31171 Nordstemmen |\n| BAUTEIL: | Lageplan |\n| | Variante 1 |\n| | Vorentwurf |\n| GEBÄUDETEIL: | |\n\nMABSTAB:\nM 1:500\n\n| DATUM: | BEARBEITER: | BAUHERR/IN: | ARCHITEKT: | PLAN-NR: |\n| :----------- | :------------ | :---------- | :--------- | :------------ |\n| 14.11.2022 | J.-P. Schäfer | | | - 1.0 V/a - |\n\nCOSL400 10 10.21\n11.. 0001"
+    }
+  ],
+  "full_text": "[Lageplan zeigt die Erweiterung eines Kindergartens mit Bestandsgebäuden, Anbau, Freiflächen für Kita und Krippe, sowie Maßen und Erschließung.]\nKita Heyersum\n\nLEGENDE\nBESTAND\nABBRUCH\nNEUBAU\n\nPETER APPEL\nARCHITEKT\nDIPL.-ING. PETER APPEL\nHAFERKAMP 10\n31171 NORDSTEMMEN\n05069/964 84\n05069/964 86\ninfo@appel-architektur.de\nwww.appel-architektur.de\n\n| | |\n| :------------- | :--------------------------------------- |\n| BAUVORHABEN: | Erweiterung der Kidergärten Nordstemmen |\n| OBJEKT: | Am Schmiedekamp 1 |\n| | 31171 Nordstemmen/OT Heyersum |\n| BAUHERR/IN: | Gemeinde Nordstemmen |\n| EIGENTÜMER/IN: | Rathausstraße 3 |\n| | 31171 Nordstemmen |\n| BAUTEIL: | Lageplan |\n| | Variante 1 |\n| | Vorentwurf |\n| GEBÄUDETEIL: | |\n\nMABSTAB:\nM 1:500\n\n| DATUM: | BEARBEITER: | BAUHERR/IN: | ARCHITEKT: | PLAN-NR: |\n| :----------- | :------------ | :---------- | :--------- | :------------ |\n| 14.11.2022 | J.-P. Schäfer | | | - 1.0 V/a - |\n\nCOSL400 10 10.21\n11.. 0001",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:33:14.283Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 410
+  }
 }

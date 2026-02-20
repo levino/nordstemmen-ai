@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "| Anlage 3\n105\n\n7\n\nrr\nPhir\n\n200623 AL F rel)\nPflock OA\n\n00609\nflock\n\ni\nwage\n\nRegion\n"
+      "text": "[Plan eines Straßenabschnitts mit Fluss, angrenzenden Flurstücken und Referenzpunkten.]\nAnlage 3"
     }
   ],
-  "full_text": "| Anlage 3\n105\n\n7\n\nrr\nPhir\n\n200623 AL F rel)\nPflock OA\n\n00609\nflock\n\ni\nwage\n\nRegion\n"
+  "full_text": "[Plan eines Straßenabschnitts mit Fluss, angrenzenden Flurstücken und Referenzpunkten.]\nAnlage 3",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:57:51.354Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 33
+  }
 }

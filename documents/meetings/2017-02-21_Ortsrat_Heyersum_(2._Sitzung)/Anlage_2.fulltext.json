@@ -1,8 +1,18 @@
 {
   "file_hash": "a5eb8fe458339c171220c812340cc523134aa3ccdb6b79ac244df8ce42396ff3",
   "filename": "Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "FB 3\nAz: 11104/11.01.60/ Heyersum\n29.11.2016\n\nOrtsratssitzung Heyersum 03.11.2016;\nAnfrage von Frau Kaufmann\n\nAntrag auf eine Straßenbeleuchtung im Bereich Oststraße/Am Schmiedekamp\nÖffentlicher Bereich Sporthallte/ Feuerwehr/ Kindergarten\n\nEine Ortsbesichtigung bei Dunkelheit am 24.11.2016 hat ergeben, dass der Bereich zwar nicht\noptimal ausgeleuchtet ist, aber es herrscht auch nirgendwo „totale Finsternis“.\n\nZurzeit sind in der Straße „Am Schmiedekamp\", bis auf die Leuchte unmittelbar am\nHalleneingang, keine LED installiert. Das Licht der vorhandenen Beleuchtung ist zwar\nschwächer als LED, dafür ist der Abgrenzung des ausgeleuchteten Bereichs nicht so scharf.\n\nIm Zuge der weiteren Umrüstung auf LED soll die Leuchte in der Straße „Am Schmiedekamp\",\nHöhe Grundstück Tödter, gegen eine LED-Leuchte ausgetauscht werden. Diese wird dann\nheller sein, als die jetzt vorhandene. Ob dies eine Verbesserung bedeutet oder ob die Nachteile\nüberwiegen (weniger Streuung), wird dann geprüft. Vom Ergebnis wird das weitere Vorgehen\nabhängig gemacht.\n\ngez. Finke"
+    }
+  ],
+  "full_text": "FB 3\nAz: 11104/11.01.60/ Heyersum\n29.11.2016\n\nOrtsratssitzung Heyersum 03.11.2016;\nAnfrage von Frau Kaufmann\n\nAntrag auf eine Straßenbeleuchtung im Bereich Oststraße/Am Schmiedekamp\nÖffentlicher Bereich Sporthallte/ Feuerwehr/ Kindergarten\n\nEine Ortsbesichtigung bei Dunkelheit am 24.11.2016 hat ergeben, dass der Bereich zwar nicht\noptimal ausgeleuchtet ist, aber es herrscht auch nirgendwo „totale Finsternis“.\n\nZurzeit sind in der Straße „Am Schmiedekamp\", bis auf die Leuchte unmittelbar am\nHalleneingang, keine LED installiert. Das Licht der vorhandenen Beleuchtung ist zwar\nschwächer als LED, dafür ist der Abgrenzung des ausgeleuchteten Bereichs nicht so scharf.\n\nIm Zuge der weiteren Umrüstung auf LED soll die Leuchte in der Straße „Am Schmiedekamp\",\nHöhe Grundstück Tödter, gegen eine LED-Leuchte ausgetauscht werden. Diese wird dann\nheller sein, als die jetzt vorhandene. Ob dies eine Verbesserung bedeutet oder ob die Nachteile\nüberwiegen (weniger Streuung), wird dann geprüft. Vom Ergebnis wird das weitere Vorgehen\nabhängig gemacht.\n\ngez. Finke",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:59:49.191Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 322
+  }
 }

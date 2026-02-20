@@ -1,8 +1,18 @@
 {
   "file_hash": "4f762fa0ed6d840d9887441b6bfb6fd032a339e0936421c6bf6c67aa2bfd348c",
   "filename": "Protokoll_FA_PBU_2018_09_13_Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Planungsübersicht eines Bebauungsplans mit Flächennutzung, Parzellierung und Legende]\nAnlage 1\n\nProjekt\nB-Plan Nr. 0307 'Barnten Süd IV' Kirchfeld\nVorentwurf\nÜbersichtsplan mit Variante 5a\n\nAuftraggeber:\nNBEG\nBaulandentwicklungsgesellschaft mbH\nNordstemmen & Co. KG\nRathausstraße 3\n31171 Nordstemmen\n\nBearbeiter:\nLandschaftsArchitekturbüro\nGeorg von Luckwald\nLandschaftsarchitekt BDLA\nStadtplaner SRL\nGut Helpensen Nr. 5, 31787 Hameln,\nTel.: 05151/67464, www.luckwald.de\n\nMaßstab:\n1:1.000\n0-4\n\nDatum\n11.09.2018\n\nGrundlage:\n-Auszug aus den Geobasisdaten der Niedersächsischen Vermessungs- und\nKatasterverwaltung, www.lgin.de LGLN"
+    }
+  ],
+  "full_text": "[Planungsübersicht eines Bebauungsplans mit Flächennutzung, Parzellierung und Legende]\nAnlage 1\n\nProjekt\nB-Plan Nr. 0307 'Barnten Süd IV' Kirchfeld\nVorentwurf\nÜbersichtsplan mit Variante 5a\n\nAuftraggeber:\nNBEG\nBaulandentwicklungsgesellschaft mbH\nNordstemmen & Co. KG\nRathausstraße 3\n31171 Nordstemmen\n\nBearbeiter:\nLandschaftsArchitekturbüro\nGeorg von Luckwald\nLandschaftsarchitekt BDLA\nStadtplaner SRL\nGut Helpensen Nr. 5, 31787 Hameln,\nTel.: 05151/67464, www.luckwald.de\n\nMaßstab:\n1:1.000\n0-4\n\nDatum\n11.09.2018\n\nGrundlage:\n-Auszug aus den Geobasisdaten der Niedersächsischen Vermessungs- und\nKatasterverwaltung, www.lgin.de LGLN",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:26.393Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 251
+  }
 }

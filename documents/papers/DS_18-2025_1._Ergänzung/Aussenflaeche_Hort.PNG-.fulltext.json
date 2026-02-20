@@ -1,8 +1,18 @@
 {
   "file_hash": "8d152edc0cab0e72c86ee234261ba2964e29fc75fcef33f5a88d83f67319570b",
   "filename": "Aussenflaeche_Hort.PNG-.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Kartenausschnitt einer digitalen Flurkarte mit einer Anwendungsoberfläche für Skizzen und Messungen.]\n\nIm Schlingen, 18, Nordstemmen X Q\n\nSkizzieren und Messen\nSkizze zeichnen Skizzen-Liste\n\nPolygon zeichnen\nBeschriften\nAußenfläche Hortgebäude Adensen\n☑ Text merken\n\nMaße (letzte Skizze)\nFläche: 160,18 m²\nUmfang: 58,72 m\nAktuelle Segmentlänge: 0,00 m\n\n1:100\n(c) Fachdaten: LK Hildesheim\nLGLN und Landkreis Hildesheim"
+    }
+  ],
+  "full_text": "[Kartenausschnitt einer digitalen Flurkarte mit einer Anwendungsoberfläche für Skizzen und Messungen.]\n\nIm Schlingen, 18, Nordstemmen X Q\n\nSkizzieren und Messen\nSkizze zeichnen Skizzen-Liste\n\nPolygon zeichnen\nBeschriften\nAußenfläche Hortgebäude Adensen\n☑ Text merken\n\nMaße (letzte Skizze)\nFläche: 160,18 m²\nUmfang: 58,72 m\nAktuelle Segmentlänge: 0,00 m\n\n1:100\n(c) Fachdaten: LK Hildesheim\nLGLN und Landkreis Hildesheim",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:41:53.380Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 155
+  }
 }

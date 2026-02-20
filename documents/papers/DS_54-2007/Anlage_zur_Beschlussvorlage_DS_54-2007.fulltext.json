@@ -4,8 +4,19 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage 2"
+      "text": "Planzeichenerklärung\nAnlage 2\n\n1. Art der baulichen Nutzung\nWA\nAllgemeine Wohngebiete\n\n2. Maß der baulichen Nutzung\n1,2\nGeschoßflächenzahl\n\n0,4\nGrundflächenzahl\n\nz.B. TH 92 m\nTraufhöhe als Höchstmaß\nüber Normal Null (NN)\n\nz.B. FH 94 m\nFirsthöhe als Höchstmaß\nüber Normal Null (NN)\n\n3. Bauweise, Baulinien, Baugrenzen\n\nBaugrenze\n\nüberbaubare Fläche\n\nnicht überbaubare Fläche\n\n4. Verkehrsflächen\n\nFuß- und Radweg\n\n5. Öffentliche Grünflächen\n\nParkanlage\n\n6. Sonstige Planzeichen\n\nGrenze des räumlichen\nGeltungsbereichs der 2. Änderung\nBebauungsplans"
+    },
+    {
+      "page": 2,
+      "text": "[Eine Karte, die einen Bebauungsplan für einen Teil einer Siedlung zeigt, mit Parzellen, Straßen, Gebäuden, Grünflächen und spezifischen Bebauungsvorgaben.]\n0 10 20 30 40 50 100 m"
     }
   ],
-  "full_text": "Anlage 2"
+  "full_text": "Planzeichenerklärung\nAnlage 2\n\n1. Art der baulichen Nutzung\nWA\nAllgemeine Wohngebiete\n\n2. Maß der baulichen Nutzung\n1,2\nGeschoßflächenzahl\n\n0,4\nGrundflächenzahl\n\nz.B. TH 92 m\nTraufhöhe als Höchstmaß\nüber Normal Null (NN)\n\nz.B. FH 94 m\nFirsthöhe als Höchstmaß\nüber Normal Null (NN)\n\n3. Bauweise, Baulinien, Baugrenzen\n\nBaugrenze\n\nüberbaubare Fläche\n\nnicht überbaubare Fläche\n\n4. Verkehrsflächen\n\nFuß- und Radweg\n\n5. Öffentliche Grünflächen\n\nParkanlage\n\n6. Sonstige Planzeichen\n\nGrenze des räumlichen\nGeltungsbereichs der 2. Änderung\nBebauungsplans\n\n[Eine Karte, die einen Bebauungsplan für einen Teil einer Siedlung zeigt, mit Parzellen, Straßen, Gebäuden, Grünflächen und spezifischen Bebauungsvorgaben.]\n0 10 20 30 40 50 100 m",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:08:52.829Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 263
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "aed36a080c87f18f0630c4d00590778a45931c30ffdba57dbd7544329aa3fef4",
   "filename": "DS_104_2017_Anlage.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 1 zur\nDS 104/2017\nunmaßstäblich\n\n[Lageplan zur Umgestaltung von Bushaltestellen mit Gehweg, Bepflanzung und Wartehäuschen.]\n\nKartentitel: Umgestaltung Bushaltestellen \"Nordstraße\" in Burgstemmen\nPlanvermerk: Lageplan\nMaßstab: 1:250\nPlanungsbüro: H&P INGENIEURE GbR\n\nGEAND./DATUM NAME ART DER ÄNDERUNG/ERGÄNZUNG\nHP H&P INGENIEURE GbR\nBeratende Ingenieure VBI für Bauwesen\nwww.hp-ingenieure de\n\nDatum Zeichen\nbearbeitet 16.05.17 Hi\ngezeichnet 16.05.17 Heu\ngeprüft:\n\nReg. Nr.:\n\nDipl.-Ing. Jochen Bess Dipl.-Ing. Gerd Schneider\nAlbert-Schweitzer-Straße1 Marktstraße 34\n29614 Soltau 30880 Laatzen\nTel.: 05191/698-0 Tel.: 0511/820 12-0\nFax: 05191/54 15 Fax: 0511/820 12-15\nSt.Nr. 23/231/20403 USt-Id-Nr. DE 172043154\n\nUnterlage 5\nBlatt Nr.: 1\nReg. Nr.:\nGemeinde Nordstemmen\n\nbearbeitet\ngezeichnet\ngeprüft\nAufgestellt:\nSoltau, den\nim Auftrage\n\nÜberprüft / Genehmigt\nden.\nim Auftrage\n\nGesehen,\nden..\nim Auftrage\n\nAU DATEN Projekte Projekte Tiefbau 17095 Bushaltestellen Nordstemmen AutoCAD 2017 LP117 05:17095 Nordstemm\nmmen Umgestaltung\nng von Bushaltestellen Nordstraße LP 51 170516.dwg"
+    }
+  ],
+  "full_text": "Anlage 1 zur\nDS 104/2017\nunmaßstäblich\n\n[Lageplan zur Umgestaltung von Bushaltestellen mit Gehweg, Bepflanzung und Wartehäuschen.]\n\nKartentitel: Umgestaltung Bushaltestellen \"Nordstraße\" in Burgstemmen\nPlanvermerk: Lageplan\nMaßstab: 1:250\nPlanungsbüro: H&P INGENIEURE GbR\n\nGEAND./DATUM NAME ART DER ÄNDERUNG/ERGÄNZUNG\nHP H&P INGENIEURE GbR\nBeratende Ingenieure VBI für Bauwesen\nwww.hp-ingenieure de\n\nDatum Zeichen\nbearbeitet 16.05.17 Hi\ngezeichnet 16.05.17 Heu\ngeprüft:\n\nReg. Nr.:\n\nDipl.-Ing. Jochen Bess Dipl.-Ing. Gerd Schneider\nAlbert-Schweitzer-Straße1 Marktstraße 34\n29614 Soltau 30880 Laatzen\nTel.: 05191/698-0 Tel.: 0511/820 12-0\nFax: 05191/54 15 Fax: 0511/820 12-15\nSt.Nr. 23/231/20403 USt-Id-Nr. DE 172043154\n\nUnterlage 5\nBlatt Nr.: 1\nReg. Nr.:\nGemeinde Nordstemmen\n\nbearbeitet\ngezeichnet\ngeprüft\nAufgestellt:\nSoltau, den\nim Auftrage\n\nÜberprüft / Genehmigt\nden.\nim Auftrage\n\nGesehen,\nden..\nim Auftrage\n\nAU DATEN Projekte Projekte Tiefbau 17095 Bushaltestellen Nordstemmen AutoCAD 2017 LP117 05:17095 Nordstemm\nmmen Umgestaltung\nng von Bushaltestellen Nordstraße LP 51 170516.dwg",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:32:06.332Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 481
+  }
 }

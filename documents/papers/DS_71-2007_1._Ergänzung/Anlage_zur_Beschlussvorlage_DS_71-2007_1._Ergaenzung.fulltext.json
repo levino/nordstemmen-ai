@@ -1,8 +1,18 @@
 {
   "file_hash": "53e0b6f7388d9fdcfe24409c6b2ae0c8c77d3ebda0d67c54cf67e2704b080198",
   "filename": "Anlage_zur_Beschlussvorlage_DS_71-2007_1._Ergaenzung.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 1\n\nEntwicklung der Sollfehlbeträge und strukturellen Fehlbeträge bis Ende 2012\n\nStand: 10.09.2007\n| | HH-Jahr 2005 | HH-Jahr 2006 | HH-Jahr 2007 | HH-Jahr 2008 | HH-Jahr 2009 | HH-Jahr 2010 | HH-Jahr 2011 | HH-Jahr 2012 |\n| :-------------------------------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- |\n| Einnahmen Verwaltungshaushalt | 13.948.669 | 13.701.031 | 15.516.600 | 15.889.700 | 15.621.800 | 15.563.900 | 15.271.100 | 15.271.100 |\n| Ausgaben Verwaltungshaushalt | 16.886.665 | 17.132.346 | 18.645.500 | 17.904.400 | 16.939.200 | 16.228.500 | 15.598.900 | 15.262.100 |\n| Sollfehlbeträge | -2.937.996 | -3.431.315 | -3.128.900 | -2.014.700 | -1.317.400 | -664.600 | -327.800 | 9.000 |\n| | | | | | | | | Investitions- rate |\n| Strukturelle Fehlbeträge Überschüsse | -266.032 | -493.319 | 302.415 | 1.114.200 | 697.300 | 652.800 | 336.800 | 336.800 |"
+    }
+  ],
+  "full_text": "Anlage 1\n\nEntwicklung der Sollfehlbeträge und strukturellen Fehlbeträge bis Ende 2012\n\nStand: 10.09.2007\n| | HH-Jahr 2005 | HH-Jahr 2006 | HH-Jahr 2007 | HH-Jahr 2008 | HH-Jahr 2009 | HH-Jahr 2010 | HH-Jahr 2011 | HH-Jahr 2012 |\n| :-------------------------------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- |\n| Einnahmen Verwaltungshaushalt | 13.948.669 | 13.701.031 | 15.516.600 | 15.889.700 | 15.621.800 | 15.563.900 | 15.271.100 | 15.271.100 |\n| Ausgaben Verwaltungshaushalt | 16.886.665 | 17.132.346 | 18.645.500 | 17.904.400 | 16.939.200 | 16.228.500 | 15.598.900 | 15.262.100 |\n| Sollfehlbeträge | -2.937.996 | -3.431.315 | -3.128.900 | -2.014.700 | -1.317.400 | -664.600 | -327.800 | 9.000 |\n| | | | | | | | | Investitions- rate |\n| Strukturelle Fehlbeträge Überschüsse | -266.032 | -493.319 | 302.415 | 1.114.200 | 697.300 | 652.800 | 336.800 | 336.800 |",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:18:39.190Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 550
+  }
 }

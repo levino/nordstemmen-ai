@@ -1,8 +1,26 @@
 {
   "file_hash": "f654ea1e930e116770cd3282c6ae9d559a076cebe7f168193f5903be5bc24861",
   "filename": "Anlage_1_bis_3_zur_DS_11-2013.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Plan einer Straßenkreuzung mit Fahrbahnmarkierungen und Höhenangaben]"
+    },
+    {
+      "page": 2,
+      "text": "[Plan eines Straßenabschnitts mit Kreuzung, Brücke und verschiedenen Einmündungen]"
+    },
+    {
+      "page": 3,
+      "text": "[Plan einer Straßenkreuzung mit Fahrbahnmarkierungen und Höhenangaben]"
+    }
+  ],
+  "full_text": "[Plan einer Straßenkreuzung mit Fahrbahnmarkierungen und Höhenangaben]\n\n[Plan eines Straßenabschnitts mit Kreuzung, Brücke und verschiedenen Einmündungen]\n\n[Plan einer Straßenkreuzung mit Fahrbahnmarkierungen und Höhenangaben]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:32:14.023Z",
+    "total_input_tokens": 1118,
+    "total_output_tokens": 72
+  }
 }

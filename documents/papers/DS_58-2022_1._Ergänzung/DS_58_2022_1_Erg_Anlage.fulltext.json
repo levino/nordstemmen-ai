@@ -1,8 +1,18 @@
 {
   "file_hash": "aa4747ffdece922274e77f0a5fc1d1c6c222937d1d33a8a4f30a9591245eddb4",
   "filename": "DS_58_2022_1_Erg_Anlage.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "DS 58/2022\nAnlage\nOrtsrat Mahlerten\nAntrag Skaterbahn\nMahlerten, den 15.02.2022\n\n## Empfänger\nGemeinde Nordstemmen\nRathausstraße 3\n31171 Nordstemmen\n\nGemeinde Nordstemmen\n1 6. Feb. 2022\nf\n\nSehr geehrte Frau Bürgermeisterin Dombrowski,\nim Namen des Ortsrates Mahlerten beantrage ich in der Gemarkung Mahlerten eine\nSkaterbahn zu errichten. Die optimale Stelle wäre unserer Meinung nach im Bereich\ndes Spielplatzes „Am Kastenborn\". Die Lage des Spielplatzes ist recht abgelegen\nvom Ort und wird so auch lärmtechnisch tolerierbar sein. Bitte stellen Sie die nötigen\nPlanungsmittel in den nächsten Haushalt ein!\nBitte schauen Sie welche Arten von Förderung es gibt, damit auch unsere kleine\nOrtschaft weiterhin attraktiv für unsere nächste Generation an Jugendlichen wird.\n\nIch bitte den Antrag auf zur Beratung an die entsprechenden Gremien weiterzuleiten.\n\n[Unterschrift]"
+    }
+  ],
+  "full_text": "DS 58/2022\nAnlage\nOrtsrat Mahlerten\nAntrag Skaterbahn\nMahlerten, den 15.02.2022\n\n## Empfänger\nGemeinde Nordstemmen\nRathausstraße 3\n31171 Nordstemmen\n\nGemeinde Nordstemmen\n1 6. Feb. 2022\nf\n\nSehr geehrte Frau Bürgermeisterin Dombrowski,\nim Namen des Ortsrates Mahlerten beantrage ich in der Gemarkung Mahlerten eine\nSkaterbahn zu errichten. Die optimale Stelle wäre unserer Meinung nach im Bereich\ndes Spielplatzes „Am Kastenborn\". Die Lage des Spielplatzes ist recht abgelegen\nvom Ort und wird so auch lärmtechnisch tolerierbar sein. Bitte stellen Sie die nötigen\nPlanungsmittel in den nächsten Haushalt ein!\nBitte schauen Sie welche Arten von Förderung es gibt, damit auch unsere kleine\nOrtschaft weiterhin attraktiv für unsere nächste Generation an Jugendlichen wird.\n\nIch bitte den Antrag auf zur Beratung an die entsprechenden Gremien weiterzuleiten.\n\n[Unterschrift]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:11:45.969Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 249
+  }
 }

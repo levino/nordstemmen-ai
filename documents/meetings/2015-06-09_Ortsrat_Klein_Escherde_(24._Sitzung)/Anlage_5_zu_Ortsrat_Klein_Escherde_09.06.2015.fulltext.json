@@ -4,12 +4,19 @@
   "pages": [
     {
       "page": 1,
-      "text": "Pflegezustand der Grünanlagen in Klein Escherde.\n\nSpielplatz Akazienstr.\n\nBlumenbeet vor der Bauernschenke\n\nTeichstr./Escherder Kirchweg\n"
+      "text": "Anlage 5\n-Seite 1-\nPflegezustand der Grünanlagen in Klein Escherde.\nSpielplatz Akazienstr.\nBlumenbeet vor der Bauernschenke\nTeichstr./Escherder Kirchweg"
     },
     {
       "page": 2,
-      "text": "Ata lage 5 - Sele 2\n\nNeu gepflanzte Eiche in der Akazienstr. Bolzplatz\n\nBlumenbeet im Neubaugebiet\n"
+      "text": "Anlage 5-Seite 2\nNeu gepflanzte Eiche in der Akazienstr.\nBolzplatz\nBlumenbeet im Neubaugebiet"
     }
   ],
-  "full_text": "Pflegezustand der Grünanlagen in Klein Escherde.\n\nSpielplatz Akazienstr.\n\nBlumenbeet vor der Bauernschenke\n\nTeichstr./Escherder Kirchweg\n\n\nAta lage 5 - Sele 2\n\nNeu gepflanzte Eiche in der Akazienstr. Bolzplatz\n\nBlumenbeet im Neubaugebiet\n"
+  "full_text": "Anlage 5\n-Seite 1-\nPflegezustand der Grünanlagen in Klein Escherde.\nSpielplatz Akazienstr.\nBlumenbeet vor der Bauernschenke\nTeichstr./Escherder Kirchweg\n\nAnlage 5-Seite 2\nNeu gepflanzte Eiche in der Akazienstr.\nBolzplatz\nBlumenbeet im Neubaugebiet",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:55:01.662Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 99
+  }
 }

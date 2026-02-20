@@ -1,8 +1,18 @@
 {
   "file_hash": "1346b576d87003c4e253b9ee7942d26db9a0c5953612b89db9a983a585bf36bf",
   "filename": "Anlage_zur_Beschlussvorlage_DS_37-2014.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Plan einer Straßenkreuzung mit detaillierter Darstellung eines Regenrückhaltebeckens, eines Entwässerungssystems (Stahlbeton-Rahmenprofile) und umliegender Flurstücke]"
+    }
+  ],
+  "full_text": "[Plan einer Straßenkreuzung mit detaillierter Darstellung eines Regenrückhaltebeckens, eines Entwässerungssystems (Stahlbeton-Rahmenprofile) und umliegender Flurstücke]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:58:06.763Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 49
+  }
 }

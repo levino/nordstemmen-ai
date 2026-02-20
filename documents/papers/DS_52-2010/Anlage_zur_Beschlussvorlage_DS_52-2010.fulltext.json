@@ -1,8 +1,22 @@
 {
   "file_hash": "cd1f7823434902c7309455f0f2f3df83a488a2b912fe0df0923ae05d86fd44ac",
   "filename": "Anlage_zur_Beschlussvorlage_DS_52-2010.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "- 4-\nAnlage 1\n[Ein Lageplan, der ein vorgeschlagenes Entwicklungsgebiet mit Abmessungen, Bebauungs- und Höhenbeschränkungen sowie bestehenden topografischen Merkmalen darstellt.]"
+    },
+    {
+      "page": 2,
+      "text": "-5-\n## PLANZEICHENERKLÄRUNG\n\n### 1. Art der baulichen Nutzung\nGI\nIndustriegebiete\nnur für Anlagen der Zuckerfabrik,\ngem. textl. Festsetzungen Nr. 1\n\n### 2. Maß der baulichen Nutzung\nGRZ 0,8\nGrundflächenzahl\nOK ... m\nmax. Höhe der Oberkante baulicher Anlagen\nüber NormalNull (NN)\n\n### 3. Bauweise, Baulinien, Baugrenzen\nBaugrenze\nüberbaubare Grundstücksfläche\nnicht überbaubare Grundstücksfläche\n\n### 4. Verkehrsflächen\nPrivate Verkehrsflächen besonderer\nZweckbestimmung:\nBetriebsweg\n\n### 5. Grünflächen\nPrivate Grünfläche\n\n### 6. Wasserflächen und Flächen für die Wasserwirtschaft, den\nHochwasserschutz und die Regelung des Wasserabflusses\nHQ\n100\nNatürliches Überschwemmungsgebiet (HQ 100)\n\n### 7. Planungen, Nutzungsregelungen, Maßnahmen und Flächen\nfür Maßnahmen zum Schutz, zur Pflege und zur Entwicklung\nvon Natur und Landschaft\nUngrenzung von Flächen für Maßnahmen zum\nSchutz, zur Pflege und zur Entwicklung von Natur\nund Landschaft\nUrngrenzung von Flächen zum Anpflanzen von\nBäumen, Sträuchern und sonstigen Bepflanzungen\n\n### 8. Sonstige Planzeichen\nz.B. (2\nGrenze des räumlichen Geltungsbereichs der 6.\nÄnderung des Bebauungsplans Nr. 0122\nAbgrenzung unterschiedlicher Nutzung, z.B. von\nBaugebieten, oder Abgrenzung des Maßes der\nNutzung innerhalb eines Baugebiets\nZuordnungsziffer zur Kennzeichnung von Flächen\noder Punkten, denen eine textliche Festsetzung\nzugeordnet ist.\n\n## LEGENDE DER PLANUNTERLAGE\nvorhandene Böschung:\nAufnahme durch ÖBVI Oldeweme\n(Stand: 14.12.2009)"
+    }
+  ],
+  "full_text": "- 4-\nAnlage 1\n[Ein Lageplan, der ein vorgeschlagenes Entwicklungsgebiet mit Abmessungen, Bebauungs- und Höhenbeschränkungen sowie bestehenden topografischen Merkmalen darstellt.]\n\n-5-\n## PLANZEICHENERKLÄRUNG\n\n### 1. Art der baulichen Nutzung\nGI\nIndustriegebiete\nnur für Anlagen der Zuckerfabrik,\ngem. textl. Festsetzungen Nr. 1\n\n### 2. Maß der baulichen Nutzung\nGRZ 0,8\nGrundflächenzahl\nOK ... m\nmax. Höhe der Oberkante baulicher Anlagen\nüber NormalNull (NN)\n\n### 3. Bauweise, Baulinien, Baugrenzen\nBaugrenze\nüberbaubare Grundstücksfläche\nnicht überbaubare Grundstücksfläche\n\n### 4. Verkehrsflächen\nPrivate Verkehrsflächen besonderer\nZweckbestimmung:\nBetriebsweg\n\n### 5. Grünflächen\nPrivate Grünfläche\n\n### 6. Wasserflächen und Flächen für die Wasserwirtschaft, den\nHochwasserschutz und die Regelung des Wasserabflusses\nHQ\n100\nNatürliches Überschwemmungsgebiet (HQ 100)\n\n### 7. Planungen, Nutzungsregelungen, Maßnahmen und Flächen\nfür Maßnahmen zum Schutz, zur Pflege und zur Entwicklung\nvon Natur und Landschaft\nUngrenzung von Flächen für Maßnahmen zum\nSchutz, zur Pflege und zur Entwicklung von Natur\nund Landschaft\nUrngrenzung von Flächen zum Anpflanzen von\nBäumen, Sträuchern und sonstigen Bepflanzungen\n\n### 8. Sonstige Planzeichen\nz.B. (2\nGrenze des räumlichen Geltungsbereichs der 6.\nÄnderung des Bebauungsplans Nr. 0122\nAbgrenzung unterschiedlicher Nutzung, z.B. von\nBaugebieten, oder Abgrenzung des Maßes der\nNutzung innerhalb eines Baugebiets\nZuordnungsziffer zur Kennzeichnung von Flächen\noder Punkten, denen eine textliche Festsetzung\nzugeordnet ist.\n\n## LEGENDE DER PLANUNTERLAGE\nvorhandene Böschung:\nAufnahme durch ÖBVI Oldeweme\n(Stand: 14.12.2009)",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:08:17.930Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 524
+  }
 }

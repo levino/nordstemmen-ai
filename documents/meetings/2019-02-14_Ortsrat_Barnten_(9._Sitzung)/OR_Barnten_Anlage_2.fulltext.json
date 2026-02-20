@@ -1,8 +1,18 @@
 {
   "file_hash": "ec1265c9a647c5701d09518e74eaf6437873c9da60eeaa2ba8e4ca3ca0335d33",
   "filename": "OR_Barnten_Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 2\nProtokoll OR Bank 14.03.1.\nInformation zur Veröffentlichung - Windkraft\n\nDer aktuelle Stand zur 21. Änderung des Flächennutzungsplanes (Windkraft) wurde dem Rat\nam 29.01.2019 in einem Arbeitsgespräch vorgestellt. Aufgrund der dargestellten Sachlage\nwurde folgendes weitere Vorgehen vereinbart:\n\nDas Verfahren wird mit der bisherigen Konzeption weitergeführt. Die nächsten\nVerfahrensschritte sind:\n\n- Erörterung der Abwägung aller eingegangenen Stellungnahmen in den nächsten\n  Gremienläufen\n- Ratsbeschluss über die Abwägung und die erneute öffentliche Auslegung wegen der\n  geänderten Situation bei den archäologischen Bodendenkmalen\n- Erneute öffentliche Auslegung. Bei dieser Auslegung kann auch nur zu diesem\n  geänderten Bereich Stellung genommen werden\n- Beratung über die eingegangenen Stellungnahmen während der erneuten\n  öffentlichen Auslegung und Feststellungsbeschluss\n- Einreichung der 21. Änderung des F-Planes zur Genehmigung beim Landkreis\n  Hildesheim."
+    }
+  ],
+  "full_text": "Anlage 2\nProtokoll OR Bank 14.03.1.\nInformation zur Veröffentlichung - Windkraft\n\nDer aktuelle Stand zur 21. Änderung des Flächennutzungsplanes (Windkraft) wurde dem Rat\nam 29.01.2019 in einem Arbeitsgespräch vorgestellt. Aufgrund der dargestellten Sachlage\nwurde folgendes weitere Vorgehen vereinbart:\n\nDas Verfahren wird mit der bisherigen Konzeption weitergeführt. Die nächsten\nVerfahrensschritte sind:\n\n- Erörterung der Abwägung aller eingegangenen Stellungnahmen in den nächsten\n  Gremienläufen\n- Ratsbeschluss über die Abwägung und die erneute öffentliche Auslegung wegen der\n  geänderten Situation bei den archäologischen Bodendenkmalen\n- Erneute öffentliche Auslegung. Bei dieser Auslegung kann auch nur zu diesem\n  geänderten Bereich Stellung genommen werden\n- Beratung über die eingegangenen Stellungnahmen während der erneuten\n  öffentlichen Auslegung und Feststellungsbeschluss\n- Einreichung der 21. Änderung des F-Planes zur Genehmigung beim Landkreis\n  Hildesheim.",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:41.629Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 256
+  }
 }

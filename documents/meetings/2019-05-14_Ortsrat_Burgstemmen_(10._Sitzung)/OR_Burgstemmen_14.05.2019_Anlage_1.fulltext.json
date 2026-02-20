@@ -1,8 +1,22 @@
 {
   "file_hash": "eb80f38c5f34e4ff8ac6bd82db7be3a12303a29f55896903c0bb2405155f44c2",
   "filename": "OR_Burgstemmen_14.05.2019_Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Aulage 1\nMona und Carsten Friedrich\nReichsstr. 35\n31171 Nordstemmen\nEmail: monafriedrich@arcor.de\nTelefon: 05069-965750\n\nAnfrage an den Ortsrat Burgstemmen\nThema: Entschärfung der \"Einflugschneisen\"\n\nBurgstemmen, 7. Mai 2019\n\nLiebe Heike, liebe Kirsten, liebe Lore und lieber Andreas,\n\nwas kann der Ortsrat tun, um die \"Einflugschneisen\" Burgstemmens zu entschärfen?\n\nUnsere Anfrage bezieht sich auf die nachstehend gelisteten und in der Anlage\ngekennzeichneten Kreuzungen in Burgstemmen:\n\nOrtseinfahrt von Osten: Kreuzung Reichsstraße-Feldstraße\nOrtseinfahrt von Norden: Kreuzung Nordstraße-Mühlenweg\nOrtseinfahrt von Süden: Kreuzung Bethelner Straße/Obere Straße\nOrtseinfahrt von Westen: Kreuzung Reichsstraße/Neuer Weg\n\nDer Gemeindevertreter äußerte bei der letzten Sitzung, dass bisher nur selten jemand zu\nSchaden gekommen sei und Gefahrenabwehrmaßnahmen daher nicht erforderlich seien.\nUnseres Erachtens sollten Kinder in einem Dorf gefahrlos alleine die Straße überqueren\nkönnen, anstatt das Elterntaxi zu nutzen bzw. von Angehörigen in den Kindergarten und zum\nSchulbus begleitet zu werden.\n\nDie Geschwindigkeit einfahrender Fahrzeuge bzw. die Gefahr beim Queren der Straßen in\nBurgstemmen ist unerträglich. Wir fragen daher:\n\nWo und wie ist die Installation von \"Holz-Kinderfiguren\" erlaubt?\nWo und wie sind Querungshilfen zu beantragen?\n\nHabt ihr zu den vergangenen Anfragen (Beteiligung Betroffener im Rahmen der\nOrtsumgehung B1 und Begrünung der Randstreifen) von der Gemeinde Antworten\nbekommen?\n\nLiebe Grüße\n\nMona und Carsten Friedrich\n\nAnlagen: Kartenausschnitt\n\nDie inhaltliche Anfrage ging ebenfalls an:\n\n- Gemeindebürgermeister Norbert Pallentin, SPD\n- Landtagsabgeordneter Volker Senftleben, SPD\n- Landtagsabgeordnete Laura Rebuschat, CDU, Wahlkreispatin für den Kreis 23"
+    },
+    {
+      "page": 2,
+      "text": "[Eine Kartendarstellung von Burgstemmen, die Straßenverläufe, Gewässer (Leine, Osterbach), und einige markante Orte wie \"Kindergarten Burgstemmen\", \"St. Michaelis-Kirche\" und \"Burgstemmer Hof UG\" zeigt. Mehrere Kreuzungen sind mit einem \"X\" markiert.]\nKartenausschnitt: Markierung der betroffenen Querungsstellen durch Kreuze\nGoogle"
+    }
+  ],
+  "full_text": "Aulage 1\nMona und Carsten Friedrich\nReichsstr. 35\n31171 Nordstemmen\nEmail: monafriedrich@arcor.de\nTelefon: 05069-965750\n\nAnfrage an den Ortsrat Burgstemmen\nThema: Entschärfung der \"Einflugschneisen\"\n\nBurgstemmen, 7. Mai 2019\n\nLiebe Heike, liebe Kirsten, liebe Lore und lieber Andreas,\n\nwas kann der Ortsrat tun, um die \"Einflugschneisen\" Burgstemmens zu entschärfen?\n\nUnsere Anfrage bezieht sich auf die nachstehend gelisteten und in der Anlage\ngekennzeichneten Kreuzungen in Burgstemmen:\n\nOrtseinfahrt von Osten: Kreuzung Reichsstraße-Feldstraße\nOrtseinfahrt von Norden: Kreuzung Nordstraße-Mühlenweg\nOrtseinfahrt von Süden: Kreuzung Bethelner Straße/Obere Straße\nOrtseinfahrt von Westen: Kreuzung Reichsstraße/Neuer Weg\n\nDer Gemeindevertreter äußerte bei der letzten Sitzung, dass bisher nur selten jemand zu\nSchaden gekommen sei und Gefahrenabwehrmaßnahmen daher nicht erforderlich seien.\nUnseres Erachtens sollten Kinder in einem Dorf gefahrlos alleine die Straße überqueren\nkönnen, anstatt das Elterntaxi zu nutzen bzw. von Angehörigen in den Kindergarten und zum\nSchulbus begleitet zu werden.\n\nDie Geschwindigkeit einfahrender Fahrzeuge bzw. die Gefahr beim Queren der Straßen in\nBurgstemmen ist unerträglich. Wir fragen daher:\n\nWo und wie ist die Installation von \"Holz-Kinderfiguren\" erlaubt?\nWo und wie sind Querungshilfen zu beantragen?\n\nHabt ihr zu den vergangenen Anfragen (Beteiligung Betroffener im Rahmen der\nOrtsumgehung B1 und Begrünung der Randstreifen) von der Gemeinde Antworten\nbekommen?\n\nLiebe Grüße\n\nMona und Carsten Friedrich\n\nAnlagen: Kartenausschnitt\n\nDie inhaltliche Anfrage ging ebenfalls an:\n\n- Gemeindebürgermeister Norbert Pallentin, SPD\n- Landtagsabgeordneter Volker Senftleben, SPD\n- Landtagsabgeordnete Laura Rebuschat, CDU, Wahlkreispatin für den Kreis 23\n\n[Eine Kartendarstellung von Burgstemmen, die Straßenverläufe, Gewässer (Leine, Osterbach), und einige markante Orte wie \"Kindergarten Burgstemmen\", \"St. Michaelis-Kirche\" und \"Burgstemmer Hof UG\" zeigt. Mehrere Kreuzungen sind mit einem \"X\" markiert.]\nKartenausschnitt: Markierung der betroffenen Querungsstellen durch Kreuze\nGoogle",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:02:06.477Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 612
+  }
 }

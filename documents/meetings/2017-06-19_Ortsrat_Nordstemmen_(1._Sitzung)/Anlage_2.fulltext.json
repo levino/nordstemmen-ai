@@ -1,8 +1,18 @@
 {
   "file_hash": "cae9814189a4d721325ff26764b3260b39f49663feaa8bf990058442be12959e",
   "filename": "Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "## Absender\nBernhhard, Ortsbürgermeister\n\n## Empfänger\nRolf\n\n## Betreff\nAntrag des Kultur- und Heimatvereins zur Info-Tafel \"Nordstemmer Königsweg\"\n\n## Datum\n27.05.2017\n\n## Brieftext\nOrtsrat Nordstemmen 27.05.2017\nOrtsbürgermeister\n\nHallo lieber Rolf!\n\nIn diesem Schreiben komme ich noch einmal auf den Antrag vom Kultur und\nHeimatverein zurück in der Ortschaft eine Info-Tafel zum,, Nordstemmer\nKönigsweg \" aufzustellen.\n\nDer Ortsrat kann nur unter bestimmten Bedingungen einen Zuschuss für die\ngeplante Info-Tafel geben. Dazu müssen noch folgende Punkte eingereicht/\nerfüllt werden:\n\n1. Gesamtsumme der Info-Tafel und wie soll sie finanziert werde.\n2. Bild von der Info-Tafel und wie wird der Text und Bildinhalt der Tafel\nAussehen.\n3. Wer ist für die Richtigkeit der Angaben in Text und Bild verantwortlich?\n4. Übernahme der Verpflichtung für die Instandhaltung der Info- Tafel.\n5. Genehmigung der Gemeinde für den Standort und Aufstellung der Info-\nTafel\n\nIch schlage vor in einem persönlichen Gespräch diese Punkte noch einmal zu\nbesprechen.\n\nDie nächste Ortsratsitzung ist am 19.06.2017.\n\nMit schönen Grüßen\n\nBernhhard"
+    }
+  ],
+  "full_text": "## Absender\nBernhhard, Ortsbürgermeister\n\n## Empfänger\nRolf\n\n## Betreff\nAntrag des Kultur- und Heimatvereins zur Info-Tafel \"Nordstemmer Königsweg\"\n\n## Datum\n27.05.2017\n\n## Brieftext\nOrtsrat Nordstemmen 27.05.2017\nOrtsbürgermeister\n\nHallo lieber Rolf!\n\nIn diesem Schreiben komme ich noch einmal auf den Antrag vom Kultur und\nHeimatverein zurück in der Ortschaft eine Info-Tafel zum,, Nordstemmer\nKönigsweg \" aufzustellen.\n\nDer Ortsrat kann nur unter bestimmten Bedingungen einen Zuschuss für die\ngeplante Info-Tafel geben. Dazu müssen noch folgende Punkte eingereicht/\nerfüllt werden:\n\n1. Gesamtsumme der Info-Tafel und wie soll sie finanziert werde.\n2. Bild von der Info-Tafel und wie wird der Text und Bildinhalt der Tafel\nAussehen.\n3. Wer ist für die Richtigkeit der Angaben in Text und Bild verantwortlich?\n4. Übernahme der Verpflichtung für die Instandhaltung der Info- Tafel.\n5. Genehmigung der Gemeinde für den Standort und Aufstellung der Info-\nTafel\n\nIch schlage vor in einem persönlichen Gespräch diese Punkte noch einmal zu\nbesprechen.\n\nDie nächste Ortsratsitzung ist am 19.06.2017.\n\nMit schönen Grüßen\n\nBernhhard",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:00:39.435Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 326
+  }
 }

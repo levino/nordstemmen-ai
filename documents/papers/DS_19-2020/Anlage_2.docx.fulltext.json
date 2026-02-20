@@ -7,5 +7,12 @@
       "text": "Anlage 2\nDS 19/2020"
     }
   ],
-  "full_text": "Anlage 2\nDS 19/2020"
+  "full_text": "Anlage 2\nDS 19/2020",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:44:05.436Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 20
+  }
 }

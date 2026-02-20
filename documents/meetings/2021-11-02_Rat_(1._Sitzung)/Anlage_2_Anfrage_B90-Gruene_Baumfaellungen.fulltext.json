@@ -1,8 +1,18 @@
 {
   "file_hash": "129e09da87097c823e4dde93f3c661df3b7d17fe8ba24b8bc211fb5f60659320",
   "filename": "Anlage_2_Anfrage_B90-Gruene_Baumfaellungen.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "## Absender\nFraktion Bündnis 90/ Die Grünen\n\n## Empfänger\nGemeinde Nordstemmen\n-Bürgermeisterin-\n\n## Datum\n02.11.2021\n\n## Betreff\nAnfrage der Fraktion Bündnis 90/ Die Grünen im Rat der Gemeinde\nNordstemmen\n\nSehr geehrte Frau Bürgermeisterin,\n\nbezugnehmend auf unseren Antrag vom 26.11.2020 wird um Auskunft darüber\ngebeten, wie viele Bäume auf öffentlichem Gelände im Jahr 2021 vom\ngemeindlichen Bauhof gefällt oder sonst entnommen wurden und wie viele\nBäume in diesem Zeitraum neu gepflanzt wurden.\n\n[Unterschrift]\nLutz Loebel\nfür die Fraktion Bündnis 90/ Die Grünen"
+    }
+  ],
+  "full_text": "## Absender\nFraktion Bündnis 90/ Die Grünen\n\n## Empfänger\nGemeinde Nordstemmen\n-Bürgermeisterin-\n\n## Datum\n02.11.2021\n\n## Betreff\nAnfrage der Fraktion Bündnis 90/ Die Grünen im Rat der Gemeinde\nNordstemmen\n\nSehr geehrte Frau Bürgermeisterin,\n\nbezugnehmend auf unseren Antrag vom 26.11.2020 wird um Auskunft darüber\ngebeten, wie viele Bäume auf öffentlichem Gelände im Jahr 2021 vom\ngemeindlichen Bauhof gefällt oder sonst entnommen wurden und wie viele\nBäume in diesem Zeitraum neu gepflanzt wurden.\n\n[Unterschrift]\nLutz Loebel\nfür die Fraktion Bündnis 90/ Die Grünen",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:24.632Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 190
+  }
 }

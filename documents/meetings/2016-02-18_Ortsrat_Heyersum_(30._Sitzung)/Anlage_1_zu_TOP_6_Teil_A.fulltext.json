@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Sportplatz / Auf der Leege\n\n27m x4,5m\n"
+      "text": "[Luftbildaufnahme eines Sportplatzes mit Markierung]\nSportplatz / Auf der Leege\nMahlerten\n20 mL\n27m x 4,5m"
     }
   ],
-  "full_text": "Sportplatz / Auf der Leege\n\n27m x4,5m\n"
+  "full_text": "[Luftbildaufnahme eines Sportplatzes mit Markierung]\nSportplatz / Auf der Leege\nMahlerten\n20 mL\n27m x 4,5m",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:57:02.968Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 45
+  }
 }

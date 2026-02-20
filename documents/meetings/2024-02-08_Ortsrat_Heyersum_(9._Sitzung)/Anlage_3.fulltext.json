@@ -1,8 +1,18 @@
 {
   "file_hash": "147e80e67607976aac0e885fd4342fefc0505794d121b2455f1154b146909c7d",
   "filename": "Anlage_3.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 3\nOrtsrat\nHeyersum\n\nMitteilung des Ortsbürgermeisters\n- Am 2.12.2023 wurde die Seniorenadventsfeier des Ortsrates wieder gefeiert\n- Heyersum ist bei dem Weihnachtshochwasser von größeren Schäden verschont geblieben.\nLediglich im Bereich des Dorfteiches kam es aufgrund einer verstopften Abflussleitung zu\nÜberschwemmungen. Dank unserer Ortsfeuerwehr konnte hier eine schnelle Lösung\ngefunden werden\n\nJonas Schefe\n\nOrtsbürgermeister"
+    }
+  ],
+  "full_text": "Anlage 3\nOrtsrat\nHeyersum\n\nMitteilung des Ortsbürgermeisters\n- Am 2.12.2023 wurde die Seniorenadventsfeier des Ortsrates wieder gefeiert\n- Heyersum ist bei dem Weihnachtshochwasser von größeren Schäden verschont geblieben.\nLediglich im Bereich des Dorfteiches kam es aufgrund einer verstopften Abflussleitung zu\nÜberschwemmungen. Dank unserer Ortsfeuerwehr konnte hier eine schnelle Lösung\ngefunden werden\n\nJonas Schefe\n\nOrtsbürgermeister",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:05:34.785Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 128
+  }
 }

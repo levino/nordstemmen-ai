@@ -1,8 +1,22 @@
 {
   "file_hash": "aabbfc866f72616df0330843d1c9543c364af4d8e44c0c846f520265caac9b86",
   "filename": "Anlage_zur_Beschlussvorlage_DS_100-2007.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage\nDipl.-Ing. Peter Appel\nHaferkamp 10, 31171 Nordstemmen\nTel. 05069/96 484\nSeite 8 von 9\nIV\nMängelbeseitigung in Stichpunkten einschl. Kostenschätzung\n€ netto\ngesamt\n1. Außenwände/\nFassade:\n1.1\nPutzflächen ohne ausreichende Haftung\nentfernen.\n1.500,00\n1.2\nNachputz der vorgen. Flächen und\nsonstiger Fehlstellen\n1.3\nReinigung der Fassadenflächen und\nAnstrich.\n1.300,00\n1.4\nHerstellung eines äußeren Spritzwasser-\nschutzes aus Grobkiesstreifen\n1.000,00\n3.800,00\n2. Dach/\nDachabdichtung:\n2.1\nAbbruch + Erneuerung der\nDachrandausbildung / Abdichtung in ca.\n50 cm Breite umlaufend.\nMontage Randprofil\n3.600,00\n2.2\nAbbruch + Erneuerung der Alu-Mauer-\nkopf-Abdeckungen.\nAbdichtung der Mauerköpfe und Neu-\nmontage Abdeckung einschl. Dichtband\nund selbstdichtender Schrauben.\n4.000,00\n7.600,00\n3. Fenster/\nAußentüren\n3.1\nInstandsetzung der Eingangstüranlage.\nErneuerung Deckleisten und Mittelpfosten.\nErgänzung Verbretterung.\nMontage Wetterschenkel bei allen\nAußentüren.\n1.400,00\n4. Sonstiges\n4.1\nInnenputz\nSchadhaften Putz entfernen\nNachputz\nAnstrich Innenwände Saal"
+    },
+    {
+      "page": 2,
+      "text": "Dipl.-Ing. Peter Appel\nHaferkamp 10.31171 Nordstemmen\nTel. 05069/96 484\nSeite 9 von 9\n4.2\nSockel\nLose Sockelfliesen abnehmen, reinigen +\nneu ansetzen.\n2.600,00\n4.3\nInnentüren\nInstandsetzung Innentür\n4.4\nMalerarbeiten\nAnstrich der unterseitigen Profilhölzer und\nder außen sichtbaren Holzbalkenkonstruk-\ntionen.\nZwischensumme netto\nrd.\n15.400,00\n5. Reserve\n6. Nebenkosten\nfür Unvorhergesehenes 10 %\n15%\n1.600,00\n2.500,00\nGesamtkosten\nNetto € ca.\n19.500,00\nBrutto € ca.\n23.000,00\nNordstemmen, den 04.09.2007\n[Unterschrift]\nArchitekt\n[Rundstempel: ARCHITEKTENKAMMER NIEDERSACHSEN Architekt Dipl.-Ing. Peter Appel Nordstemmen REG-NR. 10.349/88]"
+    }
+  ],
+  "full_text": "Anlage\nDipl.-Ing. Peter Appel\nHaferkamp 10, 31171 Nordstemmen\nTel. 05069/96 484\nSeite 8 von 9\nIV\nMängelbeseitigung in Stichpunkten einschl. Kostenschätzung\n€ netto\ngesamt\n1. Außenwände/\nFassade:\n1.1\nPutzflächen ohne ausreichende Haftung\nentfernen.\n1.500,00\n1.2\nNachputz der vorgen. Flächen und\nsonstiger Fehlstellen\n1.3\nReinigung der Fassadenflächen und\nAnstrich.\n1.300,00\n1.4\nHerstellung eines äußeren Spritzwasser-\nschutzes aus Grobkiesstreifen\n1.000,00\n3.800,00\n2. Dach/\nDachabdichtung:\n2.1\nAbbruch + Erneuerung der\nDachrandausbildung / Abdichtung in ca.\n50 cm Breite umlaufend.\nMontage Randprofil\n3.600,00\n2.2\nAbbruch + Erneuerung der Alu-Mauer-\nkopf-Abdeckungen.\nAbdichtung der Mauerköpfe und Neu-\nmontage Abdeckung einschl. Dichtband\nund selbstdichtender Schrauben.\n4.000,00\n7.600,00\n3. Fenster/\nAußentüren\n3.1\nInstandsetzung der Eingangstüranlage.\nErneuerung Deckleisten und Mittelpfosten.\nErgänzung Verbretterung.\nMontage Wetterschenkel bei allen\nAußentüren.\n1.400,00\n4. Sonstiges\n4.1\nInnenputz\nSchadhaften Putz entfernen\nNachputz\nAnstrich Innenwände Saal\n\nDipl.-Ing. Peter Appel\nHaferkamp 10.31171 Nordstemmen\nTel. 05069/96 484\nSeite 9 von 9\n4.2\nSockel\nLose Sockelfliesen abnehmen, reinigen +\nneu ansetzen.\n2.600,00\n4.3\nInnentüren\nInstandsetzung Innentür\n4.4\nMalerarbeiten\nAnstrich der unterseitigen Profilhölzer und\nder außen sichtbaren Holzbalkenkonstruk-\ntionen.\nZwischensumme netto\nrd.\n15.400,00\n5. Reserve\n6. Nebenkosten\nfür Unvorhergesehenes 10 %\n15%\n1.600,00\n2.500,00\nGesamtkosten\nNetto € ca.\n19.500,00\nBrutto € ca.\n23.000,00\nNordstemmen, den 04.09.2007\n[Unterschrift]\nArchitekt\n[Rundstempel: ARCHITEKTENKAMMER NIEDERSACHSEN Architekt Dipl.-Ing. Peter Appel Nordstemmen REG-NR. 10.349/88]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:30:32.617Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 746
+  }
 }

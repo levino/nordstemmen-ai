@@ -1,8 +1,18 @@
 {
   "file_hash": "d4c88d59894da3e2591194ecdbf46232747c5ae4c8c565d605df6d5a21a793ba",
   "filename": "Anlage_zum_Protokoll_OR_Mahlerten.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage zum Protokoll Ortsrat Mahlerten 27.04.27\nFußballtore Spielplatz „Am Kastenborn\"\n\n1. Alternative- vorhandene Tore mit einem Antivandalnetz ausstatten\n\n2. Alternative- ein Tor mit Antivandalnetz kaufen\n\n3. Alternative- ein Tor mit Gittermatten und Ballausschnitt kaufen und ein Tor mit Gittermatten ohne\nBallausschnitt kaufen"
+    }
+  ],
+  "full_text": "Anlage zum Protokoll Ortsrat Mahlerten 27.04.27\nFußballtore Spielplatz „Am Kastenborn\"\n\n1. Alternative- vorhandene Tore mit einem Antivandalnetz ausstatten\n\n2. Alternative- ein Tor mit Antivandalnetz kaufen\n\n3. Alternative- ein Tor mit Gittermatten und Ballausschnitt kaufen und ein Tor mit Gittermatten ohne\nBallausschnitt kaufen",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:02.465Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 102
+  }
 }

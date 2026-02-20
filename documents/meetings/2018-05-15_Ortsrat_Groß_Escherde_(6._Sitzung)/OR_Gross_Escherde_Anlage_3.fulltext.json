@@ -1,8 +1,18 @@
 {
   "file_hash": "2fa74c41ed39cf88634618deb4e4eae2675bf3f430dba0047a33f7f29fcc1784",
   "filename": "OR_Gross_Escherde_Anlage_3.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Gemeinde Nordstemmen\nFachbereich 2\nSicherheit, Ordnung\nAz. (2) 12.40.80/03\n\nAuskunft erteilt: Herr Risch, Telefon: 05069 / 800-31\n\nANLAGE 3\nOrtsrat Groß Escherde\n\nNordstemmen, 25.04.2018\n\nVermerk:\n\nVerfolgung und Ahndung von Verkehrsordnungswidrigkeiten;\nhier: Geschwindigkeitsverstöße\n\nIm Nachgang zu den letzten Sitzungen der Ortsräte Mahlerten, Klein Escherde und Groß Escherde\nhaben wir seitens der Verwaltung, wie auch schon zuvor praktiziert, der Polizei und dem Landkreis\neinige Straßen bzw. Straßenabschnitte zur Durchführung von Geschwindigkeitskontrollen aufgezeigt.\n\nBeide Dienststellen führen die Kontrollmaßnahmen in eigener Zuständigkeit durch.\n\nGemäß den zwischenzeitlich vorliegenden Mitteilungen der Polizei und des Landkreises wurden\nfolgende Feststellungen getroffen:\n\nKlein Escherde, Akazienstraße und Joseph-Bruns-Straße:\nAufgrund des geringen Verkehrsaufkommens werden in absehbarer Zeit keine weiteren Messungen\ndurchgeführt.\n\nGroß Escherde, Stöckumer Straße:\nMessungen in der Stöckumer Straße wurden nach einer Stunde „mangels Masse\" abgebrochen –\nEin Geschwindigkeitsverstoß\n\nMahlerten, Hildesheimer Straße (Ortsdurchfahrt im Zuge der B 1):\nMessung in Mahlerten war relativ erfolglos.\n\nDie Ergebnisse zeigen, dass die gefühlten Geschwindigkeitsverstöße doch erheblich von den\nahndungswürdigen Verstößen abweichen.\n\n[Unterschrift]"
+    }
+  ],
+  "full_text": "Gemeinde Nordstemmen\nFachbereich 2\nSicherheit, Ordnung\nAz. (2) 12.40.80/03\n\nAuskunft erteilt: Herr Risch, Telefon: 05069 / 800-31\n\nANLAGE 3\nOrtsrat Groß Escherde\n\nNordstemmen, 25.04.2018\n\nVermerk:\n\nVerfolgung und Ahndung von Verkehrsordnungswidrigkeiten;\nhier: Geschwindigkeitsverstöße\n\nIm Nachgang zu den letzten Sitzungen der Ortsräte Mahlerten, Klein Escherde und Groß Escherde\nhaben wir seitens der Verwaltung, wie auch schon zuvor praktiziert, der Polizei und dem Landkreis\neinige Straßen bzw. Straßenabschnitte zur Durchführung von Geschwindigkeitskontrollen aufgezeigt.\n\nBeide Dienststellen führen die Kontrollmaßnahmen in eigener Zuständigkeit durch.\n\nGemäß den zwischenzeitlich vorliegenden Mitteilungen der Polizei und des Landkreises wurden\nfolgende Feststellungen getroffen:\n\nKlein Escherde, Akazienstraße und Joseph-Bruns-Straße:\nAufgrund des geringen Verkehrsaufkommens werden in absehbarer Zeit keine weiteren Messungen\ndurchgeführt.\n\nGroß Escherde, Stöckumer Straße:\nMessungen in der Stöckumer Straße wurden nach einer Stunde „mangels Masse\" abgebrochen –\nEin Geschwindigkeitsverstoß\n\nMahlerten, Hildesheimer Straße (Ortsdurchfahrt im Zuge der B 1):\nMessung in Mahlerten war relativ erfolglos.\n\nDie Ergebnisse zeigen, dass die gefühlten Geschwindigkeitsverstöße doch erheblich von den\nahndungswürdigen Verstößen abweichen.\n\n[Unterschrift]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:07.395Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 398
+  }
 }

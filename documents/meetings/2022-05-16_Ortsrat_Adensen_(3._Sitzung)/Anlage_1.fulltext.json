@@ -1,8 +1,18 @@
 {
   "file_hash": "df28a7b10e7fdac05bbe5331c299b8b73e44647936f24898722f3ed08ee2d60f",
   "filename": "Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 1 zu OR Adensen 16.05.2022\nDIE\nNABHÄNGIGEN\n\nAntrag\n\nDie Unabhängigen im Ortsrat Adensen beantragen die Prüfung zur Errichtung einer E-Ladesäule an\nder Rolf-Gehrke-Halle in Adensen\n\nBegründung / Problembeschreibung\n\nDie E-Mobilität wird immer wichtiger – auch auf dem Land. Für das Erreichen der Klimaziele der\nBundesregierung sollen bis 2030 mindestens sieben bis zehn Millionen Elektrofahrzeuge auf\nDeutschlands Straßen fahren. Auch auf dem Land denken immer mehr Menschen über den Kauf\neines Elektrofahrzeugs nach. Wer sein E-Fahrzeug vor der heimischen Haustür laden kann, hat hier\nden größten Vorteil. Doch nicht immer kann das Laden des Fahrzeugs gewährleistet werden.\nBesonders Mieter:innen in Wohnhäusern haben nur selten einen Zugang zu einer Lademöglichkeit\nvor der Haustür. Dies könnte den Kaufanreiz schmälern und so die gesetzten Klimaziele gefährden.\n\nUm auch die E-Mobilität auf dem Land attraktiv zu machen, möchten die Unabhängigen im Ortsrat\nAdensen die Ladeinfrastruktur in Adensen verbessern. Hierzu ist zu prüfen, ob die Errichtung einer E-\nLadesäule im Ort realisierbar ist. Die Unabhängigen schlagen daher den Parkbereich vor der Rolf-\nGehrke-Halle als möglichen Standort einer E-Ladesäule vor. Hier könnten auch Besucher:innen von\nSportveranstaltungen während ihres Besuches ein E-Fahrzeug „auftanken\". Es muss nun seitens der\nVerwaltung geprüft werden, ob eine Installation in dem genannten Bereich ermöglicht werden kann.\n\n[Luftbildausschnitt, der ein Gebäude und angrenzende Straßen zeigt, mit einer Markierung für einen vorgeschlagenen Standort einer E-Ladesäule. Es sind keine Kartentitel, Untertitel, Planvermerke, Maßstäbe oder Planungsbüros angegeben.]"
+    }
+  ],
+  "full_text": "Anlage 1 zu OR Adensen 16.05.2022\nDIE\nNABHÄNGIGEN\n\nAntrag\n\nDie Unabhängigen im Ortsrat Adensen beantragen die Prüfung zur Errichtung einer E-Ladesäule an\nder Rolf-Gehrke-Halle in Adensen\n\nBegründung / Problembeschreibung\n\nDie E-Mobilität wird immer wichtiger – auch auf dem Land. Für das Erreichen der Klimaziele der\nBundesregierung sollen bis 2030 mindestens sieben bis zehn Millionen Elektrofahrzeuge auf\nDeutschlands Straßen fahren. Auch auf dem Land denken immer mehr Menschen über den Kauf\neines Elektrofahrzeugs nach. Wer sein E-Fahrzeug vor der heimischen Haustür laden kann, hat hier\nden größten Vorteil. Doch nicht immer kann das Laden des Fahrzeugs gewährleistet werden.\nBesonders Mieter:innen in Wohnhäusern haben nur selten einen Zugang zu einer Lademöglichkeit\nvor der Haustür. Dies könnte den Kaufanreiz schmälern und so die gesetzten Klimaziele gefährden.\n\nUm auch die E-Mobilität auf dem Land attraktiv zu machen, möchten die Unabhängigen im Ortsrat\nAdensen die Ladeinfrastruktur in Adensen verbessern. Hierzu ist zu prüfen, ob die Errichtung einer E-\nLadesäule im Ort realisierbar ist. Die Unabhängigen schlagen daher den Parkbereich vor der Rolf-\nGehrke-Halle als möglichen Standort einer E-Ladesäule vor. Hier könnten auch Besucher:innen von\nSportveranstaltungen während ihres Besuches ein E-Fahrzeug „auftanken\". Es muss nun seitens der\nVerwaltung geprüft werden, ob eine Installation in dem genannten Bereich ermöglicht werden kann.\n\n[Luftbildausschnitt, der ein Gebäude und angrenzende Straßen zeigt, mit einer Markierung für einen vorgeschlagenen Standort einer E-Ladesäule. Es sind keine Kartentitel, Untertitel, Planvermerke, Maßstäbe oder Planungsbüros angegeben.]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:04:12.082Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 449
+  }
 }

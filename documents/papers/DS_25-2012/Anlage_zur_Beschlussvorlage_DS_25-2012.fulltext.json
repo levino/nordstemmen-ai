@@ -1,8 +1,18 @@
 {
   "file_hash": "6f6eb77ee9ca9a708c7ec2d3e22499a8dedae1ac10ee009a43b9ca96f3a58a84",
   "filename": "Anlage_zur_Beschlussvorlage_DS_25-2012.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Schematische Darstellung eines Spielplatzes mit nummerierten Punkten, angrenzend an eine Straße und eine Busschleife.]\nAnlage 1\nzur DS 25/2012"
+    }
+  ],
+  "full_text": "[Schematische Darstellung eines Spielplatzes mit nummerierten Punkten, angrenzend an eine Straße und eine Busschleife.]\nAnlage 1\nzur DS 25/2012",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:49:43.093Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 49
+  }
 }

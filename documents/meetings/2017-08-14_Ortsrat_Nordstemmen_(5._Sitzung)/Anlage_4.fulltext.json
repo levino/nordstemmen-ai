@@ -1,8 +1,18 @@
 {
   "file_hash": "022c139a01302c7c2132fae6859b2f58bad2ae8b1232a06c73ef17f68d637103",
   "filename": "Anlage_4.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Kultur- und Heimatverein Nordstemmen e.V. Rathausstraße 3 a 31171 Nordstemmen\nKultur- und Heimatverein\nNordstemmen e.V.\nRathausstraße 3 A\n31171 Nordstemmen\n\n## Der Kultur- und Heimatverein Nordstemmen e.V. bittet um Ihre Mithilfe\n\nLiebe Nordstemmerinnen und liebe Nordstemmer!\n\nDer Kultur- und Heimatverein Nordstemmen möchte Personen aus unserer Gemeinde\nwürdigen, die sich in besonderer Weise für den Denkmalschutz in Nordstemmen eingesetzt\nhaben.\n\nDiese Personen können sich eingesetzt haben für den Erhalt und die Pflege eines Gebäudes\noder die Erfassung geschichtlicher Details oder Begebenheiten für die Öffentlichkeit.\n\nBitte nennen Sie uns Personen, die für diese Anerkennung in Frage kommen.\nIhr Ansprechpartner ist\nHerr Rolf Müller\nFliederstr. 16\nNordstemmen\nTel.: 05069-3935\n\nDiese Aktion wird in Abstimmung mit dem Ortsrat erfolgen.\n\nEine Jury aus Mitgliedern des Kultur- und Heimatvereins (3) und des Ortsrates (2) wählt aus\nden Vorschlägen dann eine Person aus, die mit einer Urkunde öffentlich geehrt wird.\n\n[Unterschrift]\nRolf Müller\n1. Vorsitzender\n\nSparkasse Hildesheim\nIBAN: DE29 2595 0130 007 47440 04\nBIC: NOLADE21HK\n\nVolksbank Hildesheim eG\nIBAN: DE87 2599 0011 2230 7184 00\nBIC: GENODEF1HIH\n\nwww.heimatverein-nordstemmen.de"
+    }
+  ],
+  "full_text": "Kultur- und Heimatverein Nordstemmen e.V. Rathausstraße 3 a 31171 Nordstemmen\nKultur- und Heimatverein\nNordstemmen e.V.\nRathausstraße 3 A\n31171 Nordstemmen\n\n## Der Kultur- und Heimatverein Nordstemmen e.V. bittet um Ihre Mithilfe\n\nLiebe Nordstemmerinnen und liebe Nordstemmer!\n\nDer Kultur- und Heimatverein Nordstemmen möchte Personen aus unserer Gemeinde\nwürdigen, die sich in besonderer Weise für den Denkmalschutz in Nordstemmen eingesetzt\nhaben.\n\nDiese Personen können sich eingesetzt haben für den Erhalt und die Pflege eines Gebäudes\noder die Erfassung geschichtlicher Details oder Begebenheiten für die Öffentlichkeit.\n\nBitte nennen Sie uns Personen, die für diese Anerkennung in Frage kommen.\nIhr Ansprechpartner ist\nHerr Rolf Müller\nFliederstr. 16\nNordstemmen\nTel.: 05069-3935\n\nDiese Aktion wird in Abstimmung mit dem Ortsrat erfolgen.\n\nEine Jury aus Mitgliedern des Kultur- und Heimatvereins (3) und des Ortsrates (2) wählt aus\nden Vorschlägen dann eine Person aus, die mit einer Urkunde öffentlich geehrt wird.\n\n[Unterschrift]\nRolf Müller\n1. Vorsitzender\n\nSparkasse Hildesheim\nIBAN: DE29 2595 0130 007 47440 04\nBIC: NOLADE21HK\n\nVolksbank Hildesheim eG\nIBAN: DE87 2599 0011 2230 7184 00\nBIC: GENODEF1HIH\n\nwww.heimatverein-nordstemmen.de",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:00:32.587Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 404
+  }
 }

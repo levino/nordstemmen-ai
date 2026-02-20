@@ -1,8 +1,30 @@
 {
   "file_hash": "f4aab368472d0ff1e1026e3e8052f98fcc0adafb25a8cb950d106ceff9b2fd47",
   "filename": "Anlage_1_-_3_zur_DS_13-2016.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 1:\nE 554544 m \"Böttcherstraße\"\nN 5779490 m\n\n[Kartenausschnitt mit Flurstücken und Straßenverläufen]\n\nN 5779316 m\nTöpferweg/\nBöttcherstraße\"\nN\n1:1.000\nE 554293 m\n©2015 LGLN\nHintergrund: Auszug aus den Geobasisdaten der LGLN"
+    },
+    {
+      "page": 2,
+      "text": "Anlage 2.1:\nE 553844 m\nN 5778952 m\n\n[Kartenausschnitt mit Flurstücken und Straßenverläufen]\n\nN 5778639 m\n\"Mahlerter\nStraße\"\n1:1.200\nE 553647 m\n© 2015\nLGLN\nHintergrund: Auszug aus den Geobasisdaten der LGLN"
+    },
+    {
+      "page": 3,
+      "text": "Anlage 2.2:\nE 553793 m\nN 5778729 m\n\n[Kartenausschnitt mit Flurstücken und Straßenverläufen]\n\nN 5778468 m\n\"Mahlerter\nStraße\"\n\"Carl-Maria-von Weber-Weg\"\nCarl-Maria-\nhom-Weber.\nWeg \"\n1:1.000\nE 553629 m\n© 2015\nLGLN\nHintergrund: Auszug aus den Geobasisdaten der LGLN"
+    },
+    {
+      "page": 4,
+      "text": "Anlage 3:\nE 554663 m\nN 5778226 m\n\"Hildesheimer Straße\"\n\n[Kartenausschnitt mit Flurstücken und Straßenverläufen]\n\nN 5777704 m\nN\n1:2.000\nE 554335 m\n\"Am Kastenborn\"\n© 2015\nLGLN\nHintergrund: Auszug aus den Geobasisdaten der LGLN"
+    }
+  ],
+  "full_text": "Anlage 1:\nE 554544 m \"Böttcherstraße\"\nN 5779490 m\n\n[Kartenausschnitt mit Flurstücken und Straßenverläufen]\n\nN 5779316 m\nTöpferweg/\nBöttcherstraße\"\nN\n1:1.000\nE 554293 m\n©2015 LGLN\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n\nAnlage 2.1:\nE 553844 m\nN 5778952 m\n\n[Kartenausschnitt mit Flurstücken und Straßenverläufen]\n\nN 5778639 m\n\"Mahlerter\nStraße\"\n1:1.200\nE 553647 m\n© 2015\nLGLN\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n\nAnlage 2.2:\nE 553793 m\nN 5778729 m\n\n[Kartenausschnitt mit Flurstücken und Straßenverläufen]\n\nN 5778468 m\n\"Mahlerter\nStraße\"\n\"Carl-Maria-von Weber-Weg\"\nCarl-Maria-\nhom-Weber.\nWeg \"\n1:1.000\nE 553629 m\n© 2015\nLGLN\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n\nAnlage 3:\nE 554663 m\nN 5778226 m\n\"Hildesheimer Straße\"\n\n[Kartenausschnitt mit Flurstücken und Straßenverläufen]\n\nN 5777704 m\nN\n1:2.000\nE 554335 m\n\"Am Kastenborn\"\n© 2015\nLGLN\nHintergrund: Auszug aus den Geobasisdaten der LGLN",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:35:00.575Z",
+    "total_input_tokens": 1376,
+    "total_output_tokens": 504
+  }
 }

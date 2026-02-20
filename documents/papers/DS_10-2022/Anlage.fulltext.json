@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage 1\n\n"
+      "text": "Anlage 1\n256\n31\n[Skizze eines Grundstücksplans mit Parzellengrenzen, Gebäudegrundrissen und farbig markierten Bereichen sowie Pfeilen.]"
     }
   ],
-  "full_text": "Anlage 1\n\n"
+  "full_text": "Anlage 1\n256\n31\n[Skizze eines Grundstücksplans mit Parzellengrenzen, Gebäudegrundrissen und farbig markierten Bereichen sowie Pfeilen.]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:30:25.442Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 49
+  }
 }

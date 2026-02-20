@@ -4,12 +4,19 @@
   "pages": [
     {
       "page": 1,
-      "text": "Geltungsbereich\nB-Plan Nr. 1010\n±\nBP 1010 möglicher\n1:5.000 Geltungsbereich Stand: 12.03.2019"
+      "text": "[Karte zeigt einen Stadtplan mit einem markierten Geltungsbereich.]\nAnlage 1 zu\nDS 36/2019\nGeltungsbereich\nB-Plan Nr. 1010\n1:5.000\nBP 1010 möglicher\nGeltungsbereich\nStand: 12.03.2019"
     },
     {
       "page": 2,
-      "text": "Geltungsbereich\nB-Plan Nr. 1010\n±\nBP 1010 möglicher\n1:2.000 Geltungsbereich Stand: 12.03.2019"
+      "text": "[Karte zeigt einen detaillierteren Stadtplanausschnitt mit einem markierten Geltungsbereich.]\nGeltungsbereich\nB-Plan Nr. 1010\n1:2.000\nBP 1010 möglicher\nGeltungsbereich\nStand: 12.03.2019"
     }
   ],
-  "full_text": "Geltungsbereich\nB-Plan Nr. 1010\n±\nBP 1010 möglicher\n1:5.000 Geltungsbereich Stand: 12.03.2019\n\nGeltungsbereich\nB-Plan Nr. 1010\n±\nBP 1010 möglicher\n1:2.000 Geltungsbereich Stand: 12.03.2019"
+  "full_text": "[Karte zeigt einen Stadtplan mit einem markierten Geltungsbereich.]\nAnlage 1 zu\nDS 36/2019\nGeltungsbereich\nB-Plan Nr. 1010\n1:5.000\nBP 1010 möglicher\nGeltungsbereich\nStand: 12.03.2019\n\n[Karte zeigt einen detaillierteren Stadtplanausschnitt mit einem markierten Geltungsbereich.]\nGeltungsbereich\nB-Plan Nr. 1010\n1:2.000\nBP 1010 möglicher\nGeltungsbereich\nStand: 12.03.2019",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:56:56.604Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 171
+  }
 }

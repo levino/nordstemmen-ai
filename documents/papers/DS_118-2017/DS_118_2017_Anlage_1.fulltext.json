@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage 1 zur DS 118/2017\n(Quelle: LGLN, 2017)"
+      "text": "Anlage 1 zur DS 118/2017\n[Ausschnitt aus einem Katasterplan mit Straßennamen, Flurstücksnummern und Gebäudegrundrissen, wobei ein polygonaler Bereich durch eine dicke schwarze Linie hervorgehoben ist.]\n(Quelle: LGLN, 2017)"
     }
   ],
-  "full_text": "Anlage 1 zur DS 118/2017\n(Quelle: LGLN, 2017)"
+  "full_text": "Anlage 1 zur DS 118/2017\n[Ausschnitt aus einem Katasterplan mit Straßennamen, Flurstücksnummern und Gebäudegrundrissen, wobei ein polygonaler Bereich durch eine dicke schwarze Linie hervorgehoben ist.]\n(Quelle: LGLN, 2017)",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:33:01.265Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 82
+  }
 }

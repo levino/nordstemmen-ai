@@ -1,8 +1,22 @@
 {
   "file_hash": "9491fb2fce72a5f58a1c0c0c7447649b183a248d2cfd4bf3556fe0d5f4ccfeda",
   "filename": "Anlage_3_zu_Ortsrat_Roessing_18.05.2017.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Luftbildkarte, die ein landwirtschaftliches Feld, eine Straße, ein Friedhofsgelände mit Trauerhalle und markierte Flächen zeigt.]\nAnlage 3\nMaßstab: 1:500\nPlanungsbüro: LGLN\nHintergrund: Auszug aus den Geobasisdaten der LGLN"
+    },
+    {
+      "page": 2,
+      "text": "Stellplätze am Friedhof Rössing\n\n| | | | 1. BA | 2. BA |\n|:---|:---|:---|---:|---:|\n| 1. BA | 710,00 qm | 47,70 €/qm | 33.867,00 € | |\n| 2. BA | 380,00 qm | 47,70 €/qm | | 18.126,00 € |\n| gesamt: | 1.090,00 qm | 47,70 €/qm | 33.867,00 € | 18.126,00 € |\n| | | | | |\n| Aushub | | | | |\n| | 568 cbm | 10,00 €/cbm | 5.680,00 € | |\n| | 323 cbm | 10,00 €/cbm | | 3.230,00 € |\n| | 891 | 10,00 €/cbm | 8.910,00 € | 8.910,00 € |\n| | | | | |\n| Aufbau-kofffer | 10-15 cm Asphaltfräsgut | 0,70 €/qm | | |\n| | 20 cm Mineralgemisch | 33,00 €/qm | | |\n| | 50 cm Kies | 14,00 €/qm | | |\n| insgesamt: | 80-85 cm | 47,70 €/qm | | |\n| | | | 42.777,00 € | 27.036,00 € |\n| | 19 % MwSt | | 8.127,63 € | 5.136,84 € |\n| | | | 50.904,63 € | 32.172,84 € |"
+    }
+  ],
+  "full_text": "[Luftbildkarte, die ein landwirtschaftliches Feld, eine Straße, ein Friedhofsgelände mit Trauerhalle und markierte Flächen zeigt.]\nAnlage 3\nMaßstab: 1:500\nPlanungsbüro: LGLN\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n\nStellplätze am Friedhof Rössing\n\n| | | | 1. BA | 2. BA |\n|:---|:---|:---|---:|---:|\n| 1. BA | 710,00 qm | 47,70 €/qm | 33.867,00 € | |\n| 2. BA | 380,00 qm | 47,70 €/qm | | 18.126,00 € |\n| gesamt: | 1.090,00 qm | 47,70 €/qm | 33.867,00 € | 18.126,00 € |\n| | | | | |\n| Aushub | | | | |\n| | 568 cbm | 10,00 €/cbm | 5.680,00 € | |\n| | 323 cbm | 10,00 €/cbm | | 3.230,00 € |\n| | 891 | 10,00 €/cbm | 8.910,00 € | 8.910,00 € |\n| | | | | |\n| Aufbau-kofffer | 10-15 cm Asphaltfräsgut | 0,70 €/qm | | |\n| | 20 cm Mineralgemisch | 33,00 €/qm | | |\n| | 50 cm Kies | 14,00 €/qm | | |\n| insgesamt: | 80-85 cm | 47,70 €/qm | | |\n| | | | 42.777,00 € | 27.036,00 € |\n| | 19 % MwSt | | 8.127,63 € | 5.136,84 € |\n| | | | 50.904,63 € | 32.172,84 € |",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:00:37.573Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 578
+  }
 }

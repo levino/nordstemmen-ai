@@ -1,8 +1,22 @@
 {
   "file_hash": "bdce9d33c32bef4a18a432997dfad7c1abee570bfb2bb31d116bea71ccc8f728",
   "filename": "Anlage_1_Raeume_Barnten.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "DS 82/2021\nAnlage 1\nGRUNDSCHULE BARNTEN\nGrundschule Barnten\nLandesstr. 35 - 31171 Nordstemmen\nFon 05066-2226 - Fax 05066-692908\nE-Mail: hgs-barnten@t-online.de\nInternet: www.grundschulebarnten.wordpress.com\nRäumlichkeiten der Grundschule Barnten\nGebäudetrakt mit Mensa:\nRaum 18\nRaum 19\nRaum 20\nRaum 21\nRaum 22\nRaum 24\nRaum 25\nGruppenraum Jahrgang 3\nStand: 02.09.2021\nMusikraum könnte temporär nach baul. Maßnahmen (Geruch) genutzt werden\nKinderküche\nWerkraum\nMensa (2 ineinander übergehende Räume)\nKlassenraum Klasse 2a\nKlassenraum Klasse 2b\nRaum 16\nrechts daneben\nRaum 1\nLehrerzimmer einschließlich Sekretariat\nBüro der Schulleitung\nSpieleraum (offen zur Pausenhalle)\nLernwerkstatt (ehem. Hausmeisterwohnung):\nSachunterricht-Lernwerkstatt\nMitarbeiterraum der Reinigungskräfte\nBesprechzimmer\nSnoozleraum\nSchülerbücherei\nbehindertengerechtes Bad mit Dusche\nRaum 13\nrechts daneben\nlinks daneben\nLernmittel\nKopierraum\nHausmeister\nGebäudetrakt vorn:\nRaum 4\nRaum 3\nRaum 2\nRaum 5\nKlassenraum Klasse 3b\nKlassenraum Klasse 3a mit Gruppenraum\nKlassenraum Klasse 1c\nKlassenraum Klasse 1a mit Gruppenraum\nGebäudetrakt hinten:\nRaum 8\nKlassenraum Klasse 1b\nRaum 9\nRaum 7\nRaum 6\nLerninsel (ehemaliger Klassen- bzw. Computerraum)\nKlassenraum Klasse 4b\nKlassenraum Klasse 4a\nkönnte temporär als\nKl.-Raum genutzt werden\nRaum 10\nTurnhalle mit Umkleide- und Geräteraum"
+    },
+    {
+      "page": 2,
+      "text": "DS 82/2021\nAnlage 1\nGS Barnten\n[Grundrisspläne der Grundschule Barnten]\nvorhandene Räume\nFeuerwehrplan 2\nFeuerwehrplan 4\nFeuerwehrplan 3\nFeuerwehrplan 5"
+    }
+  ],
+  "full_text": "DS 82/2021\nAnlage 1\nGRUNDSCHULE BARNTEN\nGrundschule Barnten\nLandesstr. 35 - 31171 Nordstemmen\nFon 05066-2226 - Fax 05066-692908\nE-Mail: hgs-barnten@t-online.de\nInternet: www.grundschulebarnten.wordpress.com\nRäumlichkeiten der Grundschule Barnten\nGebäudetrakt mit Mensa:\nRaum 18\nRaum 19\nRaum 20\nRaum 21\nRaum 22\nRaum 24\nRaum 25\nGruppenraum Jahrgang 3\nStand: 02.09.2021\nMusikraum könnte temporär nach baul. Maßnahmen (Geruch) genutzt werden\nKinderküche\nWerkraum\nMensa (2 ineinander übergehende Räume)\nKlassenraum Klasse 2a\nKlassenraum Klasse 2b\nRaum 16\nrechts daneben\nRaum 1\nLehrerzimmer einschließlich Sekretariat\nBüro der Schulleitung\nSpieleraum (offen zur Pausenhalle)\nLernwerkstatt (ehem. Hausmeisterwohnung):\nSachunterricht-Lernwerkstatt\nMitarbeiterraum der Reinigungskräfte\nBesprechzimmer\nSnoozleraum\nSchülerbücherei\nbehindertengerechtes Bad mit Dusche\nRaum 13\nrechts daneben\nlinks daneben\nLernmittel\nKopierraum\nHausmeister\nGebäudetrakt vorn:\nRaum 4\nRaum 3\nRaum 2\nRaum 5\nKlassenraum Klasse 3b\nKlassenraum Klasse 3a mit Gruppenraum\nKlassenraum Klasse 1c\nKlassenraum Klasse 1a mit Gruppenraum\nGebäudetrakt hinten:\nRaum 8\nKlassenraum Klasse 1b\nRaum 9\nRaum 7\nRaum 6\nLerninsel (ehemaliger Klassen- bzw. Computerraum)\nKlassenraum Klasse 4b\nKlassenraum Klasse 4a\nkönnte temporär als\nKl.-Raum genutzt werden\nRaum 10\nTurnhalle mit Umkleide- und Geräteraum\n\nDS 82/2021\nAnlage 1\nGS Barnten\n[Grundrisspläne der Grundschule Barnten]\nvorhandene Räume\nFeuerwehrplan 2\nFeuerwehrplan 4\nFeuerwehrplan 3\nFeuerwehrplan 5",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:23:47.468Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 610
+  }
 }

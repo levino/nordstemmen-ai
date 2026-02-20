@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Geltungsbereich\nB-plan Nr. 0804\n±\n1:2.500"
+      "text": "[Karte des Ortes Klein Escherde mit Straßennetz und einem markierten Geltungsbereich]\nPlanvermerk: Anlage 1 zu DS 18/2019\nMaßstab: 1:2.500"
     }
   ],
-  "full_text": "Geltungsbereich\nB-plan Nr. 0804\n±\n1:2.500"
+  "full_text": "[Karte des Ortes Klein Escherde mit Straßennetz und einem markierten Geltungsbereich]\nPlanvermerk: Anlage 1 zu DS 18/2019\nMaßstab: 1:2.500",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:40:05.682Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 58
+  }
 }

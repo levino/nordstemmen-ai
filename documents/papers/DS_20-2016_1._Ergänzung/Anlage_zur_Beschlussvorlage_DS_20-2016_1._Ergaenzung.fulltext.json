@@ -1,8 +1,18 @@
 {
   "file_hash": "696b69f7d237cdce2c6dd3a9bb040afc239cdb7ad647cb5c163463be543da899",
   "filename": "Anlage_zur_Beschlussvorlage_DS_20-2016_1._Ergaenzung.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage zur\nDS 20/2016 -\n1. Ergänzung\nGemeine Nordstemmen\nBushaltestellen - Sammelantrag\n\nÜbersicht Kostenschätzung\n\n| | |\n| :------------------------------------------------------ | :-------------- |\n| 1. Nordstemmen - Mensing \"Burgstemmer Straße\" - Nordseite | 18.000,00 €     |\n| 2. Nordstemmen - Mensing \"Burgstemmer Straße\" - Südseite | 19.000,00 €     |\n| 3. Nordstemmen - Rathaus \"Hauptstraße\" - Westseite     | 31.000,00 €     |\n| 4. Nordstemmen - Rathaus \"Hauptstraße\" - Ostseite      | 33.000,00 €     |\n| 5. Mahlerten \"Hildesheimer Straße\" - Nordseite         | 28.000,00 €     |\n| 6. Mahlerten \"Hildesheimer Straße\" - Südseite          | 30.000,00 €     |\n| 7. Klein Escherde \"Akazienstraße\"                      | 18.000,00 €     |\n| 8. Groß Escherde - Nobiskrug \"Stöckumer Straße\" (kleine Lösung) | 15.000,00 €     |\n| **Bauausgaben***                                        | **192.000,00 €** |\n\n*) Bruttobaukosten ohne Grunderwerb, Ingenieurhonorar, Baugrunduntersuchung, Beweissicherung\n\nAufgestellt:\nHildesheim, 04.03.2016\n\ningenieurburo\nsehe\nBirnbaurnskamp 10\n31139 Hildesheim\nTel.: 05121-9236-0\nFax: 05121-92 36 36"
+    }
+  ],
+  "full_text": "Anlage zur\nDS 20/2016 -\n1. Ergänzung\nGemeine Nordstemmen\nBushaltestellen - Sammelantrag\n\nÜbersicht Kostenschätzung\n\n| | |\n| :------------------------------------------------------ | :-------------- |\n| 1. Nordstemmen - Mensing \"Burgstemmer Straße\" - Nordseite | 18.000,00 €     |\n| 2. Nordstemmen - Mensing \"Burgstemmer Straße\" - Südseite | 19.000,00 €     |\n| 3. Nordstemmen - Rathaus \"Hauptstraße\" - Westseite     | 31.000,00 €     |\n| 4. Nordstemmen - Rathaus \"Hauptstraße\" - Ostseite      | 33.000,00 €     |\n| 5. Mahlerten \"Hildesheimer Straße\" - Nordseite         | 28.000,00 €     |\n| 6. Mahlerten \"Hildesheimer Straße\" - Südseite          | 30.000,00 €     |\n| 7. Klein Escherde \"Akazienstraße\"                      | 18.000,00 €     |\n| 8. Groß Escherde - Nobiskrug \"Stöckumer Straße\" (kleine Lösung) | 15.000,00 €     |\n| **Bauausgaben***                                        | **192.000,00 €** |\n\n*) Bruttobaukosten ohne Grunderwerb, Ingenieurhonorar, Baugrunduntersuchung, Beweissicherung\n\nAufgestellt:\nHildesheim, 04.03.2016\n\ningenieurburo\nsehe\nBirnbaurnskamp 10\n31139 Hildesheim\nTel.: 05121-9236-0\nFax: 05121-92 36 36",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:46:40.826Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 468
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "8b8b7d0f39a239d58d1fb320e41181037ce8330843c01ba80749acb01af481ad",
   "filename": "Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Ein Bebauungsplanentwurf für das Gebiet \"Mühlenweg - Poppenburg\" in Burgstemmen, Nordstemmen, der bestehende Gebäude, geplante Straßen, Grundstücksteilungen, Bepflanzungen und öffentliche/private Grünflächen mit Regenrückhaltebecken und Lärmschutzwällen darstellt.]\nANLAGE 1\nzur Begründung\nORTSCHAFT BURGSTEMMEN\nGEMEINDE NORDSTEMMEN\nBEBAUUNGSPLAN NR. 0411\n\"MÜHLENWEG - POPPENBURG\"\nBEBAUUNGSENTWURF\nAuslegeexemplar\n0 10 20 30 40 50 60 70 80 90 100 Meter\nPLANUNGSBÜRO SRL WEBER\nSPINOZASTRASSE 1,\n30625 HANNOVER"
+    }
+  ],
+  "full_text": "[Ein Bebauungsplanentwurf für das Gebiet \"Mühlenweg - Poppenburg\" in Burgstemmen, Nordstemmen, der bestehende Gebäude, geplante Straßen, Grundstücksteilungen, Bepflanzungen und öffentliche/private Grünflächen mit Regenrückhaltebecken und Lärmschutzwällen darstellt.]\nANLAGE 1\nzur Begründung\nORTSCHAFT BURGSTEMMEN\nGEMEINDE NORDSTEMMEN\nBEBAUUNGSPLAN NR. 0411\n\"MÜHLENWEG - POPPENBURG\"\nBEBAUUNGSENTWURF\nAuslegeexemplar\n0 10 20 30 40 50 60 70 80 90 100 Meter\nPLANUNGSBÜRO SRL WEBER\nSPINOZASTRASSE 1,\n30625 HANNOVER",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:45:09.872Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 204
+  }
 }

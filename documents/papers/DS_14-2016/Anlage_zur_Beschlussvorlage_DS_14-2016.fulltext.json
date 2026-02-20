@@ -1,8 +1,18 @@
 {
   "file_hash": "4fb32004e9056df0ae184fe328d620ef25b169e9d8efb5514528ba949190576c",
   "filename": "Anlage_zur_Beschlussvorlage_DS_14-2016.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "p3/3\n[Ein Katasterplan, der Grundstücke, Straßenverläufe und ein Regenrückhaltebecken zeigt.]\nMaßstab: 1:1.000\nPlanvermerk: Hintergrund: Auszug aus den Geobasisdaten der LGLN\n©2015 LGLN\n114/31 14/7"
+    }
+  ],
+  "full_text": "p3/3\n[Ein Katasterplan, der Grundstücke, Straßenverläufe und ein Regenrückhaltebecken zeigt.]\nMaßstab: 1:1.000\nPlanvermerk: Hintergrund: Auszug aus den Geobasisdaten der LGLN\n©2015 LGLN\n114/31 14/7",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:35:52.606Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 87
+  }
 }

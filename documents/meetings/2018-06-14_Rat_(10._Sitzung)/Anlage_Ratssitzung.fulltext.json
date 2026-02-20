@@ -1,8 +1,18 @@
 {
   "file_hash": "e66c7ac79b7a6bf7b48c2bb6d7c6c7cb484aec76be459c7ab6c6a415c32f5a21",
   "filename": "Anlage_Ratssitzung.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Eva Pletz\nAuf der Leege 10 d\n31171 Nordstemmen\n\nAn den\nBürgermeister der Gemeinde Nordstemmen\nHerrn Pallentin\n\nGemeinde Nordstemmen\n07. Juni 2018\nBEL 1\n\nbetrifft: Antrag der Fraktion Bündnis 90/Die Grünen zur Sitzung des Rates am\n14..06.2018\n\nSehr geehrter Herr Pallentin,\n06.06.2018\n\nHiermit beantrage ich für die Fraktion Bündnis90/Die Grünen gemäß § 19 der\nGeschäftsordnung des Rates der Gemeinde Nordstemmen für die Ratssitzung\nam 14. Juni 2018 als weiteren Tagesordnungspunkt eine\n\nAktuelle Stunde zum Thema:\n\n„Straßenausbaubeiträge in Nordstemmen\"\n\naufzunehmen.\n\nIch bitte, diesen Antrag den Fraktionsvorsitzenden, dem Ratsvorsitzendem und\ndem Ratsherrn Lassen zuzuleiten.\n\nMit freundlichen Grüßen\n\nEva Pletz\n[Unterschrift]\nFraktionsvorsitzende der Fraktion Bündnis 90/Die Grünen"
+    }
+  ],
+  "full_text": "Eva Pletz\nAuf der Leege 10 d\n31171 Nordstemmen\n\nAn den\nBürgermeister der Gemeinde Nordstemmen\nHerrn Pallentin\n\nGemeinde Nordstemmen\n07. Juni 2018\nBEL 1\n\nbetrifft: Antrag der Fraktion Bündnis 90/Die Grünen zur Sitzung des Rates am\n14..06.2018\n\nSehr geehrter Herr Pallentin,\n06.06.2018\n\nHiermit beantrage ich für die Fraktion Bündnis90/Die Grünen gemäß § 19 der\nGeschäftsordnung des Rates der Gemeinde Nordstemmen für die Ratssitzung\nam 14. Juni 2018 als weiteren Tagesordnungspunkt eine\n\nAktuelle Stunde zum Thema:\n\n„Straßenausbaubeiträge in Nordstemmen\"\n\naufzunehmen.\n\nIch bitte, diesen Antrag den Fraktionsvorsitzenden, dem Ratsvorsitzendem und\ndem Ratsherrn Lassen zuzuleiten.\n\nMit freundlichen Grüßen\n\nEva Pletz\n[Unterschrift]\nFraktionsvorsitzende der Fraktion Bündnis 90/Die Grünen",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:21.888Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 273
+  }
 }

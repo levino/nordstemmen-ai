@@ -1,8 +1,18 @@
 {
   "file_hash": "814c30a922003a63ca2764dda0b49ff20d9f7278f9a7683643167fc75d2ad21e",
   "filename": "Protokoll_OR_Nordstemmen_2021_04_19_Anlage.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 1\nTOP 7\n19.04.2021\nJährlich wiederkehrende Koste des\nOrtsrates Nordstemmen\nbisher\naufgerundet ausgegeben\n\n| | aufgerundet | ausgegeben |\n| :---------------------------------- | :---------- | :---------- |\n| Senioren Fahrt | 1.200,00 € | |\n| Seniorenweihnachtsfeier | 900,00 € | |\n| Müllsammelaktion | 250,00 € | 0,00 € ausgefallen |\n| Bürgerscheibe u. Schiessen | 500,00 € | |\n| Blasorchester (Jahreskonzert) | 200,00 € | |\n| Feuerwehr/Blasorchester | 400,00 € | |\n| Jahresempfang der Kirchen JHV | 200,00 € | 0,00 € ausgefallen |\n| Schule Abschlussklassen | 100,00 € | |\n| Geburtstage (80. - 85. -90. - 91.....) | 2.000,00 € | |\n| Weltkindertag | 100,00 € | |\n| Volkstrauertag | 100,00 € | |\n| Ortsheimatpflegerin | 150,00 € | |\n| Hundekotbeute | 1.000,00 € | 20,77 € |\n| Jubiläen (Goldene Hochzeiten) | 280,00 € | 100,00 € |\n| Ortsbürgermeister z.b.V. | 500,00 € | 28,84 € |\n| Ferienpass | 100,00 € | 100,00 € |\n| Neubürger | 600,00 € | |\n| Zuschuss Fahrt Juz | 100,00 € | |\n| Zuschuss Kultur u. Brauchtum Flyer | 500,00 € | 0,00 € ausgefallen |\n| Stollenaktion | 1.000,00 € | 1.000,00 € |\n\nSumme\n10.180,00 € 1.249,61 €\n\nZuweisung 2021 8.771,50 €\nÜbertrag 2020 6.045,81 €\n\nSumme 2021 14.817,31 €\nAusgaben/geplant 2021 10.180,00 €\n\nnoch Verfügbar: ca. 4.637,31 €"
+    }
+  ],
+  "full_text": "Anlage 1\nTOP 7\n19.04.2021\nJährlich wiederkehrende Koste des\nOrtsrates Nordstemmen\nbisher\naufgerundet ausgegeben\n\n| | aufgerundet | ausgegeben |\n| :---------------------------------- | :---------- | :---------- |\n| Senioren Fahrt | 1.200,00 € | |\n| Seniorenweihnachtsfeier | 900,00 € | |\n| Müllsammelaktion | 250,00 € | 0,00 € ausgefallen |\n| Bürgerscheibe u. Schiessen | 500,00 € | |\n| Blasorchester (Jahreskonzert) | 200,00 € | |\n| Feuerwehr/Blasorchester | 400,00 € | |\n| Jahresempfang der Kirchen JHV | 200,00 € | 0,00 € ausgefallen |\n| Schule Abschlussklassen | 100,00 € | |\n| Geburtstage (80. - 85. -90. - 91.....) | 2.000,00 € | |\n| Weltkindertag | 100,00 € | |\n| Volkstrauertag | 100,00 € | |\n| Ortsheimatpflegerin | 150,00 € | |\n| Hundekotbeute | 1.000,00 € | 20,77 € |\n| Jubiläen (Goldene Hochzeiten) | 280,00 € | 100,00 € |\n| Ortsbürgermeister z.b.V. | 500,00 € | 28,84 € |\n| Ferienpass | 100,00 € | 100,00 € |\n| Neubürger | 600,00 € | |\n| Zuschuss Fahrt Juz | 100,00 € | |\n| Zuschuss Kultur u. Brauchtum Flyer | 500,00 € | 0,00 € ausgefallen |\n| Stollenaktion | 1.000,00 € | 1.000,00 € |\n\nSumme\n10.180,00 € 1.249,61 €\n\nZuweisung 2021 8.771,50 €\nÜbertrag 2020 6.045,81 €\n\nSumme 2021 14.817,31 €\nAusgaben/geplant 2021 10.180,00 €\n\nnoch Verfügbar: ca. 4.637,31 €",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:03.586Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 654
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "525fca67a132cb9ac340edbb976063385997c0837f44107e082ca6e2a392374f",
   "filename": "Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "OR Nordstemmen 09.05.2023\nAnlage 2 TOP 5\n\n05.05.2023\nJährlich wiederkehrende Koste des\nbisher\nOrtsrates Nordstemmen\naufgerundet\nausgegeben\n\nSenioren Fahrt 1.300,00 €\nSeniorenweihnachtsfeier 800,00 €\nMüllsammelaktion 600,00 € 886,87 €\nBürgerscheibe u. Schiessen 500,00 €\nBlasorchester (Jahreskonzert) 100,00 € 100,00 €\nFeuerwehr/Blasorchester 200,00 € 0,00 €\nJahresempfang der Kirchen JHV 100,00 € 100,00 €\nSchule Abschlussklassen 100,00 €\nGeburtstage (80. - 85. -90. - 91.....) 1.700,00 € 413,20 €\nWeltkindertag 100,00 €\nVolkstrauertag 100,00 €\nOrtsheimatpflegerin 150,00 € 150,00 €\nHundekotbeute 500,00 €\nJubiläen (Goldene Hochzeiten) 400,00 €\nOrtsbürgermeister z.b.V. 300,00 € 100,00 €\nFerienpass 100,00 € 100,00 €\nNeubürger 700,00 € 95,80 €\nZuschuss Fahrt Juz 100,00 €\nZuschuss Kultur u. Brauchtum Flyer 500,00 € 500,00 €\nZusagen aus 2022\nMTV/Turnmatten 400,00 € 400,00 €\nStangen/Argentum 600,00 €\nTennisverein/ Schaukel 400,00 €\nFrau Berker/ Stolperrsteine 240,00 € 210,00 €\nSumme 9.990,00 € 3.055,87 €\n\nZuweisung 2023 8.900,00 €\nÜbertrag 2022 4.028,31 €\n\nSumme 2023 12.928,31 €\nAusgaben/geplant 2023 9.990,00 €\n\nnoch Verfügbar: ca. 2.938,31 €\n\nblau = ausgefallen"
+    }
+  ],
+  "full_text": "OR Nordstemmen 09.05.2023\nAnlage 2 TOP 5\n\n05.05.2023\nJährlich wiederkehrende Koste des\nbisher\nOrtsrates Nordstemmen\naufgerundet\nausgegeben\n\nSenioren Fahrt 1.300,00 €\nSeniorenweihnachtsfeier 800,00 €\nMüllsammelaktion 600,00 € 886,87 €\nBürgerscheibe u. Schiessen 500,00 €\nBlasorchester (Jahreskonzert) 100,00 € 100,00 €\nFeuerwehr/Blasorchester 200,00 € 0,00 €\nJahresempfang der Kirchen JHV 100,00 € 100,00 €\nSchule Abschlussklassen 100,00 €\nGeburtstage (80. - 85. -90. - 91.....) 1.700,00 € 413,20 €\nWeltkindertag 100,00 €\nVolkstrauertag 100,00 €\nOrtsheimatpflegerin 150,00 € 150,00 €\nHundekotbeute 500,00 €\nJubiläen (Goldene Hochzeiten) 400,00 €\nOrtsbürgermeister z.b.V. 300,00 € 100,00 €\nFerienpass 100,00 € 100,00 €\nNeubürger 700,00 € 95,80 €\nZuschuss Fahrt Juz 100,00 €\nZuschuss Kultur u. Brauchtum Flyer 500,00 € 500,00 €\nZusagen aus 2022\nMTV/Turnmatten 400,00 € 400,00 €\nStangen/Argentum 600,00 €\nTennisverein/ Schaukel 400,00 €\nFrau Berker/ Stolperrsteine 240,00 € 210,00 €\nSumme 9.990,00 € 3.055,87 €\n\nZuweisung 2023 8.900,00 €\nÜbertrag 2022 4.028,31 €\n\nSumme 2023 12.928,31 €\nAusgaben/geplant 2023 9.990,00 €\n\nnoch Verfügbar: ca. 2.938,31 €\n\nblau = ausgefallen",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:04:56.938Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 674
+  }
 }

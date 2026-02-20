@@ -1,8 +1,18 @@
 {
   "file_hash": "f4e7e79997deabe2645a89906d573be74747bb7220863505cab9ea4769c167ec",
   "filename": "OR_Klein_Escherde_1.Akazienstrasse_Schild_Halteverbot.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Foto einer Straße mit einem Verkehrszeichen für absolutes Haltverbot (Pfeil nach links) und einem Zusatzzeichen „Abschleppgefahr“.]"
+    }
+  ],
+  "full_text": "[Foto einer Straße mit einem Verkehrszeichen für absolutes Haltverbot (Pfeil nach links) und einem Zusatzzeichen „Abschleppgefahr“.]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:41.202Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 40
+  }
 }

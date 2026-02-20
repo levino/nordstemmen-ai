@@ -1,8 +1,18 @@
 {
   "file_hash": "6b1a9d24f7eae2aeafddb7690089e206bef8359e9013123ea09cd73df1ea3ff7",
   "filename": "FA_PBU_2018_05_31_Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Topographische Karte mit eingezeichneten Bereichen für Erneuerung und Auflassung im Raum Nordstemmen, Rössing, Barnten, Lauenstadt.]\n\nAnlage 1\nE 556491 m\nN 5785122 m\n\nN 5778596 m\n\n1:25.000\nE 552389 m\n\n© 2016 LGLN\nHintergrund: Auszug aus den Geobasisdaten der LGLN"
+    }
+  ],
+  "full_text": "[Topographische Karte mit eingezeichneten Bereichen für Erneuerung und Auflassung im Raum Nordstemmen, Rössing, Barnten, Lauenstadt.]\n\nAnlage 1\nE 556491 m\nN 5785122 m\n\nN 5778596 m\n\n1:25.000\nE 552389 m\n\n© 2016 LGLN\nHintergrund: Auszug aus den Geobasisdaten der LGLN",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:14.482Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 123
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "506fc296ceaddf863541093251b4a0ee57b304198a989ac04c5f8b8e6ed5ae1b",
   "filename": "Anlage_zur_Beschlussvorlage_DS_77-2007.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Ein Bebauungsplanentwurf, der ein Einzelhandelsgebiet mit Parkplätzen, einem Regenrückhaltebecken und Zufahrten darstellt.]\n\nBEBAUUNGSENTWURF\nGemeinde Nordstemmen\nOrtschaft Nordstemmen\nBebauungsplan Nr. 0125\n\"Mahlerter Straße -Nord\"\n1. Änderung\n\nÖffentliche Auslegung nach § 13 a BauGB\n\nPlanungsbüro SRL Weber Spinozastraße 1 30625 Hannover\nTelefon: (0511) 85.658.0 Fax: (0511) 85 658-99 eMail: srlweber@t-online.de\n\n0 10 20 40 60 80 m\n\nANLAGE 3\nzur Abwägung"
+    }
+  ],
+  "full_text": "[Ein Bebauungsplanentwurf, der ein Einzelhandelsgebiet mit Parkplätzen, einem Regenrückhaltebecken und Zufahrten darstellt.]\n\nBEBAUUNGSENTWURF\nGemeinde Nordstemmen\nOrtschaft Nordstemmen\nBebauungsplan Nr. 0125\n\"Mahlerter Straße -Nord\"\n1. Änderung\n\nÖffentliche Auslegung nach § 13 a BauGB\n\nPlanungsbüro SRL Weber Spinozastraße 1 30625 Hannover\nTelefon: (0511) 85.658.0 Fax: (0511) 85 658-99 eMail: srlweber@t-online.de\n\n0 10 20 40 60 80 m\n\nANLAGE 3\nzur Abwägung",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:21:17.290Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 199
+  }
 }

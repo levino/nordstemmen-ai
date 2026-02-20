@@ -1,8 +1,18 @@
 {
   "file_hash": "7f9c85ed8181a52bc1935f6b241b7d8c23163510f3f15ef420bde071fc371798",
   "filename": "OR_Heyersum_Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 2\nProtokoll OR Heyersum- uu-\n21.03.2022\n52\nOrtsrat\nHeyersum\n100\nJAHRE\nHEYERSUM\nMitteilung des Ortsbürgermeisters\n- Die Schaukastenanlage in der Hofstraße wurde am 04.07.2022 saniert\n- Es haben mehrere Veranstaltungen zum Dorfjubiläum stattgefunden,\nverschiedene Konzerte sowie die Zeitreise konnten besucht werden. Vielen\nDank an alle Organisatoren\n- Das Dorfwappen, welches bei einem Sturm im Februar zerstört wurde, konnte\ndurch engagierte Bürger wieder aufgebaut werden, Vielen Dank\n- Es gab ein Treffen der Ortsbürgermeister*innen und des Ortsvorstehers der\nGemeinde Nordstemmen, 2 Gemeinsame Anträge sind hier heraus entstanden,\nÜbernahme von Ortsrat mitteln in das nächste Jahr, sowie eine die Herausgabe\nvon Personendaten an die Ortsräte. Beide Anträge liegen dem Rat vor und\nbefinden sich in Beratung. Diese Treffen finden quartalsmäßig statt\n- Am 25.08.2022 habe ich mich mit der Schiedsperson aus Mahlerten getroffen,\nwelche aktuell auch die Vertretung von Heyersum übernimmt. Sie hat mir\nmitgeteilt, dass sie gerne mittelfristig das Amt in Heyersum niederlegen\nmöchte. Daher bitte ich interessierte Personen für das Schiedsamt in Heyersum\nsich bitte bei mir zu melden.\n- Im Oktober soll eine Ortsbegehung stattfinden.\n- Es gibt eine Gruppe bei SIGNAL um alle Heyersumer*innen zu verbinden und\neinen guten Informationsaustausch zu bekommen. Wer in diese Gruppe\neintreten möchte soll sich bitte bei mir melden.\n\nJonas Schefe\nOrtsbürgermeister"
+    }
+  ],
+  "full_text": "Anlage 2\nProtokoll OR Heyersum- uu-\n21.03.2022\n52\nOrtsrat\nHeyersum\n100\nJAHRE\nHEYERSUM\nMitteilung des Ortsbürgermeisters\n- Die Schaukastenanlage in der Hofstraße wurde am 04.07.2022 saniert\n- Es haben mehrere Veranstaltungen zum Dorfjubiläum stattgefunden,\nverschiedene Konzerte sowie die Zeitreise konnten besucht werden. Vielen\nDank an alle Organisatoren\n- Das Dorfwappen, welches bei einem Sturm im Februar zerstört wurde, konnte\ndurch engagierte Bürger wieder aufgebaut werden, Vielen Dank\n- Es gab ein Treffen der Ortsbürgermeister*innen und des Ortsvorstehers der\nGemeinde Nordstemmen, 2 Gemeinsame Anträge sind hier heraus entstanden,\nÜbernahme von Ortsrat mitteln in das nächste Jahr, sowie eine die Herausgabe\nvon Personendaten an die Ortsräte. Beide Anträge liegen dem Rat vor und\nbefinden sich in Beratung. Diese Treffen finden quartalsmäßig statt\n- Am 25.08.2022 habe ich mich mit der Schiedsperson aus Mahlerten getroffen,\nwelche aktuell auch die Vertretung von Heyersum übernimmt. Sie hat mir\nmitgeteilt, dass sie gerne mittelfristig das Amt in Heyersum niederlegen\nmöchte. Daher bitte ich interessierte Personen für das Schiedsamt in Heyersum\nsich bitte bei mir zu melden.\n- Im Oktober soll eine Ortsbegehung stattfinden.\n- Es gibt eine Gruppe bei SIGNAL um alle Heyersumer*innen zu verbinden und\neinen guten Informationsaustausch zu bekommen. Wer in diese Gruppe\neintreten möchte soll sich bitte bei mir melden.\n\nJonas Schefe\nOrtsbürgermeister",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:04:30.532Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 408
+  }
 }

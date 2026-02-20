@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "±\nAuszug Flächennutzungsplan\nArbeitspapier\n1:1.750 - so nicht veröffentlicht - Stand: 07.04.2021"
+      "text": "[Auszug aus einem Flächennutzungsplan mit farblich gekennzeichneten Flächen und eingetragenen Kürzeln.]\nAnlage 2 zu\nDS 35/2021\nStand: 07.04.2021\n1:1.750\nAuszug Flächennutzungsplan\nArbeitspapier\n- so nicht veröffentlicht -"
     }
   ],
-  "full_text": "±\nAuszug Flächennutzungsplan\nArbeitspapier\n1:1.750 - so nicht veröffentlicht - Stand: 07.04.2021"
+  "full_text": "[Auszug aus einem Flächennutzungsplan mit farblich gekennzeichneten Flächen und eingetragenen Kürzeln.]\nAnlage 2 zu\nDS 35/2021\nStand: 07.04.2021\n1:1.750\nAuszug Flächennutzungsplan\nArbeitspapier\n- so nicht veröffentlicht -",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:56:19.969Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 90
+  }
 }

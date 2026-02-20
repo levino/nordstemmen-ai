@@ -1,8 +1,18 @@
 {
   "file_hash": "58058f505da2668286bddf976987b0c02b285e0a2a61c7aabe48d1c08e46709a",
   "filename": "OR_Gross_Escherde_Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "OR Groß Escherde\nAnlage 2\n\nDatum Veranstaltung Veranstalter Ort\n\n07. Jan Tannenbaumsammlung Jugendfeuerwehr\n04. Feb Jahreshauptversammlung Freiwillige Feuerwehr Nobiskrug\n18. Feb Bürgerfrühstück KBV DGH\n25. Feb Jahreshauptversammlung Kleingärtner Nobiskrug\n06. Mrz Jahreshauptversammlung Heimatverein Nobiskrug\n11. Mrz Jahreshauptversammlung Sozialverband DGH\n17. Mrz Jahreshauptversammlung SPD DGH\n18. Mrz Umwelttag Heimatverein\n01. Apr Quizabend SPD DGH\n08. Apr Osterfeuer Freiwillige Feuerwehr Grillplatz\n16. Apr Konfirmation Kirche Kirche\n23. Apr Konfirmation Kirche Kirche\n30. Apr Maiveranstaltung KBV DGH\n01. Mai Maiveranstaltung KBV\n07.-11.05 5-Tagesfahrt SPD - AG 60+\n10. Mai Clemens Bittlinger, Konzert Kirche\n18.-21.05. Kirchweih in Eckersmühlen Freiwillige Feuerwehr\n11. Jun Dorfflohmarkt Heimatverein\n01. Jul Grillfest Sozialverband DGH\n16. Sep Boßeln Freiwillige Feuerwehr Feuerwehrhaus\n23. Sep Drachenbasteln (mit Eltern) SPD DGH\n01. Okt Maibaumeinholen KBV DGH\n03. Okt Drachenfest SPD Bolzplatz\n28. Okt Preisknobbeln Freiwillige Feuerwehr DGH\n04. Nov Braunkohlwanderung Heimatverein\n09. Nov Laternenumzug Kindergarten\n10. Nov Laternenumzug KBV\n19. Nov Volkstrauertag\n21. Nov Terminabsprache Ortsrat + Vereine DGH, Nobiskrug\n06. Dez Nikolaus Ortsrat DGH\n08. Dez Weihnachtsfeier Sozialverband DGH\n09. Dez Seniorenfeier Ortsrat, Kirche DGH\n09. Dez Weihnachtsfeier Freiwillige Feuerwehr\n24. Dez Kinderbetreuung Jugendfeuerwehr Feuerwehrhaus\n\nJeden 1. Donnerstag im Monat Fire-Abend der Freiwilligen Feuerwehr im Feuerwehrhaus.\n\nNoch nicht bestätigte Termine\n\n| ??      | Kinderveranstaltung | Heimatverein |               |\n| :------ | :------------------ | :----------- | :------------ |\n| 30. Sep | Apfeltag            | Heimatverein | Preglers Hof  |\n| 29. Sep | Apfelsammeln        | Heimatverein |               |\n| November| Braunkohlwanderung  | Heimatverein |               |"
+    }
+  ],
+  "full_text": "OR Groß Escherde\nAnlage 2\n\nDatum Veranstaltung Veranstalter Ort\n\n07. Jan Tannenbaumsammlung Jugendfeuerwehr\n04. Feb Jahreshauptversammlung Freiwillige Feuerwehr Nobiskrug\n18. Feb Bürgerfrühstück KBV DGH\n25. Feb Jahreshauptversammlung Kleingärtner Nobiskrug\n06. Mrz Jahreshauptversammlung Heimatverein Nobiskrug\n11. Mrz Jahreshauptversammlung Sozialverband DGH\n17. Mrz Jahreshauptversammlung SPD DGH\n18. Mrz Umwelttag Heimatverein\n01. Apr Quizabend SPD DGH\n08. Apr Osterfeuer Freiwillige Feuerwehr Grillplatz\n16. Apr Konfirmation Kirche Kirche\n23. Apr Konfirmation Kirche Kirche\n30. Apr Maiveranstaltung KBV DGH\n01. Mai Maiveranstaltung KBV\n07.-11.05 5-Tagesfahrt SPD - AG 60+\n10. Mai Clemens Bittlinger, Konzert Kirche\n18.-21.05. Kirchweih in Eckersmühlen Freiwillige Feuerwehr\n11. Jun Dorfflohmarkt Heimatverein\n01. Jul Grillfest Sozialverband DGH\n16. Sep Boßeln Freiwillige Feuerwehr Feuerwehrhaus\n23. Sep Drachenbasteln (mit Eltern) SPD DGH\n01. Okt Maibaumeinholen KBV DGH\n03. Okt Drachenfest SPD Bolzplatz\n28. Okt Preisknobbeln Freiwillige Feuerwehr DGH\n04. Nov Braunkohlwanderung Heimatverein\n09. Nov Laternenumzug Kindergarten\n10. Nov Laternenumzug KBV\n19. Nov Volkstrauertag\n21. Nov Terminabsprache Ortsrat + Vereine DGH, Nobiskrug\n06. Dez Nikolaus Ortsrat DGH\n08. Dez Weihnachtsfeier Sozialverband DGH\n09. Dez Seniorenfeier Ortsrat, Kirche DGH\n09. Dez Weihnachtsfeier Freiwillige Feuerwehr\n24. Dez Kinderbetreuung Jugendfeuerwehr Feuerwehrhaus\n\nJeden 1. Donnerstag im Monat Fire-Abend der Freiwilligen Feuerwehr im Feuerwehrhaus.\n\nNoch nicht bestätigte Termine\n\n| ??      | Kinderveranstaltung | Heimatverein |               |\n| :------ | :------------------ | :----------- | :------------ |\n| 30. Sep | Apfeltag            | Heimatverein | Preglers Hof  |\n| 29. Sep | Apfelsammeln        | Heimatverein |               |\n| November| Braunkohlwanderung  | Heimatverein |               |",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:04:40.037Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 587
+  }
 }

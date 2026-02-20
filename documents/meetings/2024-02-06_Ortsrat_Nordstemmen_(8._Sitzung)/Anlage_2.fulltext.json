@@ -1,8 +1,18 @@
 {
   "file_hash": "713e175089757052a20ab04af6dc7dd0d5bbe4905bba11c072dcc2427ddb26e5",
   "filename": "Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 2\n\n31.01.2024\nJährlich wiederkehrende Koste des\nOrtsrates Nordstemmen\nbisher\naufgerundet\nausgegeben\n\nSenioren Fahrt\n1.200,00 €\nSeniorenweihnachtsfeier\n700,00 €\nMüllsammelaktion\n600,00 €\nBürgerscheibe u. Schiessen\n500,00 €\nBlasorchester (Jahreskonzert)\n100,00 €\nFeuerwehr/Blasorchester\n200,00 €\n0,00 €\nJahresempfang der Kirchen JHV\n200,00 €\n0,00 €\nSchule Abschlussklassen\n100,00 €\nGeburtstage (80. - 85. -90. - 95)\n1.300,00 €\n80,00 €\nWeltkindertag\n100,00 €\nVolkstrauertag\n100,00 €\nOrtsheimatpflegerin\n150,00 €\n150,00 €\nHundekotbeute\n600,00 €\nJubiläen (Goldene Hochzeiten)\n400,00 €\nOrtsbürgermeister\nz.b.V.\n300,00 €\n100,00 €\nFerienpass\n100,00 €\nNeubürger\n500,00 €\nZuschuss Kultur u. Brauchtum Flyer\n500,00 €\nBürgerstammtisch\n200,00 €\nZusagen aus 2023\n1 Bank\n650,00 €\nSumme\n8.500,00 €\n\nZuweisung\n2024\n8.801,50 €\nÜbertrag\n2023\n2.989,36 €\nSumme\n2024\n11.790,86 €\n\nnoch Verfügbar:\nca.\n2.989,00 €"
+    }
+  ],
+  "full_text": "Anlage 2\n\n31.01.2024\nJährlich wiederkehrende Koste des\nOrtsrates Nordstemmen\nbisher\naufgerundet\nausgegeben\n\nSenioren Fahrt\n1.200,00 €\nSeniorenweihnachtsfeier\n700,00 €\nMüllsammelaktion\n600,00 €\nBürgerscheibe u. Schiessen\n500,00 €\nBlasorchester (Jahreskonzert)\n100,00 €\nFeuerwehr/Blasorchester\n200,00 €\n0,00 €\nJahresempfang der Kirchen JHV\n200,00 €\n0,00 €\nSchule Abschlussklassen\n100,00 €\nGeburtstage (80. - 85. -90. - 95)\n1.300,00 €\n80,00 €\nWeltkindertag\n100,00 €\nVolkstrauertag\n100,00 €\nOrtsheimatpflegerin\n150,00 €\n150,00 €\nHundekotbeute\n600,00 €\nJubiläen (Goldene Hochzeiten)\n400,00 €\nOrtsbürgermeister\nz.b.V.\n300,00 €\n100,00 €\nFerienpass\n100,00 €\nNeubürger\n500,00 €\nZuschuss Kultur u. Brauchtum Flyer\n500,00 €\nBürgerstammtisch\n200,00 €\nZusagen aus 2023\n1 Bank\n650,00 €\nSumme\n8.500,00 €\n\nZuweisung\n2024\n8.801,50 €\nÜbertrag\n2023\n2.989,36 €\nSumme\n2024\n11.790,86 €\n\nnoch Verfügbar:\nca.\n2.989,00 €",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:05:33.664Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 512
+  }
 }

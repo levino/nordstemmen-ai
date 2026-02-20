@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Niedersächsische Landesbehörde\nfür Straßenbau und Verkehr\nDezernat 22\nKorridore\n10"
+      "text": "Niedersächsische Landesbehörde\nfür Straßenbau und Verkehr\nDezernat 22\nNiedersachsen\nKorridore\n[Karte, die verschiedene mögliche Korridore (farbig markierte Linien) für eine Straßen- oder Bahntrasse in der Region um Nordstemmen, Mahlerten und Burgstemmen zeigt.]\nOR Heyersum\nAnlage 4 TOP 7\n10"
     }
   ],
-  "full_text": "Niedersächsische Landesbehörde\nfür Straßenbau und Verkehr\nDezernat 22\nKorridore\n10"
+  "full_text": "Niedersächsische Landesbehörde\nfür Straßenbau und Verkehr\nDezernat 22\nNiedersachsen\nKorridore\n[Karte, die verschiedene mögliche Korridore (farbig markierte Linien) für eine Straßen- oder Bahntrasse in der Region um Nordstemmen, Mahlerten und Burgstemmen zeigt.]\nOR Heyersum\nAnlage 4 TOP 7\n10",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:04:28.539Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 96
+  }
 }

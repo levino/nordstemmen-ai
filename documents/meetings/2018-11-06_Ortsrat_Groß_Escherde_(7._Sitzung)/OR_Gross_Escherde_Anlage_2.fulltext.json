@@ -1,8 +1,18 @@
 {
   "file_hash": "bfce02bbd31e0d8a2ab215dc9e46a5e27f6532e41de9119c04318fb79e3ed19f",
   "filename": "OR_Gross_Escherde_Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "TOP 10\nVerwendung der noch zur Verfügung stehenden Ortsratsmitteln 2018\nAnlage 2\n\n| | | |\n|---|---|---|\n| Ortsratsmittel laut Kontoauszug | | 1.604,26 € |\n| +Zubuchung von Klein Escherde | 214,50 € | 1.818,76 € |\n| +Bargeldbestand | 686,00 € | 2.504,76 € |\n\nzukünftige Ausgaben 2018 (geschätzt)\n\n| | | |\n|---|---|---|\n| Bestand | | 2.504,76 € |\n| -Volkstrauertag | -75,00 € | 2.429,76 € |\n| -Nikolaus | -200,00 € | 2.229,76 € |\n| -Seniorenveranstaltung | -750,00 € | 1.479,76 € |\n| -Überweisung Zuschuss zum Umwelttag an Heimatverein | -50,00 € | 1.429,76 € |\n| -eventuelle Anschaffung Weihnachtsbaum | ? | 1.429,76 € |\n\ndavon sind reserviert für geplante Ausgaben der Folgejahre\n\n| | | |\n|---|---|---|\n| -Panoramatafel am Grillplatz (Sammlung Kulturgut usw.) | 736,50 € | 693,26 € |\n\ndieser Betrag verbleibt auf dem OR-Konto und wird in das Jahre 2019 übertragen\n\n| | | |\n|---|---|---|\n| -KBV | 693,26 € | 0,00 € |\n\nder darüber hinaus am 28.12.2018 verbleibende Betrag ist auf das Konto des\n\"Verein für Kultur-und Brauchtumspflege in Groß Escherde\" zu überweisen"
+    }
+  ],
+  "full_text": "TOP 10\nVerwendung der noch zur Verfügung stehenden Ortsratsmitteln 2018\nAnlage 2\n\n| | | |\n|---|---|---|\n| Ortsratsmittel laut Kontoauszug | | 1.604,26 € |\n| +Zubuchung von Klein Escherde | 214,50 € | 1.818,76 € |\n| +Bargeldbestand | 686,00 € | 2.504,76 € |\n\nzukünftige Ausgaben 2018 (geschätzt)\n\n| | | |\n|---|---|---|\n| Bestand | | 2.504,76 € |\n| -Volkstrauertag | -75,00 € | 2.429,76 € |\n| -Nikolaus | -200,00 € | 2.229,76 € |\n| -Seniorenveranstaltung | -750,00 € | 1.479,76 € |\n| -Überweisung Zuschuss zum Umwelttag an Heimatverein | -50,00 € | 1.429,76 € |\n| -eventuelle Anschaffung Weihnachtsbaum | ? | 1.429,76 € |\n\ndavon sind reserviert für geplante Ausgaben der Folgejahre\n\n| | | |\n|---|---|---|\n| -Panoramatafel am Grillplatz (Sammlung Kulturgut usw.) | 736,50 € | 693,26 € |\n\ndieser Betrag verbleibt auf dem OR-Konto und wird in das Jahre 2019 übertragen\n\n| | | |\n|---|---|---|\n| -KBV | 693,26 € | 0,00 € |\n\nder darüber hinaus am 28.12.2018 verbleibende Betrag ist auf das Konto des\n\"Verein für Kultur-und Brauchtumspflege in Groß Escherde\" zu überweisen",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:38.566Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 480
+  }
 }

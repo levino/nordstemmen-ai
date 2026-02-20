@@ -1,8 +1,18 @@
 {
   "file_hash": "6cb62d4424846b759effcf62ce4350bf8954e904ff50e048a2eb4ed4e9ee6f3a",
   "filename": "OR_Barnten_Anlage_5.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Statistiken\nAlle Vorgänge vom 01.01.2021 um 00:00:00 bis 31.12.2021 um 23:59:59\nDatumsgruppierung: Jahresauswertung, Weitere Gruppierung: Tatvorwurf\nDatenfilter: Ortsname enthält Barnten\nAnlage 5\nRotoboll\nOR Barnten\n08.02.2022\n\n| Datum | Tatvorwurf | Anzahl | Betra |\n| :---- | :---------------------------------- | :----- | :---- |\n| 2021  |                                     | 49     | 675,00 |\n|       | Nicht auf Radfahrerweg              | 3      | 45,00 |\n| 112060 | Nicht auf reiner Fahrbahnrand       | 12     | 10,00 |\n| 112062 |                                     | 4      | 60,00 |\n| 112102 | Rest Radabstandbreite               | 7      | 105,00 |\n| 112272 | Abstand Kurve \\| Kreuzung (Land-)   | 2      | 20,00 |\n| 112292 | Vom Grundstückszufahrt              | 1      | 10,00 |\n| 112322 | Parken auf Schachtdeckel (Weg beend.) | 4      | 40,00 |\n| 112398 | Anhänger mehr als 14 Tage           | 2      | 20,00 |\n| 112402 | Parken auf Gehweg (alt)             | 3      | 60,00 |\n| 112454 | (neu)                               | 1      | 55,00 |\n| 113300 | Parken ohne Parkscheibe             | 12     | 140,00 |\n| 113320 | Parken abgel.                       | 1      | 10,00 |\n| 141015 | Verstoß Parkflächen markierung      | 1      | 10,00 |\n| 141312 | Parken in absoluten Halteverbot     | 7      | 90,00 |\n\n+ 3x Verstoß LKW in Wohngebiet geparket\n\nErstellt am 08.02.2022 13:40:01 von Cieplik\n1/1"
+    }
+  ],
+  "full_text": "Statistiken\nAlle Vorgänge vom 01.01.2021 um 00:00:00 bis 31.12.2021 um 23:59:59\nDatumsgruppierung: Jahresauswertung, Weitere Gruppierung: Tatvorwurf\nDatenfilter: Ortsname enthält Barnten\nAnlage 5\nRotoboll\nOR Barnten\n08.02.2022\n\n| Datum | Tatvorwurf | Anzahl | Betra |\n| :---- | :---------------------------------- | :----- | :---- |\n| 2021  |                                     | 49     | 675,00 |\n|       | Nicht auf Radfahrerweg              | 3      | 45,00 |\n| 112060 | Nicht auf reiner Fahrbahnrand       | 12     | 10,00 |\n| 112062 |                                     | 4      | 60,00 |\n| 112102 | Rest Radabstandbreite               | 7      | 105,00 |\n| 112272 | Abstand Kurve \\| Kreuzung (Land-)   | 2      | 20,00 |\n| 112292 | Vom Grundstückszufahrt              | 1      | 10,00 |\n| 112322 | Parken auf Schachtdeckel (Weg beend.) | 4      | 40,00 |\n| 112398 | Anhänger mehr als 14 Tage           | 2      | 20,00 |\n| 112402 | Parken auf Gehweg (alt)             | 3      | 60,00 |\n| 112454 | (neu)                               | 1      | 55,00 |\n| 113300 | Parken ohne Parkscheibe             | 12     | 140,00 |\n| 113320 | Parken abgel.                       | 1      | 10,00 |\n| 141015 | Verstoß Parkflächen markierung      | 1      | 10,00 |\n| 141312 | Parken in absoluten Halteverbot     | 7      | 90,00 |\n\n+ 3x Verstoß LKW in Wohngebiet geparket\n\nErstellt am 08.02.2022 13:40:01 von Cieplik\n1/1",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:47.224Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 618
+  }
 }

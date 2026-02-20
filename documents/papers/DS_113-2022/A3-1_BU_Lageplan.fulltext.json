@@ -1,8 +1,18 @@
 {
   "file_hash": "389b0a15c6884310e5bd9bb3d3045ab245e3d77b770321aa1a08b915c7247530",
   "filename": "A3-1_BU_Lageplan.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "# Kita Burgstemmen\n\n[Lageplan zeigt den Bestand der Kita Burgstemmen, einen geplanten Anbau sowie die umgebenden Flurstücke und Straßen.]\n\n## LEGENDE\nBESTAND\nABBRUCH\nNEUBAU\n\n## PETER APPEL ARCHITEKT\nDIPL.-ING. PETER APPEL\nHAFERKAMP 10\n31171 NORDSTEMMEN\n05069/964 84\n05069/964 86\ninfo@appel-architektur.de\nwww.appel-architektur.de\n\n## Projektdetails\n**BAUVORHABEN:** Erweiterung der Kidergärten Nordstemmen\n**OBJEKT:** Tiestraße 11\n31171 Nordstemmen/OT Burgstemmen\n\n**BAUHERR/IN:** Gemeinde Nordstemmen\n**EIGENTÜMER/IN:** Rathausstraße 3\n31171 Nordstemmen\n\n**BAUTEIL:** Lageplan\n\n**GEBÄUDETEIL:** Vorentwurf\n\n**MABSTAB:** M 1:500\n\n**DATUM:** 14.11.2022\n**BEARBEITER:** J.-P. Schäfer\n**ARCHITEKT:**\n**PLAN-NR:** - 1.0 V/a -\n\nA0004\n000010 10.21"
+    }
+  ],
+  "full_text": "# Kita Burgstemmen\n\n[Lageplan zeigt den Bestand der Kita Burgstemmen, einen geplanten Anbau sowie die umgebenden Flurstücke und Straßen.]\n\n## LEGENDE\nBESTAND\nABBRUCH\nNEUBAU\n\n## PETER APPEL ARCHITEKT\nDIPL.-ING. PETER APPEL\nHAFERKAMP 10\n31171 NORDSTEMMEN\n05069/964 84\n05069/964 86\ninfo@appel-architektur.de\nwww.appel-architektur.de\n\n## Projektdetails\n**BAUVORHABEN:** Erweiterung der Kidergärten Nordstemmen\n**OBJEKT:** Tiestraße 11\n31171 Nordstemmen/OT Burgstemmen\n\n**BAUHERR/IN:** Gemeinde Nordstemmen\n**EIGENTÜMER/IN:** Rathausstraße 3\n31171 Nordstemmen\n\n**BAUTEIL:** Lageplan\n\n**GEBÄUDETEIL:** Vorentwurf\n\n**MABSTAB:** M 1:500\n\n**DATUM:** 14.11.2022\n**BEARBEITER:** J.-P. Schäfer\n**ARCHITEKT:**\n**PLAN-NR:** - 1.0 V/a -\n\nA0004\n000010 10.21",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:33:11.375Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 326
+  }
 }

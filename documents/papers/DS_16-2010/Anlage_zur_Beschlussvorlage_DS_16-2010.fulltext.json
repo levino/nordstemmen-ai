@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage zu DS 16 / 2010\nAbwasserbeseitigung in der Ortslage von Heyersum:\nweiß = bereits vorhandene Trennung RW / SW\ngrün = Trennung RW / SW 1. Bauabschnitt, Ausbau K 507 „Gronauer Straße“\nlila = Trennung RW / SW 2. Bauabschnitt, übrige Ortslage"
+      "text": "[Karte, die den Entwurf zur Abwasserbeseitigung in der Ortslage von Heyersum zeigt, mit farblich markierten Bereichen für bestehende, erste und zweite Bauabschnitte der Trennung von Regenwasser und Schmutzwasser.]\nAnlage zu DS 16 / 2010\n\nAbwasserbeseitigung in der Ortslage von Heyersum:\nweiß = bereits vorhandene Trennung RW / SW\ngrün = Trennung RW / SW 1. Bauabschnitt, Ausbau K 507 „Gronauer Straße“\nlila = Trennung RW / SW 2. Bauabschnitt, übrige Ortslage"
     }
   ],
-  "full_text": "Anlage zu DS 16 / 2010\nAbwasserbeseitigung in der Ortslage von Heyersum:\nweiß = bereits vorhandene Trennung RW / SW\ngrün = Trennung RW / SW 1. Bauabschnitt, Ausbau K 507 „Gronauer Straße“\nlila = Trennung RW / SW 2. Bauabschnitt, übrige Ortslage"
+  "full_text": "[Karte, die den Entwurf zur Abwasserbeseitigung in der Ortslage von Heyersum zeigt, mit farblich markierten Bereichen für bestehende, erste und zweite Bauabschnitte der Trennung von Regenwasser und Schmutzwasser.]\nAnlage zu DS 16 / 2010\n\nAbwasserbeseitigung in der Ortslage von Heyersum:\nweiß = bereits vorhandene Trennung RW / SW\ngrün = Trennung RW / SW 1. Bauabschnitt, Ausbau K 507 „Gronauer Straße“\nlila = Trennung RW / SW 2. Bauabschnitt, übrige Ortslage",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:37:17.407Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 150
+  }
 }

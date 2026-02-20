@@ -1,8 +1,18 @@
 {
   "file_hash": "a120cb9ae3babbcec2212c4336389e0ece2484d8f39929e251b249a93886d423",
   "filename": "Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 2 zu OR Sitzung 12.05.2022\nOrtsrat\nHeyersum\n1000\nJAHRE\nHEYERSUM\nMitteilung des Ortsbürgermeisters\n\nBei einem Sturm im Februar sind mehrere Sturmschäden im Ort entstanden.\nSo wurde die Verkleidung der Altkleider-, Altglas- und Altpapier Container\nbeschädigt. Des Weiteren hat der Sturm die Ortseingangstafel in der\nGronauer Straße von Nordstemmen aus kommend zerstört. Diese soll\nvollständig ersetzt werden. Durch Engagierte Bürger unter der Führung von\nOrtsheimatpfleger Karl Heinz Brandes.\nAm 26.03 hat nach 2 Jahren Pause wieder die Müllsammelaktion in\nHeyersum stattgefunden. Ca. 45 Personen haben sich hier beteiligt. Bei\nschönstem Wetter wurde der Müll in und um Heyersum gesammelt. Danke\nan alle Helfer, und Danke an Henrike Bauermeister – Mund für die\nVerpflegung nach dem sammeln\nAm 02.04 hat die erste Baumpflanzaktion des Kulturvereins stattgefunden.\nDer Baum des Ortsrates wurde noch nicht gepflanzt, da die Vereinsallee erst\nim Herbst gepflanzt werden soll.\nDer Bauhof hat den Festplatz für kommende Veranstaltungen mit Schotter\nneu hergerichtet, Danke dafür.\nAm 16.04 hat ebenfalls nach 2 Jahren Pause wieder das Osterfeuer\nstattgefunden, Danke an den Kulturverein für die Ausrichtung.\nAm 30.05 wurde von Familie Kromer und Freunden der Maibaum aufgestellt\nund im Anschluss wieder in den Mai gefeiert.\nAm 06-08.05 hat das große Zeltfest anlässlich 1000 Jahre Heyersum\nstattgefunden. Es war ein sehr gelungenes Fest. Danke an alle beteiligten.\nHenrike Bauermeister – Mund hat sich mit einem Künstler bezüglich der\nStromkästen getroffen und erste Details geklärt.\nEs fand ein Treffen mit den Vereinen des Dorfes statt um wie in der letzte\nOR- Sitzung beschlossen über die Sanierung der Schaukasten- Anlage zu\nsprechen. Eine neue Ordnung der Kästen wird geprüft, ebenso steht im\nRaum die Beleuchtung auf Solar umzustellen.\n\nJonas Schefe\nOrtsbürgermeister Heyersum"
+    }
+  ],
+  "full_text": "Anlage 2 zu OR Sitzung 12.05.2022\nOrtsrat\nHeyersum\n1000\nJAHRE\nHEYERSUM\nMitteilung des Ortsbürgermeisters\n\nBei einem Sturm im Februar sind mehrere Sturmschäden im Ort entstanden.\nSo wurde die Verkleidung der Altkleider-, Altglas- und Altpapier Container\nbeschädigt. Des Weiteren hat der Sturm die Ortseingangstafel in der\nGronauer Straße von Nordstemmen aus kommend zerstört. Diese soll\nvollständig ersetzt werden. Durch Engagierte Bürger unter der Führung von\nOrtsheimatpfleger Karl Heinz Brandes.\nAm 26.03 hat nach 2 Jahren Pause wieder die Müllsammelaktion in\nHeyersum stattgefunden. Ca. 45 Personen haben sich hier beteiligt. Bei\nschönstem Wetter wurde der Müll in und um Heyersum gesammelt. Danke\nan alle Helfer, und Danke an Henrike Bauermeister – Mund für die\nVerpflegung nach dem sammeln\nAm 02.04 hat die erste Baumpflanzaktion des Kulturvereins stattgefunden.\nDer Baum des Ortsrates wurde noch nicht gepflanzt, da die Vereinsallee erst\nim Herbst gepflanzt werden soll.\nDer Bauhof hat den Festplatz für kommende Veranstaltungen mit Schotter\nneu hergerichtet, Danke dafür.\nAm 16.04 hat ebenfalls nach 2 Jahren Pause wieder das Osterfeuer\nstattgefunden, Danke an den Kulturverein für die Ausrichtung.\nAm 30.05 wurde von Familie Kromer und Freunden der Maibaum aufgestellt\nund im Anschluss wieder in den Mai gefeiert.\nAm 06-08.05 hat das große Zeltfest anlässlich 1000 Jahre Heyersum\nstattgefunden. Es war ein sehr gelungenes Fest. Danke an alle beteiligten.\nHenrike Bauermeister – Mund hat sich mit einem Künstler bezüglich der\nStromkästen getroffen und erste Details geklärt.\nEs fand ein Treffen mit den Vereinen des Dorfes statt um wie in der letzte\nOR- Sitzung beschlossen über die Sanierung der Schaukasten- Anlage zu\nsprechen. Eine neue Ordnung der Kästen wird geprüft, ebenso steht im\nRaum die Beleuchtung auf Solar umzustellen.\n\nJonas Schefe\nOrtsbürgermeister Heyersum",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:56.073Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 534
+  }
 }

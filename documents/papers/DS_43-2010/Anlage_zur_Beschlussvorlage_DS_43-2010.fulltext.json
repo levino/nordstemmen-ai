@@ -1,8 +1,18 @@
 {
   "file_hash": "6a1c26381605faa0ee11cfaf78abb3f9db393d06c566c1815d1d76afd41b8c81",
   "filename": "Anlage_zur_Beschlussvorlage_DS_43-2010.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 2 zu\nDS 43/2010\n\n[Topographische Karte mit eingezeichneten Trassenvarianten einer Hochspannungsleitung]\n\nRaumordnungsverfahren 380-KV-Leitung Mahle-Mecklar\nTrassenvarianten im Gebiet der Gemeinde Nordstemmen"
+    }
+  ],
+  "full_text": "Anlage 2 zu\nDS 43/2010\n\n[Topographische Karte mit eingezeichneten Trassenvarianten einer Hochspannungsleitung]\n\nRaumordnungsverfahren 380-KV-Leitung Mahle-Mecklar\nTrassenvarianten im Gebiet der Gemeinde Nordstemmen",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:03:39.066Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 75
+  }
 }

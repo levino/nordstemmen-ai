@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "E 554144 m\nm\n1397775\nN\nN\n5778366\nm\nE 554772 m\n§\n© 2018\n1:2.500\nHintergrund:Auszug aus den Geobasisdaten der LGLN"
+      "text": "[Eine Karte, die einen Teil der Ortschaft Mahlerten mit Straßen und Gebäuden zeigt, mit roten Markierungen und beschreibenden Anmerkungen.]\nN 5777931 m\nN\nerst im Kurvenbereich\nge Maße\nausreichende\nGehwegbreite\nE 554772 m\nAnlage 4 zur\nDS 6/2019\nN 5778366 m\nPrivatgrund müsste\neinbezogen werden,\nHausecke behindert Sicht\n1:2.500\nE 554144 m\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n©2018 LGLN"
     }
   ],
-  "full_text": "E 554144 m\nm\n1397775\nN\nN\n5778366\nm\nE 554772 m\n§\n© 2018\n1:2.500\nHintergrund:Auszug aus den Geobasisdaten der LGLN"
+  "full_text": "[Eine Karte, die einen Teil der Ortschaft Mahlerten mit Straßen und Gebäuden zeigt, mit roten Markierungen und beschreibenden Anmerkungen.]\nN 5777931 m\nN\nerst im Kurvenbereich\nge Maße\nausreichende\nGehwegbreite\nE 554772 m\nAnlage 4 zur\nDS 6/2019\nN 5778366 m\nPrivatgrund müsste\neinbezogen werden,\nHausecke behindert Sicht\n1:2.500\nE 554144 m\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n©2018 LGLN",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:12:59.474Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 169
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "80486227437819a177120e591a1c0d493c87596e44fcebb92584fce1aad38059",
   "filename": "Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Ein Lageplan, der ein Wohngebiet mit Straßen, Häusern, Gärten und öffentlichen Einrichtungen wie einem Friedhof und Spielplatz zeigt. Drei spezifische Bereiche sind nummeriert und mit Anmerkungen versehen.]\nAnlage 2\n\nTitel: Lageplan Mühlenweg\nInhalt: Anlage 2 zur Mitteilungsvorlage 02/2011\n100% Kostenübernahme durch Erschließungsträger\nausführende Stelle:\nBearbeiter:\nDatum: 01.02.2011\nMaßstab: 1:2000\n\n1 Aufstellflächen für Fußgänger vor Baubeginn\n2 Gehweg vor Baubeginn\n3 Gehweg im Zuge der Ausbauarbeiten"
+    }
+  ],
+  "full_text": "[Ein Lageplan, der ein Wohngebiet mit Straßen, Häusern, Gärten und öffentlichen Einrichtungen wie einem Friedhof und Spielplatz zeigt. Drei spezifische Bereiche sind nummeriert und mit Anmerkungen versehen.]\nAnlage 2\n\nTitel: Lageplan Mühlenweg\nInhalt: Anlage 2 zur Mitteilungsvorlage 02/2011\n100% Kostenübernahme durch Erschließungsträger\nausführende Stelle:\nBearbeiter:\nDatum: 01.02.2011\nMaßstab: 1:2000\n\n1 Aufstellflächen für Fußgänger vor Baubeginn\n2 Gehweg vor Baubeginn\n3 Gehweg im Zuge der Ausbauarbeiten",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:45:01.924Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 169
+  }
 }

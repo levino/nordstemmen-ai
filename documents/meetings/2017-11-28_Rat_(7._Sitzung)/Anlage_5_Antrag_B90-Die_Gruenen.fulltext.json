@@ -1,8 +1,18 @@
 {
   "file_hash": "67859808b0781128ccc748db330d7df28fdcd15f92130b7322d990f308d5d942",
   "filename": "Anlage_5_Antrag_B90-Die_Gruenen.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "TOP 18\nMitteilungen Bürgermeister\n\nAnlage. S\nProtokoll der Ratssitzung\n17.11.2017 vom 28.11.17\n\nFraktion Bündnis 90/ Die Grünen\n\n## Empfänger\nGemeinde Nordstemmen\n-Bürgermeister-\n\nGemeinde Nordstemmen\n20. Nov. 2017\nBM\nI\n\ndd. vom Evcil nicht\nder S.ben, vom 15. 12. fehl\nBitte Info an Herrn Loesel.\n\nAntrag der Fraktion Bündnis 90/ Die Grünen\nim Rat der Gemeinde\nNordstemmen\n\n## Betreff\nGleichstellungsbeauftragte\n\nSehr geehrter Herr Bürgermeister,\ndie Fraktion Bündnis 90/Die Grünen beantragt, die Gleichstellungsbeauftragte\nzu bitten, in einer der nächsten Ratssitzungen einen schriftlichen\nTätigkeitsbericht über die gemachten Aktivitäten, Probleme und Erfolge zu\ngeben und für eine Aussprache zur Verfügung zu stehen.\nMit freundlichen Grüßen\n\n[Unterschrift]\nLutz Loebel"
+    }
+  ],
+  "full_text": "TOP 18\nMitteilungen Bürgermeister\n\nAnlage. S\nProtokoll der Ratssitzung\n17.11.2017 vom 28.11.17\n\nFraktion Bündnis 90/ Die Grünen\n\n## Empfänger\nGemeinde Nordstemmen\n-Bürgermeister-\n\nGemeinde Nordstemmen\n20. Nov. 2017\nBM\nI\n\ndd. vom Evcil nicht\nder S.ben, vom 15. 12. fehl\nBitte Info an Herrn Loesel.\n\nAntrag der Fraktion Bündnis 90/ Die Grünen\nim Rat der Gemeinde\nNordstemmen\n\n## Betreff\nGleichstellungsbeauftragte\n\nSehr geehrter Herr Bürgermeister,\ndie Fraktion Bündnis 90/Die Grünen beantragt, die Gleichstellungsbeauftragte\nzu bitten, in einer der nächsten Ratssitzungen einen schriftlichen\nTätigkeitsbericht über die gemachten Aktivitäten, Probleme und Erfolge zu\ngeben und für eine Aussprache zur Verfügung zu stehen.\nMit freundlichen Grüßen\n\n[Unterschrift]\nLutz Loebel",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:00:54.324Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 263
+  }
 }

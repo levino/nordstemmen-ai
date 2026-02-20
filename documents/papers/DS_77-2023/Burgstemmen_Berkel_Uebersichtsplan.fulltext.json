@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "E 552413 m\nm\n1355775\nN\nN\n5776836\nm\nE 553234 m\n§\n© 2020\n1:5.000\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, © Bundesamt für Kartographie und Geodäsie"
+      "text": "[Luftbildaufnahme eines Gebiets mit Feldern, Bäumen und Gebäuden. Ein roter Umriss markiert ein bestimmtes Areal, und ein blaues Kreuz ist innerhalb dieses Areals platziert.]\nE 553234 m\nN 5776836 m\nN 5775531 m\n1:5.000\nE 552413 m\n© 2020 LGLN\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, © Bundesamt für Kartographie und Geodäsie"
     }
   ],
-  "full_text": "E 552413 m\nm\n1355775\nN\nN\n5776836\nm\nE 553234 m\n§\n© 2020\n1:5.000\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, © Bundesamt für Kartographie und Geodäsie"
+  "full_text": "[Luftbildaufnahme eines Gebiets mit Feldern, Bäumen und Gebäuden. Ein roter Umriss markiert ein bestimmtes Areal, und ein blaues Kreuz ist innerhalb dieses Areals platziert.]\nE 553234 m\nN 5776836 m\nN 5775531 m\n1:5.000\nE 552413 m\n© 2020 LGLN\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, © Bundesamt für Kartographie und Geodäsie",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:21:41.009Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 159
+  }
 }

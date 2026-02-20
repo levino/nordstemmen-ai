@@ -1,8 +1,18 @@
 {
   "file_hash": "83b7fec70a3d092ae09df5c0b1f21a5370fc3c1f7f97915b22c43a98e4c77635",
   "filename": "Anlage_Teil_3.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Karte, die den Flächennutzungsplan der Gemeinde Nordstemmen mit der 21. Änderung zeigt, inklusive Abstandsflächen zu Wald, Siedlung, Straße und B1, sowie einen bestehenden Vorrangstandort.]\nANLAGE ZUR\nDS 86/2014\nGemeinde Nordstemmen\nFlächennutzungsplan, 21. Änderung\n0 200 400 500 600 800 m\nN\nPlanungsbüro SRL Weber • Spinozastraße 1 • 30625 Hannover\nTelefon: (0511) 85 65 8-0 • Fax: (0511) 85 65 8-99 eMail: email@srl-weber.de"
+    }
+  ],
+  "full_text": "[Karte, die den Flächennutzungsplan der Gemeinde Nordstemmen mit der 21. Änderung zeigt, inklusive Abstandsflächen zu Wald, Siedlung, Straße und B1, sowie einen bestehenden Vorrangstandort.]\nANLAGE ZUR\nDS 86/2014\nGemeinde Nordstemmen\nFlächennutzungsplan, 21. Änderung\n0 200 400 500 600 800 m\nN\nPlanungsbüro SRL Weber • Spinozastraße 1 • 30625 Hannover\nTelefon: (0511) 85 65 8-0 • Fax: (0511) 85 65 8-99 eMail: email@srl-weber.de",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:25:44.366Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 188
+  }
 }

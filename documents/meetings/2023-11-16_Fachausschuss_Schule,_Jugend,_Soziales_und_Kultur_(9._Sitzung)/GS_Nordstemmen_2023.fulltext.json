@@ -1,8 +1,18 @@
 {
   "file_hash": "9a7f5637c3f432430ad619b6ea67e60eed9cf260ca50850af97d07cdd9226213",
   "filename": "GS_Nordstemmen_2023.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "GS Nordstemmen 2023\n[Karte, die die Ortschaften im Bereich Nordstemmen und die Verteilung von Zahlen darstellt]\nStand: 10.10.2023\nGrundschule Nordstemmen\nAdensen und\n| Klasse ▼ | Schülerzahl | Hallerburg | Barnten | Burgst. | Gr. Escherde | Heyersum ▼ | Kl. Escherde | Mahlerten | Nordst. | Rössing | sonstige |\n| :------- | :---------- | :--------- | :------ | :------ | :----------- | :---------- | :----------- | :-------- | :------ | :------ | :------- |\n| 1        | 67          | 0          | 0       | 14      | 1            | 8           | 2            | 2         | 40      | 0       | 0        |\n| 2        | 68          | 0          | 1       | 9       | 0            | 9           | 3            | 1         | 45      | 0       | 0        |\n| 3        | 73          | 0          | 0       | 12      | 0            | 5           | 1            | 2         | 50      | 0       | 3        |\n| 4        | 44          | 0          | 2       | 7       | 0            | 1           | 0            | 3         | 29      | 1       | 1        |\n| **Gesamt:** | **252** | **0**      | **3**   | **42**  | **1**        | **23**      | **6**        | **8**     | **164** | **1**   | **4**    |\nsonstige: Hasede (2), Wülfingen (1), Elze (1)"
+    }
+  ],
+  "full_text": "GS Nordstemmen 2023\n[Karte, die die Ortschaften im Bereich Nordstemmen und die Verteilung von Zahlen darstellt]\nStand: 10.10.2023\nGrundschule Nordstemmen\nAdensen und\n| Klasse ▼ | Schülerzahl | Hallerburg | Barnten | Burgst. | Gr. Escherde | Heyersum ▼ | Kl. Escherde | Mahlerten | Nordst. | Rössing | sonstige |\n| :------- | :---------- | :--------- | :------ | :------ | :----------- | :---------- | :----------- | :-------- | :------ | :------ | :------- |\n| 1        | 67          | 0          | 0       | 14      | 1            | 8           | 2            | 2         | 40      | 0       | 0        |\n| 2        | 68          | 0          | 1       | 9       | 0            | 9           | 3            | 1         | 45      | 0       | 0        |\n| 3        | 73          | 0          | 0       | 12      | 0            | 5           | 1            | 2         | 50      | 0       | 3        |\n| 4        | 44          | 0          | 2       | 7       | 0            | 1           | 0            | 3         | 29      | 1       | 1        |\n| **Gesamt:** | **252** | **0**      | **3**   | **42**  | **1**        | **23**      | **6**        | **8**     | **164** | **1**   | **4**    |\nsonstige: Hasede (2), Wülfingen (1), Elze (1)",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:05:40.585Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 447
+  }
 }

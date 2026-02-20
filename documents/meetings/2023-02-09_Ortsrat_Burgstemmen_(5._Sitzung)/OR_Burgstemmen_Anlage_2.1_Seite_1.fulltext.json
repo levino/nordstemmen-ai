@@ -1,8 +1,18 @@
 {
   "file_hash": "d1d4c56c9be501ac408ed49db2f722684646436b81d41bd9db564d6f7203f21c",
   "filename": "OR_Burgstemmen_Anlage_2.1_Seite_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "OR Burgstemmen\nAnlage 2 Teil 1\nipp\nGemeinde Nordstemmen\n5821-20-Hydraulische Modellierung\nOsterbach und Goldbach in Burgstemmen\nÜbersicht Abflusskapazität\nAnlage E - Lageplan Abflusskapazität\nBestand\n[Luftbildausschnitt mit einer Karte, die die hydraulische Abflusskapazität von Osterbach und Goldbach in Burgstemmen mit farbcodierten Abschnitten anzeigt.]\nGewässerabschnitte\nOsterbach oberstrom: km 1+710 – km 0+850\nOsterbach unterstrom: km 0+850 – km 0+000\nGoldbach: km 3+552 – km 3+000\nDurchlass Obere Straße: km 4+083 – km 4+000\nLeistungsfähigkeit\n< HQ5\n≥ HQ5 und < HQ100\n≥ HQ100\n1"
+    }
+  ],
+  "full_text": "OR Burgstemmen\nAnlage 2 Teil 1\nipp\nGemeinde Nordstemmen\n5821-20-Hydraulische Modellierung\nOsterbach und Goldbach in Burgstemmen\nÜbersicht Abflusskapazität\nAnlage E - Lageplan Abflusskapazität\nBestand\n[Luftbildausschnitt mit einer Karte, die die hydraulische Abflusskapazität von Osterbach und Goldbach in Burgstemmen mit farbcodierten Abschnitten anzeigt.]\nGewässerabschnitte\nOsterbach oberstrom: km 1+710 – km 0+850\nOsterbach unterstrom: km 0+850 – km 0+000\nGoldbach: km 3+552 – km 3+000\nDurchlass Obere Straße: km 4+083 – km 4+000\nLeistungsfähigkeit\n< HQ5\n≥ HQ5 und < HQ100\n≥ HQ100\n1",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:04:46.321Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 230
+  }
 }

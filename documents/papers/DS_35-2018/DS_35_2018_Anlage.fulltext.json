@@ -1,8 +1,18 @@
 {
   "file_hash": "34dd52f2efe953989481b7040be0f4c9e37d06cc3998a2e8bbfbfaec4d0dc585",
   "filename": "DS_35_2018_Anlage.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Karte einer Stadtansicht, die Straßen, Gebäude und farblich markierte Bereiche zeigt]\nE 553972 m\nN 5779321 m\nAnlage JS\nNenausweisung\nBestand Zone 30\nBestand\nVerkehrb. Bereich\n© 2016\nLGLN\n1:2.000\nE 553470 m\nHintergrund: Auszug aus den Geobasisdaten der LGLN\nN 5778973 m"
+    }
+  ],
+  "full_text": "[Karte einer Stadtansicht, die Straßen, Gebäude und farblich markierte Bereiche zeigt]\nE 553972 m\nN 5779321 m\nAnlage JS\nNenausweisung\nBestand Zone 30\nBestand\nVerkehrb. Bereich\n© 2016\nLGLN\n1:2.000\nE 553470 m\nHintergrund: Auszug aus den Geobasisdaten der LGLN\nN 5778973 m",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:56:21.330Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 128
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "f60af1cb0539655d792412fb3c9c4ec1121ee6f9842247a60623a435d20fa2fc",
   "filename": "Anlage_zur_Beschlussvorlage_DS_26-2012.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Katasterähnliche Karte mit Flurstücken, Gebäuden und Straßennamen]\nAnlage 1\nzur DS 26/2012"
+    }
+  ],
+  "full_text": "[Katasterähnliche Karte mit Flurstücken, Gebäuden und Straßennamen]\nAnlage 1\nzur DS 26/2012",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:50:50.238Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 41
+  }
 }

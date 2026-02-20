@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage 5\nVermögenshaushalt / Investitionsprogramm bis 2010\n6302.3500 Straßenausbaubeitrag 2007 100.000,00 Euro\n2008 150.000,00 Euro\n2009 60.000,00 Euro\n6302.3610 Zuweisungen vom Land für 2007 15.600,00 Euro\nDorferneuerungsmaßnahmen 2008 100.000,00 Euro\n2009 100.000,00 Euro\n6302.9441 Dorferneuerung Adensen 2007 200.000,00 Euro\n2008 400.000,00 Euro\n2009 60.000,00 Euro"
+      "text": "Anlage 5\n\nVermögenshaushalt / Investitionsprogramm bis 2010\n\n| | | | |\n| :-------- | :----------------------------------------------- | :--- | :---------------- |\n| 6302.3500 | Straßenausbaubeitrag                             | 2007 | 100.000,00 Euro   |\n|           |                                                  | 2008 | 150.000,00 Euro   |\n|           |                                                  | 2009 | 60.000,00 Euro    |\n| 6302.3610 | Zuweisungen vom Land für Dorferneuerungsmaßnahmen | 2007 | 15.600,00 Euro    |\n|           |                                                  | 2008 | 100.000,00 Euro   |\n|           |                                                  | 2009 | 100.000,00 Euro   |\n| 6302.9441 | Dorferneuerung Adensen                           | 2007 | 200.000,00 Euro   |\n|           |                                                  | 2008 | 400.000,00 Euro   |\n|           |                                                  | 2009 | 60.000,00 Euro    |"
     }
   ],
-  "full_text": "Anlage 5\nVermögenshaushalt / Investitionsprogramm bis 2010\n6302.3500 Straßenausbaubeitrag 2007 100.000,00 Euro\n2008 150.000,00 Euro\n2009 60.000,00 Euro\n6302.3610 Zuweisungen vom Land für 2007 15.600,00 Euro\nDorferneuerungsmaßnahmen 2008 100.000,00 Euro\n2009 100.000,00 Euro\n6302.9441 Dorferneuerung Adensen 2007 200.000,00 Euro\n2008 400.000,00 Euro\n2009 60.000,00 Euro"
+  "full_text": "Anlage 5\n\nVermögenshaushalt / Investitionsprogramm bis 2010\n\n| | | | |\n| :-------- | :----------------------------------------------- | :--- | :---------------- |\n| 6302.3500 | Straßenausbaubeitrag                             | 2007 | 100.000,00 Euro   |\n|           |                                                  | 2008 | 150.000,00 Euro   |\n|           |                                                  | 2009 | 60.000,00 Euro    |\n| 6302.3610 | Zuweisungen vom Land für Dorferneuerungsmaßnahmen | 2007 | 15.600,00 Euro    |\n|           |                                                  | 2008 | 100.000,00 Euro   |\n|           |                                                  | 2009 | 100.000,00 Euro   |\n| 6302.9441 | Dorferneuerung Adensen                           | 2007 | 200.000,00 Euro   |\n|           |                                                  | 2008 | 400.000,00 Euro   |\n|           |                                                  | 2009 | 60.000,00 Euro    |",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:32:05.626Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 340
+  }
 }

@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage 1 zu DS 50/2021\nGeltungsbereich\nIZbO.Satzung\n±\n1:2.000 Stand: 20.05.2021"
+      "text": "[Karte mit Bebauungsplan, der Straßennamen, Gebäudeumrisse und einen markierten Geltungsbereich einer IZbO-Satzung zeigt.]\nAnlage 1 zu DS 50/2021\n1:2.000\nStand: 20.05.2021"
     }
   ],
-  "full_text": "Anlage 1 zu DS 50/2021\nGeltungsbereich\nIZbO.Satzung\n±\n1:2.000 Stand: 20.05.2021"
+  "full_text": "[Karte mit Bebauungsplan, der Straßennamen, Gebäudeumrisse und einen markierten Geltungsbereich einer IZbO-Satzung zeigt.]\nAnlage 1 zu DS 50/2021\n1:2.000\nStand: 20.05.2021",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:07:12.268Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 79
+  }
 }

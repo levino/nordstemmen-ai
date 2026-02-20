@@ -1,8 +1,18 @@
 {
   "file_hash": "13d1e7d616ee8204871ed02d501157345908c8b21b47a30d5c8e729d13e98eb9",
   "filename": "OR-Mittel_Klein_Escherde.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 1\nOR Klein Escherde vom\n13.02.2020\n\nOrtsratmittel 2020\nfür Klein Escherde\n\n| | | |\n| :---------------- | :--------------------------------------------- | :--------- |\n| | Grundbetrag | 1.200,00 € |\n| | Einwohnerbetrag 581 Einwohner x 1,50 € | 878,50 € |\n| | Übertrag aus 2019 | 1.320,50 € |\n| | (Übertrag 1.704.17 € abzgl. 384,00€ noch für 2019) | |\n| | **Insgesamt verfügbar** | **3.399,00 €** |\n| Allgemeines | Geburtstage 17 x 12,00 € | 204,00 € |\n| | 3 Goldene Hochzeiten je 50,00 | 150,00 € |\n| | 1 Diamant Hochzeit je 60,00 | 60,00 € |\n| | | |\n| | Umwelttag | 100,00 € |\n| | | 514,00 € |\n| Kinder und Jugend | Kinderkino-Nachmittag mit Hüpfburg | 450,00 € |\n| | Martinsumzug | 250,00 € |\n| | | 700,00 € |\n| Vereinsarbeit | Feuerwehr Jugendabteilung | 50,00 € |\n| | Feuerwehr Aktiven | 50,00 € |\n| | Heimatverein | 100,00 € |\n| | Seniorenkreis | 50,00 € |\n| | | 250,00 € |\n| Sonstiges | Verabschiedung Dr. Köhler, Gr. E | 30,00 € |\n| | Volkstrauertag | 150,00 € |\n| | HMV-Kulturpflege | 100,00 € |\n| | Bürgerfrühstück -Einlad. Neubürger | 300,00 € |\n| | Tisch für Sitzplatz Teichstrasse | 250,00 € |\n| | | |\n| | Kleine Reparaturen / Ersatzbescha. | 150,00 € |\n| | | |\n| | besond. Verwendung (u.a.Jubiläen) | 50,00 € |\n| | Für Kleinmaterial/Kopiergeld | 100,00 € |\n| | | 1.130,00 € |\n| | Ansparung für eine Geschwindigkeitsmessanlage | 805,00 € |\n| | **Gesamtbetrag Haushaltsmittel** | **3.399,00 €** |"
+    }
+  ],
+  "full_text": "Anlage 1\nOR Klein Escherde vom\n13.02.2020\n\nOrtsratmittel 2020\nfür Klein Escherde\n\n| | | |\n| :---------------- | :--------------------------------------------- | :--------- |\n| | Grundbetrag | 1.200,00 € |\n| | Einwohnerbetrag 581 Einwohner x 1,50 € | 878,50 € |\n| | Übertrag aus 2019 | 1.320,50 € |\n| | (Übertrag 1.704.17 € abzgl. 384,00€ noch für 2019) | |\n| | **Insgesamt verfügbar** | **3.399,00 €** |\n| Allgemeines | Geburtstage 17 x 12,00 € | 204,00 € |\n| | 3 Goldene Hochzeiten je 50,00 | 150,00 € |\n| | 1 Diamant Hochzeit je 60,00 | 60,00 € |\n| | | |\n| | Umwelttag | 100,00 € |\n| | | 514,00 € |\n| Kinder und Jugend | Kinderkino-Nachmittag mit Hüpfburg | 450,00 € |\n| | Martinsumzug | 250,00 € |\n| | | 700,00 € |\n| Vereinsarbeit | Feuerwehr Jugendabteilung | 50,00 € |\n| | Feuerwehr Aktiven | 50,00 € |\n| | Heimatverein | 100,00 € |\n| | Seniorenkreis | 50,00 € |\n| | | 250,00 € |\n| Sonstiges | Verabschiedung Dr. Köhler, Gr. E | 30,00 € |\n| | Volkstrauertag | 150,00 € |\n| | HMV-Kulturpflege | 100,00 € |\n| | Bürgerfrühstück -Einlad. Neubürger | 300,00 € |\n| | Tisch für Sitzplatz Teichstrasse | 250,00 € |\n| | | |\n| | Kleine Reparaturen / Ersatzbescha. | 150,00 € |\n| | | |\n| | besond. Verwendung (u.a.Jubiläen) | 50,00 € |\n| | Für Kleinmaterial/Kopiergeld | 100,00 € |\n| | | 1.130,00 € |\n| | Ansparung für eine Geschwindigkeitsmessanlage | 805,00 € |\n| | **Gesamtbetrag Haushaltsmittel** | **3.399,00 €** |",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:02:29.044Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 681
+  }
 }

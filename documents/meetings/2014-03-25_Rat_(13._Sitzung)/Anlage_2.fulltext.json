@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage =\n\nFachbereich 2\n- Finanzen - 17.04.14\n\nVermerk\n\nGebäude in massiver Bauweise werden über 90 Jahre abgeschrieben.\n\nGem. § 47 Abs. 3 GemHKVO gibt das Nds. Ministerium für Inneres Tabellen für die\nbetriebsgewöhnliche Nutzungsdauer vor. Von dieser kann nur in begründeten\nAusnahmefällen abgewichen werden.\n\nFür Einbauten wie Heizungsanlagen und Küchen gilt eine Nutzungsdauer von 18 Jahren.\n\nhoo K\n"
+      "text": "-Anlage 2 -\n\nFachbereich 2\n- Finanzen -\n\n17.04.14\n\nVermerk\n\nGebäude in massiver Bauweise werden über 90 Jahre abgeschrieben.\n\nGem. § 47 Abs. 3 GemHKVO gibt das Nds. Ministerium für Inneres Tabellen für die\nbetriebsgewöhnliche Nutzungsdauer vor. Von dieser kann nur in begründeten\nAusnahmefällen abgewichen werden.\n\nFür Einbauten wie Heizungsanlagen und Küchen gilt eine Nutzungsdauer von 18 Jahren.\n\n[Unterschrift]"
     }
   ],
-  "full_text": "Anlage =\n\nFachbereich 2\n- Finanzen - 17.04.14\n\nVermerk\n\nGebäude in massiver Bauweise werden über 90 Jahre abgeschrieben.\n\nGem. § 47 Abs. 3 GemHKVO gibt das Nds. Ministerium für Inneres Tabellen für die\nbetriebsgewöhnliche Nutzungsdauer vor. Von dieser kann nur in begründeten\nAusnahmefällen abgewichen werden.\n\nFür Einbauten wie Heizungsanlagen und Küchen gilt eine Nutzungsdauer von 18 Jahren.\n\nhoo K\n"
+  "full_text": "-Anlage 2 -\n\nFachbereich 2\n- Finanzen -\n\n17.04.14\n\nVermerk\n\nGebäude in massiver Bauweise werden über 90 Jahre abgeschrieben.\n\nGem. § 47 Abs. 3 GemHKVO gibt das Nds. Ministerium für Inneres Tabellen für die\nbetriebsgewöhnliche Nutzungsdauer vor. Von dieser kann nur in begründeten\nAusnahmefällen abgewichen werden.\n\nFür Einbauten wie Heizungsanlagen und Küchen gilt eine Nutzungsdauer von 18 Jahren.\n\n[Unterschrift]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:50:13.261Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 135
+  }
 }

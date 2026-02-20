@@ -1,8 +1,18 @@
 {
   "file_hash": "56d0f0c4ad36e2125d6559e037f0004404f482d36e0d36dc3fcd6b564a49e287",
   "filename": "Anlage_1_OR_Klein_Escherde.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage A\nProtokoll OR Go. Eschere\nDer Ortsrat Klein Escherde lädt ein zum\n03.05.2019\nvon\nFRÜHSTÜCK\nMIT FREUNDEN\nGanz wichtig:\nTassen, Teller\nund Besteck\nsind bitte\nmitzubringen!\n3. Bürgerfrühstück\nSONNTAG, 02.06.19\nUM 10 UHR\nim Feuerwehrhaus\nDas Bürgerfrühstück soll über den Essensgenuss hinaus auch\nAnlass zum Kennen lernen und Klönen sein.\nGegen eine Spende organisiert der Ortsrat ein Buffet mit\nBrötchen, Marmelade, Wurst, Käse, Kaffee, Tee und Kakao.\nWer etwas Anderes bevorzugt, der möge sich bitte selbst\nseine Produkte mitbringen.\nGerne dürfen auch Sekt, Prosecco und o. ä. mitgebracht\nwerden.\nWir freuen uns auf zahlreiche Gäste!\nIhre Ortsratsmitglieder\nJutta Hartmann (Tel.: 96217)\nMarianne Rübesamen\nBernhard Sievers\nAndreas Wunnenberg\nPeter Locher (Tel.: 6874)\nRalph Wieduwilt\nChristoph Rosin\nÜber\nMarmeladenspenden\nwürden wir\nuns wieder sehr freuen!\nDamit für alle genügend\nBrötchen vorhanden sind,\nerbitten wir Anmeldungen\nbis zum\n27.05.2019\nAber auch\n„Kurzentschlossene\" sind\nherzlich willkommen!\nAnmeldungen nehmen alle\nOrtsratsmitglieder entgegen!"
+    }
+  ],
+  "full_text": "Anlage A\nProtokoll OR Go. Eschere\nDer Ortsrat Klein Escherde lädt ein zum\n03.05.2019\nvon\nFRÜHSTÜCK\nMIT FREUNDEN\nGanz wichtig:\nTassen, Teller\nund Besteck\nsind bitte\nmitzubringen!\n3. Bürgerfrühstück\nSONNTAG, 02.06.19\nUM 10 UHR\nim Feuerwehrhaus\nDas Bürgerfrühstück soll über den Essensgenuss hinaus auch\nAnlass zum Kennen lernen und Klönen sein.\nGegen eine Spende organisiert der Ortsrat ein Buffet mit\nBrötchen, Marmelade, Wurst, Käse, Kaffee, Tee und Kakao.\nWer etwas Anderes bevorzugt, der möge sich bitte selbst\nseine Produkte mitbringen.\nGerne dürfen auch Sekt, Prosecco und o. ä. mitgebracht\nwerden.\nWir freuen uns auf zahlreiche Gäste!\nIhre Ortsratsmitglieder\nJutta Hartmann (Tel.: 96217)\nMarianne Rübesamen\nBernhard Sievers\nAndreas Wunnenberg\nPeter Locher (Tel.: 6874)\nRalph Wieduwilt\nChristoph Rosin\nÜber\nMarmeladenspenden\nwürden wir\nuns wieder sehr freuen!\nDamit für alle genügend\nBrötchen vorhanden sind,\nerbitten wir Anmeldungen\nbis zum\n27.05.2019\nAber auch\n„Kurzentschlossene\" sind\nherzlich willkommen!\nAnmeldungen nehmen alle\nOrtsratsmitglieder entgegen!",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:02:01.623Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 369
+  }
 }

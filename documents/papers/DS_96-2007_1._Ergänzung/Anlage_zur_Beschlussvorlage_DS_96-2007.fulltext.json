@@ -3,9 +3,24 @@
   "filename": "Anlage_zur_Beschlussvorlage_DS_96-2007.pdf",
   "pages": [
     {
+      "page": 1,
+      "text": "[Ein Bebauungsentwurf für den Bebauungsplan Nr. 0506 „Gr. Escherde - Ost“, der bestehende und geplante Strukturen, Verkehrswege, Grünflächen und Parzellierungen zeigt.]\nAnlage 1 zur Begründung\nBEBAUUNGSENTWURF\nzum Bebauungsplan Nr. 0506 „Gr.Escherde - Ost\nPLANUNGSBÜRO SRL WEBER\nSPINOZASTRASSE 1.\n30625 HANNOVER\n0 10 20 40 60 m\n47"
+    },
+    {
+      "page": 2,
+      "text": "[Ein katasterähnlicher Plan, der Grundstücksgrenzen, Flurstücknummern, Wege und Gebäude in einem Teilbereich zeigt.]\nAnlage zu 1.2"
+    },
+    {
       "page": 3,
-      "text": "Anlage zu 2.1\n\n"
+      "text": "[Ein katasterähnlicher Plan, der große landwirtschaftliche Flächen, Straßen und einige Gebäude in einem ländlichen Bereich zeigt.]\nAnlage zu 2.1"
     }
   ],
-  "full_text": "Anlage zu 2.1\n\n"
+  "full_text": "[Ein Bebauungsentwurf für den Bebauungsplan Nr. 0506 „Gr. Escherde - Ost“, der bestehende und geplante Strukturen, Verkehrswege, Grünflächen und Parzellierungen zeigt.]\nAnlage 1 zur Begründung\nBEBAUUNGSENTWURF\nzum Bebauungsplan Nr. 0506 „Gr.Escherde - Ost\nPLANUNGSBÜRO SRL WEBER\nSPINOZASTRASSE 1.\n30625 HANNOVER\n0 10 20 40 60 m\n47\n\n[Ein katasterähnlicher Plan, der Grundstücksgrenzen, Flurstücknummern, Wege und Gebäude in einem Teilbereich zeigt.]\nAnlage zu 1.2\n\n[Ein katasterähnlicher Plan, der große landwirtschaftliche Flächen, Straßen und einige Gebäude in einem ländlichen Bereich zeigt.]\nAnlage zu 2.1",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:32:57.004Z",
+    "total_input_tokens": 1118,
+    "total_output_tokens": 226
+  }
 }

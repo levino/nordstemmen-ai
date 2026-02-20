@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Bekanntmachung\nder Gemeinde Nordstemmen\nEine Sitzung des Fachausschusses Schulen findet am Donnerstag, dem 19.02.2009, 18:00 Uhr,\nim Sitzungszimmer des Rathauses, Rathausstraße 3, statt.\nTagesordnung:\n1. Eröffnung der Sitzung\n2. Genehmigung der Niederschrift der Sitzung vom 19. November 2008\n3. Einwohnerfragestunde\n4. Sicherung des Fortbestandes der Grundschule Adensen\n5. Mitteilungen des Bürgermeisters\n6. Behandlung von Anfragen\n7. Anregungen\nNordstemmen, 09.02.2009\nGemeinde Nordstemmen\nDer Bürgermeister"
+      "text": "# Bekanntmachung\nder Gemeinde Nordstemmen\n\nEine Sitzung des Fachausschusses Schulen findet am Donnerstag, dem 19.02.2009, 18:00 Uhr,\nim Sitzungszimmer des Rathauses, Rathausstraße 3, statt.\n\n## Tagesordnung:\n1. Eröffnung der Sitzung\n2. Genehmigung der Niederschrift der Sitzung vom 19. November 2008\n3. Einwohnerfragestunde\n4. Sicherung des Fortbestandes der Grundschule Adensen\n5. Mitteilungen des Bürgermeisters\n6. Behandlung von Anfragen\n7. Anregungen\n\nNordstemmen, 09.02.2009\n\nGemeinde Nordstemmen\nDer Bürgermeister"
     }
   ],
-  "full_text": "Bekanntmachung\nder Gemeinde Nordstemmen\nEine Sitzung des Fachausschusses Schulen findet am Donnerstag, dem 19.02.2009, 18:00 Uhr,\nim Sitzungszimmer des Rathauses, Rathausstraße 3, statt.\nTagesordnung:\n1. Eröffnung der Sitzung\n2. Genehmigung der Niederschrift der Sitzung vom 19. November 2008\n3. Einwohnerfragestunde\n4. Sicherung des Fortbestandes der Grundschule Adensen\n5. Mitteilungen des Bürgermeisters\n6. Behandlung von Anfragen\n7. Anregungen\nNordstemmen, 09.02.2009\nGemeinde Nordstemmen\nDer Bürgermeister"
+  "full_text": "# Bekanntmachung\nder Gemeinde Nordstemmen\n\nEine Sitzung des Fachausschusses Schulen findet am Donnerstag, dem 19.02.2009, 18:00 Uhr,\nim Sitzungszimmer des Rathauses, Rathausstraße 3, statt.\n\n## Tagesordnung:\n1. Eröffnung der Sitzung\n2. Genehmigung der Niederschrift der Sitzung vom 19. November 2008\n3. Einwohnerfragestunde\n4. Sicherung des Fortbestandes der Grundschule Adensen\n5. Mitteilungen des Bürgermeisters\n6. Behandlung von Anfragen\n7. Anregungen\n\nNordstemmen, 09.02.2009\n\nGemeinde Nordstemmen\nDer Bürgermeister",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:37:59.917Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 177
+  }
 }

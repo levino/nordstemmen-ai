@@ -1,8 +1,18 @@
 {
   "file_hash": "0b6245359f66a8eb502aadbb0050a2b716267cdaa85b2e8bd35018fde47e30bc",
   "filename": "A1_Antrag_Gruppe__CDU-FDP.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "CDU/FDP Fraktion\nIm Gemeinderat Nordstemmen\nNordstemmen 24.14.2022\n\n## Empfänger\nFrau Bürgermeisterin\nNicole Dombrowski\nRathausstraße 3\n31171 Nordstemmen\n\n## Betreff\nBetr.: DS 109/2022\nGründung eines Waldkindergartens in der Gemeinde Nordstemmen!\n\nDie CDU/FDP Fraktion beantragt die Änderung des Beschlussvorschlages:\nDer neue Beschlussvorschlag soll lauten:\nIn der Gemeinde Nordstemmen soll die Möglichkeit eines Waldkindergarten zur Erweiterung des\nAngebotes der bestehenden Kindergärten geprüft werde!\nDie Verwaltung wird beauftragt mit möglichen Betreibern Gespräche über eine Trägerschaft eines\nWaldkindergarten zu führen.\nGleichzeitig soll die Verwaltung die Voraussetzungen für das Betreiben eines Waldkindergarten\nund die finanziellen Auswirkungen ermitteln.\n\nMit freundlichen Grüßen\n[Unterschrift]\nBernhard Flegel\nIm Namen der CDU/FDP Fraktion"
+    }
+  ],
+  "full_text": "CDU/FDP Fraktion\nIm Gemeinderat Nordstemmen\nNordstemmen 24.14.2022\n\n## Empfänger\nFrau Bürgermeisterin\nNicole Dombrowski\nRathausstraße 3\n31171 Nordstemmen\n\n## Betreff\nBetr.: DS 109/2022\nGründung eines Waldkindergartens in der Gemeinde Nordstemmen!\n\nDie CDU/FDP Fraktion beantragt die Änderung des Beschlussvorschlages:\nDer neue Beschlussvorschlag soll lauten:\nIn der Gemeinde Nordstemmen soll die Möglichkeit eines Waldkindergarten zur Erweiterung des\nAngebotes der bestehenden Kindergärten geprüft werde!\nDie Verwaltung wird beauftragt mit möglichen Betreibern Gespräche über eine Trägerschaft eines\nWaldkindergarten zu führen.\nGleichzeitig soll die Verwaltung die Voraussetzungen für das Betreiben eines Waldkindergarten\nund die finanziellen Auswirkungen ermitteln.\n\nMit freundlichen Grüßen\n[Unterschrift]\nBernhard Flegel\nIm Namen der CDU/FDP Fraktion",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:32:04.913Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 242
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "56a13aaa31d0ec0128032e1fdaf879d403923f6509671854f6d2b5d8401c8bde",
   "filename": "DS_43_2021_Anlage.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "DS 43/2021\nAnlage\nN 5779840 m\n\n[Karte zeigt eine Ansicht eines Gebiets mit landwirtschaftlichen Flächen, Wegen und bebauten Strukturen, wobei ein Bereich als „Hannoverscher Weg“ hervorgehoben ist.]\n\nN 5778970 m\nTitel\nInhalt \"Hannoverscher Weg\"\nInstitution Gemeinde Nordstemmen\nDatum\nMaßstab\n11.05.2021\n1:5.000\nBearbeiter\nTobias Cieplik (Gemeinde\nNordstemen)\n© 2020 LGLN\n\nE 554433 m\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, Bundesamt für Kartographie und Geodäsie\nE 555689 m"
+    }
+  ],
+  "full_text": "DS 43/2021\nAnlage\nN 5779840 m\n\n[Karte zeigt eine Ansicht eines Gebiets mit landwirtschaftlichen Flächen, Wegen und bebauten Strukturen, wobei ein Bereich als „Hannoverscher Weg“ hervorgehoben ist.]\n\nN 5778970 m\nTitel\nInhalt \"Hannoverscher Weg\"\nInstitution Gemeinde Nordstemmen\nDatum\nMaßstab\n11.05.2021\n1:5.000\nBearbeiter\nTobias Cieplik (Gemeinde\nNordstemen)\n© 2020 LGLN\n\nE 554433 m\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung\nNiedersachsen | © OpenStreetMap Contributors, Bundesamt für Kartographie und Geodäsie\nE 555689 m",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:04:09.466Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 218
+  }
 }

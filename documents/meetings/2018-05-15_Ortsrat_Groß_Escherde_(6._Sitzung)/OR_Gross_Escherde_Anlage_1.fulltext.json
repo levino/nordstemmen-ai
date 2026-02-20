@@ -1,8 +1,18 @@
 {
   "file_hash": "9008223b8fd559d134d5ef29ae092bc22b68eecaf834060e7819b59f0db576d4",
   "filename": "OR_Gross_Escherde_Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "ANLAGE 1\nOrtsrat Groß Escherde\n\nGemeinde Nordstemmen\nFachbereich 2\nSicherheit, Ordnung\nAz. (2) 12.40.20/03 Gr.E\n\nAuskunft erteilt: Herr Risch, Telefon: 05069 / 800-31\nNordstemmen, 12.03.2018\n\nVermerk:\nVorfahrtregelung an der Einmündung „Stöckumer Straße / Schulstraße\" in Groß Escherde;\nTOP 5 der Sitzung des Ortsrates Groß Escherde am 13.02.2018\n\nAbstimmung der Fachbereiche 2 + 3 am 09.03.2018\n\nDer vom Ortsrat Groß Escherde angeregte Einbau einer Bodenwelle im Zuge der vorfahrt-\nberechtigten Schulstraße kommt aufgrund der Funktion der Straße „Hauptverkehrsstraße mit\nLinienbusverkehr\" grundsätzlich nicht in Betracht. Hinzu kommt, dass auch die Belange der\nAnlieger in Bezug auf mögliche Lärmbelästigungen sowie des landwirtschaftlichen Verkehrs\nangemessen zu berücksichtigen sind.\n\nSeitens der Verwaltung wird daher für die Umgestaltung der Straße kein Handlungsbedarf bzw. nach\n§ 45 Abs. 9 StVO keine zwingende Notwendigkeit gesehen.\n\nAnzumerken ist in diesem Zusammenhang auch, dass bereits nach den Presseberichten über die\nletzte Sitzung des Ortsrates zwei negative Stellungnahmen eingegangen sind.\n\nSollte sich die derzeit noch „gefühlte\" Gefahr bestätigen besteht immer noch die Möglichkeit den\ngefährlichen Einmündungsbereich aus der „Zone 30\" herauszunehmen und eine Vorfahrtregelung\n(wie zu Zeiten der früheren Kreisstraße) zu treffen. Die Zone 30 würde dann aus Richtung B 1\nkommend jeweils hinter der genannten Einmündung beginnen."
+    }
+  ],
+  "full_text": "ANLAGE 1\nOrtsrat Groß Escherde\n\nGemeinde Nordstemmen\nFachbereich 2\nSicherheit, Ordnung\nAz. (2) 12.40.20/03 Gr.E\n\nAuskunft erteilt: Herr Risch, Telefon: 05069 / 800-31\nNordstemmen, 12.03.2018\n\nVermerk:\nVorfahrtregelung an der Einmündung „Stöckumer Straße / Schulstraße\" in Groß Escherde;\nTOP 5 der Sitzung des Ortsrates Groß Escherde am 13.02.2018\n\nAbstimmung der Fachbereiche 2 + 3 am 09.03.2018\n\nDer vom Ortsrat Groß Escherde angeregte Einbau einer Bodenwelle im Zuge der vorfahrt-\nberechtigten Schulstraße kommt aufgrund der Funktion der Straße „Hauptverkehrsstraße mit\nLinienbusverkehr\" grundsätzlich nicht in Betracht. Hinzu kommt, dass auch die Belange der\nAnlieger in Bezug auf mögliche Lärmbelästigungen sowie des landwirtschaftlichen Verkehrs\nangemessen zu berücksichtigen sind.\n\nSeitens der Verwaltung wird daher für die Umgestaltung der Straße kein Handlungsbedarf bzw. nach\n§ 45 Abs. 9 StVO keine zwingende Notwendigkeit gesehen.\n\nAnzumerken ist in diesem Zusammenhang auch, dass bereits nach den Presseberichten über die\nletzte Sitzung des Ortsrates zwei negative Stellungnahmen eingegangen sind.\n\nSollte sich die derzeit noch „gefühlte\" Gefahr bestätigen besteht immer noch die Möglichkeit den\ngefährlichen Einmündungsbereich aus der „Zone 30\" herauszunehmen und eine Vorfahrtregelung\n(wie zu Zeiten der früheren Kreisstraße) zu treffen. Die Zone 30 würde dann aus Richtung B 1\nkommend jeweils hinter der genannten Einmündung beginnen.",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:10.617Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 433
+  }
 }

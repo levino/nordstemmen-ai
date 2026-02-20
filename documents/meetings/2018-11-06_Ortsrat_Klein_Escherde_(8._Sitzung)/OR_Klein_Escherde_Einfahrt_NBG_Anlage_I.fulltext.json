@@ -1,8 +1,18 @@
 {
   "file_hash": "5133e33cb2055cfc2e360ba87f95fbd5c3f002af4cc7059f229ab13252fca221",
   "filename": "OR_Klein_Escherde_Einfahrt_NBG_Anlage_I.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Einfahrt ins NBG – Möglichkeit zur\nReduzierung der Geschwindigkeit"
+    }
+  ],
+  "full_text": "Einfahrt ins NBG – Möglichkeit zur\nReduzierung der Geschwindigkeit",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:30.014Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 21
+  }
 }

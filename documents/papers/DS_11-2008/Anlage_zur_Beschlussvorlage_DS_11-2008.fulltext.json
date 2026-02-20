@@ -1,8 +1,18 @@
 {
   "file_hash": "a14c92e91f739ed6bfd5fa87e9a0753b10f55ccda0e7189efd848587f43dae8d",
   "filename": "Anlage_zur_Beschlussvorlage_DS_11-2008.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Ein Vorentwurfsplan, der einen Straßenverlauf mit einer Kreuzung und angrenzenden Bebauungen zeigt, inklusive einiger Querschnittsansichten des Straßenverlaufs.]\nDS 11/2008\nAulage\n\nAchtung!\nLagevermessung in Gaulüger-Bystam, Lager 100\nHohenbeau: HFP 3524/544, HS 130-84.721.N.\nALK asd März 2000 von der Gem Nordstammen bekommen.\n\nVORPLANUNG\nGEMEINDE NORDSTEMMEN\nLogaplan\nAdressen\nRICHTER B+L\nEW-L01-00"
+    }
+  ],
+  "full_text": "[Ein Vorentwurfsplan, der einen Straßenverlauf mit einer Kreuzung und angrenzenden Bebauungen zeigt, inklusive einiger Querschnittsansichten des Straßenverlaufs.]\nDS 11/2008\nAulage\n\nAchtung!\nLagevermessung in Gaulüger-Bystam, Lager 100\nHohenbeau: HFP 3524/544, HS 130-84.721.N.\nALK asd März 2000 von der Gem Nordstammen bekommen.\n\nVORPLANUNG\nGEMEINDE NORDSTEMMEN\nLogaplan\nAdressen\nRICHTER B+L\nEW-L01-00",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:32:07.850Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 168
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "6edca70a18ad8fe4cb83e3853a147eccd1d26b14c8678bc30ad4f3873bc01ddf",
   "filename": "Anlage_1_zum_Protokoll_FA_Finanzen_20190618.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 1 zu TOP 5 des\nSitzung FA Finanzen am\n18.06.2019\n18.06.2019\n\nFraktion Bündnis90/Die Grünen\n\nKlimaschutzinitiative Bau\nDie Verwaltung wird beauftragt, aus den Erlösen aus Grundstücksverkäufen des\nBaugebiets Korbmacherstr. einen eigenständigen Fonds in Höhe von 10,00 €\naus jedem verkauften qm Bauland zu bilden.\n\nAus diesem Fonds werden klimaschützende Baumaßnahmen an einem zu\nerrichtenden Wohnhaus in diesem begrenzten Baugebiet in Höhe von maximal\n10,00 € pro qm Baugrundstück gefördert, wenn die Maßnahme mindestens die\nVorgaben von KFW Effizienzhäusern 55 erreicht und innerhalb von drei Jahren\nnach Erwerb des Grundstückes nachgewiesen wird.\n\nEndgültig nicht verbrauchte Erträge des Fonds dürfen nur für anderweitige\nenergieeffiziente Investitionen der Gemeinde verwendet werden."
+    }
+  ],
+  "full_text": "Anlage 1 zu TOP 5 des\nSitzung FA Finanzen am\n18.06.2019\n18.06.2019\n\nFraktion Bündnis90/Die Grünen\n\nKlimaschutzinitiative Bau\nDie Verwaltung wird beauftragt, aus den Erlösen aus Grundstücksverkäufen des\nBaugebiets Korbmacherstr. einen eigenständigen Fonds in Höhe von 10,00 €\naus jedem verkauften qm Bauland zu bilden.\n\nAus diesem Fonds werden klimaschützende Baumaßnahmen an einem zu\nerrichtenden Wohnhaus in diesem begrenzten Baugebiet in Höhe von maximal\n10,00 € pro qm Baugrundstück gefördert, wenn die Maßnahme mindestens die\nVorgaben von KFW Effizienzhäusern 55 erreicht und innerhalb von drei Jahren\nnach Erwerb des Grundstückes nachgewiesen wird.\n\nEndgültig nicht verbrauchte Erträge des Fonds dürfen nur für anderweitige\nenergieeffiziente Investitionen der Gemeinde verwendet werden.",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:02:06.996Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 246
+  }
 }

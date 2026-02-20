@@ -1,8 +1,18 @@
 {
   "file_hash": "5eb36ccdb0365b1580026652520e8201a69960b0274f105daadab2a289469855",
   "filename": "Anlage_1_Seite_2_Veraenderungsliste.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Mandant 42800 Gemeinde Nordstemmen Veränderungenliste zum Zeitraum 01.01.2022\nStellenplan 2022\nAbrechnungskreis\nSeite -2-\nStand 05.11.2021 11:44:32 P&I LOGA\ngedruckt 05.11.2021 11:44:32 P&I LOGA Rel.21.6/1.14.4.1/\nX1.6/P1.152\n\nGesamt Zusammenfassung\nStellenzugang in Stellenplan 2022: Stellenzugang: 0,29 (2,00 Zugänge - 1,71 Abgänge = 0,29 Stellen)\nVergleich Querschnitt 2021: 84,27 Stellen zum Querschnitt 2022: 84,56 Stellen = 0,29 Stellenzugang"
+    }
+  ],
+  "full_text": "Mandant 42800 Gemeinde Nordstemmen Veränderungenliste zum Zeitraum 01.01.2022\nStellenplan 2022\nAbrechnungskreis\nSeite -2-\nStand 05.11.2021 11:44:32 P&I LOGA\ngedruckt 05.11.2021 11:44:32 P&I LOGA Rel.21.6/1.14.4.1/\nX1.6/P1.152\n\nGesamt Zusammenfassung\nStellenzugang in Stellenplan 2022: Stellenzugang: 0,29 (2,00 Zugänge - 1,71 Abgänge = 0,29 Stellen)\nVergleich Querschnitt 2021: 84,27 Stellen zum Querschnitt 2022: 84,56 Stellen = 0,29 Stellenzugang",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:32:56.694Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 237
+  }
 }

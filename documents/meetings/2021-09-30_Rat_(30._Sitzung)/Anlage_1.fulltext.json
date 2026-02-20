@@ -1,8 +1,18 @@
 {
   "file_hash": "ab4d1f527c057cdfebcaef5a50759e6d363d927f708ae4b2039b2c42b1712191",
   "filename": "Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 1 zur Niederschrift der Sitzung\ndes Rates vom 30. September 2021\n\nBericht des Bürgermeisters in der Sitzung des Rates der Gemeinde Nordstemmen am\n30. September 2021 über:\n\na) ausgeführten Beschlüsse des Rates aus vorangegangenen Sitzungen\nsowie\nb) wichtige Beschlüsse des Verwaltungsausschusses\n\nZu a) vorangegangen Ratssitzung\n\n• Ratssitzung vom 29.06.2021:\n\nZu Punkt 21: Änderung der Straßenausbaubeitragssatzung vom 09.07.2008;\nAntrag der CDU-Ratsfraktion vom 05.03.2021 und Antrag der SPD-\nRatsfraktion vom 07.03.2021\n(DS 58/2021 - 1. Ergänzung)\n\nDie rechtskräftige Veröffentlichung der 1. Satzung zur Änderung ist im Amtsblatt Nr. 40 des\nLandkreises Hildesheim am 22.07.2021 erfolgt.\n\nZu Punkt 23: Bebauungsplan Nr. 0125 \"Mahlerter Straße - Nord, 4. (vereinfachte)\nÄnderung, Ortschaft Nordstemmen;\n- Satzungsbeschluss gem. § 10 Abs. 1 Baugesetzbuch (BauGB)\n(DS 48/2021)\n\nDie rechtskräftige Veröffentlichung der Satzung ist im Amtsblatt Nr. 37 des Landkreises\nHildesheim am 07.07.2021 erfolgt.\n\n• Ratssitzung vom 02.09.2021:\n\nZu TOP 5: 1. Nachtragshaushaltssatzung 2021 der Gemeinde Nordstemmen\n(DS 61/2021-2. Ergänzung)\n\nDie rechtskräftige Veröffentlichung der 1. Nachtragshaushaltssatzung für das Haushaltsjahr\n2021 ist im Amtsblatt Nr. 54 des Landkreises Hildesheim am 29.09.2021 erfolgt.\n\nZu b) Wichtige Beschlüsse des Verwaltungsausschusses seit der Ratssitzung vom\n02.09.2021\n\n./."
+    }
+  ],
+  "full_text": "Anlage 1 zur Niederschrift der Sitzung\ndes Rates vom 30. September 2021\n\nBericht des Bürgermeisters in der Sitzung des Rates der Gemeinde Nordstemmen am\n30. September 2021 über:\n\na) ausgeführten Beschlüsse des Rates aus vorangegangenen Sitzungen\nsowie\nb) wichtige Beschlüsse des Verwaltungsausschusses\n\nZu a) vorangegangen Ratssitzung\n\n• Ratssitzung vom 29.06.2021:\n\nZu Punkt 21: Änderung der Straßenausbaubeitragssatzung vom 09.07.2008;\nAntrag der CDU-Ratsfraktion vom 05.03.2021 und Antrag der SPD-\nRatsfraktion vom 07.03.2021\n(DS 58/2021 - 1. Ergänzung)\n\nDie rechtskräftige Veröffentlichung der 1. Satzung zur Änderung ist im Amtsblatt Nr. 40 des\nLandkreises Hildesheim am 22.07.2021 erfolgt.\n\nZu Punkt 23: Bebauungsplan Nr. 0125 \"Mahlerter Straße - Nord, 4. (vereinfachte)\nÄnderung, Ortschaft Nordstemmen;\n- Satzungsbeschluss gem. § 10 Abs. 1 Baugesetzbuch (BauGB)\n(DS 48/2021)\n\nDie rechtskräftige Veröffentlichung der Satzung ist im Amtsblatt Nr. 37 des Landkreises\nHildesheim am 07.07.2021 erfolgt.\n\n• Ratssitzung vom 02.09.2021:\n\nZu TOP 5: 1. Nachtragshaushaltssatzung 2021 der Gemeinde Nordstemmen\n(DS 61/2021-2. Ergänzung)\n\nDie rechtskräftige Veröffentlichung der 1. Nachtragshaushaltssatzung für das Haushaltsjahr\n2021 ist im Amtsblatt Nr. 54 des Landkreises Hildesheim am 29.09.2021 erfolgt.\n\nZu b) Wichtige Beschlüsse des Verwaltungsausschusses seit der Ratssitzung vom\n02.09.2021\n\n./.",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:20.292Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 548
+  }
 }

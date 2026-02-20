@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage 1 zu\nDS 96/2019\nPlanbereich\n±\nGeltungsbereich\nB-Plan Nr.0130\n1:2.500 \"Rauhe Wiese - West"
+      "text": "Anlage 1 zu\nDS 96/2019\n\n[Karte zeigt einen städtischen Bereich mit Straßen, Bahnlinien, Gebäuden und einem hervorgehobenen Planbereich.]\n\nGeltungsbereich\nB-Plan Nr.0130\n\"Rauhe Wiese - West\"\n\nMaßstab: 1:2.500"
     }
   ],
-  "full_text": "Anlage 1 zu\nDS 96/2019\nPlanbereich\n±\nGeltungsbereich\nB-Plan Nr.0130\n1:2.500 \"Rauhe Wiese - West"
+  "full_text": "Anlage 1 zu\nDS 96/2019\n\n[Karte zeigt einen städtischen Bereich mit Straßen, Bahnlinien, Gebäuden und einem hervorgehobenen Planbereich.]\n\nGeltungsbereich\nB-Plan Nr.0130\n\"Rauhe Wiese - West\"\n\nMaßstab: 1:2.500",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:33:41.231Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 85
+  }
 }

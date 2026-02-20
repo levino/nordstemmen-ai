@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage 1"
+      "text": "[Ein Lageplan zeigt ein Wohngebiet mit ausgewiesenen Baufeldern, Straßen und einer Hochwasserschutzgebietsgrenze. Eine Übersichtskarte ist ebenfalls enthalten.]\nBEBAUUNGSPLAN NR. 0603 \"AM TIERGARTEN \"\nORTSCHAFT HALLERBURG GEMEINDE NORDSTEMMEN\nMaßstab: Kartenmaßstab ca. 1: 6 000, Kartengrundlage DGK 5 Maßstab 1:5000, Verwendung durch Katasteramt Hildesheim gestattet (Grafischer Maßstab: 0 10 20 40 60 80 m)\nPLANUNGSBÜRO SRL WEBER SPINOZASTRASSE 1, 30625 HANNOVER"
     }
   ],
-  "full_text": "Anlage 1"
+  "full_text": "[Ein Lageplan zeigt ein Wohngebiet mit ausgewiesenen Baufeldern, Straßen und einer Hochwasserschutzgebietsgrenze. Eine Übersichtskarte ist ebenfalls enthalten.]\nBEBAUUNGSPLAN NR. 0603 \"AM TIERGARTEN \"\nORTSCHAFT HALLERBURG GEMEINDE NORDSTEMMEN\nMaßstab: Kartenmaßstab ca. 1: 6 000, Kartengrundlage DGK 5 Maßstab 1:5000, Verwendung durch Katasteramt Hildesheim gestattet (Grafischer Maßstab: 0 10 20 40 60 80 m)\nPLANUNGSBÜRO SRL WEBER SPINOZASTRASSE 1, 30625 HANNOVER",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:38:53.174Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 180
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "76b1b62f4be1050c707abbde92cd2e103a37c99d4a4828f5ecea935391e90833",
   "filename": "Anlage_2_zu_DS_20-2020.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 2 zu\nDS 20/2020\n\n[Eine technische Zeichnung, die Gebäudeansichten und einen Lageplan zeigt.]\n\nAnsichten, M 1:100\nAnsicht Süd\n\nAnsicht West\n\n10\n\nAnsicht Ost\n\nAnsicht Nord\n\nPLANZEICHENERKLÄRUNG\nN\nNeubau: Büro- und Wohngebäude\n\nNebengebäude: Carports, Abstellräume\n\nPrivate Grünfläche\n\nZufahrten\n\nZuwegungen, Terrassen\n\nPKW - Stellplätze\n\nMüllsammelplatz\n\nBaumplatzierung entsprechend der textlichen\nFestsetzungen\n\nHecke, Anpflanzung\n\nGrenze des räumlichen Geltungsbereichs des Vorhaben-\nund Erschließungsplans zum vorhabenbezogenen\nBebauungsplan Nr. 130 \"Rauhe Wiese - West\"\n\nGemeinde Nordstemmen\nOS Nordstemmen\n\nVorhaben- und Erschließungsplan\nzum vorhabenbezogenen\nBebauungsplan Nr. 130\n\"Rauhe Wiese - West\"\ngem. § 12 BauGB\n\nM 1:500\n\nVorbereitung Auslegungsbeschluss\n\nPlanungsbüro SRL Weber Spinozastraße 1 30625 Hannover\nTelefon: (0511) 85 65 8-0 Fax: (0511) 85 65 8-99 eMail: email@srl-weber.de"
+    }
+  ],
+  "full_text": "Anlage 2 zu\nDS 20/2020\n\n[Eine technische Zeichnung, die Gebäudeansichten und einen Lageplan zeigt.]\n\nAnsichten, M 1:100\nAnsicht Süd\n\nAnsicht West\n\n10\n\nAnsicht Ost\n\nAnsicht Nord\n\nPLANZEICHENERKLÄRUNG\nN\nNeubau: Büro- und Wohngebäude\n\nNebengebäude: Carports, Abstellräume\n\nPrivate Grünfläche\n\nZufahrten\n\nZuwegungen, Terrassen\n\nPKW - Stellplätze\n\nMüllsammelplatz\n\nBaumplatzierung entsprechend der textlichen\nFestsetzungen\n\nHecke, Anpflanzung\n\nGrenze des räumlichen Geltungsbereichs des Vorhaben-\nund Erschließungsplans zum vorhabenbezogenen\nBebauungsplan Nr. 130 \"Rauhe Wiese - West\"\n\nGemeinde Nordstemmen\nOS Nordstemmen\n\nVorhaben- und Erschließungsplan\nzum vorhabenbezogenen\nBebauungsplan Nr. 130\n\"Rauhe Wiese - West\"\ngem. § 12 BauGB\n\nM 1:500\n\nVorbereitung Auslegungsbeschluss\n\nPlanungsbüro SRL Weber Spinozastraße 1 30625 Hannover\nTelefon: (0511) 85 65 8-0 Fax: (0511) 85 65 8-99 eMail: email@srl-weber.de",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:47:02.855Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 346
+  }
 }

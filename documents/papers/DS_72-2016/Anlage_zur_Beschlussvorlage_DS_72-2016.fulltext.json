@@ -1,8 +1,22 @@
 {
   "file_hash": "913146724ec2526971a1f77765a34b9a1f2bb37186f86b570be96240a8d53ebc",
   "filename": "Anlage_zur_Beschlussvorlage_DS_72-2016.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Karte, die eine Konzentrationszone für Windenergie bei Adensen zeigt, mit Gemeindegrenzen, einem Landschaftsschutzgebiet, einem bestehenden Vorrangstandort, Straßen und Abständen zu Siedlungsflächen.]\nAnlage zu\nDS 72/2016\nN\nGemeinde Nordstemmen\nLandkreis Hildesheim\nFlächennutzungsplan\n21. Änderung\n(Konzentrationsflächen Windenergie)\nUmgrenzung der\nKonzentrationszone Adensen\nbei 900 m\nAbstand zur Siedlungsfläche\nMaßstab 1:12.500\nPlanungsbüro SRL Weber Spinozastraße 1 30625 Hannover\nTelefon: (0511) 85 65 8-0 Fax: (0511) 85 65 8-99 eMail: email@srl-weber.de"
+    },
+    {
+      "page": 2,
+      "text": "[Karte, die eine Konzentrationszone für Windenergie bei Rössing zeigt, mit Gemeindegrenzen, Eisenbahnstrecken, Ferngasleitungen, Sichtfeldbegrenzungen, archäologischen Bodenfunden, Straßen und Abständen zu Siedlungsflächen.]\nN\nGemeinde Nordstemmen\nLandkreis Hildesheim\nFlächennutzungsplan\n21. Änderung\n(Konzentrationsflächen Windenergie)\nUmgrenzung der\nKonzentrationszone Rössing\nbei 900 m\nAbstand zur Siedlungsfläche\nMaßstab 1:12.500\nPlanungsbüro SRL Weber Spinozastraße 1 30625 Hannover\nTelefon: (0511) 85 65 8-0 Fax: (0511) 85 65 8-99 eMail: email@srl-weber.de"
+    }
+  ],
+  "full_text": "[Karte, die eine Konzentrationszone für Windenergie bei Adensen zeigt, mit Gemeindegrenzen, einem Landschaftsschutzgebiet, einem bestehenden Vorrangstandort, Straßen und Abständen zu Siedlungsflächen.]\nAnlage zu\nDS 72/2016\nN\nGemeinde Nordstemmen\nLandkreis Hildesheim\nFlächennutzungsplan\n21. Änderung\n(Konzentrationsflächen Windenergie)\nUmgrenzung der\nKonzentrationszone Adensen\nbei 900 m\nAbstand zur Siedlungsfläche\nMaßstab 1:12.500\nPlanungsbüro SRL Weber Spinozastraße 1 30625 Hannover\nTelefon: (0511) 85 65 8-0 Fax: (0511) 85 65 8-99 eMail: email@srl-weber.de\n\n[Karte, die eine Konzentrationszone für Windenergie bei Rössing zeigt, mit Gemeindegrenzen, Eisenbahnstrecken, Ferngasleitungen, Sichtfeldbegrenzungen, archäologischen Bodenfunden, Straßen und Abständen zu Siedlungsflächen.]\nN\nGemeinde Nordstemmen\nLandkreis Hildesheim\nFlächennutzungsplan\n21. Änderung\n(Konzentrationsflächen Windenergie)\nUmgrenzung der\nKonzentrationszone Rössing\nbei 900 m\nAbstand zur Siedlungsfläche\nMaßstab 1:12.500\nPlanungsbüro SRL Weber Spinozastraße 1 30625 Hannover\nTelefon: (0511) 85 65 8-0 Fax: (0511) 85 65 8-99 eMail: email@srl-weber.de",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:20:03.551Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 423
+  }
 }

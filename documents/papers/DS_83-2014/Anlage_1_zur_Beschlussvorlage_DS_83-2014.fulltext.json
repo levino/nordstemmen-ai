@@ -1,8 +1,18 @@
 {
   "file_hash": "ed541f617f5a09fe77885072dfd8a315a8082017157999b46f699f9e750b7d3d",
   "filename": "Anlage_1_zur_Beschlussvorlage_DS_83-2014.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Eine Katasterkarte, die Parzellen und Infrastruktur in Rössing, Landkreis Springe, Flur 6, mit dem spezifischen Bereich \"Marsch\" zeigt.]\nRÖSSING\nLANDKREIS\nSPRINGE\nFLUR\n6\n\" Marsch \"\nAnlage 1 zu\nDS 83/2014"
+    }
+  ],
+  "full_text": "[Eine Katasterkarte, die Parzellen und Infrastruktur in Rössing, Landkreis Springe, Flur 6, mit dem spezifischen Bereich \"Marsch\" zeigt.]\nRÖSSING\nLANDKREIS\nSPRINGE\nFLUR\n6\n\" Marsch \"\nAnlage 1 zu\nDS 83/2014",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:24:05.822Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 82
+  }
 }

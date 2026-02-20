@@ -1,8 +1,18 @@
 {
   "file_hash": "c5c5fbdb2114568e6b946bb15fbbcd2bd14403b212ade6853f00774c52733eb6",
   "filename": "OR_Burgstemmen_Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "-Anlage 2-\n\n## Absender\nSankt Michaelis Kindertagesstätte\nTiestraße 11\n31171 Nordstemmen\n\nFon: 05069 6262\nFax: 05069 806180\nE-Mail: kts.burgstemmen@evlka.de\n\n## Empfänger\nOrtsrat Burgstemmen\nz. Hd. Herrn Ulf Moldenhauer\nBethelner Straße 19\n\n31171 Burgstemmen\n\n## Betreff\nAntrag: Warnwesten\n\nBurgstemmen, 23.04.2023\n\nSehr geehrte Damen und Herren,\n\nhiermit möchte ich für unsere neue Kindergartengruppe, 27 Warnwesten\nbeantragen.\n\nDa wir eine neue Kindergartengruppe eröffnet haben, fehlen uns diese in\nunserer pädagogischen Arbeit.\n\nWir benötigen die Warnwesten für unsere täglichen Arbeit mit den Kindern.\nDa wir viele Ausflüge und Erkundungsspaziergänge im Dorf unternehmen, ist\nuns die Sicherheit der Kinder und auch des pädagogischen Personals sehr\nwichtig.\n\nWir würden uns sehr freuen, wenn der Antrag mit 240,00 Euro vom\nBurgstemmer Ortsrat unterstützt, wird.\n\nMit freundlichen Grüßen\n[Unterschrift]\nDie Kinder und Mitarbeiter der St. Michaelis Kindertagesstätte"
+    }
+  ],
+  "full_text": "-Anlage 2-\n\n## Absender\nSankt Michaelis Kindertagesstätte\nTiestraße 11\n31171 Nordstemmen\n\nFon: 05069 6262\nFax: 05069 806180\nE-Mail: kts.burgstemmen@evlka.de\n\n## Empfänger\nOrtsrat Burgstemmen\nz. Hd. Herrn Ulf Moldenhauer\nBethelner Straße 19\n\n31171 Burgstemmen\n\n## Betreff\nAntrag: Warnwesten\n\nBurgstemmen, 23.04.2023\n\nSehr geehrte Damen und Herren,\n\nhiermit möchte ich für unsere neue Kindergartengruppe, 27 Warnwesten\nbeantragen.\n\nDa wir eine neue Kindergartengruppe eröffnet haben, fehlen uns diese in\nunserer pädagogischen Arbeit.\n\nWir benötigen die Warnwesten für unsere täglichen Arbeit mit den Kindern.\nDa wir viele Ausflüge und Erkundungsspaziergänge im Dorf unternehmen, ist\nuns die Sicherheit der Kinder und auch des pädagogischen Personals sehr\nwichtig.\n\nWir würden uns sehr freuen, wenn der Antrag mit 240,00 Euro vom\nBurgstemmer Ortsrat unterstützt, wird.\n\nMit freundlichen Grüßen\n[Unterschrift]\nDie Kinder und Mitarbeiter der St. Michaelis Kindertagesstätte",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:04:58.535Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 322
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "42564e9162303bff18c4be90ef09134932eaca9e1e39b9e052faaf2fdc00c319",
   "filename": "2025-02-20_Anlage_DS_16_2025.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Katasterkarte mit Grundstücksgrenzen, einer Eisenbahnlinie und Feldflächen]\n## Maßstab\n1:2.500\n## Planvermerk\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung Niedersachsen | © OpenStreetMap Contributors, Bundesamt für Kartographie und Geodäsie\n## Planungsbüro/Copyright\n© 2025 LGLN"
+    }
+  ],
+  "full_text": "[Katasterkarte mit Grundstücksgrenzen, einer Eisenbahnlinie und Feldflächen]\n## Maßstab\n1:2.500\n## Planvermerk\nHintergrund: Auszug aus den Geobasisdaten des Landesamtes für Geoinformation und Landesvermessung Niedersachsen | © OpenStreetMap Contributors, Bundesamt für Kartographie und Geodäsie\n## Planungsbüro/Copyright\n© 2025 LGLN",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:37:42.619Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 104
+  }
 }

@@ -4,8 +4,19 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage 2"
+      "text": "Anlage 2\n[Technische Zeichnung, die Gebäudeansichten und -schnitte zeigt.]"
+    },
+    {
+      "page": 2,
+      "text": ""
     }
   ],
-  "full_text": "Anlage 2"
+  "full_text": "Anlage 2\n[Technische Zeichnung, die Gebäudeansichten und -schnitte zeigt.]\n\n",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:10:55.637Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 33
+  }
 }

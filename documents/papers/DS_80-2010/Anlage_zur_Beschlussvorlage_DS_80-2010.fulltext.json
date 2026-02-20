@@ -1,8 +1,18 @@
 {
   "file_hash": "1f6f8cb2f35872f5c19f4c1554f63f9528149e5c9ef308a2a5a5841eb394f778",
   "filename": "Anlage_zur_Beschlussvorlage_DS_80-2010.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Ein Plan, der eine Bebauungsstruktur mit Grundstücken, Straßen und Grünflächen zeigt.]"
+    }
+  ],
+  "full_text": "[Ein Plan, der eine Bebauungsstruktur mit Grundstücken, Straßen und Grünflächen zeigt.]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:22:37.971Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 27
+  }
 }

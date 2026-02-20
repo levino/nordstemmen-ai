@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage 1"
+      "text": "[Lageplan eines Industriegebiets mit Zuckerfabrik, Betonwerksgelände, Rückhaltebecken und Teichen, inklusive einer geplanten neuen Mischanlage.]\nAnlage 1\nMaßstab: 0 10 20 40 60 80 m"
     }
   ],
-  "full_text": "Anlage 1"
+  "full_text": "[Lageplan eines Industriegebiets mit Zuckerfabrik, Betonwerksgelände, Rückhaltebecken und Teichen, inklusive einer geplanten neuen Mischanlage.]\nAnlage 1\nMaßstab: 0 10 20 40 60 80 m",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:57:56.755Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 69
+  }
 }

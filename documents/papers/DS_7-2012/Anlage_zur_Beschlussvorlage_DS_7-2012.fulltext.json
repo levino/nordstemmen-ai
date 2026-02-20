@@ -1,8 +1,22 @@
 {
   "file_hash": "20bed8addfa2f38997d88ea36c3f092780afebb61ffaa17f3e5477e101ddf32f",
   "filename": "Anlage_zur_Beschlussvorlage_DS_7-2012.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Katasterkarte mit Gebäuden, Flurstücken und Straßennamen]\n1:1000\nHintergrund: Auszug aus den Geobasisdaten der Niedersächsischen Vermessungs- und Katasterverwaltung\n©2012 LGLN"
+    },
+    {
+      "page": 2,
+      "text": "Zone 30 – und was gilt??\n\n## Was bedeutet das Schild „Zone 30\" genau?\n\nWo eine Tempo 30-Zone möglich ist, regelt die Straßenverkehrsordnung (§ 45 Abs. 1c).\nDort heißt es: „Die Straßenverkehrsbehörden ordnen ferner innerhalb geschlossener\nOrtschaften insbesondere in Wohngebieten und Gebieten mit hoher Fußgänger- und\nFahrradverkehrdichte sowie hohem Querungsbedarf, Tempo 30-Zonen im Einver-\nnehmen mit der Gemeinde an.....\".\n\nTempo 30-Zonen sollen vorrangig dem Schutz der Wohnbevölkerung sowie der Fuß-\ngänger und Fahrradfahrer dienen. Deshalb sind Tempo 30-Zonen überwiegend in\nWohngebieten zu finden.\n\nIn Tempo 30-Zonen gilt üblicherweise die Vorfahrtsregel „Rechts vor links\".\n\nMit dem Verkehrszeichen 274.1 (siehe unten) wird der Beginn der Zone markiert. Ab\nhier gilt – auch in allen von der markierten Straße abgehenden Straßen – Tempo 30.\nDas Ende der Zone wird mit Zeichen 274.2 (siehe unten) markiert.\n\nZeichen 274.112\nZeichen 274.2\n\n30\nZONE\n\n30\nZONE\n\nBeginn\nEnde\nder Tempo-30-Zone\n\n## Geschichte der Tempo 30-Zone\n\nDie Innenstadt von Buxtehude wurde am 14. November 1983 im Rahmen eines\nModellversuchs zur ersten Tempo 30-Zone in Deutschland erklärt. In den 1980er\nJahren führten zahlreiche deutsche Städte und Gemeinden in ihren Wohngebieten\nTempo 30-Zonen ein. In den Tempo 30-Zonen sank die Zahl der Toten und Verletzten\nso deutlich, dass in zahlreichen Städten sämtliche Wohngebiete in Tempo 30-Zonen\numgewandelt wurden.\n\nSeit dem 1. Februar 2001 müssen Tempo 30-Zonen nicht mehr durch Hindernisse in\nder Fahrbahn angekündigt werden. Außerdem ist die Verpflichtung zur Aufbringung von\nWartelinien an Kreuzungen und Einmündungen sowie der Piktogramme „30\" entfallen."
+    }
+  ],
+  "full_text": "[Katasterkarte mit Gebäuden, Flurstücken und Straßennamen]\n1:1000\nHintergrund: Auszug aus den Geobasisdaten der Niedersächsischen Vermessungs- und Katasterverwaltung\n©2012 LGLN\n\nZone 30 – und was gilt??\n\n## Was bedeutet das Schild „Zone 30\" genau?\n\nWo eine Tempo 30-Zone möglich ist, regelt die Straßenverkehrsordnung (§ 45 Abs. 1c).\nDort heißt es: „Die Straßenverkehrsbehörden ordnen ferner innerhalb geschlossener\nOrtschaften insbesondere in Wohngebieten und Gebieten mit hoher Fußgänger- und\nFahrradverkehrdichte sowie hohem Querungsbedarf, Tempo 30-Zonen im Einver-\nnehmen mit der Gemeinde an.....\".\n\nTempo 30-Zonen sollen vorrangig dem Schutz der Wohnbevölkerung sowie der Fuß-\ngänger und Fahrradfahrer dienen. Deshalb sind Tempo 30-Zonen überwiegend in\nWohngebieten zu finden.\n\nIn Tempo 30-Zonen gilt üblicherweise die Vorfahrtsregel „Rechts vor links\".\n\nMit dem Verkehrszeichen 274.1 (siehe unten) wird der Beginn der Zone markiert. Ab\nhier gilt – auch in allen von der markierten Straße abgehenden Straßen – Tempo 30.\nDas Ende der Zone wird mit Zeichen 274.2 (siehe unten) markiert.\n\nZeichen 274.112\nZeichen 274.2\n\n30\nZONE\n\n30\nZONE\n\nBeginn\nEnde\nder Tempo-30-Zone\n\n## Geschichte der Tempo 30-Zone\n\nDie Innenstadt von Buxtehude wurde am 14. November 1983 im Rahmen eines\nModellversuchs zur ersten Tempo 30-Zone in Deutschland erklärt. In den 1980er\nJahren führten zahlreiche deutsche Städte und Gemeinden in ihren Wohngebieten\nTempo 30-Zonen ein. In den Tempo 30-Zonen sank die Zahl der Toten und Verletzten\nso deutlich, dass in zahlreichen Städten sämtliche Wohngebiete in Tempo 30-Zonen\numgewandelt wurden.\n\nSeit dem 1. Februar 2001 müssen Tempo 30-Zonen nicht mehr durch Hindernisse in\nder Fahrbahn angekündigt werden. Außerdem ist die Verpflichtung zur Aufbringung von\nWartelinien an Kreuzungen und Einmündungen sowie der Piktogramme „30\" entfallen.",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:18:08.174Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 587
+  }
 }

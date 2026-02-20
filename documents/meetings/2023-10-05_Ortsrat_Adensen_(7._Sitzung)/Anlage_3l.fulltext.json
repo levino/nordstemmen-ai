@@ -1,8 +1,22 @@
 {
   "file_hash": "ba93258a97976cfda6eeecf72b87559fb4c84bf3a2f1f3799d38ff1b11072ea4",
   "filename": "Anlage_3l.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "OR Adensen 05.10.23\nAnlage 3 TOP 4\nzurück | Sie befinden sich hier: > Sortiment > Verkehrstechnik > Anfahr- & Leitschwellen\nLeitborde 'Route' aus Recyclingmaterial, Länge 580 mm,\nHöhe 158 mm\n✔ zusätzlich Kopfstück für Leitborde erhältlich\n✔ freistehende Aufstellung, bei Bedarf auch über Steckverbindungen am Boden montierbar\n✔ Elemente mit Konus-Steckverbindung, ideal für z.B. Kreisverkehre\nVollständige Artikelinformation >\nKonfiguration\nFarbe\nBitte wählen\nMeistverkaufte Variante automatisch konfigurieren\nAnwendungsbeispiel: Leitborde -Route- als Kreisverkehr"
+    },
+    {
+      "page": 2,
+      "text": ""
+    }
+  ],
+  "full_text": "OR Adensen 05.10.23\nAnlage 3 TOP 4\nzurück | Sie befinden sich hier: > Sortiment > Verkehrstechnik > Anfahr- & Leitschwellen\nLeitborde 'Route' aus Recyclingmaterial, Länge 580 mm,\nHöhe 158 mm\n✔ zusätzlich Kopfstück für Leitborde erhältlich\n✔ freistehende Aufstellung, bei Bedarf auch über Steckverbindungen am Boden montierbar\n✔ Elemente mit Konus-Steckverbindung, ideal für z.B. Kreisverkehre\nVollständige Artikelinformation >\nKonfiguration\nFarbe\nBitte wählen\nMeistverkaufte Variante automatisch konfigurieren\nAnwendungsbeispiel: Leitborde -Route- als Kreisverkehr\n\n",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:05:17.907Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 178
+  }
 }

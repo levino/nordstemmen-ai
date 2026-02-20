@@ -1,8 +1,18 @@
 {
   "file_hash": "4f538e68eec0c7c7bac808724a28b0b290fbc8dbf886d034ff4db183a0c7d7c7",
   "filename": "A4-1_HE_Lageplan_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Lageplan zur Erweiterung eines Kindergartens mit Bestands- und Neubauflächen, Freiflächen sowie umliegender Bebauung.]\n\nKita Heyersum\n\nLEGENDE\nBESTAND\nABBRUCH\nNEUBAU\n\nDIPL.-ING. PETER APPEL\nHAFERKAMP 10\nPETER APPEL\n31171 NORDSTEMMEN\n05069/964 84\nARCHITEKT\n05069/964 86\ninfo@appel-architektur.de\nwww.appel-architektur.de\n\n| | |\n|---|---|\n| BAUVORHABEN: | Erweiterung der Kidergärten Nordstemmen |\n| OBJEKT: | Am Schmiedekamp 1 |\n| | 31171 Nordstemmen/OT Heyersum |\n| BAUHERR/IN: | Gemeinde Nordstemmen |\n| EIGENTÜMER/IN: | Rathausstraße 3 |\n| | 31171 Nordstemmen |\n| BAUTEIL: | Lageplan |\n| | Variante 2 |\n| Vorentwurf | |\n| GEBÄUDETEIL: | |\n\n| DATUM: | BEARBEITER | BAUHERR/IN: | ARCHITEKT: | MABSTAB: | PLAN-NR: |\n|---|---|---|---|---|---|\n| 14.11.2022 | J.-P. Schäfer | | | M 1:500 | 1.1 V/a - |"
+    }
+  ],
+  "full_text": "[Lageplan zur Erweiterung eines Kindergartens mit Bestands- und Neubauflächen, Freiflächen sowie umliegender Bebauung.]\n\nKita Heyersum\n\nLEGENDE\nBESTAND\nABBRUCH\nNEUBAU\n\nDIPL.-ING. PETER APPEL\nHAFERKAMP 10\nPETER APPEL\n31171 NORDSTEMMEN\n05069/964 84\nARCHITEKT\n05069/964 86\ninfo@appel-architektur.de\nwww.appel-architektur.de\n\n| | |\n|---|---|\n| BAUVORHABEN: | Erweiterung der Kidergärten Nordstemmen |\n| OBJEKT: | Am Schmiedekamp 1 |\n| | 31171 Nordstemmen/OT Heyersum |\n| BAUHERR/IN: | Gemeinde Nordstemmen |\n| EIGENTÜMER/IN: | Rathausstraße 3 |\n| | 31171 Nordstemmen |\n| BAUTEIL: | Lageplan |\n| | Variante 2 |\n| Vorentwurf | |\n| GEBÄUDETEIL: | |\n\n| DATUM: | BEARBEITER | BAUHERR/IN: | ARCHITEKT: | MABSTAB: | PLAN-NR: |\n|---|---|---|---|---|---|\n| 14.11.2022 | J.-P. Schäfer | | | M 1:500 | 1.1 V/a - |",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:33:08.604Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 360
+  }
 }

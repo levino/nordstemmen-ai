@@ -1,8 +1,18 @@
 {
   "file_hash": "1c650316d997777256d9363014588324e4cccc90b81b5ace6fb5fe0fd0175804",
   "filename": "OR_Adensen_-_Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 1\nTOP Ortsräte bzw Beantwortung der Frage in der Einwohnerfragestunde FB 3 Stand 24.04.2018\n21. Änderung Flächennutzungsplanverfahren (Windkraft)\nNach der Mitteilung und Stellungnahme des Landkreises die Potentialfläche zwischen Rössing und\nKlein Escherde herauszunehmen hat die Gemeinde ein Gespräch beim Landkreis eingefordert um die\nBegründungen seitens Unterer Naturschutzbehörde und Raumordnung zu erhalten und bewerten zu\nkönnen.\nEin erstes Gespräch hierzu hat beim Landkreis aktuell stattgefunden.\nEs wurde der Konsens erreicht dass der Grund der Herausnahme der zunächst vorgegebenen Fläche\nsich auf die Avifaunistik also die Untere Naturschutzbehörde bezieht. Folglich wurde eine Zusage\neingefordert die Unterlagen die zur Herausnahme geführt haben zu erhalten. Diese Unterlagen\nwerden die Grundlage sein um eine Bewertung zu ermöglichen ob andere Potential-Flächen in Frage\nkommen oder ggfs. annähernd alle auszuschließen seien.\nGrundsätzlich sollen alle Potentialflächen bezügl. vorhandener Daten avifaunistischer Art gesichtet\nund auch seitens der UNB bewertet werden. Mit dem Ergebnis wird derzeit Mitte des Jahres\ngerechnet.\nInformation für Adensen: Parallel wird eine verfahrensbezogene rechtliche Stellungnahme seitens PNE\nWind für Adensen geprüft, welche eine separate Beantragung der dort geplanten WEA unabhängig\nvon der oben genannten Flächennutzungsplanänderung befürwortet."
+    }
+  ],
+  "full_text": "Anlage 1\nTOP Ortsräte bzw Beantwortung der Frage in der Einwohnerfragestunde FB 3 Stand 24.04.2018\n21. Änderung Flächennutzungsplanverfahren (Windkraft)\nNach der Mitteilung und Stellungnahme des Landkreises die Potentialfläche zwischen Rössing und\nKlein Escherde herauszunehmen hat die Gemeinde ein Gespräch beim Landkreis eingefordert um die\nBegründungen seitens Unterer Naturschutzbehörde und Raumordnung zu erhalten und bewerten zu\nkönnen.\nEin erstes Gespräch hierzu hat beim Landkreis aktuell stattgefunden.\nEs wurde der Konsens erreicht dass der Grund der Herausnahme der zunächst vorgegebenen Fläche\nsich auf die Avifaunistik also die Untere Naturschutzbehörde bezieht. Folglich wurde eine Zusage\neingefordert die Unterlagen die zur Herausnahme geführt haben zu erhalten. Diese Unterlagen\nwerden die Grundlage sein um eine Bewertung zu ermöglichen ob andere Potential-Flächen in Frage\nkommen oder ggfs. annähernd alle auszuschließen seien.\nGrundsätzlich sollen alle Potentialflächen bezügl. vorhandener Daten avifaunistischer Art gesichtet\nund auch seitens der UNB bewertet werden. Mit dem Ergebnis wird derzeit Mitte des Jahres\ngerechnet.\nInformation für Adensen: Parallel wird eine verfahrensbezogene rechtliche Stellungnahme seitens PNE\nWind für Adensen geprüft, welche eine separate Beantragung der dort geplanten WEA unabhängig\nvon der oben genannten Flächennutzungsplanänderung befürwortet.",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:07.076Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 339
+  }
 }

@@ -1,8 +1,18 @@
 {
   "file_hash": "0d56272ca5eda3a5bc18f715443df3424d8f3855263c9544b4524dd261619014",
   "filename": "Protokoll_OR_Adensen_Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 2\nAntrag\nDie Unabhängigen im Ortsrat Adensen beantragen die Änderung des Flächennutzungsplanes zur\nAusweisung eines neuen Baugebietes in der Ortschaft Adensen.\nBegründung / Problembeschreibung\nUm dem allgemeinen „Dorfsterben\" entgegenzuwirken, hat der Ortsrat in der Vergangenheit bereits\nden Leerstand und mögliche Baulücken in Adensen ermittelt und gemeinsam mit der Verwaltung\nveröffentlicht. Dies ergab einen Stand von 31 Baulücken, wovon aktuell 3 Flächen im\nBaulückenkataster ausgewiesen sind. Dennoch sind die Unabhängigen im Ortsrat Adensen der\nAnsicht, dass sich ein Ort weiterentwickeln muss, wenn dem demographischen Wandel\nentgegengewirkt werden soll. Insofern sprechen sich die Unabhängigen für die Erweiterung des\nbestehenden Neubaugebietes „Untere Wanne\" aus. Alternative Bauflächen sind weiterhin zu prüfen\nund ggf. in Zusammenarbeit mit der Verwaltung festzulegen. Die Unabhängigen erhoffen sich durch\ndiese Maßnahme, besonders junge Familien für den Ort zu begeistern und langfristig an Adensen als\nWohnort zu binden."
+    }
+  ],
+  "full_text": "Anlage 2\nAntrag\nDie Unabhängigen im Ortsrat Adensen beantragen die Änderung des Flächennutzungsplanes zur\nAusweisung eines neuen Baugebietes in der Ortschaft Adensen.\nBegründung / Problembeschreibung\nUm dem allgemeinen „Dorfsterben\" entgegenzuwirken, hat der Ortsrat in der Vergangenheit bereits\nden Leerstand und mögliche Baulücken in Adensen ermittelt und gemeinsam mit der Verwaltung\nveröffentlicht. Dies ergab einen Stand von 31 Baulücken, wovon aktuell 3 Flächen im\nBaulückenkataster ausgewiesen sind. Dennoch sind die Unabhängigen im Ortsrat Adensen der\nAnsicht, dass sich ein Ort weiterentwickeln muss, wenn dem demographischen Wandel\nentgegengewirkt werden soll. Insofern sprechen sich die Unabhängigen für die Erweiterung des\nbestehenden Neubaugebietes „Untere Wanne\" aus. Alternative Bauflächen sind weiterhin zu prüfen\nund ggf. in Zusammenarbeit mit der Verwaltung festzulegen. Die Unabhängigen erhoffen sich durch\ndiese Maßnahme, besonders junge Familien für den Ort zu begeistern und langfristig an Adensen als\nWohnort zu binden.",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:22.155Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 266
+  }
 }

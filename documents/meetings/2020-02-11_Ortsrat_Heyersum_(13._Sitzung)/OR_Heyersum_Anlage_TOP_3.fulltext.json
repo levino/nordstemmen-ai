@@ -1,8 +1,18 @@
 {
   "file_hash": "102a78260c11b2a783d84cf36dd1587bcd34c0f75600649de8ed1313f7c984ca",
   "filename": "OR_Heyersum_Anlage_TOP_3.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Gemeinde Nordstemmen\nFachbereich 3\nPlanung, Bau und Umwelt\nAz. 55.10.10.\nAnlage\nTOP 3\nAuskunft erteilt: Frau Finke, Telefon: 05069 / 800-32\nBuche auf dem Bolzplatz in Heyersum\nNordstemmen, 13.12.2019\nEine starke Einkürzung der Krone der Buche ist nicht fachgerecht. Für die Buche würde dies ein\n„Sterben auf Raten\" bedeuten, da Buchen nur einen schlechten Wundverschluss haben. Dies wurde\nvon den Gärtnern der Gemeinde sowie zwei Baum-Fachfirmen vertreten.\nEs kann daher nur eine leichte Einkürzung der Äste um ca. 10-15% erfolgen.\ni.A.\n[Unterschrift]\nFinke"
+    }
+  ],
+  "full_text": "Gemeinde Nordstemmen\nFachbereich 3\nPlanung, Bau und Umwelt\nAz. 55.10.10.\nAnlage\nTOP 3\nAuskunft erteilt: Frau Finke, Telefon: 05069 / 800-32\nBuche auf dem Bolzplatz in Heyersum\nNordstemmen, 13.12.2019\nEine starke Einkürzung der Krone der Buche ist nicht fachgerecht. Für die Buche würde dies ein\n„Sterben auf Raten\" bedeuten, da Buchen nur einen schlechten Wundverschluss haben. Dies wurde\nvon den Gärtnern der Gemeinde sowie zwei Baum-Fachfirmen vertreten.\nEs kann daher nur eine leichte Einkürzung der Äste um ca. 10-15% erfolgen.\ni.A.\n[Unterschrift]\nFinke",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:02:26.082Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 206
+  }
 }

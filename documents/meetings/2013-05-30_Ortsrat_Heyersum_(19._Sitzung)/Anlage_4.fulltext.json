@@ -1,8 +1,18 @@
 {
   "file_hash": "4228711d36db3646a684082470bad6f7ce257b020ad2bccb8519b61785e4da99",
   "filename": "Anlage_4.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "1805\nAnlage Y\nzu OR Heyersen 30.5.118\nTOP M\nJam tief Landrat Hins. Str."
+    }
+  ],
+  "full_text": "1805\nAnlage Y\nzu OR Heyersen 30.5.118\nTOP M\nJam tief Landrat Hins. Str.",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:48:04.019Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 40
+  }
 }

@@ -1,8 +1,26 @@
 {
   "file_hash": "79fa8c8442e2aa1d28a531f9844ab5cdb6a2f833993fdc8296db768e594fb469",
   "filename": "Anlage_zur_Beschlussvorlage_DS_59-2014.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "DS 59_2014\nAnlage 1\n\n[Topografische Karte, die die Umgebung von Betheln, Burgstemmen und Mahlerten zeigt, mit einem rot umrandeten Bereich \"Deponie\".]\nMaßstab: 1:25.000\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n© 2013 LGLN"
+    },
+    {
+      "page": 2,
+      "text": "DS 59 2014\nAnlage 2\n\n[Flurstückskarte, die das hervorgehobene Antragsgebiet einer Deponie und umliegende Flurstücke mit einer Legende für das Antragsgebiet zeigt.]\n\nÜbersichtslageplan\nAuftraggeber: Fischer GmbH & Co. KG\nProjekt: Deponie Betheln\nAnlage: 1.2\nProjekt-Nr.: 744-001\nDatei: 2014-10-02\nMaßstab der Länge: 1:5.000\nMaßstab der Höhe: 1:5.000\nGrundlage: DGK 1:5.000\naufgestellt: KV\n\nDr. Röhrs & Herrmann\nBeratende Ingenieure und Geologen\nIngenieurleistungen\nin Wasser und Boden\nmail@roehrs-herrmann.de\nTel: 05121-99985-0\nwww.roehrs-herrmann.de\nFax: 05121-99985-11"
+    },
+    {
+      "page": 3,
+      "text": "DS 59_2014\nAnlage 3\n\n[Lageplan, der das Antragsgebiet einer Deponie in vier Betriebsabschnitte (BA 01, BA 02, BA 03, BA 04) unterteilt und verschiedene Verfüllungsbereiche gemäß Deponiegenehmigung und NNatG darstellt.]"
+    }
+  ],
+  "full_text": "DS 59_2014\nAnlage 1\n\n[Topografische Karte, die die Umgebung von Betheln, Burgstemmen und Mahlerten zeigt, mit einem rot umrandeten Bereich \"Deponie\".]\nMaßstab: 1:25.000\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n© 2013 LGLN\n\nDS 59 2014\nAnlage 2\n\n[Flurstückskarte, die das hervorgehobene Antragsgebiet einer Deponie und umliegende Flurstücke mit einer Legende für das Antragsgebiet zeigt.]\n\nÜbersichtslageplan\nAuftraggeber: Fischer GmbH & Co. KG\nProjekt: Deponie Betheln\nAnlage: 1.2\nProjekt-Nr.: 744-001\nDatei: 2014-10-02\nMaßstab der Länge: 1:5.000\nMaßstab der Höhe: 1:5.000\nGrundlage: DGK 1:5.000\naufgestellt: KV\n\nDr. Röhrs & Herrmann\nBeratende Ingenieure und Geologen\nIngenieurleistungen\nin Wasser und Boden\nmail@roehrs-herrmann.de\nTel: 05121-99985-0\nwww.roehrs-herrmann.de\nFax: 05121-99985-11\n\nDS 59_2014\nAnlage 3\n\n[Lageplan, der das Antragsgebiet einer Deponie in vier Betriebsabschnitte (BA 01, BA 02, BA 03, BA 04) unterteilt und verschiedene Verfüllungsbereiche gemäß Deponiegenehmigung und NNatG darstellt.]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:12:15.402Z",
+    "total_input_tokens": 1118,
+    "total_output_tokens": 433
+  }
 }

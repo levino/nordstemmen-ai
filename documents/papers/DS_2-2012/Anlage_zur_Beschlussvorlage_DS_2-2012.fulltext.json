@@ -4,8 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": "Anlage 1\nBeb. Plan Nr. 0122 A\nBeb. Plan Nr. 0122\n8. Änderung\nBeb. Plan Nr. 0122\nNordstemmen"
+      "text": "[Plan, der Bebauungsplangebiete im Bereich Nordstemmen zeigt.]\nAnlage 1\nBeb. Plan Nr. 0122 A\nBeb. Plan Nr. 0122\nBeb. Plan Nr. 0122\n8. Änderung"
     }
   ],
-  "full_text": "Anlage 1\nBeb. Plan Nr. 0122 A\nBeb. Plan Nr. 0122\n8. Änderung\nBeb. Plan Nr. 0122\nNordstemmen"
+  "full_text": "[Plan, der Bebauungsplangebiete im Bereich Nordstemmen zeigt.]\nAnlage 1\nBeb. Plan Nr. 0122 A\nBeb. Plan Nr. 0122\nBeb. Plan Nr. 0122\n8. Änderung",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:45:08.249Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 70
+  }
 }

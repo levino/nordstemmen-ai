@@ -1,8 +1,18 @@
 {
   "file_hash": "704a02ee71c4951af31cd1f6acb1f145643f1a5063b9de38449dc2bcc2507bea",
   "filename": "Ortsrat_Adensen_Anlage_2.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 2\nDißmer, Pascal\nVon: Jobst Gercke <jobst.gercke@web.de>\nGesendet: Dienstag, 13. Februar 2018 18:21\nAn: Dißmer, Pascal\nCc: Riechelmann, Oliver\nBetreff: Windräder in der Region Hannover\n\nHallo Herr Dißmer,\nDie Informationen, die ich zum Windpark in der Region Hannover während der Ortsratssitzung verbreitet\nhabe, habe ich von dieser Internet-Seite\nhttps://www.enbw.com/erneuerbare-energien/windenergie/windpark-schulenburg-iii/\n\nUnd die für mich erstaunlichen Inhalte waren und sind:\n\nAusweisung des Vorranggebiets                                         August 2017\nEinreichung des Genehmigungsantrags                               Mitte Oktober 2017\nVoraussichtlicher Zeitpunkt der Inbetriebnahme                    Q1 2019\n\nIch würde mich freuen, wenn Sie uns da von Seiten der Gemeinde auf dem Laufenden halten könnten.\nMit freundlichen Grüßen\nJobst Gercke\n1"
+    }
+  ],
+  "full_text": "Anlage 2\nDißmer, Pascal\nVon: Jobst Gercke <jobst.gercke@web.de>\nGesendet: Dienstag, 13. Februar 2018 18:21\nAn: Dißmer, Pascal\nCc: Riechelmann, Oliver\nBetreff: Windräder in der Region Hannover\n\nHallo Herr Dißmer,\nDie Informationen, die ich zum Windpark in der Region Hannover während der Ortsratssitzung verbreitet\nhabe, habe ich von dieser Internet-Seite\nhttps://www.enbw.com/erneuerbare-energien/windenergie/windpark-schulenburg-iii/\n\nUnd die für mich erstaunlichen Inhalte waren und sind:\n\nAusweisung des Vorranggebiets                                         August 2017\nEinreichung des Genehmigungsantrags                               Mitte Oktober 2017\nVoraussichtlicher Zeitpunkt der Inbetriebnahme                    Q1 2019\n\nIch würde mich freuen, wenn Sie uns da von Seiten der Gemeinde auf dem Laufenden halten könnten.\nMit freundlichen Grüßen\nJobst Gercke\n1",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:00:54.172Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 253
+  }
 }

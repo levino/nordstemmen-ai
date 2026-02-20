@@ -1,8 +1,18 @@
 {
   "file_hash": "55b2a7085d76f29112bc87392caaca3aa292de9ba0e58ea4d476adbf8c849062",
   "filename": "Anlage_zur_Beschlussvorlage_DS_31-2015.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "[Plan einer Straßenkreuzung und angrenzender Parzellen mit eingezeichneten Regenrückhaltebecken und Betonrahmenprofilen.]\nAnlage zu DS 31/2015"
+    }
+  ],
+  "full_text": "[Plan einer Straßenkreuzung und angrenzender Parzellen mit eingezeichneten Regenrückhaltebecken und Betonrahmenprofilen.]\nAnlage zu DS 31/2015",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:53:26.673Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 46
+  }
 }

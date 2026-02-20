@@ -3,9 +3,32 @@
   "filename": "DS_33-2018_1._Ergaenzung_-_Anlage.pdf",
   "pages": [
     {
+      "page": 1,
+      "text": "[Zeigt einen Bebauungsplan mit Parzellen, Gebäuden und geplanten Sportflächen (Bolzplatz, Volley-/Fußball, Basketball, Boule) sowie Grünflächen im Bereich Heyersum.]\nBOLZPLATZ\nV1\nca. 4.000m²\nzzgl. Boule\n© 2016 LGLN\nMai 2018 FB3 Schwindt\nGemeinde Nordstemmen\nRathausstraße 3\n31171 Nordstemmen\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n1:1.000\nE 555888 m\nN 5779110 m\nE 555724 m\nN 5778849 m"
+    },
+    {
+      "page": 2,
+      "text": "[Zeigt einen Bebauungsplan mit Parzellen, Gebäuden und geplanten Sportflächen (Bolzplatz, Volley-/Fußball, Basketball, Boule) sowie Grünflächen im Bereich Heyersum, ähnlich Seite 1, jedoch mit aktualisierter Fläche für den Bolzplatz.]\nBOLZPLATZ\nV2\nca. 5.460m².\nzzgl. Boule\n© 2016 LGLN\nMai 2018 FB3 Schwindt\nGemeinde Nordstemmen\nRathausstraße 3\n31171 Nordstemmen\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n1:1.000\nE 555888 m\nN 5779110 m\nE 555724 m\nN 5778849 m"
+    },
+    {
+      "page": 3,
+      "text": "[Zeigt einen Bebauungsplan mit Parzellen, Gebäuden und eingezeichneten Abmessungen, einer Pforte im Zaun und einer Boulebahn im Bereich Heyersum.]\n©2016 LGLN\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n1:750\nE 555871 m\nN 5779094 m\nE 555748 m\nN 5778898 m"
+    },
+    {
+      "page": 4,
+      "text": ""
+    },
+    {
       "page": 5,
-      "text": "—\n"
+      "text": "GTK\n[f]"
     }
   ],
-  "full_text": "—\n"
+  "full_text": "[Zeigt einen Bebauungsplan mit Parzellen, Gebäuden und geplanten Sportflächen (Bolzplatz, Volley-/Fußball, Basketball, Boule) sowie Grünflächen im Bereich Heyersum.]\nBOLZPLATZ\nV1\nca. 4.000m²\nzzgl. Boule\n© 2016 LGLN\nMai 2018 FB3 Schwindt\nGemeinde Nordstemmen\nRathausstraße 3\n31171 Nordstemmen\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n1:1.000\nE 555888 m\nN 5779110 m\nE 555724 m\nN 5778849 m\n\n[Zeigt einen Bebauungsplan mit Parzellen, Gebäuden und geplanten Sportflächen (Bolzplatz, Volley-/Fußball, Basketball, Boule) sowie Grünflächen im Bereich Heyersum, ähnlich Seite 1, jedoch mit aktualisierter Fläche für den Bolzplatz.]\nBOLZPLATZ\nV2\nca. 5.460m².\nzzgl. Boule\n© 2016 LGLN\nMai 2018 FB3 Schwindt\nGemeinde Nordstemmen\nRathausstraße 3\n31171 Nordstemmen\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n1:1.000\nE 555888 m\nN 5779110 m\nE 555724 m\nN 5778849 m\n\n[Zeigt einen Bebauungsplan mit Parzellen, Gebäuden und eingezeichneten Abmessungen, einer Pforte im Zaun und einer Boulebahn im Bereich Heyersum.]\n©2016 LGLN\nHintergrund: Auszug aus den Geobasisdaten der LGLN\n1:750\nE 555871 m\nN 5779094 m\nE 555748 m\nN 5778898 m\n\n\n\nGTK\n[f]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:23.139Z",
+    "total_input_tokens": 1634,
+    "total_output_tokens": 531
+  }
 }

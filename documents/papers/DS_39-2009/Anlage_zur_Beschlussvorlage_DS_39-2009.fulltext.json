@@ -4,12 +4,19 @@
   "pages": [
     {
       "page": 1,
-      "text": "km 1 2 3\n© Landesvermessung Niedersachsen, Bundesamt für Kartographie und Geodäsie 2000 - Seite (1,1)\nTop. Karte 1:50000 Niedersachsen/Bremen\nAbbildung 1: Topographische Übersichtskarte\nProjekt-Nr. 09 042"
+      "text": "[Topographische Übersichtskarte eines ländlichen Gebiets mit Ortschaften, Straßen, Flüssen und Höhenlinien]\n\nkm 1 2 3\n\nLandesvermessung Niedersachsen, Bundesamt für Kartographie und Geodäsie 2000 -\nTop. Karte 1:50000 Niedersachsen/Bremen\n\nAbbildung 1: Topographische Übersichtskarte\n\nProjekt-Nr. 09 042\nBarth & Bitter\nGutachter im Arbeits-\nund Umweltschutz GmbH\nBB"
     },
     {
       "page": 2,
-      "text": "Stallung\nHobus\nAußenbereich\nBiogasanlage\nBioenergie Stallungen\nAdensen Dörpmund\nAuußenbereich\nStallungen\nHofstelle\nKreipe\nDörpmund\nHofstelle Biogasanlage\nHobus A.H. Energie\nAbbildung 2: Lage der geplanten Vorhaben\nim Untersuchungsgebiet\nProjekt-Nr. 09 042"
+      "text": "[Plan des Untersuchungsgebiets mit eingezeichneten geplanten Vorhaben]\n\nAbbildung 2: Lage der geplanten Vorhaben\nim Untersuchungsgebiet\n\nProjekt-Nr. 09 042\nBarth & Bitter\nGutachter im Arbeits-\nund Umweltschutz GmbH\nBB"
     }
   ],
-  "full_text": "km 1 2 3\n© Landesvermessung Niedersachsen, Bundesamt für Kartographie und Geodäsie 2000 - Seite (1,1)\nTop. Karte 1:50000 Niedersachsen/Bremen\nAbbildung 1: Topographische Übersichtskarte\nProjekt-Nr. 09 042\n\nStallung\nHobus\nAußenbereich\nBiogasanlage\nBioenergie Stallungen\nAdensen Dörpmund\nAuußenbereich\nStallungen\nHofstelle\nKreipe\nDörpmund\nHofstelle Biogasanlage\nHobus A.H. Energie\nAbbildung 2: Lage der geplanten Vorhaben\nim Untersuchungsgebiet\nProjekt-Nr. 09 042"
+  "full_text": "[Topographische Übersichtskarte eines ländlichen Gebiets mit Ortschaften, Straßen, Flüssen und Höhenlinien]\n\nkm 1 2 3\n\nLandesvermessung Niedersachsen, Bundesamt für Kartographie und Geodäsie 2000 -\nTop. Karte 1:50000 Niedersachsen/Bremen\n\nAbbildung 1: Topographische Übersichtskarte\n\nProjekt-Nr. 09 042\nBarth & Bitter\nGutachter im Arbeits-\nund Umweltschutz GmbH\nBB\n\n[Plan des Untersuchungsgebiets mit eingezeichneten geplanten Vorhaben]\n\nAbbildung 2: Lage der geplanten Vorhaben\nim Untersuchungsgebiet\n\nProjekt-Nr. 09 042\nBarth & Bitter\nGutachter im Arbeits-\nund Umweltschutz GmbH\nBB",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T13:58:52.716Z",
+    "total_input_tokens": 860,
+    "total_output_tokens": 201
+  }
 }

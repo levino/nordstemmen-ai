@@ -1,8 +1,18 @@
 {
   "file_hash": "25d1aeaa0206f2dee44b4cb64a84f15d90de56603f77c6cbd9717c2e33bfec71",
   "filename": "DS_56-2021_Anlage_1.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 1\n[Auszug aus einem Flurplan, der Parzellen, Gebäude und Straßen in einem Wohngebiet zeigt.]"
+    }
+  ],
+  "full_text": "Anlage 1\n[Auszug aus einem Flurplan, der Parzellen, Gebäude und Straßen in einem Wohngebiet zeigt.]",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:10:37.550Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 34
+  }
 }

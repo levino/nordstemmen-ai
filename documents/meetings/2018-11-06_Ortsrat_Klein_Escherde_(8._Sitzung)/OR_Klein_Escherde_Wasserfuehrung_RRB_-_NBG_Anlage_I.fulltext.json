@@ -1,8 +1,18 @@
 {
   "file_hash": "63dbac43f71cac07b144218e4d6d8e745e26a096a6b77ccaa87a10e80c18672b",
   "filename": "OR_Klein_Escherde_Wasserfuehrung_RRB_-_NBG_Anlage_I.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Wasserführung zum RRG - NBG"
+    }
+  ],
+  "full_text": "Wasserführung zum RRG - NBG",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:01:29.294Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 14
+  }
 }

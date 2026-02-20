@@ -1,8 +1,18 @@
 {
   "file_hash": "d7cfa4bb22c56fffb1a8e3c4a017ac94fd1ca9fac272a73b4fa2519ffd435d64",
   "filename": "FA_Finanzen_Anlage_3.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 3\n\n## Absender\nRatsfraktion der SPD im Gemeinderat Nordstemmen\n18.11.2019\n\n## Empfänger\nGemeinde Nordstemmen\nz.Hd. BM Norbert Pallentin\n\n## Betreff\nAntrag zur DS 101/2019 Stellenplan\n\nSehr geehrter Damen und Herren,\n\ndie SPD im Rat der Gemeinde Nordstemmen hält es für erforderlich, folgende Änderung im\nStellenplan der Gemeinde für 2020 vorzunehmen:\n\nEssensausgeber, die derzeit in Entgeltgruppe E1 eingestuft sind, werden ab 01.01.2020 in\ndie Entgeltgruppe E2 übergeleitet.\n\nBegründung:\n\nDie Gemeinde Nordstemmen zeichnet sich als eine moderne und solidarische Gemeinde\naus. Eine Einstufung in die Entgeltgruppe E1 für Essensausgeber ist nicht mehr zeitgemäß,\nda die Anforderungen, speziell in der untersten Einkommensgruppe in den letzten Jahren\nstark gestiegen sind, die Nettoeinkommen im selben Zeitraum jedoch nicht.\n\nDie Mehrzahl der öffentlichen Arbeitgeber vollzieht seit Jahren keine Einstellungen mehr in\nEntgeltgruppe E1. Daher ist an uns, hier eine Anpassung an die moderne Arbeitswelt zu\nvollziehen.\n\nAls positiven Effekt sehen wir eine verbesserte Arbeitsmotivation der Beschäftigten, bessere\nArbeitsergebnisse, geringerer Krankenstand und Konkurrenzfähigkeit der Gemeinde bei\nNeueinstellungen.\n\nFür die SPD- Ratsfraktion\n\nRalph Wieduwilt"
+    }
+  ],
+  "full_text": "Anlage 3\n\n## Absender\nRatsfraktion der SPD im Gemeinderat Nordstemmen\n18.11.2019\n\n## Empfänger\nGemeinde Nordstemmen\nz.Hd. BM Norbert Pallentin\n\n## Betreff\nAntrag zur DS 101/2019 Stellenplan\n\nSehr geehrter Damen und Herren,\n\ndie SPD im Rat der Gemeinde Nordstemmen hält es für erforderlich, folgende Änderung im\nStellenplan der Gemeinde für 2020 vorzunehmen:\n\nEssensausgeber, die derzeit in Entgeltgruppe E1 eingestuft sind, werden ab 01.01.2020 in\ndie Entgeltgruppe E2 übergeleitet.\n\nBegründung:\n\nDie Gemeinde Nordstemmen zeichnet sich als eine moderne und solidarische Gemeinde\naus. Eine Einstufung in die Entgeltgruppe E1 für Essensausgeber ist nicht mehr zeitgemäß,\nda die Anforderungen, speziell in der untersten Einkommensgruppe in den letzten Jahren\nstark gestiegen sind, die Nettoeinkommen im selben Zeitraum jedoch nicht.\n\nDie Mehrzahl der öffentlichen Arbeitgeber vollzieht seit Jahren keine Einstellungen mehr in\nEntgeltgruppe E1. Daher ist an uns, hier eine Anpassung an die moderne Arbeitswelt zu\nvollziehen.\n\nAls positiven Effekt sehen wir eine verbesserte Arbeitsmotivation der Beschäftigten, bessere\nArbeitsergebnisse, geringerer Krankenstand und Konkurrenzfähigkeit der Gemeinde bei\nNeueinstellungen.\n\nFür die SPD- Ratsfraktion\n\nRalph Wieduwilt",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:02:21.558Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 343
+  }
 }

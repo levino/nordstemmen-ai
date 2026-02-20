@@ -1,8 +1,18 @@
 {
   "file_hash": "6aceb030af87f41bb0afe212395d092afd71799283455f08c72effeae0afebc6",
   "filename": "Anlage_4_zur_DS_40-2011.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "FB 4 - Bildung, Kultur,\nFreizeit, Ordnungsangelegenheiten\nAulage 4\n2U1\nDS 40/2011\n\nSchüler - Zahlen in den 3 Grundschulen\nBestand\n\nVordruck C1\nStand: 01.02.2011\n\n| Schule | Klasse | Schüler | Klasse | Schüler | Klasse | Schüler | Klasse | Schüler | gesamt |\n|---|---|---|---|---|---|---|---|---|---|\n| GS Nordstemmen No-Hey-Ma-Bu | 1 A | 25 | 2 A | 21 | 3 A | 21 | 4 A | 20 | |\n| | 1 B | 22 | 2 B | 21 | 3 B | 20 | 4 B | 21 | |\n| | 1 C | 25 | 2 C | 20 | 3 C | 20 | 4 C | 22 | |\n| | 1 D | 0 | 2D | | 3 D | 23 | 4D | 0 | |\n| (Schulkindergarten) | | 8 | | | | | | | |\n| **Gesamt:** | | **72** | | **62** | | **84** | | **63** | **281** |\n| GS Adensen Ads-Hallerb | 1 F | 14 | 2 B | 13 | 3 C | 17 | 4 L | 19 | |\n| **Gesamt:** | | **14** | | **13** | | **17** | | **19** | **63** |\n| VHGS Barnten Ba-GrE-KIE-RÖ | 1 A | 17 | 2 A | 20 | 3 A | 19 | 4 A | 23 | |\n| | 1 B | 18 | 2 B | 19 | 3 B | 17 | 4 B | 17 | |\n| | | | 2C | | 3C | | 4C | | |\n| **Gesamt:** | | **35** | | **39** | | **36** | | **40** | **150** |\n| **total:** | | | | | | | | | **494** |\n\nZ:\\GEM_NOR\\FB4\\Akten Bildung_Freizeit_Jugend\\0008 GEBURTEN-KiTa-Schulen 2011-02-Febr\\2011-C1-2011_02_GSSchülerz_Bestand"
+    }
+  ],
+  "full_text": "FB 4 - Bildung, Kultur,\nFreizeit, Ordnungsangelegenheiten\nAulage 4\n2U1\nDS 40/2011\n\nSchüler - Zahlen in den 3 Grundschulen\nBestand\n\nVordruck C1\nStand: 01.02.2011\n\n| Schule | Klasse | Schüler | Klasse | Schüler | Klasse | Schüler | Klasse | Schüler | gesamt |\n|---|---|---|---|---|---|---|---|---|---|\n| GS Nordstemmen No-Hey-Ma-Bu | 1 A | 25 | 2 A | 21 | 3 A | 21 | 4 A | 20 | |\n| | 1 B | 22 | 2 B | 21 | 3 B | 20 | 4 B | 21 | |\n| | 1 C | 25 | 2 C | 20 | 3 C | 20 | 4 C | 22 | |\n| | 1 D | 0 | 2D | | 3 D | 23 | 4D | 0 | |\n| (Schulkindergarten) | | 8 | | | | | | | |\n| **Gesamt:** | | **72** | | **62** | | **84** | | **63** | **281** |\n| GS Adensen Ads-Hallerb | 1 F | 14 | 2 B | 13 | 3 C | 17 | 4 L | 19 | |\n| **Gesamt:** | | **14** | | **13** | | **17** | | **19** | **63** |\n| VHGS Barnten Ba-GrE-KIE-RÖ | 1 A | 17 | 2 A | 20 | 3 A | 19 | 4 A | 23 | |\n| | 1 B | 18 | 2 B | 19 | 3 B | 17 | 4 B | 17 | |\n| | | | 2C | | 3C | | 4C | | |\n| **Gesamt:** | | **35** | | **39** | | **36** | | **40** | **150** |\n| **total:** | | | | | | | | | **494** |\n\nZ:\\GEM_NOR\\FB4\\Akten Bildung_Freizeit_Jugend\\0008 GEBURTEN-KiTa-Schulen 2011-02-Febr\\2011-C1-2011_02_GSSchülerz_Bestand",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:01:00.448Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 633
+  }
 }

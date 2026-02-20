@@ -1,8 +1,18 @@
 {
   "file_hash": "ba913d6db8a38563320294d56e45b60f2b0fa7e83ea541818757596e9c3c4d32",
   "filename": "OR_Heyersum_Anlage_TOP_8.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage\nTOP 8\n\nOrtsratmittel 2020 2621,50 €\nVerwendung der Ortsratmittel 2020\n\n| Geplante Ausgaben | Betrag |\n| :-------------------------------- | :------- |\n| Ortsheimatspflege                 | 150,00 € |\n| Strom Schaukasten                 | 15,00 €  |\n| Umwelttag                         | 50,00 €  |\n| Volkstrauertag Trompeter/Kranz    | 100,00 € |\n| Adventsfeier                      | 250,00 € |\n| Wandkalender 2020                 | 250,00 € |\n| Rücklage 1000 J. Heyersum 2022    | 500,00 € |\n| Reserve für 2020                  | 100,00 € |\n| Kinderfeuerwehr 10 Jahre          | 50,00€   |\n| GJR Ferienpass                    | 100,00€  |\n| Grünsteifen Dorfteich Blumenmischung | 40,00€   |\n| Geburtstage 34 x 7€               | 238,00 € |\n| Ehejubiläum 8 x 25 €              | 200,00 € |\n|                                   | 2043 € + Übertrag 2019= 2151,67 € |\n\nHaushaltsmittel Gemeinde 2020\nUnterhaltungsmaßnahmen für den Ort Heyersum\nVordach Heinz-Fiolka-Halle\nErsatzpflanzung Bäume auf dem Grünstreifen Heinz-Fiolka-Halle\nKanalarbeiten Salzbrink"
+    }
+  ],
+  "full_text": "Anlage\nTOP 8\n\nOrtsratmittel 2020 2621,50 €\nVerwendung der Ortsratmittel 2020\n\n| Geplante Ausgaben | Betrag |\n| :-------------------------------- | :------- |\n| Ortsheimatspflege                 | 150,00 € |\n| Strom Schaukasten                 | 15,00 €  |\n| Umwelttag                         | 50,00 €  |\n| Volkstrauertag Trompeter/Kranz    | 100,00 € |\n| Adventsfeier                      | 250,00 € |\n| Wandkalender 2020                 | 250,00 € |\n| Rücklage 1000 J. Heyersum 2022    | 500,00 € |\n| Reserve für 2020                  | 100,00 € |\n| Kinderfeuerwehr 10 Jahre          | 50,00€   |\n| GJR Ferienpass                    | 100,00€  |\n| Grünsteifen Dorfteich Blumenmischung | 40,00€   |\n| Geburtstage 34 x 7€               | 238,00 € |\n| Ehejubiläum 8 x 25 €              | 200,00 € |\n|                                   | 2043 € + Übertrag 2019= 2151,67 € |\n\nHaushaltsmittel Gemeinde 2020\nUnterhaltungsmaßnahmen für den Ort Heyersum\nVordach Heinz-Fiolka-Halle\nErsatzpflanzung Bäume auf dem Grünstreifen Heinz-Fiolka-Halle\nKanalarbeiten Salzbrink",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:02:27.337Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 424
+  }
 }

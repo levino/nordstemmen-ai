@@ -1,8 +1,18 @@
 {
   "file_hash": "78a2ac90cf012b6de034438e438217dc654916787b41c007ce50426819904ced",
   "filename": "Bluehflaechen_Anlage_1_-_Top_5.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Blübflücher\nTOP 5\n\n| Nordstemmen | | |\n|---|---|---|\n| Asternstraße | Gestaltung der \"Ohren\" | 4 |\n| Berliner Straße P-Platz | | 4 |\n| Lange Maße | Ausgleichsfläche | 1 |\n| Lange Maße | Sporthalle | 2 |\n| Eulenring Obstwiese | | X |\n| Im Eck | | 1 |\n| Gerberweg | | X |\n| Bruchshöfenstraße | Abenteuerspielplatz Randbereiche | 4 |\n| RRB Welfenring, Nord- und Ostrand | R mit Abwasser | 1 |\n| RRB Böttcherstraße | R mit Abwasser | 3 |\n| | | 2 |\n\ngenerell bei seltener Mahd (Maßnahme 1): Streifen am Rand zu den Straßen bzw. Grundstücken häufiger mähen\n\nErläuterung der Maßnahmen:\n1 reduzierter Rasenschnitt, max. 2 Mahden im Jahr, Ende Juni und ab Mitte September; Mähgut abräumen\n2 größere Flächen, mehrjähriges Saatgut, bei Neuanlage Fläche vorher fräsen, bei bestehender Gras/ Wiesenfläche mindestens st\nals \"Initialzündung\" ausbringen; erste Mahd etwa 8 bis 10 Wochen nach Aussaat, später max. 1 Mahd im Jahr\n3 Ränder und Gras/ Wiesenstreifen; mehrjähriges Saatgut, Fläche fräsen, einmalige Mahd mit Abräumen des Mähgutes im Späth\n4 für repräsentative Flächen, kleinräumig; Flächen fräsen, Saatgut ein- bis wenigjährig, jährliche Neuansaat"
+    }
+  ],
+  "full_text": "Blübflücher\nTOP 5\n\n| Nordstemmen | | |\n|---|---|---|\n| Asternstraße | Gestaltung der \"Ohren\" | 4 |\n| Berliner Straße P-Platz | | 4 |\n| Lange Maße | Ausgleichsfläche | 1 |\n| Lange Maße | Sporthalle | 2 |\n| Eulenring Obstwiese | | X |\n| Im Eck | | 1 |\n| Gerberweg | | X |\n| Bruchshöfenstraße | Abenteuerspielplatz Randbereiche | 4 |\n| RRB Welfenring, Nord- und Ostrand | R mit Abwasser | 1 |\n| RRB Böttcherstraße | R mit Abwasser | 3 |\n| | | 2 |\n\ngenerell bei seltener Mahd (Maßnahme 1): Streifen am Rand zu den Straßen bzw. Grundstücken häufiger mähen\n\nErläuterung der Maßnahmen:\n1 reduzierter Rasenschnitt, max. 2 Mahden im Jahr, Ende Juni und ab Mitte September; Mähgut abräumen\n2 größere Flächen, mehrjähriges Saatgut, bei Neuanlage Fläche vorher fräsen, bei bestehender Gras/ Wiesenfläche mindestens st\nals \"Initialzündung\" ausbringen; erste Mahd etwa 8 bis 10 Wochen nach Aussaat, später max. 1 Mahd im Jahr\n3 Ränder und Gras/ Wiesenstreifen; mehrjähriges Saatgut, Fläche fräsen, einmalige Mahd mit Abräumen des Mähgutes im Späth\n4 für repräsentative Flächen, kleinräumig; Flächen fräsen, Saatgut ein- bis wenigjährig, jährliche Neuansaat",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:02:34.119Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 388
+  }
 }

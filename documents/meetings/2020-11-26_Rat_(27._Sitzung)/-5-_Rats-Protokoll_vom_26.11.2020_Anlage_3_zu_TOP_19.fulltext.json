@@ -1,8 +1,18 @@
 {
   "file_hash": "1f8c4e33b6c415e6776b9c16993fc3166ff5f2e7b1adba2e24768b50023dead2",
   "filename": "-5-_Rats-Protokoll_vom_26.11.2020_Anlage_3_zu_TOP_19.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Anlage 3 zu TOP 19\n## Absender\nFraktion Bündnis 90/ Die Grünen\n26.11.2020\n\n## Empfänger\nGemeinde Nordstemmen\n-Bürgermeisterin-\n\n## Betreff\nAntrag der Fraktion Bündnis 90/ Die Grünen im Rat der Gemeinde Nordstemmen\nBetrifft: Richtlinien für künftige Wahlwerbung in der Gemeinde\n\nSehr geehrte Frau Bürgermeisterin,\n\ndie Fraktion Bündnis 90/Die Grünen beantragt, dass die Gemeindeverwaltung\nbis zur Ratssitzung im März 2021 ein Konzept für die Art und Weise der\nzulässigen Sondernutzung des öffentlichen Raumes für Wahlwerbung in der\nGemeinde Nordstemmen erarbeitet und vorstellt.\n\nBegründung:\nIm Jahr 2021 stehen Kommunal und Bundestagswahlen an.\n\nDie letzte Wahl hat zu Unstimmigkeiten über Art und Umfang der\nPlakatwerbung der politischen Parteien im Straßenraum der Gemeinde geführt.\nHier muss für die künftigen Wahlen ein rechtssicheres und mit den Parteien\nabgestimmtes Vorgehen erreicht werden.\n\nLutz Loebel\nfür die Fraktion Bündnis 90/ Die Grünen"
+    }
+  ],
+  "full_text": "Anlage 3 zu TOP 19\n## Absender\nFraktion Bündnis 90/ Die Grünen\n26.11.2020\n\n## Empfänger\nGemeinde Nordstemmen\n-Bürgermeisterin-\n\n## Betreff\nAntrag der Fraktion Bündnis 90/ Die Grünen im Rat der Gemeinde Nordstemmen\nBetrifft: Richtlinien für künftige Wahlwerbung in der Gemeinde\n\nSehr geehrte Frau Bürgermeisterin,\n\ndie Fraktion Bündnis 90/Die Grünen beantragt, dass die Gemeindeverwaltung\nbis zur Ratssitzung im März 2021 ein Konzept für die Art und Weise der\nzulässigen Sondernutzung des öffentlichen Raumes für Wahlwerbung in der\nGemeinde Nordstemmen erarbeitet und vorstellt.\n\nBegründung:\nIm Jahr 2021 stehen Kommunal und Bundestagswahlen an.\n\nDie letzte Wahl hat zu Unstimmigkeiten über Art und Umfang der\nPlakatwerbung der politischen Parteien im Straßenraum der Gemeinde geführt.\nHier muss für die künftigen Wahlen ein rechtssicheres und mit den Parteien\nabgestimmtes Vorgehen erreicht werden.\n\nLutz Loebel\nfür die Fraktion Bündnis 90/ Die Grünen",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:02:52.268Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 290
+  }
 }

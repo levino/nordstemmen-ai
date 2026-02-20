@@ -1,8 +1,18 @@
 {
   "file_hash": "e8472f69e05f6d3eefbb24af11cb73635b612c82d49b587b876411eb9165051f",
   "filename": "Anlage_1_TOP_11.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "R\n\n## Absender\nAnwohner Enzianweg\nFlorian Wipke / Jürgen Tetzlaff\nEnzianweg 4/6\nD-31171 Nordstemmen\n\n## Ort und Datum\nNordstemmen, 03. September 2016\n\n## Empfänger\nAn den\nOrtsbürgermeister\nBernhard Flegel\nRichard-Wagner-Str. 3\n31171 Nordstemmen\n\nGemeinde Nordstemmen\n04. Okt. 2016\n[unleserlich]\npeu fer en to. Flegel en\n4.10.16\nR\n\n## Betreff\nEinrichtung Verkehrsspiegel\n\nSehr geehrter Herr Flegel,\n\nAnwohner des Enzianweges bitten darum, dass im Enzianweg, ungefähr auf Höhe der Hausnummer 6, ein Spiegel\nerrichtet wird, mittels dessen in den Enzianweg einbiegende / herauskommende Verkehrsteilnehmer den entge-\ngenkommenden Verkehr bzw. andere Verkehrsteilnehmer sehen können.\n\nBegründung:\nVerkehrsteilnehmern (Anwohner- und Besucher-PKW, Lieferanten-LKW,\nFahrradfahrer und Kinder), die entweder in den Enzianweg einbiegen\noder herausfahren möchten, ist es durch die Beschaffenheit der Kurve\nund durch eine Mauer mit Heckenanpflanzung nur erschwert möglich, die\nFahrsituation zu überblicken. Dies führt zu einer Verkehrsgefährdung\nund erhöht das Unfallrisiko. Die o.g. Maßnahme könnte dies entschärfen.\n\n[Skizze einer Straßeneinmündung mit eingezeichneten Elementen]\n\nAuch das gem. § 8 StVO vorgeschriebene \"vorsichtige hineintasten in die\nKreuzung oder Einmündung\" führt durch die Einsichtbehinderungen\ndazu, dass bereits 1/4 des Fahrzeugs in der Einmündung steht, bevor\nder Fahrer überhaupt erst Einsicht erhalten kann. Hier kam es bereits zu\neinem Unfall, glücklicherweise ohne Personenschäden. Ein Spiegel\nwürde dieses vorgeschriebene Verkehrsverhalten deutlich erleichtern.\n\nFür Rückfragen steht Ihnen unter der Telefonnummer: 05069 34 78 058 Florian Wipke oder unter der Telefon-\nnummer: 05069 82 81 Jürgen Tetzlaff zur Verfügung. Gerne begleiten wir Sie auch bei einer Ortsbegehung.\n\nVielen Dank für Ihre Mühe.\n\nMit freundlichen Grüßen,\n\n[Unterschrift]\nFlorian Wipke\n\n[Unterschrift]\nJürgen Tetzlaff"
+    }
+  ],
+  "full_text": "R\n\n## Absender\nAnwohner Enzianweg\nFlorian Wipke / Jürgen Tetzlaff\nEnzianweg 4/6\nD-31171 Nordstemmen\n\n## Ort und Datum\nNordstemmen, 03. September 2016\n\n## Empfänger\nAn den\nOrtsbürgermeister\nBernhard Flegel\nRichard-Wagner-Str. 3\n31171 Nordstemmen\n\nGemeinde Nordstemmen\n04. Okt. 2016\n[unleserlich]\npeu fer en to. Flegel en\n4.10.16\nR\n\n## Betreff\nEinrichtung Verkehrsspiegel\n\nSehr geehrter Herr Flegel,\n\nAnwohner des Enzianweges bitten darum, dass im Enzianweg, ungefähr auf Höhe der Hausnummer 6, ein Spiegel\nerrichtet wird, mittels dessen in den Enzianweg einbiegende / herauskommende Verkehrsteilnehmer den entge-\ngenkommenden Verkehr bzw. andere Verkehrsteilnehmer sehen können.\n\nBegründung:\nVerkehrsteilnehmern (Anwohner- und Besucher-PKW, Lieferanten-LKW,\nFahrradfahrer und Kinder), die entweder in den Enzianweg einbiegen\noder herausfahren möchten, ist es durch die Beschaffenheit der Kurve\nund durch eine Mauer mit Heckenanpflanzung nur erschwert möglich, die\nFahrsituation zu überblicken. Dies führt zu einer Verkehrsgefährdung\nund erhöht das Unfallrisiko. Die o.g. Maßnahme könnte dies entschärfen.\n\n[Skizze einer Straßeneinmündung mit eingezeichneten Elementen]\n\nAuch das gem. § 8 StVO vorgeschriebene \"vorsichtige hineintasten in die\nKreuzung oder Einmündung\" führt durch die Einsichtbehinderungen\ndazu, dass bereits 1/4 des Fahrzeugs in der Einmündung steht, bevor\nder Fahrer überhaupt erst Einsicht erhalten kann. Hier kam es bereits zu\neinem Unfall, glücklicherweise ohne Personenschäden. Ein Spiegel\nwürde dieses vorgeschriebene Verkehrsverhalten deutlich erleichtern.\n\nFür Rückfragen steht Ihnen unter der Telefonnummer: 05069 34 78 058 Florian Wipke oder unter der Telefon-\nnummer: 05069 82 81 Jürgen Tetzlaff zur Verfügung. Gerne begleiten wir Sie auch bei einer Ortsbegehung.\n\nVielen Dank für Ihre Mühe.\n\nMit freundlichen Grüßen,\n\n[Unterschrift]\nFlorian Wipke\n\n[Unterschrift]\nJürgen Tetzlaff",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T14:59:05.672Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 596
+  }
 }

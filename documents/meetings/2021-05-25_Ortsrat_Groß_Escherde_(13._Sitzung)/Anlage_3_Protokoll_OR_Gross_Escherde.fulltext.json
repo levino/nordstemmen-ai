@@ -1,8 +1,18 @@
 {
   "file_hash": "d01fb3a1e515b4552122d7ab37ad622740f764f23d17622f0153821bb38c57e5",
   "filename": "Anlage_3_Protokoll_OR_Gross_Escherde.pdf",
-  "skipped": true,
-  "reason": "no text extracted",
-  "pages": [],
-  "full_text": ""
+  "pages": [
+    {
+      "page": 1,
+      "text": "Sierzega Elektronik GmbH\nThürnau 55, A-4062 Thening\nTel.: +43-7221-64114-0, Fax:-14\nMail: office@sierzega.at\nWeb: www.sierzega.at\n\nWenn an dieser Stelle Ihr Logo mit Anschrift usw. stehen soll,\nso kopieren Sie eine entsprechende Grafik, gespeichert als \"logo.wmf\" (Windows Metafile)\nmit den Proportionen 1:10 (Breite: Länge) in das Programmverzeichnis dieser Software\n\nTo see your own logo with your address here at this place:\nDesign a graphic file and save it as \"logo.wmf\" (Windows Metafile)\nwith the proportions 1:10 (width to length) in the program folder of this software\n\nSchulstraße 19.02.21 bis 15.04.21\n\n45\n40\n35\n30\n25\nGeschwindigkeit (km/h)\n20\n15\n10\n5\n0\n00:00 01:00 02:00 03:00 04:00 05:00 06:00 07:00 08:00 09:00 10:00 11:00 12:00 13:00 14:00 15:00 16:00 17:00 18:00 19:00 20:00 21:00 22:00 23:00\nUhrzeit\n-Statistik-\nZeitraum:\nFreitag, 19. Februar 2021, 09:13 Uhr bis Donnerstag, 15. April 2021, 07:13 Uhr\n\n| | | Anzahl | % | V15 | Vd | V85 | Vmax |\n| :------------------------- | :-------- | :----- | :-- | :-- | :-- | :-- | :--- |\n| Geschwindigkeitsübertretung: 37 % | Einspurig | 5228 | 23,8 | 8 | 16 | 25 | 47 |\n| Durchschnittl. Abstand: | sec PKW | 16761 | 76,2 | 22 | 29 | 37 | 65 |\n| Kolonnenverkehr: | 0% | LKW | 1 | 0 | 17 | 17 | 17 | 17 |\n| DTV: | 401 | LKW Zug | 11 | 0 | 17 | 25 | 29 | 32 |\n| Schwerverkehrsanteil: | 0% | Gesamt | 22001 | 100 | 14 | 26 | 36 | 65 |\n\n- Vmax\n- V85\n- Vd\n\nAnlage 3\n\nSIERZEGA"
+    }
+  ],
+  "full_text": "Sierzega Elektronik GmbH\nThürnau 55, A-4062 Thening\nTel.: +43-7221-64114-0, Fax:-14\nMail: office@sierzega.at\nWeb: www.sierzega.at\n\nWenn an dieser Stelle Ihr Logo mit Anschrift usw. stehen soll,\nso kopieren Sie eine entsprechende Grafik, gespeichert als \"logo.wmf\" (Windows Metafile)\nmit den Proportionen 1:10 (Breite: Länge) in das Programmverzeichnis dieser Software\n\nTo see your own logo with your address here at this place:\nDesign a graphic file and save it as \"logo.wmf\" (Windows Metafile)\nwith the proportions 1:10 (width to length) in the program folder of this software\n\nSchulstraße 19.02.21 bis 15.04.21\n\n45\n40\n35\n30\n25\nGeschwindigkeit (km/h)\n20\n15\n10\n5\n0\n00:00 01:00 02:00 03:00 04:00 05:00 06:00 07:00 08:00 09:00 10:00 11:00 12:00 13:00 14:00 15:00 16:00 17:00 18:00 19:00 20:00 21:00 22:00 23:00\nUhrzeit\n-Statistik-\nZeitraum:\nFreitag, 19. Februar 2021, 09:13 Uhr bis Donnerstag, 15. April 2021, 07:13 Uhr\n\n| | | Anzahl | % | V15 | Vd | V85 | Vmax |\n| :------------------------- | :-------- | :----- | :-- | :-- | :-- | :-- | :--- |\n| Geschwindigkeitsübertretung: 37 % | Einspurig | 5228 | 23,8 | 8 | 16 | 25 | 47 |\n| Durchschnittl. Abstand: | sec PKW | 16761 | 76,2 | 22 | 29 | 37 | 65 |\n| Kolonnenverkehr: | 0% | LKW | 1 | 0 | 17 | 17 | 17 | 17 |\n| DTV: | 401 | LKW Zug | 11 | 0 | 17 | 25 | 29 | 32 |\n| Schwerverkehrsanteil: | 0% | Gesamt | 22001 | 100 | 14 | 26 | 36 | 65 |\n\n- Vmax\n- V85\n- Vd\n\nAnlage 3\n\nSIERZEGA",
+  "extraction": {
+    "model": "gemini-2.5-flash",
+    "prompt": "page-level OCR",
+    "extracted_at": "2026-02-20T15:03:16.299Z",
+    "total_input_tokens": 602,
+    "total_output_tokens": 722
+  }
 }
