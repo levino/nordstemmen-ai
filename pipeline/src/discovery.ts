@@ -1,6 +1,6 @@
 import { readdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { loadEmbeddings, loadFulltext } from './cache.ts';
+import { isCompleted } from './cache.ts';
 import { computeFileHash, isLfsPointer } from './hash.ts';
 import type {
   DocumentInfo,
@@ -117,17 +117,8 @@ export async function discoverDocuments(config: PipelineConfig): Promise<Documen
 
 export async function needsProcessing(
   file: FileInfo,
-  processedSet: Set<string>,
   config: PipelineConfig,
 ): Promise<boolean> {
   if (config.force) return true;
-
-  const key = `${file.relativePath}::${file.fileHash}`;
-  if (processedSet.has(key)) {
-    const fulltext = await loadFulltext(file.pdfPath, file.fileHash);
-    const embeddings = await loadEmbeddings(file.pdfPath, file.fileHash);
-    if (fulltext && embeddings) return false;
-  }
-
-  return true;
+  return !(await isCompleted(file.pdfPath, file.fileHash));
 }

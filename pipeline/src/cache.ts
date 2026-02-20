@@ -13,6 +13,26 @@ export function embeddingsPath(pdfPath: string): string {
   return join(dir, `${name}.embeddings.json`);
 }
 
+function completedPath(pdfPath: string): string {
+  const { dir, name } = parse(pdfPath);
+  return join(dir, `${name}.completed`);
+}
+
+export async function isCompleted(pdfPath: string, expectedHash: string): Promise<boolean> {
+  try {
+    const raw = await readFile(completedPath(pdfPath), 'utf-8');
+    const data = JSON.parse(raw);
+    return data.file_hash === expectedHash;
+  } catch {
+    return false;
+  }
+}
+
+export async function markCompleted(pdfPath: string, fileHash: string): Promise<void> {
+  const data = { file_hash: fileHash, completed_at: new Date().toISOString() };
+  await writeFile(completedPath(pdfPath), JSON.stringify(data, null, 2), 'utf-8');
+}
+
 export async function loadFulltext(pdfPath: string, expectedHash: string): Promise<FulltextData | null> {
   try {
     const path = fulltextPath(pdfPath);

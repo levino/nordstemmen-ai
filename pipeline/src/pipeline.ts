@@ -1,6 +1,6 @@
 import { stat as fsStat, readFile } from 'node:fs/promises';
 import { type B2Config, createB2Service } from './b2.ts';
-import { loadEmbeddings, loadFulltext, saveEmbeddings, saveFulltext } from './cache.ts';
+import { loadEmbeddings, loadFulltext, markCompleted, saveEmbeddings, saveFulltext } from './cache.ts';
 import { GEMINI_MODEL } from './config.ts';
 import { discoverDocuments, needsProcessing } from './discovery.ts';
 import { createJinaClient, type JinaClient } from './jina.ts';
@@ -34,13 +34,12 @@ async function processFile(
   jina: JinaClient,
   qdrant: ReturnType<typeof createQdrantService>,
   b2: ReturnType<typeof createB2Service>,
-  processedSet: Set<string>,
 ): Promise<ProcessingResult> {
   try {
-    // Step 1: OCR via Gemini (or reuse existing fulltext)
+    // Step 1: OCR via Gemini (or reuse existing fulltext cache)
     let fulltext = await loadFulltext(file.pdfPath, file.fileHash);
 
-    if (!fulltext || config.force) {
+    if (!fulltext) {
       const ocrResult = await ocrPdf(file.pdfPath, geminiApiKey);
 
       const fulltextData: FulltextData = {
@@ -65,10 +64,10 @@ async function processFile(
       return { file, status: 'failed', error: 'No text extracted' };
     }
 
-    // Step 2: Generate embeddings via Jina (or reuse existing)
+    // Step 2: Generate embeddings via Jina (or reuse existing cache)
     let embeddings = await loadEmbeddings(file.pdfPath, file.fileHash);
 
-    if (!embeddings || config.force) {
+    if (!embeddings) {
       const pageTexts = fulltext.pages.filter((p) => p.text.trim().length > 0).map((p) => p.text);
       const pageNums = fulltext.pages.filter((p) => p.text.trim().length > 0).map((p) => p.page);
 
@@ -95,43 +94,38 @@ async function processFile(
 
     // Step 3: Upload to Qdrant
     if (!config.skipQdrant) {
-      const key = `${file.relativePath}::${file.fileHash}`;
-      if (!processedSet.has(key)) {
-        await qdrant.deleteFileChunks(file.relativePath);
+      await qdrant.deleteFileChunks(file.relativePath);
 
-        const meta = document.metadata;
-        const basePayload: Omit<QdrantPayload, 'page' | 'chunk_index' | 'text'> = {
-          filename: file.relativePath,
-          file_hash: file.fileHash,
-          source: 'oparl',
-          entity_type: document.entityType,
-          entity_id: meta.id,
-          entity_name: meta.name ?? '',
-          date: (meta as PaperMetadata).date ?? (meta as MeetingMetadata).start?.split('T')[0] ?? '',
-          file_type: file.fileType,
-          file_id: file.fileId,
-          pdf_access_url: file.accessUrl,
-          pdf_download_url: file.downloadUrl,
-          ...(document.entityType === 'paper'
-            ? {
-                paper_reference: (meta as PaperMetadata).reference ?? '',
-                paper_type: (meta as PaperMetadata).paperType ?? '',
-              }
-            : {}),
-        };
+      const meta = document.metadata;
+      const basePayload: Omit<QdrantPayload, 'page' | 'chunk_index' | 'text'> = {
+        filename: file.relativePath,
+        file_hash: file.fileHash,
+        source: 'oparl',
+        entity_type: document.entityType,
+        entity_id: meta.id,
+        entity_name: meta.name ?? '',
+        date: (meta as PaperMetadata).date ?? (meta as MeetingMetadata).start?.split('T')[0] ?? '',
+        file_type: file.fileType,
+        file_id: file.fileId,
+        pdf_access_url: file.accessUrl,
+        pdf_download_url: file.downloadUrl,
+        ...(document.entityType === 'paper'
+          ? {
+              paper_reference: (meta as PaperMetadata).reference ?? '',
+              paper_type: (meta as PaperMetadata).paperType ?? '',
+            }
+          : {}),
+      };
 
-        await qdrant.upsertChunks(
-          embeddings.chunks.map((c) => ({
-            page: c.page,
-            chunkIndex: c.chunk_index,
-            text: c.text,
-            vector: c.vector,
-          })),
-          basePayload,
-        );
-
-        processedSet.add(key);
-      }
+      await qdrant.upsertChunks(
+        embeddings.chunks.map((c) => ({
+          page: c.page,
+          chunkIndex: c.chunk_index,
+          text: c.text,
+          vector: c.vector,
+        })),
+        basePayload,
+      );
     }
 
     // Step 4: Upload to B2
@@ -150,6 +144,9 @@ async function processFile(
       }
     }
 
+    // Step 5: Mark as completed — ONLY after all steps succeeded
+    await markCompleted(file.pdfPath, file.fileHash);
+
     return { file, status: 'processed', pages: fulltext.pages.length };
   } catch (error) {
     return {
@@ -167,8 +164,6 @@ export async function runPipeline(config: PipelineConfig, env: EnvConfig): Promi
   const b2 = createB2Service(env.b2);
   const jina = createJinaClient(env.jinaApiKey);
 
-  let processedSet = new Set<string>();
-
   if (!config.dryRun) {
     if (!config.skipQdrant) {
       await qdrant.ensureCollection();
@@ -179,10 +174,6 @@ export async function runPipeline(config: PipelineConfig, env: EnvConfig): Promi
       await b2.authorize();
       console.log('B2 authorized.');
     }
-
-    // Load already-processed files from Qdrant
-    processedSet = config.skipQdrant ? new Set<string>() : await qdrant.loadProcessedFiles();
-    console.log(`Qdrant: ${processedSet.size} files already processed.\n`);
   }
 
   // Discover documents
@@ -209,7 +200,7 @@ export async function runPipeline(config: PipelineConfig, env: EnvConfig): Promi
   // Determine which files need processing
   const toProcess: typeof allFiles = [];
   for (const { document, file } of allFiles) {
-    if (await needsProcessing(file, processedSet, config)) {
+    if (await needsProcessing(file, config)) {
       toProcess.push({ document, file });
     }
   }
@@ -232,7 +223,7 @@ export async function runPipeline(config: PipelineConfig, env: EnvConfig): Promi
 
   // Process files with concurrency control
   const tasks = limited.map(({ document, file }) => async () => {
-    const result = await processFile(document, file, config, env.geminiApiKey, jina, qdrant, b2, processedSet);
+    const result = await processFile(document, file, config, env.geminiApiKey, jina, qdrant, b2);
 
     const icon = result.status === 'processed' ? '+' : result.status === 'skipped' ? '-' : 'X';
     const suffix = result.error ? ` (${result.error})` : result.pages ? ` (${result.pages} pages)` : '';
