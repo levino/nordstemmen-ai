@@ -115,7 +115,7 @@ describe.skipIf(!JINA_API_KEY)('Jina API load test', () => {
 
     console.log(`\nThroughput: ${succeeded}/${total} OK, ${failed} failed in ${elapsed}ms`);
     console.log(`  → Effective RPM: ${rpm}`);
-    console.log(`  → Effective RPS: ${(succeeded / elapsed * 1000).toFixed(1)}`);
+    console.log(`  → Effective RPS: ${((succeeded / elapsed) * 1000).toFixed(1)}`);
 
     if (failed > 0) {
       const errors = results.filter((r) => !r.ok);

@@ -343,32 +343,39 @@ function computeSparseVector(text) {
 // ============================================================================
 
 async function generateEmbedding(env, text) {
-  return fetch('https://api.jina.ai/v1/embeddings', {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${env.JINA_API_KEY}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      model: 'jina-embeddings-v3',
-      input: [text],
-      task: 'retrieval.query',
-    }),
-  })
-    .then((response) => {
-      if (!response.ok) {
-        return response.text().then((errorBody) => {
-          throw new Error(`Jina API error: ${response.status} ${response.statusText} - ${errorBody}`);
-        });
-      }
-      return response.json();
-    })
-    .then((data) => {
-      if (data.data && data.data[0] && data.data[0].embedding) {
-        return data.data[0].embedding;
-      }
-      throw new Error(`Unexpected Jina API response format: ${JSON.stringify(data)}`);
+  const maxRetries = 3;
+  const backoffMs = [1000, 2000, 4000];
+
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    const response = await fetch('https://api.jina.ai/v1/embeddings', {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${env.JINA_API_KEY}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: 'jina-embeddings-v3',
+        input: [text],
+        task: 'retrieval.query',
+      }),
     });
+
+    if (response.status === 429 && attempt < maxRetries) {
+      await new Promise((resolve) => setTimeout(resolve, backoffMs[attempt]));
+      continue;
+    }
+
+    if (!response.ok) {
+      const errorBody = await response.text();
+      throw new Error(`Jina API error: ${response.status} ${response.statusText} - ${errorBody}`);
+    }
+
+    const data = await response.json();
+    if (data.data && data.data[0] && data.data[0].embedding) {
+      return data.data[0].embedding;
+    }
+    throw new Error(`Unexpected Jina API response format: ${JSON.stringify(data)}`);
+  }
 }
 
 // ============================================================================

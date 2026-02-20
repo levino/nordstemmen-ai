@@ -1,24 +1,26 @@
 # GitHub Secrets for Data Sync Workflow
 
-The `data-sync.yml` workflow requires the following secrets to be configured in GitHub repository settings (Settings > Secrets and variables > Actions).
+The `data-sync.yml` workflow requires the following secrets and variables to be configured in GitHub repository settings (Settings > Secrets and variables > Actions).
 
 ## Required Secrets
 
 | Secret | Description | Where to get it |
 |---|---|---|
-| `JINA_API_KEY` | Jina AI API Key for generating embeddings | https://jina.ai (Free tier: 1M tokens/month) |
-| `QDRANT_URL` | Qdrant Cloud cluster URL | https://cloud.qdrant.io |
-| `QDRANT_API_KEY` | Qdrant Cloud API key | Qdrant Cloud dashboard |
-| `B2_KEY_ID` | Backblaze B2 application key ID | B2 Cloud Storage > App Keys |
-| `B2_APP_KEY` | Backblaze B2 application key | B2 Cloud Storage > App Keys |
-| `B2_BUCKET_ID` | Backblaze B2 bucket ID | B2 Cloud Storage > Buckets |
-| `B2_BUCKET_NAME` | Backblaze B2 bucket name | B2 Cloud Storage > Buckets |
-| `GIT_LFS_USERNAME` | Username für den selbst-gehosteten LFS-Server | `git-lfs.nordstemmen-ai.levinkeller.de` |
-| `GIT_LFS_PASSWORD` | Passwort/Token für den LFS-Server | `git-lfs.nordstemmen-ai.levinkeller.de` |
+| `GOOGLE_API_KEY` | Google API Key for Gemini 2.5 Flash OCR | https://console.cloud.google.com (Generative Language API) |
+| `JINA_API_KEY` | Jina AI API Key for generating embeddings | https://jina.ai |
+| `QDRANT_API_KEY` | Qdrant API key (read+write) | Qdrant dashboard |
+| `GIT_LFS_PASSWORD` | Passwort/Token für den selbst-gehosteten LFS-Server | `git-lfs.nordstemmen-ai.levinkeller.de` |
+
+## Required Variables
+
+| Variable | Description | Example |
+|---|---|---|
+| `QDRANT_URL` | Qdrant server URL | `https://qdrant.levinkeller.de` |
+| `GIT_LFS_USERNAME` | Username für den LFS-Server | (configured in LFS server) |
 
 ## Notes
 
 - Der LFS-Server ist **selbst-gehostet** unter `git-lfs.nordstemmen-ai.levinkeller.de` (siehe `.lfsconfig`), nicht GitHub LFS.
-- The B2 key should have read+write access to the bucket used for PDF and fulltext storage.
 - The Qdrant API key needs read+write access to the `nordstemmen` collection.
 - The Jina API key is used for the `retrieval.passage` task (document embedding generation).
+- The Google API key needs access to the Generative Language API (Gemini). Create the key in Cloud Console (not AI Studio) for proper quota tier.

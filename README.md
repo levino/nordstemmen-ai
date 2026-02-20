@@ -2,11 +2,11 @@
 
 **Durchsuche alle öffentlichen Dokumente der Gemeinde Nordstemmen mit KI-Unterstützung - direkt in Claude!**
 
-## 🚀 Jetzt sofort nutzen
+## Jetzt sofort nutzen
 
 Du kannst diese Suchmaschine **sofort kostenlos nutzen**, ohne irgendetwas zu installieren:
 
-### Für Claude 
+### Für Claude
 
 1. Gehe zu https://claude.ai
 2. Klicke auf dein Profil (unten links) → **Settings** -> **Connectors**
@@ -37,9 +37,7 @@ Du brauchst einen bezahlten Account (z.B. Plus) und musst unter https://chatgpt.
 
 Der Konnektor ist nun eingerichtet und bereit zur Verwendung. Öffne dafür einen **neuen Chat** und wähle über das **+**-Symbol links im Eingabefeld → **... Mehr** → **Gemeinde Nordstemmen** aus.
 
-Jetzt kannst du ChatGPT Fragen zu den Gemeindedokumenten stellen – Beispiele findest du oben.
-
-Beim ersten Aufruf einer Aktion musst du diesen aus Sicherheitsgründen bestätigen. Du kannst dabei die Option **Für dieses Gespräch merken** aktivieren, um die Anzahl der Rückfragen zu reduzieren. Da der Konnektor mehrere Aktionstypen bereitstellt, können dennoch gelegentlich weitere Bestätigungen notwendig sein.
+Beim ersten Aufruf einer Aktion musst du diesen aus Sicherheitsgründen bestätigen. Du kannst dabei die Option **Für dieses Gespräch merken** aktivieren, um die Anzahl der Rückfragen zu reduzieren.
 
 ---
 
@@ -52,54 +50,67 @@ Dieses Projekt ermöglicht semantische Suche in **allen öffentlichen Dokumenten
 - Bebauungspläne und Planungsunterlagen
 - Bekanntmachungen und Ausschreibungen
 
-**Zeitraum:** Alle Dokumente ab 2007 bis heute (wird automatisch aktualisiert)
+**Zeitraum:** Alle Dokumente ab 2007 bis heute (~5.800 PDFs, wird automatisch aktualisiert)
 
 Die semantische KI-Suche findet relevante Informationen auch wenn die exakten Suchbegriffe nicht im Text vorkommen.
 
 ## Technischer Überblick (für Entwickler)
 
-Das Projekt besteht aus vier Komponenten:
+Das Projekt besteht aus drei Komponenten:
 
-1. **OParl Scraper** - Lädt PDF-Dokumente vom Ratsinformationssystem herunter
-2. **Document Pipeline** - Verarbeitet PDFs komplett: Gemini OCR → Jina Embeddings + Sparse Vectors → Qdrant → Backblaze B2
-3. **MCP Server** - Cloudflare Pages Function für Hybrid-Suche (semantisch + Keyword) via Claude (Web & Desktop)
-4. **CI Pipeline** - GitHub Actions Cronjob synchronisiert stündlich neue Dokumente
+1. **OParl Scraper** — Lädt PDF-Dokumente und Metadaten vom Ratsinformationssystem herunter
+2. **Document Pipeline** — Verarbeitet PDFs komplett: Gemini OCR → Jina Embeddings + Sparse Vectors → Qdrant
+3. **MCP Server** — Cloudflare Pages Function für Hybrid-Suche (semantisch + Keyword) via Claude/ChatGPT
+
+Dazu kommt eine **CI Pipeline** (GitHub Actions Cronjob), die stündlich neue Dokumente synchronisiert.
 
 ## Architektur
 
 ```mermaid
 graph TB
-    User[Claude Web/Desktop<br/>User]
+    User[Claude / ChatGPT<br/>User]
     MCP[MCP Server<br/>Cloudflare Pages]
-    Qdrant[(Qdrant<br/>Vector Store<br/>Cloud VPS)]
-    B2[(Backblaze B2<br/>PDF + Text Storage)]
-    Embeddings[Document Pipeline<br/>TypeScript]
+    Qdrant[(Qdrant<br/>Vector Store<br/>Self-hosted VPS)]
+    Pipeline[Document Pipeline<br/>TypeScript]
     Docs[Documents<br/>PDF Files]
     Scraper[OParl Scraper<br/>TypeScript]
     Jina[Jina AI API]
+    Gemini[Gemini 2.5 Flash]
     CI[GitHub Actions<br/>Hourly Cron]
 
     User -->|MCP Protocol<br/>Connector| MCP
     MCP -->|Query Embeddings<br/>+ Sparse Vector| Jina
     MCP -->|Hybrid Search<br/>Dense + Sparse RRF| Qdrant
-    MCP -->|PDF + Fulltext| B2
+    MCP -->|Fulltext| MCP
     CI -->|Hourly| Scraper
-    CI -->|Hourly| Embeddings
+    CI -->|Hourly| Pipeline
     Scraper -->|Download PDFs<br/>+ Metadata| Docs
-    Docs -->|Read PDFs| Embeddings
-    Embeddings -->|Jina v3 Dense<br/>+ BM25 Sparse| Qdrant
-    Embeddings -->|PDFs + Text| B2
+    Docs -->|Read PDFs| Pipeline
+    Pipeline -->|OCR| Gemini
+    Pipeline -->|Jina v3 Dense<br/>+ BM25 Sparse| Qdrant
 
     style User fill:#e1f5ff
     style MCP fill:#fff4e1
     style Qdrant fill:#e8f5e9
-    style B2 fill:#e8f5e9
-    style Embeddings fill:#f3e5f5
+    style Pipeline fill:#f3e5f5
     style Docs fill:#fce4ec
     style Scraper fill:#e0f2f1
     style Jina fill:#fff9c4
+    style Gemini fill:#fff9c4
     style CI fill:#f0f0f0
 ```
+
+### Komponentenübersicht
+
+| Komponente | Technologie | Zweck |
+|---|---|---|
+| **OParl Scraper** | TypeScript + Effect | PDFs + Metadaten von OParl-API herunterladen |
+| **Document Pipeline** | TypeScript, async/await | PDF → Gemini OCR → Jina Embeddings + Sparse Vectors → Qdrant |
+| **MCP Server** | Cloudflare Pages Functions | Hybrid-Suche (Dense + Sparse RRF), Volltext-Abruf |
+| **Vector DB** | Qdrant (self-hosted) | Named Vectors: Dense (Jina 1024D) + Sparse (BM25-TF) |
+| **OCR** | Gemini 2.5 Flash | PDF → Text (seitenweise) |
+| **Embeddings** | Jina AI v3 (1024D) + lokale BM25-TF | Text → Dense + Sparse Vektoren |
+| **Fulltext** | Cloudflare Static Assets | Volltext als `.txt`-Dateien im MCP-Server gebündelt |
 
 ### Warum Hybrid Search?
 
@@ -109,14 +120,14 @@ Die Suche kombiniert zwei Ansätze via **Reciprocal Rank Fusion (RRF)**:
 
 Sparse Vectors werden **lokal** aus dem Text berechnet (FNV-1a Hash, deutsche Stopwörter, keine API nötig). Der gleiche Tokenizer läuft in Pipeline und MCP Server.
 
-### Technologie-Stack
+### KI-Modell-Entscheidungen
 
-- **Dokument-Embeddings**: Jina AI API in CI (Dense) + lokale Berechnung (Sparse)
-- **Query-Embeddings**: Jina AI API für Dense + lokale Sparse-Berechnung im MCP Server
-- **Vector Search**: Qdrant (self-hosted) mit Named Vectors (dense + sparse) und RRF Fusion
-- **MCP Server**: Cloudflare Pages (kostenloses Hosting, globales CDN, niedrige Latenz)
-- **PDF/Text Storage**: Backblaze B2 (günstig, per SHA256-Hash adressiert)
-- **CI Pipeline**: GitHub Actions (stündliche Synchronisierung, LFS-optimiert)
+**OCR — Gemini 2.5 Flash** wurde nach Vergleich mit GPT-4o und GPT-4o-mini gewählt:
+- **Gemini**: Günstigste Option (~$0,0001/Seite), keine Halluzinationen, verarbeitet auch gedrehte PDFs korrekt
+- **GPT-4o**: Paraphrasiert statt zu transkribieren — schreibt Inhalte in eigenen Worten um und verfälscht die Bedeutung
+- **GPT-4o-mini**: Verweigert gedrehte PDFs, überspringt Absenderblöcke, fast so teuer wie GPT-4o
+
+**Embeddings — Jina v3 (1024D)**: Mehrsprachiges Modell mit guter Deutsch-Unterstützung. Task-spezifische LoRA-Adapter (`retrieval.passage` für Indizierung, `retrieval.query` für Suche).
 
 ## Repository-Struktur
 
@@ -125,10 +136,10 @@ nordstemmen-ai/
 ├── .github/workflows/
 │   ├── data-sync.yml      # Stündlicher CI-Cronjob für Datenaktualisierung
 │   └── claude.yml         # Claude Code Action
-├── documents/              # Heruntergeladene PDFs und Metadaten
-│   ├── papers/            # Drucksachen (nach OParl-ID)
-│   └── meetings/          # Sitzungen (nach OParl-ID)
-├── scraper/               # OParl Scraper (TypeScript)
+├── documents/              # Heruntergeladene PDFs und Metadaten (Git LFS)
+│   ├── papers/            # Drucksachen (~1578 Verzeichnisse)
+│   └── meetings/          # Sitzungen (~1087 Verzeichnisse)
+├── scraper/               # OParl Scraper (TypeScript + Effect)
 │   ├── src/
 │   │   ├── index.ts       # CLI Entry Point
 │   │   ├── scraper.ts     # OParl Scraper Logic
@@ -140,24 +151,20 @@ nordstemmen-ai/
 │   │   ├── index.ts       # CLI Entry Point
 │   │   ├── pipeline.ts    # Orchestrator
 │   │   ├── ocr.ts         # Gemini OCR
-│   │   ├── embeddings.ts  # Jina Embeddings
-│   │   ├── qdrant.ts      # Qdrant Upload
-│   │   └── b2.ts          # B2 Upload
+│   │   ├── jina.ts        # Jina Embeddings (mit Semaphore)
+│   │   ├── sparse.ts      # BM25-TF Sparse Vectors (lokal)
+│   │   ├── qdrant.ts      # Qdrant Upload (Named Vectors: dense + sparse)
+│   │   ├── cache.ts       # Cache + .completed Tracking
+│   │   ├── rebuild-qdrant.ts  # Qdrant aus Cache neu aufbauen
+│   │   └── migrate-sparse.ts  # Einmalige Migration (danach löschen)
 │   └── package.json
-├── embeddings/            # Embedding Generator (Python, deprecated)
-│   ├── generate_embeddings.py  # PDF → Embeddings (lokal oder API)
-│   ├── upload_to_qdrant.py     # Embeddings → Qdrant
-│   └── requirements.txt
 ├── mcp-server/            # MCP Server (Cloudflare Pages)
 │   ├── functions/
-│   │   ├── mcp.js         # MCP Protocol Handler + Tools
-│   │   └── pdf/[[sha256]].js  # PDF Proxy (B2 → CDN)
+│   │   └── mcp.js         # MCP Protocol Handler + 4 Tools
 │   └── package.json
 ├── docs/
 │   └── github-secrets.md  # CI Secret-Dokumentation
 ├── .env.example
-├── .gitignore
-├── LICENSE
 └── README.md
 ```
 
@@ -165,23 +172,24 @@ nordstemmen-ai/
 
 ### Voraussetzungen
 
-- **Python 3.11+** (für Embedding Generator)
-- **Node.js 18+** (für Scraper und MCP Server)
-- **Qdrant Cloud Instanz** oder selbst deployed
-- **Jina AI API Key** (kostenlos bei https://jina.ai)
+- **Node.js 22+** (für alle Komponenten)
+- **Qdrant Instanz** (self-hosted oder Cloud)
+- **Google API Key** (für Gemini OCR)
+- **Jina AI API Key** (für Embeddings, https://jina.ai)
 - **Claude Account** (Web oder Desktop App für MCP Integration)
 
 ### 1. Repository klonen
 
 ```bash
-git clone https://github.com/yourusername/nordstemmen-ai.git
+git clone https://github.com/levino/nordstemmen-ai.git
 cd nordstemmen-ai
+npm install
 
-# PDFs herunterladen (Git LFS)
+# PDFs herunterladen (Git LFS) — optional, nur wenn lokal verarbeitet werden soll
 git lfs pull
 ```
 
-**Wichtig:** Die PDF-Dokumente werden via Git LFS verwaltet. Nach dem Clone muss `git lfs pull` ausgeführt werden, um die Dateien tatsächlich herunterzuladen.
+**Wichtig:** Die PDF-Dokumente werden via Git LFS verwaltet. Das Repository nutzt einen eigenen LFS-Server (nicht GitHub LFS). Nach dem Clone muss `git lfs pull` ausgeführt werden, um die tatsächlichen Dateien herunterzuladen.
 
 ### 2. Umgebungsvariablen konfigurieren
 
@@ -193,392 +201,138 @@ Bearbeite `.env` und füge deine Credentials ein:
 
 ```bash
 # Qdrant Configuration
-QDRANT_URL=https://xyz-abc-123.eu-central-1.aws.cloud.qdrant.io
+QDRANT_URL=https://qdrant.levinkeller.de
 QDRANT_API_KEY=your-qdrant-api-key
 QDRANT_PORT=443
 QDRANT_COLLECTION=nordstemmen
 
-# Jina AI API (für Query Embeddings)
-JINA_API_KEY=jina_abcdef1234567890
+# Pipeline: Gemini OCR
+GOOGLE_API_KEY=your-google-api-key
 
-# Environment (optional)
-ENVIRONMENT=production
+# Pipeline + MCP Server: Jina Embeddings
+JINA_API_KEY=your-jina-api-key
 ```
 
 **Wo bekomme ich die Keys?**
 
-- **Qdrant**: https://cloud.qdrant.io (Free Tier: 1GB)
-- **Jina AI**: https://jina.ai (Free Tier: 1M tokens/month)
+- **Qdrant**: https://cloud.qdrant.io oder selbst hosten
+- **Google API Key**: https://console.cloud.google.com (Generative Language API aktivieren)
+- **Jina AI**: https://jina.ai
 
-### 3. OParl Scraper Setup
+### 3. OParl Scraper
 
 ```bash
 cd scraper
-npm install
+npm run scrape
 ```
 
-**Scraper ausführen:**
+Lädt neue/geänderte PDF-Dokumente und OParl-Metadaten herunter.
+
+### 4. Document Pipeline
 
 ```bash
-npm start
+# Alle unverarbeiteten Dokumente verarbeiten
+npm run pipeline
+
+# Nur 10 Dokumente (zum Testen)
+npm run pipeline -- --limit 10
+
+# Nur auflisten, nichts tun
+npm run pipeline -- --dry-run
 ```
 
-**Was passiert:**
-- Traversiert OParl-API der Gemeinde Nordstemmen
-- Lädt neue/geänderte PDF-Dokumente herunter
-- Speichert Metadaten (Datum, Name, Gremium, URL) in `documents/metadata.json`
-- Erkennt bereits heruntergeladene Dokumente via OParl-ID
-
-**Output:**
-```
-documents/
-├── 2024-11-12_Gemeinderat_Protokoll.pdf
-├── 2024-10-15_Bauausschuss_Beschluss.pdf
-├── 2023-05-20_Haushalt_Vorlage.pdf
-└── metadata.json
-```
-
-### 4. Embedding Generator Setup
-
-```bash
-cd embeddings
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt      # Lokal (mit PyTorch)
-# oder: pip install -r requirements-ci.txt  # CI (ohne PyTorch, nutzt Jina API)
-```
-
-**Embeddings generieren:**
-
-```bash
-python generate_embeddings.py                # Lokal mit GPU/CPU
-JINA_API_KEY=xxx python generate_embeddings.py  # Via Jina API (kein PyTorch nötig)
-```
-
-**Was passiert:**
-1. Lädt Jina Embeddings v3 Modell lokal oder nutzt Jina API (wenn `JINA_API_KEY` gesetzt)
-2. Liest alle PDFs aus `documents/` (überspringt Git LFS Pointer)
-3. Berechnet SHA256-Hash pro PDF
-4. Prüft Cache: "Bereits verarbeitet?"
-5. Bei neuen/geänderten PDFs:
-   - Text extrahieren (pdfplumber, Fallback: OCR)
-   - Volltext als `.fulltext.json` speichern (für B2-Upload)
-   - Text in Chunks aufteilen (1000 Zeichen, 200 Overlap, LangChain)
-   - Embeddings generieren mit `task='retrieval.passage'`
-   - Embeddings als `.embeddings.json` speichern
-
-**Output:**
-```
-🚀 Initializing Embedding Generator...
-✓ Connected to Qdrant
-📦 Loading model: jinaai/jina-embeddings-v3
-✓ Model loaded (1024D vectors)
-✓ Loaded metadata for 150 files
-
-📁 Found 150 PDF files
-
-Processing: 100%|████████| 150/150 [08:42<00:00] Skipped: 145 | 2024-11-12.pdf
-
-✅ Processing complete! (Skipped 145 already processed)
-```
-
-**Hash-basierte Change Detection:**
-- Der Generator trackt bereits verarbeitete Dateien via SHA256-Hash in Qdrant
-- Bei erneutem Ausführen werden nur neue/geänderte PDFs verarbeitet
-- Kein lokaler State nötig - Qdrant ist Single Source of Truth
-- Prozess kann jederzeit gestoppt und später fortgesetzt werden
-
-**Embedding Modell:**
-- **jinaai/jina-embeddings-v3** (570M Parameter, 8192 Token Context)
-- **1024 Dimensionen**
-- Task-spezifische LoRA Adapter: `retrieval.passage` für Dokumente
-- Deutsch-taugliches Modell mit State-of-the-Art Performance
+Pro PDF: Gemini OCR → Jina Embeddings → Qdrant Upload. Die `.completed`-Datei wird erst geschrieben, wenn alle Schritte erfolgreich waren. Bei Abbruch werden beim nächsten Lauf nur die fehlenden Dateien verarbeitet.
 
 ### 5. MCP Server Deployment (Cloudflare Pages)
 
-Der MCP Server ist eine Cloudflare Pages Function, die:
-- Semantische Suche via Jina AI API + Qdrant bereitstellt
-- MCP Protocol implementiert für Claude Desktop
-- Deep Links zu Originaldokumenten im Ratsinformationssystem zurückgibt
-- Fehler in Production sanitiert (keine API-Details an User)
+Der MCP Server ist eine Cloudflare Pages Function mit vier Tools:
+- `search_documents` — Hybrid-Suche (Dense + Sparse RRF)
+- `get_paper_by_reference` — Drucksache per DS-Nummer abrufen
+- `search_papers` — Strukturierte Filtersuche
+- `get_document_text` — Volltext per SHA256-Hash abrufen
 
-#### Deployment-Schritte
+**Deployment:** Automatisch via Cloudflare Pages bei Push auf `main`.
 
-**1. Cloudflare Pages Projekt erstellen:**
+**Environment Variables** (Cloudflare Dashboard):
+```
+QDRANT_URL, QDRANT_API_KEY, QDRANT_PORT, QDRANT_COLLECTION, JINA_API_KEY
+```
 
+**Lokales Testen:**
 ```bash
 cd mcp-server
-npm install
+npm run dev    # Dev Server starten
+npm test       # Tests ausführen
 ```
 
-**2. Deployment via Cloudflare Dashboard:**
-
-1. Gehe zu https://dash.cloudflare.com
-2. Pages → Create a project → Connect to Git
-3. Wähle dieses GitHub Repository
-4. **Build-Konfiguration:**
-   - Framework preset: **None**
-   - Build command: **`npm install`**
-   - Build output directory: **(leer lassen)**
-   - Root directory: `/mcp-server`
-
-5. **Environment Variables** (Settings → Environment variables):
-   ```
-   QDRANT_URL=https://your-qdrant-instance.example.com
-   QDRANT_API_KEY=your-api-key
-   QDRANT_PORT=443
-   QDRANT_COLLECTION=nordstemmen
-   JINA_API_KEY=your-jina-api-key
-   ENVIRONMENT=production
-   ```
-
-6. Deploy!
-
-**Beispiel-URL (kann mit Custom Domain angepasst werden):**
-```
-https://nordstemmen-mcp.levinkeller.de
-```
-
-Für dieses Projekt: `https://nordstemmen-mcp.levinkeller.de/mcp`
-
-#### Lokales Testen
-
-```bash
-npm test
-```
-
-Tests umfassen:
-- MCP Protocol Endpoints (`initialize`, `tools/list`, `tools/call`)
-- Einzelne und Batch-Requests
-- Embedding Model Verfügbarkeit (HuggingFace vs. Jina AI)
-
-### 6. Claude Integration
-
-**Der MCP Server ist live unter `https://nordstemmen-mcp.levinkeller.de/mcp`**
-
-Die Anleitung zur Einbindung in Claude findest du ganz oben unter [🚀 Jetzt sofort nutzen](#-jetzt-sofort-nutzen).
-
-### 7. Automatische Datenaktualisierung (CI)
+### 6. Automatische Datenaktualisierung (CI)
 
 Die Daten werden **stündlich automatisch** via GitHub Actions aktualisiert:
 
 1. **Scraper** lädt neue Dokumente von der OParl-API
-2. **Document Pipeline** verarbeitet neue PDFs komplett (Gemini OCR → Jina Embeddings → Qdrant → B2)
+2. **Pipeline** verarbeitet neue PDFs (Gemini OCR → Jina Embeddings → Qdrant)
 3. **Git Commit** speichert neue Dateien (LFS für PDFs/Embeddings)
-
-Der Workflow nutzt `GIT_LFS_SKIP_SMUDGE=1` beim Checkout, sodass nur LFS-Pointer geladen werden. Neue Dateien vom Scraper sind echte Dateien. So bleibt der CI-Job schnell (~2-3 Min wenn keine neuen Daten).
 
 **Manuell auslösen:** GitHub Actions > Data Sync > Run workflow
 
 **Benötigte Secrets:** Siehe [docs/github-secrets.md](docs/github-secrets.md)
 
-## MCP Tool: `search_documents`
+## MCP Tools
 
-Das MCP Tool bietet semantische Suche über alle Dokumente:
+### `search_documents`
 
-**Input:**
-```json
-{
-  "query": "Schwimmbad Kosten",
-  "limit": 5
-}
-```
-
-**Output:**
-```json
-{
-  "content": [
-    {
-      "type": "text",
-      "text": "1. [Haushaltsbeschluss 2024](https://nordstemmen.de/...) • 2024-11-12 • Score: 0.892\n\nDer Gemeinderat beschließt den Haushalt 2024 mit einem Budget von 2,5 Mio € für das neue Schwimmbad..."
-    }
-  ],
-  "structuredContent": {
-    "results": [
-      {
-        "rank": 1,
-        "title": "Haushaltsbeschluss 2024",
-        "url": "https://nordstemmen.de/...",
-        "date": "2024-11-12",
-        "page": 3,
-        "score": 0.892,
-        "excerpt": "Der Gemeinderat beschließt...",
-        "filename": "2024-11-12_Gemeinderat.pdf"
-      }
-    ]
-  }
-}
-```
-
-**Features:**
-- Hybrid-Suche: Semantisch (Dense) + Keyword (Sparse BM25) via RRF
-- Deep Links zu Originaldokumenten im Ratsinformationssystem
-- Markdown-Formatierung für Claude (Text)
-- Strukturierte JSON-Daten für programmatischen Zugriff
-- Relevanz-Score (RRF Fusion Score)
-
-## Qdrant Payload Schema
-
-Jeder Chunk wird mit folgendem Schema gespeichert:
+Hybrid-Suche (semantisch + Keyword) über alle Dokumente. Kombiniert Dense Vectors (Jina v3) und Sparse Vectors (BM25-TF) via Reciprocal Rank Fusion (RRF). Findet relevante Ergebnisse auch ohne exakte Keywords, und exakte Namen/Nummern zuverlässig.
 
 ```json
-{
-  "vector": {
-    "dense": [0.123, -0.456, ...],  // 1024D (Jina v3, Cosine)
-    "sparse": { "indices": [42, 1337, ...], "values": [0.45, 0.71, ...] }  // BM25-TF
-  },
-  "payload": {
-    "filename": "documents/2024-11-12_Gemeinderat_Protokoll.pdf",
-    "file_hash": "abc123def456...",
-    "page": 3,
-    "chunk_index": 5,
-    "text": "Der Gemeinderat beschließt...",
-    "source": "oparl",
-
-    // OParl Metadata
-    "oparl_id": "https://nordstemmen.de/api/oparl/v1/paper/123",
-    "date": "2024-11-12",
-    "name": "Haushaltsbeschluss 2024",
-    "mime_type": "application/pdf",
-    "access_url": "https://nordstemmen.de/buergerinfo/..."
-  }
-}
+{"query": "Schwimmbad Kosten", "limit": 5}
 ```
 
-**Metadaten-Quelle:** `documents/metadata.json` (vom Scraper generiert)
+### `get_paper_by_reference`
 
-## Entwicklung
+Drucksache per Nummer abrufen. Unterstützt Formate: "DS 101/2012", "101/2012", "101-2012".
 
-### Code-Struktur
-
-**`embeddings/generate.py`:**
-- `EmbeddingGenerator.__init__()` - Initialisierung (Qdrant, Jina v3 Model)
-- `process_pdf()` - Single PDF verarbeiten, returns bool (skipped?)
-- `process_all()` - Alle PDFs mit tqdm Progress Bar
-- `_is_already_processed()` - Hash-basierte Change Detection
-- `_delete_old_chunks()` - Alte Chunks bei File-Änderung löschen
-
-**`mcp-server/_worker.js`:**
-- `generateEmbedding()` - Jina AI API Call für Query Embeddings
-- `searchDocuments()` - Qdrant Search mit Cosine Similarity
-- `handleMCPRequest()` - MCP Protocol Handler (initialize, tools/list, tools/call)
-- `sanitizeError()` - Production Error Sanitization
-
-### Logging
-
-**Embedding Generator:**
-```
-🚀 Initializing...
-✓ Connected to Qdrant
-📦 Loading model: jinaai/jina-embeddings-v3
-✓ Model loaded (1024D vectors)
-📁 Found 150 PDF files
-
-Processing: |████| 45/150 [02:30] Skipped: 42 | filename.pdf
-
-✅ Complete! (Skipped 145 already processed)
+```json
+{"reference": "101/2012"}
 ```
 
-**MCP Server:**
-- Nur Errors/Warnings werden geloggt
-- In Production: Sanitierte Error Messages (keine API-Details)
-- In Development: Volle Error Messages mit Stack Traces
+### `search_papers`
 
-### Testing
+Strukturierte Filtersuche nach Drucksachen (Titel, Typ, Datum, Nummernmuster).
 
-**Embedding Generator:**
-```bash
-cd embeddings
-source venv/bin/activate
-
-# Test connection
-python test_connection.py
-
-# Test query
-python test_query.py "Schwimmbad Kosten"
-
-# Drop collection (⚠️ VORSICHT!)
-python drop_collection.py
+```json
+{"name_contains": "Haushalt", "date_from": "2024-01-01"}
 ```
 
-**MCP Server:**
-```bash
-cd mcp-server
+### `get_document_text`
 
-# All tests
-npm test
+Volltext eines Dokuments per SHA256-Hash abrufen. Optional einzelne Seite.
 
-# Watch mode
-npm run test:watch
-
-# Single test
-npm test -- _worker.test.js
-```
-
-### Re-Processing erzwingen
-
-**Option 1: PDF ändern**
-```bash
-# Touch the file to change modification date
-touch documents/2024-11-12_Gemeinderat.pdf
-python embeddings/generate.py
-```
-
-**Option 2: Qdrant Chunks löschen**
-```python
-# embeddings/delete_specific.py
-from qdrant_client import QdrantClient
-from qdrant_client.models import Filter, FieldCondition, MatchValue
-
-client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)
-client.delete(
-    collection_name="nordstemmen",
-    points_selector=Filter(
-        must=[
-            FieldCondition(
-                key="filename",
-                match=MatchValue(value="documents/2024-11-12_Gemeinderat.pdf")
-            )
-        ]
-    )
-)
-```
-
-**Option 3: Collection komplett löschen**
-```bash
-cd embeddings
-python drop_collection.py  # ⚠️ VORSICHT: Löscht ALLE Embeddings!
-python generate.py         # Alles neu verarbeiten
+```json
+{"file_hash": "abc123...", "page": 3}
 ```
 
 ## Kosten & Performance
 
-### Jina AI API
-- **Free Tier**: 1M tokens/month
-- **Kosten danach**: ~$0.02 / 1M tokens
-- **Typischer Query**: ~50 tokens
-- **→ ~20.000 Queries kostenlos/Monat**
+### Gemini OCR (Pipeline)
+- **~$0,0001 pro Seite** (~$2,50 für 25.000 Seiten)
+- Gesamte Erstverarbeitung (~5.800 PDFs): ~$3-5
 
-### Qdrant Cloud
-- **Free Tier**: 1GB Storage
-- **~150 PDFs**: ~500MB (mit 1024D Embeddings)
-- **Kosten danach**: ~$25/month für 4GB
+### Jina AI API (Pipeline + MCP)
+- **Free Tier**: 1M Tokens/Monat
+- **Pipeline**: ~$0,02 / 1M Tokens (Erstverarbeitung ~5-10M Tokens)
+- **MCP Query**: ~50 Tokens pro Abfrage → ~20.000 Queries kostenlos/Monat
+
+### Qdrant
+- Self-hosted auf VPS
+- ~6.000 Dokumente mit 1024D Vektoren
 
 ### Cloudflare Pages
-- **Free Tier**: 100.000 Requests/Tag
-- **Kosten danach**: $0.50 / 1M Requests
-- **→ Effektiv kostenlos für diesen Use Case**
-
-### Embedding Generation (Lokal)
-- **Jina v3 Model**: ~2GB VRAM
-- **150 PDFs**: ~8-10 Minuten (M1/M2 Mac)
-- **Kosten**: $0 (lokal)
+- **Free Tier**: 100.000 Requests/Tag → effektiv kostenlos
 
 ## Datenschutz & Transparenz
 
 - **Keine Nutzer-Tracking**: MCP Server speichert keine Queries
 - **Öffentliche Daten**: Nur bereits öffentliche Dokumente aus dem Ratsinformationssystem
-- **Keine Personenbezogene Daten**: Embeddings enthalten keine PII
 - **Open Source**: MIT License, voller Code auf GitHub
 - **Unabhängiges Projekt**: Keine offizielle Gemeinde-Anwendung
 
@@ -586,28 +340,19 @@ python generate.py         # Alles neu verarbeiten
 
 **Das Projekt ist produktiv und funktionsfähig!**
 
-✅ OParl Scraper (TypeScript)
-✅ Embedding Generator mit Jina v3 (lokal + API-Modus)
-✅ MCP Server live unter https://nordstemmen-mcp.levinkeller.de/mcp
-✅ Hash-basierte Change Detection
-✅ Deep Links zu Originaldokumenten
-✅ Robuste PDF-Verarbeitung mit pdfplumber + OCR
-✅ Volltext-Abruf via MCP Tool (`get_document_text`)
-✅ Stündliche automatische Datenaktualisierung (GitHub Actions CI)
-✅ PDF + Volltext Storage auf Backblaze B2
-
-Der MCP Server ist öffentlich nutzbar - siehe [🚀 Jetzt sofort nutzen](#-jetzt-sofort-nutzen) am Anfang der README.
+- OParl Scraper (TypeScript + Effect)
+- Document Pipeline (TypeScript): Gemini OCR → Jina Embeddings + Sparse Vectors → Qdrant
+- MCP Server live unter https://nordstemmen-mcp.levinkeller.de/mcp
+- 4 MCP Tools: Semantische Suche, DS-Lookup, Filtersuche, Volltext-Abruf
+- ~5.800 PDFs indiziert (2007 bis heute)
+- Stündliche automatische Datenaktualisierung (GitHub Actions CI)
+- Volltext als Cloudflare Static Assets gebündelt
 
 ## Support & Beitragen
 
-**Issues:** https://github.com/yourusername/nordstemmen-ai/issues
+**Issues:** https://github.com/levino/nordstemmen-ai/issues
 
-**Pull Requests sind willkommen!** Bitte:
-1. Fork das Repo
-2. Branch erstellen (`git checkout -b feature/amazing-feature`)
-3. Committen (`git commit -m 'Add amazing feature'`)
-4. Push (`git push origin feature/amazing-feature`)
-5. Pull Request öffnen
+**Pull Requests sind willkommen!**
 
 ## Lizenz
 

@@ -12,7 +12,7 @@ function createSemaphore(max: number) {
   let running = 0;
   const queue: Array<() => void> = [];
 
-  return async function <T>(fn: () => Promise<T>): Promise<T> {
+  return async <T>(fn: () => Promise<T>): Promise<T> => {
     if (running >= max) {
       await new Promise<void>((resolve) => queue.push(resolve));
     }
@@ -75,7 +75,9 @@ export function createJinaClient(apiKey: string) {
           maxTimeout: 120_000,
           onFailedAttempt: (ctx) => {
             const msg = String(ctx.error.message ?? ctx.error);
-            console.log(`  [jina] ${msg.slice(0, 200)} — retry ${ctx.attemptNumber}/${ctx.retriesLeft + ctx.attemptNumber}`);
+            console.log(
+              `  [jina] ${msg.slice(0, 200)} — retry ${ctx.attemptNumber}/${ctx.retriesLeft + ctx.attemptNumber}`,
+            );
           },
         },
       ),
