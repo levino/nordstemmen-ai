@@ -6,6 +6,7 @@ import { createJinaClient, type JinaClient } from './jina.ts';
 import { ocrPdf } from './ocr.ts';
 import { createQdrantService, type QdrantConfig } from './qdrant.ts';
 import { withConcurrency } from './retry.ts';
+import { computeSparseVector } from './sparse.ts';
 import type {
   DocumentInfo,
   EmbeddingsData,
@@ -74,6 +75,7 @@ async function processFile(
         chunk_index: 0,
         text,
         vector: vectors[i],
+        sparseVector: computeSparseVector(text),
       })),
     };
 
@@ -110,6 +112,7 @@ async function processFile(
           chunkIndex: c.chunk_index,
           text: c.text,
           vector: c.vector,
+          sparseVector: c.sparseVector ?? computeSparseVector(c.text),
         })),
         basePayload,
       );

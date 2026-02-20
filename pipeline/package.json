@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "pipeline": "node --experimental-strip-types src/index.ts",
+    "migrate:sparse": "node --experimental-strip-types src/migrate-sparse.ts",
     "test": "vitest",
     "test:run": "vitest run"
   },
