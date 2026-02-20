@@ -14,7 +14,7 @@
 ## Project Overview
 
 Semantic search over public documents from the municipality of Nordstemmen (Gemeinde Nordstemmen).
-Three components: OParl Scraper, Embedding Generator, MCP Server.
+Four components: OParl Scraper, Document Pipeline, MCP Server, and legacy Embedding Generator (Python, deprecated).
 Live at: `https://nordstemmen-mcp.levinkeller.de/mcp`
 
 ## Repository Structure
@@ -32,13 +32,26 @@ nordstemmen-ai/
 │   ├── tsconfig.json
 │   ├── vitest.config.ts
 │   └── README.md               # Detailed OParl data model docs
-├── embeddings/                 # Embedding Generator (Python)
+├── pipeline/                   # Document Pipeline (TypeScript, async/await)
+│   ├── src/
+│   │   ├── index.ts            # CLI entry point (parseArgs)
+│   │   ├── pipeline.ts         # Orchestrator: per-document processing
+│   │   ├── types.ts            # TypeScript interfaces
+│   │   ├── config.ts           # Constants (API URLs, models, limits)
+│   │   ├── discovery.ts        # Document discovery + metadata parsing
+│   │   ├── hash.ts             # SHA256 hashing, LFS pointer detection
+│   │   ├── cache.ts            # .fulltext.json / .embeddings.json I/O
+│   │   ├── ocr.ts              # Gemini API: PDF → page-level text
+│   │   ├── embeddings.ts       # Jina API: text → 1024D vectors
+│   │   ├── qdrant.ts           # Qdrant upload (upsert, deduplicate)
+│   │   ├── b2.ts               # Backblaze B2 upload (PDF + fulltext)
+│   │   └── retry.ts            # Retry + concurrency helpers
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── vitest.config.ts
+├── embeddings/                 # Embedding Generator (Python, deprecated)
 │   ├── generate_embeddings.py  # Main: PDF → Embeddings → cache
 │   ├── upload_to_qdrant.py     # Upload cached embeddings to Qdrant
-│   ├── migrate_embeddings.py   # Migration utility
-│   ├── drop_collection.py      # Delete Qdrant collection
-│   ├── inspect_data.py         # Data inspection
-│   ├── test_*.py               # Various test scripts
 │   ├── requirements.txt
 │   └── README.md
 ├── mcp-server/                 # MCP Server (Cloudflare Pages)
@@ -64,11 +77,13 @@ nordstemmen-ai/
 │   │   └── DS_<num>-<year>/
 │   │       ├── metadata.json   # OParl paper metadata
 │   │       ├── *.pdf           # Main + auxiliary files
+│   │       ├── *.fulltext.json # Gemini OCR output (cached)
 │   │       └── *.embeddings.json  # Cached embeddings (LFS)
 │   └── meetings/               # ~1087 meeting directories
 │       └── <date>_<name>/
 │           ├── metadata.json   # OParl meeting metadata
 │           ├── *.pdf           # Invitation, protocol, attachments
+│           ├── *.fulltext.json # Gemini OCR output (cached)
 │           └── *.embeddings.json  # Cached embeddings (LFS)
 ├── scripts/
 │   ├── lfs-repair.sh           # Detect/fix LFS pointer files
@@ -77,18 +92,18 @@ nordstemmen-ai/
 │   └── claude.yml              # Claude Code Action (@claude in issues/PRs)
 ├── .devcontainer/
 │   └── devcontainer.json       # Dev container: Node 22, Python, Git LFS, poppler
-├── .env.example                # QDRANT_URL, QDRANT_API_KEY, QDRANT_COLLECTION
+├── .env.example                # All env vars (Qdrant, Jina, Gemini, B2)
 ├── .gitattributes              # LFS tracking: *.pdf, *.embeddings.json
 ├── .lfsconfig                  # Custom LFS server: git-lfs.nordstemmen-ai.levinkeller.de
 ├── biome.json                  # Linter/formatter config
 ├── CHANGELOG.md                # Project changelog (Keep a Changelog format)
-└── package.json                # Root workspace (scraper + mcp-server)
+└── package.json                # Root workspace (scraper, pipeline, mcp-server)
 ```
 
 ## Development Commands
 
 ```bash
-# Root (workspaces: scraper, mcp-server)
+# Root (workspaces: scraper, pipeline, mcp-server)
 npm test                        # Run all workspace tests
 npm run lint                    # Biome check
 npm run lint:fix                # Biome auto-fix
@@ -100,7 +115,18 @@ npm run lfs:repair              # Detect/repair LFS pointer files
 cd scraper && npm run scrape    # Run OParl scraper
 cd scraper && npm test          # Run scraper tests
 
-# Embeddings
+# Pipeline (replaces all Python scripts)
+npm run pipeline                          # Process all unprocessed documents
+npm run pipeline -- --limit 500           # Limit to 500 documents
+npm run pipeline -- --force               # Re-process everything (ignore cache)
+npm run pipeline -- --dry-run             # List files without processing
+npm run pipeline -- --skip-b2             # Skip B2 upload
+npm run pipeline -- --skip-qdrant         # Skip Qdrant upload
+npm run pipeline -- --only DS_1-2007      # Only matching documents
+npm run pipeline -- --concurrency 3       # 3 parallel (default 5)
+npm run pipeline -- --max-pdf-size 100    # Max PDF size in MB (default 50)
+
+# Embeddings (Python, deprecated — use pipeline instead)
 cd embeddings
 python generate_embeddings.py   # Generate embeddings (PDF → chunks → vectors)
 python upload_to_qdrant.py      # Upload to Qdrant
@@ -115,17 +141,22 @@ cd mcp-server && npm run build  # Production build
 ## Architecture
 
 - **Scraper**: TypeScript + Effect library. Crawls OParl API (`/paper` + `/meeting` collections), downloads PDFs, saves structured metadata per entity
-- **Embeddings**: Python. Extracts text (pdfplumber, OCR fallback), chunks (1000 chars, 200 overlap), generates embeddings (Jina v3, 1024D), caches to `.embeddings.json`, uploads to Qdrant
+- **Pipeline**: TypeScript, plain async/await. Document-oriented processing: PDF → Gemini OCR → Jina Embeddings → Qdrant → B2. Replaces all Python scripts. No build step (`node --experimental-strip-types`). Uses `@google/genai` SDK for Gemini, raw `fetch` for Jina, `@qdrant/js-client-rest` for Qdrant, raw `fetch` for B2
 - **MCP Server**: Cloudflare Pages Functions. Three MCP tools: `search_documents` (semantic vector search), `get_paper_by_reference` (direct DS lookup), `search_papers` (filtered metadata search). Also serves PDFs via proxy at `/pdf/<sha256>`
+- **Embeddings (deprecated)**: Python. Replaced by pipeline. Kept for reference
 - **Vector DB**: Qdrant (self-hosted at qdrant.levinkeller.de)
-- **Embeddings API**: Jina AI v3 (query-time embeddings)
+- **Embeddings API**: Jina AI v3 — `retrieval.passage` for indexing (pipeline), `retrieval.query` for search (MCP server)
+- **OCR**: Gemini 2.5 Flash — sends entire PDF as inline data, page-level text extraction via `--- Page N ---` markers
+- **PDF/Text Storage**: Backblaze B2 — PDFs as `{sha256}`, fulltext as `{sha256}.txt`
 - **Git LFS**: Custom server at git-lfs.nordstemmen-ai.levinkeller.de; tracks PDFs + embedding caches. `.lfsconfig` has `fetchexclude = *` (opt-in download)
 
 ## Key Design Decisions
 
-- **Two-phase embeddings**: Generate locally (free, GPU), query via Jina API (cheap per query)
+- **Document-oriented pipeline**: Each document goes through the complete chain (OCR → Embeddings → Qdrant → B2) before moving to the next. Simpler error handling, resumable
+- **Gemini OCR**: Sends entire PDF as inline data to Gemini 2.5 Flash — no pdf2image, no poppler dependency. Page-level text via `--- Page N ---` markers in prompt
+- **Page-level embeddings**: 1 embedding per page (Jina v3, 1024D). `chunk_index` is always 0. No sub-page chunking
 - **Hash-based change detection**: SHA256 per PDF, tracked in Qdrant payload — no local state needed
-- **Embedding cache**: `.embeddings.json` files alongside PDFs, tracked in Git LFS — avoids recomputation
+- **Cache files**: `.fulltext.json` and `.embeddings.json` alongside PDFs — avoids recomputation. Existing cache from Python scripts is honored
 - **Custom LFS server**: Separate from GitHub LFS for cost/control
 - **OParl metadata preserved**: Full paper/meeting context (DS-numbers, consultations, agenda items) stored in Qdrant payload for rich search results
 
@@ -136,15 +167,20 @@ See `.env.example`:
 - `QDRANT_API_KEY` — Qdrant API key
 - `QDRANT_PORT` — Qdrant port (443)
 - `QDRANT_COLLECTION` — Collection name (`nordstemmen`)
+- `GOOGLE_API_KEY` — Gemini API key (for pipeline OCR)
+- `JINA_API_KEY` — Jina AI API key (for pipeline embeddings + MCP query)
+- `B2_KEY_ID` — Backblaze B2 key ID (for pipeline upload)
+- `B2_APP_KEY` — Backblaze B2 application key
+- `B2_BUCKET_ID` — Backblaze B2 bucket ID
+- `B2_BUCKET_NAME` — Backblaze B2 bucket name
 
 MCP Server additionally needs (set in Cloudflare dashboard):
 - `JINA_API_KEY` — Jina AI API key for query embeddings
 
-## Data Update Workflow (current — manual/local)
+## Data Update Workflow
 
 1. `cd scraper && npm run scrape` — Download new/changed PDFs + metadata from OParl API
-2. `cd embeddings && python generate_embeddings.py` — Generate embeddings for new PDFs
-3. `cd embeddings && python upload_to_qdrant.py` — Upload new embeddings to Qdrant
-4. `git add documents/ && git commit && git push` — Commit new data (PDFs + embeddings via LFS)
+2. `npm run pipeline` — Process all new documents (OCR → Embeddings → Qdrant → B2)
+3. `git add documents/ && git commit && git push` — Commit new data (PDFs + caches via LFS)
 
 MCP Server deployment is automatic via Cloudflare Pages (on push to main).

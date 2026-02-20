@@ -5,7 +5,8 @@
   "type": "module",
   "workspaces": [
     "scraper",
-    "mcp-server"
+    "mcp-server",
+    "pipeline"
   ],
   "scripts": {
     "lint": "biome check .",
@@ -13,7 +14,8 @@
     "format": "biome format --write .",
     "test": "npm run test --workspaces",
     "lfs-pull": "git lfs pull --include='*'",
-    "lfs:repair": "bash scripts/lfs-repair.sh"
+    "lfs:repair": "bash scripts/lfs-repair.sh",
+    "pipeline": "npm run pipeline --workspace=pipeline --"
   },
   "devDependencies": {
     "@biomejs/biome": "2.3.6"

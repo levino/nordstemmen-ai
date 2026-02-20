@@ -7,6 +7,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Added
+- **Document Pipeline** (`pipeline/`): New TypeScript workspace replacing all Python processing scripts. Single command (`npm run pipeline`) processes documents end-to-end: PDF → Gemini OCR → Jina Embeddings → Qdrant → Backblaze B2
+- Pipeline supports CLI flags: `--limit`, `--force`, `--dry-run`, `--skip-b2`, `--skip-qdrant`, `--only`, `--concurrency`, `--max-pdf-size`
+- Gemini 2.5 Flash OCR: sends entire PDF as inline data (no pdf2image/poppler dependency)
+- Page-level embeddings via Jina v3 API (`retrieval.passage` task)
+- Cache-aware processing: honors existing `.fulltext.json` and `.embeddings.json` files
 - `CLAUDE.md` with accurate project context for AI assistants
 - Documentation maintenance rules (CLAUDE.md ↔ README.md sync, changelog, sub-READMEs)
 - `CHANGELOG.md` to track project changes
@@ -14,6 +19,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Changed
 - MCP tool responses now return JSON in `content.text` instead of formatted Markdown, so AI clients can reliably access all fields including `file_hash`
 - Removed `structuredContent` from MCP responses (most clients ignored it)
+- Data update workflow simplified from 4 Python scripts to single `npm run pipeline` command
+
+### Deprecated
+- Python embedding scripts (`embeddings/generate_embeddings.py`, `embeddings/upload_to_qdrant.py`, `scripts/vision_ocr.py`, `scripts/upload_to_b2.py`) — replaced by `pipeline/`
 
 ### Fixed
 - `searchPapers` was not fetching `file_hash` from Qdrant (missing in `with_payload`)
