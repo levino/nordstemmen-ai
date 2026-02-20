@@ -3,7 +3,7 @@ import { type B2Config, createB2Service } from './b2.ts';
 import { loadEmbeddings, loadFulltext, saveEmbeddings, saveFulltext } from './cache.ts';
 import { GEMINI_MODEL } from './config.ts';
 import { discoverDocuments, needsProcessing } from './discovery.ts';
-import { generateEmbeddings } from './embeddings.ts';
+import { createJinaClient, type JinaClient } from './jina.ts';
 import { ocrPdf } from './ocr.ts';
 import { createQdrantService, type QdrantConfig } from './qdrant.ts';
 import { withConcurrency } from './retry.ts';
@@ -31,7 +31,7 @@ async function processFile(
   file: FileInfo,
   config: PipelineConfig,
   geminiApiKey: string,
-  jinaApiKey: string,
+  jina: JinaClient,
   qdrant: ReturnType<typeof createQdrantService>,
   b2: ReturnType<typeof createB2Service>,
   processedSet: Set<string>,
@@ -76,7 +76,7 @@ async function processFile(
         return { file, status: 'failed', error: 'No non-empty pages' };
       }
 
-      const vectors = await generateEmbeddings(pageTexts, jinaApiKey);
+      const vectors = await jina.embed(pageTexts);
 
       const embeddingsData: EmbeddingsData = {
         file_hash: file.fileHash,
@@ -165,6 +165,7 @@ export async function runPipeline(config: PipelineConfig, env: EnvConfig): Promi
 
   const qdrant = createQdrantService(env.qdrant);
   const b2 = createB2Service(env.b2);
+  const jina = createJinaClient(env.jinaApiKey);
 
   let processedSet = new Set<string>();
 
@@ -231,16 +232,7 @@ export async function runPipeline(config: PipelineConfig, env: EnvConfig): Promi
 
   // Process files with concurrency control
   const tasks = limited.map(({ document, file }) => async () => {
-    const result = await processFile(
-      document,
-      file,
-      config,
-      env.geminiApiKey,
-      env.jinaApiKey,
-      qdrant,
-      b2,
-      processedSet,
-    );
+    const result = await processFile(document, file, config, env.geminiApiKey, jina, qdrant, b2, processedSet);
 
     const icon = result.status === 'processed' ? '+' : result.status === 'skipped' ? '-' : 'X';
     const suffix = result.error ? ` (${result.error})` : result.pages ? ` (${result.pages} pages)` : '';
@@ -256,7 +248,7 @@ export async function runPipeline(config: PipelineConfig, env: EnvConfig): Promi
   const failed = results.filter((r) => r.status === 'failed').length;
   const skipped = results.filter((r) => r.status === 'skipped').length;
 
-  console.log(`\nDone!`);
+  console.log('\nDone!');
   console.log(`  Processed: ${processed}`);
   console.log(`  Skipped:   ${skipped}`);
   console.log(`  Failed:    ${failed}`);
