@@ -123,7 +123,7 @@ Sparse Vectors werden **lokal** aus dem Text berechnet (FNV-1a Hash, deutsche St
 ### KI-Modell-Entscheidungen
 
 **OCR — Gemini 2.5 Flash** wurde nach Vergleich mit GPT-4o und GPT-4o-mini gewählt:
-- **Gemini**: Günstigste Option (~$0,0001/Seite), keine Halluzinationen, verarbeitet auch gedrehte PDFs korrekt
+- **Gemini**: Günstigste Option, keine Halluzinationen, verarbeitet auch gedrehte PDFs korrekt
 - **GPT-4o**: Paraphrasiert statt zu transkribieren — schreibt Inhalte in eigenen Worten um und verfälscht die Bedeutung
 - **GPT-4o-mini**: Verweigert gedrehte PDFs, überspringt Absenderblöcke, fast so teuer wie GPT-4o
 
@@ -314,8 +314,7 @@ Volltext eines Dokuments per SHA256-Hash abrufen. Optional einzelne Seite.
 ## Kosten & Performance
 
 ### Gemini OCR (Pipeline)
-- **~$0,0001 pro Seite** (~$2,50 für 25.000 Seiten)
-- Gesamte Erstverarbeitung (~5.800 PDFs): ~$3-5
+- Gesamte Erstverarbeitung (~5.800 PDFs): **~$60** (Tokenverbrauch bei komplexen Dokumenten mit Karten/Plänen deutlich höher als anfänglich geschätzt)
 
 ### Jina AI API (Pipeline + MCP)
 - **Free Tier**: 1M Tokens/Monat

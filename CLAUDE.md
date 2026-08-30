@@ -146,7 +146,7 @@ cd mcp-server && npm run build  # Production build
 
 ## AI Model Choices
 
-- **OCR — Gemini 2.5 Flash**: Chosen after comparing Gemini, GPT-4o, and GPT-4o-mini. Gemini is cheapest (~$0.0001/page vs ~$0.0014 for GPT-4o), produces no hallucinations, and handles rotated PDFs correctly. GPT-4o paraphrases instead of transcribing (rewrites content in its own words, distorting meaning). GPT-4o-mini refuses rotated PDFs and misses content blocks
+- **OCR — Gemini 2.5 Flash**: Chosen after comparing Gemini, GPT-4o, and GPT-4o-mini. Gemini produces no hallucinations and handles rotated PDFs correctly. Actual cost for initial processing (~5,800 PDFs): ~$60 (significantly more than early per-page estimates due to high token usage on complex documents with maps/plans). GPT-4o paraphrases instead of transcribing (rewrites content in its own words, distorting meaning). GPT-4o-mini refuses rotated PDFs and misses content blocks
 - **Embeddings — Jina v3 (1024D)**: Multilingual model with German support, task-specific LoRA adapters (`retrieval.passage` for indexing, `retrieval.query` for search). Used via API for both pipeline and MCP server query-time embeddings
 
 ## Key Design Decisions

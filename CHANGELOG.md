@@ -23,6 +23,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - `CHANGELOG.md` to track project changes
 - AI model choice documentation (why Gemini 2.5 Flash for OCR, why Jina v3 for embeddings)
 
+### Fixed
+- Gemini OCR cost estimates corrected: actual cost for ~5,800 PDFs was ~$60, not ~$2.50-5 as initially estimated (complex documents with maps/plans use significantly more tokens)
+
 ### Changed
 - **Qdrant collection schema**: Switched from unnamed vectors to named vectors (`dense` + `sparse`). Requires collection rebuild
 - **MCP `search_documents`**: Uses Qdrant Query API with `prefetch` + `fusion: 'rrf'` instead of simple `search()`
