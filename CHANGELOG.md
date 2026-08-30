@@ -6,6 +6,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Fixed
+- **MCP connector OAuth false-positive**: Added `mcp-server/src/public/404.html` so Cloudflare Pages returns a real `404` for unknown paths (e.g. `/.well-known/oauth-authorization-server`, `/.well-known/oauth-protected-resource`) instead of falling back to `index.html` with status `200`. That 200 response was tricking some MCP clients (e.g. claude.ai) into attempting OAuth discovery and dynamic client registration against a server that requires no authentication at all, causing a "Couldn't register with sign-in service" connection error
+
 ### Added
 - **Hybrid Search**: `search_documents` now combines dense (Jina v3) and sparse (BM25-TF) vectors via Reciprocal Rank Fusion (RRF). Improves results for exact names, numbers, and street names
 - **Sparse Vectors** (`pipeline/src/sparse.ts`): Local BM25-TF computation with FNV-1a token hashing and German stopwords. No external API needed

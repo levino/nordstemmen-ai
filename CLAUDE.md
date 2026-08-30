@@ -58,7 +58,9 @@ nordstemmen-ai/
 │   │   └── mcp.js              # Core MCP implementation (4 tools)
 │   ├── src/
 │   │   ├── index.html          # Landing page
-│   │   └── style.css           # Tailwind CSS
+│   │   ├── style.css           # Tailwind CSS
+│   │   └── public/
+│   │       └── 404.html        # Custom 404 (prevents SPA fallback from returning 200 on unknown paths)
 │   ├── mcp-server.test.js      # MCP protocol tests
 │   ├── package.json
 │   ├── vite.config.js          # Build config
