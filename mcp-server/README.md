@@ -232,7 +232,9 @@ mcp-server/
 │       └── [[sha256]].js   # PDF-Proxy (stellt PDFs per Hash bereit)
 ├── src/
 │   ├── index.html          # Landing Page
-│   └── style.css           # Tailwind CSS Styles
+│   ├── style.css           # Tailwind CSS Styles
+│   └── public/
+│       └── 404.html        # Custom 404 (verhindert SPA-Fallback auf unbekannten Pfaden)
 ├── mcp-server.test.js      # MCP-Protokoll-Tests
 ├── pdf-proxy.test.js       # PDF-Proxy-Tests
 ├── package.json            # Dependencies
@@ -259,6 +261,7 @@ mcp-server/
 - Paper-Metadaten werden direkt aus `documents/papers/*/metadata.json` gelesen
 - Meeting-Metadaten werden direkt aus `documents/meetings/*/metadata.json` gelesen
 - Alle Ergebnisse enthalten direkte OParl-Links zu Originaldokumenten
+- `src/public/404.html` sorgt dafür, dass Cloudflare Pages für unbekannte Pfade (z.B. `/.well-known/oauth-authorization-server`) einen echten `404` statt der `index.html` mit Status `200` zurückgibt. Ohne diese Datei interpretieren manche MCP-Clients (z.B. claude.ai) den 200er auf den OAuth-Discovery-Pfaden fälschlich als Hinweis auf einen OAuth-Server und brechen die Verbindung mit einem Registrierungsfehler ab, obwohl der Server keine Authentifizierung benötigt
 
 ## Environment Variables
 
