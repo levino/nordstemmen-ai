@@ -62,7 +62,7 @@ Das Projekt besteht aus drei Komponenten:
 2. **Document Pipeline** — Verarbeitet PDFs komplett: Gemini OCR → Jina Embeddings + Sparse Vectors → Qdrant
 3. **MCP Server** — Cloudflare Pages Function für Hybrid-Suche (semantisch + Keyword) via Claude/ChatGPT
 
-Dazu kommt eine **CI Pipeline** (GitHub Actions Cronjob), die stündlich neue Dokumente synchronisiert.
+Dazu kommt eine **CI Pipeline** (GitHub Actions Cronjob), die täglich neue Dokumente synchronisiert.
 
 ## Architektur
 
@@ -76,14 +76,14 @@ graph TB
     Scraper[OParl Scraper<br/>TypeScript]
     Jina[Jina AI API]
     Gemini[Gemini 2.5 Flash]
-    CI[GitHub Actions<br/>Hourly Cron]
+    CI[GitHub Actions<br/>Daily Cron]
 
     User -->|MCP Protocol<br/>Connector| MCP
     MCP -->|Query Embeddings<br/>+ Sparse Vector| Jina
     MCP -->|Hybrid Search<br/>Dense + Sparse RRF| Qdrant
     MCP -->|Fulltext| MCP
-    CI -->|Hourly| Scraper
-    CI -->|Hourly| Pipeline
+    CI -->|Daily| Scraper
+    CI -->|Daily| Pipeline
     Scraper -->|Download PDFs<br/>+ Metadata| Docs
     Docs -->|Read PDFs| Pipeline
     Pipeline -->|OCR| Gemini
@@ -134,7 +134,7 @@ Sparse Vectors werden **lokal** aus dem Text berechnet (FNV-1a Hash, deutsche St
 ```
 nordstemmen-ai/
 ├── .github/workflows/
-│   ├── data-sync.yml      # Stündlicher CI-Cronjob für Datenaktualisierung
+│   ├── data-sync.yml      # Täglicher CI-Cronjob (06:00 UTC) für Datenaktualisierung
 │   └── claude.yml         # Claude Code Action
 ├── documents/              # Heruntergeladene PDFs und Metadaten (Git LFS)
 │   ├── papers/            # Drucksachen (~1578 Verzeichnisse)
@@ -144,7 +144,8 @@ nordstemmen-ai/
 │   │   ├── index.ts       # CLI Entry Point
 │   │   ├── scraper.ts     # OParl Scraper Logic
 │   │   ├── client.ts      # HTTP Client
-│   │   └── schema.ts      # OParl Type Definitions
+│   │   ├── schema.ts      # OParl Type Definitions
+│   │   └── sync.ts        # Sync-Helfer (Download-Auswahl, Meeting-ID → Ordner)
 │   └── package.json
 ├── pipeline/              # Document Pipeline (TypeScript)
 │   ├── src/
@@ -273,9 +274,9 @@ npm test       # Tests ausführen
 
 ### 6. Automatische Datenaktualisierung (CI)
 
-Die Daten werden **stündlich automatisch** via GitHub Actions aktualisiert:
+Die Daten werden **täglich (06:00 UTC) automatisch** via GitHub Actions aktualisiert:
 
-1. **Scraper** lädt neue Dokumente von der OParl-API
+1. **Scraper** gleicht alle Drucksachen und Sitzungen mit der OParl-API ab und lädt neue oder geänderte Dokumente (z. B. nachträglich veröffentlichte Einladungen, Tagesordnungen, Protokolle)
 2. **Pipeline** verarbeitet neue PDFs (Gemini OCR → Jina Embeddings → Qdrant)
 3. **Git Commit** speichert neue Dateien (LFS für PDFs/Embeddings)
 
@@ -366,7 +367,7 @@ Sitzung per id (oder Datum + Namensteil) mit vollständiger Tagesordnung: TOP-Nu
 - MCP Server live unter https://nordstemmen-mcp.levinkeller.de/mcp
 - 6 MCP Tools: Semantische Suche, DS-Lookup, Filtersuche, Volltext-Abruf, Sitzungsliste, Tagesordnung
 - ~5.800 PDFs indiziert (2007 bis heute)
-- Stündliche automatische Datenaktualisierung (GitHub Actions CI)
+- Tägliche automatische Datenaktualisierung (GitHub Actions CI)
 - Volltext und Sitzungsdaten als Cloudflare Static Assets gebündelt
 
 ## Support & Beitragen

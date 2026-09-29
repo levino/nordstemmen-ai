@@ -16,8 +16,21 @@ Der Scraper crawlt die **Paper** und **Meeting** Collections (nicht `/file`):
   ├─ Extrahiere: name, date, organization[], agendaItem[]
   ├─ Download: invitation
   ├─ Download: resultsProtocol
-  └─ Download: verbatimProtocol
+  ├─ Download: verbatimProtocol
+  ├─ Download: auxiliaryFile[]
+  └─ Download: agendaItem[].auxiliaryFile[]
 ```
+
+## Inkrementelle Aktualisierung
+
+Jeder Lauf gleicht **alle** Papers und Meetings mit der API ab – nicht nur neue:
+
+- Ein Eintrag gilt als aktuell, wenn `modified` in der gespeicherten `metadata.json` mit der API übereinstimmt **und** alle referenzierten Dateien lokal vorhanden sind. Sonst wird `metadata.json` neu geschrieben.
+- Heruntergeladen werden nur Dateien, die lokal fehlen oder deren `modified` sich gegenüber dem gespeicherten File-Objekt geändert hat. Fehlgeschlagene Downloads werden beim nächsten Lauf automatisch erneut versucht.
+- Das ist wichtig, weil Sitzungen oft Wochen vor Einladung und Tagesordnung angelegt werden – Einladung, TOPs und Protokolle kommen erst später dazu.
+- `metadata.json` enthält das vollständige OParl-Objekt (unbekannte Felder werden nicht mehr verworfen).
+
+**Meeting-Ordner werden über die OParl-ID gefunden**, nicht über den Namen: Die Verwaltung nummeriert Sitzungen um („26. Sitzung“ → „33. Sitzung“) oder verschiebt sie. Der Ordnername wird nur beim ersten Anlegen aus Datum + Name gebildet und bleibt danach stabil; maßgeblich ist `metadata.json`. Gibt es (Altlast) mehrere Ordner mit derselben ID, wird der mit den meisten Dateien genutzt, bei Gleichstand der alphabetisch letzte (`src/sync.ts`).
 
 **Warum nicht `/file` crawlen?**
 
@@ -197,6 +210,7 @@ documents/
 - Metadaten lokal bei zugehörigen Files
 - Übersichtliche Struktur nach OParl-Objekten
 - Einfaches Löschen/Updaten (ganzer Ordner)
+- Meeting-Ordnernamen sind nach dem Anlegen stabil (Zuordnung über OParl-ID, siehe oben)
 
 ## Metadaten-Struktur
 

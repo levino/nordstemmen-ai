@@ -80,6 +80,10 @@ async function loadDocumentInfo(folderPath: string, documentsDir: string): Promi
         const fi = await toFileInfo(folderPath, documentsDir, meeting.verbatimProtocol, 'verbatimProtocol');
         if (fi) files.push(fi);
       }
+      for (const aux of meeting.auxiliaryFile ?? []) {
+        const fi = await toFileInfo(folderPath, documentsDir, aux, 'auxiliaryFile');
+        if (fi) files.push(fi);
+      }
       for (const item of meeting.agendaItem ?? []) {
         for (const aux of item.auxiliaryFile ?? []) {
           const fi = await toFileInfo(folderPath, documentsDir, aux, 'auxiliaryFile');

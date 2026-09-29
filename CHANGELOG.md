@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Fixed
+- **Scraper: missing invitations, agendas and protocols**: Papers and meetings were written once and never updated, so meetings scraped before their invitation was published (44 of 73 meetings between 06/2025 and 09/2026) never got their invitation PDF, agenda items or protocols. The scraper now re-syncs every entity on each run: `metadata.json` is rewritten when upstream `modified` changes or referenced files are missing, and only missing or changed files are downloaded (failed downloads are retried on the next run)
+- **Scraper: duplicate meeting folders**: Meeting folders were keyed by date + name, so each upstream renumbering ("26. Sitzung" → "33. Sitzung") or rescheduling created a new folder for the same meeting. Folders are now resolved by OParl id (`scraper/src/sync.ts`)
+- **Scraper: metadata fields dropped**: Schema decoding stripped unknown OParl fields (`modified`, `end`, meeting-level `auxiliaryFile`, …). Full objects are now preserved; meeting-level `auxiliaryFile` is downloaded and indexed by the pipeline
+- Docs: data sync runs daily at 06:00 UTC (not hourly)
 - Biome lint errors in `mcp-server/functions/mcp.js` (`parseInt` radix, optional chaining, assignment in `while` condition)
 - **MCP connector OAuth false-positive**: Added `mcp-server/src/public/404.html` so Cloudflare Pages returns a real `404` for unknown paths (e.g. `/.well-known/oauth-authorization-server`, `/.well-known/oauth-protected-resource`) instead of falling back to `index.html` with status `200`. That 200 response was tricking some MCP clients (e.g. claude.ai) into attempting OAuth discovery and dynamic client registration against a server that requires no authentication at all, causing a "Couldn't register with sign-in service" connection error
 
