@@ -129,7 +129,7 @@ curl -X POST https://nordstemmen-mcp.levinkeller.de/mcp \
 
 ## MCP Tools
 
-Der Server stellt drei Tools bereit:
+Der Server stellt sechs Tools bereit: `search_documents`, `get_paper_by_reference`, `search_papers`, `get_document_text`, `list_meetings` und `get_meeting`.
 
 ### `search_documents`
 
@@ -202,6 +202,43 @@ Liste von Papers mit:
 - Alle Drucksachen aus 2023: `reference_pattern: "*/2023"`
 - Beschlussvorlagen mit "Haushalt": `paper_type: "Beschlussvorlage", name_contains: "Haushalt"`
 
+### `list_meetings`
+
+Listet Sitzungen (Rat, Ausschüsse, Ortsräte) aus den gebündelten Meeting-Assets.
+
+**Parameter:**
+- `date_from` / `date_to` (string, optional): Zeitraum im Format YYYY-MM-DD (inklusive)
+- `name_contains` (string, optional): Teilstring im Sitzungsnamen, Groß-/Kleinschreibung egal (z.B. "Ortsrat Rössing"; "Rat (" für nur den Gemeinderat)
+- `order` (string, optional): "asc" oder "desc" (Standard: "asc" wenn `date_from` gesetzt, sonst "desc")
+- `limit` (number, optional): Standard 20, Max 100
+
+**Rückgabe:** `{ total, returned, meetings: [{ id, name, start, location, agenda_items, has_invitation, has_protocol }] }`
+
+### `get_meeting`
+
+Eine Sitzung mit vollständiger Tagesordnung.
+
+**Parameter:**
+- `id` (string, optional): Sitzungs-ID aus `list_meetings` (z.B. "5786") oder OParl-URL der Sitzung
+- `date` (string, optional): Datum YYYY-MM-DD, falls keine `id` bekannt ist
+- `name_contains` (string, optional): Zusammen mit `date` zur Eingrenzung
+
+Bei mehreren Sitzungen am selben Tag wird `{ message, candidates }` zurückgegeben.
+
+**Rückgabe:**
+- `id`, `oparl_id`, `name`, `start`, `location`
+- `agenda[]`: `number`, `name`, `public`, optional `result`, `paper` (`reference`, `name`, `paper_type`, `oparl_id`, `pdf_url`, `file_hash`) und `files` (Anlagen, Beschlusstexte)
+- `files[]`: `role` (`invitation`, `resultsProtocol`, `verbatimProtocol`), `name`, `pdf_url`, `file_hash`, `text_available`
+- `alternative_versions` (optional): frühere Namen/Termine, wenn mehrere Ordner dieselbe OParl-ID haben
+
+### Meeting-Assets (Build)
+
+`build-meetings.js` läuft in `npm run build` und schreibt:
+- `public/meetings/index.json` – kompakte Liste aller Sitzungen (~260 KB)
+- `public/meetings/<id>.json` – Tagesordnung + Dateien je Sitzung (~4 MB gesamt)
+
+Ordner mit derselben OParl-ID (umnummerierte Sitzungen) werden zusammengeführt: Die Variante mit den meisten Daten gewinnt, bei Gleichstand der in natürlicher Sortierung letzte Ordner. Fehlende Felder (`invitation`, `agendaItem`, …) werden toleriert. Der `file_hash` entspricht dem der Pipeline (aus `.fulltext.json`, sonst LFS-Pointer-OID, sonst SHA256 des PDFs).
+
 ## Verwendung mit Claude
 
 ### Claude Desktop
@@ -227,16 +264,15 @@ Der Server implementiert den MCP Standard (2024-11-05) und kann mit jedem kompat
 ```
 mcp-server/
 ├── functions/
-│   ├── mcp.js              # MCP-Implementierung (3 Tools)
-│   └── pdf/
-│       └── [[sha256]].js   # PDF-Proxy (stellt PDFs per Hash bereit)
+│   └── mcp.js              # MCP-Implementierung (6 Tools)
 ├── src/
 │   ├── index.html          # Landing Page
 │   ├── style.css           # Tailwind CSS Styles
 │   └── public/
 │       └── 404.html        # Custom 404 (verhindert SPA-Fallback auf unbekannten Pfaden)
-├── mcp-server.test.js      # MCP-Protokoll-Tests
-├── pdf-proxy.test.js       # PDF-Proxy-Tests
+├── build-text.js           # Build: *.fulltext.json → public/text/<hash>.txt
+├── build-meetings.js       # Build: meetings/*/metadata.json → public/meetings/*.json
+├── mcp-server.test.js      # MCP-Protokoll-Tests (Meeting-Tools mit Fixture-ASSETS)
 ├── package.json            # Dependencies
 ├── vite.config.js          # Build-Konfiguration
 ├── vitest.config.js        # Test-Konfiguration
