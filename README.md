@@ -160,7 +160,9 @@ nordstemmen-ai/
 │   └── package.json
 ├── mcp-server/            # MCP Server (Cloudflare Pages)
 │   ├── functions/
-│   │   └── mcp.js         # MCP Protocol Handler + 4 Tools
+│   │   └── mcp.js         # MCP Protocol Handler + 6 Tools
+│   ├── build-text.js      # Build: Volltexte → public/text/
+│   ├── build-meetings.js  # Build: Sitzungen → public/meetings/
 │   └── package.json
 ├── docs/
 │   └── github-secrets.md  # CI Secret-Dokumentation
@@ -245,11 +247,15 @@ Pro PDF: Gemini OCR → Jina Embeddings → Qdrant Upload. Die `.completed`-Date
 
 ### 5. MCP Server Deployment (Cloudflare Pages)
 
-Der MCP Server ist eine Cloudflare Pages Function mit vier Tools:
+Der MCP Server ist eine Cloudflare Pages Function mit sechs Tools:
 - `search_documents` — Hybrid-Suche (Dense + Sparse RRF)
 - `get_paper_by_reference` — Drucksache per DS-Nummer abrufen
 - `search_papers` — Strukturierte Filtersuche
 - `get_document_text` — Volltext per SHA256-Hash abrufen
+- `list_meetings` — Sitzungen nach Zeitraum/Gremium auflisten
+- `get_meeting` — Sitzung mit vollständiger Tagesordnung (TOPs, Drucksachen, Dateien)
+
+Beim Build (`npm run build`) erzeugen `build-text.js` (Volltexte → `public/text/`) und `build-meetings.js` (Sitzungen → `public/meetings/`) statische Assets, die die Function per `env.ASSETS` liest.
 
 **Deployment:** Automatisch via Cloudflare Pages bei Push auf `main`.
 
@@ -311,6 +317,22 @@ Volltext eines Dokuments per SHA256-Hash abrufen. Optional einzelne Seite.
 {"file_hash": "abc123...", "page": 3}
 ```
 
+### `list_meetings`
+
+Sitzungen nach Zeitraum und Gremium (Teilstring im Namen) auflisten. Liefert je Sitzung id, Name, Beginn, Ort, Anzahl TOPs und ob Einladung/Protokoll vorliegen.
+
+```json
+{"date_from": "2026-09-01", "date_to": "2026-09-30", "name_contains": "Ortsrat"}
+```
+
+### `get_meeting`
+
+Sitzung per id (oder Datum + Namensteil) mit vollständiger Tagesordnung: TOP-Nummer, Titel, öffentlich/nichtöffentlich, Ergebnis, verknüpfte Drucksache und Dateien (Einladung, Protokolle, Anlagen) mit `file_hash` für `get_document_text`.
+
+```json
+{"date": "2026-09-29", "name_contains": "Rat ("}
+```
+
 ## Kosten & Performance
 
 ### Gemini OCR (Pipeline)
@@ -342,10 +364,10 @@ Volltext eines Dokuments per SHA256-Hash abrufen. Optional einzelne Seite.
 - OParl Scraper (TypeScript + Effect)
 - Document Pipeline (TypeScript): Gemini OCR → Jina Embeddings + Sparse Vectors → Qdrant
 - MCP Server live unter https://nordstemmen-mcp.levinkeller.de/mcp
-- 4 MCP Tools: Semantische Suche, DS-Lookup, Filtersuche, Volltext-Abruf
+- 6 MCP Tools: Semantische Suche, DS-Lookup, Filtersuche, Volltext-Abruf, Sitzungsliste, Tagesordnung
 - ~5.800 PDFs indiziert (2007 bis heute)
 - Stündliche automatische Datenaktualisierung (GitHub Actions CI)
-- Volltext als Cloudflare Static Assets gebündelt
+- Volltext und Sitzungsdaten als Cloudflare Static Assets gebündelt
 
 ## Support & Beitragen
 

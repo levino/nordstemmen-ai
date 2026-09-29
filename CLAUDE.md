@@ -55,13 +55,15 @@ nordstemmen-ai/
 │   └── vitest.config.ts
 ├── mcp-server/                 # MCP Server (Cloudflare Pages)
 │   ├── functions/
-│   │   └── mcp.js              # Core MCP implementation (4 tools)
+│   │   └── mcp.js              # Core MCP implementation (6 tools)
 │   ├── src/
 │   │   ├── index.html          # Landing page
 │   │   ├── style.css           # Tailwind CSS
 │   │   └── public/
 │   │       └── 404.html        # Custom 404 (prevents SPA fallback from returning 200 on unknown paths)
-│   ├── mcp-server.test.js      # MCP protocol tests
+│   ├── build-text.js           # Build step: *.fulltext.json → public/text/<hash>.txt
+│   ├── build-meetings.js       # Build step: meetings/*/metadata.json → public/meetings/*.json
+│   ├── mcp-server.test.js      # MCP protocol tests (meeting tools use fixture ASSETS)
 │   ├── package.json
 │   ├── vite.config.js          # Build config
 │   ├── vitest.config.js        # Test config
@@ -131,14 +133,15 @@ npm run pipeline -- --max-pdf-size 100    # Max PDF size in MB (default 50)
 # MCP Server
 cd mcp-server && npm run dev    # Local dev server (Vite + Wrangler)
 cd mcp-server && npm test       # Run tests
-cd mcp-server && npm run build  # Production build
+cd mcp-server && npm run build  # Production build (Vite + build-text.js + build-meetings.js)
 ```
 
 ## Architecture
 
 - **Scraper**: TypeScript + Effect library. Crawls OParl API (`/paper` + `/meeting` collections), downloads PDFs, saves structured metadata per entity
 - **Pipeline**: TypeScript, plain async/await. Document-oriented processing: PDF → Gemini OCR → Jina Embeddings + local Sparse Vectors → Qdrant. No build step (`node --experimental-strip-types`). No partial cache reuse — each run always does fresh OCR + embeddings for unprocessed files. `.completed` flag per PDF is only written after ALL steps succeed
-- **MCP Server**: Cloudflare Pages Functions. Four MCP tools: `search_documents` (hybrid search: dense + sparse with RRF fusion), `get_paper_by_reference` (direct DS lookup), `search_papers` (filtered metadata search), `get_document_text` (fulltext by hash). Fulltext is served from Cloudflare static assets (bundled `.txt` files), not from an external storage service
+- **MCP Server**: Cloudflare Pages Functions. Six MCP tools: `search_documents` (hybrid search: dense + sparse with RRF fusion), `get_paper_by_reference` (direct DS lookup), `search_papers` (filtered metadata search), `get_document_text` (fulltext by hash), `list_meetings` (meetings filtered by date range / committee name), `get_meeting` (full agenda by meeting id or date: TOPs, public flag, result, linked paper, files with `file_hash`). Fulltext is served from Cloudflare static assets (bundled `.txt` files), not from an external storage service
+- **Meeting assets**: `mcp-server/build-meetings.js` generates `public/meetings/index.json` (compact list) + `public/meetings/<id>.json` (agenda + files) at build time; `mcp.js` reads them via `env.ASSETS.fetch`. Duplicate folders with the same OParl meeting `id` are merged (variant with most data wins, tie → last folder in natural sort; others listed in `alternative_versions`). Section markers (`- öffentlicher Teil -` / `- nichtöffentlicher Teil -`) set each TOP's `public` flag. Linked paper is resolved via paper `consultation[].agendaItem`, then the agenda item's `consultation` URL, then a `DS n/yyyy` pattern in the TOP title. `file_hash` comes from `.fulltext.json`, else the LFS pointer oid, else SHA256 of the PDF (same hash as the pipeline)
 - **Vector DB**: Qdrant (self-hosted at qdrant.levinkeller.de). Named vectors: `dense` (Jina 1024D, Cosine) + `sparse` (BM25-TF)
 - **Hybrid Search**: MCP Server uses Qdrant Query API with `prefetch` (dense + sparse) and RRF (Reciprocal Rank Fusion). Combines semantic similarity with keyword matching
 - **Sparse Vectors**: Locally computed BM25-TF weights with FNV-1a token hashing. Same tokenizer in pipeline (`sparse.ts`) and MCP server (`mcp.js`). German stopwords, no external API needed
@@ -161,6 +164,7 @@ cd mcp-server && npm run build  # Production build
 - **Hybrid search via RRF**: Dense vectors (semantic) + sparse vectors (keyword/BM25) combined via Reciprocal Rank Fusion. Improves results for exact names, numbers, street names
 - **Hash-based change detection**: SHA256 per PDF, checked in `.completed` file
 - **Fulltext as static assets**: The MCP server serves fulltext from Cloudflare static assets (`.txt` files bundled at deploy time), not from external object storage
+- **Meetings as static assets**: Meeting/agenda data is not in Qdrant; it is bundled as JSON assets at build time (~260 KB index + ~4 MB per-meeting files)
 - **Custom LFS server**: Separate from GitHub LFS for cost/control
 - **OParl metadata preserved**: Full paper/meeting context (DS-numbers, consultations, agenda items) stored in Qdrant payload for rich search results
 

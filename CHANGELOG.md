@@ -7,9 +7,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Fixed
+- Biome lint errors in `mcp-server/functions/mcp.js` (`parseInt` radix, optional chaining, assignment in `while` condition)
 - **MCP connector OAuth false-positive**: Added `mcp-server/src/public/404.html` so Cloudflare Pages returns a real `404` for unknown paths (e.g. `/.well-known/oauth-authorization-server`, `/.well-known/oauth-protected-resource`) instead of falling back to `index.html` with status `200`. That 200 response was tricking some MCP clients (e.g. claude.ai) into attempting OAuth discovery and dynamic client registration against a server that requires no authentication at all, causing a "Couldn't register with sign-in service" connection error
 
 ### Added
+- **MCP meeting tools**: `list_meetings` (filter meetings by date range and committee/name substring, sorted by date) and `get_meeting` (one meeting by id or date + name, with full agenda: TOP number, title, public flag, result, linked paper with DS reference and `file_hash`, plus invitation/protocol/attachment files with `file_hash` usable in `get_document_text`)
+- `mcp-server/build-meetings.js`: build step that generates `public/meetings/index.json` + `public/meetings/<id>.json` static assets from `documents/meetings/*/metadata.json`. Merges folders sharing the same OParl meeting id (renumbered meetings) and tolerates stub meetings without invitation/agenda
 - **Hybrid Search**: `search_documents` now combines dense (Jina v3) and sparse (BM25-TF) vectors via Reciprocal Rank Fusion (RRF). Improves results for exact names, numbers, and street names
 - **Sparse Vectors** (`pipeline/src/sparse.ts`): Local BM25-TF computation with FNV-1a token hashing and German stopwords. No external API needed
 - **Migration script** (`npm run migrate:sparse` in pipeline): One-time Qdrant rebuild from cached embeddings — no API calls needed. Delete `migrate-sparse.ts` after use
@@ -30,6 +33,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Gemini OCR cost estimates corrected: actual cost for ~5,800 PDFs was ~$60, not ~$2.50-5 as initially estimated (complex documents with maps/plans use significantly more tokens)
 
 ### Changed
+- MCP server tests: search tests are skipped when no Qdrant/Jina credentials are configured; meeting tools are tested offline with fixture assets
 - **Qdrant collection schema**: Switched from unnamed vectors to named vectors (`dense` + `sparse`). Requires collection rebuild
 - **MCP `search_documents`**: Uses Qdrant Query API with `prefetch` + `fusion: 'rrf'` instead of simple `search()`
 - MCP tool responses now return JSON in `content.text` instead of formatted Markdown, so AI clients can reliably access all fields including `file_hash`
