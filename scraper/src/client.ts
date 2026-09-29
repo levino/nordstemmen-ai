@@ -9,6 +9,9 @@ const PROXY_SECRET = process.env.OPARL_PROXY_SECRET;
 export const PAPER_LIST_URL = `${OPARL_ORIGIN}/webservice/oparl/v1.1/body/1/paper`;
 export const MEETING_LIST_URL = `${OPARL_ORIGIN}/webservice/oparl/v1.1/body/1/meeting`;
 
+// Keep every OParl field (e.g. `modified`, `consultation`, `end`) instead of stripping unknown keys
+const preserveExtraFields = { onExcessProperty: 'preserve' } as const;
+
 const retrySchedule = pipe(Schedule.exponential('1 second'), Schedule.compose(Schedule.recurs(3)));
 
 export const effectFetch = (url: string): Effect.Effect<Response, Error> => {
@@ -36,7 +39,7 @@ export const effectFetchJson = flow(
 
 const fetchPaperPage = flow(
   effectFetchJson,
-  Effect.flatMap(S.decodeUnknown(PaperListResponseSchema)),
+  Effect.flatMap(S.decodeUnknown(PaperListResponseSchema, preserveExtraFields)),
   Effect.map((decoded) => ({
     papers: [...decoded.data],
     nextUrl: decoded.links?.next,
@@ -45,7 +48,7 @@ const fetchPaperPage = flow(
 
 const fetchMeetingPage = flow(
   effectFetchJson,
-  Effect.flatMap(S.decodeUnknown(MeetingListResponseSchema)),
+  Effect.flatMap(S.decodeUnknown(MeetingListResponseSchema, preserveExtraFields)),
   Effect.map((decoded) => ({
     meetings: [...decoded.data],
     nextUrl: decoded.links?.next,
@@ -55,7 +58,7 @@ const fetchMeetingPage = flow(
 const fetchAllPaperPages = (startUrl: string): Effect.Effect<OParlPaper[], Error> =>
   Effect.gen(function* () {
     const firstPage = yield* effectFetchJson(startUrl);
-    const decoded = yield* S.decodeUnknown(PaperListResponseSchema)(firstPage);
+    const decoded = yield* S.decodeUnknown(PaperListResponseSchema, preserveExtraFields)(firstPage);
 
     const pageUrls: string[] = [startUrl];
 
@@ -81,7 +84,7 @@ const fetchAllPaperPages = (startUrl: string): Effect.Effect<OParlPaper[], Error
 const fetchAllMeetingPages = (startUrl: string): Effect.Effect<OParlMeeting[], Error> =>
   Effect.gen(function* () {
     const firstPage = yield* effectFetchJson(startUrl);
-    const decoded = yield* S.decodeUnknown(MeetingListResponseSchema)(firstPage);
+    const decoded = yield* S.decodeUnknown(MeetingListResponseSchema, preserveExtraFields)(firstPage);
 
     const pageUrls: string[] = [startUrl];
 
