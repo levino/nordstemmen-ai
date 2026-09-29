@@ -27,6 +27,7 @@ nordstemmen-ai/
 │   │   ├── scraper.ts          # Main scraper logic
 │   │   ├── client.ts           # HTTP client
 │   │   ├── schema.ts           # OParl type definitions
+│   │   ├── sync.ts             # Pure sync helpers (files to download, meeting id → folder)
 │   │   └── __tests__/          # Tests (vitest + nock fixtures)
 │   ├── package.json
 │   ├── tsconfig.json
@@ -90,7 +91,7 @@ nordstemmen-ai/
 │   ├── lfs-repair.sh           # Detect/fix LFS pointer files
 │   └── update-hashes-to-sha256.py
 ├── .github/workflows/
-│   ├── data-sync.yml           # Hourly CI: scraper + pipeline
+│   ├── data-sync.yml           # Daily CI (06:00 UTC): scraper + pipeline
 │   └── claude.yml              # Claude Code Action (@claude in issues/PRs)
 ├── .devcontainer/
 │   └── devcontainer.json       # Dev container: Node 22, Python, Git LFS
@@ -136,7 +137,7 @@ cd mcp-server && npm run build  # Production build
 
 ## Architecture
 
-- **Scraper**: TypeScript + Effect library. Crawls OParl API (`/paper` + `/meeting` collections), downloads PDFs, saves structured metadata per entity
+- **Scraper**: TypeScript + Effect library. Crawls OParl API (`/paper` + `/meeting` collections), downloads PDFs, saves full OParl metadata per entity. Incremental: every run re-syncs all entities; `metadata.json` is rewritten when upstream `modified` changes or referenced files are missing, and only missing/changed files are downloaded. Meeting folders are resolved by OParl id (`src/sync.ts`), not by name, because meetings get renumbered/rescheduled upstream
 - **Pipeline**: TypeScript, plain async/await. Document-oriented processing: PDF → Gemini OCR → Jina Embeddings + local Sparse Vectors → Qdrant. No build step (`node --experimental-strip-types`). No partial cache reuse — each run always does fresh OCR + embeddings for unprocessed files. `.completed` flag per PDF is only written after ALL steps succeed
 - **MCP Server**: Cloudflare Pages Functions. Four MCP tools: `search_documents` (hybrid search: dense + sparse with RRF fusion), `get_paper_by_reference` (direct DS lookup), `search_papers` (filtered metadata search), `get_document_text` (fulltext by hash). Fulltext is served from Cloudflare static assets (bundled `.txt` files), not from an external storage service
 - **Vector DB**: Qdrant (self-hosted at qdrant.levinkeller.de). Named vectors: `dense` (Jina 1024D, Cosine) + `sparse` (BM25-TF)
@@ -184,5 +185,5 @@ MCP Server additionally needs (set in Cloudflare dashboard):
 2. `npm run pipeline` — Process all new documents (OCR → Embeddings → Qdrant)
 3. `git add documents/ && git commit && git push` — Commit new data (PDFs + caches via LFS)
 
-This runs automatically every hour via GitHub Actions (`data-sync.yml`).
+This runs automatically every day at 06:00 UTC via GitHub Actions (`data-sync.yml`).
 MCP Server deployment is automatic via Cloudflare Pages (on push to main).

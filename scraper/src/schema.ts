@@ -69,6 +69,7 @@ export const OParlPaperSchema = S.Struct({
   auxiliaryFile: S.optional(S.Array(S.Unknown)),
   consultation: S.optional(S.Array(S.Unknown)),
   relatedPaper: S.optional(S.Array(S.String)),
+  modified: S.optional(S.String),
 });
 
 export type OParlPaper = S.Schema.Type<typeof OParlPaperSchema>;
@@ -85,7 +86,9 @@ export const OParlMeetingSchema = S.Struct({
   invitation: S.optional(S.Unknown),
   resultsProtocol: S.optional(S.Unknown),
   verbatimProtocol: S.optional(S.Unknown),
+  auxiliaryFile: S.optional(S.Array(S.Unknown)),
   agendaItem: S.optional(S.Array(S.Unknown)),
+  modified: S.optional(S.String),
 });
 
 export type OParlMeeting = S.Schema.Type<typeof OParlMeetingSchema>;

@@ -106,6 +106,7 @@ export interface MeetingMetadata {
   invitation?: OParlFileObject;
   resultsProtocol?: OParlFileObject;
   verbatimProtocol?: OParlFileObject;
+  auxiliaryFile?: OParlFileObject[];
   agendaItem?: Array<{
     auxiliaryFile?: OParlFileObject[];
     [key: string]: unknown;
