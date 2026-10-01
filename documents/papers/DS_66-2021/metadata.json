@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2021-06-17T19:00:21+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZW90Cz4_7_mZhqToj0jX5wQ",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5012",
   "reference": "DS 66/2021",
   "name": "1. Nachtrag Stellenplan 2021",
@@ -64,5 +71,6 @@
       "created": "2021-08-18T15:06:26+02:00",
       "modified": "2021-08-18T15:06:26+02:00"
     }
-  ]
+  ],
+  "modified": "2021-09-28T19:00:07+02:00"
 }

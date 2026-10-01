@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2023-05-11T20:00:00+02:00",
+  "keyword": [
+    "Ortsrat Heyersum (7. Sitzung)"
+  ],
+  "created": "2023-04-05T07:50:36+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZYDBd1S-iOJU5whdXN_iyb4",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5352",
   "name": "Ortsrat Heyersum (7. Sitzung)",
   "start": "2023-05-11T19:00:00+02:00",
@@ -111,7 +119,6 @@
       "order": 8,
       "name": "Anhörung zur Aufstellung der Vorschlagsliste für die Neuwahl der Schöffinnen und Schöffen sowie Jugendschöffinnen und Jugendschöffen für die Geschäftsjahre 2024 bis 2028",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7693",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2023-04-21T12:08:24+02:00",
       "modified": "2023-04-21T12:08:24+02:00"
     },
@@ -171,5 +178,6 @@
       "created": "2023-04-21T12:08:24+02:00",
       "modified": "2023-04-21T12:08:24+02:00"
     }
-  ]
+  ],
+  "modified": "2023-11-14T08:24:03+01:00"
 }

@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2022-01-25T18:30:00+01:00",
+  "keyword": [
+    "Fachausschuss Klimaschutz, Bau und Umwelt (2. Sitzung)"
+  ],
+  "created": "2021-12-29T08:22:20+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZbZ6IbXULnZBnfPHfwJ6qtQ",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4906",
   "name": "Fachausschuss Klimaschutz, Bau und Umwelt (2. Sitzung)",
   "start": "2022-01-25T17:00:00+01:00",
@@ -93,7 +101,6 @@
       "order": 6,
       "name": "Bebauungsplan Nr. 0122 \"Innerörtliche Verbindungsstraße/Zuckerfabrik\", 10. Änderung, Ortschaft Nordstemmen\n- Aufstellungsbeschluss gemäß § 2 Absatz 1 Baugesetzbuch (BauGB)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7277",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5512",
@@ -164,5 +171,6 @@
       "created": "2021-12-30T15:35:00+01:00",
       "modified": "2021-12-30T15:35:00+01:00"
     }
-  ]
+  ],
+  "modified": "2022-04-13T11:51:25+02:00"
 }

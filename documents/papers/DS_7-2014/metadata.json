@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2014-02-07T13:02:31+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQwVVfqQbYtODsyNbS4xw1M",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/945",
   "reference": "DS 7/2014",
   "name": "Jugendzentrum Nordstemmen (JUZ 110) - Nutzungsänderung und brandschutztechnische Maßnahmen",
@@ -17,6 +21,15 @@
     "modified": "2014-02-07T13:02:31+01:00"
   },
   "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2642",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2014-02-06T13:33:09+01:00",
+      "modified": "2014-02-06T13:33:09+01:00"
+    },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2645",
       "type": "https://schema.oparl.org/1.1/Consultation",
@@ -39,5 +52,6 @@
       "created": "2014-02-06T13:34:10+01:00",
       "modified": "2014-02-06T13:34:10+01:00"
     }
-  ]
+  ],
+  "modified": "2014-02-07T13:02:31+01:00"
 }

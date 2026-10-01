@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2020-03-24T11:47:04+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZTcCLongjLoAMi9IE7z_S-c",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4848",
   "reference": "DS 23/2020 1. Ergänzung",
   "name": "Bestimmung des Wahltermins für die Bürgermeisterwahl 2020",
@@ -28,5 +35,6 @@
       "created": "2020-03-20T10:11:13+01:00",
       "modified": "2020-03-20T10:11:13+01:00"
     }
-  ]
+  ],
+  "modified": "2020-03-30T13:00:45+02:00"
 }

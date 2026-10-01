@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2023-06-09T11:36:51+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdA5OTr8lOv7mExTRke7c00",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5310",
   "reference": "DS 37/2023",
   "name": "1. Nachtrag Stellenplan 2023",
@@ -54,5 +61,6 @@
       "created": "2023-05-31T11:40:11+02:00",
       "modified": "2023-06-05T08:19:17+02:00"
     }
-  ]
+  ],
+  "modified": "2023-08-22T13:00:05+02:00"
 }

@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2013-05-02T19:00:36+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZT15twjCe6WhFhKWQPW8lHE",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/843",
   "reference": "DS 43/2013",
   "name": "Betreuungskonzept zur Kinderbetreuung in der Gemeinde Nordstemmen",
@@ -56,6 +60,15 @@
   ],
   "consultation": [
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2316",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2013-04-22T13:43:47+02:00",
+      "modified": "2013-04-30T09:03:08+02:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2319",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2102",
@@ -76,5 +89,6 @@
       "created": "2013-04-22T13:44:43+02:00",
       "modified": "2013-04-22T13:44:43+02:00"
     }
-  ]
+  ],
+  "modified": "2013-05-24T13:00:28+02:00"
 }

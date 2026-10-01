@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2023-10-12T20:00:00+02:00",
+  "keyword": [
+    "Ortsrat Burgstemmen (7. Sitzung)"
+  ],
+  "created": "2022-10-25T16:55:57+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZZLiU_u89-TF_nrsQQSlxq4",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5255",
   "name": "Ortsrat Burgstemmen (7. Sitzung)",
   "start": "2023-10-12T19:00:00+02:00",
@@ -134,7 +142,6 @@
       "order": 9,
       "name": "Anhörung zum Haushaltsplan 2024 und zum Investitionsprogramm bis 2027 für die Ortschaft Burgstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7820",
-      "result": "Einstimmig zur Kenntnis genommen",
       "created": "2023-09-27T09:12:55+02:00",
       "modified": "2023-09-27T09:12:55+02:00"
     },
@@ -216,5 +223,6 @@
       "created": "2023-09-08T07:34:11+02:00",
       "modified": "2023-09-08T07:34:11+02:00"
     }
-  ]
+  ],
+  "modified": "2024-03-01T10:15:47+01:00"
 }

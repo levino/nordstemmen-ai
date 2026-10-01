@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2012-11-09T11:25:34+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfvE1571etXs7Ha49NpJV7g",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/777",
   "reference": "DS 89/2012",
   "name": "Neufassung der Satzung über den Anschluss der Grundstücke an die öffentliche Abwasseranlage der Gemeinde Nordstemmen und deren Benutzung - Abwasserbeseitigungssatzung",
@@ -43,6 +47,15 @@
       "modified": "2012-11-08T11:52:11+01:00"
     },
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2096",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2012-11-08T11:52:27+01:00",
+      "modified": "2012-11-08T11:52:27+01:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2101",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9190",
@@ -53,5 +66,6 @@
       "created": "2012-11-08T11:53:27+01:00",
       "modified": "2012-11-08T11:53:27+01:00"
     }
-  ]
+  ],
+  "modified": "2012-11-09T11:25:34+01:00"
 }

@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2013-08-14T13:00:11+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZcI_mxiDTv0dfaDlu63RXXg",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/875",
   "reference": "DS 68/2013",
   "name": "Neuaufstellung des Regionalen Raumordnungsprogramms (RROP) für den Landkreis Hildesheim -Entwurf 2013-\nBeteiligungsverfahren gemäß § 3 Niedersächsisches Gesetz über Raumordnung und Landesplanung (NROG)\n\t\nStellungnahme der Gemeinde Nordstemmen",
@@ -114,6 +118,15 @@
       "modified": "2013-08-13T17:12:37+02:00"
     },
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2443",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2013-08-13T17:12:48+02:00",
+      "modified": "2013-08-13T17:12:48+02:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2447",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10008",
@@ -135,5 +148,6 @@
       "created": "2013-08-13T17:14:19+02:00",
       "modified": "2013-08-13T17:14:19+02:00"
     }
-  ]
+  ],
+  "modified": "2013-08-14T13:00:11+02:00"
 }

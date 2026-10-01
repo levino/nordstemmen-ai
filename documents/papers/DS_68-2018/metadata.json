@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2018-08-13T19:01:13+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfotkWxGLmC9_QG3eVCKKjg",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4609",
   "reference": "DS 68/2018",
   "name": "Verwaltungskostensatzung der Gemeinde Nordstemmen",
@@ -77,5 +84,6 @@
       "created": "2018-08-10T08:59:24+02:00",
       "modified": "2018-08-10T08:59:24+02:00"
     }
-  ]
+  ],
+  "modified": "2018-10-10T13:01:31+02:00"
 }

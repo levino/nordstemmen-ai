@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2019-11-26T10:26:18+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZRi3p52BerGwT5xFYYKiB_g",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4806",
   "reference": "DS 101/2019 1. Ergänzung",
   "name": "Stellenplan 2020",
@@ -54,5 +61,6 @@
       "created": "2019-11-20T12:03:44+01:00",
       "modified": "2019-11-20T12:03:44+01:00"
     }
-  ]
+  ],
+  "modified": "2019-11-28T10:22:42+01:00"
 }

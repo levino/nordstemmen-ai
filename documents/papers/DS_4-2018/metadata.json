@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-195"
+  ],
+  "created": "2018-01-31T13:00:48+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZYiRoXwllV5xAwWzT7zyg3E",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4509",
   "reference": "DS 4/2018",
   "name": "Verkehrssituation in der \"Kirchstraße\" (K 510) und der \"Clausstraße\"",
@@ -27,5 +34,6 @@
       "created": "2018-01-30T13:24:13+01:00",
       "modified": "2018-01-30T13:24:13+01:00"
     }
-  ]
+  ],
+  "modified": "2018-01-31T13:00:48+01:00"
 }

@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2025-05-22T19:00:00+02:00",
+  "keyword": [
+    "Ortsrat Burgstemmen (12. Sitzung)"
+  ],
+  "created": "2024-09-02T11:33:32+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZc3XuTLpuFA17JO_mIO6XzY",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5628",
   "name": "Ortsrat Burgstemmen (12. Sitzung)",
   "start": "2025-05-22T18:00:00+02:00",
@@ -125,7 +133,6 @@
       "order": 8,
       "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2026 sowie für die mittelfristige Finanzplanung 2027 bis 2029",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8360",
-      "result": "Einstimmig Ja",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7303",
@@ -150,7 +157,6 @@
       "order": 9,
       "name": "Wahl einer Schiedsperson für den Schiedsamtsbezirk Burgstemmen in der Gemeinde Nordstemmen\n",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8347",
-      "result": "Einstimmig Ja bei einer Enthaltung",
       "created": "2025-04-15T13:01:15+02:00",
       "modified": "2025-04-15T13:01:15+02:00"
     },
@@ -163,5 +169,6 @@
       "created": "2025-05-08T08:14:52+02:00",
       "modified": "2025-05-08T08:14:52+02:00"
     }
-  ]
+  ],
+  "modified": "2025-11-19T10:47:44+01:00"
 }

@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2013-05-02T19:00:36+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfAsFPo-bfJm0QoGluJu0Ho",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/844",
   "reference": "DS 44/2013",
   "name": "Antrag der DRK- Kinder- und Jugendhilfe gGmbH auf Einrichtung einer altersübergreifenden (aü) Gruppe in der Kindertagesstätte Adensen",
@@ -17,6 +21,15 @@
     "modified": "2013-05-24T13:00:28+02:00"
   },
   "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2323",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2013-04-30T15:36:27+02:00",
+      "modified": "2013-04-30T15:36:27+02:00"
+    },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2326",
       "type": "https://schema.oparl.org/1.1/Consultation",
@@ -38,5 +51,6 @@
       "created": "2013-04-30T15:37:39+02:00",
       "modified": "2013-04-30T15:37:39+02:00"
     }
-  ]
+  ],
+  "modified": "2013-05-24T13:00:28+02:00"
 }

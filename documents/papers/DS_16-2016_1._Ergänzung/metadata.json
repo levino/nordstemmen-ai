@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2016-02-04T13:00:25+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZRvc19SXjOiVrYkmPCL1NPU",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1205",
   "reference": "DS 16/2016 1. Ergänzung",
   "name": "Hort der DRK Kindertagesstätte Adensen",
@@ -39,6 +43,15 @@
       "modified": "2016-02-03T12:11:28+01:00"
     },
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3394",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2016-02-03T12:11:28+01:00",
+      "modified": "2016-02-03T12:11:28+01:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3399",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12668",
@@ -49,5 +62,6 @@
       "created": "2016-02-03T12:11:28+01:00",
       "modified": "2016-02-03T12:11:28+01:00"
     }
-  ]
+  ],
+  "modified": "2016-02-04T13:00:25+01:00"
 }

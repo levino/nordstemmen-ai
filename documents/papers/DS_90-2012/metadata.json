@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2012-11-13T16:20:16+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZZhhOEwpNMFBkx_YcPl-xzU",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/771",
   "reference": "DS 90/2012",
   "name": "Neufassung der Satzung über die Erhebung von Beiträgen und Gebühren für die Abwasserbeseitigung der Gemeinde Nordstemmen - Abwasserabgabensatzung",
@@ -43,6 +47,15 @@
       "modified": "2012-11-07T12:03:08+01:00"
     },
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2083",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2012-11-07T12:03:23+01:00",
+      "modified": "2012-11-07T12:03:23+01:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2088",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9191",
@@ -53,5 +66,6 @@
       "created": "2012-11-07T12:04:35+01:00",
       "modified": "2012-11-07T12:04:35+01:00"
     }
-  ]
+  ],
+  "modified": "2012-11-13T16:20:16+01:00"
 }

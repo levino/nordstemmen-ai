@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2024-09-24T19:30:00+02:00",
+  "keyword": [
+    "Rat (14. Sitzung)"
+  ],
+  "created": "2023-09-11T12:25:02+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZT3X4qQ-ycrILb7TtZEuQ8Y",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5464",
   "name": "Rat (14. Sitzung)",
   "start": "2024-09-24T18:30:00+02:00",
@@ -138,7 +146,6 @@
       "order": 8,
       "name": "Fortschreibung Brandschutzbedarfsplan\n",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8134",
-      "result": "Einstimmig bei 23 Ja-Stimmen und 3 Enthaltungen lt. Beschluss",
       "created": "2024-09-06T11:14:50+02:00",
       "modified": "2024-09-06T11:14:56+02:00"
     },
@@ -179,7 +186,6 @@
       "order": 12,
       "name": "1. Änderungssatzung der Hundesteuer der Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8072",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2024-07-30T16:07:10+02:00",
       "modified": "2024-07-30T16:07:10+02:00"
     },
@@ -190,7 +196,6 @@
       "order": 13,
       "name": "Reservierung des Baugrundstückes Mahlerter Straße - ehemaliger Spielplatz -",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8079",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2024-07-30T16:07:10+02:00",
       "modified": "2024-07-30T16:07:10+02:00"
     },
@@ -211,7 +216,6 @@
       "order": 15,
       "name": "Neugestaltung der Tarifstruktur/Eintrittsgelder Freizeitbad Nordstemmen ab der Badesaison 2025\n",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8067",
-      "result": "Einstimmig bei 25 Ja-Stimmen und einer Enthaltung lt. Beschluss",
       "created": "2024-07-30T16:07:10+02:00",
       "modified": "2024-07-30T16:07:10+02:00"
     },
@@ -222,7 +226,6 @@
       "order": 16,
       "name": "Maßnahmenbeschluss für den Ausbau der Gemeindeverbindungsstraße Barnten – Nordstemmen „An der Zuckerfabrik“, 5. Bauabschnitt",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8108",
-      "result": "Mehrheitlich bei 20 Ja-Stimmen, 4 Nein-Stimmen und zwei Enthaltungen lt. Beschluss",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6967",
@@ -249,5 +252,6 @@
       "created": "2024-07-30T16:07:10+02:00",
       "modified": "2024-07-30T16:07:10+02:00"
     }
-  ]
+  ],
+  "modified": "2024-12-02T11:13:39+01:00"
 }

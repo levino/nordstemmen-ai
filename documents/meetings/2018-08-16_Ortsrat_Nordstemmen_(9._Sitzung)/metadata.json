@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-08-16T19:30:00+02:00",
+  "keyword": [
+    "Ortsrat Nordstemmen (9. Sitzung)"
+  ],
+  "created": "2018-06-07T08:52:17+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZcbd-YdGQq8d1K8ONRpxL7M",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4194",
   "name": "Ortsrat Nordstemmen (9. Sitzung)",
   "start": "2018-08-16T18:30:00+02:00",
@@ -106,7 +114,6 @@
       "order": 6,
       "name": "Barrierefreier Ausbau der Bushaltestelle \"Stellwerk\", Nordstemmen; Maßnahmenbeschluss",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6306",
-      "result": "5 Ja-Stimmen, 1 Nein-Stimme, 1 Enthaltung/ja",
       "created": "2018-07-30T07:51:08+02:00",
       "modified": "2018-07-30T07:51:08+02:00"
     },
@@ -205,5 +212,6 @@
       "created": "2018-06-25T08:17:05+02:00",
       "modified": "2018-06-25T08:17:05+02:00"
     }
-  ]
+  ],
+  "modified": "2019-06-25T13:41:27+02:00"
 }

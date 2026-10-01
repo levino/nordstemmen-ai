@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2016-12-06T09:28:46+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZVMtODQR7x8b60h6UI3dpH8",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1311",
   "reference": "DS 107/2016",
   "name": "Haushaltssatzung und Haushaltsplan 2017",
@@ -89,5 +96,6 @@
       "created": "2016-12-01T13:52:31+01:00",
       "modified": "2016-12-01T13:52:31+01:00"
     }
-  ]
+  ],
+  "modified": "2016-12-06T09:28:46+01:00"
 }

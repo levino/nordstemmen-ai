@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2014-02-27T08:24:27+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZa9RZuikTSSNVUx3as-Qwvk",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/957",
   "reference": "DS 14/2014",
   "name": "Bebauungsplan Nr. 0122 \"Innerörtliche Verbindungsstraße / Zuckerfabrik\", 9. Änderung;\n\nSatzungsbeschluss gem. § 10 Abs. 1 BauGB",
@@ -44,6 +48,15 @@
   ],
   "consultation": [
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2698",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2014-02-26T09:28:49+01:00",
+      "modified": "2014-02-26T09:28:49+01:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2701",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10639",
@@ -65,5 +78,6 @@
       "created": "2014-02-26T09:32:21+01:00",
       "modified": "2014-02-26T09:32:21+01:00"
     }
-  ]
+  ],
+  "modified": "2014-02-27T15:25:03+01:00"
 }

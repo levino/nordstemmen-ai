@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2015-05-08T13:00:24+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZV2hKohooNU9cqzuaglV3oc",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1098",
   "reference": "DS 30/2015",
   "name": "Erneuerung der Verrohrung des Gewässers \"Wasserfurche\" (Gewässer III. Ordnung) in der Straße Albesgasse einschließlich Ausbau des Einmündungsbereiches zur Dorfstraße in der Ortschaft Adensen; Maßnahmenbeschluss",
@@ -54,6 +58,15 @@
       "modified": "2015-05-06T11:40:53+02:00"
     },
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3072",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2015-05-06T11:41:06+02:00",
+      "modified": "2015-05-06T11:41:06+02:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3076",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11962",
@@ -64,5 +77,6 @@
       "created": "2015-05-06T11:43:02+02:00",
       "modified": "2015-05-06T11:43:02+02:00"
     }
-  ]
+  ],
+  "modified": "2015-05-08T13:00:24+02:00"
 }

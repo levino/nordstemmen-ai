@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-196"
+  ],
+  "created": "2021-05-11T15:57:04+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdkpCAl9f5pp5sdMbvhMYsU",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4982",
   "reference": "DS 42/2021",
   "name": "Erweiterung der Fahrradabstellanlage am Bahnhof Nordstemmen",
@@ -42,5 +49,6 @@
       "created": "2021-04-23T10:53:06+02:00",
       "modified": "2021-04-23T10:53:06+02:00"
     }
-  ]
+  ],
+  "modified": "2021-06-08T13:00:01+02:00"
 }

@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-196"
+  ],
+  "created": "2017-05-02T13:01:02+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQ9CVmaYpkuBlnae-kfGTmI",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1374",
   "reference": "DS 41/2017",
   "name": "Gestaltung Ehrenmal Barnten",
@@ -42,5 +49,6 @@
       "created": "2017-04-25T14:47:21+02:00",
       "modified": "2017-04-25T14:47:21+02:00"
     }
-  ]
+  ],
+  "modified": "2017-11-15T13:00:46+01:00"
 }

@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2013-11-07T13:00:16+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZZOyxjefkaPjagGauw5UgO8",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/920",
   "reference": "DS 98/2013",
   "name": "Abschluss einer Vereinbarung zwischen dem Landkreis Hildesheim und der Gemeinde Nordstemmen zur Wahrnehmung der Aufgaben der Kindertagesbetreuung und der Kindertagespflege ab 01.01.2014 für die Dauer von zwei Jahren",
@@ -43,6 +47,15 @@
       "modified": "2013-11-04T13:11:00+01:00"
     },
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2556",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2013-11-04T13:11:11+01:00",
+      "modified": "2013-11-04T13:11:11+01:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2561",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10398",
@@ -53,5 +66,6 @@
       "created": "2013-11-04T13:12:45+01:00",
       "modified": "2013-11-04T13:12:45+01:00"
     }
-  ]
+  ],
+  "modified": "2013-11-07T13:00:16+01:00"
 }

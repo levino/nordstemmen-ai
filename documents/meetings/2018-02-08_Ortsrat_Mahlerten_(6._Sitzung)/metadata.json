@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-02-08T19:00:00+01:00",
+  "keyword": [
+    "Ortsrat Mahlerten (6. Sitzung)"
+  ],
+  "created": "2017-11-07T14:42:40+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZfuEMWtc3NRjkupT1D8EUJ8",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4034",
   "name": "Ortsrat Mahlerten (6. Sitzung)",
   "start": "2018-02-08T18:00:00+01:00",
@@ -102,7 +110,6 @@
       "order": 7,
       "name": "Potenzielle Hotspot-Standorte im Rahmen der EU-Förderung (WIFI4EU)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6100",
-      "result": "einstimmig/abweichender Beschluss",
       "created": "2018-01-26T10:49:14+01:00",
       "modified": "2018-01-26T10:54:37+01:00"
     },
@@ -160,5 +167,6 @@
       "created": "2018-01-26T10:49:14+01:00",
       "modified": "2018-01-26T10:49:14+01:00"
     }
-  ]
+  ],
+  "modified": "2018-05-29T10:01:22+02:00"
 }

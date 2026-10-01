@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2019-12-17T19:30:00+01:00",
+  "keyword": [
+    "Rat (22. Sitzung)"
+  ],
+  "created": "2019-05-28T17:05:46+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZcEjH06zFtNBiTRfgElh3wQ",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4386",
   "name": "Rat (22. Sitzung)",
   "start": "2019-12-17T18:00:00+01:00",
@@ -143,7 +151,6 @@
       "order": 10,
       "name": "Annahme von Zuwendungen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6693",
-      "result": "einstimmig (Änderung Empfänger)",
       "created": "2019-12-03T08:56:29+01:00",
       "modified": "2019-12-04T11:24:02+01:00"
     },
@@ -204,7 +211,6 @@
       "order": 16,
       "name": "Bebauungsplan Nr. 1010 \"Clausstraße - West\";\nSatzungsbeschluss gem. § 10 Abs. 1 BauGB",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6681",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2019-11-21T17:23:14+01:00",
       "modified": "2019-11-21T17:23:14+01:00"
     },
@@ -226,5 +232,6 @@
       "created": "2019-11-21T17:23:14+01:00",
       "modified": "2019-11-21T17:23:14+01:00"
     }
-  ]
+  ],
+  "modified": "2024-09-27T11:42:24+02:00"
 }

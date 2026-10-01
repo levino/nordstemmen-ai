@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-02-15T20:00:00+01:00",
+  "keyword": [
+    "Ortsrat Nordstemmen (7. Sitzung)"
+  ],
+  "created": "2017-11-07T14:53:33+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZVf1T8Fue0Xubu1UU1X_5IU",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4041",
   "name": "Ortsrat Nordstemmen (7. Sitzung)",
   "start": "2018-02-15T19:00:00+01:00",
@@ -129,7 +137,6 @@
       "order": 7,
       "name": "Potenzielle Hotspot-Standorte im Rahmen der EU-Förderung (WIFI4EU)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6101",
-      "result": "einstimmig/abweichender Beschluss",
       "created": "2018-02-01T13:53:25+01:00",
       "modified": "2018-02-01T13:53:25+01:00"
     },
@@ -140,7 +147,6 @@
       "order": 8,
       "name": "Bebauungsplan Nr. 0107 \"Ortsmitte Ost\", 6. Änderung sowie 3. Berichtigung des Flächennutzungsplanes der Gemeinde Nordstemmen;\n- Anhörung des Ortsrates gemäß § 94 Absatz 1 NKomVG;\n- Satzungsbeschluss gem. § 10 Abs. 1 BauGB",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6114",
-      "result": "einstimmig/ja",
       "created": "2018-02-05T14:38:30+01:00",
       "modified": "2018-02-05T14:38:35+01:00"
     },
@@ -174,7 +180,6 @@
       "order": 10,
       "name": "Barrierefreier Ausbau von Bushaltestellen;\nFörderantrag für den Ausbau 2019 und Vergabe eines Planungsauftrages",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6126",
-      "result": "einstimmig/ja",
       "created": "2018-02-08T10:57:47+01:00",
       "modified": "2018-02-08T10:57:54+01:00"
     },
@@ -237,5 +242,6 @@
       "created": "2018-02-01T13:53:25+01:00",
       "modified": "2018-02-01T13:53:25+01:00"
     }
-  ]
+  ],
+  "modified": "2018-05-29T10:14:37+02:00"
 }

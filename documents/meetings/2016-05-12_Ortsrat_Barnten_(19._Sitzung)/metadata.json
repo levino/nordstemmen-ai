@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2016-05-12T19:00:00+02:00",
+  "keyword": [
+    "Ortsrat Barnten (19. Sitzung)"
+  ],
+  "created": "2015-11-09T13:03:29+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZVIEFp0w1Stj1qxnl5m0cGI",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2679",
   "name": "Ortsrat Barnten (19. Sitzung)",
   "start": "2016-05-12T18:00:00+02:00",
@@ -134,7 +142,6 @@
       "order": 9,
       "name": "Widmung von Straßenflächen in der Ortschaft Barnten und Fortschreibung des Bestandsverzeichnisses;\nhier: Landesstraße",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3436",
-      "result": "Zur Kenntnis genommen",
       "resolutionFile": {
         "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-16488",
         "type": "https://schema.oparl.org/1.1/File",
@@ -218,5 +225,6 @@
       "created": "2016-04-19T16:57:52+02:00",
       "modified": "2016-04-19T16:57:52+02:00"
     }
-  ]
+  ],
+  "modified": "2016-06-14T12:44:28+02:00"
 }

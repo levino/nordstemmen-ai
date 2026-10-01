@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2021-09-16T19:00:17+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZTSzujxhCyL9wvo9C0T84tQ",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5049",
   "reference": "DS 92/2021",
   "name": "Bestellung einer ehrenamtlichen Gleichstellungsbeauftragten",
@@ -28,5 +35,6 @@
       "created": "2021-09-15T08:56:31+02:00",
       "modified": "2021-09-15T08:56:31+02:00"
     }
-  ]
+  ],
+  "modified": "2021-10-18T13:00:25+02:00"
 }

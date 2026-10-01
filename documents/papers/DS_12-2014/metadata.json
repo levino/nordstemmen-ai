@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2014-02-21T08:37:14+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZVoE7m99P8T5RYxmhYPgomI",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/951",
   "reference": "DS 12/2014",
   "name": "Sporthalle Nordstemmen - Sanierung der zentralen Heizungsanlage",
@@ -32,6 +36,15 @@
   ],
   "consultation": [
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2662",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2014-02-20T13:22:38+01:00",
+      "modified": "2014-02-20T13:22:38+01:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2666",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10692",
@@ -42,5 +55,6 @@
       "created": "2014-02-20T13:23:40+01:00",
       "modified": "2014-02-20T13:23:40+01:00"
     }
-  ]
+  ],
+  "modified": "2014-02-21T08:37:14+01:00"
 }

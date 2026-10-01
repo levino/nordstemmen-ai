@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2025-06-03T19:00:00+02:00",
+  "keyword": [
+    "Fachausschuss Klimaschutz, Bau und Umwelt (20. Sitzung)"
+  ],
+  "created": "2024-09-02T11:12:23+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZbeFYypuEnhZia3c3S_dG64",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5602",
   "name": "Fachausschuss Klimaschutz, Bau und Umwelt (20. Sitzung)",
   "start": "2025-06-03T18:00:00+02:00",
@@ -144,7 +152,6 @@
       "order": 7,
       "name": "Bebauungsplan Nr. 0103 A \"Schratfeld\", 8. Änderung; Ortschaft Nordstemmen\n- Vorstellung des Entwurfes und Beschluss zur öffentlichen Auslegung",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8367",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2025-05-13T12:01:14+02:00",
       "modified": "2025-05-19T09:47:53+02:00"
     },
@@ -155,7 +162,6 @@
       "order": 8,
       "name": "Bebauungsplan Nr. 0401 \"Radebrecher-Siedlung\", 2. Änderung; Ortschaft Burgstemmen\n- Aufstellungsbeschluss gemäß § 2 Absatz 1 Baugesetzbuch (BauGB)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8372",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7351",
@@ -180,7 +186,6 @@
       "order": 9,
       "name": "Antrag auf Aufstellung der 26. Änderung des Flächennutzungsplanes der Gemeinde Nordstemmen (Isolierte Positivplanung für Windenergienutzung)\n- Aufstellungsbeschluss gemäß § 2 Absatz 1 Baugesetzbuch (BauGB)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8384",
-      "result": "Einstimmig bei 3 Enthaltungen lt. Beschlussvorschlag",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7352",
@@ -205,7 +210,6 @@
       "order": 10,
       "name": "Vorhabenbezogener Bebauungsplan Nr. 0131 \"Rauhe Wiese - West II\",\nOrtschaft Nordstemmen\n- Aufstellungsbeschluss gemäß § 2 Abs. 1 i. V. m. § 12 Baugesetzbuch (BauGB)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8397",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7353",
@@ -229,7 +233,6 @@
       "number": "10",
       "order": 11,
       "name": "Antrag der Fraktion Bündnis 90/Die Grünen auf Stand und Umsetzung des Radwegekonzeptes",
-      "result": "Einstimmig Antrag angenommen",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7354",
@@ -264,7 +267,6 @@
       "order": 13,
       "name": "Satzung über Übertragung der Abwasserbeseitigungspflicht für bestimmte Teile im Gebiet der Gemeinde Nordstemmen auf die Nutzungsberechtigten der Grundstücke",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8342",
-      "result": "einstimmig lt. Beschlussvorschlag ",
       "created": "2025-05-13T12:02:20+02:00",
       "modified": "2025-05-13T12:02:20+02:00"
     },
@@ -300,5 +302,6 @@
       "created": "2025-03-07T08:21:55+01:00",
       "modified": "2025-03-07T08:21:55+01:00"
     }
-  ]
+  ],
+  "modified": "2026-01-19T09:22:07+01:00"
 }

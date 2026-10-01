@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-02-28T19:30:00+01:00",
+  "keyword": [
+    "Fachausschuss Finanzen, Wirtschaftsförderung, Marketing und Feuerschutz (7. Sitzung)"
+  ],
+  "created": "2017-11-07T14:55:21+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZXrnY8EQ8EjcRUjEmOSWxXs",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4044",
   "name": "Fachausschuss Finanzen, Wirtschaftsförderung, Marketing und Feuerschutz (7. Sitzung)",
   "start": "2018-02-28T18:30:00+01:00",
@@ -107,7 +115,6 @@
       "order": 6,
       "name": "Nordstemmer Wochenmarkt",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6136",
-      "result": "einstimmig lt. Beschlussvorschlag",
       "created": "2018-02-12T08:53:18+01:00",
       "modified": "2018-02-12T08:53:30+01:00"
     },
@@ -118,7 +125,6 @@
       "order": 7,
       "name": "„Abgrenzungsbeschluss gemäß NKomVG – Festlegung von Wertgrenzen zur Definition der Geschäfte der laufenden Verwaltung“",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6110",
-      "result": "keine Beschlussempfehlung",
       "created": "2018-02-12T08:53:18+01:00",
       "modified": "2018-02-12T08:53:18+01:00"
     },
@@ -129,7 +135,6 @@
       "order": 8,
       "name": "Potenzielle Hotspot-Standorte im Rahmen der EU-Förderung (WIFI4EU)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6103",
-      "result": "einstimmig",
       "created": "2018-02-12T08:53:18+01:00",
       "modified": "2018-02-12T08:53:18+01:00"
     },
@@ -160,5 +165,6 @@
       "created": "2018-02-12T08:53:18+01:00",
       "modified": "2018-02-12T08:53:18+01:00"
     }
-  ]
+  ],
+  "modified": "2018-05-31T13:31:10+02:00"
 }

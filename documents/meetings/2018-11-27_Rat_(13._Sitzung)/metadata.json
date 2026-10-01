@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-11-27T19:30:00+01:00",
+  "keyword": [
+    "Rat (13. Sitzung)"
+  ],
+  "created": "2018-03-12T14:48:13+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZeQdBbB270jHEURwRhKm70w",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4161",
   "name": "Rat (13. Sitzung)",
   "start": "2018-11-27T18:30:00+01:00",
@@ -114,7 +122,6 @@
       "number": "6",
       "order": 7,
       "name": "Ernennung von Führungskräften der Feuerwehr",
-      "result": "einstimmig",
       "created": "2018-11-13T15:08:19+01:00",
       "modified": "2018-11-13T15:11:36+01:00"
     },
@@ -125,7 +132,6 @@
       "order": 8,
       "name": "Annahme von Zuwendungen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6367",
-      "result": "einstimmig",
       "created": "2018-11-13T15:10:35+01:00",
       "modified": "2018-11-13T15:14:35+01:00"
     },
@@ -136,7 +142,6 @@
       "order": 9,
       "name": "Beschlussfassung über den Jahresabschluss 2016 der Gemeinde Nordstemmen;\nEntlastung des Bürgermeisters für den Jahresabschluss 2016;\nVerwendung des Jahresergebnisses 2016",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6405",
-      "result": "einstimmig / eine Enthaltung",
       "created": "2018-11-13T15:08:35+01:00",
       "modified": "2018-11-13T15:12:02+01:00"
     },
@@ -147,7 +152,6 @@
       "order": 10,
       "name": "Beschlussfassung über den Jahresabschluss 2017 der Gemeinde Nordstemmen;\nEntlastung des Bürgermeisters für den Jahresabschluss 2017;\nVerwendung des Jahresergebnisses 2017",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6408",
-      "result": "einstimmig / eine Enthaltung",
       "created": "2018-11-13T15:08:46+01:00",
       "modified": "2018-11-13T15:12:10+01:00"
     },
@@ -158,7 +162,6 @@
       "order": 11,
       "name": "Haushaltssatzung und Haushaltsplan 2019",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6418",
-      "result": "einstimmig",
       "created": "2018-11-13T15:09:12+01:00",
       "modified": "2018-11-13T15:14:00+01:00"
     },
@@ -169,7 +172,6 @@
       "order": 12,
       "name": "Investitionsprogramm für den Investitionszeitraum bis zum Haushaltsjahr 2022;\nmittelfristige Ergebnis- und Finanzplanung",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6415",
-      "result": "einstimmig",
       "created": "2018-11-13T15:08:57+01:00",
       "modified": "2018-11-13T15:12:30+01:00"
     },
@@ -180,7 +182,6 @@
       "order": 13,
       "name": "Stellenplan 2019",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6421",
-      "result": "23 Ja-Stimmen, 1 Nein-Stimme",
       "created": "2018-11-13T15:09:27+01:00",
       "modified": "2018-11-13T15:12:59+01:00"
     },
@@ -201,7 +202,6 @@
       "order": 15,
       "name": "Erschließung des Baugebietes \"Heyersumer Straße - Süd\" (Böttcherstraße), Ortschaft Nordstemmen; Maßnahmenbeschluss",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6390",
-      "result": "einstimmig",
       "created": "2018-11-13T15:07:25+01:00",
       "modified": "2018-11-13T15:07:25+01:00"
     },
@@ -212,7 +212,6 @@
       "order": 16,
       "name": "Trennung des Mischwassersystems in der Brunnenstraße, Ortschaft Nordstemmen;\nMaßnahmenbeschluss",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6393",
-      "result": "einstimmig",
       "created": "2018-11-13T15:07:50+01:00",
       "modified": "2018-11-13T15:07:57+01:00"
     },
@@ -223,7 +222,6 @@
       "order": 17,
       "name": "Besetzung einer Beamtenstelle auf Zeit in der Gemeinde Nordstemmen;\nVerzicht auf Ausschreibung der Stelle der allgemeinen Vertreterin oder des allgemeinen Vertreters des Bürgermeisters",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6334",
-      "result": "einstimmig",
       "created": "2018-11-13T15:10:04+01:00",
       "modified": "2018-11-13T15:10:11+01:00"
     },
@@ -234,7 +232,6 @@
       "order": 18,
       "name": "Berufung des Gemeindeoberamtsrates Herrn Marcus Tischbier in das Beamtenverhältnis auf Zeit mit gleichzeitiger Ernennung zum Ersten Gemeinderat der Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6347",
-      "result": "einstimmig",
       "created": "2018-11-13T15:10:18+01:00",
       "modified": "2018-11-13T15:10:25+01:00"
     },
@@ -293,5 +290,6 @@
       "created": "2018-09-17T11:07:44+02:00",
       "modified": "2018-09-17T11:07:44+02:00"
     }
-  ]
+  ],
+  "modified": "2019-01-14T08:18:18+01:00"
 }

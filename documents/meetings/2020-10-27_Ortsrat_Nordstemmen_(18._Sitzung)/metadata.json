@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2020-10-27T20:00:00+01:00",
+  "keyword": [
+    "Ortsrat Nordstemmen (18. Sitzung)"
+  ],
+  "created": "2020-06-23T14:43:08+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZSoR93e7anvuIryCmVnFJe8",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4559",
   "name": "Ortsrat Nordstemmen (18. Sitzung)",
   "start": "2020-10-27T19:00:00+01:00",
@@ -111,7 +119,6 @@
       "order": 8,
       "name": "Widmung von Straßenflächen in der Ortschaft Nordstemmen und Fortschreibung des Bestandsverzeichnisses",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6869",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2020-10-16T11:55:40+02:00",
       "modified": "2020-10-16T11:55:55+02:00"
     },
@@ -171,5 +178,6 @@
       "created": "2020-08-25T14:14:12+02:00",
       "modified": "2020-08-25T14:14:12+02:00"
     }
-  ]
+  ],
+  "modified": "2020-12-30T00:00:00+01:00"
 }

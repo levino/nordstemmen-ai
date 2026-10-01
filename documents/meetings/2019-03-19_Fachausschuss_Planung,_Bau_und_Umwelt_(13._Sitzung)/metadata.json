@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2019-03-19T19:30:00+01:00",
+  "keyword": [
+    "Fachausschuss Planung, Bau und Umwelt (13. Sitzung)"
+  ],
+  "created": "2018-11-21T08:49:11+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZVSpdu2u40Rcl4w4DjbDK5k",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4232",
   "name": "Fachausschuss Planung, Bau und Umwelt (13. Sitzung)",
   "start": "2019-03-19T18:00:00+01:00",
@@ -83,7 +91,6 @@
       "order": 5,
       "name": "21. Änderung des Flächennutzungsplanes der Gemeinde Nordstemmen\n(Konzentrationsflächen für Windenergienutzung mit Ausschlusswirkung gem. § 35 Abs. 3 BauGB)\n- erneute öffentliche Auslegung",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6473",
-      "result": "Einstimmig/1 Enthaltung/ja",
       "created": "2019-03-05T07:30:01+01:00",
       "modified": "2019-03-05T07:30:01+01:00"
     },
@@ -128,5 +135,6 @@
       "created": "2019-03-05T07:30:01+01:00",
       "modified": "2019-03-05T07:30:01+01:00"
     }
-  ]
+  ],
+  "modified": "2019-06-11T14:12:40+02:00"
 }

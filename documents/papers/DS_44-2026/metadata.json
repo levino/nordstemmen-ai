@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2026-05-07T19:00:04+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZUopXYfS9p-MeVs2MM6kTyo",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5863",
   "reference": "DS 44/2026",
   "name": "Annahme einer Sachzuwendung für die Brandschutzerziehung der Gemeindefeuerwehr Nordstemmen",
@@ -14,7 +21,7 @@
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZS1VcNJy1KjGsR1FBWpBU7VkX-zjp4vZ5TcMYes217AW/Beschlussvorlage_DS_44-2026.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZS1VcNJy1KjGsR1FBWpBU7VkX-zjp4vZ5TcMYes217AW/Beschlussvorlage_DS_44-2026.pdf",
     "created": "2026-05-07T19:00:04+02:00",
-    "modified": "2026-05-07T19:00:04+02:00"
+    "modified": "2026-06-18T19:00:08+02:00"
   },
   "auxiliaryFile": [
     {
@@ -42,5 +49,6 @@
       "created": "2026-05-07T11:26:28+02:00",
       "modified": "2026-05-07T11:26:28+02:00"
     }
-  ]
+  ],
+  "modified": "2026-06-18T19:00:08+02:00"
 }

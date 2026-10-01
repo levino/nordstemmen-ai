@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2024-12-17T19:00:00+01:00",
+  "keyword": [
+    "Rat (16. Sitzung)"
+  ],
+  "created": "2023-09-25T13:53:50+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZeky-dplXtS_uM-VPPSWHNM",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5502",
   "name": "Rat (16. Sitzung)",
   "start": "2024-12-17T18:00:00+01:00",
@@ -116,7 +124,6 @@
       "order": 7,
       "name": "An- und Vermietung von Räumlichkeiten für das Mehrgenerationenhaus",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8248",
-      "result": "Mehrheitlich bei 20 Ja-Stimmen, 5 Nein-Stimmen und zwei Enthaltungen lt. Beschluss",
       "resolutionFile": {
         "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-40796",
         "type": "https://schema.oparl.org/1.1/File",
@@ -163,7 +170,6 @@
       "order": 9,
       "name": "Haushaltssatzung und Haushaltsplan für das Haushaltsjahr 2025 sowie die Aufstellung\neines Haushaltssicherungskonzeptes",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8253",
-      "result": "Mehrheitlich bei 25 Ja-Stimmen und zwei Nein-Stimmen lt. geändertem Beschluss",
       "created": "2024-12-10T07:50:44+01:00",
       "modified": "2024-12-10T07:50:53+01:00"
     },
@@ -184,7 +190,6 @@
       "order": 11,
       "name": "Investitionsprogramm für den Investitionszeitraum 2025 - 2028",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8255",
-      "result": "Mehrheitlich bei 24 Ja-Stimmen und drei Nein-Stimmen lt. geändertem Beschluss",
       "created": "2024-12-10T07:51:09+01:00",
       "modified": "2024-12-10T07:51:14+01:00"
     },
@@ -195,7 +200,6 @@
       "order": 12,
       "name": "Stellenplan 2025 der Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8240",
-      "result": "Mehrheitlich bei 26 Ja-Stimmen und einer Nein-Stimme lt. geändertem Beschluss",
       "created": "2024-11-21T09:08:29+01:00",
       "modified": "2024-12-03T08:03:10+01:00"
     },
@@ -206,7 +210,6 @@
       "order": 13,
       "name": "Verlängerung der Optionserklärung nach § 27 Abs. 22 Umsatzsteuergesetz (UStG)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8245",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2024-12-03T08:05:06+01:00",
       "modified": "2024-12-03T08:05:49+01:00"
     },
@@ -217,7 +220,6 @@
       "order": 14,
       "name": "Einsatz und Finanzierung von Kräften im Rahmen des Freiwilligen Sozialen Jahres oder Bundesfreiwilligendienstes in Kindertagesstätten\n",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8242",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2024-12-03T08:03:05+01:00",
       "modified": "2024-12-03T08:03:05+01:00"
     },
@@ -248,5 +250,6 @@
       "created": "2024-11-21T09:08:29+01:00",
       "modified": "2024-11-21T09:08:29+01:00"
     }
-  ]
+  ],
+  "modified": "2025-03-21T11:32:10+01:00"
 }

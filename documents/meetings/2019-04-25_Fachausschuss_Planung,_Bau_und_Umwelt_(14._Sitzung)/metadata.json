@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2019-04-25T19:30:00+02:00",
+  "keyword": [
+    "Fachausschuss Planung, Bau und Umwelt (14. Sitzung)"
+  ],
+  "created": "2018-11-21T08:51:17+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZQet1Gh5wFnXXUohRx58NoY",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4237",
   "name": "Fachausschuss Planung, Bau und Umwelt (14. Sitzung)",
   "start": "2019-04-25T18:30:00+02:00",
@@ -101,7 +109,6 @@
       "order": 7,
       "name": "B-Plan 1010 \"Clausstraße-West\"",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6519",
-      "result": "Einstimmig ",
       "created": "2019-04-02T10:53:01+02:00",
       "modified": "2019-04-02T10:53:01+02:00"
     },
@@ -112,7 +119,6 @@
       "order": 8,
       "name": "Weitere Vorgehensweise hinsichtlich eines Konzeptes zur Neuaufstellung des Flächennutzungsplanes in der Gemeinde unter Berücksichtigung der Innen-/und Wohnbauentwicklung in den Ortschaften",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6539",
-      "result": "Einstimmig",
       "created": "2019-04-04T17:12:33+02:00",
       "modified": "2019-04-04T17:12:36+02:00"
     },
@@ -157,5 +163,6 @@
       "created": "2019-04-02T10:53:01+02:00",
       "modified": "2019-04-02T10:53:01+02:00"
     }
-  ]
+  ],
+  "modified": "2019-07-29T09:55:34+02:00"
 }

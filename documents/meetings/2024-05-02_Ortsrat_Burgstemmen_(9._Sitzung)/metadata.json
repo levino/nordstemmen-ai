@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2024-05-02T20:00:00+02:00",
+  "keyword": [
+    "Ortsrat Burgstemmen (9. Sitzung)"
+  ],
+  "created": "2023-09-11T12:00:47+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZcK2vXvZ3fPNHz7X_5vz7X8",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5444",
   "name": "Ortsrat Burgstemmen (9. Sitzung)",
   "start": "2024-05-02T19:00:00+02:00",
@@ -116,7 +124,6 @@
       "order": 7,
       "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2025 sowie für die mittelfristige\nFinanzplanung 2026 bis 2028",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7990",
-      "result": "Einstimmig lt. Anlage 2",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6851",
@@ -161,5 +168,6 @@
       "created": "2024-04-23T09:53:07+02:00",
       "modified": "2024-04-23T10:02:19+02:00"
     }
-  ]
+  ],
+  "modified": "2025-03-19T10:05:37+01:00"
 }

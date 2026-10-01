@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2018-04-20T13:00:37+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZSdY8AtegtnaTOvaglgTKVg",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4557",
   "reference": "DS 29/2018",
   "name": "Anhörung zur Aufstellung der Vorschlagsliste für die Neuwahl der Schöffen für die Jahre 2019 bis 2023",
@@ -129,5 +136,6 @@
       "created": "2018-04-09T10:44:23+02:00",
       "modified": "2018-04-09T10:44:54+02:00"
     }
-  ]
+  ],
+  "modified": "2018-12-06T13:01:21+01:00"
 }

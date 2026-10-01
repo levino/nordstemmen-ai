@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2025-11-04T19:30:00+01:00",
+  "keyword": [
+    "Ortsrat Groß Escherde (13. Sitzung)"
+  ],
+  "created": "2025-10-23T14:49:42+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZXW7GNHTwo2IQ0d7ZPpgj2I",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5898",
   "name": "Ortsrat Groß Escherde (13. Sitzung)",
   "start": "2025-11-04T18:30:00+01:00",
@@ -29,14 +37,26 @@
     "created": "2025-10-23T19:00:21+02:00",
     "modified": "2025-10-23T19:00:21+02:00"
   },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-43665",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2025-11-04",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfANPYO5jTZcvNb-lmH4r8OvULo5hKPZukdaQdoi22C2/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_04.11.2025.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfANPYO5jTZcvNb-lmH4r8OvULo5hKPZukdaQdoi22C2/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_04.11.2025.pdf",
+    "created": "2026-01-13T11:06:47+01:00",
+    "modified": "2026-01-13T11:06:47+01:00"
+  },
   "agendaItem": [
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24049",
       "type": "https://schema.oparl.org/1.1/AgendaItem",
       "order": 1,
       "name": "- öffentlicher Teil -",
-      "created": "2025-10-23T17:14:25+02:00",
-      "modified": "2025-10-23T17:14:25+02:00"
+      "created": "2025-10-23T14:50:04+02:00",
+      "modified": "2025-10-23T14:50:04+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24050",
@@ -44,8 +64,8 @@
       "number": "1",
       "order": 2,
       "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
-      "created": "2025-10-23T17:14:25+02:00",
-      "modified": "2025-10-23T17:14:25+02:00"
+      "created": "2025-10-23T14:50:04+02:00",
+      "modified": "2025-10-23T14:50:04+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24051",
@@ -65,10 +85,22 @@
           "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeyeZuEbEdoHos5LXLAb3bwN8MC4wheCtl7E5uufX5jV/OR_Gross_Escherde_20125_05_15.pdf",
           "created": "2025-10-23T19:00:21+02:00",
           "modified": "2025-10-23T19:00:21+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7520",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Ortsratssitzung Groß Escherde 04.11.2025 TOP 2 Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2025-11-04",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZajACW1tOkev2_KyDcDNbi2GpWuyTjQlLWYd9G1OE_Jv/Ortsratssitzung_Gross_Escherde_04.11.2025_TOP_2_Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZajACW1tOkev2_KyDcDNbi2GpWuyTjQlLWYd9G1OE_Jv/Ortsratssitzung_Gross_Escherde_04.11.2025_TOP_2_Anlage_1.pdf",
+          "created": "2026-01-13T11:06:47+01:00",
+          "modified": "2026-01-13T11:06:47+01:00"
         }
       ],
-      "created": "2025-10-23T17:14:25+02:00",
-      "modified": "2025-10-23T17:14:25+02:00"
+      "created": "2025-10-23T14:50:04+02:00",
+      "modified": "2025-10-23T15:10:37+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24052",
@@ -76,8 +108,8 @@
       "number": "3",
       "order": 4,
       "name": "Anfragen und Anregungen",
-      "created": "2025-10-23T17:14:25+02:00",
-      "modified": "2025-10-23T17:14:25+02:00"
+      "created": "2025-10-23T14:50:04+02:00",
+      "modified": "2025-10-23T14:50:04+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24053",
@@ -85,8 +117,8 @@
       "number": "4",
       "order": 5,
       "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
-      "created": "2025-10-23T17:14:25+02:00",
-      "modified": "2025-10-23T17:14:25+02:00"
+      "created": "2025-10-23T14:50:04+02:00",
+      "modified": "2025-10-23T14:50:04+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24054",
@@ -94,8 +126,8 @@
       "number": "5",
       "order": 6,
       "name": "Einwohner*innen Fragestunde",
-      "created": "2025-10-23T17:14:25+02:00",
-      "modified": "2025-10-23T17:14:25+02:00"
+      "created": "2025-10-23T14:50:04+02:00",
+      "modified": "2025-10-23T14:50:04+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24057",
@@ -104,8 +136,8 @@
       "order": 7,
       "name": "Anhörung zum Haushaltsplan 2026 und zum Investitionsprogramm bis 2029 für die Ortschaft Groß Escherde",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8586",
-      "created": "2025-10-23T17:14:25+02:00",
-      "modified": "2025-10-23T17:14:25+02:00"
+      "created": "2025-10-23T14:55:09+02:00",
+      "modified": "2025-10-23T14:55:12+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24058",
@@ -113,8 +145,8 @@
       "number": "7",
       "order": 8,
       "name": "Kindertagesstätte Groß Escherde",
-      "created": "2025-10-23T17:14:25+02:00",
-      "modified": "2025-10-23T17:14:25+02:00"
+      "created": "2025-10-23T14:55:36+02:00",
+      "modified": "2025-10-23T14:55:36+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24059",
@@ -122,8 +154,8 @@
       "number": "8",
       "order": 9,
       "name": "Wohnbauplanung in Groß Escherde",
-      "created": "2025-10-23T17:14:25+02:00",
-      "modified": "2025-10-23T17:14:25+02:00"
+      "created": "2025-10-23T14:56:04+02:00",
+      "modified": "2025-10-23T14:56:04+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24060",
@@ -131,8 +163,8 @@
       "number": "9",
       "order": 10,
       "name": "Bolzplatz",
-      "created": "2025-10-23T17:14:25+02:00",
-      "modified": "2025-10-23T17:14:25+02:00"
+      "created": "2025-10-23T14:56:26+02:00",
+      "modified": "2025-10-23T14:56:26+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24061",
@@ -140,8 +172,8 @@
       "number": "10",
       "order": 11,
       "name": "Termine und Veranstaltungen 2026",
-      "created": "2025-10-23T17:14:25+02:00",
-      "modified": "2025-10-23T17:14:25+02:00"
+      "created": "2025-10-23T14:56:53+02:00",
+      "modified": "2025-10-23T14:56:53+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24055",
@@ -149,8 +181,9 @@
       "number": "11",
       "order": 12,
       "name": "Mitteilungen der Verwaltung",
-      "created": "2025-10-23T17:14:25+02:00",
-      "modified": "2025-10-23T17:14:25+02:00"
+      "created": "2025-10-23T14:50:04+02:00",
+      "modified": "2025-10-23T14:50:04+02:00"
     }
-  ]
+  ],
+  "modified": "2026-02-16T12:26:49+01:00"
 }

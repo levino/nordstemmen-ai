@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-02-15T19:00:00+01:00",
+  "keyword": [
+    "Ortsrat Barnten (6. Sitzung)"
+  ],
+  "created": "2017-11-07T14:53:02+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZXb6OQtOvRHgB4UbKwKYZ4U",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4040",
   "name": "Ortsrat Barnten (6. Sitzung)",
   "start": "2018-02-15T18:00:00+01:00",
@@ -142,7 +150,6 @@
       "order": 7,
       "name": "Potenzielle Hotspot-Standorte im Rahmen der EU-Förderung (WIFI4EU)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6096",
-      "result": "einstimmig/abweichender Beschluss",
       "created": "2018-01-31T09:08:19+01:00",
       "modified": "2018-01-31T09:08:19+01:00"
     },
@@ -293,5 +300,6 @@
       "created": "2018-01-31T09:08:19+01:00",
       "modified": "2018-01-31T09:08:19+01:00"
     }
-  ]
+  ],
+  "modified": "2018-05-31T16:28:03+02:00"
 }

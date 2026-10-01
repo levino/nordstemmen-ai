@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2024-05-21T19:00:00+02:00",
+  "keyword": [
+    "Ortsrat Barnten (9. Sitzung)"
+  ],
+  "created": "2023-09-11T12:04:27+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZZduMWEcYvXmfRaN7rf8DH0",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5445",
   "name": "Ortsrat Barnten (9. Sitzung)",
   "start": "2024-05-21T18:00:00+02:00",
@@ -120,7 +128,6 @@
       "order": 9,
       "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2025 sowie für die mittelfristige\nFinanzplanung 2026 bis 2028",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7991",
-      "result": "Einstimmig laut Mittelanmeldungen.",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6879",
@@ -206,5 +213,6 @@
       "created": "2024-01-15T13:16:35+01:00",
       "modified": "2024-01-15T13:16:35+01:00"
     }
-  ]
+  ],
+  "modified": "2024-11-12T12:49:17+01:00"
 }

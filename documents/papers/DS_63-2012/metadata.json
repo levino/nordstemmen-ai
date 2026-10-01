@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2012-08-24T12:09:29+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZel0ismut7XZBJ6JoB-BPg8",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/737",
   "reference": "DS 63/2012",
   "name": "Antrag des Kirchenamtes Hildesheim auf Einführung von Sonderöffnungszeiten in der\nev.-luth. Kindertagesstätte Rössing",
@@ -32,6 +36,15 @@
   ],
   "consultation": [
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1988",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2012-08-16T16:54:15+02:00",
+      "modified": "2012-08-16T16:54:15+02:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1991",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8820",
@@ -53,5 +66,6 @@
       "created": "2012-08-16T16:57:04+02:00",
       "modified": "2012-08-16T16:57:04+02:00"
     }
-  ]
+  ],
+  "modified": "2012-08-24T12:09:29+02:00"
 }

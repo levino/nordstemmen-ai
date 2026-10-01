@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2026-05-12T20:00:00+02:00",
+  "keyword": [
+    "Ortsrat Mahlerten (15. Sitzung)"
+  ],
+  "created": "2025-09-19T11:19:35+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZe7l-RnTHPgZjw7qAPta8wA",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5853",
   "name": "Ortsrat Mahlerten (15. Sitzung)",
   "start": "2026-05-12T19:00:00+02:00",
@@ -16,5 +24,148 @@
   },
   "organization": [
     "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-17"
-  ]
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-44546",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2026-05-12",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYaaAEoXe3EG9RIrWmDGYAXcGGZR8Ywi-s6iXI2lROkm/Bekanntmachung_Ortsrat_Mahlerten_12.05.2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYaaAEoXe3EG9RIrWmDGYAXcGGZR8Ywi-s6iXI2lROkm/Bekanntmachung_Ortsrat_Mahlerten_12.05.2026.pdf",
+    "created": "2026-04-29T13:00:05+02:00",
+    "modified": "2026-04-29T13:00:05+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-44817",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Mahlerten)",
+    "mimeType": "application/pdf",
+    "date": "2026-05-12",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQr-HP1ui-CoPOV_m6OwCi-HfAg6M3iWzNiz7hiZC-qu/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_12.05.2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQr-HP1ui-CoPOV_m6OwCi-HfAg6M3iWzNiz7hiZC-qu/Oeffentliche_Niederschrift_Ortsrat_Mahlerten_12.05.2026.pdf",
+    "created": "2026-05-20T13:00:23+02:00",
+    "modified": "2026-05-20T13:00:23+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24783",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2026-04-27T13:07:02+02:00",
+      "modified": "2026-04-27T13:07:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24784",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2026-04-27T13:07:02+02:00",
+      "modified": "2026-04-27T13:07:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24785",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung desr Protokolls der Sitzung vom 17. Februar 2026",
+      "created": "2026-04-27T13:07:02+02:00",
+      "modified": "2026-04-27T13:07:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24790",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Mitteilungen der Verwaltung",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7773",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2026-05-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTG-gSEzd-PVWNpYU43R4S_65lgFqhUBFhH8s1s1kzPC/Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTG-gSEzd-PVWNpYU43R4S_65lgFqhUBFhH8s1s1kzPC/Anlage_1.pdf",
+          "created": "2026-05-20T13:00:23+02:00",
+          "modified": "2026-05-20T13:00:23+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7774",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2026-05-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVJyFIpylIT7WI42CctDET8KM4PQx-l0l2r2VlTspEye/Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVJyFIpylIT7WI42CctDET8KM4PQx-l0l2r2VlTspEye/Anlage_2.pdf",
+          "created": "2026-05-20T13:00:23+02:00",
+          "modified": "2026-05-20T13:00:23+02:00"
+        }
+      ],
+      "created": "2026-04-27T13:07:02+02:00",
+      "modified": "2026-04-27T13:07:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24794",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht des Ortsrates über die Fragen der letzten Ortsratssitzungen",
+      "created": "2026-04-27T13:09:27+02:00",
+      "modified": "2026-04-27T13:09:27+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24787",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2026-04-27T13:07:02+02:00",
+      "modified": "2026-04-27T13:08:00+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24793",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Verwendung der im Haushaltsjahr 2026 zur Verfügung stehenden Ortsratsmittel",
+      "created": "2026-04-27T13:08:36+02:00",
+      "modified": "2026-04-27T13:08:36+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24788",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2027 sowie für die mittelfristige\nFinanzplanung 2028 - 2030",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8775",
+      "created": "2026-04-27T13:07:02+02:00",
+      "modified": "2026-04-27T13:08:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24791",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2026-04-27T13:07:02+02:00",
+      "modified": "2026-04-27T13:08:48+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24786",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Anfragen und Anregungen",
+      "created": "2026-04-27T13:07:02+02:00",
+      "modified": "2026-04-27T13:07:02+02:00"
+    }
+  ],
+  "modified": "2026-05-20T08:38:42+02:00"
 }

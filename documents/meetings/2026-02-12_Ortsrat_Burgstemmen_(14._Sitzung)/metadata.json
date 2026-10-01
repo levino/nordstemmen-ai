@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2026-02-12T19:00:00+01:00",
+  "keyword": [
+    "Ortsrat Burgstemmen (14. Sitzung)"
+  ],
+  "created": "2025-09-18T17:23:49+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZeJ2sa4XJXgCfeOmiUPmCgo",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5846",
   "name": "Ortsrat Burgstemmen (14. Sitzung)",
   "start": "2026-02-12T18:00:00+01:00",
@@ -16,5 +24,182 @@
   },
   "organization": [
     "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-12"
-  ]
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-43850",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2026-02-12",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVQKMPlYTLSW14ymxcyfEr-Fw4C4EfzR7rrn5wyx-OZS/Bekanntmachung_Ortsrat_Burgstemmen_12.02.2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVQKMPlYTLSW14ymxcyfEr-Fw4C4EfzR7rrn5wyx-OZS/Bekanntmachung_Ortsrat_Burgstemmen_12.02.2026.pdf",
+    "created": "2026-01-27T19:00:08+01:00",
+    "modified": "2026-01-27T19:00:08+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-44174",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Burgstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2026-02-12",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSeoHPWNLEP3E-wKgGySh9uIZeOY9eWGD6sndtyeoSkC/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_12.02.2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSeoHPWNLEP3E-wKgGySh9uIZeOY9eWGD6sndtyeoSkC/Oeffentliche_Niederschrift_Ortsrat_Burgstemmen_12.02.2026.pdf",
+    "created": "2026-03-06T13:00:25+01:00",
+    "modified": "2026-03-06T13:00:25+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24364",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2026-01-26T08:54:32+01:00",
+      "modified": "2026-01-26T08:54:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24365",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2026-01-26T08:54:32+01:00",
+      "modified": "2026-01-26T08:54:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24366",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 30. Oktober 2025",
+      "created": "2026-01-26T08:54:32+01:00",
+      "modified": "2026-01-26T08:54:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24367",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Anfragen und Anregungen",
+      "created": "2026-01-26T08:54:32+01:00",
+      "modified": "2026-01-26T08:54:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24376",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Planung/Bau einer Freiflächen-Photovoltaikanlage (Fläche \"Am Paradies\")",
+      "created": "2026-01-27T07:32:59+01:00",
+      "modified": "2026-02-16T08:13:47+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24368",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2026-01-26T08:54:32+01:00",
+      "modified": "2026-01-26T08:54:32+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24377",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Auswertungen Geschwindigkeitsmessgeräte 2025",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7652",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1.1)",
+          "mimeType": "application/pdf",
+          "date": "2026-02-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZShLTBAe0R_tym0gMqAQx9DnbEFKjDUzNaF4dvtEncku/Anlage_1.1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZShLTBAe0R_tym0gMqAQx9DnbEFKjDUzNaF4dvtEncku/Anlage_1.1.pdf",
+          "created": "2026-03-06T13:00:25+01:00",
+          "modified": "2026-03-06T13:00:25+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7653",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1.2)",
+          "mimeType": "application/pdf",
+          "date": "2026-02-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYkgiSzSapAHDXj4lJjwdhGx7SpLdjOaR4BOEirH8QED/Anlage_1.2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYkgiSzSapAHDXj4lJjwdhGx7SpLdjOaR4BOEirH8QED/Anlage_1.2.pdf",
+          "created": "2026-03-06T13:00:25+01:00",
+          "modified": "2026-03-06T13:00:25+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7654",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1.3)",
+          "mimeType": "application/pdf",
+          "date": "2026-02-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZc-koUZCDy4q3a6ev9SSgY9nDg3kMyMNOS1BygFpyI-T/Anlage_1.3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZc-koUZCDy4q3a6ev9SSgY9nDg3kMyMNOS1BygFpyI-T/Anlage_1.3.pdf",
+          "created": "2026-03-06T13:00:25+01:00",
+          "modified": "2026-03-06T13:00:25+01:00"
+        }
+      ],
+      "created": "2026-01-27T07:33:24+01:00",
+      "modified": "2026-01-27T07:33:24+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24379",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Ergebnisse Verkehrsschau 2025",
+      "created": "2026-01-27T08:07:48+01:00",
+      "modified": "2026-01-27T08:07:48+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24378",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Verwendung der zur Verfügung stehenden OR-Mittel\n- Antrag der Feuerwehr Burgstemmen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7655",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2026-02-12",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZZvbgQAJDNqAEiFpBs0sbWhyT2RYUFX-smqbO6xxCtN/Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZZvbgQAJDNqAEiFpBs0sbWhyT2RYUFX-smqbO6xxCtN/Anlage_2.pdf",
+          "created": "2026-03-06T13:00:25+01:00",
+          "modified": "2026-03-06T13:00:25+01:00"
+        }
+      ],
+      "created": "2026-01-27T07:34:15+01:00",
+      "modified": "2026-01-27T07:34:15+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24370",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2026-01-26T08:54:32+01:00",
+      "modified": "2026-01-27T07:34:20+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24369",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Mitteilungen der Verwaltung\n- Standorte Geschwindigkeitsanzeigetafeln und Verkehrsstatistikgerät 2026\n- Erstellung der Querungshilfe K503 am Mühlenweg",
+      "created": "2026-01-26T08:54:32+01:00",
+      "modified": "2026-01-26T08:54:32+01:00"
+    }
+  ],
+  "modified": "2026-05-29T09:48:48+02:00"
 }

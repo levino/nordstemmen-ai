@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2014-09-30T13:00:25+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZUINy5KIZXcgIUPUit7coH4",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1015",
   "reference": "DS 56/2014 1. Ergänzung",
   "name": "Fortsetzung der Lernförderung in den Grundschulen Barnten und Nordstemmen ab dem Schuljahr 2014/2015",
@@ -18,6 +22,15 @@
   },
   "consultation": [
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2872",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2014-09-30T10:19:26+02:00",
+      "modified": "2014-09-30T10:19:26+02:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2877",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2370",
@@ -27,5 +40,6 @@
       "created": "2014-09-30T10:19:26+02:00",
       "modified": "2014-09-30T10:19:26+02:00"
     }
-  ]
+  ],
+  "modified": "2014-09-30T13:00:25+02:00"
 }

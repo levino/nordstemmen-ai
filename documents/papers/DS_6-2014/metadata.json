@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2014-02-05T13:08:34+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZf-soEiCX2lD_SsOGVlNvCU",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/942",
   "reference": "DS 6/2014",
   "name": "Gewährung eines einmaligen Zuschusses an den GemeindeJugendRing Nordstemmen e. V. für die Ersatzbeschaffung des Kinder- und Jugendmobils",
@@ -17,6 +21,15 @@
     "modified": "2014-02-05T13:08:34+01:00"
   },
   "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2629",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2014-02-03T13:18:47+01:00",
+      "modified": "2014-02-03T13:18:47+01:00"
+    },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2632",
       "type": "https://schema.oparl.org/1.1/Consultation",
@@ -39,5 +52,6 @@
       "created": "2014-02-03T13:20:15+01:00",
       "modified": "2014-02-03T13:20:15+01:00"
     }
-  ]
+  ],
+  "modified": "2014-02-05T13:08:34+01:00"
 }

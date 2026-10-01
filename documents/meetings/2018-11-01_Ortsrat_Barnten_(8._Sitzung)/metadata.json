@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-11-01T19:00:00+01:00",
+  "keyword": [
+    "Ortsrat Barnten (8. Sitzung)"
+  ],
+  "created": "2018-03-12T14:36:09+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZe9DTSv0Q5-ikYSL7UwEI1g",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4149",
   "name": "Ortsrat Barnten (8. Sitzung)",
   "start": "2018-11-01T18:00:00+01:00",
@@ -102,7 +110,6 @@
       "order": 7,
       "name": "Anhörung zum Haushaltsplan 2019 und zum Investitionsprogramm bis 2022 für die Ortschaft Barnten",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6370",
-      "result": "einstimmig",
       "created": "2018-10-16T09:29:53+02:00",
       "modified": "2018-10-16T09:29:53+02:00"
     },
@@ -188,5 +195,6 @@
       "created": "2018-10-16T09:29:53+02:00",
       "modified": "2018-10-16T09:29:53+02:00"
     }
-  ]
+  ],
+  "modified": "2019-03-08T11:43:20+01:00"
 }

@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2014-02-26T12:49:00+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZRn53Y9Pd1qVRljUk-ZnkDY",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/956",
   "reference": "DS 21/2014",
   "name": "Freizeitbad Nordstemmen - Konzeptplanung zur Sanierung und Modernisierung",
@@ -17,6 +21,15 @@
     "modified": "2014-03-10T13:00:29+01:00"
   },
   "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2692",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2014-02-26T08:17:56+01:00",
+      "modified": "2014-02-26T08:17:56+01:00"
+    },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2693",
       "type": "https://schema.oparl.org/1.1/Consultation",
@@ -39,5 +52,6 @@
       "created": "2014-02-26T08:18:26+01:00",
       "modified": "2014-02-26T08:18:26+01:00"
     }
-  ]
+  ],
+  "modified": "2014-03-10T13:00:29+01:00"
 }

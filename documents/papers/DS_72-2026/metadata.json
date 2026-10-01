@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-196"
+  ],
+  "created": "2026-08-12T13:00:04+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdKzsI65beFWTi8IMxauKf8",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5912",
   "reference": "DS 72/2026",
   "name": "Vorhabenbezogener Bebauungsplan Nr. 0131 \"Rauhe Wiese - West II\",\nOrtschaft Nordstemmen\n- Satzungsbeschluss gem. § 10 Abs. 1 Baugesetzbuch (BauGB)",
@@ -14,7 +21,7 @@
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRfFz_AUcL8v4Ap2Msbe8KeWXbf84nD2jnG9bCNVgDC8/Beschlussvorlage_DS_72-2026.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRfFz_AUcL8v4Ap2Msbe8KeWXbf84nD2jnG9bCNVgDC8/Beschlussvorlage_DS_72-2026.pdf",
     "created": "2026-08-12T13:00:04+02:00",
-    "modified": "2026-08-12T13:00:04+02:00"
+    "modified": "2026-09-22T13:00:24+02:00"
   },
   "auxiliaryFile": [
     {
@@ -78,5 +85,6 @@
       "created": "2026-07-23T13:49:03+02:00",
       "modified": "2026-07-23T13:49:03+02:00"
     }
-  ]
+  ],
+  "modified": "2026-09-22T13:00:24+02:00"
 }

@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2019-11-25T19:00:00+01:00",
+  "keyword": [
+    "Rat (21. Sitzung)"
+  ],
+  "created": "2019-05-28T16:46:22+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZUTGqWvWjV5QucW1Su_LbS4",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4377",
   "name": "Rat (21. Sitzung)",
   "start": "2019-11-25T18:00:00+01:00",
@@ -92,7 +100,6 @@
       "order": 6,
       "name": "Haushaltssatzung und Haushaltsplan 2020",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6675",
-      "result": "23 Ja-Stimmen, 2 Nein-Stimmen/geänderte Fassung",
       "created": "2019-11-11T15:17:49+01:00",
       "modified": "2019-11-12T17:21:08+01:00"
     },
@@ -113,7 +120,6 @@
       "order": 8,
       "name": "Investitionsprogramm für den Investitionszeitraum bis zum Haushaltsjahr 2023;\nmittelfristige Ergebnis- und Finanzplanung",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6676",
-      "result": "23 Ja-Stimmen, 2 Nein-Stimmen",
       "created": "2019-11-11T15:17:57+01:00",
       "modified": "2019-11-12T17:21:16+01:00"
     },
@@ -134,7 +140,6 @@
       "order": 10,
       "name": "Stellenplan 2020",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6668",
-      "result": "23 Ja-Stimmen, 2 Nein-Stimmen",
       "created": "2019-11-11T15:17:42+01:00",
       "modified": "2019-11-12T17:21:23+01:00"
     },
@@ -165,7 +170,6 @@
       "order": 13,
       "name": "Bebauungsplan Nr. 0307 „Barnten-Süd IV“\n- Satzungsbeschluss gem. § 10 Abs. 1 BauGB",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6658",
-      "result": "einstimmig/zwei Enthaltungen",
       "created": "2019-11-11T15:18:07+01:00",
       "modified": "2019-11-11T15:18:07+01:00"
     },
@@ -187,5 +191,6 @@
       "created": "2019-09-27T09:42:35+02:00",
       "modified": "2019-09-27T09:42:35+02:00"
     }
-  ]
+  ],
+  "modified": "2020-01-09T14:04:09+01:00"
 }

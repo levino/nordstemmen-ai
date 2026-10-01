@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2021-06-11T13:00:20+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZehj8rrXWK32IKokRENqwc0",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5011",
   "reference": "DS 64/2021",
   "name": "Abberufung der ehrenamtlichen Gleichstellungsbeauftragten",
@@ -28,5 +35,6 @@
       "created": "2021-06-08T09:40:43+02:00",
       "modified": "2021-06-08T09:40:44+02:00"
     }
-  ]
+  ],
+  "modified": "2021-07-30T13:00:23+02:00"
 }

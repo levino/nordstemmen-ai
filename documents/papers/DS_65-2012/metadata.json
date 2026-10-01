@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2012-08-24T12:09:29+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZRfl7qxlW0SuWkpmvUhuPsY",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/739",
   "reference": "DS 65/2012",
   "name": "Antrag der AWO Jugendhilfe und Kindertagesstätten gGmbH auf Umwandlung der altersübergreifenden Gruppe bis 14:00 Uhr in eine Krippengruppe bis 16:30 in der Kindertagesstätte Nordstemmen",
@@ -32,6 +36,15 @@
   ],
   "consultation": [
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2002",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2012-08-21T11:48:44+02:00",
+      "modified": "2012-08-21T11:48:44+02:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2005",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8822",
@@ -53,5 +66,6 @@
       "created": "2012-08-21T11:50:00+02:00",
       "modified": "2012-08-21T11:50:00+02:00"
     }
-  ]
+  ],
+  "modified": "2012-08-24T12:09:29+02:00"
 }

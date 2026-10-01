@@ -1,20 +1,27 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2026-02-27T13:00:15+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZU58vI-r1g0ZKpCQw7gzalA",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5828",
   "reference": "DS 19/2026",
   "name": "Wiederaufnahme der Kooperationsvereinbarung zur Förderung der interkommunalen\nZusammenarbeit im Bereich Kultur (IKZ Kultur)",
   "paperType": "Beschlussvorlage",
-  "date": "2026-03-05",
+  "date": "2026-06-23",
   "mainFile": {
     "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-44037",
     "type": "https://schema.oparl.org/1.1/File",
     "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
     "name": "Beschlussvorlage (Wiederaufnahme der Kooperationsvereinbarung zur Förderung der interkommunalen\nZusammenarbeit im Bereich Kultur (IKZ Kultur))",
     "mimeType": "application/pdf",
-    "date": "2026-03-05",
+    "date": "2026-06-23",
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWBAHKFL0s1k_10IOFbFaNdf97sjZatARZH1UT11Zyi6/Beschlussvorlage_DS_19-2026.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWBAHKFL0s1k_10IOFbFaNdf97sjZatARZH1UT11Zyi6/Beschlussvorlage_DS_19-2026.pdf",
     "created": "2026-02-27T13:00:15+01:00",
-    "modified": "2026-02-27T13:00:15+01:00"
+    "modified": "2026-08-17T13:00:09+02:00"
   },
   "consultation": [
     {
@@ -27,6 +34,40 @@
       ],
       "created": "2026-02-19T08:21:57+01:00",
       "modified": "2026-02-19T08:21:57+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8714",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24490",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5784",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2026-02-19T08:22:10+01:00",
+      "modified": "2026-02-19T08:22:10+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8738",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24824",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5870",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-29"
+      ],
+      "created": "2026-03-19T09:35:46+01:00",
+      "modified": "2026-03-19T09:35:46+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8740",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25135",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5785",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2026-03-19T09:36:29+01:00",
+      "modified": "2026-04-07T10:50:15+02:00"
     }
-  ]
+  ],
+  "modified": "2026-08-17T13:00:09+02:00"
 }

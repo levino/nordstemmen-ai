@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-196"
+  ],
+  "created": "2018-05-16T13:00:34+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZZW_lusQU2poehJG-4TohFM",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4584",
   "reference": "DS 52/2018",
   "name": "Einstellung Nacht-AST-Verkehr in der Gemeinde Nordstemmen",
@@ -39,5 +46,6 @@
       "created": "2018-05-15T08:24:24+02:00",
       "modified": "2018-05-15T08:24:24+02:00"
     }
-  ]
+  ],
+  "modified": "2018-07-02T13:01:05+02:00"
 }

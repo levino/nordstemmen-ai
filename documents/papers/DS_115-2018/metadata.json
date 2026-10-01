@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2018-11-20T17:34:29+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZYO8Em4vF6yp1ROZjvi_iQk",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4665",
   "reference": "DS 115/2018",
   "name": "Haushaltssatzung und Haushaltsplan 2019",
@@ -89,5 +96,6 @@
       "created": "2018-11-09T11:36:17+01:00",
       "modified": "2018-11-09T11:36:17+01:00"
     }
-  ]
+  ],
+  "modified": "2018-12-05T19:01:10+01:00"
 }

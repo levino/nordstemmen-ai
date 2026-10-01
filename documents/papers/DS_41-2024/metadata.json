@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-196"
+  ],
+  "created": "2024-05-23T19:00:05+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZeEDX7HENbH7SqW0S6-ha3Y",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5518",
   "reference": "DS 41/2024",
   "name": "Erneuerung der Heizungsanlage im DGH und in der Turnhalle Barnten",
@@ -54,5 +61,6 @@
       "created": "2024-05-13T12:58:58+02:00",
       "modified": "2024-05-13T12:58:58+02:00"
     }
-  ]
+  ],
+  "modified": "2024-08-13T13:00:20+02:00"
 }

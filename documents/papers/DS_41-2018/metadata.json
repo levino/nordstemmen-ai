@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2018-08-13T19:01:13+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZbDSFJO-IprfLbJ2NPiw2m4",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4571",
   "reference": "DS 41/2018",
   "name": "Erhöhung der Abwassergebühren zum 01.01.2019",
@@ -102,5 +109,6 @@
       "created": "2018-04-19T14:49:17+02:00",
       "modified": "2018-07-30T11:13:06+02:00"
     }
-  ]
+  ],
+  "modified": "2018-10-01T13:01:39+02:00"
 }

@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-10-29T20:00:00+01:00",
+  "keyword": [
+    "Ortsrat Nordstemmen (11. Sitzung)"
+  ],
+  "created": "2018-03-12T14:34:30+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZQs7zpnM1gt0Ont29rc3G3Y",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4146",
   "name": "Ortsrat Nordstemmen (11. Sitzung)",
   "start": "2018-10-29T19:00:00+01:00",
@@ -192,7 +200,6 @@
       "order": 14,
       "name": "Anhörung zum Haushaltsplan 2019 und zum Investitionsprogramm bis 2022 für die Ortschaft Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6376",
-      "result": "Einstimmig ja",
       "created": "2018-10-12T07:29:34+02:00",
       "modified": "2018-10-12T07:29:44+02:00"
     },
@@ -214,5 +221,6 @@
       "created": "2018-10-04T16:43:02+02:00",
       "modified": "2018-10-04T16:43:02+02:00"
     }
-  ]
+  ],
+  "modified": "2019-03-13T11:47:54+01:00"
 }

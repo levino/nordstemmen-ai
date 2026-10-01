@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-09-17T19:00:00+02:00",
+  "keyword": [
+    "Ortsrat Nordstemmen (10. Sitzung)"
+  ],
+  "created": "2018-09-07T09:44:05+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZWJoNcDfpMThWAPavd_b4bc",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4202",
   "name": "Ortsrat Nordstemmen (10. Sitzung)",
   "start": "2018-09-17T18:00:00+02:00",
@@ -74,7 +82,6 @@
       "order": 4,
       "name": "Bebauungsplan Nr. 0123 \"Heyersumer Straße-Süd\", 2. Änderung, \n- Satzungsbeschluss gem. § 10 Abs. 1 BauGB",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6353",
-      "result": "einstimmig",
       "created": "2018-09-07T09:57:15+02:00",
       "modified": "2018-09-07T09:57:15+02:00"
     },
@@ -87,5 +94,6 @@
       "created": "2018-09-07T09:44:22+02:00",
       "modified": "2018-09-07T09:44:22+02:00"
     }
-  ]
+  ],
+  "modified": "2018-09-20T16:20:59+02:00"
 }

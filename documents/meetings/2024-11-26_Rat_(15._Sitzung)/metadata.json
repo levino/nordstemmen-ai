@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2024-11-26T19:30:00+01:00",
+  "keyword": [
+    "Rat (15. Sitzung)"
+  ],
+  "created": "2023-09-11T12:39:49+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZYQ9Y9g8rtyKFU2mkQyCY4M",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5482",
   "name": "Rat (15. Sitzung)",
   "start": "2024-11-26T18:30:00+01:00",
@@ -157,7 +165,6 @@
       "order": 10,
       "name": "Grundsatzbeschluss zur Ortsumgehung der Bundesstraße 1",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8218",
-      "result": "Mehrheitlich bei 17 Ja-Stimmen und 9 Nein-Stimmen lt. Beschluss",
       "created": "2024-11-05T14:33:10+01:00",
       "modified": "2024-11-05T14:33:10+01:00"
     },
@@ -168,7 +175,6 @@
       "order": 11,
       "name": "Grundsatzbeschluss zur Ortsumgehung der Bundesstraße 1",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8243",
-      "result": "Mehrheitlich bei 17 Ja-Stimmen und 9 Nein-Stimmen lt. Beschluss",
       "resolutionFile": {
         "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-40797",
         "type": "https://schema.oparl.org/1.1/File",
@@ -214,7 +220,6 @@
       "order": 13,
       "name": "3. Satzung zur Änderung der Satzung über Aufwandsentschädigungen, Verdienstausfall und Fahrkostenentschädigungen der Gemeinde Nordstemmen (Entschädigungssatzung);\nAufwandsentschädigungen für Gemeindekinderfeuerwehrwart/-in sowie dessen Stellvertretung",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8129",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2024-11-05T14:33:10+01:00",
       "modified": "2024-11-11T10:02:34+01:00"
     },
@@ -275,7 +280,6 @@
       "order": 19,
       "name": "Satzung über die Festsetzung der Hebesätze für die Grund- und Gewerbesteuer in der Gemeinde Nordstemmen (Hebesatzsatzung)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8230",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2024-11-19T11:53:58+01:00",
       "modified": "2024-11-19T11:54:07+01:00"
     },
@@ -286,7 +290,6 @@
       "order": 20,
       "name": "Verordnung zur Aufrechterhaltung der öffentlichen Sicherheit und Ordnung in der Gemeinde Nordstemmen; Mähroboter\n",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8179",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2024-11-05T14:33:10+01:00",
       "modified": "2024-11-05T14:33:10+01:00"
     },
@@ -297,7 +300,6 @@
       "order": 21,
       "name": "Planungsauftrag für den Ausbau der AWO Kindertagesstätte Nordstemmen\n",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8221",
-      "result": "Mehrheitlich bei 19 Ja-Stimmen, 4 Nein-Stimmen und 2 Enthaltungen lt. Beschlussvorschlag",
       "created": "2024-11-05T14:33:10+01:00",
       "modified": "2024-11-05T14:33:10+01:00"
     },
@@ -318,7 +320,6 @@
       "order": 23,
       "name": "Spielplatzkonzept der Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8226",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2024-11-19T11:53:36+01:00",
       "modified": "2024-11-19T11:53:39+01:00"
     },
@@ -329,7 +330,6 @@
       "order": 24,
       "name": "Grundsatzbeschluss Windenergie",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8187",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2024-11-05T14:33:10+01:00",
       "modified": "2024-11-05T14:33:10+01:00"
     },
@@ -351,5 +351,6 @@
       "created": "2024-11-05T14:33:10+01:00",
       "modified": "2024-11-05T14:33:10+01:00"
     }
-  ]
+  ],
+  "modified": "2025-07-28T12:16:25+02:00"
 }

@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2013-01-29T13:46:01+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZRF6xC_NTqtZ4I_m3Kbtdh8",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/798",
   "reference": "DS 4/2013",
   "name": "Antrag des Kirchenamtes Hildesheim auf Einrichtung einer altersübergreifenden (aü) integrativen Gruppe in der ev.-luth. Kindertagesstätte Rössing",
@@ -17,6 +21,15 @@
     "modified": "2013-01-29T13:46:01+01:00"
   },
   "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2166",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2013-01-28T10:56:42+01:00",
+      "modified": "2013-01-28T10:56:42+01:00"
+    },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2169",
       "type": "https://schema.oparl.org/1.1/Consultation",
@@ -39,5 +52,6 @@
       "created": "2013-01-28T10:57:50+01:00",
       "modified": "2013-01-28T10:57:50+01:00"
     }
-  ]
+  ],
+  "modified": "2013-01-29T13:46:01+01:00"
 }

@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2015-10-30T13:00:54+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZaAbQkwAQ_7HlxFA9zA8WIc",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1144",
   "reference": "DS 60/2015",
   "name": "Erweiterung des Platzangebots um 10 Ganztagsplätze in der AWO Kindertagesstätte Nordstemmen zum 01.01.2016",
@@ -17,6 +21,15 @@
     "modified": "2015-10-30T13:00:54+01:00"
   },
   "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3250",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2015-10-15T11:32:35+02:00",
+      "modified": "2015-10-15T11:32:35+02:00"
+    },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3254",
       "type": "https://schema.oparl.org/1.1/Consultation",
@@ -39,5 +52,6 @@
       "created": "2015-10-15T11:34:02+02:00",
       "modified": "2015-10-26T13:35:12+01:00"
     }
-  ]
+  ],
+  "modified": "2015-10-30T13:00:54+01:00"
 }

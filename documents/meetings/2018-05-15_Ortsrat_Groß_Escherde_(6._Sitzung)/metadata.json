@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-05-15T19:00:00+02:00",
+  "keyword": [
+    "Ortsrat Groß Escherde (6. Sitzung)"
+  ],
+  "created": "2017-11-07T15:03:36+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZbJive0EGIr9FTr-9LCcujA",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4054",
   "name": "Ortsrat Groß Escherde (6. Sitzung)",
   "start": "2018-05-15T18:00:00+02:00",
@@ -151,7 +159,6 @@
       "order": 8,
       "name": "Antrag der Fraktion Bündnis 90 / Die Grünen vom 8. März 2018; \nEinrichtung von W-LAN in mindestens einem öffentlichen Gebäude pro Ortsteil",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6210",
-      "result": "einstimmig/keine Einrichtung W-LAN",
       "created": "2018-05-03T08:16:49+02:00",
       "modified": "2018-05-03T08:16:49+02:00"
     },
@@ -192,5 +199,6 @@
       "created": "2018-04-10T11:20:15+02:00",
       "modified": "2018-04-10T11:20:15+02:00"
     }
-  ]
+  ],
+  "modified": "2019-06-25T13:41:27+02:00"
 }

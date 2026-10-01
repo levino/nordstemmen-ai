@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2022-03-10T14:39:14+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZbpZTHnQm1UYI6TCMgc9PRA",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5103",
   "reference": "DS 10/2022",
   "name": "Angebot zum Erwerb einer Grünanlage",
@@ -53,5 +60,6 @@
       "created": "2022-02-07T15:25:15+01:00",
       "modified": "2022-02-07T15:25:15+01:00"
     }
-  ]
+  ],
+  "modified": "2022-07-01T13:00:29+02:00"
 }

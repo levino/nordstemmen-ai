@@ -1,20 +1,27 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-196"
+  ],
+  "created": "2025-10-30T19:00:03+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZSnvMwR9yZ-4uRJiZdscpPo",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5777",
   "reference": "DS 104/2025",
   "name": "Absichtserklärung über den Verkauf von gemeindeeigenen Grundstücken zur Realisierung der Translozierung des historischen Bahnhofsgebäudes",
   "paperType": "Beschlussvorlage",
-  "date": "2025-11-06",
+  "date": "2025-11-25",
   "mainFile": {
     "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-42980",
     "type": "https://schema.oparl.org/1.1/File",
     "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
     "name": "Beschlussvorlage (Absichtserklärung über den Verkauf von gemeindeeigenen Grundstücken zur Realisierung der Translozierung des historischen Bahnhofsgebäudes)",
     "mimeType": "application/pdf",
-    "date": "2025-11-06",
+    "date": "2025-11-25",
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZReGIrvsknoYsSzCFpIT4WXuGB0pbA1y6RB6A7pmMBY3/Beschlussvorlage_DS_104-2025.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZReGIrvsknoYsSzCFpIT4WXuGB0pbA1y6RB6A7pmMBY3/Beschlussvorlage_DS_104-2025.pdf",
     "created": "2025-10-30T19:00:03+01:00",
-    "modified": "2025-10-30T19:00:03+01:00"
+    "modified": "2026-01-19T13:00:08+01:00"
   },
   "consultation": [
     {
@@ -27,6 +34,29 @@
       ],
       "created": "2025-10-21T14:37:32+02:00",
       "modified": "2025-10-21T14:37:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8583",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24083",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5596",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-29"
+      ],
+      "created": "2025-10-21T14:37:42+02:00",
+      "modified": "2025-10-21T14:37:42+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8585",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24133",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5636",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2025-10-21T14:38:09+02:00",
+      "modified": "2025-10-21T14:38:09+02:00"
     }
-  ]
+  ],
+  "modified": "2026-01-19T13:00:08+01:00"
 }

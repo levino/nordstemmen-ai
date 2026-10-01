@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2026-03-05T19:30:00+01:00",
+  "keyword": [
+    "Fachausschuss Finanzen, Wirtschaftsförderung, Marketing und Feuerschutz (10. Sitzung)"
+  ],
+  "created": "2025-09-19T11:36:28+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZVzvhzmAOo1OkczrFhjdgN8",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5869",
   "name": "Fachausschuss Finanzen, Wirtschaftsförderung, Marketing und Feuerschutz (10. Sitzung)",
   "start": "2026-03-05T18:30:00+01:00",
@@ -15,5 +23,190 @@
   },
   "organization": [
     "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-29"
-  ]
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-44057",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Finanzen, Wirtschaftsförderung, Marketing und Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2026-03-05",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcd-iZvApvRuw72ei2W93YUgAXyvnoNPS-dJpCfsPmyw/Bekanntmachung_Fachausschuss_Finanzen-_Wirtschaftsfoerderung-_Marketing_und_Feuerschutz_05.03.2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcd-iZvApvRuw72ei2W93YUgAXyvnoNPS-dJpCfsPmyw/Bekanntmachung_Fachausschuss_Finanzen-_Wirtschaftsfoerderung-_Marketing_und_Feuerschutz_05.03.2026.pdf",
+    "created": "2026-02-19T19:00:14+01:00",
+    "modified": "2026-02-20T13:00:28+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-44289",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Finanzen, Wirtschaftsförderung, Marketing und Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2026-03-05",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTw3tAC5ARbmCj1I5611jj1XfQszvZRWjrj0nRYE91q8/Oeffentliche_Niederschrift_Fachausschuss_Finanzen-_Wirtschaftsfoerderung-_Marketing_und_Feuerschutz_05.03.2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTw3tAC5ARbmCj1I5611jj1XfQszvZRWjrj0nRYE91q8/Oeffentliche_Niederschrift_Fachausschuss_Finanzen-_Wirtschaftsfoerderung-_Marketing_und_Feuerschutz_05.03.2026.pdf",
+    "created": "2026-03-19T19:00:21+01:00",
+    "modified": "2026-03-19T19:00:21+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24433",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2026-02-19T09:00:24+01:00",
+      "modified": "2026-02-19T09:00:24+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24434",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2026-02-19T09:00:24+01:00",
+      "modified": "2026-02-19T09:00:24+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24435",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 02. Dezember 2025",
+      "created": "2026-02-19T09:00:24+01:00",
+      "modified": "2026-02-19T09:16:05+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24436",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Anfragen und Anregungen",
+      "created": "2026-02-19T09:00:24+01:00",
+      "modified": "2026-02-19T09:00:24+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24437",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2026-02-19T09:00:24+01:00",
+      "modified": "2026-02-19T09:00:24+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24446",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Beschaffungskonzept der Fahrzeuge für die Ortsfeuerwehren Klein Escherde, Groß Escherde und Barnten\n(Ausführungen werden vom Gemeindebrandmeister in der Sitzung gemacht)",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7677",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Vorstellung Feuerwehrfahrzeuge)",
+          "mimeType": "application/pdf",
+          "date": "2026-03-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTtjfkaK7dWBO6AkAiZuwaKZv8d38uNKUl5kADdsOUhg/Vorstellung_Feuerwehrfahrzeuge.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTtjfkaK7dWBO6AkAiZuwaKZv8d38uNKUl5kADdsOUhg/Vorstellung_Feuerwehrfahrzeuge.pdf",
+          "created": "2026-03-19T19:00:21+01:00",
+          "modified": "2026-03-19T19:00:21+01:00"
+        }
+      ],
+      "created": "2026-02-19T09:02:08+01:00",
+      "modified": "2026-02-19T09:02:08+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24438",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Bekanntgabe des Berichtes über die unvermutete örtliche Prüfung der Gemeindekasse Nordstemmen durch das Rechnungsprüfungsamt des Landkreises Hildesheim",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8694",
+      "created": "2026-02-19T09:00:24+01:00",
+      "modified": "2026-02-19T09:00:24+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24447",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Finanzbericht 04/2025",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7667",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (2026-02-12  Finanzbericht 04_2025.docx)",
+          "mimeType": "application/pdf",
+          "date": "2026-03-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVMVKr3vEzK0Pfk3RkwnCFl_I65NBoCyp0A9f2q2eOzE/2026-02-12__Finanzbericht_04_2025.docx.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVMVKr3vEzK0Pfk3RkwnCFl_I65NBoCyp0A9f2q2eOzE/2026-02-12__Finanzbericht_04_2025.docx.pdf",
+          "created": "2026-03-03T19:00:06+01:00",
+          "modified": "2026-03-03T19:00:06+01:00"
+        }
+      ],
+      "created": "2026-02-19T09:02:39+01:00",
+      "modified": "2026-02-19T09:02:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24439",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Wahl eines Vertreters in die Gesellschafterversammlung der noch zu gründenden Wärmenetz Adensen-Hallerburg GmbH",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8703",
+      "created": "2026-02-19T09:00:24+01:00",
+      "modified": "2026-02-19T09:00:24+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24441",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Aufnahme eines Konzernkredites gemäß § 121 a Niedersächsisches Kommunalverfassungsgesetz (NKomVG)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8709",
+      "created": "2026-02-19T09:00:24+01:00",
+      "modified": "2026-02-19T09:03:07+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24440",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Wahl eines Vertreters in den Gesellschafterbeirat der Gemeinde Nordstemmen der Gesellschaft für kommunale Immobilien mbH (GKHi)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8706",
+      "created": "2026-02-19T09:00:24+01:00",
+      "modified": "2026-02-19T09:00:24+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24442",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Wiederaufnahme der Kooperationsvereinbarung zur Förderung der interkommunalen\nZusammenarbeit im Bereich Kultur (IKZ Kultur)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8712",
+      "created": "2026-02-19T09:00:24+01:00",
+      "modified": "2026-02-19T09:00:24+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24448",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Finanzierung der Reparatur des Ehrenmals Groß Escherde\n(Ausführungen werden in der Sitzung gemacht) ",
+      "created": "2026-02-19T09:04:20+01:00",
+      "modified": "2026-02-19T09:04:20+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24443",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Mitteilungen der Verwaltung",
+      "created": "2026-02-19T09:00:24+01:00",
+      "modified": "2026-02-19T09:00:24+01:00"
+    }
+  ],
+  "modified": "2026-08-17T09:09:17+02:00"
 }

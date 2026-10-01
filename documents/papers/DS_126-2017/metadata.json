@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2017-11-13T13:00:46+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdEWlVVjzvC-DNrI2DM1i2g",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4479",
   "reference": "DS 126/2017",
   "name": "Stellenplan 2018",
@@ -53,5 +60,6 @@
       "created": "2017-11-08T09:35:14+01:00",
       "modified": "2017-11-08T09:35:14+01:00"
     }
-  ]
+  ],
+  "modified": "2017-12-21T09:22:24+01:00"
 }

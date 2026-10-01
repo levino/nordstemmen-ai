@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2026-05-06T13:00:06+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZbS7OYGWxbJ_iJMEE_SGrtM",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5860",
   "reference": "AT 5/2026",
   "name": "Ausschreibung der Stelle einer Fachbereichsleitung für den Fachbereich 2 inklusive der\nAllgemeinen Stellvertretung der/des HVP",
@@ -14,7 +21,7 @@
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaGUMIAjKnVd9W25g8un3T0vZS7f3ct1e2HE_E9nSsAE/Antrag_AT_5-2026.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaGUMIAjKnVd9W25g8un3T0vZS7f3ct1e2HE_E9nSsAE/Antrag_AT_5-2026.pdf",
     "created": "2026-05-06T13:00:06+02:00",
-    "modified": "2026-05-06T13:00:06+02:00"
+    "modified": "2026-06-18T19:00:08+02:00"
   },
   "auxiliaryFile": [
     {
@@ -54,5 +61,6 @@
       "created": "2026-05-06T07:44:50+02:00",
       "modified": "2026-05-06T09:54:48+02:00"
     }
-  ]
+  ],
+  "modified": "2026-06-18T19:00:08+02:00"
 }

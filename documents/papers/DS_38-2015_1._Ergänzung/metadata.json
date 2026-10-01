@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2015-06-26T13:00:43+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZerWWmGTJKKzuqmLdjEAwRQ",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1125",
   "reference": "DS 38/2015 1. Ergänzung",
   "name": "Freizeitbad Nordstemmen\n- Eintrittgelder ab der Saison 2016",
@@ -28,6 +32,15 @@
       "modified": "2015-06-25T11:04:41+02:00"
     },
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3186",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2015-06-25T11:04:59+02:00",
+      "modified": "2015-06-25T11:04:59+02:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3191",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12232",
@@ -38,5 +51,6 @@
       "created": "2015-06-25T11:06:29+02:00",
       "modified": "2015-09-29T14:02:18+02:00"
     }
-  ]
+  ],
+  "modified": "2015-09-29T19:01:13+02:00"
 }

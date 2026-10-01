@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2021-03-23T19:30:00+01:00",
+  "keyword": [
+    "Rat (28. Sitzung)"
+  ],
+  "created": "2020-11-26T17:43:04+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZYSNgzLTg1igIXV-Ps93YQs",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4648",
   "name": "Rat (28. Sitzung)",
   "start": "2021-03-23T18:30:00+01:00",
@@ -105,7 +113,6 @@
       "number": "5",
       "order": 6,
       "name": "Ernennung von Führungskräften der Feuerwehr",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2021-03-09T10:09:41+01:00",
       "modified": "2021-03-09T10:09:45+01:00"
     },
@@ -116,7 +123,6 @@
       "order": 7,
       "name": "Bestellung einer ehrenamtlichen Gleichstellungsbeauftragten\t\t",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7015",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2021-03-08T10:46:34+01:00",
       "modified": "2021-03-09T10:10:32+01:00"
     },
@@ -177,7 +183,6 @@
       "order": 13,
       "name": "Wappen auf den Fahrzeugen der Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7003",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2021-03-08T10:46:34+01:00",
       "modified": "2021-03-09T10:12:17+01:00"
     },
@@ -198,7 +203,6 @@
       "order": 15,
       "name": "Sanierung und Modernisierung Freizeitbad Nordstemmen;\n- Maßnahmenbeschluss\n- Zustimmung zur Komplementärfinanzierung im Rahmen des Förderprogramms\n\"Sanierung kommunaler Einrichtungen in den Bereichen Sport, Jugend und Kultur\"",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7007",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2021-03-08T10:46:34+01:00",
       "modified": "2021-03-08T10:46:34+01:00"
     },
@@ -209,7 +213,6 @@
       "order": 16,
       "name": "Fahrradabstellanlage am Bahnhof Barnten;\nMaßnahmenbeschluss",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6959",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2021-03-08T10:46:34+01:00",
       "modified": "2021-03-08T10:46:34+01:00"
     },
@@ -331,5 +334,6 @@
       "created": "2021-03-08T10:46:34+01:00",
       "modified": "2021-03-08T10:46:34+01:00"
     }
-  ]
+  ],
+  "modified": "2024-09-27T11:41:39+02:00"
 }

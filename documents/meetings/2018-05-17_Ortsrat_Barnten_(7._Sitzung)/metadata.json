@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-05-17T19:00:00+02:00",
+  "keyword": [
+    "Ortsrat Barnten (7. Sitzung)"
+  ],
+  "created": "2017-11-07T15:05:32+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZRO1N1P9k9lIWJfa2T79m64",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4057",
   "name": "Ortsrat Barnten (7. Sitzung)",
   "start": "2018-05-17T18:00:00+02:00",
@@ -103,7 +111,6 @@
       "order": 7,
       "name": "Antrag der Fraktion Bündnis 90 / Die Grünen vom 8. März 2018; \nEinrichtung von W-LAN in mindestens einem öffentlichen Gebäude pro Ortsteil",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6208",
-      "result": "einstimmig/kein Standort",
       "created": "2018-05-03T11:05:06+02:00",
       "modified": "2018-05-03T11:05:10+02:00"
     },
@@ -114,7 +121,6 @@
       "order": 8,
       "name": "Anhörung zur Aufstellung der Vorschlagsliste für die Neuwahl der Schöffen für die Jahre 2019 bis 2023",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6193",
-      "result": "einstimmig/ja",
       "created": "2018-04-10T11:20:31+02:00",
       "modified": "2018-04-10T11:20:31+02:00"
     },
@@ -154,5 +160,6 @@
       "created": "2018-04-10T11:20:31+02:00",
       "modified": "2018-04-10T11:20:31+02:00"
     }
-  ]
+  ],
+  "modified": "2019-06-25T13:41:27+02:00"
 }

@@ -1,7 +1,15 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2026-05-07T20:00:00+02:00",
+  "keyword": [
+    "Ortsrat Groß Escherde (15. Sitzung)"
+  ],
+  "created": "2025-09-18T17:08:58+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZSh5A05RezpPZpomjh5Lu4U",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5836",
   "name": "Ortsrat Groß Escherde (15. Sitzung)",
-  "start": "2026-05-07T18:00:00+02:00",
+  "start": "2026-05-07T19:00:00+02:00",
   "location": {
     "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-12",
     "type": "https://schema.oparl.org/1.1/Location",
@@ -16,5 +24,140 @@
   },
   "organization": [
     "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-14"
-  ]
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-44528",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2026-05-07",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbcHKzWQMPODH7qa9DkzKO2L7ZbF3DCjpOQ1On6CMqeD/Bekanntmachung_Ortsrat_Gross_Escherde_07.05.2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbcHKzWQMPODH7qa9DkzKO2L7ZbF3DCjpOQ1On6CMqeD/Bekanntmachung_Ortsrat_Gross_Escherde_07.05.2026.pdf",
+    "created": "2026-04-23T13:00:18+02:00",
+    "modified": "2026-04-23T13:00:18+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-44741",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2026-05-07",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfz8C8JJS8iX0Gy8wSWkqWx1Ukl5_NtteNZ_mr6Ce3tQ/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_07.05.2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfz8C8JJS8iX0Gy8wSWkqWx1Ukl5_NtteNZ_mr6Ce3tQ/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_07.05.2026.pdf",
+    "created": "2026-05-12T13:00:28+02:00",
+    "modified": "2026-05-12T13:00:28+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24403",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2026-02-05T10:19:07+01:00",
+      "modified": "2026-02-12T09:09:27+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24404",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2026-02-05T10:19:07+01:00",
+      "modified": "2026-02-05T10:19:07+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24411",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Feststellung des Sitzverlustes des Ortsratsmitgliedes Herrn Sascha Mehner",
+      "created": "2026-02-05T10:19:24+01:00",
+      "modified": "2026-02-06T07:46:39+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24405",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Genehmigung des Protokolls der Sitzung vom 05. Februar 2026",
+      "created": "2026-02-05T10:19:07+01:00",
+      "modified": "2026-02-05T10:19:07+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24406",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Anfragen und Anregungen",
+      "created": "2026-02-05T10:19:07+01:00",
+      "modified": "2026-02-05T10:19:07+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24408",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2026-02-05T10:19:07+01:00",
+      "modified": "2026-04-23T08:21:02+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24765",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2027 sowie für die mittelfristige\nFinanzplanung 2028 - 2030",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8774",
+      "created": "2026-04-21T08:32:13+02:00",
+      "modified": "2026-04-21T08:32:16+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24767",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Standorte für Baumpflanzungen in der Ortschaft Groß Escherde",
+      "created": "2026-04-21T08:38:28+02:00",
+      "modified": "2026-04-21T08:38:28+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24772",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Sachstand Kindertagesstätte Groß Escherde",
+      "created": "2026-04-23T08:21:44+02:00",
+      "modified": "2026-04-23T08:21:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24773",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Sachstand zum Zustand des Ehrenmal",
+      "created": "2026-04-23T08:23:05+02:00",
+      "modified": "2026-04-23T08:23:05+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24407",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2026-02-05T10:19:07+01:00",
+      "modified": "2026-04-23T08:21:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24409",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Mitteilungen der Verwaltung\n",
+      "created": "2026-02-05T10:19:07+01:00",
+      "modified": "2026-02-05T10:19:07+01:00"
+    }
+  ],
+  "modified": "2026-05-12T11:56:34+02:00"
 }

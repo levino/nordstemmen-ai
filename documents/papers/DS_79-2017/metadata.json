@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-195"
+  ],
+  "created": "2017-08-17T13:01:06+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZavMiOqkUlZVW9pmq9xp3os",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1415",
   "reference": "DS 79/2017",
   "name": "Sachstandsbericht 2016 / Seniorenarbeit KOMM e. V.",
@@ -53,5 +60,6 @@
       "created": "2017-08-15T17:47:50+02:00",
       "modified": "2017-08-15T17:47:50+02:00"
     }
-  ]
+  ],
+  "modified": "2017-11-07T17:29:23+01:00"
 }

@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2013-05-02T19:00:36+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZXtCiRuDphqj3utC29T1O-0",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/839",
   "reference": "DS 39/2013",
   "name": "Sonderöffnungszeiten in den Kindertagesstätten der Gemeinde Nordstemmen",
@@ -17,6 +21,15 @@
     "modified": "2013-05-24T13:00:28+02:00"
   },
   "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2292",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2013-04-22T09:24:39+02:00",
+      "modified": "2013-04-29T15:15:27+02:00"
+    },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2295",
       "type": "https://schema.oparl.org/1.1/Consultation",
@@ -38,5 +51,6 @@
       "created": "2013-04-22T09:25:58+02:00",
       "modified": "2013-04-22T09:25:58+02:00"
     }
-  ]
+  ],
+  "modified": "2013-05-24T13:00:28+02:00"
 }

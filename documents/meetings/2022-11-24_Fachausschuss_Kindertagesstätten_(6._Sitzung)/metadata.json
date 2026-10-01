@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2022-11-24T19:30:00+01:00",
+  "keyword": [
+    "Fachausschuss Kindertagesstätten (6. Sitzung)"
+  ],
+  "created": "2022-05-30T12:45:26+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZeD4wGen-GMCHlFUYEXjQAM",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5091",
   "name": "Fachausschuss Kindertagesstätten (6. Sitzung)",
   "start": "2022-11-24T18:30:00+01:00",
@@ -93,7 +101,6 @@
       "order": 6,
       "name": "Gewährung von Zuschüssen für Ausstattungen von Tagespflegepersonen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7547",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2022-11-08T10:56:44+01:00",
       "modified": "2022-11-08T10:59:20+01:00"
     },
@@ -113,7 +120,6 @@
       "order": 8,
       "name": "Gründung eines Waldkindergartens in der Gemeinde Nordstemmen; Antrag der Gruppe SPD/Die Grünen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7551",
-      "result": "9 x Ja – einstimmig/geänderter Beschluss",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5869",
@@ -161,7 +167,6 @@
       "order": 10,
       "name": "Ausbau der Kindertagesbetreuung:\nInformation zum Sachstand zur Einrichtung von Kleingruppen\n(Vor-)Entwurf Standardraumprogramm für die Erweiterung der Kindertagesstätten in Barnten, Burgstemmen und Heyersum",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7562",
-      "result": "Einstimmig",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5874",
@@ -186,7 +191,6 @@
       "order": 11,
       "name": "Haushalt 2023 und Investitionsprogramm 2024 - 2026 -\nTeilhaushalt für die Produktbereiche Tagespflege, Tageseinrichtungen für Kinder und wirtschaftliche Jugendhilfe",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7566",
-      "result": "DS behandelt, kein Beschluss!",
       "created": "2022-11-08T10:56:44+01:00",
       "modified": "2022-11-08T10:56:44+01:00"
     },
@@ -199,5 +203,6 @@
       "created": "2022-11-08T10:56:44+01:00",
       "modified": "2022-11-08T10:56:44+01:00"
     }
-  ]
+  ],
+  "modified": "2023-03-23T15:35:05+01:00"
 }

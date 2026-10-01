@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2025-08-28T19:00:00+02:00",
+  "keyword": [
+    "Fachausschuss Schule, Jugend, Soziales und Kultur (18. Sitzung)"
+  ],
+  "created": "2025-08-12T09:13:53+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZRAq6vGIU9_DgRgPJ5MQaxk",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5766",
   "name": "Fachausschuss Schule, Jugend, Soziales und Kultur (18. Sitzung)",
   "start": "2025-08-28T18:00:00+02:00",
@@ -16,6 +24,18 @@
   "organization": [
     "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-41"
   ],
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-43897",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Schule, Jugend, Soziales und Kultur)",
+    "mimeType": "application/pdf",
+    "date": "2025-08-28",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfJAYuYY02TIAA9wgFDtP4WXqMTl4ZOFANYhX4ltB0qn/Oeffentliche_Niederschrift_Fachausschuss_Schule-_Jugend-_Soziales_und_Kultur_28.08.2025.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfJAYuYY02TIAA9wgFDtP4WXqMTl4ZOFANYhX4ltB0qn/Oeffentliche_Niederschrift_Fachausschuss_Schule-_Jugend-_Soziales_und_Kultur_28.08.2025.pdf",
+    "created": "2026-02-05T19:00:23+01:00",
+    "modified": "2026-02-05T19:00:23+01:00"
+  },
   "agendaItem": [
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23749",
@@ -23,8 +43,8 @@
       "number": "1",
       "order": 1,
       "name": "- öffentlicher Teil -",
-      "created": "2025-08-18T11:17:46+02:00",
-      "modified": "2025-08-18T11:17:46+02:00"
+      "created": "2025-08-12T09:32:10+02:00",
+      "modified": "2025-08-12T09:32:10+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23750",
@@ -32,8 +52,8 @@
       "number": "1",
       "order": 2,
       "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
-      "created": "2025-08-18T11:17:46+02:00",
-      "modified": "2025-08-18T11:17:46+02:00"
+      "created": "2025-08-12T09:32:10+02:00",
+      "modified": "2025-08-12T09:32:10+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23752",
@@ -41,8 +61,8 @@
       "number": "2",
       "order": 3,
       "name": "Anfragen und Anregungen",
-      "created": "2025-08-18T11:17:46+02:00",
-      "modified": "2025-08-18T11:17:46+02:00"
+      "created": "2025-08-12T09:32:10+02:00",
+      "modified": "2025-08-12T09:32:10+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23753",
@@ -50,8 +70,8 @@
       "number": "3",
       "order": 4,
       "name": "Einwohner*innen Fragestunde",
-      "created": "2025-08-18T11:17:46+02:00",
-      "modified": "2025-08-18T11:17:46+02:00"
+      "created": "2025-08-12T09:32:10+02:00",
+      "modified": "2025-08-12T09:32:10+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23754",
@@ -60,8 +80,8 @@
       "order": 5,
       "name": "Ganztagsgrundschule Asternschule, Vorstellung des überarbeiteten Raumprogramms und Erläuterung der Vorzugsvariante",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8485",
-      "created": "2025-08-18T11:17:46+02:00",
-      "modified": "2025-08-18T11:17:46+02:00"
+      "created": "2025-08-12T09:32:10+02:00",
+      "modified": "2025-08-12T09:32:10+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23755",
@@ -69,8 +89,9 @@
       "number": "5",
       "order": 6,
       "name": "Mitteilungen der Verwaltung",
-      "created": "2025-08-18T11:17:46+02:00",
-      "modified": "2025-08-18T11:17:46+02:00"
+      "created": "2025-08-12T09:32:10+02:00",
+      "modified": "2025-08-12T09:32:10+02:00"
     }
-  ]
+  ],
+  "modified": "2026-02-05T14:33:16+01:00"
 }

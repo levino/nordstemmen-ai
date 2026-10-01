@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2014-02-26T12:49:00+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQFUi0UXGN58nEOE96y7Veo",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/953",
   "reference": "DS 16/2014",
   "name": "Ganztagsgrundschule Nordstemmen - Fortführung des offenen Nachmittagsangebotes ab dem Schuljahr 2014/2015",
@@ -32,6 +36,15 @@
   ],
   "consultation": [
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2676",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2014-02-24T09:04:07+01:00",
+      "modified": "2014-02-24T09:04:07+01:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2679",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10651",
@@ -53,5 +66,6 @@
       "created": "2014-02-24T09:05:17+01:00",
       "modified": "2014-02-24T09:05:17+01:00"
     }
-  ]
+  ],
+  "modified": "2014-02-26T12:49:00+01:00"
 }

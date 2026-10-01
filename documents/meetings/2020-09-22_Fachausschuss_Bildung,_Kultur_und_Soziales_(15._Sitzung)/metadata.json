@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2020-09-22T19:30:00+02:00",
+  "keyword": [
+    "Fachausschuss Bildung, Kultur und Soziales (15. Sitzung)"
+  ],
+  "created": "2020-06-23T11:55:55+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZexNcvatzjrghR9PQ1RBB90",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4546",
   "name": "Fachausschuss Bildung, Kultur und Soziales (15. Sitzung)",
   "start": "2020-09-22T18:30:00+02:00",
@@ -101,7 +109,6 @@
       "order": 7,
       "name": "Bundesprogramm Mehrgenerationenhaus 2017 bis 2020 /Verwendungsnachweis 2019",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6822",
-      "result": "Der Fachausschuss nimmt die Ausführungen zur Kenntnis.",
       "created": "2020-09-07T08:56:00+02:00",
       "modified": "2020-09-07T09:04:57+02:00"
     },
@@ -112,7 +119,6 @@
       "order": 8,
       "name": "Bundesprogramm Mehrgenerationenhaus 2021 bis 2028;\nFörderantrag KOMM e. V. Mehrgenerationenhaus (MGH) Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6825",
-      "result": "einstimmig",
       "created": "2020-09-07T09:05:56+02:00",
       "modified": "2020-09-07T09:05:56+02:00"
     },
@@ -190,5 +196,6 @@
       "created": "2020-08-31T14:18:03+02:00",
       "modified": "2020-08-31T14:18:03+02:00"
     }
-  ]
+  ],
+  "modified": "2021-03-04T10:52:11+01:00"
 }

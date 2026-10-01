@@ -1,20 +1,27 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2025-08-29T13:00:07+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZTtK8jiOXQBGLTHeup6gqGw",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5725",
   "reference": "DS 63/2025",
   "name": "Satzung über die Festsetzung der Hebesätze für die Grund- und Gewerbesteuer in der Gemeinde Nordstemmen (Hebesatzsatzung)",
   "paperType": "Beschlussvorlage",
-  "date": "2025-09-16",
+  "date": "2025-11-25",
   "mainFile": {
     "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-42168",
     "type": "https://schema.oparl.org/1.1/File",
     "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
     "name": "Beschlussvorlage (Satzung über die Festsetzung der Hebesätze für die Grund- und Gewerbesteuer in der Gemeinde Nordstemmen (Hebesatzsatzung))",
     "mimeType": "application/pdf",
-    "date": "2025-09-16",
+    "date": "2025-11-25",
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRN8DGKLAkxkqJblya6tTMuRpuey6G411_rV6Y0qn1sl/Beschlussvorlage_DS_63-2025.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRN8DGKLAkxkqJblya6tTMuRpuey6G411_rV6Y0qn1sl/Beschlussvorlage_DS_63-2025.pdf",
     "created": "2025-08-29T13:00:07+02:00",
-    "modified": "2025-11-03T13:00:16+01:00"
+    "modified": "2025-12-03T09:20:26+01:00"
   },
   "auxiliaryFile": [
     {
@@ -23,7 +30,7 @@
       "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
       "name": "Beschlussvorlage (Satzung über die Erhebung der Grundsteuer und Gewerbesteuer.ab 2026docx)",
       "mimeType": "application/pdf",
-      "date": "2025-09-16",
+      "date": "2025-11-25",
       "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZGpQFe5pKnNNJAWd0SjuNLCjLC3uXFBuYr5pQbu45uW/Satzung_ueber_die_Erhebung_der_Grundsteuer_und_Gewerbesteuer.ab_2026docx.pdf",
       "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZGpQFe5pKnNNJAWd0SjuNLCjLC3uXFBuYr5pQbu45uW/Satzung_ueber_die_Erhebung_der_Grundsteuer_und_Gewerbesteuer.ab_2026docx.pdf",
       "created": "2025-08-29T13:00:07+02:00",
@@ -52,6 +59,29 @@
       ],
       "created": "2025-07-18T12:14:15+02:00",
       "modified": "2025-07-18T12:14:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8569",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24084",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5596",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-29"
+      ],
+      "created": "2025-10-21T09:41:44+02:00",
+      "modified": "2025-10-21T09:41:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8534",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23974",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5636",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2025-09-17T07:56:03+02:00",
+      "modified": "2025-09-17T07:56:03+02:00"
     }
-  ]
+  ],
+  "modified": "2025-12-03T09:20:26+01:00"
 }

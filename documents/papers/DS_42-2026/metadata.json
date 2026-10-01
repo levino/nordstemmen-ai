@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-196"
+  ],
+  "created": "2026-05-13T10:37:33+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZT9mkx5b8dOwQf0wdq0SigE",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5859",
   "reference": "DS 42/2026",
   "name": "Bebauungsplan Nr. 0401 \"Radebrecher-Siedlung\", 2. Änderung; Ortschaft Burgstemmen\n- Vorstellung des neuen Entwurfes und Beschluss zur erneuten öffentlichen Auslegung",
@@ -14,7 +21,7 @@
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYqkOVHUmqtJqeyPOVEb3qRsmrBoVPHw3qmpa8AKvYQX/Beschlussvorlage_DS_42-2026.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYqkOVHUmqtJqeyPOVEb3qRsmrBoVPHw3qmpa8AKvYQX/Beschlussvorlage_DS_42-2026.pdf",
     "created": "2026-05-13T10:37:33+02:00",
-    "modified": "2026-05-13T10:37:33+02:00"
+    "modified": "2026-07-03T13:00:25+02:00"
   },
   "auxiliaryFile": [
     {
@@ -66,5 +73,6 @@
       "created": "2026-05-04T09:23:43+02:00",
       "modified": "2026-05-04T09:23:43+02:00"
     }
-  ]
+  ],
+  "modified": "2026-07-03T13:00:25+02:00"
 }

@@ -1,20 +1,27 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2026-02-25T13:00:03+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZarbXLrpQJayhJeZUcS41Ho",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5825",
   "reference": "DS 16/2026",
   "name": "Wahl eines Vertreters in die Gesellschafterversammlung der noch zu gründenden Wärmenetz Adensen-Hallerburg GmbH",
   "paperType": "Beschlussvorlage",
-  "date": "2026-03-05",
+  "date": "2026-03-17",
   "mainFile": {
     "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-43988",
     "type": "https://schema.oparl.org/1.1/File",
     "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
     "name": "Beschlussvorlage (Wahl eines Vertreters in die Gesellschafterversammlung der noch zu gründenden Wärmenetz Adensen-Hallerburg GmbH)",
     "mimeType": "application/pdf",
-    "date": "2026-03-05",
+    "date": "2026-03-17",
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZL_2L1oTDbJdp4QKbBQABlWtyZrq7OA1hSJHItFlrMP/Beschlussvorlage_DS_16-2026.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZL_2L1oTDbJdp4QKbBQABlWtyZrq7OA1hSJHItFlrMP/Beschlussvorlage_DS_16-2026.pdf",
     "created": "2026-02-25T13:00:03+01:00",
-    "modified": "2026-02-25T13:00:03+01:00"
+    "modified": "2026-04-20T19:00:13+02:00"
   },
   "consultation": [
     {
@@ -27,6 +34,18 @@
       ],
       "created": "2026-02-16T08:42:58+01:00",
       "modified": "2026-02-16T08:42:58+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8705",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24487",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5784",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2026-02-16T08:43:17+01:00",
+      "modified": "2026-02-16T08:43:17+01:00"
     }
-  ]
+  ],
+  "modified": "2026-04-20T19:00:13+02:00"
 }

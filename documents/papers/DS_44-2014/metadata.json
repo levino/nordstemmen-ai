@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2014-06-23T13:00:27+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQjzUXpwOAW_i4f7J6b_YgY",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/984",
   "reference": "DS 44/2014",
   "name": "Resolution zum Ausbau der Kreisstraße 507 (Heyersumer Straße) in der Ortschaft Nordstemmen",
@@ -32,6 +36,15 @@
   ],
   "consultation": [
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2753",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2014-06-23T08:46:45+02:00",
+      "modified": "2014-06-23T08:46:45+02:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2752",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10938",
@@ -42,5 +55,6 @@
       "created": "2014-06-20T10:59:41+02:00",
       "modified": "2014-06-20T10:59:41+02:00"
     }
-  ]
+  ],
+  "modified": "2014-06-24T19:00:41+02:00"
 }

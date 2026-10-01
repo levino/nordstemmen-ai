@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2025-11-06T19:00:00+01:00",
+  "keyword": [
+    "Fachausschuss Klimaschutz, Bau und Umwelt (22. Sitzung)"
+  ],
+  "created": "2024-09-02T11:12:44+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZagjBv8M4NYmRs69cqkZ0Mo",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5604",
   "name": "Fachausschuss Klimaschutz, Bau und Umwelt (22. Sitzung)",
   "start": "2025-11-06T18:00:00+01:00",
@@ -28,6 +36,18 @@
     "created": "2025-10-23T13:00:01+02:00",
     "modified": "2025-10-23T13:00:01+02:00"
   },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-43664",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Klimaschutz, Bau und Umwelt)",
+    "mimeType": "application/pdf",
+    "date": "2025-11-06",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTqk0XHUATsnpCotI3tktmyAPraRIv6WyzSFRST-5wtp/Oeffentliche_Niederschrift_Fachausschuss_Klimaschutz-_Bau_und_Umwelt_06.11.2025.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTqk0XHUATsnpCotI3tktmyAPraRIv6WyzSFRST-5wtp/Oeffentliche_Niederschrift_Fachausschuss_Klimaschutz-_Bau_und_Umwelt_06.11.2025.pdf",
+    "created": "2026-01-19T13:00:08+01:00",
+    "modified": "2026-01-19T13:00:08+01:00"
+  },
   "agendaItem": [
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23759",
@@ -35,8 +55,8 @@
       "number": "1",
       "order": 1,
       "name": "- öffentlicher Teil -",
-      "created": "2025-10-23T07:46:06+02:00",
-      "modified": "2025-10-23T07:46:06+02:00"
+      "created": "2025-08-15T07:34:35+02:00",
+      "modified": "2025-10-22T08:04:14+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23760",
@@ -44,8 +64,8 @@
       "number": "1",
       "order": 2,
       "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
-      "created": "2025-10-23T07:46:06+02:00",
-      "modified": "2025-10-23T07:46:06+02:00"
+      "created": "2025-08-15T07:34:35+02:00",
+      "modified": "2025-08-15T07:34:35+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23766",
@@ -53,8 +73,8 @@
       "number": "2",
       "order": 3,
       "name": "Genehmigung des Protokolls der Sitzung vom 03. Juni 2025",
-      "created": "2025-10-23T07:46:06+02:00",
-      "modified": "2025-10-23T07:46:06+02:00"
+      "created": "2025-08-15T07:35:24+02:00",
+      "modified": "2025-10-22T08:06:58+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23761",
@@ -62,8 +82,8 @@
       "number": "3",
       "order": 4,
       "name": "Genehmigung des Protokolls der Sitzung vom 28. August 2025",
-      "created": "2025-10-23T07:46:06+02:00",
-      "modified": "2025-10-23T07:46:06+02:00"
+      "created": "2025-08-15T07:34:35+02:00",
+      "modified": "2025-10-22T08:07:11+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23762",
@@ -71,8 +91,8 @@
       "number": "4",
       "order": 5,
       "name": "Anfragen und Anregungen",
-      "created": "2025-10-23T07:46:06+02:00",
-      "modified": "2025-10-23T07:46:06+02:00"
+      "created": "2025-08-15T07:34:35+02:00",
+      "modified": "2025-08-15T07:34:35+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23763",
@@ -80,8 +100,8 @@
       "number": "5",
       "order": 6,
       "name": "Einwohner*innen Fragestunde",
-      "created": "2025-10-23T07:46:06+02:00",
-      "modified": "2025-10-23T07:46:06+02:00"
+      "created": "2025-08-15T07:34:35+02:00",
+      "modified": "2025-08-15T07:34:35+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24042",
@@ -90,8 +110,22 @@
       "order": 7,
       "name": "Bebauungsplan Nr. 0103 A \"Schratfeld\", 8. Änderung; Ortschaft Nordstemmen\n- Satzungsbeschluss gem. § 10 Abs. 1 Baugesetzbuch (BauGB)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8540",
-      "created": "2025-10-23T07:46:06+02:00",
-      "modified": "2025-10-23T07:46:06+02:00"
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7506",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Anlage 1_Präsentation PGN)",
+          "mimeType": "application/pdf",
+          "date": "2025-11-06",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQ8mKijTiON5NtG1k-VfT2KdwcfpMUrlz9Kw4EWTolUm/Anlage_1_Praesentation_PGN.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQ8mKijTiON5NtG1k-VfT2KdwcfpMUrlz9Kw4EWTolUm/Anlage_1_Praesentation_PGN.pdf",
+          "created": "2026-01-19T13:00:08+01:00",
+          "modified": "2026-01-19T13:00:08+01:00"
+        }
+      ],
+      "created": "2025-10-22T08:07:49+02:00",
+      "modified": "2025-10-22T08:07:52+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24043",
@@ -100,8 +134,8 @@
       "order": 8,
       "name": "Haushalt 2026 und Investitionsprogramm 2027 - 2029;\nTeilhaushalt für den Produktbereich Planung, Bau und Umwelt",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8571",
-      "created": "2025-10-23T07:46:06+02:00",
-      "modified": "2025-10-23T07:46:06+02:00"
+      "created": "2025-10-22T08:08:05+02:00",
+      "modified": "2025-10-22T08:08:05+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24044",
@@ -110,8 +144,34 @@
       "order": 9,
       "name": "Straßenausbaumaßnahme \"Über den Weiden\" in der Ortschaft Klein Escherde\n- Maßnahmenbeschluss",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8562",
-      "created": "2025-10-23T07:46:06+02:00",
-      "modified": "2025-10-23T07:46:06+02:00"
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7507",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2025-11-06",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYDYxfvuTXQkV8N30VEq7MN-cQdre6DKy-5BoMYMQku4/Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYDYxfvuTXQkV8N30VEq7MN-cQdre6DKy-5BoMYMQku4/Anlage_2.pdf",
+          "created": "2026-01-19T13:00:08+01:00",
+          "modified": "2026-01-19T13:00:08+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7508",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Anlage 3 TOP 8 2025_09_25  Anliegerversammlung 2 Strabs)",
+          "mimeType": "application/pdf",
+          "date": "2025-11-06",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZT1-1EUEzwNEhbOsd-_gK4QOz9hlaDk9D4FESRF28TVu/Anlage_3_TOP_8_2025_09_25__Anliegerversammlung_2_Strabs.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZT1-1EUEzwNEhbOsd-_gK4QOz9hlaDk9D4FESRF28TVu/Anlage_3_TOP_8_2025_09_25__Anliegerversammlung_2_Strabs.pdf",
+          "created": "2026-01-19T13:00:08+01:00",
+          "modified": "2026-01-19T13:00:08+01:00"
+        }
+      ],
+      "created": "2025-10-22T08:08:22+02:00",
+      "modified": "2025-10-22T08:08:22+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24045",
@@ -120,8 +180,8 @@
       "order": 10,
       "name": "Absichtserklärung über den Verkauf von gemeindeeigenen Grundstücken zur Realisierung der Translozierung des historischen Bahnhofsgebäudes",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8582",
-      "created": "2025-10-23T07:46:06+02:00",
-      "modified": "2025-10-23T07:46:06+02:00"
+      "created": "2025-10-22T08:08:39+02:00",
+      "modified": "2025-10-22T08:08:39+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24046",
@@ -130,8 +190,22 @@
       "order": 11,
       "name": "Radwegekonzept Ortsdurchfahrt Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8565",
-      "created": "2025-10-23T07:46:06+02:00",
-      "modified": "2025-10-23T07:46:06+02:00"
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7510",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Anlage 4 Radverkehrskonzept Hauptstraße)",
+          "mimeType": "application/pdf",
+          "date": "2025-11-06",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbpDXGy0Lbsj_zjuXMd9ntnwSfXJFFfRO1jLzrOzfzKL/Anlage_4_Radverkehrskonzept_Hauptstrasse.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbpDXGy0Lbsj_zjuXMd9ntnwSfXJFFfRO1jLzrOzfzKL/Anlage_4_Radverkehrskonzept_Hauptstrasse.pdf",
+          "created": "2026-01-19T13:00:08+01:00",
+          "modified": "2026-01-19T13:00:08+01:00"
+        }
+      ],
+      "created": "2025-10-22T08:09:18+02:00",
+      "modified": "2025-10-22T08:09:18+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24047",
@@ -139,8 +213,22 @@
       "number": "11",
       "order": 12,
       "name": "Vorstellung des Straßenmanagementsystems der Firma Vialytics zur Erfüllung der Verkehrssicherungspflicht und zur Einstufung von Straßenschäden\n(Ausführungen werden in der Sitzung gemacht)",
-      "created": "2025-10-23T07:46:06+02:00",
-      "modified": "2025-10-23T07:46:06+02:00"
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7511",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 5 Straßenmanagementsystem)",
+          "mimeType": "application/pdf",
+          "date": "2025-11-06",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeVX863oFsEXRLL-mc2rVd9aAvX5d7hajLe7_95ohVQK/Anlage_5_Strassenmanagementsystem.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeVX863oFsEXRLL-mc2rVd9aAvX5d7hajLe7_95ohVQK/Anlage_5_Strassenmanagementsystem.pdf",
+          "created": "2026-01-19T13:00:08+01:00",
+          "modified": "2026-01-19T13:00:08+01:00"
+        }
+      ],
+      "created": "2025-10-22T08:11:15+02:00",
+      "modified": "2025-10-22T08:11:15+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24048",
@@ -148,8 +236,22 @@
       "number": "12",
       "order": 13,
       "name": "Aktuelle Themen im Bereich Hoch- und Tiefbau",
-      "created": "2025-10-23T07:46:06+02:00",
-      "modified": "2025-10-23T07:46:06+02:00"
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7512",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 6 aktuelle Themen)",
+          "mimeType": "application/pdf",
+          "date": "2025-11-06",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdOgfocH8QpJa2WmBe0ZJs01eWnCUiOf9crFaMmKzo7V/Anlage_6_aktuelle_Themen.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdOgfocH8QpJa2WmBe0ZJs01eWnCUiOf9crFaMmKzo7V/Anlage_6_aktuelle_Themen.pdf",
+          "created": "2026-01-19T13:00:08+01:00",
+          "modified": "2026-01-19T13:00:08+01:00"
+        }
+      ],
+      "created": "2025-10-22T08:15:15+02:00",
+      "modified": "2025-10-22T08:15:15+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23764",
@@ -157,8 +259,9 @@
       "number": "13",
       "order": 14,
       "name": "Mitteilungen der Verwaltung",
-      "created": "2025-10-23T07:46:06+02:00",
-      "modified": "2025-10-23T07:46:06+02:00"
+      "created": "2025-08-15T07:34:35+02:00",
+      "modified": "2025-08-15T07:34:35+02:00"
     }
-  ]
+  ],
+  "modified": "2026-03-31T15:41:49+02:00"
 }

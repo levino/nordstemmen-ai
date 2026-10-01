@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2021-11-02T19:30:00+01:00",
+  "keyword": [
+    "Rat (1. Sitzung)"
+  ],
+  "created": "2021-06-22T08:49:07+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZd85n-cuhHgeBl7wSttWYSM",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4770",
   "name": "Rat (1. Sitzung)",
   "start": "2021-11-02T18:00:00+01:00",
@@ -111,7 +119,6 @@
       "order": 8,
       "name": "Vorläufige Geschäftsordnung für die Wahlperiode 2021 bis 2026",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7189",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2021-10-12T12:31:37+02:00",
       "modified": "2021-10-12T12:31:37+02:00"
     },
@@ -250,5 +257,6 @@
       "created": "2021-10-12T10:10:02+02:00",
       "modified": "2021-10-12T10:10:06+02:00"
     }
-  ]
+  ],
+  "modified": "2022-03-30T08:17:24+02:00"
 }

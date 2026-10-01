@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2023-04-27T19:00:00+02:00",
+  "keyword": [
+    "Ortsrat Adensen (6. Sitzung)"
+  ],
+  "created": "2022-10-25T14:20:25+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZRnxbp6iMNMrvooD_Q6_wxw",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5188",
   "name": "Ortsrat Adensen (6. Sitzung)",
   "start": "2023-04-27T18:00:00+02:00",
@@ -106,7 +114,6 @@
       "order": 6,
       "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2024 sowie für die mittelfristige\nFinanzplanung 2025 bis 2027",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7698",
-      "result": "Zur Kenntnis genommen.",
       "created": "2023-04-19T07:31:52+02:00",
       "modified": "2023-04-19T07:31:58+02:00"
     },
@@ -117,7 +124,6 @@
       "order": 7,
       "name": "Anhörung zur Aufstellung der Vorschlagsliste für die Neuwahl der Schöffinnen und Schöffen sowie Jugendschöffinnen und Jugendschöffen für die Geschäftsjahre 2024 bis 2028",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7687",
-      "result": "Einstimmig lt. Vorschlagsliste",
       "created": "2023-04-19T07:31:18+02:00",
       "modified": "2023-04-19T07:31:21+02:00"
     },
@@ -139,5 +145,6 @@
       "created": "2023-03-30T17:18:24+02:00",
       "modified": "2023-04-19T07:34:28+02:00"
     }
-  ]
+  ],
+  "modified": "2023-11-14T08:22:58+01:00"
 }

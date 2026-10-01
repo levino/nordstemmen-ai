@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2026-04-02T13:00:24+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZeJ2sa4XJXgCfeOmiUPmCgo",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5846",
   "reference": "AF 1/2026",
   "name": "Anfrage der Fraktion Bündnis 90/Die Grünen vom 31.03.2026, wann mit einer Veröffentlichung der vorliegenden sogenannten Orga-Untersuchung zu rechnen ist bzw. welche Hinderungsgründe für die bislang nicht erfolgte Veröffentlichung vorliegen.",
@@ -14,7 +21,7 @@
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfM9Y9ahKLX78v8IB_WtvSEY9vNXdj8UqeVI-7lx7gsF/Anfragen_AF_1-2026.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfM9Y9ahKLX78v8IB_WtvSEY9vNXdj8UqeVI-7lx7gsF/Anfragen_AF_1-2026.pdf",
     "created": "2026-04-02T13:00:24+02:00",
-    "modified": "2026-04-14T08:52:35+02:00"
+    "modified": "2026-04-22T13:00:22+02:00"
   },
   "auxiliaryFile": [
     {
@@ -54,5 +61,6 @@
       "created": "2026-04-01T09:44:00+02:00",
       "modified": "2026-04-01T09:44:00+02:00"
     }
-  ]
+  ],
+  "modified": "2026-04-22T13:00:22+02:00"
 }

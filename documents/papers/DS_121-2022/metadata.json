@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2022-12-01T19:00:28+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZbEmxsQwvocZnxiHg07cIAA",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5248",
   "reference": "DS 121/2022",
   "name": "Annahme von Zuwendungen",
@@ -54,5 +61,6 @@
       "created": "2022-11-28T08:48:19+01:00",
       "modified": "2022-11-28T08:48:19+01:00"
     }
-  ]
+  ],
+  "modified": "2023-01-09T19:00:13+01:00"
 }

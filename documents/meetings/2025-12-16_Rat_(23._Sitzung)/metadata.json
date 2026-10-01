@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2025-12-16T19:00:00+01:00",
+  "keyword": [
+    "Rat (23. Sitzung)"
+  ],
+  "created": "2024-09-02T11:42:32+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZZVGObVcUbVGWNvy9MtpOMA",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5637",
   "name": "Rat (23. Sitzung)",
   "start": "2025-12-16T18:00:00+01:00",
@@ -16,5 +24,178 @@
   },
   "organization": [
     "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
-  ]
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-43416",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2025-12-16",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZenftwYbKNg2nKJJb66iDNqWyoX5Hk7PHiHqZ8PC4XzX/Bekanntmachung_Rat_16.12.2025.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZenftwYbKNg2nKJJb66iDNqWyoX5Hk7PHiHqZ8PC4XzX/Bekanntmachung_Rat_16.12.2025.pdf",
+    "created": "2025-12-03T13:00:13+01:00",
+    "modified": "2025-12-04T13:00:24+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-43667",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2025-12-16",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSZ0CXnoZ_E_s6NW75Kwq1NEcHJl4Hh9bRne2RJSzkd_/Oeffentliche_Niederschrift_Rat_16.12.2025.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSZ0CXnoZ_E_s6NW75Kwq1NEcHJl4Hh9bRne2RJSzkd_/Oeffentliche_Niederschrift_Rat_16.12.2025.pdf",
+    "created": "2026-01-13T11:26:12+01:00",
+    "modified": "2026-01-13T11:26:12+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24188",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2025-11-27T13:54:11+01:00",
+      "modified": "2025-11-27T13:54:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24189",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2025-11-27T13:54:11+01:00",
+      "modified": "2025-11-27T13:54:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24190",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 25. November 2025",
+      "created": "2025-11-27T13:54:11+01:00",
+      "modified": "2025-11-27T13:54:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24191",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Bericht der Bürgermeisterin über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7519",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zur Niederschrift der Sitzung)",
+          "mimeType": "application/pdf",
+          "date": "2025-12-16",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRwx9tfDUSN8qq-y6C3mNuwV1MWoqHmSJutIXa2MEJY2/Anlage_1_zur_Niederschrift_der_Sitzung.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRwx9tfDUSN8qq-y6C3mNuwV1MWoqHmSJutIXa2MEJY2/Anlage_1_zur_Niederschrift_der_Sitzung.pdf",
+          "created": "2026-01-13T11:06:47+01:00",
+          "modified": "2026-01-13T11:06:47+01:00"
+        }
+      ],
+      "created": "2025-11-27T13:54:11+01:00",
+      "modified": "2025-11-27T13:54:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24192",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Anfragen und Anregungen",
+      "created": "2025-11-27T13:54:11+01:00",
+      "modified": "2025-11-27T13:54:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24197",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2025-11-27T13:54:11+01:00",
+      "modified": "2025-11-27T13:56:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24193",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Zuschussantrag TC Gelb-Rot Nordstemmen e.V. auf Bezuschussung der Sanierung der Sanitäranlagen im Klubhaus des TC Gelb-Rot Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8630",
+      "created": "2025-11-27T13:54:11+01:00",
+      "modified": "2025-11-27T13:54:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24207",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6.1",
+      "order": 8,
+      "name": "Zuschussantrag TC Gelb-Rot Nordstemmen e.V. auf Bezuschussung der Sanierung der Sanitäranlagen im Klubhaus des TC Gelb-Rot Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8652",
+      "created": "2025-12-03T07:29:19+01:00",
+      "modified": "2025-12-03T07:29:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24195",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Haushaltssatzung und Haushaltsplan für das Haushaltsjahr 2026 sowie die Aufstellung\neines Haushaltssicherungskonzeptes",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8636",
+      "created": "2025-11-27T13:54:11+01:00",
+      "modified": "2025-11-27T13:56:23+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24201",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Investitionsprogramm für den Investitionszeitraum 2026 - 2029",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8623",
+      "created": "2025-11-27T14:00:13+01:00",
+      "modified": "2025-11-27T14:00:15+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24194",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Stellenplan 2026 der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8626",
+      "created": "2025-11-27T13:54:11+01:00",
+      "modified": "2025-11-27T13:54:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24196",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 12,
+      "name": "Gesellschaftervertrag Wärmenetz Adensen-Hallerburg GmbH",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8633",
+      "created": "2025-11-27T13:54:11+01:00",
+      "modified": "2025-11-27T13:54:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24206",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10.2",
+      "order": 13,
+      "name": "Gesellschaftervertrag Wärmenetz Adensen-Hallerburg GmbH",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8642",
+      "created": "2025-12-02T08:26:33+01:00",
+      "modified": "2025-12-02T08:26:33+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24198",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 14,
+      "name": "Mitteilungen der Verwaltung",
+      "created": "2025-11-27T13:54:11+01:00",
+      "modified": "2025-11-27T13:54:11+01:00"
+    }
+  ],
+  "modified": "2026-04-20T15:20:06+02:00"
 }

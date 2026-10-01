@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2020-09-15T19:30:00+02:00",
+  "keyword": [
+    "Fachausschuss Finanzen, Wirtschaftsförderung, Marketing und Feuerschutz (18. Sitzung)"
+  ],
+  "created": "2020-06-23T11:55:07+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZfycS32kkveJ-ZQY1epEjt0",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4545",
   "name": "Fachausschuss Finanzen, Wirtschaftsförderung, Marketing und Feuerschutz (18. Sitzung)",
   "start": "2020-09-15T18:30:00+02:00",
@@ -97,7 +105,6 @@
       "order": 5,
       "name": "1. Nachtragshaushaltssatzung 2020 der Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6817",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2020-08-31T14:12:59+02:00",
       "modified": "2020-08-31T14:14:17+02:00"
     },
@@ -108,7 +115,6 @@
       "order": 6,
       "name": "Beschlussfassung über den Jahresabschluss 2018 der Gemeinde Nordstemmen;\nEntlastung des Bürgermeisters für den Jahresabschluss 2018;\nVerwendung des Jahresergebnisses 2018",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6814",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2020-08-31T14:12:59+02:00",
       "modified": "2020-08-31T14:12:59+02:00"
     },
@@ -130,5 +136,6 @@
       "created": "2020-08-31T14:12:59+02:00",
       "modified": "2020-08-31T14:12:59+02:00"
     }
-  ]
+  ],
+  "modified": "2021-02-09T09:58:37+01:00"
 }

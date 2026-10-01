@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-195"
+  ],
+  "created": "2022-03-14T13:00:00+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZVab7iiPk2yO0YXcGD0g2z0",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5119",
   "reference": "DS 24/2022",
   "name": "Anpassung der entgeltfreien Betreuungszeit von 8,5 auf 8 Stunden im Bereich Kindertagesstätten",
@@ -39,5 +46,6 @@
       "created": "2022-02-14T09:42:49+01:00",
       "modified": "2022-02-14T09:42:49+01:00"
     }
-  ]
+  ],
+  "modified": "2022-07-01T13:00:29+02:00"
 }

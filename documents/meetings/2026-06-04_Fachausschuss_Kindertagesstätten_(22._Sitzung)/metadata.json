@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2026-06-04T19:30:00+02:00",
+  "keyword": [
+    "Fachausschuss Kindertagesstätten (22. Sitzung)"
+  ],
+  "created": "2025-09-19T11:33:57+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZTtowRoIQ4ZhAlk3RxGseSg",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5866",
   "name": "Fachausschuss Kindertagesstätten (22. Sitzung)",
   "start": "2026-06-04T18:30:00+02:00",
@@ -15,5 +23,151 @@
   },
   "organization": [
     "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-42"
-  ]
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-44816",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Kindertagesstätten)",
+    "mimeType": "application/pdf",
+    "date": "2026-06-04",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZe_6gGhu4vsJKaDkmCBpj3RaHUJD2XLpldpxGuS-kaG5/Bekanntmachung_Fachausschuss_Kindertagesstaetten_04.06.2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZe_6gGhu4vsJKaDkmCBpj3RaHUJD2XLpldpxGuS-kaG5/Bekanntmachung_Fachausschuss_Kindertagesstaetten_04.06.2026.pdf",
+    "created": "2026-05-19T19:00:18+02:00",
+    "modified": "2026-05-19T19:00:18+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-45182",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Kindertagesstätten)",
+    "mimeType": "application/pdf",
+    "date": "2026-06-04",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaafRnB2tRTrwE3GCZDWvcof8wgTZF730YvD861McrJ8/Oeffentliche_Niederschrift_Fachausschuss_Kindertagesstaetten_04.06.2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaafRnB2tRTrwE3GCZDWvcof8wgTZF730YvD861McrJ8/Oeffentliche_Niederschrift_Fachausschuss_Kindertagesstaetten_04.06.2026.pdf",
+    "created": "2026-06-23T15:17:06+02:00",
+    "modified": "2026-09-04T13:00:05+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24904",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2026-05-19T06:39:14+02:00",
+      "modified": "2026-05-19T06:39:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24905",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2026-05-19T06:39:14+02:00",
+      "modified": "2026-05-19T06:39:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24906",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 03. März 2026",
+      "created": "2026-05-19T06:39:14+02:00",
+      "modified": "2026-05-19T06:39:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24907",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Anfragen und Anregungen",
+      "created": "2026-05-19T06:39:14+02:00",
+      "modified": "2026-05-19T06:39:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24908",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2026-05-19T06:39:14+02:00",
+      "modified": "2026-05-19T06:39:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24912",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Information über die\n- Entwicklung der Kinderbetreuungszahlen (Geburtenfortschreibung)\n- Belegung der Plätze in den Kindertagesstätten, Horten und Kindertagespflegen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7883",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 Geburtenfortschreibung)",
+          "mimeType": "application/pdf",
+          "date": "2026-06-04",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTotx-q76LgC72Q-cuSK8_A9UeIbm5D6JKq_kxhdwAFf/Anlage_1_Geburtenfortschreibung.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTotx-q76LgC72Q-cuSK8_A9UeIbm5D6JKq_kxhdwAFf/Anlage_1_Geburtenfortschreibung.pdf",
+          "created": "2026-06-23T15:17:06+02:00",
+          "modified": "2026-06-23T15:17:06+02:00"
+        }
+      ],
+      "created": "2026-05-19T06:40:36+02:00",
+      "modified": "2026-05-19T06:40:36+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24913",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Informationen aus den Kindertagesstätten",
+      "created": "2026-05-19T06:40:49+02:00",
+      "modified": "2026-05-19T06:40:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24914",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Vorstellung Netzwerk Prävention in aller Frühe (PIAF)\n(Ausführungen werden in der Sitzung gemacht)",
+      "created": "2026-05-19T06:41:25+02:00",
+      "modified": "2026-05-19T06:41:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24909",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Anstellung und Finanzierung einer Drittkraft für Kindertagesstätten mit Ganztagskindergartengruppen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8820",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7884",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Anlage 2 Kostenvergleich Kitas Zeitarbeit und Drittkraft.xlsx)",
+          "mimeType": "application/pdf",
+          "date": "2026-06-04",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWsWlFOGM9_US0zWlBfti5Ja08W1pRdodu9ctBi5mqt3/Anlage_2_Kostenvergleich_Kitas_Zeitarbeit_und_Drittkraft.xlsx.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWsWlFOGM9_US0zWlBfti5Ja08W1pRdodu9ctBi5mqt3/Anlage_2_Kostenvergleich_Kitas_Zeitarbeit_und_Drittkraft.xlsx.pdf",
+          "created": "2026-06-23T15:17:06+02:00",
+          "modified": "2026-06-23T15:17:06+02:00"
+        }
+      ],
+      "created": "2026-05-19T06:39:14+02:00",
+      "modified": "2026-05-19T06:39:14+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24910",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Mitteilungen der Verwaltung",
+      "created": "2026-05-19T06:39:14+02:00",
+      "modified": "2026-05-19T06:39:14+02:00"
+    }
+  ],
+  "modified": "2026-09-10T12:39:22+02:00"
 }

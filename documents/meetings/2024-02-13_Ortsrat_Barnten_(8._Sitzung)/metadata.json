@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2024-02-13T20:00:00+01:00",
+  "keyword": [
+    "Ortsrat Barnten (8. Sitzung)"
+  ],
+  "created": "2023-09-11T11:46:52+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZROXmbWuMrQLRpv3_QVAM7w",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5429",
   "name": "Ortsrat Barnten (8. Sitzung)",
   "start": "2024-02-13T19:00:00+01:00",
@@ -180,7 +188,6 @@
       "order": 14,
       "name": "Wahl einer Schiedsperson für den Schiedsamtsbezirk Barnten in der Gemeinde Nordstemmen\n",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7951",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2024-01-26T11:38:03+01:00",
       "modified": "2024-01-26T11:38:14+01:00"
     },
@@ -216,5 +223,6 @@
       "created": "2023-09-11T11:46:52+02:00",
       "modified": "2023-09-11T11:46:52+02:00"
     }
-  ]
+  ],
+  "modified": "2024-06-12T07:24:30+02:00"
 }

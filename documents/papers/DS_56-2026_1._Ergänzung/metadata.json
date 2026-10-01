@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2026-06-12T13:00:10+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZePA1gPuZRB0whZsji1O7RQ",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5897",
   "reference": "DS 56/2026 1. Ergänzung",
   "name": "1. Nachtragsstellenplan 2026 der Gemeinde Nordstemmen",
@@ -14,7 +21,7 @@
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWn0DU2tHkyYibDXc3JtISG1zpWph_GIOoikahNIgBNn/Beschlussvorlage_DS_56-2026_1._Ergaenzung.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWn0DU2tHkyYibDXc3JtISG1zpWph_GIOoikahNIgBNn/Beschlussvorlage_DS_56-2026_1._Ergaenzung.pdf",
     "created": "2026-06-12T13:00:10+02:00",
-    "modified": "2026-06-12T13:00:10+02:00"
+    "modified": "2026-07-03T13:00:25+02:00"
   },
   "auxiliaryFile": [
     {
@@ -42,5 +49,6 @@
       "created": "2026-06-10T08:53:46+02:00",
       "modified": "2026-06-10T08:53:46+02:00"
     }
-  ]
+  ],
+  "modified": "2026-07-03T13:00:25+02:00"
 }

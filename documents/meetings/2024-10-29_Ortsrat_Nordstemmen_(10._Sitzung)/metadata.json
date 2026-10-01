@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2024-10-29T20:00:00+01:00",
+  "keyword": [
+    "Ortsrat Nordstemmen (10. Sitzung)"
+  ],
+  "created": "2023-09-11T12:32:21+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZWdoI9EjbD0SGT2eFWQIKiU",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5472",
   "name": "Ortsrat Nordstemmen (10. Sitzung)",
   "start": "2024-10-29T19:00:00+01:00",
@@ -92,7 +100,6 @@
       "order": 6,
       "name": "Anhörung zum Haushaltsplan 2025 und zum Investitionsprogramm bis 2028 für die Ortschaft Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8172",
-      "result": "Einstimmig zugestimmt",
       "created": "2024-10-07T07:38:19+02:00",
       "modified": "2024-10-07T07:38:19+02:00"
     },
@@ -103,7 +110,6 @@
       "order": 7,
       "name": "Spielplatzkonzept der Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8006",
-      "result": "Einstimmig geänderter Beschluss",
       "created": "2024-10-07T07:38:19+02:00",
       "modified": "2024-10-07T07:38:19+02:00"
     },
@@ -114,7 +120,6 @@
       "order": 8,
       "name": "Grundsatzbeschluss zur Ortsumgehung der Bundesstraße 1",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8160",
-      "result": "Einstimmig lt. Variante b) mit Ergänzung",
       "resolutionFile": {
         "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-40795",
         "type": "https://schema.oparl.org/1.1/File",
@@ -225,5 +230,6 @@
       "created": "2024-10-07T07:38:19+02:00",
       "modified": "2024-10-07T07:38:19+02:00"
     }
-  ]
+  ],
+  "modified": "2025-03-04T11:09:43+01:00"
 }

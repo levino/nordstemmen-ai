@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2026-04-13T13:00:19+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZVlFVO2OrXB9Lo61ZX7gfuk",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5847",
   "reference": "AT 3/2026",
   "name": "Ausschreibung der Stelle des Ersten Gemeinderates (Wahlbeamter auf Zeit)",
@@ -14,7 +21,7 @@
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRkgPTxANNlnsqu6XUTEnb32ImCuQwor947jKAvgDVTB/Antrag_AT_3-2026.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRkgPTxANNlnsqu6XUTEnb32ImCuQwor947jKAvgDVTB/Antrag_AT_3-2026.pdf",
     "created": "2026-04-13T13:00:19+02:00",
-    "modified": "2026-04-13T13:00:19+02:00"
+    "modified": "2026-06-30T13:00:22+02:00"
   },
   "auxiliaryFile": [
     {
@@ -54,5 +61,6 @@
       "created": "2026-04-15T09:38:43+02:00",
       "modified": "2026-04-15T09:38:43+02:00"
     }
-  ]
+  ],
+  "modified": "2026-06-30T13:00:22+02:00"
 }

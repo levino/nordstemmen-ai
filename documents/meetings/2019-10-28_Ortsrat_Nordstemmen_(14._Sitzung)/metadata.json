@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2019-10-28T19:30:00+01:00",
+  "keyword": [
+    "Ortsrat Nordstemmen (14. Sitzung)"
+  ],
+  "created": "2019-05-28T16:16:50+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZZIva_mqOGV0kxiiFIi_Drw",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4363",
   "name": "Ortsrat Nordstemmen (14. Sitzung)",
   "start": "2019-10-28T18:30:00+01:00",
@@ -153,7 +161,6 @@
       "order": 7,
       "name": "Anhörung zum Haushaltsplan 2020 und zum Investitionsprogramm bis 2023 für die Ortschaft Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6651",
-      "result": "Einstimmig/ja",
       "created": "2019-10-10T15:17:47+02:00",
       "modified": "2019-10-10T15:17:47+02:00"
     },
@@ -219,5 +226,6 @@
       "created": "2019-10-10T15:17:47+02:00",
       "modified": "2019-10-10T15:17:47+02:00"
     }
-  ]
+  ],
+  "modified": "2020-02-26T12:06:24+01:00"
 }

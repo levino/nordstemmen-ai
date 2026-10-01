@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2015-02-27T13:00:59+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZUI8Uj7QtbwuU9FP0Junavs",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1084",
   "reference": "DS 19/2015",
   "name": "Einführung von dritten Fach- oder Betreuungskräften in Krippengruppen",
@@ -17,6 +21,15 @@
     "modified": "2015-02-27T13:00:59+01:00"
   },
   "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3038",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2015-02-26T14:46:18+01:00",
+      "modified": "2015-02-26T14:46:18+01:00"
+    },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3042",
       "type": "https://schema.oparl.org/1.1/Consultation",
@@ -39,5 +52,6 @@
       "created": "2015-02-26T14:47:39+01:00",
       "modified": "2015-02-26T14:47:39+01:00"
     }
-  ]
+  ],
+  "modified": "2015-02-27T13:00:59+01:00"
 }

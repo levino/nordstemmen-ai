@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2015-11-16T13:00:52+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZSpGXkDc99OjwnY3mEsGWgo",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1169",
   "reference": "DS 83/2015",
   "name": "Umwandlung der Kindergartengruppe (Kleingruppe für 10 Kinder) in eine Krippengruppe für die Betreuung von 13 Kindern in der ev.-luth. Kindertagesstätte St. Johannes Groß Escherde zum 01.08.2016",
@@ -29,6 +33,15 @@
       "modified": "2015-11-11T07:46:43+01:00"
     },
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3308",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2015-11-11T07:45:42+01:00",
+      "modified": "2015-11-11T07:45:42+01:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3314",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12461",
@@ -39,5 +52,6 @@
       "created": "2015-11-11T07:47:09+01:00",
       "modified": "2015-11-11T07:47:09+01:00"
     }
-  ]
+  ],
+  "modified": "2015-11-16T13:00:52+01:00"
 }

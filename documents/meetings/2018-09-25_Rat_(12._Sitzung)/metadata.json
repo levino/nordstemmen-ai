@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-09-25T19:30:00+02:00",
+  "keyword": [
+    "Rat (12. Sitzung)"
+  ],
+  "created": "2018-03-12T14:28:40+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZQHMUnLd13FluMik09E1QWg",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4140",
   "name": "Rat (12. Sitzung)",
   "start": "2018-09-25T18:30:00+02:00",
@@ -106,7 +114,6 @@
       "order": 6,
       "name": "Wechsel der Ausschussmitgliedschaft;\nAntrag der Ratsfraktion Die Unabhängigen ",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6359",
-      "result": "einstimmig",
       "created": "2018-09-12T08:40:56+02:00",
       "modified": "2018-09-12T08:41:05+02:00"
     },
@@ -117,7 +124,6 @@
       "order": 7,
       "name": "Straßenausbaubeiträge und alternative Finanzierungen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6311",
-      "result": "23 Ja-Stimmen und eine Nein-Stimme",
       "created": "2018-09-04T13:12:44+02:00",
       "modified": "2018-09-04T13:12:44+02:00"
     },
@@ -148,7 +154,6 @@
       "order": 10,
       "name": "Erhöhung der Abwassergebühren zum 01.01.2019",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6332",
-      "result": "einstimmig bei zwei Enthaltungen",
       "created": "2018-09-04T13:13:24+02:00",
       "modified": "2018-09-04T13:13:24+02:00"
     },
@@ -179,7 +184,6 @@
       "order": 13,
       "name": "Verwaltungskostensatzung der Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6316",
-      "result": "einstimmig",
       "created": "2018-09-04T13:13:51+02:00",
       "modified": "2018-09-04T13:13:57+02:00"
     },
@@ -190,7 +194,6 @@
       "order": 14,
       "name": "Bebauungsplan Nr. 0123 \"Heyersumer Straße-Süd\", 2. Änderung, \n- Satzungsbeschluss gem. § 10 Abs. 1 BauGB",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6355",
-      "result": "einstimmig",
       "created": "2018-09-11T16:41:48+02:00",
       "modified": "2018-09-11T16:41:48+02:00"
     },
@@ -201,7 +204,6 @@
       "order": 15,
       "name": "Richtlinie über die Aufnahme von Krediten nach § 120 Abs. 1 Satz 2 Niedersächsisches Kommunalverfassungsgesetz (NKomVG)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6337",
-      "result": "einstimmig",
       "created": "2018-09-04T13:14:17+02:00",
       "modified": "2018-09-04T13:14:23+02:00"
     },
@@ -212,7 +214,6 @@
       "order": 16,
       "name": "2. Nachtragshaushaltssatzung 2018 der Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6340",
-      "result": "einstimmig",
       "created": "2018-09-04T13:14:31+02:00",
       "modified": "2018-09-04T13:14:37+02:00"
     },
@@ -223,7 +224,6 @@
       "order": 17,
       "name": "Änderung der Hauptsatzung der Gemeinde Nordstemmen; \nErnennung eines stellvertretenden Ortsvorstehers / einer stellvertretenden Ortsvorsteherin für die Ortschaft Hallerburg",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6342",
-      "result": "einstimmig",
       "created": "2018-09-11T16:42:00+02:00",
       "modified": "2018-09-11T16:48:40+02:00"
     },
@@ -245,5 +245,6 @@
       "created": "2018-06-26T15:12:26+02:00",
       "modified": "2018-06-26T15:12:26+02:00"
     }
-  ]
+  ],
+  "modified": "2018-12-05T14:52:40+01:00"
 }

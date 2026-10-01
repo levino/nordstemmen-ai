@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2021-11-04T20:00:00+01:00",
+  "keyword": [
+    "Ortsrat Adensen (1. Sitzung)"
+  ],
+  "created": "2021-06-22T08:49:52+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZSTxPg_H_001aEuR2YkmgLI",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4771",
   "name": "Ortsrat Adensen (1. Sitzung)",
   "start": "2021-11-04T19:00:00+01:00",
@@ -152,7 +160,6 @@
       "order": 11,
       "name": "Umgestaltung von Teilbereichen der Adenoyser Straße",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7198",
-      "result": "Einstimmig/lt. Beschlussvorschlag",
       "created": "2021-10-26T15:12:43+02:00",
       "modified": "2021-10-26T15:12:43+02:00"
     },
@@ -228,5 +235,6 @@
       "created": "2021-10-04T11:46:08+02:00",
       "modified": "2021-10-04T11:46:08+02:00"
     }
-  ]
+  ],
+  "modified": "2022-03-16T13:42:09+01:00"
 }

@@ -1,20 +1,27 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2025-11-14T13:00:09+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQJcryOwpjZ8yaKVWK7eC1o",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5779",
   "reference": "DS 105/2025",
   "name": "Investitionsprogramm für den Investitionszeitraum 2026 - 2029",
   "paperType": "Beschlussvorlage",
-  "date": "2025-11-18",
+  "date": "2025-12-16",
   "mainFile": {
     "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-43039",
     "type": "https://schema.oparl.org/1.1/File",
     "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
     "name": "Beschlussvorlage (Investitionsprogramm für den Investitionszeitraum 2026 - 2029)",
     "mimeType": "application/pdf",
-    "date": "2025-11-18",
+    "date": "2025-12-16",
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSEn1YHtsSNNgfcV88OoUBZeL5QZsG7dpnxDQeWzD6Ke/Beschlussvorlage_DS_105-2025.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSEn1YHtsSNNgfcV88OoUBZeL5QZsG7dpnxDQeWzD6Ke/Beschlussvorlage_DS_105-2025.pdf",
     "created": "2025-11-14T13:00:09+01:00",
-    "modified": "2025-11-14T13:00:09+01:00"
+    "modified": "2026-01-22T08:14:00+01:00"
   },
   "auxiliaryFile": [
     {
@@ -23,7 +30,7 @@
       "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
       "name": "Beschlussvorlage (Anlage 1 Investitionsprogramm 2026)",
       "mimeType": "application/pdf",
-      "date": "2025-11-18",
+      "date": "2025-12-16",
       "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeWx7rtQUWGCrOL3Y9uJ9YagaxOve1tVkOm-eecCcSsc/Anlage_1_Investitionsprogramm_2026.pdf",
       "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeWx7rtQUWGCrOL3Y9uJ9YagaxOve1tVkOm-eecCcSsc/Anlage_1_Investitionsprogramm_2026.pdf",
       "created": "2025-11-14T13:00:09+01:00",
@@ -41,6 +48,40 @@
       ],
       "created": "2025-10-30T14:40:52+01:00",
       "modified": "2025-10-30T14:40:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8591",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24122",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5636",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2025-10-30T14:41:18+01:00",
+      "modified": "2025-10-30T14:41:18+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8621",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24164",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5639",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-29"
+      ],
+      "created": "2025-11-20T09:24:52+01:00",
+      "modified": "2025-11-20T09:24:52+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8623",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24201",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5637",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2025-11-20T09:25:19+01:00",
+      "modified": "2025-11-27T13:57:26+01:00"
     }
-  ]
+  ],
+  "modified": "2026-01-22T08:14:00+01:00"
 }

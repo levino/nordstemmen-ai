@@ -1,20 +1,27 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-196"
+  ],
+  "created": "2026-05-19T08:20:07+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZY99FrzWPwBraJ5F3Edz9nI",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5870",
   "reference": "DS 48/2026",
   "name": "Antrag auf Einleitung eines Verfahrens zur 27. Änderung des Flächennutzungsplans\n- Errichtung einer Biogasanlage (Nordzucker AG); Ortschaft Nordstemmen",
   "paperType": "Beschlussvorlage",
-  "date": "2026-06-02",
+  "date": "2026-06-23",
   "mainFile": {
     "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-44697",
     "type": "https://schema.oparl.org/1.1/File",
     "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
     "name": "Beschlussvorlage (Antrag auf Einleitung eines Verfahrens zur 27. Änderung des Flächennutzungsplans\n- Errichtung einer Biogasanlage (Nordzucker AG); Ortschaft Nordstemmen)",
     "mimeType": "application/pdf",
-    "date": "2026-06-02",
+    "date": "2026-06-23",
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRLintaRQCBCdWUD66b3HKyeE7PBMKjuLRTC_-S_3R8I/Beschlussvorlage_DS_48-2026.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRLintaRQCBCdWUD66b3HKyeE7PBMKjuLRTC_-S_3R8I/Beschlussvorlage_DS_48-2026.pdf",
     "created": "2026-05-19T08:20:07+02:00",
-    "modified": "2026-05-19T08:20:07+02:00"
+    "modified": "2026-07-03T13:00:25+02:00"
   },
   "auxiliaryFile": [
     {
@@ -23,7 +30,7 @@
       "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
       "name": "Beschlussvorlage (Anlage 1 zu DS 48/2026)",
       "mimeType": "application/pdf",
-      "date": "2026-06-02",
+      "date": "2026-06-23",
       "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZX_akcuUEj4LJzZUszsKE2js3ErKSZIgiAfm-9ADQqsz/Anlage_1_zu_DS_48-2026.pdf",
       "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZX_akcuUEj4LJzZUszsKE2js3ErKSZIgiAfm-9ADQqsz/Anlage_1_zu_DS_48-2026.pdf",
       "created": "2026-05-19T08:20:07+02:00",
@@ -35,7 +42,7 @@
       "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
       "name": "Beschlussvorlage (Anlage 2 zu DS 48/2026)",
       "mimeType": "application/pdf",
-      "date": "2026-06-02",
+      "date": "2026-06-23",
       "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTC4xUEbf0K5n2T3RvPto0RJSqxM7eMF_d7Fe83UkWK_/Anlage_2_zu_DS_48-2026.pdf",
       "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTC4xUEbf0K5n2T3RvPto0RJSqxM7eMF_d7Fe83UkWK_/Anlage_2_zu_DS_48-2026.pdf",
       "created": "2026-05-19T08:20:07+02:00",
@@ -53,6 +60,18 @@
       ],
       "created": "2026-05-08T12:33:27+02:00",
       "modified": "2026-05-08T12:33:27+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8813",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24932",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5785",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2026-05-08T12:34:31+02:00",
+      "modified": "2026-05-08T12:34:31+02:00"
     }
-  ]
+  ],
+  "modified": "2026-07-03T13:00:25+02:00"
 }

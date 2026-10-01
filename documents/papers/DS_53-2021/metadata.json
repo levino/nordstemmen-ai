@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2021-06-09T13:00:24+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZTmgaD17l773QW3q0o5_6Vc",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4995",
   "reference": "DS 53/2021",
   "name": "Verfahren für die Veräußerung eines Grundstückes",
@@ -53,5 +60,6 @@
       "created": "2021-05-31T10:18:58+02:00",
       "modified": "2021-05-31T10:18:59+02:00"
     }
-  ]
+  ],
+  "modified": "2023-03-14T16:58:34+01:00"
 }

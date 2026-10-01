@@ -1,20 +1,27 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-196"
+  ],
+  "created": "2026-08-19T13:00:02+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdwAbpOKlcoowzRQE3R0z1I",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5911",
   "reference": "DS 71/2026",
   "name": "Abschluss eines Durchführungsvertrages gemäß § 12 Baugesetzbuch (BauGB) zum vorhabenbezogenen Bebauungsplan Nr. 0131 „Rauhe Wiese - West II“\"",
   "paperType": "Beschlussvorlage",
-  "date": "2026-09-01",
+  "date": "2026-09-29",
   "mainFile": {
     "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-45416",
     "type": "https://schema.oparl.org/1.1/File",
     "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
     "name": "Beschlussvorlage (Abschluss eines Durchführungsvertrages gemäß § 12 Baugesetzbuch (BauGB) zum vorhabenbezogenen Bebauungsplan Nr. 0131 „Rauhe Wiese - West II“\")",
     "mimeType": "application/pdf",
-    "date": "2026-09-01",
+    "date": "2026-09-29",
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXp3Qrj04OuHsBGXQCWhZDDps-UWnzYhlO78OZ-crjTE/Beschlussvorlage_DS_71-2026.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXp3Qrj04OuHsBGXQCWhZDDps-UWnzYhlO78OZ-crjTE/Beschlussvorlage_DS_71-2026.pdf",
     "created": "2026-08-19T13:00:02+02:00",
-    "modified": "2026-08-19T13:00:02+02:00"
+    "modified": "2026-09-22T13:00:24+02:00"
   },
   "auxiliaryFile": [
     {
@@ -23,7 +30,7 @@
       "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
       "name": "Beschlussvorlage (Anlage Durchführungsvertrag)",
       "mimeType": "application/pdf",
-      "date": "2026-09-01",
+      "date": "2026-09-29",
       "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaNP2Ny3VX-x6D_6nt9T5PL6yoE8HNWuVBKUpqXsSmP9/Anlage_Durchfuehrungsvertrag.pdf",
       "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaNP2Ny3VX-x6D_6nt9T5PL6yoE8HNWuVBKUpqXsSmP9/Anlage_Durchfuehrungsvertrag.pdf",
       "created": "2026-08-19T13:00:02+02:00",
@@ -41,6 +48,18 @@
       ],
       "created": "2026-07-23T13:36:48+02:00",
       "modified": "2026-07-23T13:36:48+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8894",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25298",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5786",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2026-07-23T13:37:33+02:00",
+      "modified": "2026-07-23T13:37:33+02:00"
     }
-  ]
+  ],
+  "modified": "2026-09-22T13:00:24+02:00"
 }

@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2015-02-27T13:00:59+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZWgvFQdFxVd5RSRUGOWVcNw",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1086",
   "reference": "DS 21/2015",
   "name": "Vereinbarkeit zur Fortschreibung der Vereinbarung zur Wahrnehmung u. a. der Aufgaben der Kindertagesbetreuung",
@@ -44,6 +48,15 @@
   ],
   "consultation": [
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3046",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2015-02-27T09:00:08+01:00",
+      "modified": "2015-02-27T09:00:08+01:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3050",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11631",
@@ -65,5 +78,6 @@
       "created": "2015-02-27T09:01:21+01:00",
       "modified": "2015-02-27T09:01:21+01:00"
     }
-  ]
+  ],
+  "modified": "2015-02-27T13:00:59+01:00"
 }

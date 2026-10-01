@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2026-02-24T19:30:00+01:00",
+  "keyword": [
+    "Fachausschuss Schule, Jugend, Soziales und Kultur (21. Sitzung)"
+  ],
+  "created": "2025-09-19T11:23:51+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZV_zGQnbXGLp1xxkPwFAUqI",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5858",
   "name": "Fachausschuss Schule, Jugend, Soziales und Kultur (21. Sitzung)",
   "start": "2026-02-24T18:30:00+01:00",
@@ -28,6 +36,18 @@
     "created": "2026-02-09T13:00:26+01:00",
     "modified": "2026-02-09T13:00:26+01:00"
   },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-44170",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Schule, Jugend, Soziales und Kultur)",
+    "mimeType": "application/pdf",
+    "date": "2026-02-24",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZSc4xsEeNBdVf_g7S0ThsgsabOTlDQWzipIc2rKFwYow/Oeffentliche_Niederschrift_Fachausschuss_Schule-_Jugend-_Soziales_und_Kultur_24.02.2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZSc4xsEeNBdVf_g7S0ThsgsabOTlDQWzipIc2rKFwYow/Oeffentliche_Niederschrift_Fachausschuss_Schule-_Jugend-_Soziales_und_Kultur_24.02.2026.pdf",
+    "created": "2026-03-05T19:00:23+01:00",
+    "modified": "2026-03-05T19:00:23+01:00"
+  },
   "agendaItem": [
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24075",
@@ -35,8 +55,8 @@
       "number": "1",
       "order": 1,
       "name": "- öffentlicher Teil -",
-      "created": "2026-02-09T10:22:34+01:00",
-      "modified": "2026-02-09T10:22:34+01:00"
+      "created": "2025-10-28T14:17:04+01:00",
+      "modified": "2025-10-28T14:17:04+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24076",
@@ -44,8 +64,8 @@
       "number": "1",
       "order": 2,
       "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
-      "created": "2026-02-09T10:22:34+01:00",
-      "modified": "2026-02-09T10:22:34+01:00"
+      "created": "2025-10-28T14:17:04+01:00",
+      "modified": "2025-10-28T14:17:04+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24415",
@@ -67,8 +87,8 @@
           "modified": "2026-02-09T13:00:26+01:00"
         }
       ],
-      "created": "2026-02-09T10:22:34+01:00",
-      "modified": "2026-02-09T10:22:34+01:00"
+      "created": "2026-02-09T07:48:50+01:00",
+      "modified": "2026-02-09T07:49:16+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24413",
@@ -90,8 +110,8 @@
           "modified": "2026-02-09T13:00:26+01:00"
         }
       ],
-      "created": "2026-02-09T10:22:34+01:00",
-      "modified": "2026-02-09T10:22:34+01:00"
+      "created": "2026-02-05T15:45:58+01:00",
+      "modified": "2026-02-05T15:54:03+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24077",
@@ -99,8 +119,8 @@
       "number": "4",
       "order": 5,
       "name": "Genehmigung des Protokolls der Sitzung vom 04. November 2025",
-      "created": "2026-02-09T10:22:34+01:00",
-      "modified": "2026-02-09T10:22:34+01:00"
+      "created": "2025-10-28T14:17:04+01:00",
+      "modified": "2026-02-05T15:49:54+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24414",
@@ -108,8 +128,8 @@
       "number": "5",
       "order": 6,
       "name": "Genehmigung des Protokolls der Sitzung vom 06. Januar 2026",
-      "created": "2026-02-09T10:22:34+01:00",
-      "modified": "2026-02-09T10:22:34+01:00"
+      "created": "2026-02-05T15:47:27+01:00",
+      "modified": "2026-02-05T15:50:14+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24093",
@@ -117,8 +137,8 @@
       "number": "6",
       "order": 7,
       "name": "Verpflichtung von Ausschussmitgliedern\n- Elternvertretungen",
-      "created": "2026-02-09T10:22:34+01:00",
-      "modified": "2026-02-09T10:22:34+01:00"
+      "created": "2025-11-03T11:47:19+01:00",
+      "modified": "2025-11-03T11:47:19+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24078",
@@ -126,8 +146,8 @@
       "number": "7",
       "order": 8,
       "name": "Anfragen und Anregungen",
-      "created": "2026-02-09T10:22:34+01:00",
-      "modified": "2026-02-09T10:22:34+01:00"
+      "created": "2025-10-28T14:17:04+01:00",
+      "modified": "2025-10-28T14:17:04+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24079",
@@ -135,8 +155,8 @@
       "number": "8",
       "order": 9,
       "name": "Einwohner*innen Fragestunde\n\n\nAufgaben des Schulausschusses nach § 110 NSchG:",
-      "created": "2026-02-09T10:22:34+01:00",
-      "modified": "2026-02-09T10:22:34+01:00"
+      "created": "2025-10-28T14:17:04+01:00",
+      "modified": "2025-10-28T14:17:04+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24416",
@@ -144,8 +164,8 @@
       "number": "9",
       "order": 10,
       "name": "Unterrichtung über die Entwicklung der Schülerzahlen\n(Ausführungen werden in der Sitzung gemacht)",
-      "created": "2026-02-09T10:22:34+01:00",
-      "modified": "2026-02-09T10:22:34+01:00"
+      "created": "2026-02-09T07:54:07+01:00",
+      "modified": "2026-02-09T07:54:07+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24417",
@@ -153,8 +173,9 @@
       "number": "10",
       "order": 11,
       "name": "Nutzungs- und Entgeltordnung für die Nutzung von Schulräumen/- einrichtungen für außerschulische Zwecke ",
-      "created": "2026-02-09T10:22:34+01:00",
-      "modified": "2026-02-09T10:22:34+01:00"
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8685",
+      "created": "2026-02-09T07:54:26+01:00",
+      "modified": "2026-02-09T07:54:26+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24080",
@@ -162,8 +183,9 @@
       "number": "11",
       "order": 12,
       "name": "Mitteilungen der Verwaltung",
-      "created": "2026-02-09T10:22:34+01:00",
-      "modified": "2026-02-09T10:22:34+01:00"
+      "created": "2025-10-28T14:17:04+01:00",
+      "modified": "2025-10-28T14:17:04+01:00"
     }
-  ]
+  ],
+  "modified": "2026-06-29T11:54:28+02:00"
 }

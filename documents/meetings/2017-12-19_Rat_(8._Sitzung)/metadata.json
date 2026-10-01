@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2017-12-19T20:00:00+01:00",
+  "keyword": [
+    "Rat (8. Sitzung)"
+  ],
+  "created": "2017-04-19T10:30:48+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZS2Q2WurbMgDWD3AJL2p7Eg",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2997",
   "name": "Rat (8. Sitzung)",
   "start": "2017-12-19T18:00:00+01:00",
@@ -140,7 +148,6 @@
       "order": 8,
       "name": "Beschlussfassung über den Jahresabschluss 2014 der Gemeinde Nordstemmen;\nEntlastung des Bürgermeisters für den Jahresabschluss 2014;\nVerwendung des Jahresergebnisses 2014",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6072",
-      "result": "zu a) einstimmig, zu b) einstimmig/eine Enthaltung, zu c) einstimmig",
       "created": "2017-12-01T08:16:09+01:00",
       "modified": "2017-12-01T08:16:09+01:00"
     },
@@ -151,7 +158,6 @@
       "order": 9,
       "name": "Zustimmung zu einer außerplanmäßigen Aufwendung für die Bildung einer Rückstellung im Rahmen des Jahresabschlusses 2015 zur Begleichung der Aufwendungen für die Kreisumlage 2016\nBeschlussfassung über den Jahresabschluss 2015 der Gemeinde Nordstemmen;\nEntlastung des Bürgermeisters für den Jahresabschluss 2015;\nVerwendung des Jahresergebnisses 2015",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6076",
-      "result": "zu a) einstimmig, zu b) einstimmig, zu c) einstimmig/eine Enthaltung, zu d) einstimmig",
       "created": "2017-12-01T13:05:02+01:00",
       "modified": "2017-12-01T13:05:07+01:00"
     },
@@ -172,7 +178,6 @@
       "order": 11,
       "name": "Verfahren für die Veräußerung eines Grundstücks",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6082",
-      "result": "einstimmig lt. Beschlussvorschlag",
       "created": "2017-12-01T13:05:27+01:00",
       "modified": "2017-12-01T13:05:32+01:00"
     },
@@ -183,7 +188,6 @@
       "order": 12,
       "name": "Abschluss einer Vereinbarung zur interkommunalen Zusammenarbeit im Bereich Kultur",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6087",
-      "result": "mehrheitlich bei 18 Ja-Stimmen, 6 Nein-Stimmen, 2 Enthaltungen",
       "created": "2017-12-04T13:38:53+01:00",
       "modified": "2017-12-04T13:38:53+01:00"
     },
@@ -194,7 +198,6 @@
       "order": 13,
       "name": "Antrag von Herr Lassen zur Behandlung von Anträgen nach § 56 NKomVG ",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6090",
-      "result": "einstimmig",
       "created": "2017-12-04T13:39:03+01:00",
       "modified": "2017-12-04T13:39:08+01:00"
     },
@@ -216,5 +219,6 @@
       "created": "2017-12-01T08:16:09+01:00",
       "modified": "2017-12-01T08:16:09+01:00"
     }
-  ]
+  ],
+  "modified": "2018-04-12T18:07:26+02:00"
 }

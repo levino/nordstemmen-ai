@@ -1,6 +1,14 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2027-04-14T19:30:00+02:00",
+  "keyword": [
+    "Rat (34. Sondersitzung)"
+  ],
+  "created": "2026-03-11T14:35:11+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZZaUSFlm5EFmixCiQjylv94",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5943",
-  "name": "Rat (37. Sondersitzung)",
+  "name": "Rat (34. Sondersitzung)",
   "start": "2027-04-14T18:30:00+02:00",
   "location": {
     "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
@@ -15,5 +23,6 @@
   },
   "organization": [
     "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
-  ]
+  ],
+  "modified": "2026-03-11T14:35:11+01:00"
 }

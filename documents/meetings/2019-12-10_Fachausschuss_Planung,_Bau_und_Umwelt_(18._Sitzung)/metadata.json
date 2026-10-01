@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2019-12-10T18:30:00+01:00",
+  "keyword": [
+    "Fachausschuss Planung, Bau und Umwelt (18. Sitzung)"
+  ],
+  "created": "2019-11-13T09:37:21+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZbUyzcXRyxB5oFo_kpbkb0Y",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4403",
   "name": "Fachausschuss Planung, Bau und Umwelt (18. Sitzung)",
   "start": "2019-12-10T18:00:00+01:00",
@@ -83,7 +91,6 @@
       "order": 5,
       "name": "Bebauungsplan Nr. 1010 \"Clausstraße - West\";\nSatzungsbeschluss gem. § 10 Abs. 1 BauGB",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6679",
-      "result": "einstimmig",
       "created": "2019-11-26T09:59:36+01:00",
       "modified": "2019-11-26T09:59:36+01:00"
     },
@@ -105,5 +112,6 @@
       "created": "2019-11-26T09:59:36+01:00",
       "modified": "2019-11-26T09:59:36+01:00"
     }
-  ]
+  ],
+  "modified": "2019-12-23T09:24:28+01:00"
 }

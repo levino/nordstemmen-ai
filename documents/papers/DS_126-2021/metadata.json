@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2021-12-07T19:00:20+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZcYWVezqNRSvZ__posys-2c",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5085",
   "reference": "DS 126/2021",
   "name": "Änderung der Abwassergebühren zum 01.01.2022",
@@ -53,5 +60,6 @@
       "created": "2021-12-01T08:09:08+01:00",
       "modified": "2021-12-01T08:09:08+01:00"
     }
-  ]
+  ],
+  "modified": "2022-03-30T08:17:36+02:00"
 }

@@ -1,20 +1,27 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-195"
+  ],
+  "created": "2026-02-19T19:00:14+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZaiJSmZ_KFubpxXQyo-a3_c",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5821",
   "reference": "DS 12/2026",
   "name": "Kindertagesstätte Adensen; Erweiterung der Betreuungszeiten",
   "paperType": "Beschlussvorlage",
-  "date": "2026-03-03",
+  "date": "2026-03-17",
   "mainFile": {
     "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-43941",
     "type": "https://schema.oparl.org/1.1/File",
     "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
     "name": "Beschlussvorlage (Kindertagesstätte Adensen; Erweiterung der Betreuungszeiten)",
     "mimeType": "application/pdf",
-    "date": "2026-03-03",
+    "date": "2026-03-17",
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdAB09rJ1qFbI2mts8_pl6l0W_L4LqIxnPcivQkv0xYf/Beschlussvorlage_DS_12-2026.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdAB09rJ1qFbI2mts8_pl6l0W_L4LqIxnPcivQkv0xYf/Beschlussvorlage_DS_12-2026.pdf",
     "created": "2026-02-19T19:00:14+01:00",
-    "modified": "2026-02-19T19:00:14+01:00"
+    "modified": "2026-04-20T19:00:13+02:00"
   },
   "consultation": [
     {
@@ -27,6 +34,18 @@
       ],
       "created": "2026-02-10T10:53:45+01:00",
       "modified": "2026-02-10T10:53:45+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8693",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24492",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5784",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2026-02-10T10:54:03+01:00",
+      "modified": "2026-02-10T10:54:03+01:00"
     }
-  ]
+  ],
+  "modified": "2026-04-20T19:00:13+02:00"
 }

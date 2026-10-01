@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-195"
+  ],
+  "created": "2020-09-15T13:00:10+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZTt81gfqcdJTpr_rfYAvLJA",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4885",
   "reference": "DS 62/2020",
   "name": "Grundschule Barnten; 3-Zügigkeit des Einschulungsjahrgangs 2021/2022",
@@ -53,5 +60,6 @@
       "created": "2020-09-10T17:29:51+02:00",
       "modified": "2020-09-10T17:51:34+02:00"
     }
-  ]
+  ],
+  "modified": "2020-11-10T19:00:11+01:00"
 }

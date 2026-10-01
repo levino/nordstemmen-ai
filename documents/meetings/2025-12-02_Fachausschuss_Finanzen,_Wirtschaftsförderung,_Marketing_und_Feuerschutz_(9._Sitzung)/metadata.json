@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2025-12-02T19:30:00+01:00",
+  "keyword": [
+    "Fachausschuss Finanzen, Wirtschaftsförderung, Marketing und Feuerschutz (9. Sitzung)"
+  ],
+  "created": "2024-09-02T11:43:43+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZXR_1LoT8_wLpjK2z5vOdds",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5639",
   "name": "Fachausschuss Finanzen, Wirtschaftsförderung, Marketing und Feuerschutz (9. Sitzung)",
   "start": "2025-12-02T18:30:00+01:00",
@@ -15,5 +23,135 @@
   },
   "organization": [
     "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-29"
-  ]
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-43253",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Finanzen, Wirtschaftsförderung, Marketing und Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2025-12-02",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZPTW__t-orzu0AA5KjbYq33qJbW-ZUlHEtWtr7jmB2B/Bekanntmachung_Fachausschuss_Finanzen-_Wirtschaftsfoerderung-_Marketing_und_Feuerschutz_02.12.2025.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZPTW__t-orzu0AA5KjbYq33qJbW-ZUlHEtWtr7jmB2B/Bekanntmachung_Fachausschuss_Finanzen-_Wirtschaftsfoerderung-_Marketing_und_Feuerschutz_02.12.2025.pdf",
+    "created": "2025-11-21T13:00:11+01:00",
+    "modified": "2025-11-21T13:00:11+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-43516",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Finanzen, Wirtschaftsförderung, Marketing und Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2025-12-02",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZiUd1kCj6CYrw1aeupXWbzogVotE6iVEyAArsjYekJK/Oeffentliche_Niederschrift_Fachausschuss_Finanzen-_Wirtschaftsfoerderung-_Marketing_und_Feuerschutz_02.12.2025.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZiUd1kCj6CYrw1aeupXWbzogVotE6iVEyAArsjYekJK/Oeffentliche_Niederschrift_Fachausschuss_Finanzen-_Wirtschaftsfoerderung-_Marketing_und_Feuerschutz_02.12.2025.pdf",
+    "created": "2025-12-18T13:00:10+01:00",
+    "modified": "2025-12-18T13:00:10+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24156",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2025-11-20T09:12:31+01:00",
+      "modified": "2025-11-20T09:12:31+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24157",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2025-11-20T09:12:31+01:00",
+      "modified": "2025-11-20T09:12:31+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24158",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 18. November 2025",
+      "created": "2025-11-20T09:12:31+01:00",
+      "modified": "2025-11-20T09:12:31+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24159",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Anfragen und Anregungen",
+      "created": "2025-11-20T09:12:31+01:00",
+      "modified": "2025-11-20T09:12:31+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24160",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2025-11-20T09:12:31+01:00",
+      "modified": "2025-11-20T09:12:31+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24167",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Zuschussantrag TC Gelb-Rot Nordstemmen e.V. auf Bezuschussung der Sanierung der Sanitäranlagen im Klubhaus des TC Gelb-Rot Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8628",
+      "created": "2025-11-21T11:38:07+01:00",
+      "modified": "2025-11-21T11:38:11+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24163",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Haushaltssatzung und Haushaltsplan für das Haushaltsjahr 2026 sowie die Aufstellung\neines Haushaltssicherungskonzeptes",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8618",
+      "created": "2025-11-20T09:39:28+01:00",
+      "modified": "2025-11-20T09:39:31+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24202",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6.1",
+      "order": 8,
+      "name": "Haushaltssatzung und Haushaltsplan für das Haushaltsjahr 2026 sowie die Aufstellung\neines Haushaltssicherungskonzeptes",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8634",
+      "created": "2025-11-28T08:45:23+01:00",
+      "modified": "2025-11-28T08:45:26+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24164",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 9,
+      "name": "Investitionsprogramm für den Investitionszeitraum 2026 - 2029",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8621",
+      "created": "2025-11-20T09:39:37+01:00",
+      "modified": "2025-11-20T09:39:37+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24165",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 10,
+      "name": "Stellenplan 2026 der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8624",
+      "created": "2025-11-20T09:39:43+01:00",
+      "modified": "2025-11-20T11:40:21+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24161",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Mitteilungen der Verwaltung",
+      "created": "2025-11-20T09:12:31+01:00",
+      "modified": "2025-11-20T09:12:31+01:00"
+    }
+  ],
+  "modified": "2026-03-19T17:45:20+01:00"
 }

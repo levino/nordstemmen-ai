@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-196"
+  ],
+  "created": "2019-03-15T13:01:50+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZUknfcb_9PTcNxRY-gf2BHc",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4719",
   "reference": "DS 36/2019",
   "name": "B-Plan 1010 \"Clausstraße-West\"",
@@ -54,5 +61,6 @@
       "created": "2019-03-12T13:20:31+01:00",
       "modified": "2019-03-12T13:20:31+01:00"
     }
-  ]
+  ],
+  "modified": "2019-06-11T19:01:19+02:00"
 }

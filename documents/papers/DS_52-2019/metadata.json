@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2019-05-23T19:01:25+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdwXL8N9P_GIyZynwiUwDqQ",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4737",
   "reference": "DS 52/2019",
   "name": "Veräußerung eines Grundstücks in der Ortschaft Nordstemmen",
@@ -53,5 +60,6 @@
       "created": "2019-05-23T10:01:58+02:00",
       "modified": "2019-05-23T10:01:58+02:00"
     }
-  ]
+  ],
+  "modified": "2019-07-22T13:00:50+02:00"
 }

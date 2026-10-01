@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2019-09-24T19:30:00+02:00",
+  "keyword": [
+    "Rat (20. Sitzung)"
+  ],
+  "created": "2019-05-28T15:45:30+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZcWuH9mru9WSU8AZnsDPTzg",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4348",
   "name": "Rat (20. Sitzung)",
   "start": "2019-09-24T18:30:00+02:00",
@@ -106,7 +114,6 @@
       "order": 6,
       "name": "Annahme von Zuwendungen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6628",
-      "result": "einstimmig",
       "created": "2019-09-09T15:00:31+02:00",
       "modified": "2019-09-10T08:55:35+02:00"
     },
@@ -127,7 +134,6 @@
       "order": 8,
       "name": "Freizeitbad Nordstemmen; Eintrittsgelder",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6598",
-      "result": "19 Ja-Stimmen, 6 Nein-Stimmen, eine Enthaltung",
       "created": "2019-09-09T14:21:02+02:00",
       "modified": "2019-09-09T14:21:07+02:00"
     },
@@ -138,7 +144,6 @@
       "order": 9,
       "name": "Antrag auf Bereitstellung einer Schnellschwimmbahn",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6625",
-      "result": "23 Ja-Stimmen, 2 Nein-Stimmen, eine Enthaltung",
       "created": "2019-09-09T15:00:14+02:00",
       "modified": "2019-09-11T08:23:19+02:00"
     },
@@ -149,7 +154,6 @@
       "order": 10,
       "name": "Förderung von Kindern in Tageseinrichtungen und Kindertagespflege im Landkreis Hildesheim; Grundsätze über die Gewährung von Zuschüssen für Schaffung und Erhalt von Tageseinrichtungen für Kinder",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6601",
-      "result": "einstimmig",
       "created": "2019-09-09T14:58:49+02:00",
       "modified": "2019-09-09T14:58:51+02:00"
     },
@@ -160,7 +164,6 @@
       "order": 11,
       "name": "Grundschule Barnten; Bundesfreiwilligendienst",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6622",
-      "result": "einstimmig",
       "created": "2019-09-09T15:00:05+02:00",
       "modified": "2019-09-11T08:23:36+02:00"
     },
@@ -171,7 +174,6 @@
       "order": 12,
       "name": "Aufweitung des Salzbaches, Ortschaft Nordstemmen, zwischen der Bahnlinie und der Straße „Oberer Kamp“ sowie Ertüchtigung des Durchlasses „Oberer Kamp“",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6611",
-      "result": "21 Ja-Stimmen, 3 Nein-Stimmen, zwei Enthaltungen",
       "created": "2019-09-09T14:59:26+02:00",
       "modified": "2019-09-09T14:59:26+02:00"
     },
@@ -182,7 +184,6 @@
       "order": 13,
       "name": "Bebauungsplan Nr. 0307 \"Barnten - Süd IV\"\n- Vorstellung des neuen Entwurfes und Beschluss zur erneuten (2.) öffentlichen Auslegung",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6616",
-      "result": "25 Ja-Stimmen, eine Nein-Stimme",
       "created": "2019-09-10T09:31:11+02:00",
       "modified": "2019-09-10T09:31:11+02:00"
     },
@@ -193,7 +194,6 @@
       "order": 14,
       "name": "Fusionsverhandlungen mit der Stadt Elze; Antrag der Ratsfraktion Die Unabhängigen in Nordstemmen vom 02.07.2019",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6631",
-      "result": "einstimmig",
       "created": "2019-09-09T15:00:49+02:00",
       "modified": "2019-09-09T15:09:06+02:00"
     },
@@ -215,5 +215,6 @@
       "created": "2019-06-28T11:09:58+02:00",
       "modified": "2019-06-28T11:09:58+02:00"
     }
-  ]
+  ],
+  "modified": "2019-11-28T10:05:21+01:00"
 }

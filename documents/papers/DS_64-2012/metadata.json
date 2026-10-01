@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2012-08-24T12:09:29+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZS8IBBG-q6v9DNRRormETRA",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/738",
   "reference": "DS 64/2012",
   "name": "Antrag der AWO Jugendhilfe und Kindertagesstätten gGmbH auf Erweiterung des Betreuungsangebotes in der Kindertagesstätte Heyersum",
@@ -32,6 +36,15 @@
   ],
   "consultation": [
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1995",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2012-08-16T17:11:59+02:00",
+      "modified": "2012-08-16T17:11:59+02:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1998",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8821",
@@ -53,5 +66,6 @@
       "created": "2012-08-16T17:13:27+02:00",
       "modified": "2012-08-16T17:25:59+02:00"
     }
-  ]
+  ],
+  "modified": "2012-08-24T12:09:29+02:00"
 }

@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2015-02-23T13:00:41+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZU-YR9__gdiLP-dj8y3AI3Y",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1066",
   "reference": "DS 3/2015",
   "name": "Freizeitbad Nordstemmen - Ergebnis der Freibadsaison 2014",
@@ -56,6 +60,15 @@
   ],
   "consultation": [
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2981",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2015-01-29T11:55:24+01:00",
+      "modified": "2015-01-29T12:01:32+01:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2984",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11626",
@@ -77,5 +90,6 @@
       "created": "2015-01-29T11:57:28+01:00",
       "modified": "2015-01-29T11:57:28+01:00"
     }
-  ]
+  ],
+  "modified": "2015-02-23T13:00:41+01:00"
 }

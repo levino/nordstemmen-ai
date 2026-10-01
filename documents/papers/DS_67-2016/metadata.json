@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2016-08-18T13:00:51+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZS062D7vhofevKIXr7_HK88",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1267",
   "reference": "DS 67/2016",
   "name": "Prävention in Nordstemmen - Fortführung des Projektes Communities That Care (CTC) in den Jahren 2017 und 2018",
@@ -43,6 +47,15 @@
       "modified": "2016-08-11T14:48:16+02:00"
     },
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3615",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2016-08-11T14:54:56+02:00",
+      "modified": "2016-08-11T14:54:56+02:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3614",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13268",
@@ -53,5 +66,6 @@
       "created": "2016-08-11T14:54:39+02:00",
       "modified": "2016-08-11T14:54:39+02:00"
     }
-  ]
+  ],
+  "modified": "2016-08-18T13:00:51+02:00"
 }

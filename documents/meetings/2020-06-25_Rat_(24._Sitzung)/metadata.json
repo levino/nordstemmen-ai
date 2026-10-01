@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2020-06-25T19:30:00+02:00",
+  "keyword": [
+    "Rat (24. Sitzung)"
+  ],
+  "created": "2019-11-15T11:40:42+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZZgxLF7S_OMkVDsCC6v6kpc",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4468",
   "name": "Rat (24. Sitzung)",
   "start": "2020-06-25T18:30:00+02:00",
@@ -106,7 +114,6 @@
       "order": 6,
       "name": "Neufassung der Zuschussvereinbarung mit der Wirtschaftsförderungsgesellschaft Hildesheim Region mbH (HI-REG)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6785",
-      "result": "einstimmig lt. Beschlussvorschlag",
       "created": "2020-06-08T10:42:44+02:00",
       "modified": "2020-06-08T10:42:44+02:00"
     },
@@ -127,7 +134,6 @@
       "order": 8,
       "name": "Anpassung der Bruttoeintrittsentgelte für das Freizeitbad Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6802",
-      "result": "einstimmig lt. Beschlussvorschlag",
       "created": "2020-06-10T10:46:44+02:00",
       "modified": "2020-06-10T10:46:52+02:00"
     },
@@ -138,7 +144,6 @@
       "order": 9,
       "name": "Verordnung zur Aufrechterhaltung der öffentlichen Sicherheit und Ordnung in der Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6787",
-      "result": "einstimmig lt. Beschlussvorschlag",
       "created": "2020-06-08T10:42:44+02:00",
       "modified": "2020-06-08T10:42:44+02:00"
     },
@@ -149,7 +154,6 @@
       "order": 10,
       "name": "Durchführungsvertrag zum vorhabenbezogenen Bebauungsplan Nr. 0130 \"Rauhe Wiese - West\"",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6799",
-      "result": "einstimmig lt. Beschlussvorschlag",
       "created": "2020-06-09T11:30:47+02:00",
       "modified": "2020-06-09T11:30:53+02:00"
     },
@@ -160,7 +164,6 @@
       "order": 11,
       "name": "Vorhabenbezogener Bebauungsplan Nr. 0130 \"Rauhe Wiese - West\";\nSatzungsbeschluss gem. § 10 Abs. 1 BauGB",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6794",
-      "result": "einstimmig lt. Beschlussvorschlag",
       "created": "2020-06-08T10:42:44+02:00",
       "modified": "2020-06-08T10:42:44+02:00"
     },
@@ -171,7 +174,6 @@
       "order": 12,
       "name": "Erlass einer Verordnung über das Naturschutzgebiet „Leineaue zwischen Gronau und Burgstemmen“",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6797",
-      "result": "einstimmig lt. Beschlussvorschlag",
       "created": "2020-06-08T10:42:44+02:00",
       "modified": "2020-06-08T10:42:44+02:00"
     },
@@ -182,7 +184,6 @@
       "order": 13,
       "name": "Neuausrichtung Vergabe Mehrfamilienhausgrundstück  Korbmacherstraße 1, 31171 Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6805",
-      "result": "einstimmig / eine Enthaltung / lt. Beschlussvorschlag",
       "created": "2020-06-16T15:14:30+02:00",
       "modified": "2020-06-16T15:14:30+02:00"
     },
@@ -203,7 +204,6 @@
       "order": 15,
       "name": "Annahme von Zuwendungen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6807",
-      "result": "einstimmig lt. Beschlussvorschlag",
       "created": "2020-06-22T09:51:26+02:00",
       "modified": "2020-06-22T09:51:41+02:00"
     },
@@ -225,5 +225,6 @@
       "created": "2020-06-08T10:42:44+02:00",
       "modified": "2020-06-08T10:42:44+02:00"
     }
-  ]
+  ],
+  "modified": "2020-09-28T14:04:26+02:00"
 }

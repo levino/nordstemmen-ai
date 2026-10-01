@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2017-11-09T19:30:00+01:00",
+  "keyword": [
+    "Ortsrat Rössing (4. Sitzung)"
+  ],
+  "created": "2017-04-19T10:19:22+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZeZEcYlahH6swXnZGrtsCEc",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2983",
   "name": "Ortsrat Rössing (4. Sitzung)",
   "start": "2017-11-09T18:00:00+01:00",
@@ -116,7 +124,6 @@
       "order": 7,
       "name": "Anhörung zum Haushaltsplan 2018 und zum Investitionsprogramm bis 2021 für die Ortschaft Rössing",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6012",
-      "result": "einstimmig",
       "created": "2017-10-27T12:52:16+02:00",
       "modified": "2017-10-27T12:52:21+02:00"
     },
@@ -223,5 +230,6 @@
       "created": "2017-10-16T10:58:41+02:00",
       "modified": "2017-10-16T10:58:41+02:00"
     }
-  ]
+  ],
+  "modified": "2018-02-14T09:00:12+01:00"
 }

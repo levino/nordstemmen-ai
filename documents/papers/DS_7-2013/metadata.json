@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2013-05-07T19:00:26+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZUlTa503yZD1DcTiZSIbo2Q",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/801",
   "reference": "DS 7/2013",
   "name": "Aufhebung der Straße \"Kötnerweg\" in der Ortschaft Nordstemmen als öffentliche Straße (Gemeindestraße)",
@@ -43,6 +47,15 @@
       "modified": "2013-05-07T14:28:22+02:00"
     },
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2180",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2013-01-29T10:55:11+01:00",
+      "modified": "2013-01-29T11:32:28+01:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2187",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9861",
@@ -53,5 +66,6 @@
       "created": "2013-01-29T10:56:58+01:00",
       "modified": "2013-01-29T11:33:30+01:00"
     }
-  ]
+  ],
+  "modified": "2013-05-29T13:00:09+02:00"
 }

@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2012-08-20T13:01:12+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZbvxRBcP96YJuY6lN77oURY",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/734",
   "reference": "DS 60/2012",
   "name": "Fortführung des Nachmittagsangebotes an der \"Offenen Ganztagsschule Barnten\" bis zum 31. Juli 2014",
@@ -80,6 +84,15 @@
   ],
   "consultation": [
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1967",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2012-08-16T11:33:24+02:00",
+      "modified": "2012-08-16T11:33:24+02:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1970",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8804",
@@ -101,5 +114,6 @@
       "created": "2012-08-16T11:35:04+02:00",
       "modified": "2012-08-16T11:35:04+02:00"
     }
-  ]
+  ],
+  "modified": "2012-08-20T13:01:12+02:00"
 }

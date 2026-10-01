@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2015-05-08T13:00:24+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZaPqg0YCdzbIsWLU2F1gtto",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1099",
   "reference": "DS 31/2015",
   "name": "Umgestaltung eines Teilbereiches (Gehweg, Grabendurchlass, Überquerungshilfe) der \"Heyersumer Straße\" in der Ortschaft Nordstemmen; Maßnahmenbeschluss",
@@ -43,6 +47,15 @@
       "modified": "2015-05-07T14:03:05+02:00"
     },
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3078",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2015-05-07T14:03:19+02:00",
+      "modified": "2015-05-07T14:03:19+02:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3083",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11963",
@@ -53,5 +66,6 @@
       "created": "2015-05-07T14:06:13+02:00",
       "modified": "2015-05-07T14:06:13+02:00"
     }
-  ]
+  ],
+  "modified": "2015-05-08T13:00:24+02:00"
 }

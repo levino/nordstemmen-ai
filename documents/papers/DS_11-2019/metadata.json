@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2019-02-06T13:01:00+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQoqLa4pXmFqcnVmOWBNYHI",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4691",
   "reference": "DS 11/2019",
   "name": "Vorsitz des Arbeitskreises Sportstättenkonzept",
@@ -28,5 +35,6 @@
       "created": "2019-02-05T11:15:43+01:00",
       "modified": "2019-02-05T11:15:44+01:00"
     }
-  ]
+  ],
+  "modified": "2019-04-08T13:02:00+02:00"
 }

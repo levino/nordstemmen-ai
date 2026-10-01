@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2017-09-12T19:30:00+02:00",
+  "keyword": [
+    "Fachausschuss Finanzen, Wirtschaftsförderung, Marketing und Feuerschutz (4. Sitzung)"
+  ],
+  "created": "2017-04-19T10:10:54+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZQ2E4DymtLbIQ9Gkur1iyY0",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2964",
   "name": "Fachausschuss Finanzen, Wirtschaftsförderung, Marketing und Feuerschutz (4. Sitzung)",
   "start": "2017-09-12T18:30:00+02:00",
@@ -117,7 +125,6 @@
       "order": 7,
       "name": "Überarbeitung der Satzung für die Freiwillige Feuerwehr der Gemeinde Nordstemmen, Landkreis Hildesheim (Feuerwehrsatzung)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/4955",
-      "result": "9 Ja-Stimmen 0 Nein-Stimmen 0 Enthaltungen",
       "resolutionFile": {
         "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-21864",
         "type": "https://schema.oparl.org/1.1/File",
@@ -174,5 +181,6 @@
       "created": "2017-07-28T11:35:46+02:00",
       "modified": "2017-07-28T11:35:46+02:00"
     }
-  ]
+  ],
+  "modified": "2017-12-06T13:07:57+01:00"
 }

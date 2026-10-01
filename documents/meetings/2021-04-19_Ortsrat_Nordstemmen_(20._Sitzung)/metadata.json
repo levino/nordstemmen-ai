@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2021-04-19T20:00:00+02:00",
+  "keyword": [
+    "Ortsrat Nordstemmen (20. Sitzung)"
+  ],
+  "created": "2020-11-26T17:17:58+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZfZvbQieHohoPFriPG3ennA",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4629",
   "name": "Ortsrat Nordstemmen (20. Sitzung)",
   "start": "2021-04-19T19:00:00+02:00",
@@ -106,7 +114,6 @@
       "order": 6,
       "name": "Bebauungsplan Nr. 0125 „Mahlerter Straße - Nord“, 4. (vereinfachte) Änderung; Ortschaft Nordstemmen\n- Anhörung des Ortsrates gemäß § 94 Absatz 1 NKomVG",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7033",
-      "result": "Zur Kenntnis genommen",
       "created": "2021-04-07T08:40:36+02:00",
       "modified": "2021-04-07T08:40:40+02:00"
     },
@@ -117,7 +124,6 @@
       "order": 7,
       "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2022 sowie für die mittelfristige Finanzplanung 2023 bis 2025",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7025",
-      "result": "Kein Beschluss",
       "created": "2021-04-07T08:40:56+02:00",
       "modified": "2021-04-07T08:40:56+02:00"
     },
@@ -201,5 +207,6 @@
       "created": "2021-01-26T18:17:11+01:00",
       "modified": "2021-01-26T18:17:11+01:00"
     }
-  ]
+  ],
+  "modified": "2021-06-08T12:12:27+02:00"
 }

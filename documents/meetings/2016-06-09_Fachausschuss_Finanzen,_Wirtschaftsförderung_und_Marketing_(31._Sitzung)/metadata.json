@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2016-06-09T19:30:00+02:00",
+  "keyword": [
+    "Fachausschuss Finanzen, Wirtschaftsförderung und Marketing (31. Sitzung)"
+  ],
+  "created": "2015-11-09T13:12:29+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZUGEoyzzvy8m9DkK7tpLh-U",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2693",
   "name": "Fachausschuss Finanzen, Wirtschaftsförderung und Marketing (31. Sitzung)",
   "start": "2016-06-09T18:30:00+02:00",
@@ -106,7 +114,6 @@
       "order": 6,
       "name": "Umbaumaßnahmen für die Umwandlung einer Kindergartengruppe in eine Krippengruppe in der ev.-luth. Kindertagesstätte St. Johannes Groß Escherde\n\nZustimmung zu einer überplanmäßigen Auszahlung; Eilentscheidung gem. § 89 NKomVG",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3504",
-      "result": "Einstimmig, 0 Enthaltung(en)",
       "resolutionFile": {
         "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-16603",
         "type": "https://schema.oparl.org/1.1/File",
@@ -173,7 +180,6 @@
       "order": 9,
       "name": "Benennung von Vertretern/innen für die Gesellschafterversammlung der NBEG Baulandentwicklung Beteiligungsgesellschaft mbH Nordstemmen und der NBEG Baulandentwicklungsgesellschaft mbH Nordstemmen GmbH & Co. KG",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3538",
-      "result": "Einstimmig, 0 Enthaltung(en)",
       "resolutionFile": {
         "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-16601",
         "type": "https://schema.oparl.org/1.1/File",
@@ -207,5 +213,6 @@
       "created": "2016-05-31T14:57:43+02:00",
       "modified": "2016-05-31T14:57:43+02:00"
     }
-  ]
+  ],
+  "modified": "2016-09-29T13:40:28+02:00"
 }

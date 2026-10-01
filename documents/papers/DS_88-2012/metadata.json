@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2012-11-01T11:57:17+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZZL-Q8CVjmsTS5FV72jOfMM",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/769",
   "reference": "DS 88/2012",
   "name": "Satzung über die Festlegung von Schulbezirken für die Grundschulen in der Gemeinde Nordstemmen",
@@ -56,6 +60,15 @@
   ],
   "consultation": [
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2073",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2012-10-30T16:10:37+01:00",
+      "modified": "2012-10-30T16:10:37+01:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2076",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9177",
@@ -77,5 +90,6 @@
       "created": "2012-10-30T16:11:37+01:00",
       "modified": "2012-10-30T16:11:37+01:00"
     }
-  ]
+  ],
+  "modified": "2012-11-01T11:57:17+01:00"
 }

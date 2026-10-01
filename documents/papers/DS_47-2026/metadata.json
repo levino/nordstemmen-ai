@@ -1,20 +1,27 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2026-05-19T08:20:07+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZaGb6MdRptQmnRE-UKFJD74",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5867",
   "reference": "DS 47/2026",
   "name": "Veräußerung von landwirtschaftlichen Flächen in der Gemarkung Nordstemmen und der Gemarkung Rössing",
   "paperType": "Beschlussvorlage",
-  "date": "2026-05-27",
+  "date": "2026-09-29",
   "mainFile": {
     "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-44681",
     "type": "https://schema.oparl.org/1.1/File",
     "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
     "name": "Beschlussvorlage (Veräußerung von landwirtschaftlichen Flächen in der Gemarkung Nordstemmen und der Gemarkung Rössing)",
     "mimeType": "application/pdf",
-    "date": "2026-05-27",
+    "date": "2026-09-29",
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZflABkQnFy68ysTbLYQNh9e6HkGzkYklZoLGRkPcb7vE/Beschlussvorlage_DS_47-2026.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZflABkQnFy68ysTbLYQNh9e6HkGzkYklZoLGRkPcb7vE/Beschlussvorlage_DS_47-2026.pdf",
     "created": "2026-05-19T08:20:07+02:00",
-    "modified": "2026-05-19T08:20:07+02:00"
+    "modified": "2026-09-22T13:00:24+02:00"
   },
   "auxiliaryFile": [
     {
@@ -23,7 +30,7 @@
       "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
       "name": "Beschlussvorlage (Anlage Lageplan)",
       "mimeType": "application/pdf",
-      "date": "2026-05-27",
+      "date": "2026-09-29",
       "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaVV6vGRX9vFN9Zw-A2AZQ3NPaxXWUebWwAiz18-bQw9/Anlage_Lageplan.pdf",
       "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaVV6vGRX9vFN9Zw-A2AZQ3NPaxXWUebWwAiz18-bQw9/Anlage_Lageplan.pdf",
       "created": "2026-05-19T08:20:07+02:00",
@@ -41,6 +48,29 @@
       ],
       "created": "2026-05-07T17:20:32+02:00",
       "modified": "2026-05-07T17:20:32+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8838",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25177",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5863",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-40"
+      ],
+      "created": "2026-05-28T10:26:06+02:00",
+      "modified": "2026-05-28T10:26:06+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8840",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25293",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5786",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2026-05-28T10:26:21+02:00",
+      "modified": "2026-08-31T09:39:51+02:00"
     }
-  ]
+  ],
+  "modified": "2026-09-22T13:00:24+02:00"
 }

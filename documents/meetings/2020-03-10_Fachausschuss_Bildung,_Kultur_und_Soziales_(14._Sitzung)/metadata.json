@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2020-03-10T19:30:00+01:00",
+  "keyword": [
+    "Fachausschuss Bildung, Kultur und Soziales (14. Sitzung)"
+  ],
+  "created": "2019-11-15T11:23:55+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZZGpwm6fPN3_E_u5mrb9eS4",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4443",
   "name": "Fachausschuss Bildung, Kultur und Soziales (14. Sitzung)",
   "start": "2020-03-10T18:30:00+01:00",
@@ -119,7 +127,6 @@
       "order": 9,
       "name": "Kita St. Johannis in Nordstemmen; Erweiterung der Betreuungszeiten durch Umwandlung einer Kindergartengruppe",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6727",
-      "result": "einstimmig",
       "created": "2020-02-18T14:35:04+01:00",
       "modified": "2020-02-18T14:35:08+01:00"
     },
@@ -130,7 +137,6 @@
       "order": 10,
       "name": "Freizeitbad Nordstemmen;\nErgebnis der Freibadsaison 2019",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6747",
-      "result": "Zur Kenntnis genommen",
       "created": "2020-03-10T14:25:20+01:00",
       "modified": "2020-03-10T14:25:20+01:00"
     },
@@ -152,5 +158,6 @@
       "created": "2019-11-19T15:16:00+01:00",
       "modified": "2019-11-19T15:16:00+01:00"
     }
-  ]
+  ],
+  "modified": "2020-11-10T16:36:50+01:00"
 }

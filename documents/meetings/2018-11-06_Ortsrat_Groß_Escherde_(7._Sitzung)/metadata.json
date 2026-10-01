@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-11-06T20:00:00+01:00",
+  "keyword": [
+    "Ortsrat Groß Escherde (7. Sitzung)"
+  ],
+  "created": "2018-03-12T14:43:04+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZVWr3RboTTbIzpdckRvwflE",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4154",
   "name": "Ortsrat Groß Escherde (7. Sitzung)",
   "start": "2018-11-06T19:00:00+01:00",
@@ -116,7 +124,6 @@
       "order": 7,
       "name": "Anhörung zum Haushaltsplan 2019 und zum Investitionsprogramm bis 2022 für die Ortschaft Groß Escherde",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6372",
-      "result": "zustimmend",
       "created": "2018-10-18T17:20:56+02:00",
       "modified": "2018-10-18T17:20:56+02:00"
     },
@@ -226,5 +233,6 @@
       "created": "2018-10-18T17:20:56+02:00",
       "modified": "2018-10-18T17:20:56+02:00"
     }
-  ]
+  ],
+  "modified": "2019-05-06T14:22:37+02:00"
 }

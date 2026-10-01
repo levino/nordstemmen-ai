@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2015-06-11T19:01:08+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQRwhIDTVXuOdvHY4EbJ8ww",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1104",
   "reference": "DS 37/2015",
   "name": "Antrag des Fördervereins der CJD Grundschule Adensen\n- Projekt Werk-/Fachraum",
@@ -43,6 +47,15 @@
       "modified": "2015-06-11T12:07:49+02:00"
     },
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3106",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2015-06-03T11:43:08+02:00",
+      "modified": "2015-06-11T12:07:08+02:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3108",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11958",
@@ -53,5 +66,6 @@
       "created": "2015-06-03T11:43:33+02:00",
       "modified": "2015-06-03T11:43:33+02:00"
     }
-  ]
+  ],
+  "modified": "2015-06-11T19:01:08+02:00"
 }

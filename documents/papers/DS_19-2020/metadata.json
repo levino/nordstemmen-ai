@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-196"
+  ],
+  "created": "2020-03-06T13:00:05+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZS0a6zfV2pUV3aep9Bmic7A",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4837",
   "reference": "DS 19/2020",
   "name": "Barrierefreier Ausbau der Bushaltestelle Mahlerten",
@@ -65,5 +72,6 @@
       "created": "2020-02-24T10:29:51+01:00",
       "modified": "2020-02-24T10:29:51+01:00"
     }
-  ]
+  ],
+  "modified": "2020-03-30T13:00:45+02:00"
 }

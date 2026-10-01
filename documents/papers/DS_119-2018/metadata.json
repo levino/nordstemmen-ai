@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2018-12-03T19:01:04+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZanyegVO74hYo_6xglpbjs0",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4672",
   "reference": "DS 119/2018",
   "name": "Neufassung der Vergnügungssteuersatzung der Gemeinde Nordstemmen",
@@ -65,5 +72,6 @@
       "created": "2018-11-26T10:10:03+01:00",
       "modified": "2018-11-26T10:10:04+01:00"
     }
-  ]
+  ],
+  "modified": "2019-01-14T13:01:40+01:00"
 }

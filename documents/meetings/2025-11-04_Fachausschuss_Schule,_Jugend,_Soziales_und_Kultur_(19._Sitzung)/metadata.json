@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2025-11-04T19:30:00+01:00",
+  "keyword": [
+    "Fachausschuss Schule, Jugend, Soziales und Kultur (19. Sitzung)"
+  ],
+  "created": "2024-09-02T11:13:30+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZcrZL1igW5eM3rASCHl7c2g",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5608",
   "name": "Fachausschuss Schule, Jugend, Soziales und Kultur (19. Sitzung)",
   "start": "2025-11-04T18:30:00+01:00",
@@ -28,6 +36,18 @@
     "created": "2025-10-23T13:00:01+02:00",
     "modified": "2025-10-23T13:00:01+02:00"
   },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-43857",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Schule, Jugend, Soziales und Kultur)",
+    "mimeType": "application/pdf",
+    "date": "2025-11-04",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZQRB1Jf7w4eNWfpHGygsxAFlj6SrpRcmZNAbwwDPZwI/Oeffentliche_Niederschrift_Fachausschuss_Schule-_Jugend-_Soziales_und_Kultur_04.11.2025.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZQRB1Jf7w4eNWfpHGygsxAFlj6SrpRcmZNAbwwDPZwI/Oeffentliche_Niederschrift_Fachausschuss_Schule-_Jugend-_Soziales_und_Kultur_04.11.2025.pdf",
+    "created": "2026-01-28T13:00:05+01:00",
+    "modified": "2026-01-28T13:00:05+01:00"
+  },
   "agendaItem": [
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23560",
@@ -35,8 +55,8 @@
       "number": "1",
       "order": 1,
       "name": "- öffentlicher Teil -",
-      "created": "2025-10-23T07:47:36+02:00",
-      "modified": "2025-10-23T07:47:36+02:00"
+      "created": "2025-05-13T08:14:39+02:00",
+      "modified": "2025-05-13T08:14:39+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23561",
@@ -44,8 +64,8 @@
       "number": "1",
       "order": 2,
       "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
-      "created": "2025-10-23T07:47:36+02:00",
-      "modified": "2025-10-23T07:47:36+02:00"
+      "created": "2025-05-13T08:14:39+02:00",
+      "modified": "2025-05-13T08:14:39+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23562",
@@ -53,8 +73,8 @@
       "number": "2",
       "order": 3,
       "name": "Genehmigung des Protokolls der Sitzung vom 26.08.2025\n",
-      "created": "2025-10-23T07:47:36+02:00",
-      "modified": "2025-10-23T07:47:36+02:00"
+      "created": "2025-05-13T08:14:39+02:00",
+      "modified": "2025-10-21T13:40:38+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23767",
@@ -62,8 +82,8 @@
       "number": "3",
       "order": 4,
       "name": "Genehmigung des Protokolls der gemeinsamen Sitzung vom 28.08.2025",
-      "created": "2025-10-23T07:47:36+02:00",
-      "modified": "2025-10-23T07:47:36+02:00"
+      "created": "2025-08-15T08:22:20+02:00",
+      "modified": "2025-10-21T13:38:46+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24034",
@@ -71,8 +91,8 @@
       "number": "4",
       "order": 5,
       "name": "Verpflichtung von Ausschussmitgliedern\n- Lehrer- und Elternvertretungen",
-      "created": "2025-10-23T07:47:36+02:00",
-      "modified": "2025-10-23T07:47:36+02:00"
+      "created": "2025-10-21T13:44:18+02:00",
+      "modified": "2025-10-21T13:44:18+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23563",
@@ -80,8 +100,8 @@
       "number": "5",
       "order": 6,
       "name": "Anfragen und Anregungen",
-      "created": "2025-10-23T07:47:36+02:00",
-      "modified": "2025-10-23T07:47:36+02:00"
+      "created": "2025-05-13T08:14:39+02:00",
+      "modified": "2025-05-13T08:14:39+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23564",
@@ -89,8 +109,8 @@
       "number": "6",
       "order": 7,
       "name": "Einwohner*innen Fragestunde\n\n\nAufgaben des Schulausschusses nach § 110 NSchG:",
-      "created": "2025-10-23T07:47:36+02:00",
-      "modified": "2025-10-23T07:47:36+02:00"
+      "created": "2025-05-13T08:14:39+02:00",
+      "modified": "2025-10-21T13:44:28+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23768",
@@ -98,8 +118,58 @@
       "number": "7",
       "order": 8,
       "name": "Unterrichtung über die Entwicklung der Schülerzahlen\n(Ausführungen werden in der Sitzung gemacht)",
-      "created": "2025-10-23T07:47:36+02:00",
-      "modified": "2025-10-23T07:47:36+02:00"
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7513",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 Schüler in den Grundschulen)",
+          "mimeType": "application/pdf",
+          "date": "2025-11-04",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZe612uv5z7XHI58RQoTGJNxaLIdIKjZyj4Z558-ncQAY/Anlage_1_Schueler_in_den_Grundschulen.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZe612uv5z7XHI58RQoTGJNxaLIdIKjZyj4Z558-ncQAY/Anlage_1_Schueler_in_den_Grundschulen.pdf",
+          "created": "2026-01-28T13:00:05+01:00",
+          "modified": "2026-01-28T13:00:05+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7514",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2 Schulentwicklungsplanung)",
+          "mimeType": "application/pdf",
+          "date": "2025-11-04",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbuhG6dK59L1cD7gCuSiO-v_OJ9wIqxUcHSq_JwEQVTf/Anlage_2_Schulentwicklungsplanung.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbuhG6dK59L1cD7gCuSiO-v_OJ9wIqxUcHSq_JwEQVTf/Anlage_2_Schulentwicklungsplanung.pdf",
+          "created": "2026-01-28T13:00:05+01:00",
+          "modified": "2026-01-28T13:00:05+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7515",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 3 Weiterführende Schulen)",
+          "mimeType": "application/pdf",
+          "date": "2025-11-04",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZa_SZVO63Yp7PgcVf5Pe7NjmhEJI20GskAihqhrcIXsy/Anlage_3_Weiterfuehrende_Schulen.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZa_SZVO63Yp7PgcVf5Pe7NjmhEJI20GskAihqhrcIXsy/Anlage_3_Weiterfuehrende_Schulen.pdf",
+          "created": "2026-01-28T13:00:05+01:00",
+          "modified": "2026-01-28T13:00:05+01:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7516",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 4 Schülerzahlen einzelne Grundschulen)",
+          "mimeType": "application/pdf",
+          "date": "2025-11-04",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZea-PSS-tmxgi7GfvHG8P5icz9lB8YJHFRK0q5LurWEl/Anlage_4_Schuelerzahlen_einzelne_Grundschulen.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZea-PSS-tmxgi7GfvHG8P5icz9lB8YJHFRK0q5LurWEl/Anlage_4_Schuelerzahlen_einzelne_Grundschulen.pdf",
+          "created": "2026-01-28T13:00:05+01:00",
+          "modified": "2026-01-28T13:00:05+01:00"
+        }
+      ],
+      "created": "2025-08-19T08:06:58+02:00",
+      "modified": "2025-08-19T08:06:58+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24035",
@@ -107,8 +177,8 @@
       "number": "8",
       "order": 9,
       "name": "Berichte der Schulleitungen\n- Grundschule Asternschule Nordstemmen\n- Grundschule Barnten\n- Grundschule CJD Adensen\n- Marienbergschule Nordstemmen",
-      "created": "2025-10-23T07:47:36+02:00",
-      "modified": "2025-10-23T07:47:36+02:00"
+      "created": "2025-10-21T13:48:11+02:00",
+      "modified": "2025-10-21T13:48:11+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24036",
@@ -117,8 +187,8 @@
       "order": 10,
       "name": "Umsetzung/Zulassung 3-Zügigkeit GS Barnten und Bereitstellung von Räumlichkeiten für die 4-Zügigkeit GS Nordstemmen für das Schuljahr 2026/2027",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8558",
-      "created": "2025-10-23T07:47:36+02:00",
-      "modified": "2025-10-23T07:47:36+02:00"
+      "created": "2025-10-21T13:48:24+02:00",
+      "modified": "2025-10-21T13:48:31+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24037",
@@ -126,9 +196,8 @@
       "number": "10",
       "order": 11,
       "name": "Nutzungs- und Entgeltordnung für die Nutzung von Schulräumen/- einrichtungen für außerschulische Zwecke ",
-      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8575",
-      "created": "2025-10-23T07:47:36+02:00",
-      "modified": "2025-10-23T07:47:36+02:00"
+      "created": "2025-10-21T13:48:47+02:00",
+      "modified": "2025-10-21T13:48:47+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24038",
@@ -137,8 +206,8 @@
       "order": 12,
       "name": "Freizeitbad Nordstemmen; Beginn der Badesaison 2026",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8546",
-      "created": "2025-10-23T07:47:36+02:00",
-      "modified": "2025-10-23T07:47:36+02:00"
+      "created": "2025-10-21T13:51:20+02:00",
+      "modified": "2025-10-21T13:51:20+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24039",
@@ -146,9 +215,8 @@
       "number": "12",
       "order": 13,
       "name": "Antrag des VSV Rössing e.V. auf Sanierung der Laufbahn",
-      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8543",
-      "created": "2025-10-23T07:47:36+02:00",
-      "modified": "2025-10-23T07:47:36+02:00"
+      "created": "2025-10-21T13:51:36+02:00",
+      "modified": "2025-10-21T13:53:22+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24040",
@@ -157,8 +225,8 @@
       "order": 14,
       "name": "Zuschussantrag TC Gelb-Rot Nordstemmen e.V. auf Bezuschussung der Sanierung der Sanitäranlagen im Klubhaus des TC Gelb-Rot Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8549",
-      "created": "2025-10-23T07:47:36+02:00",
-      "modified": "2025-10-23T07:47:36+02:00"
+      "created": "2025-10-21T13:52:03+02:00",
+      "modified": "2025-10-21T13:52:03+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24041",
@@ -167,8 +235,8 @@
       "order": 15,
       "name": "Haushalt 2026 und Investitionsprogramm 2027 - 2029;\nTeilhaushalt für die Produktbereiche Schule, Jugend, Soziales und Kultur",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8570",
-      "created": "2025-10-23T07:47:36+02:00",
-      "modified": "2025-10-23T07:47:36+02:00"
+      "created": "2025-10-21T13:53:51+02:00",
+      "modified": "2025-10-21T13:53:51+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23565",
@@ -176,8 +244,9 @@
       "number": "15",
       "order": 16,
       "name": "Mitteilungen der Verwaltung",
-      "created": "2025-10-23T07:47:36+02:00",
-      "modified": "2025-10-23T07:47:36+02:00"
+      "created": "2025-05-13T08:14:39+02:00",
+      "modified": "2025-05-13T08:14:39+02:00"
     }
-  ]
+  ],
+  "modified": "2026-03-05T17:08:55+01:00"
 }

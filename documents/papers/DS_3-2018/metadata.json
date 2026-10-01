@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2018-01-29T19:01:01+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZZ7n7XXnmL0Uc-5ohpgjM64",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4508",
   "reference": "DS 3/2018",
   "name": "Potenzielle Hotspot-Standorte im Rahmen der EU-Förderung (WIFI4EU)",
@@ -141,5 +148,6 @@
       "created": "2018-01-29T09:38:59+01:00",
       "modified": "2018-01-29T09:38:59+01:00"
     }
-  ]
+  ],
+  "modified": "2018-07-02T13:01:05+02:00"
 }

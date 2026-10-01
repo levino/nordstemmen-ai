@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2026-01-27T19:00:00+01:00",
+  "keyword": [
+    "Ortsrat Adensen (14. Sitzung)"
+  ],
+  "created": "2025-09-15T11:05:43+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZXRBsr1msYjcibGlIv7cQpQ",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5789",
   "name": "Ortsrat Adensen (14. Sitzung)",
   "start": "2026-01-27T18:00:00+01:00",
@@ -15,5 +23,94 @@
   },
   "organization": [
     "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-11"
-  ]
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-43703",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2026-01-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYTo2QlcoXa2Ca0o2sL1XVwk1IOTafJfolZ1yK6CRoro/Bekanntmachung_Ortsrat_Adensen_27.01.2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYTo2QlcoXa2Ca0o2sL1XVwk1IOTafJfolZ1yK6CRoro/Bekanntmachung_Ortsrat_Adensen_27.01.2026.pdf",
+    "created": "2026-01-15T17:06:34+01:00",
+    "modified": "2026-01-15T17:06:34+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-43940",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2026-01-27",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZX-_kXrmgmXByNjlASu1Dz-JT6S0tv0-N67l8Hi5Mo7U/Oeffentliche_Niederschrift_Ortsrat_Adensen_27.01.2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZX-_kXrmgmXByNjlASu1Dz-JT6S0tv0-N67l8Hi5Mo7U/Oeffentliche_Niederschrift_Ortsrat_Adensen_27.01.2026.pdf",
+    "created": "2026-02-10T13:00:09+01:00",
+    "modified": "2026-02-10T13:00:09+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24256",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2026-01-08T15:58:19+01:00",
+      "modified": "2026-01-08T15:58:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24257",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2026-01-08T15:58:19+01:00",
+      "modified": "2026-01-08T15:58:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24258",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 02. Oktober 2025",
+      "created": "2026-01-08T15:58:19+01:00",
+      "modified": "2026-01-08T15:58:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24259",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Anfragen und Anregungen",
+      "created": "2026-01-08T15:58:19+01:00",
+      "modified": "2026-01-08T15:58:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24260",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2026-01-08T15:58:19+01:00",
+      "modified": "2026-01-08T15:58:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24261",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2026-01-08T15:58:19+01:00",
+      "modified": "2026-01-08T15:58:19+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24262",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Mitteilungen der Verwaltung\n\n- Neubau Feuerwehrhaus Adensen-Hallerburg\n- Nachnutzung Hort in Adensen\n- Anfrage zum Stand des Planfeststellungsverfahrens OD Adensen und zur öffentlichen Auslegung\n- Anfrage des Ortsrates Adensen bezüglich Sachstand K 505 – Zeitrahmen Temporeduzierung",
+      "created": "2026-01-08T15:58:19+01:00",
+      "modified": "2026-01-08T15:58:19+01:00"
+    }
+  ],
+  "modified": "2026-06-29T12:23:44+02:00"
 }

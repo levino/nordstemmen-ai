@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2024-11-12T19:00:00+01:00",
+  "keyword": [
+    "Fachausschuss Klimaschutz, Bau und Umwelt (17. Sitzung)"
+  ],
+  "created": "2023-09-11T12:36:27+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZfcXRmkMvp9tICgC6qlgOLI",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5477",
   "name": "Fachausschuss Klimaschutz, Bau und Umwelt (17. Sitzung)",
   "start": "2024-11-12T18:00:00+01:00",
@@ -102,7 +110,6 @@
       "order": 7,
       "name": "Haushalt 2025, Investitionsprogramm bis 2028,\nTeilhaushalt für den Produktbereich Planung, Bau und Umwelt",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8202",
-      "result": "Einstimmig als beraten u. behandelt angesehen",
       "created": "2024-10-29T07:24:56+01:00",
       "modified": "2024-10-29T07:26:15+01:00"
     },
@@ -123,7 +130,6 @@
       "order": 9,
       "name": "Grundsatzbeschluss zur Ortsumgehung der Bundesstraße 1",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8216",
-      "result": "1 Ja-Stimme und 8 Nein-Stimmen8 Ja Stimmen und 1 Nein-Stimme",
       "created": "2024-11-01T07:22:19+01:00",
       "modified": "2024-11-01T07:22:24+01:00"
     },
@@ -134,7 +140,6 @@
       "order": 10,
       "name": "Grundsatzbeschluss Windenergie",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8184",
-      "result": "Einstimmig bei 2 Enthaltungen/lt. Beschlussvorschlag",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7061",
@@ -159,7 +164,6 @@
       "order": 11,
       "name": "Antrag auf Aufstellung der 25. Änderung des Flächennutzungsplanes der Gemeinde Nordstemmen (Gewerbegebiet - Barnten)\n- Aufstellungsbeschluss gemäß § 2 Absatz 1 Baugesetzbuch (BauGB)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8198",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7062",
@@ -184,7 +188,6 @@
       "order": 12,
       "name": "Bebauungsplan Nr. 0308 \"Gewerbegebiet - Barnten\"\n- Aufstellungsbeschluss gemäß § 2 Absatz 1 Baugesetzbuch (BauGB)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8200",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2024-10-29T07:24:50+01:00",
       "modified": "2024-10-29T07:24:50+01:00"
     },
@@ -195,7 +198,6 @@
       "order": 13,
       "name": "Bebauungsplan Nr. 0103 A \"Schratfeld\", 8. Änderung; Ortschaft Nordstemmen\n- Aufstellungsbeschluss gemäß § 2 Absatz 1 Baugesetzbuch (BauGB)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8203",
-      "result": "Einstimmig, 2 Enthaltungen als beratend behandelt",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7063",
@@ -220,7 +222,6 @@
       "order": 14,
       "name": "Spielplatzkonzept der Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8081",
-      "result": "Einstimmig geänderter Beschluss",
       "created": "2024-08-28T10:45:57+02:00",
       "modified": "2024-11-01T07:19:49+01:00"
     },
@@ -256,5 +257,6 @@
       "created": "2024-08-28T10:45:57+02:00",
       "modified": "2024-08-28T10:45:57+02:00"
     }
-  ]
+  ],
+  "modified": "2024-12-13T10:15:29+01:00"
 }

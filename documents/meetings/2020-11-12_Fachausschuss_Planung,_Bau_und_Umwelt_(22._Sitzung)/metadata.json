@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2020-11-12T19:30:00+01:00",
+  "keyword": [
+    "Fachausschuss Planung, Bau und Umwelt (22. Sitzung)"
+  ],
+  "created": "2020-06-23T15:02:39+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZQd9mMgmR859xAJYGrTgeFA",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4570",
   "name": "Fachausschuss Planung, Bau und Umwelt (22. Sitzung)",
   "start": "2020-11-12T18:30:00+01:00",
@@ -83,7 +91,6 @@
       "order": 5,
       "name": "Bebauungsplan Nr. 0804 \"Teichstraße - Ost\"\nVorstellung des Entwurfes und Beschluss zur öffentlichen Auslegung",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6888",
-      "result": "einstimmig lt. Beschlussvorschlag",
       "created": "2020-10-27T14:52:58+01:00",
       "modified": "2020-10-30T09:04:04+01:00"
     },
@@ -94,7 +101,6 @@
       "order": 6,
       "name": "Aufstellung eines Baulandkatasters für die Gemeinde Nordstemmen\n- Aufstellungsbeschluss",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6890",
-      "result": "einstimmig/Ergänzung um Buchstabe g)",
       "created": "2020-10-27T14:53:05+01:00",
       "modified": "2020-10-30T09:04:10+01:00"
     },
@@ -105,7 +111,6 @@
       "order": 7,
       "name": "Haushalt 2021, Investitionsprogramm 2022 bis 2024\nTeilhaushalt für den Produktbereich Planung, Bau, Umwelt",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6893",
-      "result": "Zustimmend zur Kenntnis genommen",
       "created": "2020-11-03T15:26:26+01:00",
       "modified": "2020-11-03T15:26:26+01:00"
     },
@@ -116,7 +121,6 @@
       "order": 8,
       "name": "Barrierefreier Ausbau der Bushaltestelle „Heyersumer Straße“, Nordstemmen; Maßnahmenbeschluss ",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6854",
-      "result": "einstimmig lt. Beschlussvorschlag",
       "created": "2020-10-27T14:52:52+01:00",
       "modified": "2020-10-27T14:52:52+01:00"
     },
@@ -161,5 +165,6 @@
       "created": "2020-08-28T09:40:38+02:00",
       "modified": "2020-08-28T09:40:38+02:00"
     }
-  ]
+  ],
+  "modified": "2021-05-14T08:05:51+02:00"
 }

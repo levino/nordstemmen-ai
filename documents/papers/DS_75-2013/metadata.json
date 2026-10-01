@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2013-08-30T13:00:28+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZV-gTA8rNy2VooLEEExqr7c",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/882",
   "reference": "DS 75/2013",
   "name": "Freizeitbad Nordstemmen - Ergebnis der Freibadsaison 2012 und  Ausblick",
@@ -56,6 +60,15 @@
   ],
   "consultation": [
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2474",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2013-08-30T09:57:29+02:00",
+      "modified": "2013-08-30T12:22:42+02:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2477",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10103",
@@ -77,5 +90,6 @@
       "created": "2013-08-30T09:58:51+02:00",
       "modified": "2013-08-30T09:58:51+02:00"
     }
-  ]
+  ],
+  "modified": "2013-08-30T13:00:28+02:00"
 }

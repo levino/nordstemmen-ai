@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2021-11-09T19:00:00+01:00",
+  "keyword": [
+    "Ortsrat Nordstemmen (1. Sitzung)"
+  ],
+  "created": "2021-06-22T08:53:31+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZWeNcMw3L8YQmhlMFFAJ0B0",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4773",
   "name": "Ortsrat Nordstemmen (1. Sitzung)",
   "start": "2021-11-09T18:00:00+01:00",
@@ -164,7 +172,6 @@
       "order": 14,
       "name": "Änderungen im Winterdienst der Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7199",
-      "result": "Zur Kenntnis genommen",
       "created": "2021-11-01T07:48:29+01:00",
       "modified": "2021-11-01T09:05:54+01:00"
     },
@@ -237,5 +244,6 @@
       "created": "2021-10-04T11:59:43+02:00",
       "modified": "2021-10-04T11:59:43+02:00"
     }
-  ]
+  ],
+  "modified": "2022-03-16T13:41:30+01:00"
 }

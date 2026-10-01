@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2019-04-04T19:30:00+02:00",
+  "keyword": [
+    "Rat (18. Sitzung)"
+  ],
+  "created": "2019-03-27T12:37:42+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZXYL0mgO9KFGgoW3Mit1ack",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4321",
   "name": "Rat (18. Sitzung)",
   "start": "2019-04-04T18:30:00+02:00",
@@ -83,7 +91,6 @@
       "order": 5,
       "name": "Förderung von Kindern in Tageseinrichtungen und Kindertagespflege im Landkreis Hildesheim; Vereinbarung zur Wahrnehmung der Kindertagesbetreuung (Kita-Vertrag)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6527",
-      "result": "einstimmig",
       "created": "2019-03-29T08:21:31+01:00",
       "modified": "2019-03-29T08:21:31+01:00"
     },
@@ -105,5 +112,6 @@
       "created": "2019-03-29T08:21:31+01:00",
       "modified": "2019-03-29T08:21:31+01:00"
     }
-  ]
+  ],
+  "modified": "2019-04-24T09:40:40+02:00"
 }

@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2021-03-16T19:30:00+01:00",
+  "keyword": [
+    "Fachausschuss Planung, Bau und Umwelt (23. Sitzung)"
+  ],
+  "created": "2020-11-26T17:41:41+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZbKMbiRqtIPCJk5d4Qbxlw0",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4646",
   "name": "Fachausschuss Planung, Bau und Umwelt (23. Sitzung)",
   "start": "2021-03-16T18:30:00+01:00",
@@ -97,7 +105,6 @@
       "order": 5,
       "name": "B-Plan 0804 Teichstraße-Ost, Satzungsbeschluss",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6995",
-      "result": "Kein Beschluss",
       "created": "2021-02-25T11:47:13+01:00",
       "modified": "2021-02-25T11:47:13+01:00"
     },
@@ -108,7 +115,6 @@
       "order": 6,
       "name": "Bebauungsplan Nr. 0125 \"Mahlerter Straße - Nord\", 4. (vereinfachte) Änderung; Ortschaft Nordstemmen\n- Aufstellungsbeschluss gemäß § 2 Absatz 1 BauGB\n- Auslegungsbeschluss gemäß § 3 Absatz 2 BauGB",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6990",
-      "result": "Einstimmig bei 9 Ja-Stimmen ",
       "created": "2021-02-25T10:04:31+01:00",
       "modified": "2021-02-25T11:47:27+01:00"
     },
@@ -119,7 +125,6 @@
       "order": 7,
       "name": "Antrag des Eigentümers des Grundstücks Bonhoeffer Straße 8 auf Änderung des Bebauungsplanes Nr. 0118 „Hauptstraße - Mitte II“",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6987",
-      "result": "Mehrheitlich bei 6 Ja-Stimmen, 1 Nein-Stimme, 2 Enthaltungen ",
       "created": "2021-02-23T07:56:07+01:00",
       "modified": "2021-02-25T11:48:48+01:00"
     },
@@ -130,7 +135,6 @@
       "order": 8,
       "name": "Regionales Radverkehrskonzept des Landkreises Hildesheim;\nAnfrage der Fraktion Bündnis 90/ Die Grünen im Rat der Gemeinde Nordstemmen ",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6955",
-      "result": "Kein Beschluss",
       "created": "2021-02-23T07:56:07+01:00",
       "modified": "2021-02-25T14:18:27+01:00"
     },
@@ -151,7 +155,6 @@
       "order": 10,
       "name": "Bewahrung und Förderung des öffentlichen Grüns;\nAntrag der Fraktion Bündnis 90/ Die Grünen vom 26.11.2020",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6973",
-      "result": "Kein Beschluss",
       "created": "2021-02-23T07:56:07+01:00",
       "modified": "2021-03-01T08:27:40+01:00"
     },
@@ -200,5 +203,6 @@
       "created": "2021-02-23T07:56:07+01:00",
       "modified": "2021-02-23T07:56:07+01:00"
     }
-  ]
+  ],
+  "modified": "2024-09-27T11:41:39+02:00"
 }

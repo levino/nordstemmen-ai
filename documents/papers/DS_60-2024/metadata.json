@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2024-08-26T19:00:07+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQlL_9kvT7DwctyDlSzo50k",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5553",
   "reference": "DS 60/2024",
   "name": "Vorläufiges Betriebsergebnis der Abwasserbeseitigung 2023",
@@ -53,5 +60,6 @@
       "created": "2024-08-22T07:37:02+02:00",
       "modified": "2024-08-22T07:37:02+02:00"
     }
-  ]
+  ],
+  "modified": "2024-11-22T13:00:29+01:00"
 }

@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2014-02-05T13:08:34+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZe0VRpwwDzBbNsd9R_Af3J8",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/941",
   "reference": "DS 5/2014",
   "name": "Namensgebung Grundschule Nordstemmen",
@@ -17,6 +21,15 @@
     "modified": "2014-02-05T13:08:34+01:00"
   },
   "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2622",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2014-02-03T11:42:41+01:00",
+      "modified": "2014-02-03T11:42:41+01:00"
+    },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2625",
       "type": "https://schema.oparl.org/1.1/Consultation",
@@ -39,5 +52,6 @@
       "created": "2014-02-03T11:43:47+01:00",
       "modified": "2014-02-03T11:43:47+01:00"
     }
-  ]
+  ],
+  "modified": "2014-02-05T13:08:34+01:00"
 }

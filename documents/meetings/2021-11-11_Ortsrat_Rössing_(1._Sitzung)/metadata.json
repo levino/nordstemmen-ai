@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2021-11-11T19:00:00+01:00",
+  "keyword": [
+    "Ortsrat Rössing (1. Sitzung)"
+  ],
+  "created": "2021-06-22T08:56:00+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZTWoElmzhWb6GgMsemMoyXA",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4775",
   "name": "Ortsrat Rössing (1. Sitzung)",
   "start": "2021-11-11T18:00:00+01:00",
@@ -179,7 +187,6 @@
       "order": 14,
       "name": "Anhörung zum Haushaltsplanentwurf 2022 und zum Investitionsprogramm bis 2025 für die Ortschaft Rössing",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7205",
-      "result": "zustimmend zur Kenntnis genommen",
       "created": "2021-10-29T10:17:23+02:00",
       "modified": "2021-10-29T10:17:23+02:00"
     },
@@ -208,7 +215,6 @@
       "order": 17,
       "name": "Änderungen im Winterdienst der Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7197",
-      "result": "Zur Kenntnis genommen",
       "created": "2021-10-29T10:17:33+02:00",
       "modified": "2021-10-29T10:17:33+02:00"
     },
@@ -239,5 +245,6 @@
       "created": "2021-10-04T11:54:28+02:00",
       "modified": "2021-10-04T11:54:28+02:00"
     }
-  ]
+  ],
+  "modified": "2022-06-09T14:02:57+02:00"
 }

@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2023-10-10T19:00:00+02:00",
+  "keyword": [
+    "Ortsrat Nordstemmen (7. Sitzung)"
+  ],
+  "created": "2022-10-25T16:51:10+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZSFG4VXLRLL-qvaBEBydAK0",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5252",
   "name": "Ortsrat Nordstemmen (7. Sitzung)",
   "start": "2023-10-10T18:00:00+02:00",
@@ -92,7 +100,6 @@
       "order": 6,
       "name": "Anhörung zum Haushaltsplan 2024 und zum Investitionsprogramm bis 2027 für die Ortschaft Nordstemmen\n",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7817",
-      "result": "Einstimmig zur Kenntnis genommen",
       "created": "2023-09-22T08:16:58+02:00",
       "modified": "2023-09-28T11:44:18+02:00"
     },
@@ -103,7 +110,6 @@
       "order": 7,
       "name": "Veränderungen von Spielplätzen in der Ortschaft Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7830",
-      "result": "Keine Beschlussfassung",
       "created": "2023-09-28T11:40:33+02:00",
       "modified": "2023-09-28T11:44:24+02:00"
     },
@@ -157,5 +163,6 @@
       "created": "2023-09-22T08:16:58+02:00",
       "modified": "2023-09-26T10:39:11+02:00"
     }
-  ]
+  ],
+  "modified": "2024-03-13T11:39:27+01:00"
 }

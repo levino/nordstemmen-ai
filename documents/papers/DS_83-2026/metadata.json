@@ -1,16 +1,23 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2026-09-02T13:00:10+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZWiQv22JY85Sarpg_r1yt-4",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5928",
   "reference": "DS 83/2026",
   "name": "Bekanntgabe des Berichtes über die unvermutete örtliche Prüfung der Gemeindekasse Nordstemmen durch das Rechnungsprüfungsamt des Landkreises Hildesheim",
   "paperType": "Mitteilungsvorlage",
-  "date": "2026-09-17",
+  "date": "2026-09-29",
   "mainFile": {
     "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-45563",
     "type": "https://schema.oparl.org/1.1/File",
     "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
     "name": "Mitteilungsvorlage (Bekanntgabe des Berichtes über die unvermutete örtliche Prüfung der Gemeindekasse Nordstemmen durch das Rechnungsprüfungsamt des Landkreises Hildesheim)",
     "mimeType": "application/pdf",
-    "date": "2026-09-17",
+    "date": "2026-09-29",
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQ8HPkKCjFHVjytr23oURxaZiAiBk1ErLwddFYREjU1Q/Mitteilungsvorlage_DS_83-2026.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQ8HPkKCjFHVjytr23oURxaZiAiBk1ErLwddFYREjU1Q/Mitteilungsvorlage_DS_83-2026.pdf",
     "created": "2026-09-02T13:00:10+02:00",
@@ -27,6 +34,18 @@
       ],
       "created": "2026-08-21T11:36:44+02:00",
       "modified": "2026-08-21T11:36:44+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8937",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25289",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5786",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2026-08-21T11:37:47+02:00",
+      "modified": "2026-08-21T11:37:47+02:00"
     }
-  ]
+  ],
+  "modified": "2026-09-02T13:00:10+02:00"
 }

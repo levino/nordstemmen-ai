@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2019-02-18T20:00:00+01:00",
+  "keyword": [
+    "Ortsrat Nordstemmen (12. Sitzung)"
+  ],
+  "created": "2018-11-21T08:44:08+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZTfpbUHOSpmtwsoTihSVuHk",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4222",
   "name": "Ortsrat Nordstemmen (12. Sitzung)",
   "start": "2019-02-18T19:00:00+01:00",
@@ -127,7 +135,6 @@
       "order": 7,
       "name": "Barrierefreier Ausbau von Bushaltestellen – Mahlerten und Nordstemmen, Stellwerk",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6452",
-      "result": "4 Ja-Stimmen/2 Enthaltungen lt. Beschlussvorschlag",
       "created": "2019-02-05T09:28:31+01:00",
       "modified": "2019-02-05T09:46:55+01:00"
     },
@@ -271,5 +278,6 @@
       "created": "2019-02-05T09:28:31+01:00",
       "modified": "2019-02-05T09:28:31+01:00"
     }
-  ]
+  ],
+  "modified": "2019-06-11T14:26:43+02:00"
 }

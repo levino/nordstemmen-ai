@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2020-09-11T09:08:11+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdtpHsPLJYCua_phHxhmC9U",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4886",
   "reference": "DS 63/2020",
   "name": "Annahme von Zuwendungen",
@@ -42,5 +49,6 @@
       "created": "2020-09-08T14:07:04+02:00",
       "modified": "2020-09-08T14:07:04+02:00"
     }
-  ]
+  ],
+  "modified": "2020-10-20T19:00:11+02:00"
 }

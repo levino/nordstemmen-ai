@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2020-03-24T19:30:00+01:00",
+  "keyword": [
+    "Rat (23. Sitzung)"
+  ],
+  "created": "2019-11-15T11:31:04+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZe71WZPk-7C4NUtsrLTDdyQ",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4448",
   "name": "Rat (23. Sitzung)",
   "start": "2020-03-24T18:30:00+01:00",
@@ -106,7 +114,6 @@
       "order": 6,
       "name": "Ernennung von Führungskräften der Feuerwehr",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6746",
-      "result": "einstimmig lt. Beschlussvorschlag",
       "created": "2020-03-10T09:11:21+01:00",
       "modified": "2020-03-11T12:47:07+01:00"
     },
@@ -117,7 +124,6 @@
       "order": 7,
       "name": "Bestimmung des Wahltermins für die Bürgermeisterwahl 2020",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6742",
-      "result": "einstimmig",
       "created": "2020-03-10T09:11:21+01:00",
       "modified": "2020-03-11T12:47:31+01:00"
     },
@@ -128,7 +134,6 @@
       "order": 8,
       "name": "Bestimmung des Wahltermins für die Bürgermeisterwahl 2020",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6759",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2020-03-24T11:45:11+01:00",
       "modified": "2020-03-24T11:45:12+01:00"
     },
@@ -159,7 +164,6 @@
       "order": 11,
       "name": "Abschluss einer Zweckvereinbarung mit der Samtgemeinde Leinebergland",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6751",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2020-03-10T09:11:21+01:00",
       "modified": "2020-03-10T09:11:21+01:00"
     },
@@ -170,7 +174,6 @@
       "order": 12,
       "name": "1. Satzung zur Änderung der Vergnügungssteuersatzung der Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6754",
-      "result": "einstimmig lt. Beschlussvorschlag",
       "created": "2020-03-10T09:11:21+01:00",
       "modified": "2020-03-10T09:11:21+01:00"
     },
@@ -181,7 +184,6 @@
       "order": 13,
       "name": "Barrierefreier Ausbau der Bushaltestelle Mahlerten",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6734",
-      "result": "einstimmig / eine Enthaltung lt. Beschlussvorschlag",
       "created": "2020-03-10T09:11:21+01:00",
       "modified": "2020-03-11T12:48:28+01:00"
     },
@@ -192,7 +194,6 @@
       "order": 14,
       "name": "Kita St. Johannis in Nordstemmen; Erweiterung der Betreuungszeiten durch Umwandlung einer Kindergartengruppe",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6736",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2020-03-10T09:11:21+01:00",
       "modified": "2020-03-10T09:11:21+01:00"
     },
@@ -203,7 +204,6 @@
       "order": 15,
       "name": "Freizeitbad Nordstemmen;\nErgebnis der Freibadsaison 2019",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6749",
-      "result": "zur Kenntnis genommen",
       "created": "2020-03-10T09:11:21+01:00",
       "modified": "2020-03-10T09:11:21+01:00"
     },
@@ -225,5 +225,6 @@
       "created": "2020-03-10T09:11:21+01:00",
       "modified": "2020-03-10T09:11:21+01:00"
     }
-  ]
+  ],
+  "modified": "2023-06-05T08:31:00+02:00"
 }

@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-195"
+  ],
+  "created": "2021-10-28T19:00:27+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZUUtW-vzdEoP4lIMIvNc_ss",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5054",
   "reference": "DS 97/2021",
   "name": "Änderungen im Winterdienst der Gemeinde Nordstemmen",
@@ -130,5 +137,6 @@
       "created": "2021-10-26T09:22:35+02:00",
       "modified": "2021-10-26T09:22:35+02:00"
     }
-  ]
+  ],
+  "modified": "2022-01-25T19:00:13+01:00"
 }

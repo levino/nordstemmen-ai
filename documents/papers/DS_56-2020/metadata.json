@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-196"
+  ],
+  "created": "2020-08-28T13:00:04+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZa_kFdhIq0PiI6TVYg5XDKY",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4879",
   "reference": "DS 56/2020",
   "name": "Sachstand Erneuerung Einlaufgruppe",
@@ -28,5 +35,6 @@
       "created": "2020-08-17T10:23:54+02:00",
       "modified": "2020-08-20T15:27:45+02:00"
     }
-  ]
+  ],
+  "modified": "2020-10-28T13:00:08+01:00"
 }

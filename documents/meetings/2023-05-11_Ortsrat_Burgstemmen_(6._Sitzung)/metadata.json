@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2023-05-11T19:00:00+02:00",
+  "keyword": [
+    "Ortsrat Burgstemmen (6. Sitzung)"
+  ],
+  "created": "2022-10-25T14:26:19+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZWRE-Ap87Lh8DDABe67zeGU",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5197",
   "name": "Ortsrat Burgstemmen (6. Sitzung)",
   "start": "2023-05-11T18:00:00+02:00",
@@ -102,7 +110,6 @@
       "order": 7,
       "name": "Anhörung zur Aufstellung der Vorschlagsliste für die Neuwahl der Schöffinnen und Schöffen sowie Jugendschöffinnen und Jugendschöffen für die Geschäftsjahre 2024 bis 2028",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7692",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2023-05-02T12:08:14+02:00",
       "modified": "2023-05-02T12:08:14+02:00"
     },
@@ -113,7 +120,6 @@
       "order": 8,
       "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2024 sowie für die mittelfristige\nFinanzplanung 2025 bis 2027",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7703",
-      "result": "Zur Kenntnis genommen",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6211",
@@ -204,5 +210,6 @@
       "created": "2023-05-02T12:08:14+02:00",
       "modified": "2023-05-02T12:08:14+02:00"
     }
-  ]
+  ],
+  "modified": "2023-11-14T07:52:56+01:00"
 }

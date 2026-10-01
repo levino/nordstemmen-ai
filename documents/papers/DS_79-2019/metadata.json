@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2019-09-10T15:13:34+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZRWr1oDpczVmkIyD2dlyMDU",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4772",
   "reference": "DS 79/2019",
   "name": "Annahme von Zuwendungen",
@@ -42,5 +49,6 @@
       "created": "2019-09-05T17:13:39+02:00",
       "modified": "2019-09-05T17:13:39+02:00"
     }
-  ]
+  ],
+  "modified": "2019-10-11T13:01:54+02:00"
 }

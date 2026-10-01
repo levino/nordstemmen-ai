@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2018-03-02T13:01:01+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZac0fRcNYPsK-rQ6huvlpDU",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4542",
   "reference": "DS 18/2018",
   "name": "Änderung der Geschäftsordnung des Rates der Gemeinde Nordstemmen",
@@ -42,5 +49,6 @@
       "created": "2018-02-27T15:20:01+01:00",
       "modified": "2018-02-27T15:20:01+01:00"
     }
-  ]
+  ],
+  "modified": "2018-04-12T19:02:04+02:00"
 }

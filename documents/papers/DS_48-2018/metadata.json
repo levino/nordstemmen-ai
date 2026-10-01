@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2018-05-11T13:00:47+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZUP23T56ABf7TMFOvM467tU",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4580",
   "reference": "DS 48/2018",
   "name": "Vorläufiger Jahresabschluss 2017",
@@ -77,5 +84,6 @@
       "created": "2018-05-09T12:08:13+02:00",
       "modified": "2018-05-09T12:08:13+02:00"
     }
-  ]
+  ],
+  "modified": "2018-06-20T12:55:33+02:00"
 }

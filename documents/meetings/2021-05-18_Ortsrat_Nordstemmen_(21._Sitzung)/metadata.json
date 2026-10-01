@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2021-05-18T20:00:00+02:00",
+  "keyword": [
+    "Ortsrat Nordstemmen (21. Sitzung)"
+  ],
+  "created": "2020-11-27T10:51:42+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZT3t6i6wiLLpOoLRjfUcAh4",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4667",
   "name": "Ortsrat Nordstemmen (21. Sitzung)",
   "start": "2021-05-18T19:00:00+02:00",
@@ -129,7 +137,6 @@
       "order": 7,
       "name": "Erweiterung der Fahrradabstellanlage am Bahnhof Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7042",
-      "result": "einstimmig",
       "created": "2021-05-04T14:12:22+02:00",
       "modified": "2021-05-04T14:20:41+02:00"
     },
@@ -215,5 +222,6 @@
       "created": "2021-05-04T14:12:22+02:00",
       "modified": "2021-05-04T14:12:22+02:00"
     }
-  ]
+  ],
+  "modified": "2021-09-23T17:04:44+02:00"
 }

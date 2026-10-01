@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2015-02-26T13:00:25+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZWamxWH6JIhaKtIjgCtjGxo",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1082",
   "reference": "DS 17/2015",
   "name": "Sanierung und Modernisierung Freizeitbad Nordstemmen;\nMaßnahmenbeschluss zur Modernisierung des Kinderbeckens",
@@ -32,6 +36,15 @@
   ],
   "consultation": [
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3027",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2015-02-25T11:03:39+01:00",
+      "modified": "2015-02-25T11:03:39+01:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3031",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11641",
@@ -63,5 +76,6 @@
       "created": "2015-02-25T11:06:12+01:00",
       "modified": "2015-02-25T11:06:12+01:00"
     }
-  ]
+  ],
+  "modified": "2015-02-26T13:00:25+01:00"
 }

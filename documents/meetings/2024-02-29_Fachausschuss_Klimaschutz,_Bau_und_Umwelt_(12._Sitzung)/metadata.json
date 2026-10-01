@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2024-02-29T19:00:00+01:00",
+  "keyword": [
+    "Fachausschuss Klimaschutz, Bau und Umwelt (12. Sitzung)"
+  ],
+  "created": "2023-09-11T11:53:40+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZUVtv_BSXoW8OVY3CtzKJ_s",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5435",
   "name": "Fachausschuss Klimaschutz, Bau und Umwelt (12. Sitzung)",
   "start": "2024-02-29T18:00:00+01:00",
@@ -139,7 +147,6 @@
       "order": 8,
       "name": "Beschluss über das weitere Vorgehen zur Planung eines Radwegs Burgstemmen - Betheln entlang der L468",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7958",
-      "result": "Empfehlung lt. Beschlussvorschlag",
       "created": "2024-02-05T09:42:22+01:00",
       "modified": "2024-02-08T14:08:02+01:00"
     },
@@ -150,7 +157,6 @@
       "order": 9,
       "name": "Fortschreibung des Lärmaktionsplans der Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7941",
-      "result": "Einstimmig angenommen",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6753",
@@ -175,7 +181,6 @@
       "order": 10,
       "name": "Bebauungsplan Nr. 0413 \"Am Paradies II\", Ortschaft Burgstemmen\n- Aufstellungsbeschluss gemäß § 2 Absatz 1 Baugesetzbuch (BauGB)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7968",
-      "result": "Einstimmig bei zwei Enthaltungen",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6754",
@@ -200,7 +205,6 @@
       "order": 11,
       "name": "Maßnahmenbeschluss für den Ausbau der Gemeindeverbindungsstraße Barnten – Nordstemmen „An der Zuckerfabrik“, 5. Bauabschnitt",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7965",
-      "result": "Einstimmig in die nächste Fachausschusssitzung vertagt.",
       "created": "2024-02-08T14:09:19+01:00",
       "modified": "2024-02-08T14:09:19+01:00"
     },
@@ -250,5 +254,6 @@
       "created": "2024-01-30T10:07:05+01:00",
       "modified": "2024-01-30T10:07:05+01:00"
     }
-  ]
+  ],
+  "modified": "2024-08-22T14:51:01+02:00"
 }

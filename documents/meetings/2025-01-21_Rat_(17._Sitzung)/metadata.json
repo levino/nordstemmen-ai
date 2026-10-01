@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2025-01-21T19:30:00+01:00",
+  "keyword": [
+    "Rat (17. Sitzung)"
+  ],
+  "created": "2024-12-12T17:10:17+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZSlGEJdF44ejZ3huWeAWTLk",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5717",
   "name": "Rat (17. Sitzung)",
   "start": "2025-01-21T18:30:00+01:00",
@@ -101,7 +109,6 @@
       "order": 7,
       "name": "Annahme von Zuwendungen\n",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8270",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2025-01-07T13:08:17+01:00",
       "modified": "2025-01-07T13:08:17+01:00"
     },
@@ -112,7 +119,6 @@
       "order": 8,
       "name": "Abschluss der \"Vereinbarung zur Wahrnehmung der Aufgaben der Kindertagesbetreuung (Kita-Vertrag)\" mit dem Landkreis Hildesheim mit Wirkung ab dem 01.01.2025\n",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8268",
-      "result": "Mehrheitlich bei 22 Ja-Stimmen und 4 Nein-Stimmen",
       "created": "2025-01-07T13:08:17+01:00",
       "modified": "2025-01-07T13:08:17+01:00"
     },
@@ -125,5 +131,6 @@
       "created": "2025-01-07T13:08:17+01:00",
       "modified": "2025-01-07T13:08:17+01:00"
     }
-  ]
+  ],
+  "modified": "2025-04-08T16:19:23+02:00"
 }

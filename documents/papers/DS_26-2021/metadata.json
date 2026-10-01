@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-196"
+  ],
+  "created": "2024-09-27T13:00:19+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZaPGESANtfGQJDuFkI_840g",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4964",
   "reference": "DS 26/2021",
   "name": "Betriebsabrechnung Abwasser 2019",
@@ -28,5 +35,6 @@
       "created": "2021-03-01T10:48:50+01:00",
       "modified": "2021-03-01T10:48:50+01:00"
     }
-  ]
+  ],
+  "modified": "2024-09-27T13:00:19+02:00"
 }

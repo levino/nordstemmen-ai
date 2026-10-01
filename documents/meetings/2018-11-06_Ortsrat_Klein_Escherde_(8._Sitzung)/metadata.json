@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-11-06T19:00:00+01:00",
+  "keyword": [
+    "Ortsrat Klein Escherde (8. Sitzung)"
+  ],
+  "created": "2018-03-12T14:37:29+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZbO_VTFEls3SonKZrfqj1l4",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4151",
   "name": "Ortsrat Klein Escherde (8. Sitzung)",
   "start": "2018-11-06T18:00:00+01:00",
@@ -235,7 +243,6 @@
       "order": 12,
       "name": "Anhörung zum Haushaltsplan 2019 und zum Investitionsprogramm bis 2022 für die Ortschaft Klein Escherde",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6374",
-      "result": "Einstimmig bei 3 Ja-Stimmen und 2 Enthaltungen",
       "created": "2018-10-18T08:58:16+02:00",
       "modified": "2018-10-18T08:58:16+02:00"
     },
@@ -246,7 +253,6 @@
       "order": 13,
       "name": "Standort von Sammelcontainern (Glas, Papier, Altkleider)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6368",
-      "result": "Kein Beschluss",
       "created": "2018-10-18T08:58:16+02:00",
       "modified": "2018-10-18T08:58:16+02:00"
     },
@@ -259,5 +265,6 @@
       "created": "2018-10-18T08:58:16+02:00",
       "modified": "2018-10-18T08:58:16+02:00"
     }
-  ]
+  ],
+  "modified": "2019-03-05T09:41:55+01:00"
 }

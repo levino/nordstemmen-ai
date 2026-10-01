@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-195"
+  ],
+  "created": "2019-02-25T09:31:46+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfYhlTbc1UNuZ1tYpAUYqIs",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4709",
   "reference": "DS 28/2019",
   "name": "Ernennung von Führungskräften der Feuerwehr",
@@ -28,5 +35,6 @@
       "created": "2019-02-21T13:51:43+01:00",
       "modified": "2019-02-21T13:51:44+01:00"
     }
-  ]
+  ],
+  "modified": "2019-04-08T13:02:00+02:00"
 }

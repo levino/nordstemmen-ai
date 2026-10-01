@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-196"
+  ],
+  "created": "2026-05-13T10:37:33+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZWt1f9Bbm8VqQUyAgFA3www",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5844",
   "reference": "DS 32/2026",
   "name": "26. Änderung des Flächennutzungsplanes (Flächen für die Windenergie gemäß § 245 e BauGB) - Beschluss zur frühzeitigen Beteiligung",
@@ -14,7 +21,7 @@
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZW9xmZBpq7FXpoX4QUwGjiTMy-nr46Nihf07NitfMA8H/Beschlussvorlage_DS_32-2026.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZW9xmZBpq7FXpoX4QUwGjiTMy-nr46Nihf07NitfMA8H/Beschlussvorlage_DS_32-2026.pdf",
     "created": "2026-05-13T10:37:33+02:00",
-    "modified": "2026-05-13T10:37:33+02:00"
+    "modified": "2026-07-03T13:00:25+02:00"
   },
   "auxiliaryFile": [
     {
@@ -66,5 +73,6 @@
       "created": "2026-03-27T08:10:03+01:00",
       "modified": "2026-03-27T08:10:03+01:00"
     }
-  ]
+  ],
+  "modified": "2026-07-03T13:00:25+02:00"
 }

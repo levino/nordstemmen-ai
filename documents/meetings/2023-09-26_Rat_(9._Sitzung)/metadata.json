@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2023-09-26T19:30:00+02:00",
+  "keyword": [
+    "Rat (9. Sitzung)"
+  ],
+  "created": "2022-10-25T16:48:53+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZbEmxsQwvocZnxiHg07cIAA",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5248",
   "name": "Rat (9. Sitzung)",
   "start": "2023-09-26T18:30:00+02:00",
@@ -115,7 +123,6 @@
       "order": 7,
       "name": "Annahme von Zuwendungen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7808",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2023-09-07T09:37:12+02:00",
       "modified": "2023-09-11T08:01:39+02:00"
     },
@@ -176,7 +183,6 @@
       "order": 13,
       "name": "Umsetzung des Konzeptes „Café Kinderwagen“",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7810",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2023-09-07T09:37:12+02:00",
       "modified": "2023-09-07T09:37:12+02:00"
     },
@@ -187,7 +193,6 @@
       "order": 14,
       "name": "Ganztagsgrundschule Barnten;\nErhöhung der jährlichen Unterstützung des Ganztags der Grundschule Barnten\n",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7814",
-      "result": "20 Ja-Stimmen und 5 Enthaltungen geänderter Beschluss",
       "created": "2023-09-12T13:54:29+02:00",
       "modified": "2023-09-12T13:54:32+02:00"
     },
@@ -200,5 +205,6 @@
       "created": "2023-09-07T09:37:12+02:00",
       "modified": "2023-09-07T09:37:12+02:00"
     }
-  ]
+  ],
+  "modified": "2023-12-13T07:26:08+01:00"
 }

@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2021-12-16T15:36:05+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZSWQUMHdoYeICA5bARvDe-k",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5093",
   "reference": "DS 115/2021 1. Ergänzung",
   "name": "Stellenplan der Gemeinde Nordstemmen 2022",
@@ -28,5 +35,6 @@
       "created": "2021-12-16T08:42:39+01:00",
       "modified": "2021-12-16T08:42:39+01:00"
     }
-  ]
+  ],
+  "modified": "2022-03-30T08:17:36+02:00"
 }

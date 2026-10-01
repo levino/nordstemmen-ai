@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-196"
+  ],
+  "created": "2017-01-16T13:00:45+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZe1Oxuq-mni8OYuUV9wSELY",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1329",
   "reference": "DS 5/2017",
   "name": "Neugestaltung der Grünanlage am Bahnhof Nordstemmen",
@@ -42,5 +49,6 @@
       "created": "2017-01-12T15:16:12+01:00",
       "modified": "2017-01-12T15:16:12+01:00"
     }
-  ]
+  ],
+  "modified": "2017-01-16T13:00:45+01:00"
 }

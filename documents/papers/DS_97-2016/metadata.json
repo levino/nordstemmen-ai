@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2016-11-30T11:43:17+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZZsQXvGYi17CYrMn3wzY9T0",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1300",
   "reference": "DS 97/2016",
   "name": "Beschlussfassung über den Jahresabschluss 2013 der Gemeinde Nordstemmen;\nEntlastung des Bürgermeisters für den Jahresabschluss 2013;\nVerwendung des Jahresergenisses 2013",
@@ -44,6 +51,15 @@
   ],
   "consultation": [
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3706",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2016-11-24T13:02:35+01:00",
+      "modified": "2016-11-24T13:02:35+01:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3703",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13604",
@@ -65,5 +81,6 @@
       "created": "2016-11-24T12:55:08+01:00",
       "modified": "2016-11-24T12:55:08+01:00"
     }
-  ]
+  ],
+  "modified": "2016-11-30T11:43:17+01:00"
 }

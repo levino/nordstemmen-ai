@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-05-14T20:00:00+02:00",
+  "keyword": [
+    "Ortsrat Adensen (6. Sitzung)"
+  ],
+  "created": "2017-11-07T15:02:56+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZetu28pt_mudVBOupoc0p2Q",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4053",
   "name": "Ortsrat Adensen (6. Sitzung)",
   "start": "2018-05-14T19:00:00+02:00",
@@ -107,7 +115,6 @@
       "order": 6,
       "name": "Anhörung zur Aufstellung der Vorschlagsliste für die Neuwahl der Schöffen für die Jahre 2019 bis 2023",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6190",
-      "result": "Einstimmig / 2 Enthaltungen",
       "created": "2018-04-10T11:20:01+02:00",
       "modified": "2018-04-10T11:20:01+02:00"
     },
@@ -127,7 +134,6 @@
       "order": 8,
       "name": "Antrag der Fraktion Bündnis 90 / Die Grünen vom 8. März 2018; \nEinrichtung von W-LAN in mindestens einem öffentlichen Gebäude pro Ortsteil",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6207",
-      "result": "3 Ja-Stimmen / 2 Nein-Stimmen / 1 Enthaltung",
       "created": "2018-04-26T15:46:13+02:00",
       "modified": "2018-04-26T15:46:16+02:00"
     },
@@ -182,5 +188,6 @@
       "created": "2018-04-10T11:20:01+02:00",
       "modified": "2018-04-10T11:20:01+02:00"
     }
-  ]
+  ],
+  "modified": "2019-06-25T13:41:27+02:00"
 }

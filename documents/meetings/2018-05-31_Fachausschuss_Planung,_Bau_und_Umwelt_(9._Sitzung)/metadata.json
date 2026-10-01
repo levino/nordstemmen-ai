@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-05-31T19:30:00+02:00",
+  "keyword": [
+    "Fachausschuss Planung, Bau und Umwelt (9. Sitzung)"
+  ],
+  "created": "2017-11-07T15:07:14+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZT1DjbdLeUOXeohFyMTv7nE",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4060",
   "name": "Fachausschuss Planung, Bau und Umwelt (9. Sitzung)",
   "start": "2018-05-31T18:30:00+02:00",
@@ -83,7 +91,6 @@
       "order": 5,
       "name": "Einstellung Nacht-AST-Verkehr in der Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6276",
-      "result": "einstimmig, 1 Enthaltung lt. Beschlussvorschlag",
       "created": "2018-05-16T08:25:49+02:00",
       "modified": "2018-05-16T08:25:49+02:00"
     },
@@ -94,7 +101,6 @@
       "order": 6,
       "name": "Bebauungsplan Nr. 0123 \"Heyersumer Straße-Süd\", 2. Änderung, Ortschaft Nordstemmen\n(ehem. Penny) mit örtlicher Bauvorschrift\n\nVorstellung des Entwurfes und Beschluss zur öffentlichen Auslegung",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6280",
-      "result": "einstimmig lt. Beschlussvorschlag",
       "created": "2018-05-16T11:03:32+02:00",
       "modified": "2018-05-16T11:03:37+02:00"
     },
@@ -105,7 +111,6 @@
       "order": 7,
       "name": "Bebauungsplan Nr. 0115 \"Hauptstraße-Süd\", 3. Änderung mit örtlichen Bauvorschriften, Ortschaft Nordstemmen (Brunnenstraße)\n- Satzungsbeschluss gem. § 10 Abs. 1 BauGB",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6279",
-      "result": "einstimmig lt. Beschlussvorschlag",
       "created": "2018-05-16T08:58:55+02:00",
       "modified": "2018-05-16T08:58:55+02:00"
     },
@@ -173,5 +178,6 @@
       "created": "2018-05-08T11:47:26+02:00",
       "modified": "2018-05-08T11:47:26+02:00"
     }
-  ]
+  ],
+  "modified": "2018-10-25T09:09:48+02:00"
 }

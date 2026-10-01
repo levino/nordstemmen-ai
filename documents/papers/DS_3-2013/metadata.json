@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2013-01-21T12:05:49+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZWcsBRSaVKPzYgW3Yr6-coM",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/797",
   "reference": "DS 3/2013",
   "name": "Überarbeitung des Regionalen Konzeptes zur Betreuung von Kindern mit und ohne Behinderung in der Gemeinde Nordstemmen",
@@ -32,6 +36,15 @@
   ],
   "consultation": [
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2158",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2013-01-11T12:17:00+01:00",
+      "modified": "2013-01-11T12:17:00+01:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2164",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9410",
@@ -53,5 +66,6 @@
       "created": "2013-01-11T12:19:44+01:00",
       "modified": "2013-01-21T07:49:39+01:00"
     }
-  ]
+  ],
+  "modified": "2013-01-21T12:05:49+01:00"
 }

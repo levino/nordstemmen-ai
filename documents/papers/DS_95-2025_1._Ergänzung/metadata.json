@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-195"
+  ],
+  "created": "2025-11-15T14:17:15+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfTVRbmITgyR1XjFLcT50wI",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5785",
   "reference": "DS 95/2025 1. Ergänzung",
   "name": "Kindertagesstätte Groß Escherde; Vorstellung alternativer Räumlichkeiten und Konkretisierung der Vorzugsvariante(n)\n",
@@ -14,7 +21,7 @@
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZekINLUxqXvNHqff3wC6XqqA15rdakIidz27ZIMrP9P_/Beschlussvorlage_DS_95-2025_1._Ergaenzung.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZekINLUxqXvNHqff3wC6XqqA15rdakIidz27ZIMrP9P_/Beschlussvorlage_DS_95-2025_1._Ergaenzung.pdf",
     "created": "2025-11-15T14:17:15+01:00",
-    "modified": "2025-11-15T14:17:15+01:00"
+    "modified": "2025-12-03T09:20:26+01:00"
   },
   "consultation": [
     {
@@ -28,5 +35,6 @@
       "created": "2025-11-06T07:10:11+01:00",
       "modified": "2025-11-06T07:10:11+01:00"
     }
-  ]
+  ],
+  "modified": "2025-12-03T09:20:26+01:00"
 }

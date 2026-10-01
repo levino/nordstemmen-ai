@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2013-11-08T13:00:21+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZepEiAiRFo6qJjnihtKfLNw",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/923",
   "reference": "DS 100/2013",
   "name": "Satzung über die Festlegung eines Schulbezirks einschließlich der Festlegung der Zügigkeiten für die Grundschulen in der Gemeinde Nordstemmen",
@@ -68,6 +72,15 @@
   ],
   "consultation": [
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2569",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2013-11-07T11:55:37+01:00",
+      "modified": "2013-11-07T12:00:09+01:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2572",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10365",
@@ -89,5 +102,6 @@
       "created": "2013-11-07T11:57:48+01:00",
       "modified": "2013-11-07T11:57:48+01:00"
     }
-  ]
+  ],
+  "modified": "2013-11-08T13:00:21+01:00"
 }

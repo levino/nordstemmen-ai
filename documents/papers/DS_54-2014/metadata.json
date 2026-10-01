@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2014-09-03T13:00:24+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZXxnLTdZci3CcIo6XWTYKGI",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1001",
   "reference": "DS 54/2014",
   "name": "Antrag auf Bezuschussung des KOMM e. V. Mehrgenerationenhauses (MGH) Nordstemmen für das Haushaltsjahr 2015",
@@ -29,6 +33,15 @@
       "modified": "2014-09-02T13:35:22+02:00"
     },
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2816",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2014-09-02T13:35:34+02:00",
+      "modified": "2014-09-02T13:35:34+02:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2821",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11066",
@@ -39,5 +52,6 @@
       "created": "2014-09-02T13:36:38+02:00",
       "modified": "2014-09-02T13:36:38+02:00"
     }
-  ]
+  ],
+  "modified": "2014-09-11T13:00:27+02:00"
 }

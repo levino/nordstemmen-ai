@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2023-12-19T19:00:00+01:00",
+  "keyword": [
+    "Rat (11. Sitzung)"
+  ],
+  "created": "2023-09-13T10:49:46+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZcQkzZejV09bgSuM0Hkl3QI",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5486",
   "name": "Rat (11. Sitzung)",
   "start": "2023-12-19T18:00:00+01:00",
@@ -125,7 +133,6 @@
       "order": 8,
       "name": "Verordnung zur Aufrechterhaltung der öffentlichen Sicherheit und Ordnung in der Gemeinde Nordstemmen\n",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7901",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2023-12-05T10:13:29+01:00",
       "modified": "2023-12-05T10:15:15+01:00"
     },
@@ -146,7 +153,6 @@
       "order": 10,
       "name": "Haushaltssatzung und Haushaltsplan für das Haushaltsjahr 2024 sowie die Aufstellung eines Haushaltssicherungskonzeptes",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7930",
-      "result": "siehe oben",
       "created": "2023-12-05T10:13:29+01:00",
       "modified": "2023-12-05T10:13:29+01:00"
     },
@@ -157,7 +163,6 @@
       "order": 11,
       "name": "Haushaltssatzung und Haushaltsplan für das Haushaltsjahr 2024 sowie die Aufstellung eines Haushaltssicherungskonzeptes",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7937",
-      "result": "siehe oben",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6601",
@@ -182,7 +187,6 @@
       "order": 12,
       "name": "Investitionsprogramm für den Investitionszeitraum 2024 - 2027",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7933",
-      "result": "Einstimmig bei 25 Ja-Stimmen und einer Enthaltung lt. Beschluss",
       "created": "2023-12-05T10:13:29+01:00",
       "modified": "2023-12-05T10:13:29+01:00"
     },
@@ -193,7 +197,6 @@
       "order": 13,
       "name": "Investitionsprogramm für den Investitionszeitraum 2024 – 2027",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7936",
-      "result": "Einstimmig bei 25 Ja-Stimmen und einer Enthaltung lt. Beschluss",
       "created": "2023-12-21T10:36:48+01:00",
       "modified": "2023-12-21T10:36:51+01:00"
     },
@@ -204,7 +207,6 @@
       "order": 14,
       "name": "Stellenplan der Gemeinde Nordstemmen 2024",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7913",
-      "result": "zu a) mehrheitlich bei 25 Ja-Stimmen und einer Nein-Stimme lt. Beschlusszu b) mehrheitlich bei 22 Ja-Stimmen und 4 Nein-Stimmen lt. geändertem Beschluss",
       "created": "2023-12-05T10:13:29+01:00",
       "modified": "2023-12-05T10:13:29+01:00"
     },
@@ -217,5 +219,6 @@
       "created": "2023-12-05T10:13:29+01:00",
       "modified": "2023-12-05T10:13:29+01:00"
     }
-  ]
+  ],
+  "modified": "2024-03-19T11:30:44+01:00"
 }

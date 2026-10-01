@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2017-11-15T13:00:46+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQvcVmzhjEQ0vPDnG0vKj2Y",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4486",
   "reference": "DS 132/2017",
   "name": "Annahme einer Sponsoringleistung",
@@ -28,5 +35,6 @@
       "created": "2017-11-09T10:24:32+01:00",
       "modified": "2017-11-09T10:24:32+01:00"
     }
-  ]
+  ],
+  "modified": "2017-12-21T09:22:24+01:00"
 }

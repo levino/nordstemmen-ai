@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2025-11-11T19:30:00+01:00",
+  "keyword": [
+    "Fachausschuss Kindertagesstätten (19. Sitzung)"
+  ],
+  "created": "2024-09-02T11:11:59+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZQrZDNSoDV9Fm87xDjOBw98",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5600",
   "name": "Fachausschuss Kindertagesstätten (19. Sitzung)",
   "start": "2025-11-11T18:30:00+01:00",
@@ -28,6 +36,18 @@
     "created": "2025-10-29T13:00:23+01:00",
     "modified": "2025-10-29T13:00:23+01:00"
   },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-43560",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Kindertagesstätten)",
+    "mimeType": "application/pdf",
+    "date": "2025-11-11",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZ-1qU-SVnM27symJzCzPvBAvnVu3CKIPWh-augRoC20/Oeffentliche_Niederschrift_Fachausschuss_Kindertagesstaetten_11.11.2025.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZ-1qU-SVnM27symJzCzPvBAvnVu3CKIPWh-augRoC20/Oeffentliche_Niederschrift_Fachausschuss_Kindertagesstaetten_11.11.2025.pdf",
+    "created": "2025-12-29T13:00:17+01:00",
+    "modified": "2025-12-29T13:00:17+01:00"
+  },
   "agendaItem": [
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24062",
@@ -35,8 +55,8 @@
       "number": "1",
       "order": 1,
       "name": "- öffentlicher Teil -",
-      "created": "2025-10-29T07:32:35+01:00",
-      "modified": "2025-10-29T07:32:35+01:00"
+      "created": "2025-10-28T08:27:40+01:00",
+      "modified": "2025-10-28T08:27:40+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24063",
@@ -44,8 +64,8 @@
       "number": "1",
       "order": 2,
       "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
-      "created": "2025-10-29T07:32:35+01:00",
-      "modified": "2025-10-29T07:32:35+01:00"
+      "created": "2025-10-28T08:27:40+01:00",
+      "modified": "2025-10-28T08:27:40+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24064",
@@ -53,8 +73,8 @@
       "number": "2",
       "order": 3,
       "name": "Genehmigung des Protokolls der Sitzung vom 02. September 2025",
-      "created": "2025-10-29T07:32:35+01:00",
-      "modified": "2025-10-29T07:32:35+01:00"
+      "created": "2025-10-28T08:27:40+01:00",
+      "modified": "2025-10-28T08:27:58+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24065",
@@ -62,8 +82,8 @@
       "number": "3",
       "order": 4,
       "name": "Anfragen und Anregungen",
-      "created": "2025-10-29T07:32:35+01:00",
-      "modified": "2025-10-29T07:32:35+01:00"
+      "created": "2025-10-28T08:27:40+01:00",
+      "modified": "2025-10-28T08:27:40+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24066",
@@ -71,8 +91,8 @@
       "number": "4",
       "order": 5,
       "name": "Einwohner*innen Fragestunde",
-      "created": "2025-10-29T07:32:35+01:00",
-      "modified": "2025-10-29T07:32:35+01:00"
+      "created": "2025-10-28T08:27:40+01:00",
+      "modified": "2025-10-28T08:27:40+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24071",
@@ -80,8 +100,22 @@
       "number": "5",
       "order": 6,
       "name": "Information über die\n- Entwicklung der Kinderbetreuungszahlen (Geburtenfortschreibung)\n- Belegung der Plätze in den Kindertagesstätten, Horten und Kindertagespflegen",
-      "created": "2025-10-29T07:32:35+01:00",
-      "modified": "2025-10-29T07:32:35+01:00"
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7502",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage (Geburtenfortschreibung))",
+          "mimeType": "application/pdf",
+          "date": "2025-11-11",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZWXiHjuMW9aqJ7msyFlC5xtrsp4WfDUeQ1JOPDhm9fYU/Anlage_-Geburtenfortschreibung-.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZWXiHjuMW9aqJ7msyFlC5xtrsp4WfDUeQ1JOPDhm9fYU/Anlage_-Geburtenfortschreibung-.pdf",
+          "created": "2025-12-29T13:00:17+01:00",
+          "modified": "2025-12-29T13:00:17+01:00"
+        }
+      ],
+      "created": "2025-10-28T08:32:18+01:00",
+      "modified": "2025-10-28T08:32:18+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24072",
@@ -89,8 +123,8 @@
       "number": "6",
       "order": 7,
       "name": "Informationen aus den Kindertagesstätten",
-      "created": "2025-10-29T07:32:35+01:00",
-      "modified": "2025-10-29T07:32:35+01:00"
+      "created": "2025-10-28T08:32:41+01:00",
+      "modified": "2025-10-28T08:32:41+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24068",
@@ -99,8 +133,8 @@
       "order": 8,
       "name": "Kindertagesstätte Groß Escherde; Vorstellung alternativer Räumlichkeiten und Konkretisierung der Vorzugsvariante(n)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8555",
-      "created": "2025-10-29T07:32:35+01:00",
-      "modified": "2025-10-29T07:32:35+01:00"
+      "created": "2025-10-28T08:27:40+01:00",
+      "modified": "2025-10-28T08:32:49+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24073",
@@ -108,8 +142,8 @@
       "number": "8",
       "order": 9,
       "name": "Waldkindergarten Burgstemmen\n- Ausführungen werden in der Sitzung gemacht",
-      "created": "2025-10-29T07:32:35+01:00",
-      "modified": "2025-10-29T07:32:35+01:00"
+      "created": "2025-10-28T08:33:19+01:00",
+      "modified": "2025-10-28T08:33:19+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24074",
@@ -118,8 +152,8 @@
       "order": 10,
       "name": "Umsetzung/Zulassung 3-Zügigkeit GS Barnten und Bereitstellung von Räumlichkeiten für die 4-Zügigkeit GS Nordstemmen für das Schuljahr 2026/2027",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8587",
-      "created": "2025-10-29T07:32:35+01:00",
-      "modified": "2025-10-29T07:32:35+01:00"
+      "created": "2025-10-28T08:40:47+01:00",
+      "modified": "2025-10-28T08:40:47+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24067",
@@ -128,8 +162,8 @@
       "order": 11,
       "name": "Haushalt 2026 und Investitionsprogramm 2027 - 2029;\nTeilhaushalt für die Produktbereiche Tagespflege, Tageseinrichtungen für Kinder und wirtschaftliche Jugendhilfe",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8568",
-      "created": "2025-10-29T07:32:35+01:00",
-      "modified": "2025-10-29T07:32:35+01:00"
+      "created": "2025-10-28T08:27:40+01:00",
+      "modified": "2025-10-28T08:27:40+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24069",
@@ -137,8 +171,9 @@
       "number": "11",
       "order": 12,
       "name": "Mitteilungen der Verwaltung",
-      "created": "2025-10-29T07:32:35+01:00",
-      "modified": "2025-10-29T07:32:35+01:00"
+      "created": "2025-10-28T08:27:40+01:00",
+      "modified": "2025-10-28T08:27:40+01:00"
     }
-  ]
+  ],
+  "modified": "2026-03-18T10:52:07+01:00"
 }

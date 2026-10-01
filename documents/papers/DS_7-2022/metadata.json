@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2022-01-28T13:00:00+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZc6oWrLeuycJ8idbYP3QHOk",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5100",
   "reference": "DS 7/2022",
   "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2023 sowie für die mittelfristige\nFinanzplanung 2024 bis 2026",
@@ -116,5 +123,6 @@
       "created": "2022-01-26T12:36:50+01:00",
       "modified": "2022-01-27T11:48:39+01:00"
     }
-  ]
+  ],
+  "modified": "2022-06-09T19:00:05+02:00"
 }

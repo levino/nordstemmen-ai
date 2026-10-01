@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2020-11-10T10:00:00+01:00",
+  "keyword": [
+    "Ortsrat Klein Escherde (13. Sitzung)"
+  ],
+  "created": "2020-10-30T10:04:15+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZYeG9FfT17sh7LqXVgtGLPU",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4599",
   "name": "Ortsrat Klein Escherde (13. Sitzung)",
   "start": "2020-11-10T09:00:00+01:00",
@@ -44,7 +52,6 @@
       "order": 2,
       "name": "Neu- bzw. Wiederwahl der Schiedspersonen für die Schiedsamtsbezirke in der Gemeinde Nordstemmen im Jahre 2020",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6850",
-      "result": "einstimmig",
       "created": "2020-11-10T16:15:00+01:00",
       "modified": "2020-11-10T16:15:05+01:00"
     },
@@ -55,7 +62,6 @@
       "order": 3,
       "name": "Anhörung zum Haushaltsplan 2021 und zum Investitionsprogramm bis 2024 für die Ortschaft Klein Escherde",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6886",
-      "result": "einstimmig",
       "created": "2020-11-10T16:15:13+01:00",
       "modified": "2020-11-10T16:15:13+01:00"
     },
@@ -78,5 +84,6 @@
       "created": "2020-11-12T11:40:38+01:00",
       "modified": "2020-11-12T11:40:42+01:00"
     }
-  ]
+  ],
+  "modified": "2020-12-21T00:00:00+01:00"
 }

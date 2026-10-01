@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2020-09-29T19:30:00+02:00",
+  "keyword": [
+    "Rat (26. Sitzung)"
+  ],
+  "created": "2020-06-23T12:00:04+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZY3jSylK0WtuAhl0S7rVGBg",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4548",
   "name": "Rat (26. Sitzung)",
   "start": "2020-09-29T18:30:00+02:00",
@@ -115,7 +123,6 @@
       "order": 7,
       "name": "Entlassung von Führungskräften der Feuerwehr",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6833",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2020-09-14T12:59:29+02:00",
       "modified": "2020-09-17T09:44:43+02:00"
     },
@@ -126,7 +133,6 @@
       "order": 8,
       "name": "Annahme von Zuwendungen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6830",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2020-09-14T12:59:20+02:00",
       "modified": "2020-09-17T09:45:07+02:00"
     },
@@ -137,7 +143,6 @@
       "order": 9,
       "name": "Beschlussfassung über den Jahresabschluss 2018 der Gemeinde Nordstemmen;\nEntlastung des Bürgermeisters für den Jahresabschluss 2018;\nVerwendung des Jahresergebnisses 2018",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6816",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2020-09-14T12:58:19+02:00",
       "modified": "2020-09-14T12:58:23+02:00"
     },
@@ -148,7 +153,6 @@
       "order": 10,
       "name": "1. Nachtragshaushaltssatzung 2020 der Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6819",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2020-09-14T12:58:30+02:00",
       "modified": "2020-09-14T12:58:30+02:00"
     },
@@ -169,7 +173,6 @@
       "order": 12,
       "name": "Bundesprogramm Mehrgenerationenhaus 2021 bis 2028;\nFörderantrag KOMM e. V. Mehrgenerationenhaus (MGH) Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6827",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2020-09-14T12:59:03+02:00",
       "modified": "2020-09-14T12:59:03+02:00"
     },
@@ -190,7 +193,6 @@
       "order": 14,
       "name": "Neufassung der Satzung für die Gleichstellungsbeauftragte der Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6841",
-      "result": "22 Ja-Stimmen, 2 Nein-Stimmen, 2 Enthaltungen",
       "created": "2020-09-17T09:46:38+02:00",
       "modified": "2020-09-17T09:46:41+02:00"
     },
@@ -201,7 +203,6 @@
       "order": 15,
       "name": "Neufassung der Satzung für die Gleichstellungsbeauftragte der Gemeinde Nordstemmen;\nAntrag der Fraktion Bündnis 90/Die Grünen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6845",
-      "result": "19 Ja-Stimmen, 2 Nein-Stimmen, 5 Enthaltungen / Antrag abgelehnt",
       "created": "2020-09-17T09:46:30+02:00",
       "modified": "2020-09-17T11:37:44+02:00"
     },
@@ -233,5 +234,6 @@
       "created": "2020-07-16T09:27:34+02:00",
       "modified": "2020-07-16T09:27:34+02:00"
     }
-  ]
+  ],
+  "modified": "2021-03-01T10:36:50+01:00"
 }

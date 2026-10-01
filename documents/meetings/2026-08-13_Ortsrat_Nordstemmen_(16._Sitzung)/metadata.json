@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2026-08-13T20:00:00+02:00",
+  "keyword": [
+    "Ortsrat Nordstemmen (16. Sitzung)"
+  ],
+  "created": "2026-07-29T11:54:56+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZa27KFX-nV_xH5hP-ExwXIk",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5963",
   "name": "Ortsrat Nordstemmen (16. Sitzung)",
   "start": "2026-08-13T19:00:00+02:00",
@@ -15,5 +23,128 @@
   },
   "organization": [
     "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-8"
-  ]
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-45454",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Nordstemmen)",
+    "mimeType": "application/pdf",
+    "date": "2026-08-13",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdSiLSD2ftnmgSwgT67ZvSpQkCZZFCE8kWyVSyuL6jYK/Bekanntmachung_Ortsrat_Nordstemmen_13.08.2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdSiLSD2ftnmgSwgT67ZvSpQkCZZFCE8kWyVSyuL6jYK/Bekanntmachung_Ortsrat_Nordstemmen_13.08.2026.pdf",
+    "created": "2026-07-30T19:00:11+02:00",
+    "modified": "2026-07-30T19:00:11+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25183",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2026-07-30T13:24:15+02:00",
+      "modified": "2026-07-30T13:24:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25184",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2026-07-30T13:24:15+02:00",
+      "modified": "2026-07-30T13:24:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25185",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 12. Mai 2026",
+      "created": "2026-07-30T13:24:15+02:00",
+      "modified": "2026-07-30T13:24:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25186",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Anfragen und Anregungen",
+      "created": "2026-07-30T13:24:15+02:00",
+      "modified": "2026-07-30T13:24:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25187",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2026-07-30T13:24:15+02:00",
+      "modified": "2026-07-30T13:24:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25191",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Sachstand Heyersumer Straße - Salzbach",
+      "created": "2026-07-30T13:24:15+02:00",
+      "modified": "2026-07-30T13:24:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25196",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 0131 \"Rauhe Wiese - West II\", \nOrtschaft Nordstemmen \n- Anhörung des Ortsrates gemäß § 94 Absatz 1 NKomVG",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8904",
+      "created": "2026-07-30T13:24:15+02:00",
+      "modified": "2026-07-30T13:24:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25193",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Ortsbild im Bereich Grünflächen",
+      "created": "2026-07-30T13:24:15+02:00",
+      "modified": "2026-07-30T13:24:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25194",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Bushaltestelle vor der Marienbergschule",
+      "created": "2026-07-30T13:24:15+02:00",
+      "modified": "2026-07-30T13:24:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25195",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Antrag vom Tennisverein",
+      "created": "2026-07-30T13:24:15+02:00",
+      "modified": "2026-07-30T13:24:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25188",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Bericht bzw. Mitteilungen der Ortsbürgermeisterin",
+      "created": "2026-07-30T13:24:15+02:00",
+      "modified": "2026-07-30T13:24:15+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25189",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Mitteilungen der Verwaltung",
+      "created": "2026-07-30T13:24:15+02:00",
+      "modified": "2026-07-30T13:24:15+02:00"
+    }
+  ],
+  "modified": "2026-07-30T13:24:15+02:00"
 }

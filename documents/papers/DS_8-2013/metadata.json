@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2013-05-07T19:00:26+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZYjAquCUox2tI5PclALpInM",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/802",
   "reference": "DS 8/2013",
   "name": "Neuordnung der Grundstücke im Bereich des Schul- und Sportzentrums in der Ortschaft Nordstemmen",
@@ -43,6 +47,15 @@
       "modified": "2013-05-07T16:54:47+02:00"
     },
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2189",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2013-01-29T11:51:08+01:00",
+      "modified": "2013-01-29T11:51:08+01:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2194",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/9862",
@@ -53,5 +66,6 @@
       "created": "2013-01-29T11:52:13+01:00",
       "modified": "2013-01-29T11:52:13+01:00"
     }
-  ]
+  ],
+  "modified": "2013-05-29T13:00:09+02:00"
 }

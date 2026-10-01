@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2023-11-17T13:00:10+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQkhtvhyoZHjk9KvnuUUCJw",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5426",
   "reference": "DS 87/2023",
   "name": "Stellenplan der Gemeinde Nordstemmen 2024",
@@ -89,5 +96,6 @@
       "created": "2023-11-08T09:25:58+01:00",
       "modified": "2023-11-08T09:25:58+01:00"
     }
-  ]
+  ],
+  "modified": "2023-12-13T13:00:06+01:00"
 }

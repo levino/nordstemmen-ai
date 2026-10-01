@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2019-06-20T19:30:00+02:00",
+  "keyword": [
+    "Fachausschuss Planung, Bau und Umwelt (15. Sitzung)"
+  ],
+  "created": "2018-11-21T09:22:57+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZft96BtbHtRiyD-CkgyXxr8",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4253",
   "name": "Fachausschuss Planung, Bau und Umwelt (15. Sitzung)",
   "start": "2019-06-20T18:30:00+02:00",
@@ -83,7 +91,6 @@
       "order": 5,
       "name": "Bebauungsplan Nr. 0307 \"Barnten - Süd IV\"\n- Vorstellung des Entwurfes und Beschluss zur öffentlichen Auslegung",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6583",
-      "result": "Einstimmig/ja",
       "created": "2019-06-06T15:59:17+02:00",
       "modified": "2019-06-06T15:59:17+02:00"
     },
@@ -94,7 +101,6 @@
       "order": 6,
       "name": "21. Änderung des Flächennutzungsplanes der Gemeinde Nordstemmen\n(Konzentrationsflächen für Windenergienutzung mit Ausschlusswirkung gem. § 35 Abs. 3 BauGB)\n\nFeststellungsbeschluss\n",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6580",
-      "result": "Einstimmig/ja",
       "created": "2019-06-06T15:44:25+02:00",
       "modified": "2019-06-06T15:44:25+02:00"
     },
@@ -105,7 +111,6 @@
       "order": 7,
       "name": "Lärmaktionsplan der Gemeinde Nordstemmen,\n- Beschluss",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6551",
-      "result": "8 Ja-Stimmen/1 Nein Stimme",
       "created": "2019-06-06T15:44:25+02:00",
       "modified": "2019-06-06T15:44:46+02:00"
     },
@@ -150,5 +155,6 @@
       "created": "2019-06-06T15:44:25+02:00",
       "modified": "2019-06-06T15:44:25+02:00"
     }
-  ]
+  ],
+  "modified": "2019-10-24T17:02:17+02:00"
 }

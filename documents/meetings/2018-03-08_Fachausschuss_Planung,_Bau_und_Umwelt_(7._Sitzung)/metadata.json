@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-03-08T19:30:00+01:00",
+  "keyword": [
+    "Fachausschuss Planung, Bau und Umwelt (7. Sitzung)"
+  ],
+  "created": "2017-11-07T14:56:21+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZSbonvP72ZHfYp3TxuY-anE",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4045",
   "name": "Fachausschuss Planung, Bau und Umwelt (7. Sitzung)",
   "start": "2018-03-08T18:30:00+01:00",
@@ -83,7 +91,6 @@
       "order": 5,
       "name": "Bebauungsplan Nr. 0107 \"Ortsmitte Ost\", 6. Änderung sowie 3. Berichtigung des Flächennutzungsplanes der Gemeinde Nordstemmen;\n- Anhörung des Ortsrates gemäß § 94 Absatz 1 NKomVG;\n- Satzungsbeschluss gem. § 10 Abs. 1 BauGB",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6111",
-      "result": "Einstimmig / ja",
       "created": "2018-02-16T09:50:28+01:00",
       "modified": "2018-02-16T09:50:28+01:00"
     },
@@ -94,7 +101,6 @@
       "order": 6,
       "name": "Bebauungsplan Nr. 0115 “Hauptstraße – Süd“, 3. Änderung\nVorstellung des Entwurfes und Beschluss zur öffentlichen Auslegung",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6153",
-      "result": "Einstimmig / ja",
       "created": "2018-02-23T08:57:30+01:00",
       "modified": "2018-02-23T08:57:34+01:00"
     },
@@ -146,7 +152,6 @@
       "order": 10,
       "name": "Barrierefreier Ausbau von Bushaltestellen;\nFörderantrag für den Ausbau 2019 und Vergabe eines Planungsauftrages",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6127",
-      "result": "Einstimmig / ja",
       "created": "2018-02-16T09:50:28+01:00",
       "modified": "2018-02-16T09:50:28+01:00"
     },
@@ -191,5 +196,6 @@
       "created": "2018-02-16T09:50:28+01:00",
       "modified": "2018-02-16T09:50:28+01:00"
     }
-  ]
+  ],
+  "modified": "2024-09-27T11:39:40+02:00"
 }

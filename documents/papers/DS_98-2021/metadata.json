@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-195"
+  ],
+  "created": "2021-11-03T13:00:27+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZeCJHoUN8IkrH_wZot22_ec",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5055",
   "reference": "DS 98/2021",
   "name": "Umgestaltung von Teilbereichen der Adenoyser Straße",
@@ -42,5 +49,6 @@
       "created": "2021-10-26T09:26:24+02:00",
       "modified": "2021-10-26T09:26:24+02:00"
     }
-  ]
+  ],
+  "modified": "2021-11-12T10:42:30+01:00"
 }

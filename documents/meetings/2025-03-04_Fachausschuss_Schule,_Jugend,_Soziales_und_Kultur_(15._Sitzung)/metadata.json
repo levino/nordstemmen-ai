@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2025-03-04T19:30:00+01:00",
+  "keyword": [
+    "Fachausschuss Schule, Jugend, Soziales und Kultur (15. Sitzung)"
+  ],
+  "created": "2024-09-02T11:12:59+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZTihY6uMm8qu-T_AJXFkN2s",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5605",
   "name": "Fachausschuss Schule, Jugend, Soziales und Kultur (15. Sitzung)",
   "start": "2025-03-04T18:30:00+01:00",
@@ -102,7 +110,6 @@
       "order": 7,
       "name": "Anträge der Grundschule Barnten auf Anpassung der Zügigkeit\na) Einrichtung einer dritten ersten Klasse im kommenden Schuljahr 2025/26\nb) Änderung des § 3 (Kapazitätsgrenzen) der Schulbezirkssatzung",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8291",
-      "result": "2 Ja Stimmen, 8 Nein Stimmen, 3 Enthaltungen2 Ja Stimmen, 9 Nein Stimmen, 2 Enthaltungen",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7290",
@@ -127,7 +134,6 @@
       "order": 8,
       "name": "Anpassung der Nutzungsentgelte für die Heinz-Fiolka-Halle in Heyersum\n",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8294",
-      "result": "Abgesetzt",
       "created": "2025-02-13T10:11:46+01:00",
       "modified": "2025-02-13T10:11:46+01:00"
     },
@@ -140,5 +146,6 @@
       "created": "2025-01-09T07:40:18+01:00",
       "modified": "2025-01-09T07:40:18+01:00"
     }
-  ]
+  ],
+  "modified": "2025-08-07T14:42:00+02:00"
 }

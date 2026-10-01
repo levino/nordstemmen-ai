@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2024-08-26T19:00:07+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZZaj1qzbYC9T8OsbqxVu31U",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5551",
   "reference": "DS 58/2024",
   "name": "Vorläufiger Jahresabschluss 2023",
@@ -77,5 +84,6 @@
       "created": "2024-08-21T11:14:45+02:00",
       "modified": "2024-08-21T11:14:45+02:00"
     }
-  ]
+  ],
+  "modified": "2024-11-22T13:00:29+01:00"
 }

@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-195"
+  ],
+  "created": "2026-08-24T19:00:22+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZR3M7Kdm47xLbfX4p8QuzGk",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5910",
   "reference": "DS 70/2026",
   "name": "Schülerentwicklung und Satzung zur Festlegung eines gemeinsamen Schulbezirkes für die Grundschulen der Gemeinde Nordstemmen",
@@ -14,7 +21,7 @@
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaSlcWIWJqw7Fm-SqJsl71-NNASehaP8iMNzuEV-BWcz/Mitteilungsvorlage_DS_70-2026.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaSlcWIWJqw7Fm-SqJsl71-NNASehaP8iMNzuEV-BWcz/Mitteilungsvorlage_DS_70-2026.pdf",
     "created": "2026-08-24T19:00:22+02:00",
-    "modified": "2026-08-24T19:00:22+02:00"
+    "modified": "2026-09-11T13:00:16+02:00"
   },
   "auxiliaryFile": [
     {
@@ -54,5 +61,6 @@
       "created": "2026-07-22T06:28:12+02:00",
       "modified": "2026-07-22T08:55:56+02:00"
     }
-  ]
+  ],
+  "modified": "2026-09-11T13:00:16+02:00"
 }

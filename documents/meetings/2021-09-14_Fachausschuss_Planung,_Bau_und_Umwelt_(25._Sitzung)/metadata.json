@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2021-09-14T19:30:00+02:00",
+  "keyword": [
+    "Fachausschuss Planung, Bau und Umwelt (25. Sitzung)"
+  ],
+  "created": "2021-06-22T08:41:21+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZYD4K5u7Ff9gEq54n6_5dkE",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4758",
   "name": "Fachausschuss Planung, Bau und Umwelt (25. Sitzung)",
   "start": "2021-09-14T18:00:00+02:00",
@@ -83,7 +91,6 @@
       "order": 5,
       "name": "Beauftragung eines Planungsbüros für die Erstellung eines kommunalen Radverkehrskonzeptes für die Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7150",
-      "result": "Einstimmig/lt. Beschlussvorschlag",
       "created": "2021-08-31T07:48:18+02:00",
       "modified": "2021-08-31T07:48:18+02:00"
     },
@@ -94,7 +101,6 @@
       "order": 6,
       "name": "Bebauungsplan Nr. 0123 \"Heyersumer Straße - Süd\", 3. Änderung, Ortschaft Nordstemmen\n- Aufstellungsbeschluss gemäß § 2 Absatz 1 BauGB",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7165",
-      "result": "Einstimmig/lt. Beschlussvorschlag",
       "created": "2021-09-03T10:26:01+02:00",
       "modified": "2021-09-03T10:26:01+02:00"
     },
@@ -139,5 +145,6 @@
       "created": "2021-08-31T07:48:18+02:00",
       "modified": "2021-08-31T07:48:18+02:00"
     }
-  ]
+  ],
+  "modified": "2021-12-03T07:21:36+01:00"
 }

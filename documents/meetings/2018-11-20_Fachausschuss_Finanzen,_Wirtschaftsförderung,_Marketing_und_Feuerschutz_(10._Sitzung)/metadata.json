@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-11-20T19:30:00+01:00",
+  "keyword": [
+    "Fachausschuss Finanzen, Wirtschaftsförderung, Marketing und Feuerschutz (10. Sitzung)"
+  ],
+  "created": "2018-03-12T14:46:16+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZYV9rr_NgXqML2LtxrVy_bI",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4159",
   "name": "Fachausschuss Finanzen, Wirtschaftsförderung, Marketing und Feuerschutz (10. Sitzung)",
   "start": "2018-11-20T18:30:00+01:00",
@@ -83,7 +91,6 @@
       "order": 5,
       "name": "Beschlussfassung über den Jahresabschluss 2016 der Gemeinde Nordstemmen;\nEntlastung des Bürgermeisters für den Jahresabschluss 2016;\nVerwendung des Jahresergebnisses 2016",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6403",
-      "result": "einstimmig",
       "created": "2018-11-09T11:43:06+01:00",
       "modified": "2018-11-09T11:45:41+01:00"
     },
@@ -94,7 +101,6 @@
       "order": 6,
       "name": "Beschlussfassung über den Jahresabschluss 2017 der Gemeinde Nordstemmen;\nEntlastung des Bürgermeisters für den Jahresabschluss 2017;\nVerwendung des Jahresergebnisses 2017",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6406",
-      "result": "einstimmig",
       "created": "2018-11-09T11:43:14+01:00",
       "modified": "2018-11-09T11:45:48+01:00"
     },
@@ -105,7 +111,6 @@
       "order": 7,
       "name": "Haushaltssatzung und Haushaltsplan 2019",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6416",
-      "result": "einstimmig",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4204",
@@ -130,7 +135,6 @@
       "order": 8,
       "name": "Investitionsprogramm für den Investitionszeitraum bis zum Haushaltsjahr 2022;\nmittelfristige Ergebnis- und Finanzplanung",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6413",
-      "result": "einstimmig",
       "created": "2018-11-09T11:43:33+01:00",
       "modified": "2018-11-09T11:46:18+01:00"
     },
@@ -141,7 +145,6 @@
       "order": 9,
       "name": "Stellenplan 2019",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6419",
-      "result": "8 Ja-Stimmen/1 Nein-Stimme/ja",
       "created": "2018-11-09T11:43:53+01:00",
       "modified": "2018-11-09T11:49:56+01:00"
     },
@@ -173,5 +176,6 @@
       "created": "2018-10-17T10:47:20+02:00",
       "modified": "2018-10-17T10:47:20+02:00"
     }
-  ]
+  ],
+  "modified": "2019-01-10T10:08:37+01:00"
 }

@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-196"
+  ],
+  "created": "2020-11-13T13:00:16+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZeb5tmllGTi3vLPvQ5TvuMg",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4891",
   "reference": "DS 68/2020",
   "name": "Mauerseglerkästen an Gebäuden der Gemeinde Nordstemmen ",
@@ -28,5 +35,6 @@
       "created": "2020-09-16T12:14:35+02:00",
       "modified": "2020-09-16T12:14:36+02:00"
     }
-  ]
+  ],
+  "modified": "2021-02-09T10:21:10+01:00"
 }

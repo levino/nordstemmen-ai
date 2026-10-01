@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2016-05-26T19:30:00+02:00",
+  "keyword": [
+    "Fachausschuss Planung, Bau, Umwelt, Feuerschutz (42. Sitzung)"
+  ],
+  "created": "2015-11-09T13:09:36+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZe79ZedP_VZITHHicxR0hyo",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2686",
   "name": "Fachausschuss Planung, Bau, Umwelt, Feuerschutz (42. Sitzung)",
   "start": "2016-05-26T18:30:00+02:00",
@@ -83,7 +91,6 @@
       "order": 5,
       "name": "Einrichtung von Nacht-AST-Verkehren in der Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3510",
-      "result": "Einstimmig, 0 Enthaltung(en)",
       "created": "2016-05-19T08:41:30+02:00",
       "modified": "2016-06-20T13:39:26+02:00"
     },
@@ -119,5 +126,6 @@
       "created": "2016-05-19T08:41:30+02:00",
       "modified": "2016-05-19T08:41:30+02:00"
     }
-  ]
+  ],
+  "modified": "2016-10-27T16:17:38+02:00"
 }

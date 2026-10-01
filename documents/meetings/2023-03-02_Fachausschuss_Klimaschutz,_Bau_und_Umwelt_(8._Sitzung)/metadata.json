@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2023-03-02T19:00:00+01:00",
+  "keyword": [
+    "Fachausschuss Klimaschutz, Bau und Umwelt (8. Sitzung)"
+  ],
+  "created": "2022-10-25T14:01:36+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZQ66jw5LEltY9wtfvgIB3cY",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5163",
   "name": "Fachausschuss Klimaschutz, Bau und Umwelt (8. Sitzung)",
   "start": "2023-03-02T18:00:00+01:00",
@@ -102,7 +110,6 @@
       "order": 7,
       "name": "Antrag auf Aufstellung der 23. Änderung des Flächennutzungsplanes der Gemeinde Nordstemmen (Krummer Kamp II & Obere Wanne II), Ortschaft Adensen\n- Aufstellungsbeschluss gemäß § 2 Absatz 1 Baugesetzbuch (BauGB)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7643",
-      "result": "7 Ja-Stimmen und 2 Nein-Stimmen lt. Beschlussvorschlag",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6153",
@@ -139,7 +146,6 @@
       "order": 8,
       "name": "Bebauungsplan Nr. 0207A \"Krummer Kamp II\", Ortschaft Adensen\n- Aufstellungsbeschluss gemäß § 2 Absatz 1 Baugesetzbuch (BauGB)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7645",
-      "result": "7 Ja-Stimmen und 2 Nein-Stimmen lt. Beschlussvorschlag",
       "created": "2023-02-14T07:34:02+01:00",
       "modified": "2023-02-14T07:34:02+01:00"
     },
@@ -150,7 +156,6 @@
       "order": 9,
       "name": "Antrag des Ortsrates Barnten auf Entwidmung des Spielplatzes an der Barnter Hameke\n- Änderung des Bebauungsplans Nr. 0303 \"Barnten-Süd II\"\n- Aufstellungsbeschluss gemäß § 2 Absatz 1 Baugesetzbuch (BauGB)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7648",
-      "result": "Einstimmig, Alternative II",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-6151",
@@ -209,5 +214,6 @@
       "created": "2022-12-09T09:11:36+01:00",
       "modified": "2022-12-09T09:11:36+01:00"
     }
-  ]
+  ],
+  "modified": "2023-08-10T14:25:24+02:00"
 }

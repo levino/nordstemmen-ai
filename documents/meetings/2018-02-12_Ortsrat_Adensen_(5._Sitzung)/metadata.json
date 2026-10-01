@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-02-12T19:00:00+01:00",
+  "keyword": [
+    "Ortsrat Adensen (5. Sitzung)"
+  ],
+  "created": "2017-11-07T14:44:38+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZdgP_bJDyvjao73K8QhICXg",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4036",
   "name": "Ortsrat Adensen (5. Sitzung)",
   "start": "2018-02-12T18:00:00+01:00",
@@ -119,7 +127,6 @@
       "order": 6,
       "name": "Potenzielle Hotspot-Standorte im Rahmen der EU-Förderung (WIFI4EU)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6095",
-      "result": "5 Ja-Stimmen/1 Nein-Stimme",
       "created": "2018-02-01T13:36:02+01:00",
       "modified": "2018-02-01T13:36:02+01:00"
     },
@@ -159,5 +166,6 @@
       "created": "2018-02-01T13:36:02+01:00",
       "modified": "2018-02-01T13:36:02+01:00"
     }
-  ]
+  ],
+  "modified": "2018-05-29T08:10:29+02:00"
 }

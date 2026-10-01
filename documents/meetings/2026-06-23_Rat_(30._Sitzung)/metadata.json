@@ -1,6 +1,14 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2026-06-23T19:30:00+02:00",
+  "keyword": [
+    "Rat (29. Sitzung)"
+  ],
+  "created": "2025-09-15T10:59:02+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZfTVRbmITgyR1XjFLcT50wI",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5785",
-  "name": "Rat (30. Sitzung)",
+  "name": "Rat (29. Sitzung)",
   "start": "2026-06-23T18:30:00+02:00",
   "location": {
     "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
@@ -15,5 +23,341 @@
   },
   "organization": [
     "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
-  ]
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-45059",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2026-06-23",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYKa06iIqbzq_yqKaLxlwcnpZD5DfOmj06ACGVODR2Ib/Bekanntmachung_Rat_23.06.2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYKa06iIqbzq_yqKaLxlwcnpZD5DfOmj06ACGVODR2Ib/Bekanntmachung_Rat_23.06.2026.pdf",
+    "created": "2026-06-10T13:00:10+02:00",
+    "modified": "2026-06-10T13:00:10+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-45376",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Rat)",
+    "mimeType": "application/pdf",
+    "date": "2026-06-23",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZU2-JG7SIhOEiL8Lsoyc1DUXXI8Ko4SxRSKsrEBZU2AP/Oeffentliche_Niederschrift_Rat_23.06.2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZU2-JG7SIhOEiL8Lsoyc1DUXXI8Ko4SxRSKsrEBZU2AP/Oeffentliche_Niederschrift_Rat_23.06.2026.pdf",
+    "created": "2026-07-03T13:00:25+02:00",
+    "modified": "2026-07-03T13:00:25+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24915",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2026-05-28T14:23:22+02:00",
+      "modified": "2026-05-28T14:23:22+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24916",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2026-05-28T14:23:22+02:00",
+      "modified": "2026-05-28T14:23:22+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24917",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 28. April 2026",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7835",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Protokoll Rat 28_04_2026)",
+          "mimeType": "application/pdf",
+          "date": "2026-06-23",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZeU5XjzqkXgTAQOnUzgswsSyb5yft76u4bpliMdKxpgD/Protokoll_Rat_28_04_2026.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZeU5XjzqkXgTAQOnUzgswsSyb5yft76u4bpliMdKxpgD/Protokoll_Rat_28_04_2026.pdf",
+          "created": "2026-06-10T13:00:10+02:00",
+          "modified": "2026-06-10T13:00:10+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7836",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1_zu TOP 3_Bericht BGM)",
+          "mimeType": "application/pdf",
+          "date": "2026-06-23",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZUbXxMH_LKsh9dJKWxCRowNbpsTYJC3AsGFN9SfT2QyB/Anlage_1_zu_TOP_3_Bericht_BGM.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZUbXxMH_LKsh9dJKWxCRowNbpsTYJC3AsGFN9SfT2QyB/Anlage_1_zu_TOP_3_Bericht_BGM.pdf",
+          "created": "2026-06-10T13:00:10+02:00",
+          "modified": "2026-06-10T13:00:10+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7837",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Mitteilungen BMin im Rat am 28_04_2026)",
+          "mimeType": "application/pdf",
+          "date": "2026-06-23",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbGWimynEtTwsDZtwV40SI62KhjQiB9pktj7_-cfS3Hc/Mitteilungen_BMin_im_Rat_am_28_04_2026.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbGWimynEtTwsDZtwV40SI62KhjQiB9pktj7_-cfS3Hc/Mitteilungen_BMin_im_Rat_am_28_04_2026.pdf",
+          "created": "2026-06-10T13:00:10+02:00",
+          "modified": "2026-06-10T13:00:10+02:00"
+        }
+      ],
+      "created": "2026-05-28T14:23:22+02:00",
+      "modified": "2026-05-28T14:23:22+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24937",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Genehmigung des Protokolls der Sitzung des Rates vom 27. Mai 2026",
+      "created": "2026-05-28T14:24:55+02:00",
+      "modified": "2026-06-10T08:34:59+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24918",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht der Bürgermeisterin über die ausgeführten Beschlüsse des Rates sowie wichtiger Beschlüsse des Verwaltungsausschusses",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7896",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1 zur Niederschrift der Sitzung)",
+          "mimeType": "application/pdf",
+          "date": "2026-06-23",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZXc7WHYZHpsx5VLvp_pA_kUT8DQICk_K1rWhwYG70wb3/Anlage_1_zur_Niederschrift_der_Sitzung.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZXc7WHYZHpsx5VLvp_pA_kUT8DQICk_K1rWhwYG70wb3/Anlage_1_zur_Niederschrift_der_Sitzung.pdf",
+          "created": "2026-07-03T13:00:25+02:00",
+          "modified": "2026-07-03T13:00:25+02:00"
+        }
+      ],
+      "created": "2026-05-28T14:23:22+02:00",
+      "modified": "2026-05-28T14:23:22+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24919",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Anfragen und Anregungen",
+      "created": "2026-05-28T14:23:22+02:00",
+      "modified": "2026-05-28T14:23:22+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24920",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2026-05-28T14:23:22+02:00",
+      "modified": "2026-05-28T14:23:22+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24922",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Annahme einer Sachzuwendung für die Ortsfeuerwehr Klein Escherde",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8788",
+      "created": "2026-05-28T14:23:22+02:00",
+      "modified": "2026-06-05T12:39:49+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25132",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Wiederaufnahme der Kooperationsvereinbarung zur Förderung der interkommunalen\nZusammenarbeit im Bereich Kultur (IKZ Kultur)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8858",
+      "created": "2026-06-05T12:40:17+02:00",
+      "modified": "2026-06-05T12:40:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25135",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8.1",
+      "order": 10,
+      "name": "Wiederaufnahme der Kooperationsvereinbarung zur Förderung der interkommunalen\nZusammenarbeit im Bereich Kultur (IKZ Kultur)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8740",
+      "created": "2026-06-08T10:04:00+02:00",
+      "modified": "2026-06-08T10:04:25+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25133",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 11,
+      "name": "Schulwegsicherung Grundschule Nordstemmen (Asternschule)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8856",
+      "created": "2026-06-06T12:25:56+02:00",
+      "modified": "2026-06-06T12:25:56+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25136",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9.1",
+      "order": 12,
+      "name": "Schulwegsicherung Grundschule Nordstemmen (Asternschule)",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8751",
+      "created": "2026-06-08T10:04:58+02:00",
+      "modified": "2026-06-08T10:04:58+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24927",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 13,
+      "name": "Beschaffungskonzept für die Fahrzeuge der Ortsfeuerwehren Barnten, Groß Escherde und Klein Escherde",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8743",
+      "created": "2026-05-28T14:23:22+02:00",
+      "modified": "2026-06-06T12:26:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24926",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 14,
+      "name": "Veräußerung von Flächen der P + R Anlage am Haltepunkt Nordstemmen zur Translozierung des Empfangsgebäudes",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8849",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7897",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Anlage 2 Teil 1)",
+          "mimeType": "application/pdf",
+          "date": "2026-06-23",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbn-Td8yVCrqZjcVSiwHjSpC8NMfuAeIT-kWBcXmCa5u/Anlage_2_Teil_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbn-Td8yVCrqZjcVSiwHjSpC8NMfuAeIT-kWBcXmCa5u/Anlage_2_Teil_1.pdf",
+          "created": "2026-07-03T13:00:25+02:00",
+          "modified": "2026-07-03T13:00:25+02:00"
+        },
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7898",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Anlage 2 Teil 2)",
+          "mimeType": "application/pdf",
+          "date": "2026-06-23",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZa_2b1Ws56wnCbrQXBySDKFdS0iff9KGsRmguQgIqNBJ/Anlage_2_Teil_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZa_2b1Ws56wnCbrQXBySDKFdS0iff9KGsRmguQgIqNBJ/Anlage_2_Teil_2.pdf",
+          "created": "2026-07-03T13:00:25+02:00",
+          "modified": "2026-07-03T13:00:25+02:00"
+        }
+      ],
+      "created": "2026-05-28T14:23:22+02:00",
+      "modified": "2026-06-06T12:27:50+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24923",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 15,
+      "name": "Änderung der Hauptsatzung der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8830",
+      "created": "2026-05-28T14:23:22+02:00",
+      "modified": "2026-06-06T12:28:28+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24925",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 16,
+      "name": "1. Nachtragshaushaltssatzung 2026 der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8837",
+      "created": "2026-05-28T14:23:22+02:00",
+      "modified": "2026-06-06T12:28:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25140",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13.1",
+      "order": 17,
+      "name": "1. Nachtragshaushaltssatzung 2026 der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8867",
+      "created": "2026-06-10T08:59:31+02:00",
+      "modified": "2026-06-10T08:59:31+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24924",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 18,
+      "name": "1. Nachtragsstellenplan 2026 der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8833",
+      "created": "2026-05-28T14:23:22+02:00",
+      "modified": "2026-06-06T12:29:08+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25139",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14.1",
+      "order": 19,
+      "name": "1. Nachtragsstellenplan 2026 der Gemeinde Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8865",
+      "created": "2026-06-10T08:58:07+02:00",
+      "modified": "2026-06-10T08:58:07+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24929",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 20,
+      "name": "Bundesprogramm Mehrgenerationenhaus 2021 bis 2028;\nVerwendungsnachweise 2025",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8761",
+      "created": "2026-05-28T14:23:22+02:00",
+      "modified": "2026-05-28T14:26:57+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25134",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16",
+      "order": 21,
+      "name": "Anstellung und Finanzierung einer Drittkraft für Kindertagesstätten mit Ganztagskindergartengruppen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8860",
+      "created": "2026-06-06T12:29:36+02:00",
+      "modified": "2026-06-06T12:29:36+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25137",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "16.2",
+      "order": 22,
+      "name": "Anstellung und Finanzierung einer Drittkraft für Kindertagesstätten mit Ganztagskindergartengruppen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8822",
+      "created": "2026-06-08T10:05:25+02:00",
+      "modified": "2026-06-08T10:05:37+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24932",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "17",
+      "order": 23,
+      "name": "Antrag auf Einleitung eines Verfahrens zur 27. Änderung des Flächennutzungsplans\n- Errichtung einer Biogasanlage (Nordzucker AG); Ortschaft Nordstemmen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8813",
+      "created": "2026-05-28T14:23:22+02:00",
+      "modified": "2026-05-28T14:24:09+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24933",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "18",
+      "order": 24,
+      "name": "Mitteilungen der Verwaltung",
+      "created": "2026-05-28T14:23:22+02:00",
+      "modified": "2026-05-28T14:23:22+02:00"
+    }
+  ],
+  "modified": "2026-08-05T11:42:15+02:00"
 }

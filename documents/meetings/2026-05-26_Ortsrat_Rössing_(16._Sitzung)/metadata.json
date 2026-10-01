@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2026-05-26T20:00:00+02:00",
+  "keyword": [
+    "Ortsrat Rössing (16. Sitzung)"
+  ],
+  "created": "2026-04-20T13:26:28+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZQNuWvs7eG_AG5Ao3rCzgs4",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5948",
   "name": "Ortsrat Rössing (16. Sitzung)",
   "start": "2026-05-26T19:00:00+02:00",
@@ -16,5 +24,192 @@
   },
   "organization": [
     "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-15"
-  ]
+  ],
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-44967",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Rössing)",
+    "mimeType": "application/pdf",
+    "date": "2026-05-26",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVs3bKfVJdk8hsPzLuJOfu8PmpBNnbO8jhU9vAid7lYX/Oeffentliche_Niederschrift_Ortsrat_Roessing_26.05.2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVs3bKfVJdk8hsPzLuJOfu8PmpBNnbO8jhU9vAid7lYX/Oeffentliche_Niederschrift_Ortsrat_Roessing_26.05.2026.pdf",
+    "created": "2026-06-02T13:00:14+02:00",
+    "modified": "2026-06-03T13:00:28+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24774",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2026-04-24T09:19:08+02:00",
+      "modified": "2026-04-24T09:19:08+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24775",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2026-04-24T09:19:08+02:00",
+      "modified": "2026-04-24T09:19:08+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24776",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 10. Februar 2026",
+      "created": "2026-04-24T09:19:08+02:00",
+      "modified": "2026-04-24T09:19:08+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24781",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Mitteilungen der Verwaltung",
+      "created": "2026-04-24T09:19:08+02:00",
+      "modified": "2026-04-29T09:52:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24780",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Bericht bzw. Mitteilungen der stellv. Ortsbürgermeisterin",
+      "created": "2026-04-24T09:19:08+02:00",
+      "modified": "2026-04-29T09:52:55+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24778",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Einwohner*innen Fragestunde",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7810",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1.pdf)",
+          "mimeType": "application/pdf",
+          "date": "2026-05-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYd3cAVcUC57rgjxKRlDIGACi97eu6RXQMSgge4Hyykh/Anlage_1.pdf.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYd3cAVcUC57rgjxKRlDIGACi97eu6RXQMSgge4Hyykh/Anlage_1.pdf.pdf",
+          "created": "2026-06-02T13:00:14+02:00",
+          "modified": "2026-06-02T13:00:14+02:00"
+        }
+      ],
+      "created": "2026-04-24T09:19:08+02:00",
+      "modified": "2026-04-29T09:53:33+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24796",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Hochwasserschutz",
+      "created": "2026-04-29T09:53:51+02:00",
+      "modified": "2026-04-29T09:53:51+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24797",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Tempo 30km/h Kirchstraße",
+      "created": "2026-04-29T09:54:17+02:00",
+      "modified": "2026-04-29T09:54:17+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24779",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Mittelanmeldungen von den Ortsräten für den Haushalt 2027 sowie für die mittelfristige\nFinanzplanung 2028 - 2030",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8777",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7811",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Beschlusstext (Anlage 2.pdf)",
+          "mimeType": "application/pdf",
+          "date": "2026-05-26",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVM_INxE_PUboSemuzf9Puo9oL_hCAgppSGCirvcVw9f/Anlage_2.pdf.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVM_INxE_PUboSemuzf9Puo9oL_hCAgppSGCirvcVw9f/Anlage_2.pdf.pdf",
+          "created": "2026-06-02T13:00:14+02:00",
+          "modified": "2026-06-02T13:00:14+02:00"
+        }
+      ],
+      "created": "2026-04-24T09:19:08+02:00",
+      "modified": "2026-04-29T09:54:26+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24798",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Beschlussfassung über ein einseitiges Parkverbot in den Straßen Am Denkmal und Pfarrstraße in Richtung Feuerwache",
+      "created": "2026-04-29T09:55:24+02:00",
+      "modified": "2026-04-29T09:55:24+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24799",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Instandsetzung der Spielgeräte am Bolzplatz",
+      "created": "2026-04-29T09:55:45+02:00",
+      "modified": "2026-04-29T09:55:45+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24800",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11",
+      "order": 12,
+      "name": "Wegweiser am Rössinger Kreisverkehr",
+      "created": "2026-04-29T09:56:03+02:00",
+      "modified": "2026-04-29T09:56:03+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24801",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "12",
+      "order": 13,
+      "name": "Beteiligung an der Ideenwerkstatt 21.06.2026",
+      "created": "2026-04-29T09:56:30+02:00",
+      "modified": "2026-04-29T09:56:30+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24802",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "13",
+      "order": 14,
+      "name": "Beschlussfassung über \"Dank an Beetpaten\"",
+      "created": "2026-04-29T09:56:52+02:00",
+      "modified": "2026-04-29T09:56:52+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24803",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "14",
+      "order": 15,
+      "name": "Verwendung von Ortsratsmitteln\n- Beschlussfassung über diverse Anträge von Kulturkreis und Dorfpflege Rössing e. V.",
+      "created": "2026-04-29T09:57:39+02:00",
+      "modified": "2026-04-29T09:57:39+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24777",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "15",
+      "order": 16,
+      "name": "Anfragen und Anregungen",
+      "created": "2026-04-24T09:19:08+02:00",
+      "modified": "2026-04-24T09:19:08+02:00"
+    }
+  ],
+  "modified": "2026-06-11T08:32:30+02:00"
 }

@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2022-09-20T19:30:00+02:00",
+  "keyword": [
+    "Fachausschuss Klimaschutz, Bau und Umwelt (5. Sitzung)"
+  ],
+  "created": "2022-05-30T12:36:16+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZbqLLu4FUw37033CRKa77jA",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5069",
   "name": "Fachausschuss Klimaschutz, Bau und Umwelt (5. Sitzung)",
   "start": "2022-09-20T18:30:00+02:00",
@@ -107,7 +115,6 @@
       "order": 6,
       "name": "Ausbau der Kindertagesbetreuung;\nInformation zum Sachstand zur Einrichtung von Kleingruppen\nVorstellung der (Vor-)Entwurfsplanung für die Erweiterung der Kindertagestätten in Barnten, Burgstemmen und Heyersum",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7514",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5768",
@@ -132,7 +139,6 @@
       "order": 7,
       "name": "Bebauungsplan Nr. 0122 \"Innerörtliche Verbindungsstraße/Zuckerfabrik\", 10. Änderung, Ortschaft Nordstemmen\n- Satzungsbeschluss gemäß § 10 Baugesetzbuch (BauGB)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7470",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2022-09-01T10:20:00+02:00",
       "modified": "2022-09-01T10:20:04+02:00"
     },
@@ -143,7 +149,6 @@
       "order": 8,
       "name": "Bebauungsplan Nr. 0118 „Hauptstraße - Mitte II“, 3. Änderung; Ortschaft Nordstemmen\n- Aufstellungsbeschluss gemäß § 2 Absatz 1 Baugesetzbuch (BauGB)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7519",
-      "result": "Keine Beschlussempfehlung",
       "created": "2022-09-08T15:03:41+02:00",
       "modified": "2022-09-08T15:03:41+02:00"
     },
@@ -154,7 +159,6 @@
       "order": 9,
       "name": "Bebauungsplan Nr. 0123 \"Heyersumer Straße - Süd\", 3. Änderung, Ortschaft Nordstemmen\n- Beschluss über die Aufhebung des Aufstellungsbeschlusses",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7511",
-      "result": "Einstimmig lt. Beschlussempfehlung",
       "created": "2022-09-07T14:20:16+02:00",
       "modified": "2022-09-07T14:20:16+02:00"
     },
@@ -202,5 +206,6 @@
       "created": "2022-07-27T11:50:04+02:00",
       "modified": "2022-07-27T11:50:04+02:00"
     }
-  ]
+  ],
+  "modified": "2022-12-29T08:58:26+01:00"
 }

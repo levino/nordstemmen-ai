@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2013-11-25T13:00:27+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZbE_FNH80xunBET99PbbuEc",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/933",
   "reference": "DS 105/2013 1. Ergänzung",
   "name": "Freizeitbad Nordstemmen - Neufassung Haus- und Badeordnung",
@@ -32,6 +36,15 @@
   ],
   "consultation": [
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2606",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2013-11-22T07:53:34+01:00",
+      "modified": "2013-11-22T07:53:34+01:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2610",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10435",
@@ -42,5 +55,6 @@
       "created": "2013-11-22T07:53:34+01:00",
       "modified": "2013-11-22T07:53:34+01:00"
     }
-  ]
+  ],
+  "modified": "2013-11-25T13:00:27+01:00"
 }

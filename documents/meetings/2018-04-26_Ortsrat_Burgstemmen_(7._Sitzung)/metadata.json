@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-04-26T20:00:00+02:00",
+  "keyword": [
+    "Ortsrat Burgstemmen (7. Sitzung)"
+  ],
+  "created": "2017-11-07T14:59:10+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZYeq2hGH9CsAYyYuB5LgOco",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4050",
   "name": "Ortsrat Burgstemmen (7. Sitzung)",
   "start": "2018-04-26T19:00:00+02:00",
@@ -84,7 +92,6 @@
       "order": 5,
       "name": "Antrag der Fraktion Bündnis 90 / Die Grünen vom 8. März 2018; \nEinrichtung von W-LAN in mindestens einem öffentlichen Gebäude pro Ortsteil",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6209",
-      "result": "einstimmig ja für Standort MZH Burgstemmen",
       "created": "2018-04-16T15:41:57+02:00",
       "modified": "2018-04-16T15:41:57+02:00"
     },
@@ -95,7 +102,6 @@
       "order": 6,
       "name": "Anhörung zur Aufstellung der Vorschlagsliste für die Neuwahl der Schöffen für die Jahre 2019 bis 2023",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6188",
-      "result": "einstimmig ja",
       "created": "2018-04-10T10:37:41+02:00",
       "modified": "2018-04-10T10:37:41+02:00"
     },
@@ -140,5 +146,6 @@
       "created": "2018-04-10T10:37:41+02:00",
       "modified": "2018-04-10T10:37:41+02:00"
     }
-  ]
+  ],
+  "modified": "2018-11-28T09:45:22+01:00"
 }

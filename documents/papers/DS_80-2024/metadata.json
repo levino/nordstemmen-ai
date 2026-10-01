@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-196"
+  ],
+  "created": "2024-11-08T13:00:03+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZR1IksJEtsW2sqvf2CCrZpw",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5587",
   "reference": "DS 80/2024",
   "name": "Grundsatzbeschluss Windenergie",
@@ -39,5 +46,6 @@
       "created": "2024-10-24T08:58:54+02:00",
       "modified": "2024-10-24T08:58:54+02:00"
     }
-  ]
+  ],
+  "modified": "2024-12-13T13:00:01+01:00"
 }

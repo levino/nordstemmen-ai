@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2014-02-26T12:49:00+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZXvBsvcKdVTU6BJ7QTANA8Y",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/954",
   "reference": "DS 17/2014",
   "name": "Festsetzung der Elternbeiträge für die Kindertagesstätten und Kindertagespflege",
@@ -17,6 +21,15 @@
     "modified": "2014-02-26T12:49:00+01:00"
   },
   "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2683",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2014-02-24T11:36:44+01:00",
+      "modified": "2014-02-24T11:36:44+01:00"
+    },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2686",
       "type": "https://schema.oparl.org/1.1/Consultation",
@@ -39,5 +52,6 @@
       "created": "2014-02-24T11:37:45+01:00",
       "modified": "2014-02-24T11:37:45+01:00"
     }
-  ]
+  ],
+  "modified": "2014-02-26T12:49:00+01:00"
 }

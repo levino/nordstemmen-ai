@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-195"
+  ],
+  "created": "2022-11-09T19:00:18+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZbzLwnKY0AZyMxKffsl2ZRM",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5232",
   "reference": "DS 105/2022",
   "name": "Gewährung von Zuschüssen für Ausstattungen von Tagespflegepersonen",
@@ -39,5 +46,6 @@
       "created": "2022-11-03T17:09:26+01:00",
       "modified": "2022-11-03T17:09:26+01:00"
     }
-  ]
+  ],
+  "modified": "2023-01-09T19:00:13+01:00"
 }

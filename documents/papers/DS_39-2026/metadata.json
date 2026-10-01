@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-196"
+  ],
+  "created": "2026-05-19T07:41:33+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZa6BRRWrNdZs_2hVqSxQ1oM",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5856",
   "reference": "DS 39/2026",
   "name": "Bebauungsplan Nr. 0413 \"Am Paradies II\"; Ortschaft Burgstemmen\n- Anhörung des Ortsrates gemäß § 94 Absatz 1 NKomVG",
@@ -14,7 +21,7 @@
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZaE01pKYbnV5zbg8oQnMCBlOY2CVAIEcNnmtzp12tzf1/Beschlussvorlage_DS_39-2026.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZaE01pKYbnV5zbg8oQnMCBlOY2CVAIEcNnmtzp12tzf1/Beschlussvorlage_DS_39-2026.pdf",
     "created": "2026-05-19T07:41:33+02:00",
-    "modified": "2026-05-19T07:41:33+02:00"
+    "modified": "2026-05-29T10:24:56+02:00"
   },
   "auxiliaryFile": [
     {
@@ -54,5 +61,6 @@
       "created": "2026-04-29T15:54:26+02:00",
       "modified": "2026-04-29T15:54:26+02:00"
     }
-  ]
+  ],
+  "modified": "2026-05-29T10:24:56+02:00"
 }

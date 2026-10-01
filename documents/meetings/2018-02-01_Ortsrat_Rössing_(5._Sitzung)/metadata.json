@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-02-01T20:00:00+01:00",
+  "keyword": [
+    "Ortsrat Rössing (5. Sitzung)"
+  ],
+  "created": "2017-11-07T14:45:37+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZRZmdbVmWSDixlZ2Vtf8LPE",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4037",
   "name": "Ortsrat Rössing (5. Sitzung)",
   "start": "2018-02-01T19:00:00+01:00",
@@ -110,7 +118,6 @@
       "order": 5,
       "name": "Potenzielle Hotspot-Standorte im Rahmen der EU-Förderung (WIFI4EU)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6102",
-      "result": "einstimmig/abweichender Beschluss",
       "created": "2018-01-23T15:35:58+01:00",
       "modified": "2018-01-23T15:35:58+01:00"
     },
@@ -182,5 +189,6 @@
       "created": "2018-01-23T15:35:58+01:00",
       "modified": "2018-01-23T15:35:58+01:00"
     }
-  ]
+  ],
+  "modified": "2018-05-24T16:45:59+02:00"
 }

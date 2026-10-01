@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2014-09-03T13:00:24+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdxIkajSWOSGRKUNW9lxCkQ",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1003",
   "reference": "DS 57/2014",
   "name": "Antrag des Kirchenamtes Hildesheim auf Genehmigung von Küchenstunden in der ev.-luth. Kindertagesstätte Groß Escherde",
@@ -29,6 +33,15 @@
       "modified": "2014-09-03T08:38:30+02:00"
     },
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2830",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2014-09-03T08:37:47+02:00",
+      "modified": "2014-09-03T08:37:47+02:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2835",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/11166",
@@ -39,5 +52,6 @@
       "created": "2014-09-03T08:38:54+02:00",
       "modified": "2014-09-03T08:38:54+02:00"
     }
-  ]
+  ],
+  "modified": "2014-09-03T13:00:24+02:00"
 }

@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2021-06-15T19:30:00+02:00",
+  "keyword": [
+    "Fachausschuss Bildung, Kultur und Soziales (19. Sitzung)"
+  ],
+  "created": "2020-11-27T11:22:53+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZbqOOHehI4nt_bFY6Oocwtw",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4681",
   "name": "Fachausschuss Bildung, Kultur und Soziales (19. Sitzung)",
   "start": "2021-06-15T18:30:00+02:00",
@@ -110,7 +118,6 @@
       "order": 8,
       "name": "Bundesprogramm Mehrgenerationenhaus 2017 bis 2020;\nVerwendungsnachweis 2020",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7071",
-      "result": "Zur Kenntnis genommen",
       "created": "2021-06-01T12:02:48+02:00",
       "modified": "2021-06-01T12:02:48+02:00"
     },
@@ -121,7 +128,6 @@
       "order": 9,
       "name": "Einführung einer gemeindeeigenen Ehrenamtskarte",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7074",
-      "result": "5 Ja-Stimmen, 4 Nein-Stimmen, 1 Enthaltung",
       "created": "2021-06-01T12:02:52+02:00",
       "modified": "2021-06-01T12:02:56+02:00"
     },
@@ -143,5 +149,6 @@
       "created": "2021-06-01T11:33:51+02:00",
       "modified": "2021-06-01T11:33:51+02:00"
     }
-  ]
+  ],
+  "modified": "2021-11-03T11:32:15+01:00"
 }

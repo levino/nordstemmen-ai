@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2018-05-04T13:00:45+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZY-d-QD0SR6gqdF5j-huXdU",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4566",
   "reference": "DS 37/2018",
   "name": "Betriebsergebnis der Abwasserbeseitigung 2016",
@@ -39,5 +46,6 @@
       "created": "2018-04-18T10:00:05+02:00",
       "modified": "2018-04-18T10:00:05+02:00"
     }
-  ]
+  ],
+  "modified": "2018-08-31T08:59:25+02:00"
 }

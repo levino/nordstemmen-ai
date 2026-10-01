@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-02-22T19:30:00+01:00",
+  "keyword": [
+    "Fachausschuss Bildung, Kultur und Soziales (6. Sitzung)"
+  ],
+  "created": "2017-11-07T14:54:48+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZSgYLNoDJEqXrcS59f5ZWTk",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4043",
   "name": "Fachausschuss Bildung, Kultur und Soziales (6. Sitzung)",
   "start": "2018-02-22T18:30:00+01:00",
@@ -110,7 +118,6 @@
       "order": 8,
       "name": "Vereinbarung zur Fortschreibung der Vereinbarung zur Wahrnehmung u. a. der Aufgaben der Kindertagesbetreuung",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6142",
-      "result": "einstimmig.",
       "created": "2018-02-13T17:04:23+01:00",
       "modified": "2018-02-13T17:06:15+01:00"
     },
@@ -121,7 +128,6 @@
       "order": 9,
       "name": "Erweiterung des Platzangebots um zehn Dreivierteltagsplätze in der ev.-luth. Kindertagesstätte",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6133",
-      "result": "einstimmig.",
       "created": "2018-02-13T17:04:23+01:00",
       "modified": "2018-02-13T17:24:51+01:00"
     },
@@ -162,5 +168,6 @@
       "created": "2018-02-13T17:27:11+01:00",
       "modified": "2018-02-13T17:27:11+01:00"
     }
-  ]
+  ],
+  "modified": "2018-08-02T10:49:28+02:00"
 }

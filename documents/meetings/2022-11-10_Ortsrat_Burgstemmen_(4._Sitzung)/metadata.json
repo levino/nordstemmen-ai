@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2022-11-10T19:00:00+01:00",
+  "keyword": [
+    "Ortsrat Burgstemmen (4. Sitzung)"
+  ],
+  "created": "2022-05-30T12:42:01+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZVfnDaKqYy5IZzjUNQknCTk",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5082",
   "name": "Ortsrat Burgstemmen (4. Sitzung)",
   "start": "2022-11-10T18:00:00+01:00",
@@ -206,7 +214,6 @@
       "order": 13,
       "name": "Widmung von Straßenflächen in der Ortschaft Burgstemmen und Fortschreibung des Bestandsverzeichnisses;\nhier: Neuer Weg",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7543",
-      "result": "Einstimmig Nr.1/Variante 1",
       "created": "2022-10-27T09:14:51+02:00",
       "modified": "2022-10-27T09:14:56+02:00"
     },
@@ -226,7 +233,6 @@
       "order": 15,
       "name": "Bebauungsplan-Nr. 0411 „Mühlenweg-Poppenburg“, Ortschaft Burgstemmen;\nStraßenbenennung",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7542",
-      "result": "Einstimmig „Widukindring“",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-5788",
@@ -261,7 +267,6 @@
       "order": 17,
       "name": "Anhörung zum Haushaltsplan 2023 und zum Investitionsprogramm bis 2026 für die Ort-\nschaft Burgstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7535",
-      "result": "Einstimmig zur Kenntnis genommen",
       "created": "2022-10-20T10:23:00+02:00",
       "modified": "2022-10-24T11:46:44+02:00"
     },
@@ -274,5 +279,6 @@
       "created": "2022-07-27T11:53:00+02:00",
       "modified": "2022-10-24T11:57:45+02:00"
     }
-  ]
+  ],
+  "modified": "2023-06-05T10:23:41+02:00"
 }

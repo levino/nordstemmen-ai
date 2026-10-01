@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2012-08-24T12:09:29+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZRYy8RShXxtsUhO7pwlX-Tw",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/735",
   "reference": "DS 61/2012",
   "name": "Antrag des Kirchenamtes Hildesheim auf Erweiterung des Betreuungsangebotes in der\nev.-luth. Kindertagesstätte Barnten",
@@ -32,6 +36,15 @@
   ],
   "consultation": [
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1974",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2012-08-16T15:39:09+02:00",
+      "modified": "2012-08-16T15:39:09+02:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/1977",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/8818",
@@ -53,5 +66,6 @@
       "created": "2012-08-16T15:41:04+02:00",
       "modified": "2012-08-16T15:41:04+02:00"
     }
-  ]
+  ],
+  "modified": "2012-08-24T12:09:29+02:00"
 }

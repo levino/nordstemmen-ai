@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2020-03-09T13:00:00+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZeyIyaJ5qjq90dqgWPDK2ow",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4840",
   "reference": "DS 22/2020",
   "name": "1. Satzung zur Änderung der Vergnügungssteuersatzung der Gemeinde Nordstemmen",
@@ -65,5 +72,6 @@
       "created": "2020-03-05T15:39:44+01:00",
       "modified": "2020-03-05T15:39:44+01:00"
     }
-  ]
+  ],
+  "modified": "2020-03-30T13:00:45+02:00"
 }

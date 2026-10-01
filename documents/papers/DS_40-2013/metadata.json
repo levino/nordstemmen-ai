@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2013-05-02T19:00:36+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZTDro8pVH4RMWmouFy6_zE0",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/840",
   "reference": "DS 40/2013",
   "name": "Beförderung von Kindern in die Kindertagesstätten der Gemeinde Nordstemmen",
@@ -17,6 +21,15 @@
     "modified": "2013-05-24T13:00:28+02:00"
   },
   "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2299",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2013-04-22T10:12:25+02:00",
+      "modified": "2013-04-29T15:20:06+02:00"
+    },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2302",
       "type": "https://schema.oparl.org/1.1/Consultation",
@@ -38,5 +51,6 @@
       "created": "2013-04-22T10:16:41+02:00",
       "modified": "2013-04-29T15:21:01+02:00"
     }
-  ]
+  ],
+  "modified": "2013-05-24T13:00:28+02:00"
 }

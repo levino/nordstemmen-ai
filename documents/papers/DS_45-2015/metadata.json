@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2015-06-30T19:00:53+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZRY03yapa5BJxKgqi0EwCrI",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1119",
   "reference": "DS 45/2015",
   "name": "Ausbau der Gemeindeverbindungsstraße Barnten - Nordstemmen, 4. Bauabschnitt",
@@ -32,6 +36,15 @@
   ],
   "consultation": [
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3165",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2015-06-18T14:42:50+02:00",
+      "modified": "2015-06-18T14:42:50+02:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3170",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12002",
@@ -42,5 +55,6 @@
       "created": "2015-06-18T14:43:18+02:00",
       "modified": "2015-06-18T14:43:18+02:00"
     }
-  ]
+  ],
+  "modified": "2015-06-30T19:00:53+02:00"
 }

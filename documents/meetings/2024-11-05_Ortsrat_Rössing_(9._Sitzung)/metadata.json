@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2024-11-05T19:00:00+01:00",
+  "keyword": [
+    "Ortsrat Rössing (9. Sitzung)"
+  ],
+  "created": "2023-09-11T12:34:47+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZYwE7HmEoVpQk6HztCQgt_I",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5474",
   "name": "Ortsrat Rössing (9. Sitzung)",
   "start": "2024-11-05T18:00:00+01:00",
@@ -138,7 +146,6 @@
       "order": 11,
       "name": "Anhörung zum Haushaltsplan 2025 und zum Investitionsprogramm bis 2028 für die Ortschaft Rössing",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8173",
-      "result": "Einstimmig, mit abweichendem Beschluss.",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7009",
@@ -163,7 +170,6 @@
       "order": 12,
       "name": "Spielplatzkonzept der Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8007",
-      "result": "Einstimmig geänderter Beschluss",
       "created": "2024-10-09T09:21:54+02:00",
       "modified": "2024-10-09T09:21:54+02:00"
     },
@@ -174,7 +180,6 @@
       "order": 13,
       "name": "Grundsatzbeschluss zur Ortsumgehung der Bundesstraße 1",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8161",
-      "result": "Variante A: 5 Ja-Stimmen, 2 EnthaltungenVariante B: - ",
       "created": "2024-10-09T09:21:54+02:00",
       "modified": "2024-10-09T09:21:54+02:00"
     },
@@ -187,5 +192,6 @@
       "created": "2024-10-09T09:21:54+02:00",
       "modified": "2024-10-16T15:46:09+02:00"
     }
-  ]
+  ],
+  "modified": "2024-11-13T09:59:00+01:00"
 }

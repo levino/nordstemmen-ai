@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2026-09-03T19:30:00+02:00",
+  "keyword": [
+    "Fachausschuss Kindertagesstätten (23. Sitzung)"
+  ],
+  "created": "2025-09-19T11:34:19+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZaGb6MdRptQmnRE-UKFJD74",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5867",
   "name": "Fachausschuss Kindertagesstätten (23. Sitzung)",
   "start": "2026-09-03T18:30:00+02:00",
@@ -15,5 +23,128 @@
   },
   "organization": [
     "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-42"
-  ]
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-45483",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Fachausschuss Kindertagesstätten)",
+    "mimeType": "application/pdf",
+    "date": "2026-09-03",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZYa2u3hDrLF2V8OHtAc6-Us1AWXjsF7ilcfVRIkXNozI/Bekanntmachung_Fachausschuss_Kindertagesstaetten_03.09.2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZYa2u3hDrLF2V8OHtAc6-Us1AWXjsF7ilcfVRIkXNozI/Bekanntmachung_Fachausschuss_Kindertagesstaetten_03.09.2026.pdf",
+    "created": "2026-08-12T13:00:04+02:00",
+    "modified": "2026-08-12T13:00:04+02:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-45664",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Kindertagesstätten)",
+    "mimeType": "application/pdf",
+    "date": "2026-09-03",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZQ9dXJggvPunvYPLSa5z06boWo_16vhWqGHngQMZXch6/Oeffentliche_Niederschrift_Fachausschuss_Kindertagesstaetten_03.09.2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZQ9dXJggvPunvYPLSa5z06boWo_16vhWqGHngQMZXch6/Oeffentliche_Niederschrift_Fachausschuss_Kindertagesstaetten_03.09.2026.pdf",
+    "created": "2026-09-10T13:00:22+02:00",
+    "modified": "2026-09-10T13:00:22+02:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25212",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2026-08-12T07:30:47+02:00",
+      "modified": "2026-08-12T07:30:47+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25213",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2026-08-12T07:30:47+02:00",
+      "modified": "2026-08-12T07:30:47+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25214",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 04. Juni 2026",
+      "created": "2026-08-12T07:30:47+02:00",
+      "modified": "2026-08-12T07:30:47+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25215",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Anfragen und Anregungen",
+      "created": "2026-08-12T07:30:47+02:00",
+      "modified": "2026-08-12T07:30:47+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25216",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2026-08-12T07:30:47+02:00",
+      "modified": "2026-08-12T07:30:47+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25220",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Information über die\n- Entwicklung der Kinderbetreuungszahlen (Geburtenfortschreibung)\n- Belegung der Plätze in den Kindertagesstätten, dem Hort und den Kindertagespflegen",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7970",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2026-09-03",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcWsvveA7jvv2FNUVZZvypHoU3tUpsUQUh_hrhd_Iug3/Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcWsvveA7jvv2FNUVZZvypHoU3tUpsUQUh_hrhd_Iug3/Anlage_1.pdf",
+          "created": "2026-09-10T13:00:22+02:00",
+          "modified": "2026-09-10T13:00:22+02:00"
+        }
+      ],
+      "created": "2026-08-12T07:31:58+02:00",
+      "modified": "2026-08-12T07:31:58+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25221",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Informationen aus den Kindertagesstätten",
+      "created": "2026-08-12T07:32:21+02:00",
+      "modified": "2026-08-12T07:32:21+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25217",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Weiterführung des Konzeptes Café Kinderwagen",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8873",
+      "created": "2026-08-12T07:30:47+02:00",
+      "modified": "2026-08-12T07:30:47+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25218",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Mitteilungen der Verwaltung",
+      "created": "2026-08-12T07:30:47+02:00",
+      "modified": "2026-08-12T07:30:47+02:00"
+    }
+  ],
+  "modified": "2026-09-10T12:39:22+02:00"
 }

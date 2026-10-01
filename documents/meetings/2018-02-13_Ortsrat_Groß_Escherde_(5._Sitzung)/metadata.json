@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-02-13T20:00:00+01:00",
+  "keyword": [
+    "Ortsrat Groß Escherde (5. Sitzung)"
+  ],
+  "created": "2017-11-07T14:47:00+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZf1yh3ELRE5_xpipaQP51F0",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4039",
   "name": "Ortsrat Groß Escherde (5. Sitzung)",
   "start": "2018-02-13T19:00:00+01:00",
@@ -157,7 +165,6 @@
       "order": 10,
       "name": "Potenzielle Hotspot-Standorte im Rahmen der EU-Förderung (WIFI4EU)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6098",
-      "result": "einstimmig/abweichender Beschluss",
       "created": "2018-01-25T11:26:56+01:00",
       "modified": "2018-01-25T11:57:23+01:00"
     },
@@ -170,5 +177,6 @@
       "created": "2018-01-25T11:26:56+01:00",
       "modified": "2018-01-25T11:26:56+01:00"
     }
-  ]
+  ],
+  "modified": "2018-05-29T08:40:44+02:00"
 }

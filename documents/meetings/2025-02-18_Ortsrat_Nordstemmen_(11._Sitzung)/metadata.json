@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2025-02-18T20:00:00+01:00",
+  "keyword": [
+    "Ortsrat Nordstemmen (11. Sitzung)"
+  ],
+  "created": "2024-09-02T11:29:53+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZcM5A5Ehf0jAvnsdz8ZV4A8",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5618",
   "name": "Ortsrat Nordstemmen (11. Sitzung)",
   "start": "2025-02-18T19:00:00+01:00",
@@ -74,7 +82,6 @@
       "order": 4,
       "name": "Neuaufstellung des Flächennutzungsplanes der Gemeinde Nordstemmen\n- Beschluss und Billigung des Vorentwurfes zum Flächennutzungsplan\n- Anhörung der Ortsräte gemäß § 94 Abs. 1 NKomVG",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8274",
-      "result": "5 Ja-Stimmen/1 Enthaltung/geänderter Beschlussvorschlag",
       "created": "2025-01-23T08:06:22+01:00",
       "modified": "2025-02-07T08:36:22+01:00"
     },
@@ -196,5 +203,6 @@
       "created": "2025-01-23T08:06:22+01:00",
       "modified": "2025-01-23T08:06:22+01:00"
     }
-  ]
+  ],
+  "modified": "2025-05-26T08:25:04+02:00"
 }

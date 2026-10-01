@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-195"
+  ],
+  "created": "2018-02-20T13:01:12+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZW_Q-xC7UBaHLGLleFuqIJE",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4516",
   "reference": "DS 7/2018",
   "name": "Freizeitbad Nordstemmen; Ergebnis der Freibadsaison 2017",
@@ -77,5 +84,6 @@
       "created": "2018-02-07T11:19:42+01:00",
       "modified": "2018-02-07T11:19:42+01:00"
     }
-  ]
+  ],
+  "modified": "2018-04-13T13:01:16+02:00"
 }

@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2016-06-02T19:30:00+02:00",
+  "keyword": [
+    "Fachausschuss Schulen (36. Sitzung)"
+  ],
+  "created": "2015-11-09T13:10:22+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZSADyHDwXvwjCao8pACI4Ko",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2688",
   "name": "Fachausschuss Schulen (36. Sitzung)",
   "start": "2016-06-02T18:30:00+02:00",
@@ -101,7 +109,6 @@
       "order": 7,
       "name": "Grundschule Barnten - Umnutzung der Hausmeisterwohnung (für inklusive Beschulung)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3524",
-      "result": "10 Ja-Stimme(n), 0 Gegenstimme(n), 0 Stimmenthaltung(en)",
       "created": "2016-05-24T08:08:51+02:00",
       "modified": "2016-06-16T11:25:12+02:00"
     },
@@ -132,5 +139,6 @@
       "created": "2016-05-24T08:08:51+02:00",
       "modified": "2016-05-24T08:08:51+02:00"
     }
-  ]
+  ],
+  "modified": "2016-10-12T08:41:45+02:00"
 }

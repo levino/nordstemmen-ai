@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2020-11-19T19:30:00+01:00",
+  "keyword": [
+    "Fachausschuss Finanzen, Wirtschaftsförderung, Marketing und Feuerschutz (20. Sitzung)"
+  ],
+  "created": "2020-06-23T15:06:05+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZcPovkwBxQ9oELCINfcV1_w",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4572",
   "name": "Fachausschuss Finanzen, Wirtschaftsförderung, Marketing und Feuerschutz (20. Sitzung)",
   "start": "2020-11-19T18:30:00+01:00",
@@ -110,7 +118,6 @@
       "order": 8,
       "name": "Haushaltssatzung und Haushaltsplan 2021",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6917",
-      "result": "a) 5 Ja/4 Enthaltungen / b) einstimmig lt. Beschlussvorschlag",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4936",
@@ -135,7 +142,6 @@
       "order": 9,
       "name": "Investitionsprogramm für den Investitionszeitraum bis zum Haushaltsjahr 2024;\nmittelfristige Ergebnis- und Finanzplanung",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6918",
-      "result": "5 Ja-Stimmen/4 Enthaltungen lt. Beschlussvorschlag",
       "created": "2020-11-10T09:26:09+01:00",
       "modified": "2020-11-10T09:27:06+01:00"
     },
@@ -146,7 +152,6 @@
       "order": 10,
       "name": "Stellenplan 2021",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6916",
-      "result": "8 Ja-Stimmen/1 Enthaltung lt. Beschlussvorschlag",
       "auxiliaryFile": [
         {
           "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-4937",
@@ -171,7 +176,6 @@
       "order": 11,
       "name": "Unterrichtung über die Veränderungen von Kommunaldarlehen gemäß § 7 der Richtlinie der Gemeinde Nordstemmen für die Aufnahme von Krediten und zur Umschuldung von Krediten vom 01.10.2018",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6911",
-      "result": "Zur Kenntnis genommen",
       "created": "2020-11-10T08:49:32+01:00",
       "modified": "2020-11-10T08:49:32+01:00"
     },
@@ -193,5 +197,6 @@
       "created": "2020-11-10T08:49:32+01:00",
       "modified": "2020-11-10T08:49:32+01:00"
     }
-  ]
+  ],
+  "modified": "2021-03-25T13:48:01+01:00"
 }

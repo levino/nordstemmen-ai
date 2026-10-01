@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2025-09-16T19:30:00+02:00",
+  "keyword": [
+    "Rat (20. Sitzung)"
+  ],
+  "created": "2024-09-02T11:09:52+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZbmBMKUIBU8lGMKwRFnl1zk",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5592",
   "name": "Rat (20. Sitzung)",
   "start": "2025-09-16T18:30:00+02:00",
@@ -143,7 +151,6 @@
       "order": 7,
       "name": "Bestimmung des Wahltermins für die Bürgermeisterwahl 2026",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8451",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2025-09-01T14:53:29+02:00",
       "modified": "2025-09-01T14:55:43+02:00"
     },
@@ -154,7 +161,6 @@
       "order": 8,
       "name": "Berufung eines Gemeindewahlleiters und einer stellvertretenden Gemeindewahlleiterin für die Kommunalwahlen am 13. September 2026",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8453",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2025-09-01T14:53:29+02:00",
       "modified": "2025-09-01T14:55:51+02:00"
     },
@@ -195,7 +201,6 @@
       "order": 12,
       "name": "Verhandlungsmandat zum Erwerb eines Grundstückes zur Gewerbeansiedlung",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8511",
-      "result": "Mehrheitlich bei 14 Ja-Stimmen, 7 Nein-Stimmen und zwei Enthaltungen lt. Beschlussvorschlag",
       "created": "2025-09-01T14:53:29+02:00",
       "modified": "2025-09-01T14:56:40+02:00"
     },
@@ -206,7 +211,6 @@
       "order": 13,
       "name": "Beitritt zur Gesellschaft für kommunale Immobilien mbH (GKHi);\nBildung eines Gesellschafterbeirates",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8459",
-      "result": "Einstimmig bei einer Enthaltung lt. Beschlussvorschlag",
       "created": "2025-09-01T14:53:29+02:00",
       "modified": "2025-09-01T14:58:55+02:00"
     },
@@ -217,7 +221,6 @@
       "order": 14,
       "name": "Teilaufhebung des Entsendungsbeschlusses für die Gesellschafterversammlung der Kreiswohnbau Hildesheim GmbH",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8460",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2025-09-01T14:53:29+02:00",
       "modified": "2025-09-01T14:59:14+02:00"
     },
@@ -228,7 +231,6 @@
       "order": 15,
       "name": "Grundsatzbeschluss zur Gründung einer LEADER-Region",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8483",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2025-09-01T14:53:29+02:00",
       "modified": "2025-09-01T14:57:07+02:00"
     },
@@ -249,7 +251,6 @@
       "order": 17,
       "name": "Überprüfung der Basis für die Gewerbesteuerzerlegung mit dem Ziel, einen größeren Anteil an den von der Nordzucker AG zu zahlenden Gewerbesteuern zu erhalten",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8490",
-      "result": "Einstimmig gem. Antrag",
       "created": "2025-09-01T14:53:29+02:00",
       "modified": "2025-09-01T14:53:29+02:00"
     },
@@ -290,7 +291,6 @@
       "order": 21,
       "name": "Konkretisierung der Tarifstruktur/Eintrittsgelder Freizeitbad Nordstemmen ab der Badesaison 2026",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8514",
-      "result": "Mehrheitlich bei 15 Ja-Stimmen, 4 Nein-Stimmen u. 6 Enthaltungen lt. geändertem Beschluss",
       "created": "2025-09-01T14:53:29+02:00",
       "modified": "2025-09-01T14:53:29+02:00"
     },
@@ -301,7 +301,6 @@
       "order": 22,
       "name": "Umsetzung Ganztagsanspruch für Grundschulkinder ab dem Schuljahr 2026/2027",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8471",
-      "result": "Mehrheitlich bei 24 Ja-Stimmen und einer Nein-Stimme lt. Beschluss",
       "created": "2025-09-01T14:53:29+02:00",
       "modified": "2025-09-04T11:57:49+02:00"
     },
@@ -312,7 +311,6 @@
       "order": 23,
       "name": "Ganztagsgrundschule Asternschule, Vorstellung des überarbeiteten Raumprogramms und Erläuterung der Vorzugsvariante",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8487",
-      "result": "Mehrheitlich bei 20 Ja-Stimmen, 2 Nein-Stimmen und 3 Enthaltungen gem. Beschlussvorschlag",
       "created": "2025-09-01T14:53:29+02:00",
       "modified": "2025-09-04T11:57:58+02:00"
     },
@@ -323,7 +321,6 @@
       "order": 24,
       "name": "Priorisierung Ersatzneubau Kindertagesstätte Groß Escherde",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8467",
-      "result": "Einstimmig bei 23 Ja-Stimmen und 2 Enthaltungen lt. geändertem Beschluss",
       "created": "2025-09-01T14:53:29+02:00",
       "modified": "2025-09-01T14:53:29+02:00"
     },
@@ -354,7 +351,6 @@
       "order": 27,
       "name": "Änderung der Satzung für die Freiwillige Feuerwehr der Gemeinde Nordstemmen, Landkreis Hildesheim (Feuerwehrsatzung)",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8499",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2025-09-01T14:53:29+02:00",
       "modified": "2025-09-01T14:53:29+02:00"
     },
@@ -367,5 +363,6 @@
       "created": "2025-09-01T14:53:29+02:00",
       "modified": "2025-09-01T14:53:29+02:00"
     }
-  ]
+  ],
+  "modified": "2026-02-06T11:01:29+01:00"
 }

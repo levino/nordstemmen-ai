@@ -1,16 +1,23 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-195"
+  ],
+  "created": "2026-08-21T13:00:15+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfDTXcePaJ0JqUq49aQeM0Q",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5925",
   "reference": "DS 80/2026",
   "name": "Weiternutzung des Einsatzleitwagens (ELW) für die Brandschutzerziehung",
   "paperType": "Beschlussvorlage",
-  "date": "2026-09-17",
+  "date": "2026-09-29",
   "mainFile": {
     "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-45530",
     "type": "https://schema.oparl.org/1.1/File",
     "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
     "name": "Beschlussvorlage (Weiternutzung des Einsatzleitwagens (ELW) für die Brandschutzerziehung)",
     "mimeType": "application/pdf",
-    "date": "2026-09-17",
+    "date": "2026-09-29",
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTPZu65iCFC7ifeJaPbOmd-jCFYoPfKcqHC17TFoILb7/Beschlussvorlage_DS_80-2026.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTPZu65iCFC7ifeJaPbOmd-jCFYoPfKcqHC17TFoILb7/Beschlussvorlage_DS_80-2026.pdf",
     "created": "2026-08-21T13:00:15+02:00",
@@ -27,6 +34,18 @@
       ],
       "created": "2026-08-18T07:48:44+02:00",
       "modified": "2026-08-18T12:20:35+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8928",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25284",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5786",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2026-08-18T07:49:17+02:00",
+      "modified": "2026-08-18T07:49:17+02:00"
     }
-  ]
+  ],
+  "modified": "2026-08-21T13:00:15+02:00"
 }

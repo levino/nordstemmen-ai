@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2008-09-03T20:00:00+02:00",
+  "keyword": [
+    "Rat"
+  ],
+  "created": "2008-08-20T08:49:25+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZS9xrdZUK_kM5_RJmB_6J4U",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/1137",
   "name": "Rat",
   "start": "2008-09-03T19:00:00+02:00",
@@ -15,5 +23,6 @@
   },
   "organization": [
     "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
-  ]
+  ],
+  "modified": "2017-03-06T10:02:57+01:00"
 }

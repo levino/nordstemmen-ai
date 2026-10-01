@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-196"
+  ],
+  "created": "2021-03-05T19:00:27+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZSxVrjskf1OnrWUjwf1VQ8s",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4947",
   "reference": "DS 9/2021",
   "name": "Fahrradabstellanlage am Bahnhof Barnten;\nMaßnahmenbeschluss",
@@ -65,5 +72,6 @@
       "created": "2021-01-28T15:35:26+01:00",
       "modified": "2021-01-28T15:35:27+01:00"
     }
-  ]
+  ],
+  "modified": "2021-05-14T13:00:15+02:00"
 }

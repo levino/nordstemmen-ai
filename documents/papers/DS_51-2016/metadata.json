@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2016-05-30T13:01:02+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZdJIc3PZoqo2A_Xzw-AifAs",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1244",
   "reference": "DS 51/2016",
   "name": "Grundschule Barnten - Umnutzung der Hausmeisterwohnung (für inklusive Beschulung)",
@@ -43,6 +47,15 @@
       "modified": "2016-05-24T08:04:12+02:00"
     },
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3527",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2016-05-30T10:05:23+02:00",
+      "modified": "2016-05-30T10:05:23+02:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3532",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/12996",
@@ -53,5 +66,6 @@
       "created": "2016-05-30T10:06:41+02:00",
       "modified": "2016-05-30T10:06:41+02:00"
     }
-  ]
+  ],
+  "modified": "2016-05-30T13:01:02+02:00"
 }

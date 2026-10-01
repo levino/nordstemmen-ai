@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2024-10-29T19:00:00+01:00",
+  "keyword": [
+    "Ortsrat Mahlerten (10. Sitzung)"
+  ],
+  "created": "2023-09-11T12:31:35+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZU6IGMfgmK5qi2hwyzpv6ZI",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5471",
   "name": "Ortsrat Mahlerten (10. Sitzung)",
   "start": "2024-10-29T18:00:00+01:00",
@@ -102,7 +110,6 @@
       "order": 7,
       "name": "Grundsatzbeschluss zur Ortsumgehung der Bundesstraße 1",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8159",
-      "result": "Einstimmig keine Ortsumgehung!",
       "created": "2024-10-10T09:43:38+02:00",
       "modified": "2024-11-21T11:42:25+01:00"
     },
@@ -122,7 +129,6 @@
       "order": 9,
       "name": "Anhörung zum Haushaltsplan 2025 und zum Investitionsprogramm bis 2028 für die Ortschaft Mahlerten",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8171",
-      "result": "Einstimmig angenommen",
       "created": "2024-10-10T09:43:38+02:00",
       "modified": "2024-10-10T09:43:38+02:00"
     },
@@ -133,7 +139,6 @@
       "order": 10,
       "name": "Spielplatzkonzept der Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8005",
-      "result": "Einstimmig zur Kenntnis genommen!",
       "created": "2024-10-10T09:43:38+02:00",
       "modified": "2024-10-10T09:43:38+02:00"
     },
@@ -146,5 +151,6 @@
       "created": "2024-10-10T09:43:38+02:00",
       "modified": "2024-10-17T09:06:14+02:00"
     }
-  ]
+  ],
+  "modified": "2025-03-13T11:25:31+01:00"
 }

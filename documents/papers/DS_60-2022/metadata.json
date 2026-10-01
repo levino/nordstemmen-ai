@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2022-05-31T13:00:02+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfLw2KB3OArtp5NNTF4fa0A",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5165",
   "reference": "DS 60/2022",
   "name": "Vorläufiger Jahresabschluss 2021\n",
@@ -77,5 +84,6 @@
       "created": "2022-05-25T12:35:05+02:00",
       "modified": "2022-05-25T12:35:05+02:00"
     }
-  ]
+  ],
+  "modified": "2022-07-11T19:00:13+02:00"
 }

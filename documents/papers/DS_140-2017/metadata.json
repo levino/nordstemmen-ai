@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2017-12-04T19:00:37+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZf0t1Fdesl9yW3PCG8pMCm0",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4497",
   "reference": "DS 140/2017",
   "name": "Verfahren für die Veräußerung eines Grundstücks",
@@ -53,5 +60,6 @@
       "created": "2017-12-01T12:36:05+01:00",
       "modified": "2017-12-01T12:36:05+01:00"
     }
-  ]
+  ],
+  "modified": "2018-03-06T11:26:50+01:00"
 }

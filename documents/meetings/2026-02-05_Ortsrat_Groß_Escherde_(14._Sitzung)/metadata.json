@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2026-02-05T19:00:00+01:00",
+  "keyword": [
+    "Ortsrat Groß Escherde (14. Sitzung)"
+  ],
+  "created": "2025-09-18T17:08:14+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZW4KfvQ6Gnhg7xV4bvmRSeA",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5835",
   "name": "Ortsrat Groß Escherde (14. Sitzung)",
   "start": "2026-02-05T18:00:00+01:00",
@@ -16,5 +24,172 @@
   },
   "organization": [
     "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-14"
-  ]
+  ],
+  "invitation": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-43708",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Bekanntmachung (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2026-02-05",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfNm4aCHiGwaPLflt2ff_ZXPnUY_Ij6a7M-iPfg9hpED/Bekanntmachung_Ortsrat_Gross_Escherde_05.02.2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfNm4aCHiGwaPLflt2ff_ZXPnUY_Ij6a7M-iPfg9hpED/Bekanntmachung_Ortsrat_Gross_Escherde_05.02.2026.pdf",
+    "created": "2026-01-15T17:06:34+01:00",
+    "modified": "2026-01-20T11:39:53+01:00"
+  },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-44000",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Ortsrat Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2026-02-05",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZfSa8ZVx9c7OaeJGgaVLwZWb27u5vxsnJxysZovRxn8R/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_05.02.2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZfSa8ZVx9c7OaeJGgaVLwZWb27u5vxsnJxysZovRxn8R/Oeffentliche_Niederschrift_Ortsrat_Gross_Escherde_05.02.2026.pdf",
+    "created": "2026-02-16T13:00:06+01:00",
+    "modified": "2026-02-16T13:00:06+01:00"
+  },
+  "agendaItem": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24135",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "order": 1,
+      "name": "- öffentlicher Teil -",
+      "created": "2025-11-07T10:18:14+01:00",
+      "modified": "2025-11-07T10:18:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24136",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "1",
+      "order": 2,
+      "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
+      "created": "2025-11-07T10:18:14+01:00",
+      "modified": "2025-11-07T10:18:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24137",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "2",
+      "order": 3,
+      "name": "Genehmigung des Protokolls der Sitzung vom 04. November 2025",
+      "created": "2025-11-07T10:18:14+01:00",
+      "modified": "2025-11-07T10:18:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24138",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "3",
+      "order": 4,
+      "name": "Anfragen und Anregungen",
+      "created": "2025-11-07T10:18:14+01:00",
+      "modified": "2025-11-07T10:18:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24140",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "4",
+      "order": 5,
+      "name": "Einwohner*innen Fragestunde",
+      "created": "2025-11-07T10:18:14+01:00",
+      "modified": "2026-01-15T08:34:07+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24294",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "5",
+      "order": 6,
+      "name": "Auswertung der Geschwindigkeitsmessanlage",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7643",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 1)",
+          "mimeType": "application/pdf",
+          "date": "2026-02-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZcFkI7gk1GfGmztXPH3eRcj-rcK0UU-Gueg-8vWavL7s/Anlage_1.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZcFkI7gk1GfGmztXPH3eRcj-rcK0UU-Gueg-8vWavL7s/Anlage_1.pdf",
+          "created": "2026-02-16T13:00:06+01:00",
+          "modified": "2026-02-16T13:00:06+01:00"
+        }
+      ],
+      "created": "2026-01-15T08:34:50+01:00",
+      "modified": "2026-01-15T08:34:50+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24295",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "6",
+      "order": 7,
+      "name": "Sachstand Kindertagesstätte Groß Escherde",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7644",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 2)",
+          "mimeType": "application/pdf",
+          "date": "2026-02-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdD3DB46nacBGkIk07p27SBVTY06V7nk-GCozfBGSv2z/Anlage_2.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdD3DB46nacBGkIk07p27SBVTY06V7nk-GCozfBGSv2z/Anlage_2.pdf",
+          "created": "2026-02-16T13:00:06+01:00",
+          "modified": "2026-02-16T13:00:06+01:00"
+        }
+      ],
+      "created": "2026-01-15T08:35:33+01:00",
+      "modified": "2026-01-15T08:35:33+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24296",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "7",
+      "order": 8,
+      "name": "Sachstand Wohnbauflächen in Groß Escherde",
+      "auxiliaryFile": [
+        {
+          "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7645",
+          "type": "https://schema.oparl.org/1.1/File",
+          "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+          "name": "Infotext (Anlage 3)",
+          "mimeType": "application/pdf",
+          "date": "2026-02-05",
+          "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTkrR5yolO_nVBeNSLg56Rm0YnCmC4vPJghcpSa0KKWV/Anlage_3.pdf",
+          "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTkrR5yolO_nVBeNSLg56Rm0YnCmC4vPJghcpSa0KKWV/Anlage_3.pdf",
+          "created": "2026-02-16T13:00:06+01:00",
+          "modified": "2026-02-16T13:00:06+01:00"
+        }
+      ],
+      "created": "2026-01-15T08:35:58+01:00",
+      "modified": "2026-01-15T08:35:58+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24297",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "8",
+      "order": 9,
+      "name": "Sachstand zum Zustand des Ehrenmal",
+      "created": "2026-01-15T08:36:25+01:00",
+      "modified": "2026-01-15T08:36:25+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24139",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "9",
+      "order": 10,
+      "name": "Bericht bzw. Mitteilungen des Ortsbürgermeisters",
+      "created": "2025-11-07T10:18:14+01:00",
+      "modified": "2025-11-07T10:18:14+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24141",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "10",
+      "order": 11,
+      "name": "Mitteilungen der Verwaltung",
+      "created": "2025-11-07T10:18:14+01:00",
+      "modified": "2025-11-07T10:18:14+01:00"
+    }
+  ],
+  "modified": "2026-05-12T11:56:34+02:00"
 }

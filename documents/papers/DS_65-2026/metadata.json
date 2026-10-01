@@ -1,20 +1,27 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-195"
+  ],
+  "created": "2026-08-07T13:00:03+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZShvphXkY-3CbHU1uXj4904",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5904",
   "reference": "DS 65/2026",
   "name": "Weiterführung des Konzeptes Café Kinderwagen",
   "paperType": "Beschlussvorlage",
-  "date": "2026-09-03",
+  "date": "2026-09-29",
   "mainFile": {
     "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-45184",
     "type": "https://schema.oparl.org/1.1/File",
     "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
     "name": "Beschlussvorlage (Weiterführung des Konzeptes Café Kinderwagen)",
     "mimeType": "application/pdf",
-    "date": "2026-09-03",
+    "date": "2026-09-29",
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdpxa1KQfHrcWeCXBqMTCNOzDJL6KnBa2V38_PRKl38H/Beschlussvorlage_DS_65-2026.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdpxa1KQfHrcWeCXBqMTCNOzDJL6KnBa2V38_PRKl38H/Beschlussvorlage_DS_65-2026.pdf",
     "created": "2026-08-07T13:00:03+02:00",
-    "modified": "2026-08-07T13:00:03+02:00"
+    "modified": "2026-09-10T13:00:22+02:00"
   },
   "consultation": [
     {
@@ -27,6 +34,18 @@
       ],
       "created": "2026-06-22T14:41:04+02:00",
       "modified": "2026-06-22T14:41:04+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8875",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25290",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5786",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2026-06-22T14:41:33+02:00",
+      "modified": "2026-06-24T08:34:39+02:00"
     }
-  ]
+  ],
+  "modified": "2026-09-10T13:00:22+02:00"
 }

@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2023-05-09T20:00:00+02:00",
+  "keyword": [
+    "Ortsrat Nordstemmen (6. Sitzung)"
+  ],
+  "created": "2022-10-25T14:25:48+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZbK7fhYXvjls5t1XilRxo7w",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5196",
   "name": "Ortsrat Nordstemmen (6. Sitzung)",
   "start": "2023-05-09T19:00:00+02:00",
@@ -139,7 +147,6 @@
       "order": 8,
       "name": "Anhörung zur Aufstellung der Vorschlagsliste für die Neuwahl der Schöffinnen und Schöffen sowie Jugendschöffinnen und Jugendschöffen für die Geschäftsjahre 2024 bis 2028",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/7691",
-      "result": "Einstimmig lt. Beschlussvorschlag",
       "created": "2023-04-28T10:27:05+02:00",
       "modified": "2023-04-28T10:27:05+02:00"
     },
@@ -188,5 +195,6 @@
       "created": "2023-04-28T10:27:05+02:00",
       "modified": "2023-04-28T10:27:33+02:00"
     }
-  ]
+  ],
+  "modified": "2023-11-16T16:36:06+01:00"
 }

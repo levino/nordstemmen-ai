@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-196"
+  ],
+  "created": "2024-01-30T10:45:16+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZYoRehJyvc13tNEW4rQrR3s",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5467",
   "reference": "DS 4/2024",
   "name": "Fortschreibung des Lärmaktionsplans der Gemeinde Nordstemmen",
@@ -53,5 +60,6 @@
       "created": "2024-01-16T11:22:49+01:00",
       "modified": "2024-01-16T11:22:49+01:00"
     }
-  ]
+  ],
+  "modified": "2024-04-18T19:00:05+02:00"
 }

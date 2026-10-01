@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2022-02-08T19:00:28+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZe5ORAO2CA4Dz18iw7BlooM",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5102",
   "reference": "DS 9/2022",
   "name": "Veräußerung einer Grünanlage",
@@ -42,5 +49,6 @@
       "created": "2022-02-07T11:10:46+01:00",
       "modified": "2022-02-08T09:19:46+01:00"
     }
-  ]
+  ],
+  "modified": "2022-03-16T19:00:20+01:00"
 }

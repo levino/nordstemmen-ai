@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-195"
+  ],
+  "created": "2024-05-10T13:00:06+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZV2dbfoNe445obWLKeYTHVA",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5498",
   "reference": "DS 27/2024",
   "name": "Freizeitbad Nordstemmen; Einführung eines elektronischen Kassen- und Zutrittssystems",
@@ -54,5 +61,6 @@
       "created": "2024-04-29T13:42:21+02:00",
       "modified": "2024-04-29T13:42:21+02:00"
     }
-  ]
+  ],
+  "modified": "2024-07-17T13:00:01+02:00"
 }

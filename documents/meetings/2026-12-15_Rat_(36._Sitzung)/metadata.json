@@ -1,6 +1,14 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2026-12-15T19:30:00+01:00",
+  "keyword": [
+    "Rat (33. Sitzung)"
+  ],
+  "created": "2025-09-15T11:04:38+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZb6iDbfr2721N443w0GbdGQ",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5788",
-  "name": "Rat (36. Sitzung)",
+  "name": "Rat (33. Sitzung)",
   "start": "2026-12-15T18:30:00+01:00",
   "location": {
     "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/location/2-1",
@@ -15,5 +23,6 @@
   },
   "organization": [
     "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
-  ]
+  ],
+  "modified": "2025-09-15T11:04:38+02:00"
 }

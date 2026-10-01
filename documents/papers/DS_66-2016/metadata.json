@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2016-08-18T13:00:51+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQW5xiGUknlFXG9WM4G0Ni0",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/1266",
   "reference": "DS 66/2016",
   "name": "Prävention in Nordstemmen - Sachstandsbericht über das Projekt Communities That Care (CTC)",
@@ -43,6 +47,15 @@
       "modified": "2016-08-11T16:09:58+02:00"
     },
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3609",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2016-08-11T14:51:20+02:00",
+      "modified": "2016-08-16T14:54:14+02:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/3608",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/13267",
@@ -53,5 +66,6 @@
       "created": "2016-08-11T14:51:04+02:00",
       "modified": "2016-08-16T15:00:21+02:00"
     }
-  ]
+  ],
+  "modified": "2016-08-18T13:00:51+02:00"
 }

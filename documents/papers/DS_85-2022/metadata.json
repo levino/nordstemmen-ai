@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-195"
+  ],
+  "created": "2022-09-01T19:00:12+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZZbT_gz7VV4Rm-vQHIp9XaA",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5200",
   "reference": "DS 85/2022",
   "name": "Ernennung von Führungskräften der Feuerwehr",
@@ -28,5 +35,6 @@
       "created": "2022-08-30T09:24:50+02:00",
       "modified": "2022-08-30T09:24:50+02:00"
     }
-  ]
+  ],
+  "modified": "2022-11-01T13:00:02+01:00"
 }

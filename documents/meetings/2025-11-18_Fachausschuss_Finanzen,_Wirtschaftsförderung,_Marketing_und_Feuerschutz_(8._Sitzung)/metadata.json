@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2025-11-18T19:30:00+01:00",
+  "keyword": [
+    "Fachausschuss Finanzen, Wirtschaftsförderung, Marketing und Feuerschutz (8. Sitzung)"
+  ],
+  "created": "2024-09-02T11:11:14+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZc3ZaYTyCjKYvWrmBNgo1lM",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5596",
   "name": "Fachausschuss Finanzen, Wirtschaftsförderung, Marketing und Feuerschutz (8. Sitzung)",
   "start": "2025-11-18T18:30:00+01:00",
@@ -28,14 +36,26 @@
     "created": "2025-11-04T19:00:04+01:00",
     "modified": "2025-11-04T19:00:04+01:00"
   },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-43411",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Finanzen, Wirtschaftsförderung, Marketing und Feuerschutz)",
+    "mimeType": "application/pdf",
+    "date": "2025-11-18",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdu6Fu-CzftUyBNz_2jhZU1BsQoHa67Mymn30TZ7mAzP/Oeffentliche_Niederschrift_Fachausschuss_Finanzen-_Wirtschaftsfoerderung-_Marketing_und_Feuerschutz_18.11.2025.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdu6Fu-CzftUyBNz_2jhZU1BsQoHa67Mymn30TZ7mAzP/Oeffentliche_Niederschrift_Fachausschuss_Finanzen-_Wirtschaftsfoerderung-_Marketing_und_Feuerschutz_18.11.2025.pdf",
+    "created": "2025-12-02T19:00:29+01:00",
+    "modified": "2025-12-02T19:00:29+01:00"
+  },
   "agendaItem": [
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23949",
       "type": "https://schema.oparl.org/1.1/AgendaItem",
       "order": 1,
       "name": "- öffentlicher Teil -",
-      "created": "2025-11-11T11:03:01+01:00",
-      "modified": "2025-11-11T11:03:01+01:00"
+      "created": "2025-09-29T06:29:24+02:00",
+      "modified": "2025-09-29T06:29:24+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23950",
@@ -43,8 +63,8 @@
       "number": "1",
       "order": 2,
       "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
-      "created": "2025-11-11T11:03:01+01:00",
-      "modified": "2025-11-11T11:03:01+01:00"
+      "created": "2025-09-29T06:29:24+02:00",
+      "modified": "2025-09-29T06:29:24+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23951",
@@ -52,8 +72,8 @@
       "number": "2",
       "order": 3,
       "name": "Genehmigung des Protokolls der Sitzung vom 09. September 2025",
-      "created": "2025-11-11T11:03:01+01:00",
-      "modified": "2025-11-11T11:03:01+01:00"
+      "created": "2025-09-29T06:29:24+02:00",
+      "modified": "2025-10-29T11:50:36+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23952",
@@ -61,8 +81,8 @@
       "number": "3",
       "order": 4,
       "name": "Anfragen und Anregungen",
-      "created": "2025-11-11T11:03:01+01:00",
-      "modified": "2025-11-11T11:03:01+01:00"
+      "created": "2025-09-29T06:29:24+02:00",
+      "modified": "2025-09-29T06:29:24+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/23953",
@@ -70,8 +90,8 @@
       "number": "4",
       "order": 5,
       "name": "Einwohner*innen Fragestunde",
-      "created": "2025-11-11T11:03:01+01:00",
-      "modified": "2025-11-11T11:03:01+01:00"
+      "created": "2025-09-29T06:29:24+02:00",
+      "modified": "2025-09-29T06:29:24+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24089",
@@ -79,8 +99,9 @@
       "number": "5",
       "order": 6,
       "name": "Unterrichtung über die Veränderungen von Kommunaldarlehen gemäß § 7 der Richtlinie der Gemeinde Nordstemmen für die Aufnahme von Krediten und zur Umschuldung von Krediten vom 01.10.2018",
-      "created": "2025-11-11T11:03:01+01:00",
-      "modified": "2025-11-11T11:03:01+01:00"
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8592",
+      "created": "2025-10-30T15:26:03+01:00",
+      "modified": "2025-10-30T15:26:05+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24090",
@@ -102,17 +123,18 @@
           "modified": "2025-11-11T11:06:01+01:00"
         }
       ],
-      "created": "2025-11-11T11:03:01+01:00",
-      "modified": "2025-11-11T11:03:01+01:00"
+      "created": "2025-10-30T15:28:19+01:00",
+      "modified": "2025-10-30T15:28:19+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24082",
       "type": "https://schema.oparl.org/1.1/AgendaItem",
       "number": "7",
       "order": 8,
-      "name": "Haushaltssatzung und Haushaltsplan für das Haushaltsjahr 2026 sowie die Aufstellung eines Haushaltssicherungskonzeptes",
-      "created": "2025-11-11T11:03:01+01:00",
-      "modified": "2025-11-11T11:03:01+01:00"
+      "name": "Haushaltssatzung und Haushaltsplan für das Haushaltsjahr 2026 sowie die Aufstellung\neines Haushaltssicherungskonzeptes",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8572",
+      "created": "2025-10-29T11:49:29+01:00",
+      "modified": "2025-10-29T11:49:31+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24086",
@@ -120,8 +142,9 @@
       "number": "8",
       "order": 9,
       "name": "Investitionsprogramm für den Investitionszeitraum 2026 - 2029",
-      "created": "2025-11-11T11:03:01+01:00",
-      "modified": "2025-11-11T11:03:01+01:00"
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8589",
+      "created": "2025-10-30T15:20:34+01:00",
+      "modified": "2025-10-30T15:20:34+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24088",
@@ -129,8 +152,9 @@
       "number": "9",
       "order": 10,
       "name": "Stellenplan 2026 der Gemeinde Nordstemmen",
-      "created": "2025-11-11T11:03:01+01:00",
-      "modified": "2025-11-11T11:03:01+01:00"
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8536",
+      "created": "2025-10-30T15:23:23+01:00",
+      "modified": "2025-10-30T15:23:26+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24084",
@@ -138,8 +162,9 @@
       "number": "10",
       "order": 11,
       "name": "Satzung über die Festsetzung der Hebesätze für die Grund- und Gewerbesteuer in der Gemeinde Nordstemmen (Hebesatzsatzung)",
-      "created": "2025-11-11T11:03:01+01:00",
-      "modified": "2025-11-11T11:03:01+01:00"
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8569",
+      "created": "2025-10-29T11:49:47+01:00",
+      "modified": "2025-10-30T15:20:14+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24083",
@@ -147,26 +172,39 @@
       "number": "11",
       "order": 12,
       "name": "Absichtserklärung über den Verkauf von gemeindeeigenen Grundstücken zur Realisierung der Translozierung des historischen Bahnhofsgebäudes",
-      "created": "2025-11-11T11:03:01+01:00",
-      "modified": "2025-11-11T11:03:01+01:00"
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8583",
+      "created": "2025-10-29T11:49:40+01:00",
+      "modified": "2025-10-29T11:49:40+01:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24155",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "number": "11.1",
+      "order": 13,
+      "name": "Absichtserklärung über den Verkauf von gemeindeeigenen Grundstücken zur Realisierung der Translozierung des historischen Bahnhofsgebäudes",
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8607",
+      "created": "2025-11-18T11:06:00+01:00",
+      "modified": "2025-11-18T11:06:03+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24085",
       "type": "https://schema.oparl.org/1.1/AgendaItem",
       "number": "12",
-      "order": 13,
+      "order": 14,
       "name": "Antrag auf Bezuschussung des DRK Ortsverein Nordstemmen ab dem Haushaltsjahr 2026",
-      "created": "2025-11-11T11:03:01+01:00",
-      "modified": "2025-11-11T11:03:01+01:00"
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8581",
+      "created": "2025-10-29T11:49:55+01:00",
+      "modified": "2025-10-29T11:49:55+01:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24091",
       "type": "https://schema.oparl.org/1.1/AgendaItem",
       "number": "13",
-      "order": 14,
+      "order": 15,
       "name": "Mitteilungen der Verwaltung",
-      "created": "2025-11-11T11:03:01+01:00",
-      "modified": "2025-11-11T11:03:01+01:00"
+      "created": "2025-10-30T15:34:54+01:00",
+      "modified": "2025-10-30T15:34:54+01:00"
     }
-  ]
+  ],
+  "modified": "2026-01-19T11:57:21+01:00"
 }

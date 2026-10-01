@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2018-12-06T13:01:21+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZYWalVnfaFdkjXk-tyAxG80",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4628",
   "reference": "DS 82/2018",
   "name": "Wappen auf den Fahrzeugen der Gemeinde Nordstemmen",
@@ -86,5 +93,6 @@
       "created": "2021-03-01T09:55:38+01:00",
       "modified": "2021-03-01T09:55:38+01:00"
     }
-  ]
+  ],
+  "modified": "2021-03-31T13:00:04+02:00"
 }

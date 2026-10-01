@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2020-03-10T09:50:40+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZcfNlnq0fZ8Op36g2REBkZw",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/4836",
   "reference": "DS 18/2020",
   "name": "Betriebsergebnis der Abwasserbeseitigung 2018",
@@ -53,5 +60,6 @@
       "created": "2020-03-06T10:26:54+01:00",
       "modified": "2020-03-06T10:26:54+01:00"
     }
-  ]
+  ],
+  "modified": "2020-03-30T13:00:45+02:00"
 }

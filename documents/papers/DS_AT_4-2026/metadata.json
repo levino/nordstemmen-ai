@@ -1,20 +1,27 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2026-04-17T13:00:14+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQ3tp88mB5Y2-adRTWZZV-U",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5851",
   "reference": "AT 4/2026",
   "name": "Antrag der Fraktion Bündnis 90/Die Grünen vom 16.04.2026 zum Freizeitbad Nordstemmen aufgrund der verspäteten Öffnung der Badesaison 2026",
   "paperType": "Antrag",
-  "date": "2026-04-28",
+  "date": "2026-05-27",
   "mainFile": {
     "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-44458",
     "type": "https://schema.oparl.org/1.1/File",
     "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
     "name": "Antrag (Antrag der Fraktion Bündnis 90/Die Grünen vom 16.04.2026 zum Freizeitbad Nordstemmen aufgrund der verspäteten Öffnung der Badesaison 2026)",
     "mimeType": "application/pdf",
-    "date": "2026-04-28",
+    "date": "2026-05-27",
     "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZdJlTKT1C2pEQ9Lp9LTqIvUelAUo62tYA6pNBZAC6HVZ/Antrag_AT_4-2026.pdf",
     "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZdJlTKT1C2pEQ9Lp9LTqIvUelAUo62tYA6pNBZAC6HVZ/Antrag_AT_4-2026.pdf",
     "created": "2026-04-17T13:00:14+02:00",
-    "modified": "2026-04-17T13:00:14+02:00"
+    "modified": "2026-06-18T19:00:08+02:00"
   },
   "auxiliaryFile": [
     {
@@ -23,7 +30,7 @@
       "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
       "name": "Antrag (Antrag Freizeitbad_20260416)",
       "mimeType": "application/pdf",
-      "date": "2026-04-28",
+      "date": "2026-05-27",
       "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZTLSy5aq1RW6A_0vGS_2K9SDlFhwmHKTQR2N3uUQALVm/Antrag_Freizeitbad_20260416.pdf",
       "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZTLSy5aq1RW6A_0vGS_2K9SDlFhwmHKTQR2N3uUQALVm/Antrag_Freizeitbad_20260416.pdf",
       "created": "2026-04-17T13:00:14+02:00",
@@ -35,7 +42,7 @@
       "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
       "name": "Antrag (Zwischennachricht Bürgermeisterin)",
       "mimeType": "application/pdf",
-      "date": "2026-04-28",
+      "date": "2026-05-27",
       "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZRGLFZMKtFqIon54k1Rur2OX7UJkZY6F_7BRsTIWSf0o/Zwischennachricht_Buergermeisterin.pdf",
       "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZRGLFZMKtFqIon54k1Rur2OX7UJkZY6F_7BRsTIWSf0o/Zwischennachricht_Buergermeisterin.pdf",
       "created": "2026-04-17T13:00:14+02:00",
@@ -52,6 +59,18 @@
       ],
       "created": "2026-04-23T15:35:46+02:00",
       "modified": "2026-04-23T15:35:46+02:00"
+    },
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8769",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/24858",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5953",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2026-04-17T09:56:48+02:00",
+      "modified": "2026-05-06T11:52:55+02:00"
     }
-  ]
+  ],
+  "modified": "2026-06-18T19:00:08+02:00"
 }

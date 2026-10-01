@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2018-12-18T19:30:00+01:00",
+  "keyword": [
+    "Rat (14. Sitzung)"
+  ],
+  "created": "2018-03-12T14:52:12+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZTcCxyMRwm-u4SxqJ19p7wo",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4165",
   "name": "Rat (14. Sitzung)",
   "start": "2018-12-18T18:00:00+01:00",
@@ -117,7 +125,6 @@
       "order": 7,
       "name": "Aufwandsentschädigungen im Rahmen der Fusionsverhandlungen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6426",
-      "result": "einstimmig/drei Enthaltungen",
       "created": "2018-12-03T16:01:24+01:00",
       "modified": "2018-12-03T16:01:24+01:00"
     },
@@ -128,7 +135,6 @@
       "order": 8,
       "name": "Neufassung der Vergnügungssteuersatzung der Gemeinde Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6432",
-      "result": "einstimmig",
       "created": "2018-12-03T16:01:24+01:00",
       "modified": "2018-12-03T16:01:24+01:00"
     },
@@ -195,5 +201,6 @@
       "created": "2018-12-03T16:01:24+01:00",
       "modified": "2018-12-03T16:01:24+01:00"
     }
-  ]
+  ],
+  "modified": "2021-03-01T10:36:50+01:00"
 }

@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2017-11-13T18:30:00+01:00",
+  "keyword": [
+    "Ortsrat Burgstemmen (5. Sitzung)"
+  ],
+  "created": "2017-11-06T10:12:33+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZerD45nk45Vi3MfnlbzBkks",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/4031",
   "name": "Ortsrat Burgstemmen (5. Sitzung)",
   "start": "2017-11-13T17:30:00+01:00",
@@ -102,7 +110,6 @@
       "order": 7,
       "name": "Anhörung zum Haushaltsplan 2018 und zum Investitionsprogramm bis 2021 für die Ortschaft Burgstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6006",
-      "result": "zustimmend zur Kenntnis genommen",
       "created": "2017-11-06T10:27:52+01:00",
       "modified": "2017-11-06T10:27:56+01:00"
     },
@@ -142,5 +149,6 @@
       "created": "2017-11-06T10:21:57+01:00",
       "modified": "2017-11-06T10:21:57+01:00"
     }
-  ]
+  ],
+  "modified": "2018-07-02T08:16:28+02:00"
 }

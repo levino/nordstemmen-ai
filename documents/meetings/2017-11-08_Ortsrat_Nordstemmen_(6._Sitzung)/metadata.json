@@ -1,4 +1,12 @@
 {
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "end": "2017-11-08T20:00:00+01:00",
+  "keyword": [
+    "Ortsrat Nordstemmen (6. Sitzung)"
+  ],
+  "created": "2017-04-19T10:17:00+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/tops/?__=UGhVM0hpd2NXNFdFcExjZTG74lr5KB0in_SH1WUtgSA",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/2977",
   "name": "Ortsrat Nordstemmen (6. Sitzung)",
   "start": "2017-11-08T19:00:00+01:00",
@@ -92,7 +100,6 @@
       "order": 6,
       "name": "Anhörung zum Haushaltsplan 2018 und zum Investitionsprogramm bis 2021 für die Ortschaft Nordstemmen",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6011",
-      "result": "einstimmig zustimmend",
       "created": "2017-10-27T12:10:08+02:00",
       "modified": "2017-10-27T12:10:08+02:00"
     },
@@ -103,7 +110,6 @@
       "order": 7,
       "name": "Barrierefreier Ausbau der Bushaltestelle \"Rathaus\", Nordstemmen;\nMaßnahmenbeschluss",
       "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/6000",
-      "result": "einstimmig ja",
       "created": "2017-10-27T12:10:08+02:00",
       "modified": "2017-10-27T12:10:08+02:00"
     },
@@ -187,5 +193,6 @@
       "created": "2017-10-27T12:10:08+02:00",
       "modified": "2017-10-27T12:10:08+02:00"
     }
-  ]
+  ],
+  "modified": "2018-05-29T09:20:23+02:00"
 }

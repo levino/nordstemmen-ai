@@ -1,4 +1,8 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "created": "2013-11-22T13:00:19+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZabB9VmKc9CKC2_d2uImh10",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/932",
   "reference": "DS 107/2013",
   "name": "Beauftragung eines Beamten mit der allgemeinen Vertretung des Bürgermeisters\nmit Wirkung vom 1. Januar 2014",
@@ -18,6 +22,15 @@
   },
   "consultation": [
     {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2598",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-23"
+      ],
+      "created": "2013-11-21T10:38:39+01:00",
+      "modified": "2013-11-21T10:38:39+01:00"
+    },
+    {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/2603",
       "type": "https://schema.oparl.org/1.1/Consultation",
       "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/10439",
@@ -28,5 +41,6 @@
       "created": "2013-11-21T10:40:13+01:00",
       "modified": "2013-11-21T10:40:13+01:00"
     }
-  ]
+  ],
+  "modified": "2013-11-22T13:00:19+01:00"
 }

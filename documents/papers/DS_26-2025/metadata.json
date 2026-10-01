@@ -1,4 +1,11 @@
 {
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-194"
+  ],
+  "created": "2025-04-10T13:00:21+02:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZY2ebbgh0b_vGKy7SlCB6oI",
   "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5665",
   "reference": "DS 26/2025",
   "name": "Vorläufiger Jahresabschluss 2024",
@@ -77,5 +84,6 @@
       "created": "2025-03-27T14:52:20+01:00",
       "modified": "2025-03-27T14:52:20+01:00"
     }
-  ]
+  ],
+  "modified": "2025-07-28T13:00:29+02:00"
 }
