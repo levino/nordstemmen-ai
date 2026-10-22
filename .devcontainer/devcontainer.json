@@ -2,17 +2,17 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
 {
   "name": "Node.js & TypeScript",
-  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm@sha256:7c2e711a4f7b02f32d2da16192d5e05aa7c95279be4ce889cff5df316f251c1d",
   "updateContentCommand": "npm install",
   "postCreateCommand": {
     "claude": "npm install -g @anthropic-ai/claude-code",
     "zellij": "curl -sSL https://github.com/zellij-org/zellij/releases/latest/download/zellij-x86_64-unknown-linux-musl.tar.gz | sudo tar xz -C /usr/local/bin"
   },
   "features": {
-    "ghcr.io/devcontainers/features/python:1": {},
-    "ghcr.io/devcontainers/features/git-lfs:1": {},
-    "ghcr.io/devcontainers-extra/features/poppler-utils-apt-get:1": {},
-    "ghcr.io/devcontainers-extra/features/apt-packages:1": {
+    "ghcr.io/devcontainers/features/python:1@sha256:fbcad6955caeecc5ad3f7886baf652e25cba5225a6c4c2287c536de2e5607511": {},
+    "ghcr.io/devcontainers/features/git-lfs:1@sha256:71c2b371cf12ab7fcec47cf17369c6f59156100dad9abf9e4c593049d789de72": {},
+    "ghcr.io/devcontainers-extra/features/poppler-utils-apt-get:1@sha256:f286f09c72ccc041373a7fe6f5c7105e07dac6c3ac181ff00860baa4f9705d27": {},
+    "ghcr.io/devcontainers-extra/features/apt-packages:1@sha256:55c54412112da81b9381e470cdbbe55278564950d1ff536ce925b1e8e096babd": {
       "packages": "tesseract-ocr,tesseract-ocr-deu"
     }
   },
