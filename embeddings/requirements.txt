@@ -3,7 +3,7 @@ python-dotenv==1.2.2
 qdrant-client==1.12.1
 
 # PDF processing (pdfplumber is more robust with non-standard PDFs)
-pdfplumber==0.11.4
+pdfplumber==0.11.10
 
 # Embeddings (updated for jina-v3)
 sentence-transformers>=3.3.0
