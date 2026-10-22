@@ -1,0 +1,21 @@
+name: Biome
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  biome:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      # Takes the Biome version from package.json, see
+      # https://biomejs.dev/recipes/continuous-integration/
+      - uses: biomejs/setup-biome@v2
+      - run: biome ci .
