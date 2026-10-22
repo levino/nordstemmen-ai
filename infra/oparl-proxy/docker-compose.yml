@@ -13,7 +13,7 @@ configs:
         server {
           listen 80;
           location / {
-            if ($$http_x_proxy_secret != "nordstemmen-oparl-2026") {
+            if ($$http_x_proxy_secret != "${OPARL_PROXY_SECRET:?OPARL_PROXY_SECRET muss gesetzt sein, siehe .env.example}") {
               return 403;
             }
             proxy_pass https://nordstemmen.ratsinfomanagement.net;

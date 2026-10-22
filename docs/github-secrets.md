@@ -9,6 +9,7 @@ The `data-sync.yml` workflow requires the following secrets and variables to be 
 | `GOOGLE_API_KEY` | Google API Key for Gemini 2.5 Flash OCR | https://console.cloud.google.com (Generative Language API) |
 | `JINA_API_KEY` | Jina AI API Key for generating embeddings | https://jina.ai |
 | `QDRANT_API_KEY` | Qdrant API key (read+write) | Qdrant dashboard |
+| `OPARL_PROXY_SECRET` | Shared Secret für den OParl-Proxy (Header `X-Proxy-Secret`) | Gegenstück steckt im SealedSecret `oparl-proxy/nginx-conf` in `levino/server-config` |
 | `GIT_LFS_PASSWORD` | Passwort/Token für den selbst-gehosteten LFS-Server | `git-lfs.nordstemmen-ai.levinkeller.de` |
 
 ## Required Variables
