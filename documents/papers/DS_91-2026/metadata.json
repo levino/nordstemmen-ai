@@ -1,0 +1,54 @@
+{
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-200"
+  ],
+  "created": "2026-10-27T19:00:14+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZTO-Mj83eXpCP1FUu5dg-x0",
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5947",
+  "reference": "DS 91/2026",
+  "name": "Geschäftsordnung für die Wahlperiode 2026 bis 2031 gemäß § 69 NKomVG",
+  "paperType": "Beschlussvorlage",
+  "date": "2026-11-03",
+  "mainFile": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-45914",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Beschlussvorlage (Geschäftsordnung für die Wahlperiode 2026 bis 2031 gemäß § 69 NKomVG)",
+    "mimeType": "application/pdf",
+    "date": "2026-11-03",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZbN0SabyPYUyiiVhdLqwg55VbppeiXR_DMq5rzOS_bA/Beschlussvorlage_DS_91-2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZbN0SabyPYUyiiVhdLqwg55VbppeiXR_DMq5rzOS_bA/Beschlussvorlage_DS_91-2026.pdf",
+    "created": "2026-10-27T19:00:14+01:00",
+    "modified": "2026-10-27T19:00:14+01:00"
+  },
+  "auxiliaryFile": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/2-7993",
+      "type": "https://schema.oparl.org/1.1/File",
+      "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+      "name": "Beschlussvorlage (Anlage 1)",
+      "mimeType": "application/pdf",
+      "date": "2026-11-03",
+      "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZVdzNqcNz7gEZvUt96dHTygJh6cHfTxgYmUUTW8lUf0R/Anlage_1.pdf",
+      "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZVdzNqcNz7gEZvUt96dHTygJh6cHfTxgYmUUTW8lUf0R/Anlage_1.pdf",
+      "created": "2026-10-27T19:00:14+01:00",
+      "modified": "2026-10-27T19:00:14+01:00"
+    }
+  ],
+  "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8963",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25377",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5787",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-1"
+      ],
+      "created": "2026-10-20T06:52:25+02:00",
+      "modified": "2026-10-20T06:52:25+02:00"
+    }
+  ],
+  "modified": "2026-10-27T19:00:14+01:00"
+}
