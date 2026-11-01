@@ -1,0 +1,40 @@
+{
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-202"
+  ],
+  "created": "2026-10-28T13:00:02+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZQNuWvs7eG_AG5Ao3rCzgs4",
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5948",
+  "reference": "DS 92/2026",
+  "name": "Anhörung zum Haushaltsplan 2027 und zum Investitionsprogramm bis 2030 für die Ortschaft Groß Escherde",
+  "paperType": "Beschlussvorlage",
+  "date": "2026-11-05",
+  "mainFile": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-45945",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Beschlussvorlage (Anhörung zum Haushaltsplan 2027 und zum Investitionsprogramm bis 2030 für die Ortschaft Groß Escherde)",
+    "mimeType": "application/pdf",
+    "date": "2026-11-05",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZR_nXD8G8B5nlIq_HtrI1n2WcqI-HOkEOHO2QwKLvOCf/Beschlussvorlage_DS_92-2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZR_nXD8G8B5nlIq_HtrI1n2WcqI-HOkEOHO2QwKLvOCf/Beschlussvorlage_DS_92-2026.pdf",
+    "created": "2026-10-28T13:00:02+01:00",
+    "modified": "2026-10-28T13:00:02+01:00"
+  },
+  "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8964",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25388",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5837",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-14"
+      ],
+      "created": "2026-10-23T12:25:36+02:00",
+      "modified": "2026-10-23T12:25:36+02:00"
+    }
+  ],
+  "modified": "2026-10-28T13:00:02+01:00"
+}
