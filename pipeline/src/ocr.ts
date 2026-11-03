@@ -1,6 +1,6 @@
-import { readFile, stat } from 'node:fs/promises';
+import { readFile } from 'node:fs/promises';
 import { GoogleGenAI } from '@google/genai';
-import { GEMINI_INLINE_LIMIT, GEMINI_MODEL, OCR_PROMPT } from './config.ts';
+import { GEMINI_MODEL, OCR_PROMPT } from './config.ts';
 import { withRetry } from './retry.ts';
 
 export interface OcrResult {
@@ -10,51 +10,34 @@ export interface OcrResult {
   outputTokens: number;
 }
 
-export async function ocrPdf(pdfPath: string, apiKey: string): Promise<OcrResult> {
+export interface GeminiConfig {
+  project: string;
+  location: string;
+}
+
+/** Vertex AI client. Auth via Application Default Credentials (Workload Identity in CI). */
+export function createGeminiClient({ project, location }: GeminiConfig): GoogleGenAI {
+  return new GoogleGenAI({ vertexai: true, project, location });
+}
+
+export async function ocrPdf(pdfPath: string, genAI: GoogleGenAI): Promise<OcrResult> {
   const pdfBuffer = await readFile(pdfPath);
-  const pdfSize = (await stat(pdfPath)).size;
 
-  const genAI = new GoogleGenAI({ apiKey });
-
+  // Vertex AI has no Files API — the PDF is always sent inline (size is capped by --max-pdf-size).
   const response = await withRetry(
-    async () => {
-      if (pdfSize > GEMINI_INLINE_LIMIT) {
-        // Large PDF: use Files API
-        const file = await genAI.files.upload({
-          file: new Blob([pdfBuffer], { type: 'application/pdf' }),
-          config: { mimeType: 'application/pdf' },
-        });
-
-        return genAI.models.generateContent({
-          model: GEMINI_MODEL,
-          contents: [
-            {
-              role: 'user',
-              parts: [{ text: OCR_PROMPT }, { fileData: { fileUri: file.uri as string, mimeType: 'application/pdf' } }],
-            },
-          ],
-        });
-      }
-
-      // Small PDF: inline
-      return genAI.models.generateContent({
+    () =>
+      genAI.models.generateContent({
         model: GEMINI_MODEL,
         contents: [
           {
             role: 'user',
             parts: [
               { text: OCR_PROMPT },
-              {
-                inlineData: {
-                  mimeType: 'application/pdf',
-                  data: pdfBuffer.toString('base64'),
-                },
-              },
+              { inlineData: { mimeType: 'application/pdf', data: pdfBuffer.toString('base64') } },
             ],
           },
         ],
-      });
-    },
+      }),
     {
       retries: 5,
       baseDelay: 2000,

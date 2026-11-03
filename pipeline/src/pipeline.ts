@@ -1,9 +1,10 @@
 import { stat as fsStat } from 'node:fs/promises';
+import type { GoogleGenAI } from '@google/genai';
 import { markCompleted, saveEmbeddings, saveFulltext } from './cache.ts';
-import { GEMINI_MODEL } from './config.ts';
+import { GEMINI_MODEL, GEMINI_PRICE_PER_M_INPUT, GEMINI_PRICE_PER_M_OUTPUT } from './config.ts';
 import { discoverDocuments, needsProcessing } from './discovery.ts';
 import { createJinaClient, type JinaClient } from './jina.ts';
-import { ocrPdf } from './ocr.ts';
+import { createGeminiClient, type GeminiConfig, ocrPdf } from './ocr.ts';
 import { createQdrantService, type QdrantConfig } from './qdrant.ts';
 import { withConcurrency } from './retry.ts';
 import { computeSparseVector } from './sparse.ts';
@@ -20,22 +21,33 @@ import type {
 } from './types.ts';
 
 export interface EnvConfig {
-  geminiApiKey: string;
+  gemini: GeminiConfig;
   jinaApiKey: string;
   qdrant: QdrantConfig;
+}
+
+interface CostTracker {
+  spentUsd: number;
 }
 
 async function processFile(
   document: DocumentInfo,
   file: FileInfo,
   config: PipelineConfig,
-  geminiApiKey: string,
+  genAI: GoogleGenAI,
   jina: JinaClient,
   qdrant: ReturnType<typeof createQdrantService>,
+  costTracker: CostTracker,
 ): Promise<ProcessingResult> {
   try {
+    if (costTracker.spentUsd >= config.maxCostUsd) {
+      return { file, status: 'failed', error: `cost limit of $${config.maxCostUsd} reached, retry next run` };
+    }
+
     // Step 1: OCR via Gemini — always fresh, no cache reuse
-    const ocrResult = await ocrPdf(file.pdfPath, geminiApiKey);
+    const ocrResult = await ocrPdf(file.pdfPath, genAI);
+    costTracker.spentUsd +=
+      (ocrResult.inputTokens * GEMINI_PRICE_PER_M_INPUT + ocrResult.outputTokens * GEMINI_PRICE_PER_M_OUTPUT) / 1e6;
 
     const fulltext: FulltextData = {
       file_hash: file.fileHash,
@@ -123,15 +135,22 @@ async function processFile(
 
     return { file, status: 'processed', pages: fulltext.pages.length };
   } catch (error) {
-    return {
-      file,
-      status: 'failed',
-      error: error instanceof Error ? error.message : String(error),
-    };
+    const message = error instanceof Error ? error.message : String(error);
+    // Gemini rejects broken PDFs permanently — don't count them as failures (would keep CI red forever).
+    if (message.includes('malformed or corrupted')) {
+      return { file, status: 'skipped', error: 'corrupt PDF, rejected by Gemini' };
+    }
+    return { file, status: 'failed', error: message };
   }
 }
 
-export async function runPipeline(config: PipelineConfig, env: EnvConfig): Promise<void> {
+export interface PipelineSummary {
+  processed: number;
+  failed: number;
+  skipped: number;
+}
+
+export async function runPipeline(config: PipelineConfig, env: EnvConfig): Promise<PipelineSummary | undefined> {
   console.log('Pipeline starting...\n');
 
   const qdrant = createQdrantService(env.qdrant);
@@ -189,9 +208,12 @@ export async function runPipeline(config: PipelineConfig, env: EnvConfig): Promi
     return;
   }
 
+  const genAI = createGeminiClient(env.gemini);
+  const costTracker: CostTracker = { spentUsd: 0 };
+
   // Process files with concurrency control
   const tasks = limited.map(({ document, file }) => async () => {
-    const result = await processFile(document, file, config, env.geminiApiKey, jina, qdrant);
+    const result = await processFile(document, file, config, genAI, jina, qdrant, costTracker);
 
     const icon = result.status === 'processed' ? '+' : result.status === 'skipped' ? '-' : 'X';
     const suffix = result.error ? ` (${result.error})` : result.pages ? ` (${result.pages} pages)` : '';
@@ -211,4 +233,7 @@ export async function runPipeline(config: PipelineConfig, env: EnvConfig): Promi
   console.log(`  Processed: ${processed}`);
   console.log(`  Skipped:   ${skipped}`);
   console.log(`  Failed:    ${failed}`);
+  console.log(`  OCR cost:  ~$${costTracker.spentUsd.toFixed(2)} (limit $${config.maxCostUsd}, at list price)`);
+
+  return { processed, failed, skipped };
 }

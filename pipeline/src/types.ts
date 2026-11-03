@@ -132,4 +132,6 @@ export interface PipelineConfig {
   only?: string;
   concurrency: number;
   maxPdfSize: number;
+  /** Stop starting new OCR requests once the estimated Gemini cost of this run reaches this (USD). */
+  maxCostUsd: number;
 }
