@@ -60,10 +60,27 @@ jobs:
         run: npm run scrape
         working-directory: scraper
 
+      - name: Download PDFs that still need processing
+        id: pending
+        # Checkout has LFS pointers only and the pipeline skips pointer files, so PDFs that failed
+        # in an earlier run (committed, but no .completed) must be pulled to be retried.
+        run: |
+          find documents -name '*.pdf' -print0 | while IFS= read -r -d '' f; do
+            [ -f "${f%.pdf}.completed" ] || echo "$f"
+          done > "$RUNNER_TEMP/pending.txt"
+          PENDING=$(wc -l < "$RUNNER_TEMP/pending.txt")
+          echo "pending=$PENDING" >> "$GITHUB_OUTPUT"
+          echo "$PENDING PDFs without .completed"
+          if [ "$PENDING" -gt 0 ]; then
+            # LFS include patterns are comma-separated globs: replace commas/glob chars with '?'
+            INCLUDE=$(sed 's/[][,*?]/?/g' "$RUNNER_TEMP/pending.txt" | paste -sd, -)
+            git lfs pull --include="$INCLUDE" --exclude=""
+          fi
+
       - name: Check for new documents
         id: check
         run: |
-          NEW_FILES=$(git status documents/ --porcelain | wc -l)
+          NEW_FILES=$(( $(git status documents/ --porcelain | wc -l) + ${{ steps.pending.outputs.pending }} ))
           echo "new_files=$NEW_FILES" >> "$GITHUB_OUTPUT"
           FORCE="${{ inputs.force || 'false' }}"
           echo "force=$FORCE" >> "$GITHUB_OUTPUT"

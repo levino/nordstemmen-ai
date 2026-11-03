@@ -191,5 +191,5 @@ MCP Server additionally needs (set in Cloudflare dashboard):
 2. `npm run pipeline` — Process all new documents (OCR → Embeddings → Qdrant)
 3. `git add documents/ && git commit && git push` — Commit new data (PDFs + caches via LFS)
 
-This runs automatically every day at 06:00 UTC via GitHub Actions (`data-sync.yml`).
+This runs automatically every day at 06:00 UTC via GitHub Actions (`data-sync.yml`). The workflow also pulls (via LFS) every PDF that has no `.completed` yet, so failed files are retried on the next run.
 MCP Server deployment is automatic via Cloudflare Pages (on push to main).
