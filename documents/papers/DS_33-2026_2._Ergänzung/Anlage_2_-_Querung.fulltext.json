@@ -4,15 +4,15 @@
   "pages": [
     {
       "page": 1,
-      "text": ""
+      "text": "[Fotografie ohne Fließtext]"
     }
   ],
-  "full_text": "",
+  "full_text": "[Fotografie ohne Fließtext]",
   "extraction": {
-    "model": "gemini-2.5-flash",
+    "model": "gemini-3.8-flash",
     "prompt": "page-level OCR",
-    "extracted_at": "2026-06-23T07:19:58.828Z",
-    "total_input_tokens": 602,
-    "total_output_tokens": 5
+    "extracted_at": "2026-11-03T16:34:24.151Z",
+    "total_input_tokens": 883,
+    "total_output_tokens": 13
   }
 }
