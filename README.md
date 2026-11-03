@@ -280,8 +280,9 @@ npm test       # Tests ausführen
 Die Daten werden **täglich (06:00 UTC) automatisch** via GitHub Actions aktualisiert:
 
 1. **Scraper** gleicht alle Drucksachen und Sitzungen mit der OParl-API ab und lädt neue oder geänderte Dokumente (z. B. nachträglich veröffentlichte Einladungen, Tagesordnungen, Protokolle)
-2. **Pipeline** verarbeitet neue PDFs (Gemini OCR → Jina Embeddings → Qdrant)
-3. **Git Commit** speichert neue Dateien (LFS für PDFs/Embeddings)
+2. **Nachholen**: PDFs ohne `.completed` (z. B. aus fehlgeschlagenen Läufen) werden per LFS geladen und erneut verarbeitet
+3. **Pipeline** verarbeitet neue PDFs (Gemini 3.8 Flash OCR über Vertex AI → Jina Embeddings → Qdrant). Anmeldung bei Google Cloud per Workload Identity Federation, ohne gespeicherten Key
+4. **Git Commit** speichert neue Dateien (LFS für PDFs/Embeddings) — auch wenn einzelne Dateien fehlgeschlagen sind; der Workflow wird dann rot
 
 **Manuell auslösen:** GitHub Actions > Data Sync > Run workflow
 

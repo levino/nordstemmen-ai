@@ -135,11 +135,12 @@ async function processFile(
 
     return { file, status: 'processed', pages: fulltext.pages.length };
   } catch (error) {
-    return {
-      file,
-      status: 'failed',
-      error: error instanceof Error ? error.message : String(error),
-    };
+    const message = error instanceof Error ? error.message : String(error);
+    // Gemini rejects broken PDFs permanently — don't count them as failures (would keep CI red forever).
+    if (message.includes('malformed or corrupted')) {
+      return { file, status: 'skipped', error: 'corrupt PDF, rejected by Gemini' };
+    }
+    return { file, status: 'failed', error: message };
   }
 }
 
