@@ -2,6 +2,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
 import { config as loadEnv } from 'dotenv';
+import { GEMINI_LOCATION } from './config.ts';
 import { type EnvConfig, runPipeline } from './pipeline.ts';
 import type { PipelineConfig } from './types.ts';
 
@@ -20,6 +21,7 @@ const { values } = parseArgs({
     only: { type: 'string' },
     concurrency: { type: 'string', default: '5' },
     'max-pdf-size': { type: 'string', default: '50' },
+    'max-cost': { type: 'string', default: '5' },
   },
   strict: false,
 });
@@ -33,6 +35,7 @@ const config: PipelineConfig = {
   only: typeof values.only === 'string' ? values.only : undefined,
   concurrency: parseInt(String(values.concurrency ?? '5'), 10),
   maxPdfSize: parseInt(String(values['max-pdf-size'] ?? '50'), 10) * 1024 * 1024,
+  maxCostUsd: Number.parseFloat(String(values['max-cost'] ?? '5')),
 };
 
 function required(name: string): string {
@@ -46,7 +49,10 @@ function required(name: string): string {
 }
 
 const env: EnvConfig = {
-  geminiApiKey: required('GOOGLE_API_KEY'),
+  gemini: {
+    project: required('GOOGLE_CLOUD_PROJECT'),
+    location: process.env.GOOGLE_CLOUD_LOCATION ?? GEMINI_LOCATION,
+  },
   jinaApiKey: required('JINA_API_KEY'),
   qdrant: {
     url: required('QDRANT_URL'),
@@ -56,7 +62,12 @@ const env: EnvConfig = {
   },
 };
 
-runPipeline(config, env).catch((error) => {
-  console.error('Fatal error:', error);
-  process.exit(1);
-});
+runPipeline(config, env)
+  .then((summary) => {
+    // Non-zero exit so CI shows failed OCR/embedding/upload runs instead of silently going green.
+    if (summary && summary.failed > 0) process.exitCode = 1;
+  })
+  .catch((error) => {
+    console.error('Fatal error:', error);
+    process.exit(1);
+  });

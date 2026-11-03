@@ -61,6 +61,7 @@ async function main() {
     skipQdrant: false,
     concurrency: 1,
     maxPdfSize: 100 * 1024 * 1024,
+    maxCostUsd: 0,
   });
 
   const allFiles = documents.flatMap((doc) => doc.files.map((file) => ({ document: doc, file })));

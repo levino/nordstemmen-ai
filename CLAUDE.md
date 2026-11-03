@@ -42,7 +42,7 @@ nordstemmen-ai/
 │   │   ├── discovery.ts        # Document discovery + metadata parsing
 │   │   ├── hash.ts             # SHA256 hashing, LFS pointer detection
 │   │   ├── cache.ts            # .fulltext.json / .embeddings.json / .completed I/O
-│   │   ├── ocr.ts              # Gemini API: PDF → page-level text
+│   │   ├── ocr.ts              # Gemini via Vertex AI: PDF → page-level text
 │   │   ├── jina.ts             # Jina API: text → 1024D vectors (with semaphore)
 │   │   ├── sparse.ts           # BM25-TF sparse vectors (FNV-1a hash, German stopwords)
 │   │   ├── qdrant.ts           # Qdrant upload (named vectors: dense + sparse)
@@ -130,6 +130,7 @@ npm run pipeline -- --skip-qdrant         # Skip Qdrant upload
 npm run pipeline -- --only DS_1-2007      # Only matching documents
 npm run pipeline -- --concurrency 10      # 10 parallel (default 5)
 npm run pipeline -- --max-pdf-size 100    # Max PDF size in MB (default 50)
+npm run pipeline -- --max-cost 10        # Stop OCR once estimated run cost reaches $10 (default 5)
 
 # MCP Server
 cd mcp-server && npm run dev    # Local dev server (Vite + Wrangler)
@@ -147,12 +148,12 @@ cd mcp-server && npm run build  # Production build (Vite + build-text.js + build
 - **Hybrid Search**: MCP Server uses Qdrant Query API with `prefetch` (dense + sparse) and RRF (Reciprocal Rank Fusion). Combines semantic similarity with keyword matching
 - **Sparse Vectors**: Locally computed BM25-TF weights with FNV-1a token hashing. Same tokenizer in pipeline (`sparse.ts`) and MCP server (`mcp.js`). German stopwords, no external API needed
 - **Embeddings API**: Jina AI v3 — `retrieval.passage` for indexing (pipeline), `retrieval.query` for search (MCP server)
-- **OCR**: Gemini 2.5 Flash — sends entire PDF as inline data, page-level text extraction via `--- Page N ---` markers
+- **OCR**: Gemini 3.8 Flash on Vertex AI (project `gen-lang-client-0654772712`, location `global`, ADC auth; Workload Identity Federation in CI) — sends entire PDF as inline data (Vertex has no Files API), page-level text extraction via `--- Page N ---` markers. Pipeline exits non-zero if any file fails; `--max-cost` caps OCR spend per run
 - **Git LFS**: Custom server at git-lfs.nordstemmen-ai.levinkeller.de; tracks PDFs + embedding caches. `.lfsconfig` has `fetchexclude = *` (opt-in download)
 
 ## AI Model Choices
 
-- **OCR — Gemini 2.5 Flash**: Chosen after comparing Gemini, GPT-4o, and GPT-4o-mini. Gemini produces no hallucinations and handles rotated PDFs correctly. Actual cost for initial processing (~5,800 PDFs): ~$60 (significantly more than early per-page estimates due to high token usage on complex documents with maps/plans). GPT-4o paraphrases instead of transcribing (rewrites content in its own words, distorting meaning). GPT-4o-mini refuses rotated PDFs and misses content blocks
+- **OCR — Gemini Flash (now 3.8 Flash on Vertex AI)**: Originally Gemini 2.5 Flash (shut down 2026-10-16); 3.8 Flash was spot-checked against cached 2.5 output (same pages and table values, better table structure, map labels omitted as the prompt requires). Gemini was chosen after comparing Gemini, GPT-4o, and GPT-4o-mini. Gemini produces no hallucinations and handles rotated PDFs correctly. Actual cost for initial processing (~5,800 PDFs): ~$60 (significantly more than early per-page estimates due to high token usage on complex documents with maps/plans). GPT-4o paraphrases instead of transcribing (rewrites content in its own words, distorting meaning). GPT-4o-mini refuses rotated PDFs and misses content blocks
 - **Embeddings — Jina v3 (1024D)**: Multilingual model with German support, task-specific LoRA adapters (`retrieval.passage` for indexing, `retrieval.query` for search). Used via API for both pipeline and MCP server query-time embeddings
 
 ## Key Design Decisions
@@ -160,7 +161,7 @@ cd mcp-server && npm run build  # Production build (Vite + build-text.js + build
 - **Document-oriented pipeline**: Each document goes through the complete chain (OCR → Embeddings → Qdrant) before moving to the next. Simpler error handling, resumable
 - **No partial cache reuse**: When processing, always do fresh OCR + embeddings. `.fulltext.json` and `.embeddings.json` are saved as artifacts but never read back by the pipeline. This ensures consistency
 - **`.completed` tracking**: A `.completed` file per PDF is written ONLY after all steps (OCR → Embeddings → Qdrant) succeed. On re-run, only files without `.completed` (or with mismatched hash) are processed
-- **Gemini OCR**: Sends entire PDF as inline data to Gemini 2.5 Flash — no pdf2image, no poppler dependency. Page-level text via `--- Page N ---` markers in prompt
+- **Gemini OCR**: Sends entire PDF as inline data to Gemini 3.8 Flash (Vertex AI) — no pdf2image, no poppler dependency. Page-level text via `--- Page N ---` markers in prompt
 - **Page-level embeddings**: 1 dense embedding + 1 sparse vector per page (Jina v3, 1024D). `chunk_index` is always 0. No sub-page chunking
 - **Hybrid search via RRF**: Dense vectors (semantic) + sparse vectors (keyword/BM25) combined via Reciprocal Rank Fusion. Improves results for exact names, numbers, street names
 - **Hash-based change detection**: SHA256 per PDF, checked in `.completed` file
@@ -176,7 +177,8 @@ See `.env.example`:
 - `QDRANT_API_KEY` — Qdrant API key
 - `QDRANT_PORT` — Qdrant port (443)
 - `QDRANT_COLLECTION` — Collection name (`nordstemmen`)
-- `GOOGLE_API_KEY` — Gemini API key (for pipeline OCR)
+- `GOOGLE_CLOUD_PROJECT` — GCP project for Vertex AI OCR (`gen-lang-client-0654772712`); auth via Application Default Credentials
+- `GOOGLE_CLOUD_LOCATION` — optional, default `global`
 - `JINA_API_KEY` — Jina AI API key (for pipeline embeddings + MCP query)
 
 MCP Server additionally needs (set in Cloudflare dashboard):

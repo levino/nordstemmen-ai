@@ -75,7 +75,7 @@ graph TB
     Docs[Documents<br/>PDF Files]
     Scraper[OParl Scraper<br/>TypeScript]
     Jina[Jina AI API]
-    Gemini[Gemini 2.5 Flash]
+    Gemini[Gemini 3.8 Flash<br/>Vertex AI]
     CI[GitHub Actions<br/>Daily Cron]
 
     User -->|MCP Protocol<br/>Connector| MCP
@@ -108,7 +108,7 @@ graph TB
 | **Document Pipeline** | TypeScript, async/await | PDF → Gemini OCR → Jina Embeddings + Sparse Vectors → Qdrant |
 | **MCP Server** | Cloudflare Pages Functions | Hybrid-Suche (Dense + Sparse RRF), Volltext-Abruf |
 | **Vector DB** | Qdrant (self-hosted) | Named Vectors: Dense (Jina 1024D) + Sparse (BM25-TF) |
-| **OCR** | Gemini 2.5 Flash | PDF → Text (seitenweise) |
+| **OCR** | Gemini 3.8 Flash (Vertex AI) | PDF → Text (seitenweise) |
 | **Embeddings** | Jina AI v3 (1024D) + lokale BM25-TF | Text → Dense + Sparse Vektoren |
 | **Fulltext** | Cloudflare Static Assets | Volltext als `.txt`-Dateien im MCP-Server gebündelt |
 
@@ -122,7 +122,7 @@ Sparse Vectors werden **lokal** aus dem Text berechnet (FNV-1a Hash, deutsche St
 
 ### KI-Modell-Entscheidungen
 
-**OCR — Gemini 2.5 Flash** wurde nach Vergleich mit GPT-4o und GPT-4o-mini gewählt:
+**OCR — Gemini Flash** (seit 11/2026 Gemini 3.8 Flash über Vertex AI, vorher 2.5 Flash) wurde nach Vergleich mit GPT-4o und GPT-4o-mini gewählt:
 - **Gemini**: Günstigste Option, keine Halluzinationen, verarbeitet auch gedrehte PDFs korrekt
 - **GPT-4o**: Paraphrasiert statt zu transkribieren — schreibt Inhalte in eigenen Worten um und verfälscht die Bedeutung
 - **GPT-4o-mini**: Verweigert gedrehte PDFs, überspringt Absenderblöcke, fast so teuer wie GPT-4o
@@ -209,8 +209,8 @@ QDRANT_API_KEY=your-qdrant-api-key
 QDRANT_PORT=443
 QDRANT_COLLECTION=nordstemmen
 
-# Pipeline: Gemini OCR
-GOOGLE_API_KEY=your-google-api-key
+# Pipeline: Gemini OCR über Vertex AI (Auth: Application Default Credentials)
+GOOGLE_CLOUD_PROJECT=gen-lang-client-0654772712
 
 # Pipeline + MCP Server: Jina Embeddings
 JINA_API_KEY=your-jina-api-key
@@ -219,7 +219,7 @@ JINA_API_KEY=your-jina-api-key
 **Wo bekomme ich die Keys?**
 
 - **Qdrant**: https://cloud.qdrant.io oder selbst hosten
-- **Google API Key**: https://console.cloud.google.com (Generative Language API aktivieren)
+- **Google Cloud (Vertex AI)**: kein Key — lokal `gcloud auth application-default login` oder `GOOGLE_APPLICATION_CREDENTIALS` mit einem Service-Account-Key (Rolle `roles/aiplatform.user`). In GitHub Actions per Workload Identity Federation, siehe [docs/github-secrets.md](docs/github-secrets.md)
 - **Jina AI**: https://jina.ai
 
 ### 3. OParl Scraper
@@ -242,9 +242,12 @@ npm run pipeline -- --limit 10
 
 # Nur auflisten, nichts tun
 npm run pipeline -- --dry-run
+
+# OCR-Kosten pro Lauf begrenzen (Default: 5 USD, geschätzt zum Vertex-Listenpreis)
+npm run pipeline -- --max-cost 10
 ```
 
-Pro PDF: Gemini OCR → Jina Embeddings → Qdrant Upload. Die `.completed`-Datei wird erst geschrieben, wenn alle Schritte erfolgreich waren. Bei Abbruch werden beim nächsten Lauf nur die fehlenden Dateien verarbeitet.
+Pro PDF: Gemini OCR → Jina Embeddings → Qdrant Upload. Die `.completed`-Datei wird erst geschrieben, wenn alle Schritte erfolgreich waren. Bei Abbruch werden beim nächsten Lauf nur die fehlenden Dateien verarbeitet. Schlägt eine Datei fehl, endet die Pipeline mit Exit-Code 1 (der Workflow wird rot), die erfolgreichen Dateien werden trotzdem committet.
 
 ### 5. MCP Server Deployment (Cloudflare Pages)
 

@@ -6,7 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Changed
+- **OCR: Gemini 3.8 Flash via Vertex AI**: Gemini 2.5 Flash was shut down on 2026-10-16 and the AI Studio prepaid credits were depleted, so OCR had failed for every new PDF since then (HTTP 402). The pipeline now calls `gemini-3.8-flash` through Vertex AI (project `gen-lang-client-0654772712`, location `global`) with Application Default Credentials. `GOOGLE_API_KEY` is replaced by `GOOGLE_CLOUD_PROJECT` (+ optional `GOOGLE_CLOUD_LOCATION`). PDFs are always sent inline (Vertex has no Files API; tested up to 37 MB). `@google/genai` upgraded 0.14 → 2.x
+- **Data sync: keyless Google auth**: `data-sync.yml` authenticates via Workload Identity Federation (`google-github-actions/auth`, service account `nordstemmen-pipeline` with only `roles/aiplatform.user`, restricted to this repo). No Google key is stored in GitHub secrets anymore
+
+### Added
+- **Pipeline cost limit**: `--max-cost <usd>` (default 5). Once the estimated OCR cost of a run (at Vertex list price) reaches the limit, remaining files are marked failed and retried on the next run. A 20 EUR/month budget alert exists on the GCP project
+
 ### Fixed
+- **Silent pipeline failures**: The pipeline now exits non-zero when any file fails, so the Data Sync workflow turns red. The commit step still runs (`!cancelled()`), so scraped data and successfully processed files are kept
 - **Scraper: missing invitations, agendas and protocols**: Papers and meetings were written once and never updated, so meetings scraped before their invitation was published (44 of 73 meetings between 06/2025 and 09/2026) never got their invitation PDF, agenda items or protocols. The scraper now re-syncs every entity on each run: `metadata.json` is rewritten when upstream `modified` changes or referenced files are missing, and only missing or changed files are downloaded (failed downloads are retried on the next run)
 - **Scraper: duplicate meeting folders**: Meeting folders were keyed by date + name, so each upstream renumbering ("26. Sitzung" → "33. Sitzung") or rescheduling created a new folder for the same meeting. Folders are now resolved by OParl id (`scraper/src/sync.ts`)
 - **Scraper: metadata fields dropped**: Schema decoding stripped unknown OParl fields (`modified`, `end`, meeting-level `auxiliaryFile`, …). Full objects are now preserved; meeting-level `auxiliaryFile` is downloaded and indexed by the pipeline

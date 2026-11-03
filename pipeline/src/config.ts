@@ -1,6 +1,14 @@
-export const GEMINI_MODEL = 'gemini-2.5-flash';
+export const GEMINI_MODEL = 'gemini-3.8-flash';
 
-export const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
+/** Vertex AI location. Gemini 3.x Flash is served from the global endpoint. */
+export const GEMINI_LOCATION = 'global';
+
+/**
+ * Vertex AI list price for GEMINI_MODEL in USD per 1M tokens (standard rate from 2027-01-01;
+ * intro price until end of 2026 is half). Used only for the per-run cost limit (--max-cost).
+ */
+export const GEMINI_PRICE_PER_M_INPUT = 1.5;
+export const GEMINI_PRICE_PER_M_OUTPUT = 7.5;
 
 export const JINA_API_URL = 'https://api.jina.ai/v1/embeddings';
 
@@ -10,9 +18,6 @@ export const JINA_BATCH_SIZE = 64;
 
 /** DNS namespace UUID for uuid v5 — matches Python uuid.NAMESPACE_DNS */
 export const UUID_NAMESPACE_DNS = '6ba7b810-9dad-11d1-80b4-00c04fd430c8';
-
-/** Max PDF size for Gemini inline upload (bytes). Larger files use Files API. */
-export const GEMINI_INLINE_LIMIT = 15 * 1024 * 1024;
 
 export const OCR_PROMPT = `Transkribiere den Text aus diesem PDF-Dokument WÖRTLICH. Gib den exakten Wortlaut wieder — ändere, ergänze oder paraphrasiere NICHTS.
 

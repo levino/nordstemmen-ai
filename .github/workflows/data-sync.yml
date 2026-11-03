@@ -24,6 +24,7 @@ jobs:
     timeout-minutes: 300
     permissions:
       contents: write
+      id-token: write # Workload Identity Federation → Vertex AI (no stored Google key)
 
     env:
       GIT_LFS_SKIP_SMUDGE: 1
@@ -72,10 +73,17 @@ jobs:
             echo "Found $NEW_FILES new/changed files in documents/"
           fi
 
+      - name: Authenticate to Google Cloud
+        if: steps.check.outputs.new_files != '0' || steps.check.outputs.force == 'true'
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: projects/491104209036/locations/global/workloadIdentityPools/github/providers/nordstemmen-ai
+          service_account: nordstemmen-pipeline@gen-lang-client-0654772712.iam.gserviceaccount.com
+
       - name: Run pipeline
         if: steps.check.outputs.new_files != '0' || steps.check.outputs.force == 'true'
         env:
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GOOGLE_CLOUD_PROJECT: gen-lang-client-0654772712
           JINA_API_KEY: ${{ secrets.JINA_API_KEY }}
           QDRANT_URL: ${{ vars.QDRANT_URL }}
           QDRANT_API_KEY: ${{ secrets.QDRANT_API_KEY }}
@@ -92,7 +100,8 @@ jobs:
           npm run pipeline -- $ARGS
 
       - name: Commit and push new data
-        if: steps.check.outputs.new_files != '0' || steps.check.outputs.force == 'true'
+        # Runs even if the pipeline failed for some files, so scraped data and finished files are kept
+        if: ${{ !cancelled() && (steps.check.outputs.new_files != '0' || steps.check.outputs.force == 'true') }}
         run: |
           git add documents/
           git config user.name "github-actions[bot]"
