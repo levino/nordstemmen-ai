@@ -1,0 +1,40 @@
+{
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+  "underDirectionOf": [
+    "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/3-202"
+  ],
+  "created": "2026-10-27T19:00:14+01:00",
+  "web": "https://nordstemmen.ratsinfomanagement.net/vorgang/?__=UGhVM0hpd2NXNFdFcExjZfhl9Xn-fdj6EUmDc7wQwMU",
+  "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/paper/5949",
+  "reference": "DS 93/2026",
+  "name": "Anhörung zum Haushaltsplan 2027 und zum Investitionsprogramm bis 2030 für die Ortschaft Adensen",
+  "paperType": "Beschlussvorlage",
+  "date": "2026-11-10",
+  "mainFile": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-45949",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Beschlussvorlage (Anhörung zum Haushaltsplan 2027 und zum Investitionsprogramm bis 2030 für die Ortschaft Adensen)",
+    "mimeType": "application/pdf",
+    "date": "2026-11-10",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZbwHI9QcY-Y2a6ToVr-WlYIkx83S4fTx9E1LmjkaWe4E/Beschlussvorlage_DS_93-2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZbwHI9QcY-Y2a6ToVr-WlYIkx83S4fTx9E1LmjkaWe4E/Beschlussvorlage_DS_93-2026.pdf",
+    "created": "2026-10-27T19:00:14+01:00",
+    "modified": "2026-10-27T19:00:14+01:00"
+  },
+  "consultation": [
+    {
+      "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8965",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "agendaItem": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25389",
+      "meeting": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/meeting/5791",
+      "organization": [
+        "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/organization/1-11"
+      ],
+      "created": "2026-10-23T12:28:48+02:00",
+      "modified": "2026-10-23T12:28:48+02:00"
+    }
+  ],
+  "modified": "2026-10-27T19:00:14+01:00"
+}
