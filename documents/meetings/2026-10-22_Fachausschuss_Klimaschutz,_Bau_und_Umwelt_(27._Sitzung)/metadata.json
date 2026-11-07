@@ -36,6 +36,18 @@
     "created": "2026-10-07T13:00:20+02:00",
     "modified": "2026-10-07T13:00:20+02:00"
   },
+  "resultsProtocol": {
+    "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/file/1-46083",
+    "type": "https://schema.oparl.org/1.1/File",
+    "body": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1",
+    "name": "Öffentliche Niederschrift (Fachausschuss Klimaschutz, Bau und Umwelt)",
+    "mimeType": "application/pdf",
+    "date": "2026-10-22",
+    "accessUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/UGhVM0hpd2NXNFdFcExjZZAo0xvBoYpGqDMzw7e39FjlTYFj0YeIsjCUDButWuZi/Oeffentliche_Niederschrift_Fachausschuss_Klimaschutz-_Bau_und_Umwelt_22.10.2026.pdf",
+    "downloadUrl": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/files/download/UGhVM0hpd2NXNFdFcExjZZAo0xvBoYpGqDMzw7e39FjlTYFj0YeIsjCUDButWuZi/Oeffentliche_Niederschrift_Fachausschuss_Klimaschutz-_Bau_und_Umwelt_22.10.2026.pdf",
+    "created": "2026-11-06T08:27:27+01:00",
+    "modified": "2026-11-06T08:27:27+01:00"
+  },
   "agendaItem": [
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25319",
@@ -43,8 +55,8 @@
       "number": "1",
       "order": 1,
       "name": "- öffentlicher Teil -",
-      "created": "2026-10-07T09:19:15+02:00",
-      "modified": "2026-10-07T09:19:15+02:00"
+      "created": "2026-09-29T13:22:23+02:00",
+      "modified": "2026-09-29T13:22:23+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25320",
@@ -52,8 +64,8 @@
       "number": "1",
       "order": 2,
       "name": "Eröffnung der Sitzung\n- Feststellung der ordnungsgemäßen Ladung und der anwesenden Mitglieder\n- Feststellung der Beschlussfähigkeit\n- Beschlussfassung über Anträge zur Tagesordnung\n- Feststellung der Tagesordnung",
-      "created": "2026-10-07T09:19:15+02:00",
-      "modified": "2026-10-07T09:19:15+02:00"
+      "created": "2026-09-29T13:22:23+02:00",
+      "modified": "2026-09-29T13:22:23+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25321",
@@ -61,8 +73,8 @@
       "number": "2",
       "order": 3,
       "name": "Genehmigung des Protokolls der Sitzung vom 01. September 2026",
-      "created": "2026-10-07T09:19:15+02:00",
-      "modified": "2026-10-07T09:19:15+02:00"
+      "created": "2026-09-29T13:22:23+02:00",
+      "modified": "2026-09-29T13:22:23+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25322",
@@ -70,8 +82,8 @@
       "number": "3",
       "order": 4,
       "name": "Anfragen und Anregungen",
-      "created": "2026-10-07T09:19:15+02:00",
-      "modified": "2026-10-07T09:19:15+02:00"
+      "created": "2026-09-29T13:22:23+02:00",
+      "modified": "2026-09-29T13:22:23+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25323",
@@ -79,8 +91,8 @@
       "number": "4",
       "order": 5,
       "name": "Einwohner*innen Fragestunde",
-      "created": "2026-10-07T09:19:15+02:00",
-      "modified": "2026-10-07T09:19:15+02:00"
+      "created": "2026-09-29T13:22:23+02:00",
+      "modified": "2026-09-29T13:22:23+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25328",
@@ -88,8 +100,9 @@
       "number": "5",
       "order": 6,
       "name": "Energetische Sanierung Rathaus Nordstemmen",
-      "created": "2026-10-07T09:19:15+02:00",
-      "modified": "2026-10-07T09:19:15+02:00"
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8945",
+      "created": "2026-09-29T13:22:23+02:00",
+      "modified": "2026-10-05T11:45:47+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25324",
@@ -97,8 +110,9 @@
       "number": "6",
       "order": 7,
       "name": "Antrag auf Aufstellung der 29. Änderung des Flächennutzungsplanes der Gemeinde Nordstemmen („Die Mainte“), Ortschaft Nordstemmen\n- Aufstellungsbeschluss gemäß § 2 Absatz 1 Baugesetzbuch (BauGB)",
-      "created": "2026-10-07T09:19:15+02:00",
-      "modified": "2026-10-07T09:19:15+02:00"
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8957",
+      "created": "2026-09-29T13:22:23+02:00",
+      "modified": "2026-09-29T13:22:23+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25325",
@@ -106,8 +120,9 @@
       "number": "7",
       "order": 8,
       "name": "Antrag auf Aufstellung des Bebauungsplanes Nr. 0132 \"Die Mainte\", Ortschaft Nordstemmen\n- Aufstellungsbeschluss gemäß § 2 Absatz 1 Baugesetzbuch (BauGB)",
-      "created": "2026-10-07T09:19:15+02:00",
-      "modified": "2026-10-07T09:19:15+02:00"
+      "consultation": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/consultation/8959",
+      "created": "2026-09-29T13:22:23+02:00",
+      "modified": "2026-09-29T13:22:23+02:00"
     },
     {
       "id": "https://nordstemmen.ratsinfomanagement.net/webservice/oparl/v1.1/body/1/agendaitem/25326",
@@ -115,9 +130,9 @@
       "number": "8",
       "order": 9,
       "name": "Mitteilungen der Verwaltung",
-      "created": "2026-10-07T09:19:15+02:00",
-      "modified": "2026-10-07T09:19:15+02:00"
+      "created": "2026-09-29T13:22:23+02:00",
+      "modified": "2026-09-29T13:22:23+02:00"
     }
   ],
-  "modified": "2026-10-08T17:15:55+02:00"
+  "modified": "2026-11-06T07:50:03+01:00"
 }
